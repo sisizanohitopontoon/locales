@@ -7,10 +7,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Temps de jeu :"
+#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
+msgctxt "Interface.WorldInfoTextPlayers"
+msgid "Players:"
+msgstr "Joueurs :"
+
+#: /Language/Interface/Record[Key='ScenarioScoreboardReturnToGame']
+msgctxt "Interface.ScenarioScoreboardReturnToGame"
+msgid "Return to Game"
+msgstr "Revenir en jeu"
 
 #: /Language/Interface/Record[Key='ScenarioScoreboardBackToMenu']
 msgctxt "Interface.ScenarioScoreboardBackToMenu"
@@ -57,15 +62,15 @@ msgctxt "Interface.ConnectionFiltered"
 msgid "Filtered"
 msgstr "Filtré"
 
+#: /Language/Interface/Record[Key='ScenarioScoreboardHeading']
+msgctxt "Interface.ScenarioScoreboardHeading"
+msgid "Scenario Complete"
+msgstr "Scénario terminé"
+
 #: /Language/Interface/Record[Key='ButtonResetWindows']
 msgctxt "Interface.ButtonResetWindows"
 msgid "Reset Windows"
 msgstr "Réinitialiser les fenêtres"
-
-#: /Language/Interface/Record[Key='ScenarioScoreboardReturnToGame']
-msgctxt "Interface.ScenarioScoreboardReturnToGame"
-msgid "Return to Game"
-msgstr "Revenir en jeu"
 
 #: /Language/Interface/Record[Key='InventoryCloseAll']
 msgctxt "Interface.InventoryCloseAll"
@@ -246,48 +251,29 @@ msgctxt "Interface.NewWorldSpaceDesc"
 msgid ""
 "This is Stationeers Creative Mode!\n"
 "Spawn in any item, test ideas and build bonkers stuff real fast.\n"
-"<color=red>This mode is experimental.</color> Think of it as a freeform "
-"space party where exciting and unexpected things* can and will happen, "
-"compared to the more reliable near-death experience of Survival Mode.\n"
-"Just don't be sad when you blow yourself into tiny, tiny little pieces or "
-"get savaged by chickens or slowly explode while drifting alone into the "
-"infinite void.\n"
+"<color=red>This mode is experimental.</color> Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.\n"
+"Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.\n"
 "*bugs"
 msgstr ""
 "C'est le mode créatif de Stationeers!\n"
-"Spawn avec n'importe quel article, tester des idées et construire trucs de "
-"cinglé rapidement.\n"
-"<color=red>Ce mode est expérimental.</color> Pensez-y comme une fête "
-"spatiale libre où des choses* passionnantes et inattendues peuvent et vont "
-"se produire. C'est une experience plus sûr que le mode Survie.\n"
-"Ne soyez pas triste quand vous vous faites exploser en minuscules petits "
-"morceaux ou que vous vous faites massacrer par des poulets ou que vous "
-"explosez lentement tout en dérivant seul dans le vide infini.\n"
+"Spawn avec n'importe quel article, tester des idées et construire trucs de cinglé rapidement.\n"
+"<color=red>Ce mode est expérimental.</color> Pensez-y comme une fête spatiale libre où des choses* passionnantes et inattendues peuvent et vont se produire. C'est une experience plus sûr que le mode Survie.\n"
+"Ne soyez pas triste quand vous vous faites exploser en minuscules petits morceaux ou que vous vous faites massacrer par des poulets ou que vous explosez lentement tout en dérivant seul dans le vide infini.\n"
 "*bugs"
 
 #: /Language/Interface/Record[Key='NewWorldMoonDesc']
 msgctxt "Interface.NewWorldMoonDesc"
 msgid ""
 "So you're stuck on the moon, but it's not all bad. \n"
-"Sure, it's cold, harsh and pretty monotonous, but at least the sun's "
-"shining. The solar panel is going to be useful, and the power controller... "
-"and probably the arc furnace too.\n"
-"There's even a little food and oxygen in the other crates, though it's "
-"definitely not going to last forever. Neither's your battery. \n"
-"You better start thinking about how you're going to survive. How hard could "
-"it be to rig up an airlock? A generator? Maybe even smelt some ore and build "
-"yourself a base?\n"
+"Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.\n"
+"There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery. \n"
+"You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?\n"
 "Looks like you're gonna be here a while."
 msgstr ""
 "Alors vous êtes coincé sur la lune, mais tout n'est pas perdu...\n"
-"Bien sûr, il y fait froid, rude et monotone, mais au moins le soleil brille. "
-"Le panneau solaire va vous être utile, ainsi que le contrôleur de "
-"puissance ... et aussi le four à arc.\t  \n"
-"Il y a même un peu de nourriture et d'oxygène dans les autres caisses, même "
-"si ça ne va pas durer éternellement... tout comme votre batterie...\n"
-"Vous feriez mieux de commencer à réfléchir comment vous aller survivre. À "
-"quel point cela pourrait être difficile de gréer un SAS ? Un générateur ? "
-"Peut-être même faire fondre du minerai et construire votre base ?\n"
+"Bien sûr, il y fait froid, rude et monotone, mais au moins le soleil brille. Le panneau solaire va vous être utile, ainsi que le contrôleur de puissance ... et aussi le four à arc.\t  \n"
+"Il y a même un peu de nourriture et d'oxygène dans les autres caisses, même si ça ne va pas durer éternellement... tout comme votre batterie...\n"
+"Vous feriez mieux de commencer à réfléchir comment vous aller survivre. À quel point cela pourrait être difficile de gréer un SAS ? Un générateur ? Peut-être même faire fondre du minerai et construire votre base ?\n"
 "On dirait que vous allez être ici un moment."
 
 #: /Language/Interface/Record[Key='NewWorldAreaCustom']
@@ -583,8 +569,7 @@ msgstr "Vous devez entrer un nom de monde pour enregistrer."
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
-msgstr ""
-"Impossible de modifier le port de mise à jour pendant l'exécution du serveur."
+msgstr "Impossible de modifier le port de mise à jour pendant l'exécution du serveur."
 
 #: /Language/Interface/Record[Key='AlertInvalidPort']
 msgctxt "Interface.AlertInvalidPort"
@@ -623,8 +608,7 @@ msgstr "Le serveur est plein."
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr ""
-"Adresse IP non valide {0} \\ nVérifier que l'adresse IP ou l'URL soit valide"
+msgstr "Adresse IP non valide {0} \\ nVérifier que l'adresse IP ou l'URL soit valide"
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
@@ -768,19 +752,13 @@ msgstr "Délais du fondu du chat"
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
 msgctxt "Interface.MenuDownloadDriverWarning"
-msgid ""
-"Many AMD graphics card users have reported issues with the game which have "
-"been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you "
-"update before playing."
-msgstr ""
-"De nombreux utilisateurs de cartes graphiques AMD ont signalé des problèmes "
-"avec le jeu qui ont été résolus en mettant à jour leurs pilotes. Nous vous "
-"recommandons <b>FORTEMENT</b> de le mettre à jour avant de jouer."
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "De nombreux utilisateurs de cartes graphiques AMD ont signalé des problèmes avec le jeu qui ont été résolus en mettant à jour leurs pilotes. Nous vous recommandons <b>FORTEMENT</b> de le mettre à jour avant de jouer."
 
-#: /Language/Interface/Record[Key='ScenarioScoreboardHeading']
-msgctxt "Interface.ScenarioScoreboardHeading"
-msgid "Scenario Complete"
-msgstr "Scénario terminé"
+#: /Language/Interface/Record[Key='ButtonCopy']
+msgctxt "Interface.ButtonCopy"
+msgid "Copy"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -789,12 +767,8 @@ msgstr "Opacité de l'info-bulle"
 
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
 msgctxt "Interface.SettingsUPNPNote"
-msgid ""
-"If Universal Plug and Play (UPNP) is enabled on your router, these ports "
-"will be automatically forwarded when you host a game."
-msgstr ""
-"Si Universal Plug and Play (UPNP) est activé sur votre routeur, ces ports "
-"seront automatiquement transférés lorsque vous hébergez un jeu."
+msgid "If Universal Plug and Play (UPNP) is enabled on your router, these ports will be automatically forwarded when you host a game."
+msgstr "Si Universal Plug and Play (UPNP) est activé sur votre routeur, ces ports seront automatiquement transférés lorsque vous hébergez un jeu."
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
 msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
@@ -813,15 +787,8 @@ msgstr "Effacer les joueurs déconnectés"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid ""
-"Placement is only allowed on {THING:StructureFrameIron} and {THING:"
-"StructureFrame} structures directly. If these are upgraded, they will offer "
-"better placement options."
-msgstr ""
-"Le placement n'est autorisé que sur les <color=yellow>{THING:"
-"StructureFrameIron}</color> et <color=yellow>{THING:StructureFrame}</color> "
-"directement. Si ceux-ci sont améliorés, ils offriront de meilleures options "
-"de placement."
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr "Le placement n'est autorisé que sur les <color=yellow>{THING:StructureFrameIron}</color> et <color=yellow>{THING:StructureFrame}</color> directement. Si ceux-ci sont améliorés, ils offriront de meilleures options de placement."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -835,12 +802,8 @@ msgstr "Le placement est accroché à la grille."
 
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
-msgid ""
-"Allows the mounting of wall placed devices. Upgrade to allow better "
-"placement area."
-msgstr ""
-"Permet le montage de dispositifs placés au mur. Mettre à niveau pour "
-"permettre une meilleure zone de placement."
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr "Permet le montage de dispositifs placés au mur. Mettre à niveau pour permettre une meilleure zone de placement."
 
 #: /Language/Interface/Record[Key='TooltipUpgrade']
 msgctxt "Interface.TooltipUpgrade"
@@ -859,25 +822,18 @@ msgstr "Infobulles étendues"
 
 #: /Language/Interface/Record[Key='TooltipRollLeftRight']
 msgctxt "Interface.TooltipRollLeftRight"
-msgid ""
-"Use {KEY:RotateRollLeft} and {KEY:RotateRollRight} to roll left and right."
-msgstr ""
-"Utiliser la touche <color=yellow>{KEY:RotateRollLeft}</color> et "
-"<color=yellow>{KEY:RotateRollRight}</color> pour rouler à gauche et à droite."
+msgid "Use {KEY:RotateRollLeft} and {KEY:RotateRollRight} to roll left and right."
+msgstr "Utiliser la touche <color=yellow>{KEY:RotateRollLeft}</color> et <color=yellow>{KEY:RotateRollRight}</color> pour rouler à gauche et à droite."
 
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
 msgid "Use {KEY:RotateUp} and {KEY:RotateDown} to rotate up and down."
-msgstr ""
-"Utiliser la touche <color=yellow>{KEY:RotateUp}</color> et "
-"<color=yellow>{KEY:RotateDown}</color> pour faire pivoter de haut en bas."
+msgstr "Utiliser la touche <color=yellow>{KEY:RotateUp}</color> et <color=yellow>{KEY:RotateDown}</color> pour faire pivoter de haut en bas."
 
 #: /Language/Interface/Record[Key='TooltipRotateLeftRight']
 msgctxt "Interface.TooltipRotateLeftRight"
 msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
-msgstr ""
-"Utiliser la touche <color=yellow>{KEY:RotateLeft}</color> et "
-"<color=yellow>{KEY:RotateRight}</color> pour tourner à gauche et à droite."
+msgstr "Utiliser la touche <color=yellow>{KEY:RotateLeft}</color> et <color=yellow>{KEY:RotateRight}</color> pour tourner à gauche et à droite."
 
 #: /Language/Interface/Record[Key='UnableToConstruct']
 msgctxt "Interface.UnableToConstruct"
@@ -889,9 +845,7 @@ msgctxt "Interface.MulticonstructorItem"
 msgid ""
 "<color=yellow>Constructing option {0} of {1}</color>\n"
 "Scroll <color=red>Mouse Wheel</color> for more options."
-msgstr ""
-"<color=yellow>Option de construction {0} de {1} </color> Scroll "
-"<color=red>Roulette de la souris</color> pour plus d'options."
+msgstr "<color=yellow>Option de construction {0} de {1} </color> Scroll <color=red>Roulette de la souris</color> pour plus d'options."
 
 #: /Language/Interface/Record[Key='MothershipConstruction']
 msgctxt "Interface.MothershipConstruction"
@@ -1034,21 +988,13 @@ msgstr "Quitter"
 
 #: /Language/Interface/Record[Key='DialogConfirmNoticeUnsaved']
 msgctxt "Interface.DialogConfirmNoticeUnsaved"
-msgid ""
-"Are you sure you want to leave the session without saving? Any unsaved "
-"progress will be lost."
-msgstr ""
-"Êtes-vous sûr de vouloir quitter la session sans enregistrer ? Votre "
-"progression sera perdu."
+msgid "Are you sure you want to leave the session without saving? Any unsaved progress will be lost."
+msgstr "Êtes-vous sûr de vouloir quitter la session sans enregistrer ? Votre progression sera perdu."
 
 #: /Language/Interface/Record[Key='ButtoConfirmExitAsServer']
 msgctxt "Interface.ButtoConfirmExitAsServer"
-msgid ""
-"Are you sure you want to exit the game without saving? Any unsaved progress "
-"will be lost."
-msgstr ""
-"Êtes-vous sûr de vouloir quitter le jeu sans enregistrer ? Votre progression "
-"sera perdu."
+msgid "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
+msgstr "Êtes-vous sûr de vouloir quitter le jeu sans enregistrer ? Votre progression sera perdu."
 
 #: /Language/Interface/Record[Key='ButtonBan']
 msgctxt "Interface.ButtonBan"
@@ -1540,30 +1486,30 @@ msgctxt "Interface.WorldInfoTextAsteroids"
 msgid "Asteroids:"
 msgstr "Astéroïdes :"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
-msgctxt "Interface.WorldInfoTextPlayers"
-msgid "Players:"
-msgstr "Joueurs :"
-
-#: /Language/Interface/Record[Key='ButtonCopy']
-msgctxt "Interface.ButtonCopy"
-msgid "Copy"
+#: /Language/Interface/Record[Key='ButtonPaste']
+msgctxt "Interface.ButtonPaste"
+msgid "Paste"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Sauvegardé le :"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Temps de jeu :"
+
+#: /Language/Interface/Record[Key='ButtonHelp']
+msgctxt "Interface.ButtonHelp"
+msgid "Help"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Mondes Sauvegardés"
 
-#: /Language/Interface/Record[Key='ButtonPaste']
-msgctxt "Interface.ButtonPaste"
-msgid "Paste"
-msgstr ""
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "Charger un Monde"
 
 #: /Language/Interface/Record[Key='MainMenuExit']
 msgctxt "Interface.MainMenuExit"
@@ -1609,11 +1555,6 @@ msgstr "Nouveau Monde"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuer"
-
-#: /Language/Interface/Record[Key='ButtonHelp']
-msgctxt "Interface.ButtonHelp"
-msgid "Help"
-msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonVariables']
 msgctxt "Interface.ButtonVariables"
@@ -1667,12 +1608,18 @@ msgctxt "Interface.SettingsDisableWaterVisualizer"
 msgid "Disable Water Visualizer"
 msgstr ""
 
+#: /Language/Interface/Record[Key='SettingsInterface']
+#, fuzzy
+msgctxt "Interface.SettingsInterface"
+msgid "Interface\n"
+msgstr "Interne"
+
 #: /Language/Interface/Record[Key='MenuDownloadDriverButton']
 msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
 msgstr "Télécharger les pilotes"
 
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "Charger un Monde"
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Sauvegardé le :"
