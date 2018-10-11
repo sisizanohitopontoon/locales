@@ -7,10 +7,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
-msgctxt "Interface.WorldInfoTextPlayers"
-msgid "Players:"
-msgstr "Hráči:"
+#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
+msgctxt "Interface.WorldInfoTextAsteroids"
+msgid "Asteroids:"
+msgstr "Asteroidy:"
+
+#: /Language/Interface/Record[Key='ButtonPaste']
+msgctxt "Interface.ButtonPaste"
+msgid "Paste"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ButtonCopy']
+msgctxt "Interface.ButtonCopy"
+msgid "Copy"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScenarioScoreboardHeading']
+msgctxt "Interface.ScenarioScoreboardHeading"
+msgid "Scenario Complete"
+msgstr "Scenario Complete"
 
 #: /Language/Interface/Record[Key='ScenarioScoreboardReturnToGame']
 msgctxt "Interface.ScenarioScoreboardReturnToGame"
@@ -52,6 +67,11 @@ msgctxt "Interface.ConnectionInput"
 msgid "Input"
 msgstr "Input"
 
+#: /Language/Interface/Record[Key='ButtonHelp']
+msgctxt "Interface.ButtonHelp"
+msgid "Help"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ConnectionUnfiltered']
 msgctxt "Interface.ConnectionUnfiltered"
 msgid "Unfiltered"
@@ -61,11 +81,6 @@ msgstr "Unfiltered"
 msgctxt "Interface.ConnectionFiltered"
 msgid "Filtered"
 msgstr "Filtered"
-
-#: /Language/Interface/Record[Key='ScenarioScoreboardHeading']
-msgctxt "Interface.ScenarioScoreboardHeading"
-msgid "Scenario Complete"
-msgstr "Scenario Complete"
 
 #: /Language/Interface/Record[Key='ButtonResetWindows']
 msgctxt "Interface.ButtonResetWindows"
@@ -745,20 +760,20 @@ msgctxt "Interface.PromptResetSettingsTitle"
 msgid "Reset Settings"
 msgstr "Resetovať Nastavenia"
 
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Oneskorenie zmiznutia četu"
+#: /Language/Interface/Record[Key='ButtonVariables']
+msgctxt "Interface.ButtonVariables"
+msgid "x"
+msgstr ""
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
 msgctxt "Interface.MenuDownloadDriverWarning"
 msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
 msgstr "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
 
-#: /Language/Interface/Record[Key='ButtonCopy']
-msgctxt "Interface.ButtonCopy"
-msgid "Copy"
-msgstr ""
+#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
+msgctxt "Interface.MenuDownloadDriverButton"
+msgid "Download Drivers"
+msgstr "Stiahnuť Ovládače"
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -766,8 +781,9 @@ msgid "Tooltip Opacity"
 msgstr "Priehladnosť nápovedy"
 
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
+#, fuzzy
 msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled on your router, these ports will be automatically forwarded when you host a game."
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
 msgstr "Pokiaľ je Universal Plug and Play (UPNP) zapnuté na vašom routeri, budú tieto porty automaticky presmerované pokiaľ hostujete hru."
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
@@ -1483,24 +1499,24 @@ msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Verzia:"
 
-#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
-msgctxt "Interface.WorldInfoTextAsteroids"
-msgid "Asteroids:"
-msgstr "Asteroidy:"
-
-#: /Language/Interface/Record[Key='ButtonPaste']
-msgctxt "Interface.ButtonPaste"
-msgid "Paste"
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
 msgstr ""
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
+msgctxt "Interface.WorldInfoTextPlayers"
+msgid "Players:"
+msgstr "Hráči:"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Odohraný čas:"
 
-#: /Language/Interface/Record[Key='ButtonHelp']
-msgctxt "Interface.ButtonHelp"
-msgid "Help"
+#: /Language/Interface/Record[Key='HeadingHelp']
+msgctxt "Interface.HeadingHelp"
+msgid "help"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
@@ -1558,21 +1574,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Pokračovať"
 
-#: /Language/Interface/Record[Key='ButtonVariables']
-msgctxt "Interface.ButtonVariables"
-msgid "x"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
-msgstr ""
-
-#: /Language/Interface/Record[Key='HeadingHelp']
-msgctxt "Interface.HeadingHelp"
-msgid "help"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ButtonLoad']
 msgctxt "Interface.ButtonLoad"
 msgid "Load"
@@ -1616,10 +1617,27 @@ msgctxt "Interface.SettingsInterface"
 msgid "Interface\n"
 msgstr "Vnútorný"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
-msgctxt "Interface.MenuDownloadDriverButton"
-msgid "Download Drivers"
-msgstr "Stiahnuť Ovládače"
+#: /Language/Interface/Record[Key='SettingsUPNPEnabled']
+msgctxt "Interface.SettingsUPNPEnabled"
+msgid "Enable UPNP"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsEnableClouds']
+#, fuzzy
+msgctxt "Interface.SettingsEnableClouds"
+msgid "Enable Clouds"
+msgstr "Zapnúť Autosave"
+
+#: /Language/Interface/Record[Key='SettingsClouds']
+#, fuzzy
+msgctxt "Interface.SettingsClouds"
+msgid "Enable Clouds"
+msgstr "Zapnúť Autosave"
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Oneskorenie zmiznutia četu"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"

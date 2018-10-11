@@ -7,10 +7,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
-msgctxt "Interface.WorldInfoTextPlayers"
-msgid "Players:"
-msgstr "Gracze:"
+#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
+msgctxt "Interface.WorldInfoTextAsteroids"
+msgid "Asteroids:"
+msgstr "Asteroidy:"
+
+#: /Language/Interface/Record[Key='ButtonPaste']
+msgctxt "Interface.ButtonPaste"
+msgid "Paste"
+msgstr "Wklej"
+
+#: /Language/Interface/Record[Key='ButtonCopy']
+msgctxt "Interface.ButtonCopy"
+msgid "Copy"
+msgstr "Kopiuj"
+
+#: /Language/Interface/Record[Key='ScenarioScoreboardHeading']
+msgctxt "Interface.ScenarioScoreboardHeading"
+msgid "Scenario Complete"
+msgstr "Sceneria Zakonczona"
 
 #: /Language/Interface/Record[Key='ScenarioScoreboardReturnToGame']
 msgctxt "Interface.ScenarioScoreboardReturnToGame"
@@ -52,6 +67,11 @@ msgctxt "Interface.ConnectionInput"
 msgid "Input"
 msgstr "Wejscie"
 
+#: /Language/Interface/Record[Key='ButtonHelp']
+msgctxt "Interface.ButtonHelp"
+msgid "Help"
+msgstr "Pomoc"
+
 #: /Language/Interface/Record[Key='ConnectionUnfiltered']
 msgctxt "Interface.ConnectionUnfiltered"
 msgid "Unfiltered"
@@ -61,11 +81,6 @@ msgstr "Niefiltrowany"
 msgctxt "Interface.ConnectionFiltered"
 msgid "Filtered"
 msgstr "Filtrowany"
-
-#: /Language/Interface/Record[Key='ScenarioScoreboardHeading']
-msgctxt "Interface.ScenarioScoreboardHeading"
-msgid "Scenario Complete"
-msgstr "Sceneria Zakonczona"
 
 #: /Language/Interface/Record[Key='ButtonResetWindows']
 msgctxt "Interface.ButtonResetWindows"
@@ -743,20 +758,20 @@ msgctxt "Interface.PromptResetSettingsTitle"
 msgid "Reset Settings"
 msgstr "Resetowanie ustawien"
 
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Opoznienie czatu"
+#: /Language/Interface/Record[Key='ButtonVariables']
+msgctxt "Interface.ButtonVariables"
+msgid "x"
+msgstr "x"
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
 msgctxt "Interface.MenuDownloadDriverWarning"
 msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
 msgstr "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
 
-#: /Language/Interface/Record[Key='ButtonCopy']
-msgctxt "Interface.ButtonCopy"
-msgid "Copy"
-msgstr "Kopiuj"
+#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
+msgctxt "Interface.MenuDownloadDriverButton"
+msgid "Download Drivers"
+msgstr "Pobierz draiwery"
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -764,8 +779,9 @@ msgid "Tooltip Opacity"
 msgstr "Przezroczystosc HUD-a"
 
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
+#, fuzzy
 msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled on your router, these ports will be automatically forwarded when you host a game."
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
 msgstr "Jesli w routerze wlaczona jest funkcja Universal Plug and Play (UPNP), porty te zostana automatycznie przekazane podczas hostowania gry."
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
@@ -1481,24 +1497,24 @@ msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Wersja:"
 
-#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
-msgctxt "Interface.WorldInfoTextAsteroids"
-msgid "Asteroids:"
-msgstr "Asteroidy:"
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
+msgstr "s(x)"
 
-#: /Language/Interface/Record[Key='ButtonPaste']
-msgctxt "Interface.ButtonPaste"
-msgid "Paste"
-msgstr "Wklej"
+#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
+msgctxt "Interface.WorldInfoTextPlayers"
+msgid "Players:"
+msgstr "Gracze:"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Czas gry:"
 
-#: /Language/Interface/Record[Key='ButtonHelp']
-msgctxt "Interface.ButtonHelp"
-msgid "Help"
+#: /Language/Interface/Record[Key='HeadingHelp']
+msgctxt "Interface.HeadingHelp"
+msgid "help"
 msgstr "Pomoc"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
@@ -1556,21 +1572,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Kontynuj"
 
-#: /Language/Interface/Record[Key='ButtonVariables']
-msgctxt "Interface.ButtonVariables"
-msgid "x"
-msgstr "x"
-
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
-msgstr "s(x)"
-
-#: /Language/Interface/Record[Key='HeadingHelp']
-msgctxt "Interface.HeadingHelp"
-msgid "help"
-msgstr "Pomoc"
-
 #: /Language/Interface/Record[Key='ButtonLoad']
 msgctxt "Interface.ButtonLoad"
 msgid "Load"
@@ -1614,10 +1615,27 @@ msgctxt "Interface.SettingsInterface"
 msgid "Interface\n"
 msgstr "Internal"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
-msgctxt "Interface.MenuDownloadDriverButton"
-msgid "Download Drivers"
-msgstr "Pobierz draiwery"
+#: /Language/Interface/Record[Key='SettingsUPNPEnabled']
+msgctxt "Interface.SettingsUPNPEnabled"
+msgid "Enable UPNP"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsEnableClouds']
+#, fuzzy
+msgctxt "Interface.SettingsEnableClouds"
+msgid "Enable Clouds"
+msgstr "Wlacz automatyczny zapis"
+
+#: /Language/Interface/Record[Key='SettingsClouds']
+#, fuzzy
+msgctxt "Interface.SettingsClouds"
+msgid "Enable Clouds"
+msgstr "Wlacz automatyczny zapis"
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Opoznienie czatu"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"

@@ -7,10 +7,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
-msgctxt "Interface.WorldInfoTextPlayers"
-msgid "Players:"
-msgstr "Joueurs :"
+#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
+msgctxt "Interface.WorldInfoTextAsteroids"
+msgid "Asteroids:"
+msgstr "Astéroïdes :"
+
+#: /Language/Interface/Record[Key='ButtonPaste']
+msgctxt "Interface.ButtonPaste"
+msgid "Paste"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ButtonCopy']
+msgctxt "Interface.ButtonCopy"
+msgid "Copy"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScenarioScoreboardHeading']
+msgctxt "Interface.ScenarioScoreboardHeading"
+msgid "Scenario Complete"
+msgstr "Scénario terminé"
 
 #: /Language/Interface/Record[Key='ScenarioScoreboardReturnToGame']
 msgctxt "Interface.ScenarioScoreboardReturnToGame"
@@ -52,6 +67,11 @@ msgctxt "Interface.ConnectionInput"
 msgid "Input"
 msgstr "Entrée"
 
+#: /Language/Interface/Record[Key='ButtonHelp']
+msgctxt "Interface.ButtonHelp"
+msgid "Help"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ConnectionUnfiltered']
 msgctxt "Interface.ConnectionUnfiltered"
 msgid "Unfiltered"
@@ -61,11 +81,6 @@ msgstr "Non filtré"
 msgctxt "Interface.ConnectionFiltered"
 msgid "Filtered"
 msgstr "Filtré"
-
-#: /Language/Interface/Record[Key='ScenarioScoreboardHeading']
-msgctxt "Interface.ScenarioScoreboardHeading"
-msgid "Scenario Complete"
-msgstr "Scénario terminé"
 
 #: /Language/Interface/Record[Key='ButtonResetWindows']
 msgctxt "Interface.ButtonResetWindows"
@@ -745,20 +760,20 @@ msgctxt "Interface.PromptResetSettingsTitle"
 msgid "Reset Settings"
 msgstr "Réinitialiser les paramètres"
 
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Délais du fondu du chat"
+#: /Language/Interface/Record[Key='ButtonVariables']
+msgctxt "Interface.ButtonVariables"
+msgid "x"
+msgstr ""
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
 msgctxt "Interface.MenuDownloadDriverWarning"
 msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
 msgstr "De nombreux utilisateurs de cartes graphiques AMD ont signalé des problèmes avec le jeu qui ont été résolus en mettant à jour leurs pilotes. Nous vous recommandons <b>FORTEMENT</b> de le mettre à jour avant de jouer."
 
-#: /Language/Interface/Record[Key='ButtonCopy']
-msgctxt "Interface.ButtonCopy"
-msgid "Copy"
-msgstr ""
+#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
+msgctxt "Interface.MenuDownloadDriverButton"
+msgid "Download Drivers"
+msgstr "Télécharger les pilotes"
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -766,8 +781,9 @@ msgid "Tooltip Opacity"
 msgstr "Opacité de l'info-bulle"
 
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
+#, fuzzy
 msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled on your router, these ports will be automatically forwarded when you host a game."
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
 msgstr "Si Universal Plug and Play (UPNP) est activé sur votre routeur, ces ports seront automatiquement transférés lorsque vous hébergez un jeu."
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
@@ -1481,24 +1497,24 @@ msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Version :"
 
-#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
-msgctxt "Interface.WorldInfoTextAsteroids"
-msgid "Asteroids:"
-msgstr "Astéroïdes :"
-
-#: /Language/Interface/Record[Key='ButtonPaste']
-msgctxt "Interface.ButtonPaste"
-msgid "Paste"
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
 msgstr ""
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
+msgctxt "Interface.WorldInfoTextPlayers"
+msgid "Players:"
+msgstr "Joueurs :"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Temps de jeu :"
 
-#: /Language/Interface/Record[Key='ButtonHelp']
-msgctxt "Interface.ButtonHelp"
-msgid "Help"
+#: /Language/Interface/Record[Key='HeadingHelp']
+msgctxt "Interface.HeadingHelp"
+msgid "help"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
@@ -1556,21 +1572,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuer"
 
-#: /Language/Interface/Record[Key='ButtonVariables']
-msgctxt "Interface.ButtonVariables"
-msgid "x"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
-msgstr ""
-
-#: /Language/Interface/Record[Key='HeadingHelp']
-msgctxt "Interface.HeadingHelp"
-msgid "help"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ButtonLoad']
 msgctxt "Interface.ButtonLoad"
 msgid "Load"
@@ -1614,10 +1615,27 @@ msgctxt "Interface.SettingsInterface"
 msgid "Interface\n"
 msgstr "Interne"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
-msgctxt "Interface.MenuDownloadDriverButton"
-msgid "Download Drivers"
-msgstr "Télécharger les pilotes"
+#: /Language/Interface/Record[Key='SettingsUPNPEnabled']
+msgctxt "Interface.SettingsUPNPEnabled"
+msgid "Enable UPNP"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsEnableClouds']
+#, fuzzy
+msgctxt "Interface.SettingsEnableClouds"
+msgid "Enable Clouds"
+msgstr "Activer la sauvegarde automatique"
+
+#: /Language/Interface/Record[Key='SettingsClouds']
+#, fuzzy
+msgctxt "Interface.SettingsClouds"
+msgid "Enable Clouds"
+msgstr "Activer la sauvegarde automatique"
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Délais du fondu du chat"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
