@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Playtime:"
+#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
+msgctxt "Interface.WorldInfoTextPlayers"
+msgid "Players:"
+msgstr "Hráči:"
+
+#: /Language/Interface/Record[Key='ButtonHelp']
+msgctxt "Interface.ButtonHelp"
+msgid "Help"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonPaste']
 msgctxt "Interface.ButtonPaste"
@@ -70,15 +75,15 @@ msgctxt "Interface.ConnectionInput"
 msgid "Input"
 msgstr "Vstup"
 
+#: /Language/Interface/Record[Key='ButtonVariables']
+msgctxt "Interface.ButtonVariables"
+msgid "x"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ConnectionUnfiltered']
 msgctxt "Interface.ConnectionUnfiltered"
 msgid "Unfiltered"
 msgstr "Nefiltrované"
-
-#: /Language/Interface/Record[Key='ButtonHelp']
-msgctxt "Interface.ButtonHelp"
-msgid "Help"
-msgstr ""
 
 #: /Language/Interface/Record[Key='ConnectionFiltered']
 msgctxt "Interface.ConnectionFiltered"
@@ -763,9 +768,9 @@ msgctxt "Interface.PromptResetSettingsTitle"
 msgid "Reset Settings"
 msgstr "Reset Settings"
 
-#: /Language/Interface/Record[Key='ButtonVariables']
-msgctxt "Interface.ButtonVariables"
-msgid "x"
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
 msgstr ""
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
@@ -1507,19 +1512,19 @@ msgctxt "Interface.WorldInfoTextAsteroids"
 msgid "Asteroids:"
 msgstr "Asteroidy:"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
-msgctxt "Interface.WorldInfoTextPlayers"
-msgid "Players:"
-msgstr "Hráči:"
-
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
-msgstr ""
-
 #: /Language/Interface/Record[Key='HeadingHelp']
 msgctxt "Interface.HeadingHelp"
 msgid "help"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Playtime:"
+
+#: /Language/Interface/Record[Key='ButtonLoad']
+msgctxt "Interface.ButtonLoad"
+msgid "Load"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
@@ -1578,11 +1583,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Pokračovat"
 
-#: /Language/Interface/Record[Key='ButtonLoad']
-msgctxt "Interface.ButtonLoad"
-msgid "Load"
-msgstr ""
-
 #: /Language/Interface/Record[Key='HeadingEdit']
 msgctxt "Interface.HeadingEdit"
 msgid "Edit"
@@ -1637,6 +1637,11 @@ msgstr "Povolit automatické ukládání"
 msgctxt "Interface.SettingsClouds"
 msgid "Enable Clouds"
 msgstr "Povolit automatické ukládání"
+
+#: /Language/Interface/Record[Key='InvalidDegrees']
+msgctxt "Interface.InvalidDegrees"
+msgid "Nil"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsChatFadeTimer']
 msgctxt "Interface.SettingsChatFadeTimer"
