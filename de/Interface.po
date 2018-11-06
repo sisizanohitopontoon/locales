@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Spielstand:"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Spielzeit:"
+
+#: /Language/Interface/Record[Key='ButtonPaste']
+msgctxt "Interface.ButtonPaste"
+msgid "Paste"
+msgstr "Einfügen"
 
 #: /Language/Interface/Record[Key='ButtonCopy']
 msgctxt "Interface.ButtonCopy"
@@ -65,15 +70,15 @@ msgctxt "Interface.ConnectionInput"
 msgid "Input"
 msgstr "Verbindung Eingang"
 
+#: /Language/Interface/Record[Key='ButtonHelp']
+msgctxt "Interface.ButtonHelp"
+msgid "Help"
+msgstr "Hilfe"
+
 #: /Language/Interface/Record[Key='ConnectionUnfiltered']
 msgctxt "Interface.ConnectionUnfiltered"
 msgid "Unfiltered"
 msgstr "Ungefiltert"
-
-#: /Language/Interface/Record[Key='ButtonPaste']
-msgctxt "Interface.ButtonPaste"
-msgid "Paste"
-msgstr "Einfügen"
 
 #: /Language/Interface/Record[Key='ConnectionFiltered']
 msgctxt "Interface.ConnectionFiltered"
@@ -758,15 +763,15 @@ msgctxt "Interface.PromptResetSettingsTitle"
 msgid "Reset Settings"
 msgstr "Einstellungen zurücksetzen"
 
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Chat-Ausblendverzögerung"
+#: /Language/Interface/Record[Key='ButtonVariables']
+msgctxt "Interface.ButtonVariables"
+msgid "x"
+msgstr "x"
 
-#: /Language/Interface/Record[Key='ButtonHelp']
-msgctxt "Interface.ButtonHelp"
-msgid "Help"
-msgstr "Hilfe"
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "Viele Nutzer von AMD-Grafikkarten haben gemeldet, dass Probleme mit dem Spiel durch die Installation aktuellster Teiber behoben werden konnten.  Wir empfehlen <b>STäRKSTENS</b> diese Treiber vor dem Spielen auf den neusten Stand zu bringen."
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverButton']
 msgctxt "Interface.MenuDownloadDriverButton"
@@ -1507,25 +1512,25 @@ msgctxt "Interface.WorldInfoTextPlayers"
 msgid "Players:"
 msgstr "Spieler:"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Spielzeit:"
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
+msgstr "s(x)"
 
-#: /Language/Interface/Record[Key='ButtonVariables']
-msgctxt "Interface.ButtonVariables"
-msgid "x"
-msgstr "x"
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Spielstand:"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Gespeicherte Welten"
 
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
-msgstr "s(x)"
+#: /Language/Interface/Record[Key='HeadingHelp']
+msgctxt "Interface.HeadingHelp"
+msgid "help"
+msgstr "Hilfe"
 
 #: /Language/Interface/Record[Key='MainMenuExit']
 msgctxt "Interface.MainMenuExit"
@@ -1572,11 +1577,6 @@ msgstr "Neue Welt"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Fortsetzen"
-
-#: /Language/Interface/Record[Key='HeadingHelp']
-msgctxt "Interface.HeadingHelp"
-msgid "help"
-msgstr "Hilfe"
 
 #: /Language/Interface/Record[Key='ButtonLoad']
 msgctxt "Interface.ButtonLoad"
@@ -1642,10 +1642,16 @@ msgctxt "Interface.InvalidDegrees"
 msgid "Nil"
 msgstr ""
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "Viele Nutzer von AMD-Grafikkarten haben gemeldet, dass Probleme mit dem Spiel durch die Installation aktuellster Teiber behoben werden konnten.  Wir empfehlen <b>STäRKSTENS</b> diese Treiber vor dem Spielen auf den neusten Stand zu bringen."
+#: /Language/Interface/Record[Key='SettingsSoundFX']
+#, fuzzy
+msgctxt "Interface.SettingsSoundFX"
+msgid "Sound FX"
+msgstr "Ton"
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Chat-Ausblendverzögerung"
 
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
