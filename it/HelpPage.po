@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-06 10:56+0000\n"
+"PO-Revision-Date: 2018-11-06 11:06+0000\n"
 "Last-Translator: Mekko <anduril86@hotmail.com>\n"
 "Language: it\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,13 +118,13 @@ msgstr ""
 "Se questa è la tua prima volta allora avrai molto da imparare tutto insieme. La pressione iniziale su di te sarà grande e può sopraffare l'avvio. Qui di seguito ci sono alcune linee guida generali per prendere il via. Ogni tipo di mondo ha diversi problemi che devi affrontare, ma ciò che segue dovrebbe darti una panoramica generale su quello che dovrai gestire.\n"
 "\n"
 "{HEADER:Tenere carica la tua Tuta}\n"
-"Il tuo bisogno più urgente è ricaricare la {THING:ItemBatteryCellLarge} della tua {THING:ItemEvaSuit}. La batteria nella tuta è utilizzata per alimentare le luci del tuo {THING:ItemSpaceHelmet} (spengile quando non in uso) e per ricaricare la tua aria interna. Su mondi più freddi questa funzione consumerà molta energia. Dovrai piazzare un {THING:ItemBatteryCharger} e collegarlo ad una fonte di elettricità, il  {THING:StructureSolidFuelGenerator}, alimentato con {THING:ItemCoalOre}, oppure il {THING:StructureSolarPanel} sono un buon inizio per gestire la cosa. In caso di emergenza togli le batterie dai tuoi {LINK:ToolPage;Attrezzi} così da avere sempre la tua tuta alimentata oppure utilizza il  {THING:PortableSolarPanel} fornito per caricarle.\n"
+"Il tuo bisogno più urgente è ricaricare la {THING:ItemBatteryCellLarge} della tua {THING:ItemEvaSuit}. La batteria nella tuta è utilizzata per alimentare le luci del tuo {THING:ItemSpaceHelmet} (spengile quando non in uso) e per riscaldare la tua aria interna. Su mondi più freddi questa funzione consumerà molta energia. Dovrai piazzare un {THING:ItemBatteryCharger} e collegarlo ad una fonte di elettricità, il  {THING:StructureSolidFuelGenerator}, alimentato con {THING:ItemCoalOre}, oppure il {THING:StructureSolarPanel} sono un buon inizio per gestire la cosa. In caso di emergenza togli le batterie dai tuoi {LINK:ToolPage;Attrezzi} così da avere sempre la tua tuta alimentata oppure utilizza il {THING:PortableSolarPanel} fornito per caricarle.\n"
 "\n"
 "{HEADER: Gestire la produzione elettrica}\n"
-"Piazzare un {THING:StructureAreaPowerControl}, con una {THING:ItemBatteryCell} inserita, tra la fonte di energia elettrica e i tuoi caricatori aiuterà molto. Questo perché la fonte di elettricità starà probabilmente generando una quantità di potenza maggiore di quella che il  {THING:ItemBatteryCharger} può consumare e quindi è sprecata. Inoltre, puoi orientare  manualmente il {THING:StructureSolarPanel}, ma automazzirlo per seguire il sole ti aiuterà molto. Puoi usare  {LINK:LogicUnitPage;Unità Logiche} per aiutarti a fare ciò.\n"
+"Piazzare un {THING:StructureAreaPowerControl} con una {THING:ItemBatteryCell} inserita, tra la fonte di energia elettrica e i tuoi caricatori, aiuterà molto. Questo perché la fonte di elettricità starà probabilmente generando una quantità di potenza maggiore di quella che il  {THING:ItemBatteryCharger} può consumare che quindi viene sprecata. Inoltre, puoi orientare  manualmente il {THING:StructureSolarPanel}, ma automatizzarlo per seguire il sole ti aiuterà molto. Puoi usare {LINK:LogicUnitPage;Unità Logiche} per aiutarti a fare ciò.\n"
 "\n"
 "{HEADER:Gestire il tuo Ossigeno}\n"
-"La tua  {THING:ItemEvaSuit} e il tuo {THING:ItemSpaceHelmet} formano una barriera protettiva dagli elementi. La {THING:ItemEvaSuit} necessita di una {THING:ItemGasCanisterOxygen} per rifornirti di puro {GAS:Oxygen}. Tieni d'occhio la quantità di gas nella bombola, che puoi riempire nuovamente utilizzando il {THING:DynamicGasCanisterOxygen} fornito con il tuo gear iniziale. È presente un indicatore di \"rischio\" che ti indica in quale slot devi inserire la bombola per riempirla. \n"
+"La tua {THING:ItemEvaSuit} e il tuo {THING:ItemSpaceHelmet} formano una barriera protettiva dagli elementi. La {THING:ItemEvaSuit} necessita di una {THING:ItemGasCanisterOxygen} per rifornirti di puro {GAS:Oxygen}. Tieni d'occhio la quantità di gas nella bombola, che puoi riempire nuovamente utilizzando il {THING:DynamicGasCanisterOxygen} fornito con il tuo gear iniziale. È presente un indicatore di \"rischio\" che ti indica in quale slot devi inserire la bombola per riempirla. \n"
 "\n"
 "{HEADER:Smelting base}\n"
 "Una volta che avrai attivato la generazione di elettricità avrai bisogno di più risorse. Esci a  {LINK:MiningPage;Minare} per ottenere {LINK:OrePage;Minerali}. Piazza un {THING:StructureArcFurnace} e connettilo al tuo {THING:StructureAreaPowerControl}. Questo ti permetterà di {LINK:SmeltingPage;fondere} {LINK:OrePage;minerali} base, come il {THING:ItemIronOre}, {THING:ItemSiliconOre}, e altre non {LINK:AlloyPage;leghe}.\n"
@@ -133,10 +133,10 @@ msgstr ""
 "Adesso che avrai {LINK:IngotPage;lingotti} puoi inserirli nei {LINK:FabricatorPage;fabbricatori} come materiali grezzi. Costruisci il {THING:StructureAutolathe} con il {THING:ItemKitAutolathe} fornito con le casse iniziali. \n"
 "\n"
 "{HEADER:Rimpiazzare i tuoi filtri}\n"
-"Mentre inspiri {GAS:Oxygen} espirerai anche {GAS:CarbonDioxide}, avrai quindi bisogno di un  {THING:ItemGasFilterCarbonDioxide} nel tuo slot {SLOT:Filter}. Si usureranno con il tempo, dovrai quindi costruirne di nuovi con il {THING:StructureHydraulicPipeBender}. Puoi produrne utilizzando un {THING:ItemKitHydraulicPipeBender} dal {THING:StructureAutolathe}.\n"
+"Mentre inspiri {GAS:Oxygen} espirerai anche {GAS:CarbonDioxide}, avrai quindi bisogno di un  {THING:ItemGasFilterCarbonDioxide} nel tuo slot {SLOT:Filter}. Si usureranno con il tempo, dovrai quindi costruirne di nuovi con la {THING:StructureHydraulicPipeBender}. Puoi produrne utilizzando una {THING:ItemKitHydraulicPipeBender} dal {THING:StructureAutolathe}.\n"
 "\n"
 "{HEADER:Costruisci una serra}\n"
-"Ti servirà una piccola area chiusa per installare un sistema {LINK:HydroponicsPage;idroponico} per permetterti di produrre {LINK:FoodPage;cibo}. Non crearla troppo grande in quanto sarà poi più difficile da pressurizzare. Costruisci molte {THING:} usando una variante del kit {THING:ItemKitWallIron}, per permettere alla luce del sole di entrare. Assicurati che l'accesso sia gestito utilizzando una {LINK:AirlockPage;camera di decompressione} automatizzata o una manuale.  Ricordati che puoi aprire o chiudere le porte non alimentate con il {THING:ItemCrowbar}.\n"
+"Ti servirà una piccola area chiusa per installare un sistema {LINK:HydroponicsPage;idroponico} così da permetterti di produrre {LINK:FoodPage;cibo}. Non crearla troppo grande in quanto sarà poi più difficile da pressurizzare. Costruisci molte {THING:} usando una variante del kit {THING:ItemKitWallIron}, per permettere alla luce del sole di entrare. Assicurati che l'accesso sia gestito utilizzando una {LINK:AirlockPage;camera di decompressione} automatizzata o una manuale.  Ricordati che puoi aprire o chiudere le porte non alimentate con il {THING:ItemCrowbar}.\n"
 "\n"
 "{HEADER:Pressurizza la serra}\n"
 "Una volta che avrai chiuso l'area, {LINK:MiningPage;mina} un po' di {THING:ItemOxite} e scioglila fino ad ottenere circa 100 kPa di pressione nella tua area di coltivazione. Aggiungi un po' di {GAS:CarbonDioxide} all'atmosfera. Puoi farlo facilmente prendendo nelle tue mani il serbatoio rifiuti dalla tua {THING:ItemEvaSuit}, aprirlo e chiuderlo, e poi rimetterlo a posto. Questo rilascerà {GAS:CarbonDioxide} filtrata dalla tua respirazione nell'ambiente. Le {LINK:PlantPage;piante} la utilizzeranno per respirare. \n"
@@ -214,7 +214,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='LogicUnitPage']
 msgctxt "HelpPage.LogicUnitPage"
 msgid "Logic Units"
-msgstr ""
+msgstr "Unità logiche"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicUnitPage']
 msgctxt "HelpPage.LogicUnitPage"
@@ -227,7 +227,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='SlotLeftHand']
 msgctxt "HelpPage.SlotLeftHand"
 msgid "Hand Slots"
-msgstr ""
+msgstr "Slot delle mani"
 
 #: /Language/HelpPage/StationpediaPage[Key='SlotLeftHand']
 msgctxt "HelpPage.SlotLeftHand"
@@ -281,7 +281,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='SmeltingPage']
 msgctxt "HelpPage.SmeltingPage"
 msgid "Smelting"
-msgstr ""
+msgstr "Smelting"
 
 #: /Language/HelpPage/StationpediaPage[Key='SmeltingPage']
 msgctxt "HelpPage.SmeltingPage"
@@ -293,7 +293,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='MiningPage']
 msgctxt "HelpPage.MiningPage"
 msgid "Mining"
-msgstr ""
+msgstr "Minare"
 
 #: /Language/HelpPage/StationpediaPage[Key='MiningPage']
 msgctxt "HelpPage.MiningPage"
@@ -305,7 +305,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
 msgctxt "HelpPage.ConstructionPage"
 msgid "Construction"
-msgstr ""
+msgstr "Costruzione"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
 msgctxt "HelpPage.ConstructionPage"
@@ -324,7 +324,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
 msgctxt "HelpPage.ReagentPage"
 msgid "Reagents"
-msgstr ""
+msgstr "Reagenti"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
 msgctxt "HelpPage.ReagentPage"
@@ -339,7 +339,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
 msgctxt "HelpPage.GasPage"
 msgid "Gases"
-msgstr ""
+msgstr "Gas"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
 msgctxt "HelpPage.GasPage"
@@ -354,7 +354,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
 msgctxt "HelpPage.AlloyPage"
 msgid "Alloys"
-msgstr ""
+msgstr "Leghe"
 
 #: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
 msgctxt "HelpPage.AlloyPage"
@@ -369,7 +369,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
 msgctxt "HelpPage.OrePage"
 msgid "Ores"
-msgstr ""
+msgstr "Minerali"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
 msgctxt "HelpPage.OrePage"
@@ -387,7 +387,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
 msgctxt "HelpPage.IngotPage"
 msgid "Ingots"
-msgstr ""
+msgstr "Lingotti"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
 msgctxt "HelpPage.IngotPage"
@@ -402,7 +402,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
 msgctxt "HelpPage.ToolPage"
 msgid "Tools"
-msgstr ""
+msgstr "Utensili"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
 msgctxt "HelpPage.ToolPage"
@@ -417,7 +417,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
 msgctxt "HelpPage.ResourcePage"
 msgid "Resources"
-msgstr ""
+msgstr "Risorse"
 
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
 msgctxt "HelpPage.ResourcePage"
@@ -432,7 +432,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
 msgctxt "HelpPage.KitPage"
 msgid "Kits"
-msgstr ""
+msgstr "Kit"
 
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
 msgctxt "HelpPage.KitPage"
@@ -447,7 +447,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='FoodPage']
 msgctxt "HelpPage.FoodPage"
 msgid "Food"
-msgstr ""
+msgstr "Cibo"
 
 #: /Language/HelpPage/StationpediaPage[Key='FoodPage']
 msgctxt "HelpPage.FoodPage"
@@ -462,7 +462,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ClothingPage']
 msgctxt "HelpPage.ClothingPage"
 msgid "Clothing"
-msgstr ""
+msgstr "Vestiario"
 
 #: /Language/HelpPage/StationpediaPage[Key='ClothingPage']
 msgctxt "HelpPage.ClothingPage"
@@ -477,7 +477,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='AppliancePage']
 msgctxt "HelpPage.AppliancePage"
 msgid "Appliances"
-msgstr ""
+msgstr "Apparecchi"
 
 #: /Language/HelpPage/StationpediaPage[Key='AppliancePage']
 msgctxt "HelpPage.AppliancePage"
