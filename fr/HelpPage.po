@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-11 19:25+0000\n"
+"PO-Revision-Date: 2018-11-11 19:30+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -283,7 +283,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
 msgctxt "HelpPage.DevicePage"
 msgid "Devices"
-msgstr ""
+msgstr "Dispositifs"
 
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
 msgctxt "HelpPage.DevicePage"
@@ -294,6 +294,10 @@ msgid ""
 "{LIST_OF_DEVICES}\n"
 "      "
 msgstr ""
+"Il s’agit de structures, généralement alimentées, dotées de fonctions spécialisées, notamment logiques, atmosphériques, etc. Ils sont construits de la même manière que les autres structures.\n"
+"      \n"
+"{HEADER:Liste des dispositifs}\n"
+"{LIST_OF_DEVICES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='SmeltingPage']
 msgctxt "HelpPage.SmeltingPage"
@@ -306,6 +310,9 @@ msgid ""
 "Once you have {LINK:OrePage;ore}, you need to turn it into {LINK:IngotPage;ingots} so you can use their {LINK:ReagentPage;reagents}. Smelting will often produce {LINK:GasPage;gases}. This occurs in either the {THING:StructureArcFurnace} (for simple recipes) and the {THING:StructureFurnace} for more complicated {LINK:AlloyPage;Alloys}. For the complex alloys, you will need to achieve mixtures at perfect ratios, {LINK:TemperaturePage;Temperature}, and {LINK:PressurePage;Pressure}. \n"
 "      "
 msgstr ""
+"Une fois que vous avez du {LINK:OrePage;minerai}, vous devez le convertir en {LINK:IngotPage;lingot} pour pouvoir utiliser leurs {LINK:ReagentPage;reactifs}. La fusion produira souvent des "
+"{LINK:GasPage;gazs}. Cela se produit soit dans le {THING:StructureArcFurnace} (pour les recettes simples) et dans le {THING:StructureFurnace} pour des {LINK:AlloyPage;alliages} plus compliqué. Pour "
+"les alliages complexes, vous devrez réaliser des mélanges avec des ratios parfaits, en respectant la {LINK:TemperaturePage;temperature} et la {LINK:PressurePage;pression}."
 
 #: /Language/HelpPage/StationpediaPage[Key='MiningPage']
 msgctxt "HelpPage.MiningPage"
@@ -317,7 +324,7 @@ msgctxt "HelpPage.MiningPage"
 msgid ""
 "You can mine {LINK:OrePage;ore} using a {THING:ItemMiningDrill}. If you wear a {THING:ItemMiningBelt} the {LINK:OrePage;ore} will automatically be placed within it.\n"
 "      "
-msgstr ""
+msgstr "Vous pouvez exploiter un {LINK:OrePage;minerai} avec un {THING:ItemMiningDrill}. Si vous portez un {THING:ItemMiningBelt}, le {LINK:OrePage;minerai} y sera automatiquement placé."
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
 msgctxt "HelpPage.ConstructionPage"
@@ -337,6 +344,14 @@ msgid ""
 "If you look directly at a structure that is incomplete you will get information about what you need to do to complete it. If you have a {LINK:ToolPage;tool} in your hand and its not the right {LINK:ToolPage;tool}, a tooltip will appear telling you what you would need to use to deconstruct it.\n"
 "      "
 msgstr ""
+"{HEADER:Commencer}\n"
+"En règle générale, vous utiliserez des {LINK:KitPage;kits} pour lancer la construction, puis divers {LINK:ToolPage;outils} et {LINK:ResourcePage;resources} à compléter. Portez une attention particulière au nombre de kit requis pour construire ce que vous avez sélectionné, car certaines structures en nécessitent plusieurs. Pour certains kits, vous aurez plusieurs options, utilisez la {COLORRED:molette de la souris} pour modifier l’option actuelle que vous souhaitez créer.\n"
+"\n"
+"{HEADER:Construire des structures}\n"
+"Certaines structures auront plusieurs états de construction nécessitant différentes combinaisons. Votre infobulle vous indiquera la combinaison dont vous avez besoin pour compléter la structure. Parfois, vous aurez besoin de deux objets, un dans chaque main, pour compléter un état de construction. Certains outils devront d'abord être activés, ce qui peut être fait en appuyant sur {KEY:ToggleHandPower} tant qu'il est dans votre main active.\n"
+"\n"
+"{HEADER:Info-bulles}\n"
+"Si vous regardez directement une structure incomplète, vous obtiendrez des informations sur ce que vous devez faire pour la compléter. Si vous avez un {LINK:ToolPage;outil} dans la main et que ce n'est pas le bon {LINK:ToolPage;outil}, une info-bulle apparaîtra pour vous indiquer ce que vous devez utiliser pour le déconstruire."
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
 msgctxt "HelpPage.ReagentPage"
@@ -352,6 +367,9 @@ msgid ""
 "{LIST_OF_REAGENTS}\n"
 "      "
 msgstr ""
+"Ce sont des quantités chimiques de certains types.\n"
+"{HEADER:Liste des reactifs}\n"
+"{LIST_OF_REAGENTS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
 msgctxt "HelpPage.GasPage"
@@ -367,6 +385,9 @@ msgid ""
 "{LIST_OF_GASES}\n"
 "      "
 msgstr ""
+"Ce sont des gaz chimiques de certains types.\n"
+"{HEADER:Liste des gazs}\n"
+"{LIST_OF_GASES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
 msgctxt "HelpPage.AlloyPage"
@@ -382,6 +403,10 @@ msgid ""
 "{LIST_OF_ALLOYS}\n"
 "      "
 msgstr ""
+"Créés dans le {THING:StructureFurnace} à partir de mélange de {LINK:ReagentPage;reactif}, les {LINK:IngotPage;lingots} avancées pourront être utilisés dans des {LINK:FabricatorPage;machines}. Le {THING:StructureArcFurnace} n'est pas capable de les fondre.\n"
+"\n"
+"{HEADER:Liste des alliages}\n"
+"{LIST_OF_ALLOYS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
 msgctxt "HelpPage.OrePage"
@@ -400,6 +425,13 @@ msgid ""
 "{LIST_OF_ORES}\n"
 "      "
 msgstr ""
+"Il s’agit d’éléments issu de l'{LINK:MiningPage;exploitation miniere} et pouvant souvent être {LINK:SmeltingPage;fondu}. Vous pouvez également obtenir du minerai mélangé en recyclant des éléments dans le {THING:StructureRecycler}, puis en le passant à travers le {THING:StructureCentrifuge} qui le divisera en {LINK:OrePage;minerai} pour la {LINK:SmeltingPage;fonte}.\n"
+"      \n"
+"{HEADER:Fondre de la glace}\n"
+"Certains minerais fondent lorsqu'ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gazs}. Par exemple, la {THING:ItemIce} fond en {GAS:Water} et {GAS:Oxygen}. Veillez à les garder à l'abri de la chaleur ou de la lumière du soleil jusqu'à ce que vous souhaitiez réellement les faire fondre.\n"
+"      \n"
+"{HEADER:Liste des minerais}\n"
+"{LIST_OF_ORES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
 msgctxt "HelpPage.IngotPage"
@@ -415,6 +447,9 @@ msgid ""
 "{LIST_OF_INGOTS}\n"
 "      "
 msgstr ""
+"Ce sont des éléments généralement fabriqués à partir de {LINK:SmeltingPage;fonte} et de {LINK:OrePage;minerais}.\n"
+"{HEADER:Liste des lingots}\n"
+"{LIST_OF_INGOTS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
 msgctxt "HelpPage.ToolPage"
@@ -430,6 +465,9 @@ msgid ""
 "{LIST_OF_TOOLS}\n"
 "      "
 msgstr ""
+"Ce sont des éléments pouvant tenir dans un emplacement d’outil spécialisé et utilisés pour la {LINK:ConstructionPage;construction} et d’autres tâches.\n"
+"{HEADER:Liste des outils}\n"
+"{LIST_OF_TOOLS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
 msgctxt "HelpPage.ResourcePage"
@@ -445,6 +483,9 @@ msgid ""
 "{LIST_OF_RESOURCES}\n"
 "      "
 msgstr ""
+"Il s’agit d’éléments consommés lors de la {LINK:ConstructionPage;construction} et d’autres tâches.\n"
+"{HEADER:Liste des ressources}\n"
+"{LIST_OF_RESOURCES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
 msgctxt "HelpPage.KitPage"
