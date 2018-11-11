@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Время игры:"
+#: /Language/Interface/Record[Key='WorldInfoTextVersion']
+msgctxt "Interface.WorldInfoTextVersion"
+msgid "Version:"
+msgstr "Версия:"
 
 #: /Language/Interface/Record[Key='ButtonPaste']
 msgctxt "Interface.ButtonPaste"
@@ -748,6 +748,22 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Выйти из игры"
 
+#: /Language/Interface/Record[Key='SteamErrorButton']
+#, fuzzy
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "Выйти"
+
+#: /Language/Interface/Record[Key='SteamErrorBody']
+msgctxt "Interface.SteamErrorBody"
+msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SteamErrorTitle']
+msgctxt "Interface.SteamErrorTitle"
+msgid "Steam Error"
+msgstr ""
+
 #: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
 msgctxt "Interface.PromptResetSettingsConfirm"
 msgid "Reset"
@@ -758,15 +774,15 @@ msgctxt "Interface.PromptResetSettingsBody"
 msgid "Are you sure?"
 msgstr "Вы увеерны?"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
-msgctxt "Interface.PromptResetSettingsTitle"
-msgid "Reset Settings"
-msgstr "Сбросить настройки"
-
 #: /Language/Interface/Record[Key='ButtonVariables']
 msgctxt "Interface.ButtonVariables"
 msgid "x"
 msgstr "x"
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Задержка исчезновения чата"
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
 msgctxt "Interface.MenuDownloadDriverWarning"
@@ -1496,10 +1512,10 @@ msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Удалить"
 
-#: /Language/Interface/Record[Key='WorldInfoTextVersion']
-msgctxt "Interface.WorldInfoTextVersion"
-msgid "Version:"
-msgstr "Версия:"
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
+msgstr "s(x)"
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
 msgctxt "Interface.WorldInfoTextAsteroids"
@@ -1511,25 +1527,25 @@ msgctxt "Interface.WorldInfoTextPlayers"
 msgid "Players:"
 msgstr "Игроки:"
 
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
-msgstr "s(x)"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Время игры:"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Сохранено:"
+#: /Language/Interface/Record[Key='HeadingHelp']
+msgctxt "Interface.HeadingHelp"
+msgid "help"
+msgstr "Помощь"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Сохранённые миры"
 
-#: /Language/Interface/Record[Key='HeadingHelp']
-msgctxt "Interface.HeadingHelp"
-msgid "help"
-msgstr "Помощь"
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "Загрузить мир"
 
 #: /Language/Interface/Record[Key='MainMenuExit']
 msgctxt "Interface.MainMenuExit"
@@ -1646,15 +1662,15 @@ msgctxt "Interface.SettingsSoundFX"
 msgid "Sound FX"
 msgstr "Звук"
 
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Задержка исчезновения чата"
+#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
+msgctxt "Interface.PromptResetSettingsTitle"
+msgid "Reset Settings"
+msgstr "Сбросить настройки"
 
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "Загрузить мир"
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Сохранено:"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "
