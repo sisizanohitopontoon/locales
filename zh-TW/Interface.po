@@ -12,6 +12,16 @@ msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "版本:"
 
+#: /Language/Interface/Record[Key='ButtonVariables']
+msgctxt "Interface.ButtonVariables"
+msgid "x"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ButtonHelp']
+msgctxt "Interface.ButtonHelp"
+msgid "Help"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ButtonPaste']
 msgctxt "Interface.ButtonPaste"
 msgid "Paste"
@@ -62,15 +72,15 @@ msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr "輸出"
 
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
 msgid "Input"
 msgstr "輸入"
-
-#: /Language/Interface/Record[Key='ButtonHelp']
-msgctxt "Interface.ButtonHelp"
-msgid "Help"
-msgstr ""
 
 #: /Language/Interface/Record[Key='ConnectionUnfiltered']
 msgctxt "Interface.ConnectionUnfiltered"
@@ -764,15 +774,15 @@ msgctxt "Interface.PromptResetSettingsConfirm"
 msgid "Reset"
 msgstr "重置"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsBody']
-msgctxt "Interface.PromptResetSettingsBody"
-msgid "Are you sure?"
-msgstr "你確定嗎?"
-
-#: /Language/Interface/Record[Key='ButtonVariables']
-msgctxt "Interface.ButtonVariables"
-msgid "x"
+#: /Language/Interface/Record[Key='HeadingHelp']
+msgctxt "Interface.HeadingHelp"
+msgid "help"
 msgstr ""
+
+#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
+msgctxt "Interface.PromptResetSettingsTitle"
+msgid "Reset Settings"
+msgstr "重置設定"
 
 #: /Language/Interface/Record[Key='SettingsChatFadeTimer']
 msgctxt "Interface.SettingsChatFadeTimer"
@@ -1508,9 +1518,9 @@ msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "刪除"
 
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
+#: /Language/Interface/Record[Key='ButtonLoad']
+msgctxt "Interface.ButtonLoad"
+msgid "Load"
 msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
@@ -1528,9 +1538,9 @@ msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "遊戲時間:"
 
-#: /Language/Interface/Record[Key='HeadingHelp']
-msgctxt "Interface.HeadingHelp"
-msgid "help"
+#: /Language/Interface/Record[Key='HeadingEdit']
+msgctxt "Interface.HeadingEdit"
+msgid "Edit"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
@@ -1589,16 +1599,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "繼續"
 
-#: /Language/Interface/Record[Key='ButtonLoad']
-msgctxt "Interface.ButtonLoad"
-msgid "Load"
-msgstr ""
-
-#: /Language/Interface/Record[Key='HeadingEdit']
-msgctxt "Interface.HeadingEdit"
-msgid "Edit"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
 msgid "f"
@@ -1610,10 +1610,9 @@ msgid "Library"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
+#, fuzzy
 msgctxt "Interface.SettingsMenuAdvanced"
-msgid ""
-"Advanced\n"
-"\n"
+msgid "Advanced"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsLegacyInventory']
@@ -1660,10 +1659,21 @@ msgctxt "Interface.SettingsSoundFX"
 msgid "Sound FX"
 msgstr "音效"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
-msgctxt "Interface.PromptResetSettingsTitle"
-msgid "Reset Settings"
-msgstr "重置設定"
+#: /Language/Interface/Record[Key='WarningControlConflict']
+#, fuzzy
+msgctxt "Interface.WarningControlConflict"
+msgid "Controls Conflict"
+msgstr "控制"
+
+#: /Language/Interface/Record[Key='WarningControlConflictDescription']
+msgctxt "Interface.WarningControlConflictDescription"
+msgid "Please visit the control assignment window and clear conflicts"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptResetSettingsBody']
+msgctxt "Interface.PromptResetSettingsBody"
+msgid "Are you sure?"
+msgstr "你確定嗎?"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"

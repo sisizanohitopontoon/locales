@@ -12,6 +12,16 @@ msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Wersja:"
 
+#: /Language/Interface/Record[Key='ButtonVariables']
+msgctxt "Interface.ButtonVariables"
+msgid "x"
+msgstr "x"
+
+#: /Language/Interface/Record[Key='ButtonHelp']
+msgctxt "Interface.ButtonHelp"
+msgid "Help"
+msgstr "Pomoc"
+
 #: /Language/Interface/Record[Key='ButtonPaste']
 msgctxt "Interface.ButtonPaste"
 msgid "Paste"
@@ -62,15 +72,15 @@ msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr "Wyjscie"
 
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
+msgstr "s(x)"
+
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
 msgid "Input"
 msgstr "Wejscie"
-
-#: /Language/Interface/Record[Key='ButtonHelp']
-msgctxt "Interface.ButtonHelp"
-msgid "Help"
-msgstr "Pomoc"
 
 #: /Language/Interface/Record[Key='ConnectionUnfiltered']
 msgctxt "Interface.ConnectionUnfiltered"
@@ -764,15 +774,15 @@ msgctxt "Interface.PromptResetSettingsConfirm"
 msgid "Reset"
 msgstr "Reset"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsBody']
-msgctxt "Interface.PromptResetSettingsBody"
-msgid "Are you sure?"
-msgstr "Jestes pewny?"
+#: /Language/Interface/Record[Key='HeadingHelp']
+msgctxt "Interface.HeadingHelp"
+msgid "help"
+msgstr "Pomoc"
 
-#: /Language/Interface/Record[Key='ButtonVariables']
-msgctxt "Interface.ButtonVariables"
-msgid "x"
-msgstr "x"
+#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
+msgctxt "Interface.PromptResetSettingsTitle"
+msgid "Reset Settings"
+msgstr "Resetowanie ustawien"
 
 #: /Language/Interface/Record[Key='SettingsChatFadeTimer']
 msgctxt "Interface.SettingsChatFadeTimer"
@@ -1508,10 +1518,10 @@ msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Usun"
 
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
-msgstr "s(x)"
+#: /Language/Interface/Record[Key='ButtonLoad']
+msgctxt "Interface.ButtonLoad"
+msgid "Load"
+msgstr "Zaladuj"
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
 msgctxt "Interface.WorldInfoTextAsteroids"
@@ -1528,10 +1538,10 @@ msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Czas gry:"
 
-#: /Language/Interface/Record[Key='HeadingHelp']
-msgctxt "Interface.HeadingHelp"
-msgid "help"
-msgstr "Pomoc"
+#: /Language/Interface/Record[Key='HeadingEdit']
+msgctxt "Interface.HeadingEdit"
+msgid "Edit"
+msgstr "Edytuj"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -1589,16 +1599,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Kontynuj"
 
-#: /Language/Interface/Record[Key='ButtonLoad']
-msgctxt "Interface.ButtonLoad"
-msgid "Load"
-msgstr "Zaladuj"
-
-#: /Language/Interface/Record[Key='HeadingEdit']
-msgctxt "Interface.HeadingEdit"
-msgid "Edit"
-msgstr "Edytuj"
-
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
 msgid "f"
@@ -1610,10 +1610,9 @@ msgid "Library"
 msgstr "Library"
 
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
+#, fuzzy
 msgctxt "Interface.SettingsMenuAdvanced"
-msgid ""
-"Advanced\n"
-"\n"
+msgid "Advanced"
 msgstr "Rozszezona"
 
 #: /Language/Interface/Record[Key='SettingsLegacyInventory']
@@ -1660,10 +1659,21 @@ msgctxt "Interface.SettingsSoundFX"
 msgid "Sound FX"
 msgstr "Dzwiek"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
-msgctxt "Interface.PromptResetSettingsTitle"
-msgid "Reset Settings"
-msgstr "Resetowanie ustawien"
+#: /Language/Interface/Record[Key='WarningControlConflict']
+#, fuzzy
+msgctxt "Interface.WarningControlConflict"
+msgid "Controls Conflict"
+msgstr "Sterowanie"
+
+#: /Language/Interface/Record[Key='WarningControlConflictDescription']
+msgctxt "Interface.WarningControlConflictDescription"
+msgid "Please visit the control assignment window and clear conflicts"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptResetSettingsBody']
+msgctxt "Interface.PromptResetSettingsBody"
+msgid "Are you sure?"
+msgstr "Jestes pewny?"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
