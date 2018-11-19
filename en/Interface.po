@@ -6,10 +6,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='WorldInfoTextVersion']
-msgctxt "Interface.WorldInfoTextVersion"
-msgid "Version:"
-msgstr "Version:"
+#: /Language/Interface/Record[Key='JoinMenuServerListRefreshing']
+msgctxt "Interface.JoinMenuServerListRefreshing"
+msgid "Refreshing Server List"
+msgstr "Refreshing Server List"
 
 #: /Language/Interface/Record[Key='ButtonVariables']
 msgctxt "Interface.ButtonVariables"
@@ -71,15 +71,15 @@ msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr "Output"
 
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
-msgstr "s(x)"
-
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
 msgid "Input"
 msgstr "Input"
+
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
+msgstr "s(x)"
 
 #: /Language/Interface/Record[Key='ConnectionUnfiltered']
 msgctxt "Interface.ConnectionUnfiltered"
@@ -146,6 +146,36 @@ msgctxt "Interface.SettingsAtmosphericScattering"
 msgid "Atmospheric Scattering"
 msgstr "Atmospheric Scattering"
 
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "Unable to interact as you do not have the required {SLOT:AccessCard}"
+
+#: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
+msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
+msgid "Interaction temporarily disabled on this object"
+msgstr "Interaction temporarily disabled on this object"
+
+#: /Language/Interface/Record[Key='ChangeSettingToForAll']
+msgctxt "Interface.ChangeSettingToForAll"
+msgid "Change to <color=yellow>{0}</color>>for all {1}"
+msgstr "Change to <color=yellow>{0}</color>>for all {1}"
+
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})<color> for {2}"
+msgstr "Change to {1}<color=yellow>({0})<color> for {2}"
+
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgstr "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+
+#: /Language/Interface/Record[Key='ChangeSettingToForIn']
+msgctxt "Interface.ChangeSettingToForIn"
+msgid "Change to <color=yellow>{0}</color> for {3} <color=yellow>({2})</color> in {1}"
+msgstr "Change to <color=yellow>{0}</color> for {3} <color=yellow>({2})</color> in {1}"
+
 #: /Language/Interface/Record[Key='ChangeSettingToFor']
 msgctxt "Interface.ChangeSettingToFor"
 msgid "Change to <color=yellow>{0}</color> for {1}"
@@ -156,10 +186,20 @@ msgctxt "Interface.HoldForPreviousObject"
 msgid "Hold {KEY:QuantityModifier} for previous object"
 msgstr "Hold {KEY:QuantityModifier} for previous object"
 
+#: /Language/Interface/Record[Key='ChangeSettingToAll']
+msgctxt "Interface.ChangeSettingToAll"
+msgid "Change to All {0}"
+msgstr "Change to All {0}"
+
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"
 msgid "Change to {0}"
 msgstr "Change to {0}"
+
+#: /Language/Interface/Record[Key='LogicNoWritableDevices']
+msgctxt "Interface.LogicNoWritableDevices"
+msgid "No other writable devices on network"
+msgstr "No other writable devices on network"
 
 #: /Language/Interface/Record[Key='LogicNoReadableTypes']
 msgctxt "Interface.LogicNoReadableTypes"
@@ -175,6 +215,26 @@ msgstr "No other readable devices on network"
 msgctxt "Interface.RequiresScrewdriver"
 msgid "You need a {THING:ItemScrewdriver} to change settings"
 msgstr "You need a {THING:ItemScrewdriver} to change settings"
+
+#: /Language/Interface/Record[Key='LogicNoAdditionalSlotsFor']
+msgctxt "Interface.LogicNoAdditionalSlotsFor"
+msgid "No additional slots for {0}"
+msgstr "No additional slots for {0}"
+
+#: /Language/Interface/Record[Key='LogicNoAvailableSlots']
+msgctxt "Interface.LogicNoAvailableSlots"
+msgid "<color=red>No available slots</color>"
+msgstr "<color=red>No available slots</color>"
+
+#: /Language/Interface/Record[Key='LogicNoSlot']
+msgctxt "Interface.LogicNoSlot"
+msgid "<color=red>No Slot</color>"
+msgstr "<color=red>No Slot</color>"
+
+#: /Language/Interface/Record[Key='LogicNoAdditionalSettingsFor']
+msgctxt "Interface.LogicNoAdditionalSettingsFor"
+msgid "No additional settings for {0}"
+msgstr "No additional settings for {0}"
 
 #: /Language/Interface/Record[Key='LogicNoSetting']
 msgctxt "Interface.LogicNoSetting"
@@ -716,10 +776,10 @@ msgctxt "Interface.PromptQuitConfirm"
 msgid "Quit"
 msgstr "Quit"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Are you sure you want to quit?"
+#: /Language/Interface/Record[Key='HeadingHelp']
+msgctxt "Interface.HeadingHelp"
+msgid "help"
+msgstr "help"
 
 #: /Language/Interface/Record[Key='PromptQuitTitle']
 msgctxt "Interface.PromptQuitTitle"
@@ -746,10 +806,10 @@ msgctxt "Interface.PromptResetSettingsConfirm"
 msgid "Reset"
 msgstr "Reset"
 
-#: /Language/Interface/Record[Key='HeadingHelp']
-msgctxt "Interface.HeadingHelp"
-msgid "help"
-msgstr "help"
+#: /Language/Interface/Record[Key='PromptResetSettingsBody']
+msgctxt "Interface.PromptResetSettingsBody"
+msgid "Are you sure?"
+msgstr "Are you sure?"
 
 #: /Language/Interface/Record[Key='PromptResetSettingsTitle']
 msgctxt "Interface.PromptResetSettingsTitle"
@@ -1431,10 +1491,10 @@ msgctxt "Interface.JoinMenuInputAddressTitle"
 msgid "Address"
 msgstr "Address"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListRefreshing']
-msgctxt "Interface.JoinMenuServerListRefreshing"
-msgid "Refreshing Server List"
-msgstr "Refreshing Server List"
+#: /Language/Interface/Record[Key='ButtonLoad']
+msgctxt "Interface.ButtonLoad"
+msgid "Load"
+msgstr "Load"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListVersion']
 msgctxt "Interface.JoinMenuServerListVersion"
@@ -1481,10 +1541,10 @@ msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Delete"
 
-#: /Language/Interface/Record[Key='ButtonLoad']
-msgctxt "Interface.ButtonLoad"
-msgid "Load"
-msgstr "Load"
+#: /Language/Interface/Record[Key='HeadingEdit']
+msgctxt "Interface.HeadingEdit"
+msgid "Edit"
+msgstr "Edit"
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
 msgctxt "Interface.WorldInfoTextAsteroids"
@@ -1501,10 +1561,10 @@ msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Playtime:"
 
-#: /Language/Interface/Record[Key='HeadingEdit']
-msgctxt "Interface.HeadingEdit"
-msgid "Edit"
-msgstr "Edit"
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Saved:"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -1588,8 +1648,8 @@ msgstr "Disable Water Visualizer"
 
 #: /Language/Interface/Record[Key='SettingsInterface']
 msgctxt "Interface.SettingsInterface"
-msgid "Interface\n"
-msgstr "Interface\n"
+msgid "Interface"
+msgstr "Interface"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
@@ -1626,12 +1686,12 @@ msgctxt "Interface.WarningControlConflictDescription"
 msgid "Please visit the control assignment window and clear conflicts"
 msgstr "Please visit the control assignment window and clear conflicts"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsBody']
-msgctxt "Interface.PromptResetSettingsBody"
-msgid "Are you sure?"
-msgstr "Are you sure?"
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Are you sure you want to quit?"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Saved:"
+#: /Language/Interface/Record[Key='WorldInfoTextVersion']
+msgctxt "Interface.WorldInfoTextVersion"
+msgid "Version:"
+msgstr "Version:"

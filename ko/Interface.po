@@ -7,10 +7,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='WorldInfoTextVersion']
-msgctxt "Interface.WorldInfoTextVersion"
-msgid "Version:"
-msgstr "버전:"
+#: /Language/Interface/Record[Key='JoinMenuServerListRefreshing']
+msgctxt "Interface.JoinMenuServerListRefreshing"
+msgid "Refreshing Server List"
+msgstr "새로고침"
 
 #: /Language/Interface/Record[Key='ButtonVariables']
 msgctxt "Interface.ButtonVariables"
@@ -72,14 +72,14 @@ msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtonSlotVar']
-msgctxt "Interface.ButtonSlotVar"
-msgid "s(x)"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
 msgid "Input"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ButtonSlotVar']
+msgctxt "Interface.ButtonSlotVar"
+msgid "s(x)"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ConnectionUnfiltered']
@@ -147,6 +147,40 @@ msgctxt "Interface.SettingsAtmosphericScattering"
 msgid "Atmospheric Scattering"
 msgstr "Atmospheric Scattering"
 
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
+msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
+msgid "Interaction temporarily disabled on this object"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ChangeSettingToForAll']
+#, fuzzy
+msgctxt "Interface.ChangeSettingToForAll"
+msgid "Change to <color=yellow>{0}</color>>for all {1}"
+msgstr "Change to <color=yellow>{0}</color> for {1}"
+
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+#, fuzzy
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})<color> for {2}"
+msgstr "Change to <color=yellow>{0}</color> for {1}"
+
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+#, fuzzy
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgstr "Change to <color=yellow>{0}</color> for {1}"
+
+#: /Language/Interface/Record[Key='ChangeSettingToForIn']
+#, fuzzy
+msgctxt "Interface.ChangeSettingToForIn"
+msgid "Change to <color=yellow>{0}</color> for {3} <color=yellow>({2})</color> in {1}"
+msgstr "Change to <color=yellow>{0}</color> for {1}"
+
 #: /Language/Interface/Record[Key='ChangeSettingToFor']
 msgctxt "Interface.ChangeSettingToFor"
 msgid "Change to <color=yellow>{0}</color> for {1}"
@@ -157,10 +191,22 @@ msgctxt "Interface.HoldForPreviousObject"
 msgid "Hold {KEY:QuantityModifier} for previous object"
 msgstr "Hold {KEY:QuantityModifier} for previous object"
 
+#: /Language/Interface/Record[Key='ChangeSettingToAll']
+#, fuzzy
+msgctxt "Interface.ChangeSettingToAll"
+msgid "Change to All {0}"
+msgstr "Change to {0}"
+
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"
 msgid "Change to {0}"
 msgstr "Change to {0}"
+
+#: /Language/Interface/Record[Key='LogicNoWritableDevices']
+#, fuzzy
+msgctxt "Interface.LogicNoWritableDevices"
+msgid "No other writable devices on network"
+msgstr "No other readable devices on network"
 
 #: /Language/Interface/Record[Key='LogicNoReadableTypes']
 msgctxt "Interface.LogicNoReadableTypes"
@@ -176,6 +222,28 @@ msgstr "No other readable devices on network"
 msgctxt "Interface.RequiresScrewdriver"
 msgid "You need a {THING:ItemScrewdriver} to change settings"
 msgstr "You need a {THING:ItemScrewdriver} to change settings"
+
+#: /Language/Interface/Record[Key='LogicNoAdditionalSlotsFor']
+msgctxt "Interface.LogicNoAdditionalSlotsFor"
+msgid "No additional slots for {0}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicNoAvailableSlots']
+#, fuzzy
+msgctxt "Interface.LogicNoAvailableSlots"
+msgid "<color=red>No available slots</color>"
+msgstr "<color=red>구성 할수 없습니다</color>."
+
+#: /Language/Interface/Record[Key='LogicNoSlot']
+#, fuzzy
+msgctxt "Interface.LogicNoSlot"
+msgid "<color=red>No Slot</color>"
+msgstr "<color=red>{0}이(가) 부족 합니다. </color>."
+
+#: /Language/Interface/Record[Key='LogicNoAdditionalSettingsFor']
+msgctxt "Interface.LogicNoAdditionalSettingsFor"
+msgid "No additional settings for {0}"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicNoSetting']
 msgctxt "Interface.LogicNoSetting"
@@ -745,10 +813,10 @@ msgctxt "Interface.PromptQuitConfirm"
 msgid "Quit"
 msgstr "종료"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "게임을 종료하시겠습니까?"
+#: /Language/Interface/Record[Key='HeadingHelp']
+msgctxt "Interface.HeadingHelp"
+msgid "help"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PromptQuitTitle']
 msgctxt "Interface.PromptQuitTitle"
@@ -776,10 +844,10 @@ msgctxt "Interface.PromptResetSettingsConfirm"
 msgid "Reset"
 msgstr "복구"
 
-#: /Language/Interface/Record[Key='HeadingHelp']
-msgctxt "Interface.HeadingHelp"
-msgid "help"
-msgstr ""
+#: /Language/Interface/Record[Key='PromptResetSettingsBody']
+msgctxt "Interface.PromptResetSettingsBody"
+msgid "Are you sure?"
+msgstr "계속 진행하시겠습니까?"
 
 #: /Language/Interface/Record[Key='PromptResetSettingsTitle']
 msgctxt "Interface.PromptResetSettingsTitle"
@@ -1472,10 +1540,10 @@ msgctxt "Interface.JoinMenuInputAddressTitle"
 msgid "Address"
 msgstr "주소"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListRefreshing']
-msgctxt "Interface.JoinMenuServerListRefreshing"
-msgid "Refreshing Server List"
-msgstr "새로고침"
+#: /Language/Interface/Record[Key='ButtonLoad']
+msgctxt "Interface.ButtonLoad"
+msgid "Load"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerListVersion']
 msgctxt "Interface.JoinMenuServerListVersion"
@@ -1522,9 +1590,9 @@ msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "삭제"
 
-#: /Language/Interface/Record[Key='ButtonLoad']
-msgctxt "Interface.ButtonLoad"
-msgid "Load"
+#: /Language/Interface/Record[Key='HeadingEdit']
+msgctxt "Interface.HeadingEdit"
+msgid "Edit"
 msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
@@ -1542,10 +1610,10 @@ msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "플레이시간:"
 
-#: /Language/Interface/Record[Key='HeadingEdit']
-msgctxt "Interface.HeadingEdit"
-msgid "Edit"
-msgstr ""
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "저장날짜:"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -1614,7 +1682,6 @@ msgid "Library"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
-#, fuzzy
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
 msgstr ""
@@ -1632,7 +1699,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='SettingsInterface']
 #, fuzzy
 msgctxt "Interface.SettingsInterface"
-msgid "Interface\n"
+msgid "Interface"
 msgstr "내부"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
@@ -1674,15 +1741,15 @@ msgctxt "Interface.WarningControlConflictDescription"
 msgid "Please visit the control assignment window and clear conflicts"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptResetSettingsBody']
-msgctxt "Interface.PromptResetSettingsBody"
-msgid "Are you sure?"
-msgstr "계속 진행하시겠습니까?"
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "게임을 종료하시겠습니까?"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "저장날짜:"
+#: /Language/Interface/Record[Key='WorldInfoTextVersion']
+msgctxt "Interface.WorldInfoTextVersion"
+msgid "Version:"
+msgstr "버전:"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "
