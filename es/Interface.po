@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-19 20:17+0000\n"
+"PO-Revision-Date: 2018-11-19 20:22+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -153,12 +153,12 @@ msgstr "Dispersión atmosférica"
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
 msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr ""
+msgstr "No puede interactuar porque no tiene la tarjeta {SLOT:AccessCard} requerida."
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
 msgid "Interaction temporarily disabled on this object"
-msgstr ""
+msgstr "Interacción temporalmente desactivada en este objeto"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForAll']
 msgctxt "Interface.ChangeSettingToForAll"
@@ -176,10 +176,9 @@ msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 msgstr "Cambiar a {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
-#, fuzzy
 msgctxt "Interface.ChangeSettingToForIn"
 msgid "Change to <color=yellow>{0}</color> for {3} <color=yellow>({2})</color> in {1}"
-msgstr "Cambiar a <color=yellow>{0}</color> for {1}"
+msgstr "Cambiar a <color=yellow>{0}</color> para {3} <color=yellow>({2})</color> en {1}"
 
 #: /Language/Interface/Record[Key='ChangeSettingToFor']
 msgctxt "Interface.ChangeSettingToFor"
@@ -192,10 +191,9 @@ msgid "Hold {KEY:QuantityModifier} for previous object"
 msgstr "Mantenga pulsada  {KEY:QuantityModifier} para el objeto anterior"
 
 #: /Language/Interface/Record[Key='ChangeSettingToAll']
-#, fuzzy
 msgctxt "Interface.ChangeSettingToAll"
 msgid "Change to All {0}"
-msgstr "Cambiar a {0}"
+msgstr "Cambiar todo a {0}"
 
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"
@@ -203,7 +201,6 @@ msgid "Change to {0}"
 msgstr "Cambiar a {0}"
 
 #: /Language/Interface/Record[Key='LogicNoWritableDevices']
-#, fuzzy
 msgctxt "Interface.LogicNoWritableDevices"
 msgid "No other writable devices on network"
 msgstr "No hay otros dispositivos legibles en la red"
@@ -226,24 +223,22 @@ msgstr "Necesitas un {THING:ItemScrewdriver} para cambiar la configuración"
 #: /Language/Interface/Record[Key='LogicNoAdditionalSlotsFor']
 msgctxt "Interface.LogicNoAdditionalSlotsFor"
 msgid "No additional slots for {0}"
-msgstr ""
+msgstr "No hay ranuras adicionales para {0}"
 
 #: /Language/Interface/Record[Key='LogicNoAvailableSlots']
-#, fuzzy
 msgctxt "Interface.LogicNoAvailableSlots"
 msgid "<color=red>No available slots</color>"
 msgstr "<color=red>Incapaz de construir</color>."
 
 #: /Language/Interface/Record[Key='LogicNoSlot']
-#, fuzzy
 msgctxt "Interface.LogicNoSlot"
 msgid "<color=red>No Slot</color>"
-msgstr "<color=red>Necesita más {0}</color>."
+msgstr "<color=red>Sin Ranura</color>"
 
 #: /Language/Interface/Record[Key='LogicNoAdditionalSettingsFor']
 msgctxt "Interface.LogicNoAdditionalSettingsFor"
 msgid "No additional settings for {0}"
-msgstr ""
+msgstr "No hay ajustes adicionales para {0}"
 
 #: /Language/Interface/Record[Key='LogicNoSetting']
 msgctxt "Interface.LogicNoSetting"
@@ -1694,7 +1689,6 @@ msgid "Disable Water Visualizer"
 msgstr "Desactivar el visualizador de agua"
 
 #: /Language/Interface/Record[Key='SettingsInterface']
-#, fuzzy
 msgctxt "Interface.SettingsInterface"
 msgid "Interface"
 msgstr "Interfaz"
