@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-21 10:03+0000\n"
+"PO-Revision-Date: 2018-11-21 10:10+0000\n"
 "Last-Translator: EmreAdv <emrecabi85@gmail.com>\n"
 "Language: tr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -599,31 +599,35 @@ msgid ""
 "Flashpoint{POS:300}{1}\n"
 "Autoignition{POS:300}{2}{3}{/LIST}"
 msgstr ""
+"{HEADER:Sıcaklık Sınırları}\n"
+"{LIST}Bozulma {POS:300}{0}\n"
+"Yanma Noktası{POS:300}{1}\n"
+"Tutuşma Noktası{POS:300}{2}{3}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypePageTemplate']
 msgctxt "HelpPage.LogicTypePageTemplate"
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotHeaderTemplate']
 msgctxt "HelpPage.ThingSlotHeaderTemplate"
 msgid "{HEADER:Slots}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Yuvalar}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotItemTemplate']
 msgctxt "HelpPage.ThingSlotItemTemplate"
 msgid "{0}. {POS:100}{1} {POS:300}Type {2}"
-msgstr ""
+msgstr "{0}. {POS:100}{1} {POS:300}Tür {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingStackTemplate']
 msgctxt "HelpPage.ThingStackTemplate"
 msgid "Stack Size {POS:300}{0}"
-msgstr ""
+msgstr "İstif Boyutu {POS:300}{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingNutritionTemplate']
 msgctxt "HelpPage.ThingNutritionTemplate"
 msgid "Max Nutrition {POS:300}{0}"
-msgstr ""
+msgstr "En Fazla Beslenme {POS:300}{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='IceMeltingTemplate']
 msgctxt "HelpPage.IceMeltingTemplate"
@@ -631,6 +635,8 @@ msgid ""
 "Melt Temperature {POS:300}{1}\n"
 "Melt Pressure {POS:300}{0}"
 msgstr ""
+"Erime Sıcaklığı {POS:300}{1}\n"
+"Erime Basıncı {POS:300}{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorsHeaderTemplate']
 msgctxt "HelpPage.CreatorsHeaderTemplate"
