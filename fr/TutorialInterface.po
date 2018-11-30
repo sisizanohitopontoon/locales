@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-30 20:43+0000\n"
+"PO-Revision-Date: 2018-11-30 20:52+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -275,7 +275,6 @@ msgid "Repair Broken Cable"
 msgstr "Réparer le câble brulé"
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable1']
-#, fuzzy
 msgctxt "Interface.TutorialDescRepairCable1"
 msgid ""
 "A {THING:StructureCableStraight} can transport both {COLORYELLOW:Data} and {COLORYELLOW:Power}, but they will break if more power is put through it than it is rated for. There is a broken {THING:StructureCableJunction} somewhere below the {THING:StructureAirlock} you just came out of, find it and remove by using a {THING:ItemWireCutters} from your {THING:ItemToolBelt}.\n"
@@ -284,8 +283,11 @@ msgid ""
 "\n"
 "If you find you have too many windows open, you can close them all at once using {KEY:HideAllWindows}, you can toggle the individual window with their slot hotkey, or you can click on the slot itself while the mouse is enabled with {KEY:MouseControl}."
 msgstr ""
-"Il y a un {THING:StructureCableJunction} brulé, trouver et supprimer le en utilisant une {THING:ItemWireCutters} dans votre {THING:ItemToolBelt}. Appuiez sur {KEY:ToolBeltSlot} pour ouvrir votre "
-"{SLOT:Belt} . Appuiez sur {KEY:InventorySelect} pour échanger l'objet de la fente intérieure en surbrillance à vos mains."
+"Un {THING: StructureCableStraight} peut transporter simultanément {COLORYELLOW: Données} et {COLORYELLOW: Energie}, mais ils bruleront si trop de puissance passe au travers d'eux. Il y a une {THING:StructureCableJunction} brulé quelque part en dessous de la {THING: StructureAirlock} que vous venez de quitter, retrouver la panne et réparer la en utilisant un {THING:ItemWireCutters} à partir de votre {THING:ItemToolBelt}.\n"
+"      \n"
+"Rappelez-vous qu'il existe deux façons d'interagir avec votre {LINK: InventoryPage; Inventory}. Vous pouvez appuyer sur {KEY: MouseControl} pour activer le curseur de la souris, puis glisser-déposer ou ouvrir des choses avec la souris. Pour un contrôle rapide, appuyez sur {KEY: ToolBeltSlot} pour ouvrir votre emplacement {SLOT: Belt}. Appuyez sur {KEY: InventorySelect} pour permuter l'élément d'emplacement intérieur en surbrillance sur vos mains.\n"
+"\n"
+"Si vous trouvez que vous avez trop de fenêtres ouvertes, vous pouvez les fermer tout à la fois en utilisant {KEY: HideAllWindows}, vous pouvez basculer la fenêtre individuelle avec leur raccourci de fente, ou vous pouvez cliquer sur l'emplacement lui-même alors que la souris est activée avec {KEY:MouseControl}."
 
 #: /Language/Interface/Record[Key='TutorialTaskRepairCable1']
 msgctxt "Interface.TutorialTaskRepairCable1"
@@ -464,12 +466,13 @@ msgid "Bake a {THING:ItemMuffin}"
 msgstr "Faire cuire un {THING:ItemMuffin}"
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin1']
-#, fuzzy
 msgctxt "Interface.TutorialDescBakeMuffin1"
 msgid ""
 "Some devices in the game are mounted on {THING:StructureBench}s; they are called {LINK:AppliancePage;Appliances}. Pickup the {THING:ApplianceMicrowave} and walk in front of the "
 "{THING:StructureBench}."
-msgstr "Certains appareils du jeu sont montés sur {THING:StructureBench}s; ils sont appelés appareils. Ramasse le {THING:ApplianceMicrowave} et placez vous devant le {THING:StructureBench}."
+msgstr ""
+"Certains appareils du jeu sont montés sur {THING:StructureBench} ; ce sont les {LINK:AppliancePage;Equipements}. Ramasse le {THING:ApplianceMicrowave} et placez vous devant le "
+"{THING:StructureBench}."
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin2']
 msgctxt "Interface.TutorialDescBakeMuffin2"
@@ -477,8 +480,8 @@ msgid ""
 "Press the {KEY:Drop} key to drop the {THING:ApplianceMicrowave} on top of the {THING:StructureBench}. Keep doing this until the {THING:ApplianceMicrowave} is sitting on top of the "
 "{THING:StructureBench}."
 msgstr ""
-"appuie sur la touche {KEY:Drop} pour laisser tomber la {THING:ApplianceMicrowave} au-dessus de la {THING:StructureBench}. Continuez à faire cela jusqu'à ce que {THING:ApplianceMicrowave} est assis "
-"sur le dessus de la {THING:StructureBench}."
+"Appuyer sur la touche {KEY:Drop} pour laisser tomber le {THING:ApplianceMicrowave} au-dessus de la {THING:StructureBench}. Continuez à faire cela jusqu'à ce que {THING:ApplianceMicrowave} soit poser"
+" dessus de la {THING:StructureBench}."
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin3']
 #, fuzzy
