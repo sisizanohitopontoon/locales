@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-30 21:12+0000\n"
+"PO-Revision-Date: 2018-11-30 21:18+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -310,14 +310,13 @@ msgid "Replace with a {THING:StructureCableJunction} from the {THING:ItemCableCo
 msgstr "Remplacer le par un {THING:StructureCableJunction} de la {THING:ItemCableCoil}"
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable2']
-#, fuzzy
 msgctxt "Interface.TutorialDescRepairCable2"
 msgid ""
 "Look at the {THING:StructureCableJunctionBurnt} while the {THING:ItemWireCutters} are in your active hand. You will see a {COLORYELLOW:yellow} box around it. Press and hold {KEY:PrimaryAction} to "
 "remove the {THING:StructureCableJunctionBurnt}."
 msgstr ""
-"Regarde le {THING:StructureCableJunctionBurnt} tandis que la {THING:ItemWireCutters} êtes dans votre main active. Vous verrez une boîte autour d'elle {COLORYELLOW:yellow} . Appuyez et maintenez "
-"{COLORRED:Bouton gauche de la souris} pour enlever le {THING:StructureCableJunctionBurnt}."
+"Regardez le {THING: StructureCableJunctionBurnt} avec la {THING: ItemWireCutters} dans votre main active. Vous verrez une boîte {COLORYELLOW:jaune} autour de lui. Maintenez enfoncée la touche "
+"{KEY:PrimaryAction} pour supprimer le {THING: StructureCableJunctionBurnt}."
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable3']
 msgctxt "Interface.TutorialDescRepairCable3"
@@ -328,11 +327,13 @@ msgid ""
 "      \n"
 " Remember the {KEY:InventorySelect} interacts with interior slots and actions, and the {KEY:ToolBeltSlot} key will open and close your {SLOT:Belt} slot. As always, you can bring up mouse control by pressing {KEY:MouseControl}."
 msgstr ""
-"Maintenant, nous devons placer un {THING:StructureCableJunction}. Déplacer le {THING:ItemCableCoil} de votre {THING:ItemToolBelt} à votre {SLOT:LeftHand} ou {SLOT:RightHand} . Rappelez-vous "
-"{KEY:InventorySelect} interagit avec les emplacements intérieures et les actions, et la touche {KEY:ToolBeltSlot}  ouvrira et fermera votre l emplacement de votre {SLOT:Belt} ."
+"Maintenant, nous avons besoin de placer un {THING: StructureCableJunction}. Déplacez le {THING: ItemCableCoil} de votre {THING: ItemToolBelt} vers votre {SLOT: gaucher} ou {SLOT: droite}.\n"
+"      \n"
+"Vous pourriez avoir besoin de libérer vos mains en déplaçant le {THING: ItemSteelSheets} dans votre sac à dos. Vous pourriez les laisser tomber, mais vous en aurez besoin plus tard!\n"
+"      \n"
+"N'oubliez pas la touche {KEY:InventorySelect} interagit avec les emplacements intérieures et les actions, et la touche {KEY: ToolBeltSlot} s'ouvrira et fermera votre emplacement {SLOT: Belt}. Comme toujours, vous pouvez mettre en place le contrôle de la souris en appuyant sur {KEY: MouseControl}."
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable4']
-#, fuzzy
 msgctxt "Interface.TutorialDescRepairCable4"
 msgid ""
 "With the {THING:ItemCableCoil} in your {COLORYELLOW:Active Hand}, press {KEY:SecondaryAction} to bring up the {LINK:ConstructionPage;construction} cursor.\n"
@@ -343,11 +344,13 @@ msgid ""
 "\n"
 "Press {KEY:QuantityModifier} and the object will attempt its best connection placement, otherwise you can use custom rotation keys."
 msgstr ""
-"Avec le {THING:ItemCableCoil} dans votre main active, appuyer sur le {COLORRED:Bouton droit de la souris} pour faire apparaître le curseur de construction.\n"
+"Avec du {THING: ItemCableCoil} dans votre {COLORYELLOW:main active}, appuyez sur {KEY: SecondaryAction} pour mettre en place le curseur {LINK: ConstructionPage; construction}.\n"
 "\n"
-"utiliser la {COLORRED:Roulette de la souris} pour changer le type d'emplacement, sélectionner le {THING:StructureCableJunction} variante.\n"
+"Utilisez la {COLORRED: molette de la souris} pour modifier le type de placement, en sélectionnant la variante {THING: StructureCableJunction}.\n"
 "\n"
-"Appuiez {KEY:RotateLeft} tourner à gauche, {KEY:RotateRight} tourner à droite, {KEY:RotateUp} pour tourner vers le haut, {KEY:RotateDown} pour tourner vers le bas, {KEY:RotateRollLeft} rouler à gauche, or {KEY:RotateRollRight} rouler à droite."
+"Votre plan de placement contient des informations de connexion importantes, les petits symboles plus indiquent que l'élément se connecte à un réseau câblé ici. Assurez-vous que votre connexion s'aligne exactement.\n"
+"\n"
+"Appuyez sur {KEY: QuantityModifier} et l'objet essaiera son meilleur positionnement de connexion, sinon vous pouvez utiliser des touches de rotation personnalisées."
 
 #: /Language/Interface/Record[Key='TutorialTitleFinishFrame']
 msgctxt "Interface.TutorialTitleFinishFrame"
