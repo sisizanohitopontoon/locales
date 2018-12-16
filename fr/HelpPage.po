@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-16 10:10+0000\n"
+"PO-Revision-Date: 2018-12-16 10:15+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,7 +64,7 @@ msgstr ""
 "{LIST}{LINK:ToolPage;Outils}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Aliments}, {LINK:ClothingPage;Vetements}, {LINK:AppliancePage;Appareils electromenagers}, {LINK:IngotPage;Lingots}, {LINK:OrePage;Minerais}, {LINK:AlloyPage;Alliages}\n"
 "{/LIST}\n"
 "{HEADER:Structures}\n"
-"{LIST}{LINK:DevicePage;Dispositifs}, {LINK:FabricatorPage;Machines}, {LINK:AirlockDevicePage;Dispositifs de sas}, {LINK:LogicUnitPage;Unites logiques}{/LIST}"
+"{LIST}{LINK:DevicePage;Dispositifs}, {LINK:FabricatorPage;Machines}, {LINK:AirlockDevicePage;Dispositifs de sas}, {LINK:LogicUnitPage;Unites logiques}{/LIST}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='GettingStarted']
 msgctxt "HelpPage.GettingStarted"
@@ -149,7 +149,7 @@ msgstr ""
 "Vous pouvez directement insérer de la {LINK:IcePage;glace} dans la partie supérieure. S'il n'y a pas d'atmosphère pour les fondre, appuyez sur le bouton {LOGICTYPE:Activate} pour l'écraser. La glace fondra automatiquement s'il y a suffisamment de gaz de la bonne température à l'intérieur. Utilisez un mélange de {THING:ItemOxite} et {THING:ItemVolatiles} pour allumer un feu à l'intérieur, bien que cela augmente considérablement la pression à l'intérieur.\n"
 "\n"
 "Une fois que la température est correcte, insérez les minerais pour les fondre - mais surveillez vos ratios ou vos déchets apparaîtront sous la forme {THING:ItemReagentMix} qui devra être trié dans un {THING:StructureCentrifuge}. Pour récupérer la production, tirez la poignée {LOGICTYPE:Open}.\n"
-"{/LIST}"
+"{/LIST}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='InventoryPage']
 msgctxt "HelpPage.InventoryPage"
@@ -213,7 +213,7 @@ msgstr ""
 "      \n"
 "{HEADER:Liste des dispositifs de sas}\n"
 "Les appareils suivants peuvent être connectés et utilisés par le système de contrôle du sas:\n"
-"{LIST_OF_AIRLOCK_DEVICES}"
+"{LIST_OF_AIRLOCK_DEVICES}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicUnitPage']
 msgctxt "HelpPage.LogicUnitPage"
@@ -277,7 +277,7 @@ msgstr ""
 "Ce sont des structures motorisées qui peuvent être utilisées pour fabriquer ce dont vous avez besoin dans le jeu. Ils utilisent généralement des {LINK:IngotPage;lingots} pour extraire les {LINK:ReagentPage;reactifs} dont ils ont besoin pour fabriquer des objets.\n"
 "      \n"
 "{HEADER:Liste des machines}\n"
-"{LIST_OF_FABRICATORS}"
+"{LIST_OF_FABRICATORS}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
 msgctxt "HelpPage.DevicePage"
@@ -296,7 +296,7 @@ msgstr ""
 "Il s’agit de structures, généralement alimentées, dotées de fonctions spécialisées, notamment logiques, atmosphériques, etc. Ils sont construits de la même manière que les autres structures.\n"
 "      \n"
 "{HEADER:Liste des dispositifs}\n"
-"{LIST_OF_DEVICES}"
+"{LIST_OF_DEVICES}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='SmeltingPage']
 msgctxt "HelpPage.SmeltingPage"
@@ -368,7 +368,7 @@ msgid ""
 msgstr ""
 "Ce sont des quantités chimiques de certains types.\n"
 "{HEADER:Liste des reactifs}\n"
-"{LIST_OF_REAGENTS}"
+"{LIST_OF_REAGENTS}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
 msgctxt "HelpPage.GasPage"
@@ -386,7 +386,7 @@ msgid ""
 msgstr ""
 "Ce sont des gaz chimiques de certains types.\n"
 "{HEADER:Liste des gazs}\n"
-"{LIST_OF_GASES}"
+"{LIST_OF_GASES}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
 msgctxt "HelpPage.AlloyPage"
@@ -405,7 +405,7 @@ msgstr ""
 "Créés dans le {THING:StructureFurnace} à partir de mélange de {LINK:ReagentPage;reactif}, les {LINK:IngotPage;lingots} avancées pourront être utilisés dans des {LINK:FabricatorPage;machines}. Le {THING:StructureArcFurnace} n'est pas capable de les fondre.\n"
 "\n"
 "{HEADER:Liste des alliages}\n"
-"{LIST_OF_ALLOYS}"
+"{LIST_OF_ALLOYS}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
 msgctxt "HelpPage.OrePage"
@@ -430,7 +430,7 @@ msgstr ""
 "Certains minerais fondent lorsqu'ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gazs}. Par exemple, la {THING:ItemIce} fond en {GAS:Water} et {GAS:Oxygen}. Veillez à les garder à l'abri de la chaleur ou de la lumière du soleil jusqu'à ce que vous souhaitiez réellement les faire fondre.\n"
 "      \n"
 "{HEADER:Liste des minerais}\n"
-"{LIST_OF_ORES}"
+"{LIST_OF_ORES}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
 msgctxt "HelpPage.IngotPage"
@@ -448,7 +448,7 @@ msgid ""
 msgstr ""
 "Ce sont des éléments généralement fabriqués à partir de {LINK:SmeltingPage;fonte} et de {LINK:OrePage;minerais}.\n"
 "{HEADER:Liste des lingots}\n"
-"{LIST_OF_INGOTS}"
+"{LIST_OF_INGOTS}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
 msgctxt "HelpPage.ToolPage"
@@ -484,7 +484,7 @@ msgid ""
 msgstr ""
 "Il s’agit d’éléments consommés lors de la {LINK:ConstructionPage;construction} et d’autres tâches.\n"
 "{HEADER:Liste des ressources}\n"
-"{LIST_OF_RESOURCES}"
+"{LIST_OF_RESOURCES}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
 msgctxt "HelpPage.KitPage"
@@ -502,7 +502,7 @@ msgid ""
 msgstr ""
 "Il s’agit d’éléments consommés lors de la {LINK:ConstructionPage;construction} et d’autres tâches.      \n"
 "{HEADER:Liste des Kits}\n"
-"{LIST_OF_KITS}"
+"{LIST_OF_KITS}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='FoodPage']
 msgctxt "HelpPage.FoodPage"
@@ -520,7 +520,7 @@ msgid ""
 msgstr ""
 "Ce sont des éléments qui sont consommés pour fournir de la nutrition.\n"
 "{HEADER:Liste des aliments}\n"
-"{LIST_OF_FOOD}"
+"{LIST_OF_FOOD}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='ClothingPage']
 msgctxt "HelpPage.ClothingPage"
@@ -538,7 +538,7 @@ msgid ""
 msgstr ""
 "Ce sont des objets que les entités peuvent porter.\n"
 "{HEADER:Liste des vetements}\n"
-"{LIST_OF_CLOTHING}"
+"{LIST_OF_CLOTHING}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='AppliancePage']
 msgctxt "HelpPage.AppliancePage"
@@ -557,7 +557,7 @@ msgstr ""
 "Ce sont des objets qui peuvent être placés sur des plans de travail. Vous devez les placer sur un plan de travail et les connectés en utilisant une clé.\n"
 "      \n"
 "{HEADER:Liste des appareils electromenagers}\n"
-"{LIST_OF_APPLIANCES}"
+"{LIST_OF_APPLIANCES}\n"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingTemplate']
 msgctxt "HelpPage.ThingTemplate"
@@ -572,7 +572,7 @@ msgstr ""
 "\n"
 "{HEADER:General}\n"
 "{LIST}Prefab Hash {POS:300}{1}\n"
-"Paintable {POS:300}{2}{3}{/LIST}"
+"A peindre {POS:300}{2}{3}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingThermalTemplate']
 msgctxt "HelpPage.ThingThermalTemplate"
