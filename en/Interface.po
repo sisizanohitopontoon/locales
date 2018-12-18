@@ -6,10 +6,530 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='NewWorldEnableAwayMissions']
-msgctxt "Interface.NewWorldEnableAwayMissions"
-msgid "Enable Away Missions"
-msgstr "Enable Away Missions"
+#: /Language/Interface/Record[Key='LogicTypePlantHash2']
+msgctxt "Interface.LogicTypePlantHash2"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeNone']
+msgctxt "Interface.LogicSlotTypeNone"
+msgid "No description"
+msgstr "No description"
+
+#: /Language/Interface/Record[Key='LogicTypePrefabHash']
+msgctxt "Interface.LogicTypePrefabHash"
+msgid "The hash of the structure"
+msgstr "The hash of the structure"
+
+#: /Language/Interface/Record[Key='LogicTypeVelocityRelativeZ']
+msgctxt "Interface.LogicTypeVelocityRelativeZ"
+msgid "The current velocity Z relative to the forward vector of this"
+msgstr "The current velocity Z relative to the forward vector of this"
+
+#: /Language/Interface/Record[Key='LogicTypeVelocityRelativeY']
+msgctxt "Interface.LogicTypeVelocityRelativeY"
+msgid "The current velocity Y relative to the forward vector of this"
+msgstr "The current velocity Y relative to the forward vector of this"
+
+#: /Language/Interface/Record[Key='LogicTypeVelocityRelativeX']
+msgctxt "Interface.LogicTypeVelocityRelativeX"
+msgid "The current velocity X relative to the forward vector of this"
+msgstr "The current velocity X relative to the forward vector of this"
+
+#: /Language/Interface/Record[Key='LogicTypeVelocityMagnitude']
+msgctxt "Interface.LogicTypeVelocityMagnitude"
+msgid "The current magnitude of the velocity vector"
+msgstr "The current magnitude of the velocity vector"
+
+#: /Language/Interface/Record[Key='LogicTypePositionZ']
+msgctxt "Interface.LogicTypePositionZ"
+msgid "The current position in Z dimension in world coordinates"
+msgstr "The current position in Z dimension in world coordinates"
+
+#: /Language/Interface/Record[Key='LogicTypePositionY']
+msgctxt "Interface.LogicTypePositionY"
+msgid "The current position in Y dimension in world coordinates"
+msgstr "The current position in Y dimension in world coordinates"
+
+#: /Language/Interface/Record[Key='LogicTypePositionX']
+msgctxt "Interface.LogicTypePositionX"
+msgid "The current position in X dimension in world coordinates"
+msgstr "The current position in X dimension in world coordinates"
+
+#: /Language/Interface/Record[Key='LogicTypeAirRelease']
+msgctxt "Interface.LogicTypeAirRelease"
+msgid "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
+msgstr "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
+
+#: /Language/Interface/Record[Key='LogicTypeFiltration']
+msgctxt "Interface.LogicTypeFiltration"
+msgid "The current state of the filtration system, for example Filtration = 1 for a Hardsuit sets filtration to On"
+msgstr "The current state of the filtration system, for example Filtration = 1 for a Hardsuit sets filtration to On"
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureExternal']
+msgctxt "Interface.LogicTypeTemperatureExternal"
+msgid "The temperature of the outside of the device, usually the world atmosphere surrounding it"
+msgstr "The temperature of the outside of the device, usually the world atmosphere surrounding it"
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
+msgctxt "Interface.LogicTypeTemperatureSetting"
+msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
+msgstr "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
+
+#: /Language/Interface/Record[Key='LogicTypePressureSetting']
+msgctxt "Interface.LogicTypePressureSetting"
+msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
+msgstr "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
+
+#: /Language/Interface/Record[Key='LogicTypeOutput']
+msgctxt "Interface.LogicTypeOutput"
+msgid "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
+msgstr "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
+
+#: /Language/Interface/Record[Key='LogicTypeHarvest']
+msgctxt "Interface.LogicTypeHarvest"
+msgid "Performs the harvesting action for any plant based machinery"
+msgstr "Performs the harvesting action for any plant based machinery"
+
+#: /Language/Interface/Record[Key='LogicTypePlant']
+msgctxt "Interface.LogicTypePlant"
+msgid "Performs the planting action for any plant based machinery"
+msgstr "Performs the planting action for any plant based machinery"
+
+#: /Language/Interface/Record[Key='LogicTypeVolume']
+msgctxt "Interface.LogicTypeVolume"
+msgid "Returns the device atmosphere volume"
+msgstr "Returns the device atmosphere volume"
+
+#: /Language/Interface/Record[Key='LogicTypeTotalMoles']
+msgctxt "Interface.LogicTypeTotalMoles"
+msgid "Returns the total moles of the device"
+msgstr "Returns the total moles of the device"
+
+#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
+msgctxt "Interface.LogicTypePowerGeneration"
+msgid "Returns how much power is being generated"
+msgstr "Returns how much power is being generated"
+
+#: /Language/Interface/Record[Key='LogicTypeImportCount']
+msgctxt "Interface.LogicTypeImportCount"
+msgid "How many items imported since last ClearMemory"
+msgstr "How many items imported since last ClearMemory"
+
+#: /Language/Interface/Record[Key='LogicTypeExportCount']
+msgctxt "Interface.LogicTypeExportCount"
+msgid "How many items exported since last ClearMemory"
+msgstr "How many items exported since last ClearMemory"
+
+#: /Language/Interface/Record[Key='LogicTypeClearMemory']
+msgctxt "Interface.LogicTypeClearMemory"
+msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+msgstr "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+
+#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
+msgctxt "Interface.LogicTypeCompletionRatio"
+msgid "How complete the current production is for this device, between 0 and 1"
+msgstr "How complete the current production is for this device, between 0 and 1"
+
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, requests an item of the provided type from the device"
+msgstr "When set to the unique identifier, requests an item of the provided type from the device"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash4']
+msgctxt "Interface.LogicTypePlantHash4"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash3']
+msgctxt "Interface.LogicTypePlantHash3"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
+msgctxt "Interface.LogicSlotTypeOccupied"
+msgid "returns 0 when slot is not occupied, 1 when it is"
+msgstr "returns 0 when slot is not occupied, 1 when it is"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeOccupantHash']
+msgctxt "Interface.LogicSlotTypeOccupantHash"
+msgid "returns the has of the current occupant, the unique identifier of the thing"
+msgstr "returns the has of the current occupant, the unique identifier of the thing"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash1']
+msgctxt "Interface.LogicTypePlantHash1"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
+msgctxt "Interface.LogicTypePlantEfficiency3"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency2']
+msgctxt "Interface.LogicTypePlantEfficiency2"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency1']
+msgctxt "Interface.LogicTypePlantEfficiency1"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantGrowth4']
+msgctxt "Interface.LogicTypePlantGrowth4"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantGrowth3']
+msgctxt "Interface.LogicTypePlantGrowth3"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantGrowth2']
+msgctxt "Interface.LogicTypePlantGrowth2"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantGrowth1']
+msgctxt "Interface.LogicTypePlantGrowth1"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHealth4']
+msgctxt "Interface.LogicTypePlantHealth4"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHealth3']
+msgctxt "Interface.LogicTypePlantHealth3"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHealth2']
+msgctxt "Interface.LogicTypePlantHealth2"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHealth1']
+msgctxt "Interface.LogicTypePlantHealth1"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypeImportSlotHash']
+msgctxt "Interface.LogicTypeImportSlotHash"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypeExportSlotHash']
+msgctxt "Interface.LogicTypeExportSlotHash"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypeRecipeHash']
+msgctxt "Interface.LogicTypeRecipeHash"
+msgid "Current hash of the recipe the device is set to produce"
+msgstr "Current hash of the recipe the device is set to produce"
+
+#: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
+msgctxt "Interface.LogicTypeElevatorLevel"
+msgid "Level the elevator is currently at"
+msgstr "Level the elevator is currently at"
+
+#: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
+msgctxt "Interface.LogicTypeElevatorSpeed"
+msgid "Current speed of the elevator"
+msgstr "Current speed of the elevator"
+
+#: /Language/Interface/Record[Key='LogicTypeColor']
+msgctxt "Interface.LogicTypeColor"
+msgid "The color setting for the device, represented as an integer"
+msgstr "The color setting for the device, represented as an integer"
+
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr "Returns 1 if the device is currently idle, otherwise 0"
+
+#: /Language/Interface/Record[Key='LogicTypePowerRequired']
+msgctxt "Interface.LogicTypePowerRequired"
+msgid "Power requested from the device and/or network"
+msgstr "Power requested from the device and/or network"
+
+#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
+msgctxt "Interface.LogicTypeVerticalRatio"
+msgid "Radio of vertical setting for device"
+msgstr "Radio of vertical setting for device"
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
+msgstr "Radio of horizontal setting for device"
+
+#: /Language/Interface/Record[Key='LogicTypeRequiredPower']
+msgctxt "Interface.LogicTypeRequiredPower"
+msgid "Idle operating power quantity, does not necessarily include extra demand power"
+msgstr "Idle operating power quantity, does not necessarily include extra demand power"
+
+#: /Language/Interface/Record[Key='LogicTypeExportSlotOccupant']
+msgctxt "Interface.LogicTypeExportSlotOccupant"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
+msgstr "Total quantity of items exported by the device"
+
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
+msgctxt "Interface.LogicTypeImportQuantity"
+msgid "Total quantity of items imported by the device"
+msgstr "Total quantity of items imported by the device"
+
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr "The current state of the device, 0 for off, 1 for on"
+
+#: /Language/Interface/Record[Key='LogicTypeQuantity']
+msgctxt "Interface.LogicTypeQuantity"
+msgid "Total quantity on the device"
+msgstr "Total quantity on the device"
+
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
+msgstr "How much energy the device or network is actually using"
+
+#: /Language/Interface/Record[Key='LogicTypePowerPotential']
+msgctxt "Interface.LogicTypePowerPotential"
+msgid "How much energy the device or network potentially provides"
+msgstr "How much energy the device or network potentially provides"
+
+#: /Language/Interface/Record[Key='LogicTypeRatio']
+msgctxt "Interface.LogicTypeRatio"
+msgid "Context specific value depending on device, 0 to 1 based ratio"
+msgstr "Context specific value depending on device, 0 to 1 based ratio"
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
+msgstr "Maximum setting of the device"
+
+#: /Language/Interface/Record[Key='LogicTypeSolarAngle']
+msgctxt "Interface.LogicTypeSolarAngle"
+msgid "Solar angle of the device"
+msgstr "Solar angle of the device"
+
+#: /Language/Interface/Record[Key='LogicTypeVertical']
+msgctxt "Interface.LogicTypeVertical"
+msgid "Vertical setting of the device"
+msgstr "Vertical setting of the device"
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontal']
+msgctxt "Interface.LogicTypeHorizontal"
+msgid "Horizontal setting of the device"
+msgstr "Horizontal setting of the device"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxide']
+msgctxt "Interface.LogicTypeRatioNitrousOxide"
+msgid "The ratio of nitrous oxide in device atmosphere"
+msgstr "The ratio of nitrous oxide in device atmosphere"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioWater']
+msgctxt "Interface.LogicTypeRatioWater"
+msgid "The ratio of water in device atmosphere"
+msgstr "The ratio of water in device atmosphere"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioVolatiles']
+msgctxt "Interface.LogicTypeRatioVolatiles"
+msgid "The ratio of volatiles in device atmosphere"
+msgstr "The ratio of volatiles in device atmosphere"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
+msgctxt "Interface.LogicTypeRatioPollutant"
+msgid "The ratio of pollutant in device atmosphere"
+msgstr "The ratio of pollutant in device atmosphere"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrogen']
+msgctxt "Interface.LogicTypeRatioNitrogen"
+msgid "The ratio of nitrogen in device atmosphere"
+msgstr "The ratio of nitrogen in device atmosphere"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
+msgctxt "Interface.LogicTypeRatioCarbonDioxide"
+msgid "The ratio of co2 in device atmosphere"
+msgstr "The ratio of co2 in device atmosphere"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioOxygen']
+msgctxt "Interface.LogicTypeRatioOxygen"
+msgid "The ratio of oxygen in device atmosphere"
+msgstr "The ratio of oxygen in device atmosphere"
+
+#: /Language/Interface/Record[Key='LogicTypeReagents']
+msgctxt "Interface.LogicTypeReagents"
+msgid "Total number of reagents recorded by the device"
+msgstr "Total number of reagents recorded by the device"
+
+#: /Language/Interface/Record[Key='LogicTypeSetting']
+msgctxt "Interface.LogicTypeSetting"
+msgid "A variable setting that can be read or written, depending on the device"
+msgstr "A variable setting that can be read or written, depending on the device"
+
+#: /Language/Interface/Record[Key='LogicTypeCharge']
+msgctxt "Interface.LogicTypeCharge"
+msgid "The current charge the device has"
+msgstr "The current charge the device has"
+
+#: /Language/Interface/Record[Key='LogicTypeActivate']
+msgctxt "Interface.LogicTypeActivate"
+msgid "1 if device is activated (usually means running), otherwise 0"
+msgstr "1 if device is activated (usually means running), otherwise 0"
+
+#: /Language/Interface/Record[Key='LogicTypePressureInternal']
+msgctxt "Interface.LogicTypePressureInternal"
+msgid "Setting for internal pressure safety, in KPa"
+msgstr "Setting for internal pressure safety, in KPa"
+
+#: /Language/Interface/Record[Key='LogicTypePressureExternal']
+msgctxt "Interface.LogicTypePressureExternal"
+msgid "Setting for external pressure safety, in KPa"
+msgstr "Setting for external pressure safety, in KPa"
+
+#: /Language/Interface/Record[Key='LogicTypeTemperature']
+msgctxt "Interface.LogicTypeTemperature"
+msgid "The current temperature reading of the device"
+msgstr "The current temperature reading of the device"
+
+#: /Language/Interface/Record[Key='LogicTypePressure']
+msgctxt "Interface.LogicTypePressure"
+msgid "The current pressure reading of the device"
+msgstr "The current pressure reading of the device"
+
+#: /Language/Interface/Record[Key='LogicTypeLock']
+msgctxt "Interface.LogicTypeLock"
+msgid "1 if device is locked, otherwise 0, can be set in most devices and prevents the user from access the values"
+msgstr "1 if device is locked, otherwise 0, can be set in most devices and prevents the user from access the values"
+
+#: /Language/Interface/Record[Key='LogicTypeError']
+msgctxt "Interface.LogicTypeError"
+msgid "1 if device is in error state, otherwise 0"
+msgstr "1 if device is in error state, otherwise 0"
+
+#: /Language/Interface/Record[Key='LogicTypeMode']
+msgctxt "Interface.LogicTypeMode"
+msgid "Integer for mode state, different devices will have different mode states available to them"
+msgstr "Integer for mode state, different devices will have different mode states available to them"
+
+#: /Language/Interface/Record[Key='LogicTypeOpen']
+msgctxt "Interface.LogicTypeOpen"
+msgid "1 if device is open, otherwise 0"
+msgstr "1 if device is open, otherwise 0"
+
+#: /Language/Interface/Record[Key='LogicTypePower']
+msgctxt "Interface.LogicTypePower"
+msgid "Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not"
+msgstr "Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not"
+
+#: /Language/Interface/Record[Key='LogicTypeNone']
+msgctxt "Interface.LogicTypeNone"
+msgid "No description"
+msgstr "No description"
+
+#: /Language/Interface/Record[Key='SettingsUserSpeakerMode']
+msgctxt "Interface.SettingsUserSpeakerMode"
+msgid "Speaker Mode: "
+msgstr "Speaker Mode: "
+
+#: /Language/Interface/Record[Key='SettingsMenuAppearance']
+msgctxt "Interface.SettingsMenuAppearance"
+msgid "Appearance"
+msgstr "Appearance"
+
+#: /Language/Interface/Record[Key='NewWorldSolarAngle']
+msgctxt "Interface.NewWorldSolarAngle"
+msgid "Solar Angle"
+msgstr "Solar Angle"
+
+#: /Language/Interface/Record[Key='NewWorldSolarEnergy']
+msgctxt "Interface.NewWorldSolarEnergy"
+msgid "Solar Energy"
+msgstr "Solar Energy"
+
+#: /Language/Interface/Record[Key='NewWorldPressure']
+msgctxt "Interface.NewWorldPressure"
+msgid "Pressure"
+msgstr "Pressure"
+
+#: /Language/Interface/Record[Key='NewWorldTemperature']
+msgctxt "Interface.NewWorldTemperature"
+msgid "Temperature"
+msgstr "Temperature"
+
+#: /Language/Interface/Record[Key='NewWorldGravity']
+msgctxt "Interface.NewWorldGravity"
+msgid "Gravity"
+msgstr "Gravity"
+
+#: /Language/Interface/Record[Key='NewWorldGameMode']
+msgctxt "Interface.NewWorldGameMode"
+msgid "Game Mode"
+msgstr "Game Mode"
+
+#: /Language/Interface/Record[Key='WarningControlConflictDescription']
+msgctxt "Interface.WarningControlConflictDescription"
+msgid "Please visit the control assignment window and clear conflicts"
+msgstr "Please visit the control assignment window and clear conflicts"
+
+#: /Language/Interface/Record[Key='WarningControlConflict']
+msgctxt "Interface.WarningControlConflict"
+msgid "Controls Conflict"
+msgstr "Controls Conflict"
+
+#: /Language/Interface/Record[Key='SettingsSoundFX']
+msgctxt "Interface.SettingsSoundFX"
+msgid "Sound FX"
+msgstr "Sound FX"
+
+#: /Language/Interface/Record[Key='InvalidDegrees']
+msgctxt "Interface.InvalidDegrees"
+msgid "Nil"
+msgstr "Nil"
+
+#: /Language/Interface/Record[Key='SettingsClouds']
+msgctxt "Interface.SettingsClouds"
+msgid "Enable Clouds"
+msgstr "Enable Clouds"
+
+#: /Language/Interface/Record[Key='SettingsEnableClouds']
+msgctxt "Interface.SettingsEnableClouds"
+msgid "Enable Clouds"
+msgstr "Enable Clouds"
+
+#: /Language/Interface/Record[Key='SettingsUPNPEnabled']
+msgctxt "Interface.SettingsUPNPEnabled"
+msgid "Enable UPNP"
+msgstr "Enable UPNP"
+
+#: /Language/Interface/Record[Key='SettingsInterface']
+msgctxt "Interface.SettingsInterface"
+msgid "Interface"
+msgstr "Interface"
+
+#: /Language/Interface/Record[Key='SettingsDisableWaterVisualizer']
+msgctxt "Interface.SettingsDisableWaterVisualizer"
+msgid "Disable Water Visualizer"
+msgstr "Disable Water Visualizer"
 
 #: /Language/Interface/Record[Key='SettingsLegacyInventory']
 msgctxt "Interface.SettingsLegacyInventory"
@@ -85,11 +605,6 @@ msgstr "Return to Game"
 msgctxt "Interface.ScenarioScoreboardBackToMenu"
 msgid "Exit To Menu"
 msgstr "Exit To Menu"
-
-#: /Language/Interface/Record[Key='SettingsDisableWaterVisualizer']
-msgctxt "Interface.SettingsDisableWaterVisualizer"
-msgid "Disable Water Visualizer"
-msgstr "Disable Water Visualizer"
 
 #: /Language/Interface/Record[Key='SettingsChunkRenderDistance']
 msgctxt "Interface.SettingsChunkRenderDistance"
@@ -551,10 +1066,10 @@ msgctxt "Interface.AppearanceTitleSkinColor"
 msgid "Skin Colour"
 msgstr "Skin Colour"
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Eye Colour"
+#: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
+msgctxt "Interface.LogicSlotTypeQuantity"
+msgid "returns the current quantity, such as stack size, of the item in the slot"
+msgstr "returns the current quantity, such as stack size, of the item in the slot"
 
 #: /Language/Interface/Record[Key='AppearanceTitleHairColor']
 msgctxt "Interface.AppearanceTitleHairColor"
@@ -811,10 +1326,10 @@ msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "Are you sure you want to overwrite existing saved world?"
 
-#: /Language/Interface/Record[Key='SettingsInterface']
-msgctxt "Interface.SettingsInterface"
-msgid "Interface"
-msgstr "Interface"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Overwrite"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
 msgctxt "Interface.PromptUnsubscribeConfirm"
@@ -1126,10 +1641,10 @@ msgctxt "Interface.ButtonBan"
 msgid "Ban"
 msgstr "Ban"
 
-#: /Language/Interface/Record[Key='ButtonKick']
-msgctxt "Interface.ButtonKick"
-msgid "Kick"
-msgstr "Kick"
+#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
+msgctxt "Interface.LogicSlotTypeDamage"
+msgid "returns the damage state of the item in the slot"
+msgstr "returns the damage state of the item in the slot"
 
 #: /Language/Interface/Record[Key='InputPassword']
 msgctxt "Interface.InputPassword"
@@ -1466,6 +1981,11 @@ msgctxt "Interface.StatusWindowDamage"
 msgid "Damage"
 msgstr "Damage"
 
+#: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
+msgctxt "Interface.LogicSlotTypeEfficiency"
+msgid "returns the growth efficiency of the plant in the slot"
+msgstr "returns the growth efficiency of the plant in the slot"
+
 #: /Language/Interface/Record[Key='StatusWindowExternal']
 msgctxt "Interface.StatusWindowExternal"
 msgid "External"
@@ -1511,10 +2031,10 @@ msgctxt "Interface.InventorySlotBelt"
 msgid "Belt"
 msgstr "Belt"
 
-#: /Language/Interface/Record[Key='SettingsUPNPEnabled']
-msgctxt "Interface.SettingsUPNPEnabled"
-msgid "Enable UPNP"
-msgstr "Enable UPNP"
+#: /Language/Interface/Record[Key='NewWorldEnableAwayMissions']
+msgctxt "Interface.NewWorldEnableAwayMissions"
+msgid "Enable Away Missions"
+msgstr "Enable Away Missions"
 
 #: /Language/Interface/Record[Key='NewWorldAreaEarth']
 msgctxt "Interface.NewWorldAreaEarth"
@@ -1596,10 +2116,10 @@ msgctxt "Interface.WorldInfoButtonDebugLoad"
 msgid "Debug Load"
 msgstr "Debug Load"
 
-#: /Language/Interface/Record[Key='SettingsEnableClouds']
-msgctxt "Interface.SettingsEnableClouds"
-msgid "Enable Clouds"
-msgstr "Enable Clouds"
+#: /Language/Interface/Record[Key='WorldInfoButtonPublish']
+msgctxt "Interface.WorldInfoButtonPublish"
+msgid "Publish"
+msgstr "Publish"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
@@ -1686,77 +2206,72 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continue"
 
-#: /Language/Interface/Record[Key='SettingsClouds']
-msgctxt "Interface.SettingsClouds"
-msgid "Enable Clouds"
-msgstr "Enable Clouds"
+#: /Language/Interface/Record[Key='LogicSlotTypeMature']
+msgctxt "Interface.LogicSlotTypeMature"
+msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
+msgstr "returns 1 if the plant in this slot is mature, 0 when it isn't"
 
-#: /Language/Interface/Record[Key='InvalidDegrees']
-msgctxt "Interface.InvalidDegrees"
-msgid "Nil"
-msgstr "Nil"
+#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
+msgctxt "Interface.LogicSlotTypeHealth"
+msgid "returns the health of the plant in the slot"
+msgstr "returns the health of the plant in the slot"
 
-#: /Language/Interface/Record[Key='SettingsSoundFX']
-msgctxt "Interface.SettingsSoundFX"
-msgid "Sound FX"
-msgstr "Sound FX"
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr "returns the current growth state of the plant in the slot"
 
-#: /Language/Interface/Record[Key='WarningControlConflict']
-msgctxt "Interface.WarningControlConflict"
-msgid "Controls Conflict"
-msgstr "Controls Conflict"
+#: /Language/Interface/Record[Key='LogicSlotTypePressure']
+msgctxt "Interface.LogicSlotTypePressure"
+msgid "returns pressure of the slot occupants internal atmosphere"
+msgstr "returns pressure of the slot occupants internal atmosphere"
 
-#: /Language/Interface/Record[Key='WarningControlConflictDescription']
-msgctxt "Interface.WarningControlConflictDescription"
-msgid "Please visit the control assignment window and clear conflicts"
-msgstr "Please visit the control assignment window and clear conflicts"
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
+msgstr "returns temperature of the slot occupants internal atmosphere"
 
-#: /Language/Interface/Record[Key='NewWorldGameMode']
-msgctxt "Interface.NewWorldGameMode"
-msgid "Game Mode"
-msgstr "Game Mode"
+#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
+msgctxt "Interface.LogicSlotTypeCharge"
+msgid "returns current energy charge the slot occupant is holding"
+msgstr "returns current energy charge the slot occupant is holding"
 
-#: /Language/Interface/Record[Key='NewWorldGravity']
-msgctxt "Interface.NewWorldGravity"
-msgid "Gravity"
-msgstr "Gravity"
+#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
+msgctxt "Interface.LogicSlotTypeChargeRatio"
+msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+msgstr "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
 
-#: /Language/Interface/Record[Key='NewWorldTemperature']
-msgctxt "Interface.NewWorldTemperature"
-msgid "Temperature"
-msgstr "Temperature"
+#: /Language/Interface/Record[Key='LogicSlotTypeClass']
+msgctxt "Interface.LogicSlotTypeClass"
+msgid "returns integer representing the class of object"
+msgstr "returns integer representing the class of object"
 
-#: /Language/Interface/Record[Key='NewWorldPressure']
-msgctxt "Interface.NewWorldPressure"
-msgid "Pressure"
-msgstr "Pressure"
+#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
+msgctxt "Interface.LogicSlotTypePressureWaste"
+msgid "returns pressure in the waste tank of the jetpack in this slot"
+msgstr "returns pressure in the waste tank of the jetpack in this slot"
 
-#: /Language/Interface/Record[Key='NewWorldSolarEnergy']
-msgctxt "Interface.NewWorldSolarEnergy"
-msgid "Solar Energy"
-msgstr "Solar Energy"
+#: /Language/Interface/Record[Key='LogicSlotTypePressureAir']
+msgctxt "Interface.LogicSlotTypePressureAir"
+msgid "returns pressure in the air tank of the jetpack in this slot"
+msgstr "returns pressure in the air tank of the jetpack in this slot"
 
-#: /Language/Interface/Record[Key='NewWorldSolarAngle']
-msgctxt "Interface.NewWorldSolarAngle"
-msgid "Solar Angle"
-msgstr "Solar Angle"
+#: /Language/Interface/Record[Key='LogicSlotTypeMaxQuantity']
+msgctxt "Interface.LogicSlotTypeMaxQuantity"
+msgid "returns the max stack size of the item in the slot"
+msgstr "returns the max stack size of the item in the slot"
 
-#: /Language/Interface/Record[Key='SettingsMenuAppearance']
-msgctxt "Interface.SettingsMenuAppearance"
-msgid "Appearance"
-msgstr "Appearance"
+#: /Language/Interface/Record[Key='LogicSlotTypePrefabHash']
+msgctxt "Interface.LogicSlotTypePrefabHash"
+msgid "returns the hash of the structure in the slot"
+msgstr "returns the hash of the structure in the slot"
 
-#: /Language/Interface/Record[Key='SettingsUserSpeakerMode']
-msgctxt "Interface.SettingsUserSpeakerMode"
-msgid "Speaker Mode: "
-msgstr "Speaker Mode: "
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Eye Colour"
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Overwrite"
-
-#: /Language/Interface/Record[Key='WorldInfoButtonPublish']
-msgctxt "Interface.WorldInfoButtonPublish"
-msgid "Publish"
-msgstr "Publish"
+#: /Language/Interface/Record[Key='ButtonKick']
+msgctxt "Interface.ButtonKick"
+msgid "Kick"
+msgstr "Kick"
