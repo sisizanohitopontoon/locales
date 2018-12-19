@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-19 16:31+0000\n"
+"PO-Revision-Date: 2018-12-19 16:36+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -403,17 +403,17 @@ msgstr "La carga actual que tiene el dispositivo"
 #: /Language/Interface/Record[Key='LogicTypeActivate']
 msgctxt "Interface.LogicTypeActivate"
 msgid "1 if device is activated (usually means running), otherwise 0"
-msgstr ""
+msgstr "1 si el dispositivo está activado (normalmente significa en funcionamiento), de lo contrario 0"
 
 #: /Language/Interface/Record[Key='LogicTypePressureInternal']
 msgctxt "Interface.LogicTypePressureInternal"
 msgid "Setting for internal pressure safety, in KPa"
-msgstr ""
+msgstr "Ajuste para la seguridad de la presión interna, en KPa"
 
 #: /Language/Interface/Record[Key='LogicTypePressureExternal']
 msgctxt "Interface.LogicTypePressureExternal"
 msgid "Setting for external pressure safety, in KPa"
-msgstr ""
+msgstr "Ajuste para la seguridad de la presión externa, en KPa"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperature']
 msgctxt "Interface.LogicTypeTemperature"
@@ -428,27 +428,27 @@ msgstr "La lectura actual de la presión del dispositivo"
 #: /Language/Interface/Record[Key='LogicTypeLock']
 msgctxt "Interface.LogicTypeLock"
 msgid "1 if device is locked, otherwise 0, can be set in most devices and prevents the user from access the values"
-msgstr ""
+msgstr "1 si el dispositivo está bloqueado, de lo contrario 0, puede ajustarse en la mayoría de los dispositivos e impide que el usuario acceda a los valores"
 
 #: /Language/Interface/Record[Key='LogicTypeError']
 msgctxt "Interface.LogicTypeError"
 msgid "1 if device is in error state, otherwise 0"
-msgstr ""
+msgstr "1 si el dispositivo está en estado de error, de lo contrario 0"
 
 #: /Language/Interface/Record[Key='LogicTypeMode']
 msgctxt "Interface.LogicTypeMode"
 msgid "Integer for mode state, different devices will have different mode states available to them"
-msgstr ""
+msgstr "Números enteros para el estado de modo, diferentes dispositivos tendrán diferentes estados de modo disponibles para ellos"
 
 #: /Language/Interface/Record[Key='LogicTypeOpen']
 msgctxt "Interface.LogicTypeOpen"
 msgid "1 if device is open, otherwise 0"
-msgstr ""
+msgstr "1 si el dispositivo está abierto, en caso contrario 0"
 
 #: /Language/Interface/Record[Key='LogicTypePower']
 msgctxt "Interface.LogicTypePower"
 msgid "Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not"
-msgstr ""
+msgstr "Puede leerse para indicar si el dispositivo está correctamente alimentado o no, configurado a través del sistema de alimentación, retornar 1 si está alimentado y 0 si no lo está"
 
 #: /Language/Interface/Record[Key='LogicTypeNone']
 msgctxt "Interface.LogicTypeNone"
@@ -1110,7 +1110,7 @@ msgstr "Color de Piel"
 #: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
 msgctxt "Interface.LogicSlotTypeQuantity"
 msgid "returns the current quantity, such as stack size, of the item in the slot"
-msgstr ""
+msgstr "devuelve la cantidad actual, como el tamaño de la pila, del artículo en la ranura"
 
 #: /Language/Interface/Record[Key='AppearanceTitleHairColor']
 msgctxt "Interface.AppearanceTitleHairColor"
@@ -2295,7 +2295,7 @@ msgstr "devuelve la carga de energía actual que tiene el ocupante de la ranura"
 #: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
 msgctxt "Interface.LogicSlotTypeChargeRatio"
 msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
-msgstr ""
+msgstr "devuelve la carga de energía actual que tiene el ocupante de la ranura como una relación entre 0 y 1 de su máximo"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeClass']
 msgctxt "Interface.LogicSlotTypeClass"
