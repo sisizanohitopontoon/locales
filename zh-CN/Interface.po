@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-22 17:06+0000\n"
+"PO-Revision-Date: 2018-12-22 17:11+0000\n"
 "Last-Translator: AKA_Sky <sky799430797@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -407,22 +407,22 @@ msgstr "1如果设备被激活 (通常意味着正在运行), 否则0"
 #: /Language/Interface/Record[Key='LogicTypePressureInternal']
 msgctxt "Interface.LogicTypePressureInternal"
 msgid "Setting for internal pressure safety, in KPa"
-msgstr ""
+msgstr "内部压力安全设置, kpa"
 
 #: /Language/Interface/Record[Key='LogicTypePressureExternal']
 msgctxt "Interface.LogicTypePressureExternal"
 msgid "Setting for external pressure safety, in KPa"
-msgstr ""
+msgstr "外部压力安全设置, kpa"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperature']
 msgctxt "Interface.LogicTypeTemperature"
 msgid "The current temperature reading of the device"
-msgstr ""
+msgstr "当前温度读数"
 
 #: /Language/Interface/Record[Key='LogicTypePressure']
 msgctxt "Interface.LogicTypePressure"
 msgid "The current pressure reading of the device"
-msgstr ""
+msgstr "当前压力读数"
 
 #: /Language/Interface/Record[Key='LogicTypeLock']
 msgctxt "Interface.LogicTypeLock"
@@ -432,7 +432,7 @@ msgstr "如果设备被锁定, 则为 1, 否则为0可在大多数设备中设�
 #: /Language/Interface/Record[Key='LogicTypeError']
 msgctxt "Interface.LogicTypeError"
 msgid "1 if device is in error state, otherwise 0"
-msgstr ""
+msgstr "如果设备处于错误状态, 则为 1, 否则为0"
 
 #: /Language/Interface/Record[Key='LogicTypeMode']
 msgctxt "Interface.LogicTypeMode"
@@ -447,7 +447,7 @@ msgstr "如果设备处于打开状态, 则为 1, 否则为0"
 #: /Language/Interface/Record[Key='LogicTypePower']
 msgctxt "Interface.LogicTypePower"
 msgid "Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not"
-msgstr ""
+msgstr "如果设备正确供电或未通电, 则可读取返回, 通过电源系统设置, 如果通电, 则返回 1; 如果未, 则返回0"
 
 #: /Language/Interface/Record[Key='LogicTypeNone']
 #, fuzzy
@@ -470,34 +470,32 @@ msgstr "改变外观"
 #: /Language/Interface/Record[Key='NewWorldSolarAngle']
 msgctxt "Interface.NewWorldSolarAngle"
 msgid "Solar Angle"
-msgstr ""
+msgstr "太阳角度"
 
 #: /Language/Interface/Record[Key='NewWorldSolarEnergy']
 msgctxt "Interface.NewWorldSolarEnergy"
 msgid "Solar Energy"
-msgstr ""
+msgstr "太阳能"
 
 #: /Language/Interface/Record[Key='NewWorldPressure']
-#, fuzzy
 msgctxt "Interface.NewWorldPressure"
 msgid "Pressure"
-msgstr "预置"
+msgstr "压力"
 
 #: /Language/Interface/Record[Key='NewWorldTemperature']
 msgctxt "Interface.NewWorldTemperature"
 msgid "Temperature"
-msgstr ""
+msgstr "温度"
 
 #: /Language/Interface/Record[Key='NewWorldGravity']
 msgctxt "Interface.NewWorldGravity"
 msgid "Gravity"
-msgstr ""
+msgstr "重力"
 
 #: /Language/Interface/Record[Key='NewWorldGameMode']
-#, fuzzy
 msgctxt "Interface.NewWorldGameMode"
 msgid "Game Mode"
-msgstr "游戏端口"
+msgstr "游戏模式"
 
 #: /Language/Interface/Record[Key='WarningControlConflictDescription']
 msgctxt "Interface.WarningControlConflictDescription"
