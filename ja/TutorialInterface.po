@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-23 09:16+0000\n"
+"PO-Revision-Date: 2018-12-23 09:22+0000\n"
 "Last-Translator: lill <ac@knoyism.net>\n"
 "Language: ja\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -309,12 +309,11 @@ msgid "Replace with a {THING:StructureCableJunction} from the {THING:ItemCableCo
 msgstr "{THING:ItemCableCoil}から{THING:StructureCableJunction}に取り替える"
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable2']
-#, fuzzy
 msgctxt "Interface.TutorialDescRepairCable2"
 msgid ""
 "Look at the {THING:StructureCableJunctionBurnt} while the {THING:ItemWireCutters} are in your active hand. You will see a {COLORYELLOW:yellow} box around it. Press and hold {KEY:PrimaryAction} to "
 "remove the {THING:StructureCableJunctionBurnt}."
-msgstr "{THING:ItemWireCutters}を手に持って{THING:StructureCableJunctionBurnt}を見ましょう。{COLORYELLOW:yellow}の箱がその辺に見えるはずです。{COLORRED:左マウスボタン}を押し続けて{THING:StructureCableJunctionBurnt}を除去しましょう。"
+msgstr "{THING:ItemWireCutters}を手に持って{THING:StructureCableJunctionBurnt}を見ましょう。{COLORYELLOW:黄色}の箱がその辺に見えるはずです。{KEY:PrimaryAction}を押し続けて{THING:StructureCableJunctionBurnt}を除去しましょう。"
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable3']
 msgctxt "Interface.TutorialDescRepairCable3"
@@ -332,7 +331,6 @@ msgstr ""
 "{KEY:InventorySelect}を内部スロットで操作することを思い出して下さい。{KEY:ToolBeltSlot}は{SLOT:Belt}スロットを開いたり閉じたりできます。あるいは、{KEY:MouseControl}でマウス操作してもよいでしょう。"
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable4']
-#, fuzzy
 msgctxt "Interface.TutorialDescRepairCable4"
 msgid ""
 "With the {THING:ItemCableCoil} in your {COLORYELLOW:Active Hand}, press {KEY:SecondaryAction} to bring up the {LINK:ConstructionPage;construction} cursor.\n"
@@ -343,13 +341,13 @@ msgid ""
 "\n"
 "Press {KEY:QuantityModifier} and the object will attempt its best connection placement, otherwise you can use custom rotation keys."
 msgstr ""
-"{COLORYELLOW:アクティブな手}に{THING:ItemCableCoil}を持ち、{COLORRED:Right Mouse Button}を押すことで設置カーソルが表示されます。\n"
+"{COLORYELLOW:アクティブな手}に{THING:ItemCableCoil}を持ち、{KEY:SecondaryAction}を押すことで{LINK:ConstructionPage;設置}カーソルが表示されます。\n"
 "\n"
 "{COLORRED:Mouse Wheel}によって設置するタイプを変えられるので、{THING:StructureCableJunction}を選択して下さい。\n"
 "\n"
 "設置予想図は接続に関する重要な情報を持っています。小さなプラスのマークはケーブルのネットワークに接続する場所を示しています。目的の場所に接続出来るようにしましょう。\n"
 "\n"
-"{KEY:RotateLeft}を押すことで左回転、{KEY:RotateRight}で右回転、{KEY:RotateUp}で上回転、{KEY:RotateDown}で下回転、{KEY:RotateRollLeft}で左転回、{KEY:RotateRollRight}で右転回が出来ます。"
+"{KEY:QuantityModifier}を押すといい感じに接続する配置になります。あるいは回転キーを使うことも出来ます。"
 
 #: /Language/Interface/Record[Key='TutorialTitleFinishFrame']
 msgctxt "Interface.TutorialTitleFinishFrame"
@@ -461,12 +459,11 @@ msgid "Bake a {THING:ItemMuffin}"
 msgstr "{THING:ItemMuffin}を焼く"
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin1']
-#, fuzzy
 msgctxt "Interface.TutorialDescBakeMuffin1"
 msgid ""
 "Some devices in the game are mounted on {THING:StructureBench}s; they are called {LINK:AppliancePage;Appliances}. Pickup the {THING:ApplianceMicrowave} and walk in front of the "
 "{THING:StructureBench}."
-msgstr "このゲームのいくつかの装置は{THING:StructureBench}に取り付けられ、取付装置と呼びます。{THING:ApplianceMicrowave}を持って、{THING:StructureBench}の前まで行きましょう。"
+msgstr "このゲームのいくつかの装置は{THING:StructureBench}に取り付けられ、{LINK:AppliancePage;設置装置}と呼びます。{THING:ApplianceMicrowave}を持って、{THING:StructureBench}の前まで行きましょう。"
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin2']
 msgctxt "Interface.TutorialDescBakeMuffin2"
@@ -476,18 +473,16 @@ msgid ""
 msgstr "{KEY:Drop}キーを押して{THING:ApplianceMicrowave}を{THING:StructureBench}の上に置きます。{THING:StructureBench}の上に{THING:ApplianceMicrowave}が設置されるまでこれを行って下さい。"
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin3']
-#, fuzzy
 msgctxt "Interface.TutorialDescBakeMuffin3"
 msgid ""
 "Look at the {THING:ApplianceMicrowave}. Look at the side, rather than the door, so that you are targeting the item directly and not trying to open it. When you see a {COLORYELLOW:yellow box} hold "
 "down the {KEY:PrimaryAction} to wrench it onto the {THING:StructureBench}."
-msgstr "{THING:ApplianceMicrowave}に注目して下さい。扉ではない方の側面を見ると、アイテムを直接ターゲットし、開くことは出来ません。{COLORYELLOW:yellow box}が見えている状態で{COLORRED:左マウスボタン}を押すことで{THING:StructureBench}に固定出来ます。"
+msgstr "{THING:ApplianceMicrowave}に注目して下さい。扉ではない方の側面を見ると、アイテムを直接ターゲットし、開くことは出来ません。{COLORYELLOW:黄色い四角}が見えている状態で{KEY:PrimaryAction}を長押しすることで{THING:StructureBench}に固定出来ます。"
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin4']
-#, fuzzy
 msgctxt "Interface.TutorialDescBakeMuffin4"
 msgid "Look at the door on the {THING:ApplianceMicrowave}. Press the {KEY:PrimaryAction} to open the door and allow you to put reagents inside."
-msgstr "{THING:ApplianceMicrowave}の扉を見て下さい。{COLORRED:左マウスボタン}を押すことで扉を開けることができ、中に素材を入れられるようになります。"
+msgstr "{THING:ApplianceMicrowave}の扉を見て下さい。{KEY:PrimaryAction}を押すことで扉を開けることができ、中に素材を入れられるようになります。"
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin5']
 #, fuzzy
