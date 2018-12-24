@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-24 06:30+0000\n"
+"PO-Revision-Date: 2018-12-24 06:35+0000\n"
 "Last-Translator: AKA_Sky <sky799430797@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,37 +29,37 @@ msgstr "结构的哈希"
 #: /Language/Interface/Record[Key='LogicTypeVelocityRelativeZ']
 msgctxt "Interface.LogicTypeVelocityRelativeZ"
 msgid "The current velocity Z relative to the forward vector of this"
-msgstr ""
+msgstr "相对于正向矢量的电流速度 z"
 
 #: /Language/Interface/Record[Key='LogicTypeVelocityRelativeY']
 msgctxt "Interface.LogicTypeVelocityRelativeY"
 msgid "The current velocity Y relative to the forward vector of this"
-msgstr ""
+msgstr "相对于正向矢量的电流速度 z"
 
 #: /Language/Interface/Record[Key='LogicTypeVelocityRelativeX']
 msgctxt "Interface.LogicTypeVelocityRelativeX"
 msgid "The current velocity X relative to the forward vector of this"
-msgstr ""
+msgstr "相对于正向矢量的电流速度 z"
 
 #: /Language/Interface/Record[Key='LogicTypeVelocityMagnitude']
 msgctxt "Interface.LogicTypeVelocityMagnitude"
 msgid "The current magnitude of the velocity vector"
-msgstr ""
+msgstr "速度矢量的电流大小"
 
 #: /Language/Interface/Record[Key='LogicTypePositionZ']
 msgctxt "Interface.LogicTypePositionZ"
 msgid "The current position in Z dimension in world coordinates"
-msgstr ""
+msgstr "世界坐标 z 维度的当前位置"
 
 #: /Language/Interface/Record[Key='LogicTypePositionY']
 msgctxt "Interface.LogicTypePositionY"
 msgid "The current position in Y dimension in world coordinates"
-msgstr ""
+msgstr "世界坐标 z 维度的当前位置"
 
 #: /Language/Interface/Record[Key='LogicTypePositionX']
 msgctxt "Interface.LogicTypePositionX"
 msgid "The current position in X dimension in world coordinates"
-msgstr ""
+msgstr "世界坐标 z 维度的当前位置"
 
 #: /Language/Interface/Record[Key='LogicTypeAirRelease']
 msgctxt "Interface.LogicTypeAirRelease"
@@ -69,39 +69,39 @@ msgstr "空气释放系统的当前状态, 例如空气释放 = 1 为一套硬�
 #: /Language/Interface/Record[Key='LogicTypeFiltration']
 msgctxt "Interface.LogicTypeFiltration"
 msgid "The current state of the filtration system, for example Filtration = 1 for a Hardsuit sets filtration to On"
-msgstr ""
+msgstr "过滤系统的当前状态，例如对于宇航服 = 1将过滤设置为On"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperatureExternal']
 msgctxt "Interface.LogicTypeTemperatureExternal"
 msgid "The temperature of the outside of the device, usually the world atmosphere surrounding it"
-msgstr ""
+msgstr "设备外部的温度, 通常是它周围的世界大气"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
 msgctxt "Interface.LogicTypeTemperatureSetting"
 msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
-msgstr ""
+msgstr "对象内部温度的当前设置 (例如, 宇航服)"
 
 #: /Language/Interface/Record[Key='LogicTypePressureSetting']
 msgctxt "Interface.LogicTypePressureSetting"
 msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
-msgstr ""
+msgstr "对象内部压力的当前设置 (例如, 宇航服空气释放), 以 kpa "
 
 #: /Language/Interface/Record[Key='LogicTypeOutput']
 msgctxt "Interface.LogicTypeOutput"
 msgid ""
 "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await "
 "further instructions"
-msgstr ""
+msgstr "排序处理设备 (如堆垛机或分拣器) 的输出操作, 在逻辑模式下, 当设置为零或更高的设备时, 该设备将只执行一次重复操作, 然后返回到-1 并等待进一步的指示"
 
 #: /Language/Interface/Record[Key='LogicTypeHarvest']
 msgctxt "Interface.LogicTypeHarvest"
 msgid "Performs the harvesting action for any plant based machinery"
-msgstr ""
+msgstr "对任何基于设备的机械执行收获操作"
 
 #: /Language/Interface/Record[Key='LogicTypePlant']
 msgctxt "Interface.LogicTypePlant"
 msgid "Performs the planting action for any plant based machinery"
-msgstr ""
+msgstr "对任何以植物为基础的机械执行种植操作"
 
 #: /Language/Interface/Record[Key='LogicTypeVolume']
 msgctxt "Interface.LogicTypeVolume"
@@ -121,7 +121,7 @@ msgstr "返回发电的功率"
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
-msgstr "导入之前的ClearMemory数量"
+msgstr "自上次 clearmemory 之后导入的项目数"
 
 #: /Language/Interface/Record[Key='LogicTypeExportCount']
 msgctxt "Interface.LogicTypeExportCount"
@@ -141,7 +141,7 @@ msgstr "此设备当前生产的完成程度, 在0和1之间"
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, requests an item of the provided type from the device"
-msgstr ""
+msgstr "当设置为唯一标识符时, 从设备请求所提供类型的项"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
@@ -241,7 +241,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeRecipeHash']
 msgctxt "Interface.LogicTypeRecipeHash"
 msgid "Current hash of the recipe the device is set to produce"
-msgstr ""
+msgstr "设备设置为生产的配方的当前哈希"
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
 msgctxt "Interface.LogicTypeElevatorLevel"
