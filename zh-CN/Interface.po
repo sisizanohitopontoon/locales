@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-24 06:25+0000\n"
+"PO-Revision-Date: 2018-12-24 06:30+0000\n"
 "Last-Translator: AKA_Sky <sky799430797@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "无说明"
 #: /Language/Interface/Record[Key='LogicTypePrefabHash']
 msgctxt "Interface.LogicTypePrefabHash"
 msgid "The hash of the structure"
-msgstr ""
+msgstr "结构的哈希"
 
 #: /Language/Interface/Record[Key='LogicTypeVelocityRelativeZ']
 msgctxt "Interface.LogicTypeVelocityRelativeZ"
@@ -753,16 +753,14 @@ msgid "Change to {1}<color=yellow>({0})</color> for {2}"
 msgstr "更改为<color=yellow>{2} 的 {1} ({0})</color=yellow>"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-#, fuzzy
 msgctxt "Interface.ChangeReagentSettingTo"
 msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
-msgstr "更改 <color=yellow>{0}</color> 为 {1}"
+msgstr "更改为 {2}。<color=yellow>{0}。<color=yellow>{1}</color=yellow> </color=yellow>"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
-#, fuzzy
 msgctxt "Interface.ChangeSettingToForIn"
 msgid "Change to <color=yellow>{0}</color> for {3} <color=yellow>({2})</color> in {1}"
-msgstr "更改 <color=yellow>{0}</color> 为 {1}"
+msgstr "<color=yellow><color=yellow>更改为 {1} 中 {3} ({2})</color=yellow>的 {0}</color=yellow>"
 
 #: /Language/Interface/Record[Key='ChangeSettingToFor']
 msgctxt "Interface.ChangeSettingToFor"
@@ -1090,7 +1088,7 @@ msgstr "排序"
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger Rate"
-msgstr "饥饿率"
+msgstr "饥饿度"
 
 #: /Language/Interface/Record[Key='SettingsTitleGameSettings']
 msgctxt "Interface.SettingsTitleGameSettings"
@@ -2279,52 +2277,52 @@ msgstr "返回插槽中的植物的运行状况"
 #: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
 msgctxt "Interface.LogicSlotTypeGrowth"
 msgid "returns the current growth state of the plant in the slot"
-msgstr ""
+msgstr "返回插槽中工厂的当前生长状态"
 
 #: /Language/Interface/Record[Key='LogicSlotTypePressure']
 msgctxt "Interface.LogicSlotTypePressure"
 msgid "returns pressure of the slot occupants internal atmosphere"
-msgstr ""
+msgstr "返回插槽乘员内部大气的压力"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
 msgctxt "Interface.LogicSlotTypeTemperature"
 msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr ""
+msgstr "返回插槽乘员内部大气的温度"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeCharge']
 msgctxt "Interface.LogicSlotTypeCharge"
 msgid "returns current energy charge the slot occupant is holding"
-msgstr ""
+msgstr "返回电流能量充电插槽乘员持有的"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
 msgctxt "Interface.LogicSlotTypeChargeRatio"
 msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
-msgstr ""
+msgstr "返回电流能量充电插槽乘员持有的比率在0和1之间的最大"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeClass']
 msgctxt "Interface.LogicSlotTypeClass"
 msgid "returns integer representing the class of object"
-msgstr ""
+msgstr "返回表示对象类的整数"
 
 #: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
 msgctxt "Interface.LogicSlotTypePressureWaste"
 msgid "returns pressure in the waste tank of the jetpack in this slot"
-msgstr ""
+msgstr "返回压力在垃圾桶的废物罐在这个插槽"
 
 #: /Language/Interface/Record[Key='LogicSlotTypePressureAir']
 msgctxt "Interface.LogicSlotTypePressureAir"
 msgid "returns pressure in the air tank of the jetpack in this slot"
-msgstr ""
+msgstr "返回压力的喷气背包在这个插槽"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMaxQuantity']
 msgctxt "Interface.LogicSlotTypeMaxQuantity"
 msgid "returns the max stack size of the item in the slot"
-msgstr ""
+msgstr "返回插槽中项目的最大堆栈大小"
 
 #: /Language/Interface/Record[Key='LogicSlotTypePrefabHash']
 msgctxt "Interface.LogicSlotTypePrefabHash"
 msgid "returns the hash of the structure in the slot"
-msgstr ""
+msgstr "返回插槽中结构的哈希"
 
 #: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
 msgctxt "Interface.AppearanceTitleEyeColor"
