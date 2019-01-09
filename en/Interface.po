@@ -6,8 +6,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash2']
-msgctxt "Interface.LogicTypePlantHash2"
+#: /Language/Interface/Record[Key='LogicTypePlantHash3']
+msgctxt "Interface.LogicTypePlantHash3"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
@@ -15,6 +15,11 @@ msgstr "DEPRECATED"
 msgctxt "Interface.LogicSlotTypeNone"
 msgid "No description"
 msgstr "No description"
+
+#: /Language/Interface/Record[Key='LogicTypeForceWrite']
+msgctxt "Interface.LogicTypeForceWrite"
+msgid "Forces Logic Writer devices to rewrite value"
+msgstr "Forces Logic Writer devices to rewrite value"
 
 #: /Language/Interface/Record[Key='LogicTypePrefabHash']
 msgctxt "Interface.LogicTypePrefabHash"
@@ -141,11 +146,6 @@ msgctxt "Interface.LogicTypePlantHash4"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash3']
-msgctxt "Interface.LogicTypePlantHash3"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
-
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
 msgctxt "Interface.LogicSlotTypeOccupied"
 msgid "returns 0 when slot is not occupied, 1 when it is"
@@ -155,6 +155,11 @@ msgstr "returns 0 when slot is not occupied, 1 when it is"
 msgctxt "Interface.LogicSlotTypeOccupantHash"
 msgid "returns the has of the current occupant, the unique identifier of the thing"
 msgstr "returns the has of the current occupant, the unique identifier of the thing"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash2']
+msgctxt "Interface.LogicTypePlantHash2"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash1']
 msgctxt "Interface.LogicTypePlantHash1"
@@ -1636,15 +1641,15 @@ msgctxt "Interface.ButtoConfirmExitAsServer"
 msgid "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
 msgstr "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
 
-#: /Language/Interface/Record[Key='ButtonBan']
-msgctxt "Interface.ButtonBan"
-msgid "Ban"
-msgstr "Ban"
-
 #: /Language/Interface/Record[Key='LogicSlotTypeDamage']
 msgctxt "Interface.LogicSlotTypeDamage"
 msgid "returns the damage state of the item in the slot"
 msgstr "returns the damage state of the item in the slot"
+
+#: /Language/Interface/Record[Key='ButtonKick']
+msgctxt "Interface.ButtonKick"
+msgid "Kick"
+msgstr "Kick"
 
 #: /Language/Interface/Record[Key='InputPassword']
 msgctxt "Interface.InputPassword"
@@ -2271,7 +2276,7 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Eye Colour"
 
-#: /Language/Interface/Record[Key='ButtonKick']
-msgctxt "Interface.ButtonKick"
-msgid "Kick"
-msgstr "Kick"
+#: /Language/Interface/Record[Key='ButtonBan']
+msgctxt "Interface.ButtonBan"
+msgid "Ban"
+msgstr "Ban"
