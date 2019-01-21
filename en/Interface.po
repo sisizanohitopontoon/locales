@@ -6,10 +6,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash3']
-msgctxt "Interface.LogicTypePlantHash3"
+#: /Language/Interface/Record[Key='LogicTypePlantHash4']
+msgctxt "Interface.LogicTypePlantHash4"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
+msgctxt "Interface.LogicSlotTypeOccupied"
+msgid "returns 0 when slot is not occupied, 1 when it is"
+msgstr "returns 0 when slot is not occupied, 1 when it is"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeNone']
 msgctxt "Interface.LogicSlotTypeNone"
@@ -141,20 +146,20 @@ msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, requests an item of the provided type from the device"
 msgstr "When set to the unique identifier, requests an item of the provided type from the device"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash4']
-msgctxt "Interface.LogicTypePlantHash4"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
-msgctxt "Interface.LogicSlotTypeOccupied"
-msgid "returns 0 when slot is not occupied, 1 when it is"
-msgstr "returns 0 when slot is not occupied, 1 when it is"
-
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupantHash']
 msgctxt "Interface.LogicSlotTypeOccupantHash"
 msgid "returns the has of the current occupant, the unique identifier of the thing"
 msgstr "returns the has of the current occupant, the unique identifier of the thing"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
+msgctxt "Interface.LogicSlotTypeQuantity"
+msgid "returns the current quantity, such as stack size, of the item in the slot"
+msgstr "returns the current quantity, such as stack size, of the item in the slot"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash3']
+msgctxt "Interface.LogicTypePlantHash3"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash2']
 msgctxt "Interface.LogicTypePlantHash2"
@@ -1066,15 +1071,15 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Facial Hair"
 
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Skin Colour"
+#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
+msgctxt "Interface.LogicSlotTypeDamage"
+msgid "returns the damage state of the item in the slot"
+msgstr "returns the damage state of the item in the slot"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
-msgctxt "Interface.LogicSlotTypeQuantity"
-msgid "returns the current quantity, such as stack size, of the item in the slot"
-msgstr "returns the current quantity, such as stack size, of the item in the slot"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Eye Colour"
 
 #: /Language/Interface/Record[Key='AppearanceTitleHairColor']
 msgctxt "Interface.AppearanceTitleHairColor"
@@ -1636,15 +1641,15 @@ msgctxt "Interface.DialogConfirmNoticeUnsaved"
 msgid "Are you sure you want to leave the session without saving? Any unsaved progress will be lost."
 msgstr "Are you sure you want to leave the session without saving? Any unsaved progress will be lost."
 
-#: /Language/Interface/Record[Key='ButtoConfirmExitAsServer']
-msgctxt "Interface.ButtoConfirmExitAsServer"
-msgid "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
-msgstr "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
+#: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
+msgctxt "Interface.LogicSlotTypeEfficiency"
+msgid "returns the growth efficiency of the plant in the slot"
+msgstr "returns the growth efficiency of the plant in the slot"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
-msgctxt "Interface.LogicSlotTypeDamage"
-msgid "returns the damage state of the item in the slot"
-msgstr "returns the damage state of the item in the slot"
+#: /Language/Interface/Record[Key='ButtonBan']
+msgctxt "Interface.ButtonBan"
+msgid "Ban"
+msgstr "Ban"
 
 #: /Language/Interface/Record[Key='ButtonKick']
 msgctxt "Interface.ButtonKick"
@@ -1981,20 +1986,20 @@ msgctxt "Interface.StatusWindowInternal"
 msgid "Internal"
 msgstr "Internal"
 
+#: /Language/Interface/Record[Key='LogicSlotTypeMature']
+msgctxt "Interface.LogicSlotTypeMature"
+msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
+msgstr "returns 1 if the plant in this slot is mature, 0 when it isn't"
+
 #: /Language/Interface/Record[Key='StatusWindowDamage']
 msgctxt "Interface.StatusWindowDamage"
 msgid "Damage"
 msgstr "Damage"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
-msgctxt "Interface.LogicSlotTypeEfficiency"
-msgid "returns the growth efficiency of the plant in the slot"
-msgstr "returns the growth efficiency of the plant in the slot"
-
-#: /Language/Interface/Record[Key='StatusWindowExternal']
-msgctxt "Interface.StatusWindowExternal"
-msgid "External"
-msgstr "External"
+#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
+msgctxt "Interface.LogicSlotTypeHealth"
+msgid "returns the health of the plant in the slot"
+msgstr "returns the health of the plant in the slot"
 
 #: /Language/Interface/Record[Key='InventorySlotHandRight']
 msgctxt "Interface.InventorySlotHandRight"
@@ -2211,16 +2216,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continue"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeMature']
-msgctxt "Interface.LogicSlotTypeMature"
-msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
-msgstr "returns 1 if the plant in this slot is mature, 0 when it isn't"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
-msgctxt "Interface.LogicSlotTypeHealth"
-msgid "returns the health of the plant in the slot"
-msgstr "returns the health of the plant in the slot"
-
 #: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
 msgctxt "Interface.LogicSlotTypeGrowth"
 msgid "returns the current growth state of the plant in the slot"
@@ -2271,12 +2266,22 @@ msgctxt "Interface.LogicSlotTypePrefabHash"
 msgid "returns the hash of the structure in the slot"
 msgstr "returns the hash of the structure in the slot"
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Eye Colour"
+#: /Language/Interface/Record[Key='AppearanceButtonRandomize']
+msgctxt "Interface.AppearanceButtonRandomize"
+msgid "Randomize"
+msgstr "Randomize"
 
-#: /Language/Interface/Record[Key='ButtonBan']
-msgctxt "Interface.ButtonBan"
-msgid "Ban"
-msgstr "Ban"
+#: /Language/Interface/Record[Key='ButtoConfirmExitAsServer']
+msgctxt "Interface.ButtoConfirmExitAsServer"
+msgid "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
+msgstr "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
+
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Skin Colour"
+
+#: /Language/Interface/Record[Key='StatusWindowExternal']
+msgctxt "Interface.StatusWindowExternal"
+msgid "External"
+msgstr "External"
