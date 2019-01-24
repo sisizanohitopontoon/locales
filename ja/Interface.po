@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash4']
-msgctxt "Interface.LogicTypePlantHash4"
-msgid "DEPRECATED"
-msgstr "廃止"
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, requests an item of the provided type from the device"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
+msgctxt "Interface.LogicSlotTypeQuantity"
+msgid "returns the current quantity, such as stack size, of the item in the slot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicSlotTypeOccupantHash']
+msgctxt "Interface.LogicSlotTypeOccupantHash"
+msgid "returns the has of the current occupant, the unique identifier of the thing"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
 msgctxt "Interface.LogicSlotTypeOccupied"
@@ -145,20 +155,20 @@ msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, requests an item of the provided type from the device"
+#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
+msgctxt "Interface.LogicSlotTypeDamage"
+msgid "returns the damage state of the item in the slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeOccupantHash']
-msgctxt "Interface.LogicSlotTypeOccupantHash"
-msgid "returns the has of the current occupant, the unique identifier of the thing"
+#: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
+msgctxt "Interface.LogicSlotTypeEfficiency"
+msgid "returns the growth efficiency of the plant in the slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
-msgctxt "Interface.LogicSlotTypeQuantity"
-msgid "returns the current quantity, such as stack size, of the item in the slot"
-msgstr ""
+#: /Language/Interface/Record[Key='LogicTypePlantHash4']
+msgctxt "Interface.LogicTypePlantHash4"
+msgid "DEPRECATED"
+msgstr "廃止"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash3']
 msgctxt "Interface.LogicTypePlantHash3"
@@ -1095,15 +1105,15 @@ msgctxt "Interface.SettingsStartingCondition"
 msgid "Starting Condition"
 msgstr "開始状態"
 
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "髭"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
-msgctxt "Interface.LogicSlotTypeDamage"
-msgid "returns the damage state of the item in the slot"
+#: /Language/Interface/Record[Key='LogicSlotTypeMature']
+msgctxt "Interface.LogicSlotTypeMature"
+msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
 msgstr ""
+
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "肌の色"
 
 #: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
 msgctxt "Interface.AppearanceTitleEyeColor"
@@ -1672,20 +1682,20 @@ msgctxt "Interface.ButtonSave"
 msgid "Save"
 msgstr "セーブ"
 
-#: /Language/Interface/Record[Key='ButtonExit']
-msgctxt "Interface.ButtonExit"
-msgid "Exit"
-msgstr "終了"
+#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
+msgctxt "Interface.LogicSlotTypeHealth"
+msgid "returns the health of the plant in the slot"
+msgstr ""
 
 #: /Language/Interface/Record[Key='DialogConfirmNoticeUnsaved']
 msgctxt "Interface.DialogConfirmNoticeUnsaved"
 msgid "Are you sure you want to leave the session without saving? Any unsaved progress will be lost."
 msgstr "セーブ無しでセッションを離れてよろしいですか？セーブされていない進捗は失われます。"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
-msgctxt "Interface.LogicSlotTypeEfficiency"
-msgid "returns the growth efficiency of the plant in the slot"
-msgstr ""
+#: /Language/Interface/Record[Key='ButtoConfirmExitAsServer']
+msgctxt "Interface.ButtoConfirmExitAsServer"
+msgid "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
+msgstr "セーブ無しで終了してよろしいですか？セーブされていない進捗は失われます。"
 
 #: /Language/Interface/Record[Key='ButtonBan']
 msgctxt "Interface.ButtonBan"
@@ -2022,14 +2032,14 @@ msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr "ゲームに戻る"
 
-#: /Language/Interface/Record[Key='StatusWindowInternal']
-msgctxt "Interface.StatusWindowInternal"
-msgid "Internal"
-msgstr "内部"
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeMature']
-msgctxt "Interface.LogicSlotTypeMature"
-msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
+#: /Language/Interface/Record[Key='LogicSlotTypePressure']
+msgctxt "Interface.LogicSlotTypePressure"
+msgid "returns pressure of the slot occupants internal atmosphere"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StatusWindowDamage']
@@ -2037,10 +2047,10 @@ msgctxt "Interface.StatusWindowDamage"
 msgid "Damage"
 msgstr "ダメージ"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
-msgctxt "Interface.LogicSlotTypeHealth"
-msgid "returns the health of the plant in the slot"
-msgstr ""
+#: /Language/Interface/Record[Key='StatusWindowExternal']
+msgctxt "Interface.StatusWindowExternal"
+msgid "External"
+msgstr "外部"
 
 #: /Language/Interface/Record[Key='InventorySlotHandRight']
 msgctxt "Interface.InventorySlotHandRight"
@@ -2258,16 +2268,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicSlotTypePressure']
-msgctxt "Interface.LogicSlotTypePressure"
-msgid "returns pressure of the slot occupants internal atmosphere"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
 msgctxt "Interface.LogicSlotTypeTemperature"
 msgid "returns temperature of the slot occupants internal atmosphere"
@@ -2313,20 +2313,31 @@ msgctxt "Interface.AppearanceButtonRandomize"
 msgid "Randomize"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtoConfirmExitAsServer']
-msgctxt "Interface.ButtoConfirmExitAsServer"
-msgid "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
-msgstr "セーブ無しで終了してよろしいですか？セーブされていない進捗は失われます。"
+#: /Language/Interface/Record[Key='SettingsP2PHostEnabled']
+#, fuzzy
+msgctxt "Interface.SettingsP2PHostEnabled"
+msgid "Enable P2PHost"
+msgstr "UPNPを有効にする"
 
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "肌の色"
+#: /Language/Interface/Record[Key='SettingsP2PHostNote']
+msgctxt "Interface.SettingsP2PHostNote"
+msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
+msgstr ""
 
-#: /Language/Interface/Record[Key='StatusWindowExternal']
-msgctxt "Interface.StatusWindowExternal"
-msgid "External"
-msgstr "外部"
+#: /Language/Interface/Record[Key='ButtonExit']
+msgctxt "Interface.ButtonExit"
+msgid "Exit"
+msgstr "終了"
+
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "髭"
+
+#: /Language/Interface/Record[Key='StatusWindowInternal']
+msgctxt "Interface.StatusWindowInternal"
+msgid "Internal"
+msgstr "内部"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "
