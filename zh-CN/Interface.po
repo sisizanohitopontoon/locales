@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, requests an item of the provided type from the device"
-msgstr "当设置为唯一标识符时, 从设备请求所提供类型的项"
+#: /Language/Interface/Record[Key='LogicTypeClearMemory']
+msgctxt "Interface.LogicTypeClearMemory"
+msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+msgstr "设置为 1时, 清除计数器内存 ExportCount。将在激活时将自身设置回0"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
+msgctxt "Interface.LogicSlotTypeEfficiency"
+msgid "returns the growth efficiency of the plant in the slot"
+msgstr "返回水槽中植物的生长效率"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
+msgctxt "Interface.LogicSlotTypeDamage"
+msgid "returns the damage state of the item in the slot"
+msgstr "返回插槽中的项目损坏状态"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
 msgctxt "Interface.LogicSlotTypeQuantity"
@@ -145,25 +155,25 @@ msgctxt "Interface.LogicTypeExportCount"
 msgid "How many items exported since last ClearMemory"
 msgstr "导出之前的ClearMemory数量"
 
-#: /Language/Interface/Record[Key='LogicTypeClearMemory']
-msgctxt "Interface.LogicTypeClearMemory"
-msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
-msgstr "设置为 1时, 清除计数器内存 ExportCount。将在激活时将自身设置回0"
+#: /Language/Interface/Record[Key='LogicSlotTypeMature']
+msgctxt "Interface.LogicSlotTypeMature"
+msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
+msgstr "如果此插槽中的植物成熟则返回1，否则返回0"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
+msgctxt "Interface.LogicSlotTypeHealth"
+msgid "returns the health of the plant in the slot"
+msgstr "返回插槽中的植物的运行状况"
 
 #: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
 msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
 msgstr "此设备当前生产的完成程度, 在0和1之间"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
-msgctxt "Interface.LogicSlotTypeDamage"
-msgid "returns the damage state of the item in the slot"
-msgstr "返回插槽中的项目损坏状态"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
-msgctxt "Interface.LogicSlotTypeEfficiency"
-msgid "returns the growth efficiency of the plant in the slot"
-msgstr "返回水槽中植物的生长效率"
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, requests an item of the provided type from the device"
+msgstr "当设置为唯一标识符时, 从设备请求所提供类型的项"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
@@ -1111,15 +1121,15 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "游戏设定"
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "启动条件"
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr "返回插槽中工厂的当前生长状态"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeMature']
-msgctxt "Interface.LogicSlotTypeMature"
-msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
-msgstr "如果此插槽中的植物成熟则返回1，否则返回0"
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "面部毛发"
 
 #: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
 msgctxt "Interface.AppearanceTitleSkinColor"
@@ -1684,20 +1694,20 @@ msgctxt "Interface.SettingsPopupChat"
 msgid "Popup Chat"
 msgstr "弹出聊天"
 
-#: /Language/Interface/Record[Key='DialogConfirmNoticeClientLeaving']
-msgctxt "Interface.DialogConfirmNoticeClientLeaving"
-msgid "Are you sure you want to leave the session?"
-msgstr "您确定要离开连线吗？"
+#: /Language/Interface/Record[Key='LogicSlotTypePressure']
+msgctxt "Interface.LogicSlotTypePressure"
+msgid "returns pressure of the slot occupants internal atmosphere"
+msgstr "返回插槽乘员内部大气的压力"
 
 #: /Language/Interface/Record[Key='ButtonSave']
 msgctxt "Interface.ButtonSave"
 msgid "Save"
 msgstr "保存"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
-msgctxt "Interface.LogicSlotTypeHealth"
-msgid "returns the health of the plant in the slot"
-msgstr "返回插槽中的植物的运行状况"
+#: /Language/Interface/Record[Key='ButtonExit']
+msgctxt "Interface.ButtonExit"
+msgid "Exit"
+msgstr "退出"
 
 #: /Language/Interface/Record[Key='DialogConfirmNoticeUnsaved']
 msgctxt "Interface.DialogConfirmNoticeUnsaved"
@@ -2039,20 +2049,20 @@ msgctxt "Interface.GameMenuButtonSave"
 msgid "Save World"
 msgstr "保存世界"
 
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
+msgstr "返回插槽乘员内部大气的温度"
+
 #: /Language/Interface/Record[Key='GameMenuButtonReturn']
 msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr "回到游戏"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr "返回插槽中工厂的当前生长状态"
-
-#: /Language/Interface/Record[Key='LogicSlotTypePressure']
-msgctxt "Interface.LogicSlotTypePressure"
-msgid "returns pressure of the slot occupants internal atmosphere"
-msgstr "返回插槽乘员内部大气的压力"
+#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
+msgctxt "Interface.LogicSlotTypeCharge"
+msgid "returns current energy charge the slot occupant is holding"
+msgstr "返回电流能量充电插槽乘员持有的"
 
 #: /Language/Interface/Record[Key='StatusWindowDamage']
 msgctxt "Interface.StatusWindowDamage"
@@ -2280,16 +2290,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "继续"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
-msgctxt "Interface.LogicSlotTypeTemperature"
-msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr "返回插槽乘员内部大气的温度"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
-msgctxt "Interface.LogicSlotTypeCharge"
-msgid "returns current energy charge the slot occupant is holding"
-msgstr "返回电流能量充电插槽乘员持有的"
-
 #: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
 msgctxt "Interface.LogicSlotTypeChargeRatio"
 msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
@@ -2336,15 +2336,25 @@ msgctxt "Interface.SettingsP2PHostNote"
 msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtonExit']
-msgctxt "Interface.ButtonExit"
-msgid "Exit"
-msgstr "退出"
+#: /Language/Interface/Record[Key='SettingsSavePath']
+msgctxt "Interface.SettingsSavePath"
+msgid "Path"
+msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "面部毛发"
+#: /Language/Interface/Record[Key='ButtonFolderBrowse']
+msgctxt "Interface.ButtonFolderBrowse"
+msgid "..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='DialogConfirmNoticeClientLeaving']
+msgctxt "Interface.DialogConfirmNoticeClientLeaving"
+msgid "Are you sure you want to leave the session?"
+msgstr "您确定要离开连线吗？"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "启动条件"
 
 #: /Language/Interface/Record[Key='StatusWindowInternal']
 msgctxt "Interface.StatusWindowInternal"

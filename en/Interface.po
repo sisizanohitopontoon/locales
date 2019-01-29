@@ -6,10 +6,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, requests an item of the provided type from the device"
-msgstr "When set to the unique identifier, requests an item of the provided type from the device"
+#: /Language/Interface/Record[Key='LogicTypeClearMemory']
+msgctxt "Interface.LogicTypeClearMemory"
+msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+msgstr "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
+msgctxt "Interface.LogicSlotTypeEfficiency"
+msgid "returns the growth efficiency of the plant in the slot"
+msgstr "returns the growth efficiency of the plant in the slot"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
+msgctxt "Interface.LogicSlotTypeDamage"
+msgid "returns the damage state of the item in the slot"
+msgstr "returns the damage state of the item in the slot"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
 msgctxt "Interface.LogicSlotTypeQuantity"
@@ -141,25 +151,25 @@ msgctxt "Interface.LogicTypeExportCount"
 msgid "How many items exported since last ClearMemory"
 msgstr "How many items exported since last ClearMemory"
 
-#: /Language/Interface/Record[Key='LogicTypeClearMemory']
-msgctxt "Interface.LogicTypeClearMemory"
-msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
-msgstr "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+#: /Language/Interface/Record[Key='LogicSlotTypeMature']
+msgctxt "Interface.LogicSlotTypeMature"
+msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
+msgstr "returns 1 if the plant in this slot is mature, 0 when it isn't"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
+msgctxt "Interface.LogicSlotTypeHealth"
+msgid "returns the health of the plant in the slot"
+msgstr "returns the health of the plant in the slot"
 
 #: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
 msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
 msgstr "How complete the current production is for this device, between 0 and 1"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
-msgctxt "Interface.LogicSlotTypeDamage"
-msgid "returns the damage state of the item in the slot"
-msgstr "returns the damage state of the item in the slot"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
-msgctxt "Interface.LogicSlotTypeEfficiency"
-msgid "returns the growth efficiency of the plant in the slot"
-msgstr "returns the growth efficiency of the plant in the slot"
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, requests an item of the provided type from the device"
+msgstr "When set to the unique identifier, requests an item of the provided type from the device"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
@@ -1071,15 +1081,15 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Game Settings"
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Starting Condition"
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr "returns the current growth state of the plant in the slot"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeMature']
-msgctxt "Interface.LogicSlotTypeMature"
-msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
-msgstr "returns 1 if the plant in this slot is mature, 0 when it isn't"
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "Facial Hair"
 
 #: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
 msgctxt "Interface.AppearanceTitleSkinColor"
@@ -1631,20 +1641,20 @@ msgctxt "Interface.SettingsPopupChat"
 msgid "Popup Chat"
 msgstr "Popup Chat"
 
-#: /Language/Interface/Record[Key='DialogConfirmNoticeClientLeaving']
-msgctxt "Interface.DialogConfirmNoticeClientLeaving"
-msgid "Are you sure you want to leave the session?"
-msgstr "Are you sure you want to leave the session?"
+#: /Language/Interface/Record[Key='LogicSlotTypePressure']
+msgctxt "Interface.LogicSlotTypePressure"
+msgid "returns pressure of the slot occupants internal atmosphere"
+msgstr "returns pressure of the slot occupants internal atmosphere"
 
 #: /Language/Interface/Record[Key='ButtonSave']
 msgctxt "Interface.ButtonSave"
 msgid "Save"
 msgstr "Save"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
-msgctxt "Interface.LogicSlotTypeHealth"
-msgid "returns the health of the plant in the slot"
-msgstr "returns the health of the plant in the slot"
+#: /Language/Interface/Record[Key='ButtonExit']
+msgctxt "Interface.ButtonExit"
+msgid "Exit"
+msgstr "Exit"
 
 #: /Language/Interface/Record[Key='DialogConfirmNoticeUnsaved']
 msgctxt "Interface.DialogConfirmNoticeUnsaved"
@@ -1986,20 +1996,20 @@ msgctxt "Interface.GameMenuButtonSave"
 msgid "Save World"
 msgstr "Save World"
 
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
+msgstr "returns temperature of the slot occupants internal atmosphere"
+
 #: /Language/Interface/Record[Key='GameMenuButtonReturn']
 msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr "Return To Game"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr "returns the current growth state of the plant in the slot"
-
-#: /Language/Interface/Record[Key='LogicSlotTypePressure']
-msgctxt "Interface.LogicSlotTypePressure"
-msgid "returns pressure of the slot occupants internal atmosphere"
-msgstr "returns pressure of the slot occupants internal atmosphere"
+#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
+msgctxt "Interface.LogicSlotTypeCharge"
+msgid "returns current energy charge the slot occupant is holding"
+msgstr "returns current energy charge the slot occupant is holding"
 
 #: /Language/Interface/Record[Key='StatusWindowDamage']
 msgctxt "Interface.StatusWindowDamage"
@@ -2226,16 +2236,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continue"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
-msgctxt "Interface.LogicSlotTypeTemperature"
-msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr "returns temperature of the slot occupants internal atmosphere"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
-msgctxt "Interface.LogicSlotTypeCharge"
-msgid "returns current energy charge the slot occupant is holding"
-msgstr "returns current energy charge the slot occupant is holding"
-
 #: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
 msgctxt "Interface.LogicSlotTypeChargeRatio"
 msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
@@ -2281,15 +2281,25 @@ msgctxt "Interface.SettingsP2PHostNote"
 msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
 msgstr "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
 
-#: /Language/Interface/Record[Key='ButtonExit']
-msgctxt "Interface.ButtonExit"
-msgid "Exit"
-msgstr "Exit"
+#: /Language/Interface/Record[Key='SettingsSavePath']
+msgctxt "Interface.SettingsSavePath"
+msgid "Path"
+msgstr "Path"
 
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "Facial Hair"
+#: /Language/Interface/Record[Key='ButtonFolderBrowse']
+msgctxt "Interface.ButtonFolderBrowse"
+msgid "..."
+msgstr "..."
+
+#: /Language/Interface/Record[Key='DialogConfirmNoticeClientLeaving']
+msgctxt "Interface.DialogConfirmNoticeClientLeaving"
+msgid "Are you sure you want to leave the session?"
+msgstr "Are you sure you want to leave the session?"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Starting Condition"
 
 #: /Language/Interface/Record[Key='StatusWindowInternal']
 msgctxt "Interface.StatusWindowInternal"
