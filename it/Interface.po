@@ -10,9 +10,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='LogicTypeClearMemory']
-msgctxt "Interface.LogicTypeClearMemory"
-msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+msgstr "Cambia a {1}<color=yellow>({0})</color> per {2}"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeMature']
+msgctxt "Interface.LogicSlotTypeMature"
+msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
@@ -155,14 +160,14 @@ msgctxt "Interface.LogicTypeExportCount"
 msgid "How many items exported since last ClearMemory"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeMature']
-msgctxt "Interface.LogicSlotTypeMature"
-msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicSlotTypeHealth']
 msgctxt "Interface.LogicSlotTypeHealth"
 msgid "returns the health of the plant in the slot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeClearMemory']
+msgctxt "Interface.LogicTypeClearMemory"
+msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
@@ -771,10 +776,10 @@ msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr "Cambia a <color=yellow>{0}</color> per tutti {1}"
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "Cambia a {1}<color=yellow>({0})</color> per {2}"
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
 msgctxt "Interface.ChangeReagentSettingTo"
@@ -1110,9 +1115,9 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Parametri di gioco"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
+#: /Language/Interface/Record[Key='LogicSlotTypePressure']
+msgctxt "Interface.LogicSlotTypePressure"
+msgid "returns pressure of the slot occupants internal atmosphere"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
@@ -1682,15 +1687,15 @@ msgctxt "Interface.SettingsPopupChat"
 msgid "Popup Chat"
 msgstr "Popup chat"
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressure']
-msgctxt "Interface.LogicSlotTypePressure"
-msgid "returns pressure of the slot occupants internal atmosphere"
-msgstr ""
+#: /Language/Interface/Record[Key='DialogConfirmNoticeClientLeaving']
+msgctxt "Interface.DialogConfirmNoticeClientLeaving"
+msgid "Are you sure you want to leave the session?"
+msgstr "Sei sicuro di voler uscire dalla sessione?"
 
-#: /Language/Interface/Record[Key='ButtonSave']
-msgctxt "Interface.ButtonSave"
-msgid "Save"
-msgstr "Salva"
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonExit']
 msgctxt "Interface.ButtonExit"
@@ -1957,10 +1962,10 @@ msgctxt "Interface.SettingsMenuControls"
 msgid "Controls"
 msgstr "Controlli"
 
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "Audio"
+#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
+msgctxt "Interface.LogicSlotTypeCharge"
+msgid "returns current energy charge the slot occupant is holding"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -2032,24 +2037,24 @@ msgctxt "Interface.GameMenuButtonChangeCharacter"
 msgid "Change Appearance"
 msgstr "Cambia Aspetto"
 
+#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
+msgctxt "Interface.LogicSlotTypeChargeRatio"
+msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+msgstr ""
+
 #: /Language/Interface/Record[Key='GameMenuButtonSave']
 msgctxt "Interface.GameMenuButtonSave"
 msgid "Save World"
 msgstr "Salva Mondo"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
-msgctxt "Interface.LogicSlotTypeTemperature"
-msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr ""
 
 #: /Language/Interface/Record[Key='GameMenuButtonReturn']
 msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr "Torna al gioco"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
-msgctxt "Interface.LogicSlotTypeCharge"
-msgid "returns current energy charge the slot occupant is holding"
+#: /Language/Interface/Record[Key='LogicSlotTypeClass']
+msgctxt "Interface.LogicSlotTypeClass"
+msgid "returns integer representing the class of object"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StatusWindowDamage']
@@ -2278,16 +2283,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continua"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
-msgctxt "Interface.LogicSlotTypeChargeRatio"
-msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicSlotTypeClass']
-msgctxt "Interface.LogicSlotTypeClass"
-msgid "returns integer representing the class of object"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
 msgctxt "Interface.LogicSlotTypePressureWaste"
 msgid "returns pressure in the waste tank of the jetpack in this slot"
@@ -2334,20 +2329,30 @@ msgctxt "Interface.ButtonFolderBrowse"
 msgid "..."
 msgstr ""
 
-#: /Language/Interface/Record[Key='DialogConfirmNoticeClientLeaving']
-msgctxt "Interface.DialogConfirmNoticeClientLeaving"
-msgid "Are you sure you want to leave the session?"
-msgstr "Sei sicuro di voler uscire dalla sessione?"
+#: /Language/Interface/Record[Key='AppearanceTitleSpecies']
+msgctxt "Interface.AppearanceTitleSpecies"
+msgid "Species"
+msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Condizioni di partenza"
+#: /Language/Interface/Record[Key='ButtonSave']
+msgctxt "Interface.ButtonSave"
+msgid "Save"
+msgstr "Salva"
+
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "Audio"
 
 #: /Language/Interface/Record[Key='StatusWindowInternal']
 msgctxt "Interface.StatusWindowInternal"
 msgid "Internal"
 msgstr "Interna"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Condizioni di partenza"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "
