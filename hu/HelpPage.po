@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-09 00:10+0000\n"
+"PO-Revision-Date: 2019-02-09 11:30+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,7 +155,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='InventoryPage']
 msgctxt "HelpPage.InventoryPage"
 msgid "Inventory"
-msgstr ""
+msgstr "Tárhely"
 
 #: /Language/HelpPage/StationpediaPage[Key='InventoryPage']
 msgctxt "HelpPage.InventoryPage"
@@ -178,11 +178,27 @@ msgid ""
 "The {KEY:InventorySelect} button will swap whatever your selected slot is in your active hand, along with whatever slot you have selected with the {COLORRED:Mouse Wheel} if you want to use the hotkeys rather than doing it using the mouse.\n"
 "      "
 msgstr ""
+"A játék mindegy egyes tárgyának külön reteszei vannak, ezek osztályozva vannak, hogy csak a megfelelő dolog kerülhessen be az adott helyre. A legtöbb reteszhez különböző gyorsgombok tartoznak, például a {KEY:HelmetSlot} a {SLOT:Helmet} azonnali hozzáférését biztosítja.\n"
+"\n"
+"{HEADER:A tárhely ablakai}\n"
+"Néhány reteszből csak egy van a játékban. A reteszek tartalmát az adott gyorsgomb használatával vagy a {KEY:MouseControl} tartásával és közben kattintással lehet mozgatni.  Ha megnyitsz egy reteszhez tartozó ablakot, a tárgyakat és azok beállításait tudod kezelni, az ablakok a címsorra való kattintással mozgathatók.\n"
+"\n"
+"{HEADER:Gyors kezelés}\n"
+"Egy retesz gyorsgombjával azonnal fel- és levehetsz vagy cserélhetsz eszközöket. Például ha éppen az egyik kezedben lenne a {THING:ItemSpaceHelmet}, akkor a {KEY:HelmetSlot} hosszú lenyomásával azonnal a {KEY:HelmetSlot}be kerülne. Ha volt ott másik sisak, akkor kicserélődnének.\n"
+"\n"
+"{HEADER:Áthúzás}\n"
+"A {KEY:MouseControl} lenyomása közben tágyakat húzhatsz át reteszek között.\n"
+"\n"
+"{HEADER:Eldobás}\n"
+"Egy tárgyat el is dobhatsz a {KEY:Drop} gomb lenyomásával vagy a {KEY:MouseControl} gombbal és kattintással ki is húzhatod a reteszből.\n"
+"\n"
+"{HEADER:Kiválasztás}\n"
+"A {KEY:InventorySelect} lenyomásával válthatsz a kiválasztott retesz és a saját kezed között. Ha nem akarod az egeret használni, a {COLORRED:Mouse Wheel} használatával is válthatsz a reteszek között."
 
 #: /Language/HelpPage/StationpediaPage[Key='AirlockDevicePage']
 msgctxt "HelpPage.AirlockDevicePage"
 msgid "Airlock Devices"
-msgstr ""
+msgstr "Légzsillip eszközök"
 
 #: /Language/HelpPage/StationpediaPage[Key='AirlockDevicePage']
 msgctxt "HelpPage.AirlockDevicePage"
@@ -194,11 +210,16 @@ msgid ""
 "{LIST_OF_AIRLOCK_DEVICES}\n"
 "      "
 msgstr ""
+"Egy működő légzsilip készítéshez helyezz be egy {THING:CircuitboardAirlockControl}t egy {THING:StructureConsole}ba és köss rájuk további szükséges eszközöket.\n"
+"\n"
+"{HEADER:Légzsilip eszközök listája}\n"
+"Az itt található eszközöket használhatod egy légzsilip rendszer elkészítéséhez:\n"
+"{LIST_OF_AIRLOCK_DEVICES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicUnitPage']
 msgctxt "HelpPage.LogicUnitPage"
 msgid "Logic Units"
-msgstr ""
+msgstr "Logikai egységek"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicUnitPage']
 msgctxt "HelpPage.LogicUnitPage"
