@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-09 11:41+0000\n"
+"PO-Revision-Date: 2019-02-09 11:45+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -649,6 +649,8 @@ msgid ""
 "{HEADER:Can Manufacture}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Gyárhatja ezt:}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedHeaderTemplate']
 msgctxt "HelpPage.ConstructedHeaderTemplate"
@@ -656,26 +658,28 @@ msgid ""
 "{HEADER:Can Construct}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Építeni tudja ezt:}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorTemplate']
 msgctxt "HelpPage.CreatorTemplate"
 msgid "{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}"
-msgstr ""
+msgstr "{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeHeaderTemplate']
 msgctxt "HelpPage.LogicTypeHeaderTemplate"
 msgid "{HEADER:Logic}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Logika}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeTemplate']
 msgctxt "HelpPage.LogicTypeTemplate"
 msgid "{0}{POS:300}{1} {2}"
-msgstr ""
+msgstr "{0}{POS:300}{1} {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringHeaderTemplate']
 msgctxt "HelpPage.ModeStringHeaderTemplate"
 msgid "{HEADER:Modes}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Módok}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedGasesTemplate']
 msgctxt "HelpPage.CreatedGasesTemplate"
@@ -683,6 +687,8 @@ msgid ""
 "{HEADER:Gases}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Gázok}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedReagentTemplate']
 msgctxt "HelpPage.CreatedReagentTemplate"
@@ -690,11 +696,13 @@ msgid ""
 "{HEADER:Reagents}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Alapanyagok}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringItemTemplate']
 msgctxt "HelpPage.ModeStringItemTemplate"
 msgid "{0}.{POS:100}{1}"
-msgstr ""
+msgstr "{0}.{POS:100}{1}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPageTemplate']
 msgctxt "HelpPage.ReagentPageTemplate"
@@ -707,6 +715,13 @@ msgid ""
 "{HEADER:Found In}\n"
 "{LIST}{2}{/LIST}"
 msgstr ""
+"Egy {LINK:ReagentPage;alapanyag}, leginkább {LINK:IngotPage;öntött rúd} formában használható.\n"
+"\n"
+"{HEADER:Általános}\n"
+"{LIST}Egység {POS:300}{1}{/LIST}\n"
+"\n"
+"{HEADER:Megtalálható itt:}\n"
+"{LIST}{2}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageTemplate']
 msgctxt "HelpPage.GasPageTemplate"
@@ -719,6 +734,13 @@ msgid ""
 "{HEADER:Found In}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"Egy {LINK:GasPage;gáz}, gyakran {LINK:SmeltingPage;beolvasztásnál} szabadul fel.\n"
+"\n"
+"{HEADER:Általános}\n"
+"{LIST}Jellemző hőmérséklet {POS:300}{1}{2}{/LIST}\n"
+"\n"
+"{HEADER:Megtalálható itt:}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageFlamableTemplate']
 msgctxt "HelpPage.GasPageFlamableTemplate"
