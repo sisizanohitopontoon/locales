@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-09 11:30+0000\n"
+"PO-Revision-Date: 2019-02-09 11:36+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -178,22 +178,22 @@ msgid ""
 "The {KEY:InventorySelect} button will swap whatever your selected slot is in your active hand, along with whatever slot you have selected with the {COLORRED:Mouse Wheel} if you want to use the hotkeys rather than doing it using the mouse.\n"
 "      "
 msgstr ""
-"A játék mindegy egyes tárgyának külön reteszei vannak, ezek osztályozva vannak, hogy csak a megfelelő dolog kerülhessen be az adott helyre. A legtöbb reteszhez különböző gyorsgombok tartoznak, például a {KEY:HelmetSlot} a {SLOT:Helmet} azonnali hozzáférését biztosítja.\n"
+"A játék mindegy egyes tárgyának külön slotjai vannak, ezek osztályozva vannak, hogy csak a megfelelő dolog kerülhessen be az adott helyre. A legtöbb slothoz különböző gyorsgombok tartoznak, például a {KEY:HelmetSlot} a {SLOT:Helmet} azonnali hozzáférését biztosítja.\n"
 "\n"
 "{HEADER:A tárhely ablakai}\n"
-"Néhány reteszből csak egy van a játékban. A reteszek tartalmát az adott gyorsgomb használatával vagy a {KEY:MouseControl} tartásával és közben kattintással lehet mozgatni.  Ha megnyitsz egy reteszhez tartozó ablakot, a tárgyakat és azok beállításait tudod kezelni, az ablakok a címsorra való kattintással mozgathatók.\n"
+"Néhány slotból csak egy van a játékban. A slotok tartalmát az adott gyorsgomb használatával vagy a {KEY:MouseControl} tartásával és közben kattintással lehet mozgatni.  Ha megnyitsz egy slothoz tartozó ablakot, a tárgyakat és azok beállításait tudod kezelni, az ablakok a címsorra való kattintással mozgathatók.\n"
 "\n"
 "{HEADER:Gyors kezelés}\n"
-"Egy retesz gyorsgombjával azonnal fel- és levehetsz vagy cserélhetsz eszközöket. Például ha éppen az egyik kezedben lenne a {THING:ItemSpaceHelmet}, akkor a {KEY:HelmetSlot} hosszú lenyomásával azonnal a {KEY:HelmetSlot}be kerülne. Ha volt ott másik sisak, akkor kicserélődnének.\n"
+"Egy slot gyorsgombjával azonnal fel- és levehetsz vagy cserélhetsz eszközöket. Például ha éppen az egyik kezedben lenne a {THING:ItemSpaceHelmet}, akkor a {KEY:HelmetSlot} hosszú lenyomásával azonnal a {KEY:HelmetSlot}be kerülne. Ha volt ott másik sisak, akkor kicserélődnének.\n"
 "\n"
 "{HEADER:Áthúzás}\n"
-"A {KEY:MouseControl} lenyomása közben tágyakat húzhatsz át reteszek között.\n"
+"A {KEY:MouseControl} lenyomása közben tágyakat húzhatsz át slotok között.\n"
 "\n"
 "{HEADER:Eldobás}\n"
-"Egy tárgyat el is dobhatsz a {KEY:Drop} gomb lenyomásával vagy a {KEY:MouseControl} gombbal és kattintással ki is húzhatod a reteszből.\n"
+"Egy tárgyat el is dobhatsz a {KEY:Drop} gomb lenyomásával vagy a {KEY:MouseControl} gombbal és kattintással ki is húzhatod a slotból.\n"
 "\n"
 "{HEADER:Kiválasztás}\n"
-"A {KEY:InventorySelect} lenyomásával válthatsz a kiválasztott retesz és a saját kezed között. Ha nem akarod az egeret használni, a {COLORRED:Mouse Wheel} használatával is válthatsz a reteszek között."
+"A {KEY:InventorySelect} lenyomásával válthatsz a kiválasztott slot és a saját kezed között. Ha nem akarod az egeret használni, a {COLORRED:Mouse Wheel} használatával is válthatsz a slotok között."
 
 #: /Language/HelpPage/StationpediaPage[Key='AirlockDevicePage']
 msgctxt "HelpPage.AirlockDevicePage"
@@ -228,11 +228,13 @@ msgid ""
 "{LIST_OF_LOGIC_UNITS}\n"
 "      "
 msgstr ""
+"{HEADER:Logikai egységek listája}\n"
+"{LIST_OF_LOGIC_UNITS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='SlotLeftHand']
 msgctxt "HelpPage.SlotLeftHand"
 msgid "Hand Slots"
-msgstr ""
+msgstr "Kéz slotok"
 
 #: /Language/HelpPage/StationpediaPage[Key='SlotLeftHand']
 msgctxt "HelpPage.SlotLeftHand"
@@ -240,11 +242,14 @@ msgid ""
 "Your hands are special slots. You have one active hand at any time, which is the hand that is currently used by your {COLORRED:Primary Action}. To swap the active hand, press {KEY:SwapHands}. You active hand can be interacted with by pressing {KEY:ActiveHandSlot} which will open and close the contents of your active hand. As always, you can use {KEY:MouseControl} to bring up the mouse and interact that way. For more information, see the {LINK:InventoryPage;Inventory} section.\n"
 "      "
 msgstr ""
+"A kezeid is különleges slotok. Egyszerre csak az egyik aktív, azt a {COLORRED:Primary Action} gombbal használhatod. Az aktív kezek közti váltáshoz használd a(z) {KEY:SwapHands} gombot. Az aktív "
+"kezedet a {KEY:ActiveHandSlot} gombbal tudod kezelni, ez a kezed tartalmát nyitja vagy zárja. Mint mindig, most is használhatod a(z) {KEY:MouseControl} gombot a kezeléshez. További információért "
+"lesd meg a {LINK:InventoryPage;tárhely} szekciót."
 
 #: /Language/HelpPage/StationpediaPage[Key='SlotRightHand']
 msgctxt "HelpPage.SlotRightHand"
 msgid "Hand Slots"
-msgstr ""
+msgstr "Kéz slotok"
 
 #: /Language/HelpPage/StationpediaPage[Key='SlotRightHand']
 msgctxt "HelpPage.SlotRightHand"
@@ -252,11 +257,14 @@ msgid ""
 "Your hands are special slots. You have one active hand at any time, which is the hand that is currently used by your {COLORRED:Primary Action}. To swap the active hand, press {KEY:SwapHands}. You active hand can be interacted with by pressing {KEY:ActiveHandSlot} which will open and close the contents of your active hand. As always, you can use {KEY:MouseControl} to bring up the mouse and interact that way. For more information, see the {LINK:InventoryPage:Inventory} section.\n"
 "      "
 msgstr ""
+"A kezeid is különleges slotok. Egyszerre csak az egyik aktív, azt a {COLORRED:Primary Action} gombbal használhatod. Az aktív kezek közti váltáshoz használd a(z) {KEY:SwapHands} gombot. Az aktív "
+"kezedet a {KEY:ActiveHandSlot} gombbal tudod kezelni, ez a kezed tartalmát nyitja vagy zárja. Mint mindig, most is használhatod a(z) {KEY:MouseControl} gombot a kezeléshez. További információért "
+"lesd meg a {LINK:InventoryPage:Inventory} szekciót."
 
 #: /Language/HelpPage/StationpediaPage[Key='FabricatorPage']
 msgctxt "HelpPage.FabricatorPage"
 msgid "Fabricators"
-msgstr ""
+msgstr "Gyártógépek"
 
 #: /Language/HelpPage/StationpediaPage[Key='FabricatorPage']
 msgctxt "HelpPage.FabricatorPage"
@@ -267,11 +275,15 @@ msgid ""
 "{LIST_OF_FABRICATORS}\n"
 "      "
 msgstr ""
+"Ezek az árammal ellátott masinák gyártják le az összes játékbeli tárgyat. Legtöbb esetbed {LINK:IngotPage;öntött fémrudakkal} láthatod el {LINK:ReagentPage;alapanyaggal}, hogy képesek legyenek gyártani.\n"
+"\n"
+"{HEADER:Gyártógépek listája}\n"
+"{LIST_OF_FABRICATORS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
 msgctxt "HelpPage.DevicePage"
 msgid "Devices"
-msgstr ""
+msgstr "Berendezések"
 
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
 msgctxt "HelpPage.DevicePage"
@@ -282,11 +294,15 @@ msgid ""
 "{LIST_OF_DEVICES}\n"
 "      "
 msgstr ""
+"Olyan árammal ellátott szerkezetek, melyek speciális funkciókkal rendelkeznek, mint például logika, atmoszféra kezelése stb. Ugyanúgy kell építeni őket, mint a többi építhető tárgyat.\n"
+"\n"
+"{HEADER:Berendezések listája}\n"
+"{LIST_OF_DEVICES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='SmeltingPage']
 msgctxt "HelpPage.SmeltingPage"
 msgid "Smelting"
-msgstr ""
+msgstr "Beolvasztás"
 
 #: /Language/HelpPage/StationpediaPage[Key='SmeltingPage']
 msgctxt "HelpPage.SmeltingPage"
@@ -294,23 +310,26 @@ msgid ""
 "Once you have {LINK:OrePage;ore}, you need to turn it into {LINK:IngotPage;ingots} so you can use their {LINK:ReagentPage;reagents}. Smelting will often produce {LINK:GasPage;gases}. This occurs in either the {THING:StructureArcFurnace} (for simple recipes) and the {THING:StructureFurnace} for more complicated {LINK:AlloyPage;Alloys}. For the complex alloys, you will need to achieve mixtures at perfect ratios, {LINK:TemperaturePage;Temperature}, and {LINK:PressurePage;Pressure}. \n"
 "      "
 msgstr ""
+"Ha szereztél {LINK:OrePage;érceket}, {LINK:IngotPage;rudakká} kell olvasztanod őket, hogy {LINK:ReagentPage;alapanyagként} használhasd őket. A beolvasztás gyakran jár {LINK:GasPage;gázok} "
+"kibocsátásával. Ehhez szükség van a(z ){THING:StructureArcFurnace} gépre (egyszerűbb dolgokhoz) vagy a {THING:StructureFurnace} használatával {LINK:AlloyPage;ötvözeteket} állíthatsz elő. Ezeknél "
+"figyelni kell a tökéletes arányra, a megfelelő {LINK:TemperaturePage;hőmérsékletre} és a {LINK:PressurePage;nyomásra}."
 
 #: /Language/HelpPage/StationpediaPage[Key='MiningPage']
 msgctxt "HelpPage.MiningPage"
 msgid "Mining"
-msgstr ""
+msgstr "Bányászat"
 
 #: /Language/HelpPage/StationpediaPage[Key='MiningPage']
 msgctxt "HelpPage.MiningPage"
 msgid ""
 "You can mine {LINK:OrePage;ore} using a {THING:ItemMiningDrill}. If you wear a {THING:ItemMiningBelt} the {LINK:OrePage;ore} will automatically be placed within it.\n"
 "      "
-msgstr ""
+msgstr "{THING:ItemMiningDrill} használatával {LINK:OrePage;érceket} szerezhetsz. A {THING:ItemMiningBelt} viselésénél az {LINK:OrePage;ércek} atomatikusan abba helyeződnek át."
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
 msgctxt "HelpPage.ConstructionPage"
 msgid "Construction"
-msgstr ""
+msgstr "Építkezés"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
 msgctxt "HelpPage.ConstructionPage"
@@ -325,11 +344,19 @@ msgid ""
 "If you look directly at a structure that is incomplete you will get information about what you need to do to complete it. If you have a {LINK:ToolPage;tool} in your hand and its not the right {LINK:ToolPage;tool}, a tooltip will appear telling you what you would need to use to deconstruct it.\n"
 "      "
 msgstr ""
+"{HEADER:Első lépések}\n"
+"A legtöbb dolog megépítéséhez {LINK:KitPage;készleteket} fogsz használni. {LINK:ToolPage;Eszközök} ls {LINK:ResourcePage;nyersanyagok} használatával tudod befejezni őket. Figyelj arra, hogy hány készletet használsz, mert néhány dolog megépítéséhez nem csak egyre lesz szükséged. Néhány készlet többféleképpen is elkészítrhető, az opciókhoz használd a {COLORRED:Scroll Wheel} gombot.\n"
+"\n"
+"{HEADER:Építési fázisok}\n"
+"Néhány dolog különböző építési fázisokkal rendelkezik. A képernyő megjelenő szöveg segíteni fog, hogy éppen melyik eszköz és melyik nyersanyagot használd. Néha mindkét kezedben kell lennie adott tárgyaknak, hogy a konstrukciót sikeresen végrehajtsd. A használt eszközök közül van, amit be kell kapcsolni, ezt a {KEY:ToggleHandPower} gomb használatával teheted meg.\n"
+"\n"
+"{HEADER:Tippek}\n"
+"Ha közvetlenül ránézel az építés alatt levő tárgyra, a befejezéshez szükséges információk meg fognak jelenni. Ha nem a szükséges {LINK:ToolPage;eszköz}  van a kezedben, tanácsot fogsz kapni, milyen eszközzel bonthatod le."
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
 msgctxt "HelpPage.ReagentPage"
 msgid "Reagents"
-msgstr ""
+msgstr "Alapanyagok"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
 msgctxt "HelpPage.ReagentPage"
@@ -340,11 +367,14 @@ msgid ""
 "{LIST_OF_REAGENTS}\n"
 "      "
 msgstr ""
+"Különféle kémiai anyagok egyes típusai.\n"
+"{HEADER:Alapanyagok listája}\n"
+"{LIST_OF_REAGENTS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
 msgctxt "HelpPage.GasPage"
 msgid "Gases"
-msgstr ""
+msgstr "Gázok"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
 msgctxt "HelpPage.GasPage"
