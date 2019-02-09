@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-09 11:36+0000\n"
+"PO-Revision-Date: 2019-02-09 11:41+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -385,11 +385,15 @@ msgid ""
 "{LIST_OF_GASES}\n"
 "      "
 msgstr ""
+"Különböző kémiai gázok egyes típusai.\n"
+"\n"
+"{HEADER:Gázok listája}\n"
+"{LIST_OF_GASES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
 msgctxt "HelpPage.AlloyPage"
 msgid "Alloys"
-msgstr ""
+msgstr "Ötvözetek"
 
 #: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
 msgctxt "HelpPage.AlloyPage"
@@ -400,11 +404,15 @@ msgid ""
 "{LIST_OF_ALLOYS}\n"
 "      "
 msgstr ""
+"A {THING:StructureFurnace} segítsélgével készíthetők el {LINK:ReagentPage;alapanyag} keverékekből. Az ötvözetek {LINK:IngotPage;kiöntött rudak}, amiket a {LINK:FabricatorPage;gyártógépekben} használhatsz. A {THING:StructureArcFurnace} nem alkalmas ezeknek az elkészítésére.\n"
+"\n"
+"{HEADER:Ötvözetek listája}\n"
+"{LIST_OF_ALLOYS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
 msgctxt "HelpPage.OrePage"
 msgid "Ores"
-msgstr ""
+msgstr "Ércek"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
 msgctxt "HelpPage.OrePage"
@@ -418,11 +426,18 @@ msgid ""
 "{LIST_OF_ORES}\n"
 "      "
 msgstr ""
+"Az {LINK:OrePage;ércek} {LINK:MiningPage;bányászhatóak} és sokszor {LINK:SmeltingPage;be lehet olvasztani} őket. A {THING:StructureRecycler} használatával vegyes érceket kaphatsz, amiket csa a {THING:StructureCentrifuge} segítrségével válkaszhatsz szét újra. A kapott {LINK:OrePage;érceket} újra {LINK:SmeltingPage;beolvaszthatod}.\n"
+"\n"
+"{HEADER: Jegek olvasztása}\n"
+"Néhány érc napfény és más hő hatására elolvad ezzel {LINK:GasPage;gázoka képezve}. Például a {THING:ItemIce} elolvadása után {GAS:Water}zé és {GAS:Oxygen}né válik. Tartsd a jegeket távol a hőforrásoktól, ha nem akarod, hogy elolvadjanak!\n"
+"\n"
+"{HEADER:Ércek listája}\n"
+"{LIST_OF_ORES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
 msgctxt "HelpPage.IngotPage"
 msgid "Ingots"
-msgstr ""
+msgstr "Öntött fémrudak"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
 msgctxt "HelpPage.IngotPage"
@@ -433,11 +448,15 @@ msgid ""
 "{LIST_OF_INGOTS}\n"
 "      "
 msgstr ""
+"Ezeket általában {LINK:OrePage;ércek} {LINK:SmeltingPage;beolvasztásával} készítheted el.\n"
+"\n"
+"{HEADER:Öntött fémrudak listája}\n"
+"{LIST_OF_INGOTS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
 msgctxt "HelpPage.ToolPage"
 msgid "Tools"
-msgstr ""
+msgstr "Eszközök"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
 msgctxt "HelpPage.ToolPage"
@@ -448,11 +467,15 @@ msgid ""
 "{LIST_OF_TOOLS}\n"
 "      "
 msgstr ""
+"Ezek csak speciális eszköz slotban tárolhatók, {LINK:ConstructionPage;építkezéshez} és más munkákra használható.\n"
+"\n"
+"{HEADER:Eszközök listája}\n"
+"{LIST_OF_TOOLS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
 msgctxt "HelpPage.ResourcePage"
 msgid "Resources"
-msgstr ""
+msgstr "Nyersanyagok"
 
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
 msgctxt "HelpPage.ResourcePage"
@@ -463,11 +486,15 @@ msgid ""
 "{LIST_OF_RESOURCES}\n"
 "      "
 msgstr ""
+"Ezeket {LINK:ConstructionPage;építkezés} és más munkák közben tudod felhasználni.\n"
+"\n"
+"{HEADER:Nyersanyagok listája}\n"
+"{LIST_OF_RESOURCES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
 msgctxt "HelpPage.KitPage"
 msgid "Kits"
-msgstr ""
+msgstr "Készletek"
 
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
 msgctxt "HelpPage.KitPage"
@@ -478,11 +505,15 @@ msgid ""
 "{LIST_OF_KITS}\n"
 "      "
 msgstr ""
+"Ezeket {LINK:ConstructionPage;építkezés} és más munkák közben tudod felhasználni.\n"
+"\n"
+"{HEADER:Készletek listája}\n"
+"{LIST_OF_KITS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='FoodPage']
 msgctxt "HelpPage.FoodPage"
 msgid "Food"
-msgstr ""
+msgstr "Élelmiszer"
 
 #: /Language/HelpPage/StationpediaPage[Key='FoodPage']
 msgctxt "HelpPage.FoodPage"
@@ -493,11 +524,15 @@ msgid ""
 "{LIST_OF_FOOD}\n"
 "      "
 msgstr ""
+"Ezek használhatók az éhség csillapításához.\n"
+"\n"
+"{HEADER:Élelmiszerek listája}\n"
+"{LIST_OF_FOOD}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ClothingPage']
 msgctxt "HelpPage.ClothingPage"
 msgid "Clothing"
-msgstr ""
+msgstr "Öltözködés"
 
 #: /Language/HelpPage/StationpediaPage[Key='ClothingPage']
 msgctxt "HelpPage.ClothingPage"
@@ -508,11 +543,15 @@ msgid ""
 "{LIST_OF_CLOTHING}\n"
 "      "
 msgstr ""
+"Ezek minden [i]élő[/i] által slotokban hordhatók.\n"
+"\n"
+"{HEADER:Öltözetek listája}\n"
+"{LIST_OF_CLOTHING}"
 
 #: /Language/HelpPage/StationpediaPage[Key='AppliancePage']
 msgctxt "HelpPage.AppliancePage"
 msgid "Appliances"
-msgstr ""
+msgstr "Készülékek"
 
 #: /Language/HelpPage/StationpediaPage[Key='AppliancePage']
 msgctxt "HelpPage.AppliancePage"
@@ -523,6 +562,10 @@ msgid ""
 "{LIST_OF_APPLIANCES}\n"
 "      "
 msgstr ""
+"Olyan tárgyak, amik pultokra helyezhetőek le. A lehelyezéshez rakd a pultra az eszközt, majd rögzítsd a franciakulccsal.\n"
+"\n"
+"{HEADER:Készülékek listája}\n"
+"{LIST_OF_APPLIANCES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingTemplate']
 msgctxt "HelpPage.ThingTemplate"
@@ -533,6 +576,11 @@ msgid ""
 "{LIST}Prefab Hash {POS:300}{1}\n"
 "Paintable {POS:300}{2}{3}{/LIST}"
 msgstr ""
+"{0}\n"
+"\n"
+"{HEADER:Általános}\n"
+"{LIST}Prefab Hash {POS:300}{1}\n"
+"Festhető{POS:300}{2}{3}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingThermalTemplate']
 msgctxt "HelpPage.ThingThermalTemplate"
@@ -542,31 +590,35 @@ msgid ""
 "Flashpoint{POS:300}{1}\n"
 "Autoignition{POS:300}{2}{3}{/LIST}"
 msgstr ""
+"{HEADER:Termodinamikai korlátok}\n"
+"{LIST}Megtörés {POS:300}{0}\n"
+"Lobbanáspont{POS:300}{1}\n"
+"Öngyulladás{POS:300}{2}{3}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypePageTemplate']
 msgctxt "HelpPage.LogicTypePageTemplate"
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotHeaderTemplate']
 msgctxt "HelpPage.ThingSlotHeaderTemplate"
 msgid "{HEADER:Slots}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Slotok}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotItemTemplate']
 msgctxt "HelpPage.ThingSlotItemTemplate"
 msgid "{0}. {POS:100}{1} {POS:300}Type {2}"
-msgstr ""
+msgstr "{0}. {POS:100}{1} {POS:300}Típus {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingStackTemplate']
 msgctxt "HelpPage.ThingStackTemplate"
 msgid "Stack Size {POS:300}{0}"
-msgstr ""
+msgstr "Halom méret {POS:300}{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingNutritionTemplate']
 msgctxt "HelpPage.ThingNutritionTemplate"
 msgid "Max Nutrition {POS:300}{0}"
-msgstr ""
+msgstr "Maximális tápérték {POS:300}{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='IceMeltingTemplate']
 msgctxt "HelpPage.IceMeltingTemplate"
@@ -574,11 +626,13 @@ msgid ""
 "Melt Temperature {POS:300}{1}\n"
 "Melt Pressure {POS:300}{0}"
 msgstr ""
+"Olvadási hőmérséklet{POS:300}{1}\n"
+"Olvadási nyomás {POS:300}{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorsHeaderTemplate']
 msgctxt "HelpPage.CreatorsHeaderTemplate"
 msgid "{HEADER:Manufactured By}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Előállítható ezzel:}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedByHeaderTemplate']
 msgctxt "HelpPage.ConstructedByHeaderTemplate"
@@ -586,6 +640,8 @@ msgid ""
 "{HEADER:Constructed From}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Előállítva ezzel:}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedHeaderTemplate']
 msgctxt "HelpPage.CreatedHeaderTemplate"
