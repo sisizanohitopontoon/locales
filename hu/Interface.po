@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-10 21:08+0000\n"
+"PO-Revision-Date: 2019-02-10 21:13+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +18,7 @@ msgstr "Változtatás {1}<color=yellow>({0})</color> erre: {2}"
 #: /Language/Interface/Record[Key='LogicSlotTypeMature']
 msgctxt "Interface.LogicSlotTypeMature"
 msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
-msgstr "ha a növény érett, 1 kiírása, ha nem, 0"
+msgstr "ha a növény érett, 1 kiírása, ha éretlen, 0"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
 msgctxt "Interface.LogicSlotTypeEfficiency"
@@ -38,12 +38,12 @@ msgstr "mutatja a slotban levő tárgy mennyiségét, halomméretét"
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupantHash']
 msgctxt "Interface.LogicSlotTypeOccupantHash"
 msgid "returns the has of the current occupant, the unique identifier of the thing"
-msgstr ""
+msgstr "megadja a tárgy hashét, azaz az egyedi jellemzőjét"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
 msgctxt "Interface.LogicSlotTypeOccupied"
 msgid "returns 0 when slot is not occupied, 1 when it is"
-msgstr ""
+msgstr "ha a slot üres, 0 kiírása, ha foglalt, 1"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeNone']
 msgctxt "Interface.LogicSlotTypeNone"
