@@ -6,11 +6,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-#, fuzzy
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "Muuta <color=yellow>{0}</color> for {1}"
+#: /Language/Interface/Record[Key='LogicTypeExportCount']
+msgctxt "Interface.LogicTypeExportCount"
+msgid "How many items exported since last ClearMemory"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
+msgctxt "Interface.LogicSlotTypeHealth"
+msgid "returns the health of the plant in the slot"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMature']
 msgctxt "Interface.LogicSlotTypeMature"
@@ -148,19 +157,19 @@ msgctxt "Interface.LogicTypePowerGeneration"
 msgid "Returns how much power is being generated"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicSlotTypePressure']
+msgctxt "Interface.LogicSlotTypePressure"
+msgid "returns pressure of the slot occupants internal atmosphere"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeExportCount']
-msgctxt "Interface.LogicTypeExportCount"
-msgid "How many items exported since last ClearMemory"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
-msgctxt "Interface.LogicSlotTypeHealth"
-msgid "returns the health of the plant in the slot"
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeClearMemory']
@@ -785,10 +794,11 @@ msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr "Muuta <color=yellow>{0}</color> for {1}"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr ""
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+#, fuzzy
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+msgstr "Muuta <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
 #, fuzzy
@@ -1130,9 +1140,9 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Pelin Asetukset"
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressure']
-msgctxt "Interface.LogicSlotTypePressure"
-msgid "returns pressure of the slot occupants internal atmosphere"
+#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
+msgctxt "Interface.LogicSlotTypeCharge"
+msgid "returns current energy charge the slot occupant is holding"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
@@ -1446,6 +1456,17 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Lopeta Stationeers"
 
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr ""
+
+#: /Language/Interface/Record[Key='WaitingTitle']
+#, fuzzy
+msgctxt "Interface.WaitingTitle"
+msgid "Saving Warning"
+msgstr "Varoitus"
+
 #: /Language/Interface/Record[Key='SteamErrorButton']
 #, fuzzy
 msgctxt "Interface.SteamErrorButton"
@@ -1691,10 +1712,10 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "Reunojenpehmennys"
 
-#: /Language/Interface/Record[Key='NewWorldAreaMoon']
-msgctxt "Interface.NewWorldAreaMoon"
-msgid "Moon"
-msgstr "Kuu"
+#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
+msgctxt "Interface.LogicSlotTypeChargeRatio"
+msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsDisplayPortrait']
 msgctxt "Interface.SettingsDisplayPortrait"
@@ -1711,10 +1732,10 @@ msgctxt "Interface.DialogConfirmNoticeClientLeaving"
 msgid "Are you sure you want to leave the session?"
 msgstr "Halutako varmasti lopettaa istunnon?"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
-msgctxt "Interface.LogicSlotTypeTemperature"
-msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr ""
+#: /Language/Interface/Record[Key='ButtonSave']
+msgctxt "Interface.ButtonSave"
+msgid "Save"
+msgstr "Tallenna"
 
 #: /Language/Interface/Record[Key='ButtonExit']
 msgctxt "Interface.ButtonExit"
@@ -1981,10 +2002,10 @@ msgctxt "Interface.SettingsMenuControls"
 msgid "Controls"
 msgstr "Näppäimistö"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
-msgctxt "Interface.LogicSlotTypeCharge"
-msgid "returns current energy charge the slot occupant is holding"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "Ääni"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -2046,6 +2067,11 @@ msgctxt "Interface.GameMenuButtonLeave"
 msgid "Leave Session"
 msgstr "Poistu Istunnosta"
 
+#: /Language/Interface/Record[Key='LogicSlotTypeClass']
+msgctxt "Interface.LogicSlotTypeClass"
+msgid "returns integer representing the class of object"
+msgstr ""
+
 #: /Language/Interface/Record[Key='GameMenuButtonSettings']
 msgctxt "Interface.GameMenuButtonSettings"
 msgid "Settings"
@@ -2056,25 +2082,20 @@ msgctxt "Interface.GameMenuButtonChangeCharacter"
 msgid "Change Appearance"
 msgstr "Muokkaa Ulkonäköä"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
-msgctxt "Interface.LogicSlotTypeChargeRatio"
-msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
+msgctxt "Interface.LogicSlotTypePressureWaste"
+msgid "returns pressure in the waste tank of the jetpack in this slot"
 msgstr ""
-
-#: /Language/Interface/Record[Key='GameMenuButtonSave']
-msgctxt "Interface.GameMenuButtonSave"
-msgid "Save World"
-msgstr "Tallenna Maailma"
 
 #: /Language/Interface/Record[Key='GameMenuButtonReturn']
 msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr "Palaa Peliin"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeClass']
-msgctxt "Interface.LogicSlotTypeClass"
-msgid "returns integer representing the class of object"
-msgstr ""
+#: /Language/Interface/Record[Key='StatusWindowInternal']
+msgctxt "Interface.StatusWindowInternal"
+msgid "Internal"
+msgstr "Sisäinen"
 
 #: /Language/Interface/Record[Key='StatusWindowDamage']
 msgctxt "Interface.StatusWindowDamage"
@@ -2303,11 +2324,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka Peliä"
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
-msgctxt "Interface.LogicSlotTypePressureWaste"
-msgid "returns pressure in the waste tank of the jetpack in this slot"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicSlotTypePressureAir']
 msgctxt "Interface.LogicSlotTypePressureAir"
 msgid "returns pressure in the air tank of the jetpack in this slot"
@@ -2354,25 +2370,30 @@ msgctxt "Interface.AppearanceTitleSpecies"
 msgid "Species"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtonSave']
-msgctxt "Interface.ButtonSave"
-msgid "Save"
-msgstr "Tallenna"
+#: /Language/Interface/Record[Key='SpinnerPannelSaving']
+msgctxt "Interface.SpinnerPannelSaving"
+msgid "Saving"
+msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "Ääni"
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr ""
 
-#: /Language/Interface/Record[Key='StatusWindowInternal']
-msgctxt "Interface.StatusWindowInternal"
-msgid "Internal"
-msgstr "Sisäinen"
+#: /Language/Interface/Record[Key='NewWorldAreaMoon']
+msgctxt "Interface.NewWorldAreaMoon"
+msgid "Moon"
+msgstr "Kuu"
 
 #: /Language/Interface/Record[Key='SettingsStartingCondition']
 msgctxt "Interface.SettingsStartingCondition"
 msgid "Starting Condition"
 msgstr "Alkuvarusteet"
+
+#: /Language/Interface/Record[Key='GameMenuButtonSave']
+msgctxt "Interface.GameMenuButtonSave"
+msgid "Save World"
+msgstr "Tallenna Maailma"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "

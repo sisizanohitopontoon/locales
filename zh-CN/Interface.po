@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "更改为<color=yellow>{2} 的 {1} ({0})</color=yellow>"
+#: /Language/Interface/Record[Key='LogicTypeExportCount']
+msgctxt "Interface.LogicTypeExportCount"
+msgid "How many items exported since last ClearMemory"
+msgstr "导出之前的ClearMemory数量"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr "返回插槽中工厂的当前生长状态"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
+msgctxt "Interface.LogicSlotTypeHealth"
+msgid "returns the health of the plant in the slot"
+msgstr "返回插槽中的植物的运行状况"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMature']
 msgctxt "Interface.LogicSlotTypeMature"
@@ -150,20 +160,20 @@ msgctxt "Interface.LogicTypePowerGeneration"
 msgid "Returns how much power is being generated"
 msgstr "返回发电的功率"
 
+#: /Language/Interface/Record[Key='LogicSlotTypePressure']
+msgctxt "Interface.LogicSlotTypePressure"
+msgid "returns pressure of the slot occupants internal atmosphere"
+msgstr "返回插槽乘员内部大气的压力"
+
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
 msgstr "自上次 clearmemory 之后导入的项目数"
 
-#: /Language/Interface/Record[Key='LogicTypeExportCount']
-msgctxt "Interface.LogicTypeExportCount"
-msgid "How many items exported since last ClearMemory"
-msgstr "导出之前的ClearMemory数量"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
-msgctxt "Interface.LogicSlotTypeHealth"
-msgid "returns the health of the plant in the slot"
-msgstr "返回插槽中的植物的运行状况"
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
+msgstr "返回插槽乘员内部大气的温度"
 
 #: /Language/Interface/Record[Key='LogicTypeClearMemory']
 msgctxt "Interface.LogicTypeClearMemory"
@@ -778,10 +788,10 @@ msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr "更改为<color=yellow>{0}>for 所有 {1}</color=yellow>"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr "返回插槽中工厂的当前生长状态"
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+msgstr "更改为<color=yellow>{2} 的 {1} ({0})</color=yellow>"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
 msgctxt "Interface.ChangeReagentSettingTo"
@@ -1126,10 +1136,10 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "游戏设定"
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressure']
-msgctxt "Interface.LogicSlotTypePressure"
-msgid "returns pressure of the slot occupants internal atmosphere"
-msgstr "返回插槽乘员内部大气的压力"
+#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
+msgctxt "Interface.LogicSlotTypeCharge"
+msgid "returns current energy charge the slot occupant is holding"
+msgstr "返回电流能量充电插槽乘员持有的"
 
 #: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
 msgctxt "Interface.AppearanceTitleFacialHairStyle"
@@ -1440,6 +1450,17 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "退出stationeers"
 
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr ""
+
+#: /Language/Interface/Record[Key='WaitingTitle']
+#, fuzzy
+msgctxt "Interface.WaitingTitle"
+msgid "Saving Warning"
+msgstr "警告"
+
 #: /Language/Interface/Record[Key='SteamErrorButton']
 msgctxt "Interface.SteamErrorButton"
 msgid "Quit"
@@ -1684,10 +1705,10 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "抗锯齿"
 
-#: /Language/Interface/Record[Key='NewWorldAreaMoon']
-msgctxt "Interface.NewWorldAreaMoon"
-msgid "Moon"
-msgstr "月球"
+#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
+msgctxt "Interface.LogicSlotTypeChargeRatio"
+msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+msgstr "返回电流能量充电插槽乘员持有的比率在0和1之间的最大"
 
 #: /Language/Interface/Record[Key='SettingsDisplayPortrait']
 msgctxt "Interface.SettingsDisplayPortrait"
@@ -1704,10 +1725,10 @@ msgctxt "Interface.DialogConfirmNoticeClientLeaving"
 msgid "Are you sure you want to leave the session?"
 msgstr "您确定要离开连线吗？"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
-msgctxt "Interface.LogicSlotTypeTemperature"
-msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr "返回插槽乘员内部大气的温度"
+#: /Language/Interface/Record[Key='ButtonSave']
+msgctxt "Interface.ButtonSave"
+msgid "Save"
+msgstr "保存"
 
 #: /Language/Interface/Record[Key='ButtonExit']
 msgctxt "Interface.ButtonExit"
@@ -1974,10 +1995,10 @@ msgctxt "Interface.SettingsMenuControls"
 msgid "Controls"
 msgstr "控制"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
-msgctxt "Interface.LogicSlotTypeCharge"
-msgid "returns current energy charge the slot occupant is holding"
-msgstr "返回电流能量充电插槽乘员持有的"
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "音频"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -2039,6 +2060,11 @@ msgctxt "Interface.GameMenuButtonLeave"
 msgid "Leave Session"
 msgstr "离线"
 
+#: /Language/Interface/Record[Key='LogicSlotTypeClass']
+msgctxt "Interface.LogicSlotTypeClass"
+msgid "returns integer representing the class of object"
+msgstr "返回表示对象类的整数"
+
 #: /Language/Interface/Record[Key='GameMenuButtonSettings']
 msgctxt "Interface.GameMenuButtonSettings"
 msgid "Settings"
@@ -2049,25 +2075,20 @@ msgctxt "Interface.GameMenuButtonChangeCharacter"
 msgid "Change Appearance"
 msgstr "改变外观"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
-msgctxt "Interface.LogicSlotTypeChargeRatio"
-msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
-msgstr "返回电流能量充电插槽乘员持有的比率在0和1之间的最大"
-
-#: /Language/Interface/Record[Key='GameMenuButtonSave']
-msgctxt "Interface.GameMenuButtonSave"
-msgid "Save World"
-msgstr "保存世界"
+#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
+msgctxt "Interface.LogicSlotTypePressureWaste"
+msgid "returns pressure in the waste tank of the jetpack in this slot"
+msgstr "返回压力在垃圾桶的废物罐在这个插槽"
 
 #: /Language/Interface/Record[Key='GameMenuButtonReturn']
 msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr "回到游戏"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeClass']
-msgctxt "Interface.LogicSlotTypeClass"
-msgid "returns integer representing the class of object"
-msgstr "返回表示对象类的整数"
+#: /Language/Interface/Record[Key='StatusWindowInternal']
+msgctxt "Interface.StatusWindowInternal"
+msgid "Internal"
+msgstr "内部"
 
 #: /Language/Interface/Record[Key='StatusWindowDamage']
 msgctxt "Interface.StatusWindowDamage"
@@ -2295,11 +2316,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "继续"
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
-msgctxt "Interface.LogicSlotTypePressureWaste"
-msgid "returns pressure in the waste tank of the jetpack in this slot"
-msgstr "返回压力在垃圾桶的废物罐在这个插槽"
-
 #: /Language/Interface/Record[Key='LogicSlotTypePressureAir']
 msgctxt "Interface.LogicSlotTypePressureAir"
 msgid "returns pressure in the air tank of the jetpack in this slot"
@@ -2346,25 +2362,30 @@ msgctxt "Interface.AppearanceTitleSpecies"
 msgid "Species"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtonSave']
-msgctxt "Interface.ButtonSave"
-msgid "Save"
-msgstr "保存"
+#: /Language/Interface/Record[Key='SpinnerPannelSaving']
+msgctxt "Interface.SpinnerPannelSaving"
+msgid "Saving"
+msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "音频"
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr ""
 
-#: /Language/Interface/Record[Key='StatusWindowInternal']
-msgctxt "Interface.StatusWindowInternal"
-msgid "Internal"
-msgstr "内部"
+#: /Language/Interface/Record[Key='NewWorldAreaMoon']
+msgctxt "Interface.NewWorldAreaMoon"
+msgid "Moon"
+msgstr "月球"
 
 #: /Language/Interface/Record[Key='SettingsStartingCondition']
 msgctxt "Interface.SettingsStartingCondition"
 msgid "Starting Condition"
 msgstr "启动条件"
+
+#: /Language/Interface/Record[Key='GameMenuButtonSave']
+msgctxt "Interface.GameMenuButtonSave"
+msgid "Save World"
+msgstr "保存世界"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "

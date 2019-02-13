@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "Změnit {1}<color=yellow>({0})</color> pro {2}"
+#: /Language/Interface/Record[Key='LogicTypeExportCount']
+msgctxt "Interface.LogicTypeExportCount"
+msgid "How many items exported since last ClearMemory"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
+msgctxt "Interface.LogicSlotTypeHealth"
+msgid "returns the health of the plant in the slot"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMature']
 msgctxt "Interface.LogicSlotTypeMature"
@@ -150,19 +160,19 @@ msgctxt "Interface.LogicTypePowerGeneration"
 msgid "Returns how much power is being generated"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicSlotTypePressure']
+msgctxt "Interface.LogicSlotTypePressure"
+msgid "returns pressure of the slot occupants internal atmosphere"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeExportCount']
-msgctxt "Interface.LogicTypeExportCount"
-msgid "How many items exported since last ClearMemory"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
-msgctxt "Interface.LogicSlotTypeHealth"
-msgid "returns the health of the plant in the slot"
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeClearMemory']
@@ -779,10 +789,10 @@ msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr "Změnit na <color=yellow>{0}</color>>pro všechny {1}"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr ""
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+msgstr "Změnit {1}<color=yellow>({0})</color> pro {2}"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
 msgctxt "Interface.ChangeReagentSettingTo"
@@ -1108,9 +1118,9 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Nastavení Hry"
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressure']
-msgctxt "Interface.LogicSlotTypePressure"
-msgid "returns pressure of the slot occupants internal atmosphere"
+#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
+msgctxt "Interface.LogicSlotTypeCharge"
+msgid "returns current energy charge the slot occupant is holding"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
@@ -1422,6 +1432,17 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Ukončit Stationeers"
 
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr ""
+
+#: /Language/Interface/Record[Key='WaitingTitle']
+#, fuzzy
+msgctxt "Interface.WaitingTitle"
+msgid "Saving Warning"
+msgstr "Upozornění"
+
 #: /Language/Interface/Record[Key='SteamErrorButton']
 msgctxt "Interface.SteamErrorButton"
 msgid "Quit"
@@ -1663,10 +1684,10 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "Metoda Antialiasingu"
 
-#: /Language/Interface/Record[Key='NewWorldAreaMoon']
-msgctxt "Interface.NewWorldAreaMoon"
-msgid "Moon"
-msgstr "Měsíc"
+#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
+msgctxt "Interface.LogicSlotTypeChargeRatio"
+msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsDisplayPortrait']
 msgctxt "Interface.SettingsDisplayPortrait"
@@ -1683,10 +1704,10 @@ msgctxt "Interface.DialogConfirmNoticeClientLeaving"
 msgid "Are you sure you want to leave the session?"
 msgstr "Opravdu chcete relaci opustit?"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
-msgctxt "Interface.LogicSlotTypeTemperature"
-msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr ""
+#: /Language/Interface/Record[Key='ButtonSave']
+msgctxt "Interface.ButtonSave"
+msgid "Save"
+msgstr "Uložit"
 
 #: /Language/Interface/Record[Key='ButtonExit']
 msgctxt "Interface.ButtonExit"
@@ -1953,10 +1974,10 @@ msgctxt "Interface.SettingsMenuControls"
 msgid "Controls"
 msgstr "Ovládání"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
-msgctxt "Interface.LogicSlotTypeCharge"
-msgid "returns current energy charge the slot occupant is holding"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "Zvuk"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -2018,6 +2039,11 @@ msgctxt "Interface.GameMenuButtonLeave"
 msgid "Leave Session"
 msgstr "Opustit Relaci"
 
+#: /Language/Interface/Record[Key='LogicSlotTypeClass']
+msgctxt "Interface.LogicSlotTypeClass"
+msgid "returns integer representing the class of object"
+msgstr ""
+
 #: /Language/Interface/Record[Key='GameMenuButtonSettings']
 msgctxt "Interface.GameMenuButtonSettings"
 msgid "Settings"
@@ -2028,25 +2054,20 @@ msgctxt "Interface.GameMenuButtonChangeCharacter"
 msgid "Change Appearance"
 msgstr "Změnit vzhled"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
-msgctxt "Interface.LogicSlotTypeChargeRatio"
-msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
+msgctxt "Interface.LogicSlotTypePressureWaste"
+msgid "returns pressure in the waste tank of the jetpack in this slot"
 msgstr ""
-
-#: /Language/Interface/Record[Key='GameMenuButtonSave']
-msgctxt "Interface.GameMenuButtonSave"
-msgid "Save World"
-msgstr "Uložit Svět"
 
 #: /Language/Interface/Record[Key='GameMenuButtonReturn']
 msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr "Návrat do Hry"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeClass']
-msgctxt "Interface.LogicSlotTypeClass"
-msgid "returns integer representing the class of object"
-msgstr ""
+#: /Language/Interface/Record[Key='StatusWindowInternal']
+msgctxt "Interface.StatusWindowInternal"
+msgid "Internal"
+msgstr "Interní"
 
 #: /Language/Interface/Record[Key='StatusWindowDamage']
 msgctxt "Interface.StatusWindowDamage"
@@ -2274,11 +2295,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Pokračovat"
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
-msgctxt "Interface.LogicSlotTypePressureWaste"
-msgid "returns pressure in the waste tank of the jetpack in this slot"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicSlotTypePressureAir']
 msgctxt "Interface.LogicSlotTypePressureAir"
 msgid "returns pressure in the air tank of the jetpack in this slot"
@@ -2325,25 +2341,30 @@ msgctxt "Interface.AppearanceTitleSpecies"
 msgid "Species"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtonSave']
-msgctxt "Interface.ButtonSave"
-msgid "Save"
-msgstr "Uložit"
+#: /Language/Interface/Record[Key='SpinnerPannelSaving']
+msgctxt "Interface.SpinnerPannelSaving"
+msgid "Saving"
+msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "Zvuk"
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr ""
 
-#: /Language/Interface/Record[Key='StatusWindowInternal']
-msgctxt "Interface.StatusWindowInternal"
-msgid "Internal"
-msgstr "Interní"
+#: /Language/Interface/Record[Key='NewWorldAreaMoon']
+msgctxt "Interface.NewWorldAreaMoon"
+msgid "Moon"
+msgstr "Měsíc"
 
 #: /Language/Interface/Record[Key='SettingsStartingCondition']
 msgctxt "Interface.SettingsStartingCondition"
 msgid "Starting Condition"
 msgstr "Počáteční Podmínky"
+
+#: /Language/Interface/Record[Key='GameMenuButtonSave']
+msgctxt "Interface.GameMenuButtonSave"
+msgid "Save World"
+msgstr "Uložit Svět"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "

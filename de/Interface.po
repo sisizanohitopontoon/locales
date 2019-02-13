@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "Zu <color=yellow>{0}</color> von <color=green>{2}</color> ändern"
+#: /Language/Interface/Record[Key='LogicTypeExportCount']
+msgctxt "Interface.LogicTypeExportCount"
+msgid "How many items exported since last ClearMemory"
+msgstr "Wie viele Gegenstände seit dem letzten ClearMemory exportiert wurden"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr "Gibt den aktuellen Wachstumszustand der Pflanze im Slot zurück"
+
+#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
+msgctxt "Interface.LogicSlotTypeHealth"
+msgid "returns the health of the plant in the slot"
+msgstr "Gibt die Gesundheit der Pflanze im Slot zurück"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMature']
 msgctxt "Interface.LogicSlotTypeMature"
@@ -150,20 +160,20 @@ msgctxt "Interface.LogicTypePowerGeneration"
 msgid "Returns how much power is being generated"
 msgstr "Gibt zurück, wie viel Strom erzeugt wird"
 
+#: /Language/Interface/Record[Key='LogicSlotTypePressure']
+msgctxt "Interface.LogicSlotTypePressure"
+msgid "returns pressure of the slot occupants internal atmosphere"
+msgstr "Gibt den Druck des Gegenstandes im Slot zurück"
+
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
 msgstr "Wie viele Gegenstände seit dem letzten ClearMemory importiert wurden"
 
-#: /Language/Interface/Record[Key='LogicTypeExportCount']
-msgctxt "Interface.LogicTypeExportCount"
-msgid "How many items exported since last ClearMemory"
-msgstr "Wie viele Gegenstände seit dem letzten ClearMemory exportiert wurden"
-
-#: /Language/Interface/Record[Key='LogicSlotTypeHealth']
-msgctxt "Interface.LogicSlotTypeHealth"
-msgid "returns the health of the plant in the slot"
-msgstr "Gibt die Gesundheit der Pflanze im Slot zurück"
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
+msgstr "Gibt die Temperatur des Gegenstandes im Slot zurück"
 
 #: /Language/Interface/Record[Key='LogicTypeClearMemory']
 msgctxt "Interface.LogicTypeClearMemory"
@@ -776,10 +786,10 @@ msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr "Zu <color=yellow>{0}</color> vom Typ {1} ändern"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr "Gibt den aktuellen Wachstumszustand der Pflanze im Slot zurück"
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+msgstr "Zu <color=yellow>{0}</color> von <color=green>{2}</color> ändern"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
 msgctxt "Interface.ChangeReagentSettingTo"
@@ -1115,10 +1125,10 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Spieleinstellungen"
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressure']
-msgctxt "Interface.LogicSlotTypePressure"
-msgid "returns pressure of the slot occupants internal atmosphere"
-msgstr "Gibt den Druck des Gegenstandes im Slot zurück"
+#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
+msgctxt "Interface.LogicSlotTypeCharge"
+msgid "returns current energy charge the slot occupant is holding"
+msgstr "Gibt die elektrische Ladung des Gegenstandes im Slot zurück"
 
 #: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
 msgctxt "Interface.AppearanceTitleFacialHairStyle"
@@ -1429,6 +1439,17 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Stationeers Verlassen"
 
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr ""
+
+#: /Language/Interface/Record[Key='WaitingTitle']
+#, fuzzy
+msgctxt "Interface.WaitingTitle"
+msgid "Saving Warning"
+msgstr "Warnung"
+
 #: /Language/Interface/Record[Key='SteamErrorButton']
 msgctxt "Interface.SteamErrorButton"
 msgid "Quit"
@@ -1672,10 +1693,10 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "Kantenglättung"
 
-#: /Language/Interface/Record[Key='NewWorldAreaMoon']
-msgctxt "Interface.NewWorldAreaMoon"
-msgid "Moon"
-msgstr "Mond"
+#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
+msgctxt "Interface.LogicSlotTypeChargeRatio"
+msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+msgstr "Gibt das elektrische Ladungsverhältnis des Gegenstandes im Slot als wert von 0 bis 1 zurück "
 
 #: /Language/Interface/Record[Key='SettingsDisplayPortrait']
 msgctxt "Interface.SettingsDisplayPortrait"
@@ -1692,10 +1713,10 @@ msgctxt "Interface.DialogConfirmNoticeClientLeaving"
 msgid "Are you sure you want to leave the session?"
 msgstr "Bist du sicher, dass du diese Sitzung verlassen willst?"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
-msgctxt "Interface.LogicSlotTypeTemperature"
-msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr "Gibt die Temperatur des Gegenstandes im Slot zurück"
+#: /Language/Interface/Record[Key='ButtonSave']
+msgctxt "Interface.ButtonSave"
+msgid "Save"
+msgstr "Speichern"
 
 #: /Language/Interface/Record[Key='ButtonExit']
 msgctxt "Interface.ButtonExit"
@@ -1962,10 +1983,10 @@ msgctxt "Interface.SettingsMenuControls"
 msgid "Controls"
 msgstr "Steuerung"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeCharge']
-msgctxt "Interface.LogicSlotTypeCharge"
-msgid "returns current energy charge the slot occupant is holding"
-msgstr "Gibt die elektrische Ladung des Gegenstandes im Slot zurück"
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "Audio"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -2027,6 +2048,11 @@ msgctxt "Interface.GameMenuButtonLeave"
 msgid "Leave Session"
 msgstr "Sitzung Verlassen"
 
+#: /Language/Interface/Record[Key='LogicSlotTypeClass']
+msgctxt "Interface.LogicSlotTypeClass"
+msgid "returns integer representing the class of object"
+msgstr "Gibt eine Ganzzahl zurück, die die Klasse des Objekts darstellt"
+
 #: /Language/Interface/Record[Key='GameMenuButtonSettings']
 msgctxt "Interface.GameMenuButtonSettings"
 msgid "Settings"
@@ -2037,25 +2063,20 @@ msgctxt "Interface.GameMenuButtonChangeCharacter"
 msgid "Change Appearance"
 msgstr "Aussehen ändern"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
-msgctxt "Interface.LogicSlotTypeChargeRatio"
-msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
-msgstr "Gibt das elektrische Ladungsverhältnis des Gegenstandes im Slot als wert von 0 bis 1 zurück "
-
-#: /Language/Interface/Record[Key='GameMenuButtonSave']
-msgctxt "Interface.GameMenuButtonSave"
-msgid "Save World"
-msgstr "Welt Speichern"
+#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
+msgctxt "Interface.LogicSlotTypePressureWaste"
+msgid "returns pressure in the waste tank of the jetpack in this slot"
+msgstr "Gibt den Druck des Abgastanks des Raumanzugs in diesem Slot zurück"
 
 #: /Language/Interface/Record[Key='GameMenuButtonReturn']
 msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr "Zurück zum Spiel"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeClass']
-msgctxt "Interface.LogicSlotTypeClass"
-msgid "returns integer representing the class of object"
-msgstr "Gibt eine Ganzzahl zurück, die die Klasse des Objekts darstellt"
+#: /Language/Interface/Record[Key='StatusWindowInternal']
+msgctxt "Interface.StatusWindowInternal"
+msgid "Internal"
+msgstr "Intern"
 
 #: /Language/Interface/Record[Key='StatusWindowDamage']
 msgctxt "Interface.StatusWindowDamage"
@@ -2283,11 +2304,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Fortsetzen"
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
-msgctxt "Interface.LogicSlotTypePressureWaste"
-msgid "returns pressure in the waste tank of the jetpack in this slot"
-msgstr "Gibt den Druck des Abgastanks des Raumanzugs in diesem Slot zurück"
-
 #: /Language/Interface/Record[Key='LogicSlotTypePressureAir']
 msgctxt "Interface.LogicSlotTypePressureAir"
 msgid "returns pressure in the air tank of the jetpack in this slot"
@@ -2333,25 +2349,30 @@ msgctxt "Interface.AppearanceTitleSpecies"
 msgid "Species"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtonSave']
-msgctxt "Interface.ButtonSave"
-msgid "Save"
-msgstr "Speichern"
+#: /Language/Interface/Record[Key='SpinnerPannelSaving']
+msgctxt "Interface.SpinnerPannelSaving"
+msgid "Saving"
+msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "Audio"
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr ""
 
-#: /Language/Interface/Record[Key='StatusWindowInternal']
-msgctxt "Interface.StatusWindowInternal"
-msgid "Internal"
-msgstr "Intern"
+#: /Language/Interface/Record[Key='NewWorldAreaMoon']
+msgctxt "Interface.NewWorldAreaMoon"
+msgid "Moon"
+msgstr "Mond"
 
 #: /Language/Interface/Record[Key='SettingsStartingCondition']
 msgctxt "Interface.SettingsStartingCondition"
 msgid "Starting Condition"
 msgstr "Startbedingungen"
+
+#: /Language/Interface/Record[Key='GameMenuButtonSave']
+msgctxt "Interface.GameMenuButtonSave"
+msgid "Save World"
+msgstr "Welt Speichern"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "
