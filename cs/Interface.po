@@ -401,15 +401,15 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Stíny"
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Rozlišení Stínu"
+
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Uloženy:"
-
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "Vzdálenost Stínu"
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -566,9 +566,9 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "Metoda Antialiasingu"
 
-#: /Language/Interface/Record[Key='LogicTypeCharge']
-msgctxt "Interface.LogicTypeCharge"
-msgid "The current charge the device has"
+#: /Language/Interface/Record[Key='LogicTypeSetting']
+msgctxt "Interface.LogicTypeSetting"
+msgid "A variable setting that can be read or written, depending on the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMenuMultiplayer']
@@ -792,15 +792,15 @@ msgctxt "Interface.SteamErrorTitle"
 msgid "Steam Error"
 msgstr "Steam Chyba"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Rozlišení Stínu"
+#: /Language/Interface/Record[Key='SteamErrorBody']
+msgctxt "Interface.SteamErrorBody"
+msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
+msgstr "Nelze se připojit ke Steamu. Zkuste restartovat Steam před spuštěním Stationeers"
 
-#: /Language/Interface/Record[Key='SteamErrorButton']
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
-msgstr "Ukončit"
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "Vzdálenost Stínu"
 
 #: /Language/Interface/Record[Key='WaitingTitle']
 #, fuzzy
@@ -1022,15 +1022,15 @@ msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "Zobrazit Informace"
 
-#: /Language/Interface/Record[Key='LogicTypeOn']
-msgctxt "Interface.LogicTypeOn"
-msgid "The current state of the device, 0 for off, 1 for on"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailUnFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Odebrat Oblíbenou Položku"
+
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
@@ -1182,15 +1182,15 @@ msgctxt "Interface.MainMenuLoadWorld"
 msgid "Load World"
 msgstr "Načíst Svět"
 
-#: /Language/Interface/Record[Key='SteamErrorBody']
-msgctxt "Interface.SteamErrorBody"
-msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
-msgstr "Nelze se připojit ke Steamu. Zkuste restartovat Steam před spuštěním Stationeers"
-
 #: /Language/Interface/Record[Key='MainMenuNewWorld']
 msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr "Nový Svět"
+
+#: /Language/Interface/Record[Key='SteamErrorButton']
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "Ukončit"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -1201,6 +1201,12 @@ msgstr "Pokračovat"
 msgctxt "Interface.SettingsMiscInvertMouse"
 msgid "Invert Mouse"
 msgstr "Invertovat Myš"
+
+#: /Language/Interface/Record[Key='ContactsTrading']
+#, fuzzy
+msgctxt "Interface.ContactsTrading"
+msgid "Contacts"
+msgstr "Ovládání"
 
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
@@ -1702,9 +1708,9 @@ msgctxt "Interface.LogicTypeReagents"
 msgid "Total number of reagents recorded by the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeSetting']
-msgctxt "Interface.LogicTypeSetting"
-msgid "A variable setting that can be read or written, depending on the device"
+#: /Language/Interface/Record[Key='LogicTypeCharge']
+msgctxt "Interface.LogicTypeCharge"
+msgid "The current charge the device has"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeActivate']

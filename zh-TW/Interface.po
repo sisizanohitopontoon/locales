@@ -398,15 +398,15 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "陰影"
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "陰影品質"
+
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "儲存:"
-
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "陰影繪製距離"
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -563,9 +563,9 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "反鋸齒模式"
 
-#: /Language/Interface/Record[Key='LogicTypeCharge']
-msgctxt "Interface.LogicTypeCharge"
-msgid "The current charge the device has"
+#: /Language/Interface/Record[Key='LogicTypeSetting']
+msgctxt "Interface.LogicTypeSetting"
+msgid "A variable setting that can be read or written, depending on the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMenuMultiplayer']
@@ -792,16 +792,15 @@ msgctxt "Interface.SteamErrorTitle"
 msgid "Steam Error"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "陰影品質"
+#: /Language/Interface/Record[Key='SteamErrorBody']
+msgctxt "Interface.SteamErrorBody"
+msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
+msgstr ""
 
-#: /Language/Interface/Record[Key='SteamErrorButton']
-#, fuzzy
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
-msgstr "離開"
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "陰影繪製距離"
 
 #: /Language/Interface/Record[Key='WaitingTitle']
 #, fuzzy
@@ -1021,15 +1020,15 @@ msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "瀏覽資訊"
 
-#: /Language/Interface/Record[Key='LogicTypeOn']
-msgctxt "Interface.LogicTypeOn"
-msgid "The current state of the device, 0 for off, 1 for on"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailUnFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "移除最愛"
+
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
@@ -1182,15 +1181,16 @@ msgctxt "Interface.MainMenuLoadWorld"
 msgid "Load World"
 msgstr "讀取世界"
 
-#: /Language/Interface/Record[Key='SteamErrorBody']
-msgctxt "Interface.SteamErrorBody"
-msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
-msgstr ""
-
 #: /Language/Interface/Record[Key='MainMenuNewWorld']
 msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr "全新世界"
+
+#: /Language/Interface/Record[Key='SteamErrorButton']
+#, fuzzy
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "離開"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -1201,6 +1201,12 @@ msgstr "繼續"
 msgctxt "Interface.SettingsMiscInvertMouse"
 msgid "Invert Mouse"
 msgstr "反轉滑鼠"
+
+#: /Language/Interface/Record[Key='ContactsTrading']
+#, fuzzy
+msgctxt "Interface.ContactsTrading"
+msgid "Contacts"
+msgstr "控制"
 
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
@@ -1701,9 +1707,9 @@ msgctxt "Interface.LogicTypeReagents"
 msgid "Total number of reagents recorded by the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeSetting']
-msgctxt "Interface.LogicTypeSetting"
-msgid "A variable setting that can be read or written, depending on the device"
+#: /Language/Interface/Record[Key='LogicTypeCharge']
+msgctxt "Interface.LogicTypeCharge"
+msgid "The current charge the device has"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeActivate']

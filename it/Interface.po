@@ -401,15 +401,15 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Ombre"
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Risoluzione ombre"
+
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Salvato il :"
-
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "Distanza ombre"
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -566,10 +566,10 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "Modo Antialiasing"
 
-#: /Language/Interface/Record[Key='LogicTypeCharge']
-msgctxt "Interface.LogicTypeCharge"
-msgid "The current charge the device has"
-msgstr "La carica corrente del dispositivo è"
+#: /Language/Interface/Record[Key='LogicTypeSetting']
+msgctxt "Interface.LogicTypeSetting"
+msgid "A variable setting that can be read or written, depending on the device"
+msgstr "Un'impostazione variabile che può essere letta o scritta, a seconda del dispositivo"
 
 #: /Language/Interface/Record[Key='SettingsMenuMultiplayer']
 msgctxt "Interface.SettingsMenuMultiplayer"
@@ -794,15 +794,15 @@ msgctxt "Interface.SteamErrorTitle"
 msgid "Steam Error"
 msgstr "Errore Steam"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Risoluzione ombre"
+#: /Language/Interface/Record[Key='SteamErrorBody']
+msgctxt "Interface.SteamErrorBody"
+msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
+msgstr "Connessione a Steam non disponibile. Prova a riavviare Steam prima di lanciare nuovamente Stationeers"
 
-#: /Language/Interface/Record[Key='SteamErrorButton']
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
-msgstr "Esci"
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "Distanza ombre"
 
 #: /Language/Interface/Record[Key='WaitingTitle']
 msgctxt "Interface.WaitingTitle"
@@ -1023,15 +1023,15 @@ msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "Vedi info"
 
-#: /Language/Interface/Record[Key='LogicTypeOn']
-msgctxt "Interface.LogicTypeOn"
-msgid "The current state of the device, 0 for off, 1 for on"
-msgstr "Lo stato corrente del dispositivo, 0 per spento, 1 per acceso"
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailUnFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Cancella favorito"
+
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr "Lo stato corrente del dispositivo, 0 per spento, 1 per acceso"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
@@ -1183,15 +1183,15 @@ msgctxt "Interface.MainMenuLoadWorld"
 msgid "Load World"
 msgstr "Carica un Mondo"
 
-#: /Language/Interface/Record[Key='SteamErrorBody']
-msgctxt "Interface.SteamErrorBody"
-msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
-msgstr "Connessione a Steam non disponibile. Prova a riavviare Steam prima di lanciare nuovamente Stationeers"
-
 #: /Language/Interface/Record[Key='MainMenuNewWorld']
 msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr "Nuovo Mondo"
+
+#: /Language/Interface/Record[Key='SteamErrorButton']
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "Esci"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -1202,6 +1202,12 @@ msgstr "Continua"
 msgctxt "Interface.SettingsMiscInvertMouse"
 msgid "Invert Mouse"
 msgstr "Inverti Mouse"
+
+#: /Language/Interface/Record[Key='ContactsTrading']
+#, fuzzy
+msgctxt "Interface.ContactsTrading"
+msgid "Contacts"
+msgstr "Controlli"
 
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
@@ -1699,10 +1705,10 @@ msgctxt "Interface.LogicTypeReagents"
 msgid "Total number of reagents recorded by the device"
 msgstr "Numero totale di reagenti registrati dal dispositivo"
 
-#: /Language/Interface/Record[Key='LogicTypeSetting']
-msgctxt "Interface.LogicTypeSetting"
-msgid "A variable setting that can be read or written, depending on the device"
-msgstr "Un'impostazione variabile che può essere letta o scritta, a seconda del dispositivo"
+#: /Language/Interface/Record[Key='LogicTypeCharge']
+msgctxt "Interface.LogicTypeCharge"
+msgid "The current charge the device has"
+msgstr "La carica corrente del dispositivo è"
 
 #: /Language/Interface/Record[Key='LogicTypeActivate']
 msgctxt "Interface.LogicTypeActivate"
