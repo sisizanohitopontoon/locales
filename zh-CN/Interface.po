@@ -566,15 +566,15 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "抗锯齿"
 
-#: /Language/Interface/Record[Key='LogicTypeSetting']
-msgctxt "Interface.LogicTypeSetting"
-msgid "A variable setting that can be read or written, depending on the device"
-msgstr "可读取或写入的变量设置, 具体取决于设备"
-
 #: /Language/Interface/Record[Key='SettingsMenuMultiplayer']
 msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
 msgstr "多人游戏"
+
+#: /Language/Interface/Record[Key='LogicTypeCharge']
+msgctxt "Interface.LogicTypeCharge"
+msgid "The current charge the device has"
+msgstr "设备的当前充电"
 
 #: /Language/Interface/Record[Key='SettingsAdvertiseServer']
 msgctxt "Interface.SettingsAdvertiseServer"
@@ -646,15 +646,19 @@ msgctxt "Interface.TutorialCompleteHeading"
 msgid "Tutorial Complete"
 msgstr "教程完成"
 
+#: /Language/Interface/Record[Key='TutorialCompleteMessage']
+msgctxt "Interface.TutorialCompleteMessage"
+msgid ""
+"There's still much to learn. \n"
+"So get out there, Stationeer!"
+msgstr ""
+"还有很多东西需要学习。\n"
+"所以赶快离开这里吧，空间站工程师！"
+
 #: /Language/Interface/Record[Key='TutorialBackToMenu']
 msgctxt "Interface.TutorialBackToMenu"
 msgid "Back To Menu"
 msgstr "返回菜单"
-
-#: /Language/Interface/Record[Key='SettingsMiscInvertMouse']
-msgctxt "Interface.SettingsMiscInvertMouse"
-msgid "Invert Mouse"
-msgstr "反转鼠标"
 
 #: /Language/Interface/Record[Key='SettingsInvertMouse']
 msgctxt "Interface.SettingsInvertMouse"
@@ -847,15 +851,15 @@ msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr "覆盖"
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "保存世界"
-
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "您确定要覆盖现有的已保存的世界吗？"
+
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "保存世界"
 
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
@@ -1026,10 +1030,10 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "删除收藏"
 
-#: /Language/Interface/Record[Key='LogicTypeOn']
-msgctxt "Interface.LogicTypeOn"
-msgid "The current state of the device, 0 for off, 1 for on"
-msgstr "设备的当前状态, 0 为关闭, 1 表示"
+#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
+msgctxt "Interface.LogicTypeImportQuantity"
+msgid "Total quantity of items imported by the device"
+msgstr "设备输入物品的总数"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
@@ -1196,14 +1200,15 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "继续"
 
-#: /Language/Interface/Record[Key='TutorialCompleteMessage']
-msgctxt "Interface.TutorialCompleteMessage"
-msgid ""
-"There's still much to learn. \n"
-"So get out there, Stationeer!"
+#: /Language/Interface/Record[Key='SettingsMiscInvertMouse']
+msgctxt "Interface.SettingsMiscInvertMouse"
+msgid "Invert Mouse"
+msgstr "反转鼠标"
+
+#: /Language/Interface/Record[Key='InputTextTradingTitle']
+msgctxt "Interface.InputTextTradingTitle"
+msgid "Trading Terminal"
 msgstr ""
-"还有很多东西需要学习。\n"
-"所以赶快离开这里吧，空间站工程师！"
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 #, fuzzy
@@ -1618,15 +1623,15 @@ msgctxt "Interface.LogicTypeImportSlotOccupant"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
-msgctxt "Interface.LogicTypeImportQuantity"
-msgid "Total quantity of items imported by the device"
-msgstr "设备输入物品的总数"
+#: /Language/Interface/Record[Key='TextboxEnterSeed']
+msgctxt "Interface.TextboxEnterSeed"
+msgid "Enter Seed..."
+msgstr "输入种子..."
 
-#: /Language/Interface/Record[Key='TextboxEnterDescription']
-msgctxt "Interface.TextboxEnterDescription"
-msgid "Enter Description..."
-msgstr "输入说明..."
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr "设备的当前状态, 0 为关闭, 1 表示"
 
 #: /Language/Interface/Record[Key='LogicTypeQuantity']
 msgctxt "Interface.LogicTypeQuantity"
@@ -1708,10 +1713,10 @@ msgctxt "Interface.LogicTypeReagents"
 msgid "Total number of reagents recorded by the device"
 msgstr "记录的试剂总数"
 
-#: /Language/Interface/Record[Key='LogicTypeCharge']
-msgctxt "Interface.LogicTypeCharge"
-msgid "The current charge the device has"
-msgstr "设备的当前充电"
+#: /Language/Interface/Record[Key='LogicTypeSetting']
+msgctxt "Interface.LogicTypeSetting"
+msgid "A variable setting that can be read or written, depending on the device"
+msgstr "可读取或写入的变量设置, 具体取决于设备"
 
 #: /Language/Interface/Record[Key='LogicTypeActivate']
 msgctxt "Interface.LogicTypeActivate"
@@ -2209,15 +2214,15 @@ msgctxt "Interface.SettingsDisableParticlesOnMenu"
 msgid "Disable Particles On Menu"
 msgstr "关闭主菜单动态效果"
 
-#: /Language/Interface/Record[Key='TextboxEnterSeed']
-msgctxt "Interface.TextboxEnterSeed"
-msgid "Enter Seed..."
-msgstr "输入种子..."
-
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger Rate"
 msgstr "饥饿度"
+
+#: /Language/Interface/Record[Key='TextboxEnterDescription']
+msgctxt "Interface.TextboxEnterDescription"
+msgid "Enter Description..."
+msgstr "输入说明..."
 
 #: /Language/Interface/Record[Key='TextboxEnterName']
 msgctxt "Interface.TextboxEnterName"

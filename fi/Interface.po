@@ -566,15 +566,15 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "Reunojenpehmennys"
 
-#: /Language/Interface/Record[Key='LogicTypeSetting']
-msgctxt "Interface.LogicTypeSetting"
-msgid "A variable setting that can be read or written, depending on the device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsMenuMultiplayer']
 msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
 msgstr "Moninpeli"
+
+#: /Language/Interface/Record[Key='LogicTypeCharge']
+msgctxt "Interface.LogicTypeCharge"
+msgid "The current charge the device has"
+msgstr "Laitteen nykyinen varaustaso"
 
 #: /Language/Interface/Record[Key='SettingsAdvertiseServer']
 msgctxt "Interface.SettingsAdvertiseServer"
@@ -646,15 +646,19 @@ msgctxt "Interface.TutorialCompleteHeading"
 msgid "Tutorial Complete"
 msgstr "Tutoriaali suoritettu"
 
+#: /Language/Interface/Record[Key='TutorialCompleteMessage']
+msgctxt "Interface.TutorialCompleteMessage"
+msgid ""
+"There's still much to learn. \n"
+"So get out there, Stationeer!"
+msgstr ""
+"Vielä on paljon opittavaa. \n"
+"Joten tuumasta toimeen, Stationeer!"
+
 #: /Language/Interface/Record[Key='TutorialBackToMenu']
 msgctxt "Interface.TutorialBackToMenu"
 msgid "Back To Menu"
 msgstr "Palaa valikkoon"
-
-#: /Language/Interface/Record[Key='SettingsMiscInvertMouse']
-msgctxt "Interface.SettingsMiscInvertMouse"
-msgid "Invert Mouse"
-msgstr "Käänteinen hiiri"
 
 #: /Language/Interface/Record[Key='SettingsInvertMouse']
 msgctxt "Interface.SettingsInvertMouse"
@@ -845,15 +849,15 @@ msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr "Korvaa"
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "Maailmat"
-
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "Haluatko varmasti korvata olemassaolevan maailman?"
+
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "Maailmat"
 
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
@@ -1025,10 +1029,10 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Poista suosikki"
 
-#: /Language/Interface/Record[Key='LogicTypeOn']
-msgctxt "Interface.LogicTypeOn"
-msgid "The current state of the device, 0 for off, 1 for on"
-msgstr "Laitteen nykyinen status, 0 pois päältä, 1 päällä."
+#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
+msgctxt "Interface.LogicTypeImportQuantity"
+msgid "Total quantity of items imported by the device"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
@@ -1195,14 +1199,15 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka peliä"
 
-#: /Language/Interface/Record[Key='TutorialCompleteMessage']
-msgctxt "Interface.TutorialCompleteMessage"
-msgid ""
-"There's still much to learn. \n"
-"So get out there, Stationeer!"
+#: /Language/Interface/Record[Key='SettingsMiscInvertMouse']
+msgctxt "Interface.SettingsMiscInvertMouse"
+msgid "Invert Mouse"
+msgstr "Käänteinen hiiri"
+
+#: /Language/Interface/Record[Key='InputTextTradingTitle']
+msgctxt "Interface.InputTextTradingTitle"
+msgid "Trading Terminal"
 msgstr ""
-"Vielä on paljon opittavaa. \n"
-"Joten tuumasta toimeen, Stationeer!"
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 #, fuzzy
@@ -1617,15 +1622,15 @@ msgctxt "Interface.LogicTypeImportSlotOccupant"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
-msgctxt "Interface.LogicTypeImportQuantity"
-msgid "Total quantity of items imported by the device"
-msgstr ""
+#: /Language/Interface/Record[Key='TextboxEnterSeed']
+msgctxt "Interface.TextboxEnterSeed"
+msgid "Enter Seed..."
+msgstr "Anna Siemen..."
 
-#: /Language/Interface/Record[Key='TextboxEnterDescription']
-msgctxt "Interface.TextboxEnterDescription"
-msgid "Enter Description..."
-msgstr "Anna Kuvaus..."
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr "Laitteen nykyinen status, 0 pois päältä, 1 päällä."
 
 #: /Language/Interface/Record[Key='LogicTypeQuantity']
 msgctxt "Interface.LogicTypeQuantity"
@@ -1707,10 +1712,10 @@ msgctxt "Interface.LogicTypeReagents"
 msgid "Total number of reagents recorded by the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeCharge']
-msgctxt "Interface.LogicTypeCharge"
-msgid "The current charge the device has"
-msgstr "Laitteen nykyinen varaustaso"
+#: /Language/Interface/Record[Key='LogicTypeSetting']
+msgctxt "Interface.LogicTypeSetting"
+msgid "A variable setting that can be read or written, depending on the device"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeActivate']
 msgctxt "Interface.LogicTypeActivate"
@@ -2218,15 +2223,15 @@ msgctxt "Interface.SettingsDisableParticlesOnMenu"
 msgid "Disable Particles On Menu"
 msgstr "Poista Käytöstä Hiukkaset Valikossa"
 
-#: /Language/Interface/Record[Key='TextboxEnterSeed']
-msgctxt "Interface.TextboxEnterSeed"
-msgid "Enter Seed..."
-msgstr "Anna Siemen..."
-
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger Rate"
 msgstr "Nälkä (Kerroin)"
+
+#: /Language/Interface/Record[Key='TextboxEnterDescription']
+msgctxt "Interface.TextboxEnterDescription"
+msgid "Enter Description..."
+msgstr "Anna Kuvaus..."
 
 #: /Language/Interface/Record[Key='TextboxEnterName']
 msgctxt "Interface.TextboxEnterName"
