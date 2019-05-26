@@ -86,15 +86,15 @@ msgctxt "Interface.NewWorldTitle"
 msgid "New World"
 msgstr "New World"
 
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "Back"
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Playtime:"
-
-#: /Language/Interface/Record[Key='NewWorldButtonCreate']
-msgctxt "Interface.NewWorldButtonCreate"
-msgid "Create World"
-msgstr "Create World"
 
 #: /Language/Interface/Record[Key='NewWorldAreaTitle']
 msgctxt "Interface.NewWorldAreaTitle"
@@ -401,10 +401,10 @@ msgctxt "Interface.SettingsShadowResolution"
 msgid "Shadow Resolution"
 msgstr "Shadow Resolution"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Saved:"
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "Shadow Distance"
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -566,10 +566,10 @@ msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
 msgstr "Multiplayer"
 
-#: /Language/Interface/Record[Key='LogicTypeCharge']
-msgctxt "Interface.LogicTypeCharge"
-msgid "The current charge the device has"
-msgstr "The current charge the device has"
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
+msgctxt "Interface.LogicTypeRatioCarbonDioxide"
+msgid "The ratio of co2 in device atmosphere"
+msgstr "The ratio of co2 in device atmosphere"
 
 #: /Language/Interface/Record[Key='SettingsAdvertiseServer']
 msgctxt "Interface.SettingsAdvertiseServer"
@@ -651,6 +651,11 @@ msgctxt "Interface.TutorialBackToMenu"
 msgid "Back To Menu"
 msgstr "Back To Menu"
 
+#: /Language/Interface/Record[Key='SettingsMiscInvertMouse']
+msgctxt "Interface.SettingsMiscInvertMouse"
+msgid "Invert Mouse"
+msgstr "Invert Mouse"
+
 #: /Language/Interface/Record[Key='SettingsInvertMouse']
 msgctxt "Interface.SettingsInvertMouse"
 msgid "Invert Mouse"
@@ -660,11 +665,6 @@ msgstr "Invert Mouse"
 msgctxt "Interface.MothershipConstruction"
 msgid "<color=yellow>Constructing on Mothership</color>."
 msgstr "<color=yellow>Constructing on Mothership</color>."
-
-#: /Language/Interface/Record[Key='MulticonstructorItem']
-msgctxt "Interface.MulticonstructorItem"
-msgid "<color=yellow>Constructing option {0} of {1}</color>\nScroll <color=red>Mouse Wheel</color> for more options."
-msgstr "<color=yellow>Constructing option {0} of {1}</color>\nScroll <color=red>Mouse Wheel</color> for more options."
 
 #: /Language/Interface/Record[Key='UnableToConstruct']
 msgctxt "Interface.UnableToConstruct"
@@ -786,10 +786,10 @@ msgctxt "Interface.SteamErrorBody"
 msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
 msgstr "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
 
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "Shadow Distance"
+#: /Language/Interface/Record[Key='SteamErrorButton']
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "Quit"
 
 #: /Language/Interface/Record[Key='WaitingTitle']
 msgctxt "Interface.WaitingTitle"
@@ -841,11 +841,6 @@ msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "Are you sure you want to overwrite existing saved world?"
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "Saved Worlds"
-
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
 msgid "Overwrite"
@@ -860,6 +855,11 @@ msgstr "Publish to Workshop"
 msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Are you sure you want to publish this world to the workshop?"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Saved:"
 
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
@@ -1011,11 +1011,6 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Remove Favorite"
 
-#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
-msgctxt "Interface.LogicTypeImportQuantity"
-msgid "Total quantity of items imported by the device"
-msgstr "Total quantity of items imported by the device"
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
@@ -1025,6 +1020,11 @@ msgstr "Favorite"
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "Save World"
+
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
@@ -1126,6 +1126,11 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Game Settings"
 
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "Saved Worlds"
+
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -1171,25 +1176,40 @@ msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr "New World"
 
-#: /Language/Interface/Record[Key='SteamErrorButton']
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
-msgstr "Quit"
-
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continue"
 
-#: /Language/Interface/Record[Key='SettingsMiscInvertMouse']
-msgctxt "Interface.SettingsMiscInvertMouse"
-msgid "Invert Mouse"
-msgstr "Invert Mouse"
+#: /Language/Interface/Record[Key='MulticonstructorItem']
+msgctxt "Interface.MulticonstructorItem"
+msgid "<color=yellow>Constructing option {0} of {1}</color>\nScroll <color=red>Mouse Wheel</color> for more options."
+msgstr "<color=yellow>Constructing option {0} of {1}</color>\nScroll <color=red>Mouse Wheel</color> for more options."
+
+#: /Language/Interface/Record[Key='ButtonContact']
+msgctxt "Interface.ButtonContact"
+msgid "Contact"
+msgstr "Contact"
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
 msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr "Trading Terminal"
+
+#: /Language/Interface/Record[Key='ContactTradeRequestFail']
+msgctxt "Interface.ContactTradeRequestFail"
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected."
+msgstr "Trader requesting safe landing. Please ensure landing space is clear and connected."
+
+#: /Language/Interface/Record[Key='ContactNoResponse']
+msgctxt "Interface.ContactNoResponse"
+msgid "There was no response"
+msgstr "There was no response"
+
+#: /Language/Interface/Record[Key='ContactTradeRequest']
+msgctxt "Interface.ContactTradeRequest"
+msgid "A trader has requested permission for landing."
+msgstr "A trader has requested permission for landing."
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -1596,15 +1616,15 @@ msgctxt "Interface.LogicTypeExportQuantity"
 msgid "Total quantity of items exported by the device"
 msgstr "Total quantity of items exported by the device"
 
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
+#: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
+msgctxt "Interface.SettingsMouseWheelZoom"
+msgid "Mouse Wheel Zoom"
+msgstr "Mouse Wheel Zoom"
 
-#: /Language/Interface/Record[Key='TextboxEnterSeed']
-msgctxt "Interface.TextboxEnterSeed"
-msgid "Enter Seed..."
-msgstr "Enter Seed..."
+#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
+msgctxt "Interface.LogicTypeImportQuantity"
+msgid "Total quantity of items imported by the device"
+msgstr "Total quantity of items imported by the device"
 
 #: /Language/Interface/Record[Key='LogicTypeOn']
 msgctxt "Interface.LogicTypeOn"
@@ -1676,11 +1696,6 @@ msgctxt "Interface.LogicTypeRatioNitrogen"
 msgid "The ratio of nitrogen in device atmosphere"
 msgstr "The ratio of nitrogen in device atmosphere"
 
-#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
-msgctxt "Interface.LogicTypeRatioCarbonDioxide"
-msgid "The ratio of co2 in device atmosphere"
-msgstr "The ratio of co2 in device atmosphere"
-
 #: /Language/Interface/Record[Key='LogicTypeRatioOxygen']
 msgctxt "Interface.LogicTypeRatioOxygen"
 msgid "The ratio of oxygen in device atmosphere"
@@ -1695,6 +1710,11 @@ msgstr "Total number of reagents recorded by the device"
 msgctxt "Interface.LogicTypeSetting"
 msgid "A variable setting that can be read or written, depending on the device"
 msgstr "A variable setting that can be read or written, depending on the device"
+
+#: /Language/Interface/Record[Key='LogicTypeCharge']
+msgctxt "Interface.LogicTypeCharge"
+msgid "The current charge the device has"
+msgstr "The current charge the device has"
 
 #: /Language/Interface/Record[Key='LogicTypeActivate']
 msgctxt "Interface.LogicTypeActivate"
@@ -2176,20 +2196,30 @@ msgctxt "Interface.GameMenuRespawn"
 msgid "Respawn"
 msgstr "Respawn"
 
-#: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
-msgctxt "Interface.SettingsMouseWheelZoom"
-msgid "Mouse Wheel Zoom"
-msgstr "Mouse Wheel Zoom"
+#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
+msgctxt "Interface.SomethingWentWrongTrading"
+msgid "Something went wrong when processing the trade, did something leave the vendor!"
+msgstr "Something went wrong when processing the trade, did something leave the vendor!"
+
+#: /Language/Interface/Record[Key='TradingNoMoneyHash']
+msgctxt "Interface.TradingNoMoneyHash"
+msgid "There is not have enough money to complete this trade!"
+msgstr "There is not have enough money to complete this trade!"
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "Hunger Rate"
 
 #: /Language/Interface/Record[Key='SettingsDisableParticlesOnMenu']
 msgctxt "Interface.SettingsDisableParticlesOnMenu"
 msgid "Disable Particles On Menu"
 msgstr "Disable Particles On Menu"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "Hunger Rate"
+#: /Language/Interface/Record[Key='TextboxEnterSeed']
+msgctxt "Interface.TextboxEnterSeed"
+msgid "Enter Seed..."
+msgstr "Enter Seed..."
 
 #: /Language/Interface/Record[Key='TextboxEnterDescription']
 msgctxt "Interface.TextboxEnterDescription"
@@ -2336,7 +2366,7 @@ msgctxt "Interface.JoinMenuFiltersTitle"
 msgid "Filters"
 msgstr "Filters"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "Back"
+#: /Language/Interface/Record[Key='NewWorldButtonCreate']
+msgctxt "Interface.NewWorldButtonCreate"
+msgid "Create World"
+msgstr "Create World"

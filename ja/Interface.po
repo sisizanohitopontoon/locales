@@ -90,15 +90,15 @@ msgctxt "Interface.NewWorldTitle"
 msgid "New World"
 msgstr "新規ワールド"
 
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "戻る"
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "時間:"
-
-#: /Language/Interface/Record[Key='NewWorldButtonCreate']
-msgctxt "Interface.NewWorldButtonCreate"
-msgid "Create World"
-msgstr "ワールド作成"
 
 #: /Language/Interface/Record[Key='NewWorldAreaTitle']
 msgctxt "Interface.NewWorldAreaTitle"
@@ -406,10 +406,10 @@ msgctxt "Interface.SettingsShadowResolution"
 msgid "Shadow Resolution"
 msgstr "影の解像度"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "日付:"
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "影の距離"
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -571,9 +571,9 @@ msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
 msgstr "マルチプレイ"
 
-#: /Language/Interface/Record[Key='LogicTypeCharge']
-msgctxt "Interface.LogicTypeCharge"
-msgid "The current charge the device has"
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
+msgctxt "Interface.LogicTypeRatioCarbonDioxide"
+msgid "The ratio of co2 in device atmosphere"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsAdvertiseServer']
@@ -660,6 +660,11 @@ msgctxt "Interface.TutorialBackToMenu"
 msgid "Back To Menu"
 msgstr "メニューに戻る"
 
+#: /Language/Interface/Record[Key='SettingsMiscInvertMouse']
+msgctxt "Interface.SettingsMiscInvertMouse"
+msgid "Invert Mouse"
+msgstr "マウス反転"
+
 #: /Language/Interface/Record[Key='SettingsInvertMouse']
 msgctxt "Interface.SettingsInvertMouse"
 msgid "Invert Mouse"
@@ -669,15 +674,6 @@ msgstr "マウス反転"
 msgctxt "Interface.MothershipConstruction"
 msgid "<color=yellow>Constructing on Mothership</color>."
 msgstr "<color=yellow>母船建造中</color>."
-
-#: /Language/Interface/Record[Key='MulticonstructorItem']
-msgctxt "Interface.MulticonstructorItem"
-msgid ""
-"<color=yellow>Constructing option {0} of {1}</color>\n"
-"Scroll <color=red>Mouse Wheel</color> for more options."
-msgstr ""
-"<color=yellow>{1}個中{0}個の建造オプション</color>\n"
-"<color=red>マウスホイール</color>をスクロールしてさらなるオプションを表示"
 
 #: /Language/Interface/Record[Key='UnableToConstruct']
 msgctxt "Interface.UnableToConstruct"
@@ -799,10 +795,10 @@ msgctxt "Interface.SteamErrorBody"
 msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "影の距離"
+#: /Language/Interface/Record[Key='SteamErrorButton']
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "終了"
 
 #: /Language/Interface/Record[Key='WaitingTitle']
 #, fuzzy
@@ -855,11 +851,6 @@ msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "既存のワールドを上書きしてよろしいですか？"
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "保存されたワールド"
-
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
 msgid "Overwrite"
@@ -874,6 +865,11 @@ msgstr "ワークショップに公開"
 msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "このワールドをワークショップに公開してよろしいですか？"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "日付:"
 
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
@@ -1029,11 +1025,6 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "お気に入り解除"
 
-#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
-msgctxt "Interface.LogicTypeImportQuantity"
-msgid "Total quantity of items imported by the device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
@@ -1043,6 +1034,11 @@ msgstr "お気に入り"
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "セーブ"
+
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr "廃止"
 
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
@@ -1144,6 +1140,11 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "ゲーム"
 
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "保存されたワールド"
+
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -1189,24 +1190,44 @@ msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr "新規ワールド"
 
-#: /Language/Interface/Record[Key='SteamErrorButton']
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
-msgstr "終了"
-
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
 
-#: /Language/Interface/Record[Key='SettingsMiscInvertMouse']
-msgctxt "Interface.SettingsMiscInvertMouse"
-msgid "Invert Mouse"
-msgstr "マウス反転"
+#: /Language/Interface/Record[Key='MulticonstructorItem']
+msgctxt "Interface.MulticonstructorItem"
+msgid ""
+"<color=yellow>Constructing option {0} of {1}</color>\n"
+"Scroll <color=red>Mouse Wheel</color> for more options."
+msgstr ""
+"<color=yellow>{1}個中{0}個の建造オプション</color>\n"
+"<color=red>マウスホイール</color>をスクロールしてさらなるオプションを表示"
+
+#: /Language/Interface/Record[Key='ButtonContact']
+#, fuzzy
+msgctxt "Interface.ButtonContact"
+msgid "Contact"
+msgstr "コントロール"
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
 msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactTradeRequestFail']
+msgctxt "Interface.ContactTradeRequestFail"
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactNoResponse']
+msgctxt "Interface.ContactNoResponse"
+msgid "There was no response"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactTradeRequest']
+msgctxt "Interface.ContactTradeRequest"
+msgid "A trader has requested permission for landing."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactsTrading']
@@ -1617,15 +1638,15 @@ msgctxt "Interface.LogicTypeExportQuantity"
 msgid "Total quantity of items exported by the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
-msgstr "廃止"
+#: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
+msgctxt "Interface.SettingsMouseWheelZoom"
+msgid "Mouse Wheel Zoom"
+msgstr "マウスホイールズーム"
 
-#: /Language/Interface/Record[Key='TextboxEnterSeed']
-msgctxt "Interface.TextboxEnterSeed"
-msgid "Enter Seed..."
-msgstr "シード値を入力..."
+#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
+msgctxt "Interface.LogicTypeImportQuantity"
+msgid "Total quantity of items imported by the device"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeOn']
 msgctxt "Interface.LogicTypeOn"
@@ -1697,11 +1718,6 @@ msgctxt "Interface.LogicTypeRatioNitrogen"
 msgid "The ratio of nitrogen in device atmosphere"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
-msgctxt "Interface.LogicTypeRatioCarbonDioxide"
-msgid "The ratio of co2 in device atmosphere"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypeRatioOxygen']
 msgctxt "Interface.LogicTypeRatioOxygen"
 msgid "The ratio of oxygen in device atmosphere"
@@ -1715,6 +1731,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeSetting']
 msgctxt "Interface.LogicTypeSetting"
 msgid "A variable setting that can be read or written, depending on the device"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeCharge']
+msgctxt "Interface.LogicTypeCharge"
+msgid "The current charge the device has"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeActivate']
@@ -2201,20 +2222,30 @@ msgctxt "Interface.GameMenuRespawn"
 msgid "Respawn"
 msgstr "リスポーン"
 
-#: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
-msgctxt "Interface.SettingsMouseWheelZoom"
-msgid "Mouse Wheel Zoom"
-msgstr "マウスホイールズーム"
+#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
+msgctxt "Interface.SomethingWentWrongTrading"
+msgid "Something went wrong when processing the trade, did something leave the vendor!"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TradingNoMoneyHash']
+msgctxt "Interface.TradingNoMoneyHash"
+msgid "There is not have enough money to complete this trade!"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "空腹レート"
 
 #: /Language/Interface/Record[Key='SettingsDisableParticlesOnMenu']
 msgctxt "Interface.SettingsDisableParticlesOnMenu"
 msgid "Disable Particles On Menu"
 msgstr "メニューのパーティクルを無効"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "空腹レート"
+#: /Language/Interface/Record[Key='TextboxEnterSeed']
+msgctxt "Interface.TextboxEnterSeed"
+msgid "Enter Seed..."
+msgstr "シード値を入力..."
 
 #: /Language/Interface/Record[Key='TextboxEnterDescription']
 msgctxt "Interface.TextboxEnterDescription"
@@ -2381,10 +2412,10 @@ msgctxt "Interface.JoinMenuFiltersTitle"
 msgid "Filters"
 msgstr "フィルター"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "戻る"
+#: /Language/Interface/Record[Key='NewWorldButtonCreate']
+msgctxt "Interface.NewWorldButtonCreate"
+msgid "Create World"
+msgstr "ワールド作成"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "
