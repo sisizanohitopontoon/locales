@@ -568,15 +568,15 @@ msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
 msgstr "멀티플레이어"
 
-#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
-msgctxt "Interface.LogicTypeRatioCarbonDioxide"
-msgid "The ratio of co2 in device atmosphere"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsAdvertiseServer']
 msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "공개 서버"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
+msgctxt "Interface.LogicTypeRatioCarbonDioxide"
+msgid "The ratio of co2 in device atmosphere"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
@@ -672,10 +672,14 @@ msgctxt "Interface.MothershipConstruction"
 msgid "<color=yellow>Constructing on Mothership</color>."
 msgstr "<color=yellow>모선 위에 건설하기</color>."
 
-#: /Language/Interface/Record[Key='UnableToConstruct']
-msgctxt "Interface.UnableToConstruct"
-msgid "<color=red>Unable to Construct</color>."
-msgstr "<color=red>구성 할수 없습니다</color>."
+#: /Language/Interface/Record[Key='MulticonstructorItem']
+msgctxt "Interface.MulticonstructorItem"
+msgid ""
+"<color=yellow>Constructing option {0} of {1}</color>\n"
+"Scroll <color=red>Mouse Wheel</color> for more options."
+msgstr ""
+"<color=yellow>건설 옵션  {0} / {1}</color>\n"
+"<color=red>마우스 휠</color>을 사용하여 옵션 선택이 가능합니다."
 
 #: /Language/Interface/Record[Key='TooltipRotateLeftRight']
 msgctxt "Interface.TooltipRotateLeftRight"
@@ -867,11 +871,6 @@ msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "이 세계를 창작마당으로 업로드 하시겠습니까?"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "저장날짜:"
-
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
@@ -881,6 +880,11 @@ msgstr "업로드"
 msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
 msgstr "삭제하기"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "저장날짜:"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
@@ -1036,11 +1040,6 @@ msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "저장하기"
 
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
@@ -1050,6 +1049,11 @@ msgstr "덮어쓰기"
 msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "저장할 파일명을 입력하세요..."
+
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
@@ -1197,14 +1201,10 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "이어하기"
 
-#: /Language/Interface/Record[Key='MulticonstructorItem']
-msgctxt "Interface.MulticonstructorItem"
-msgid ""
-"<color=yellow>Constructing option {0} of {1}</color>\n"
-"Scroll <color=red>Mouse Wheel</color> for more options."
-msgstr ""
-"<color=yellow>건설 옵션  {0} / {1}</color>\n"
-"<color=red>마우스 휠</color>을 사용하여 옵션 선택이 가능합니다."
+#: /Language/Interface/Record[Key='UnableToConstruct']
+msgctxt "Interface.UnableToConstruct"
+msgid "<color=red>Unable to Construct</color>."
+msgstr "<color=red>구성 할수 없습니다</color>."
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
@@ -1224,12 +1224,22 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
-msgid "There was no response"
+msgid "There was no response."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactTradeRequest']
 msgctxt "Interface.ContactTradeRequest"
 msgid "A trader has requested permission for landing."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactEventDefault']
+msgctxt "Interface.ContactEventDefault"
+msgid "There was no response."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactsTrading']
@@ -1642,10 +1652,10 @@ msgctxt "Interface.LogicTypeExportQuantity"
 msgid "Total quantity of items exported by the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
-msgctxt "Interface.SettingsMouseWheelZoom"
-msgid "Mouse Wheel Zoom"
-msgstr "Mouse Wheel Zoom"
+#: /Language/Interface/Record[Key='TradingNoMoneyHash']
+msgctxt "Interface.TradingNoMoneyHash"
+msgid "There is not have enough money to complete this trade!"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeImportQuantity']
 msgctxt "Interface.LogicTypeImportQuantity"
@@ -2244,20 +2254,25 @@ msgctxt "Interface.GameMenuRespawn"
 msgid "Respawn"
 msgstr "Respawn"
 
+#: /Language/Interface/Record[Key='SomethingWentWrongTrading2']
+msgctxt "Interface.SomethingWentWrongTrading2"
+msgid "Something went wrong when processing the trade, you don't have a credit card!"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SomethingWentWrongTrading']
 msgctxt "Interface.SomethingWentWrongTrading"
 msgid "Something went wrong when processing the trade, did something leave the vendor!"
-msgstr ""
-
-#: /Language/Interface/Record[Key='TradingNoMoneyHash']
-msgctxt "Interface.TradingNoMoneyHash"
-msgid "There is not have enough money to complete this trade!"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger Rate"
 msgstr "배고픔 비율"
+
+#: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
+msgctxt "Interface.SettingsMouseWheelZoom"
+msgid "Mouse Wheel Zoom"
+msgstr "Mouse Wheel Zoom"
 
 #: /Language/Interface/Record[Key='SettingsDisableParticlesOnMenu']
 msgctxt "Interface.SettingsDisableParticlesOnMenu"
