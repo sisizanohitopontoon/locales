@@ -576,9 +576,9 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "Reklamuj serwer"
 
-#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
-msgctxt "Interface.LogicTypeRatioCarbonDioxide"
-msgid "The ratio of co2 in device atmosphere"
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
+msgctxt "Interface.LogicTypeRatioPollutant"
+msgid "The ratio of pollutant in device atmosphere"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerName']
@@ -684,10 +684,10 @@ msgstr ""
 "<color=yellow>Mozliwa konstrukcja {0} z {1}</color>\n"
 "Przewin <color=red>k�lkiem myszy</color>, aby wyswietlic wiecej opcji."
 
-#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
-msgctxt "Interface.TooltipRotateLeftRight"
-msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
-msgstr "Uzyj {KEY:RotateLeft} lub {KEY:RotateRight}, aby obrocic w lewo lub w prawo."
+#: /Language/Interface/Record[Key='UnableToConstruct']
+msgctxt "Interface.UnableToConstruct"
+msgid "<color=red>Unable to Construct</color>."
+msgstr "<color=red>Konstrukcja niemozliwa</color>."
 
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
@@ -879,15 +879,15 @@ msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
 msgstr "Usun Zapis"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Zapisano:"
-
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "Jestes pewny?"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Zapisano:"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1048,15 +1048,15 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Wprowadz nazwe Zapisz ..."
 
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
-msgstr "PRZESTARZAŁE"
-
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Creative"
+
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
+msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
@@ -1199,10 +1199,10 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Kontynuj"
 
-#: /Language/Interface/Record[Key='UnableToConstruct']
-msgctxt "Interface.UnableToConstruct"
-msgid "<color=red>Unable to Construct</color>."
-msgstr "<color=red>Konstrukcja niemozliwa</color>."
+#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
+msgctxt "Interface.TooltipRotateLeftRight"
+msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
+msgstr "Uzyj {KEY:RotateLeft} lub {KEY:RotateRight}, aby obrocic w lewo lub w prawo."
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
@@ -1376,6 +1376,16 @@ msgstr "zwraca 0 jeśli slot jest wolny, 1 jeśli jest zajęty"
 msgctxt "Interface.LogicSlotTypeNone"
 msgid "No description"
 msgstr "Brak opisu"
+
+#: /Language/Interface/Record[Key='LogicTypeSignalID']
+msgctxt "Interface.LogicTypeSignalID"
+msgid "Returns the contact ID of the strongest signal from this Satellite"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeSignalStrength']
+msgctxt "Interface.LogicTypeSignalStrength"
+msgid "Returns the strength of the strongest signal received from this Satellite"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeForceWrite']
 msgctxt "Interface.LogicTypeForceWrite"
@@ -1643,15 +1653,15 @@ msgctxt "Interface.LogicTypeExportSlotOccupant"
 msgid "DEPRECATED"
 msgstr "PRZESTARZAŁE"
 
-#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
-msgctxt "Interface.LogicTypeExportQuantity"
-msgid "Total quantity of items exported by the device"
+#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
+msgctxt "Interface.SomethingWentWrongTrading"
+msgid "Something went wrong when processing the trade, did something leave the vendor!"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TradingNoMoneyHash']
-msgctxt "Interface.TradingNoMoneyHash"
-msgid "There is not have enough money to complete this trade!"
-msgstr ""
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr "PRZESTARZAŁE"
 
 #: /Language/Interface/Record[Key='LogicTypeImportQuantity']
 msgctxt "Interface.LogicTypeImportQuantity"
@@ -1718,14 +1728,14 @@ msgctxt "Interface.LogicTypeRatioVolatiles"
 msgid "The ratio of volatiles in device atmosphere"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
-msgctxt "Interface.LogicTypeRatioPollutant"
-msgid "The ratio of pollutant in device atmosphere"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrogen']
 msgctxt "Interface.LogicTypeRatioNitrogen"
 msgid "The ratio of nitrogen in device atmosphere"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
+msgctxt "Interface.LogicTypeRatioCarbonDioxide"
+msgid "The ratio of co2 in device atmosphere"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeRatioOxygen']
@@ -2242,15 +2252,15 @@ msgctxt "Interface.SomethingWentWrongTrading2"
 msgid "Something went wrong when processing the trade, you don't have a credit card!"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
-msgctxt "Interface.SomethingWentWrongTrading"
-msgid "Something went wrong when processing the trade, did something leave the vendor!"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger Rate"
 msgstr "Wskaznik glodu"
+
+#: /Language/Interface/Record[Key='TradingNoMoneyHash']
+msgctxt "Interface.TradingNoMoneyHash"
+msgid "There is not have enough money to complete this trade!"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
 msgctxt "Interface.SettingsMouseWheelZoom"

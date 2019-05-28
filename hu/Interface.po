@@ -575,10 +575,10 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "Szerverhirdetés"
 
-#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
-msgctxt "Interface.LogicTypeRatioCarbonDioxide"
-msgid "The ratio of co2 in device atmosphere"
-msgstr "A szén-dioxid aránya az eszköz atmoszférájában"
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
+msgctxt "Interface.LogicTypeRatioPollutant"
+msgid "The ratio of pollutant in device atmosphere"
+msgstr "A szennyezett gáz aránya az eszköz atmoszférájában"
 
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
@@ -685,10 +685,10 @@ msgstr ""
 "<color=yellow>Építési lehetőség {0}/{1}</color>\n"
 "Válts <color=red>görgővel</color> az opciók között."
 
-#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
-msgctxt "Interface.TooltipRotateLeftRight"
-msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
-msgstr "Használd a {KEY:RotateLeft} és a {KEY:RotateRight} billentyűket a balra és jobbra fordításhoz."
+#: /Language/Interface/Record[Key='UnableToConstruct']
+msgctxt "Interface.UnableToConstruct"
+msgid "<color=red>Unable to Construct</color>."
+msgstr "<color=red>Nem lehet megépíteni</color>."
 
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
@@ -880,15 +880,15 @@ msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
 msgstr "Mentés törlése"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Mentve:"
-
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "Biztos vagy benne?"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Mentve:"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1049,15 +1049,15 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Mentési név megadása..."
 
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
-msgstr "ELAVULT"
-
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Kreatív"
+
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
+msgstr "Az eszköz által exportált tárgyak száma"
 
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
@@ -1199,10 +1199,10 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
 
-#: /Language/Interface/Record[Key='UnableToConstruct']
-msgctxt "Interface.UnableToConstruct"
-msgid "<color=red>Unable to Construct</color>."
-msgstr "<color=red>Nem lehet megépíteni</color>."
+#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
+msgctxt "Interface.TooltipRotateLeftRight"
+msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
+msgstr "Használd a {KEY:RotateLeft} és a {KEY:RotateRight} billentyűket a balra és jobbra fordításhoz."
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
@@ -1374,6 +1374,16 @@ msgstr "ha a slot üres, 0 kiírása, ha foglalt, 1"
 msgctxt "Interface.LogicSlotTypeNone"
 msgid "No description"
 msgstr "Nincs leírás"
+
+#: /Language/Interface/Record[Key='LogicTypeSignalID']
+msgctxt "Interface.LogicTypeSignalID"
+msgid "Returns the contact ID of the strongest signal from this Satellite"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeSignalStrength']
+msgctxt "Interface.LogicTypeSignalStrength"
+msgid "Returns the strength of the strongest signal received from this Satellite"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeForceWrite']
 msgctxt "Interface.LogicTypeForceWrite"
@@ -1640,15 +1650,15 @@ msgctxt "Interface.LogicTypeExportSlotOccupant"
 msgid "DEPRECATED"
 msgstr "ELAVULT"
 
-#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
-msgctxt "Interface.LogicTypeExportQuantity"
-msgid "Total quantity of items exported by the device"
-msgstr "Az eszköz által exportált tárgyak száma"
-
-#: /Language/Interface/Record[Key='TradingNoMoneyHash']
-msgctxt "Interface.TradingNoMoneyHash"
-msgid "There is not have enough money to complete this trade!"
+#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
+msgctxt "Interface.SomethingWentWrongTrading"
+msgid "Something went wrong when processing the trade, did something leave the vendor!"
 msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr "ELAVULT"
 
 #: /Language/Interface/Record[Key='LogicTypeImportQuantity']
 msgctxt "Interface.LogicTypeImportQuantity"
@@ -1715,15 +1725,15 @@ msgctxt "Interface.LogicTypeRatioVolatiles"
 msgid "The ratio of volatiles in device atmosphere"
 msgstr "A hidrogén aránya az eszköz atmoszférájában"
 
-#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
-msgctxt "Interface.LogicTypeRatioPollutant"
-msgid "The ratio of pollutant in device atmosphere"
-msgstr "A szennyezett gáz aránya az eszköz atmoszférájában"
-
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrogen']
 msgctxt "Interface.LogicTypeRatioNitrogen"
 msgid "The ratio of nitrogen in device atmosphere"
 msgstr "A nitrogén aránya az eszköz atmoszférájában"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
+msgctxt "Interface.LogicTypeRatioCarbonDioxide"
+msgid "The ratio of co2 in device atmosphere"
+msgstr "A szén-dioxid aránya az eszköz atmoszférájában"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioOxygen']
 msgctxt "Interface.LogicTypeRatioOxygen"
@@ -2234,15 +2244,15 @@ msgctxt "Interface.SomethingWentWrongTrading2"
 msgid "Something went wrong when processing the trade, you don't have a credit card!"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
-msgctxt "Interface.SomethingWentWrongTrading"
-msgid "Something went wrong when processing the trade, did something leave the vendor!"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger Rate"
 msgstr "Éhség mértéke"
+
+#: /Language/Interface/Record[Key='TradingNoMoneyHash']
+msgctxt "Interface.TradingNoMoneyHash"
+msgid "There is not have enough money to complete this trade!"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
 msgctxt "Interface.SettingsMouseWheelZoom"
