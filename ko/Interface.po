@@ -92,20 +92,20 @@ msgctxt "Interface.NewWorldButtonBack"
 msgid "Back"
 msgstr "뒤로"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "플레이시간:"
+#: /Language/Interface/Record[Key='NewWorldButtonCreate']
+msgctxt "Interface.NewWorldButtonCreate"
+msgid "Create World"
+msgstr "생성"
 
 #: /Language/Interface/Record[Key='NewWorldAreaTitle']
 msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "지역 선택"
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Space"
-msgstr "우주"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "플레이시간:"
 
 #: /Language/Interface/Record[Key='NewWorldAreaMars']
 msgctxt "Interface.NewWorldAreaMars"
@@ -573,11 +573,6 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "공개 서버"
 
-#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
-msgctxt "Interface.LogicTypeRatioPollutant"
-msgid "The ratio of pollutant in device atmosphere"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
@@ -587,6 +582,11 @@ msgstr "서버명"
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "암호"
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -686,6 +686,11 @@ msgctxt "Interface.UnableToConstruct"
 msgid "<color=red>Unable to Construct</color>."
 msgstr "<color=red>구성 할수 없습니다</color>."
 
+#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
+msgctxt "Interface.TooltipRotateLeftRight"
+msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
+msgstr "{KEY:RotateLeft}와 {KEY:RotateRight}로 좌우로 회전하세요."
+
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
 msgid "Use {KEY:RotateUp} and {KEY:RotateDown} to rotate up and down."
@@ -720,11 +725,6 @@ msgstr "구조물에 장치를 설치할 수 있습니다. 더 나은 설치 영
 msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "격자에 설치가 가능합니다."
-
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "격자 표면에 설치가 가능합니다."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
@@ -886,11 +886,6 @@ msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "계속 진행하시겠습니까?"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "저장날짜:"
-
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
 msgid "Delete"
@@ -925,6 +920,11 @@ msgstr "당신은 사망했습니다."
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "부활하기"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "저장날짜:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1055,11 +1055,6 @@ msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "자유롭게 건설"
 
-#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
-msgctxt "Interface.LogicTypeExportQuantity"
-msgid "Total quantity of items exported by the device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
@@ -1074,6 +1069,11 @@ msgstr "세계"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP주소:"
+
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1201,16 +1201,71 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "이어하기"
 
-#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
-msgctxt "Interface.TooltipRotateLeftRight"
-msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
-msgstr "{KEY:RotateLeft}와 {KEY:RotateRight}로 좌우로 회전하세요."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "격자 표면에 설치가 가능합니다."
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
 msgctxt "Interface.ButtonContact"
 msgid "Contact"
 msgstr "조작"
+
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Anything 'n' Everything "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderSecurity']
+msgctxt "Interface.TraderSecurity"
+msgid "Hall Corp "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderTool']
+msgctxt "Interface.TraderTool"
+msgid "Tool Corp "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderPaint']
+msgctxt "Interface.TraderPaint"
+msgid "Color Corp "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderChemistry']
+msgctxt "Interface.TraderChemistry"
+msgid "Chemical Expert "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderMicrowave']
+msgctxt "Interface.TraderMicrowave"
+msgid "Micro Trading "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderOre']
+msgctxt "Interface.TraderOre"
+msgid "Minarite Trader "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderHydraulic']
+msgctxt "Interface.TraderHydraulic"
+msgid "Hydrauliphip Marketer "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderBasic']
+msgctxt "Interface.TraderBasic"
+msgid "Anything 'n' Everything "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderOrganics']
+msgctxt "Interface.TraderOrganics"
+msgid "Organtian Trader "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderElectronics']
+msgctxt "Interface.TraderElectronics"
+msgid "Technalitic Trader "
+msgstr ""
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
 msgctxt "Interface.InputTextTradingTitle"
@@ -1512,7 +1567,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, requests an item of the provided type from the device"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
@@ -1626,9 +1681,9 @@ msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
+#: /Language/Interface/Record[Key='ScenariosStartButton']
+msgctxt "Interface.ScenariosStartButton"
+msgid "Start Scenario"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
@@ -1657,9 +1712,9 @@ msgctxt "Interface.LogicTypeExportSlotOccupant"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
-msgctxt "Interface.SomethingWentWrongTrading"
-msgid "Something went wrong when processing the trade, did something leave the vendor!"
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
@@ -1697,11 +1752,6 @@ msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
 msgctxt "Interface.LogicTypeSolarAngle"
 msgid "Solar angle of the device"
@@ -1730,6 +1780,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeRatioVolatiles']
 msgctxt "Interface.LogicTypeRatioVolatiles"
 msgid "The ratio of volatiles in device atmosphere"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
+msgctxt "Interface.LogicTypeRatioPollutant"
+msgid "The ratio of pollutant in device atmosphere"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrogen']
@@ -2249,10 +2304,10 @@ msgctxt "Interface.SettingsSunOrbitPeriod"
 msgid "Sun Orbit Period"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ScenariosStartButton']
-msgctxt "Interface.ScenariosStartButton"
-msgid "Start Scenario"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "배고픔 비율"
 
 #: /Language/Interface/Record[Key='MainMenuScenarios']
 msgctxt "Interface.MainMenuScenarios"
@@ -2269,10 +2324,10 @@ msgctxt "Interface.SomethingWentWrongTrading2"
 msgid "Something went wrong when processing the trade, you don't have a credit card!"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "배고픔 비율"
+#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
+msgctxt "Interface.SomethingWentWrongTrading"
+msgid "Something went wrong when processing the trade, did something leave the vendor!"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TradingNoMoneyHash']
 msgctxt "Interface.TradingNoMoneyHash"
@@ -2459,10 +2514,10 @@ msgctxt "Interface.JoinMenuFiltersTitle"
 msgid "Filters"
 msgstr "필터"
 
-#: /Language/Interface/Record[Key='NewWorldButtonCreate']
-msgctxt "Interface.NewWorldButtonCreate"
-msgid "Create World"
-msgstr "생성"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Space"
+msgstr "우주"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "

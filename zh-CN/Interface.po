@@ -95,20 +95,20 @@ msgctxt "Interface.NewWorldButtonBack"
 msgid "Back"
 msgstr "返回"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "游戏时间:"
+#: /Language/Interface/Record[Key='NewWorldButtonCreate']
+msgctxt "Interface.NewWorldButtonCreate"
+msgid "Create World"
+msgstr "创造世界"
 
 #: /Language/Interface/Record[Key='NewWorldAreaTitle']
 msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "起始区域"
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Space"
-msgstr "太空"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "游戏时间:"
 
 #: /Language/Interface/Record[Key='NewWorldAreaMars']
 msgctxt "Interface.NewWorldAreaMars"
@@ -576,11 +576,6 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "广播服务器"
 
-#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
-msgctxt "Interface.LogicTypeRatioPollutant"
-msgid "The ratio of pollutant in device atmosphere"
-msgstr "空气中污染物的比例"
-
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
@@ -590,6 +585,11 @@ msgstr "服务器名称"
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "密码"
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
+msgstr "设备的最大设置"
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -689,6 +689,11 @@ msgctxt "Interface.UnableToConstruct"
 msgid "<color=red>Unable to Construct</color>."
 msgstr "<color=red>无法建造</color>."
 
+#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
+msgctxt "Interface.TooltipRotateLeftRight"
+msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
+msgstr "使用{KEY:RotateLeft} 和 {KEY:RotateRight} 左右旋转."
+
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
 msgid "Use {KEY:RotateUp} and {KEY:RotateDown} to rotate up and down."
@@ -723,11 +728,6 @@ msgstr "允许安装墙壁放置设备。升级以允许更好的放置区域。
 msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "放置在网格上."
-
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "放置在网格面上."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
@@ -886,11 +886,6 @@ msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "你确定？"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "保存:"
-
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
 msgid "Delete"
@@ -925,6 +920,11 @@ msgstr "你死了."
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "重生"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "保存:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1055,11 +1055,6 @@ msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "创造"
 
-#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
-msgctxt "Interface.LogicTypeExportQuantity"
-msgid "Total quantity of items exported by the device"
-msgstr "设备输出物品的总数"
-
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
@@ -1074,6 +1069,11 @@ msgstr "地图"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP 地址:"
+
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr "如果设备当前处于闲置状态, 则返回 1, 否则为0"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1200,16 +1200,71 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "继续"
 
-#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
-msgctxt "Interface.TooltipRotateLeftRight"
-msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
-msgstr "使用{KEY:RotateLeft} 和 {KEY:RotateRight} 左右旋转."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "放置在网格面上."
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
 msgctxt "Interface.ButtonContact"
 msgid "Contact"
 msgstr "控制"
+
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Anything 'n' Everything "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderSecurity']
+msgctxt "Interface.TraderSecurity"
+msgid "Hall Corp "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderTool']
+msgctxt "Interface.TraderTool"
+msgid "Tool Corp "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderPaint']
+msgctxt "Interface.TraderPaint"
+msgid "Color Corp "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderChemistry']
+msgctxt "Interface.TraderChemistry"
+msgid "Chemical Expert "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderMicrowave']
+msgctxt "Interface.TraderMicrowave"
+msgid "Micro Trading "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderOre']
+msgctxt "Interface.TraderOre"
+msgid "Minarite Trader "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderHydraulic']
+msgctxt "Interface.TraderHydraulic"
+msgid "Hydrauliphip Marketer "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderBasic']
+msgctxt "Interface.TraderBasic"
+msgid "Anything 'n' Everything "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderOrganics']
+msgctxt "Interface.TraderOrganics"
+msgid "Organtian Trader "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderElectronics']
+msgctxt "Interface.TraderElectronics"
+msgid "Technalitic Trader "
+msgstr ""
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
 msgctxt "Interface.InputTextTradingTitle"
@@ -1509,8 +1564,9 @@ msgid "How complete the current production is for this device, between 0 and 1"
 msgstr "此设备当前生产的完成程度, 在0和1之间"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
+#, fuzzy
 msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, requests an item of the provided type from the device"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
 msgstr "当设置为唯一标识符时, 从设备请求所提供类型的项"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
@@ -1624,10 +1680,10 @@ msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr "设置颜色，为整数"
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr "如果设备当前处于闲置状态, 则返回 1, 否则为0"
+#: /Language/Interface/Record[Key='ScenariosStartButton']
+msgctxt "Interface.ScenariosStartButton"
+msgid "Start Scenario"
+msgstr "启动场景"
 
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
@@ -1654,10 +1710,10 @@ msgctxt "Interface.LogicTypeExportSlotOccupant"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
-msgctxt "Interface.SomethingWentWrongTrading"
-msgid "Something went wrong when processing the trade, did something leave the vendor!"
-msgstr ""
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
+msgstr "设备输出物品的总数"
 
 #: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
 msgctxt "Interface.LogicTypeImportSlotOccupant"
@@ -1694,11 +1750,6 @@ msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
-msgstr "设备的最大设置"
-
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
 msgctxt "Interface.LogicTypeSolarAngle"
 msgid "Solar angle of the device"
@@ -1728,6 +1779,11 @@ msgstr "空气中水的比例"
 msgctxt "Interface.LogicTypeRatioVolatiles"
 msgid "The ratio of volatiles in device atmosphere"
 msgstr "空气中挥发物的比例"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
+msgctxt "Interface.LogicTypeRatioPollutant"
+msgid "The ratio of pollutant in device atmosphere"
+msgstr "空气中污染物的比例"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrogen']
 msgctxt "Interface.LogicTypeRatioNitrogen"
@@ -2230,10 +2286,10 @@ msgctxt "Interface.SettingsSunOrbitPeriod"
 msgid "Sun Orbit Period"
 msgstr "太阳轨道速率"
 
-#: /Language/Interface/Record[Key='ScenariosStartButton']
-msgctxt "Interface.ScenariosStartButton"
-msgid "Start Scenario"
-msgstr "启动场景"
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "饥饿度"
 
 #: /Language/Interface/Record[Key='MainMenuScenarios']
 msgctxt "Interface.MainMenuScenarios"
@@ -2250,10 +2306,10 @@ msgctxt "Interface.SomethingWentWrongTrading2"
 msgid "Something went wrong when processing the trade, you don't have a credit card!"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "饥饿度"
+#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
+msgctxt "Interface.SomethingWentWrongTrading"
+msgid "Something went wrong when processing the trade, did something leave the vendor!"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TradingNoMoneyHash']
 msgctxt "Interface.TradingNoMoneyHash"
@@ -2449,10 +2505,10 @@ msgctxt "Interface.JoinMenuFiltersTitle"
 msgid "Filters"
 msgstr "过滤"
 
-#: /Language/Interface/Record[Key='NewWorldButtonCreate']
-msgctxt "Interface.NewWorldButtonCreate"
-msgid "Create World"
-msgstr "创造世界"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Space"
+msgstr "太空"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "

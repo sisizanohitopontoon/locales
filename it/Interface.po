@@ -95,20 +95,20 @@ msgctxt "Interface.NewWorldButtonBack"
 msgid "Back"
 msgstr "Indietro"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Tempo di gioco :"
+#: /Language/Interface/Record[Key='NewWorldButtonCreate']
+msgctxt "Interface.NewWorldButtonCreate"
+msgid "Create World"
+msgstr "Crea nuovo mondo"
 
 #: /Language/Interface/Record[Key='NewWorldAreaTitle']
 msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "Area di partenza"
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Space"
-msgstr "Spazio"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Tempo di gioco :"
 
 #: /Language/Interface/Record[Key='NewWorldAreaMars']
 msgctxt "Interface.NewWorldAreaMars"
@@ -576,11 +576,6 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "Messagggio server"
 
-#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
-msgctxt "Interface.LogicTypeRatioPollutant"
-msgid "The ratio of pollutant in device atmosphere"
-msgstr "Il rapporto di inquinanti nell'atmosfera del dispositivo"
-
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
@@ -590,6 +585,11 @@ msgstr "Nome del server"
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Password server"
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
+msgstr "Impostazione massima del dispositivo"
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -687,6 +687,11 @@ msgctxt "Interface.UnableToConstruct"
 msgid "<color=red>Unable to Construct</color>."
 msgstr "<color=red>Impossibile costruire</color>."
 
+#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
+msgctxt "Interface.TooltipRotateLeftRight"
+msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
+msgstr "Usa <color=yellow>{KEY:RotateLeft}</color> e <color=yellow>{KEY:RotateRight}</color> per ruotare a sinistra o destra."
+
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
 msgid "Use {KEY:RotateUp} and {KEY:RotateDown} to rotate up and down."
@@ -723,11 +728,6 @@ msgstr ""
 msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "Piazzamento allineato sulla griglia."
-
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "Piazzamento allineato alla faccia della griglia."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
@@ -884,11 +884,6 @@ msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "Sei sicuro ?"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Salvato il :"
-
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
 msgid "Delete"
@@ -923,6 +918,11 @@ msgstr "Sei morto."
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "Respawn"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Salvato il :"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1053,11 +1053,6 @@ msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Creativo"
 
-#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
-msgctxt "Interface.LogicTypeExportQuantity"
-msgid "Total quantity of items exported by the device"
-msgstr "Quantità totale di articoli esportati dal dispositivo"
-
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
@@ -1072,6 +1067,11 @@ msgstr "Mappa"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "Indirizzo IP:"
+
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr "Restituisce 1 se il dispositivo è attualmente inattivo, altrimenti 0"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1198,16 +1198,71 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continua"
 
-#: /Language/Interface/Record[Key='TooltipRotateLeftRight']
-msgctxt "Interface.TooltipRotateLeftRight"
-msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
-msgstr "Usa <color=yellow>{KEY:RotateLeft}</color> e <color=yellow>{KEY:RotateRight}</color> per ruotare a sinistra o destra."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "Piazzamento allineato alla faccia della griglia."
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
 msgctxt "Interface.ButtonContact"
 msgid "Contact"
 msgstr "Contatti"
+
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Anything 'n' Everything "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderSecurity']
+msgctxt "Interface.TraderSecurity"
+msgid "Hall Corp "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderTool']
+msgctxt "Interface.TraderTool"
+msgid "Tool Corp "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderPaint']
+msgctxt "Interface.TraderPaint"
+msgid "Color Corp "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderChemistry']
+msgctxt "Interface.TraderChemistry"
+msgid "Chemical Expert "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderMicrowave']
+msgctxt "Interface.TraderMicrowave"
+msgid "Micro Trading "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderOre']
+msgctxt "Interface.TraderOre"
+msgid "Minarite Trader "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderHydraulic']
+msgctxt "Interface.TraderHydraulic"
+msgid "Hydrauliphip Marketer "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderBasic']
+msgctxt "Interface.TraderBasic"
+msgid "Anything 'n' Everything "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderOrganics']
+msgctxt "Interface.TraderOrganics"
+msgid "Organtian Trader "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderElectronics']
+msgctxt "Interface.TraderElectronics"
+msgid "Technalitic Trader "
+msgstr ""
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
 msgctxt "Interface.InputTextTradingTitle"
@@ -1505,8 +1560,9 @@ msgid "How complete the current production is for this device, between 0 and 1"
 msgstr "Quanto sia completa la produzione per questo dispositivo, tra 0 e 1"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
+#, fuzzy
 msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, requests an item of the provided type from the device"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
 msgstr "Quando impostato sull'identificatore univoco, richiedi un oggetto del tipo fornito dal dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
@@ -1620,10 +1676,10 @@ msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr "L'impostazione del colore per il dispositivo, rappresentata come un numero intero"
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr "Restituisce 1 se il dispositivo è attualmente inattivo, altrimenti 0"
+#: /Language/Interface/Record[Key='ScenariosStartButton']
+msgctxt "Interface.ScenariosStartButton"
+msgid "Start Scenario"
+msgstr "Inizia Scenario"
 
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
@@ -1650,10 +1706,10 @@ msgctxt "Interface.LogicTypeExportSlotOccupant"
 msgid "DEPRECATED"
 msgstr "DEPRECATO"
 
-#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
-msgctxt "Interface.SomethingWentWrongTrading"
-msgid "Something went wrong when processing the trade, did something leave the vendor!"
-msgstr ""
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
+msgstr "Quantità totale di articoli esportati dal dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
 msgctxt "Interface.LogicTypeImportSlotOccupant"
@@ -1690,11 +1746,6 @@ msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr "Valore specifico del contesto in base al dispositivo, rapporto da 0 a 1"
 
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
-msgstr "Impostazione massima del dispositivo"
-
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
 msgctxt "Interface.LogicTypeSolarAngle"
 msgid "Solar angle of the device"
@@ -1724,6 +1775,11 @@ msgstr "Il rapporto di acqua nell'atmosfera del dispositivo"
 msgctxt "Interface.LogicTypeRatioVolatiles"
 msgid "The ratio of volatiles in device atmosphere"
 msgstr "Il rapporto di Gas volatili nell'atmosfera del dispositivo"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
+msgctxt "Interface.LogicTypeRatioPollutant"
+msgid "The ratio of pollutant in device atmosphere"
+msgstr "Il rapporto di inquinanti nell'atmosfera del dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrogen']
 msgctxt "Interface.LogicTypeRatioNitrogen"
@@ -2224,10 +2280,10 @@ msgctxt "Interface.SettingsSunOrbitPeriod"
 msgid "Sun Orbit Period"
 msgstr "Periodo d'orbita solare"
 
-#: /Language/Interface/Record[Key='ScenariosStartButton']
-msgctxt "Interface.ScenariosStartButton"
-msgid "Start Scenario"
-msgstr "Inizia Scenario"
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "Tasso consumo fame"
 
 #: /Language/Interface/Record[Key='MainMenuScenarios']
 msgctxt "Interface.MainMenuScenarios"
@@ -2244,10 +2300,10 @@ msgctxt "Interface.SomethingWentWrongTrading2"
 msgid "Something went wrong when processing the trade, you don't have a credit card!"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "Tasso consumo fame"
+#: /Language/Interface/Record[Key='SomethingWentWrongTrading']
+msgctxt "Interface.SomethingWentWrongTrading"
+msgid "Something went wrong when processing the trade, did something leave the vendor!"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TradingNoMoneyHash']
 msgctxt "Interface.TradingNoMoneyHash"
@@ -2434,10 +2490,10 @@ msgctxt "Interface.JoinMenuFiltersTitle"
 msgid "Filters"
 msgstr "Filtri"
 
-#: /Language/Interface/Record[Key='NewWorldButtonCreate']
-msgctxt "Interface.NewWorldButtonCreate"
-msgid "Create World"
-msgstr "Crea nuovo mondo"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Space"
+msgstr "Spazio"
 
 #~ msgctxt "Interface.MainMenuTutorial"
 #~ msgid "Tutorial<color=green> - NEW!</color> "
