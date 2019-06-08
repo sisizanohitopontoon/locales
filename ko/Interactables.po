@@ -7,10 +7,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interactables/Record[Key='NextPlan']
-msgctxt "Interactables.NextPlan"
-msgid "Next Plan"
-msgstr "다음 계획"
+#: /Language/Interactables/Record[Key='Launch']
+msgctxt "Interactables.Launch"
+msgid "Launch"
+msgstr "발사"
+
+#: /Language/Interactables/Record[Key='OnOff']
+msgctxt "Interactables.OnOff"
+msgid "On Off"
+msgstr "켜기/끄기"
+
+#: /Language/Interactables/Record[Key='Lock']
+msgctxt "Interactables.Lock"
+msgid "Lock"
+msgstr "잠금"
 
 #: /Language/Interactables/Record[Key='Powered']
 msgctxt "Interactables.Powered"
@@ -27,15 +37,15 @@ msgctxt "Interactables.Slot1"
 msgid "Slot1"
 msgstr "슬롯1"
 
-#: /Language/Interactables/Record[Key='Slot2']
-msgctxt "Interactables.Slot2"
-msgid "Slot2"
-msgstr "슬롯2"
-
 #: /Language/Interactables/Record[Key='GrabLeftHand']
 msgctxt "Interactables.GrabLeftHand"
 msgid "Grab Left Hand"
 msgstr "왼손 잡기"
+
+#: /Language/Interactables/Record[Key='GrabRightHand']
+msgctxt "Interactables.GrabRightHand"
+msgid "Grab Right Hand"
+msgstr "오른손 잡기"
 
 #: /Language/Interactables/Record[Key='GrabLeftFoot']
 msgctxt "Interactables.GrabLeftFoot"
@@ -57,10 +67,10 @@ msgctxt "Interactables.Mode"
 msgid "Mode"
 msgstr "모드"
 
-#: /Language/Interactables/Record[Key='Button1']
-msgctxt "Interactables.Button1"
-msgid "Button1"
-msgstr "버튼 1"
+#: /Language/Interactables/Record[Key='Slot3']
+msgctxt "Interactables.Slot3"
+msgid "Slot3"
+msgstr "슬롯3"
 
 #: /Language/Interactables/Record[Key='Slot4']
 msgctxt "Interactables.Slot4"
@@ -162,6 +172,11 @@ msgctxt "Interactables.Cartridge"
 msgid "Cartridge"
 msgstr "카트리지"
 
+#: /Language/Interactables/Record[Key='Slot2']
+msgctxt "Interactables.Slot2"
+msgid "Slot2"
+msgstr "슬롯2"
+
 #: /Language/Interactables/Record[Key='CaptainsChair']
 msgctxt "Interactables.CaptainsChair"
 msgid "Captains Chair"
@@ -171,11 +186,6 @@ msgstr "함장석"
 msgctxt "Interactables.PassengersChair"
 msgid "Passengers Chair"
 msgstr "승무원석"
-
-#: /Language/Interactables/Record[Key='GrabRightHand']
-msgctxt "Interactables.GrabRightHand"
-msgid "Grab Right Hand"
-msgstr "오른손 잡기"
 
 #: /Language/Interactables/Record[Key='Button3']
 msgctxt "Interactables.Button3"
@@ -257,26 +267,6 @@ msgctxt "Interactables.Slot25"
 msgid "Slot25"
 msgstr "슬롯 25"
 
-#: /Language/Interactables/Record[Key='Slot26']
-msgctxt "Interactables.Slot26"
-msgid "Slot26"
-msgstr "슬롯 26"
-
-#: /Language/Interactables/Record[Key='Slot27']
-msgctxt "Interactables.Slot27"
-msgid "Slot27"
-msgstr "슬롯 27"
-
-#: /Language/Interactables/Record[Key='Lock']
-msgctxt "Interactables.Lock"
-msgid "Lock"
-msgstr "잠금"
-
-#: /Language/Interactables/Record[Key='OnOff']
-msgctxt "Interactables.OnOff"
-msgid "On Off"
-msgstr "켜기/끄기"
-
 #: /Language/Interactables/Record[Key='Open']
 msgctxt "Interactables.Open"
 msgid "Open"
@@ -286,6 +276,16 @@ msgstr "열기"
 msgctxt "Interactables.Activate"
 msgid "Activate"
 msgstr "가동"
+
+#: /Language/Interactables/Record[Key='NextPlan']
+msgctxt "Interactables.NextPlan"
+msgid "Next Plan"
+msgstr "다음 계획"
+
+#: /Language/Interactables/Record[Key='CreatePlan']
+msgctxt "Interactables.CreatePlan"
+msgid "Create Plan"
+msgstr "계획 생성"
 
 #: /Language/Interactables/Record[Key='Search']
 msgctxt "Interactables.Search"
@@ -297,10 +297,10 @@ msgctxt "Interactables.Button4"
 msgid "Button4"
 msgstr "버튼 4"
 
-#: /Language/Interactables/Record[Key='CreatePlan']
-msgctxt "Interactables.CreatePlan"
-msgid "Create Plan"
-msgstr "계획 생성"
+#: /Language/Interactables/Record[Key='PreviousPlan']
+msgctxt "Interactables.PreviousPlan"
+msgid "Previous Plan"
+msgstr "이전 계획"
 
 #: /Language/Interactables/Record[Key='Output']
 msgctxt "Interactables.Output"
@@ -402,6 +402,16 @@ msgctxt "Interactables.Unpack"
 msgid "Unpack"
 msgstr ""
 
+#: /Language/Interactables/Record[Key='Slot26']
+msgctxt "Interactables.Slot26"
+msgid "Slot26"
+msgstr "슬롯 26"
+
+#: /Language/Interactables/Record[Key='Slot27']
+msgctxt "Interactables.Slot27"
+msgid "Slot27"
+msgstr "슬롯 27"
+
 #: /Language/Interactables/Record[Key='Slot28']
 msgctxt "Interactables.Slot28"
 msgid "Slot28"
@@ -447,17 +457,7 @@ msgctxt "Interactables.Export2"
 msgid "Export2"
 msgstr "배출2"
 
-#: /Language/Interactables/Record[Key='Launch']
-msgctxt "Interactables.Launch"
-msgid "Launch"
-msgstr "발사"
-
-#: /Language/Interactables/Record[Key='PreviousPlan']
-msgctxt "Interactables.PreviousPlan"
-msgid "Previous Plan"
-msgstr "이전 계획"
-
-#: /Language/Interactables/Record[Key='Slot3']
-msgctxt "Interactables.Slot3"
-msgid "Slot3"
-msgstr "슬롯3"
+#: /Language/Interactables/Record[Key='Button1']
+msgctxt "Interactables.Button1"
+msgid "Button1"
+msgstr "버튼 1"

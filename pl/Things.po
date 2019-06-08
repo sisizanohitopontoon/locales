@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='ReagentColorYellow']
-msgctxt "Things.ReagentColorYellow"
-msgid "Color Dye (Yellow)"
-msgstr "Barwnik (Żółty)"
+#: /Language/Things/Record[Key='ItemFlowerGreen']
+msgctxt "Things.ItemFlowerGreen"
+msgid "Flower (Green)"
+msgstr "Kwiat (zielony)"
+
+#: /Language/Things/Record[Key='StructureLogicBatchSlotReader']
+msgctxt "Things.StructureLogicBatchSlotReader"
+msgid "Batch Slot Reader"
+msgstr "Czytnik pakietów slotów"
+
+#: /Language/Things/Record[Key='StructureLockerSmall']
+msgctxt "Things.StructureLockerSmall"
+msgid "Locker (Small)"
+msgstr "Szafka (Mała)"
 
 #: /Language/Things/Record[Key='StructureLadderEnd']
 msgctxt "Things.StructureLadderEnd"
@@ -255,16 +265,16 @@ msgctxt "Things.AccessCardYellow"
 msgid "Access Card (Yellow)"
 msgstr "Karta dostępu (żółta)"
 
+#: /Language/Things/Record[Key='StructureWallPadding']
+#, fuzzy
+msgctxt "Things.StructureWallPadding"
+msgid "Wall (Padding)"
+msgstr "Sciana wysciulana"
+
 #: /Language/Things/Record[Key='AccessCardWhite']
 msgctxt "Things.AccessCardWhite"
 msgid "Access Card (White)"
 msgstr "Karta dostępu (biała)"
-
-#: /Language/Things/Record[Key='StructureWallPaddedArchLightsFittings']
-#, fuzzy
-msgctxt "Things.StructureWallPaddedArchLightsFittings"
-msgid "Wall (Padded Arch Lights Fittings)"
-msgstr "Sciana wysciulana luk z swieconcymi okuciami"
 
 #: /Language/Things/Record[Key='AccessCardRed']
 msgctxt "Things.AccessCardRed"
@@ -463,11 +473,11 @@ msgctxt "Things.StructureWallPaddingArchVent"
 msgid "Wall (Padding Arch Vent)"
 msgstr "Sciana wysciulana luk z kratka"
 
-#: /Language/Things/Record[Key='StructureWallPadding']
+#: /Language/Things/Record[Key='StructureWallPaddedArchLightsFittings']
 #, fuzzy
-msgctxt "Things.StructureWallPadding"
-msgid "Wall (Padding)"
-msgstr "Sciana wysciulana"
+msgctxt "Things.StructureWallPaddedArchLightsFittings"
+msgid "Wall (Padded Arch Lights Fittings)"
+msgstr "Sciana wysciulana luk z swieconcymi okuciami"
 
 #: /Language/Things/Record[Key='StructureWallPaddedArch']
 #, fuzzy
@@ -1423,10 +1433,10 @@ msgctxt "Things.StructureTransformerSmall"
 msgid "Transformer (Small)"
 msgstr "Transformator (maly)"
 
-#: /Language/Things/Record[Key='StructureLockerSmall']
-msgctxt "Things.StructureLockerSmall"
-msgid "Locker (Small)"
-msgstr "Szafka (Mała)"
+#: /Language/Things/Record[Key='CircuitboardAdvAirlockControl']
+msgctxt "Things.CircuitboardAdvAirlockControl"
+msgid "Circuitboard (Advanced Airlock)"
+msgstr "Obwód (Zaawansowana śluza powietrzna)"
 
 #: /Language/Things/Record[Key='ItemKitTransformer']
 msgctxt "Things.ItemKitTransformer"
@@ -2768,10 +2778,10 @@ msgctxt "Things.ItemDrill"
 msgid "Hand Drill"
 msgstr "Wiertarka"
 
-#: /Language/Things/Record[Key='StructureLogicBatchSlotReader']
-msgctxt "Things.StructureLogicBatchSlotReader"
-msgid "Batch Slot Reader"
-msgstr "Czytnik pakietów slotów"
+#: /Language/Things/Record[Key='ItemKitPressurePlate']
+msgctxt "Things.ItemKitPressurePlate"
+msgid "Kit (Trigger Plate)"
+msgstr "Zestaw (Czujnik Nacisku)"
 
 #: /Language/Things/Record[Key='ItemCrowbar']
 msgctxt "Things.ItemCrowbar"
@@ -3343,16 +3353,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrofalowka"
 
-#: /Language/Things/Record[Key='CircuitboardAdvAirlockControl']
-msgctxt "Things.CircuitboardAdvAirlockControl"
-msgid "Circuitboard (Advanced Airlock)"
-msgstr "Obwód (Zaawansowana śluza powietrzna)"
-
-#: /Language/Things/Record[Key='ItemKitPressurePlate']
-msgctxt "Things.ItemKitPressurePlate"
-msgid "Kit (Trigger Plate)"
-msgstr "Zestaw (Czujnik Nacisku)"
-
 #: /Language/Things/Record[Key='StructurePressurePlateLarge']
 msgctxt "Things.StructurePressurePlateLarge"
 msgid "Trigger Plate (Large)"
@@ -3423,10 +3423,10 @@ msgctxt "Things.ReagentColorRed"
 msgid "Color Dye (Red)"
 msgstr "Barwnik (Czerwony)"
 
-#: /Language/Things/Record[Key='ItemFlowerGreen']
-msgctxt "Things.ItemFlowerGreen"
-msgid "Flower (Green)"
-msgstr "Kwiat (zielony)"
+#: /Language/Things/Record[Key='ReagentColorYellow']
+msgctxt "Things.ReagentColorYellow"
+msgid "Color Dye (Yellow)"
+msgstr "Barwnik (Żółty)"
 
 #: /Language/Things/Record[Key='ItemGasFilterCarbonDioxideL']
 msgctxt "Things.ItemGasFilterCarbonDioxideL"
@@ -3714,6 +3714,18 @@ msgstr ""
 msgctxt "Things.ItemCreditCard"
 msgid "Credit Card"
 msgstr ""
+
+#: /Language/Things/Record[Key='StructureRover']
+#, fuzzy
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "Zelazna Rama"
+
+#: /Language/Things/Record[Key='ItemKitRoverFrame']
+#, fuzzy
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "Zestaw (Piec Lukowy)"
 
 #: /Language/Things/Record[Key='ItemDataDisk']
 msgctxt "Things.ItemDataDisk"
