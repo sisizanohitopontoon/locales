@@ -583,9 +583,9 @@ msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "密碼"
 
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
+#: /Language/Interface/Record[Key='LogicTypeRatio']
+msgctxt "Interface.LogicTypeRatio"
+msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
@@ -914,15 +914,15 @@ msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "你死了"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "儲存:"
-
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "重生"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "儲存:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1066,15 +1066,15 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP 位置:"
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "地圖:"
+
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuInfoVersion']
 msgctxt "Interface.JoinMenuInfoVersion"
@@ -1210,57 +1210,62 @@ msgstr "控制"
 
 #: /Language/Interface/Record[Key='TraderOther']
 msgctxt "Interface.TraderOther"
-msgid "Anything 'n' Everything "
+msgid "SPESMALL "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
-msgid "Hall Corp "
+msgid "HALL CORP "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderTool']
 msgctxt "Interface.TraderTool"
-msgid "Tool Corp "
+msgid "TOOL CORP "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderPaint']
 msgctxt "Interface.TraderPaint"
-msgid "Color Corp "
+msgid "COLOR CORP "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderExotic']
+msgctxt "Interface.TraderExotic"
+msgid "EXOTECH "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderChemistry']
 msgctxt "Interface.TraderChemistry"
-msgid "Chemical Expert "
+msgid "CHEM LAB "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderMicrowave']
 msgctxt "Interface.TraderMicrowave"
-msgid "Micro Trading "
+msgid "MICROWARES "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderOre']
 msgctxt "Interface.TraderOre"
-msgid "Minarite Trader "
+msgid "MINERITE "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderHydraulic']
 msgctxt "Interface.TraderHydraulic"
-msgid "Hydrauliphip Marketer "
+msgid "HYDRAULIKIT "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderBasic']
 msgctxt "Interface.TraderBasic"
-msgid "Anything 'n' Everything "
+msgid "SPESMART "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderOrganics']
 msgctxt "Interface.TraderOrganics"
-msgid "Organtian Trader "
+msgid "ORGANTION "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderElectronics']
 msgctxt "Interface.TraderElectronics"
-msgid "Technalitic Trader "
+msgid "TECH TREE "
 msgstr ""
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
@@ -1743,9 +1748,9 @@ msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeRatio']
-msgctxt "Interface.LogicTypeRatio"
-msgid "Context specific value depending on device, 0 to 1 based ratio"
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
