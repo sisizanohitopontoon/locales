@@ -586,9 +586,9 @@ msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "パスワード"
 
-#: /Language/Interface/Record[Key='LogicTypeRatio']
-msgctxt "Interface.LogicTypeRatio"
-msgid "Context specific value depending on device, 0 to 1 based ratio"
+#: /Language/Interface/Record[Key='LogicTypeQuantity']
+msgctxt "Interface.LogicTypeQuantity"
+msgid "Total quantity on the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
@@ -724,15 +724,15 @@ msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 msgstr "装置を壁に設置出来るようになります。よりよい設置エリアになります。"
 
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "グリッドにスナップして設置します。"
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "グリッド面にスナップして設置します。"
-
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
-msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
-msgstr "{THING:StructureFrameIron}と{THING:StructureFrame}にのみ直接設置できます。アップグレードすることで高度な設置オプションが可能になります。"
 
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
@@ -920,15 +920,15 @@ msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "リスポーン"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "日付:"
-
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
 msgstr "ギブアップ"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "日付:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
@@ -1074,15 +1074,15 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "マップ:"
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuInfoVersion']
 msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "バージョン:"
+
+#: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
+msgctxt "Interface.LogicTypeElevatorSpeed"
+msgid "Current speed of the elevator"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
@@ -1199,10 +1199,10 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "グリッドにスナップして設置します。"
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+msgctxt "Interface.TooltipPlacementSnapFaceMount"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr "{THING:StructureFrameIron}と{THING:StructureFrame}にのみ直接設置できます。アップグレードすることで高度な設置オプションが可能になります。"
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
@@ -1277,12 +1277,17 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected."
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactTradeRequest']
@@ -1293,6 +1298,16 @@ msgstr ""
 #: /Language/Interface/Record[Key='ContactEventDefault']
 msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderGoneMissing']
@@ -1673,20 +1688,20 @@ msgctxt "Interface.LogicTypeElevatorLevel"
 msgid "Level the elevator is currently at"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
-msgctxt "Interface.LogicTypeElevatorSpeed"
-msgid "Current speed of the elevator"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsExtendedTerrain']
+msgctxt "Interface.SettingsExtendedTerrain"
+msgid "Extended Terrain"
+msgstr "地形拡張"
 
 #: /Language/Interface/Record[Key='LogicTypeColor']
 msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ScenariosStartButton']
-msgctxt "Interface.ScenariosStartButton"
-msgid "Start Scenario"
-msgstr "シナリオ開始"
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
@@ -1733,11 +1748,6 @@ msgctxt "Interface.LogicTypeOn"
 msgid "The current state of the device, 0 for off, 1 for on"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeQuantity']
-msgctxt "Interface.LogicTypeQuantity"
-msgid "Total quantity on the device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypePowerActual']
 msgctxt "Interface.LogicTypePowerActual"
 msgid "How much energy the device or network is actually using"
@@ -1746,6 +1756,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatio']
+msgctxt "Interface.LogicTypeRatio"
+msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeMaximum']
@@ -2277,20 +2292,20 @@ msgctxt "Interface.RenameThing"
 msgid "Rename {0}"
 msgstr "リネーム {0}"
 
-#: /Language/Interface/Record[Key='SettingsExtendedTerrain']
-msgctxt "Interface.SettingsExtendedTerrain"
-msgid "Extended Terrain"
-msgstr "地形拡張"
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "空腹レート"
 
 #: /Language/Interface/Record[Key='SettingsSunOrbitPeriod']
 msgctxt "Interface.SettingsSunOrbitPeriod"
 msgid "Sun Orbit Period"
 msgstr "太陽軌道周期"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "空腹レート"
+#: /Language/Interface/Record[Key='ScenariosStartButton']
+msgctxt "Interface.ScenariosStartButton"
+msgid "Start Scenario"
+msgstr "シナリオ開始"
 
 #: /Language/Interface/Record[Key='MainMenuScenarios']
 msgctxt "Interface.MainMenuScenarios"

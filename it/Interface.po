@@ -586,10 +586,10 @@ msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Password server"
 
-#: /Language/Interface/Record[Key='LogicTypeRatio']
-msgctxt "Interface.LogicTypeRatio"
-msgid "Context specific value depending on device, 0 to 1 based ratio"
-msgstr "Valore specifico del contesto in base al dispositivo, rapporto da 0 a 1"
+#: /Language/Interface/Record[Key='LogicTypeQuantity']
+msgctxt "Interface.LogicTypeQuantity"
+msgid "Total quantity on the device"
+msgstr "Quantità totale sul dispositivo"
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -724,15 +724,15 @@ msgstr ""
 "Permette di piazzare dispositivi a muro. Aggiorna per migliorare la scelta delle opzioni per il piazzamento.\n"
 "      "
 
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "Piazzamento allineato sulla griglia."
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "Piazzamento allineato alla faccia della griglia."
-
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
-msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
-msgstr "Il piazzamento è possibile solo su <color=yellow>{THING:StructureFrameIron}</color> e <color=yellow>{THING:StructureFrame}</color> direttamente. Se aggiornate, offrono migliori opzioni di piazzamento."
 
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
@@ -919,15 +919,15 @@ msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "Respawn"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Salvato il :"
-
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
 msgstr "Arrenditi"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Salvato il :"
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
@@ -1073,15 +1073,15 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "Mappa:"
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr "Restituisce 1 se il dispositivo è attualmente inattivo, altrimenti 0"
-
 #: /Language/Interface/Record[Key='JoinMenuInfoVersion']
 msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "Versione:"
+
+#: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
+msgctxt "Interface.LogicTypeElevatorSpeed"
+msgid "Current speed of the elevator"
+msgstr "Velocità attuale dell'ascensore"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
@@ -1198,10 +1198,10 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continua"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "Piazzamento allineato sulla griglia."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+msgctxt "Interface.TooltipPlacementSnapFaceMount"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr "Il piazzamento è possibile solo su <color=yellow>{THING:StructureFrameIron}</color> e <color=yellow>{THING:StructureFrame}</color> direttamente. Se aggiornate, offrono migliori opzioni di piazzamento."
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
@@ -1276,12 +1276,17 @@ msgstr "Terminale di commercio"
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected."
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactTradeRequest']
@@ -1292,6 +1297,16 @@ msgstr ""
 #: /Language/Interface/Record[Key='ContactEventDefault']
 msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderGoneMissing']
@@ -1671,20 +1686,20 @@ msgctxt "Interface.LogicTypeElevatorLevel"
 msgid "Level the elevator is currently at"
 msgstr "Livello attuale dell'ascensore a"
 
-#: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
-msgctxt "Interface.LogicTypeElevatorSpeed"
-msgid "Current speed of the elevator"
-msgstr "Velocità attuale dell'ascensore"
+#: /Language/Interface/Record[Key='SettingsExtendedTerrain']
+msgctxt "Interface.SettingsExtendedTerrain"
+msgid "Extended Terrain"
+msgstr "Terreno esteso"
 
 #: /Language/Interface/Record[Key='LogicTypeColor']
 msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr "L'impostazione del colore per il dispositivo, rappresentata come un numero intero"
 
-#: /Language/Interface/Record[Key='ScenariosStartButton']
-msgctxt "Interface.ScenariosStartButton"
-msgid "Start Scenario"
-msgstr "Inizia Scenario"
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr "Restituisce 1 se il dispositivo è attualmente inattivo, altrimenti 0"
 
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
@@ -1731,11 +1746,6 @@ msgctxt "Interface.LogicTypeOn"
 msgid "The current state of the device, 0 for off, 1 for on"
 msgstr "Lo stato corrente del dispositivo, 0 per spento, 1 per acceso"
 
-#: /Language/Interface/Record[Key='LogicTypeQuantity']
-msgctxt "Interface.LogicTypeQuantity"
-msgid "Total quantity on the device"
-msgstr "Quantità totale sul dispositivo"
-
 #: /Language/Interface/Record[Key='LogicTypePowerActual']
 msgctxt "Interface.LogicTypePowerActual"
 msgid "How much energy the device or network is actually using"
@@ -1745,6 +1755,11 @@ msgstr "Quanta energia il dispositivo o la rete sta effettivamente utilizzando"
 msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
 msgstr "Quanta energia il dispositivo o la rete fornisce potenzialmente"
+
+#: /Language/Interface/Record[Key='LogicTypeRatio']
+msgctxt "Interface.LogicTypeRatio"
+msgid "Context specific value depending on device, 0 to 1 based ratio"
+msgstr "Valore specifico del contesto in base al dispositivo, rapporto da 0 a 1"
 
 #: /Language/Interface/Record[Key='LogicTypeMaximum']
 msgctxt "Interface.LogicTypeMaximum"
@@ -2275,20 +2290,20 @@ msgctxt "Interface.RenameThing"
 msgid "Rename {0}"
 msgstr "Rinomina {0}"
 
-#: /Language/Interface/Record[Key='SettingsExtendedTerrain']
-msgctxt "Interface.SettingsExtendedTerrain"
-msgid "Extended Terrain"
-msgstr "Terreno esteso"
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "Tasso consumo fame"
 
 #: /Language/Interface/Record[Key='SettingsSunOrbitPeriod']
 msgctxt "Interface.SettingsSunOrbitPeriod"
 msgid "Sun Orbit Period"
 msgstr "Periodo d'orbita solare"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "Tasso consumo fame"
+#: /Language/Interface/Record[Key='ScenariosStartButton']
+msgctxt "Interface.ScenariosStartButton"
+msgid "Start Scenario"
+msgstr "Inizia Scenario"
 
 #: /Language/Interface/Record[Key='MainMenuScenarios']
 msgctxt "Interface.MainMenuScenarios"
