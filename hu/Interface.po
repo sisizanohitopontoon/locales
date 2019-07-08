@@ -10,15 +10,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinWorldSortBy']
-msgctxt "Interface.JoinWorldSortBy"
-msgid "Sort by"
-msgstr "Rendezés"
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Bőrszín"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlayers']
-msgctxt "Interface.WorldInfoTextPlayers"
-msgid "Players:"
-msgstr "Játékosok:"
+#: /Language/Interface/Record[Key='WorldInfoMapName']
+#, fuzzy
+msgctxt "Interface.WorldInfoMapName"
+msgid "Map:"
+msgstr "Pálya:"
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
 msgctxt "Interface.WorldInfoTextAsteroids"
@@ -105,15 +106,45 @@ msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "Kezdő terület"
 
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Space"
+msgstr "Űr"
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Játékidő:"
 
-#: /Language/Interface/Record[Key='NewWorldAreaMars']
-msgctxt "Interface.NewWorldAreaMars"
+#: /Language/Interface/Record[Key='Mars']
+#, fuzzy
+msgctxt "Interface.Mars"
 msgid "Mars"
 msgstr "Mars"
+
+#: /Language/Interface/Record[Key='Europa']
+#, fuzzy
+msgctxt "Interface.Europa"
+msgid "Europa"
+msgstr "Europa"
+
+#: /Language/Interface/Record[Key='EuropaBeta']
+#, fuzzy
+msgctxt "Interface.EuropaBeta"
+msgid "Europa"
+msgstr "Europa"
+
+#: /Language/Interface/Record[Key='Moon']
+#, fuzzy
+msgctxt "Interface.Moon"
+msgid "Moon"
+msgstr "Hold"
+
+#: /Language/Interface/Record[Key='Space']
+#, fuzzy
+msgctxt "Interface.Space"
+msgid "Space"
+msgstr "Űr"
 
 #: /Language/Interface/Record[Key='NewWorldAreaEarth']
 msgctxt "Interface.NewWorldAreaEarth"
@@ -565,6 +596,11 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "Élsimítás módja"
 
+#: /Language/Interface/Record[Key='LogicTypePowerPotential']
+msgctxt "Interface.LogicTypePowerPotential"
+msgid "How much energy the device or network potentially provides"
+msgstr "Mennyi potenciális energiát szolgáltat az eszköz vagy a hálózat"
+
 #: /Language/Interface/Record[Key='SettingsMenuMultiplayer']
 msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
@@ -584,11 +620,6 @@ msgstr "Szervernév"
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Jelszó"
-
-#: /Language/Interface/Record[Key='LogicTypeQuantity']
-msgctxt "Interface.LogicTypeQuantity"
-msgid "Total quantity on the device"
-msgstr "Az eszköz összmennyisége"
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -725,15 +756,15 @@ msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 msgstr "Engedélyezi a falra helyezhető eszközök falra helyezését. Fejleszd fel a jobb elhelyezési opciókért."
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "Az elhelyezés rácshoz van igazítva."
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "Az elhelyezés rácsoldalhoz van igazítva."
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+msgctxt "Interface.TooltipPlacementSnapFaceMount"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr "Az elhelyezés csak a {THING:StructureFrameIron}en és a {THING:StructureFrame}en lehetséges közvetlenül. Ha rendesen megépíted őket, jobbak lesznek az elhelyezési opciók."
 
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
@@ -920,15 +951,15 @@ msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "Újraéledés"
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "Feladás"
-
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Mentve:"
+
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "Feladás"
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
@@ -1064,6 +1095,11 @@ msgctxt "Interface.JoinMenuServerListMap"
 msgid "Map"
 msgstr "Pálya"
 
+#: /Language/Interface/Record[Key='LogicTypePowerRequired']
+msgctxt "Interface.LogicTypePowerRequired"
+msgid "Power requested from the device and/or network"
+msgstr "A készülék és/vagy a hálózat által igényelt áram"
+
 #: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
@@ -1078,11 +1114,6 @@ msgstr "Pálya:"
 msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "Verzió:"
-
-#: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
-msgctxt "Interface.LogicTypeElevatorSpeed"
-msgid "Current speed of the elevator"
-msgstr "A felvonó jelenlegi sebessége"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
@@ -1118,31 +1149,6 @@ msgstr "Haj"
 msgctxt "Interface.AppearanceTitleHairColor"
 msgid "Hair Colour"
 msgstr "Hajszín"
-
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Szemszín"
-
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Bőrszín"
-
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "Arcszőrzet"
-
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Kezdőállapot"
-
-#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
-msgctxt "Interface.SettingsTitleGameSettings"
-msgid "Game Settings"
-msgstr "Játékbeállítások"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -1199,10 +1205,10 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
-msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
-msgstr "Az elhelyezés csak a {THING:StructureFrameIron}en és a {THING:StructureFrame}en lehetséges közvetlenül. Ha rendesen megépíted őket, jobbak lesznek az elhelyezési opciók."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "Az elhelyezés rácshoz van igazítva."
 
 #: /Language/Interface/Record[Key='ButtonContact']
 msgctxt "Interface.ButtonContact"
@@ -1684,10 +1690,10 @@ msgctxt "Interface.LogicTypeElevatorLevel"
 msgid "Level the elevator is currently at"
 msgstr "A szint ahol a felvonó áll"
 
-#: /Language/Interface/Record[Key='SettingsExtendedTerrain']
-msgctxt "Interface.SettingsExtendedTerrain"
-msgid "Extended Terrain"
-msgstr "Kiterjesztett terep"
+#: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
+msgctxt "Interface.LogicTypeElevatorSpeed"
+msgid "Current speed of the elevator"
+msgstr "A felvonó jelenlegi sebessége"
 
 #: /Language/Interface/Record[Key='LogicTypeColor']
 msgctxt "Interface.LogicTypeColor"
@@ -1699,10 +1705,10 @@ msgctxt "Interface.LogicTypeIdle"
 msgid "Returns 1 if the device is currently idle, otherwise 0"
 msgstr "1 visszaadása ha az eszköz tétlen, különben 0"
 
-#: /Language/Interface/Record[Key='LogicTypePowerRequired']
-msgctxt "Interface.LogicTypePowerRequired"
-msgid "Power requested from the device and/or network"
-msgstr "A készülék és/vagy a hálózat által igényelt áram"
+#: /Language/Interface/Record[Key='GameMenuRespawn']
+msgctxt "Interface.GameMenuRespawn"
+msgid "Respawn"
+msgstr "Újraéledés"
 
 #: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
 msgctxt "Interface.LogicTypeVerticalRatio"
@@ -1744,15 +1750,15 @@ msgctxt "Interface.LogicTypeOn"
 msgid "The current state of the device, 0 for off, 1 for on"
 msgstr "Az eszköz jelenlegi állapota, kikapcsoláshoz 0, bekapcsoláshoz 1"
 
+#: /Language/Interface/Record[Key='LogicTypeQuantity']
+msgctxt "Interface.LogicTypeQuantity"
+msgid "Total quantity on the device"
+msgstr "Az eszköz összmennyisége"
+
 #: /Language/Interface/Record[Key='LogicTypePowerActual']
 msgctxt "Interface.LogicTypePowerActual"
 msgid "How much energy the device or network is actually using"
 msgstr "Mennyi energiát használ jelenleg az eszköz vagy a hálózat"
-
-#: /Language/Interface/Record[Key='LogicTypePowerPotential']
-msgctxt "Interface.LogicTypePowerPotential"
-msgid "How much energy the device or network potentially provides"
-msgstr "Mennyi potenciális energiát szolgáltat az eszköz vagy a hálózat"
 
 #: /Language/Interface/Record[Key='LogicTypeRatio']
 msgctxt "Interface.LogicTypeRatio"
@@ -2288,10 +2294,10 @@ msgctxt "Interface.RenameThing"
 msgid "Rename {0}"
 msgstr "Átnevezés {0}"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "Éhség mértéke"
+#: /Language/Interface/Record[Key='SettingsExtendedTerrain']
+msgctxt "Interface.SettingsExtendedTerrain"
+msgid "Extended Terrain"
+msgstr "Kiterjesztett terep"
 
 #: /Language/Interface/Record[Key='SettingsSunOrbitPeriod']
 msgctxt "Interface.SettingsSunOrbitPeriod"
@@ -2308,10 +2314,10 @@ msgctxt "Interface.MainMenuScenarios"
 msgid "Scenarios"
 msgstr "Szkenáriók"
 
-#: /Language/Interface/Record[Key='GameMenuRespawn']
-msgctxt "Interface.GameMenuRespawn"
-msgid "Respawn"
-msgstr "Újraéledés"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Szemszín"
 
 #: /Language/Interface/Record[Key='SomethingWentWrongTrading2']
 msgctxt "Interface.SomethingWentWrongTrading2"
@@ -2508,7 +2514,36 @@ msgctxt "Interface.JoinMenuFiltersTitle"
 msgid "Filters"
 msgstr "Szűrők"
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Space"
-msgstr "Űr"
+#: /Language/Interface/Record[Key='JoinWorldSortBy']
+msgctxt "Interface.JoinWorldSortBy"
+msgid "Sort by"
+msgstr "Rendezés"
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "Éhség mértéke"
+
+#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
+msgctxt "Interface.SettingsTitleGameSettings"
+msgid "Game Settings"
+msgstr "Játékbeállítások"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Kezdőállapot"
+
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "Arcszőrzet"
+
+#: /Language/Interface/Record[Key='NewWorldAreaMars']
+msgctxt "Interface.NewWorldAreaMars"
+msgid "Mars"
+msgstr "Mars"
+
+#~ msgctxt "Interface.WorldInfoTextPlayers"
+#~ msgid "Players:"
+#~ msgstr "Játékosok:"
