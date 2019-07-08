@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-07-08 11:10+0000\n"
-"Last-Translator: Davv <danio.u@go2.pl>\n"
+"PO-Revision-Date: 2019-06-02 18:47+0000\n"
+"Last-Translator: N_58 <krystian.szmigielski3@gmail.com>\n"
 "Language: pl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -1443,7 +1443,7 @@ msgstr "zwraca ilość przedmiotów w slocie, jak np. wielkość stosu"
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupantHash']
 msgctxt "Interface.LogicSlotTypeOccupantHash"
 msgid "returns the has of the current occupant, the unique identifier of the thing"
-msgstr ""
+msgstr "zwraca hash przedmiotu w slocie - jego unikalny identyfikator"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
 msgctxt "Interface.LogicSlotTypeOccupied"
@@ -1468,12 +1468,12 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeForceWrite']
 msgctxt "Interface.LogicTypeForceWrite"
 msgid "Forces Logic Writer devices to rewrite value"
-msgstr ""
+msgstr "Zmusza Logiczny Zapisywacz do nadpisania wartości"
 
 #: /Language/Interface/Record[Key='LogicTypePrefabHash']
 msgctxt "Interface.LogicTypePrefabHash"
 msgid "The hash of the structure"
-msgstr ""
+msgstr "Hash struktury"
 
 #: /Language/Interface/Record[Key='LogicTypeVelocityRelativeZ']
 msgctxt "Interface.LogicTypeVelocityRelativeZ"
@@ -2210,10 +2210,9 @@ msgid "Hold {KEY:QuantityModifier} for previous object"
 msgstr "Hold {KEY:QuantityModifier} for previous object"
 
 #: /Language/Interface/Record[Key='ChangeSettingToAll']
-#, fuzzy
 msgctxt "Interface.ChangeSettingToAll"
 msgid "Change to All {0}"
-msgstr "Change to {0}"
+msgstr "Zamień dla Wszystkich {0}"
 
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"
