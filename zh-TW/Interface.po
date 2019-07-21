@@ -742,15 +742,15 @@ msgctxt "Interface.TooltipUpgrade2"
 msgid "Once placed use {0} and {1} for upgrade."
 msgstr "安裝後可以使用 {0} 和 {1} 進行升級."
 
-#: /Language/Interface/Record[Key='TooltipUpgrade']
-msgctxt "Interface.TooltipUpgrade"
-msgid "Once placed use {0} for upgrade."
-msgstr "安裝後可以使用 {0} 進行升級."
-
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 msgstr "建造{THING:StructureFrame}可以允許裝置安裝在上面,升級{THING:StructureFrame}可以得到較好的安裝區域"
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "安裝在網格上."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -940,6 +940,11 @@ msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "重生"
 
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "儲存:"
+
 #: /Language/Interface/Record[Key='PromptRespawnBody']
 msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
@@ -949,11 +954,6 @@ msgstr "你死了"
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "重生"
-
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "儲存:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1204,10 +1204,10 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "繼續"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "安裝在網格上."
+#: /Language/Interface/Record[Key='TooltipUpgrade']
+msgctxt "Interface.TooltipUpgrade"
+msgid "Once placed use {0} for upgrade."
+msgstr "安裝後可以使用 {0} 進行升級."
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
