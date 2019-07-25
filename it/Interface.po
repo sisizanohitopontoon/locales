@@ -591,15 +591,15 @@ msgctxt "Interface.SettingsAntialiasing"
 msgid "Antialiasing Method"
 msgstr "Modo Antialiasing"
 
-#: /Language/Interface/Record[Key='LogicTypePowerPotential']
-msgctxt "Interface.LogicTypePowerPotential"
-msgid "How much energy the device or network potentially provides"
-msgstr "Quanta energia il dispositivo o la rete fornisce potenzialmente"
-
 #: /Language/Interface/Record[Key='SettingsMenuMultiplayer']
 msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
 msgstr "Multiplayer"
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
+msgstr "Impostazione massima del dispositivo"
 
 #: /Language/Interface/Record[Key='SettingsAdvertiseServer']
 msgctxt "Interface.SettingsAdvertiseServer"
@@ -737,12 +737,10 @@ msgctxt "Interface.TooltipUpgrade2"
 msgid "Once placed use {0} and {1} for upgrade."
 msgstr "Una volta piazzato, usa {0} e {1} per aggiornare."
 
-#: /Language/Interface/Record[Key='TooltipAllowsMounting']
-msgctxt "Interface.TooltipAllowsMounting"
-msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr ""
-"Permette di piazzare dispositivi a muro. Aggiorna per migliorare la scelta delle opzioni per il piazzamento.\n"
-"      "
+#: /Language/Interface/Record[Key='TooltipUpgrade']
+msgctxt "Interface.TooltipUpgrade"
+msgid "Once placed use {0} for upgrade."
+msgstr "Una volta piazzato, usa {0} per aggiornare."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
 msgctxt "Interface.TooltipPlacementSnapGrid"
@@ -1198,10 +1196,12 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continua"
 
-#: /Language/Interface/Record[Key='TooltipUpgrade']
-msgctxt "Interface.TooltipUpgrade"
-msgid "Once placed use {0} for upgrade."
-msgstr "Una volta piazzato, usa {0} per aggiornare."
+#: /Language/Interface/Record[Key='TooltipAllowsMounting']
+msgctxt "Interface.TooltipAllowsMounting"
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr ""
+"Permette di piazzare dispositivi a muro. Aggiorna per migliorare la scelta delle opzioni per il piazzamento.\n"
+"      "
 
 #: /Language/Interface/Record[Key='ButtonContact']
 msgctxt "Interface.ButtonContact"
@@ -1754,15 +1754,15 @@ msgctxt "Interface.LogicTypePowerActual"
 msgid "How much energy the device or network is actually using"
 msgstr "Quanta energia il dispositivo o la rete sta effettivamente utilizzando"
 
+#: /Language/Interface/Record[Key='LogicTypePowerPotential']
+msgctxt "Interface.LogicTypePowerPotential"
+msgid "How much energy the device or network potentially provides"
+msgstr "Quanta energia il dispositivo o la rete fornisce potenzialmente"
+
 #: /Language/Interface/Record[Key='LogicTypeRatio']
 msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr "Valore specifico del contesto in base al dispositivo, rapporto da 0 a 1"
-
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
-msgstr "Impostazione massima del dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
 msgctxt "Interface.LogicTypeSolarAngle"
