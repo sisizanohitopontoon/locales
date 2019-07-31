@@ -602,9 +602,9 @@ msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
 msgstr "マルチプレイ"
 
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
+#: /Language/Interface/Record[Key='LogicTypePowerPotential']
+msgctxt "Interface.LogicTypePowerPotential"
+msgid "How much energy the device or network potentially provides"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsAdvertiseServer']
@@ -750,10 +750,10 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "一度配置すると、アップグレードのために{0}を使用します"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "グリッドにスナップして設置します。"
+#: /Language/Interface/Record[Key='TooltipAllowsMounting']
+msgctxt "Interface.TooltipAllowsMounting"
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr "装置を壁に設置出来るようになります。よりよい設置エリアになります。"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -941,15 +941,15 @@ msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "リスポーン"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "日付:"
-
 #: /Language/Interface/Record[Key='PromptRespawnBody']
 msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "死んでしまった。"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "日付:"
 
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
@@ -1095,15 +1095,15 @@ msgctxt "Interface.JoinMenuServerListMap"
 msgid "Map"
 msgstr "マップ"
 
-#: /Language/Interface/Record[Key='LogicTypePowerRequired']
-msgctxt "Interface.LogicTypePowerRequired"
-msgid "Power requested from the device and/or network"
-msgstr "デバイスかネットワークに電力が必要"
-
 #: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IPアドレス:"
+
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1205,10 +1205,21 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
 
-#: /Language/Interface/Record[Key='TooltipAllowsMounting']
-msgctxt "Interface.TooltipAllowsMounting"
-msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr "装置を壁に設置出来るようになります。よりよい設置エリアになります。"
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "グリッドにスナップして設置します。"
+
+#: /Language/Interface/Record[Key='BackupMenuFileListTitle']
+#, fuzzy
+msgctxt "Interface.BackupMenuFileListTitle"
+msgid "Backups"
+msgstr "戻る"
+
+#: /Language/Interface/Record[Key='LoadBackupsTitle']
+msgctxt "Interface.LoadBackupsTitle"
+msgid "Load Backup"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonContact']
 #, fuzzy
@@ -1704,15 +1715,15 @@ msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr ""
+#: /Language/Interface/Record[Key='MainMenuScenarios']
+msgctxt "Interface.MainMenuScenarios"
+msgid "Scenarios"
+msgstr "シナリオ"
 
-#: /Language/Interface/Record[Key='GameMenuRespawn']
-msgctxt "Interface.GameMenuRespawn"
-msgid "Respawn"
-msgstr "リスポーン"
+#: /Language/Interface/Record[Key='LogicTypePowerRequired']
+msgctxt "Interface.LogicTypePowerRequired"
+msgid "Power requested from the device and/or network"
+msgstr "デバイスかネットワークに電力が必要"
 
 #: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
 msgctxt "Interface.LogicTypeVerticalRatio"
@@ -1764,14 +1775,14 @@ msgctxt "Interface.LogicTypePowerActual"
 msgid "How much energy the device or network is actually using"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePowerPotential']
-msgctxt "Interface.LogicTypePowerPotential"
-msgid "How much energy the device or network potentially provides"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypeRatio']
 msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
@@ -2313,15 +2324,15 @@ msgctxt "Interface.ScenariosStartButton"
 msgid "Start Scenario"
 msgstr "シナリオ開始"
 
-#: /Language/Interface/Record[Key='MainMenuScenarios']
-msgctxt "Interface.MainMenuScenarios"
-msgid "Scenarios"
-msgstr "シナリオ"
-
 #: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
 msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "目の色"
+
+#: /Language/Interface/Record[Key='GameMenuRespawn']
+msgctxt "Interface.GameMenuRespawn"
+msgid "Respawn"
+msgstr "リスポーン"
 
 #: /Language/Interface/Record[Key='SomethingWentWrongTrading2']
 msgctxt "Interface.SomethingWentWrongTrading2"

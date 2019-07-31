@@ -596,10 +596,10 @@ msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
 msgstr "Multijoueur"
 
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
-msgstr "Réglage maximal de l'appareil"
+#: /Language/Interface/Record[Key='LogicTypePowerPotential']
+msgctxt "Interface.LogicTypePowerPotential"
+msgid "How much energy the device or network potentially provides"
+msgstr "Quelle quantité d'énergie l'appareil ou le réseau peut-il fournir"
 
 #: /Language/Interface/Record[Key='SettingsAdvertiseServer']
 msgctxt "Interface.SettingsAdvertiseServer"
@@ -744,10 +744,10 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "Une fois placé, utilisez {0} pour la mise à niveau."
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "Le placement est accroché à la grille."
+#: /Language/Interface/Record[Key='TooltipAllowsMounting']
+msgctxt "Interface.TooltipAllowsMounting"
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr "Permet le montage de dispositifs placés au mur. Mettre à niveau pour permettre une meilleure zone de placement."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -934,15 +934,15 @@ msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "Réapparaitre"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Sauvegardé le :"
-
 #: /Language/Interface/Record[Key='PromptRespawnBody']
 msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "Vous êtes mort."
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Sauvegardé le :"
 
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
@@ -1088,15 +1088,15 @@ msgctxt "Interface.JoinMenuServerListMap"
 msgid "Map"
 msgstr "Carte"
 
-#: /Language/Interface/Record[Key='LogicTypePowerRequired']
-msgctxt "Interface.LogicTypePowerRequired"
-msgid "Power requested from the device and/or network"
-msgstr "Puissance demandée à partir de l'appareil et/ou du réseau"
-
 #: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP Addresse:"
+
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr "Indique 1 si le périphérique est actuellement inactif, sinon 0"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1198,10 +1198,21 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuer"
 
-#: /Language/Interface/Record[Key='TooltipAllowsMounting']
-msgctxt "Interface.TooltipAllowsMounting"
-msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr "Permet le montage de dispositifs placés au mur. Mettre à niveau pour permettre une meilleure zone de placement."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "Le placement est accroché à la grille."
+
+#: /Language/Interface/Record[Key='BackupMenuFileListTitle']
+#, fuzzy
+msgctxt "Interface.BackupMenuFileListTitle"
+msgid "Backups"
+msgstr "Retour"
+
+#: /Language/Interface/Record[Key='LoadBackupsTitle']
+msgctxt "Interface.LoadBackupsTitle"
+msgid "Load Backup"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonContact']
 msgctxt "Interface.ButtonContact"
@@ -1694,15 +1705,15 @@ msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr "Le paramètre de couleur pour le périphérique, représenté sous la forme d'un entier"
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr "Indique 1 si le périphérique est actuellement inactif, sinon 0"
+#: /Language/Interface/Record[Key='MainMenuScenarios']
+msgctxt "Interface.MainMenuScenarios"
+msgid "Scenarios"
+msgstr "Scénarios"
 
-#: /Language/Interface/Record[Key='GameMenuRespawn']
-msgctxt "Interface.GameMenuRespawn"
-msgid "Respawn"
-msgstr "Réapparaitre"
+#: /Language/Interface/Record[Key='LogicTypePowerRequired']
+msgctxt "Interface.LogicTypePowerRequired"
+msgid "Power requested from the device and/or network"
+msgstr "Puissance demandée à partir de l'appareil et/ou du réseau"
 
 #: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
 msgctxt "Interface.LogicTypeVerticalRatio"
@@ -1754,15 +1765,15 @@ msgctxt "Interface.LogicTypePowerActual"
 msgid "How much energy the device or network is actually using"
 msgstr "Quelle quantité d'énergie l'appareil ou le réseau utilise-t-il réellement"
 
-#: /Language/Interface/Record[Key='LogicTypePowerPotential']
-msgctxt "Interface.LogicTypePowerPotential"
-msgid "How much energy the device or network potentially provides"
-msgstr "Quelle quantité d'énergie l'appareil ou le réseau peut-il fournir"
-
 #: /Language/Interface/Record[Key='LogicTypeRatio']
 msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr "Valeur spécifique au contexte en fonction de l'appareil, ratio basé de 0 à 1 "
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
+msgstr "Réglage maximal de l'appareil"
 
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
 msgctxt "Interface.LogicTypeSolarAngle"
@@ -2303,15 +2314,15 @@ msgctxt "Interface.ScenariosStartButton"
 msgid "Start Scenario"
 msgstr "Débuter Scenario"
 
-#: /Language/Interface/Record[Key='MainMenuScenarios']
-msgctxt "Interface.MainMenuScenarios"
-msgid "Scenarios"
-msgstr "Scénarios"
-
 #: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
 msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Couleur de Yeux"
+
+#: /Language/Interface/Record[Key='GameMenuRespawn']
+msgctxt "Interface.GameMenuRespawn"
+msgid "Respawn"
+msgstr "Réapparaitre"
 
 #: /Language/Interface/Record[Key='SomethingWentWrongTrading2']
 msgctxt "Interface.SomethingWentWrongTrading2"
