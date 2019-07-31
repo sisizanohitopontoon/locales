@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Hautfarbe"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Augenfarbe"
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 #, fuzzy
@@ -946,15 +946,15 @@ msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "Du bist tot."
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Spielstand:"
-
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "Respawn"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Spielstand:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -975,6 +975,11 @@ msgstr "Aufgeben"
 msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Ungültige IP Adresse {0} \\nBitte IP-Adresse oder URL auf Gültigkeit überprüfen"
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr ""
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1095,15 +1100,15 @@ msgctxt "Interface.JoinMenuServerListMap"
 msgid "Map"
 msgstr "Karte"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
-msgctxt "Interface.JoinMenuInfoIPAddress"
-msgid "IP Address:"
-msgstr "IP Adresse:"
-
 #: /Language/Interface/Record[Key='LogicTypeIdle']
 msgctxt "Interface.LogicTypeIdle"
 msgid "Returns 1 if the device is currently idle, otherwise 0"
 msgstr "Gibt 1 zurück, wenn das Gerät gerade im Leerlauf ist, sonst 0"
+
+#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
+msgctxt "Interface.JoinMenuInfoIPAddress"
+msgid "IP Address:"
+msgstr "IP Adresse:"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1144,11 +1149,6 @@ msgstr "Gesicht"
 msgctxt "Interface.AppearanceTitleHairStyle"
 msgid "Hair"
 msgstr "Haare"
-
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Haarfarbe"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -2324,10 +2324,10 @@ msgctxt "Interface.ScenariosStartButton"
 msgid "Start Scenario"
 msgstr "Szenario Starten"
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Augenfarbe"
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Haarfarbe"
 
 #: /Language/Interface/Record[Key='GameMenuRespawn']
 msgctxt "Interface.GameMenuRespawn"
@@ -2553,6 +2553,11 @@ msgstr "Startbedingungen"
 msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Gesichtsbehaarung"
+
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Hautfarbe"
 
 #: /Language/Interface/Record[Key='NewWorldAreaMars']
 msgctxt "Interface.NewWorldAreaMars"
