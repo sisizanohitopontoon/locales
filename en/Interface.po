@@ -6,10 +6,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Eye Colour"
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Hair Colour"
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
@@ -106,15 +106,15 @@ msgctxt "Interface.NewWorldAreaSpace"
 msgid "Space"
 msgstr "Space"
 
+#: /Language/Interface/Record[Key='NewWorldAreaMars']
+msgctxt "Interface.NewWorldAreaMars"
+msgid "Mars"
+msgstr "Mars"
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Playtime:"
-
-#: /Language/Interface/Record[Key='Mars']
-msgctxt "Interface.Mars"
-msgid "Mars"
-msgstr "Mars"
 
 #: /Language/Interface/Record[Key='Europa']
 msgctxt "Interface.Europa"
@@ -591,15 +591,15 @@ msgctxt "Interface.SettingsMenuMultiplayer"
 msgid "Multiplayer"
 msgstr "Multiplayer"
 
-#: /Language/Interface/Record[Key='LogicTypePowerPotential']
-msgctxt "Interface.LogicTypePowerPotential"
-msgid "How much energy the device or network potentially provides"
-msgstr "How much energy the device or network potentially provides"
-
 #: /Language/Interface/Record[Key='SettingsAdvertiseServer']
 msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "Advertise Server"
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
+msgstr "Maximum setting of the device"
 
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
@@ -736,6 +736,11 @@ msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 msgstr "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "Placement is snapped to the grid."
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
@@ -755,11 +760,6 @@ msgstr "Clear Disconnected Players"
 msgctxt "Interface.SettingsInvertMouseWheelInventory"
 msgid "Invert Inventory Scroll"
 msgstr "Invert Inventory Scroll"
-
-#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
-msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
-msgid "Advanced Settings"
-msgstr "Advanced Settings"
 
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
 msgctxt "Interface.SettingsUPNPNote"
@@ -931,11 +931,6 @@ msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "Respawn"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Saved:"
-
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
@@ -951,10 +946,20 @@ msgctxt "Interface.PromptGiveUpConfirm"
 msgid "Give Up"
 msgstr "Give Up"
 
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
+msgstr "The file {0} is invalid. Check world {1}."
+
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Saved:"
 
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
@@ -1076,11 +1081,6 @@ msgctxt "Interface.JoinMenuServerListMap"
 msgid "Map"
 msgstr "Map"
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr "Returns 1 if the device is currently idle, otherwise 0"
-
 #: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
@@ -1090,6 +1090,11 @@ msgstr "IP Address:"
 msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "Map:"
+
+#: /Language/Interface/Record[Key='LogicTypeRequiredPower']
+msgctxt "Interface.LogicTypeRequiredPower"
+msgid "Idle operating power quantity, does not necessarily include extra demand power"
+msgstr "Idle operating power quantity, does not necessarily include extra demand power"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoVersion']
 msgctxt "Interface.JoinMenuInfoVersion"
@@ -1120,11 +1125,6 @@ msgstr "Gender"
 msgctxt "Interface.AppearanceTitleFace"
 msgid "Face"
 msgstr "Face"
-
-#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
-msgctxt "Interface.AppearanceTitleHairStyle"
-msgid "Hair"
-msgstr "Hair"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -1181,10 +1181,10 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continue"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "Placement is snapped to the grid."
+#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
+msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
 
 #: /Language/Interface/Record[Key='BackupMenuFileListTitle']
 msgctxt "Interface.BackupMenuFileListTitle"
@@ -1686,10 +1686,10 @@ msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr "The color setting for the device, represented as an integer"
 
-#: /Language/Interface/Record[Key='MainMenuScenarios']
-msgctxt "Interface.MainMenuScenarios"
-msgid "Scenarios"
-msgstr "Scenarios"
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr "Returns 1 if the device is currently idle, otherwise 0"
 
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
@@ -1706,10 +1706,10 @@ msgctxt "Interface.LogicTypeHorizontalRatio"
 msgid "Radio of horizontal setting for device"
 msgstr "Radio of horizontal setting for device"
 
-#: /Language/Interface/Record[Key='LogicTypeRequiredPower']
-msgctxt "Interface.LogicTypeRequiredPower"
-msgid "Idle operating power quantity, does not necessarily include extra demand power"
-msgstr "Idle operating power quantity, does not necessarily include extra demand power"
+#: /Language/Interface/Record[Key='Incident_BrokenPipe']
+msgctxt "Interface.Incident_BrokenPipe"
+msgid "Warning, increased pipe pressure expected."
+msgstr "Warning, increased pipe pressure expected."
 
 #: /Language/Interface/Record[Key='LogicTypeExportSlotOccupant']
 msgctxt "Interface.LogicTypeExportSlotOccupant"
@@ -1746,15 +1746,15 @@ msgctxt "Interface.LogicTypePowerActual"
 msgid "How much energy the device or network is actually using"
 msgstr "How much energy the device or network is actually using"
 
+#: /Language/Interface/Record[Key='LogicTypePowerPotential']
+msgctxt "Interface.LogicTypePowerPotential"
+msgid "How much energy the device or network potentially provides"
+msgstr "How much energy the device or network potentially provides"
+
 #: /Language/Interface/Record[Key='LogicTypeRatio']
 msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr "Context specific value depending on device, 0 to 1 based ratio"
-
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
-msgstr "Maximum setting of the device"
 
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
 msgctxt "Interface.LogicTypeSolarAngle"
@@ -2291,10 +2291,10 @@ msgctxt "Interface.ScenariosStartButton"
 msgid "Start Scenario"
 msgstr "Start Scenario"
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Hair Colour"
+#: /Language/Interface/Record[Key='MainMenuScenarios']
+msgctxt "Interface.MainMenuScenarios"
+msgid "Scenarios"
+msgstr "Scenarios"
 
 #: /Language/Interface/Record[Key='GameMenuRespawn']
 msgctxt "Interface.GameMenuRespawn"
@@ -2315,6 +2315,41 @@ msgstr "Something went wrong when processing the trade, did something leave the 
 msgctxt "Interface.TradingNoMoneyHash"
 msgid "There is not have enough money to complete this trade!"
 msgstr "There is not have enough money to complete this trade!"
+
+#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
+msgctxt "Interface.AppearanceTitleHairStyle"
+msgid "Hair"
+msgstr "Hair"
+
+#: /Language/Interface/Record[Key='Incident_ElectroMagnetic']
+msgctxt "Interface.Incident_ElectroMagnetic"
+msgid "Your batteries seem to be losing power."
+msgstr "Your batteries seem to be losing power."
+
+#: /Language/Interface/Record[Key='Incident_AlienLife']
+msgctxt "Interface.Incident_AlienLife"
+msgid "Do you hear that?"
+msgstr "Do you hear that?"
+
+#: /Language/Interface/Record[Key='Incident_BrokenCable']
+msgctxt "Interface.Incident_BrokenCable"
+msgid "Strong electric pulses have been detected, beware of burnt cables. "
+msgstr "Strong electric pulses have been detected, beware of burnt cables. "
+
+#: /Language/Interface/Record[Key='Incident_MeteorInbound']
+msgctxt "Interface.Incident_MeteorInbound"
+msgid "Satellite scans have picked up large object moving towards your sector, move to a safe environment."
+msgstr "Satellite scans have picked up large object moving towards your sector, move to a safe environment."
+
+#: /Language/Interface/Record[Key='Incident_SolarFlare']
+msgctxt "Interface.Incident_SolarFlare"
+msgid "Satellites have recognized extreme weather patterns around your area."
+msgstr "Satellites have recognized extreme weather patterns around your area."
+
+#: /Language/Interface/Record[Key='Incident_Supply']
+msgctxt "Interface.Incident_Supply"
+msgid "Satellites suggest a crate has dropped nearby, your beacon tracker should show you the way."
+msgstr "Satellites suggest a crate has dropped nearby, your beacon tracker should show you the way."
 
 #: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
 msgctxt "Interface.SettingsMouseWheelZoom"
@@ -2506,7 +2541,12 @@ msgctxt "Interface.AppearanceTitleSkinColor"
 msgid "Skin Colour"
 msgstr "Skin Colour"
 
-#: /Language/Interface/Record[Key='NewWorldAreaMars']
-msgctxt "Interface.NewWorldAreaMars"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Eye Colour"
+
+#: /Language/Interface/Record[Key='Mars']
+msgctxt "Interface.Mars"
 msgid "Mars"
 msgstr "Mars"
