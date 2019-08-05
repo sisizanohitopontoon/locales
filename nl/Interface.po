@@ -111,14 +111,14 @@ msgctxt "Interface.NewWorldAreaMars"
 msgid "Mars"
 msgstr ""
 
+#: /Language/Interface/Record[Key='Mars']
+msgctxt "Interface.Mars"
+msgid "Mars"
+msgstr ""
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Europa']
-msgctxt "Interface.Europa"
-msgid "Europa"
 msgstr ""
 
 #: /Language/Interface/Record[Key='EuropaBeta']
@@ -596,9 +596,9 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerName']
@@ -765,14 +765,14 @@ msgctxt "Interface.SettingsInvertMouseWheelInventory"
 msgid "Invert Inventory Scroll"
 msgstr ""
 
+#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
+msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
+msgid "Advanced Settings"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
 msgctxt "Interface.SettingsUPNPNote"
 msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr ""
-
-#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
-msgctxt "Interface.SettingsTooltipOpacity"
-msgid "Tooltip Opacity"
 msgstr ""
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverButton']
@@ -960,14 +960,14 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr ""
-
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
+msgstr ""
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
@@ -1097,14 +1097,14 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeRequiredPower']
-msgctxt "Interface.LogicTypeRequiredPower"
-msgid "Idle operating power quantity, does not necessarily include extra demand power"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuInfoVersion']
 msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
@@ -1187,9 +1187,24 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
-msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
-msgid "Advanced Settings"
+#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
+msgctxt "Interface.SettingsTooltipOpacity"
+msgid "Tooltip Opacity"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RoomControlTickSpeed']
+msgctxt "Interface.RoomControlTickSpeed"
+msgid "RoomControl TickSpeed"
+msgstr ""
+
+#: /Language/Interface/Record[Key='OcclusionTickSpeed']
+msgctxt "Interface.OcclusionTickSpeed"
+msgid "Occlusion TickSpeed"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Experiments']
+msgctxt "Interface.Experiments"
+msgid "Experiments"
 msgstr ""
 
 #: /Language/Interface/Record[Key='BackupMenuFileListTitle']
@@ -1707,14 +1722,14 @@ msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='Incident_BrokenPipe']
 msgctxt "Interface.Incident_BrokenPipe"
 msgid "Warning, increased pipe pressure expected."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRequiredPower']
+msgctxt "Interface.LogicTypeRequiredPower"
+msgid "Idle operating power quantity, does not necessarily include extra demand power"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeExportSlotOccupant']
@@ -1747,11 +1762,6 @@ msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
@@ -1760,6 +1770,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeRatio']
 msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
@@ -2564,7 +2579,7 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Mars']
-msgctxt "Interface.Mars"
-msgid "Mars"
+#: /Language/Interface/Record[Key='Europa']
+msgctxt "Interface.Europa"
+msgid "Europa"
 msgstr ""

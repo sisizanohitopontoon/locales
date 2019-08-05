@@ -116,16 +116,16 @@ msgctxt "Interface.NewWorldAreaMars"
 msgid "Mars"
 msgstr "Mars"
 
+#: /Language/Interface/Record[Key='Mars']
+#, fuzzy
+msgctxt "Interface.Mars"
+msgid "Mars"
+msgstr "Mars"
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Pelattu:"
-
-#: /Language/Interface/Record[Key='Europa']
-#, fuzzy
-msgctxt "Interface.Europa"
-msgid "Europa"
-msgstr "Europa"
 
 #: /Language/Interface/Record[Key='EuropaBeta']
 #, fuzzy
@@ -606,9 +606,9 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "Mainosta palvelinta"
 
-#: /Language/Interface/Record[Key='LogicTypeMaximum']
-msgctxt "Interface.LogicTypeMaximum"
-msgid "Maximum setting of the device"
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerName']
@@ -779,15 +779,15 @@ msgctxt "Interface.SettingsInvertMouseWheelInventory"
 msgid "Invert Inventory Scroll"
 msgstr "Käänteinen vieritys"
 
+#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
+msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
+msgid "Advanced Settings"
+msgstr "Lisäasetukset"
+
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
 msgctxt "Interface.SettingsUPNPNote"
 msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
 msgstr "Jos Universal Plug and Play (UPNP) on päällä reitittimessäsi, nämä portit välitetään eteenpäin automaattisesti kun isännöit peliä."
-
-#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
-msgctxt "Interface.SettingsTooltipOpacity"
-msgid "Tooltip Opacity"
-msgstr "Vinkkien läpikuultavuus"
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverButton']
 msgctxt "Interface.MenuDownloadDriverButton"
@@ -974,15 +974,15 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Väärä IP-osoite {0} \\nTarkista että IP-osoite tai URL on oikein"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Tallennettu:"
-
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
 msgstr ""
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Tallennettu:"
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1114,15 +1114,15 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "Kartta:"
 
-#: /Language/Interface/Record[Key='LogicTypeRequiredPower']
-msgctxt "Interface.LogicTypeRequiredPower"
-msgid "Idle operating power quantity, does not necessarily include extra demand power"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuInfoVersion']
 msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "Versio:"
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
@@ -1204,10 +1204,25 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka peliä"
 
-#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
-msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
-msgid "Advanced Settings"
-msgstr "Lisäasetukset"
+#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
+msgctxt "Interface.SettingsTooltipOpacity"
+msgid "Tooltip Opacity"
+msgstr "Vinkkien läpikuultavuus"
+
+#: /Language/Interface/Record[Key='RoomControlTickSpeed']
+msgctxt "Interface.RoomControlTickSpeed"
+msgid "RoomControl TickSpeed"
+msgstr ""
+
+#: /Language/Interface/Record[Key='OcclusionTickSpeed']
+msgctxt "Interface.OcclusionTickSpeed"
+msgid "Occlusion TickSpeed"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Experiments']
+msgctxt "Interface.Experiments"
+msgid "Experiments"
+msgstr ""
 
 #: /Language/Interface/Record[Key='BackupMenuFileListTitle']
 #, fuzzy
@@ -1729,14 +1744,14 @@ msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='Incident_BrokenPipe']
 msgctxt "Interface.Incident_BrokenPipe"
 msgid "Warning, increased pipe pressure expected."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRequiredPower']
+msgctxt "Interface.LogicTypeRequiredPower"
+msgid "Idle operating power quantity, does not necessarily include extra demand power"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeExportSlotOccupant']
@@ -1769,11 +1784,6 @@ msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
@@ -1782,6 +1792,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeRatio']
 msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeMaximum']
+msgctxt "Interface.LogicTypeMaximum"
+msgid "Maximum setting of the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
@@ -2610,11 +2625,11 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Silmien väri"
 
-#: /Language/Interface/Record[Key='Mars']
+#: /Language/Interface/Record[Key='Europa']
 #, fuzzy
-msgctxt "Interface.Mars"
-msgid "Mars"
-msgstr "Mars"
+msgctxt "Interface.Europa"
+msgid "Europa"
+msgstr "Europa"
 
 #~ msgctxt "Interface.WorldInfoTextPlayers"
 #~ msgid "Players:"
