@@ -122,10 +122,11 @@ msgctxt "Interface.Mars"
 msgid "Mars"
 msgstr "火星"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "游戏时间:"
+#: /Language/Interface/Record[Key='Europa']
+#, fuzzy
+msgctxt "Interface.Europa"
+msgid "Europa"
+msgstr "欧罗巴"
 
 #: /Language/Interface/Record[Key='EuropaBeta']
 #, fuzzy
@@ -606,11 +607,6 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "广播服务器"
 
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
-msgstr "电网实际耗电量"
-
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
@@ -620,6 +616,11 @@ msgstr "服务器名称"
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "密码"
+
+#: /Language/Interface/Record[Key='LogicTypeSolarAngle']
+msgctxt "Interface.LogicTypeSolarAngle"
+msgid "Solar angle of the device"
+msgstr "设备的太阳角度"
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -790,6 +791,11 @@ msgctxt "Interface.SettingsUPNPNote"
 msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
 msgstr "如果您的路由器启用了通用即插即用（UPNP），当您主持游戏时，这些端口将自动转发."
 
+#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
+msgctxt "Interface.SettingsTooltipOpacity"
+msgid "Tooltip Opacity"
+msgstr "提示文本透明度"
+
 #: /Language/Interface/Record[Key='MenuDownloadDriverButton']
 msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
@@ -814,11 +820,6 @@ msgstr "重新设置"
 msgctxt "Interface.PromptResetSettingsBody"
 msgid "Are you sure?"
 msgstr "你确定？"
-
-#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
-msgctxt "Interface.PromptResetSettingsConfirm"
-msgid "Reset"
-msgstr "重启"
 
 #: /Language/Interface/Record[Key='SteamErrorTitle']
 msgctxt "Interface.SteamErrorTitle"
@@ -981,11 +982,6 @@ msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "保存:"
-
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
 msgid "Server is full."
@@ -1019,6 +1015,11 @@ msgstr "服务器密码不正确."
 msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "端口值必须介于0到65535之间."
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "游戏时间:"
 
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
@@ -1120,11 +1121,6 @@ msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "版本:"
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr "设备水平设置无线电"
-
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
@@ -1140,6 +1136,11 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "改变外观"
 
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr ""
+
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
 msgid "Gender"
@@ -1149,6 +1150,11 @@ msgstr "性别"
 msgctxt "Interface.AppearanceTitleFace"
 msgid "Face"
 msgstr "脸"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "保存:"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -1200,15 +1206,10 @@ msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr "新世界"
 
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "继续"
-
-#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
-msgctxt "Interface.SettingsTooltipOpacity"
-msgid "Tooltip Opacity"
-msgstr "提示文本透明度"
+#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
+msgctxt "Interface.PromptResetSettingsConfirm"
+msgid "Reset"
+msgstr "重启"
 
 #: /Language/Interface/Record[Key='RoomControlTickSpeed']
 msgctxt "Interface.RoomControlTickSpeed"
@@ -1746,10 +1747,10 @@ msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
 msgstr "设备垂直设置无线电"
 
-#: /Language/Interface/Record[Key='Incident_BrokenPipe']
-msgctxt "Interface.Incident_BrokenPipe"
-msgid "Warning, increased pipe pressure expected."
-msgstr ""
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
+msgstr "设备水平设置无线电"
 
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
 msgctxt "Interface.LogicTypeRequiredPower"
@@ -1766,9 +1767,9 @@ msgctxt "Interface.LogicTypeExportQuantity"
 msgid "Total quantity of items exported by the device"
 msgstr "设备输出物品的总数"
 
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
+#: /Language/Interface/Record[Key='Incident_ElectroMagnetic_Title']
+msgctxt "Interface.Incident_ElectroMagnetic_Title"
+msgid "Power Surge"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeImportQuantity']
@@ -1786,6 +1787,11 @@ msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
 msgstr "设备上的物品总数量"
 
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
+msgstr "电网实际耗电量"
+
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
@@ -1800,11 +1806,6 @@ msgstr ""
 msgctxt "Interface.LogicTypeMaximum"
 msgid "Maximum setting of the device"
 msgstr "设备的最大设置"
-
-#: /Language/Interface/Record[Key='LogicTypeSolarAngle']
-msgctxt "Interface.LogicTypeSolarAngle"
-msgid "Solar angle of the device"
-msgstr "设备的太阳角度"
 
 #: /Language/Interface/Record[Key='LogicTypeVertical']
 msgctxt "Interface.LogicTypeVertical"
@@ -2367,24 +2368,54 @@ msgctxt "Interface.TradingNoMoneyHash"
 msgid "There is not have enough money to complete this trade!"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
-msgctxt "Interface.AppearanceTitleHairStyle"
-msgid "Hair"
-msgstr "头发"
+#: /Language/Interface/Record[Key='Incident_PlantInfected']
+msgctxt "Interface.Incident_PlantInfected"
+msgid "Warning, a fungus has infected some plants in the area"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_PlantInfected_Title']
+msgctxt "Interface.Incident_PlantInfected_Title"
+msgid "Fungus Infected Plants"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_BrokenPipe']
+msgctxt "Interface.Incident_BrokenPipe"
+msgid "Warning, increased pipe pressure expected."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_BrokenPipe_Title']
+msgctxt "Interface.Incident_BrokenPipe_Title"
+msgid "Break Pipe"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Incident_ElectroMagnetic']
 msgctxt "Interface.Incident_ElectroMagnetic"
 msgid "Your batteries seem to be losing power."
 msgstr ""
 
+#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
+msgctxt "Interface.AppearanceTitleHairStyle"
+msgid "Hair"
+msgstr "头发"
+
 #: /Language/Interface/Record[Key='Incident_AlienLife']
 msgctxt "Interface.Incident_AlienLife"
 msgid "Do you hear that?"
 msgstr ""
 
+#: /Language/Interface/Record[Key='Incident_AlienLife_Title']
+msgctxt "Interface.Incident_AlienLife_Title"
+msgid "Grounder Attack"
+msgstr ""
+
 #: /Language/Interface/Record[Key='Incident_BrokenCable']
 msgctxt "Interface.Incident_BrokenCable"
-msgid "Strong electric pulses have been detected, beware of burnt cables. "
+msgid "Strong electric pulses have been detected, beware of burnt cables."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_BrokenCable_Title']
+msgctxt "Interface.Incident_BrokenCable_Title"
+msgid "Burn Random Cable"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Incident_MeteorInbound']
@@ -2392,14 +2423,29 @@ msgctxt "Interface.Incident_MeteorInbound"
 msgid "Satellite scans have picked up large object moving towards your sector, move to a safe environment."
 msgstr ""
 
+#: /Language/Interface/Record[Key='Incident_MeteorInbound_Title']
+msgctxt "Interface.Incident_MeteorInbound_Title"
+msgid "Meteor Shower"
+msgstr ""
+
 #: /Language/Interface/Record[Key='Incident_SolarFlare']
 msgctxt "Interface.Incident_SolarFlare"
 msgid "Satellites have recognized extreme weather patterns around your area."
 msgstr ""
 
+#: /Language/Interface/Record[Key='Incident_SolarFlare_Title']
+msgctxt "Interface.Incident_SolarFlare_Title"
+msgid "SolarFlare Heat"
+msgstr ""
+
 #: /Language/Interface/Record[Key='Incident_Supply']
 msgctxt "Interface.Incident_Supply"
 msgid "Satellites suggest a crate has dropped nearby, your beacon tracker should show you the way."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_Supply_Title']
+msgctxt "Interface.Incident_Supply_Title"
+msgid "Supply Crate"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
@@ -2626,11 +2672,10 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "眼睛颜色"
 
-#: /Language/Interface/Record[Key='Europa']
-#, fuzzy
-msgctxt "Interface.Europa"
-msgid "Europa"
-msgstr "欧罗巴"
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "继续"
 
 #~ msgctxt "Interface.WorldInfoTextPlayers"
 #~ msgid "Players:"

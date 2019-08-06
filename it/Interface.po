@@ -120,10 +120,10 @@ msgctxt "Interface.Mars"
 msgid "Mars"
 msgstr "Marte"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Tempo di gioco :"
+#: /Language/Interface/Record[Key='Europa']
+msgctxt "Interface.Europa"
+msgid "Europa"
+msgstr "Europa"
 
 #: /Language/Interface/Record[Key='EuropaBeta']
 msgctxt "Interface.EuropaBeta"
@@ -601,11 +601,6 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "Messagggio server"
 
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
-msgstr "Quanta energia il dispositivo o la rete sta effettivamente utilizzando"
-
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
@@ -615,6 +610,11 @@ msgstr "Nome del server"
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Password server"
+
+#: /Language/Interface/Record[Key='LogicTypeSolarAngle']
+msgctxt "Interface.LogicTypeSolarAngle"
+msgid "Solar angle of the device"
+msgstr "Angolo solare del dispositivo"
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -784,6 +784,11 @@ msgctxt "Interface.SettingsUPNPNote"
 msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
 msgstr "Se Universal Plug and Play (UPNP) è attivo sul vostro router, le porte saranno automaticamente aperte quando hosti una partita."
 
+#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
+msgctxt "Interface.SettingsTooltipOpacity"
+msgid "Tooltip Opacity"
+msgstr "Opacità Suggerimenti"
+
 #: /Language/Interface/Record[Key='MenuDownloadDriverButton']
 msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
@@ -808,11 +813,6 @@ msgstr "Reset Settaggi"
 msgctxt "Interface.PromptResetSettingsBody"
 msgid "Are you sure?"
 msgstr "Sei sicuro ?"
-
-#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
-msgctxt "Interface.PromptResetSettingsConfirm"
-msgid "Reset"
-msgstr "Reset"
 
 #: /Language/Interface/Record[Key='SteamErrorTitle']
 msgctxt "Interface.SteamErrorTitle"
@@ -974,11 +974,6 @@ msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Salvato il :"
-
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
 msgid "Server is full."
@@ -1012,6 +1007,11 @@ msgstr "Password server errata."
 msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Il valore delle porte deve essere tra 0 e 65535."
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Tempo di gioco :"
 
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
@@ -1113,11 +1113,6 @@ msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "Versione:"
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr "Radio di impostazione orizzontale per il dispositivo"
-
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
@@ -1133,6 +1128,11 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Cambia aspetto"
 
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr "DEPRECATO"
+
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
 msgid "Gender"
@@ -1142,6 +1142,11 @@ msgstr "Sesso"
 msgctxt "Interface.AppearanceTitleFace"
 msgid "Face"
 msgstr "Viso"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Salvato il :"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -1193,15 +1198,10 @@ msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr "Nuovo Mondo"
 
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "Continua"
-
-#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
-msgctxt "Interface.SettingsTooltipOpacity"
-msgid "Tooltip Opacity"
-msgstr "Opacità Suggerimenti"
+#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
+msgctxt "Interface.PromptResetSettingsConfirm"
+msgid "Reset"
+msgstr "Reset"
 
 #: /Language/Interface/Record[Key='RoomControlTickSpeed']
 msgctxt "Interface.RoomControlTickSpeed"
@@ -1735,10 +1735,10 @@ msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
 msgstr "Radio di impostazione verticale per il dispositivo"
 
-#: /Language/Interface/Record[Key='Incident_BrokenPipe']
-msgctxt "Interface.Incident_BrokenPipe"
-msgid "Warning, increased pipe pressure expected."
-msgstr ""
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
+msgstr "Radio di impostazione orizzontale per il dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
 msgctxt "Interface.LogicTypeRequiredPower"
@@ -1755,10 +1755,10 @@ msgctxt "Interface.LogicTypeExportQuantity"
 msgid "Total quantity of items exported by the device"
 msgstr "Quantità totale di articoli esportati dal dispositivo"
 
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
-msgstr "DEPRECATO"
+#: /Language/Interface/Record[Key='Incident_ElectroMagnetic_Title']
+msgctxt "Interface.Incident_ElectroMagnetic_Title"
+msgid "Power Surge"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeImportQuantity']
 msgctxt "Interface.LogicTypeImportQuantity"
@@ -1775,6 +1775,11 @@ msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
 msgstr "Quantità totale sul dispositivo"
 
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
+msgstr "Quanta energia il dispositivo o la rete sta effettivamente utilizzando"
+
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
@@ -1789,11 +1794,6 @@ msgstr "Valore specifico del contesto in base al dispositivo, rapporto da 0 a 1"
 msgctxt "Interface.LogicTypeMaximum"
 msgid "Maximum setting of the device"
 msgstr "Impostazione massima del dispositivo"
-
-#: /Language/Interface/Record[Key='LogicTypeSolarAngle']
-msgctxt "Interface.LogicTypeSolarAngle"
-msgid "Solar angle of the device"
-msgstr "Angolo solare del dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeVertical']
 msgctxt "Interface.LogicTypeVertical"
@@ -2354,24 +2354,54 @@ msgctxt "Interface.TradingNoMoneyHash"
 msgid "There is not have enough money to complete this trade!"
 msgstr "Non hai abbastanza denaro per completare questo scambio!"
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
-msgctxt "Interface.AppearanceTitleHairStyle"
-msgid "Hair"
-msgstr "Capelli"
+#: /Language/Interface/Record[Key='Incident_PlantInfected']
+msgctxt "Interface.Incident_PlantInfected"
+msgid "Warning, a fungus has infected some plants in the area"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_PlantInfected_Title']
+msgctxt "Interface.Incident_PlantInfected_Title"
+msgid "Fungus Infected Plants"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_BrokenPipe']
+msgctxt "Interface.Incident_BrokenPipe"
+msgid "Warning, increased pipe pressure expected."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_BrokenPipe_Title']
+msgctxt "Interface.Incident_BrokenPipe_Title"
+msgid "Break Pipe"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Incident_ElectroMagnetic']
 msgctxt "Interface.Incident_ElectroMagnetic"
 msgid "Your batteries seem to be losing power."
 msgstr ""
 
+#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
+msgctxt "Interface.AppearanceTitleHairStyle"
+msgid "Hair"
+msgstr "Capelli"
+
 #: /Language/Interface/Record[Key='Incident_AlienLife']
 msgctxt "Interface.Incident_AlienLife"
 msgid "Do you hear that?"
 msgstr ""
 
+#: /Language/Interface/Record[Key='Incident_AlienLife_Title']
+msgctxt "Interface.Incident_AlienLife_Title"
+msgid "Grounder Attack"
+msgstr ""
+
 #: /Language/Interface/Record[Key='Incident_BrokenCable']
 msgctxt "Interface.Incident_BrokenCable"
-msgid "Strong electric pulses have been detected, beware of burnt cables. "
+msgid "Strong electric pulses have been detected, beware of burnt cables."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_BrokenCable_Title']
+msgctxt "Interface.Incident_BrokenCable_Title"
+msgid "Burn Random Cable"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Incident_MeteorInbound']
@@ -2379,14 +2409,29 @@ msgctxt "Interface.Incident_MeteorInbound"
 msgid "Satellite scans have picked up large object moving towards your sector, move to a safe environment."
 msgstr ""
 
+#: /Language/Interface/Record[Key='Incident_MeteorInbound_Title']
+msgctxt "Interface.Incident_MeteorInbound_Title"
+msgid "Meteor Shower"
+msgstr ""
+
 #: /Language/Interface/Record[Key='Incident_SolarFlare']
 msgctxt "Interface.Incident_SolarFlare"
 msgid "Satellites have recognized extreme weather patterns around your area."
 msgstr ""
 
+#: /Language/Interface/Record[Key='Incident_SolarFlare_Title']
+msgctxt "Interface.Incident_SolarFlare_Title"
+msgid "SolarFlare Heat"
+msgstr ""
+
 #: /Language/Interface/Record[Key='Incident_Supply']
 msgctxt "Interface.Incident_Supply"
 msgid "Satellites suggest a crate has dropped nearby, your beacon tracker should show you the way."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Incident_Supply_Title']
+msgctxt "Interface.Incident_Supply_Title"
+msgid "Supply Crate"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
@@ -2604,10 +2649,10 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Colore occhi"
 
-#: /Language/Interface/Record[Key='Europa']
-msgctxt "Interface.Europa"
-msgid "Europa"
-msgstr "Europa"
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "Continua"
 
 #~ msgctxt "Interface.WorldInfoTextPlayers"
 #~ msgid "Players:"
