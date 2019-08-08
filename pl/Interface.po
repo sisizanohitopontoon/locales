@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Kolor Wlosow"
+#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
+msgctxt "Interface.AppearanceTitleHairStyle"
+msgid "Hair"
+msgstr "Wlosy"
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
@@ -496,6 +496,11 @@ msgctxt "Interface.NotificationTitle"
 msgid "Save Successful"
 msgstr "Zapis udany"
 
+#: /Language/Interface/Record[Key='SaveLocationBroken']
+msgctxt "Interface.SaveLocationBroken"
+msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
+msgstr ""
+
 #: /Language/Interface/Record[Key='AlertButtonClose']
 msgctxt "Interface.AlertButtonClose"
 msgid "Close"
@@ -606,15 +611,15 @@ msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "Nazwa serwera"
 
+#: /Language/Interface/Record[Key='LogicTypeRatio']
+msgctxt "Interface.LogicTypeRatio"
+msgid "Context specific value depending on device, 0 to 1 based ratio"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Hasło"
-
-#: /Language/Interface/Record[Key='LogicTypeSolarAngle']
-msgctxt "Interface.LogicTypeSolarAngle"
-msgid "Solar angle of the device"
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -1008,15 +1013,15 @@ msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Wartosci portow musza nalezec do zakresu od 0 do 65535."
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Czas gry:"
-
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Nie mozna zmodyfikowac portu aktualizacji podczas dzialania serwera."
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Czas gry:"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1128,20 +1133,15 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Zmienic wyglad"
 
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
-msgstr "PRZESTARZAŁE"
-
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
 msgid "Gender"
 msgstr "Plec"
 
-#: /Language/Interface/Record[Key='AppearanceTitleFace']
-msgctxt "Interface.AppearanceTitleFace"
-msgid "Face"
-msgstr "Twarz"
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr "PRZESTARZAŁE"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -1183,25 +1183,25 @@ msgctxt "Interface.MainMenuWorkshop"
 msgid "Workshop"
 msgstr "Warsztat"
 
-#: /Language/Interface/Record[Key='MainMenuJoinWorld']
-msgctxt "Interface.MainMenuJoinWorld"
-msgid "Join World"
-msgstr "Dołącz do świata"
+#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
+msgctxt "Interface.PromptResetSettingsConfirm"
+msgid "Reset"
+msgstr "Resetuj"
 
-#: /Language/Interface/Record[Key='MainMenuLoadWorld']
-msgctxt "Interface.MainMenuLoadWorld"
-msgid "Load World"
-msgstr "Wczytaj świat"
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "Kontynuuj"
 
 #: /Language/Interface/Record[Key='MainMenuNewWorld']
 msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr "Nowy świat"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
-msgctxt "Interface.PromptResetSettingsConfirm"
-msgid "Reset"
-msgstr "Resetuj"
+#: /Language/Interface/Record[Key='MainMenuLoadWorld']
+msgctxt "Interface.MainMenuLoadWorld"
+msgid "Load World"
+msgstr "Wczytaj świat"
 
 #: /Language/Interface/Record[Key='RoomControlTickSpeed']
 msgctxt "Interface.RoomControlTickSpeed"
@@ -1342,6 +1342,16 @@ msgstr ""
 msgctxt "Interface.ContactsTrading"
 msgid "Contacts"
 msgstr "Kontakty"
+
+#: /Language/Interface/Record[Key='OpenIncidentUI']
+msgctxt "Interface.OpenIncidentUI"
+msgid "Open Incidents"
+msgstr ""
+
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
@@ -1784,15 +1794,15 @@ msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeRatio']
-msgctxt "Interface.LogicTypeRatio"
-msgid "Context specific value depending on device, 0 to 1 based ratio"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypeMaximum']
 msgctxt "Interface.LogicTypeMaximum"
 msgid "Maximum setting of the device"
 msgstr "Maksymalne ustawienie urządzenia"
+
+#: /Language/Interface/Record[Key='LogicTypeSolarAngle']
+msgctxt "Interface.LogicTypeSolarAngle"
+msgid "Solar angle of the device"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeVertical']
 msgctxt "Interface.LogicTypeVertical"
@@ -2378,10 +2388,10 @@ msgctxt "Interface.Incident_ElectroMagnetic"
 msgid "Your batteries seem to be losing power."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
-msgctxt "Interface.AppearanceTitleHairStyle"
-msgid "Hair"
-msgstr "Wlosy"
+#: /Language/Interface/Record[Key='AppearanceTitleFace']
+msgctxt "Interface.AppearanceTitleFace"
+msgid "Face"
+msgstr "Twarz"
 
 #: /Language/Interface/Record[Key='Incident_AlienLife']
 msgctxt "Interface.Incident_AlienLife"
@@ -2646,10 +2656,15 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Kolor Oczu"
 
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "Kontynuuj"
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Kolor Wlosow"
+
+#: /Language/Interface/Record[Key='MainMenuJoinWorld']
+msgctxt "Interface.MainMenuJoinWorld"
+msgid "Join World"
+msgstr "Dołącz do świata"
 
 #~ msgctxt "Interface.WorldInfoTextPlayers"
 #~ msgid "Players:"

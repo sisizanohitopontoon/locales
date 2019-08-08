@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Hiusten väri"
+#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
+msgctxt "Interface.AppearanceTitleHairStyle"
+msgid "Hair"
+msgstr "Hiukset"
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 #, fuzzy
@@ -502,6 +502,11 @@ msgctxt "Interface.NotificationTitle"
 msgid "Save Successful"
 msgstr "Tallennus onnistui"
 
+#: /Language/Interface/Record[Key='SaveLocationBroken']
+msgctxt "Interface.SaveLocationBroken"
+msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
+msgstr ""
+
 #: /Language/Interface/Record[Key='AlertButtonClose']
 msgctxt "Interface.AlertButtonClose"
 msgid "Close"
@@ -612,15 +617,15 @@ msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "Palvelimen nimi"
 
+#: /Language/Interface/Record[Key='LogicTypeRatio']
+msgctxt "Interface.LogicTypeRatio"
+msgid "Context specific value depending on device, 0 to 1 based ratio"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Salasana"
-
-#: /Language/Interface/Record[Key='LogicTypeSolarAngle']
-msgctxt "Interface.LogicTypeSolarAngle"
-msgid "Solar angle of the device"
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -1015,15 +1020,15 @@ msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Portin arvo täytyy olla 0 ja 65535 väliltä."
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Pelattu:"
-
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Päivitysporttia ei pysty muuttamaan palvelimen ollessa käynnissä."
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Pelattu:"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1135,20 +1140,15 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Muokkaa ulkonäköä"
 
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
-msgstr ""
-
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
 msgid "Gender"
 msgstr "Sukupuoli"
 
-#: /Language/Interface/Record[Key='AppearanceTitleFace']
-msgctxt "Interface.AppearanceTitleFace"
-msgid "Face"
-msgstr "Kasvot"
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
+msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -1190,25 +1190,25 @@ msgctxt "Interface.MainMenuWorkshop"
 msgid "Workshop"
 msgstr "Workshop"
 
-#: /Language/Interface/Record[Key='MainMenuJoinWorld']
-msgctxt "Interface.MainMenuJoinWorld"
-msgid "Join World"
-msgstr "Liity maailmaan"
+#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
+msgctxt "Interface.PromptResetSettingsConfirm"
+msgid "Reset"
+msgstr "Palauta"
 
-#: /Language/Interface/Record[Key='MainMenuLoadWorld']
-msgctxt "Interface.MainMenuLoadWorld"
-msgid "Load World"
-msgstr "Lataa maailma"
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "Jatka peliä"
 
 #: /Language/Interface/Record[Key='MainMenuNewWorld']
 msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr "Uusi maailma"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
-msgctxt "Interface.PromptResetSettingsConfirm"
-msgid "Reset"
-msgstr "Palauta"
+#: /Language/Interface/Record[Key='MainMenuLoadWorld']
+msgctxt "Interface.MainMenuLoadWorld"
+msgid "Load World"
+msgstr "Lataa maailma"
 
 #: /Language/Interface/Record[Key='RoomControlTickSpeed']
 msgctxt "Interface.RoomControlTickSpeed"
@@ -1352,6 +1352,16 @@ msgstr ""
 msgctxt "Interface.ContactsTrading"
 msgid "Contacts"
 msgstr "Näppäimistö"
+
+#: /Language/Interface/Record[Key='OpenIncidentUI']
+msgctxt "Interface.OpenIncidentUI"
+msgid "Open Incidents"
+msgstr ""
+
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
@@ -1795,14 +1805,14 @@ msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeRatio']
-msgctxt "Interface.LogicTypeRatio"
-msgid "Context specific value depending on device, 0 to 1 based ratio"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypeMaximum']
 msgctxt "Interface.LogicTypeMaximum"
 msgid "Maximum setting of the device"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeSolarAngle']
+msgctxt "Interface.LogicTypeSolarAngle"
+msgid "Solar angle of the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeVertical']
@@ -2401,10 +2411,10 @@ msgctxt "Interface.Incident_ElectroMagnetic"
 msgid "Your batteries seem to be losing power."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
-msgctxt "Interface.AppearanceTitleHairStyle"
-msgid "Hair"
-msgstr "Hiukset"
+#: /Language/Interface/Record[Key='AppearanceTitleFace']
+msgctxt "Interface.AppearanceTitleFace"
+msgid "Face"
+msgstr "Kasvot"
 
 #: /Language/Interface/Record[Key='Incident_AlienLife']
 msgctxt "Interface.Incident_AlienLife"
@@ -2671,10 +2681,15 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Silmien väri"
 
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "Jatka peliä"
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Hiusten väri"
+
+#: /Language/Interface/Record[Key='MainMenuJoinWorld']
+msgctxt "Interface.MainMenuJoinWorld"
+msgid "Join World"
+msgstr "Liity maailmaan"
 
 #~ msgctxt "Interface.WorldInfoTextPlayers"
 #~ msgid "Players:"
