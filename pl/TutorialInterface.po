@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-08-19 06:50+0000\n"
+"PO-Revision-Date: 2019-08-19 06:55+0000\n"
 "Last-Translator: Davv <danio.u@go2.pl>\n"
 "Language: pl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -279,7 +279,6 @@ msgid "Repair Broken Cable"
 msgstr "Napraw uszkodzony kabel"
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable1']
-#, fuzzy
 msgctxt "Interface.TutorialDescRepairCable1"
 msgid ""
 "A {THING:StructureCableStraight} can transport both {COLORYELLOW:Data} and {COLORYELLOW:Power}, but they will break if more power is put through it than it is rated for. There is a broken {THING:StructureCableJunction} somewhere below the {THING:StructureAirlock} you just came out of, find it and remove by using a {THING:ItemWireCutters} from your {THING:ItemToolBelt}.\n"
@@ -288,8 +287,11 @@ msgid ""
 "\n"
 "If you find you have too many windows open, you can close them all at once using {KEY:HideAllWindows}, you can toggle the individual window with their slot hotkey, or you can click on the slot itself while the mouse is enabled with {KEY:MouseControl}."
 msgstr ""
-"There is a broken {THING:StructureCableJunction}, find it and remove by using a {THING:ItemWireCutters} from your {THING:ItemToolBelt}. Press {KEY:ToolBeltSlot} to open your {SLOT:Belt} slot. Press "
-"{KEY:InventorySelect} to swap the highlighted interior slot item to your hands."
+"{THING:StructureCableStraight} może przenosić zarazem {COLORYELLOW:Data} oraz {COLORYELLOW:Power}, ale mogą się uszkodzić jeżeli przepłynie więcej mocy, niż jest to zalecane.  Jest tutaj gdzieś uszkodzony {THING:StructureCableJunction} pod {THING:StructureAirlock}, z której wyszedłeś, znajdź go i usuń za pomocą {THING:ItemWireCutters} wyjętego z Twojego {THING:ItemToolBelt}.\n"
+"      \n"
+"Pamiętaj że istnieją dwa sposoby aby wejść w interakcję z twoim ekwipunkiem {LINK:InventoryPage;ekwipunkiem}. Możesz wcisnąć i przytrzymać {KEY:MouseControl} aby uaktywnić kursor, potem przeciągnąć i upuścić, lub otworzyć rzeczy za pomocą myszy. Dla szybkiej kontroli, naciśnij {KEY:ToolBeltSlot} aby otworzyć slot {SLOT:Belt}. Naciśnij {KEY:InventorySelect} aby zamienić podświetlony slot z Twoimi dłońmi.\n"
+"\n"
+"Jeżeli masz zbyt wiele otwartych okien, możesz zamknąć je wszystkie naraz używając {KEY:HideAllWindows}, natomiast otworzyć poszczególne okna możesz, naciskając odpowiadający im przycisk slotu, lub możesz nacisnąć na slot samemu, podczas gdy za pomocą {KEY:MouseControl} aktywowałeś(aś) kursor."
 
 #: /Language/Interface/Record[Key='TutorialTaskRepairCable1']
 msgctxt "Interface.TutorialTaskRepairCable1"
