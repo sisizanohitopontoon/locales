@@ -6,14 +6,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
-msgctxt "Interface.AppearanceTitleHairStyle"
-msgid "Hair"
-msgstr ""
-
-#: /Language/Interface/Record[Key='WorldInfoMapName']
-msgctxt "Interface.WorldInfoMapName"
-msgid "Map:"
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
@@ -131,9 +126,29 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Space']
-msgctxt "Interface.Space"
-msgid "Space"
+#: /Language/Interface/Record[Key='WorldInfoMapName']
+msgctxt "Interface.WorldInfoMapName"
+msgid "Map:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Europa2']
+msgctxt "Interface.Europa2"
+msgid "Europa"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Mimas']
+msgctxt "Interface.Mimas"
+msgid "Mimas"
 msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldAreaEarth']
@@ -144,6 +159,21 @@ msgstr ""
 #: /Language/Interface/Record[Key='NewWorldAreaEuropa']
 msgctxt "Interface.NewWorldAreaEuropa"
 msgid "Europa"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldAreaVulcan']
+msgctxt "Interface.NewWorldAreaVulcan"
+msgid "Vulcan"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldAreaEuropa2']
+msgctxt "Interface.NewWorldAreaEuropa2"
+msgid "Europa"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldAreaVulcan2']
+msgctxt "Interface.NewWorldAreaVulcan2"
+msgid "Vulcan"
 msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldEnableAwayMissions']
@@ -601,14 +631,14 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicTypeRatio']
-msgctxt "Interface.LogicTypeRatio"
-msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerPassword']
@@ -674,8 +704,10 @@ msgstr ""
 #: /Language/Interface/Record[Key='TutorialCompleteMessage']
 msgctxt "Interface.TutorialCompleteMessage"
 msgid ""
-"There's still much to learn. \n"
-"So get out there, Stationeer!"
+"\n"
+"        There's still much to learn.\n"
+"        So get out there, Stationeer!\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialBackToMenu']
@@ -701,8 +733,10 @@ msgstr ""
 #: /Language/Interface/Record[Key='MulticonstructorItem']
 msgctxt "Interface.MulticonstructorItem"
 msgid ""
-"<color=yellow>Constructing option {0} of {1}</color>\n"
-"Scroll <color=red>Mouse Wheel</color> for more options."
+"\n"
+"        <color=yellow>Constructing option {0} of {1}</color>\n"
+"        Scroll <color=red>Mouse Wheel</color> for more options.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='UnableToConstruct']
@@ -743,11 +777,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr ""
-
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
@@ -808,6 +837,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='PromptResetSettingsBody']
 msgctxt "Interface.PromptResetSettingsBody"
 msgid "Are you sure?"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
+msgctxt "Interface.PromptResetSettingsConfirm"
+msgid "Reset"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SteamErrorTitle']
@@ -945,6 +979,11 @@ msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
 msgstr ""
 
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr ""
+
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
@@ -983,8 +1022,10 @@ msgstr ""
 #: /Language/Interface/Record[Key='AlertNoResponse']
 msgctxt "Interface.AlertNoResponse"
 msgid ""
-"There is no response from the Game Server.\n"
-"Please try again."
+"\n"
+"        There is no response from the Game Server.\n"
+"        Please try again.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='AlertKicked']
@@ -1005,11 +1046,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
-msgstr ""
-
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
@@ -1102,36 +1138,6 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr ""
-
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr ""
-
-#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
-msgctxt "Interface.JoinMenuInfoPlayers"
-msgid "Players:"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
-msgctxt "Interface.ChangeAppearanceTitle"
-msgid "Change Appearance"
-msgstr ""
-
-#: /Language/Interface/Record[Key='AppearanceTitleGender']
-msgctxt "Interface.AppearanceTitleGender"
-msgid "Gender"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
-msgctxt "Interface.LogicTypeImportSlotOccupant"
-msgid "DEPRECATED"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
@@ -1172,14 +1178,14 @@ msgctxt "Interface.MainMenuWorkshop"
 msgid "Workshop"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
-msgctxt "Interface.PromptResetSettingsConfirm"
-msgid "Reset"
+#: /Language/Interface/Record[Key='MainMenuJoinWorld']
+msgctxt "Interface.MainMenuJoinWorld"
+msgid "Join World"
 msgstr ""
 
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
+#: /Language/Interface/Record[Key='MainMenuLoadWorld']
+msgctxt "Interface.MainMenuLoadWorld"
+msgid "Load World"
 msgstr ""
 
 #: /Language/Interface/Record[Key='MainMenuNewWorld']
@@ -1187,9 +1193,74 @@ msgctxt "Interface.MainMenuNewWorld"
 msgid "New World"
 msgstr ""
 
-#: /Language/Interface/Record[Key='MainMenuLoadWorld']
-msgctxt "Interface.MainMenuLoadWorld"
-msgid "Load World"
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptResumeButton']
+msgctxt "Interface.PromptResumeButton"
+msgid "Resume"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptButtonLeave']
+msgctxt "Interface.PromptButtonLeave"
+msgid "Leave Session"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptPauseBody']
+msgctxt "Interface.PromptPauseBody"
+msgid "Paused game play"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptPauseTitle']
+msgctxt "Interface.PromptPauseTitle"
+msgid "Pause"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GameMenuButtonPause']
+msgctxt "Interface.GameMenuButtonPause"
+msgid "Pause"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsWorldOrigin']
+msgctxt "Interface.SettingsWorldOrigin"
+msgid "World Origin"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsShowSlotTooltips']
+msgctxt "Interface.SettingsShowSlotTooltips"
+msgid "Show Slot Tooltips"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ButtonDepart']
+msgctxt "Interface.ButtonDepart"
+msgid "Depart"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeSettingOutputHash']
+msgctxt "Interface.LogicTypeSettingOutputHash"
+msgid "The output setting for the device"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeSettingInputHash']
+msgctxt "Interface.LogicTypeSettingInputHash"
+msgid "The input setting for the device"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTargetZ']
+msgctxt "Interface.LogicTypeTargetZ"
+msgid "The target position in Z dimension in world coordinates"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTargetY']
+msgctxt "Interface.LogicTypeTargetY"
+msgid "The target position in Y dimension in world coordinates"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTargetX']
+msgctxt "Interface.LogicTypeTargetX"
+msgid "The target position in X dimension in world coordinates"
 msgstr ""
 
 #: /Language/Interface/Record[Key='RoomControlTickSpeed']
@@ -1222,6 +1293,16 @@ msgctxt "Interface.ButtonContact"
 msgid "Contact"
 msgstr ""
 
+#: /Language/Interface/Record[Key='TraderCustom']
+msgctxt "Interface.TraderCustom"
+msgid "SPESMALL "
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderGas']
+msgctxt "Interface.TraderGas"
+msgid "G'HAS IT ALL "
+msgstr ""
+
 #: /Language/Interface/Record[Key='TraderOther']
 msgctxt "Interface.TraderOther"
 msgid "SPESMALL "
@@ -1242,8 +1323,8 @@ msgctxt "Interface.TraderPaint"
 msgid "COLOR CORP "
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderExotic']
-msgctxt "Interface.TraderExotic"
+#: /Language/Interface/Record[Key='TraderExotics']
+msgctxt "Interface.TraderExotics"
 msgid "EXOTECH "
 msgstr ""
 
@@ -1702,9 +1783,9 @@ msgctxt "Interface.LogicTypeRecipeHash"
 msgid "Current hash of the recipe the device is set to produce"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
-msgctxt "Interface.LogicTypeElevatorLevel"
-msgid "Level the elevator is currently at"
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
@@ -1752,19 +1833,14 @@ msgctxt "Interface.LogicTypeExportQuantity"
 msgid "Total quantity of items exported by the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Incident_ElectroMagnetic_Title']
-msgctxt "Interface.Incident_ElectroMagnetic_Title"
-msgid "Power Surge"
+#: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
+msgctxt "Interface.LogicTypeImportSlotOccupant"
+msgid "DEPRECATED"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeImportQuantity']
 msgctxt "Interface.LogicTypeImportQuantity"
 msgid "Total quantity of items imported by the device"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicTypeOn']
-msgctxt "Interface.LogicTypeOn"
-msgid "The current state of the device, 0 for off, 1 for on"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeQuantity']
@@ -1780,6 +1856,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatio']
+msgctxt "Interface.LogicTypeRatio"
+msgid "Context specific value depending on device, 0 to 1 based ratio"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeMaximum']
@@ -2122,9 +2203,36 @@ msgctxt "Interface.SettingsTitleAudioAlerts"
 msgid "Voice Notifications"
 msgstr ""
 
+#: /Language/Interface/Record[Key='NewWorldMimasShortDesc']
+msgctxt "Interface.NewWorldMimasShortDesc"
+msgid ""
+"\n"
+"        A barren rock nestled under the wing of Saturn's spectular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.\n"
+"        Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.\n"
+"      "
+msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldVulcan2ShortDesc']
+msgctxt "Interface.NewWorldVulcan2ShortDesc"
+msgid ""
+"\n"
+"        A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders.\n"
+"        Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!\n"
+"      "
+msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldVulcanShortDesc']
+msgctxt "Interface.NewWorldVulcanShortDesc"
+msgid "The volatile environment on Vulcan is surviable for very few living organisms, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders."
+msgstr ""
+
 #: /Language/Interface/Record[Key='NewWorldEuropaShortDesc']
 msgctxt "Interface.NewWorldEuropaShortDesc"
-msgid "Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents an extreme challenge for the stationeers."
+msgid ""
+"\n"
+"        Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents a serious challenge for the stationeers.\n"
+"        The extreme cold will cause batteries to rapidly lose power, so getting a steady power souce and warm location are your priorities.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldSpaceShortDesc']
@@ -2134,12 +2242,21 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldMoonShortDesc']
 msgctxt "Interface.NewWorldMoonShortDesc"
-msgid "While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape."
+msgid ""
+"\n"
+"        While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape.\n"
+"        A great location for the budding stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldMarsShortDesc']
 msgctxt "Interface.NewWorldMarsShortDesc"
 msgid "A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldAreaMimas']
+msgctxt "Interface.NewWorldAreaMimas"
+msgid "Mimas"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsInputSettings']
@@ -2290,8 +2407,10 @@ msgstr ""
 #: /Language/Interface/Record[Key='FurnaceChamberText']
 msgctxt "Interface.FurnaceChamberText"
 msgid ""
-"Pressure {0}\n"
-"Temperature {1}"
+"\n"
+"        Pressure {0}\n"
+"        Temperature {1}\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='FurnaceChamber']
@@ -2346,77 +2465,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='TradingNoMoneyHash']
 msgctxt "Interface.TradingNoMoneyHash"
-msgid "There is not have enough money to complete this trade!"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_PlantInfected']
-msgctxt "Interface.Incident_PlantInfected"
-msgid "Warning, a fungus has infected some plants in the area"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_PlantInfected_Title']
-msgctxt "Interface.Incident_PlantInfected_Title"
-msgid "Fungus Infected Plants"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_BrokenPipe']
-msgctxt "Interface.Incident_BrokenPipe"
-msgid "Warning, increased pipe pressure expected."
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_BrokenPipe_Title']
-msgctxt "Interface.Incident_BrokenPipe_Title"
-msgid "Break Pipe"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_ElectroMagnetic']
-msgctxt "Interface.Incident_ElectroMagnetic"
-msgid "Your batteries seem to be losing power."
-msgstr ""
-
-#: /Language/Interface/Record[Key='AppearanceTitleFace']
-msgctxt "Interface.AppearanceTitleFace"
-msgid "Face"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_AlienLife']
-msgctxt "Interface.Incident_AlienLife"
-msgid "Do you hear that?"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_AlienLife_Title']
-msgctxt "Interface.Incident_AlienLife_Title"
-msgid "Grounder Attack"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_BrokenCable']
-msgctxt "Interface.Incident_BrokenCable"
-msgid "Strong electric pulses have been detected, beware of burnt cables."
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_BrokenCable_Title']
-msgctxt "Interface.Incident_BrokenCable_Title"
-msgid "Burn Random Cable"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_MeteorInbound']
-msgctxt "Interface.Incident_MeteorInbound"
-msgid "Satellite scans have picked up large object moving towards your sector, move to a safe environment."
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_MeteorInbound_Title']
-msgctxt "Interface.Incident_MeteorInbound_Title"
-msgid "Meteor Shower"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_SolarFlare']
-msgctxt "Interface.Incident_SolarFlare"
-msgid "Satellites have recognized extreme weather patterns around your area."
-msgstr ""
-
-#: /Language/Interface/Record[Key='Incident_SolarFlare_Title']
-msgctxt "Interface.Incident_SolarFlare_Title"
-msgid "SolarFlare Heat"
+msgid "You do not have enough money to complete this transaction!"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Incident_Supply']
@@ -2457,21 +2506,25 @@ msgstr ""
 #: /Language/Interface/Record[Key='NewWorldSpaceDesc']
 msgctxt "Interface.NewWorldSpaceDesc"
 msgid ""
-"This is Stationeers Creative Mode!\n"
-"Spawn in any item, test ideas and build bonkers stuff real fast.\n"
-"<color=red>This mode is experimental.</color> Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.\n"
-"Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.\n"
-"*bugs"
+"\n"
+"        This is Stationeers Creative Mode!\n"
+"        Spawn in any item, test ideas and build bonkers stuff real fast.\n"
+"        <color=red>This mode is experimental.</color> Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.\n"
+"        Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.\n"
+"        *bugs\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldMoonDesc']
 msgctxt "Interface.NewWorldMoonDesc"
 msgid ""
-"So you're stuck on the moon, but it's not all bad. \n"
-"Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.\n"
-"There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery. \n"
-"You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?\n"
-"Looks like you're gonna be here a while."
+"\n"
+"        So you're stuck on the moon, but it's not all bad.\n"
+"        Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.\n"
+"        There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery.\n"
+"        You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?\n"
+"        Looks like you're gonna be here a while.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldAreaCustom']
@@ -2639,7 +2692,42 @@ msgctxt "Interface.AppearanceTitleHairColor"
 msgid "Hair Colour"
 msgstr ""
 
-#: /Language/Interface/Record[Key='MainMenuJoinWorld']
-msgctxt "Interface.MainMenuJoinWorld"
-msgid "Join World"
+#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
+msgctxt "Interface.AppearanceTitleHairStyle"
+msgid "Hair"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AppearanceTitleFace']
+msgctxt "Interface.AppearanceTitleFace"
+msgid "Face"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AppearanceTitleGender']
+msgctxt "Interface.AppearanceTitleGender"
+msgid "Gender"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
+msgctxt "Interface.ChangeAppearanceTitle"
+msgid "Change Appearance"
+msgstr ""
+
+#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
+msgctxt "Interface.JoinMenuInfoPlayers"
+msgid "Players:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
+msgctxt "Interface.LogicTypeElevatorLevel"
+msgid "Level the elevator is currently at"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Space']
+msgctxt "Interface.Space"
+msgid "Space"
 msgstr ""
