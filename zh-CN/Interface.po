@@ -643,15 +643,15 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "广播服务器"
 
-#: /Language/Interface/Record[Key='LogicTypeOn']
-msgctxt "Interface.LogicTypeOn"
-msgid "The current state of the device, 0 for off, 1 for on"
-msgstr "设备的当前状态, 0 为关闭, 1 表示"
-
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "服务器名称"
+
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
+msgstr "电网实际耗电量"
 
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
@@ -792,10 +792,10 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "一旦放置使用 {0} 进行升级."
 
-#: /Language/Interface/Record[Key='TooltipAllowsMounting']
-msgctxt "Interface.TooltipAllowsMounting"
-msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr "允许安装墙壁放置设备。升级以允许更好的放置区域。"
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "放置在网格上."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -989,6 +989,11 @@ msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "你死了."
 
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "游戏时间:"
+
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -998,11 +1003,6 @@ msgstr "重生"
 msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
 msgstr "放弃"
-
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "游戏时间:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
@@ -1819,10 +1819,10 @@ msgctxt "Interface.LogicTypeRecipeHash"
 msgid "Current hash of the recipe the device is set to produce"
 msgstr "设备设置为生产的配方的当前哈希"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "放置在网格上."
+#: /Language/Interface/Record[Key='TooltipAllowsMounting']
+msgctxt "Interface.TooltipAllowsMounting"
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr "允许安装墙壁放置设备。升级以允许更好的放置区域。"
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
 msgctxt "Interface.LogicTypeElevatorSpeed"
@@ -1879,15 +1879,15 @@ msgctxt "Interface.LogicTypeImportQuantity"
 msgid "Total quantity of items imported by the device"
 msgstr "设备输入物品的总数"
 
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr "设备的当前状态, 0 为关闭, 1 表示"
+
 #: /Language/Interface/Record[Key='LogicTypeQuantity']
 msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
 msgstr "设备上的物品总数量"
-
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
-msgstr "电网实际耗电量"
 
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"

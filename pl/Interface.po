@@ -638,15 +638,15 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "Reklamuj serwer"
 
-#: /Language/Interface/Record[Key='LogicTypeOn']
-msgctxt "Interface.LogicTypeOn"
-msgid "The current state of the device, 0 for off, 1 for on"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "Nazwa serwera"
+
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
@@ -787,10 +787,10 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "Po umieszczeniu użyj {0}, aby ulepszyć."
 
-#: /Language/Interface/Record[Key='TooltipAllowsMounting']
-msgctxt "Interface.TooltipAllowsMounting"
-msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr "Pozwala na montowanie urzadzen nasciennych. Ulepsz, aby stworzyc wiecej mozliwosci montazu."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "Umiejscowienie przylega do siatki."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -982,6 +982,11 @@ msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "Jestes martwy"
 
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Czas gry:"
+
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -991,11 +996,6 @@ msgstr "Odrodzenie"
 msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
 msgstr "Give Up"
-
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Czas gry:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
@@ -1804,10 +1804,10 @@ msgctxt "Interface.LogicTypeRecipeHash"
 msgid "Current hash of the recipe the device is set to produce"
 msgstr "Hash obecnego planu w urządzeniu które jest ustawione na produkcję"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "Umiejscowienie przylega do siatki."
+#: /Language/Interface/Record[Key='TooltipAllowsMounting']
+msgctxt "Interface.TooltipAllowsMounting"
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr "Pozwala na montowanie urzadzen nasciennych. Ulepsz, aby stworzyc wiecej mozliwosci montazu."
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
 msgctxt "Interface.LogicTypeElevatorSpeed"
@@ -1864,14 +1864,14 @@ msgctxt "Interface.LogicTypeImportQuantity"
 msgid "Total quantity of items imported by the device"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeQuantity']
 msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']

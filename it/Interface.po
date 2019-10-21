@@ -638,15 +638,15 @@ msgctxt "Interface.SettingsAdvertiseServer"
 msgid "Advertise Server"
 msgstr "Messagggio server"
 
-#: /Language/Interface/Record[Key='LogicTypeOn']
-msgctxt "Interface.LogicTypeOn"
-msgid "The current state of the device, 0 for off, 1 for on"
-msgstr "Lo stato corrente del dispositivo, 0 per spento, 1 per acceso"
-
 #: /Language/Interface/Record[Key='SettingsServerName']
 msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "Nome del server"
+
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
+msgstr "Quanta energia il dispositivo o la rete sta effettivamente utilizzando"
 
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
@@ -785,12 +785,10 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "Una volta piazzato, usa {0} per aggiornare."
 
-#: /Language/Interface/Record[Key='TooltipAllowsMounting']
-msgctxt "Interface.TooltipAllowsMounting"
-msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr ""
-"Permette di piazzare dispositivi a muro. Aggiorna per migliorare la scelta delle opzioni per il piazzamento.\n"
-"      "
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "Piazzamento allineato sulla griglia."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -982,6 +980,11 @@ msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "Sei morto."
 
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Tempo di gioco :"
+
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -991,11 +994,6 @@ msgstr "Respawn"
 msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
 msgstr "Arrenditi"
-
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Tempo di gioco :"
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
@@ -1807,10 +1805,12 @@ msgctxt "Interface.LogicTypeRecipeHash"
 msgid "Current hash of the recipe the device is set to produce"
 msgstr "Hash corrente della ricetta che il dispositivo è impostato per produrre"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "Piazzamento allineato sulla griglia."
+#: /Language/Interface/Record[Key='TooltipAllowsMounting']
+msgctxt "Interface.TooltipAllowsMounting"
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr ""
+"Permette di piazzare dispositivi a muro. Aggiorna per migliorare la scelta delle opzioni per il piazzamento.\n"
+"      "
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
 msgctxt "Interface.LogicTypeElevatorSpeed"
@@ -1867,15 +1867,15 @@ msgctxt "Interface.LogicTypeImportQuantity"
 msgid "Total quantity of items imported by the device"
 msgstr "Quantità totale di articoli importati dal dispositivo"
 
+#: /Language/Interface/Record[Key='LogicTypeOn']
+msgctxt "Interface.LogicTypeOn"
+msgid "The current state of the device, 0 for off, 1 for on"
+msgstr "Lo stato corrente del dispositivo, 0 per spento, 1 per acceso"
+
 #: /Language/Interface/Record[Key='LogicTypeQuantity']
 msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
 msgstr "Quantità totale sul dispositivo"
-
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
-msgstr "Quanta energia il dispositivo o la rete sta effettivamente utilizzando"
 
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
