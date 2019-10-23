@@ -134,17 +134,16 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "Ay"
 
-#: /Language/Interface/Record[Key='Space']
-#, fuzzy
-msgctxt "Interface.Space"
-msgid "Space"
-msgstr "Uzay"
-
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 #, fuzzy
 msgctxt "Interface.WorldInfoMapName"
 msgid "Map:"
 msgstr "HARİTA:"
+
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Vulcan2']
 msgctxt "Interface.Vulcan2"
@@ -649,15 +648,15 @@ msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "Sunucu İsmi"
 
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Şifre"
-
-#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
-msgctxt "Interface.LogicTypeExportQuantity"
-msgid "Total quantity of items exported by the device"
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -793,15 +792,15 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "Yerleştiğinde, yükseltmek için {0} kullanın."
 
-#: /Language/Interface/Record[Key='TooltipAllowsMounting']
-msgctxt "Interface.TooltipAllowsMounting"
-msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr "Duvara yerleştirilmiş cihazların montajını sağlar. Daha iyi yerleştirme alanı için Yükseltin."
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
 msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "Yerleştirme ızgaraya takılır."
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "Yerleştirme ızgara yüzüne takılır."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
@@ -988,6 +987,11 @@ msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "Öldün."
 
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Oyun Süresi:"
+
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -1002,11 +1006,6 @@ msgstr "Pes Et"
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Baygın durumdasın. Pes etmek ve yeniden canlanmak ister misin?"
-
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Oyun Süresi:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
@@ -1219,41 +1218,6 @@ msgstr "YENİ DÜNYA"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "DEVAM ET"
-
-#: /Language/Interface/Record[Key='TierTwo']
-msgctxt "Interface.TierTwo"
-msgid "Tier Two"
-msgstr ""
-
-#: /Language/Interface/Record[Key='TierOne']
-msgctxt "Interface.TierOne"
-msgid "Tier One"
-msgstr ""
-
-#: /Language/Interface/Record[Key='TierThree']
-msgctxt "Interface.TierThree"
-msgid "Tier Three"
-msgstr ""
-
-#: /Language/Interface/Record[Key='CreationMultiplier']
-msgctxt "Interface.CreationMultiplier"
-msgid "Creation Multiplier"
-msgstr ""
-
-#: /Language/Interface/Record[Key='EnergyCostMultiplier']
-msgctxt "Interface.EnergyCostMultiplier"
-msgid "Energy Cost Multiplier"
-msgstr ""
-
-#: /Language/Interface/Record[Key='MaterialCostMultiplier']
-msgctxt "Interface.MaterialCostMultiplier"
-msgid "Material Cost Multiplier"
-msgstr ""
-
-#: /Language/Interface/Record[Key='BuildTimeMultiplier']
-msgctxt "Interface.BuildTimeMultiplier"
-msgid "Build Time Mulitplier"
-msgstr ""
 
 #: /Language/Interface/Record[Key='PromptResumeButton']
 msgctxt "Interface.PromptResumeButton"
@@ -1829,10 +1793,10 @@ msgctxt "Interface.LogicTypePlantHealth2"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "Yerleştirme ızgara yüzüne takılır."
+#: /Language/Interface/Record[Key='LogicTypePlantHealth1']
+msgctxt "Interface.LogicTypePlantHealth1"
+msgid "DEPRECATED"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeImportSlotHash']
 msgctxt "Interface.LogicTypeImportSlotHash"
@@ -1849,10 +1813,10 @@ msgctxt "Interface.LogicTypeRecipeHash"
 msgid "Current hash of the recipe the device is set to produce"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
-msgctxt "Interface.LogicTypeElevatorLevel"
-msgid "Level the elevator is currently at"
-msgstr ""
+#: /Language/Interface/Record[Key='TooltipAllowsMounting']
+msgctxt "Interface.TooltipAllowsMounting"
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr "Duvara yerleştirilmiş cihazların montajını sağlar. Daha iyi yerleştirme alanı için Yükseltin."
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
 msgctxt "Interface.LogicTypeElevatorSpeed"
@@ -1894,6 +1858,11 @@ msgctxt "Interface.LogicTypeExportSlotOccupant"
 msgid "DEPRECATED"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
 msgctxt "Interface.LogicTypeImportSlotOccupant"
 msgid "DEPRECATED"
@@ -1912,11 +1881,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeQuantity']
 msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
@@ -2803,15 +2767,16 @@ msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "GECİKME:"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHealth1']
-msgctxt "Interface.LogicTypePlantHealth1"
-msgid "DEPRECATED"
+#: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
+msgctxt "Interface.LogicTypeElevatorLevel"
+msgid "Level the elevator is currently at"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
-msgstr ""
+#: /Language/Interface/Record[Key='Space']
+#, fuzzy
+msgctxt "Interface.Space"
+msgid "Space"
+msgstr "Uzay"
 
 #~ msgctxt "Interface.WorldInfoTextPlayers"
 #~ msgid "Players:"

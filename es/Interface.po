@@ -130,15 +130,15 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "Luna"
 
-#: /Language/Interface/Record[Key='Space']
-msgctxt "Interface.Space"
-msgid "Space"
-msgstr "Espacio"
-
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
 msgid "Map:"
 msgstr "Mapa:"
+
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Vulcan2']
 msgctxt "Interface.Vulcan2"
@@ -643,15 +643,15 @@ msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "Nombre Servidor"
 
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
+msgstr "Cuánta energía está utilizando realmente el dispositivo o la red"
+
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Contraseña"
-
-#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
-msgctxt "Interface.LogicTypeExportQuantity"
-msgid "Total quantity of items exported by the device"
-msgstr "Cantidad total de artículos exportados por el dispositivo"
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -787,15 +787,15 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "Una vez colocado usa {0} para actualizar."
 
-#: /Language/Interface/Record[Key='TooltipAllowsMounting']
-msgctxt "Interface.TooltipAllowsMounting"
-msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr "Permite el montaje de dispositivos colocados en la pared. Actualiza para permitir una mejor área de ubicación."
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
 msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "La colocación se ajusta a la cuadrícula."
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "La colocación se ajusta a las caras de la cuadrícula."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
@@ -982,6 +982,11 @@ msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "Tú estás muerto."
 
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Tiempo de juego:"
+
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -996,11 +1001,6 @@ msgstr "Rendirse"
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Estás inconsciente. ¿Quieres abandonar y volver a aparecer?"
-
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Tiempo de juego:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
@@ -1213,41 +1213,6 @@ msgstr "Nuevo Mundo"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuar"
-
-#: /Language/Interface/Record[Key='TierTwo']
-msgctxt "Interface.TierTwo"
-msgid "Tier Two"
-msgstr ""
-
-#: /Language/Interface/Record[Key='TierOne']
-msgctxt "Interface.TierOne"
-msgid "Tier One"
-msgstr ""
-
-#: /Language/Interface/Record[Key='TierThree']
-msgctxt "Interface.TierThree"
-msgid "Tier Three"
-msgstr ""
-
-#: /Language/Interface/Record[Key='CreationMultiplier']
-msgctxt "Interface.CreationMultiplier"
-msgid "Creation Multiplier"
-msgstr ""
-
-#: /Language/Interface/Record[Key='EnergyCostMultiplier']
-msgctxt "Interface.EnergyCostMultiplier"
-msgid "Energy Cost Multiplier"
-msgstr ""
-
-#: /Language/Interface/Record[Key='MaterialCostMultiplier']
-msgctxt "Interface.MaterialCostMultiplier"
-msgid "Material Cost Multiplier"
-msgstr ""
-
-#: /Language/Interface/Record[Key='BuildTimeMultiplier']
-msgctxt "Interface.BuildTimeMultiplier"
-msgid "Build Time Mulitplier"
-msgstr ""
 
 #: /Language/Interface/Record[Key='PromptResumeButton']
 msgctxt "Interface.PromptResumeButton"
@@ -1824,10 +1789,10 @@ msgctxt "Interface.LogicTypePlantHealth2"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "La colocación se ajusta a las caras de la cuadrícula."
+#: /Language/Interface/Record[Key='LogicTypePlantHealth1']
+msgctxt "Interface.LogicTypePlantHealth1"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='LogicTypeImportSlotHash']
 msgctxt "Interface.LogicTypeImportSlotHash"
@@ -1844,10 +1809,10 @@ msgctxt "Interface.LogicTypeRecipeHash"
 msgid "Current hash of the recipe the device is set to produce"
 msgstr "Hash actual de la receta que el dispositivo está configurado para producir"
 
-#: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
-msgctxt "Interface.LogicTypeElevatorLevel"
-msgid "Level the elevator is currently at"
-msgstr "Nivel en el que se encuentra actualmente el ascensor"
+#: /Language/Interface/Record[Key='TooltipAllowsMounting']
+msgctxt "Interface.TooltipAllowsMounting"
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr "Permite el montaje de dispositivos colocados en la pared. Actualiza para permitir una mejor área de ubicación."
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
 msgctxt "Interface.LogicTypeElevatorSpeed"
@@ -1889,6 +1854,11 @@ msgctxt "Interface.LogicTypeExportSlotOccupant"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
+msgstr "Cantidad total de artículos exportados por el dispositivo"
+
 #: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
 msgctxt "Interface.LogicTypeImportSlotOccupant"
 msgid "DEPRECATED"
@@ -1908,11 +1878,6 @@ msgstr "El estado actual del dispositivo, 0 para apagado, 1 para encendido"
 msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
 msgstr "Cantidad total en el dispositivo"
-
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
-msgstr "Cuánta energía está utilizando realmente el dispositivo o la red"
 
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
@@ -2803,15 +2768,15 @@ msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "Latencia:"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHealth1']
-msgctxt "Interface.LogicTypePlantHealth1"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
+#: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
+msgctxt "Interface.LogicTypeElevatorLevel"
+msgid "Level the elevator is currently at"
+msgstr "Nivel en el que se encuentra actualmente el ascensor"
 
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
-msgstr ""
+#: /Language/Interface/Record[Key='Space']
+msgctxt "Interface.Space"
+msgid "Space"
+msgstr "Espacio"
 
 #~ msgctxt "Interface.Incident_ElectroMagnetic_Title"
 #~ msgid "Power Surge"
