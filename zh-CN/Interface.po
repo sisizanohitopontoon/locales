@@ -134,16 +134,17 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "月球"
 
+#: /Language/Interface/Record[Key='Space']
+#, fuzzy
+msgctxt "Interface.Space"
+msgid "Space"
+msgstr "太空"
+
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 #, fuzzy
 msgctxt "Interface.WorldInfoMapName"
 msgid "Map:"
 msgstr "地图:"
-
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
-msgstr ""
 
 #: /Language/Interface/Record[Key='Vulcan2']
 msgctxt "Interface.Vulcan2"
@@ -648,15 +649,15 @@ msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "服务器名称"
 
-#: /Language/Interface/Record[Key='LogicTypePowerActual']
-msgctxt "Interface.LogicTypePowerActual"
-msgid "How much energy the device or network is actually using"
-msgstr "电网实际耗电量"
-
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "密码"
+
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
+msgstr "设备输出物品的总数"
 
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
@@ -792,15 +793,15 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "一旦放置使用 {0} 进行升级."
 
+#: /Language/Interface/Record[Key='TooltipAllowsMounting']
+msgctxt "Interface.TooltipAllowsMounting"
+msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
+msgstr "允许安装墙壁放置设备。升级以允许更好的放置区域。"
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
 msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "放置在网格上."
-
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "放置在网格面上."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
@@ -989,11 +990,6 @@ msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "你死了."
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "游戏时间:"
-
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -1008,6 +1004,11 @@ msgstr "放弃"
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "你是无意识的。你想放弃和重生吗？"
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "游戏时间:"
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
@@ -1220,6 +1221,41 @@ msgstr "新世界"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "继续"
+
+#: /Language/Interface/Record[Key='TierTwo']
+msgctxt "Interface.TierTwo"
+msgid "Tier Two"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TierOne']
+msgctxt "Interface.TierOne"
+msgid "Tier One"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TierThree']
+msgctxt "Interface.TierThree"
+msgid "Tier Three"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CreationMultiplier']
+msgctxt "Interface.CreationMultiplier"
+msgid "Creation Multiplier"
+msgstr ""
+
+#: /Language/Interface/Record[Key='EnergyCostMultiplier']
+msgctxt "Interface.EnergyCostMultiplier"
+msgid "Energy Cost Multiplier"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MaterialCostMultiplier']
+msgctxt "Interface.MaterialCostMultiplier"
+msgid "Material Cost Multiplier"
+msgstr ""
+
+#: /Language/Interface/Record[Key='BuildTimeMultiplier']
+msgctxt "Interface.BuildTimeMultiplier"
+msgid "Build Time Mulitplier"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PromptResumeButton']
 msgctxt "Interface.PromptResumeButton"
@@ -1799,10 +1835,10 @@ msgctxt "Interface.LogicTypePlantHealth2"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePlantHealth1']
-msgctxt "Interface.LogicTypePlantHealth1"
-msgid "DEPRECATED"
-msgstr ""
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "放置在网格面上."
 
 #: /Language/Interface/Record[Key='LogicTypeImportSlotHash']
 msgctxt "Interface.LogicTypeImportSlotHash"
@@ -1819,10 +1855,10 @@ msgctxt "Interface.LogicTypeRecipeHash"
 msgid "Current hash of the recipe the device is set to produce"
 msgstr "设备设置为生产的配方的当前哈希"
 
-#: /Language/Interface/Record[Key='TooltipAllowsMounting']
-msgctxt "Interface.TooltipAllowsMounting"
-msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
-msgstr "允许安装墙壁放置设备。升级以允许更好的放置区域。"
+#: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
+msgctxt "Interface.LogicTypeElevatorLevel"
+msgid "Level the elevator is currently at"
+msgstr "显示电梯的楼层"
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
 msgctxt "Interface.LogicTypeElevatorSpeed"
@@ -1864,11 +1900,6 @@ msgctxt "Interface.LogicTypeExportSlotOccupant"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
-msgctxt "Interface.LogicTypeExportQuantity"
-msgid "Total quantity of items exported by the device"
-msgstr "设备输出物品的总数"
-
 #: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
 msgctxt "Interface.LogicTypeImportSlotOccupant"
 msgid "DEPRECATED"
@@ -1888,6 +1919,11 @@ msgstr "设备的当前状态, 0 为关闭, 1 表示"
 msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
 msgstr "设备上的物品总数量"
+
+#: /Language/Interface/Record[Key='LogicTypePowerActual']
+msgctxt "Interface.LogicTypePowerActual"
+msgid "How much energy the device or network is actually using"
+msgstr "电网实际耗电量"
 
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
@@ -2784,16 +2820,15 @@ msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "延迟:"
 
-#: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
-msgctxt "Interface.LogicTypeElevatorLevel"
-msgid "Level the elevator is currently at"
-msgstr "显示电梯的楼层"
+#: /Language/Interface/Record[Key='LogicTypePlantHealth1']
+msgctxt "Interface.LogicTypePlantHealth1"
+msgid "DEPRECATED"
+msgstr ""
 
-#: /Language/Interface/Record[Key='Space']
-#, fuzzy
-msgctxt "Interface.Space"
-msgid "Space"
-msgstr "太空"
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
+msgstr ""
 
 #~ msgctxt "Interface.WorldInfoTextPlayers"
 #~ msgid "Players:"
