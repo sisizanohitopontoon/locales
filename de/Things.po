@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='ItemKitBasket']
-msgctxt "Things.ItemKitBasket"
-msgid "Kit (Basket)"
-msgstr "Basketballkorb (Bausatz)"
+#: /Language/Things/Record[Key='ItemGasFilterNitrousOxide']
+msgctxt "Things.ItemGasFilterNitrousOxide"
+msgid "Filter (Nitrous Oxide)"
+msgstr "Leichter Filter (Lachgas - N2O)"
+
+#: /Language/Things/Record[Key='ItemGasFilterVolatilesL']
+msgctxt "Things.ItemGasFilterVolatilesL"
+msgid "Heavy Filter (Volatiles)"
+msgstr "Schwerer Filter (Flüchtige Stoffe - H2)"
+
+#: /Language/Things/Record[Key='ItemGasFilterPollutantsM']
+msgctxt "Things.ItemGasFilterPollutantsM"
+msgid "Medium Filter (Pollutants)"
+msgstr "Mittlerer Filter (Schadstoffe - X)"
 
 #: /Language/Things/Record[Key='ItemGasFilterPollutantsL']
 msgctxt "Things.ItemGasFilterPollutantsL"
@@ -245,15 +255,15 @@ msgctxt "Things.StructureVendingMachine"
 msgid "Vending Machine"
 msgstr "Verkaufsautomat"
 
+#: /Language/Things/Record[Key='CartridgeAccessController']
+msgctxt "Things.CartridgeAccessController"
+msgid "Cartridge (Access Controller)"
+msgstr "Kassette (Zugangskontrolle)"
+
 #: /Language/Things/Record[Key='ItemKitDynamicGenerator']
 msgctxt "Things.ItemKitDynamicGenerator"
 msgid "Kit (Portable Generator)"
 msgstr "Portabler Generator (Bausatz)"
-
-#: /Language/Things/Record[Key='ItemWreckage4']
-msgctxt "Things.ItemWreckage4"
-msgid "Wreckage"
-msgstr "Trümmer"
 
 #: /Language/Things/Record[Key='ItemKitPipeValve']
 msgctxt "Things.ItemKitPipeValve"
@@ -450,10 +460,10 @@ msgctxt "Things.AccessCardBlack"
 msgid "Access Card (Black)"
 msgstr "Zugangskarte (Schwarz)"
 
-#: /Language/Things/Record[Key='CartridgeAccessController']
-msgctxt "Things.CartridgeAccessController"
-msgid "Cartridge (Access Controller)"
-msgstr "Kassette (Zugangskontrolle)"
+#: /Language/Things/Record[Key='ItemWreckage4']
+msgctxt "Things.ItemWreckage4"
+msgid "Wreckage"
+msgstr "Trümmer"
 
 #: /Language/Things/Record[Key='ItemWreckage3']
 msgctxt "Things.ItemWreckage3"
@@ -1470,10 +1480,10 @@ msgctxt "Things.ItemNickelOre"
 msgid "Ore (Nickel)"
 msgstr "Nickelerz"
 
-#: /Language/Things/Record[Key='ItemGasFilterPollutantsM']
-msgctxt "Things.ItemGasFilterPollutantsM"
-msgid "Medium Filter (Pollutants)"
-msgstr "Mittlerer Filter (Schadstoffe - X)"
+#: /Language/Things/Record[Key='ItemGasFilterVolatilesM']
+msgctxt "Things.ItemGasFilterVolatilesM"
+msgid "Medium Filter (Volatiles)"
+msgstr "Mittlerer Filter (Flüchtige Stoffe - H2)"
 
 #: /Language/Things/Record[Key='ItemSilverOre']
 msgctxt "Things.ItemSilverOre"
@@ -2886,10 +2896,10 @@ msgctxt "Things.ItemDataDisk"
 msgid "Data Disk"
 msgstr "Daten-Diskette"
 
-#: /Language/Things/Record[Key='ItemGasFilterVolatilesL']
-msgctxt "Things.ItemGasFilterVolatilesL"
-msgid "Heavy Filter (Volatiles)"
-msgstr "Schwerer Filter (Flüchtige Stoffe - H2)"
+#: /Language/Things/Record[Key='ItemGasFilterWaterL']
+msgctxt "Things.ItemGasFilterWaterL"
+msgid "Heavy Filter (Water)"
+msgstr "Schwerer Filter (Wasser - H2O)"
 
 #: /Language/Things/Record[Key='ItemCorn']
 msgctxt "Things.ItemCorn"
@@ -3456,16 +3466,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrowelle"
 
-#: /Language/Things/Record[Key='ItemGasFilterVolatilesM']
-msgctxt "Things.ItemGasFilterVolatilesM"
-msgid "Medium Filter (Volatiles)"
-msgstr "Mittlerer Filter (Flüchtige Stoffe - H2)"
-
-#: /Language/Things/Record[Key='ItemGasFilterWaterL']
-msgctxt "Things.ItemGasFilterWaterL"
-msgid "Heavy Filter (Water)"
-msgstr "Schwerer Filter (Wasser - H2O)"
-
 #: /Language/Things/Record[Key='ItemGasFilterWaterM']
 msgctxt "Things.ItemGasFilterWaterM"
 msgid "Medium Filter (Water)"
@@ -3566,15 +3566,15 @@ msgctxt "Things.ItemBasketBall"
 msgid "Basket Ball"
 msgstr "Basketball"
 
+#: /Language/Things/Record[Key='ItemKitBasket']
+msgctxt "Things.ItemKitBasket"
+msgid "Kit (Basket)"
+msgstr "Basketballkorb (Bausatz)"
+
 #: /Language/Things/Record[Key='StructureBasketHoop']
 msgctxt "Things.StructureBasketHoop"
 msgid "Structure Basket Hoop"
 msgstr "Basketballkorb"
-
-#: /Language/Things/Record[Key='ItemGasFilterNitrousOxide']
-msgctxt "Things.ItemGasFilterNitrousOxide"
-msgid "Filter (Nitrous Oxide)"
-msgstr "Leichter Filter (Lachgas - N2O)"
 
 #: /Language/Things/Record[Key='ItemGasFilterNitrousOxideL']
 msgctxt "Things.ItemGasFilterNitrousOxideL"
@@ -3921,6 +3921,17 @@ msgctxt "Things.ToolPrinterMod"
 msgid "Tool Printer Mod"
 msgstr "Elektronikdrucker"
 
+#: /Language/Things/Record[Key='StructureTransformerMedium']
+#, fuzzy
+msgctxt "Things.StructureTransformerMedium"
+msgid "Structure Transformer Medium"
+msgstr "Strukturrahmen Eckschnitt"
+
+#: /Language/Things/Record[Key='StructureTransformerMediumReversed']
+msgctxt "Things.StructureTransformerMediumReversed"
+msgid "Structure Transformer Medium Reversed"
+msgstr ""
+
 #: /Language/Things/Record[Key='ItemCrowbar']
 msgctxt "Things.ItemCrowbar"
 msgid "Crowbar"
@@ -3929,10 +3940,6 @@ msgstr "Stemmeisen"
 #~ msgctxt "Things.ItemGasFilterCarbonDioxide"
 #~ msgid "Filter (CO2)"
 #~ msgstr "Leichter Filter (Kohlenstoffdioxid - CO2)"
-
-#~ msgctxt "Things.StructureFrameCornerCut"
-#~ msgid "Structure Frame Corner Cut"
-#~ msgstr "Strukturrahmen Eckschnitt"
 
 #~ msgctxt "Things.CircuitboardAdvancedAirlockControl"
 #~ msgid "Circuitboard Advanced Airlock Control"

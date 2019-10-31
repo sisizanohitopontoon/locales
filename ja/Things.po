@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='ItemKitBasket']
-msgctxt "Things.ItemKitBasket"
-msgid "Kit (Basket)"
-msgstr "キット (バスケット)"
+#: /Language/Things/Record[Key='ItemGasFilterNitrousOxide']
+msgctxt "Things.ItemGasFilterNitrousOxide"
+msgid "Filter (Nitrous Oxide)"
+msgstr "フィルター (亜酸化窒素)"
+
+#: /Language/Things/Record[Key='ItemGasFilterVolatilesL']
+msgctxt "Things.ItemGasFilterVolatilesL"
+msgid "Heavy Filter (Volatiles)"
+msgstr "重フィルター (揮発性ガス)"
+
+#: /Language/Things/Record[Key='ItemGasFilterPollutantsM']
+msgctxt "Things.ItemGasFilterPollutantsM"
+msgid "Medium Filter (Pollutants)"
+msgstr "中フィルター (汚染ガス)"
 
 #: /Language/Things/Record[Key='ItemGasFilterPollutantsL']
 msgctxt "Things.ItemGasFilterPollutantsL"
@@ -245,15 +255,15 @@ msgctxt "Things.StructureVendingMachine"
 msgid "Vending Machine"
 msgstr "自動販売機"
 
+#: /Language/Things/Record[Key='CartridgeAccessController']
+msgctxt "Things.CartridgeAccessController"
+msgid "Cartridge (Access Controller)"
+msgstr "カードリッジ (アクセスコントローラー)"
+
 #: /Language/Things/Record[Key='ItemKitDynamicGenerator']
 msgctxt "Things.ItemKitDynamicGenerator"
 msgid "Kit (Portable Generator)"
 msgstr "キット (携帯発電機)"
-
-#: /Language/Things/Record[Key='ItemWreckage4']
-msgctxt "Things.ItemWreckage4"
-msgid "Wreckage"
-msgstr "残骸"
 
 #: /Language/Things/Record[Key='ItemKitPipeValve']
 msgctxt "Things.ItemKitPipeValve"
@@ -450,10 +460,10 @@ msgctxt "Things.AccessCardBlack"
 msgid "Access Card (Black)"
 msgstr "アクセスカード (黒)"
 
-#: /Language/Things/Record[Key='CartridgeAccessController']
-msgctxt "Things.CartridgeAccessController"
-msgid "Cartridge (Access Controller)"
-msgstr "カードリッジ (アクセスコントローラー)"
+#: /Language/Things/Record[Key='ItemWreckage4']
+msgctxt "Things.ItemWreckage4"
+msgid "Wreckage"
+msgstr "残骸"
 
 #: /Language/Things/Record[Key='ItemWreckage3']
 msgctxt "Things.ItemWreckage3"
@@ -1470,10 +1480,10 @@ msgctxt "Things.ItemNickelOre"
 msgid "Ore (Nickel)"
 msgstr "鉱石 (ニッケル)"
 
-#: /Language/Things/Record[Key='ItemGasFilterPollutantsM']
-msgctxt "Things.ItemGasFilterPollutantsM"
-msgid "Medium Filter (Pollutants)"
-msgstr "中フィルター (汚染ガス)"
+#: /Language/Things/Record[Key='ItemGasFilterVolatilesM']
+msgctxt "Things.ItemGasFilterVolatilesM"
+msgid "Medium Filter (Volatiles)"
+msgstr "中フィルター (揮発性ガス)"
 
 #: /Language/Things/Record[Key='ItemSilverOre']
 msgctxt "Things.ItemSilverOre"
@@ -2886,10 +2896,10 @@ msgctxt "Things.ItemDataDisk"
 msgid "Data Disk"
 msgstr "データディスク"
 
-#: /Language/Things/Record[Key='ItemGasFilterVolatilesL']
-msgctxt "Things.ItemGasFilterVolatilesL"
-msgid "Heavy Filter (Volatiles)"
-msgstr "重フィルター (揮発性ガス)"
+#: /Language/Things/Record[Key='ItemGasFilterWaterL']
+msgctxt "Things.ItemGasFilterWaterL"
+msgid "Heavy Filter (Water)"
+msgstr "重フィルター (水)"
 
 #: /Language/Things/Record[Key='ItemCorn']
 msgctxt "Things.ItemCorn"
@@ -3456,16 +3466,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "電子レンジ"
 
-#: /Language/Things/Record[Key='ItemGasFilterVolatilesM']
-msgctxt "Things.ItemGasFilterVolatilesM"
-msgid "Medium Filter (Volatiles)"
-msgstr "中フィルター (揮発性ガス)"
-
-#: /Language/Things/Record[Key='ItemGasFilterWaterL']
-msgctxt "Things.ItemGasFilterWaterL"
-msgid "Heavy Filter (Water)"
-msgstr "重フィルター (水)"
-
 #: /Language/Things/Record[Key='ItemGasFilterWaterM']
 msgctxt "Things.ItemGasFilterWaterM"
 msgid "Medium Filter (Water)"
@@ -3566,15 +3566,15 @@ msgctxt "Things.ItemBasketBall"
 msgid "Basket Ball"
 msgstr "バスケットボール"
 
+#: /Language/Things/Record[Key='ItemKitBasket']
+msgctxt "Things.ItemKitBasket"
+msgid "Kit (Basket)"
+msgstr "キット (バスケット)"
+
 #: /Language/Things/Record[Key='StructureBasketHoop']
 msgctxt "Things.StructureBasketHoop"
 msgid "Structure Basket Hoop"
 msgstr "バスケットゴール"
-
-#: /Language/Things/Record[Key='ItemGasFilterNitrousOxide']
-msgctxt "Things.ItemGasFilterNitrousOxide"
-msgid "Filter (Nitrous Oxide)"
-msgstr "フィルター (亜酸化窒素)"
 
 #: /Language/Things/Record[Key='ItemGasFilterNitrousOxideL']
 msgctxt "Things.ItemGasFilterNitrousOxideL"
@@ -3921,6 +3921,17 @@ msgctxt "Things.ToolPrinterMod"
 msgid "Tool Printer Mod"
 msgstr "エレクトロニックプリンター"
 
+#: /Language/Things/Record[Key='StructureTransformerMedium']
+#, fuzzy
+msgctxt "Things.StructureTransformerMedium"
+msgid "Structure Transformer Medium"
+msgstr "コーナカット建材"
+
+#: /Language/Things/Record[Key='StructureTransformerMediumReversed']
+msgctxt "Things.StructureTransformerMediumReversed"
+msgid "Structure Transformer Medium Reversed"
+msgstr ""
+
 #: /Language/Things/Record[Key='ItemCrowbar']
 msgctxt "Things.ItemCrowbar"
 msgid "Crowbar"
@@ -3929,10 +3940,6 @@ msgstr "バール"
 #~ msgctxt "Things.ItemGasFilterCarbonDioxide"
 #~ msgid "Filter (CO2)"
 #~ msgstr "フィルター(二酸化炭素)"
-
-#~ msgctxt "Things.StructureFrameCornerCut"
-#~ msgid "Structure Frame Corner Cut"
-#~ msgstr "コーナカット建材"
 
 #~ msgctxt "Things.StructureCompositeWindowIron"
 #~ msgid "Structure Composite Window Iron"
