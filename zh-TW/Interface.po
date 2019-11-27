@@ -652,15 +652,15 @@ msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "密碼"
 
-#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
-msgctxt "Interface.LogicTypeExportQuantity"
-msgid "Total quantity of items exported by the device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
 msgid "Max Players"
 msgstr "最多人數"
+
+#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
+msgctxt "Interface.LogicTypeImportQuantity"
+msgid "Total quantity of items imported by the device"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayer']
 msgctxt "Interface.SettingsTitleMultiplayer"
@@ -796,10 +796,10 @@ msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 msgstr "建造{THING:StructureFrame}可以允許裝置安裝在上面,升級{THING:StructureFrame}可以得到較好的安裝區域"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "安裝在網格面上."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
+msgctxt "Interface.TooltipPlacementSnapGrid"
+msgid "Placement is snapped to the grid."
+msgstr "安裝在網格上."
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
@@ -1828,10 +1828,10 @@ msgctxt "Interface.LogicTypePlantHealth2"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
-msgctxt "Interface.TooltipPlacementSnapGrid"
-msgid "Placement is snapped to the grid."
-msgstr "安裝在網格上."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "安裝在網格面上."
 
 #: /Language/Interface/Record[Key='LogicTypeImportSlotHash']
 msgctxt "Interface.LogicTypeImportSlotHash"
@@ -1894,14 +1894,14 @@ msgctxt "Interface.LogicTypeExportSlotOccupant"
 msgid "DEPRECATED"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeExportQuantity']
+msgctxt "Interface.LogicTypeExportQuantity"
+msgid "Total quantity of items exported by the device"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
 msgctxt "Interface.LogicTypeImportSlotOccupant"
 msgid "DEPRECATED"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
-msgctxt "Interface.LogicTypeImportQuantity"
-msgid "Total quantity of items imported by the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeOn']
