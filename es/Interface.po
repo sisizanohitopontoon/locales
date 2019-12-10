@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "Versión:"
+#: /Language/Interface/Record[Key='JoinMenuServerListMap']
+msgctxt "Interface.JoinMenuServerListMap"
+msgid "Map"
+msgstr "Mapa"
+
+#: /Language/Interface/Record[Key='WorldInfoMapName']
+msgctxt "Interface.WorldInfoMapName"
+msgid "Map:"
+msgstr "Mapa:"
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
 msgctxt "Interface.WorldInfoTextAsteroids"
@@ -105,6 +110,16 @@ msgctxt "Interface.NewWorldAreaSpace"
 msgid "Asteroid Belt"
 msgstr "Cinturón de asteróides"
 
+#: /Language/Interface/Record[Key='NewWorldAreaWasteland']
+msgctxt "Interface.NewWorldAreaWasteland"
+msgid "Loulan"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WastelandShortDesc']
+msgctxt "Interface.WastelandShortDesc"
+msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
+msgstr ""
+
 #: /Language/Interface/Record[Key='NewWorldAreaMars']
 msgctxt "Interface.NewWorldAreaMars"
 msgid "Mars"
@@ -130,15 +145,15 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "Luna"
 
-#: /Language/Interface/Record[Key='Space']
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "Cinturón de asteróides"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Tiempo de juego:"
 
-#: /Language/Interface/Record[Key='WorldInfoMapName']
-msgctxt "Interface.WorldInfoMapName"
-msgid "Map:"
-msgstr "Mapa:"
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
+msgstr "Vulcan"
 
 #: /Language/Interface/Record[Key='Vulcan2']
 msgctxt "Interface.Vulcan2"
@@ -541,10 +556,10 @@ msgctxt "Interface.AlertButtonTitle"
 msgid "Attention"
 msgstr "Atención"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Tiempo de juego:"
+#: /Language/Interface/Record[Key='ServerSettingsButtonReset']
+msgctxt "Interface.ServerSettingsButtonReset"
+msgid "Reset Settings"
+msgstr "Restablecer Ajustes"
 
 #: /Language/Interface/Record[Key='ButtonConfirm']
 msgctxt "Interface.ButtonConfirm"
@@ -641,6 +656,11 @@ msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "Nombre Servidor"
 
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
+msgstr "Equipo de comunicaciones de ajuste horizontal para el dispositivo"
+
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
@@ -650,11 +670,6 @@ msgstr "Contraseña"
 msgctxt "Interface.SettingsServerMaxPlayers"
 msgid "Max Players"
 msgstr "Número de Jugadores Max"
-
-#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
-msgctxt "Interface.LogicTypeImportQuantity"
-msgid "Total quantity of items imported by the device"
-msgstr "Cantidad total de artículos importados por el dispositivo"
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayer']
 msgctxt "Interface.SettingsTitleMultiplayer"
@@ -793,6 +808,11 @@ msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "La colocación se ajusta a la cuadrícula."
 
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "La colocación se ajusta a las caras de la cuadrícula."
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
 msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
@@ -802,11 +822,6 @@ msgstr "La ubicación solo está permitida {THING:StructureFrameIron} y {THING:S
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
 msgstr "Borrar Jugadores Desconectados"
-
-#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
-msgctxt "Interface.SettingsInvertMouseWheelInventory"
-msgid "Invert Inventory Scroll"
-msgstr "Invertir Desplazamiento de Inventario"
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
 msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
@@ -988,11 +1003,6 @@ msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
 msgstr "Rendirse"
 
-#: /Language/Interface/Record[Key='ServerSettingsButtonReset']
-msgctxt "Interface.ServerSettingsButtonReset"
-msgid "Reset Settings"
-msgstr "Restablecer Ajustes"
-
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
@@ -1012,6 +1022,11 @@ msgstr "El archivo {0} no es válido. Compruebe el mundo {1}."
 msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Dirección IP no válida {0} \\nVerificar dirección IP o una URL válida"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Guardar:"
 
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
@@ -1134,26 +1149,6 @@ msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "Supervivencia"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListMap']
-msgctxt "Interface.JoinMenuServerListMap"
-msgid "Map"
-msgstr "Mapa"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
-msgctxt "Interface.JoinMenuInfoIPAddress"
-msgid "IP Address:"
-msgstr "Dirección IP:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoMap']
-msgctxt "Interface.JoinMenuInfoMap"
-msgid "Map:"
-msgstr "Mapa:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Guardar:"
-
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
@@ -1208,6 +1203,53 @@ msgstr "Nuevo Mundo"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuar"
+
+#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
+msgctxt "Interface.SettingsInvertMouseWheelInventory"
+msgid "Invert Inventory Scroll"
+msgstr "Invertir Desplazamiento de Inventario"
+
+#: /Language/Interface/Record[Key='PromptTravelConfirm']
+#, fuzzy
+msgctxt "Interface.PromptTravelConfirm"
+msgid "Travel"
+msgstr "Guardar"
+
+#: /Language/Interface/Record[Key='TravelMenuNamePlaceholder']
+#, fuzzy
+msgctxt "Interface.TravelMenuNamePlaceholder"
+msgid "Travel world name"
+msgstr "Guardar"
+
+#: /Language/Interface/Record[Key='PromptTravelBody']
+#, fuzzy
+msgctxt "Interface.PromptTravelBody"
+msgid "Are you sure you want to travel map?"
+msgstr "Seguro que Quieres Salir?"
+
+#: /Language/Interface/Record[Key='GameMenuButtonTravel']
+#, fuzzy
+msgctxt "Interface.GameMenuButtonTravel"
+msgid "Travel World"
+msgstr "Guardar"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravel']
+#, fuzzy
+msgctxt "Interface.TravelMenuButtonTravel"
+msgid "Travel World"
+msgstr "Guardar"
+
+#: /Language/Interface/Record[Key='TravelMenuListTitle']
+#, fuzzy
+msgctxt "Interface.TravelMenuListTitle"
+msgid "Available Worlds"
+msgstr "Guardar Mundos"
+
+#: /Language/Interface/Record[Key='TravelMenuTitle']
+#, fuzzy
+msgctxt "Interface.TravelMenuTitle"
+msgid "Travel World"
+msgstr "Guardar"
 
 #: /Language/Interface/Record[Key='TierTwo']
 msgctxt "Interface.TierTwo"
@@ -1810,10 +1852,10 @@ msgctxt "Interface.LogicTypePlantHealth2"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "La colocación se ajusta a las caras de la cuadrícula."
+#: /Language/Interface/Record[Key='LogicTypePlantHealth1']
+msgctxt "Interface.LogicTypePlantHealth1"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='LogicTypeImportSlotHash']
 msgctxt "Interface.LogicTypeImportSlotHash"
@@ -1860,11 +1902,6 @@ msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
 msgstr "Equipo de comunicaciones de ajuste vertical para el dispositivo"
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr "Equipo de comunicaciones de ajuste horizontal para el dispositivo"
-
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
 msgctxt "Interface.LogicTypeRequiredPower"
 msgid "Idle operating power quantity, does not necessarily include extra demand power"
@@ -1884,6 +1921,11 @@ msgstr "Cantidad total de artículos exportados por el dispositivo"
 msgctxt "Interface.LogicTypeImportSlotOccupant"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypeImportQuantity']
+msgctxt "Interface.LogicTypeImportQuantity"
+msgid "Total quantity of items imported by the device"
+msgstr "Cantidad total de artículos importados por el dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeOn']
 msgctxt "Interface.LogicTypeOn"
@@ -2254,9 +2296,7 @@ msgstr "Notificaciones de Voz"
 #, fuzzy
 msgctxt "Interface.NewWorldMimasShortDesc"
 msgid ""
-"\n"
-"        A barren rock nestled under the wing of Saturn's spectular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.\n"
-"        Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.\n"
+"A barren rock nestled under the wing of Saturn's spectular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.\n"
 "      "
 msgstr ""
 "\n"
@@ -2268,9 +2308,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Interface.NewWorldVulcan2ShortDesc"
 msgid ""
-"\n"
-"        A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders.\n"
-"        Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!\n"
+"A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders.Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!\n"
 "      "
 msgstr "Un mundo desgarrado debido a las fuerzas de marea masivas del agujero negro supermasivo que orbita. Vulcan ofrece pocas esperanzas para cualquier organismo que termine aquí, pero su superficie fracturada y ricos depósitos minerales lo convierten en una aventura arriesgada pero rentable para los comerciantes emprendedores. ¡Cuidado con las profundas grietas que conducen a flujos mortales de magma bajo la superficie!"
 
@@ -2283,9 +2321,7 @@ msgstr "El entorno volátil de Vulcan es vulnerable para muy pocos organismos vi
 #, fuzzy
 msgctxt "Interface.NewWorldEuropaShortDesc"
 msgid ""
-"\n"
-"        Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents a serious challenge for the stationeers.\n"
-"        The extreme cold will cause batteries to rapidly lose power, so getting a steady power souce and warm location are your priorities.\n"
+"Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents a serious challenge for the stationeers.The extreme cold will cause batteries to rapidly lose power, so getting a steady power souce and warm location are your priorities.\n"
 "      "
 msgstr "El deshielo en este mundo frío le ha dado finalmente una atmósfera, pero su ambiente extremadamente glacial presenta un desafío extremo para los stationeers."
 
@@ -2298,9 +2334,7 @@ msgstr "Aunque no hay gravedad ni atmósfera, al menos hay mucho espacio para co
 #, fuzzy
 msgctxt "Interface.NewWorldMoonShortDesc"
 msgid ""
-"\n"
-"        While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape.\n"
-"        A great location for the budding stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds\n"
+"While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape.A great location for the budding stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds\n"
 "      "
 msgstr "Mientras que la cantidad de carbón no es una característica de la Luna de la Tierra, el terreno relativamente llano lleno de cráteres de varios tamaños y la falta de atmósfera pueden ser más familiares en este paisaje gris."
 
@@ -2564,9 +2598,7 @@ msgstr "Ingrese su nombre..."
 #, fuzzy
 msgctxt "Interface.NewWorldSpaceDesc"
 msgid ""
-"\n"
-"        This is Stationeers Creative Mode!\n"
-"        Spawn in any item, test ideas and build bonkers stuff real fast.\n"
+"This is Stationeers Creative Mode!Spawn in any item, test ideas and build bonkers stuff real fast.\n"
 "        <color=red>This mode is experimental.</color> Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.\n"
 "        Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.\n"
 "        *bugs\n"
@@ -2582,9 +2614,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Interface.NewWorldMoonDesc"
 msgid ""
-"\n"
-"        So you're stuck on the moon, but it's not all bad.\n"
-"        Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.\n"
+"So you're stuck on the moon, but it's not all bad.Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.\n"
 "        There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery.\n"
 "        You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?\n"
 "        Looks like you're gonna be here a while.\n"
@@ -2791,40 +2821,25 @@ msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "Latencia:"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHealth1']
-msgctxt "Interface.LogicTypePlantHealth1"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "Versión:"
 
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
-msgstr "Vulcan"
+#: /Language/Interface/Record[Key='JoinMenuInfoMap']
+msgctxt "Interface.JoinMenuInfoMap"
+msgid "Map:"
+msgstr "Mapa:"
 
-#, fuzzy
-#~ msgctxt "Interface.PromptTravelBody"
-#~ msgid "Are you sure you want to travel map?"
-#~ msgstr "Seguro que Quieres Salir?"
+#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
+msgctxt "Interface.JoinMenuInfoIPAddress"
+msgid "IP Address:"
+msgstr "Dirección IP:"
 
-#, fuzzy
-#~ msgctxt "Interface.GameMenuButtonTravel"
-#~ msgid "Travel World"
-#~ msgstr "Guardar"
-
-#, fuzzy
-#~ msgctxt "Interface.TravelMenuButtonTravel"
-#~ msgid "Travel World"
-#~ msgstr "Guardar"
-
-#, fuzzy
-#~ msgctxt "Interface.TravelMenuListTitle"
-#~ msgid "Available Worlds"
-#~ msgstr "Guardar Mundos"
-
-#, fuzzy
-#~ msgctxt "Interface.TravelMenuTitle"
-#~ msgid "Travel World"
-#~ msgstr "Guardar"
+#: /Language/Interface/Record[Key='Space']
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "Cinturón de asteróides"
 
 #~ msgctxt "Interface.NewWorldAreaSpace"
 #~ msgid "Space"
