@@ -15,6 +15,11 @@ msgctxt "Things.ItemGasFilterNitrousOxideL"
 msgid "Heavy Filter (Nitrous Oxide)"
 msgstr "Filtro Pesado (Óxido de nitrógeno)"
 
+#: /Language/Things/Record[Key='ItemGasFilterWaterL']
+msgctxt "Things.ItemGasFilterWaterL"
+msgid "Heavy Filter (Water)"
+msgstr "Filtro Pesado (Agua)"
+
 #: /Language/Things/Record[Key='ItemGasFilterVolatilesM']
 msgctxt "Things.ItemGasFilterVolatilesM"
 msgid "Medium Filter (Volatiles)"
@@ -1465,15 +1470,15 @@ msgctxt "Things.ItemSilverIngot"
 msgid "Ingot (Silver)"
 msgstr "Lingote (Plata)"
 
-#: /Language/Things/Record[Key='ItemGasFilterWaterL']
-msgctxt "Things.ItemGasFilterWaterL"
-msgid "Heavy Filter (Water)"
-msgstr "Filtro Pesado (Agua)"
-
 #: /Language/Things/Record[Key='ItemElectrumIngot']
 msgctxt "Things.ItemElectrumIngot"
 msgid "Ingot (Electrum)"
 msgstr "Lingote (Electrum)"
+
+#: /Language/Things/Record[Key='ItemGasFilterWaterM']
+msgctxt "Things.ItemGasFilterWaterM"
+msgid "Medium Filter (Water)"
+msgstr "Filtro Mediano (Agua)"
 
 #: /Language/Things/Record[Key='WeaponRifleEnergy']
 msgctxt "Things.WeaponRifleEnergy"
@@ -1802,8 +1807,8 @@ msgstr "Cama"
 
 #: /Language/Things/Record[Key='StructureRTG']
 msgctxt "Things.StructureRTG"
-msgid "RTG"
-msgstr "RTG"
+msgid "Creative RTG"
+msgstr ""
 
 #: /Language/Things/Record[Key='StructureRocketEngineTiny']
 msgctxt "Things.StructureRocketEngineTiny"
@@ -2425,9 +2430,16 @@ msgctxt "Things.ItemScanner"
 msgid "Handheld Scanner"
 msgstr "Escáner de Mano"
 
-#: /Language/Things/Record[Key='ItemRTG']
-msgctxt "Things.ItemRTG"
+#: /Language/Things/Record[Key='ItemRTGSurvival']
+#, fuzzy
+msgctxt "Things.ItemRTGSurvival"
 msgid "Kit (RTG)"
+msgstr "R T G"
+
+#: /Language/Things/Record[Key='ItemRTG']
+#, fuzzy
+msgctxt "Things.ItemRTG"
+msgid "Kit (Creative RTG)"
 msgstr "R T G"
 
 #: /Language/Things/Record[Key='ItemRoadFlare']
@@ -2890,10 +2902,10 @@ msgctxt "Things.ItemDuctTape"
 msgid "Duct Tape"
 msgstr "Cinta Adhesiva"
 
-#: /Language/Things/Record[Key='ItemGasFilterWaterM']
-msgctxt "Things.ItemGasFilterWaterM"
-msgid "Medium Filter (Water)"
-msgstr "Filtro Mediano (Agua)"
+#: /Language/Things/Record[Key='ItemMushroom']
+msgctxt "Things.ItemMushroom"
+msgid "Mushroom"
+msgstr "Seta"
 
 #: /Language/Things/Record[Key='ItemDataDisk']
 msgctxt "Things.ItemDataDisk"
@@ -3470,11 +3482,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Microondas"
 
-#: /Language/Things/Record[Key='ItemMushroom']
-msgctxt "Things.ItemMushroom"
-msgid "Mushroom"
-msgstr "Seta"
-
 #: /Language/Things/Record[Key='ItemPumpkin']
 msgctxt "Things.ItemPumpkin"
 msgid "Pumpkin"
@@ -3905,10 +3912,20 @@ msgctxt "Things.ItemJetpackBasic"
 msgid "Item Jetpack Basic"
 msgstr "Jetpack Básico"
 
+#: /Language/Things/Record[Key='StructureRTGSurvival']
+#, fuzzy
+msgctxt "Things.StructureRTGSurvival"
+msgid "Structure RTG"
+msgstr "Pared Plana"
+
 #: /Language/Things/Record[Key='ItemDrill']
 msgctxt "Things.ItemDrill"
 msgid "Hand Drill"
 msgstr "Taladro de Mano"
+
+#~ msgctxt "Things.StructureRTG"
+#~ msgid "RTG"
+#~ msgstr "RTG"
 
 #~ msgctxt "Things.ItemKitTransformerSmall"
 #~ msgid "Kit (Transformer Small)"
@@ -3949,7 +3966,3 @@ msgstr "Taladro de Mano"
 #~ msgctxt "Things.StructureCompositeWallPanelling1"
 #~ msgid "Structure Composite Wall Panelling1"
 #~ msgstr "Paneles de pared compuestos1"
-
-#~ msgctxt "Things.StructureWallFlat"
-#~ msgid "Structure Wall Flat"
-#~ msgstr "Pared Plana"

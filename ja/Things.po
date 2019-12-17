@@ -15,6 +15,11 @@ msgctxt "Things.ItemGasFilterNitrousOxideL"
 msgid "Heavy Filter (Nitrous Oxide)"
 msgstr "重フィルター (亜酸化窒素)"
 
+#: /Language/Things/Record[Key='ItemGasFilterWaterL']
+msgctxt "Things.ItemGasFilterWaterL"
+msgid "Heavy Filter (Water)"
+msgstr "重フィルター (水)"
+
 #: /Language/Things/Record[Key='ItemGasFilterVolatilesM']
 msgctxt "Things.ItemGasFilterVolatilesM"
 msgid "Medium Filter (Volatiles)"
@@ -1467,15 +1472,15 @@ msgctxt "Things.ItemSilverIngot"
 msgid "Ingot (Silver)"
 msgstr "インゴット (銀)"
 
-#: /Language/Things/Record[Key='ItemGasFilterWaterL']
-msgctxt "Things.ItemGasFilterWaterL"
-msgid "Heavy Filter (Water)"
-msgstr "重フィルター (水)"
-
 #: /Language/Things/Record[Key='ItemElectrumIngot']
 msgctxt "Things.ItemElectrumIngot"
 msgid "Ingot (Electrum)"
 msgstr "インゴット (エレクトラム)"
+
+#: /Language/Things/Record[Key='ItemGasFilterWaterM']
+msgctxt "Things.ItemGasFilterWaterM"
+msgid "Medium Filter (Water)"
+msgstr "中フィルター (水)"
 
 #: /Language/Things/Record[Key='WeaponRifleEnergy']
 msgctxt "Things.WeaponRifleEnergy"
@@ -1806,8 +1811,8 @@ msgstr "睡眠装置"
 
 #: /Language/Things/Record[Key='StructureRTG']
 msgctxt "Things.StructureRTG"
-msgid "RTG"
-msgstr "RTG"
+msgid "Creative RTG"
+msgstr ""
 
 #: /Language/Things/Record[Key='StructureRocketEngineTiny']
 msgctxt "Things.StructureRocketEngineTiny"
@@ -2429,9 +2434,16 @@ msgctxt "Things.ItemScanner"
 msgid "Handheld Scanner"
 msgstr "携帯スキャナー"
 
-#: /Language/Things/Record[Key='ItemRTG']
-msgctxt "Things.ItemRTG"
+#: /Language/Things/Record[Key='ItemRTGSurvival']
+#, fuzzy
+msgctxt "Things.ItemRTGSurvival"
 msgid "Kit (RTG)"
+msgstr "R T G"
+
+#: /Language/Things/Record[Key='ItemRTG']
+#, fuzzy
+msgctxt "Things.ItemRTG"
+msgid "Kit (Creative RTG)"
 msgstr "R T G"
 
 #: /Language/Things/Record[Key='ItemRoadFlare']
@@ -2895,10 +2907,10 @@ msgctxt "Things.ItemDuctTape"
 msgid "Duct Tape"
 msgstr "ダクトテープ"
 
-#: /Language/Things/Record[Key='ItemGasFilterWaterM']
-msgctxt "Things.ItemGasFilterWaterM"
-msgid "Medium Filter (Water)"
-msgstr "中フィルター (水)"
+#: /Language/Things/Record[Key='ItemMushroom']
+msgctxt "Things.ItemMushroom"
+msgid "Mushroom"
+msgstr "きのこ"
 
 #: /Language/Things/Record[Key='ItemDataDisk']
 msgctxt "Things.ItemDataDisk"
@@ -3475,11 +3487,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "電子レンジ"
 
-#: /Language/Things/Record[Key='ItemMushroom']
-msgctxt "Things.ItemMushroom"
-msgid "Mushroom"
-msgstr "きのこ"
-
 #: /Language/Things/Record[Key='ItemPumpkin']
 msgctxt "Things.ItemPumpkin"
 msgid "Pumpkin"
@@ -3942,10 +3949,20 @@ msgctxt "Things.ItemJetpackBasic"
 msgid "Item Jetpack Basic"
 msgstr ""
 
+#: /Language/Things/Record[Key='StructureRTGSurvival']
+#, fuzzy
+msgctxt "Things.StructureRTGSurvival"
+msgid "Structure RTG"
+msgstr "壁建材 平面"
+
 #: /Language/Things/Record[Key='ItemDrill']
 msgctxt "Things.ItemDrill"
 msgid "Hand Drill"
 msgstr "ハンドドリル"
+
+#~ msgctxt "Things.StructureRTG"
+#~ msgid "RTG"
+#~ msgstr "RTG"
 
 #~ msgctxt "Things.ItemKitTransformerSmall"
 #~ msgid "Kit (Transformer Small)"
@@ -3978,7 +3995,3 @@ msgstr "ハンドドリル"
 #~ msgctxt "Things.StructureCompositeWallPanelling1"
 #~ msgid "Structure Composite Wall Panelling1"
 #~ msgstr "複合材ウォールパネル建材1"
-
-#~ msgctxt "Things.StructureWallFlat"
-#~ msgid "Structure Wall Flat"
-#~ msgstr "壁建材 平面"
