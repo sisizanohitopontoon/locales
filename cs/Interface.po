@@ -656,10 +656,10 @@ msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "Název Serveru"
 
-#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
-msgctxt "Interface.LogicTypeVerticalRatio"
-msgid "Radio of vertical setting for device"
-msgstr "Rádio vertikálního nastavení pro zařízení"
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
@@ -821,10 +821,10 @@ msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
 msgstr "Vymazat Odpojené Hráče"
 
-#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
-msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
-msgid "Advanced Settings"
-msgstr "Upřesňující Nastavení"
+#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
+msgctxt "Interface.SettingsInvertMouseWheelInventory"
+msgid "Invert Inventory Scroll"
+msgstr "Invert Inventory Scroll"
 
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
 msgctxt "Interface.SettingsUPNPNote"
@@ -1016,15 +1016,15 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "Souboru {0} je neplatný. Zkontrolujte svět {1}."
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Uloženy:"
-
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Neplatná IP Adresa {0} \\nZkontroluj IP adresu nebo URL jestli je platná"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Uloženy:"
 
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
@@ -1202,10 +1202,22 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Pokračovat"
 
-#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
-msgctxt "Interface.SettingsInvertMouseWheelInventory"
-msgid "Invert Inventory Scroll"
-msgstr "Invert Inventory Scroll"
+#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
+msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
+msgid "Advanced Settings"
+msgstr "Upřesňující Nastavení"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
+#, fuzzy
+msgctxt "Interface.TravelMenuButtonTravelLoad"
+msgid "Load World"
+msgstr "Načíst Svět"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
+#, fuzzy
+msgctxt "Interface.TravelMenuButtonTravelNew"
+msgid "New World"
+msgstr "Nový Svět"
 
 #: /Language/Interface/Record[Key='Loulan']
 msgctxt "Interface.Loulan"
@@ -1884,15 +1896,15 @@ msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
 msgid "Power requested from the device and/or network"
 msgstr "Požadovaný výkon ze zařízení a / nebo sítě"
+
+#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
+msgctxt "Interface.LogicTypeVerticalRatio"
+msgid "Radio of vertical setting for device"
+msgstr "Rádio vertikálního nastavení pro zařízení"
 
 #: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
 msgctxt "Interface.LogicTypeHorizontalRatio"

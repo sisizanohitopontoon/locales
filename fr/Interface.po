@@ -656,10 +656,10 @@ msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "Nom du serveur"
 
-#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
-msgctxt "Interface.LogicTypeVerticalRatio"
-msgid "Radio of vertical setting for device"
-msgstr "Radio de réglage vertical pour le dispositif"
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr "Indique 1 si le périphérique est actuellement inactif, sinon 0"
 
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
@@ -823,10 +823,10 @@ msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
 msgstr "Effacer les joueurs déconnectés"
 
-#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
-msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
-msgid "Advanced Settings"
-msgstr "Paramètres multijoueurs avancés"
+#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
+msgctxt "Interface.SettingsInvertMouseWheelInventory"
+msgid "Invert Inventory Scroll"
+msgstr "Inverser le défilement de l'inventaire"
 
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
 msgctxt "Interface.SettingsUPNPNote"
@@ -1018,15 +1018,15 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "Le fichier {0} est invalide. Vérifiez le monde {1}."
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Sauvegardé le :"
-
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Adresse IP non valide {0} \\nVérifier que l'adresse IP ou l'URL soit valide"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Sauvegardé le :"
 
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
@@ -1204,10 +1204,22 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuer"
 
-#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
-msgctxt "Interface.SettingsInvertMouseWheelInventory"
-msgid "Invert Inventory Scroll"
-msgstr "Inverser le défilement de l'inventaire"
+#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
+msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
+msgid "Advanced Settings"
+msgstr "Paramètres multijoueurs avancés"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
+#, fuzzy
+msgctxt "Interface.TravelMenuButtonTravelLoad"
+msgid "Load World"
+msgstr "Charger ce monde"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
+#, fuzzy
+msgctxt "Interface.TravelMenuButtonTravelNew"
+msgid "New World"
+msgstr "Nouveau monde"
 
 #: /Language/Interface/Record[Key='Loulan']
 msgctxt "Interface.Loulan"
@@ -1885,15 +1897,15 @@ msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr "Le paramètre de couleur pour le périphérique, représenté sous la forme d'un entier"
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr "Indique 1 si le périphérique est actuellement inactif, sinon 0"
-
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
 msgid "Power requested from the device and/or network"
 msgstr "Puissance demandée à partir de l'appareil et/ou du réseau"
+
+#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
+msgctxt "Interface.LogicTypeVerticalRatio"
+msgid "Radio of vertical setting for device"
+msgstr "Radio de réglage vertical pour le dispositif"
 
 #: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
 msgctxt "Interface.LogicTypeHorizontalRatio"

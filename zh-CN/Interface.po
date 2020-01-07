@@ -664,10 +664,10 @@ msgctxt "Interface.SettingsServerName"
 msgid "Server Name"
 msgstr "服务器名称"
 
-#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
-msgctxt "Interface.LogicTypeVerticalRatio"
-msgid "Radio of vertical setting for device"
-msgstr "设备垂直设置无线电"
+#: /Language/Interface/Record[Key='LogicTypeIdle']
+msgctxt "Interface.LogicTypeIdle"
+msgid "Returns 1 if the device is currently idle, otherwise 0"
+msgstr "如果设备当前处于闲置状态, 则返回 1, 否则为0"
 
 #: /Language/Interface/Record[Key='SettingsServerPassword']
 msgctxt "Interface.SettingsServerPassword"
@@ -833,10 +833,10 @@ msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
 msgstr "清除断开连接的玩家"
 
-#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
-msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
-msgid "Advanced Settings"
-msgstr "高级设置"
+#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
+msgctxt "Interface.SettingsInvertMouseWheelInventory"
+msgid "Invert Inventory Scroll"
+msgstr "反转物品选择滚轴"
 
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
 #, fuzzy
@@ -1030,15 +1030,15 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "保存:"
-
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "无效的IP地址 {0} \\n检查IP地址或URL是否有效"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "保存:"
 
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
@@ -1217,10 +1217,22 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "继续"
 
-#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
-msgctxt "Interface.SettingsInvertMouseWheelInventory"
-msgid "Invert Inventory Scroll"
-msgstr "反转物品选择滚轴"
+#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
+msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
+#, fuzzy
+msgctxt "Interface.TravelMenuButtonTravelLoad"
+msgid "Load World"
+msgstr "加载世界"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
+#, fuzzy
+msgctxt "Interface.TravelMenuButtonTravelNew"
+msgid "New World"
+msgstr "新世界"
 
 #: /Language/Interface/Record[Key='Loulan']
 msgctxt "Interface.Loulan"
@@ -1917,15 +1929,15 @@ msgctxt "Interface.LogicTypeColor"
 msgid "The color setting for the device, represented as an integer"
 msgstr "设置颜色，为整数"
 
-#: /Language/Interface/Record[Key='LogicTypeIdle']
-msgctxt "Interface.LogicTypeIdle"
-msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr "如果设备当前处于闲置状态, 则返回 1, 否则为0"
-
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
 msgid "Power requested from the device and/or network"
 msgstr "从设备和网络请求的电源"
+
+#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
+msgctxt "Interface.LogicTypeVerticalRatio"
+msgid "Radio of vertical setting for device"
+msgstr "设备垂直设置无线电"
 
 #: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
 msgctxt "Interface.LogicTypeHorizontalRatio"
