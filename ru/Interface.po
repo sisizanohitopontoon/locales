@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-06-30 17:43+0000\n"
-"Last-Translator: AndreyKl <andreykl@ukr.net>\n"
+"PO-Revision-Date: 2020-01-11 20:44+0000\n"
+"Last-Translator: HazarDGLow <hgrof@bk.ru>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -1643,12 +1643,12 @@ msgstr "возвращает текущее количество, наприме
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupantHash']
 msgctxt "Interface.LogicSlotTypeOccupantHash"
 msgid "returns the has of the current occupant, the unique identifier of the thing"
-msgstr ""
+msgstr "возвращает хеш, уникальный идентификатор того, что занимает текущее пространство"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
 msgctxt "Interface.LogicSlotTypeOccupied"
 msgid "returns 0 when slot is not occupied, 1 when it is"
-msgstr ""
+msgstr "возвращает 0, когда слот не занят, 1, когда занят"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeNone']
 msgctxt "Interface.LogicSlotTypeNone"
@@ -1658,17 +1658,17 @@ msgstr "Нет описания"
 #: /Language/Interface/Record[Key='LogicTypeSignalID']
 msgctxt "Interface.LogicTypeSignalID"
 msgid "Returns the contact ID of the strongest signal from this Satellite"
-msgstr ""
+msgstr "Возвращает идентификатор контакта самого сильного сигнала от этого спутника"
 
 #: /Language/Interface/Record[Key='LogicTypeSignalStrength']
 msgctxt "Interface.LogicTypeSignalStrength"
 msgid "Returns the strength of the strongest signal received from this Satellite"
-msgstr ""
+msgstr "Возвращает силу самого сильного сигнала, полученного от этого спутника"
 
 #: /Language/Interface/Record[Key='LogicTypeForceWrite']
 msgctxt "Interface.LogicTypeForceWrite"
 msgid "Forces Logic Writer devices to rewrite value"
-msgstr ""
+msgstr "Заставляет чип-Запись перезаписывать значение"
 
 #: /Language/Interface/Record[Key='LogicTypePrefabHash']
 msgctxt "Interface.LogicTypePrefabHash"
@@ -1698,12 +1698,12 @@ msgstr "Текущая величина вектора скорости"
 #: /Language/Interface/Record[Key='LogicTypePositionZ']
 msgctxt "Interface.LogicTypePositionZ"
 msgid "The current position in Z dimension in world coordinates"
-msgstr ""
+msgstr "Текущая позиция по оси Z в мировых координатах"
 
 #: /Language/Interface/Record[Key='LogicTypePositionY']
 msgctxt "Interface.LogicTypePositionY"
 msgid "The current position in Y dimension in world coordinates"
-msgstr ""
+msgstr "Текущая позиция по оси Y в мировых координатах"
 
 #: /Language/Interface/Record[Key='LogicTypePositionX']
 msgctxt "Interface.LogicTypePositionX"
