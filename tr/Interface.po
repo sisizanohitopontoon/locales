@@ -661,15 +661,15 @@ msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Şifre"
 
-#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
-msgctxt "Interface.LogicTypeVerticalRatio"
-msgid "Radio of vertical setting for device"
-msgstr "Cihaz için dikey ayar oranı"
-
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
 msgid "Max Players"
 msgstr "En Fazla Oyuncu Adedi"
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
+msgstr "Cihaz için yatay ayar oranı"
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayer']
 msgctxt "Interface.SettingsTitleMultiplayer"
@@ -812,10 +812,10 @@ msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "Yerleştirme ızgaraya takılır."
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
-msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
-msgstr "Yerleştirme sadece {THING:StructureFrameIron} ve {THING:StructureFrame} yapılarının üzerine doğrudan yapılmaktadır. Eğer bu yapılar yükseltilmiş ise, daha iyi yerleştirme seçenekleri sunarlar."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "Yerleştirme ızgara yüzüne takılır."
 
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
@@ -1210,10 +1210,16 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "DEVAM ET"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "Yerleştirme ızgara yüzüne takılır."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+msgctxt "Interface.TooltipPlacementSnapFaceMount"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr "Yerleştirme sadece {THING:StructureFrameIron} ve {THING:StructureFrame} yapılarının üzerine doğrudan yapılmaktadır. Eğer bu yapılar yükseltilmiş ise, daha iyi yerleştirme seçenekleri sunarlar."
+
+#: /Language/Interface/Record[Key='SettingsDifficulty']
+#, fuzzy
+msgctxt "Interface.SettingsDifficulty"
+msgid "Difficulty Settings"
+msgstr "Çeşitli Ayarlar"
 
 #: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
 #, fuzzy
@@ -1920,10 +1926,10 @@ msgctxt "Interface.LogicTypePowerRequired"
 msgid "Power requested from the device and/or network"
 msgstr "Cihazdan ve/veya ağdan talep edilen güç"
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr "Cihaz için yatay ayar oranı"
+#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
+msgctxt "Interface.LogicTypeVerticalRatio"
+msgid "Radio of vertical setting for device"
+msgstr "Cihaz için dikey ayar oranı"
 
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
 msgctxt "Interface.LogicTypeRequiredPower"

@@ -669,16 +669,16 @@ msgctxt "Interface.SettingsServerPassword"
 msgid "Password"
 msgstr "Senha"
 
-#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
-#, fuzzy
-msgctxt "Interface.LogicTypeVerticalRatio"
-msgid "Radio of vertical setting for device"
-msgstr "Sem definições adicionais para {0}"
-
 #: /Language/Interface/Record[Key='SettingsServerMaxPlayers']
 msgctxt "Interface.SettingsServerMaxPlayers"
 msgid "Max Players"
 msgstr "Máximo de Jogadores"
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+#, fuzzy
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
+msgstr "Sem definições adicionais para {0}"
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayer']
 msgctxt "Interface.SettingsTitleMultiplayer"
@@ -817,10 +817,10 @@ msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "A colocação é feita em encaixes em grelha."
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
-msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
-msgstr "A colocação só é permitida em estruturas de {THING:StructureFrameIron} ou de {THING:StructureFrame} diretamente. Se estas estiverem melhoradas, oferecerão melhores opções de colocação."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
+msgctxt "Interface.TooltipPlacementSnapFace"
+msgid "Placement is snapped to grid faces."
+msgstr "A colocação é feita em encaixes na grelha frontal."
 
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
@@ -1215,10 +1215,16 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuar"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
-msgctxt "Interface.TooltipPlacementSnapFace"
-msgid "Placement is snapped to grid faces."
-msgstr "A colocação é feita em encaixes na grelha frontal."
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+msgctxt "Interface.TooltipPlacementSnapFaceMount"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr "A colocação só é permitida em estruturas de {THING:StructureFrameIron} ou de {THING:StructureFrame} diretamente. Se estas estiverem melhoradas, oferecerão melhores opções de colocação."
+
+#: /Language/Interface/Record[Key='SettingsDifficulty']
+#, fuzzy
+msgctxt "Interface.SettingsDifficulty"
+msgid "Difficulty Settings"
+msgstr "Outras Definições"
 
 #: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
 #, fuzzy
@@ -1935,10 +1941,10 @@ msgctxt "Interface.LogicTypePowerRequired"
 msgid "Power requested from the device and/or network"
 msgstr "Não existem mais nenhuns dispositivos que possam ser lidos na rede"
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+#: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
 #, fuzzy
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
+msgctxt "Interface.LogicTypeVerticalRatio"
+msgid "Radio of vertical setting for device"
 msgstr "Sem definições adicionais para {0}"
 
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
