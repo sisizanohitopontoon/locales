@@ -145,10 +145,10 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "Měsíc"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Herní Čas:"
+#: /Language/Interface/Record[Key='Space']
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "Pás Asteroidů"
 
 #: /Language/Interface/Record[Key='Vulcan']
 msgctxt "Interface.Vulcan"
@@ -621,10 +621,10 @@ msgctxt "Interface.DialogConfirmNoticeClientLeaving"
 msgid "Are you sure you want to leave the session?"
 msgstr "Opravdu chcete relaci opustit?"
 
-#: /Language/Interface/Record[Key='SettingsPopupChat']
-msgctxt "Interface.SettingsPopupChat"
-msgid "Popup Chat"
-msgstr "Vyskakovací Chat"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Herní Čas:"
 
 #: /Language/Interface/Record[Key='SettingsDisplayPortrait']
 msgctxt "Interface.SettingsDisplayPortrait"
@@ -666,11 +666,6 @@ msgctxt "Interface.SettingsServerMaxPlayers"
 msgid "Max Players"
 msgstr "Maximum Hráčů"
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr "Rádio horizontální nastavení pro zařízení"
-
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayer']
 msgctxt "Interface.SettingsTitleMultiplayer"
 msgid "Multiplayer Settings"
@@ -685,6 +680,11 @@ msgstr "Aktualizační Port"
 msgctxt "Interface.SettingsGamePort"
 msgid "Game Port"
 msgstr "Herní Port"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash1']
+msgctxt "Interface.LogicTypePlantHash1"
+msgid "DEPRECATED"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMusic']
 msgctxt "Interface.SettingsMusic"
@@ -811,6 +811,11 @@ msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "Umístění se přichytí k plochám mřížky."
 
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+msgctxt "Interface.TooltipPlacementSnapFaceMount"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr ""
+
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
@@ -890,11 +895,6 @@ msgstr "Upozornění při ukládání"
 msgctxt "Interface.WaitingBody"
 msgid "Still saving world data.  Please try it again when it finishes."
 msgstr ""
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Ukončit Stationeers"
 
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
@@ -1006,11 +1006,6 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Jsi v bezvědomí. Chcete se vzdát a respawn?"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Uloženy:"
-
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
 msgid "Give Up"
@@ -1102,6 +1097,11 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "Zadejte IP:Port zde..."
 
+#: /Language/Interface/Record[Key='SettingsPopupChat']
+msgctxt "Interface.SettingsPopupChat"
+msgid "Popup Chat"
+msgstr "Vyskakovací Chat"
+
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
 msgid "Join World"
@@ -1147,6 +1147,11 @@ msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "Přežití"
 
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Uloženy:"
+
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
@@ -1182,30 +1187,180 @@ msgctxt "Interface.MainMenuWorkshop"
 msgid "Workshop"
 msgstr "Workshop"
 
-#: /Language/Interface/Record[Key='MainMenuJoinWorld']
-msgctxt "Interface.MainMenuJoinWorld"
-msgid "Join World"
-msgstr "Připoj se ke Světu"
-
-#: /Language/Interface/Record[Key='MainMenuLoadWorld']
-msgctxt "Interface.MainMenuLoadWorld"
-msgid "Load World"
-msgstr "Načíst Svět"
-
-#: /Language/Interface/Record[Key='MainMenuNewWorld']
-msgctxt "Interface.MainMenuNewWorld"
-msgid "New World"
-msgstr "Nový Svět"
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Ukončit Stationeers"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Pokračovat"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
-msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+#: /Language/Interface/Record[Key='MainMenuNewWorld']
+msgctxt "Interface.MainMenuNewWorld"
+msgid "New World"
+msgstr "Nový Svět"
+
+#: /Language/Interface/Record[Key='MainMenuLoadWorld']
+msgctxt "Interface.MainMenuLoadWorld"
+msgid "Load World"
+msgstr "Načíst Svět"
+
+#: /Language/Interface/Record[Key='LavaLevelField']
+msgctxt "Interface.LavaLevelField"
+msgid "Lava Level"
 msgstr ""
+
+#: /Language/Interface/Record[Key='HasCustomTemperatureField']
+#, fuzzy
+msgctxt "Interface.HasCustomTemperatureField"
+msgid "Has Custom Temperature"
+msgstr "Teplota"
+
+#: /Language/Interface/Record[Key='PreviewAtmosphereField']
+#, fuzzy
+msgctxt "Interface.PreviewAtmosphereField"
+msgid "Preview Atmosphere"
+msgstr "Atmosféra"
+
+#: /Language/Interface/Record[Key='MidnightTemperatureField']
+#, fuzzy
+msgctxt "Interface.MidnightTemperatureField"
+msgid "Midnight Temperature"
+msgstr "Teplota"
+
+#: /Language/Interface/Record[Key='DuskTemperatureField']
+#, fuzzy
+msgctxt "Interface.DuskTemperatureField"
+msgid "Dusk Temperature"
+msgstr "Teplota"
+
+#: /Language/Interface/Record[Key='NoonTemperatureField']
+#, fuzzy
+msgctxt "Interface.NoonTemperatureField"
+msgid "Noon Temperature"
+msgstr "Teplota"
+
+#: /Language/Interface/Record[Key='DawnTemperatureField']
+#, fuzzy
+msgctxt "Interface.DawnTemperatureField"
+msgid "Dawn Temperature"
+msgstr "Teplota"
+
+#: /Language/Interface/Record[Key='SolarScaleField']
+#, fuzzy
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Scale"
+msgstr "Sluneční Úhel"
+
+#: /Language/Interface/Record[Key='HasLODField']
+msgctxt "Interface.HasLODField"
+msgid "Has LOD"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DifficultyField']
+#, fuzzy
+msgctxt "Interface.DifficultyField"
+msgid "Difficulty"
+msgstr "Různá nastavení"
+
+#: /Language/Interface/Record[Key='RespawnConditionsField']
+#, fuzzy
+msgctxt "Interface.RespawnConditionsField"
+msgid "Respawn Condition"
+msgstr "Počáteční Podmínky"
+
+#: /Language/Interface/Record[Key='TerrainFeaturesField']
+#, fuzzy
+msgctxt "Interface.TerrainFeaturesField"
+msgid "Terrain Features"
+msgstr "Terén"
+
+#: /Language/Interface/Record[Key='LevelLevelField']
+msgctxt "Interface.LevelLevelField"
+msgid "Lava Level"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MineablesField']
+msgctxt "Interface.MineablesField"
+msgid "Minables"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AtmosphereScatteringField']
+#, fuzzy
+msgctxt "Interface.AtmosphereScatteringField"
+msgid "Atmosphere Scattering"
+msgstr "Atmosférické Rozptylování"
+
+#: /Language/Interface/Record[Key='Gravity']
+#, fuzzy
+msgctxt "Interface.Gravity"
+msgid "Gravity"
+msgstr "Gravitace"
+
+#: /Language/Interface/Record[Key='Colour']
+#, fuzzy
+msgctxt "Interface.Colour"
+msgid "Colour"
+msgstr "Barva Očí"
+
+#: /Language/Interface/Record[Key='HasLavaField']
+msgctxt "Interface.HasLavaField"
+msgid "Has Lava"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ColourSelecter']
+msgctxt "Interface.ColourSelecter"
+msgid "Colour Selecter:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HVSValues']
+msgctxt "Interface.HVSValues"
+msgid "HVS Values"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RGBValues']
+msgctxt "Interface.RGBValues"
+msgid "RGB Values"
+msgstr ""
+
+#: /Language/Interface/Record[Key='BrightnessField']
+#, fuzzy
+msgctxt "Interface.BrightnessField"
+msgid "Brightness:"
+msgstr "Jas"
+
+#: /Language/Interface/Record[Key='SaturationField']
+msgctxt "Interface.SaturationField"
+msgid "Saturation:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HueField']
+msgctxt "Interface.HueField"
+msgid "Hue:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GreenField']
+msgctxt "Interface.GreenField"
+msgid "Green:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='BlueField']
+msgctxt "Interface.BlueField"
+msgid "Blue:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
+#, fuzzy
+msgctxt "Interface.WorldCustomTerrainLabel"
+msgid "Custom Terrain"
+msgstr "Terén"
 
 #: /Language/Interface/Record[Key='SettingsDifficulty']
 #, fuzzy
@@ -1807,11 +1962,6 @@ msgctxt "Interface.LogicTypePlantHash2"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash1']
-msgctxt "Interface.LogicTypePlantHash1"
-msgid "DEPRECATED"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
 msgctxt "Interface.LogicTypePlantEfficiency4"
 msgid "DEPRECATED"
@@ -1916,6 +2066,11 @@ msgstr "Požadovaný výkon ze zařízení a / nebo sítě"
 msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
 msgstr "Rádio vertikálního nastavení pro zařízení"
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
+msgstr "Rádio horizontální nastavení pro zařízení"
 
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
 msgctxt "Interface.LogicTypeRequiredPower"
@@ -2834,10 +2989,10 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP Adresa:"
 
-#: /Language/Interface/Record[Key='Space']
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "Pás Asteroidů"
+#: /Language/Interface/Record[Key='MainMenuJoinWorld']
+msgctxt "Interface.MainMenuJoinWorld"
+msgid "Join World"
+msgstr "Připoj se ke Světu"
 
 #~ msgctxt "Interface.NewWorldAreaSpace"
 #~ msgid "Space"

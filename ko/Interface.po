@@ -146,10 +146,11 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "달"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "플레이시간:"
+#: /Language/Interface/Record[Key='Space']
+#, fuzzy
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "우주"
 
 #: /Language/Interface/Record[Key='Vulcan']
 msgctxt "Interface.Vulcan"
@@ -622,10 +623,10 @@ msgctxt "Interface.DialogConfirmNoticeClientLeaving"
 msgid "Are you sure you want to leave the session?"
 msgstr "게임을 중단하고 메인 메뉴로 이동하시겠습니까?"
 
-#: /Language/Interface/Record[Key='SettingsPopupChat']
-msgctxt "Interface.SettingsPopupChat"
-msgid "Popup Chat"
-msgstr "팝업채팅"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "플레이시간:"
 
 #: /Language/Interface/Record[Key='SettingsDisplayPortrait']
 msgctxt "Interface.SettingsDisplayPortrait"
@@ -667,11 +668,6 @@ msgctxt "Interface.SettingsServerMaxPlayers"
 msgid "Max Players"
 msgstr "최대 플레이어"
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayer']
 msgctxt "Interface.SettingsTitleMultiplayer"
 msgid "Multiplayer Settings"
@@ -686,6 +682,11 @@ msgstr "업데이트 포트"
 msgctxt "Interface.SettingsGamePort"
 msgid "Game Port"
 msgstr "게임 포트"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash1']
+msgctxt "Interface.LogicTypePlantHash1"
+msgid "DEPRECATED"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMusic']
 msgctxt "Interface.SettingsMusic"
@@ -816,6 +817,13 @@ msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "격자 표면에 설치가 가능합니다."
 
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+msgctxt "Interface.TooltipPlacementSnapFaceMount"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr ""
+"{THING:StructureFrameIron} 또는 {THING:StructureFrame}에만 설치가 가능합니다.\n"
+"구조물을 업그레이드하면 더 나은 배치 영역을 가집니다."
+
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
@@ -898,11 +906,6 @@ msgstr "경고"
 msgctxt "Interface.WaitingBody"
 msgid "Still saving world data.  Please try it again when it finishes."
 msgstr ""
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "게임 종료"
 
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
@@ -1014,11 +1017,6 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "저장날짜:"
-
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
 msgid "Give Up"
@@ -1111,6 +1109,11 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "아이피:포트 형식으로 입력..."
 
+#: /Language/Interface/Record[Key='SettingsPopupChat']
+msgctxt "Interface.SettingsPopupChat"
+msgid "Popup Chat"
+msgstr "팝업채팅"
+
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
 msgid "Join World"
@@ -1156,6 +1159,11 @@ msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "서바이벌"
 
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "저장날짜:"
+
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
@@ -1192,32 +1200,173 @@ msgctxt "Interface.MainMenuWorkshop"
 msgid "Workshop"
 msgstr "창작마당"
 
-#: /Language/Interface/Record[Key='MainMenuJoinWorld']
-msgctxt "Interface.MainMenuJoinWorld"
-msgid "Join World"
-msgstr "서버연결"
-
-#: /Language/Interface/Record[Key='MainMenuLoadWorld']
-msgctxt "Interface.MainMenuLoadWorld"
-msgid "Load World"
-msgstr "불러오기"
-
-#: /Language/Interface/Record[Key='MainMenuNewWorld']
-msgctxt "Interface.MainMenuNewWorld"
-msgid "New World"
-msgstr "새로시작"
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "게임 종료"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "이어하기"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
-msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+#: /Language/Interface/Record[Key='MainMenuNewWorld']
+msgctxt "Interface.MainMenuNewWorld"
+msgid "New World"
+msgstr "새로시작"
+
+#: /Language/Interface/Record[Key='MainMenuLoadWorld']
+msgctxt "Interface.MainMenuLoadWorld"
+msgid "Load World"
+msgstr "불러오기"
+
+#: /Language/Interface/Record[Key='LavaLevelField']
+msgctxt "Interface.LavaLevelField"
+msgid "Lava Level"
 msgstr ""
-"{THING:StructureFrameIron} 또는 {THING:StructureFrame}에만 설치가 가능합니다.\n"
-"구조물을 업그레이드하면 더 나은 배치 영역을 가집니다."
+
+#: /Language/Interface/Record[Key='HasCustomTemperatureField']
+msgctxt "Interface.HasCustomTemperatureField"
+msgid "Has Custom Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PreviewAtmosphereField']
+#, fuzzy
+msgctxt "Interface.PreviewAtmosphereField"
+msgid "Preview Atmosphere"
+msgstr "Atmosphere"
+
+#: /Language/Interface/Record[Key='MidnightTemperatureField']
+msgctxt "Interface.MidnightTemperatureField"
+msgid "Midnight Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DuskTemperatureField']
+msgctxt "Interface.DuskTemperatureField"
+msgid "Dusk Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NoonTemperatureField']
+msgctxt "Interface.NoonTemperatureField"
+msgid "Noon Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DawnTemperatureField']
+msgctxt "Interface.DawnTemperatureField"
+msgid "Dawn Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Scale"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HasLODField']
+msgctxt "Interface.HasLODField"
+msgid "Has LOD"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DifficultyField']
+#, fuzzy
+msgctxt "Interface.DifficultyField"
+msgid "Difficulty"
+msgstr "기타 설정"
+
+#: /Language/Interface/Record[Key='RespawnConditionsField']
+#, fuzzy
+msgctxt "Interface.RespawnConditionsField"
+msgid "Respawn Condition"
+msgstr "시작 조건"
+
+#: /Language/Interface/Record[Key='TerrainFeaturesField']
+#, fuzzy
+msgctxt "Interface.TerrainFeaturesField"
+msgid "Terrain Features"
+msgstr "Terrain"
+
+#: /Language/Interface/Record[Key='LevelLevelField']
+msgctxt "Interface.LevelLevelField"
+msgid "Lava Level"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MineablesField']
+msgctxt "Interface.MineablesField"
+msgid "Minables"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AtmosphereScatteringField']
+#, fuzzy
+msgctxt "Interface.AtmosphereScatteringField"
+msgid "Atmosphere Scattering"
+msgstr "Atmospheric Scattering"
+
+#: /Language/Interface/Record[Key='Gravity']
+msgctxt "Interface.Gravity"
+msgid "Gravity"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Colour']
+#, fuzzy
+msgctxt "Interface.Colour"
+msgid "Colour"
+msgstr "눈색"
+
+#: /Language/Interface/Record[Key='HasLavaField']
+msgctxt "Interface.HasLavaField"
+msgid "Has Lava"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ColourSelecter']
+msgctxt "Interface.ColourSelecter"
+msgid "Colour Selecter:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HVSValues']
+msgctxt "Interface.HVSValues"
+msgid "HVS Values"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RGBValues']
+msgctxt "Interface.RGBValues"
+msgid "RGB Values"
+msgstr ""
+
+#: /Language/Interface/Record[Key='BrightnessField']
+#, fuzzy
+msgctxt "Interface.BrightnessField"
+msgid "Brightness:"
+msgstr "밝기"
+
+#: /Language/Interface/Record[Key='SaturationField']
+msgctxt "Interface.SaturationField"
+msgid "Saturation:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HueField']
+msgctxt "Interface.HueField"
+msgid "Hue:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GreenField']
+msgctxt "Interface.GreenField"
+msgid "Green:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='BlueField']
+msgctxt "Interface.BlueField"
+msgid "Blue:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
+#, fuzzy
+msgctxt "Interface.WorldCustomTerrainLabel"
+msgid "Custom Terrain"
+msgstr "Terrain"
 
 #: /Language/Interface/Record[Key='SettingsDifficulty']
 #, fuzzy
@@ -1832,11 +1981,6 @@ msgctxt "Interface.LogicTypePlantHash2"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash1']
-msgctxt "Interface.LogicTypePlantHash1"
-msgid "DEPRECATED"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
 msgctxt "Interface.LogicTypePlantEfficiency4"
 msgid "DEPRECATED"
@@ -1941,6 +2085,11 @@ msgstr "No other readable devices on network"
 #: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
 msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
@@ -2888,11 +3037,10 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP주소:"
 
-#: /Language/Interface/Record[Key='Space']
-#, fuzzy
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "우주"
+#: /Language/Interface/Record[Key='MainMenuJoinWorld']
+msgctxt "Interface.MainMenuJoinWorld"
+msgid "Join World"
+msgstr "서버연결"
 
 #~ msgctxt "Interface.NewWorldAreaSpace"
 #~ msgid "Space"

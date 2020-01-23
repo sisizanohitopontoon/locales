@@ -151,10 +151,11 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "月"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "時間:"
+#: /Language/Interface/Record[Key='Space']
+#, fuzzy
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "宇宙"
 
 #: /Language/Interface/Record[Key='Vulcan']
 msgctxt "Interface.Vulcan"
@@ -629,10 +630,10 @@ msgctxt "Interface.DialogConfirmNoticeClientLeaving"
 msgid "Are you sure you want to leave the session?"
 msgstr "セッションを離れますか？"
 
-#: /Language/Interface/Record[Key='SettingsPopupChat']
-msgctxt "Interface.SettingsPopupChat"
-msgid "Popup Chat"
-msgstr "ポップアップチャット"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "時間:"
 
 #: /Language/Interface/Record[Key='SettingsDisplayPortrait']
 msgctxt "Interface.SettingsDisplayPortrait"
@@ -674,11 +675,6 @@ msgctxt "Interface.SettingsServerMaxPlayers"
 msgid "Max Players"
 msgstr "最大プレイヤー"
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayer']
 msgctxt "Interface.SettingsTitleMultiplayer"
 msgid "Multiplayer Settings"
@@ -693,6 +689,11 @@ msgstr "アップデートポート"
 msgctxt "Interface.SettingsGamePort"
 msgid "Game Port"
 msgstr "ゲームポート"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash1']
+msgctxt "Interface.LogicTypePlantHash1"
+msgid "DEPRECATED"
+msgstr "廃止"
 
 #: /Language/Interface/Record[Key='SettingsMusic']
 msgctxt "Interface.SettingsMusic"
@@ -823,6 +824,11 @@ msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "グリッド面にスナップして設置します。"
 
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+msgctxt "Interface.TooltipPlacementSnapFaceMount"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr "{THING:StructureFrameIron}と{THING:StructureFrame}にのみ直接設置できます。アップグレードすることで高度な設置オプションが可能になります。"
+
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
@@ -903,11 +909,6 @@ msgstr "警告"
 msgctxt "Interface.WaitingBody"
 msgid "Still saving world data.  Please try it again when it finishes."
 msgstr ""
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Stationeersを終了"
 
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
@@ -1019,11 +1020,6 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "意識がありません。ギブアップしてリスポーンしますか？"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "日付:"
-
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
 msgid "Give Up"
@@ -1116,6 +1112,11 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "IP:Portをここに入力"
 
+#: /Language/Interface/Record[Key='SettingsPopupChat']
+msgctxt "Interface.SettingsPopupChat"
+msgid "Popup Chat"
+msgstr "ポップアップチャット"
+
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
 msgid "Join World"
@@ -1161,6 +1162,11 @@ msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "サバイバル"
 
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "日付:"
+
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
@@ -1196,30 +1202,173 @@ msgctxt "Interface.MainMenuWorkshop"
 msgid "Workshop"
 msgstr "ワークショップ"
 
-#: /Language/Interface/Record[Key='MainMenuJoinWorld']
-msgctxt "Interface.MainMenuJoinWorld"
-msgid "Join World"
-msgstr "ワールドへ参加"
-
-#: /Language/Interface/Record[Key='MainMenuLoadWorld']
-msgctxt "Interface.MainMenuLoadWorld"
-msgid "Load World"
-msgstr "ロードワールド"
-
-#: /Language/Interface/Record[Key='MainMenuNewWorld']
-msgctxt "Interface.MainMenuNewWorld"
-msgid "New World"
-msgstr "新規ワールド"
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Stationeersを終了"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
-msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
-msgstr "{THING:StructureFrameIron}と{THING:StructureFrame}にのみ直接設置できます。アップグレードすることで高度な設置オプションが可能になります。"
+#: /Language/Interface/Record[Key='MainMenuNewWorld']
+msgctxt "Interface.MainMenuNewWorld"
+msgid "New World"
+msgstr "新規ワールド"
+
+#: /Language/Interface/Record[Key='MainMenuLoadWorld']
+msgctxt "Interface.MainMenuLoadWorld"
+msgid "Load World"
+msgstr "ロードワールド"
+
+#: /Language/Interface/Record[Key='LavaLevelField']
+msgctxt "Interface.LavaLevelField"
+msgid "Lava Level"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HasCustomTemperatureField']
+msgctxt "Interface.HasCustomTemperatureField"
+msgid "Has Custom Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PreviewAtmosphereField']
+#, fuzzy
+msgctxt "Interface.PreviewAtmosphereField"
+msgid "Preview Atmosphere"
+msgstr "大気"
+
+#: /Language/Interface/Record[Key='MidnightTemperatureField']
+msgctxt "Interface.MidnightTemperatureField"
+msgid "Midnight Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DuskTemperatureField']
+msgctxt "Interface.DuskTemperatureField"
+msgid "Dusk Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NoonTemperatureField']
+msgctxt "Interface.NoonTemperatureField"
+msgid "Noon Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DawnTemperatureField']
+msgctxt "Interface.DawnTemperatureField"
+msgid "Dawn Temperature"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Scale"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HasLODField']
+msgctxt "Interface.HasLODField"
+msgid "Has LOD"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DifficultyField']
+#, fuzzy
+msgctxt "Interface.DifficultyField"
+msgid "Difficulty"
+msgstr "その他の設定"
+
+#: /Language/Interface/Record[Key='RespawnConditionsField']
+#, fuzzy
+msgctxt "Interface.RespawnConditionsField"
+msgid "Respawn Condition"
+msgstr "開始状態"
+
+#: /Language/Interface/Record[Key='TerrainFeaturesField']
+#, fuzzy
+msgctxt "Interface.TerrainFeaturesField"
+msgid "Terrain Features"
+msgstr "環境"
+
+#: /Language/Interface/Record[Key='LevelLevelField']
+msgctxt "Interface.LevelLevelField"
+msgid "Lava Level"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MineablesField']
+msgctxt "Interface.MineablesField"
+msgid "Minables"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AtmosphereScatteringField']
+#, fuzzy
+msgctxt "Interface.AtmosphereScatteringField"
+msgid "Atmosphere Scattering"
+msgstr "大気散乱"
+
+#: /Language/Interface/Record[Key='Gravity']
+msgctxt "Interface.Gravity"
+msgid "Gravity"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Colour']
+#, fuzzy
+msgctxt "Interface.Colour"
+msgid "Colour"
+msgstr "目の色"
+
+#: /Language/Interface/Record[Key='HasLavaField']
+msgctxt "Interface.HasLavaField"
+msgid "Has Lava"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ColourSelecter']
+msgctxt "Interface.ColourSelecter"
+msgid "Colour Selecter:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HVSValues']
+msgctxt "Interface.HVSValues"
+msgid "HVS Values"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RGBValues']
+msgctxt "Interface.RGBValues"
+msgid "RGB Values"
+msgstr ""
+
+#: /Language/Interface/Record[Key='BrightnessField']
+#, fuzzy
+msgctxt "Interface.BrightnessField"
+msgid "Brightness:"
+msgstr "明るさ"
+
+#: /Language/Interface/Record[Key='SaturationField']
+msgctxt "Interface.SaturationField"
+msgid "Saturation:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HueField']
+msgctxt "Interface.HueField"
+msgid "Hue:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GreenField']
+msgctxt "Interface.GreenField"
+msgid "Green:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='BlueField']
+msgctxt "Interface.BlueField"
+msgid "Blue:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
+#, fuzzy
+msgctxt "Interface.WorldCustomTerrainLabel"
+msgid "Custom Terrain"
+msgstr "環境"
 
 #: /Language/Interface/Record[Key='SettingsDifficulty']
 #, fuzzy
@@ -1833,11 +1982,6 @@ msgctxt "Interface.LogicTypePlantHash2"
 msgid "DEPRECATED"
 msgstr "廃止"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash1']
-msgctxt "Interface.LogicTypePlantHash1"
-msgid "DEPRECATED"
-msgstr "廃止"
-
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
 msgctxt "Interface.LogicTypePlantEfficiency4"
 msgid "DEPRECATED"
@@ -1941,6 +2085,11 @@ msgstr "デバイスかネットワークに電力が必要"
 #: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
 msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
@@ -2870,11 +3019,10 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IPアドレス:"
 
-#: /Language/Interface/Record[Key='Space']
-#, fuzzy
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "宇宙"
+#: /Language/Interface/Record[Key='MainMenuJoinWorld']
+msgctxt "Interface.MainMenuJoinWorld"
+msgid "Join World"
+msgstr "ワールドへ参加"
 
 #~ msgctxt "Interface.NewWorldAreaSpace"
 #~ msgid "Space"

@@ -141,10 +141,10 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "Moon"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Playtime:"
+#: /Language/Interface/Record[Key='Space']
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "Asteroid Belt"
 
 #: /Language/Interface/Record[Key='Vulcan']
 msgctxt "Interface.Vulcan"
@@ -616,10 +616,10 @@ msgctxt "Interface.DialogConfirmNoticeClientLeaving"
 msgid "Are you sure you want to leave the session?"
 msgstr "Are you sure you want to leave the session?"
 
-#: /Language/Interface/Record[Key='SettingsPopupChat']
-msgctxt "Interface.SettingsPopupChat"
-msgid "Popup Chat"
-msgstr "Popup Chat"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Playtime:"
 
 #: /Language/Interface/Record[Key='SettingsDisplayPortrait']
 msgctxt "Interface.SettingsDisplayPortrait"
@@ -661,11 +661,6 @@ msgctxt "Interface.SettingsServerMaxPlayers"
 msgid "Max Players"
 msgstr "Max Players"
 
-#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
-msgctxt "Interface.LogicTypeHorizontalRatio"
-msgid "Radio of horizontal setting for device"
-msgstr "Radio of horizontal setting for device"
-
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayer']
 msgctxt "Interface.SettingsTitleMultiplayer"
 msgid "Multiplayer Settings"
@@ -680,6 +675,11 @@ msgstr "Update Port"
 msgctxt "Interface.SettingsGamePort"
 msgid "Game Port"
 msgstr "Game Port"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash1']
+msgctxt "Interface.LogicTypePlantHash1"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='SettingsMusic']
 msgctxt "Interface.SettingsMusic"
@@ -796,6 +796,11 @@ msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "Placement is snapped to grid faces."
 
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+msgctxt "Interface.TooltipPlacementSnapFaceMount"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgstr "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
@@ -875,11 +880,6 @@ msgstr "Saving Warning"
 msgctxt "Interface.WaitingBody"
 msgid "Still saving world data.  Please try it again when it finishes."
 msgstr "Still saving world data.  Please try it again when it finishes."
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Quit Stationeers"
 
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
@@ -991,11 +991,6 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "You are unconscious. Do you want to give up and respawn?"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Saved:"
-
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
 msgid "Give Up"
@@ -1081,6 +1076,11 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "Enter IP:Port here..."
 
+#: /Language/Interface/Record[Key='SettingsPopupChat']
+msgctxt "Interface.SettingsPopupChat"
+msgid "Popup Chat"
+msgstr "Popup Chat"
+
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
 msgid "Join World"
@@ -1126,6 +1126,11 @@ msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "Survival"
 
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Saved:"
+
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
@@ -1161,30 +1166,165 @@ msgctxt "Interface.MainMenuWorkshop"
 msgid "Workshop"
 msgstr "Workshop"
 
-#: /Language/Interface/Record[Key='MainMenuJoinWorld']
-msgctxt "Interface.MainMenuJoinWorld"
-msgid "Join World"
-msgstr "Join World"
-
-#: /Language/Interface/Record[Key='MainMenuLoadWorld']
-msgctxt "Interface.MainMenuLoadWorld"
-msgid "Load World"
-msgstr "Load World"
-
-#: /Language/Interface/Record[Key='MainMenuNewWorld']
-msgctxt "Interface.MainMenuNewWorld"
-msgid "New World"
-msgstr "New World"
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Quit Stationeers"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continue"
 
-#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
-msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
-msgstr "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+#: /Language/Interface/Record[Key='MainMenuNewWorld']
+msgctxt "Interface.MainMenuNewWorld"
+msgid "New World"
+msgstr "New World"
+
+#: /Language/Interface/Record[Key='MainMenuLoadWorld']
+msgctxt "Interface.MainMenuLoadWorld"
+msgid "Load World"
+msgstr "Load World"
+
+#: /Language/Interface/Record[Key='LavaLevelField']
+msgctxt "Interface.LavaLevelField"
+msgid "Lava Level"
+msgstr "Lava Level"
+
+#: /Language/Interface/Record[Key='HasCustomTemperatureField']
+msgctxt "Interface.HasCustomTemperatureField"
+msgid "Has Custom Temperature"
+msgstr "Has Custom Temperature"
+
+#: /Language/Interface/Record[Key='PreviewAtmosphereField']
+msgctxt "Interface.PreviewAtmosphereField"
+msgid "Preview Atmosphere"
+msgstr "Preview Atmosphere"
+
+#: /Language/Interface/Record[Key='MidnightTemperatureField']
+msgctxt "Interface.MidnightTemperatureField"
+msgid "Midnight Temperature"
+msgstr "Midnight Temperature"
+
+#: /Language/Interface/Record[Key='DuskTemperatureField']
+msgctxt "Interface.DuskTemperatureField"
+msgid "Dusk Temperature"
+msgstr "Dusk Temperature"
+
+#: /Language/Interface/Record[Key='NoonTemperatureField']
+msgctxt "Interface.NoonTemperatureField"
+msgid "Noon Temperature"
+msgstr "Noon Temperature"
+
+#: /Language/Interface/Record[Key='DawnTemperatureField']
+msgctxt "Interface.DawnTemperatureField"
+msgid "Dawn Temperature"
+msgstr "Dawn Temperature"
+
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Scale"
+msgstr "Solar Scale"
+
+#: /Language/Interface/Record[Key='HasLODField']
+msgctxt "Interface.HasLODField"
+msgid "Has LOD"
+msgstr "Has LOD"
+
+#: /Language/Interface/Record[Key='DifficultyField']
+msgctxt "Interface.DifficultyField"
+msgid "Difficulty"
+msgstr "Difficulty"
+
+#: /Language/Interface/Record[Key='RespawnConditionsField']
+msgctxt "Interface.RespawnConditionsField"
+msgid "Respawn Condition"
+msgstr "Respawn Condition"
+
+#: /Language/Interface/Record[Key='TerrainFeaturesField']
+msgctxt "Interface.TerrainFeaturesField"
+msgid "Terrain Features"
+msgstr "Terrain Features"
+
+#: /Language/Interface/Record[Key='LevelLevelField']
+msgctxt "Interface.LevelLevelField"
+msgid "Lava Level"
+msgstr "Lava Level"
+
+#: /Language/Interface/Record[Key='MineablesField']
+msgctxt "Interface.MineablesField"
+msgid "Minables"
+msgstr "Minables"
+
+#: /Language/Interface/Record[Key='AtmosphereScatteringField']
+msgctxt "Interface.AtmosphereScatteringField"
+msgid "Atmosphere Scattering"
+msgstr "Atmosphere Scattering"
+
+#: /Language/Interface/Record[Key='Gravity']
+msgctxt "Interface.Gravity"
+msgid "Gravity"
+msgstr "Gravity"
+
+#: /Language/Interface/Record[Key='Colour']
+msgctxt "Interface.Colour"
+msgid "Colour"
+msgstr "Colour"
+
+#: /Language/Interface/Record[Key='HasLavaField']
+msgctxt "Interface.HasLavaField"
+msgid "Has Lava"
+msgstr "Has Lava"
+
+#: /Language/Interface/Record[Key='ColourSelecter']
+msgctxt "Interface.ColourSelecter"
+msgid "Colour Selecter:"
+msgstr "Colour Selecter:"
+
+#: /Language/Interface/Record[Key='HVSValues']
+msgctxt "Interface.HVSValues"
+msgid "HVS Values"
+msgstr "HVS Values"
+
+#: /Language/Interface/Record[Key='RGBValues']
+msgctxt "Interface.RGBValues"
+msgid "RGB Values"
+msgstr "RGB Values"
+
+#: /Language/Interface/Record[Key='BrightnessField']
+msgctxt "Interface.BrightnessField"
+msgid "Brightness:"
+msgstr "Brightness:"
+
+#: /Language/Interface/Record[Key='SaturationField']
+msgctxt "Interface.SaturationField"
+msgid "Saturation:"
+msgstr "Saturation:"
+
+#: /Language/Interface/Record[Key='HueField']
+msgctxt "Interface.HueField"
+msgid "Hue:"
+msgstr "Hue:"
+
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr "Red:"
+
+#: /Language/Interface/Record[Key='GreenField']
+msgctxt "Interface.GreenField"
+msgid "Green:"
+msgstr "Green:"
+
+#: /Language/Interface/Record[Key='BlueField']
+msgctxt "Interface.BlueField"
+msgid "Blue:"
+msgstr "Blue:"
+
+#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
+msgctxt "Interface.WorldCustomTerrainLabel"
+msgid "Custom Terrain"
+msgstr "Custom Terrain"
 
 #: /Language/Interface/Record[Key='SettingsDifficulty']
 msgctxt "Interface.SettingsDifficulty"
@@ -1781,11 +1921,6 @@ msgctxt "Interface.LogicTypePlantHash2"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash1']
-msgctxt "Interface.LogicTypePlantHash1"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
-
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
 msgctxt "Interface.LogicTypePlantEfficiency4"
 msgid "DEPRECATED"
@@ -1890,6 +2025,11 @@ msgstr "Power requested from the device and/or network"
 msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
 msgstr "Radio of vertical setting for device"
+
+#: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
+msgctxt "Interface.LogicTypeHorizontalRatio"
+msgid "Radio of horizontal setting for device"
+msgstr "Radio of horizontal setting for device"
 
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
 msgctxt "Interface.LogicTypeRequiredPower"
@@ -2781,7 +2921,7 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP Address:"
 
-#: /Language/Interface/Record[Key='Space']
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "Asteroid Belt"
+#: /Language/Interface/Record[Key='MainMenuJoinWorld']
+msgctxt "Interface.MainMenuJoinWorld"
+msgid "Join World"
+msgstr "Join World"
