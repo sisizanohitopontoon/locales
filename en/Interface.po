@@ -676,15 +676,15 @@ msgctxt "Interface.SettingsGamePort"
 msgid "Game Port"
 msgstr "Game Port"
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash2']
-msgctxt "Interface.LogicTypePlantHash2"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
-
 #: /Language/Interface/Record[Key='SettingsMusic']
 msgctxt "Interface.SettingsMusic"
 msgid "Music"
 msgstr "Music"
+
+#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
+msgctxt "Interface.LogicTypeCompletionRatio"
+msgid "How complete the current production is for this device, between 0 and 1"
+msgstr "How complete the current production is for this device, between 0 and 1"
 
 #: /Language/Interface/Record[Key='TutorialFirstTimePlaying']
 msgctxt "Interface.TutorialFirstTimePlaying"
@@ -703,8 +703,8 @@ msgstr "Skip"
 
 #: /Language/Interface/Record[Key='TutorialStartButton']
 msgctxt "Interface.TutorialStartButton"
-msgid "Begin"
-msgstr "Begin"
+msgid "Start Tutorial"
+msgstr "Start Tutorial"
 
 #: /Language/Interface/Record[Key='TutorialComplete']
 msgctxt "Interface.TutorialComplete"
@@ -881,6 +881,11 @@ msgctxt "Interface.WaitingBody"
 msgid "Still saving world data.  Please try it again when it finishes."
 msgstr "Still saving world data.  Please try it again when it finishes."
 
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Quit Stationeers"
+
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
@@ -895,11 +900,6 @@ msgstr "Quit"
 msgctxt "Interface.PromptUnsubscribeTitle"
 msgid "Unsubscribe"
 msgstr "Unsubscribe"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Are you sure you want to unsubscribe from this Workshop item?"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
 msgctxt "Interface.PromptUnsubscribeConfirm"
@@ -1081,11 +1081,6 @@ msgctxt "Interface.JoinMenuServerDetailConnectButton"
 msgid "Join World"
 msgstr "Join World"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Playtime:"
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
@@ -1105,6 +1100,11 @@ msgstr "Favorite"
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "Save World"
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Playtime:"
 
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
@@ -1131,40 +1131,10 @@ msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Saved:"
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "Saved Worlds"
-
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "Load World"
-
-#: /Language/Interface/Record[Key='MainMenuExit']
-msgctxt "Interface.MainMenuExit"
-msgid "Exit To Desktop"
-msgstr "Exit To Desktop"
-
-#: /Language/Interface/Record[Key='MainMenuCredits']
-msgctxt "Interface.MainMenuCredits"
-msgid "Credits"
-msgstr "Credits"
-
-#: /Language/Interface/Record[Key='MainMenuTutorial']
-msgctxt "Interface.MainMenuTutorial"
-msgid "Tutorial"
-msgstr "Tutorial"
-
-#: /Language/Interface/Record[Key='MainMenuSettings']
-msgctxt "Interface.MainMenuSettings"
-msgid "Settings"
-msgstr "Settings"
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Quit Stationeers"
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Are you sure you want to unsubscribe from this Workshop item?"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -1185,6 +1155,66 @@ msgstr "Load World"
 msgctxt "Interface.MainMenuJoinWorld"
 msgid "Join World"
 msgstr "Join World"
+
+#: /Language/Interface/Record[Key='MainMenuWorkshop']
+msgctxt "Interface.MainMenuWorkshop"
+msgid "Workshop"
+msgstr "Workshop"
+
+#: /Language/Interface/Record[Key='MainMenuSettings']
+msgctxt "Interface.MainMenuSettings"
+msgid "Settings"
+msgstr "Settings"
+
+#: /Language/Interface/Record[Key='MainMenuTutorial']
+msgctxt "Interface.MainMenuTutorial"
+msgid "Tutorial"
+msgstr "Tutorial"
+
+#: /Language/Interface/Record[Key='MainMenuCredits']
+msgctxt "Interface.MainMenuCredits"
+msgid "Credits"
+msgstr "Credits"
+
+#: /Language/Interface/Record[Key='MainMenuExit']
+msgctxt "Interface.MainMenuExit"
+msgid "Exit To Desktop"
+msgstr "Exit To Desktop"
+
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "Load World"
+
+#: /Language/Interface/Record[Key='CartridgeNetworkAnalyserSelected']
+msgctxt "Interface.CartridgeNetworkAnalyserSelected"
+msgid "NETWORK 12"
+msgstr "NETWORK 12"
+
+#: /Language/Interface/Record[Key='CartridgeAtmosAnalyserSelected']
+msgctxt "Interface.CartridgeAtmosAnalyserSelected"
+msgid "WORLD"
+msgstr "WORLD"
+
+#: /Language/Interface/Record[Key='CartridgeTrackerDistance']
+msgctxt "Interface.CartridgeTrackerDistance"
+msgid "Distance"
+msgstr "Distance"
+
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderSelected']
+msgctxt "Interface.CartridgeElectronicReaderSelected"
+msgid "Steel frames"
+msgstr "Steel frames"
+
+#: /Language/Interface/Record[Key='CartridgeTrackerSelected']
+msgctxt "Interface.CartridgeTrackerSelected"
+msgid "Scroll to select target"
+msgstr "Scroll to select target"
+
+#: /Language/Interface/Record[Key='CartridgeTrackerTitle']
+msgctxt "Interface.CartridgeTrackerTitle"
+msgid "TRACKER"
+msgstr "TRACKER"
 
 #: /Language/Interface/Record[Key='SolidTerrainColourField']
 msgctxt "Interface.SolidTerrainColourField"
@@ -1901,11 +1931,6 @@ msgctxt "Interface.LogicTypeClearMemory"
 msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 msgstr "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 
-#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
-msgctxt "Interface.LogicTypeCompletionRatio"
-msgid "How complete the current production is for this device, between 0 and 1"
-msgstr "How complete the current production is for this device, between 0 and 1"
-
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, re quests an item of the provided type from the device"
@@ -1918,6 +1943,11 @@ msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash3']
 msgctxt "Interface.LogicTypePlantHash3"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash2']
+msgctxt "Interface.LogicTypePlantHash2"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
@@ -2926,7 +2956,7 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP Address:"
 
-#: /Language/Interface/Record[Key='MainMenuWorkshop']
-msgctxt "Interface.MainMenuWorkshop"
-msgid "Workshop"
-msgstr "Workshop"
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "Saved Worlds"

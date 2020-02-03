@@ -684,14 +684,14 @@ msgctxt "Interface.SettingsGamePort"
 msgid "Game Port"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePlantHash2']
-msgctxt "Interface.LogicTypePlantHash2"
-msgid "DEPRECATED"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsMusic']
 msgctxt "Interface.SettingsMusic"
 msgid "Music"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
+msgctxt "Interface.LogicTypeCompletionRatio"
+msgid "How complete the current production is for this device, between 0 and 1"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialFirstTimePlaying']
@@ -711,7 +711,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialStartButton']
 msgctxt "Interface.TutorialStartButton"
-msgid "Begin"
+msgid "Start Tutorial"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialComplete']
@@ -897,6 +897,11 @@ msgctxt "Interface.WaitingBody"
 msgid "Still saving world data.  Please try it again when it finishes."
 msgstr ""
 
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr ""
+
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
@@ -910,11 +915,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
 msgctxt "Interface.PromptUnsubscribeTitle"
 msgid "Unsubscribe"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
@@ -1101,11 +1101,6 @@ msgctxt "Interface.JoinMenuServerDetailConnectButton"
 msgid "Join World"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
@@ -1124,6 +1119,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
@@ -1151,39 +1151,9 @@ msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr ""
-
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr ""
-
-#: /Language/Interface/Record[Key='MainMenuExit']
-msgctxt "Interface.MainMenuExit"
-msgid "Exit To Desktop"
-msgstr ""
-
-#: /Language/Interface/Record[Key='MainMenuCredits']
-msgctxt "Interface.MainMenuCredits"
-msgid "Credits"
-msgstr ""
-
-#: /Language/Interface/Record[Key='MainMenuTutorial']
-msgctxt "Interface.MainMenuTutorial"
-msgid "Tutorial"
-msgstr ""
-
-#: /Language/Interface/Record[Key='MainMenuSettings']
-msgctxt "Interface.MainMenuSettings"
-msgid "Settings"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
 msgstr ""
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
@@ -1205,6 +1175,66 @@ msgstr ""
 msgctxt "Interface.MainMenuJoinWorld"
 msgid "Join World"
 msgstr "Alăturați-vă unei lumi"
+
+#: /Language/Interface/Record[Key='MainMenuWorkshop']
+msgctxt "Interface.MainMenuWorkshop"
+msgid "Workshop"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MainMenuSettings']
+msgctxt "Interface.MainMenuSettings"
+msgid "Settings"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MainMenuTutorial']
+msgctxt "Interface.MainMenuTutorial"
+msgid "Tutorial"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MainMenuCredits']
+msgctxt "Interface.MainMenuCredits"
+msgid "Credits"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MainMenuExit']
+msgctxt "Interface.MainMenuExit"
+msgid "Exit To Desktop"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeNetworkAnalyserSelected']
+msgctxt "Interface.CartridgeNetworkAnalyserSelected"
+msgid "NETWORK 12"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeAtmosAnalyserSelected']
+msgctxt "Interface.CartridgeAtmosAnalyserSelected"
+msgid "WORLD"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeTrackerDistance']
+msgctxt "Interface.CartridgeTrackerDistance"
+msgid "Distance"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderSelected']
+msgctxt "Interface.CartridgeElectronicReaderSelected"
+msgid "Steel frames"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeTrackerSelected']
+msgctxt "Interface.CartridgeTrackerSelected"
+msgid "Scroll to select target"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeTrackerTitle']
+msgctxt "Interface.CartridgeTrackerTitle"
+msgid "TRACKER"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SolidTerrainColourField']
 msgctxt "Interface.SolidTerrainColourField"
@@ -1937,11 +1967,6 @@ msgctxt "Interface.LogicTypeClearMemory"
 msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
-msgctxt "Interface.LogicTypeCompletionRatio"
-msgid "How complete the current production is for this device, between 0 and 1"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, re quests an item of the provided type from the device"
@@ -1954,6 +1979,11 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash3']
 msgctxt "Interface.LogicTypePlantHash3"
+msgid "DEPRECATED"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypePlantHash2']
+msgctxt "Interface.LogicTypePlantHash2"
 msgid "DEPRECATED"
 msgstr ""
 
@@ -2984,9 +3014,9 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='MainMenuWorkshop']
-msgctxt "Interface.MainMenuWorkshop"
-msgid "Workshop"
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
 msgstr ""
 
 #~ msgctxt "Interface.NewWorldAreaSpace"
