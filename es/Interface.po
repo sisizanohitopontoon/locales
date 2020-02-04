@@ -686,10 +686,10 @@ msgctxt "Interface.SettingsMusic"
 msgid "Music"
 msgstr "Musica"
 
-#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
-msgctxt "Interface.LogicTypeCompletionRatio"
-msgid "How complete the current production is for this device, between 0 and 1"
-msgstr "Qué tan completa es la producción actual de este dispositivo, entre 0 y 1"
+#: /Language/Interface/Record[Key='LogicTypeClearMemory']
+msgctxt "Interface.LogicTypeClearMemory"
+msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+msgstr "Cuando se ajusta a 1, borra la memoria del contador (por ejemplo, ExportCount). Se volverá a poner a 0 cuando se acciona"
 
 #: /Language/Interface/Record[Key='TutorialFirstTimePlaying']
 msgctxt "Interface.TutorialFirstTimePlaying"
@@ -1209,6 +1209,12 @@ msgstr "Salir al Escritorio"
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
 msgstr "Cargar Mundo"
+
+#: /Language/Interface/Record[Key='ButtonCustomWorld']
+#, fuzzy
+msgctxt "Interface.ButtonCustomWorld"
+msgid "Custom World"
+msgstr "Crear Mundo"
 
 #: /Language/Interface/Record[Key='CartridgeNetworkAnalyserSelected']
 msgctxt "Interface.CartridgeNetworkAnalyserSelected"
@@ -1951,10 +1957,10 @@ msgctxt "Interface.LogicTypeExportCount"
 msgid "How many items exported since last ClearMemory"
 msgstr "Cuántos artículos se exportaron desde la última vez que ClearMemory"
 
-#: /Language/Interface/Record[Key='LogicTypeClearMemory']
-msgctxt "Interface.LogicTypeClearMemory"
-msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
-msgstr "Cuando se ajusta a 1, borra la memoria del contador (por ejemplo, ExportCount). Se volverá a poner a 0 cuando se acciona"
+#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
+msgctxt "Interface.LogicTypeCompletionRatio"
+msgid "How complete the current production is for this device, between 0 and 1"
+msgstr "Qué tan completa es la producción actual de este dispositivo, entre 0 y 1"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
