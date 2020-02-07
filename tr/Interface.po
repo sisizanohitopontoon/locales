@@ -686,15 +686,15 @@ msgctxt "Interface.SettingsMusic"
 msgid "Music"
 msgstr "Müzik"
 
-#: /Language/Interface/Record[Key='LogicTypeClearMemory']
-msgctxt "Interface.LogicTypeClearMemory"
-msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
-msgstr "1 olarak ayarlandığında, sayaç hafızasını siler (örnek olarak ExportCount). İşlem yapıldığında kendini 0'a geri ayarlar"
-
 #: /Language/Interface/Record[Key='TutorialFirstTimePlaying']
 msgctxt "Interface.TutorialFirstTimePlaying"
 msgid "First time Playing?"
 msgstr "İlk Oyunun mu?"
+
+#: /Language/Interface/Record[Key='LogicTypeClearMemory']
+msgctxt "Interface.LogicTypeClearMemory"
+msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+msgstr "1 olarak ayarlandığında, sayaç hafızasını siler (örnek olarak ExportCount). İşlem yapıldığında kendini 0'a geri ayarlar"
 
 #: /Language/Interface/Record[Key='TutorialGetStarted']
 msgctxt "Interface.TutorialGetStarted"
@@ -923,15 +923,15 @@ msgctxt "Interface.PromptUnsubscribeTitle"
 msgid "Unsubscribe"
 msgstr "Aboneliği Kaldır"
 
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Bu atölye öğesinden aboneliği kaldırmak istediğine emin misin?"
+
 #: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
 msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Aboneliği Kaldır"
-
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Üstüne Yaz"
 
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
@@ -1131,11 +1131,6 @@ msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "Dünyayı Kaydet"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Oyun Süresi:"
-
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
@@ -1146,6 +1141,11 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Kayıt İsmini Gir..."
 
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Üstüne Yaz"
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
@@ -1155,16 +1155,6 @@ msgstr "Yaratıcı"
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "Hayatta Kalma"
-
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Kayıt:"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Bu atölye öğesinden aboneliği kaldırmak istediğine emin misin?"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -1216,6 +1206,31 @@ msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
 msgstr "Dünyayı Yükle"
 
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "Kayıtlı Dünyalar"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Kayıt:"
+
+#: /Language/Interface/Record[Key='GasItemGasMole']
+msgctxt "Interface.GasItemGasMole"
+msgid "12.09 moles"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasItemGasAmount']
+msgctxt "Interface.GasItemGasAmount"
+msgid "100%"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasItemGasSymbol']
+msgctxt "Interface.GasItemGasSymbol"
+msgid "H0C3"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ButtonCustomWorld']
 #, fuzzy
 msgctxt "Interface.ButtonCustomWorld"
@@ -1225,11 +1240,6 @@ msgstr "Dünya Oluştur"
 #: /Language/Interface/Record[Key='CartridgeNetworkAnalyserSelected']
 msgctxt "Interface.CartridgeNetworkAnalyserSelected"
 msgid "NETWORK 12"
-msgstr ""
-
-#: /Language/Interface/Record[Key='CartridgeAtmosAnalyserSelected']
-msgctxt "Interface.CartridgeAtmosAnalyserSelected"
-msgid "WORLD"
 msgstr ""
 
 #: /Language/Interface/Record[Key='CartridgeTrackerDistance']
@@ -3047,10 +3057,10 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP ADRESİ:"
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "Kayıtlı Dünyalar"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Oyun Süresi:"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"

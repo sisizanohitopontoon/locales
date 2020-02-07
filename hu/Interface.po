@@ -687,15 +687,15 @@ msgctxt "Interface.SettingsMusic"
 msgid "Music"
 msgstr "Zene"
 
-#: /Language/Interface/Record[Key='LogicTypeClearMemory']
-msgctxt "Interface.LogicTypeClearMemory"
-msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
-msgstr "Ha 1, törli a számláló memóriáját (pl.: ExportCount). Visszaáll 0-ra, ha megtörtént"
-
 #: /Language/Interface/Record[Key='TutorialFirstTimePlaying']
 msgctxt "Interface.TutorialFirstTimePlaying"
 msgid "First time Playing?"
 msgstr "Először játszol?"
+
+#: /Language/Interface/Record[Key='LogicTypeClearMemory']
+msgctxt "Interface.LogicTypeClearMemory"
+msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+msgstr "Ha 1, törli a számláló memóriáját (pl.: ExportCount). Visszaáll 0-ra, ha megtörtént"
 
 #: /Language/Interface/Record[Key='TutorialGetStarted']
 msgctxt "Interface.TutorialGetStarted"
@@ -922,15 +922,15 @@ msgctxt "Interface.PromptUnsubscribeTitle"
 msgid "Unsubscribe"
 msgstr "Leiratkozás"
 
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Biztos vagy benne, hogy leiratkozol erről a Műhely tételről?"
+
 #: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
 msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Leiratkozás"
-
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Felülírás"
 
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
@@ -1128,11 +1128,6 @@ msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "Világ mentése"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Játékidő:"
-
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
@@ -1143,6 +1138,11 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Mentési név megadása..."
 
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Felülírás"
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
@@ -1152,16 +1152,6 @@ msgstr "Kreatív"
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "Túlélő"
-
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Mentve:"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Biztos vagy benne, hogy leiratkozol erről a Műhely tételről?"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -1213,6 +1203,31 @@ msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
 msgstr "Világ betöltése"
 
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "Mentett világok"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Mentve:"
+
+#: /Language/Interface/Record[Key='GasItemGasMole']
+msgctxt "Interface.GasItemGasMole"
+msgid "12.09 moles"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasItemGasAmount']
+msgctxt "Interface.GasItemGasAmount"
+msgid "100%"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasItemGasSymbol']
+msgctxt "Interface.GasItemGasSymbol"
+msgid "H0C3"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ButtonCustomWorld']
 #, fuzzy
 msgctxt "Interface.ButtonCustomWorld"
@@ -1222,11 +1237,6 @@ msgstr "Világ létrehozása"
 #: /Language/Interface/Record[Key='CartridgeNetworkAnalyserSelected']
 msgctxt "Interface.CartridgeNetworkAnalyserSelected"
 msgid "NETWORK 12"
-msgstr ""
-
-#: /Language/Interface/Record[Key='CartridgeAtmosAnalyserSelected']
-msgctxt "Interface.CartridgeAtmosAnalyserSelected"
-msgid "WORLD"
 msgstr ""
 
 #: /Language/Interface/Record[Key='CartridgeTrackerDistance']
@@ -3066,10 +3076,10 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP cím:"
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "Mentett világok"
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Játékidő:"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"
