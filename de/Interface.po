@@ -15,26 +15,25 @@ msgctxt "Interface.JoinMenuServerListMap"
 msgid "Map"
 msgstr "Karte"
 
-#: /Language/Interface/Record[Key='WorldInfoMapName']
-#, fuzzy
-msgctxt "Interface.WorldInfoMapName"
-msgid "Map:"
-msgstr "Karte:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
-msgctxt "Interface.WorldInfoTextAsteroids"
-msgid "Asteroids:"
-msgstr "Asteroiden:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextVersion']
-msgctxt "Interface.WorldInfoTextVersion"
-msgid "Version:"
-msgstr "Version:"
-
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Löschen"
+
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Überschreiben"
+
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "Fortsetzen"
+
+#: /Language/Interface/Record[Key='MainMenuNewWorld']
+msgctxt "Interface.MainMenuNewWorld"
+msgid "New World"
+msgstr "Neue Welt"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonPublish']
 msgctxt "Interface.WorldInfoButtonPublish"
@@ -700,10 +699,10 @@ msgctxt "Interface.TutorialFirstTimePlaying"
 msgid "First time Playing?"
 msgstr "Erster Spieldurchlauf?"
 
-#: /Language/Interface/Record[Key='LogicTypeClearMemory']
-msgctxt "Interface.LogicTypeClearMemory"
-msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
-msgstr "Löscht den Zählerspeicher wenn auf 1 gesetzt (z.B. ExportCount). Setzt sich nach der Löschung auf 0 zurück"
+#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
+msgctxt "Interface.LogicTypePowerGeneration"
+msgid "Returns how much power is being generated"
+msgstr "Gibt zurück, wie viel Strom erzeugt wird"
 
 #: /Language/Interface/Record[Key='TutorialGetStarted']
 msgctxt "Interface.TutorialGetStarted"
@@ -941,15 +940,15 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Deabonnieren"
 
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Überschreiben"
+
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "Die gespeicherte Welt wirklich überschreiben?"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Überschreiben"
 
 #: /Language/Interface/Record[Key='PromptPublishTitle']
 msgctxt "Interface.PromptPublishTitle"
@@ -1148,35 +1147,20 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Speichername eingeben..."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Überschreiben"
-
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Kreativ"
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Überleben"
-
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "Fortsetzen"
-
-#: /Language/Interface/Record[Key='MainMenuNewWorld']
-msgctxt "Interface.MainMenuNewWorld"
-msgid "New World"
-msgstr "Neue Welt"
-
 #: /Language/Interface/Record[Key='MainMenuLoadWorld']
 msgctxt "Interface.MainMenuLoadWorld"
 msgid "Load World"
 msgstr "Welt Laden"
+
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Überleben"
 
 #: /Language/Interface/Record[Key='MainMenuJoinWorld']
 msgctxt "Interface.MainMenuJoinWorld"
@@ -1222,6 +1206,38 @@ msgstr "Gespeicherte Welten"
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Spielstand:"
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Spielzeit:"
+
+#: /Language/Interface/Record[Key='WorldInfoMapName']
+#, fuzzy
+msgctxt "Interface.WorldInfoMapName"
+msgid "Map:"
+msgstr "Karte:"
+
+#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
+msgctxt "Interface.WorldInfoTextAsteroids"
+msgid "Asteroids:"
+msgstr "Asteroiden:"
+
+#: /Language/Interface/Record[Key='GameMenuButtonCancel']
+#, fuzzy
+msgctxt "Interface.GameMenuButtonCancel"
+msgid "Cancel"
+msgstr "Abbruch"
+
+#: /Language/Interface/Record[Key='DialogConfirmLastSaveIsAutoSave']
+msgctxt "Interface.DialogConfirmLastSaveIsAutoSave"
+msgid "ARE YOU SURE? The last save you have is an autosave. You may lose your progress if you don't save now."
+msgstr ""
+
+#: /Language/Interface/Record[Key='BigWarning']
+msgctxt "Interface.BigWarning"
+msgid "WARNING"
+msgstr ""
 
 #: /Language/Interface/Record[Key='GasItemGasMole']
 msgctxt "Interface.GasItemGasMole"
@@ -2001,11 +2017,6 @@ msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
 msgstr "Gibt die gesamten Mol des Gerätes zurück"
 
-#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
-msgctxt "Interface.LogicTypePowerGeneration"
-msgid "Returns how much power is being generated"
-msgstr "Gibt zurück, wie viel Strom erzeugt wird"
-
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
@@ -2015,6 +2026,11 @@ msgstr "Wie viele Gegenstände seit dem letzten ClearMemory importiert wurden"
 msgctxt "Interface.LogicTypeExportCount"
 msgid "How many items exported since last ClearMemory"
 msgstr "Wie viele Gegenstände seit dem letzten ClearMemory exportiert wurden"
+
+#: /Language/Interface/Record[Key='LogicTypeClearMemory']
+msgctxt "Interface.LogicTypeClearMemory"
+msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+msgstr "Löscht den Zählerspeicher wenn auf 1 gesetzt (z.B. ExportCount). Setzt sich nach der Löschung auf 0 zurück"
 
 #: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
 msgctxt "Interface.LogicTypeCompletionRatio"
@@ -3087,10 +3103,10 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP Adresse:"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Spielzeit:"
+#: /Language/Interface/Record[Key='WorldInfoTextVersion']
+msgctxt "Interface.WorldInfoTextVersion"
+msgid "Version:"
+msgstr "Version:"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"

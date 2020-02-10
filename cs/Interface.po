@@ -15,25 +15,25 @@ msgctxt "Interface.JoinMenuServerListMap"
 msgid "Map"
 msgstr "Mapa"
 
-#: /Language/Interface/Record[Key='WorldInfoMapName']
-msgctxt "Interface.WorldInfoMapName"
-msgid "Map:"
-msgstr "Mapa:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
-msgctxt "Interface.WorldInfoTextAsteroids"
-msgid "Asteroids:"
-msgstr "Asteroidy:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextVersion']
-msgctxt "Interface.WorldInfoTextVersion"
-msgid "Version:"
-msgstr "Verze:"
-
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Odstranit"
+
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Přepsat"
+
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "Pokračovat"
+
+#: /Language/Interface/Record[Key='MainMenuNewWorld']
+msgctxt "Interface.MainMenuNewWorld"
+msgid "New World"
+msgstr "Nový Svět"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonPublish']
 msgctxt "Interface.WorldInfoButtonPublish"
@@ -691,9 +691,9 @@ msgctxt "Interface.TutorialFirstTimePlaying"
 msgid "First time Playing?"
 msgstr "Poprvé Hrajete?"
 
-#: /Language/Interface/Record[Key='LogicTypeClearMemory']
-msgctxt "Interface.LogicTypeClearMemory"
-msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
+#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
+msgctxt "Interface.LogicTypePowerGeneration"
+msgid "Returns how much power is being generated"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialGetStarted']
@@ -927,15 +927,15 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Odhlásit odběr"
 
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Přepsat"
+
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "Opravdu chcete přepsat stávající uložený svět?"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Přepsat"
 
 #: /Language/Interface/Record[Key='PromptPublishTitle']
 msgctxt "Interface.PromptPublishTitle"
@@ -1133,35 +1133,20 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Zadejte Název Uložení..."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Přepsat"
-
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Kreativní"
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Přežití"
-
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "Pokračovat"
-
-#: /Language/Interface/Record[Key='MainMenuNewWorld']
-msgctxt "Interface.MainMenuNewWorld"
-msgid "New World"
-msgstr "Nový Svět"
-
 #: /Language/Interface/Record[Key='MainMenuLoadWorld']
 msgctxt "Interface.MainMenuLoadWorld"
 msgid "Load World"
 msgstr "Načíst Svět"
+
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Přežití"
 
 #: /Language/Interface/Record[Key='MainMenuJoinWorld']
 msgctxt "Interface.MainMenuJoinWorld"
@@ -1207,6 +1192,37 @@ msgstr "Uložit Svět"
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Uloženy:"
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Herní Čas:"
+
+#: /Language/Interface/Record[Key='WorldInfoMapName']
+msgctxt "Interface.WorldInfoMapName"
+msgid "Map:"
+msgstr "Mapa:"
+
+#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
+msgctxt "Interface.WorldInfoTextAsteroids"
+msgid "Asteroids:"
+msgstr "Asteroidy:"
+
+#: /Language/Interface/Record[Key='GameMenuButtonCancel']
+#, fuzzy
+msgctxt "Interface.GameMenuButtonCancel"
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: /Language/Interface/Record[Key='DialogConfirmLastSaveIsAutoSave']
+msgctxt "Interface.DialogConfirmLastSaveIsAutoSave"
+msgid "ARE YOU SURE? The last save you have is an autosave. You may lose your progress if you don't save now."
+msgstr ""
+
+#: /Language/Interface/Record[Key='BigWarning']
+msgctxt "Interface.BigWarning"
+msgid "WARNING"
+msgstr ""
 
 #: /Language/Interface/Record[Key='GasItemGasMole']
 msgctxt "Interface.GasItemGasMole"
@@ -1970,11 +1986,6 @@ msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
-msgctxt "Interface.LogicTypePowerGeneration"
-msgid "Returns how much power is being generated"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
@@ -1983,6 +1994,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeExportCount']
 msgctxt "Interface.LogicTypeExportCount"
 msgid "How many items exported since last ClearMemory"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeClearMemory']
+msgctxt "Interface.LogicTypeClearMemory"
+msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
@@ -3043,10 +3059,10 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP Adresa:"
 
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Herní Čas:"
+#: /Language/Interface/Record[Key='WorldInfoTextVersion']
+msgctxt "Interface.WorldInfoTextVersion"
+msgid "Version:"
+msgstr "Verze:"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"
