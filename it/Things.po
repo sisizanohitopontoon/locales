@@ -110,6 +110,11 @@ msgctxt "Things.ItemGasFilterOxygenL"
 msgid "Heavy Filter (Oxygen)"
 msgstr "Filtro pesante (Ossigeno)"
 
+#: /Language/Things/Record[Key='StructureLogicBatchReader']
+msgctxt "Things.StructureLogicBatchReader"
+msgid "Batch Reader"
+msgstr "Unità Logica: Scrittore Batch"
+
 #: /Language/Things/Record[Key='ItemGasFilterNitrogenM']
 msgctxt "Things.ItemGasFilterNitrogenM"
 msgid "Medium Filter (Nitrogen)"
@@ -204,11 +209,6 @@ msgstr "Piastra di innesco (Piccola)"
 msgctxt "Things.StructurePressurePlateMedium"
 msgid "Trigger Plate (Medium)"
 msgstr "Piastra di innesco (Media)"
-
-#: /Language/Things/Record[Key='StructureCrateMount']
-msgctxt "Things.StructureCrateMount"
-msgid "Container Mount"
-msgstr "Connettore per casse"
 
 #: /Language/Things/Record[Key='StructurePressurePlateLarge']
 msgctxt "Things.StructurePressurePlateLarge"
@@ -310,11 +310,6 @@ msgctxt "Things.StructureLogicReagentReader"
 msgid "Reagent Reader"
 msgstr "Unità Logica: Lettore Reagenti"
 
-#: /Language/Things/Record[Key='StructureLogicBatchReader']
-msgctxt "Things.StructureLogicBatchReader"
-msgid "Batch Reader"
-msgstr "Unità Logica: Scrittore Batch"
-
 #: /Language/Things/Record[Key='StructureLogicSlotReader']
 msgctxt "Things.StructureLogicSlotReader"
 msgid "Slot Reader"
@@ -404,6 +399,11 @@ msgstr "Unità Logica: Mirror"
 msgctxt "Things.ItemKitCrateMount"
 msgid "Kit (Container Mount)"
 msgstr "Kit (Connettore per casse)"
+
+#: /Language/Things/Record[Key='StructureCrateMount']
+msgctxt "Things.StructureCrateMount"
+msgid "Container Mount"
+msgstr "Connettore per casse"
 
 #: /Language/Things/Record[Key='StructureElevatorLevelFront']
 msgctxt "Things.StructureElevatorLevelFront"
@@ -1406,6 +1406,11 @@ msgctxt "Things.ItemKitSolidGenerator"
 msgid "Kit (Solid Generator)"
 msgstr "Kit (Generatore a Combustibile Solido)"
 
+#: /Language/Things/Record[Key='StructureLogicWriterSwitch']
+msgctxt "Things.StructureLogicWriterSwitch"
+msgid "Logic Writer Switch"
+msgstr "Switch scrittore logico"
+
 #: /Language/Things/Record[Key='ItemKitSuitStorage']
 msgctxt "Things.ItemKitSuitStorage"
 msgid "Kit (Suit Storage)"
@@ -1466,11 +1471,6 @@ msgstr "Stampante elettronica"
 msgctxt "Things.ItemCerealBar"
 msgid "Cereal Bar"
 msgstr "Barretta di cereali"
-
-#: /Language/Things/Record[Key='StructureLogicWriterSwitch']
-msgctxt "Things.StructureLogicWriterSwitch"
-msgid "Logic Writer Switch"
-msgstr "Switch scrittore logico"
 
 #: /Language/Things/Record[Key='ItemFern']
 msgctxt "Things.ItemFern"
@@ -2902,10 +2902,10 @@ msgctxt "Things.ItemGasCanisterEmpty"
 msgid "Canister"
 msgstr "Bombola"
 
-#: /Language/Things/Record[Key='ItemGasCanisterPollutants']
-msgctxt "Things.ItemGasCanisterPollutants"
-msgid "Canister (Pollutants)"
-msgstr "Bombola (Inquinante)"
+#: /Language/Things/Record[Key='MotherboardProgrammableChip']
+msgctxt "Things.MotherboardProgrammableChip"
+msgid "Motherboard (IC Editor)"
+msgstr "Scheda Madre (IC Editor)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterCarbonDioxide']
 msgctxt "Things.ItemGasCanisterCarbonDioxide"
@@ -2932,10 +2932,10 @@ msgctxt "Things.ItemFertilizedEgg"
 msgid "Fertilized Egg"
 msgstr "Uovo fecondato"
 
-#: /Language/Things/Record[Key='MotherboardProgrammableChip']
-msgctxt "Things.MotherboardProgrammableChip"
-msgid "Motherboard (IC Editor)"
-msgstr "Scheda Madre (IC Editor)"
+#: /Language/Things/Record[Key='ItemEvaSuit']
+msgctxt "Things.ItemEvaSuit"
+msgid "Eva Suit"
+msgstr "Tuta spaziale"
 
 #: /Language/Things/Record[Key='ItemEggTop']
 msgctxt "Things.ItemEggTop"
@@ -3951,13 +3951,11 @@ msgid "Structure RTG"
 msgstr "Muro piatto"
 
 #: /Language/Things/Record[Key='ItemEmergencyHelmet']
-#, fuzzy
 msgctxt "Things.ItemEmergencyHelmet"
 msgid "Emergency Helmet"
 msgstr ""
 
 #: /Language/Things/Record[Key='ItemEmergencyArcWelder']
-#, fuzzy
 msgctxt "Things.ItemEmergencyArcWelder"
 msgid "Emergency Arc Welder"
 msgstr ""
@@ -3985,7 +3983,6 @@ msgid "Emergency Pickaxe"
 msgstr ""
 
 #: /Language/Things/Record[Key='ItemEmergencyWrench']
-#, fuzzy
 msgctxt "Things.ItemEmergencyWrench"
 msgid "Emergency Wrench"
 msgstr ""
@@ -3997,7 +3994,6 @@ msgid "Emergency Wire Cutters"
 msgstr "Tronchese"
 
 #: /Language/Things/Record[Key='ItemEmergencyScrewdriver']
-#, fuzzy
 msgctxt "Things.ItemEmergencyScrewdriver"
 msgid "Emergency Screwdriver"
 msgstr ""
@@ -4020,10 +4016,10 @@ msgctxt "Things.ItemEmergencyToolBelt"
 msgid "Emergency Tool Belt"
 msgstr "Strumento di riferimento articolo"
 
-#: /Language/Things/Record[Key='ItemEvaSuit']
-msgctxt "Things.ItemEvaSuit"
-msgid "Eva Suit"
-msgstr "Tuta spaziale"
+#: /Language/Things/Record[Key='ItemGasCanisterPollutants']
+msgctxt "Things.ItemGasCanisterPollutants"
+msgid "Canister (Pollutants)"
+msgstr "Bombola (Inquinante)"
 
 #~ msgctxt "Things.StructureRTG"
 #~ msgid "RTG"
