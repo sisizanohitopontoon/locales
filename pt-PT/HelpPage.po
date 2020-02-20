@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-02-20 00:16+0000\n"
+"PO-Revision-Date: 2020-02-20 00:22+0000\n"
 "Last-Translator: XHead <fullbanner@gmail.com>\n"
 "Language: pt_PT\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -671,7 +671,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='CreatorsHeaderTemplate']
 msgctxt "HelpPage.CreatorsHeaderTemplate"
 msgid "{HEADER:Manufactured By}{LIST}{0}{/LIST}"
-msgstr "{HEADER:Produzido por}{LIST}{0}/LIST"
+msgstr "{HEADER:Produzido por}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedByHeaderTemplate']
 msgctxt "HelpPage.ConstructedByHeaderTemplate"
@@ -680,7 +680,7 @@ msgid ""
 "{LIST}{0}{/LIST}"
 msgstr ""
 "{HEADER:Construido por}\n"
-"{LIST}{0}/LIST"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedHeaderTemplate']
 msgctxt "HelpPage.CreatedHeaderTemplate"
@@ -689,7 +689,7 @@ msgid ""
 "{LIST}{0}{/LIST}"
 msgstr ""
 "{HEADER:Pode Produzir}\n"
-"{LIST}{0}/LIST"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedHeaderTemplate']
 msgctxt "HelpPage.ConstructedHeaderTemplate"
@@ -698,10 +698,9 @@ msgid ""
 "{LIST}{0}{/LIST}"
 msgstr ""
 "{HEADER:Pode Construir}\n"
-"{LIST}{0}/LIST"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTransmitHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.LogicTransmitHeaderTemplate"
 msgid ""
 "\n"
@@ -709,8 +708,10 @@ msgid ""
 "        {LIST}{0}{/LIST}\n"
 "      "
 msgstr ""
-"{HEADER:Construido por}\n"
-"{LIST}{0}/LIST"
+"\n"
+"        {HEADER:Conectado a}\n"
+"        {LIST}{0}{/LIST}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='TierListHeaderTemplate']
 msgctxt "HelpPage.TierListHeaderTemplate"
@@ -719,11 +720,14 @@ msgid ""
 "        {HEADER:Structures Tier List}\n"
 "      "
 msgstr ""
+"\n"
+"        {HEADER:Lista de Niveis de Estruturas}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorTemplate']
 msgctxt "HelpPage.CreatorTemplate"
 msgid "{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}"
-msgstr "{LIST}{0}{LIST:300}{1}/LIST/LIST"
+msgstr "{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeHeaderTemplate']
 msgctxt "HelpPage.LogicTypeHeaderTemplate"
