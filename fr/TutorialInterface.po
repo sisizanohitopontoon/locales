@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-02-21 09:14+0000\n"
+"PO-Revision-Date: 2020-02-21 09:19+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1184,11 +1184,13 @@ msgstr "Energie solaire"
 msgctxt "Interface.TutorialGoingSolarDescription"
 msgid "Great work, Cadet! Our next task is to set up a {THING:StructureSolarPanel}. This will provide renewable energy for the base without requiring fuel. However, it will only work during the day. "
 msgstr ""
+"Excellent travail, Cadet ! Notre prochaine tâche est de mettre en place un {THING:StructureSolarPanel}. Cela fournira de l’énergie renouvelable pour la base sans avoir besoin de carburant. "
+"Cependant, il ne fonctionnera que pendant la journée."
 
 #: /Language/Interface/Record[Key='GoingSolarTask1']
 msgctxt "Interface.GoingSolarTask1"
 msgid "Grab the {THING:ItemKitSolarPanel} from Construction Crate 1."
-msgstr ""
+msgstr "Prenez le {THING:ItemKitSolarPanel} dans la caisse de construction 1."
 
 #: /Language/Interface/Record[Key='GoingSolarTask2']
 msgctxt "Interface.GoingSolarTask2"
@@ -1196,6 +1198,9 @@ msgid ""
 "Kits can be used to build different structures and variants. To build this solar panel, you’ll need to swap to the correct variant using the scroll wheel. With the solar panel selected, match the "
 "cursor shapes with the highlighted spot. Remember to use {KEY:QuantityModifier} to rotate the object to the correct position."
 msgstr ""
+"Les kits peuvent être utilisés pour construire différentes structures et variantes. Pour construire ce panneau solaire, vous devrez passer à la variante correcte à l’aide de la roue de défilement. "
+"Avec le panneau solaire sélectionné, assortissez les formes du curseur avec l’endroit en surbrillance. N’oubliez pas d’utiliser {KEY:QuantityModifier} pour faire pivoter l’objet à la position "
+"correcte."
 
 #: /Language/Interface/Record[Key='TutorialGoingSolarpart2']
 msgctxt "Interface.TutorialGoingSolarpart2"
@@ -1210,12 +1215,12 @@ msgstr "Comme le four à arc, le panneau solaire nécessite également une étap
 #: /Language/Interface/Record[Key='GoingSolarPart2Task1']
 msgctxt "Interface.GoingSolarPart2Task1"
 msgid "Grab the {THING:ItemGlassSheets} from Construction Crate 1."
-msgstr ""
+msgstr "Prenez les {THING:ItemGlassSheets} dans la caisse de construction 1."
 
 #: /Language/Interface/Record[Key='GoingSolarPart2Task2']
 msgctxt "Interface.GoingSolarPart2Task2"
 msgid "Place the {THING:ItemGlassSheets} on the solar panel."
-msgstr ""
+msgstr "Placez les {THING:ItemGlassSheets} sur le panneau solaire."
 
 #: /Language/Interface/Record[Key='TutorialLearningToWire']
 msgctxt "Interface.TutorialLearningToWire"
@@ -1230,6 +1235,9 @@ msgid ""
 "\n"
 "In your {SLOT:Belt}, you will find the {THING:ItemCableCoil}, place the cables in the highlighted area. Remember to use the scroll wheel to select the correct wire and use the {KEY:QuantityModifier} key to rotate to match the placement "
 msgstr ""
+"Maintenant, nous devons connecter nos équipements ensemble à l'aide de fils. Sur Terre, les fils normaux feront l'affaire. Cependant, l'oxygène atomique et le rayonnement solaire dégradent de nombreuses substances exposées à l'espace. Par conséquent, nous avons conçu un type spécial de câble capable de résister aux environnements spatiaux. Il peut transporter à la fois des données et de l'énergie, vous permettant de contrôler les machines à partir d'un panneau de commande. Cela sera traité plus tard.\n"
+"\n"
+"Dans votre {SLOT:Belt}, vous trouverez le {THING:ItemCableCoil}, placez les câbles dans la zone en surbrillance. N’oubliez pas d’utiliser la roue de défilement pour sélectionner le fil correct et d’utiliser la touche {KEY:QuantityModifier} pour faire pivoter pour correspondre au placement"
 
 #: /Language/Interface/Record[Key='LearningToWireTask0.5']
 msgctxt "Interface.LearningToWireTask0.5"
@@ -1259,7 +1267,7 @@ msgstr "Câblage des fils"
 #: /Language/Interface/Record[Key='TutorialWiringWiresDescription']
 msgctxt "Interface.TutorialWiringWiresDescription"
 msgid "Extend the wires to the main platform."
-msgstr ""
+msgstr "Étendre les fils à la plate-forme principale."
 
 #: /Language/Interface/Record[Key='TutorialPowerControlersAndbatteryCharges']
 msgctxt "Interface.TutorialPowerControlersAndbatteryCharges"
@@ -1297,12 +1305,12 @@ msgstr ""
 #: /Language/Interface/Record[Key='TutorialFinishingTheCircuit']
 msgctxt "Interface.TutorialFinishingTheCircuit"
 msgid "Finishing the circuit"
-msgstr ""
+msgstr "Terminer le circuit"
 
 #: /Language/Interface/Record[Key='TutorialTutorialFinishingTheCircuitDescription']
 msgctxt "Interface.TutorialTutorialFinishingTheCircuitDescription"
 msgid "Wire the rest of the components up to our machines."
-msgstr ""
+msgstr "Câblez le reste des composants jusqu’à nos machines."
 
 #: /Language/Interface/Record[Key='FinishingTheCircuitTask2']
 msgctxt "Interface.FinishingTheCircuitTask2"
@@ -1327,7 +1335,7 @@ msgstr "Placez le {THING:StructureCableJunction}."
 #: /Language/Interface/Record[Key='TutorialSettingUpThePowerController']
 msgctxt "Interface.TutorialSettingUpThePowerController"
 msgid "Setting up the Power controller"
-msgstr ""
+msgstr "Mise en place du contrôleur d’alimentation"
 
 #: /Language/Interface/Record[Key='TutorialSettingUpThePowerControllerDescription']
 msgctxt "Interface.TutorialSettingUpThePowerControllerDescription"
@@ -1335,11 +1343,13 @@ msgid ""
 "To make the power controller work we need to open the cover and insert a battery then flip the breaker switch to allow electricity and data to pass-through. Its usually recommended to use a large "
 "battery to ensure long-lasting power in the event of an outage although a small battery could be used too."
 msgstr ""
+"Pour que le contrôleur d’alimentation fonctionne, nous devons ouvrir le couvercle et insérer une batterie, puis retourner le commutateur de disjoncteur pour permettre à l’électricité et aux données "
+"de passer à travers. Son habituellement recommandé d’utiliser une grande batterie pour assurer une alimentation durable en cas de panne, bien qu’une petite batterie pourrait être utilisé aussi."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask1']
 msgctxt "Interface.SettingUpThePowerControllerTask1"
 msgid "Equip the crowbar from your {SLOT:Belt}."
-msgstr ""
+msgstr "Equipez le pied de biche de votre {SLOT:Belt}."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask2']
 msgctxt "Interface.SettingUpThePowerControllerTask2"
