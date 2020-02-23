@@ -10,20 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ElectronicReaderLiquidMeasurement']
-msgctxt "Interface.ElectronicReaderLiquidMeasurement"
-msgid "ml"
+#: /Language/Interface/Record[Key='ElectronicReaderTime']
+msgctxt "Interface.ElectronicReaderTime"
+msgid "Time"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldModeCreative']
-msgctxt "Interface.NewWorldModeCreative"
-msgid "Creative"
-msgstr "Kreativní"
+#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
+msgctxt "Interface.SettingsGameplayAutosave"
+msgid "Enable Autosave"
+msgstr "Povolit Automatické Ukládání"
 
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "Ovládání"
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Přežití"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -240,11 +240,6 @@ msgctxt "Interface.Europa2"
 msgid "Europa"
 msgstr "Europa"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
-msgctxt "Interface.JoinMenuInfoIPAddress"
-msgid "IP Address:"
-msgstr "IP Adresa:"
-
 #: /Language/Interface/Record[Key='Mimas']
 msgctxt "Interface.Mimas"
 msgid "Mimas"
@@ -255,6 +250,11 @@ msgstr ""
 msgctxt "Interface.NewWorldAreaEarth"
 msgid "Earth"
 msgstr "Země"
+
+#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
+msgctxt "Interface.JoinMenuInfoIPAddress"
+msgid "IP Address:"
+msgstr "IP Adresa:"
 
 #: /Language/Interface/Record[Key='NewWorldAreaEuropa']
 msgctxt "Interface.NewWorldAreaEuropa"
@@ -346,15 +346,15 @@ msgctxt "Interface.GameMenuButtonSave"
 msgid "Save World"
 msgstr "Uložit Svět"
 
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "Různé"
+#: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
+msgctxt "Interface.GameMenuButtonChangeCharacter"
+msgid "Change Appearance"
+msgstr "Změnit vzhled"
 
-#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
-msgctxt "Interface.SettingsGameplayAutosave"
-msgid "Enable Autosave"
-msgstr "Povolit Automatické Ukládání"
+#: /Language/Interface/Record[Key='GameMenuButtonSettings']
+msgctxt "Interface.GameMenuButtonSettings"
+msgid "Settings"
+msgstr "Nastavení"
 
 #: /Language/Interface/Record[Key='SettingsAutosaveInterval']
 msgctxt "Interface.SettingsAutosaveInterval"
@@ -736,10 +736,10 @@ msgctxt "Interface.SettingsMiscInvertMouse"
 msgid "Invert Mouse"
 msgstr "Invertovat Myš"
 
-#: /Language/Interface/Record[Key='SpinnerPannelSaving']
-msgctxt "Interface.SpinnerPannelSaving"
-msgid "Saving"
-msgstr "Uložení"
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr "Incidenty"
 
 #: /Language/Interface/Record[Key='SettingsInvertMouse']
 msgctxt "Interface.SettingsInvertMouse"
@@ -1138,25 +1138,15 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Zadejte Název Uložení..."
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Přežití"
+#: /Language/Interface/Record[Key='NewWorldModeCreative']
+msgctxt "Interface.NewWorldModeCreative"
+msgid "Creative"
+msgstr "Kreativní"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
 msgid "Map"
 msgstr "Mapa"
-
-#: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
-msgctxt "Interface.GameMenuButtonChangeCharacter"
-msgid "Change Appearance"
-msgstr "Změnit vzhled"
-
-#: /Language/Interface/Record[Key='GameMenuButtonSettings']
-msgctxt "Interface.GameMenuButtonSettings"
-msgid "Settings"
-msgstr "Nastavení"
 
 #: /Language/Interface/Record[Key='GameMenuButtonLeave']
 msgctxt "Interface.GameMenuButtonLeave"
@@ -1207,6 +1197,26 @@ msgstr "Ukončit Hru"
 msgctxt "Interface.SettingsMenuTitle"
 msgid "Settings"
 msgstr "Nastavení"
+
+#: /Language/Interface/Record[Key='SettingsMenuGameplay']
+msgctxt "Interface.SettingsMenuGameplay"
+msgid "Gameplay"
+msgstr "Gameplay"
+
+#: /Language/Interface/Record[Key='SettingsMenuVideo']
+msgctxt "Interface.SettingsMenuVideo"
+msgid "Video"
+msgstr "Zobrazení"
+
+#: /Language/Interface/Record[Key='NotApplicableString']
+msgctxt "Interface.NotApplicableString"
+msgid "N/A"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderTitle']
+msgctxt "Interface.CartridgeElectronicReaderTitle"
+msgid "ENCYCLOPEDIA"
+msgstr ""
 
 #: /Language/Interface/Record[Key='NetworkAnalyserTitle']
 msgctxt "Interface.NetworkAnalyserTitle"
@@ -1284,15 +1294,15 @@ msgctxt "Interface.ElectronicReaderSeconds"
 msgid " Seconds"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderTime']
-msgctxt "Interface.ElectronicReaderTime"
-msgid "Time"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "Zvuk"
 
-#: /Language/Interface/Record[Key='SettingsMenuGameplay']
-msgctxt "Interface.SettingsMenuGameplay"
-msgid "Gameplay"
-msgstr "Gameplay"
+#: /Language/Interface/Record[Key='ElectronicReaderLiquidMeasurement']
+msgctxt "Interface.ElectronicReaderLiquidMeasurement"
+msgid "ml"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReadereggs']
 msgctxt "Interface.ElectronicReadereggs"
@@ -2042,15 +2052,15 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr "Otevřít Incidenty"
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr "Incidenty"
-
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
 msgid "Done"
 msgstr "Hotovo"
+
+#: /Language/Interface/Record[Key='SpinnerPannelSaving']
+msgctxt "Interface.SpinnerPannelSaving"
+msgid "Saving"
+msgstr "Uložení"
 
 #: /Language/Interface/Record[Key='AppearanceTitleSpecies']
 msgctxt "Interface.AppearanceTitleSpecies"
@@ -3165,15 +3175,15 @@ msgctxt "Interface.WorldSettingsTitle"
 msgid "World Settings"
 msgstr "Nastavení Světa"
 
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "Ovládání"
+
 #: /Language/Interface/Record[Key='WorldAtmospherePresetLabel']
 msgctxt "Interface.WorldAtmospherePresetLabel"
 msgid "Atmosphere"
 msgstr "Atmosféra"
-
-#: /Language/Interface/Record[Key='SettingsMenuVideo']
-msgctxt "Interface.SettingsMenuVideo"
-msgid "Video"
-msgstr "Zobrazení"
 
 #: /Language/Interface/Record[Key='WorldTerrainPresetLabel']
 msgctxt "Interface.WorldTerrainPresetLabel"
@@ -3355,10 +3365,10 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "Mapa:"
 
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "Zvuk"
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "Různé"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"
