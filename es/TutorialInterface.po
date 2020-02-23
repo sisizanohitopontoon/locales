@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-02-23 16:34+0000\n"
+"PO-Revision-Date: 2020-02-23 16:39+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1074,7 +1074,7 @@ msgstr "Recoge el {THING:ItemIronSheets} de el anterior {THING:StructureAutolath
 #: /Language/Interface/Record[Key='TutorialBuildingAnAutolathePart2Task1']
 msgctxt "Interface.TutorialBuildingAnAutolathePart2Task1"
 msgid "Weld some {THING:ItemIronSheets} onto the {THING:StructureAutolathe}."
-msgstr "Suelde algunos {THING:ItemIronSheets} en el {THING:StructureAutolathe}."
+msgstr "Soldar algunas {THING:ItemIronSheets} en el {THING:StructureAutolathe}."
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnAutolatheTask1.5']
 msgctxt "Interface.TutorialBuildingAnAutolatheTask1.5"
@@ -1205,7 +1205,7 @@ msgstr "Coloque el {THING:ItemGlassSheets} en el panel solar."
 #: /Language/Interface/Record[Key='TutorialLearningToWire']
 msgctxt "Interface.TutorialLearningToWire"
 msgid "Learning to wire"
-msgstr ""
+msgstr "Aprender a cablear"
 
 #: /Language/Interface/Record[Key='TutorialLearningToWireDescription']
 msgctxt "Interface.TutorialLearningToWireDescription"
@@ -1215,6 +1215,9 @@ msgid ""
 "\n"
 "In your {SLOT:Belt}, you will find the {THING:ItemCableCoil}, place the cables in the highlighted area. Remember to use the scroll wheel to select the correct wire and use the {KEY:QuantityModifier} key to rotate to match the placement "
 msgstr ""
+"Ahora necesitamos conectar nuestro equipo usando cables. En la Tierra, los cables normales servirán. Sin embargo, el oxígeno atómico y la radiación solar degradan muchas sustancias expuestas al espacio. Por lo tanto, hemos diseñado un tipo especial de cable capaz de soportar entornos espaciales. Puede transportar tanto datos como energía, lo que le permite controlar las máquinas desde un panel de control. Esto se cubrirá más adelante. \n"
+"\n"
+"En su {SLOT:Belt}, encontrará el {THING:ItemCableCoil}, coloque los cables en el área resaltada. Recuerde utilizar la rueda de desplazamiento para seleccionar el cable correcto y utilizar la tecla {KEY:QuantityModifier} para rotar hasta que coincida con la colocación correcta "
 
 #: /Language/Interface/Record[Key='LearningToWireTask0.5']
 msgctxt "Interface.LearningToWireTask0.5"
@@ -1239,17 +1242,17 @@ msgstr "Coloca el {THING:StructureCableJunction}."
 #: /Language/Interface/Record[Key='TutorialWiringWires']
 msgctxt "Interface.TutorialWiringWires"
 msgid "Wiring Wires"
-msgstr ""
+msgstr "Uniendo Cables"
 
 #: /Language/Interface/Record[Key='TutorialWiringWiresDescription']
 msgctxt "Interface.TutorialWiringWiresDescription"
 msgid "Extend the wires to the main platform."
-msgstr ""
+msgstr "Extienda los cables a la plataforma principal."
 
 #: /Language/Interface/Record[Key='TutorialPowerControlersAndbatteryCharges']
 msgctxt "Interface.TutorialPowerControlersAndbatteryCharges"
 msgid "Battery Charges and Power Controllers"
-msgstr ""
+msgstr "Carga de baterías y controladores de alimentación"
 
 #: /Language/Interface/Record[Key='TutorialPowerControlersAndbatteryChargesDescription']
 msgctxt "Interface.TutorialPowerControlersAndbatteryChargesDescription"
@@ -1258,11 +1261,14 @@ msgid ""
 "\n"
 "Secondly, we need to add a {THING:ItemBatteryCharger} to charge our depleted batteries. We want to put this in front of our {THING:ItemAreaPowerControl} so that any battery charging won’t drain the battery in the {THING:ItemAreaPowerControl}."
 msgstr ""
+"En nuestro siguiente paso tenemos que colocar un {THING:ItemAreaPowerControl}. Los controladores de alimentación se utilizan para controlar el flujo de energía y evitar que los cables se quemen, también proporcionan una pequeña cantidad de fuente de alimentación intermedia si los generadores están desconectados.\n"
+"\n"
+"En segundo lugar, tenemos que añadir un {THING:ItemBatteryCharger} para cargar nuestras baterías agotadas. Queremos poner esto delante de nuestro {THING:ItemAreaPowerControl} para que cualquier carga de la batería no agote la batería en el {THING:ItemAreaPowerControl}."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask1']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask1"
 msgid "Get the {THING:ItemAreaPowerControl} from Construction Crate 1."
-msgstr ""
+msgstr "Obtenga el {THING:ItemAreaPowerControl} de la caja de construcción 1."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask2']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask2"
@@ -1272,22 +1278,22 @@ msgstr "Coloca el {THING:ItemAreaPowerControl} en el lugar resaltado."
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask3']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask3"
 msgid "Get the {THING:ItemBatteryCharger} from Construction Crate 2."
-msgstr ""
+msgstr "Obtenga el {THING:ItemBatteryCharger} de la caja de construcción 2."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask4']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask4"
 msgid "place the {THING:ItemBatteryCharger} in the highlighted spot."
-msgstr ""
+msgstr "coloca el {THING:ItemBatteryCharger} en el área resaltada."
 
 #: /Language/Interface/Record[Key='TutorialFinishingTheCircuit']
 msgctxt "Interface.TutorialFinishingTheCircuit"
 msgid "Finishing the circuit"
-msgstr ""
+msgstr "Terminar el circuito"
 
 #: /Language/Interface/Record[Key='TutorialTutorialFinishingTheCircuitDescription']
 msgctxt "Interface.TutorialTutorialFinishingTheCircuitDescription"
 msgid "Wire the rest of the components up to our machines."
-msgstr ""
+msgstr "Conecte el resto de los componentes a nuestras máquinas."
 
 #: /Language/Interface/Record[Key='FinishingTheCircuitTask2']
 msgctxt "Interface.FinishingTheCircuitTask2"
@@ -1312,7 +1318,7 @@ msgstr "Coloca el {THING:StructureCableJunction}."
 #: /Language/Interface/Record[Key='TutorialSettingUpThePowerController']
 msgctxt "Interface.TutorialSettingUpThePowerController"
 msgid "Setting up the Power controller"
-msgstr ""
+msgstr "Configuración del controlador de alimentación"
 
 #: /Language/Interface/Record[Key='TutorialSettingUpThePowerControllerDescription']
 msgctxt "Interface.TutorialSettingUpThePowerControllerDescription"
@@ -1320,6 +1326,8 @@ msgid ""
 "To make the power controller work we need to open the cover and insert a battery then flip the breaker switch to allow electricity and data to pass-through. Its usually recommended to use a large "
 "battery to ensure long-lasting power in the event of an outage although a small battery could be used too."
 msgstr ""
+"Para que el controlador de energía funcione, necesitamos abrir la cubierta e insertar una batería y luego girar el interruptor del interruptor para permitir que la electricidad y los datos pasen a "
+"través de el. Por lo general, se recomienda utilizar una batería grande para garantizar una potencia duradera en caso de una interrupción, aunque también se podría utilizar una batería pequeña."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask1']
 msgctxt "Interface.SettingUpThePowerControllerTask1"
