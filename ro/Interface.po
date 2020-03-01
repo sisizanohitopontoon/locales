@@ -15,15 +15,15 @@ msgctxt "Interface.ElectronicReaderTime"
 msgid "Time"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
-msgctxt "Interface.SettingsGameplayAutosave"
-msgid "Enable Autosave"
-msgstr "Activează salvarea automată"
-
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
+#: /Language/Interface/Record[Key='NewWorldModeCreative']
+msgctxt "Interface.NewWorldModeCreative"
+msgid "Creative"
 msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsMenuVideo']
+msgctxt "Interface.SettingsMenuVideo"
+msgid "Video"
+msgstr "Video"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -339,25 +339,25 @@ msgctxt "Interface.StatusWindowInternal"
 msgid "Internal"
 msgstr "Intern"
 
-#: /Language/Interface/Record[Key='GameMenuButtonReturn']
-msgctxt "Interface.GameMenuButtonReturn"
-msgid "Return To Game"
-msgstr "Revenire la joc"
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "Sunet"
 
-#: /Language/Interface/Record[Key='GameMenuButtonSave']
-msgctxt "Interface.GameMenuButtonSave"
-msgid "Save World"
-msgstr "Salvează lumea"
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "Taste de control"
 
-#: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
-msgctxt "Interface.GameMenuButtonChangeCharacter"
-msgid "Change Appearance"
-msgstr "Modificare aspect"
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "Altele"
 
-#: /Language/Interface/Record[Key='GameMenuButtonSettings']
-msgctxt "Interface.GameMenuButtonSettings"
-msgid "Settings"
-msgstr "Setări"
+#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
+msgctxt "Interface.SettingsGameplayAutosave"
+msgid "Enable Autosave"
+msgstr "Activează salvarea automată"
 
 #: /Language/Interface/Record[Key='SettingsAutosaveInterval']
 msgctxt "Interface.SettingsAutosaveInterval"
@@ -738,14 +738,14 @@ msgctxt "Interface.SettingsMiscInvertMouse"
 msgid "Invert Mouse"
 msgstr ""
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsInvertMouse']
 msgctxt "Interface.SettingsInvertMouse"
 msgid "Invert Mouse"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SpinnerPannelSaving']
+msgctxt "Interface.SpinnerPannelSaving"
+msgid "Saving"
 msgstr ""
 
 #: /Language/Interface/Record[Key='MothershipConstruction']
@@ -1136,15 +1136,35 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldModeCreative']
-msgctxt "Interface.NewWorldModeCreative"
-msgid "Creative"
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
 msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
 msgid "Map"
 msgstr ""
+
+#: /Language/Interface/Record[Key='GameMenuButtonReturn']
+msgctxt "Interface.GameMenuButtonReturn"
+msgid "Return To Game"
+msgstr "Revenire la joc"
+
+#: /Language/Interface/Record[Key='GameMenuButtonSave']
+msgctxt "Interface.GameMenuButtonSave"
+msgid "Save World"
+msgstr "Salvează lumea"
+
+#: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
+msgctxt "Interface.GameMenuButtonChangeCharacter"
+msgid "Change Appearance"
+msgstr "Modificare aspect"
+
+#: /Language/Interface/Record[Key='GameMenuButtonSettings']
+msgctxt "Interface.GameMenuButtonSettings"
+msgid "Settings"
+msgstr "Setări"
 
 #: /Language/Interface/Record[Key='GameMenuButtonLeave']
 msgctxt "Interface.GameMenuButtonLeave"
@@ -1185,26 +1205,6 @@ msgstr "Procesarea datelor de configurare"
 msgctxt "Interface.ButtonConfirmWarning"
 msgid "Warning"
 msgstr "Avertizare"
-
-#: /Language/Interface/Record[Key='GameMenuButtonExit']
-msgctxt "Interface.GameMenuButtonExit"
-msgid "Exit Game"
-msgstr "Ieșire joc"
-
-#: /Language/Interface/Record[Key='SettingsMenuTitle']
-msgctxt "Interface.SettingsMenuTitle"
-msgid "Settings"
-msgstr "Setări"
-
-#: /Language/Interface/Record[Key='SettingsMenuGameplay']
-msgctxt "Interface.SettingsMenuGameplay"
-msgid "Gameplay"
-msgstr "Gameplay"
-
-#: /Language/Interface/Record[Key='SettingsMenuVideo']
-msgctxt "Interface.SettingsMenuVideo"
-msgid "Video"
-msgstr "Video"
 
 #: /Language/Interface/Record[Key='NotApplicableString']
 msgctxt "Interface.NotApplicableString"
@@ -1289,10 +1289,10 @@ msgctxt "Interface.ElectronicReaderSeconds"
 msgid " Seconds"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "Sunet"
+#: /Language/Interface/Record[Key='GameMenuButtonExit']
+msgctxt "Interface.GameMenuButtonExit"
+msgid "Exit Game"
+msgstr "Ieșire joc"
 
 #: /Language/Interface/Record[Key='ElectronicReaderLiquidMeasurement']
 msgctxt "Interface.ElectronicReaderLiquidMeasurement"
@@ -2038,14 +2038,14 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr ""
 
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
 msgid "Done"
-msgstr ""
-
-#: /Language/Interface/Record[Key='SpinnerPannelSaving']
-msgctxt "Interface.SpinnerPannelSaving"
-msgid "Saving"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AppearanceTitleSpecies']
@@ -3155,15 +3155,15 @@ msgctxt "Interface.WorldSettingsTitle"
 msgid "World Settings"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "Taste de control"
-
 #: /Language/Interface/Record[Key='WorldAtmospherePresetLabel']
 msgctxt "Interface.WorldAtmospherePresetLabel"
 msgid "Atmosphere"
 msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsMenuTitle']
+msgctxt "Interface.SettingsMenuTitle"
+msgid "Settings"
+msgstr "Setări"
 
 #: /Language/Interface/Record[Key='WorldTerrainPresetLabel']
 msgctxt "Interface.WorldTerrainPresetLabel"
@@ -3345,10 +3345,10 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "Altele"
+#: /Language/Interface/Record[Key='SettingsMenuGameplay']
+msgctxt "Interface.SettingsMenuGameplay"
+msgid "Gameplay"
+msgstr "Gameplay"
 
 #~ msgctxt "Interface.NewWorldAreaSpace"
 #~ msgid "Space"
