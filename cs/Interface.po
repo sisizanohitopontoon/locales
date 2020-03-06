@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-06 15:29+0000\n"
+"PO-Revision-Date: 2020-03-06 15:36+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2225,22 +2225,22 @@ msgstr "Aktuální poloha v dimenzi X ve světových souřadnicích"
 #: /Language/Interface/Record[Key='LogicTypeAirRelease']
 msgctxt "Interface.LogicTypeAirRelease"
 msgid "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
-msgstr ""
+msgstr "Aktuální stav systému uvolňování vzduchu, například Vypouštění vzduchu = 1 pro Hardsuit, nastaví uvolňování vzduchu na Zapnuto"
 
 #: /Language/Interface/Record[Key='LogicTypeFiltration']
 msgctxt "Interface.LogicTypeFiltration"
 msgid "The current state of the filtration system, for example Filtration = 1 for a Hardsuit sets filtration to On"
-msgstr ""
+msgstr "Aktuální stav filtračního systému, například Filtrace = 1 pro Hardsuit, nastaví filtraci na On"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperatureExternal']
 msgctxt "Interface.LogicTypeTemperatureExternal"
 msgid "The temperature of the outside of the device, usually the world atmosphere surrounding it"
-msgstr ""
+msgstr "Teplota vnějšího povrchu zařízení, obvykle světová atmosféra, která jej obklopuje"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
 msgctxt "Interface.LogicTypeTemperatureSetting"
 msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
-msgstr ""
+msgstr "Aktuální nastavení vnitřní teploty objektu (např. Hardsuit A/C)"
 
 #: /Language/Interface/Record[Key='LogicTypePressureSetting']
 msgctxt "Interface.LogicTypePressureSetting"
@@ -2253,21 +2253,23 @@ msgid ""
 "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await "
 "further instructions"
 msgstr ""
+"Operace výstupu zařízení pro třídění, jako je stohovač nebo třídič, v logickém režimu bude zařízení provádět pouze jedno opakování, když je nastaveno na nulu nebo vyšší, a pak zpět na -1 a čekat na "
+"další pokyny"
 
 #: /Language/Interface/Record[Key='LogicTypeHarvest']
 msgctxt "Interface.LogicTypeHarvest"
 msgid "Performs the harvesting action for any plant based machinery"
-msgstr ""
+msgstr "Provádí sklízecí akci u všech strojních zařízení"
 
 #: /Language/Interface/Record[Key='LogicTypePlant']
 msgctxt "Interface.LogicTypePlant"
 msgid "Performs the planting action for any plant based machinery"
-msgstr ""
+msgstr "Provádí výsadbu u všech strojních zařízení"
 
 #: /Language/Interface/Record[Key='LogicTypeVolume']
 msgctxt "Interface.LogicTypeVolume"
 msgid "Returns the device atmosphere volume"
-msgstr ""
+msgstr "Vrátí hlasitost atmosféry zařízení"
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMoles']
 msgctxt "Interface.LogicTypeTotalMoles"
@@ -2297,17 +2299,17 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
 msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
-msgstr ""
+msgstr "Jak je dokončena současná výroba tohoto zařízení, mezi 0 a 1"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, re quests an item of the provided type from the device"
-msgstr ""
+msgstr "Pokud je nastaven na jedinečný identifikátor, požaduje od zařízení položku poskytovaného typu"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
 msgid "DEPRECATED"
-msgstr ""
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash3']
 msgctxt "Interface.LogicTypePlantHash3"
