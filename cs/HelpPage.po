@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-08 12:55+0000\n"
+"PO-Revision-Date: 2020-03-08 12:59+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -585,6 +585,8 @@ msgid ""
 "{HEADER:Constructed From}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Vyrobeno z}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedHeaderTemplate']
 msgctxt "HelpPage.CreatedHeaderTemplate"
@@ -592,6 +594,8 @@ msgid ""
 "{HEADER:Can Manufacture}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Může vyrábět}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedHeaderTemplate']
 msgctxt "HelpPage.ConstructedHeaderTemplate"
@@ -599,6 +603,8 @@ msgid ""
 "{HEADER:Can Construct}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Lze vytvořit}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTransmitHeaderTemplate']
 msgctxt "HelpPage.LogicTransmitHeaderTemplate"
@@ -608,6 +614,10 @@ msgid ""
 "        {LIST}{0}{/LIST}\n"
 "      "
 msgstr ""
+"\n"
+"        {HEADER:Připojuje se k}\n"
+"        {LIST}{0}{/LIST}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='TierListHeaderTemplate']
 msgctxt "HelpPage.TierListHeaderTemplate"
@@ -616,26 +626,29 @@ msgid ""
 "        {HEADER:Structures Tier List}\n"
 "      "
 msgstr ""
+"\n"
+"        {HEADER:Seznam úrovní struktur}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorTemplate']
 msgctxt "HelpPage.CreatorTemplate"
 msgid "{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}"
-msgstr ""
+msgstr "{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeHeaderTemplate']
 msgctxt "HelpPage.LogicTypeHeaderTemplate"
 msgid "{HEADER:Logic}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Logika}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeTemplate']
 msgctxt "HelpPage.LogicTypeTemplate"
 msgid "{0}{POS:300}{1} {2}"
-msgstr ""
+msgstr "{0}{POS:300}{1} {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringHeaderTemplate']
 msgctxt "HelpPage.ModeStringHeaderTemplate"
 msgid "{HEADER:Modes}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Režimy} {LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedGasesTemplate']
 msgctxt "HelpPage.CreatedGasesTemplate"
@@ -643,6 +656,8 @@ msgid ""
 "{HEADER:Gases}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Plyny}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedReagentTemplate']
 msgctxt "HelpPage.CreatedReagentTemplate"
@@ -650,11 +665,13 @@ msgid ""
 "{HEADER:Reagents}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Činidla}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringItemTemplate']
 msgctxt "HelpPage.ModeStringItemTemplate"
 msgid "{0}.{POS:100}{1}"
-msgstr ""
+msgstr "{0}.{POS:100}{1}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPageTemplate']
 msgctxt "HelpPage.ReagentPageTemplate"
@@ -683,4 +700,4 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='GasPageFlamableTemplate']
 msgctxt "HelpPage.GasPageFlamableTemplate"
 msgid "Flamable Limit {POS:300}{0} to {1}"
-msgstr ""
+msgstr "Hořlavý limit {POS:300}{0} až {1}"
