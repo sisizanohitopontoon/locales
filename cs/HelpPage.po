@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-10 12:56+0000\n"
+"PO-Revision-Date: 2020-03-10 13:02+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -144,6 +144,13 @@ msgid ""
 "The {KEY:InventorySelect} button will swap whatever your selected slot is in your active hand, along with whatever slot you have selected with the {COLORRED:Mouse Wheel} if you want to use the hotkeys rather than doing it using the mouse.\n"
 "      "
 msgstr ""
+"Všechny věci ve hře mohou mít různé sloty. Tyto sloty mohou mít třídy slotů, které do těchto slotů umožňují pouze určité věci. Existuje několik klávesových zkratek pro přístup k slotům, které jsou ve vaší postavě, například {KEY:HelmetSlot} pro přístup k vaší {SLOT:Helmet}.\n"
+"      \n"
+"{HEADER: Inventář Windows}\n"
+"Některé sloty budou mít vlastní sloty. Chcete-li komunikovat s obsahem slotu, použijte k otevření okna klávesovou zkratku nebo podržte klávesu {KEY:MouseControl} a klikněte na ni myší. Nyní je okno pro daný slot otevřený a můžete s ním komunikovat s jeho sloty a nastavením. Windows lze přemístit přetažením jejich záhlaví.\n"
+"\n"
+"{HEADER:Fast Equipping}\n"
+"You can hold down a hotkey to fast equip, unequip, or swap a slot. For example, if we had a {THING:ItemSpaceHelmet} in our hands, and nothing in our {SLOT:Helmet}, if we held down {KEY:HelmetSlot} for a second it would be transferred into the slot."
 
 #: /Language/HelpPage/StationpediaPage[Key='AirlockDevicePage']
 msgctxt "HelpPage.AirlockDevicePage"
@@ -194,6 +201,8 @@ msgid ""
 "Your hands are special slots. You have one active hand at any time, which is the hand that is currently used by your {COLORRED:Primary Action}. To swap the active hand, press {KEY:SwapHands}. You active hand can be interacted with by pressing {KEY:ActiveHandSlot} which will open and close the contents of your active hand. As always, you can use {KEY:MouseControl} to bring up the mouse and interact that way. For more information, see the {LINK:InventoryPage;Inventory} section.\n"
 "      "
 msgstr ""
+"Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventory}.\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='SlotRightHand']
 msgctxt "HelpPage.SlotRightHand"
@@ -206,7 +215,7 @@ msgid ""
 "Your hands are special slots. You have one active hand at any time, which is the hand that is currently used by your {COLORRED:Primary Action}. To swap the active hand, press {KEY:SwapHands}. You active hand can be interacted with by pressing {KEY:ActiveHandSlot} which will open and close the contents of your active hand. As always, you can use {KEY:MouseControl} to bring up the mouse and interact that way. For more information, see the {LINK:InventoryPage:Inventory} section.\n"
 "      "
 msgstr ""
-"Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primary Action}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventory}.\n"
+"Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventory}.\n"
 "      "
 
 #: /Language/HelpPage/StationpediaPage[Key='FabricatorPage']
