@@ -875,8 +875,9 @@ msgid "Finish constructing Frame 7."
 msgstr "フレームの溶接を完了させる"
 
 #: /Language/Interface/Record[Key='TutorialDeconstructingAnArcFurnace']
+#, fuzzy
 msgctxt "Interface.TutorialDeconstructingAnArcFurnace"
-msgid "Deconstructing An Arc Furnace"
+msgid "Deconstructing An {THING:StructureArcFurnace}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialDeconstructingAnArcFurnaceDescription']
@@ -903,12 +904,12 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnArcFurnaceDescription']
 msgctxt "Interface.TutorialBuildingAnArcFurnaceDescription"
-msgid "Nicely done, Cadet. Next up, we need to build an {THING:ItemKitArcFurnace}. This will be used to smelt ores into usable ingots. Locate the Arcfurnace kit in the crate and pick it up."
+msgid "Nicely done, Cadet. Next up, we need to build an {THING:ItemKitArcFurnace}. This will be used to smelt ores into usable ingots."
 msgstr ""
 
 #: /Language/Interface/Record[Key='BuildingAnArcFurnaceTask1']
 msgctxt "Interface.BuildingAnArcFurnaceTask1"
-msgid "Place the ArcFurnace in the highlighted area you may need to use {KEY:QuantityModifier} to rotate the object to the correct position."
+msgid "Use the previously deconstructed {THING:StructureArcFurnace} and place it in the highlighted area you may need to use {KEY:QuantityModifier} to rotate the object to the correct position."
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialDeconstructingAnAutolathe']
@@ -1227,13 +1228,11 @@ msgid "To make the power controller work we need to open the cover and insert a 
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask1']
-#, fuzzy
 msgctxt "Interface.SettingUpThePowerControllerTask1"
 msgid "Equip the {THING:ItemCrowbar} from your {SLOT:Belt}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask2']
-#, fuzzy
 msgctxt "Interface.SettingUpThePowerControllerTask2"
 msgid "Open the {THING:StructureAreaPowerControl} with the {THING:ItemCrowbar}."
 msgstr ""
