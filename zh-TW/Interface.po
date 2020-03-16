@@ -7,20 +7,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='ElectronicReaderTime']
-msgctxt "Interface.ElectronicReaderTime"
-msgid "Time"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsThingRenderDistance']
+#, fuzzy
+msgctxt "Interface.SettingsThingRenderDistance"
+msgid "Thing Render Distance"
+msgstr "渲染塊距離"
 
-#: /Language/Interface/Record[Key='NewWorldModeCreative']
-msgctxt "Interface.NewWorldModeCreative"
-msgid "Creative"
-msgstr "創造模式"
+#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
+msgctxt "Interface.SettingsGameplayAutosave"
+msgid "Enable Autosave"
+msgstr "啟用自動存檔"
 
-#: /Language/Interface/Record[Key='SettingsMenuVideo']
-msgctxt "Interface.SettingsMenuVideo"
-msgid "Video"
-msgstr "影像"
+#: /Language/Interface/Record[Key='JoinMenuServerListMap']
+msgctxt "Interface.JoinMenuServerListMap"
+msgid "Map"
+msgstr "地圖:"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -343,25 +344,25 @@ msgctxt "Interface.StatusWindowInternal"
 msgid "Internal"
 msgstr "內部"
 
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "聲音"
+#: /Language/Interface/Record[Key='GameMenuButtonReturn']
+msgctxt "Interface.GameMenuButtonReturn"
+msgid "Return To Game"
+msgstr "返回遊戲"
 
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "控制"
+#: /Language/Interface/Record[Key='GameMenuButtonSave']
+msgctxt "Interface.GameMenuButtonSave"
+msgid "Save World"
+msgstr "儲存世界"
 
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "其它"
+#: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
+msgctxt "Interface.GameMenuButtonChangeCharacter"
+msgid "Change Appearance"
+msgstr "更改角色外觀"
 
-#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
-msgctxt "Interface.SettingsGameplayAutosave"
-msgid "Enable Autosave"
-msgstr "啟用自動存檔"
+#: /Language/Interface/Record[Key='GameMenuButtonSettings']
+msgctxt "Interface.GameMenuButtonSettings"
+msgid "Settings"
+msgstr "設置"
 
 #: /Language/Interface/Record[Key='SettingsAutosaveInterval']
 msgctxt "Interface.SettingsAutosaveInterval"
@@ -751,9 +752,9 @@ msgctxt "Interface.SettingsInvertMouse"
 msgid "Invert Mouse"
 msgstr "反轉滑鼠"
 
-#: /Language/Interface/Record[Key='SpinnerPannelDone']
-msgctxt "Interface.SpinnerPannelDone"
-msgid "Done"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MothershipConstruction']
@@ -1151,35 +1152,15 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "輸入存檔名稱..."
 
+#: /Language/Interface/Record[Key='NewWorldModeCreative']
+msgctxt "Interface.NewWorldModeCreative"
+msgid "Creative"
+msgstr "創造模式"
+
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "生存模式"
-
-#: /Language/Interface/Record[Key='JoinMenuServerListMap']
-msgctxt "Interface.JoinMenuServerListMap"
-msgid "Map"
-msgstr "地圖:"
-
-#: /Language/Interface/Record[Key='GameMenuButtonReturn']
-msgctxt "Interface.GameMenuButtonReturn"
-msgid "Return To Game"
-msgstr "返回遊戲"
-
-#: /Language/Interface/Record[Key='GameMenuButtonSave']
-msgctxt "Interface.GameMenuButtonSave"
-msgid "Save World"
-msgstr "儲存世界"
-
-#: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
-msgctxt "Interface.GameMenuButtonChangeCharacter"
-msgid "Change Appearance"
-msgstr "更改角色外觀"
-
-#: /Language/Interface/Record[Key='GameMenuButtonSettings']
-msgctxt "Interface.GameMenuButtonSettings"
-msgid "Settings"
-msgstr "設置"
 
 #: /Language/Interface/Record[Key='GameMenuButtonLeave']
 msgctxt "Interface.GameMenuButtonLeave"
@@ -1220,6 +1201,48 @@ msgstr "處理設置數據"
 msgctxt "Interface.ButtonConfirmWarning"
 msgid "Warning"
 msgstr "警告"
+
+#: /Language/Interface/Record[Key='GameMenuButtonExit']
+msgctxt "Interface.GameMenuButtonExit"
+msgid "Exit Game"
+msgstr "離開遊戲"
+
+#: /Language/Interface/Record[Key='SettingsMenuTitle']
+msgctxt "Interface.SettingsMenuTitle"
+msgid "Settings"
+msgstr "設定"
+
+#: /Language/Interface/Record[Key='SettingsMenuGameplay']
+msgctxt "Interface.SettingsMenuGameplay"
+msgid "Gameplay"
+msgstr "遊戲設置"
+
+#: /Language/Interface/Record[Key='SettingsMenuVideo']
+msgctxt "Interface.SettingsMenuVideo"
+msgid "Video"
+msgstr "影像"
+
+#: /Language/Interface/Record[Key='TutorialsObjectiveTitle']
+msgctxt "Interface.TutorialsObjectiveTitle"
+msgid "Objective"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TutorialsTitle']
+#, fuzzy
+msgctxt "Interface.TutorialsTitle"
+msgid "Tutorials"
+msgstr "新手教學<color=green> - 新!</color> "
+
+#: /Language/Interface/Record[Key='ScenariosObjectiveTitle']
+msgctxt "Interface.ScenariosObjectiveTitle"
+msgid "Objective"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScenariosTitle']
+#, fuzzy
+msgctxt "Interface.ScenariosTitle"
+msgid "Scenarios"
+msgstr "場景"
 
 #: /Language/Interface/Record[Key='CustomWorld']
 #, fuzzy
@@ -1299,21 +1322,20 @@ msgctxt "Interface.ElectronicReaderEnergy"
 msgid "Energy"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsThingRenderDistance']
-#, fuzzy
-msgctxt "Interface.SettingsThingRenderDistance"
-msgid "Thing Render Distance"
-msgstr "渲染塊距離"
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "聲音"
 
 #: /Language/Interface/Record[Key='ElectronicReaderSeconds']
 msgctxt "Interface.ElectronicReaderSeconds"
 msgid " Seconds"
 msgstr ""
 
-#: /Language/Interface/Record[Key='GameMenuButtonExit']
-msgctxt "Interface.GameMenuButtonExit"
-msgid "Exit Game"
-msgstr "離開遊戲"
+#: /Language/Interface/Record[Key='ElectronicReaderTime']
+msgctxt "Interface.ElectronicReaderTime"
+msgid "Time"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderLiquidMeasurement']
 msgctxt "Interface.ElectronicReaderLiquidMeasurement"
@@ -2057,11 +2079,6 @@ msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr ""
-
 #: /Language/Interface/Record[Key='ContactsTrading']
 #, fuzzy
 msgctxt "Interface.ContactsTrading"
@@ -2076,6 +2093,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='IncidentsTitle']
 msgctxt "Interface.IncidentsTitle"
 msgid "Incidents"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SpinnerPannelSaving']
@@ -3222,6 +3244,11 @@ msgctxt "Interface.WorldResetButton"
 msgid "Reset"
 msgstr "重置"
 
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "控制"
+
 #: /Language/Interface/Record[Key='WorldSettingsTitle']
 msgctxt "Interface.WorldSettingsTitle"
 msgid "World Settings"
@@ -3231,11 +3258,6 @@ msgstr "世界設置"
 msgctxt "Interface.WorldAtmospherePresetLabel"
 msgid "Atmosphere"
 msgstr "大氣層"
-
-#: /Language/Interface/Record[Key='SettingsMenuTitle']
-msgctxt "Interface.SettingsMenuTitle"
-msgid "Settings"
-msgstr "設定"
 
 #: /Language/Interface/Record[Key='WorldTerrainPresetLabel']
 msgctxt "Interface.WorldTerrainPresetLabel"
@@ -3417,10 +3439,10 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "地圖:"
 
-#: /Language/Interface/Record[Key='SettingsMenuGameplay']
-msgctxt "Interface.SettingsMenuGameplay"
-msgid "Gameplay"
-msgstr "遊戲設置"
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "其它"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"

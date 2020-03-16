@@ -10,20 +10,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ElectronicReaderTime']
-msgctxt "Interface.ElectronicReaderTime"
-msgid "Time"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsThingRenderDistance']
+#, fuzzy
+msgctxt "Interface.SettingsThingRenderDistance"
+msgid "Thing Render Distance"
+msgstr "Distanza Render Chunk"
 
-#: /Language/Interface/Record[Key='NewWorldModeCreative']
-msgctxt "Interface.NewWorldModeCreative"
-msgid "Creative"
-msgstr "Creativo"
+#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
+msgctxt "Interface.SettingsGameplayAutosave"
+msgid "Enable Autosave"
+msgstr "Attiva salvataggio automatico"
 
-#: /Language/Interface/Record[Key='SettingsMenuVideo']
-msgctxt "Interface.SettingsMenuVideo"
-msgid "Video"
-msgstr "Video"
+#: /Language/Interface/Record[Key='JoinMenuServerListMap']
+msgctxt "Interface.JoinMenuServerListMap"
+msgid "Map"
+msgstr "Mappa"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -340,25 +341,25 @@ msgctxt "Interface.StatusWindowInternal"
 msgid "Internal"
 msgstr "Interna"
 
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "Audio"
+#: /Language/Interface/Record[Key='GameMenuButtonReturn']
+msgctxt "Interface.GameMenuButtonReturn"
+msgid "Return To Game"
+msgstr "Torna al gioco"
 
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "Controlli"
+#: /Language/Interface/Record[Key='GameMenuButtonSave']
+msgctxt "Interface.GameMenuButtonSave"
+msgid "Save World"
+msgstr "Salva Mondo"
 
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "Miscellanea"
+#: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
+msgctxt "Interface.GameMenuButtonChangeCharacter"
+msgid "Change Appearance"
+msgstr "Cambia Aspetto"
 
-#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
-msgctxt "Interface.SettingsGameplayAutosave"
-msgid "Enable Autosave"
-msgstr "Attiva salvataggio automatico"
+#: /Language/Interface/Record[Key='GameMenuButtonSettings']
+msgctxt "Interface.GameMenuButtonSettings"
+msgid "Settings"
+msgstr "Settaggi"
 
 #: /Language/Interface/Record[Key='SettingsAutosaveInterval']
 msgctxt "Interface.SettingsAutosaveInterval"
@@ -748,10 +749,10 @@ msgctxt "Interface.SettingsInvertMouse"
 msgid "Invert Mouse"
 msgstr "Inverti Mouse"
 
-#: /Language/Interface/Record[Key='SpinnerPannelDone']
-msgctxt "Interface.SpinnerPannelDone"
-msgid "Done"
-msgstr "Fatto"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "Sembra che il contatto sia andato avanti."
 
 #: /Language/Interface/Record[Key='MothershipConstruction']
 msgctxt "Interface.MothershipConstruction"
@@ -1147,35 +1148,15 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Inserisci nome salvataggio"
 
+#: /Language/Interface/Record[Key='NewWorldModeCreative']
+msgctxt "Interface.NewWorldModeCreative"
+msgid "Creative"
+msgstr "Creativo"
+
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "Sopravvivenza"
-
-#: /Language/Interface/Record[Key='JoinMenuServerListMap']
-msgctxt "Interface.JoinMenuServerListMap"
-msgid "Map"
-msgstr "Mappa"
-
-#: /Language/Interface/Record[Key='GameMenuButtonReturn']
-msgctxt "Interface.GameMenuButtonReturn"
-msgid "Return To Game"
-msgstr "Torna al gioco"
-
-#: /Language/Interface/Record[Key='GameMenuButtonSave']
-msgctxt "Interface.GameMenuButtonSave"
-msgid "Save World"
-msgstr "Salva Mondo"
-
-#: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
-msgctxt "Interface.GameMenuButtonChangeCharacter"
-msgid "Change Appearance"
-msgstr "Cambia Aspetto"
-
-#: /Language/Interface/Record[Key='GameMenuButtonSettings']
-msgctxt "Interface.GameMenuButtonSettings"
-msgid "Settings"
-msgstr "Settaggi"
 
 #: /Language/Interface/Record[Key='GameMenuButtonLeave']
 msgctxt "Interface.GameMenuButtonLeave"
@@ -1216,6 +1197,48 @@ msgstr "Elaborando dati in Upload"
 msgctxt "Interface.ButtonConfirmWarning"
 msgid "Warning"
 msgstr "Attenzione !"
+
+#: /Language/Interface/Record[Key='GameMenuButtonExit']
+msgctxt "Interface.GameMenuButtonExit"
+msgid "Exit Game"
+msgstr "Esci dal gioco"
+
+#: /Language/Interface/Record[Key='SettingsMenuTitle']
+msgctxt "Interface.SettingsMenuTitle"
+msgid "Settings"
+msgstr "Settaggi"
+
+#: /Language/Interface/Record[Key='SettingsMenuGameplay']
+msgctxt "Interface.SettingsMenuGameplay"
+msgid "Gameplay"
+msgstr "Gameplay"
+
+#: /Language/Interface/Record[Key='SettingsMenuVideo']
+msgctxt "Interface.SettingsMenuVideo"
+msgid "Video"
+msgstr "Video"
+
+#: /Language/Interface/Record[Key='TutorialsObjectiveTitle']
+msgctxt "Interface.TutorialsObjectiveTitle"
+msgid "Objective"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TutorialsTitle']
+#, fuzzy
+msgctxt "Interface.TutorialsTitle"
+msgid "Tutorials"
+msgstr "Tutorial"
+
+#: /Language/Interface/Record[Key='ScenariosObjectiveTitle']
+msgctxt "Interface.ScenariosObjectiveTitle"
+msgid "Objective"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScenariosTitle']
+#, fuzzy
+msgctxt "Interface.ScenariosTitle"
+msgid "Scenarios"
+msgstr "Scenari"
 
 #: /Language/Interface/Record[Key='CustomWorld']
 #, fuzzy
@@ -1298,21 +1321,20 @@ msgctxt "Interface.ElectronicReaderEnergy"
 msgid "Energy"
 msgstr "Energia solare"
 
-#: /Language/Interface/Record[Key='SettingsThingRenderDistance']
-#, fuzzy
-msgctxt "Interface.SettingsThingRenderDistance"
-msgid "Thing Render Distance"
-msgstr "Distanza Render Chunk"
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "Audio"
 
 #: /Language/Interface/Record[Key='ElectronicReaderSeconds']
 msgctxt "Interface.ElectronicReaderSeconds"
 msgid " Seconds"
 msgstr ""
 
-#: /Language/Interface/Record[Key='GameMenuButtonExit']
-msgctxt "Interface.GameMenuButtonExit"
-msgid "Exit Game"
-msgstr "Esci dal gioco"
+#: /Language/Interface/Record[Key='ElectronicReaderTime']
+msgctxt "Interface.ElectronicReaderTime"
+msgid "Time"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderLiquidMeasurement']
 msgctxt "Interface.ElectronicReaderLiquidMeasurement"
@@ -2067,11 +2089,6 @@ msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr "Commercio"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "Sembra che il contatto sia andato avanti."
-
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
 msgid "Contacts"
@@ -2086,6 +2103,11 @@ msgstr "Apri Incidenti"
 msgctxt "Interface.IncidentsTitle"
 msgid "Incidents"
 msgstr "Incidenti"
+
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr "Fatto"
 
 #: /Language/Interface/Record[Key='SpinnerPannelSaving']
 msgctxt "Interface.SpinnerPannelSaving"
@@ -3215,6 +3237,11 @@ msgctxt "Interface.WorldResetButton"
 msgid "Reset"
 msgstr "Reset"
 
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "Controlli"
+
 #: /Language/Interface/Record[Key='WorldSettingsTitle']
 msgctxt "Interface.WorldSettingsTitle"
 msgid "World Settings"
@@ -3224,11 +3251,6 @@ msgstr "Parametri del Monde"
 msgctxt "Interface.WorldAtmospherePresetLabel"
 msgid "Atmosphere"
 msgstr "Atmosfera"
-
-#: /Language/Interface/Record[Key='SettingsMenuTitle']
-msgctxt "Interface.SettingsMenuTitle"
-msgid "Settings"
-msgstr "Settaggi"
 
 #: /Language/Interface/Record[Key='WorldTerrainPresetLabel']
 msgctxt "Interface.WorldTerrainPresetLabel"
@@ -3410,10 +3432,10 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "Mappa:"
 
-#: /Language/Interface/Record[Key='SettingsMenuGameplay']
-msgctxt "Interface.SettingsMenuGameplay"
-msgid "Gameplay"
-msgstr "Gameplay"
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "Miscellanea"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"
