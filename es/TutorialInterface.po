@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-18 13:42+0000\n"
+"PO-Revision-Date: 2020-03-18 13:47+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1873,7 +1873,7 @@ msgstr "#6 Esclusas de aire básicas"
 #: /Language/Interface/Record[Key='BasicAirlocksDescription']
 msgctxt "Interface.BasicAirlocksDescription"
 msgid "Learn how to create an airtight room that can pressurise and depressurise the room."
-msgstr ""
+msgstr "Aprende a crear un cuarto hermético que podrá ser presurizado y despresurizado."
 
 #: /Language/Interface/Record[Key='DisplayAlertAirlockMalfunction']
 msgctxt "Interface.DisplayAlertAirlockMalfunction"
@@ -1881,11 +1881,13 @@ msgid ""
 "Welcome back Cadet! \n"
 "Unfortunately due to a pressurization glitch in the airlock, a malfunction occurred causing the catastrophic failure resulting in the airlock being destroyed."
 msgstr ""
+"Bienvenido Cadete!\n"
+"Desgraciadamente debido a un fallo de presurización en la cámara de compresión, ha resultado en la destrucción total de la misma."
 
 #: /Language/Interface/Record[Key='FramesAreStrong']
 msgctxt "Interface.FramesAreStrong"
 msgid "Frames are Strong"
-msgstr ""
+msgstr "Estructuras Fuertes"
 
 #: /Language/Interface/Record[Key='FramesAreStrongDescription']
 msgctxt "Interface.FramesAreStrongDescription"
@@ -1894,6 +1896,9 @@ msgid ""
 "            \n"
 "Let’s start off with a basic airlock setup. First, build the outer {THING:ItemIronFrames} for the airlock it is recommended to use frames as they allow smaller items to be attached to them. You can find the {THING:ItemIronFrames} in the yellow crate."
 msgstr ""
+"En esta lección vamos a crear una cámara de compresión para reemplazar a la destruida. Vamos a utilizar tuberías, sistemas de ventilación, consolas y placas base. \n"
+"            \n"
+"Vamos a empezar con la configuración inicial. Primero, construye los {THING:ItemIronFrames} exteriores para la cámara de compresión es recomendable usar marcos de acero para poder sujetar objetos a las paredes. Encontrarás los {THING:ItemIronFrames} en la caja amarilla."
 
 #: /Language/Interface/Record[Key='FramesAreStrongTask1']
 msgctxt "Interface.FramesAreStrongTask1"
@@ -2112,16 +2117,18 @@ msgid ""
 "Now to test the newly built Airlock, press the “cycle to Interior” button to initialise the pressurization the external pressure must reach at least 101 kPa for the cycle to complete. In some case's"
 " the Interior has yet to be pressurised and will never reach the target pressure. If this happens press the “Cancel pressurize” button."
 msgstr ""
+"Ahora para probar la cámara de descompresión creada, presiona el botón “cycle to interior” para iniciar la presurizan, la presión tendrá que llegar a 101 kPa para que la presurizan este completa. En"
+" algunos casos el interior necesita de mas presión y la presurización nunca llega a su fin. Si esto pasase pulsa el botón de “Cancel pressurize”."
 
 #: /Language/Interface/Record[Key='ASimpleAirLockTask1']
 msgctxt "Interface.ASimpleAirLockTask1"
 msgid "Remove the {THING:ItemDataDisk} and Cycle to interior."
-msgstr ""
+msgstr "Quita el {THING:ItemDataDisk} y pulsa \"Cycle to interior\"."
 
 #: /Language/Interface/Record[Key='AirlockUpgrades']
 msgctxt "Interface.AirlockUpgrades"
 msgid "Airlock upgrades"
-msgstr ""
+msgstr "Mejoras de la cámara de descompresión"
 
 #: /Language/Interface/Record[Key='AirlockUpgradesDescription']
 msgctxt "Interface.AirlockUpgradesDescription"
@@ -2130,6 +2137,9 @@ msgid ""
 "\n"
 "To build an advanced airlock you will need another {THING:StructureActiveVent} some more pipes and wire along with the {THING:CircuitboardAdvAirlockControl} to replace the {THING:CircuitboardAirlockControl} from the basic Airlock."
 msgstr ""
+"Ahora que tiene una cámara básica, hagamos algunas actualizaciones para convertirlo en una cámara avanzada. Las esclusas de aire básicas funcionarán bien en la luna o los planetas sin atmósfera, pero si desea evitar que entren gases venenosos o altas / bajas temperaturas en su base, necesitará una esclusa de aire avanzada. Una cámara de aire avanzada bombea cualquier atmósfera fuera de la cámara de aire antes de presurizarla nuevamente con la atmósfera deseada.\n"
+"\n"
+"Para construir una esclusa de aire avanzada, necesitará otra {THING: StructureActiveVent} más tubos y cables junto con el {THING: CircuitboardAdvAirlockControl} para reemplazar el {THING: CircuitboardAirlockControl} de la cámara básica."
 
 #: /Language/Interface/Record[Key='AirlockUpgradesTask1']
 #, fuzzy
@@ -2152,7 +2162,7 @@ msgstr "Coloca el {THING:StructureCableStraight}."
 #: /Language/Interface/Record[Key='AdvancedPressure']
 msgctxt "Interface.AdvancedPressure"
 msgid "Advanced Pressure"
-msgstr ""
+msgstr "Presión avanzada"
 
 #: /Language/Interface/Record[Key='AdvancedPressureDescription']
 msgctxt "Interface.AdvancedPressureDescription"
@@ -2163,6 +2173,11 @@ msgid ""
 "\n"
 "The last thing you need to do is select the pressure you want for both the internal and external pressure found near the top of the panel. "
 msgstr ""
+"Ahora que las estructuras están en su lugar, necesitamos cambiar {THING: CircuitboardAirlockControl} por {THING: CircuitboardAdvAirlockControl}\n"
+"        \n"
+"Solo hay unas pocas diferencias al programar {THING: CircuitboardAdvAirlockControl}. En primer lugar, debe seleccionar {THING: StructureActiveVent} interno y externo, a diferencia de las puertas, tendrá que mirar el interruptor en {THING: StructureActiveVent} para ver si es interactivo o no, así es como puede descifrar qué {THING: StructureActiveVent} corresponde a los del menú.\n"
+"\n"
+"Lo último que debe hacer es seleccionar la presión que desea para la presión interna y externa que se encuentra cerca de la parte superior del panel."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask1']
 #, fuzzy
@@ -2173,7 +2188,7 @@ msgstr "Imprime dos {THING:ItemPlasticSheets}."
 #: /Language/Interface/Record[Key='AdvancedPressureTask2']
 msgctxt "Interface.AdvancedPressureTask2"
 msgid "Swap the {THING:CircuitboardAirlockControl}  for the {THING:CircuitboardAdvAirlockControl}."
-msgstr ""
+msgstr "Cambia el {THING:CircuitboardAirlockControl}  por el {THING:CircuitboardAdvAirlockControl}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask3']
 #, fuzzy
@@ -2190,17 +2205,17 @@ msgstr "Suelta el {THING:ItemTablet}"
 #: /Language/Interface/Record[Key='AAdvancedAirLock']
 msgctxt "Interface.AAdvancedAirLock"
 msgid "An advanced airlock"
-msgstr ""
+msgstr "Una cámara de descompresión avanzada"
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockDescription']
 msgctxt "Interface.AAdvancedAirLockDescription"
 msgid "Make sure the airlock works by pressing the “cycle to Interior” button."
-msgstr ""
+msgstr "Certifica que la cámara de descompresión funciona pulsando el botón \"Cycle to interior\""
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockTask1']
 msgctxt "Interface.AAdvancedAirLockTask1"
 msgid "press the “cycle to Interior” button."
-msgstr ""
+msgstr "pulsa el botón “cycle to Interior”."
 
 #~ msgctxt "Interface.ShineyNewPlatesTask2"
 #~ msgid "Pick up {THING:ItemIronIngot}."
