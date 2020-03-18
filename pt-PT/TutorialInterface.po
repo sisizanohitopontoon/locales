@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-18 04:10+0000\n"
+"PO-Revision-Date: 2020-03-18 04:22+0000\n"
 "Last-Translator: XHead <fullbanner@gmail.com>\n"
 "Language: pt_PT\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2158,6 +2158,11 @@ msgid ""
 "\n"
 "The last thing you need to do is select the pressure you want for both the internal and external pressure found near the top of the panel. "
 msgstr ""
+"Agora que as estruturas estão no sítio teremos que trocar a {THING:CircuitboardAirlockControl} pela {THING:CircuitboardAdvAirlockControl}\n"
+"\n"
+"Existem poucas diferenças quando programas uma {THING:CircuitboardAdvAirlockControl}. Primeiro tens de selecionar o {THING:StructureActiveVent} interno e externo, que diferente das portas terás de olhar para o interruptor no {THING:StructureActiveVent} e ver se consegues interagir ou não, é desta forma que consegues decifrar qual o {THING:StructureActiveVent} que corresponde aos do menu.\n"
+"\n"
+"A última coisa que tens de fazer é selecionar as pressões interna e externa que desejas na parte de cima do painel. "
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask1']
 msgctxt "Interface.AdvancedPressureTask1"
@@ -2167,7 +2172,7 @@ msgstr "Remove as {THING:ItemGlassSheets}."
 #: /Language/Interface/Record[Key='AdvancedPressureTask2']
 msgctxt "Interface.AdvancedPressureTask2"
 msgid "Swap the {THING:CircuitboardAirlockControl}  for the {THING:CircuitboardAdvAirlockControl}."
-msgstr ""
+msgstr "Troca a {THING:CircuitboardAirlockControl} pela {THING:CircuitboardAdvAirlockControl}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask3']
 msgctxt "Interface.AdvancedPressureTask3"
@@ -2182,7 +2187,7 @@ msgstr "Introduz o {THING:ItemDataDisk}."
 #: /Language/Interface/Record[Key='AAdvancedAirLock']
 msgctxt "Interface.AAdvancedAirLock"
 msgid "An advanced airlock"
-msgstr ""
+msgstr "Uma airlock avançada"
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockDescription']
 msgctxt "Interface.AAdvancedAirLockDescription"
