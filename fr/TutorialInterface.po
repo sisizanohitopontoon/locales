@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-23 12:39+0000\n"
+"PO-Revision-Date: 2020-03-23 12:45+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1404,6 +1404,8 @@ msgid ""
 "Welcome back, Cadet! Our first task today is to equip the {THING:ItemTablet}. The {THING:ItemTablet} can be used to display information on atmospherics and networks, as well as an encyclopedia or a "
 "beacon tracker. "
 msgstr ""
+"Bienvenue, Cadet ! Notre première tâche aujourd’hui est d’équiper le {THING:ItemTablet}. Le {THING:ItemTablet} peut être utilisé pour afficher des informations sur les atmosphères et les réseaux, "
+"ainsi qu’une encyclopédie ou un traqueur de balises."
 
 #: /Language/Interface/Record[Key='TheTabletTask1']
 msgctxt "Interface.TheTabletTask1"
@@ -1992,7 +1994,7 @@ msgstr "Soudez le {THING:StructureFrame} pour terminer le tutoriel"
 #: /Language/Interface/Record[Key='CreatingASeal']
 msgctxt "Interface.CreatingASeal"
 msgid "Creating a seal"
-msgstr ""
+msgstr "Création d’un sceau"
 
 #: /Language/Interface/Record[Key='CreatingASealDescription']
 msgctxt "Interface.CreatingASealDescription"
@@ -2014,7 +2016,7 @@ msgstr "Déconstruire le Four à Arc"
 #: /Language/Interface/Record[Key='AirSensoresAndMore']
 msgctxt "Interface.AirSensoresAndMore"
 msgid "Air sensors and more !"
-msgstr ""
+msgstr "Capteurs d’air et plus encore !"
 
 #: /Language/Interface/Record[Key='AirSensoresAndMoreDescription']
 msgctxt "Interface.AirSensoresAndMoreDescription"
@@ -2068,7 +2070,7 @@ msgstr "Écrans numériques"
 #: /Language/Interface/Record[Key='DigitalScreensDescription']
 msgctxt "Interface.DigitalScreensDescription"
 msgid "Set up a {THING:StructureConsole} by placing it on the wall in the highlighted spot."
-msgstr ""
+msgstr "Configurez une {THING:StructureConsole} en le plaçant sur le mur à l’endroit mis en surbrillance."
 
 #: /Language/Interface/Record[Key='DigitalScreensTask1']
 #, fuzzy
@@ -2079,7 +2081,7 @@ msgstr "Soudez le {THING:StructureFrame} pour terminer le tutoriel"
 #: /Language/Interface/Record[Key='UnderPressure']
 msgctxt "Interface.UnderPressure"
 msgid "Under Pressure"
-msgstr ""
+msgstr "Sous pression"
 
 #: /Language/Interface/Record[Key='UnderPressureDescription']
 msgctxt "Interface.UnderPressureDescription"
@@ -2087,6 +2089,8 @@ msgid ""
 "To complete the console we need to add a circuit board to it. There are different types of Circuit boards for different situations, In this case, we will are building an Airlock so we need to use "
 "the {THING:CircuitboardAirlockControl}, You will also need to use a data disk to allow the {THING:CircuitboardAirlockControl} to be programmed."
 msgstr ""
+"Pour compléter la console, nous devons y ajouter un circuit imprimé. Il existe différents types de circuits imprimés pour différentes situations, Dans ce cas, nous allons construire un sas, donc "
+"nous devons utiliser le {THING:CircuitboardAirlockControl}, Vous aurez également besoin d’utiliser un disque de données pour permettre à la {THING:CircuitboardAirlockControl} d’être Programmé."
 
 #: /Language/Interface/Record[Key='UnderPressureTask1']
 #, fuzzy
@@ -2109,7 +2113,7 @@ msgstr "Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}'."
 #: /Language/Interface/Record[Key='AirLockProgramming']
 msgctxt "Interface.AirLockProgramming"
 msgid "Airlock programming"
-msgstr ""
+msgstr "Programmation de sas"
 
 #: /Language/Interface/Record[Key='AirLockProgrammingDescription']
 msgctxt "Interface.AirLockProgrammingDescription"
@@ -2190,6 +2194,11 @@ msgid ""
 "\n"
 "The last thing you need to do is select the pressure you want for both the internal and external pressure found near the top of the panel. "
 msgstr ""
+"Maintenant que les structures sont en place, nous devons échanger le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl} \n"
+"        \n"
+"Il n’y a que quelques différences lors de la programmation du {THING:CircuitboardAdvAirlockControl}. Tout d’abord, vous devez sélectionner interne et externe {THING:StructureActiveVent} contrairement aux portes que vous aurez besoin de regarder l’interrupteur sur le {THING:StructureActiveVent} pour voir si c’est interagitable ou non c’est ainsi que vous pouvez déchiffrer lequel {THING:StructureActiveVent} correspond à ceux du menu.\n"
+"\n"
+"La dernière chose que vous devez faire est de sélectionner la pression que vous voulez à la fois pour la pression interne et externe trouvée près du haut du panneau."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask1']
 #, fuzzy
@@ -2200,7 +2209,7 @@ msgstr "Ramasser le {THING:ItemKitAutolathe}."
 #: /Language/Interface/Record[Key='AdvancedPressureTask2']
 msgctxt "Interface.AdvancedPressureTask2"
 msgid "Swap the {THING:CircuitboardAirlockControl}  for the {THING:CircuitboardAdvAirlockControl}."
-msgstr ""
+msgstr "Échangez le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask3']
 #, fuzzy
