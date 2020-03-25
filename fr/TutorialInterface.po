@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-25 12:26+0000\n"
+"PO-Revision-Date: 2020-03-25 12:33+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -651,14 +651,13 @@ msgid "Close Alert"
 msgstr "Fermer l’alerte"
 
 #: /Language/Interface/Record[Key='TutorialUIControlsDescription']
-#, fuzzy
 msgctxt "Interface.TutorialUIControlsDescription"
 msgid ""
 "As a human, you cannot survive on non-oxygen planets without a suit or a sufficently pressurized base with a breatheable atmosphere. Be sure to close your helmet and lock it to prevent accidental "
 "death."
 msgstr ""
-"En tant qu’être humain, vous ne pouvez pas survivre sur des planètes non-oxygène sans un costume ou une base suffisamment sous pression avec une atmosphère respirable. Assurez-vous de fermer votre "
-"casque et de le verrouiller pour éviter la mort accidentelle."
+"En tant qu'humain, vous ne pouvez pas survivre sur des planètes sans oxygène sans une combinaison ou une base suffisamment pressurisée avec une atmosphère respirable. Veillez à bien fermer votre "
+"casque et à le verrouiller pour éviter toute mort accidentelle."
 
 #: /Language/Interface/Record[Key='TutorialUIControlsTask']
 msgctxt "Interface.TutorialUIControlsTask"
@@ -790,10 +789,9 @@ msgid "Close all the UIs with the {KEY:HideAllWindows} key."
 msgstr "Fermez toutes les interfaces de travail avec la clé {KEY:HideAllWindows}."
 
 #: /Language/Interface/Record[Key='CloseingUIstask2']
-#, fuzzy
 msgctxt "Interface.CloseingUIstask2"
 msgid "if you have any remaining items in your hands, drop them with the {KEY:Drop} key to swap hands use the {KEY:SwapHands} key."
-msgstr "Déposez les éléments restants dans vos mains avec {KEY:Drop} dans les deux mains utilisez la touche {KEY:SwapHands}."
+msgstr "Si vous avez encore des objets dans vos mains, déposez-les avec la touche {KEY:Drop}, pour permuter les mains utilisez la touche {KEY:SwapHands}."
 
 #: /Language/Interface/Record[Key='BasicStructureBuilding']
 msgctxt "Interface.BasicStructureBuilding"
@@ -985,10 +983,9 @@ msgid "Finish constructing Frame 7."
 msgstr "Terminer la construction du cadre 7."
 
 #: /Language/Interface/Record[Key='TutorialDeconstructingAnArcFurnace']
-#, fuzzy
 msgctxt "Interface.TutorialDeconstructingAnArcFurnace"
 msgid "Deconstructing An {THING:StructureArcFurnace}"
-msgstr "Déconstruire le Four à Arc"
+msgstr "Déconstruction  d'un {THING:StructureArcFurnace}"
 
 #: /Language/Interface/Record[Key='TutorialDeconstructingAnArcFurnaceDescription']
 msgctxt "Interface.TutorialDeconstructingAnArcFurnaceDescription"
@@ -1015,18 +1012,16 @@ msgid "The ArcFurnce"
 msgstr "Le Four à Arc"
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnArcFurnaceDescription']
-#, fuzzy
 msgctxt "Interface.TutorialBuildingAnArcFurnaceDescription"
 msgid "Nicely done, Cadet. Next up, we need to build an {THING:ItemKitArcFurnace}. This will be used to smelt ores into usable ingots."
-msgstr ""
-"Bien joué, Cadet. Ensuite, nous avons besoin de construire un {THING:ItemKitArcFurnace}. Il sera utilisé pour fondre des minerais en lingots utilisables. Localisez le kit Four à Arc dans la caisse "
-"et ramassez-le."
+msgstr "Bien joué, Cadet. Ensuite, nous devons construire un {THING:ItemKitArcFurnace}. Celui-ci servira à fondre les minerais en lingots utilisables."
 
 #: /Language/Interface/Record[Key='BuildingAnArcFurnaceTask1']
-#, fuzzy
 msgctxt "Interface.BuildingAnArcFurnaceTask1"
 msgid "Use the previously deconstructed {THING:StructureArcFurnace} and place it in the highlighted area you may need to use {KEY:QuantityModifier} to rotate the object to the correct position."
-msgstr "Placez le ArcFurnace dans la zone en surbrillance, vous devrez peut-être utiliser {KEY:QuantityModifier} pour faire pivoter l’objet vers la bonne position."
+msgstr ""
+"Utilisez le {THING:StructureArcFurnace} précédemment déconstruit et placez-le dans la zone en surbrillance ; vous devrez peut-être utiliser {KEY:QuantityModifier} pour faire pivoter l'objet à la "
+"bonne position."
 
 #: /Language/Interface/Record[Key='TutorialDeconstructingAnAutolathe']
 msgctxt "Interface.TutorialDeconstructingAnAutolathe"
@@ -1546,6 +1541,8 @@ msgid ""
 "That should be all we need for now. Now head back to base and get smelting. The {THING:StructureArcFurnace} is used to smelt ores into useful ingots, try smelting some {THING:ItemIronOre} into an "
 "{THING:ItemIronIngot}. We have granted access to the ore container if you need more resources."
 msgstr ""
+"C'est tout ce dont nous avons besoin pour l'instant. Maintenant, retournez à la base et allez à la fonderie. Le {THING:StructureArcFurnace} est utilisé pour fondre les minerais en lingots utiles, "
+"essayez de fondre quelques {THING:ItemIronOre} en un {THING:ItemIronIngot}. Nous avons accordé l'accès au conteneur de minerai si vous avez besoin de plus de ressources."
 
 #: /Language/Interface/Record[Key='SmeltingItDownTask0']
 msgctxt "Interface.SmeltingItDownTask0"
@@ -1669,7 +1666,7 @@ msgstr "Le plastique est faux"
 #: /Language/Interface/Record[Key='FakePlasticDescription']
 msgctxt "Interface.FakePlasticDescription"
 msgid "The next component you will need is {THING:ItemPlasticSheets}. {THING:ItemPlasticSheets} are needed to complete machines."
-msgstr ""
+msgstr "Le prochain élément dont vous aurez besoin est {THING:ItemPlasticSheets}. Les {THING:ItemPlasticSheets} sont nécessaires pour compléter les machines."
 
 #: /Language/Interface/Record[Key='FakePlasticTask1']
 #, fuzzy
@@ -1703,7 +1700,7 @@ msgstr "La machine à plier"
 #: /Language/Interface/Record[Key='BendingMachineDescription']
 msgctxt "Interface.BendingMachineDescription"
 msgid "The {THING:StructureHydraulicPipeBender} is used to create pipes, vents, and other atmospherics structures."
-msgstr ""
+msgstr "Le {THING:StructureHydraulicPipeBender} est utilisé pour créer des tuyaux, des ventilateurs et d'autres structures atmosphériques."
 
 #: /Language/Interface/Record[Key='BendingMachineTask1']
 #, fuzzy
