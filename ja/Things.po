@@ -10,10 +10,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='ItemExplosive']
-msgctxt "Things.ItemExplosive"
-msgid "Remote Explosive"
-msgstr ""
+#: /Language/Things/Record[Key='StructureSolarPanelFused']
+#, fuzzy
+msgctxt "Things.StructureSolarPanelFused"
+msgid "Solar Panel"
+msgstr "ソーラーパネル"
+
+#: /Language/Things/Record[Key='DynamicPortal']
+#, fuzzy
+msgctxt "Things.DynamicPortal"
+msgid "Dynamic Portal"
+msgstr "荷箱"
 
 #: /Language/Things/Record[Key='StructureWallLightBattery']
 msgctxt "Things.StructureWallLightBattery"
@@ -135,6 +142,11 @@ msgctxt "Things.StructureHydroponicsAutomated"
 msgid "Automated Hydroponics"
 msgstr "自動水耕栽培器"
 
+#: /Language/Things/Record[Key='ItemKitDynamicCanister']
+msgctxt "Things.ItemKitDynamicCanister"
+msgid "Kit (Portable Tank)"
+msgstr "キット (携帯タンク)"
+
 #: /Language/Things/Record[Key='ItemIntegratedCircuit10']
 msgctxt "Things.ItemIntegratedCircuit10"
 msgid "Integrated Circuit (IC10)"
@@ -154,11 +166,6 @@ msgstr "キット (IC外装)"
 msgctxt "Things.MotherboardProgrammableChip"
 msgid "Motherboard (IC Editor)"
 msgstr "マザーボード (IC編集)"
-
-#: /Language/Things/Record[Key='ItemKitPressurePlate']
-msgctxt "Things.ItemKitPressurePlate"
-msgid "Kit (Trigger Plate)"
-msgstr "キット (トリガープレート)"
 
 #: /Language/Things/Record[Key='StructureLogicWriterSwitch']
 msgctxt "Things.StructureLogicWriterSwitch"
@@ -340,11 +347,6 @@ msgctxt "Things.ItemFlowerBlue"
 msgid "Flower (Blue)"
 msgstr "花 (青)"
 
-#: /Language/Things/Record[Key='ItemKitDynamicCanister']
-msgctxt "Things.ItemKitDynamicCanister"
-msgid "Kit (Portable Tank)"
-msgstr "キット (携帯タンク)"
-
 #: /Language/Things/Record[Key='StructurePressurePlateSmall']
 msgctxt "Things.StructurePressurePlateSmall"
 msgid "Trigger Plate (Small)"
@@ -359,6 +361,11 @@ msgstr "トリガープレート (中)"
 msgctxt "Things.StructurePressurePlateLarge"
 msgid "Trigger Plate (Large)"
 msgstr "トリガープレート (大)"
+
+#: /Language/Things/Record[Key='ItemKitPressurePlate']
+msgctxt "Things.ItemKitPressurePlate"
+msgid "Kit (Trigger Plate)"
+msgstr "キット (トリガープレート)"
 
 #: /Language/Things/Record[Key='CircuitboardAdvAirlockControl']
 msgctxt "Things.CircuitboardAdvAirlockControl"
@@ -1471,6 +1478,11 @@ msgctxt "Things.ItemBeacon"
 msgid "Tracking Beacon"
 msgstr "追跡ビーコン"
 
+#: /Language/Things/Record[Key='ItemArcWelder']
+msgctxt "Things.ItemArcWelder"
+msgid "Arc Welder"
+msgstr ""
+
 #: /Language/Things/Record[Key='ItemGasSensor']
 msgctxt "Things.ItemGasSensor"
 msgid "Kit (Gas Sensor)"
@@ -1480,12 +1492,6 @@ msgstr "気体センサー"
 msgctxt "Things.CartridgeTracker"
 msgid "Cartridge (Tracker)"
 msgstr "カードリッジ (追跡装置)"
-
-#: /Language/Things/Record[Key='DynamicPortal']
-#, fuzzy
-msgctxt "Things.DynamicPortal"
-msgid "Dynamic Portal"
-msgstr "荷箱"
 
 #: /Language/Things/Record[Key='ItemKitStacker']
 msgctxt "Things.ItemKitStacker"
@@ -3007,15 +3013,17 @@ msgctxt "Things.ItemGasFilterNitrogen"
 msgid "Filter (Nitrogen)"
 msgstr "フィルター(窒素)"
 
-#: /Language/Things/Record[Key='ItemGasFilterPollutants']
-msgctxt "Things.ItemGasFilterPollutants"
-msgid "Filter (Pollutant)"
-msgstr "フィルター(汚染ガス)"
+#: /Language/Things/Record[Key='ItemMiningDrillHeavy']
+#, fuzzy
+msgctxt "Things.ItemMiningDrillHeavy"
+msgid "Mining Drill (Heavy)"
+msgstr "採掘ドリル"
 
-#: /Language/Things/Record[Key='ItemArcWelder']
-msgctxt "Things.ItemArcWelder"
-msgid "Arc Welder"
-msgstr ""
+#: /Language/Things/Record[Key='ItemGasFilterCarbonDioxide']
+#, fuzzy
+msgctxt "Things.ItemGasFilterCarbonDioxide"
+msgid "Filter (Carbon Dioxide)"
+msgstr "フィルター(二酸化炭素)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterWater']
 msgctxt "Things.ItemGasCanisterWater"
@@ -3692,12 +3700,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "電子レンジ"
 
-#: /Language/Things/Record[Key='ItemMiningDrillHeavy']
-#, fuzzy
-msgctxt "Things.ItemMiningDrillHeavy"
-msgid "Mining Drill (Heavy)"
-msgstr "採掘ドリル"
-
 #: /Language/Things/Record[Key='RoverCargo']
 msgctxt "Things.RoverCargo"
 msgid "Rover (Cargo)"
@@ -3778,11 +3780,10 @@ msgctxt "Things.ItemRemoteDetonator"
 msgid "Remote Detonator"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureSolarPanelFused']
-#, fuzzy
-msgctxt "Things.StructureSolarPanelFused"
-msgid "Solar Panel"
-msgstr "ソーラーパネル"
+#: /Language/Things/Record[Key='ItemExplosive']
+msgctxt "Things.ItemExplosive"
+msgid "Remote Explosive"
+msgstr ""
 
 #: /Language/Things/Record[Key='ItemCoffeeMug']
 msgctxt "Things.ItemCoffeeMug"
@@ -4169,11 +4170,16 @@ msgctxt "Things.ItemResearchCapsule"
 msgid "Research Capsule Blue"
 msgstr ""
 
-#: /Language/Things/Record[Key='ItemGasFilterCarbonDioxide']
+#: /Language/Things/Record[Key='ItemKitPictureFrame']
 #, fuzzy
-msgctxt "Things.ItemGasFilterCarbonDioxide"
-msgid "Filter (Carbon Dioxide)"
-msgstr "フィルター(二酸化炭素)"
+msgctxt "Things.ItemKitPictureFrame"
+msgid "Item Kit Picture Frame"
+msgstr "パイプ弁キット"
+
+#: /Language/Things/Record[Key='ItemGasFilterPollutants']
+msgctxt "Things.ItemGasFilterPollutants"
+msgid "Filter (Pollutant)"
+msgstr "フィルター(汚染ガス)"
 
 #~ msgctxt "Things.StructureRTG"
 #~ msgid "RTG"

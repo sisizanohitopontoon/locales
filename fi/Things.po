@@ -10,10 +10,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='ItemExplosive']
-msgctxt "Things.ItemExplosive"
-msgid "Remote Explosive"
-msgstr ""
+#: /Language/Things/Record[Key='StructureSolarPanelFused']
+#, fuzzy
+msgctxt "Things.StructureSolarPanelFused"
+msgid "Solar Panel"
+msgstr "Aurinkopaneeli"
+
+#: /Language/Things/Record[Key='DynamicPortal']
+#, fuzzy
+msgctxt "Things.DynamicPortal"
+msgid "Dynamic Portal"
+msgstr "Dynaaminen varustearkku"
 
 #: /Language/Things/Record[Key='StructureWallLightBattery']
 msgctxt "Things.StructureWallLightBattery"
@@ -135,6 +142,11 @@ msgctxt "Things.StructureHydroponicsAutomated"
 msgid "Automated Hydroponics"
 msgstr "Automatisoitu hydroponinen asema"
 
+#: /Language/Things/Record[Key='ItemKitDynamicCanister']
+msgctxt "Things.ItemKitDynamicCanister"
+msgid "Kit (Portable Tank)"
+msgstr "Varustepakkaus (kannettava säiliö)"
+
 #: /Language/Things/Record[Key='ItemIntegratedCircuit10']
 msgctxt "Things.ItemIntegratedCircuit10"
 msgid "Integrated Circuit (IC10)"
@@ -154,11 +166,6 @@ msgstr "Varustepakkaus (mikropiirikanta)"
 msgctxt "Things.MotherboardProgrammableChip"
 msgid "Motherboard (IC Editor)"
 msgstr "Emolevy (ohjelmoitavat mikropiirit)"
-
-#: /Language/Things/Record[Key='ItemKitPressurePlate']
-msgctxt "Things.ItemKitPressurePlate"
-msgid "Kit (Trigger Plate)"
-msgstr "Varustepakkaus (painelaatta)"
 
 #: /Language/Things/Record[Key='StructureLogicWriterSwitch']
 msgctxt "Things.StructureLogicWriterSwitch"
@@ -340,11 +347,6 @@ msgctxt "Things.ItemFlowerBlue"
 msgid "Flower (Blue)"
 msgstr "Kukka (sininen)"
 
-#: /Language/Things/Record[Key='ItemKitDynamicCanister']
-msgctxt "Things.ItemKitDynamicCanister"
-msgid "Kit (Portable Tank)"
-msgstr "Varustepakkaus (kannettava säiliö)"
-
 #: /Language/Things/Record[Key='StructurePressurePlateSmall']
 msgctxt "Things.StructurePressurePlateSmall"
 msgid "Trigger Plate (Small)"
@@ -359,6 +361,11 @@ msgstr "Painelaatta (keskikokoinen)"
 msgctxt "Things.StructurePressurePlateLarge"
 msgid "Trigger Plate (Large)"
 msgstr "Painelaatta (iso)"
+
+#: /Language/Things/Record[Key='ItemKitPressurePlate']
+msgctxt "Things.ItemKitPressurePlate"
+msgid "Kit (Trigger Plate)"
+msgstr "Varustepakkaus (painelaatta)"
 
 #: /Language/Things/Record[Key='CircuitboardAdvAirlockControl']
 msgctxt "Things.CircuitboardAdvAirlockControl"
@@ -1471,6 +1478,11 @@ msgctxt "Things.ItemBeacon"
 msgid "Tracking Beacon"
 msgstr "Seurantamajakka"
 
+#: /Language/Things/Record[Key='ItemArcWelder']
+msgctxt "Things.ItemArcWelder"
+msgid "Arc Welder"
+msgstr ""
+
 #: /Language/Things/Record[Key='ItemGasSensor']
 msgctxt "Things.ItemGasSensor"
 msgid "Kit (Gas Sensor)"
@@ -1480,12 +1492,6 @@ msgstr "Varustepakkaus (kaasusensori)"
 msgctxt "Things.CartridgeTracker"
 msgid "Cartridge (Tracker)"
 msgstr "Kasetti (jäljitin)"
-
-#: /Language/Things/Record[Key='DynamicPortal']
-#, fuzzy
-msgctxt "Things.DynamicPortal"
-msgid "Dynamic Portal"
-msgstr "Dynaaminen varustearkku"
 
 #: /Language/Things/Record[Key='ItemKitStacker']
 msgctxt "Things.ItemKitStacker"
@@ -3007,15 +3013,17 @@ msgctxt "Things.ItemGasFilterNitrogen"
 msgid "Filter (Nitrogen)"
 msgstr "Suodatin (typpi)"
 
-#: /Language/Things/Record[Key='ItemGasFilterPollutants']
-msgctxt "Things.ItemGasFilterPollutants"
-msgid "Filter (Pollutant)"
-msgstr "Suodatin (saaste)"
+#: /Language/Things/Record[Key='ItemMiningDrillHeavy']
+#, fuzzy
+msgctxt "Things.ItemMiningDrillHeavy"
+msgid "Mining Drill (Heavy)"
+msgstr "Malmipora"
 
-#: /Language/Things/Record[Key='ItemArcWelder']
-msgctxt "Things.ItemArcWelder"
-msgid "Arc Welder"
-msgstr ""
+#: /Language/Things/Record[Key='ItemGasFilterCarbonDioxide']
+#, fuzzy
+msgctxt "Things.ItemGasFilterCarbonDioxide"
+msgid "Filter (Carbon Dioxide)"
+msgstr "Suodatin (hiilidioksidi)"
 
 #: /Language/Things/Record[Key='ItemGasCanisterWater']
 msgctxt "Things.ItemGasCanisterWater"
@@ -3692,12 +3700,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikroaaltouuni"
 
-#: /Language/Things/Record[Key='ItemMiningDrillHeavy']
-#, fuzzy
-msgctxt "Things.ItemMiningDrillHeavy"
-msgid "Mining Drill (Heavy)"
-msgstr "Malmipora"
-
 #: /Language/Things/Record[Key='RoverCargo']
 msgctxt "Things.RoverCargo"
 msgid "Rover (Cargo)"
@@ -3778,11 +3780,10 @@ msgctxt "Things.ItemRemoteDetonator"
 msgid "Remote Detonator"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureSolarPanelFused']
-#, fuzzy
-msgctxt "Things.StructureSolarPanelFused"
-msgid "Solar Panel"
-msgstr "Aurinkopaneeli"
+#: /Language/Things/Record[Key='ItemExplosive']
+msgctxt "Things.ItemExplosive"
+msgid "Remote Explosive"
+msgstr ""
 
 #: /Language/Things/Record[Key='ItemCoffeeMug']
 msgctxt "Things.ItemCoffeeMug"
@@ -4167,11 +4168,16 @@ msgctxt "Things.ItemResearchCapsule"
 msgid "Research Capsule Blue"
 msgstr ""
 
-#: /Language/Things/Record[Key='ItemGasFilterCarbonDioxide']
+#: /Language/Things/Record[Key='ItemKitPictureFrame']
 #, fuzzy
-msgctxt "Things.ItemGasFilterCarbonDioxide"
-msgid "Filter (Carbon Dioxide)"
-msgstr "Suodatin (hiilidioksidi)"
+msgctxt "Things.ItemKitPictureFrame"
+msgid "Item Kit Picture Frame"
+msgstr "Varustepakkaus (putkiventtiili)"
+
+#: /Language/Things/Record[Key='ItemGasFilterPollutants']
+msgctxt "Things.ItemGasFilterPollutants"
+msgid "Filter (Pollutant)"
+msgstr "Suodatin (saaste)"
 
 #~ msgctxt "Things.StructureRTG"
 #~ msgid "RTG"
