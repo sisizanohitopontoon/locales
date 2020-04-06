@@ -10,20 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ElectronicReaderPressureSym']
-msgctxt "Interface.ElectronicReaderPressureSym"
-msgid "Pa"
+#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
+msgctxt "Interface.NetworkAnalyserNetwork"
+msgid "CABLE NETWORK"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldModeCreative']
-msgctxt "Interface.NewWorldModeCreative"
-msgid "Creative"
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SaveMenuListTitle']
-msgctxt "Interface.SaveMenuListTitle"
-msgid "Saved Worlds"
-msgstr "Lumi salvate"
+#: /Language/Interface/Record[Key='ButtonBack']
+msgctxt "Interface.ButtonBack"
+msgid "Back"
+msgstr "Înapoi"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -304,8 +304,8 @@ msgctxt "Interface.InventorySlotUniform"
 msgid "Uniform"
 msgstr "Uniformă"
 
-#: /Language/Interface/Record[Key='ButtonBack']
-msgctxt "Interface.ButtonBack"
+#: /Language/Interface/Record[Key='InventorySlotBackpack']
+msgctxt "Interface.InventorySlotBackpack"
 msgid "Back"
 msgstr "Înapoi"
 
@@ -772,9 +772,9 @@ msgctxt "Interface.TooltipRotateLeftRight"
 msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactEventDefault']
-msgctxt "Interface.ContactEventDefault"
-msgid "There was no response."
+#: /Language/Interface/Record[Key='ContactTradeRequest']
+msgctxt "Interface.ContactTradeRequest"
+msgid "A trader has requested permission for landing."
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
@@ -1141,15 +1141,10 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
+#: /Language/Interface/Record[Key='NewWorldModeCreative']
+msgctxt "Interface.NewWorldModeCreative"
+msgid "Creative"
 msgstr ""
-
-#: /Language/Interface/Record[Key='InventorySlotBackpack']
-msgctxt "Interface.InventorySlotBackpack"
-msgid "Back"
-msgstr "Înapoi"
 
 #: /Language/Interface/Record[Key='InventorySlotSuit']
 msgctxt "Interface.InventorySlotSuit"
@@ -1205,6 +1200,16 @@ msgstr "Modificare aspect"
 msgctxt "Interface.GameMenuButtonSettings"
 msgid "Settings"
 msgstr "Setări"
+
+#: /Language/Interface/Record[Key='GameMenuButtonLeave']
+msgctxt "Interface.GameMenuButtonLeave"
+msgid "Leave Session"
+msgstr "Părăsește sesiunea"
+
+#: /Language/Interface/Record[Key='SettingsTerrainClutterMultiplier']
+msgctxt "Interface.SettingsTerrainClutterMultiplier"
+msgid "Terrain Clutter Multiplier"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Communications Crate']
 msgctxt "Interface.Communications Crate"
@@ -1332,15 +1337,15 @@ msgctxt "Interface.NetworkAnalyserActual"
 msgid "ACTUAL"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
-msgctxt "Interface.NetworkAnalyserNetwork"
-msgid "CABLE NETWORK"
-msgstr ""
+#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
+msgctxt "Interface.GameMenuButtonExitDesktop"
+msgid "Exit To Desktop"
+msgstr "Ieșire la desktop"
 
-#: /Language/Interface/Record[Key='GameMenuButtonLeave']
-msgctxt "Interface.GameMenuButtonLeave"
-msgid "Leave Session"
-msgstr "Părăsește sesiunea"
+#: /Language/Interface/Record[Key='ElectronicReaderPressureSym']
+msgctxt "Interface.ElectronicReaderPressureSym"
+msgid "Pa"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderPressure']
 #, fuzzy
@@ -1936,7 +1941,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsWorldOrigin']
 msgctxt "Interface.SettingsWorldOrigin"
-msgid "World Origin"
+msgid "World Origin Rebasing"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsShowSlotTooltips']
@@ -2094,9 +2099,9 @@ msgctxt "Interface.TraderInUse"
 msgid "This contact is already interacting with someone, try again soon."
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequest']
-msgctxt "Interface.ContactTradeRequest"
-msgid "A trader has requested permission for landing."
+#: /Language/Interface/Record[Key='ContactEventDefault']
+msgctxt "Interface.ContactEventDefault"
+msgid "There was no response."
 msgstr ""
 
 #: /Language/Interface/Record[Key='Locked']
@@ -3246,10 +3251,10 @@ msgctxt "Interface.WorldSettingsTitle"
 msgid "World Settings"
 msgstr ""
 
-#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
-msgctxt "Interface.GameMenuButtonExitDesktop"
-msgid "Exit To Desktop"
-msgstr "Ieșire la desktop"
+#: /Language/Interface/Record[Key='SaveMenuTitle']
+msgctxt "Interface.SaveMenuTitle"
+msgid "Save World"
+msgstr "Salvează lumea"
 
 #: /Language/Interface/Record[Key='WorldAtmospherePresetLabel']
 msgctxt "Interface.WorldAtmospherePresetLabel"
@@ -3441,10 +3446,10 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SaveMenuTitle']
-msgctxt "Interface.SaveMenuTitle"
-msgid "Save World"
-msgstr "Salvează lumea"
+#: /Language/Interface/Record[Key='SaveMenuListTitle']
+msgctxt "Interface.SaveMenuListTitle"
+msgid "Saved Worlds"
+msgstr "Lumi salvate"
 
 #~ msgctxt "Interface.NewWorldAreaSpace"
 #~ msgid "Space"

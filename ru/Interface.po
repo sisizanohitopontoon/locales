@@ -10,20 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ElectronicReaderPressureSym']
-msgctxt "Interface.ElectronicReaderPressureSym"
-msgid "Pa"
-msgstr "Па"
+#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
+msgctxt "Interface.NetworkAnalyserNetwork"
+msgid "CABLE NETWORK"
+msgstr "КАБЕЛЬНАЯ СЕТЬ"
 
-#: /Language/Interface/Record[Key='NewWorldModeCreative']
-msgctxt "Interface.NewWorldModeCreative"
-msgid "Creative"
-msgstr "Креатив"
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Выживание"
 
-#: /Language/Interface/Record[Key='SaveMenuListTitle']
-msgctxt "Interface.SaveMenuListTitle"
-msgid "Saved Worlds"
-msgstr "Сохранённые миры"
+#: /Language/Interface/Record[Key='ButtonBack']
+msgctxt "Interface.ButtonBack"
+msgid "Back"
+msgstr "Назад"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -301,10 +301,10 @@ msgctxt "Interface.InventorySlotUniform"
 msgid "Uniform"
 msgstr "Униформа"
 
-#: /Language/Interface/Record[Key='ButtonBack']
-msgctxt "Interface.ButtonBack"
+#: /Language/Interface/Record[Key='InventorySlotBackpack']
+msgctxt "Interface.InventorySlotBackpack"
 msgid "Back"
-msgstr "Назад"
+msgstr "Рюкзак"
 
 #: /Language/Interface/Record[Key='ButtonDelete']
 msgctxt "Interface.ButtonDelete"
@@ -773,10 +773,10 @@ msgctxt "Interface.TooltipRotateLeftRight"
 msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
 msgstr "Используйте {KEY:RotateLeft} и {KEY:RotateRight}, чтобы повернуть предмет влево или вправо."
 
-#: /Language/Interface/Record[Key='ContactEventDefault']
-msgctxt "Interface.ContactEventDefault"
-msgid "There was no response."
-msgstr "Ответа не было."
+#: /Language/Interface/Record[Key='ContactTradeRequest']
+msgctxt "Interface.ContactTradeRequest"
+msgid "A trader has requested permission for landing."
+msgstr "Торговец запрашивает разрешение на посадку."
 
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
@@ -1144,15 +1144,10 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Введите название сохранения..."
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Выживание"
-
-#: /Language/Interface/Record[Key='InventorySlotBackpack']
-msgctxt "Interface.InventorySlotBackpack"
-msgid "Back"
-msgstr "Рюкзак"
+#: /Language/Interface/Record[Key='NewWorldModeCreative']
+msgctxt "Interface.NewWorldModeCreative"
+msgid "Creative"
+msgstr "Креатив"
 
 #: /Language/Interface/Record[Key='InventorySlotSuit']
 msgctxt "Interface.InventorySlotSuit"
@@ -1208,6 +1203,17 @@ msgstr "Изменить внешность"
 msgctxt "Interface.GameMenuButtonSettings"
 msgid "Settings"
 msgstr "Настройки"
+
+#: /Language/Interface/Record[Key='GameMenuButtonLeave']
+msgctxt "Interface.GameMenuButtonLeave"
+msgid "Leave Session"
+msgstr "Покинуть сессию"
+
+#: /Language/Interface/Record[Key='SettingsTerrainClutterMultiplier']
+#, fuzzy
+msgctxt "Interface.SettingsTerrainClutterMultiplier"
+msgid "Terrain Clutter Multiplier"
+msgstr "Шум поверхности"
 
 #: /Language/Interface/Record[Key='Communications Crate']
 msgctxt "Interface.Communications Crate"
@@ -1334,15 +1340,15 @@ msgctxt "Interface.NetworkAnalyserActual"
 msgid "ACTUAL"
 msgstr "ТЕКУЩЕЕ"
 
-#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
-msgctxt "Interface.NetworkAnalyserNetwork"
-msgid "CABLE NETWORK"
-msgstr "КАБЕЛЬНАЯ СЕТЬ"
+#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
+msgctxt "Interface.GameMenuButtonExitDesktop"
+msgid "Exit To Desktop"
+msgstr "Выйти на рабочий стол"
 
-#: /Language/Interface/Record[Key='GameMenuButtonLeave']
-msgctxt "Interface.GameMenuButtonLeave"
-msgid "Leave Session"
-msgstr "Покинуть сессию"
+#: /Language/Interface/Record[Key='ElectronicReaderPressureSym']
+msgctxt "Interface.ElectronicReaderPressureSym"
+msgid "Pa"
+msgstr "Па"
 
 #: /Language/Interface/Record[Key='ElectronicReaderPressure']
 msgctxt "Interface.ElectronicReaderPressure"
@@ -1916,8 +1922,9 @@ msgid "Pause"
 msgstr "Приостановить"
 
 #: /Language/Interface/Record[Key='SettingsWorldOrigin']
+#, fuzzy
 msgctxt "Interface.SettingsWorldOrigin"
-msgid "World Origin"
+msgid "World Origin Rebasing"
 msgstr "Центр мира"
 
 #: /Language/Interface/Record[Key='SettingsShowSlotTooltips']
@@ -2075,10 +2082,10 @@ msgctxt "Interface.TraderInUse"
 msgid "This contact is already interacting with someone, try again soon."
 msgstr "Этот контакт уже взаимодействует с кем-то, попробуйте чуть позже."
 
-#: /Language/Interface/Record[Key='ContactTradeRequest']
-msgctxt "Interface.ContactTradeRequest"
-msgid "A trader has requested permission for landing."
-msgstr "Торговец запрашивает разрешение на посадку."
+#: /Language/Interface/Record[Key='ContactEventDefault']
+msgctxt "Interface.ContactEventDefault"
+msgid "There was no response."
+msgstr "Ответа не было."
 
 #: /Language/Interface/Record[Key='Locked']
 msgctxt "Interface.Locked"
@@ -3246,10 +3253,10 @@ msgctxt "Interface.WorldSettingsTitle"
 msgid "World Settings"
 msgstr "Настройки мира"
 
-#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
-msgctxt "Interface.GameMenuButtonExitDesktop"
-msgid "Exit To Desktop"
-msgstr "Выйти на рабочий стол"
+#: /Language/Interface/Record[Key='SaveMenuTitle']
+msgctxt "Interface.SaveMenuTitle"
+msgid "Save World"
+msgstr "Сохранить мир"
 
 #: /Language/Interface/Record[Key='WorldAtmospherePresetLabel']
 msgctxt "Interface.WorldAtmospherePresetLabel"
@@ -3441,10 +3448,10 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP адрес:"
 
-#: /Language/Interface/Record[Key='SaveMenuTitle']
-msgctxt "Interface.SaveMenuTitle"
-msgid "Save World"
-msgstr "Сохранить мир"
+#: /Language/Interface/Record[Key='SaveMenuListTitle']
+msgctxt "Interface.SaveMenuListTitle"
+msgid "Saved Worlds"
+msgstr "Сохранённые миры"
 
 #~ msgctxt "Interface.CartridgeElectronicReaderRecipeTitle"
 #~ msgid ""
