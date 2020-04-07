@@ -10,15 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
-msgctxt "Interface.NetworkAnalyserNetwork"
-msgid "CABLE NETWORK"
+#: /Language/Interface/Record[Key='NetworkAnalyserPotential']
+msgctxt "Interface.NetworkAnalyserPotential"
+msgid "POTENTIAL"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Sopravvivenza"
+#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
+msgctxt "Interface.JoinMenuInfoIPAddress"
+msgid "IP Address:"
+msgstr "Indirizzo IP:"
 
 #: /Language/Interface/Record[Key='ButtonBack']
 msgctxt "Interface.ButtonBack"
@@ -275,11 +275,6 @@ msgctxt "Interface.NewWorldAreaEuropa2"
 msgid "Europa"
 msgstr "Europa"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListMap']
-msgctxt "Interface.JoinMenuServerListMap"
-msgid "Map"
-msgstr "Mappa"
-
 #: /Language/Interface/Record[Key='NewWorldAreaVulcan2']
 msgctxt "Interface.NewWorldAreaVulcan2"
 msgid "Vulcan"
@@ -289,6 +284,11 @@ msgstr ""
 msgctxt "Interface.NewWorldEnableAwayMissions"
 msgid "Enable Away Missions"
 msgstr "Abilita missioni esterne"
+
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Sopravvivenza"
 
 #: /Language/Interface/Record[Key='InventorySlotBelt']
 msgctxt "Interface.InventorySlotBelt"
@@ -778,11 +778,6 @@ msgctxt "Interface.TooltipRotateLeftRight"
 msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
 msgstr "Usa <color=yellow>{KEY:RotateLeft}</color> e <color=yellow>{KEY:RotateRight}</color> per ruotare a sinistra o destra."
 
-#: /Language/Interface/Record[Key='ContactTradeRequest']
-msgctxt "Interface.ContactTradeRequest"
-msgid "A trader has requested permission for landing."
-msgstr "Un mercante ha richiesto il permesso di atterrare."
-
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
 msgid "Use {KEY:RotateUp} and {KEY:RotateDown} to rotate up and down."
@@ -792,6 +787,11 @@ msgstr "Usa <color=yellow>{KEY:RotateUp}</color> e <color=yellow>{KEY:RotateDown
 msgctxt "Interface.TooltipRollLeftRight"
 msgid "Use {KEY:RotateRollLeft} and {KEY:RotateRollRight} to roll left and right."
 msgstr "Usa <color=yellow>{KEY:RotateRollLeft}</color> e <color=yellow>{KEY:RotateRollRight}</color> per rollio a sinistra o a destra."
+
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
+msgstr "Questo contatto sta già interagendo con qualcuno, riprova più tardi."
 
 #: /Language/Interface/Record[Key='SettingsExtendedTooltips']
 msgctxt "Interface.SettingsExtendedTooltips"
@@ -1217,6 +1217,35 @@ msgctxt "Interface.GameMenuButtonLeave"
 msgid "Leave Session"
 msgstr "Esci dalla sessione"
 
+#: /Language/Interface/Record[Key='ResearchCancel']
+#, fuzzy
+msgctxt "Interface.ResearchCancel"
+msgid "Cancel"
+msgstr "Annulla"
+
+#: /Language/Interface/Record[Key='ResearchConfirm']
+#, fuzzy
+msgctxt "Interface.ResearchConfirm"
+msgid "Confirm"
+msgstr "Conferma"
+
+#: /Language/Interface/Record[Key='ResearchResourceTitle']
+msgctxt "Interface.ResearchResourceTitle"
+msgid "Resources"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ResearchTitle']
+#, fuzzy
+msgctxt "Interface.ResearchTitle"
+msgid "Research"
+msgstr "Reset"
+
+#: /Language/Interface/Record[Key='ResearchFilter']
+#, fuzzy
+msgctxt "Interface.ResearchFilter"
+msgid "Filter"
+msgstr "Filtri"
+
 #: /Language/Interface/Record[Key='SettingsTerrainClutterMultiplier']
 #, fuzzy
 msgctxt "Interface.SettingsTerrainClutterMultiplier"
@@ -1344,20 +1373,20 @@ msgctxt "Interface.NetworkAnalyserDevices"
 msgid "DEVICES"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NetworkAnalyserPotential']
-msgctxt "Interface.NetworkAnalyserPotential"
-msgid "POTENTIAL"
-msgstr ""
+#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
+msgctxt "Interface.GameMenuButtonExitDesktop"
+msgid "Exit To Desktop"
+msgstr "Torna al Desktop"
 
 #: /Language/Interface/Record[Key='NetworkAnalyserActual']
 msgctxt "Interface.NetworkAnalyserActual"
 msgid "ACTUAL"
 msgstr ""
 
-#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
-msgctxt "Interface.GameMenuButtonExitDesktop"
-msgid "Exit To Desktop"
-msgstr "Torna al Desktop"
+#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
+msgctxt "Interface.NetworkAnalyserNetwork"
+msgid "CABLE NETWORK"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderPressureSym']
 #, fuzzy
@@ -2138,10 +2167,10 @@ msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
 msgstr "Nessuna risposta."
 
-#: /Language/Interface/Record[Key='TraderInUse']
-msgctxt "Interface.TraderInUse"
-msgid "This contact is already interacting with someone, try again soon."
-msgstr "Questo contatto sta già interagendo con qualcuno, riprova più tardi."
+#: /Language/Interface/Record[Key='ContactTradeRequest']
+msgctxt "Interface.ContactTradeRequest"
+msgid "A trader has requested permission for landing."
+msgstr "Un mercante ha richiesto il permesso di atterrare."
 
 #: /Language/Interface/Record[Key='ContactEventDefault']
 msgctxt "Interface.ContactEventDefault"
@@ -3306,6 +3335,11 @@ msgctxt "Interface.WorldSaveButton"
 msgid "Save"
 msgstr "Salva"
 
+#: /Language/Interface/Record[Key='SaveMenuTitle']
+msgctxt "Interface.SaveMenuTitle"
+msgid "Save World"
+msgstr "Salvare il Mondo ?"
+
 #: /Language/Interface/Record[Key='WorldResetButton']
 msgctxt "Interface.WorldResetButton"
 msgid "Reset"
@@ -3315,11 +3349,6 @@ msgstr "Reset"
 msgctxt "Interface.WorldSettingsTitle"
 msgid "World Settings"
 msgstr "Parametri del Monde"
-
-#: /Language/Interface/Record[Key='SaveMenuTitle']
-msgctxt "Interface.SaveMenuTitle"
-msgid "Save World"
-msgstr "Salvare il Mondo ?"
 
 #: /Language/Interface/Record[Key='WorldAtmospherePresetLabel']
 msgctxt "Interface.WorldAtmospherePresetLabel"
@@ -3506,10 +3535,10 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "Mappa:"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
-msgctxt "Interface.JoinMenuInfoIPAddress"
-msgid "IP Address:"
-msgstr "Indirizzo IP:"
+#: /Language/Interface/Record[Key='JoinMenuServerListMap']
+msgctxt "Interface.JoinMenuServerListMap"
+msgid "Map"
+msgstr "Mappa"
 
 #: /Language/Interface/Record[Key='SaveMenuListTitle']
 msgctxt "Interface.SaveMenuListTitle"

@@ -10,14 +10,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
-msgctxt "Interface.NetworkAnalyserNetwork"
-msgid "CABLE NETWORK"
+#: /Language/Interface/Record[Key='NetworkAnalyserPotential']
+msgctxt "Interface.NetworkAnalyserPotential"
+msgid "POTENTIAL"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
+#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
+msgctxt "Interface.JoinMenuInfoIPAddress"
+msgid "IP Address:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonBack']
@@ -274,11 +274,6 @@ msgctxt "Interface.NewWorldAreaEuropa2"
 msgid "Europa"
 msgstr "Europa"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListMap']
-msgctxt "Interface.JoinMenuServerListMap"
-msgid "Map"
-msgstr ""
-
 #: /Language/Interface/Record[Key='NewWorldAreaVulcan2']
 msgctxt "Interface.NewWorldAreaVulcan2"
 msgid "Vulcan"
@@ -288,6 +283,11 @@ msgstr ""
 msgctxt "Interface.NewWorldEnableAwayMissions"
 msgid "Enable Away Missions"
 msgstr "Activare misiuni de deplasare"
+
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr ""
 
 #: /Language/Interface/Record[Key='InventorySlotBelt']
 msgctxt "Interface.InventorySlotBelt"
@@ -772,11 +772,6 @@ msgctxt "Interface.TooltipRotateLeftRight"
 msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequest']
-msgctxt "Interface.ContactTradeRequest"
-msgid "A trader has requested permission for landing."
-msgstr ""
-
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
 msgid "Use {KEY:RotateUp} and {KEY:RotateDown} to rotate up and down."
@@ -785,6 +780,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='TooltipRollLeftRight']
 msgctxt "Interface.TooltipRollLeftRight"
 msgid "Use {KEY:RotateRollLeft} and {KEY:RotateRollRight} to roll left and right."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsExtendedTooltips']
@@ -1206,6 +1206,31 @@ msgctxt "Interface.GameMenuButtonLeave"
 msgid "Leave Session"
 msgstr "Părăsește sesiunea"
 
+#: /Language/Interface/Record[Key='ResearchCancel']
+msgctxt "Interface.ResearchCancel"
+msgid "Cancel"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ResearchConfirm']
+msgctxt "Interface.ResearchConfirm"
+msgid "Confirm"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ResearchResourceTitle']
+msgctxt "Interface.ResearchResourceTitle"
+msgid "Resources"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ResearchTitle']
+msgctxt "Interface.ResearchTitle"
+msgid "Research"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ResearchFilter']
+msgctxt "Interface.ResearchFilter"
+msgid "Filter"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsTerrainClutterMultiplier']
 msgctxt "Interface.SettingsTerrainClutterMultiplier"
 msgid "Terrain Clutter Multiplier"
@@ -1327,20 +1352,20 @@ msgctxt "Interface.NetworkAnalyserDevices"
 msgid "DEVICES"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NetworkAnalyserPotential']
-msgctxt "Interface.NetworkAnalyserPotential"
-msgid "POTENTIAL"
-msgstr ""
+#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
+msgctxt "Interface.GameMenuButtonExitDesktop"
+msgid "Exit To Desktop"
+msgstr "Ieșire la desktop"
 
 #: /Language/Interface/Record[Key='NetworkAnalyserActual']
 msgctxt "Interface.NetworkAnalyserActual"
 msgid "ACTUAL"
 msgstr ""
 
-#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
-msgctxt "Interface.GameMenuButtonExitDesktop"
-msgid "Exit To Desktop"
-msgstr "Ieșire la desktop"
+#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
+msgctxt "Interface.NetworkAnalyserNetwork"
+msgid "CABLE NETWORK"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderPressureSym']
 msgctxt "Interface.ElectronicReaderPressureSym"
@@ -2094,9 +2119,9 @@ msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderInUse']
-msgctxt "Interface.TraderInUse"
-msgid "This contact is already interacting with someone, try again soon."
+#: /Language/Interface/Record[Key='ContactTradeRequest']
+msgctxt "Interface.ContactTradeRequest"
+msgid "A trader has requested permission for landing."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactEventDefault']
@@ -3241,6 +3266,11 @@ msgctxt "Interface.WorldSaveButton"
 msgid "Save"
 msgstr ""
 
+#: /Language/Interface/Record[Key='SaveMenuTitle']
+msgctxt "Interface.SaveMenuTitle"
+msgid "Save World"
+msgstr "Salvează lumea"
+
 #: /Language/Interface/Record[Key='WorldResetButton']
 msgctxt "Interface.WorldResetButton"
 msgid "Reset"
@@ -3250,11 +3280,6 @@ msgstr ""
 msgctxt "Interface.WorldSettingsTitle"
 msgid "World Settings"
 msgstr ""
-
-#: /Language/Interface/Record[Key='SaveMenuTitle']
-msgctxt "Interface.SaveMenuTitle"
-msgid "Save World"
-msgstr "Salvează lumea"
 
 #: /Language/Interface/Record[Key='WorldAtmospherePresetLabel']
 msgctxt "Interface.WorldAtmospherePresetLabel"
@@ -3441,9 +3466,9 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
-msgctxt "Interface.JoinMenuInfoIPAddress"
-msgid "IP Address:"
+#: /Language/Interface/Record[Key='JoinMenuServerListMap']
+msgctxt "Interface.JoinMenuServerListMap"
+msgid "Map"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SaveMenuListTitle']

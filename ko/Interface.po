@@ -7,15 +7,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
-msgctxt "Interface.NetworkAnalyserNetwork"
-msgid "CABLE NETWORK"
+#: /Language/Interface/Record[Key='NetworkAnalyserPotential']
+msgctxt "Interface.NetworkAnalyserPotential"
+msgid "POTENTIAL"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "서바이벌"
+#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
+msgctxt "Interface.JoinMenuInfoIPAddress"
+msgid "IP Address:"
+msgstr "IP주소:"
 
 #: /Language/Interface/Record[Key='ButtonBack']
 msgctxt "Interface.ButtonBack"
@@ -274,11 +274,6 @@ msgctxt "Interface.NewWorldAreaEuropa2"
 msgid "Europa"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuServerListMap']
-msgctxt "Interface.JoinMenuServerListMap"
-msgid "Map"
-msgstr "세계"
-
 #: /Language/Interface/Record[Key='NewWorldAreaVulcan2']
 msgctxt "Interface.NewWorldAreaVulcan2"
 msgid "Vulcan"
@@ -288,6 +283,11 @@ msgstr ""
 msgctxt "Interface.NewWorldEnableAwayMissions"
 msgid "Enable Away Missions"
 msgstr "Away 미션 사용"
+
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "서바이벌"
 
 #: /Language/Interface/Record[Key='InventorySlotBelt']
 msgctxt "Interface.InventorySlotBelt"
@@ -779,11 +779,6 @@ msgctxt "Interface.TooltipRotateLeftRight"
 msgid "Use {KEY:RotateLeft} and {KEY:RotateRight} to rotate left and right."
 msgstr "{KEY:RotateLeft}와 {KEY:RotateRight}로 좌우로 회전하세요."
 
-#: /Language/Interface/Record[Key='ContactTradeRequest']
-msgctxt "Interface.ContactTradeRequest"
-msgid "A trader has requested permission for landing."
-msgstr ""
-
 #: /Language/Interface/Record[Key='TooltipRotateUpDown']
 msgctxt "Interface.TooltipRotateUpDown"
 msgid "Use {KEY:RotateUp} and {KEY:RotateDown} to rotate up and down."
@@ -793,6 +788,11 @@ msgstr "{KEY:RotateUp}와 {KEY:RotateDown}로 상하로 회전하세요."
 msgctxt "Interface.TooltipRollLeftRight"
 msgid "Use {KEY:RotateRollLeft} and {KEY:RotateRollRight} to roll left and right."
 msgstr "{KEY:RotateRollLeft}와 {KEY:RotateRollRight}로 좌우로 돌리세요."
+
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsExtendedTooltips']
 msgctxt "Interface.SettingsExtendedTooltips"
@@ -1221,6 +1221,35 @@ msgctxt "Interface.GameMenuButtonLeave"
 msgid "Leave Session"
 msgstr "세션 나가기"
 
+#: /Language/Interface/Record[Key='ResearchCancel']
+#, fuzzy
+msgctxt "Interface.ResearchCancel"
+msgid "Cancel"
+msgstr "취소"
+
+#: /Language/Interface/Record[Key='ResearchConfirm']
+#, fuzzy
+msgctxt "Interface.ResearchConfirm"
+msgid "Confirm"
+msgstr "확인"
+
+#: /Language/Interface/Record[Key='ResearchResourceTitle']
+msgctxt "Interface.ResearchResourceTitle"
+msgid "Resources"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ResearchTitle']
+#, fuzzy
+msgctxt "Interface.ResearchTitle"
+msgid "Research"
+msgstr "복구"
+
+#: /Language/Interface/Record[Key='ResearchFilter']
+#, fuzzy
+msgctxt "Interface.ResearchFilter"
+msgid "Filter"
+msgstr "필터"
+
 #: /Language/Interface/Record[Key='SettingsTerrainClutterMultiplier']
 #, fuzzy
 msgctxt "Interface.SettingsTerrainClutterMultiplier"
@@ -1347,20 +1376,20 @@ msgctxt "Interface.NetworkAnalyserDevices"
 msgid "DEVICES"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NetworkAnalyserPotential']
-msgctxt "Interface.NetworkAnalyserPotential"
-msgid "POTENTIAL"
-msgstr ""
+#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
+msgctxt "Interface.GameMenuButtonExitDesktop"
+msgid "Exit To Desktop"
+msgstr "게임 종료"
 
 #: /Language/Interface/Record[Key='NetworkAnalyserActual']
 msgctxt "Interface.NetworkAnalyserActual"
 msgid "ACTUAL"
 msgstr ""
 
-#: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
-msgctxt "Interface.GameMenuButtonExitDesktop"
-msgid "Exit To Desktop"
-msgstr "게임 종료"
+#: /Language/Interface/Record[Key='NetworkAnalyserNetwork']
+msgctxt "Interface.NetworkAnalyserNetwork"
+msgid "CABLE NETWORK"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderPressureSym']
 msgctxt "Interface.ElectronicReaderPressureSym"
@@ -2127,9 +2156,9 @@ msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderInUse']
-msgctxt "Interface.TraderInUse"
-msgid "This contact is already interacting with someone, try again soon."
+#: /Language/Interface/Record[Key='ContactTradeRequest']
+msgctxt "Interface.ContactTradeRequest"
+msgid "A trader has requested permission for landing."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactEventDefault']
@@ -3312,6 +3341,11 @@ msgctxt "Interface.WorldSaveButton"
 msgid "Save"
 msgstr "Save"
 
+#: /Language/Interface/Record[Key='SaveMenuTitle']
+msgctxt "Interface.SaveMenuTitle"
+msgid "Save World"
+msgstr "저장하기"
+
 #: /Language/Interface/Record[Key='WorldResetButton']
 msgctxt "Interface.WorldResetButton"
 msgid "Reset"
@@ -3321,11 +3355,6 @@ msgstr "Reset"
 msgctxt "Interface.WorldSettingsTitle"
 msgid "World Settings"
 msgstr "World Settings"
-
-#: /Language/Interface/Record[Key='SaveMenuTitle']
-msgctxt "Interface.SaveMenuTitle"
-msgid "Save World"
-msgstr "저장하기"
 
 #: /Language/Interface/Record[Key='WorldAtmospherePresetLabel']
 msgctxt "Interface.WorldAtmospherePresetLabel"
@@ -3512,10 +3541,10 @@ msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "세계:"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoIPAddress']
-msgctxt "Interface.JoinMenuInfoIPAddress"
-msgid "IP Address:"
-msgstr "IP주소:"
+#: /Language/Interface/Record[Key='JoinMenuServerListMap']
+msgctxt "Interface.JoinMenuServerListMap"
+msgid "Map"
+msgstr "세계"
 
 #: /Language/Interface/Record[Key='SaveMenuListTitle']
 msgctxt "Interface.SaveMenuListTitle"
