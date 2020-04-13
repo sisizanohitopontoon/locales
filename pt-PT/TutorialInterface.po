@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-04-13 03:33+0000\n"
+"PO-Revision-Date: 2020-04-13 03:36+0000\n"
 "Last-Translator: XHead <fullbanner@gmail.com>\n"
 "Language: pt_PT\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1252,14 +1252,13 @@ msgid "Battery Charges and Power Controllers"
 msgstr "Carregador de Baterias e Controladores de Energia"
 
 #: /Language/Interface/Record[Key='TutorialPowerControlersAndbatteryChargesDescription']
-#, fuzzy
 msgctxt "Interface.TutorialPowerControlersAndbatteryChargesDescription"
 msgid ""
 "In our next step, we need to place a {THING:ItemAreaPowerControl} to control the flow of power and prevent cables from burning out. They also provide a small intermediate power supply if the generators are offline.\n"
 "\n"
 "Secondly, we need to add a {THING:ItemBatteryCharger} for our depleted batteries. We want to put it into the circuit before the {THING:ItemAreaPowerControl}, so it won’t drain the {THING:ItemAreaPowerControl} battery."
 msgstr ""
-"No próximo passo precisamos colocar um {THING:ItemAreaPowerControl}. Controladores de energia são utilizados para controlar o fluxo de energia e evitar queimar cabos, eles também fornecem um pouco de energia intermédia se os geradores estiverem desligados.\n"
+"No próximo passo precisamos colocar um {THING:ItemAreaPowerControl} para controlar o fluxo de energia e evitar queimar cabos. Eles também fornecem um pouco de energia intermédia se os geradores estiverem desligados.\n"
 "\n"
 "Em seguida, precisamos colocar um {THING:ItemBatteryCharger} de forma a carregar as baterias vazias. Devemos colocá-lo antes do {THING:ItemAreaPowerControl} de forma que qualquer bateria a carregar, não descarregue a bateria do {THING:ItemAreaPowerControl}."
 
@@ -1319,14 +1318,13 @@ msgid "Setting Up the Power Controller"
 msgstr "Configurando o Controlador de Energia"
 
 #: /Language/Interface/Record[Key='TutorialSettingUpThePowerControllerDescription']
-#, fuzzy
 msgctxt "Interface.TutorialSettingUpThePowerControllerDescription"
 msgid ""
 "To make the {THING:StructureAreaPowerControl} work, we need to open the cover and insert a battery, then flip the breaker switch to let electricity and data pass-through. It's recommended to use a "
 "large battery for long-lasting power in case of an outage, but a small battery can be used."
 msgstr ""
-"Para que o controlador de energia funcione, teremos que abrir a sua cobertura, inserir uma bateria e depois virar o disjuntor, de forma que electricidade e dados possam passar. É geralmente "
-"recomendado utilizar uma bateria grande, de forma a permitir uma longa energia em caso de uma baixa, no entanto poderás também utilizar uma bateria pequena."
+"Para que o {THING:StructureAreaPowerControl} funcione, teremos que abrir a sua cobertura, inserir uma bateria e depois virar o disjuntor, de forma que electricidade e dados possam passar. É "
+"geralmente recomendado utilizar uma bateria grande, de forma a permitir uma longa energia em caso de uma baixa, no entanto poderás também utilizar uma bateria pequena."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask1']
 msgctxt "Interface.SettingUpThePowerControllerTask1"
