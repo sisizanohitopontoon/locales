@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-04-17 11:27+0000\n"
+"PO-Revision-Date: 2020-04-17 11:32+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1616,42 +1616,42 @@ msgstr "Větev na řádek C, pokud A <= B"
 #: /Language/Interface/Record[Key='ScriptCommandBgt']
 msgctxt "Interface.ScriptCommandBgt"
 msgid "Branch to line c if a > b"
-msgstr ""
+msgstr "Větev na řádek C, pokud A > B"
 
 #: /Language/Interface/Record[Key='ScriptCommandBlt']
 msgctxt "Interface.ScriptCommandBlt"
 msgid "Branch to line c if a < b"
-msgstr ""
+msgstr "Větev na řádek C, pokud A < B"
 
 #: /Language/Interface/Record[Key='ScriptCommandBdns']
 msgctxt "Interface.ScriptCommandBdns"
 msgid "Branch to line a if device d isn't set"
-msgstr ""
+msgstr "Větev na řádek A, pokud zařízení D není nastaveno"
 
 #: /Language/Interface/Record[Key='ScriptCommandBdse']
 msgctxt "Interface.ScriptCommandBdse"
 msgid "Branch to line a if device d is set"
-msgstr ""
+msgstr "Větev na řádek A, pokud je zařízení D nastaveno"
 
 #: /Language/Interface/Record[Key='ScriptCommandJ']
 msgctxt "Interface.ScriptCommandJ"
 msgid "Jump execution to line a"
-msgstr ""
+msgstr "Skok provedení řádku A"
 
 #: /Language/Interface/Record[Key='ScriptCommandMod']
 msgctxt "Interface.ScriptCommandMod"
 msgid "Register = a mod b (note: NOT a % b)"
-msgstr ""
+msgstr "Registr = A mod B (poznámka: NE A % B)"
 
 #: /Language/Interface/Record[Key='ScriptCommandDiv']
 msgctxt "Interface.ScriptCommandDiv"
 msgid "Register = a / b"
-msgstr ""
+msgstr "Registr = A / B"
 
 #: /Language/Interface/Record[Key='ScriptCommandMul']
 msgctxt "Interface.ScriptCommandMul"
 msgid "Register = a * b"
-msgstr ""
+msgstr "Registr = A * B"
 
 #: /Language/Interface/Record[Key='ScriptCommandNor']
 msgctxt "Interface.ScriptCommandNor"
@@ -1676,18 +1676,17 @@ msgstr "Registr = 1, pokud A a B nejsou nula, jinak 0"
 #: /Language/Interface/Record[Key='ScriptCommandSnaz']
 msgctxt "Interface.ScriptCommandSnaz"
 msgid "Register = 1 if |a| > float.epsilon, otherwise 0"
-msgstr ""
+msgstr "Registr = 1, pokud |A| > float.epsilon, jinak 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSapz']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSapz"
 msgid "Register = 1 if |a| <= float.epsilon * 8, otherwise 0"
-msgstr ""
+msgstr "Registr = 1, pokud |A| <= float.epsilon * 8, jinak 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSnez']
 msgctxt "Interface.ScriptCommandSnez"
 msgid "Register = 1 if a != 0, otherwise 0"
-msgstr ""
+msgstr "Registr = 1, pokud A != 0, jinak 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSeqz']
 msgctxt "Interface.ScriptCommandSeqz"
