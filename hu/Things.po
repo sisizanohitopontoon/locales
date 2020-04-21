@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='AimeeBot']
-msgctxt "Things.AimeeBot"
-msgid "Aimee Bot"
-msgstr "Aimee robot"
+#: /Language/Things/Record[Key='Robot']
+msgctxt "Things.Robot"
+msgid "Robot"
+msgstr "Robot"
+
+#: /Language/Things/Record[Key='RoverCargo']
+msgctxt "Things.RoverCargo"
+msgid "Rover (Cargo)"
+msgstr "Terepjáró (Teherszállító)"
 
 #: /Language/Things/Record[Key='ItemMiningDrillHeavy']
 msgctxt "Things.ItemMiningDrillHeavy"
@@ -105,10 +110,10 @@ msgctxt "Things.ItemNVG"
 msgid "Night Vision Goggles"
 msgstr "Éjjellátó szemüveg"
 
-#: /Language/Things/Record[Key='ItemGasCanisterNitrousOxide']
-msgctxt "Things.ItemGasCanisterNitrousOxide"
-msgid "Gas Canister (Sleeping)"
-msgstr "Gázpalack (Alvó)"
+#: /Language/Things/Record[Key='ItemGasFilterNitrousOxideM']
+msgctxt "Things.ItemGasFilterNitrousOxideM"
+msgid "Medium Filter (Nitrous Oxide)"
+msgstr "Közepes szűrő (Dinitrogén-oxid)"
 
 #: /Language/Things/Record[Key='ItemGasFilterNitrousOxideL']
 msgctxt "Things.ItemGasFilterNitrousOxideL"
@@ -1310,6 +1315,11 @@ msgctxt "Things.StructureConsoleLED1x2"
 msgid "LED Display (Medium)"
 msgstr "LED kijelző (Közepes)"
 
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr "Bankkártya"
+
 #: /Language/Things/Record[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
 msgid "Dial"
@@ -1319,11 +1329,6 @@ msgstr "Tárcsa"
 msgctxt "Things.StructureCableAnalysizer"
 msgid "Cable Analyzer"
 msgstr "Kábel elemző"
-
-#: /Language/Things/Record[Key='RoverCargo']
-msgctxt "Things.RoverCargo"
-msgid "Rover (Cargo)"
-msgstr "Terepjáró (Teherszállító)"
 
 #: /Language/Things/Record[Key='ItemCableAnalyser']
 msgctxt "Things.ItemCableAnalyser"
@@ -2925,10 +2930,10 @@ msgctxt "Things.ItemKitAirlock"
 msgid "Kit (Airlock)"
 msgstr "Készlet (Légzsilip)"
 
-#: /Language/Things/Record[Key='ItemIronOre']
-msgctxt "Things.ItemIronOre"
-msgid "Ore (Iron)"
-msgstr "Érc (Vas)"
+#: /Language/Things/Record[Key='StructureRover']
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "Terepjáró váz"
 
 #: /Language/Things/Record[Key='ItemIronIngot']
 msgctxt "Things.ItemIronIngot"
@@ -3530,10 +3535,10 @@ msgctxt "Things.BodyPartChickWingL"
 msgid "Body Part Chick Wing)"
 msgstr "Testrész Csibe Szárny)"
 
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr "Bankkártya"
+#: /Language/Things/Record[Key='BodyPartChickTail']
+msgctxt "Things.BodyPartChickTail"
+msgid "Body Part Chick Tail"
+msgstr "Testrész Csibe Far"
 
 #: /Language/Things/Record[Key='BodyPartChickLegR']
 msgctxt "Things.BodyPartChickLegR"
@@ -3695,11 +3700,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrohullámú sütő"
 
-#: /Language/Things/Record[Key='StructureRover']
-msgctxt "Things.StructureRover"
-msgid "Rover Frame"
-msgstr "Terepjáró váz"
-
 #: /Language/Things/Record[Key='ItemKitRoverFrame']
 msgctxt "Things.ItemKitRoverFrame"
 msgid "Kit (Rover Frame)"
@@ -3775,20 +3775,20 @@ msgctxt "Things.ItemCoffeeMug"
 msgid "Coffee Mug"
 msgstr "Kávésbögre"
 
-#: /Language/Things/Record[Key='Robot']
-msgctxt "Things.Robot"
-msgid "Robot"
-msgstr "Robot"
+#: /Language/Things/Record[Key='AimeeBot']
+msgctxt "Things.AimeeBot"
+msgid "Aimee Bot"
+msgstr "Aimee robot"
 
 #: /Language/Things/Record[Key='CartridgeGPS']
 msgctxt "Things.CartridgeGPS"
 msgid "Cartridge (GPS)"
 msgstr "Kártya (GPS)"
 
-#: /Language/Things/Record[Key='ItemGasFilterNitrousOxideM']
-msgctxt "Things.ItemGasFilterNitrousOxideM"
-msgid "Medium Filter (Nitrous Oxide)"
-msgstr "Közepes szűrő (Dinitrogén-oxid)"
+#: /Language/Things/Record[Key='ItemGasCanisterNitrousOxide']
+msgctxt "Things.ItemGasCanisterNitrousOxide"
+msgid "Gas Canister (Sleeping)"
+msgstr "Gázpalack (Alvó)"
 
 #: /Language/Things/Record[Key='StructureLogicTransmitter']
 msgctxt "Things.StructureLogicTransmitter"
@@ -4132,10 +4132,16 @@ msgctxt "Things.ItemKitPictureFrame"
 msgid "Item Kit Picture Frame"
 msgstr "Készlet (Csap)"
 
-#: /Language/Things/Record[Key='BodyPartChickTail']
-msgctxt "Things.BodyPartChickTail"
-msgid "Body Part Chick Tail"
-msgstr "Testrész Csibe Far"
+#: /Language/Things/Record[Key='ItemVoxelTool']
+#, fuzzy
+msgctxt "Things.ItemVoxelTool"
+msgid "Item Voxel Tool"
+msgstr "Tárgy ellenőrző eszköz"
+
+#: /Language/Things/Record[Key='ItemIronOre']
+msgctxt "Things.ItemIronOre"
+msgid "Ore (Iron)"
+msgstr "Érc (Vas)"
 
 #~ msgctxt "Things.StructureRTG"
 #~ msgid "RTG"

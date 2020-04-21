@@ -2013,9 +2013,12 @@ msgstr ""
 #: /Language/Interface/Record[Key='PortableHydroponicsDescription']
 msgctxt "Interface.PortableHydroponicsDescription"
 msgid ""
-"{THING:DynamicHydroponics} are great for setting up temporary food sources. They're light and portable, but aren't equipped with a lighting system due to weight requirements. \n"
+"{THING:DynamicHydroponics} unit are great for setting up temporary food sources. They're light and portable, but aren't equipped with a lighting system due to weight requirements. \n"
 "            \n"
-"This means the {THING:DynamicHydroponics} must be in a sun-lit spot for plants to grow."
+"This means the {THING:DynamicHydroponics} unit must be in a sun-lit spot for plants to grow. In addiotion to needing a good sun-lit spot they also require a controlled atmosphere.\n"
+"\n"
+"Best plant growth conditions are between 15 and 50 degrees celsius at a preassure of 8KPa to 130 KPa. The Air composition should contain no hydrogen or pollutants and at least 2% carborn dioxide.\n"
+"\n"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask1']
@@ -2033,12 +2036,13 @@ msgstr "捡起 {THING:ItemKitAutolathe}。"
 #: /Language/Interface/Record[Key='PortableHydroponicsTask3']
 #, fuzzy
 msgctxt "Interface.PortableHydroponicsTask3"
-msgid "Insert the water canister into the base of the {THING:DynamicHydroponics}"
+msgid "Insert the water canister into the base of the {THING:DynamicHydroponics} unit"
 msgstr "将跟踪器记忆卡放入 {THING:ItemTablet}。"
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask4']
+#, fuzzy
 msgctxt "Interface.PortableHydroponicsTask4"
-msgid "Plant a {THING:ItemPotato} in any of the {THING:DynamicHydroponics} planting slots."
+msgid "Plant a {THING:ItemPotato} in any of the {THING:DynamicHydroponics} unit planting slots."
 msgstr ""
 
 #: /Language/Interface/Record[Key='PotatosInSpace']
@@ -2070,7 +2074,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='FixedHydroponicsDescription']
 msgctxt "Interface.FixedHydroponicsDescription"
-msgid "The {THING:DynamicHydroponics} is good for starting out, but you will soon want to upgrade to a {THING:StructureHydroponicsStation}. It has built-in UV lights and a pipe import to help with automating the system."
+msgid "The {THING:DynamicHydroponics} unit is good for starting out, but you will soon want to upgrade to a {THING:StructureHydroponicsStation}. It has built-in UV lights and a pipe import to help with automating the system."
 msgstr ""
 
 #: /Language/Interface/Record[Key='FixedHydroponicsTask1']
@@ -2114,7 +2118,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenchesDescription']
 msgctxt "Interface.WaterTanksAndWrenchesDescription"
-msgid "To attach a {THING:DynamicGasCanisterWater} to a {THING:ItemTankConnector}, place the {THING:DynamicGasCanisterWater} on top of the {THING:ItemTankConnector} and connect it using a {THING:ItemWrench}."
+msgid "Place the {THING:DynamicGasCanisterWater} on top of the {THING:ItemTankConnector} and connect it using a {THING:ItemWrench}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenches1']
@@ -2179,13 +2183,13 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='AutomatedHydroponicsDescription']
 msgctxt "Interface.AutomatedHydroponicsDescription"
-msgid "You can now turn on the new {THING:ItemKitHydroponicStation} and plant your {THING:ItemPotato}. It has built-in lights that will keep your plants happy even in low-light conditions."
+msgid "You can now turn on the new {THING:StructureHydroponicsStation} and plant your {THING:ItemPotato}. It has built-in lights that will keep your plants happy even in low-light conditions."
 msgstr ""
 
 #: /Language/Interface/Record[Key='AutomatedHydroponicsTask1']
 #, fuzzy
 msgctxt "Interface.AutomatedHydroponicsTask1"
-msgid "Turn on the {THING:ItemKitHydroponicStation}."
+msgid "Turn on the {THING:StructureHydroponicsStation}."
 msgstr "打开 {THING:ItemTablet}"
 
 #: /Language/Interface/Record[Key='AutomatedHydroponicsTask2']
@@ -2197,8 +2201,13 @@ msgstr "捡起 {THING:ItemKitAutolathe}。"
 #: /Language/Interface/Record[Key='AutomatedHydroponicsTask3']
 #, fuzzy
 msgctxt "Interface.AutomatedHydroponicsTask3"
-msgid "Plant the {THING:ItemPotato} in the {THING:ItemKitHydroponicStation}."
+msgid "Plant the {THING:ItemPotato} in the {THING:StructureHydroponicsStation}."
 msgstr "将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。"
+
+#: /Language/Interface/Record[Key='AutomatedHydroponicsTask4']
+msgctxt "Interface.AutomatedHydroponicsTask4"
+msgid "Drop any remaning items in your hands."
+msgstr ""
 
 #: /Language/Interface/Record[Key='HonestWork']
 msgctxt "Interface.HonestWork"

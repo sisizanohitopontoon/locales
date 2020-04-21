@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListMap']
-msgctxt "Interface.JoinMenuServerListMap"
-msgid "Map"
-msgstr "Pálya"
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Túlélő"
+
+#: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
+msgctxt "Interface.SettingsTitleAdvScreen"
+msgid "Advanced Settings"
+msgstr "További beállítások"
 
 #: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
 msgctxt "Interface.SettingsTitleBasicScreen"
@@ -30,15 +35,15 @@ msgctxt "Interface.SettingsTitleAutosave"
 msgid "AutoSave Settings"
 msgstr "Automatikus mentés beállításai"
 
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "Publikálás a Műhelyben"
+
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
 msgid "Display Tools"
 msgstr "Eszközök megjelenítése"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Felülírás"
 
 #: /Language/Interface/Record[Key='ButtonResetDefaults']
 msgctxt "Interface.ButtonResetDefaults"
@@ -305,15 +310,15 @@ msgctxt "Interface.LoulanShortDesc"
 msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
 msgstr "Á, a Loulan. Amikor megérkezel tapasztalni fogod a belélegezhető atmoszféráját, mely nyomása elegendő az életfenntartáshoz - de számos hiányossággal. Ez a sivatagos óriás a Gargantua rendszerbrn kering, naponta egyre közelebb a központban levő fekete lyukhoz. Bár a bolygó már kihalt és többé nem borítja felszínét víz és növényzet, mégis van egy működő atmoszférája, a te feladatod pedig, hogy kiaknázd a megmaradt kopár vidék maradék erőforrásait a végtelen sivatagban való túléléshez."
 
-#: /Language/Interface/Record[Key='NewWorldAreaLoulan']
-msgctxt "Interface.NewWorldAreaLoulan"
-msgid "Loulan"
-msgstr "Loulan"
+#: /Language/Interface/Record[Key='ChangeSettingToFor']
+msgctxt "Interface.ChangeSettingToFor"
+msgid "Change to <color=yellow>{0}</color> for {1}"
+msgstr "{1} megváltoztatása erre: <color=yellow>{0}</color>"
 
-#: /Language/Interface/Record[Key='ChangeSettingToAll']
-msgctxt "Interface.ChangeSettingToAll"
-msgid "Change to All {0}"
-msgstr "Összes változatása erre: {0}"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Asteroid Belt"
+msgstr "Aszteroidaöv"
 
 #: /Language/Interface/Record[Key='NewWorldAreaTitle']
 msgctxt "Interface.NewWorldAreaTitle"
@@ -474,11 +479,6 @@ msgstr "Kép"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
-
-#: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
-msgctxt "Interface.SettingsTitleAdvScreen"
-msgid "Advanced Settings"
-msgstr "További beállítások"
 
 #: /Language/Interface/Record[Key='SettingsResolution']
 msgctxt "Interface.SettingsResolution"
@@ -859,6 +859,11 @@ msgctxt "Interface.SettingsExtendedTooltips"
 msgid "Extended Tooltips"
 msgstr "Bővített eszköztippek"
 
+#: /Language/Interface/Record[Key='CartridgeAtmosAnalyserTemperatureTitle']
+msgctxt "Interface.CartridgeAtmosAnalyserTemperatureTitle"
+msgid "TEMPERATURE"
+msgstr "HŐMÉRSÉKLET"
+
 #: /Language/Interface/Record[Key='TooltipUpgrade2']
 msgctxt "Interface.TooltipUpgrade2"
 msgid "Once placed use {0} and {1} for upgrade."
@@ -944,10 +949,10 @@ msgctxt "Interface.PromptResetSettingsConfirm"
 msgid "Reset"
 msgstr "Visszaállítás"
 
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "Publikálás a Műhelyben"
+#: /Language/Interface/Record[Key='SteamErrorTitle']
+msgctxt "Interface.SteamErrorTitle"
+msgid "Steam Error"
+msgstr "Steam hiba"
 
 #: /Language/Interface/Record[Key='PromptPublishBody']
 msgctxt "Interface.PromptPublishBody"
@@ -1145,16 +1150,6 @@ msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Kreatív"
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Túlélő"
-
-#: /Language/Interface/Record[Key='SteamErrorTitle']
-msgctxt "Interface.SteamErrorTitle"
-msgid "Steam Error"
-msgstr "Steam hiba"
-
 #: /Language/Interface/Record[Key='SteamErrorBody']
 msgctxt "Interface.SteamErrorBody"
 msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
@@ -1210,6 +1205,22 @@ msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr "Felülírás"
 
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Biztos vagy benne, hogy felülírod a mentett világot?"
+
+#: /Language/Interface/Record[Key='ResearchUnlocksTitle']
+msgctxt "Interface.ResearchUnlocksTitle"
+msgid "Unlocks"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ResearchRequirementTitle']
+#, fuzzy
+msgctxt "Interface.ResearchRequirementTitle"
+msgid "Requirements"
+msgstr "Kísérletek"
+
 #: /Language/Interface/Record[Key='DialogConfirmResearchUnlock']
 msgctxt "Interface.DialogConfirmResearchUnlock"
 msgid "Do you want to Unlock this Research?"
@@ -1217,7 +1228,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsResearch']
 msgctxt "Interface.SettingsResearch"
-msgid "Researach Pool Selection"
+msgid "Research Pool Selection"
 msgstr ""
 
 # Stationeers template translation file generated by martian.
@@ -1675,7 +1686,6 @@ msgid "Register = 1 if |a| > float.epsilon, otherwise 0"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandSapz']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSapz"
 msgid "Register = 1 if |a| <= float.epsilon * 8, otherwise 0"
 msgstr ""
@@ -3469,15 +3479,15 @@ msgctxt "Interface.ButtonVariables"
 msgid "x"
 msgstr "x"
 
+#: /Language/Interface/Record[Key='NewWorldAreaLoulan']
+msgctxt "Interface.NewWorldAreaLoulan"
+msgid "Loulan"
+msgstr "Loulan"
+
 #: /Language/Interface/Record[Key='ButtonHelp']
 msgctxt "Interface.ButtonHelp"
 msgid "Help"
 msgstr "Segítség"
-
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Asteroid Belt"
-msgstr "Aszteroidaöv"
 
 #: /Language/Interface/Record[Key='ButtonPaste']
 msgctxt "Interface.ButtonPaste"
@@ -3676,15 +3686,15 @@ msgctxt "Interface.ChangeSettingToForIn"
 msgid "Change to <color=yellow>{0}</color> for {3} <color=yellow>({2})</color> in {1}"
 msgstr "{3} megváltoztatása erre: <color=yellow>{0}</color>, itt: <color=yellow>({2})</color> ebben: {1}"
 
-#: /Language/Interface/Record[Key='ChangeSettingToFor']
-msgctxt "Interface.ChangeSettingToFor"
-msgid "Change to <color=yellow>{0}</color> for {1}"
-msgstr "{1} megváltoztatása erre: <color=yellow>{0}</color>"
-
 #: /Language/Interface/Record[Key='HoldForPreviousObject']
 msgctxt "Interface.HoldForPreviousObject"
 msgid "Hold {KEY:QuantityModifier} for previous object"
 msgstr "Tarsd a {KEY:QuantityModifier} gombot az előző tárgyhoz"
+
+#: /Language/Interface/Record[Key='ChangeSettingToAll']
+msgctxt "Interface.ChangeSettingToAll"
+msgid "Change to All {0}"
+msgstr "Összes változatása erre: {0}"
 
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"
@@ -4094,15 +4104,15 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP cím:"
 
-#: /Language/Interface/Record[Key='CartridgeAtmosAnalyserTemperatureTitle']
-msgctxt "Interface.CartridgeAtmosAnalyserTemperatureTitle"
-msgid "TEMPERATURE"
-msgstr "HŐMÉRSÉKLET"
+#: /Language/Interface/Record[Key='JoinMenuServerListMap']
+msgctxt "Interface.JoinMenuServerListMap"
+msgid "Map"
+msgstr "Pálya"
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Biztos vagy benne, hogy felülírod a mentett világot?"
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Felülírás"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"

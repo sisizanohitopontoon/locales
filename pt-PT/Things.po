@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='AimeeBot']
-msgctxt "Things.AimeeBot"
-msgid "Aimee Bot"
-msgstr "Robô Aimee"
+#: /Language/Things/Record[Key='Robot']
+msgctxt "Things.Robot"
+msgid "Robot"
+msgstr "Robô"
+
+#: /Language/Things/Record[Key='RoverCargo']
+msgctxt "Things.RoverCargo"
+msgid "Rover (Cargo)"
+msgstr "Rover (Armazenamento)"
 
 #: /Language/Things/Record[Key='ItemMiningDrillHeavy']
 msgctxt "Things.ItemMiningDrillHeavy"
@@ -105,10 +110,10 @@ msgctxt "Things.ItemNVG"
 msgid "Night Vision Goggles"
 msgstr "Óculos de Visão Noturna"
 
-#: /Language/Things/Record[Key='ItemGasCanisterNitrousOxide']
-msgctxt "Things.ItemGasCanisterNitrousOxide"
-msgid "Gas Canister (Sleeping)"
-msgstr "Botija de Gás (Dormindo)"
+#: /Language/Things/Record[Key='ItemGasFilterNitrousOxideM']
+msgctxt "Things.ItemGasFilterNitrousOxideM"
+msgid "Medium Filter (Nitrous Oxide)"
+msgstr "Filtro Médio (Oxido Nitroso)"
 
 #: /Language/Things/Record[Key='ItemGasFilterNitrousOxideL']
 msgctxt "Things.ItemGasFilterNitrousOxideL"
@@ -1310,6 +1315,11 @@ msgctxt "Things.StructureConsoleLED1x2"
 msgid "LED Display (Medium)"
 msgstr "Visor LED (Médio)"
 
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
 #: /Language/Things/Record[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
 msgid "Dial"
@@ -1319,11 +1329,6 @@ msgstr "Botão de Selecção"
 msgctxt "Things.StructureCableAnalysizer"
 msgid "Cable Analyzer"
 msgstr "Analisador de Cabos"
-
-#: /Language/Things/Record[Key='RoverCargo']
-msgctxt "Things.RoverCargo"
-msgid "Rover (Cargo)"
-msgstr "Rover (Armazenamento)"
 
 #: /Language/Things/Record[Key='ItemCableAnalyser']
 msgctxt "Things.ItemCableAnalyser"
@@ -2925,10 +2930,10 @@ msgctxt "Things.ItemKitAirlock"
 msgid "Kit (Airlock)"
 msgstr "Kit (Airlock)"
 
-#: /Language/Things/Record[Key='ItemIronOre']
-msgctxt "Things.ItemIronOre"
-msgid "Ore (Iron)"
-msgstr "Minério (Ferro)"
+#: /Language/Things/Record[Key='StructureRover']
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "Estrutura do Rover"
 
 #: /Language/Things/Record[Key='ItemIronIngot']
 msgctxt "Things.ItemIronIngot"
@@ -3530,10 +3535,10 @@ msgctxt "Things.BodyPartChickWingL"
 msgid "Body Part Chick Wing)"
 msgstr "Parte do Corpo (Asa Esquerda de Pintainho)"
 
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr "Cartão de Crédito"
+#: /Language/Things/Record[Key='BodyPartChickTail']
+msgctxt "Things.BodyPartChickTail"
+msgid "Body Part Chick Tail"
+msgstr "Parte do Corpo (Cauda de Pintainho)"
 
 #: /Language/Things/Record[Key='BodyPartChickLegR']
 msgctxt "Things.BodyPartChickLegR"
@@ -3695,11 +3700,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Microondas"
 
-#: /Language/Things/Record[Key='StructureRover']
-msgctxt "Things.StructureRover"
-msgid "Rover Frame"
-msgstr "Estrutura do Rover"
-
 #: /Language/Things/Record[Key='ItemKitRoverFrame']
 msgctxt "Things.ItemKitRoverFrame"
 msgid "Kit (Rover Frame)"
@@ -3775,20 +3775,20 @@ msgctxt "Things.ItemCoffeeMug"
 msgid "Coffee Mug"
 msgstr "Chávena de Café"
 
-#: /Language/Things/Record[Key='Robot']
-msgctxt "Things.Robot"
-msgid "Robot"
-msgstr "Robô"
+#: /Language/Things/Record[Key='AimeeBot']
+msgctxt "Things.AimeeBot"
+msgid "Aimee Bot"
+msgstr "Robô Aimee"
 
 #: /Language/Things/Record[Key='CartridgeGPS']
 msgctxt "Things.CartridgeGPS"
 msgid "Cartridge (GPS)"
 msgstr "Cartucho (GPS)"
 
-#: /Language/Things/Record[Key='ItemGasFilterNitrousOxideM']
-msgctxt "Things.ItemGasFilterNitrousOxideM"
-msgid "Medium Filter (Nitrous Oxide)"
-msgstr "Filtro Médio (Oxido Nitroso)"
+#: /Language/Things/Record[Key='ItemGasCanisterNitrousOxide']
+msgctxt "Things.ItemGasCanisterNitrousOxide"
+msgid "Gas Canister (Sleeping)"
+msgstr "Botija de Gás (Dormindo)"
 
 #: /Language/Things/Record[Key='StructureLogicTransmitter']
 msgctxt "Things.StructureLogicTransmitter"
@@ -4130,10 +4130,16 @@ msgctxt "Things.ItemKitPictureFrame"
 msgid "Item Kit Picture Frame"
 msgstr "Item Kit Moldura de Imagem"
 
-#: /Language/Things/Record[Key='BodyPartChickTail']
-msgctxt "Things.BodyPartChickTail"
-msgid "Body Part Chick Tail"
-msgstr "Parte do Corpo (Cauda de Pintainho)"
+#: /Language/Things/Record[Key='ItemVoxelTool']
+#, fuzzy
+msgctxt "Things.ItemVoxelTool"
+msgid "Item Voxel Tool"
+msgstr "Item Ferramenta Autoria"
+
+#: /Language/Things/Record[Key='ItemIronOre']
+msgctxt "Things.ItemIronOre"
+msgid "Ore (Iron)"
+msgstr "Minério (Ferro)"
 
 #~ msgctxt "Things.BluePodType"
 #~ msgid "Blue "
