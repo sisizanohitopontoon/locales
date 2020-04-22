@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='Robot']
-msgctxt "Things.Robot"
-msgid "Robot"
-msgstr "Robot"
+#: /Language/Things/Record[Key='CartridgeGPS']
+msgctxt "Things.CartridgeGPS"
+msgid "Cartridge (GPS)"
+msgstr "Kartuş (GPS)"
 
 #: /Language/Things/Record[Key='RoverCargo']
 msgctxt "Things.RoverCargo"
@@ -95,11 +95,6 @@ msgctxt "Things.StructureShuttleLandingPad"
 msgid "Landing Pad"
 msgstr "İniş Alanı"
 
-#: /Language/Things/Record[Key='StructureLogicHashGen']
-msgctxt "Things.StructureLogicHashGen"
-msgid "Logic Hash Generator"
-msgstr "Mantık Hash'i Üretici"
-
 #: /Language/Things/Record[Key='ItemGlasses']
 msgctxt "Things.ItemGlasses"
 msgid "Glasses"
@@ -109,6 +104,11 @@ msgstr "Gözlük"
 msgctxt "Things.ItemNVG"
 msgid "Night Vision Goggles"
 msgstr "Gece Görüş Gözlüğü"
+
+#: /Language/Things/Record[Key='ItemGasCanisterNitrousOxide']
+msgctxt "Things.ItemGasCanisterNitrousOxide"
+msgid "Gas Canister (Sleeping)"
+msgstr "Gaz Kapsülü (Uyku)"
 
 #: /Language/Things/Record[Key='ItemGasFilterNitrousOxideM']
 msgctxt "Things.ItemGasFilterNitrousOxideM"
@@ -1305,6 +1305,11 @@ msgctxt "Things.NpcChick"
 msgid "Chick"
 msgstr "Civciv"
 
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr "Kredi Kartı"
+
 #: /Language/Things/Record[Key='StructureConsoleLED1x3']
 msgctxt "Things.StructureConsoleLED1x3"
 msgid "LED Display (Large)"
@@ -1314,11 +1319,6 @@ msgstr "LED Ekran (Büyük)"
 msgctxt "Things.StructureConsoleLED1x2"
 msgid "LED Display (Medium)"
 msgstr "LED Ekran (Orta)"
-
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr "Kredi Kartı"
 
 #: /Language/Things/Record[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
@@ -2925,15 +2925,15 @@ msgctxt "Things.ItemKitAtmospherics"
 msgid "Kit (Atmospherics)"
 msgstr "Donanım (Atmosferikler)"
 
-#: /Language/Things/Record[Key='ItemKitAirlock']
-msgctxt "Things.ItemKitAirlock"
-msgid "Kit (Airlock)"
-msgstr "Donanım (Hava Kilidi)"
-
 #: /Language/Things/Record[Key='StructureRover']
 msgctxt "Things.StructureRover"
 msgid "Rover Frame"
 msgstr "Gezginci Çerçevesi"
+
+#: /Language/Things/Record[Key='ItemIronOre']
+msgctxt "Things.ItemIronOre"
+msgid "Ore (Iron)"
+msgstr "Cevher (Demir)"
 
 #: /Language/Things/Record[Key='ItemIronIngot']
 msgctxt "Things.ItemIronIngot"
@@ -3730,14 +3730,10 @@ msgctxt "Things.Meteorite"
 msgid "Meteorite"
 msgstr "Göktaşı"
 
-#: /Language/Things/Record[Key='ItemReferenceTool']
-msgctxt "Things.ItemReferenceTool"
-msgid "Item Reference Tool"
-msgstr "Öğe Oluşturma Aracı"
-
 #: /Language/Things/Record[Key='ItemKitAutoMiner']
+#, fuzzy
 msgctxt "Things.ItemKitAutoMiner"
-msgid "Item Kit Auto Miner"
+msgid "Kit Auto Miner"
 msgstr "Otomatik Madenci Öğe Donanımı"
 
 #: /Language/Things/Record[Key='DynamicGasCanisterNitrousOxide']
@@ -3780,15 +3776,10 @@ msgctxt "Things.AimeeBot"
 msgid "Aimee Bot"
 msgstr "Aimee Bot"
 
-#: /Language/Things/Record[Key='CartridgeGPS']
-msgctxt "Things.CartridgeGPS"
-msgid "Cartridge (GPS)"
-msgstr "Kartuş (GPS)"
-
-#: /Language/Things/Record[Key='ItemGasCanisterNitrousOxide']
-msgctxt "Things.ItemGasCanisterNitrousOxide"
-msgid "Gas Canister (Sleeping)"
-msgstr "Gaz Kapsülü (Uyku)"
+#: /Language/Things/Record[Key='Robot']
+msgctxt "Things.Robot"
+msgid "Robot"
+msgstr "Robot"
 
 #: /Language/Things/Record[Key='StructureLogicTransmitter']
 msgctxt "Things.StructureLogicTransmitter"
@@ -3809,6 +3800,11 @@ msgstr "Gelişmiş Fırın"
 msgctxt "Things.ItemKitAdvancedFurnace"
 msgid "Kit (Advanced Furnace)"
 msgstr "Donanım (Gelişmiş Fırın)"
+
+#: /Language/Things/Record[Key='StructureLogicHashGen']
+msgctxt "Things.StructureLogicHashGen"
+msgid "Logic Hash Generator"
+msgstr "Mantık Hash'i Üretici"
 
 #: /Language/Things/Record[Key='ItemStelliteIngot']
 msgctxt "Things.ItemStelliteIngot"
@@ -3906,8 +3902,9 @@ msgid "Transformer Reversed (Medium)"
 msgstr "Trafo Ters (Orta)"
 
 #: /Language/Things/Record[Key='ItemJetpackBasic']
+#, fuzzy
 msgctxt "Things.ItemJetpackBasic"
-msgid "Item Jetpack Basic"
+msgid "Jetpack Basic"
 msgstr "Sırt Roketi Öğesi Temel"
 
 #: /Language/Things/Record[Key='StructureRTGSurvival']
@@ -3976,13 +3973,15 @@ msgid "Emergency Tool Belt"
 msgstr "Acil Durum Alet Kemeri"
 
 #: /Language/Things/Record[Key='ItemElectronicParts']
+#, fuzzy
 msgctxt "Things.ItemElectronicParts"
-msgid "Item Electronic Parts"
+msgid "Electronic Parts"
 msgstr "Öğe Elektronik Parçaları"
 
 #: /Language/Things/Record[Key='ItemKitResearchMachine']
+#, fuzzy
 msgctxt "Things.ItemKitResearchMachine"
-msgid "Item Kit Research Machine"
+msgid "Kit Research Machine"
 msgstr "Öğe Donanım Araştırma Makinesi"
 
 #: /Language/Things/Record[Key='ManualGetResearchPodsRequired']
@@ -4126,20 +4125,30 @@ msgid "Research Capsule Blue"
 msgstr "Araştırma Kapsülü Mavi"
 
 #: /Language/Things/Record[Key='ItemKitPictureFrame']
+#, fuzzy
 msgctxt "Things.ItemKitPictureFrame"
-msgid "Item Kit Picture Frame"
+msgid "Kit Picture Frame"
 msgstr "Öğe Donanım Resim Çerçevesi"
 
 #: /Language/Things/Record[Key='ItemVoxelTool']
 #, fuzzy
 msgctxt "Things.ItemVoxelTool"
-msgid "Item Voxel Tool"
+msgid "Voxel Tool"
 msgstr "Parça Oluşturma Aleti"
 
-#: /Language/Things/Record[Key='ItemIronOre']
-msgctxt "Things.ItemIronOre"
-msgid "Ore (Iron)"
-msgstr "Cevher (Demir)"
+#: /Language/Things/Record[Key='ItemKitAIMeE']
+msgctxt "Things.ItemKitAIMeE"
+msgid "Kit AIMeE"
+msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitAirlock']
+msgctxt "Things.ItemKitAirlock"
+msgid "Kit (Airlock)"
+msgstr "Donanım (Hava Kilidi)"
+
+#~ msgctxt "Things.ItemReferenceTool"
+#~ msgid "Item Reference Tool"
+#~ msgstr "Öğe Oluşturma Aracı"
 
 #~ msgctxt "Things.BluePodType"
 #~ msgid "Blue "

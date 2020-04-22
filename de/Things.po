@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='Robot']
-msgctxt "Things.Robot"
-msgid "Robot"
-msgstr ""
+#: /Language/Things/Record[Key='CartridgeGPS']
+msgctxt "Things.CartridgeGPS"
+msgid "Cartridge (GPS)"
+msgstr "Kassette (GPS)"
 
 #: /Language/Things/Record[Key='RoverCargo']
 msgctxt "Things.RoverCargo"
@@ -95,11 +95,6 @@ msgctxt "Things.StructureShuttleLandingPad"
 msgid "Landing Pad"
 msgstr "Landeplattform"
 
-#: /Language/Things/Record[Key='StructureLogicHashGen']
-msgctxt "Things.StructureLogicHashGen"
-msgid "Logic Hash Generator"
-msgstr "Logischer Hash-Generator"
-
 #: /Language/Things/Record[Key='ItemGlasses']
 msgctxt "Things.ItemGlasses"
 msgid "Glasses"
@@ -109,6 +104,11 @@ msgstr "Brille"
 msgctxt "Things.ItemNVG"
 msgid "Night Vision Goggles"
 msgstr "Nachtsichtgerät"
+
+#: /Language/Things/Record[Key='ItemGasCanisterNitrousOxide']
+msgctxt "Things.ItemGasCanisterNitrousOxide"
+msgid "Gas Canister (Sleeping)"
+msgstr "Gasflasche (Lachgas - N2O)"
 
 #: /Language/Things/Record[Key='ItemGasFilterNitrousOxideM']
 msgctxt "Things.ItemGasFilterNitrousOxideM"
@@ -1305,6 +1305,11 @@ msgctxt "Things.NpcChick"
 msgid "Chick"
 msgstr "Küken"
 
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr "Kreditkarte"
+
 #: /Language/Things/Record[Key='StructureConsoleLED1x3']
 msgctxt "Things.StructureConsoleLED1x3"
 msgid "LED Display (Large)"
@@ -1314,11 +1319,6 @@ msgstr "Große LED-Anzeige"
 msgctxt "Things.StructureConsoleLED1x2"
 msgid "LED Display (Medium)"
 msgstr "Mittlere LED-Anzeige"
-
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr "Kreditkarte"
 
 #: /Language/Things/Record[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
@@ -2925,15 +2925,15 @@ msgctxt "Things.ItemKitAtmospherics"
 msgid "Kit (Atmospherics)"
 msgstr "Atmosphärisch (Bausatz)"
 
-#: /Language/Things/Record[Key='ItemKitAirlock']
-msgctxt "Things.ItemKitAirlock"
-msgid "Kit (Airlock)"
-msgstr "Luftschleusentür (Bausatz)"
-
 #: /Language/Things/Record[Key='StructureRover']
 msgctxt "Things.StructureRover"
 msgid "Rover Frame"
 msgstr "Rover Rahmen"
+
+#: /Language/Things/Record[Key='ItemIronOre']
+msgctxt "Things.ItemIronOre"
+msgid "Ore (Iron)"
+msgstr "Eisen (Erz)"
 
 #: /Language/Things/Record[Key='ItemIronIngot']
 msgctxt "Things.ItemIronIngot"
@@ -3730,14 +3730,10 @@ msgctxt "Things.Meteorite"
 msgid "Meteorite"
 msgstr "Meteorit"
 
-#: /Language/Things/Record[Key='ItemReferenceTool']
-msgctxt "Things.ItemReferenceTool"
-msgid "Item Reference Tool"
-msgstr "Objektreferenz Tool"
-
 #: /Language/Things/Record[Key='ItemKitAutoMiner']
+#, fuzzy
 msgctxt "Things.ItemKitAutoMiner"
-msgid "Item Kit Auto Miner"
+msgid "Kit Auto Miner"
 msgstr ""
 
 #: /Language/Things/Record[Key='DynamicGasCanisterNitrousOxide']
@@ -3780,15 +3776,10 @@ msgctxt "Things.AimeeBot"
 msgid "Aimee Bot"
 msgstr ""
 
-#: /Language/Things/Record[Key='CartridgeGPS']
-msgctxt "Things.CartridgeGPS"
-msgid "Cartridge (GPS)"
-msgstr "Kassette (GPS)"
-
-#: /Language/Things/Record[Key='ItemGasCanisterNitrousOxide']
-msgctxt "Things.ItemGasCanisterNitrousOxide"
-msgid "Gas Canister (Sleeping)"
-msgstr "Gasflasche (Lachgas - N2O)"
+#: /Language/Things/Record[Key='Robot']
+msgctxt "Things.Robot"
+msgid "Robot"
+msgstr ""
 
 #: /Language/Things/Record[Key='StructureLogicTransmitter']
 msgctxt "Things.StructureLogicTransmitter"
@@ -3809,6 +3800,11 @@ msgstr "Verbesserter Schmelzofen"
 msgctxt "Things.ItemKitAdvancedFurnace"
 msgid "Kit (Advanced Furnace)"
 msgstr "Verbesserter Schmelzofen (Bausatz)"
+
+#: /Language/Things/Record[Key='StructureLogicHashGen']
+msgctxt "Things.StructureLogicHashGen"
+msgid "Logic Hash Generator"
+msgstr "Logischer Hash-Generator"
 
 #: /Language/Things/Record[Key='ItemStelliteIngot']
 msgctxt "Things.ItemStelliteIngot"
@@ -3907,7 +3903,7 @@ msgstr "Mittlerer Transformator Links"
 
 #: /Language/Things/Record[Key='ItemJetpackBasic']
 msgctxt "Things.ItemJetpackBasic"
-msgid "Item Jetpack Basic"
+msgid "Jetpack Basic"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureRTGSurvival']
@@ -3976,13 +3972,15 @@ msgid "Emergency Tool Belt"
 msgstr "Not-Werkzeuggürtel"
 
 #: /Language/Things/Record[Key='ItemElectronicParts']
+#, fuzzy
 msgctxt "Things.ItemElectronicParts"
-msgid "Item Electronic Parts"
+msgid "Electronic Parts"
 msgstr "Elektronische Teile"
 
 #: /Language/Things/Record[Key='ItemKitResearchMachine']
+#, fuzzy
 msgctxt "Things.ItemKitResearchMachine"
-msgid "Item Kit Research Machine"
+msgid "Kit Research Machine"
 msgstr ""
 
 #: /Language/Things/Record[Key='ManualGetResearchPodsRequired']
@@ -4129,19 +4127,28 @@ msgstr ""
 #: /Language/Things/Record[Key='ItemKitPictureFrame']
 #, fuzzy
 msgctxt "Things.ItemKitPictureFrame"
-msgid "Item Kit Picture Frame"
+msgid "Kit Picture Frame"
 msgstr "Rohrventil (Bausatz)"
 
 #: /Language/Things/Record[Key='ItemVoxelTool']
 #, fuzzy
 msgctxt "Things.ItemVoxelTool"
-msgid "Item Voxel Tool"
+msgid "Voxel Tool"
 msgstr "Zeigestock"
 
-#: /Language/Things/Record[Key='ItemIronOre']
-msgctxt "Things.ItemIronOre"
-msgid "Ore (Iron)"
-msgstr "Eisen (Erz)"
+#: /Language/Things/Record[Key='ItemKitAIMeE']
+msgctxt "Things.ItemKitAIMeE"
+msgid "Kit AIMeE"
+msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitAirlock']
+msgctxt "Things.ItemKitAirlock"
+msgid "Kit (Airlock)"
+msgstr "Luftschleusentür (Bausatz)"
+
+#~ msgctxt "Things.ItemReferenceTool"
+#~ msgid "Item Reference Tool"
+#~ msgstr "Objektreferenz Tool"
 
 #~ msgctxt "Things.StructureRTG"
 #~ msgid "RTG"
