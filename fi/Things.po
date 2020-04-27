@@ -83,11 +83,6 @@ msgctxt "Things.ItemKitSatelliteDish"
 msgid "Kit (Satellite Dish)"
 msgstr "Varustepakkaus (satelliittilautanen)"
 
-#: /Language/Things/Record[Key='StructureSatelliteDish']
-msgctxt "Things.StructureSatelliteDish"
-msgid "Satellite Dish"
-msgstr "Satelliittilautanen"
-
 #: /Language/Things/Record[Key='ItemKitLandingPad']
 msgctxt "Things.ItemKitLandingPad"
 msgid "Kit (Landing Pad)"
@@ -97,6 +92,11 @@ msgstr "Varustepakkaus (laskeutumisalusta)"
 msgctxt "Things.StructureShuttleLandingPad"
 msgid "Landing Pad"
 msgstr "Laskeutumisalusta"
+
+#: /Language/Things/Record[Key='StructureLogicHashGen']
+msgctxt "Things.StructureLogicHashGen"
+msgid "Logic Hash Generator"
+msgstr "Loogisen tarkisteen generoija"
 
 #: /Language/Things/Record[Key='ItemGlasses']
 msgctxt "Things.ItemGlasses"
@@ -1298,6 +1298,11 @@ msgctxt "Things.DynamicSkeleton"
 msgid "Skeleton"
 msgstr "Luuranko"
 
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr ""
+
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things.NpcChicken"
 msgid "Chicken"
@@ -1307,11 +1312,6 @@ msgstr "Kana"
 msgctxt "Things.NpcChick"
 msgid "Chick"
 msgstr "Tipu"
-
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr ""
 
 #: /Language/Things/Record[Key='StructureConsoleLED1x3']
 msgctxt "Things.StructureConsoleLED1x3"
@@ -2929,16 +2929,16 @@ msgctxt "Things.ItemKitBattery"
 msgid "Kit (Battery)"
 msgstr "Varustepakkaus (akku)"
 
-#: /Language/Things/Record[Key='ItemKitAtmospherics']
-msgctxt "Things.ItemKitAtmospherics"
-msgid "Kit (Atmospherics)"
-msgstr "Varustepakkaus (ilmastointilaitteet)"
-
 #: /Language/Things/Record[Key='StructureRover']
 #, fuzzy
 msgctxt "Things.StructureRover"
 msgid "Rover Frame"
 msgstr "Rautarunko"
+
+#: /Language/Things/Record[Key='ItemKitAirlock']
+msgctxt "Things.ItemKitAirlock"
+msgid "Kit (Airlock)"
+msgstr "Varustepakkaus (ilmalukko)"
 
 #: /Language/Things/Record[Key='ItemIronOre']
 msgctxt "Things.ItemIronOre"
@@ -3743,7 +3743,6 @@ msgid "Meteorite"
 msgstr ""
 
 #: /Language/Things/Record[Key='ItemKitAutoMiner']
-#, fuzzy
 msgctxt "Things.ItemKitAutoMiner"
 msgid "Kit Auto Miner"
 msgstr ""
@@ -3820,11 +3819,6 @@ msgctxt "Things.ItemKitAdvancedFurnace"
 msgid "Kit (Advanced Furnace)"
 msgstr "Varustepakkaus (valokaariuuni)"
 
-#: /Language/Things/Record[Key='StructureLogicHashGen']
-msgctxt "Things.StructureLogicHashGen"
-msgid "Logic Hash Generator"
-msgstr "Loogisen tarkisteen generoija"
-
 #: /Language/Things/Record[Key='ItemStelliteIngot']
 #, fuzzy
 msgctxt "Things.ItemStelliteIngot"
@@ -3842,6 +3836,11 @@ msgstr "Harkko (jäte)"
 msgctxt "Things.ItemHastelloyIngot"
 msgid "Ingot (Hastelloy)"
 msgstr "Harkko (jäte)"
+
+#: /Language/Things/Record[Key='StructureSatelliteDish']
+msgctxt "Things.StructureSatelliteDish"
+msgid "Satellite Dish"
+msgstr "Satelliittilautanen"
 
 #: /Language/Things/Record[Key='ItemInconelIngot']
 #, fuzzy
@@ -4021,7 +4020,6 @@ msgid "Electronic Parts"
 msgstr "Elektroniikkatulostin"
 
 #: /Language/Things/Record[Key='ItemKitResearchMachine']
-#, fuzzy
 msgctxt "Things.ItemKitResearchMachine"
 msgid "Kit Research Machine"
 msgstr ""
@@ -4186,10 +4184,10 @@ msgctxt "Things.ItemKitAIMeE"
 msgid "Kit AIMeE"
 msgstr ""
 
-#: /Language/Things/Record[Key='ItemKitAirlock']
-msgctxt "Things.ItemKitAirlock"
-msgid "Kit (Airlock)"
-msgstr "Varustepakkaus (ilmalukko)"
+#: /Language/Things/Record[Key='ItemKitAtmospherics']
+msgctxt "Things.ItemKitAtmospherics"
+msgid "Kit (Atmospherics)"
+msgstr "Varustepakkaus (ilmastointilaitteet)"
 
 #, fuzzy
 #~ msgctxt "Things.ItemReferenceTool"

@@ -10,10 +10,55 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListMap']
-msgctxt "Interface.JoinMenuServerListMap"
-msgid "Map"
-msgstr "マップ"
+#: /Language/Interface/Record[Key='PromptDebugLoadBody']
+msgctxt "Interface.PromptDebugLoadBody"
+msgid "Are you sure you want to load this world with only one character?"
+msgstr "キャラクター1人用でワールドをロードしますか？"
+
+#: /Language/Interface/Record[Key='SettingsEnvElements']
+msgctxt "Interface.SettingsEnvElements"
+msgid "Environmental Elements"
+msgstr "環境エレメント"
+
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "影の距離"
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "影の解像度"
+
+#: /Language/Interface/Record[Key='SettingsShadows']
+msgctxt "Interface.SettingsShadows"
+msgid "Shadows"
+msgstr "影"
+
+#: /Language/Interface/Record[Key='SettingsPixelLightCount']
+msgctxt "Interface.SettingsPixelLightCount"
+msgid "Pixel Light Count"
+msgstr "Pixel Light Count"
+
+#: /Language/Interface/Record[Key='SettingsVolumetricLighting']
+msgctxt "Interface.SettingsVolumetricLighting"
+msgid "Volumetric Lighting"
+msgstr "Volumetric Lighting"
+
+#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
+msgctxt "Interface.PromptDebugLoadConfirm"
+msgid "Debug Load"
+msgstr "デバッグロード"
+
+#: /Language/Interface/Record[Key='SettingsSoftParticles']
+msgctxt "Interface.SettingsSoftParticles"
+msgid "Soft Particles"
+msgstr "Soft Particles"
+
+#: /Language/Interface/Record[Key='SettingsParticleQuality']
+msgctxt "Interface.SettingsParticleQuality"
+msgid "Particle Quality"
+msgstr "パーティクルクオリティ"
 
 #: /Language/Interface/Record[Key='SettingsTextureQuality']
 msgctxt "Interface.SettingsTextureQuality"
@@ -39,11 +84,6 @@ msgstr "明るさ"
 msgctxt "Interface.SettingsButtonApply"
 msgid "Apply"
 msgstr "適用"
-
-#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
-msgctxt "Interface.PromptDebugLoadConfirm"
-msgid "Debug Load"
-msgstr "デバッグロード"
 
 #: /Language/Interface/Record[Key='SettingsVsync']
 msgctxt "Interface.SettingsVsync"
@@ -313,9 +353,9 @@ msgctxt "Interface.Vulcan2"
 msgid "Vulcan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Space']
@@ -336,10 +376,11 @@ msgctxt "Interface.EuropaBeta"
 msgid "Europa"
 msgstr "エウロパ"
 
-#: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
-msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
-msgid "Interaction temporarily disabled on this object"
-msgstr ""
+#: /Language/Interface/Record[Key='Europa']
+#, fuzzy
+msgctxt "Interface.Europa"
+msgid "Europa"
+msgstr "エウロパ"
 
 #: /Language/Interface/Record[Key='Mars']
 #, fuzzy
@@ -528,46 +569,6 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
-
-#: /Language/Interface/Record[Key='SettingsParticleQuality']
-msgctxt "Interface.SettingsParticleQuality"
-msgid "Particle Quality"
-msgstr "パーティクルクオリティ"
-
-#: /Language/Interface/Record[Key='SettingsSoftParticles']
-msgctxt "Interface.SettingsSoftParticles"
-msgid "Soft Particles"
-msgstr "Soft Particles"
-
-#: /Language/Interface/Record[Key='SettingsVolumetricLighting']
-msgctxt "Interface.SettingsVolumetricLighting"
-msgid "Volumetric Lighting"
-msgstr "Volumetric Lighting"
-
-#: /Language/Interface/Record[Key='SettingsPixelLightCount']
-msgctxt "Interface.SettingsPixelLightCount"
-msgid "Pixel Light Count"
-msgstr "Pixel Light Count"
-
-#: /Language/Interface/Record[Key='SettingsShadows']
-msgctxt "Interface.SettingsShadows"
-msgid "Shadows"
-msgstr "影"
-
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "影の解像度"
-
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "影の距離"
-
-#: /Language/Interface/Record[Key='SettingsEnvElements']
-msgctxt "Interface.SettingsEnvElements"
-msgid "Environmental Elements"
-msgstr "環境エレメント"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
@@ -879,6 +880,12 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "一度配置すると、アップグレードのために{0}を使用します"
 
+#: /Language/Interface/Record[Key='GameMenuButtonCancel']
+#, fuzzy
+msgctxt "Interface.GameMenuButtonCancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
@@ -895,9 +902,52 @@ msgid "Placement is snapped to grid faces."
 msgstr "グリッド面にスナップして設置します。"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
+#, fuzzy
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
-msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options."
+msgid "Placement is snapped to the small grid."
 msgstr "{THING:StructureFrameIron}と{THING:StructureFrame}にのみ直接設置できます。アップグレードすることで高度な設置オプションが可能になります。"
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountMissingFrame']
+#, fuzzy
+msgctxt "Interface.TooltipPlacementSnapFaceMountMissingFrame"
+msgid "Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame}"
+msgstr "{THING:StructureFrameIron}と{THING:StructureFrame}にのみ直接設置できます。アップグレードすることで高度な設置オプションが可能になります。"
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountMissingSupport']
+#, fuzzy
+msgctxt "Interface.TooltipPlacementSnapFaceMountMissingSupport"
+msgid "Placement requires support"
+msgstr "グリッドにスナップして設置します。"
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedDynamic']
+msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedDynamic"
+msgid "Placement blocked by #VAR1#"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedFallback']
+msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
+msgid "Placement blocked"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
+msgctxt "Interface.TooltipPlacementSnapFaceNotMountableDynamic"
+msgid "#VAR1# does not allow mounting"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableFallback']
+msgctxt "Interface.TooltipPlacementSnapFaceNotMountableFallback"
+msgid "One of these structures does not allow mounting"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceDynamic']
+msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceDynamic"
+msgid "Cannot mount to this face of #VAR1#, try another one"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceFallback']
+msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceFallback"
+msgid "Cannot mount to this face, try another one"
+msgstr ""
 
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
@@ -1116,51 +1166,6 @@ msgstr "サーバー名で検索"
 msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "IP:Portをここに入力"
-
-#: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
-msgctxt "Interface.JoinMenuServerDetailConnectButton"
-msgid "Join World"
-msgstr "ワールドに参加"
-
-#: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
-msgctxt "Interface.JoinMenuServerDetailInfoButton"
-msgid "View Info"
-msgstr "情報を見る"
-
-#: /Language/Interface/Record[Key='JoinMenuServerDetailUnFavoriteButton']
-msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
-msgid "Remove Favorite"
-msgstr "お気に入り解除"
-
-#: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
-msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
-msgid "Favorite"
-msgstr "お気に入り"
-
-#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
-msgctxt "Interface.SaveMenuSaveWorldButton"
-msgid "Save World"
-msgstr "セーブ"
-
-#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
-msgctxt "Interface.SaveMenuOverwriteButton"
-msgid "Overwrite"
-msgstr "上書き"
-
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "セーブ名を入力…"
-
-#: /Language/Interface/Record[Key='NewWorldModeCreative']
-msgctxt "Interface.NewWorldModeCreative"
-msgid "Creative"
-msgstr "クリエイティブ"
-
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "サバイバル"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeBody']
 msgctxt "Interface.PromptUnsubscribeBody"
@@ -2289,16 +2294,15 @@ msgctxt "Interface.CartridgeElectronicReaderAutoFlashTitle"
 msgid "Flashpoint:"
 msgstr ""
 
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeOrder']
+msgctxt "Interface.CartridgeElectronicReaderRecipeOrder"
+msgid "1 of 2"
+msgstr ""
+
 #: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeTitle']
 msgctxt "Interface.CartridgeElectronicReaderRecipeTitle"
 msgid "Recipe:"
 msgstr ""
-
-#: /Language/Interface/Record[Key='GameMenuButtonCancel']
-#, fuzzy
-msgctxt "Interface.GameMenuButtonCancel"
-msgid "Cancel"
-msgstr "キャンセル"
 
 #: /Language/Interface/Record[Key='DialogConfirmLastSaveIsAutoSave']
 msgctxt "Interface.DialogConfirmLastSaveIsAutoSave"
@@ -2533,11 +2537,10 @@ msgctxt "Interface.TravelMenuButtonTravelLoad"
 msgid "Load World"
 msgstr "ロード"
 
-#: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
-#, fuzzy
-msgctxt "Interface.TravelMenuButtonTravelNew"
-msgid "New World"
-msgstr "新規ワールド"
+#: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
+msgctxt "Interface.JoinMenuServerDetailInfoButton"
+msgid "View Info"
+msgstr "情報を見る"
 
 #: /Language/Interface/Record[Key='Loulan']
 msgctxt "Interface.Loulan"
@@ -3528,12 +3531,6 @@ msgctxt "Interface.ButtonFunctions"
 msgid "f"
 msgstr "f"
 
-#: /Language/Interface/Record[Key='Europa']
-#, fuzzy
-msgctxt "Interface.Europa"
-msgid "Europa"
-msgstr "エウロパ"
-
 #: /Language/Interface/Record[Key='HeadingEdit']
 msgctxt "Interface.HeadingEdit"
 msgid "Edit"
@@ -3548,6 +3545,11 @@ msgstr "ロード"
 msgctxt "Interface.HeadingHelp"
 msgid "help"
 msgstr "ヘルプ"
+
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonSlotVar']
 msgctxt "Interface.ButtonSlotVar"
@@ -3724,6 +3726,11 @@ msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
 msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
 msgstr ""
 
+#: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
+msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
+msgid "Interaction temporarily disabled on this object"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ChangeSettingToForAll']
 msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
@@ -3732,11 +3739,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
 msgctxt "Interface.ChangeSlotSettingToFor"
 msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
@@ -4166,15 +4168,56 @@ msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IPアドレス:"
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeOrder']
-msgctxt "Interface.CartridgeElectronicReaderRecipeOrder"
-msgid "1 of 2"
-msgstr ""
+#: /Language/Interface/Record[Key='JoinMenuServerListMap']
+msgctxt "Interface.JoinMenuServerListMap"
+msgid "Map"
+msgstr "マップ"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadBody']
-msgctxt "Interface.PromptDebugLoadBody"
-msgid "Are you sure you want to load this world with only one character?"
-msgstr "キャラクター1人用でワールドをロードしますか？"
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "サバイバル"
+
+#: /Language/Interface/Record[Key='NewWorldModeCreative']
+msgctxt "Interface.NewWorldModeCreative"
+msgid "Creative"
+msgstr "クリエイティブ"
+
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "セーブ名を入力…"
+
+#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
+msgctxt "Interface.SaveMenuOverwriteButton"
+msgid "Overwrite"
+msgstr "上書き"
+
+#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
+msgctxt "Interface.SaveMenuSaveWorldButton"
+msgid "Save World"
+msgstr "セーブ"
+
+#: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
+msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
+msgid "Favorite"
+msgstr "お気に入り"
+
+#: /Language/Interface/Record[Key='JoinMenuServerDetailUnFavoriteButton']
+msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
+msgid "Remove Favorite"
+msgstr "お気に入り解除"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
+#, fuzzy
+msgctxt "Interface.TravelMenuButtonTravelNew"
+msgid "New World"
+msgstr "新規ワールド"
+
+#: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
+msgctxt "Interface.JoinMenuServerDetailConnectButton"
+msgid "Join World"
+msgstr "ワールドに参加"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"
