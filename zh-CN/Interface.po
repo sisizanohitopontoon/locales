@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadBody']
-msgctxt "Interface.PromptDebugLoadBody"
-msgid "Are you sure you want to load this world with only one character?"
-msgstr "您确定要加载这个只有一个字符的世界吗？"
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "重生"
+
+#: /Language/Interface/Record[Key='SettingsMasterVolume']
+msgctxt "Interface.SettingsMasterVolume"
+msgid "Master Volume"
+msgstr "主音量"
+
+#: /Language/Interface/Record[Key='SettingsReflections']
+msgctxt "Interface.SettingsReflections"
+msgid "Reflections"
+msgstr "反射"
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -35,6 +45,11 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "阴影"
 
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "你死了."
+
 #: /Language/Interface/Record[Key='SettingsPixelLightCount']
 msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
@@ -44,11 +59,6 @@ msgstr "像素光数"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "体积光照"
-
-#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
-msgctxt "Interface.PromptDebugLoadConfirm"
-msgid "Debug Load"
-msgstr "调试加载"
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -346,15 +356,15 @@ msgctxt "Interface.Europa2"
 msgid "Europa"
 msgstr "欧罗巴"
 
-#: /Language/Interface/Record[Key='Vulcan2']
-msgctxt "Interface.Vulcan2"
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+msgstr "更改为<color=yellow>{2} 的 {1} ({0})</color=yellow>"
+
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
 msgid "Vulcan"
 msgstr "祝融星"
-
-#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
-msgstr "更改为 {2}。<color=yellow>{0}。<color=yellow>{1}</color=yellow> </color=yellow>"
 
 #: /Language/Interface/Record[Key='Space']
 msgctxt "Interface.Space"
@@ -560,16 +570,6 @@ msgstr "图片"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "继续"
-
-#: /Language/Interface/Record[Key='SettingsReflections']
-msgctxt "Interface.SettingsReflections"
-msgid "Reflections"
-msgstr "反射"
-
-#: /Language/Interface/Record[Key='SettingsMasterVolume']
-msgctxt "Interface.SettingsMasterVolume"
-msgid "Master Volume"
-msgstr "主音量"
 
 #: /Language/Interface/Record[Key='SettingsTitleMixer']
 msgctxt "Interface.SettingsTitleMixer"
@@ -872,10 +872,10 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "一旦放置使用 {0} 进行升级."
 
-#: /Language/Interface/Record[Key='GameMenuButtonCancel']
-msgctxt "Interface.GameMenuButtonCancel"
-msgid "Cancel"
-msgstr "取消"
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeOrder']
+msgctxt "Interface.CartridgeElectronicReaderRecipeOrder"
+msgid "1 of 2"
+msgstr "1 / 2"
 
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
@@ -1040,15 +1040,15 @@ msgctxt "Interface.PromptUnsubscribeTitle"
 msgid "Unsubscribe"
 msgstr "取消订阅"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "重生"
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "确定要取消订阅此工坊项目吗？"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "你死了."
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr "取消订阅"
 
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
@@ -1158,16 +1158,6 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "输入 IP:Port ..."
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "确定要取消订阅此工坊项目吗？"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr "取消订阅"
-
 #: /Language/Interface/Record[Key='PromptOverwriteTitle']
 msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
@@ -1217,6 +1207,26 @@ msgstr "删除"
 msgctxt "Interface.PromptDebugLoadTitle"
 msgid "Debug Load"
 msgstr "调试加载"
+
+#: /Language/Interface/Record[Key='PromptDebugLoadBody']
+msgctxt "Interface.PromptDebugLoadBody"
+msgid "Are you sure you want to load this world with only one character?"
+msgstr "您确定要加载这个只有一个字符的世界吗？"
+
+#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
+msgctxt "Interface.PromptDebugLoadConfirm"
+msgid "Debug Load"
+msgstr "调试加载"
+
+#: /Language/Interface/Record[Key='ResearchRequirementNotMet']
+msgctxt "Interface.ResearchRequirementNotMet"
+msgid "You do not meet the requirements to unlock this research."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ResearchCantAfford']
+msgctxt "Interface.ResearchCantAfford"
+msgid "You cannot afford to unlock this research."
+msgstr ""
 
 #: /Language/Interface/Record[Key='ResearchShowLocked']
 #, fuzzy
@@ -2294,15 +2304,15 @@ msgctxt "Interface.CartridgeElectronicReaderAutoFlashTitle"
 msgid "Flashpoint:"
 msgstr "闪点："
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeOrder']
-msgctxt "Interface.CartridgeElectronicReaderRecipeOrder"
-msgid "1 of 2"
-msgstr "1 / 2"
-
 #: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeTitle']
 msgctxt "Interface.CartridgeElectronicReaderRecipeTitle"
 msgid "Recipe:"
 msgstr "配方："
+
+#: /Language/Interface/Record[Key='GameMenuButtonCancel']
+msgctxt "Interface.GameMenuButtonCancel"
+msgid "Cancel"
+msgstr "取消"
 
 #: /Language/Interface/Record[Key='DialogConfirmLastSaveIsAutoSave']
 msgctxt "Interface.DialogConfirmLastSaveIsAutoSave"
@@ -2519,15 +2529,15 @@ msgctxt "Interface.SettingsDifficulty"
 msgid "Difficulty Settings"
 msgstr "难度设置"
 
-#: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
-msgctxt "Interface.TravelMenuButtonTravelLoad"
-msgid "Load World"
-msgstr "加载世界"
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "显示信息"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
+msgctxt "Interface.TravelMenuButtonTravelNew"
+msgid "New World"
+msgstr "新世界"
 
 #: /Language/Interface/Record[Key='Loulan']
 msgctxt "Interface.Loulan"
@@ -3516,15 +3526,15 @@ msgctxt "Interface.ButtonLoad"
 msgid "Load"
 msgstr "加载"
 
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
+msgstr "祝融星"
+
 #: /Language/Interface/Record[Key='HeadingHelp']
 msgctxt "Interface.HeadingHelp"
 msgid "help"
 msgstr "帮助"
-
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
-msgstr "祝融星"
 
 #: /Language/Interface/Record[Key='ButtonSlotVar']
 msgctxt "Interface.ButtonSlotVar"
@@ -3713,10 +3723,10 @@ msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr "更改为<color=yellow>{0}>for 所有 {1}</color=yellow>"
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "更改为<color=yellow>{2} 的 {1} ({0})</color=yellow>"
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgstr "更改为 {2}。<color=yellow>{0}。<color=yellow>{1}</color=yellow> </color=yellow>"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
 msgctxt "Interface.ChangeSettingToForIn"
@@ -4195,10 +4205,10 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "删除收藏"
 
-#: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
-msgctxt "Interface.TravelMenuButtonTravelNew"
-msgid "New World"
-msgstr "新世界"
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
+msgctxt "Interface.TravelMenuButtonTravelLoad"
+msgid "Load World"
+msgstr "加载世界"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"

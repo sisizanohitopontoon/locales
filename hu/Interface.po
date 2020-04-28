@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadBody']
-msgctxt "Interface.PromptDebugLoadBody"
-msgid "Are you sure you want to load this world with only one character?"
-msgstr "Biztos vagy benne, hogy csak egy karakterrel töltöd be a világot?"
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Újraéledés"
+
+#: /Language/Interface/Record[Key='SettingsMasterVolume']
+msgctxt "Interface.SettingsMasterVolume"
+msgid "Master Volume"
+msgstr "Fő hangerő"
+
+#: /Language/Interface/Record[Key='SettingsReflections']
+msgctxt "Interface.SettingsReflections"
+msgid "Reflections"
+msgstr "Tükröződések"
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -35,6 +45,11 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Árnyékok"
 
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Halott vagy."
+
 #: /Language/Interface/Record[Key='SettingsPixelLightCount']
 msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
@@ -44,11 +59,6 @@ msgstr "Pixel fények száma"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Volumetrikus megvilágítás"
-
-#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
-msgctxt "Interface.PromptDebugLoadConfirm"
-msgid "Debug Load"
-msgstr "Híbakereső betöltés"
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -345,15 +355,15 @@ msgctxt "Interface.Europa2"
 msgid "Europa"
 msgstr "Europa"
 
-#: /Language/Interface/Record[Key='Vulcan2']
-msgctxt "Interface.Vulcan2"
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+msgstr "Változtatás {1}<color=yellow>({0})</color> erre: {2}"
+
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
 msgid "Vulcan"
 msgstr "Vulcan"
-
-#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
-msgstr "Változtatás erre: {2}. <color=yellow>{0}</color>.<color=yellow>{1}</color>"
 
 #: /Language/Interface/Record[Key='Space']
 msgctxt "Interface.Space"
@@ -559,16 +569,6 @@ msgstr "Kép"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
-
-#: /Language/Interface/Record[Key='SettingsReflections']
-msgctxt "Interface.SettingsReflections"
-msgid "Reflections"
-msgstr "Tükröződések"
-
-#: /Language/Interface/Record[Key='SettingsMasterVolume']
-msgctxt "Interface.SettingsMasterVolume"
-msgid "Master Volume"
-msgstr "Fő hangerő"
 
 #: /Language/Interface/Record[Key='SettingsTitleMixer']
 msgctxt "Interface.SettingsTitleMixer"
@@ -869,10 +869,10 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "Lehelyezés után {0} használható a fejlesztéshez."
 
-#: /Language/Interface/Record[Key='GameMenuButtonCancel']
-msgctxt "Interface.GameMenuButtonCancel"
-msgid "Cancel"
-msgstr "Mégse"
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeOrder']
+msgctxt "Interface.CartridgeElectronicReaderRecipeOrder"
+msgid "1 of 2"
+msgstr "1/2"
 
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
@@ -1037,15 +1037,15 @@ msgctxt "Interface.PromptUnsubscribeTitle"
 msgid "Unsubscribe"
 msgstr "Leiratkozás"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Újraéledés"
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Biztos vagy benne, hogy leiratkozol erről a Műhely tételről?"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Halott vagy."
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
 
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
@@ -1153,16 +1153,6 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "IP:Port megadása..."
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Biztos vagy benne, hogy leiratkozol erről a Műhely tételről?"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
-
 #: /Language/Interface/Record[Key='PromptOverwriteTitle']
 msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
@@ -1212,6 +1202,26 @@ msgstr "Törlés"
 msgctxt "Interface.PromptDebugLoadTitle"
 msgid "Debug Load"
 msgstr "Hibakereső betöltés"
+
+#: /Language/Interface/Record[Key='PromptDebugLoadBody']
+msgctxt "Interface.PromptDebugLoadBody"
+msgid "Are you sure you want to load this world with only one character?"
+msgstr "Biztos vagy benne, hogy csak egy karakterrel töltöd be a világot?"
+
+#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
+msgctxt "Interface.PromptDebugLoadConfirm"
+msgid "Debug Load"
+msgstr "Híbakereső betöltés"
+
+#: /Language/Interface/Record[Key='ResearchRequirementNotMet']
+msgctxt "Interface.ResearchRequirementNotMet"
+msgid "You do not meet the requirements to unlock this research."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ResearchCantAfford']
+msgctxt "Interface.ResearchCantAfford"
+msgid "You cannot afford to unlock this research."
+msgstr ""
 
 #: /Language/Interface/Record[Key='ResearchShowLocked']
 #, fuzzy
@@ -2289,15 +2299,15 @@ msgctxt "Interface.CartridgeElectronicReaderAutoFlashTitle"
 msgid "Flashpoint:"
 msgstr "Lobbanáspont:"
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeOrder']
-msgctxt "Interface.CartridgeElectronicReaderRecipeOrder"
-msgid "1 of 2"
-msgstr "1/2"
-
 #: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeTitle']
 msgctxt "Interface.CartridgeElectronicReaderRecipeTitle"
 msgid "Recipe:"
 msgstr "Recept:"
+
+#: /Language/Interface/Record[Key='GameMenuButtonCancel']
+msgctxt "Interface.GameMenuButtonCancel"
+msgid "Cancel"
+msgstr "Mégse"
 
 #: /Language/Interface/Record[Key='DialogConfirmLastSaveIsAutoSave']
 msgctxt "Interface.DialogConfirmLastSaveIsAutoSave"
@@ -2514,15 +2524,15 @@ msgctxt "Interface.SettingsDifficulty"
 msgid "Difficulty Settings"
 msgstr "Nehézségi beállítások"
 
-#: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
-msgctxt "Interface.TravelMenuButtonTravelLoad"
-msgid "Load World"
-msgstr "Világ betöltése"
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "Szerverinformáció"
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
+msgctxt "Interface.TravelMenuButtonTravelNew"
+msgid "New World"
+msgstr "Új világ"
 
 #: /Language/Interface/Record[Key='Loulan']
 msgctxt "Interface.Loulan"
@@ -3510,15 +3520,15 @@ msgctxt "Interface.ButtonLoad"
 msgid "Load"
 msgstr "Betöltés"
 
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
+msgstr "Vulcan"
+
 #: /Language/Interface/Record[Key='HeadingHelp']
 msgctxt "Interface.HeadingHelp"
 msgid "help"
 msgstr "segítség"
-
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
-msgstr "Vulcan"
 
 #: /Language/Interface/Record[Key='ButtonSlotVar']
 msgctxt "Interface.ButtonSlotVar"
@@ -3717,10 +3727,10 @@ msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr "Minden {1} megváltoztatása erre: <color=yellow>{0}</color>"
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "Változtatás {1}<color=yellow>({0})</color> erre: {2}"
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgstr "Változtatás erre: {2}. <color=yellow>{0}</color>.<color=yellow>{1}</color>"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
 msgctxt "Interface.ChangeSettingToForIn"
@@ -4190,10 +4200,10 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Kedvenc eltávolítása"
 
-#: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
-msgctxt "Interface.TravelMenuButtonTravelNew"
-msgid "New World"
-msgstr "Új világ"
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
+msgctxt "Interface.TravelMenuButtonTravelLoad"
+msgid "Load World"
+msgstr "Világ betöltése"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
