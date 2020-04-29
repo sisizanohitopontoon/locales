@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='CartridgeGPS']
-msgctxt "Things.CartridgeGPS"
-msgid "Cartridge (GPS)"
-msgstr "Kártya (GPS)"
+#: /Language/Things/Record[Key='StructureLogicTransmitter']
+msgctxt "Things.StructureLogicTransmitter"
+msgid "Logic Transmitter"
+msgstr "Logikai továbbító"
+
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr "Bankkártya"
 
 #: /Language/Things/Record[Key='RoverCargo']
 msgctxt "Things.RoverCargo"
@@ -70,10 +75,10 @@ msgctxt "Things.ItemAlienMushroom"
 msgid "Alien Mushroom"
 msgstr "Űrlény gomba"
 
-#: /Language/Things/Record[Key='ItemPlasticSheets']
-msgctxt "Things.ItemPlasticSheets"
-msgid "Plastic Sheets"
-msgstr "Műanyag lemez"
+#: /Language/Things/Record[Key='ItemKitSatelliteDish']
+msgctxt "Things.ItemKitSatelliteDish"
+msgid "Kit (Satellite Dish)"
+msgstr "Készlet (Parabola antenna)"
 
 #: /Language/Things/Record[Key='StructureSatelliteDish']
 msgctxt "Things.StructureSatelliteDish"
@@ -1295,10 +1300,10 @@ msgctxt "Things.DynamicSkeleton"
 msgid "Skeleton"
 msgstr "Csontváz"
 
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr "Bankkártya"
+#: /Language/Things/Record[Key='StructureRover']
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "Terepjáró váz"
 
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things.NpcChicken"
@@ -2920,10 +2925,10 @@ msgctxt "Things.ItemKitBattery"
 msgid "Kit (Battery)"
 msgstr "Készlet (Akkumulátor)"
 
-#: /Language/Things/Record[Key='StructureRover']
-msgctxt "Things.StructureRover"
-msgid "Rover Frame"
-msgstr "Terepjáró váz"
+#: /Language/Things/Record[Key='ItemKitRoverFrame']
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "Készlet (Terepjáró váz)"
 
 #: /Language/Things/Record[Key='ItemKitAirlock']
 msgctxt "Things.ItemKitAirlock"
@@ -3700,11 +3705,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrohullámú sütő"
 
-#: /Language/Things/Record[Key='ItemKitRoverFrame']
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "Készlet (Terepjáró váz)"
-
 #: /Language/Things/Record[Key='StructureStairs4x2Rails']
 msgctxt "Things.StructureStairs4x2Rails"
 msgid "Stairs with Rails"
@@ -3781,10 +3781,10 @@ msgctxt "Things.Robot"
 msgid "Robot"
 msgstr "Robot"
 
-#: /Language/Things/Record[Key='StructureLogicTransmitter']
-msgctxt "Things.StructureLogicTransmitter"
-msgid "Logic Transmitter"
-msgstr "Logikai továbbító"
+#: /Language/Things/Record[Key='CartridgeGPS']
+msgctxt "Things.CartridgeGPS"
+msgid "Cartridge (GPS)"
+msgstr "Kártya (GPS)"
 
 #: /Language/Things/Record[Key='ItemKitLogicTransmitter']
 msgctxt "Things.ItemKitLogicTransmitter"
@@ -3821,15 +3821,15 @@ msgctxt "Things.ItemInconelIngot"
 msgid "Ingot (Inconel)"
 msgstr "Öntvény (Inconel)"
 
-#: /Language/Things/Record[Key='ItemKitSatelliteDish']
-msgctxt "Things.ItemKitSatelliteDish"
-msgid "Kit (Satellite Dish)"
-msgstr "Készlet (Parabola antenna)"
-
 #: /Language/Things/Record[Key='ItemAstroloyIngot']
 msgctxt "Things.ItemAstroloyIngot"
 msgid "Ingot (Astroloy)"
 msgstr "Öntvény (Astroloy)"
+
+#: /Language/Things/Record[Key='ItemPlasticSheets']
+msgctxt "Things.ItemPlasticSheets"
+msgid "Plastic Sheets"
+msgstr "Műanyag lemez"
 
 #: /Language/Things/Record[Key='ItemCobaltOre']
 msgctxt "Things.ItemCobaltOre"
@@ -4094,12 +4094,6 @@ msgctxt "Things.ApplianceDeskLampRight"
 msgid "Appliance Desk Lamp Right"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureQuarryBasic']
-#, fuzzy
-msgctxt "Things.StructureQuarryBasic"
-msgid "Structure Quarry Basic"
-msgstr "Struktúra; Kutató-fejlesztő gép"
-
 #: /Language/Things/Record[Key='QuarryDrillBitBasic']
 msgctxt "Things.QuarryDrillBitBasic"
 msgid "Quarry Drill Bit Basic"
@@ -4142,10 +4136,26 @@ msgctxt "Things.ItemKitAIMeE"
 msgid "Kit AIMeE"
 msgstr ""
 
+#: /Language/Things/Record[Key='StructureAutoMinerSmall']
+msgctxt "Things.StructureAutoMinerSmall"
+msgid "Structure Auto Miner Small"
+msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitAutoMinerSmall']
+#, fuzzy
+msgctxt "Things.ItemKitAutoMinerSmall"
+msgid "Kit Auto Miner Small"
+msgstr "(Készlet) Automata bányagép"
+
 #: /Language/Things/Record[Key='ItemKitAtmospherics']
 msgctxt "Things.ItemKitAtmospherics"
 msgid "Kit (Atmospherics)"
 msgstr "Készlet (Atmoszferika)"
+
+#, fuzzy
+#~ msgctxt "Things.StructureQuarryBasic"
+#~ msgid "Structure Quarry Basic"
+#~ msgstr "Struktúra; Kutató-fejlesztő gép"
 
 #~ msgctxt "Things.ItemReferenceTool"
 #~ msgid "Item Reference Tool"

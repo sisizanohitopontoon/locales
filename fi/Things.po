@@ -10,11 +10,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='CartridgeGPS']
+#: /Language/Things/Record[Key='StructureLogicTransmitter']
 #, fuzzy
-msgctxt "Things.CartridgeGPS"
-msgid "Cartridge (GPS)"
-msgstr "Kasetti (opas)"
+msgctxt "Things.StructureLogicTransmitter"
+msgid "Logic Transmitter"
+msgstr "Logiikkakirjoitin"
+
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr ""
 
 #: /Language/Things/Record[Key='RoverCargo']
 msgctxt "Things.RoverCargo"
@@ -73,10 +78,10 @@ msgctxt "Things.ItemAlienMushroom"
 msgid "Alien Mushroom"
 msgstr "Alien-sieni"
 
-#: /Language/Things/Record[Key='ItemPlasticSheets']
-msgctxt "Things.ItemPlasticSheets"
-msgid "Plastic Sheets"
-msgstr "Lasilevyt"
+#: /Language/Things/Record[Key='ItemKitSatelliteDish']
+msgctxt "Things.ItemKitSatelliteDish"
+msgid "Kit (Satellite Dish)"
+msgstr "Varustepakkaus (satelliittilautanen)"
 
 #: /Language/Things/Record[Key='StructureSatelliteDish']
 msgctxt "Things.StructureSatelliteDish"
@@ -1298,10 +1303,11 @@ msgctxt "Things.DynamicSkeleton"
 msgid "Skeleton"
 msgstr "Luuranko"
 
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr ""
+#: /Language/Things/Record[Key='StructureRover']
+#, fuzzy
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "Rautarunko"
 
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things.NpcChicken"
@@ -2929,11 +2935,11 @@ msgctxt "Things.ItemKitBattery"
 msgid "Kit (Battery)"
 msgstr "Varustepakkaus (akku)"
 
-#: /Language/Things/Record[Key='StructureRover']
+#: /Language/Things/Record[Key='ItemKitRoverFrame']
 #, fuzzy
-msgctxt "Things.StructureRover"
-msgid "Rover Frame"
-msgstr "Rautarunko"
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "Varustepakkaus (valokaariuuni)"
 
 #: /Language/Things/Record[Key='ItemKitAirlock']
 msgctxt "Things.ItemKitAirlock"
@@ -3711,12 +3717,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikroaaltouuni"
 
-#: /Language/Things/Record[Key='ItemKitRoverFrame']
-#, fuzzy
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "Varustepakkaus (valokaariuuni)"
-
 #: /Language/Things/Record[Key='StructureStairs4x2Rails']
 msgctxt "Things.StructureStairs4x2Rails"
 msgid "Stairs with Rails"
@@ -3795,11 +3795,11 @@ msgctxt "Things.Robot"
 msgid "Robot"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureLogicTransmitter']
+#: /Language/Things/Record[Key='CartridgeGPS']
 #, fuzzy
-msgctxt "Things.StructureLogicTransmitter"
-msgid "Logic Transmitter"
-msgstr "Logiikkakirjoitin"
+msgctxt "Things.CartridgeGPS"
+msgid "Cartridge (GPS)"
+msgstr "Kasetti (opas)"
 
 #: /Language/Things/Record[Key='ItemKitLogicTransmitter']
 #, fuzzy
@@ -3843,16 +3843,16 @@ msgctxt "Things.ItemInconelIngot"
 msgid "Ingot (Inconel)"
 msgstr "Harkko (rauta)"
 
-#: /Language/Things/Record[Key='ItemKitSatelliteDish']
-msgctxt "Things.ItemKitSatelliteDish"
-msgid "Kit (Satellite Dish)"
-msgstr "Varustepakkaus (satelliittilautanen)"
-
 #: /Language/Things/Record[Key='ItemAstroloyIngot']
 #, fuzzy
 msgctxt "Things.ItemAstroloyIngot"
 msgid "Ingot (Astroloy)"
 msgstr "Harkko (rauta)"
+
+#: /Language/Things/Record[Key='ItemPlasticSheets']
+msgctxt "Things.ItemPlasticSheets"
+msgid "Plastic Sheets"
+msgstr "Lasilevyt"
 
 #: /Language/Things/Record[Key='ItemCobaltOre']
 #, fuzzy
@@ -4136,12 +4136,6 @@ msgctxt "Things.ApplianceDeskLampRight"
 msgid "Appliance Desk Lamp Right"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureQuarryBasic']
-#, fuzzy
-msgctxt "Things.StructureQuarryBasic"
-msgid "Structure Quarry Basic"
-msgstr "Koripallokori"
-
 #: /Language/Things/Record[Key='QuarryDrillBitBasic']
 msgctxt "Things.QuarryDrillBitBasic"
 msgid "Quarry Drill Bit Basic"
@@ -4184,10 +4178,26 @@ msgctxt "Things.ItemKitAIMeE"
 msgid "Kit AIMeE"
 msgstr ""
 
+#: /Language/Things/Record[Key='StructureAutoMinerSmall']
+msgctxt "Things.StructureAutoMinerSmall"
+msgid "Structure Auto Miner Small"
+msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitAutoMinerSmall']
+#, fuzzy
+msgctxt "Things.ItemKitAutoMinerSmall"
+msgid "Kit Auto Miner Small"
+msgstr "Varustepakkaus (pieni moottori)"
+
 #: /Language/Things/Record[Key='ItemKitAtmospherics']
 msgctxt "Things.ItemKitAtmospherics"
 msgid "Kit (Atmospherics)"
 msgstr "Varustepakkaus (ilmastointilaitteet)"
+
+#, fuzzy
+#~ msgctxt "Things.StructureQuarryBasic"
+#~ msgid "Structure Quarry Basic"
+#~ msgstr "Koripallokori"
 
 #, fuzzy
 #~ msgctxt "Things.ItemReferenceTool"

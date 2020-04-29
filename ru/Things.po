@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='CartridgeGPS']
-msgctxt "Things.CartridgeGPS"
-msgid "Cartridge (GPS)"
-msgstr "Картридж (Путеводитель)"
+#: /Language/Things/Record[Key='StructureLogicTransmitter']
+msgctxt "Things.StructureLogicTransmitter"
+msgid "Logic Transmitter"
+msgstr "Логический передатчик"
+
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr "Кредитная карта"
 
 #: /Language/Things/Record[Key='RoverCargo']
 msgctxt "Things.RoverCargo"
@@ -70,10 +75,10 @@ msgctxt "Things.ItemAlienMushroom"
 msgid "Alien Mushroom"
 msgstr "Инопланетный гриб"
 
-#: /Language/Things/Record[Key='ItemPlasticSheets']
-msgctxt "Things.ItemPlasticSheets"
-msgid "Plastic Sheets"
-msgstr "Лист пластика"
+#: /Language/Things/Record[Key='ItemKitSatelliteDish']
+msgctxt "Things.ItemKitSatelliteDish"
+msgid "Kit (Satellite Dish)"
+msgstr "Набор (Спутниковая тарелка)"
 
 #: /Language/Things/Record[Key='StructureSatelliteDish']
 msgctxt "Things.StructureSatelliteDish"
@@ -1295,10 +1300,10 @@ msgctxt "Things.DynamicSkeleton"
 msgid "Skeleton"
 msgstr "Скелет"
 
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr "Кредитная карта"
+#: /Language/Things/Record[Key='StructureRover']
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "Каркас планетохода"
 
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things.NpcChicken"
@@ -2920,10 +2925,10 @@ msgctxt "Things.ItemKitBattery"
 msgid "Kit (Battery)"
 msgstr "Набор (Батарея)"
 
-#: /Language/Things/Record[Key='StructureRover']
-msgctxt "Things.StructureRover"
-msgid "Rover Frame"
-msgstr "Каркас планетохода"
+#: /Language/Things/Record[Key='ItemKitRoverFrame']
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "Набор (Каркас планетохода)"
 
 #: /Language/Things/Record[Key='ItemKitAirlock']
 msgctxt "Things.ItemKitAirlock"
@@ -3700,11 +3705,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Микроволновая печь"
 
-#: /Language/Things/Record[Key='ItemKitRoverFrame']
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "Набор (Каркас планетохода)"
-
 #: /Language/Things/Record[Key='StructureStairs4x2Rails']
 msgctxt "Things.StructureStairs4x2Rails"
 msgid "Stairs with Rails"
@@ -3781,10 +3781,10 @@ msgctxt "Things.Robot"
 msgid "Robot"
 msgstr "Робот"
 
-#: /Language/Things/Record[Key='StructureLogicTransmitter']
-msgctxt "Things.StructureLogicTransmitter"
-msgid "Logic Transmitter"
-msgstr "Логический передатчик"
+#: /Language/Things/Record[Key='CartridgeGPS']
+msgctxt "Things.CartridgeGPS"
+msgid "Cartridge (GPS)"
+msgstr "Картридж (Путеводитель)"
 
 #: /Language/Things/Record[Key='ItemKitLogicTransmitter']
 msgctxt "Things.ItemKitLogicTransmitter"
@@ -3821,15 +3821,15 @@ msgctxt "Things.ItemInconelIngot"
 msgid "Ingot (Inconel)"
 msgstr "Слиток инконеля"
 
-#: /Language/Things/Record[Key='ItemKitSatelliteDish']
-msgctxt "Things.ItemKitSatelliteDish"
-msgid "Kit (Satellite Dish)"
-msgstr "Набор (Спутниковая тарелка)"
-
 #: /Language/Things/Record[Key='ItemAstroloyIngot']
 msgctxt "Things.ItemAstroloyIngot"
 msgid "Ingot (Astroloy)"
 msgstr "Слиток астролоя"
+
+#: /Language/Things/Record[Key='ItemPlasticSheets']
+msgctxt "Things.ItemPlasticSheets"
+msgid "Plastic Sheets"
+msgstr "Лист пластика"
 
 #: /Language/Things/Record[Key='ItemCobaltOre']
 msgctxt "Things.ItemCobaltOre"
@@ -4094,11 +4094,6 @@ msgctxt "Things.ApplianceDeskLampRight"
 msgid "Appliance Desk Lamp Right"
 msgstr "Лампа настольная правая"
 
-#: /Language/Things/Record[Key='StructureQuarryBasic']
-msgctxt "Things.StructureQuarryBasic"
-msgid "Structure Quarry Basic"
-msgstr "Основная структура добычи"
-
 #: /Language/Things/Record[Key='QuarryDrillBitBasic']
 msgctxt "Things.QuarryDrillBitBasic"
 msgid "Quarry Drill Bit Basic"
@@ -4141,10 +4136,26 @@ msgctxt "Things.ItemKitAIMeE"
 msgid "Kit AIMeE"
 msgstr ""
 
+#: /Language/Things/Record[Key='StructureAutoMinerSmall']
+#, fuzzy
+msgctxt "Things.StructureAutoMinerSmall"
+msgid "Structure Auto Miner Small"
+msgstr "Фоторамка Тонкий Портрет Маленький"
+
+#: /Language/Things/Record[Key='ItemKitAutoMinerSmall']
+#, fuzzy
+msgctxt "Things.ItemKitAutoMinerSmall"
+msgid "Kit Auto Miner Small"
+msgstr "Деталь набора Автоматического рудокопа"
+
 #: /Language/Things/Record[Key='ItemKitAtmospherics']
 msgctxt "Things.ItemKitAtmospherics"
 msgid "Kit (Atmospherics)"
 msgstr "Набор (Атмосфера)"
+
+#~ msgctxt "Things.StructureQuarryBasic"
+#~ msgid "Structure Quarry Basic"
+#~ msgstr "Основная структура добычи"
 
 #~ msgctxt "Things.ItemReferenceTool"
 #~ msgid "Item Reference Tool"

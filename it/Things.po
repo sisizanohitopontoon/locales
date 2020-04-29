@@ -10,11 +10,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='CartridgeGPS']
+#: /Language/Things/Record[Key='StructureLogicTransmitter']
 #, fuzzy
-msgctxt "Things.CartridgeGPS"
-msgid "Cartridge (GPS)"
-msgstr "Cartuccia (Guida)"
+msgctxt "Things.StructureLogicTransmitter"
+msgid "Logic Transmitter"
+msgstr "Unità Logica: Scrittura"
+
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr "Carta di credito"
 
 #: /Language/Things/Record[Key='RoverCargo']
 msgctxt "Things.RoverCargo"
@@ -71,10 +76,10 @@ msgctxt "Things.ItemAlienMushroom"
 msgid "Alien Mushroom"
 msgstr "Fungo Alieno"
 
-#: /Language/Things/Record[Key='ItemPlasticSheets']
-msgctxt "Things.ItemPlasticSheets"
-msgid "Plastic Sheets"
-msgstr "Lastre di plastica"
+#: /Language/Things/Record[Key='ItemKitSatelliteDish']
+msgctxt "Things.ItemKitSatelliteDish"
+msgid "Kit (Satellite Dish)"
+msgstr "Kit (Disco satellite)"
 
 #: /Language/Things/Record[Key='StructureSatelliteDish']
 msgctxt "Things.StructureSatelliteDish"
@@ -1296,10 +1301,10 @@ msgctxt "Things.DynamicSkeleton"
 msgid "Skeleton"
 msgstr "Scheletro"
 
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr "Carta di credito"
+#: /Language/Things/Record[Key='StructureRover']
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "Telaio del rover"
 
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things.NpcChicken"
@@ -2927,10 +2932,10 @@ msgctxt "Things.ItemKitBattery"
 msgid "Kit (Battery)"
 msgstr "Kit (Batteria)"
 
-#: /Language/Things/Record[Key='StructureRover']
-msgctxt "Things.StructureRover"
-msgid "Rover Frame"
-msgstr "Telaio del rover"
+#: /Language/Things/Record[Key='ItemKitRoverFrame']
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "Kit (Telaio Rover)"
 
 #: /Language/Things/Record[Key='ItemKitAirlock']
 msgctxt "Things.ItemKitAirlock"
@@ -3708,11 +3713,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Micro-onde"
 
-#: /Language/Things/Record[Key='ItemKitRoverFrame']
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "Kit (Telaio Rover)"
-
 #: /Language/Things/Record[Key='StructureStairs4x2Rails']
 msgctxt "Things.StructureStairs4x2Rails"
 msgid "Stairs with Rails"
@@ -3791,11 +3791,11 @@ msgctxt "Things.Robot"
 msgid "Robot"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureLogicTransmitter']
+#: /Language/Things/Record[Key='CartridgeGPS']
 #, fuzzy
-msgctxt "Things.StructureLogicTransmitter"
-msgid "Logic Transmitter"
-msgstr "Unità Logica: Scrittura"
+msgctxt "Things.CartridgeGPS"
+msgid "Cartridge (GPS)"
+msgstr "Cartuccia (Guida)"
 
 #: /Language/Things/Record[Key='ItemKitLogicTransmitter']
 #, fuzzy
@@ -3839,16 +3839,16 @@ msgctxt "Things.ItemInconelIngot"
 msgid "Ingot (Inconel)"
 msgstr "Lingotto (Ferro)"
 
-#: /Language/Things/Record[Key='ItemKitSatelliteDish']
-msgctxt "Things.ItemKitSatelliteDish"
-msgid "Kit (Satellite Dish)"
-msgstr "Kit (Disco satellite)"
-
 #: /Language/Things/Record[Key='ItemAstroloyIngot']
 #, fuzzy
 msgctxt "Things.ItemAstroloyIngot"
 msgid "Ingot (Astroloy)"
 msgstr "Lingotto (Ferro)"
+
+#: /Language/Things/Record[Key='ItemPlasticSheets']
+msgctxt "Things.ItemPlasticSheets"
+msgid "Plastic Sheets"
+msgstr "Lastre di plastica"
 
 #: /Language/Things/Record[Key='ItemCobaltOre']
 #, fuzzy
@@ -4134,12 +4134,6 @@ msgctxt "Things.ApplianceDeskLampRight"
 msgid "Appliance Desk Lamp Right"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureQuarryBasic']
-#, fuzzy
-msgctxt "Things.StructureQuarryBasic"
-msgid "Structure Quarry Basic"
-msgstr "Struttura Canestro Basket"
-
 #: /Language/Things/Record[Key='QuarryDrillBitBasic']
 msgctxt "Things.QuarryDrillBitBasic"
 msgid "Quarry Drill Bit Basic"
@@ -4182,10 +4176,26 @@ msgctxt "Things.ItemKitAIMeE"
 msgid "Kit AIMeE"
 msgstr ""
 
+#: /Language/Things/Record[Key='StructureAutoMinerSmall']
+msgctxt "Things.StructureAutoMinerSmall"
+msgid "Structure Auto Miner Small"
+msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitAutoMinerSmall']
+#, fuzzy
+msgctxt "Things.ItemKitAutoMinerSmall"
+msgid "Kit Auto Miner Small"
+msgstr "Kit (Motore razzo piccolo)"
+
 #: /Language/Things/Record[Key='ItemKitAtmospherics']
 msgctxt "Things.ItemKitAtmospherics"
 msgid "Kit (Atmospherics)"
 msgstr "Kit (Sistemi atmosferici)"
+
+#, fuzzy
+#~ msgctxt "Things.StructureQuarryBasic"
+#~ msgid "Structure Quarry Basic"
+#~ msgstr "Struttura Canestro Basket"
 
 #~ msgctxt "Things.ItemReferenceTool"
 #~ msgid "Item Reference Tool"

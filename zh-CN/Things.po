@@ -10,10 +10,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='CartridgeGPS']
-msgctxt "Things.CartridgeGPS"
-msgid "Cartridge (GPS)"
-msgstr "记忆卡(GPS)"
+#: /Language/Things/Record[Key='StructureLogicTransmitter']
+#, fuzzy
+msgctxt "Things.StructureLogicTransmitter"
+msgid "Logic Transmitter"
+msgstr "逻辑编写"
+
+#: /Language/Things/Record[Key='ItemCreditCard']
+msgctxt "Things.ItemCreditCard"
+msgid "Credit Card"
+msgstr "银行卡"
 
 #: /Language/Things/Record[Key='RoverCargo']
 msgctxt "Things.RoverCargo"
@@ -71,10 +77,10 @@ msgctxt "Things.ItemAlienMushroom"
 msgid "Alien Mushroom"
 msgstr "外星蘑菇"
 
-#: /Language/Things/Record[Key='ItemPlasticSheets']
-msgctxt "Things.ItemPlasticSheets"
-msgid "Plastic Sheets"
-msgstr "塑料板"
+#: /Language/Things/Record[Key='ItemKitSatelliteDish']
+msgctxt "Things.ItemKitSatelliteDish"
+msgid "Kit (Satellite Dish)"
+msgstr "(套件)卫星"
 
 #: /Language/Things/Record[Key='StructureSatelliteDish']
 msgctxt "Things.StructureSatelliteDish"
@@ -1296,10 +1302,10 @@ msgctxt "Things.DynamicSkeleton"
 msgid "Skeleton"
 msgstr "骨架"
 
-#: /Language/Things/Record[Key='ItemCreditCard']
-msgctxt "Things.ItemCreditCard"
-msgid "Credit Card"
-msgstr "银行卡"
+#: /Language/Things/Record[Key='StructureRover']
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "漫游车框架"
 
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things.NpcChicken"
@@ -2927,10 +2933,10 @@ msgctxt "Things.ItemKitBattery"
 msgid "Kit (Battery)"
 msgstr "(套件)蓄电池"
 
-#: /Language/Things/Record[Key='StructureRover']
-msgctxt "Things.StructureRover"
-msgid "Rover Frame"
-msgstr "漫游车框架"
+#: /Language/Things/Record[Key='ItemKitRoverFrame']
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "(套件)漫游车"
 
 #: /Language/Things/Record[Key='ItemKitAirlock']
 msgctxt "Things.ItemKitAirlock"
@@ -3707,11 +3713,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "微波炉"
 
-#: /Language/Things/Record[Key='ItemKitRoverFrame']
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "(套件)漫游车"
-
 #: /Language/Things/Record[Key='StructureStairs4x2Rails']
 msgctxt "Things.StructureStairs4x2Rails"
 msgid "Stairs with Rails"
@@ -3789,11 +3790,10 @@ msgctxt "Things.Robot"
 msgid "Robot"
 msgstr "机器人"
 
-#: /Language/Things/Record[Key='StructureLogicTransmitter']
-#, fuzzy
-msgctxt "Things.StructureLogicTransmitter"
-msgid "Logic Transmitter"
-msgstr "逻辑编写"
+#: /Language/Things/Record[Key='CartridgeGPS']
+msgctxt "Things.CartridgeGPS"
+msgid "Cartridge (GPS)"
+msgstr "记忆卡(GPS)"
 
 #: /Language/Things/Record[Key='ItemKitLogicTransmitter']
 #, fuzzy
@@ -3831,15 +3831,15 @@ msgctxt "Things.ItemInconelIngot"
 msgid "Ingot (Inconel)"
 msgstr "锭(英耐尔合金Inconel)"
 
-#: /Language/Things/Record[Key='ItemKitSatelliteDish']
-msgctxt "Things.ItemKitSatelliteDish"
-msgid "Kit (Satellite Dish)"
-msgstr "(套件)卫星"
-
 #: /Language/Things/Record[Key='ItemAstroloyIngot']
 msgctxt "Things.ItemAstroloyIngot"
 msgid "Ingot (Astroloy)"
 msgstr "锭(阿斯特洛伊合金Astroloy)"
+
+#: /Language/Things/Record[Key='ItemPlasticSheets']
+msgctxt "Things.ItemPlasticSheets"
+msgid "Plastic Sheets"
+msgstr "塑料板"
 
 #: /Language/Things/Record[Key='ItemCobaltOre']
 msgctxt "Things.ItemCobaltOre"
@@ -4112,12 +4112,6 @@ msgctxt "Things.ApplianceDeskLampRight"
 msgid "Appliance Desk Lamp Right"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureQuarryBasic']
-#, fuzzy
-msgctxt "Things.StructureQuarryBasic"
-msgid "Structure Quarry Basic"
-msgstr "科研机器"
-
 #: /Language/Things/Record[Key='QuarryDrillBitBasic']
 msgctxt "Things.QuarryDrillBitBasic"
 msgid "Quarry Drill Bit Basic"
@@ -4160,10 +4154,26 @@ msgctxt "Things.ItemKitAIMeE"
 msgid "Kit AIMeE"
 msgstr ""
 
+#: /Language/Things/Record[Key='StructureAutoMinerSmall']
+msgctxt "Things.StructureAutoMinerSmall"
+msgid "Structure Auto Miner Small"
+msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitAutoMinerSmall']
+#, fuzzy
+msgctxt "Things.ItemKitAutoMinerSmall"
+msgid "Kit Auto Miner Small"
+msgstr "(套件)自动挖矿机"
+
 #: /Language/Things/Record[Key='ItemKitAtmospherics']
 msgctxt "Things.ItemKitAtmospherics"
 msgid "Kit (Atmospherics)"
 msgstr "(套件)空调机"
+
+#, fuzzy
+#~ msgctxt "Things.StructureQuarryBasic"
+#~ msgid "Structure Quarry Basic"
+#~ msgstr "科研机器"
 
 #, fuzzy
 #~ msgctxt "Things.ItemReferenceTool"
