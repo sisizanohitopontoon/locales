@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-03 09:14+0000\n"
+"PO-Revision-Date: 2020-05-03 09:20+0000\n"
 "Last-Translator: HazarDGLow <hgrof@bk.ru>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1124,7 +1124,7 @@ msgstr "Резка Проводов"
 #: /Language/Interface/Record[Key='TutorialWireCuttingDescription']
 msgctxt "Interface.TutorialWireCuttingDescription"
 msgid "Welcome back, Cadet. Your first task will be to clean up some old burnt out wires. Use the {THING:ItemWireCutters} from your toolbelt to remove them."
-msgstr "Добро пожаловать назад, Кадет. Ваша первая задача это убрать старые перегоревшие провода. Используйте {THING:ItemWireCutters} из вашего пояса инструментов чтобы отрезать их."
+msgstr "С возвращением, Кадет. Ваша первая задача это убрать старые перегоревшие провода. Используйте {THING:ItemWireCutters} из вашего пояса инструментов чтобы отрезать их."
 
 #: /Language/Interface/Record[Key='TutorialWireCuttingTask1']
 msgctxt "Interface.TutorialWireCuttingTask1"
@@ -1261,11 +1261,14 @@ msgid ""
 "\n"
 "Secondly, we need to add a {THING:ItemBatteryCharger} for our depleted batteries. We want to put it into the circuit before the {THING:ItemAreaPowerControl}, so it won’t drain the {THING:ItemAreaPowerControl} battery."
 msgstr ""
+"Нашим следующим шагом, мы должны разместить {THING:ItemAreaPowerControl} для управления потоком энергии и предотвращения выгорания кабелей. Он также имеет небольшой блок питания, если генератор не вырабатывает энергии.\n"
+"\n"
+"Во-вторых, мы должны добавить {THING:ItemBatteryCharger} для наших разряженных батарей. Мы хотим поместить его в схему перед {THING:ItemAreaPowerControl}, чтобы он не разряжал батарею в {THING:ItemAreaPowerControl}."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask1']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask1"
 msgid "Get the {THING:ItemAreaPowerControl} from Construction Crate #1."
-msgstr ""
+msgstr "Возьмите {THING:ItemAreaPowerControl} из ящика строительных материалов #1."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask2']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask2"
@@ -1275,12 +1278,12 @@ msgstr "Установите {THING:ItemAreaPowerControl} в выделенно�
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask3']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask3"
 msgid "Get the {THING:ItemBatteryCharger} from Construction Crate #2."
-msgstr ""
+msgstr "Возьмите {THING:ItemBatteryCharger} из ящика строительных материалов #2."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask4']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask4"
 msgid "place the {THING:ItemBatteryCharger} in the highlighted spot."
-msgstr ""
+msgstr "Установите {THING:ItemBatteryCharger} в выделенное место."
 
 #: /Language/Interface/Record[Key='TutorialFinishingTheCircuit']
 msgctxt "Interface.TutorialFinishingTheCircuit"
@@ -1323,21 +1326,23 @@ msgid ""
 "To make the {THING:StructureAreaPowerControl} work, we need to open the cover and insert a battery, then flip the breaker switch to let electricity and data pass-through. It's recommended to use a "
 "large battery for long-lasting power in case of an outage, but a small battery can be used."
 msgstr ""
+"Чтобы заставить {THING:StructureAreaPowerControl} работать, нам нужно открыть крышку и вставить батарею, а затем переключить выключатель чтобы дать энергии и данным пройти. Рекомендуется "
+"использовать большой аккумулятор для длительного питания в случае простоя, но небольшой аккумулятор так же может быть использован."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask1']
 msgctxt "Interface.SettingUpThePowerControllerTask1"
 msgid "Equip the {THING:ItemCrowbar} from your {SLOT:Belt}."
-msgstr ""
+msgstr "Возьмите {THING:ItemCrowbar} из вашего {SLOT:Belt}."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask2']
 msgctxt "Interface.SettingUpThePowerControllerTask2"
 msgid "Open the {THING:StructureAreaPowerControl} with the {THING:ItemCrowbar}."
-msgstr ""
+msgstr "Откройте {THING:StructureAreaPowerControl} при помощи {THING:ItemCrowbar}."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask3']
 msgctxt "Interface.SettingUpThePowerControllerTask3"
 msgid "Grab the {THING:ItemBatteryCellLarge} from Construction Crate #2."
-msgstr ""
+msgstr "Возьмите {THING:ItemBatteryCellLarge} из ящика строительных материалов #2."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask4']
 #, fuzzy
@@ -1351,20 +1356,19 @@ msgid "Flip the breaker to the “On” position on the {THING:StructureAreaPowe
 msgstr ""
 
 #: /Language/Interface/Record[Key='BasicMining']
-#, fuzzy
 msgctxt "Interface.BasicMining"
 msgid "#4 Basic Mining"
-msgstr "#1 Базовый интерфейс"
+msgstr "#4 Основы Шахтёрства"
 
 #: /Language/Interface/Record[Key='BasicMiningDescription']
 msgctxt "Interface.BasicMiningDescription"
 msgid "In this lesson, you will learn the basics of mining planetary resources and how to turn them into useful ingots."
-msgstr ""
+msgstr "В этом уроке вы узнаете основы добычи ресурсов в планетарных условиях и как превратить их в пригодные к использованию слитки."
 
 #: /Language/Interface/Record[Key='TheTablet']
 msgctxt "Interface.TheTablet"
 msgid "The Tablet"
-msgstr ""
+msgstr "Планшет"
 
 #: /Language/Interface/Record[Key='TheTabletDescription']
 msgctxt "Interface.TheTabletDescription"
