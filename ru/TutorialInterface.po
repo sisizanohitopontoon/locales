@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-04 08:07+0000\n"
+"PO-Revision-Date: 2020-05-04 08:10+0000\n"
 "Last-Translator: HazarDGLow <hgrof@bk.ru>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2180,57 +2180,56 @@ msgid ""
 "Best plant growth conditions are between 15 and 50 degrees celsius at a preassure of 8KPa to 130 KPa. The Air composition should contain no hydrogen or pollutants and at least 2% carborn dioxide.\n"
 "\n"
 msgstr ""
+"{THING:DynamicHydroponics} отлично подходит как временный источник пищи. Они легкие и мобильные, но не включают системы освещения из-за требований к весу.\n"
+"\n"
+"Это значит что {THING:DynamicHydroponics} должна быть расположна в солнечном месте. В дополнение к солнечному освещению так же требуется контролируемая атмосфера.\n"
+"\n"
+"Наилучшие условия для выращивания растений находятся между 15 и 50 градусами Цельсия при давлении от 8КПа до 130КПа. Атмосфера не должна содержать водорода или загрязняющих веществ и должна иметь не менее 2% углекислого газа."
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask1']
-#, fuzzy
 msgctxt "Interface.PortableHydroponicsTask1"
 msgid "Pick up a {THING:ItemPotato}."
-msgstr "Возьмите {THING:ItemTablet}"
+msgstr "Поднимите {THING:ItemPotato}."
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask2']
-#, fuzzy
 msgctxt "Interface.PortableHydroponicsTask2"
 msgid "Pick up the {THING:ItemGasCanisterWater}."
-msgstr "Поднимите {THING:ItemKitAutolathe}."
+msgstr "Поднимите {THING:ItemGasCanisterWater}."
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask3']
-#, fuzzy
 msgctxt "Interface.PortableHydroponicsTask3"
 msgid "Insert the water canister into the base of the {THING:DynamicHydroponics} unit"
-msgstr "Включите {THING:ItemTablet}"
+msgstr "Вставьте канистру с водой в основание {THING:DynamicHydroponics}"
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask4']
-#, fuzzy
 msgctxt "Interface.PortableHydroponicsTask4"
 msgid "Plant a {THING:ItemPotato} in any of the {THING:DynamicHydroponics} unit planting slots."
-msgstr ""
+msgstr "Посадите {THING:ItemPotato} в любой слот {THING:DynamicHydroponics}."
 
 #: /Language/Interface/Record[Key='PotatosInSpace']
 msgctxt "Interface.PotatosInSpace"
 msgid "Potatoes in Space"
-msgstr ""
+msgstr "Картошка в космосе"
 
 #: /Language/Interface/Record[Key='PotatosInSpaceDescription']
-#, fuzzy
 msgctxt "Interface.PotatosInSpaceDescription"
 msgid "Let the {THING:ItemPotato} plant grow"
-msgstr "Откройте окно содержимого скафандра"
+msgstr "Дайте {THING:ItemPotato} вырасти"
 
 #: /Language/Interface/Record[Key='PotatosInSpaceTask1']
 msgctxt "Interface.PotatosInSpaceTask1"
 msgid "Wait for the plant to grow. Note: We have sped up the plant's growth rate for this tutorial."
-msgstr ""
+msgstr "Подождите, пока растение вырастет. Примечание: Мы ускорили темпы роста растений для этого учебного сценария."
 
 #: /Language/Interface/Record[Key='PotatosInSpaceTask2']
-#, fuzzy
 msgctxt "Interface.PotatosInSpaceTask2"
 msgid "Harvest the {THING:ItemPotato}."
-msgstr "Бросьте {THING:ItemTablet}"
+msgstr "Соберите урожай {THING:ItemPotato}."
 
 #: /Language/Interface/Record[Key='FixedHydroponics']
 msgctxt "Interface.FixedHydroponics"
 msgid "Fixed Hydroponics"
-msgstr ""
+msgstr "Стационарная Гидропоника"
 
 #: /Language/Interface/Record[Key='FixedHydroponicsDescription']
 msgctxt "Interface.FixedHydroponicsDescription"
@@ -2238,66 +2237,63 @@ msgid ""
 "The {THING:DynamicHydroponics} unit is good for starting out, but you will soon want to upgrade to a {THING:StructureHydroponicsStation}. It has built-in UV lights and a pipe import to help with "
 "automating the system."
 msgstr ""
+"На начальном этапе {THING:DynamicHydroponics} будет вполне достаточно, но в скором времени вам потребуется {THING:StructureHydroponicsStation}. Эта версия имеет встроенное ультрафиолетовое освещение"
+" и порт подачи жидкости чтобы помочь с автоматизацией."
 
 #: /Language/Interface/Record[Key='FixedHydroponicsTask1']
-#, fuzzy
 msgctxt "Interface.FixedHydroponicsTask1"
 msgid "Pick up the {THING:ItemKitHydroponicStation}."
-msgstr "Поднимите {THING:ItemKitAutolathe}."
+msgstr "Возьмите {THING:ItemKitHydroponicStation}."
 
 #: /Language/Interface/Record[Key='FixedHydroponicsTask2']
-#, fuzzy
 msgctxt "Interface.FixedHydroponicsTask2"
 msgid "Place the {THING:ItemKitHydroponicStation} in the highlighted position."
-msgstr "Установите {THING:ItemAreaPowerControl} в выделенное место."
+msgstr "Установите {THING:ItemKitHydroponicStation} в выделенное место."
 
 #: /Language/Interface/Record[Key='TankConnectorsWhatAreThey']
 msgctxt "Interface.TankConnectorsWhatAreThey"
 msgid "Tank Connectors - What Are They?"
-msgstr ""
+msgstr "Разъемы цистерн - Что это такое?"
 
 #: /Language/Interface/Record[Key='TankConnectorsWhaAreTheyDescription']
 msgctxt "Interface.TankConnectorsWhaAreTheyDescription"
 msgid "Tank connectors are used to connect a {THING:DynamicGasCanisterWater} to pipe networks, which can be used to transport gas and water."
-msgstr ""
+msgstr "Разъемы цистерн используются для подключения {THING:DynamicGasCanisterWater} к трубам, которые могут использоваться для транспортировки газа и воды."
 
 #: /Language/Interface/Record[Key='TankConnectorsWhatAreTheyTask1']
-#, fuzzy
 msgctxt "Interface.TankConnectorsWhatAreTheyTask1"
 msgid "Pick up the {THING:ItemTankConnector}."
-msgstr "Возьмите {THING:ItemTablet}"
+msgstr "Возьмите {THING:ItemTankConnector}."
 
 #: /Language/Interface/Record[Key='TankConnectorsWhatAreTheyTask2']
-#, fuzzy
 msgctxt "Interface.TankConnectorsWhatAreTheyTask2"
 msgid "Place the {THING:StructureTankConnector} in the highlighted position."
-msgstr "Установите {THING:ItemAreaPowerControl} в выделенное место."
+msgstr "Установите {THING:StructureTankConnector} в выделенное место."
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenches']
 msgctxt "Interface.WaterTanksAndWrenches"
 msgid "Water Tanks and Wrenches"
-msgstr ""
+msgstr "Водяные Цистерны и Гаечные Ключи"
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenchesDescription']
 msgctxt "Interface.WaterTanksAndWrenchesDescription"
 msgid "Place the {THING:DynamicGasCanisterWater} on top of the {THING:ItemTankConnector} and connect it using a {THING:ItemWrench}."
-msgstr ""
+msgstr "Поместите {THING:DynamicGasCanisterWater} поверх {THING:ItemTankConnector} и подключите его с помощью {THING:ItemWrench}."
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenches1']
-#, fuzzy
 msgctxt "Interface.WaterTanksAndWrenches1"
 msgid "Get the {THING:ItemWrench} from your toolbelt."
-msgstr "Используйте {THING:ItemDrill} в вашем {SLOT:Belt}."
+msgstr "Возьмите {THING:ItemWrench} с вашего пояса инструментов."
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenchesTask2']
 msgctxt "Interface.WaterTanksAndWrenchesTask2"
 msgid "Use the {THING:ItemWrench} to connect the {THING:DynamicGasCanisterWater} to the {THING:ItemTankConnector}."
-msgstr ""
+msgstr "Используйте {THING:ItemWrench} для подключения {THING:DynamicGasCanisterWater} к {THING:ItemTankConnector}."
 
 #: /Language/Interface/Record[Key='WaterNetworks']
 msgctxt "Interface.WaterNetworks"
 msgid "Water Networks"
-msgstr ""
+msgstr "Водопровод"
 
 #: /Language/Interface/Record[Key='WaterNetworksDescription']
 msgctxt "Interface.WaterNetworksDescription"
