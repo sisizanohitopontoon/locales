@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-04 17:22+0000\n"
-"Last-Translator: Harpi <harpi2600@gmail.com>\n"
+"PO-Revision-Date: 2020-05-04 22:04+0000\n"
+"Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
@@ -188,6 +188,10 @@ msgid ""
 "Managing your {LINK:InventoryPage;inventory} well takes skill and practice; thinking carefully about what you are taking out with you well in advance and planning ahead. Forgetting to have a filled {THING:ItemGasCanisterOxygen} or {THING:ItemBatteryCellLarge} can be disasterous. It's also easy to get lost. Be careful!\n"
 "      "
 msgstr ""
+"Nyní musíme jít před stanici, abychom provedli nějaké opravy. Odložte vše z rukou pomocí klávesy {KEY:Drop}, abychom mohli vzít další věci. Nezapomeňte, že můžete pomocí {KEY:MouseControl} povolit myš pro správu {LINK:InventoryPage;inventáře} a můžete změnit {COLORYELLOW:aktivní ruku} stisknutím klávesy {KEYS:SwapHands}.\n"
+"\n"
+"Správa {LINK:InventoryPage;inventáře} vyžaduje dovednosti a praxe; pečlivě přemýšlejte o tom, co s sebou berete s dostatečným předstihem a plánujte dopředu. Zapomenout, že máte prázdný {THING:ItemGasCanisterOxygen} nebo {THING:ItemBatteryCellLarge}, může být katastrofální. Je také snadné se ztratit. Buďte opatrný!\n"
+"      "
 
 #: /Language/Interface/Record[Key='TutorialDescGetTools2']
 msgctxt "Interface.TutorialDescGetTools2"
@@ -1911,6 +1915,8 @@ msgid ""
 "Next, set up a {THING:StructureGasSensor} and an {THING:StructureActiveVent}. A {THING:StructureGasSensor} is a key component in the Airlock, as it informs the console of the current atmosphere "
 "inside it, while the {THING:StructureActiveVent} pressurizes and depressurizes the Airlock."
 msgstr ""
+"Dále nastavte {THING:StructureGasSensor} a {THING:StructureActiveVent}. {THING:StructureGasSensor} je klíčovou součástí Přechodové komory, protože informuje konzoli o aktuální atmosféře uvnitř, "
+"zatímco {THING:StructureActiveVent} natlakuje a odtlakuje Přechodovou komoru."
 
 #: /Language/Interface/Record[Key='AirSensoresAndMoreTask1']
 msgctxt "Interface.AirSensoresAndMoreTask1"
@@ -2080,6 +2086,11 @@ msgid ""
 "\n"
 "The last thing you need to do is select the desired internal and external pressure, found near the top of the {THING:CircuitboardAdvAirlockControl} panel. "
 msgstr ""
+"Nyní, když jsou struktury na místě, musíme vyměnit {THING:CircuitboardAirlockControl} za {THING:CircuitboardAdvAirlockControl}\n"
+"        \n"
+"Při programování {THING:CircuitboardAdvAirlockControl} existuje několik rozdílů. Nejprve musíte vybrat interní a externí {THING:StructureActiveVent}. Na rozdíl od dveří se budete muset podívat na přepínač na {THING:StructureActiveVent}, abyste zjistili, zda je či není vzájemně propojitelný. Takto můžete zjistit, které {THING:StructureActiveVent} jste vybrali z nabídky.\n"
+"\n"
+"Poslední věcí, kterou musíte udělat, je vybrat požadovaný vnitřní a vnější tlak, který se nachází v horní části panelu {THING:CircuitboardAdvAirlockControl}. "
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask1']
 msgctxt "Interface.AdvancedPressureTask1"
