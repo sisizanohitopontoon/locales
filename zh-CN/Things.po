@@ -10,11 +10,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='StructureLogicTransmitter']
+#: /Language/Things/Record[Key='ItemKitLogicTransmitter']
 #, fuzzy
-msgctxt "Things.StructureLogicTransmitter"
-msgid "Logic Transmitter"
-msgstr "逻辑编写"
+msgctxt "Things.ItemKitLogicTransmitter"
+msgid "Kit (Logic Transmitter)"
+msgstr "逻辑单元"
+
+#: /Language/Things/Record[Key='StructureRover']
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "漫游车框架"
 
 #: /Language/Things/Record[Key='ItemCreditCard']
 msgctxt "Things.ItemCreditCard"
@@ -1302,10 +1307,10 @@ msgctxt "Things.DynamicSkeleton"
 msgid "Skeleton"
 msgstr "骨架"
 
-#: /Language/Things/Record[Key='StructureRover']
-msgctxt "Things.StructureRover"
-msgid "Rover Frame"
-msgstr "漫游车框架"
+#: /Language/Things/Record[Key='ItemKitRoverFrame']
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "(套件)漫游车"
 
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things.NpcChicken"
@@ -2933,10 +2938,10 @@ msgctxt "Things.ItemKitBattery"
 msgid "Kit (Battery)"
 msgstr "(套件)蓄电池"
 
-#: /Language/Things/Record[Key='ItemKitRoverFrame']
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "(套件)漫游车"
+#: /Language/Things/Record[Key='StructureStairs4x2Rails']
+msgctxt "Things.StructureStairs4x2Rails"
+msgid "Stairs with Rails"
+msgstr "带导轨的楼梯"
 
 #: /Language/Things/Record[Key='ItemKitAirlock']
 msgctxt "Things.ItemKitAirlock"
@@ -3713,11 +3718,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "微波炉"
 
-#: /Language/Things/Record[Key='StructureStairs4x2Rails']
-msgctxt "Things.StructureStairs4x2Rails"
-msgid "Stairs with Rails"
-msgstr "带导轨的楼梯"
-
 #: /Language/Things/Record[Key='StructureStairs4x2RailL']
 msgctxt "Things.StructureStairs4x2RailL"
 msgid "Stairs with Rail (Left)"
@@ -3795,11 +3795,11 @@ msgctxt "Things.CartridgeGPS"
 msgid "Cartridge (GPS)"
 msgstr "记忆卡(GPS)"
 
-#: /Language/Things/Record[Key='ItemKitLogicTransmitter']
+#: /Language/Things/Record[Key='StructureLogicTransmitter']
 #, fuzzy
-msgctxt "Things.ItemKitLogicTransmitter"
-msgid "Kit (Logic Transmitter)"
-msgstr "逻辑单元"
+msgctxt "Things.StructureLogicTransmitter"
+msgid "Logic Transmitter"
+msgstr "逻辑编写"
 
 #: /Language/Things/Record[Key='StructureAdvancedFurnace']
 msgctxt "Things.StructureAdvancedFurnace"
@@ -3836,15 +3836,15 @@ msgctxt "Things.ItemAstroloyIngot"
 msgid "Ingot (Astroloy)"
 msgstr "锭(阿斯特洛伊合金Astroloy)"
 
-#: /Language/Things/Record[Key='ItemPlasticSheets']
-msgctxt "Things.ItemPlasticSheets"
-msgid "Plastic Sheets"
-msgstr "塑料板"
-
 #: /Language/Things/Record[Key='ItemCobaltOre']
 msgctxt "Things.ItemCobaltOre"
 msgid "Ore (Cobalt)"
 msgstr "矿石(钴Cobalt)"
+
+#: /Language/Things/Record[Key='ItemPlasticSheets']
+msgctxt "Things.ItemPlasticSheets"
+msgid "Plastic Sheets"
+msgstr "塑料板"
 
 #: /Language/Things/Record[Key='ItemCobaltIngot']
 msgctxt "Things.ItemCobaltIngot"
@@ -4164,6 +4164,11 @@ msgstr ""
 msgctxt "Things.ItemKitAutoMinerSmall"
 msgid "Kit Auto Miner Small"
 msgstr "(套件)自动挖矿机"
+
+#: /Language/Things/Record[Key='ItemDirtBags']
+msgctxt "Things.ItemDirtBags"
+msgid "Dirt Bags"
+msgstr ""
 
 #: /Language/Things/Record[Key='ItemKitAtmospherics']
 msgctxt "Things.ItemKitAtmospherics"

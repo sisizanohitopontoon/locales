@@ -7,11 +7,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Things/Record[Key='StructureLogicTransmitter']
+#: /Language/Things/Record[Key='ItemKitLogicTransmitter']
 #, fuzzy
-msgctxt "Things.StructureLogicTransmitter"
-msgid "Logic Transmitter"
-msgstr "작성 로직"
+msgctxt "Things.ItemKitLogicTransmitter"
+msgid "Kit (Logic Transmitter)"
+msgstr "조립킷 (로직 유닛)"
+
+#: /Language/Things/Record[Key='StructureRover']
+#, fuzzy
+msgctxt "Things.StructureRover"
+msgid "Rover Frame"
+msgstr "철재 구조물"
 
 #: /Language/Things/Record[Key='ItemCreditCard']
 msgctxt "Things.ItemCreditCard"
@@ -1314,11 +1320,11 @@ msgctxt "Things.DynamicSkeleton"
 msgid "Skeleton"
 msgstr "해골"
 
-#: /Language/Things/Record[Key='StructureRover']
+#: /Language/Things/Record[Key='ItemKitRoverFrame']
 #, fuzzy
-msgctxt "Things.StructureRover"
-msgid "Rover Frame"
-msgstr "철재 구조물"
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "조립킷 (전기 용광로)"
 
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things.NpcChicken"
@@ -2946,11 +2952,10 @@ msgctxt "Things.ItemKitBattery"
 msgid "Kit (Battery)"
 msgstr "조립킷 (배터리)"
 
-#: /Language/Things/Record[Key='ItemKitRoverFrame']
-#, fuzzy
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "조립킷 (전기 용광로)"
+#: /Language/Things/Record[Key='StructureStairs4x2Rails']
+msgctxt "Things.StructureStairs4x2Rails"
+msgid "Stairs with Rails"
+msgstr ""
 
 #: /Language/Things/Record[Key='ItemKitAirlock']
 msgctxt "Things.ItemKitAirlock"
@@ -3727,11 +3732,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "전자레인지"
 
-#: /Language/Things/Record[Key='StructureStairs4x2Rails']
-msgctxt "Things.StructureStairs4x2Rails"
-msgid "Stairs with Rails"
-msgstr ""
-
 #: /Language/Things/Record[Key='StructureStairs4x2RailL']
 msgctxt "Things.StructureStairs4x2RailL"
 msgid "Stairs with Rail (Left)"
@@ -3811,11 +3811,11 @@ msgctxt "Things.CartridgeGPS"
 msgid "Cartridge (GPS)"
 msgstr "카트리지 (추적기)"
 
-#: /Language/Things/Record[Key='ItemKitLogicTransmitter']
+#: /Language/Things/Record[Key='StructureLogicTransmitter']
 #, fuzzy
-msgctxt "Things.ItemKitLogicTransmitter"
-msgid "Kit (Logic Transmitter)"
-msgstr "조립킷 (로직 유닛)"
+msgctxt "Things.StructureLogicTransmitter"
+msgid "Logic Transmitter"
+msgstr "작성 로직"
 
 #: /Language/Things/Record[Key='StructureAdvancedFurnace']
 #, fuzzy
@@ -3859,17 +3859,17 @@ msgctxt "Things.ItemAstroloyIngot"
 msgid "Ingot (Astroloy)"
 msgstr "주괴 (철)"
 
-#: /Language/Things/Record[Key='ItemPlasticSheets']
-#, fuzzy
-msgctxt "Things.ItemPlasticSheets"
-msgid "Plastic Sheets"
-msgstr "유리판"
-
 #: /Language/Things/Record[Key='ItemCobaltOre']
 #, fuzzy
 msgctxt "Things.ItemCobaltOre"
 msgid "Ore (Cobalt)"
 msgstr "광물 (석탄)"
+
+#: /Language/Things/Record[Key='ItemPlasticSheets']
+#, fuzzy
+msgctxt "Things.ItemPlasticSheets"
+msgid "Plastic Sheets"
+msgstr "유리판"
 
 #: /Language/Things/Record[Key='ItemCobaltIngot']
 #, fuzzy
@@ -4195,6 +4195,11 @@ msgstr ""
 msgctxt "Things.ItemKitAutoMinerSmall"
 msgid "Kit Auto Miner Small"
 msgstr "조립킷 (소형 엔진)"
+
+#: /Language/Things/Record[Key='ItemDirtBags']
+msgctxt "Things.ItemDirtBags"
+msgid "Dirt Bags"
+msgstr ""
 
 #: /Language/Things/Record[Key='ItemKitAtmospherics']
 msgctxt "Things.ItemKitAtmospherics"
