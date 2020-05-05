@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-05 08:43+0000\n"
+"PO-Revision-Date: 2020-05-05 08:50+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -200,6 +200,9 @@ msgid ""
 "      \n"
 "The {THING:ItemMiningBelt} has specialized {LINK:OrePage;Ore} slots that automatically fill themselves with ore as you use a {THING:ItemMiningDrill}, for example. Read more about {LINK:MiningPage;Mining}."
 msgstr ""
+"Vezměte {THING:ItemToolBelt} a přiřaďte jej ke slotu {SLOT:Belt} podržením klávesy {KEY:ToolBeltSlot}, nebo přetažením do slotu za současného stisknutí a přidržení {KEY:MouseControl}. Váš {SLOT:Belt} slot vám umožní mít opasky, které mohou obsahovat těžbu a další nástroje.\n"
+"      \n"
+"{THING:ItemMiningBelt} má specializované sloty {LINK:OrePage;rudy}, které se automaticky naplní rudou, když používáte například {THING:ItemMiningDrill}. Přečtěte si více o {LINK:MiningPage;těžení}."
 
 #: /Language/Interface/Record[Key='TutorialTaskGetTools1']
 msgctxt "Interface.TutorialTaskGetTools1"
@@ -273,6 +276,11 @@ msgid ""
 "\n"
 "If you find you have too many windows open, you can close them all at once using {KEY:HideAllWindows}, you can toggle the individual window with their slot hotkey, or you can click on the slot itself while the mouse is enabled with {KEY:MouseControl}."
 msgstr ""
+"{THING:StructureCableStraight} může přenášet jak {COLORYELLOW:data}, tak {COLORYELLOW:energii}, ale přeruší se, pokud se do něj dá více energie, než je určeno. Někde pod {THING:StructureAirlock} je přerušen {THING:StructureCableJunction}, najděte ho a odeberte pomocí {THING:ItemWireCutters} z {THING:ItemToolBelt}.\n"
+"\n"
+"Nezapomeňte, že existují dva způsoby interakce s vaším {LINK:InventoryPage;inventářem}. Stisknutím a podržením tlačítka {KEY:MouseControl} aktivujete kurzor myši a poté myší přetahujete nebo otevíráte věci. Pro rychlé ovládání stisknutím tlačítka {KEY:ToolBeltSlot} otevřete slot {SLOT:Belt}. Stisknutím tlačítka {KEY:InventorySelect} zaměňte zvýrazněnou položku vnitřního slotu v ruce.\n"
+"\n"
+"Pokud zjistíte, že máte příliš mnoho otevřených oken, můžete je všechny zavřít najednou pomocí {KEY:HideAllWindows}, můžete přepínat jednotlivé okna pomocí jejich klávesové zkratky, nebo můžete kliknout na samotný slot, zatímco je myš povolena pomocí {KEY:MouseControl}."
 
 #: /Language/Interface/Record[Key='TutorialTaskRepairCable1']
 msgctxt "Interface.TutorialTaskRepairCable1"
