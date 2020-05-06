@@ -6,9 +6,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
-msgctxt "Interface.PromptDebugLoadConfirm"
-msgid "Debug Load"
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsMasterVolume']
+msgctxt "Interface.SettingsMasterVolume"
+msgid "Master Volume"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsReflections']
@@ -36,14 +46,14 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr ""
 
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsPixelLightCount']
 msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
@@ -346,14 +356,14 @@ msgctxt "Interface.Europa2"
 msgid "Europa"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Vulcan2']
-msgctxt "Interface.Vulcan2"
-msgid "Vulcan"
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Space']
@@ -559,16 +569,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
-msgstr ""
-
-#: /Language/Interface/Record[Key='SettingsMasterVolume']
-msgctxt "Interface.SettingsMasterVolume"
-msgid "Master Volume"
-msgstr ""
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsSound']
@@ -859,9 +859,9 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr ""
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoFlashTitle']
-msgctxt "Interface.CartridgeElectronicReaderAutoFlashTitle"
-msgid "Flashpoint:"
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoHashTitle']
+msgctxt "Interface.CartridgeElectronicReaderAutoHashTitle"
+msgid "Hash:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
@@ -1029,14 +1029,14 @@ msgctxt "Interface.PromptUnsubscribeBody"
 msgid "Are you sure you want to unsubscribe from this Workshop item?"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
@@ -1138,16 +1138,6 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr ""
-
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
@@ -1196,6 +1186,26 @@ msgstr ""
 #: /Language/Interface/Record[Key='PromptDebugLoadBody']
 msgctxt "Interface.PromptDebugLoadBody"
 msgid "Are you sure you want to load this world with only one character?"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
+msgctxt "Interface.PromptDebugLoadConfirm"
+msgid "Debug Load"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WarningSavePathNotWritable']
+msgctxt "Interface.WarningSavePathNotWritable"
+msgid "Save Path Not Writable"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WarningSavePathNotWritableDescription']
+msgctxt "Interface.WarningSavePathNotWritableDescription"
+msgid "Could not write to save path. It has been reset to default"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ResearchUnlockConfirm']
@@ -2244,14 +2254,14 @@ msgctxt "Interface.ElectronicReaderWeightSymbol"
 msgid "g"
 msgstr ""
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoHashTitle']
-msgctxt "Interface.CartridgeElectronicReaderAutoHashTitle"
-msgid "Hash:"
-msgstr ""
-
 #: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoITitle']
 msgctxt "Interface.CartridgeElectronicReaderAutoITitle"
 msgid "Autoignition:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoFlashTitle']
+msgctxt "Interface.CartridgeElectronicReaderAutoFlashTitle"
+msgid "Flashpoint:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='CartridgeElectronicReaderRecipeOrder']
@@ -2479,14 +2489,14 @@ msgctxt "Interface.WorldCustomTerrainLabel"
 msgid "Terrain Colour"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsDifficulty']
-msgctxt "Interface.SettingsDifficulty"
-msgid "Difficulty Settings"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
+msgctxt "Interface.TravelMenuButtonTravelLoad"
+msgid "Load World"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TravelMenuButtonTravelNew']
@@ -3474,14 +3484,14 @@ msgctxt "Interface.HeadingEdit"
 msgid "Edit"
 msgstr ""
 
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ButtonLoad']
 msgctxt "Interface.ButtonLoad"
 msgid "Load"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
 msgstr ""
 
 #: /Language/Interface/Record[Key='HeadingHelp']
@@ -3674,9 +3684,9 @@ msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Change to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
@@ -4131,9 +4141,9 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
-msgctxt "Interface.TravelMenuButtonTravelLoad"
-msgid "Load World"
+#: /Language/Interface/Record[Key='SettingsDifficulty']
+msgctxt "Interface.SettingsDifficulty"
+msgid "Difficulty Settings"
 msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
