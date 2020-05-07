@@ -1789,11 +1789,15 @@ msgctxt "Interface.CloseTheDoorTask2"
 msgid "Build {THING:StructureCompositeDoor} 2."
 msgstr "Constrói a {THING:StructureCompositeDoor} 2."
 
-#: /Language/Interface/Record[Key='CloseTheDoorTask12']
-#, fuzzy
-msgctxt "Interface.CloseTheDoorTask12"
-msgid "Rename {THING:StructureCompositeDoor}"
-msgstr "Constrói a {THING:StructureCompositeDoor} 1."
+#: /Language/Interface/Record[Key='CloseTheDoorTask3']
+msgctxt "Interface.CloseTheDoorTask3"
+msgid "Rename the Outter facing {THING:StructureCompositeDoor} to external door or something recognizable."
+msgstr ""
+
+#: /Language/Interface/Record[Key='CloseTheDoorTask4']
+msgctxt "Interface.CloseTheDoorTask4"
+msgid "Rename the Inward facing {THING:StructureCompositeDoor} to Internal door or something recognizable."
+msgstr ""
 
 #: /Language/Interface/Record[Key='CreatingASeal']
 msgctxt "Interface.CreatingASeal"
@@ -1801,8 +1805,9 @@ msgid "Creating a seal"
 msgstr "Selando"
 
 #: /Language/Interface/Record[Key='CreatingASealDescription']
+#, fuzzy
 msgctxt "Interface.CreatingASealDescription"
-msgid "Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}."
+msgid "Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}. You will then need to rename the newly built doors using the {THING:ItemLabeller} found in the orange crate."
 msgstr "Agora vai e acaba a construção das {THING:StructureCompositeDoor} com {THING:ItemPlasticSheets} e {THING:ItemGlassSheets}."
 
 #: /Language/Interface/Record[Key='CreatingASealTask1']
@@ -2260,6 +2265,11 @@ msgstr "Aguarda até a {THING:ItemPotato} crescer completamente."
 msgctxt "Interface.HonestWorkTask2"
 msgid "Harvest a {THING:ItemPotato}."
 msgstr "Colhe a {THING:ItemPotato}."
+
+#, fuzzy
+#~ msgctxt "Interface.CloseTheDoorTask12"
+#~ msgid "Rename {THING:StructureCompositeDoor}"
+#~ msgstr "Constrói a {THING:StructureCompositeDoor} 1."
 
 #~ msgctxt "Interface.AdvancedPressureTask1"
 #~ msgid "Remove the {THING:ItemGlassSheets}."
