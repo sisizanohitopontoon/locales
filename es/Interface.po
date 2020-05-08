@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-08 15:52+0000\n"
+"PO-Revision-Date: 2020-05-08 15:57+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1341,27 +1341,27 @@ msgstr "Hace una pausa en la ejecución en el IC por un segundo"
 #: /Language/Interface/Record[Key='ScriptCommandSelect']
 msgctxt "Interface.ScriptCommandSelect"
 msgid "Register = b if a is non-zero, otherwise c"
-msgstr ""
+msgstr "Registro = b si a no es cero, de lo contrario c"
 
 #: /Language/Interface/Record[Key='ScriptCommandHcf']
 msgctxt "Interface.ScriptCommandHcf"
 msgid "Halt and catch fire"
-msgstr ""
+msgstr "Detenerse y prenderse fuego"
 
 #: /Language/Interface/Record[Key='ScriptCommandPop']
 msgctxt "Interface.ScriptCommandPop"
 msgid "Register = the value at the top of the stack and decrements sp"
-msgstr ""
+msgstr "Registro = el valor en la parte superior de la pila y disminuye sp"
 
 #: /Language/Interface/Record[Key='ScriptCommandPush']
 msgctxt "Interface.ScriptCommandPush"
 msgid "Pushes the value of a to the stack at sp and increments sp"
-msgstr ""
+msgstr "Empuja el valor de a a la pila a sp e incrementa sp"
 
 #: /Language/Interface/Record[Key='ScriptCommandPeek']
 msgctxt "Interface.ScriptCommandPeek"
 msgid "Register = the value at the top of the stack"
-msgstr ""
+msgstr "Registro = el valor en la parte superior de la pila"
 
 #: /Language/Interface/Record[Key='ScriptCommandLabel']
 msgctxt "Interface.ScriptCommandLabel"
@@ -1376,7 +1376,7 @@ msgstr "Pone en pausa la ejecución por 1 tick"
 #: /Language/Interface/Record[Key='ScriptCommandRand']
 msgctxt "Interface.ScriptCommandRand"
 msgid "Register = a random value x with 0 <= x < 1"
-msgstr ""
+msgstr "Registro = un valor aleatorio x con 0 <= x < 1"
 
 #: /Language/Interface/Record[Key='ScriptCommandExp']
 msgctxt "Interface.ScriptCommandExp"
@@ -1391,7 +1391,7 @@ msgstr "Register = log(a)"
 #: /Language/Interface/Record[Key='ScriptCommandAbs']
 msgctxt "Interface.ScriptCommandAbs"
 msgid "Register = the absolute value of a"
-msgstr ""
+msgstr "Registro = el valor absoluto de un"
 
 #: /Language/Interface/Record[Key='ScriptCommandMin']
 msgctxt "Interface.ScriptCommandMin"
@@ -1406,37 +1406,37 @@ msgstr "Registro = máximo de a o b"
 #: /Language/Interface/Record[Key='ScriptCommandFloor']
 msgctxt "Interface.ScriptCommandFloor"
 msgid "Register = largest integer less than a"
-msgstr ""
+msgstr "Registro = el mayor número entero menor que un"
 
 #: /Language/Interface/Record[Key='ScriptCommandCeil']
 msgctxt "Interface.ScriptCommandCeil"
 msgid "Register = smallest integer greater than a"
-msgstr ""
+msgstr "Registro = el menor número entero mayor que un"
 
 #: /Language/Interface/Record[Key='ScriptCommandTrunc']
 msgctxt "Interface.ScriptCommandTrunc"
 msgid "Register = a with fractional part removed"
-msgstr ""
+msgstr "Registro = a con la parte fraccionaria eliminada"
 
 #: /Language/Interface/Record[Key='ScriptCommandRound']
 msgctxt "Interface.ScriptCommandRound"
 msgid "Register = a rounded to nearest integer"
-msgstr ""
+msgstr "Registro = un redondeo al entero más cercano"
 
 #: /Language/Interface/Record[Key='ScriptCommandSqrt']
 msgctxt "Interface.ScriptCommandSqrt"
 msgid "Register = square root of a"
-msgstr ""
+msgstr "Registro = raíz cuadrada de un"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnazal']
 msgctxt "Interface.ScriptCommandBnazal"
 msgid "Branch to line c if abs(a) > float.epsilon * 8"
-msgstr ""
+msgstr "Rama de la línea c si abs(a) > float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBapzal']
 msgctxt "Interface.ScriptCommandBapzal"
 msgid "Branch to line c if abs(a) <= float.epsilon * 8"
-msgstr ""
+msgstr "Rama de la línea c si abs(a) <= float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnezal']
 msgctxt "Interface.ScriptCommandBnezal"
@@ -1471,12 +1471,12 @@ msgstr "Bifurcarse a la línea b si a < 0 y almacenar el siguiente número de l�
 #: /Language/Interface/Record[Key='ScriptCommandBnaal']
 msgctxt "Interface.ScriptCommandBnaal"
 msgid "Branch to line d if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra"
-msgstr ""
+msgstr "Rama de la línea d si abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) y guardar el siguiente número de línea en ra"
 
 #: /Language/Interface/Record[Key='ScriptCommandBapal']
 msgctxt "Interface.ScriptCommandBapal"
 msgid "Branch to line d if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra"
-msgstr ""
+msgstr "Rama de la línea d si abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) y guardar el siguiente número de línea en ra"
 
 #: /Language/Interface/Record[Key='ScriptCommandBneal']
 msgctxt "Interface.ScriptCommandBneal"
@@ -1631,7 +1631,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='ScriptCommandBnez']
 msgctxt "Interface.ScriptCommandBnez"
 msgid "branch to line b if a != 0"
-msgstr ""
+msgstr "rama de la línea b si a != 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandBeqz']
 msgctxt "Interface.ScriptCommandBeqz"
