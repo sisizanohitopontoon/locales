@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-04-02 18:17+0000\n"
+"PO-Revision-Date: 2020-05-10 16:52+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1240,6 +1240,9 @@ msgid ""
 "\n"
 "Secondly, we need to add a {THING:ItemBatteryCharger} for our depleted batteries. We want to put it into the circuit before the {THING:ItemAreaPowerControl}, so it won’t drain the {THING:ItemAreaPowerControl} battery."
 msgstr ""
+"V našem dalším kroku musíme umístit {THING:ItemAreaPowerControl}, aby bylo možné řídit tok energie a zabránit vyhoření kabelů. Poskytují také malý přechodný zdroj napájení, pokud jsou generátory offline.\n"
+"\n"
+"Za druhé, musíme přidat {THING:ItemBatteryCharger} pro naše vybité baterie. Chceme ho dát do obvodu před {THING:ItemAreaPowerControl}, takže nevyčerpá baterii {THING:ItemAreaPowerControl}."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask1']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask1"
