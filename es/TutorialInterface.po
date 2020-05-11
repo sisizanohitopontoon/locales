@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-11 18:21+0000\n"
+"PO-Revision-Date: 2020-05-11 18:27+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2438,10 +2438,9 @@ msgid "Harvest a {THING:ItemPotato}."
 msgstr "Cosechar una {THING:ItemPotato}."
 
 #: /Language/Interface/Record[Key='BasicResearch']
-#, fuzzy
 msgctxt "Interface.BasicResearch"
 msgid "#9 Basic Research"
-msgstr "#6 Atmósfera básica"
+msgstr "#9 Investigación básica"
 
 #: /Language/Interface/Record[Key='BasicResearchDescription']
 msgctxt "Interface.BasicResearchDescription"
@@ -2449,10 +2448,9 @@ msgid "Unlock new technologies with the Research Machine."
 msgstr "Desbloquea nuevas tecnologías con la Máquina de Investigación."
 
 #: /Language/Interface/Record[Key='TheResearchMachine']
-#, fuzzy
 msgctxt "Interface.TheResearchMachine"
 msgid "The Research Machine"
-msgstr "La Máquina Dobladora"
+msgstr "La máquina de investigación"
 
 #: /Language/Interface/Record[Key='TheResearchMachineDescription']
 msgctxt "Interface.TheResearchMachineDescription"
@@ -2466,10 +2464,9 @@ msgstr ""
 "Su primera tarea es construir la {THING:StructureResearchMachine}. Encontrarás todo lo que necesites en la {THING:DynamicCrate} roja."
 
 #: /Language/Interface/Record[Key='TheResearchMachine1']
-#, fuzzy
 msgctxt "Interface.TheResearchMachine1"
 msgid "Pick up the {THING:ItemKitResearchMachine} from the red {THING:DynamicCrate}."
-msgstr "Recoge la {THING:ItemKitCompositeFloorGrating} de la caja."
+msgstr "Coge la {THING:ItemKitResearchMachine} de la {THING:DynamicCrate} roja."
 
 #: /Language/Interface/Record[Key='TheResearchMachine2']
 #, fuzzy
@@ -2534,6 +2531,11 @@ msgid ""
 "\n"
 "Use the nearby {THING:StructureElectronicsPrinter} to print some capsules. "
 msgstr ""
+"Las cápsulas de investigación son una parte esencial del proceso de investigación. Imprimirlas usando una {THING:StructureElectronicsPrinter}, luego agrégalas a la {THING:StructureResearchMachine} para obtener puntos de investigación. Las cápsulas se clasifican por niveles, que determinan sus costes: rojo, verde, azul y amarillo. \n"
+"\n"
+"Las tecnologías más avanzadas requieren cápsulas de mayor nivel. \n"
+"\n"
+"Usa la {THING:StructureElectronicsPrinter} mas cercana para imprimir algunas cápsulas. "
 
 #: /Language/Interface/Record[Key='PrintingCapsules1']
 #, fuzzy
@@ -2593,6 +2595,8 @@ msgid ""
 "Press the large green button On the front of the {THING:StructureResearchMachine} to begin processing the capsule. Wait for the small progress bar below the button to fill, indicating processing is "
 "complete."
 msgstr ""
+"Presione el gran botón verde en el frente de la {THING:StructureResearchMachine} para comenzar a procesar la cápsula. Espere a que se llene la pequeña barra de progreso debajo del botón, indicando "
+"que el procesamiento se ha completado."
 
 #: /Language/Interface/Record[Key='InsertingCapsules3']
 msgctxt "Interface.InsertingCapsules3"
@@ -2631,6 +2635,13 @@ msgid ""
 "    \n"
 "    "
 msgstr ""
+"Ahora que hemos procesado las cápsulas de investigación, podemos asignar los puntos recién ganados en nuevas tecnologías. \n"
+"\t\t\t\n"
+"Haga clic en el círculo rojo en la {THING:StructureResearchMachine} para acceder al menú de investigación. En la parte superior derecha del menú, puedes ver tus puntos de investigación actuales. Por cada capsula procesada, ganas un punto.\n"
+"\n"
+"El lado izquierdo del menú muestra los filtros que pueden ser activados o desactivados, para ayudar a encontrar tecnologías específicas para desbloquear. El panel central muestra las categorías actualmente bloqueadas, y el precio de desbloqueo de cada una.\n"
+"    \n"
+"    "
 
 #: /Language/Interface/Record[Key='UnlockingResearch2']
 msgctxt "Interface.UnlockingResearch2"
