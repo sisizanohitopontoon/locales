@@ -7,11 +7,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Things/Record[Key='ItemKitLogicTransmitter']
+#: /Language/Things/Record[Key='ItemKitAdvancedFurnace']
 #, fuzzy
-msgctxt "Things.ItemKitLogicTransmitter"
-msgid "Kit (Logic Transmitter)"
-msgstr "套件 邏輯單元"
+msgctxt "Things.ItemKitAdvancedFurnace"
+msgid "Kit (Advanced Furnace)"
+msgstr "電弧爐"
+
+#: /Language/Things/Record[Key='StructureStairs4x2Rails']
+msgctxt "Things.StructureStairs4x2Rails"
+msgid "Stairs with Rails"
+msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitRoverFrame']
+#, fuzzy
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "電弧爐"
 
 #: /Language/Things/Record[Key='StructureRover']
 #, fuzzy
@@ -73,11 +84,10 @@ msgctxt "Things.ItemMarineBodyArmor"
 msgid "Marine Armor"
 msgstr ""
 
-#: /Language/Things/Record[Key='MotherboardComms']
-#, fuzzy
-msgctxt "Things.MotherboardComms"
-msgid "Motherboard (Communications)"
-msgstr "主機板 (邏輯)"
+#: /Language/Things/Record[Key='ItemAlienMushroom']
+msgctxt "Things.ItemAlienMushroom"
+msgid "Alien Mushroom"
+msgstr ""
 
 #: /Language/Things/Record[Key='ItemPlasticSheets']
 #, fuzzy
@@ -1335,6 +1345,11 @@ msgctxt "Things.ItemKitBeacon"
 msgid "Kit (Beacon)"
 msgstr "追蹤信標 (固定式)"
 
+#: /Language/Things/Record[Key='StructureStairs4x2RailL']
+msgctxt "Things.StructureStairs4x2RailL"
+msgid "Stairs with Rail (Left)"
+msgstr ""
+
 #: /Language/Things/Record[Key='StructureBeacon']
 msgctxt "Things.StructureBeacon"
 msgid "Beacon"
@@ -1344,12 +1359,6 @@ msgstr "追蹤信標 (固定式)"
 msgctxt "Things.DynamicSkeleton"
 msgid "Skeleton"
 msgstr "乾骨架"
-
-#: /Language/Things/Record[Key='ItemKitRoverFrame']
-#, fuzzy
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "電弧爐"
 
 #: /Language/Things/Record[Key='NpcChicken']
 msgctxt "Things.NpcChicken"
@@ -2461,8 +2470,9 @@ msgid "Battery Cell Charger"
 msgstr "電池充電器"
 
 #: /Language/Things/Record[Key='StructureBattery']
+#, fuzzy
 msgctxt "Things.StructureBattery"
-msgid "Stationary Battery"
+msgid "Structure Battery"
 msgstr "蓄電器"
 
 #: /Language/Things/Record[Key='StructureBackPressureRegulator']
@@ -2972,15 +2982,15 @@ msgctxt "Things.ItemKitCentrifuge"
 msgid "Kit (Centrifuge)"
 msgstr "離心機"
 
-#: /Language/Things/Record[Key='ItemKitBattery']
-msgctxt "Things.ItemKitBattery"
-msgid "Kit (Battery)"
-msgstr "蓄電器"
-
-#: /Language/Things/Record[Key='StructureStairs4x2Rails']
-msgctxt "Things.StructureStairs4x2Rails"
-msgid "Stairs with Rails"
+#: /Language/Things/Record[Key='StructureStairs4x2RailR']
+msgctxt "Things.StructureStairs4x2RailR"
+msgid "Stairs with Rail (Right)"
 msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitAtmospherics']
+msgctxt "Things.ItemKitAtmospherics"
+msgid "Kit (Atmospherics)"
+msgstr "套件 空調機"
 
 #: /Language/Things/Record[Key='ItemKitAirlock']
 msgctxt "Things.ItemKitAirlock"
@@ -3758,16 +3768,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "微波爐"
 
-#: /Language/Things/Record[Key='StructureStairs4x2RailL']
-msgctxt "Things.StructureStairs4x2RailL"
-msgid "Stairs with Rail (Left)"
-msgstr ""
-
-#: /Language/Things/Record[Key='StructureStairs4x2RailR']
-msgctxt "Things.StructureStairs4x2RailR"
-msgid "Stairs with Rail (Right)"
-msgstr ""
-
 #: /Language/Things/Record[Key='Phobos']
 msgctxt "Things.Phobos"
 msgid "Phobos"
@@ -3843,16 +3843,16 @@ msgctxt "Things.StructureLogicTransmitter"
 msgid "Logic Transmitter"
 msgstr "邏輯寫入器"
 
+#: /Language/Things/Record[Key='ItemKitLogicTransmitter']
+#, fuzzy
+msgctxt "Things.ItemKitLogicTransmitter"
+msgid "Kit (Logic Transmitter)"
+msgstr "套件 邏輯單元"
+
 #: /Language/Things/Record[Key='StructureAdvancedFurnace']
 #, fuzzy
 msgctxt "Things.StructureAdvancedFurnace"
 msgid "Advanced Furnace"
-msgstr "電弧爐"
-
-#: /Language/Things/Record[Key='ItemKitAdvancedFurnace']
-#, fuzzy
-msgctxt "Things.ItemKitAdvancedFurnace"
-msgid "Kit (Advanced Furnace)"
 msgstr "電弧爐"
 
 #: /Language/Things/Record[Key='ItemStelliteIngot']
@@ -3897,16 +3897,17 @@ msgctxt "Things.ItemCobaltIngot"
 msgid "Ingot (Cobalt)"
 msgstr "鑄錠 (金 Gold)"
 
-#: /Language/Things/Record[Key='ItemAlienMushroom']
-msgctxt "Things.ItemAlienMushroom"
-msgid "Alien Mushroom"
-msgstr ""
-
 #: /Language/Things/Record[Key='ReagentCobalt']
 #, fuzzy
 msgctxt "Things.ReagentCobalt"
 msgid "Cobalt Powder"
 msgstr "金粉末"
+
+#: /Language/Things/Record[Key='MotherboardComms']
+#, fuzzy
+msgctxt "Things.MotherboardComms"
+msgid "Motherboard (Communications)"
+msgstr "主機板 (邏輯)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingRoundedCornerInner']
 #, fuzzy
@@ -4227,15 +4228,30 @@ msgctxt "Things.ItemKitAutoMinerSmall"
 msgid "Kit Auto Miner Small"
 msgstr "引擎 (小型)"
 
-#: /Language/Things/Record[Key='ItemDirtBags']
-msgctxt "Things.ItemDirtBags"
-msgid "Dirt Bags"
+#: /Language/Things/Record[Key='ItemDirtCannister']
+msgctxt "Things.ItemDirtCannister"
+msgid "Item Dirt Cannister"
 msgstr ""
 
-#: /Language/Things/Record[Key='ItemKitAtmospherics']
-msgctxt "Things.ItemKitAtmospherics"
-msgid "Kit (Atmospherics)"
-msgstr "套件 空調機"
+#: /Language/Things/Record[Key='ItemDirtCanister']
+#, fuzzy
+msgctxt "Things.ItemDirtCanister"
+msgid "Item Dirt Canister"
+msgstr "氣瓶"
+
+#: /Language/Things/Record[Key='ItemTerrainManipulator']
+msgctxt "Things.ItemTerrainManipulator"
+msgid "Item Terrain Manipulator"
+msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitBattery']
+msgctxt "Things.ItemKitBattery"
+msgid "Kit (Battery)"
+msgstr "蓄電器"
+
+#~ msgctxt "Things.StructureBattery"
+#~ msgid "Stationary Battery"
+#~ msgstr "蓄電器"
 
 #, fuzzy
 #~ msgctxt "Things.ItemReferenceTool"

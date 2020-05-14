@@ -7,20 +7,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "당신은 사망했습니다."
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "믹서"
-
-#: /Language/Interface/Record[Key='SettingsMasterVolume']
-msgctxt "Interface.SettingsMasterVolume"
-msgid "Master Volume"
-msgstr "마스터 볼륨"
+#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
+msgctxt "Interface.PromptDebugLoadConfirm"
+msgid "Debug Load"
+msgstr "디버그 확인"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
@@ -47,11 +37,6 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "그림자"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "부활하기"
-
 #: /Language/Interface/Record[Key='SettingsPixelLightCount']
 msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
@@ -61,6 +46,11 @@ msgstr "픽셀 라이트 개수"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "볼륨 라이팅"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "부활하기"
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -358,16 +348,16 @@ msgctxt "Interface.Europa2"
 msgid "Europa"
 msgstr ""
 
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
 #, fuzzy
 msgctxt "Interface.ChangeSlotSettingToFor"
 msgid "Change to {1}<color=yellow>({0})</color> for {2}"
 msgstr "Change to <color=yellow>{0}</color> for {1}"
-
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
-msgstr ""
 
 #: /Language/Interface/Record[Key='Space']
 #, fuzzy
@@ -579,6 +569,16 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "이어하기"
+
+#: /Language/Interface/Record[Key='SettingsMasterVolume']
+msgctxt "Interface.SettingsMasterVolume"
+msgid "Master Volume"
+msgstr "마스터 볼륨"
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "믹서"
 
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
@@ -875,15 +875,16 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "설치 후 {0}을 사용하여 업그레이드하세요."
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoHashTitle']
-msgctxt "Interface.CartridgeElectronicReaderAutoHashTitle"
-msgid "Hash:"
-msgstr ""
-
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 msgstr "구조물에 장치를 설치할 수 있습니다. 더 나은 설치 영역을 가지려면 {THING:StructureFrame}을 업그레이드하세요."
+
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoITitle']
+#, fuzzy
+msgctxt "Interface.CartridgeElectronicReaderAutoITitle"
+msgid "Autoignition:"
+msgstr "주의"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
 msgctxt "Interface.TooltipPlacementSnapGrid"
@@ -1055,15 +1056,15 @@ msgctxt "Interface.PromptUnsubscribeBody"
 msgid "Are you sure you want to unsubscribe from this Workshop item?"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr ""
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "당신은 사망했습니다."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "덮어쓰기"
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "부활하기"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1167,6 +1168,16 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "아이피:포트 형식으로 입력..."
 
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "덮어쓰기"
+
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
@@ -1217,15 +1228,10 @@ msgctxt "Interface.PromptDebugLoadBody"
 msgid "Are you sure you want to load this world with only one character?"
 msgstr "이 맵과 함께 한 개의 캐릭터만 로딩하시겠습니까?"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
-msgctxt "Interface.PromptDebugLoadConfirm"
-msgid "Debug Load"
-msgstr "디버그 확인"
-
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "부활하기"
+#: /Language/Interface/Record[Key='FramerateLock']
+msgctxt "Interface.FramerateLock"
+msgid "Target Framerate "
+msgstr ""
 
 #: /Language/Interface/Record[Key='WarningSavePathNotWritable']
 msgctxt "Interface.WarningSavePathNotWritable"
@@ -2301,11 +2307,10 @@ msgctxt "Interface.ElectronicReaderWeightSymbol"
 msgid "g"
 msgstr ""
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoITitle']
-#, fuzzy
-msgctxt "Interface.CartridgeElectronicReaderAutoITitle"
-msgid "Autoignition:"
-msgstr "주의"
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoHashTitle']
+msgctxt "Interface.CartridgeElectronicReaderAutoHashTitle"
+msgid "Hash:"
+msgstr ""
 
 #: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoFlashTitle']
 msgctxt "Interface.CartridgeElectronicReaderAutoFlashTitle"
@@ -2543,16 +2548,16 @@ msgctxt "Interface.BlueField"
 msgid "Blue:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
-#, fuzzy
-msgctxt "Interface.WorldCustomTerrainLabel"
-msgid "Terrain Colour"
-msgstr "Terrain"
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "서버 정보"
+
+#: /Language/Interface/Record[Key='SettingsDifficulty']
+#, fuzzy
+msgctxt "Interface.SettingsDifficulty"
+msgid "Difficulty Settings"
+msgstr "기타 설정"
 
 #: /Language/Interface/Record[Key='TravelMenuButtonTravelLoad']
 #, fuzzy
@@ -3572,8 +3577,8 @@ msgctxt "Interface.HeadingEdit"
 msgid "Edit"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Vulcan2']
-msgctxt "Interface.Vulcan2"
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
 msgid "Vulcan"
 msgstr ""
 
@@ -4251,11 +4256,11 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "즐겨찾기제거"
 
-#: /Language/Interface/Record[Key='SettingsDifficulty']
+#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
 #, fuzzy
-msgctxt "Interface.SettingsDifficulty"
-msgid "Difficulty Settings"
-msgstr "기타 설정"
+msgctxt "Interface.WorldCustomTerrainLabel"
+msgid "Terrain Colour"
+msgstr "Terrain"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
