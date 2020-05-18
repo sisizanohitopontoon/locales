@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-18 11:36+0000\n"
+"PO-Revision-Date: 2020-05-18 11:41+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3092,6 +3092,11 @@ msgid ""
 "            \n"
 "The next step is to offset the data delivered by the {THING:StructureDaylightSensor}. In this case we need to adjust the data by -90. Do this by reading in the output value of the {THING:StructureLogicMath} and adding it to the {THING:StructureLogicMemory} labelled Offset."
 msgstr ""
+"Stejně jako vertikální modul obvodu musíme provést výpočty horizontálních vstupních dat. \n"
+"\\t\\t\\t\n"
+"Nejprve převeďte zápornou hodnotu horizontálních dat slunečního úhlu vynásobením -1. Chcete-li to provést, přečtěte si data z čtečky logiky pomocí {THING:StructureLogicMath} a vynásobte jej pomocí {THING:StructureLogicMemory} označeného Invertovat.\n"
+"            \n"
+"Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylightSensor}. V tomto případě musíme data upravit o -90. To provedete načtením výstupní hodnoty {THING:StructureLogicMath} a přidáním do {THING:StructureLogicMemory} označeného Posun."
 
 #: /Language/Interface/Record[Key='PlaceLogicMath2']
 msgctxt "Interface.PlaceLogicMath2"
@@ -3106,17 +3111,17 @@ msgstr "Umístěte druhý {THING:StructureLogicMath} na zvýrazněné místo."
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp1']
 msgctxt "Interface.HorizontalLogicProcessorSetUp1"
 msgid "Turn on the Horizontal Math Unit 1."
-msgstr ""
+msgstr "Zapněte horizontální matematickou jednotku 1."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp2']
 msgctxt "Interface.HorizontalLogicProcessorSetUp2"
 msgid "Set input 1 on Horizontal Math Unit 1 to Horizontal Logic Reader 1."
-msgstr ""
+msgstr "Nastavte vstup 1 na horizontální matematické jednotce 1 na horizontální čtečku logiky 1."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp3']
 msgctxt "Interface.HorizontalLogicProcessorSetUp3"
 msgid "Set input 2 on Horizontal Math Unit 1 to Invert Memory."
-msgstr ""
+msgstr "Nastavte vstup 2 na horizontální matematické jednotce 1 na invertovat paměť."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp4']
 msgctxt "Interface.HorizontalLogicProcessorSetUp4"
@@ -3287,7 +3292,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='FinalStage']
 msgctxt "Interface.FinalStage"
 msgid "Final Stage"
-msgstr ""
+msgstr "Závěrečná fáze"
 
 #: /Language/Interface/Record[Key='FinalStageDescription']
 msgctxt "Interface.FinalStageDescription"
