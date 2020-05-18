@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-17 21:54+0000\n"
-"Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
+"PO-Revision-Date: 2020-05-18 08:42+0000\n"
+"Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -2675,6 +2675,8 @@ msgid ""
 "Aligning solar panels can be a time-consuming task. To speed up the job, link the solar panels together and connect them to a control console, so you can manually adjust their positions all at once."
 " Everything you need is in the crate."
 msgstr ""
+"Alinear paneles solares puede ser una tarea que requiere mucho tiempo. Para acelerar el trabajo, conecte los paneles solares y conéctelos a una consola de control, para que pueda ajustar manualmente"
+" sus posiciones de una vez. Todo lo que necesitas está en la caja."
 
 #: /Language/Interface/Record[Key='ConsoleManuallControl1']
 msgctxt "Interface.ConsoleManuallControl1"
@@ -2694,7 +2696,7 @@ msgstr "Configuración del control manual de la consola"
 #: /Language/Interface/Record[Key='ConsoleManualControlSetUpDescription']
 msgctxt "Interface.ConsoleManualControlSetUpDescription"
 msgid "Just like setting up an airlock, you must program the solar panel control circuit using a {THING:CircuitboardSolarControl}."
-msgstr ""
+msgstr "Al igual que al configurar una esclusa de aire, debe programar el circuito de control del panel solar utilizando un {THING:CircuitboardSolarControl}."
 
 #: /Language/Interface/Record[Key='ConsoleManualControlSetupTask1']
 msgctxt "Interface.ConsoleManualControlSetupTask1"
@@ -2718,6 +2720,9 @@ msgid ""
 "            \n"
 "Once complete remove the data disk, you can now adjust the horizontal and vertical angle of all the connected Solar Panels, as well as monitor power output"
 msgstr ""
+"Encienda la consola y seleccione los cuatro paneles solares que se muestran. \n"
+"            \n"
+"Una vez completado, retire el disco de datos, ahora puede ajustar el ángulo horizontal y vertical de todos los paneles solares conectados, así como monitorear la salida de energía"
 
 #: /Language/Interface/Record[Key='ConsoleManualControlSetupTask4']
 msgctxt "Interface.ConsoleManualControlSetupTask4"
@@ -2741,6 +2746,9 @@ msgid ""
 "            \n"
 "The first step is to place daylight sensors. One will measure the horizontal angle of the sun, while the other will measure the vertical angle. This will provide full daytime tracking on any planet."
 msgstr ""
+"El seguimiento solar automático maximiza la potencia producida por los paneles solares y significa que no necesita ajustarlos manualmente para enfrentar el sol.\n"
+"            \n"
+"El primer paso es colocar sensores de luz natural. Uno medirá el ángulo horizontal del sol, mientras que el otro medirá el ángulo vertical. Esto proporcionará un seguimiento completo durante el día en cualquier planeta."
 
 #: /Language/Interface/Record[Key='PickUpDaylightSensor']
 msgctxt "Interface.PickUpDaylightSensor"
@@ -2784,6 +2792,9 @@ msgid ""
 "            \n"
 "Daylight sensors have 3 modes: Default, Horizontal, and Vertical. Each mode changes the output solar angle. In this case, we need to set the sensor to Horizontal, which is mode 1. To do this, set the Horizontal Memory Module to a value of 1, and the logic writer will write that value to the sensor. "
 msgstr ""
+"Ahora que tiene las unidades {THING: StructureLogicMemory} instaladas y un sistema de seguimiento solar configurado, debe establecer valores específicos en {THING: StructureLogicMemory} utilizando {THING: ItemScrewdriver}. Los valores dependen de la posición y la rotación de {THING: StructureDaylightSensor} y los paneles solares. \n"
+"            \n"
+"Los sensores de luz natural tienen 3 modos: predeterminado, horizontal y vertical. Cada modo cambia el ángulo solar de salida. En este caso, necesitamos configurar el sensor en Horizontal, que es el modo 1. Para hacer esto, configure el Módulo de Memoria Horizontal en un valor de 1, y el escritor lógico escribirá ese valor en el sensor. "
 
 #: /Language/Interface/Record[Key='SetMemoryDescription2']
 msgctxt "Interface.SetMemoryDescription2"
@@ -2792,12 +2803,17 @@ msgid ""
 "            \n"
 "We apply this value to Horizontal math unit 2, when we add it to the output value from Horizontal math unit 1."
 msgstr ""
+"Ahora necesitamos establecer un desplazamiento horizontal, para corregir las posiciones y rotaciones del panel solar y los sensores de luz natural. Si su sensor solar está en un ángulo de 90 grados con respecto a sus paneles solares, el desplazamiento ajustará los datos del ángulo solar para que los paneles solares miren hacia el sol.\n"
+"            \n"
+"Aplicamos este valor a la unidad matemática horizontal 2, cuando lo agregamos al valor de salida de la unidad matemática horizontal 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription3']
 msgctxt "Interface.SetMemoryDescription3"
 msgid ""
 "As solar sensors provide a negative value, you must turn a negative value into a positive one. To do this, multiply the Invert Memory value against the solar sensor value using Horizontal Math 1."
 msgstr ""
+"Como los sensores solares proporcionan un valor negativo, debe convertir un valor negativo en uno positivo. Para hacer esto, multiplique el valor de Invertir memoria contra el valor del sensor solar"
+" usando Horizontal Math 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription5']
 msgctxt "Interface.SetMemoryDescription5"
@@ -2806,6 +2822,9 @@ msgid ""
 "            \n"
 "To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage."
 msgstr ""
+"El eje vertical de los paneles solares se mide como un porcentaje, mientras que los sensores emiten datos del ángulo solar en grados de 0 a 150.\n"
+"            \n"
+"Para hacer que los paneles solares sean compatibles con los sensores, usamos Vertical Logic Math 1 para dividir los datos del sensor por 1.5, convirtiendo así el grado en un porcentaje."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription4']
 msgctxt "Interface.SetMemoryDescription4"
