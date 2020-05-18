@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-18 09:05+0000\n"
-"Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
+"PO-Revision-Date: 2020-05-18 14:14+0000\n"
+"Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -3188,12 +3188,12 @@ msgstr "Establezca la entrada del Escritor de lotes horizontales en Horizontal M
 #: /Language/Interface/Record[Key='HorizontalBatchWritterSetup2']
 msgctxt "Interface.HorizontalBatchWritterSetup2"
 msgid "Set the output data to write to {THING:StructureSolarPanelDual}"
-msgstr ""
+msgstr "Establezca los datos de salida para escribir en {THING:StructureSolarPanelDual}"
 
 #: /Language/Interface/Record[Key='HorizontalBatchWritterSetup3']
 msgctxt "Interface.HorizontalBatchWritterSetup3"
 msgid "Set the logic type on the {THING:StructureLogicBatchWriter} to Horizontal."
-msgstr ""
+msgstr "Establezca el tipo de lógica en {THING:StructureLogicBatchWriter} en Horizontal."
 
 #: /Language/Interface/Record[Key='HorizontalBatchWritterSetup4']
 msgctxt "Interface.HorizontalBatchWritterSetup4"
@@ -3212,6 +3212,9 @@ msgid ""
 "\t\t\t\n"
 "But what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}."
 msgstr ""
+"Ahora tenemos un circuito de seguimiento solar que rastreará la luz solar durante todo el día.\n"
+"\\t\\t\\t\n"
+"¿Pero qué hay de la noche? Para esto, configuraremos otro módulo que actuará como modo de suspensión. Cuando los sensores de luz diurna están inactivos o no reciben luz diurna, los paneles solares se restablecerán a su posición predeterminada. Para hacer esto, necesitamos usar las unidades {THING:StructureLogicReader} para leer el estado activo en cada {THING:StructureDaylightSensor}."
 
 #: /Language/Interface/Record[Key='LogicSelect1']
 msgctxt "Interface.LogicSelect1"
@@ -3265,6 +3268,9 @@ msgid ""
 "\n"
 "Lastly, change the input value on each {THING:StructureLogicBatchWriter} to use the output data from each {THING:StructureLogicSelect}."
 msgstr ""
+"A continuación, use las unidades {THING:StructureLogicSelect} para leer la {THING:StructureLogicReader} recién colocada y elija si desea usar las salidas de {THING:StructureLogicMath} o los valores de desplazamiento de {THING:StructureLogicMemory}.\n"
+"\n"
+"Por último, cambie el valor de entrada en cada {THING:StructureLogicBatchWriter} para usar los datos de salida de cada {THING:StructureLogicSelect}."
 
 #: /Language/Interface/Record[Key='SleepModePart2Task1']
 msgctxt "Interface.SleepModePart2Task1"
