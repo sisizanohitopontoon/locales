@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-18 08:42+0000\n"
-"Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
+"PO-Revision-Date: 2020-05-18 13:09+0000\n"
+"Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -2833,6 +2833,9 @@ msgid ""
 "\t\t\t\n"
 "To do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards)."
 msgstr ""
+"Por último, calibre la posición vertical del panel solar.\n"
+"\\t\\t\\t\n"
+"Para hacer esto, tome el porcentaje de ángulo solar vertical de Vertical Math 1 y agregue 50% usando Agregar memoria en Vertical Math 2. Esto hará que 50% sea el punto cero horizontal del panel solar (plano, hacia arriba)."
 
 #: /Language/Interface/Record[Key='SetMemory0']
 msgctxt "Interface.SetMemory0"
@@ -2852,7 +2855,7 @@ msgstr "Poner la memoria de inversión a un valor de -1"
 #: /Language/Interface/Record[Key='SetMemory4']
 msgctxt "Interface.SetMemory4"
 msgid "Set Add Memory to a value of 50"
-msgstr ""
+msgstr "Establezca Agregar memoria a un valor de 50"
 
 #: /Language/Interface/Record[Key='SetMemory3']
 msgctxt "Interface.SetMemory3"
@@ -2873,11 +2876,15 @@ msgid ""
 "\n"
 "    "
 msgstr ""
+"Un escritor de lógica nos permite escribir un valor dado a ciertos tipos de lógica en un dispositivo.\n"
+"\\t\\t\\t\n"
+"Nota: Debe colocar el escritor lógico con el zócalo de datos de salida conectado al dispositivo en el que está escribiendo, ya que algunos datos del circuito lógico fluyen en una dirección específica. Diseña los circuitos en consecuencia.\n"
+"    "
 
 #: /Language/Interface/Record[Key='SetupLogicWritter']
 msgctxt "Interface.SetupLogicWritter"
 msgid "Setting a Logic Writer"
-msgstr ""
+msgstr "Configuración de un escritor lógico"
 
 #: /Language/Interface/Record[Key='SetupLogicWritterDescription']
 msgctxt "Interface.SetupLogicWritterDescription"
@@ -2885,6 +2892,8 @@ msgid ""
 "We need to set our horizontal sensor to the horizontal mode. To do this we will use a {THING:StructureLogicWriter} to set the mode on the sensor by reading a value from a "
 "{THING:StructureLogicMemory}"
 msgstr ""
+"Necesitamos configurar nuestro sensor horizontal en el modo horizontal. Para hacer esto, utilizaremos un {THING: StructureLogicWriter} para establecer el modo en el sensor leyendo un valor de un "
+"{THING: StructureLogicMemory}"
 
 #: /Language/Interface/Record[Key='SetupLogicWritter1']
 msgctxt "Interface.SetupLogicWritter1"
@@ -2899,12 +2908,12 @@ msgstr "Ponga la entrada {THING:StructureLogicWriter} en la memoria del modo hor
 #: /Language/Interface/Record[Key='SetupLogicWritter3']
 msgctxt "Interface.SetupLogicWritter3"
 msgid "Set the {THING:StructureLogicWriter} output to the Horizontal Day Light Sensor."
-msgstr ""
+msgstr "Establezca la salida {THING:StructureLogicWriter} en el sensor horizontal de luz diurna."
 
 #: /Language/Interface/Record[Key='SetupLogicWritter4']
 msgctxt "Interface.SetupLogicWritter4"
 msgid "Set the {THING:StructureLogicWriter} to write to the sensor's logic value called Mode."
-msgstr ""
+msgstr "Configure {THING:StructureLogicWriter} para escribir en el valor lógico del sensor denominado Modo."
 
 #: /Language/Interface/Record[Key='PickUpLogicProcessor']
 msgctxt "Interface.PickUpLogicProcessor"
@@ -2924,7 +2933,7 @@ msgstr "Configuración de los lectores lógicos"
 #: /Language/Interface/Record[Key='LogicReaderSetupDescription']
 msgctxt "Interface.LogicReaderSetupDescription"
 msgid "A logic reader does what it sounds like: it reads logic. We will use these to read the solar angle from each sensor."
-msgstr ""
+msgstr "Un lector lógico hace lo que parece: lee lógica. Los usaremos para leer el ángulo solar de cada sensor."
 
 #: /Language/Interface/Record[Key='LogicReader1']
 msgctxt "Interface.LogicReader1"
@@ -2934,37 +2943,37 @@ msgstr "Coloca una {THING:StructureLogicReader} en la posición resaltada."
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup']
 msgctxt "Interface.LogicReaderLogicSetup"
 msgid "Logic Reader SetUp"
-msgstr ""
+msgstr "Configuración del lector lógico"
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetupDescription']
 msgctxt "Interface.LogicReaderLogicSetupDescription"
 msgid "We now need to set up our newly placed Logic Readers. As with the Logic Writer, we need to set the inputs."
-msgstr ""
+msgstr "Ahora tenemos que configurar nuestros lectores lógicos recién colocados. Al igual que con el Escritor lógico, necesitamos establecer las entradas."
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup1']
 msgctxt "Interface.LogicReaderLogicSetup1"
 msgid "Set Horizontal Logic Reader 1's input to Horizontal Day Light Sensor."
-msgstr ""
+msgstr "Establezca la entrada de Horizontal Logic Reader 1 en Sensor de luz de día horizontal."
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup2']
 msgctxt "Interface.LogicReaderLogicSetup2"
 msgid "Set the Logic value to Solar angle."
-msgstr ""
+msgstr "Establezca el valor lógico en ángulo solar."
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup3']
 msgctxt "Interface.LogicReaderLogicSetup3"
 msgid "Set the Vertical Logic Reader 1 to Vertical Day Light Sensor."
-msgstr ""
+msgstr "Configure el Lector de lógica vertical 1 en Sensor de luz vertical de día."
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup4']
 msgctxt "Interface.LogicReaderLogicSetup4"
 msgid "Set the Logic value to Solar Angle."
-msgstr ""
+msgstr "Establezca el valor lógico en ángulo solar."
 
 #: /Language/Interface/Record[Key='VerticalLogicProcessors']
 msgctxt "Interface.VerticalLogicProcessors"
 msgid "Logic Processors."
-msgstr ""
+msgstr "Procesadores Lógicos."
 
 #: /Language/Interface/Record[Key='VerticalLogicProcessorsDescription']
 msgctxt "Interface.VerticalLogicProcessorsDescription"
@@ -2975,6 +2984,11 @@ msgid ""
 "  \n"
 "The next {THING:StructureLogicMath} will read the input of our first {THING:StructureLogicMath} and add 50 using a {THING:StructureLogicMemory} named offset."
 msgstr ""
+"Ahora necesitamos realizar algunas operaciones matemáticas con los valores leídos por {THING:StructureLogicReader} y {THING:StructureLogicMemory}. Comience con el módulo de datos vertical del circuito.\n"
+"            \n"
+"La primera {THING:StructureLogicMath} dividirá los datos de {THING:StructureLogicReader} por 1.5 utilizando una {THING:StructureLogicMemory}.\n"
+"  \n"
+"La próxima {THING:StructureLogicMath} leerá la entrada de nuestra primera {THING:StructureLogicMath} y agregará 50 usando un desplazamiento denominado {THING:StructureLogicMemory}."
 
 #: /Language/Interface/Record[Key='PlaceLogicMath']
 msgctxt "Interface.PlaceLogicMath"
@@ -2989,87 +3003,87 @@ msgstr "Coloca la siguiente {THING:StructureLogicMath} en la posición resaltada
 #: /Language/Interface/Record[Key='LogicMathVertical']
 msgctxt "Interface.LogicMathVertical"
 msgid "Logic Math Vertical Setup."
-msgstr ""
+msgstr "Configuración vertical de lógica matemática."
 
 #: /Language/Interface/Record[Key='LogicMathVerticalDescription']
 msgctxt "Interface.LogicMathVerticalDescription"
 msgid "Setting up the math processors is one of the most important steps in creating a logic circuit, as it handles all the calculations required for most tasks."
-msgstr ""
+msgstr "Configurar los procesadores matemáticos es uno de los pasos más importantes para crear un circuito lógico, ya que maneja todos los cálculos necesarios para la mayoría de las tareas."
 
 #: /Language/Interface/Record[Key='LogicMathVertical1']
 msgctxt "Interface.LogicMathVertical1"
 msgid "Turn on Vertical Math Unit 1."
-msgstr ""
+msgstr "Encienda Vertical Math Unit 1."
 
 #: /Language/Interface/Record[Key='LogicMathVertical2']
 msgctxt "Interface.LogicMathVertical2"
 msgid "Set input 1 on Vertical Math Unit 1 to read Vertical Logic Reader 1."
-msgstr ""
+msgstr "Configure la entrada 1 en Vertical Math Unit 1 para leer Vertical Logic Reader 1."
 
 #: /Language/Interface/Record[Key='LogicMathVertical3']
 msgctxt "Interface.LogicMathVertical3"
 msgid "Set input 2 on Vertical Math Unit 1 to read Tilt Memory."
-msgstr ""
+msgstr "Configure la entrada 2 en la Unidad de Matemática Vertical 1 para leer la Memoria de Inclinación."
 
 #: /Language/Interface/Record[Key='LogicMathVertical4']
 msgctxt "Interface.LogicMathVertical4"
 msgid "Set the Math operation type on Vertical Math Unit 1 to 'Divide'."
-msgstr ""
+msgstr "Establezca el tipo de operación Matemática en la Unidad Matemática Vertical 1 en 'Dividir'."
 
 #: /Language/Interface/Record[Key='LogicMathVertical5']
 msgctxt "Interface.LogicMathVertical5"
 msgid "Turn on Vertical Math Unit 2."
-msgstr ""
+msgstr "Encienda Vertical Math Unit 2."
 
 #: /Language/Interface/Record[Key='LogicMathVertical6']
 msgctxt "Interface.LogicMathVertical6"
 msgid "Set input 1 on Vertical Math Unit 2 to read Vertical Math Unit 1."
-msgstr ""
+msgstr "Establezca la entrada 1 en la Unidad de Matemática Vertical 2 para leer la Unidad de Matemática Vertical 1."
 
 #: /Language/Interface/Record[Key='LogicMathVertical7']
 msgctxt "Interface.LogicMathVertical7"
 msgid "Set input 2 on Vertical Math Unit 2 to read Add Memory."
-msgstr ""
+msgstr "Configure la entrada 2 en la unidad vertical de matemáticas 2 para leer Agregar memoria."
 
 #: /Language/Interface/Record[Key='LogicMathVertical8']
 msgctxt "Interface.LogicMathVertical8"
 msgid "Set the Math operation type on Vertical Math Unit 2 to 'Add'."
-msgstr ""
+msgstr "Establezca el tipo de operación Matemática en Vertical Math Unit 2 en 'Agregar'."
 
 #: /Language/Interface/Record[Key='VerticalBatchWriter']
 msgctxt "Interface.VerticalBatchWriter"
 msgid "The Vertical Batch Writer"
-msgstr ""
+msgstr "El escritor de lotes verticales"
 
 #: /Language/Interface/Record[Key='VerticalBatchWriterDescription']
 msgctxt "Interface.VerticalBatchWriterDescription"
 msgid "The Batch Writer writes to all connected devices of a given type. Use this to write the newly calculated vertical value to the Solar Panels."
-msgstr ""
+msgstr "Batch Writer escribe en todos los dispositivos conectados de un tipo determinado. Use esto para escribir el valor vertical recién calculado en todos los paneles solares a la vez."
 
 #: /Language/Interface/Record[Key='VerticalBatchWritterSetup']
 msgctxt "Interface.VerticalBatchWritterSetup"
 msgid "Vertical Batch Writer Setup"
-msgstr ""
+msgstr "Configuración de escritor de lote vertical"
 
 #: /Language/Interface/Record[Key='VerticalBatchWritterSetupDescription']
 msgctxt "Interface.VerticalBatchWritterSetupDescription"
 msgid "Just like the other circuits, you need to set up the {THING:StructureLogicBatchWriter} to send values to the Solar Panels."
-msgstr ""
+msgstr "Al igual que los otros circuitos, debe configurar {THING:StructureLogicBatchWriter} para enviar valores a los paneles solares."
 
 #: /Language/Interface/Record[Key='VerticalBatchWritterSetup1']
 msgctxt "Interface.VerticalBatchWritterSetup1"
 msgid "Set the input of the {THING:StructureLogicBatchWriter} to read the value of Vertical Math Unit 2."
-msgstr ""
+msgstr "Establezca la entrada de {THING:StructureLogicBatchWriter} para leer el valor de Vertical Math Unit 2."
 
 #: /Language/Interface/Record[Key='VerticalBatchWritterSetup2']
 msgctxt "Interface.VerticalBatchWritterSetup2"
 msgid "Set the output data to write to {THING:StructureSolarPanelDual}."
-msgstr ""
+msgstr "Establezca los datos de salida para escribir en {THING:StructureSolarPanelDual}."
 
 #: /Language/Interface/Record[Key='VerticalBatchWritterSetup3']
 msgctxt "Interface.VerticalBatchWritterSetup3"
 msgid "Set the logic type on the {THING:StructureLogicBatchWriter} to Vertical."
-msgstr ""
+msgstr "Establezca el tipo de lógica en {THING:StructureLogicBatchWriter} en Vertical."
 
 #: /Language/Interface/Record[Key='VerticalBatchWritterSetup4']
 msgctxt "Interface.VerticalBatchWritterSetup4"
@@ -3089,7 +3103,7 @@ msgstr "Coloca una {THING:StructureLogicBatchWriter} en la posición resaltada."
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp']
 msgctxt "Interface.HorizontalLogicProcessorSetUp"
 msgid "Horizontal Logic Processors"
-msgstr ""
+msgstr "Procesadores lógicos horizontales"
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUpDescription']
 msgctxt "Interface.HorizontalLogicProcessorSetUpDescription"
@@ -3290,7 +3304,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='SleepModePart2Task8']
 msgctxt "Interface.SleepModePart2Task8"
 msgid "Turn on Horizontal Logic Selector."
-msgstr ""
+msgstr "Active el selector de lógica horizontal."
 
 #: /Language/Interface/Record[Key='FinalStage']
 msgctxt "Interface.FinalStage"
