@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-18 13:24+0000\n"
+"PO-Revision-Date: 2020-05-18 13:29+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3195,6 +3195,9 @@ msgid ""
 "\t\t\t\n"
 "But what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}."
 msgstr ""
+"Nyní máme sluneční sledovací obvod, který bude sledovat sluneční světlo po celý den.\n"
+"\\t\\t\\t\n"
+"Ale co třeba noc? Za tímto účelem nastavíme další modul, který bude fungovat jako režim spánku. Pokud jsou senzory denního světla neaktivní nebo nepřijímají denní světlo, solární panely se vrátí do výchozí polohy. Abychom to mohli udělat, musíme použít jednotky {THING:StructureLogicReader} ke čtení aktivního stavu na každé {THING:StructureDaylightSensor}."
 
 #: /Language/Interface/Record[Key='LogicSelect1']
 msgctxt "Interface.LogicSelect1"
@@ -3214,12 +3217,12 @@ msgstr "Nastavení režimu spánku"
 #: /Language/Interface/Record[Key='SleepModeSetupDescription']
 msgctxt "Interface.SleepModeSetupDescription"
 msgid "Now we need to read the the active state of the solar sensors. This will tell us whether it is day or night."
-msgstr ""
+msgstr "Nyní si musíme přečíst aktivní stav solárních senzorů. To nám řekne, zda je den nebo noc."
 
 #: /Language/Interface/Record[Key='SleepModeSetupTask1']
 msgctxt "Interface.SleepModeSetupTask1"
 msgid "Set the input device on the Vertical Logic Reader 2 to Vertical Day Light Sensor"
-msgstr ""
+msgstr "Nastavte vstupní zařízení ve vertikální čtečce logiky 2 na senzor vertikálního denního světla"
 
 #: /Language/Interface/Record[Key='SleepModeSetupTask2']
 msgctxt "Interface.SleepModeSetupTask2"
@@ -3248,6 +3251,9 @@ msgid ""
 "\n"
 "Lastly, change the input value on each {THING:StructureLogicBatchWriter} to use the output data from each {THING:StructureLogicSelect}."
 msgstr ""
+"Dále použijte jednotky {THING:StructureLogicSelect} ke čtení nově umístěných jednotek {THING:StructureLogicReader} a zvolte, zda chcete použít výstupy z {THING:StructureLogicMath} nebo hodnoty posunu z {THING:StructureLogicMemory}.\n"
+"\n"
+"Nakonec změňte vstupní hodnotu na každé {THING:StructureLogicBatchWriter} pro použití výstupních dat z každého {THING:StructureLogicSelect}."
 
 #: /Language/Interface/Record[Key='SleepModePart2Task1']
 msgctxt "Interface.SleepModePart2Task1"
