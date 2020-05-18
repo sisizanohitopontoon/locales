@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-18 10:49+0000\n"
+"PO-Revision-Date: 2020-05-18 10:55+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2782,12 +2782,17 @@ msgid ""
 "            \n"
 "We apply this value to Horizontal math unit 2, when we add it to the output value from Horizontal math unit 1."
 msgstr ""
+"Nyní musíme nastavit horizontální posun, abychom opravili polohy a rotace solárního panelu a senzorů denního světla. Pokud je váš solární senzor v úhlu 90 stupňů k vašim solárním panelům, posun upraví údaje o slunečním úhlu tak, aby solární panely směřovaly ke slunci.\n"
+"            \n"
+"Tuto hodnotu použijeme na horizontální matematickou jednotku 2, když ji přidáme k výstupní hodnotě z horizontální matematické jednotky 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription3']
 msgctxt "Interface.SetMemoryDescription3"
 msgid ""
 "As solar sensors provide a negative value, you must turn a negative value into a positive one. To do this, multiply the Invert Memory value against the solar sensor value using Horizontal Math 1."
 msgstr ""
+"Protože sluneční senzory poskytují zápornou hodnotu, musíte proměnit zápornou hodnotu na pozitivní. Za tímto účelem vynásobte hodnotu invertní paměti proti hodnotě slunečního senzoru pomocí "
+"horizontální matematiky 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription5']
 msgctxt "Interface.SetMemoryDescription5"
@@ -2796,6 +2801,9 @@ msgid ""
 "            \n"
 "To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage."
 msgstr ""
+"Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o slunečních úhlech ve stupních od 0 do 150.\n"
+"            \n"
+"Aby byly solární panely kompatibilní se senzory, používáme vertikální logiku matematiky 1 k rozdělení dat senzoru o 1.5, čímž převedeme stupeň na procenta."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription4']
 msgctxt "Interface.SetMemoryDescription4"
