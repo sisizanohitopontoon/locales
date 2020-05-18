@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-18 11:16+0000\n"
+"PO-Revision-Date: 2020-05-18 11:21+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2951,7 +2951,7 @@ msgstr "Nastavte logickou hodnotu na sluneční úhel."
 #: /Language/Interface/Record[Key='VerticalLogicProcessors']
 msgctxt "Interface.VerticalLogicProcessors"
 msgid "Logic Processors."
-msgstr ""
+msgstr "Logické procesory."
 
 #: /Language/Interface/Record[Key='VerticalLogicProcessorsDescription']
 msgctxt "Interface.VerticalLogicProcessorsDescription"
@@ -2962,6 +2962,11 @@ msgid ""
 "  \n"
 "The next {THING:StructureLogicMath} will read the input of our first {THING:StructureLogicMath} and add 50 using a {THING:StructureLogicMemory} named offset."
 msgstr ""
+"Nyní musíme provést některé matematické hodnoty přečtené v {THING:StructureLogicReader} a {THING:StructureLogicMemory}. Začněte s vertikálním datovým modulem obvodu.\n"
+"            \n"
+"První {THING:StructureLogicMath} rozdělí data {THING:StructureLogicReader} o 1.5 pomocí {THING:StructureLogicMemory}.\n"
+"  \n"
+"Další {THING:StructureLogicMath} přečte vstup našeho prvního {THING:StructureLogicMath} a přidá 50 pomocí {THING:StructureLogicMemory} pojmenovaného posun."
 
 #: /Language/Interface/Record[Key='PlaceLogicMath']
 msgctxt "Interface.PlaceLogicMath"
@@ -2976,12 +2981,12 @@ msgstr "Umístěte další {THING:StructureLogicMath} na zvýrazněné místo."
 #: /Language/Interface/Record[Key='LogicMathVertical']
 msgctxt "Interface.LogicMathVertical"
 msgid "Logic Math Vertical Setup."
-msgstr ""
+msgstr "Vertikální nastavení matematické logiky."
 
 #: /Language/Interface/Record[Key='LogicMathVerticalDescription']
 msgctxt "Interface.LogicMathVerticalDescription"
 msgid "Setting up the math processors is one of the most important steps in creating a logic circuit, as it handles all the calculations required for most tasks."
-msgstr ""
+msgstr "Nastavení matematických procesorů je jedním z nejdůležitějších kroků při vytváření logického obvodu, protože zpracovává všechny výpočty potřebné pro většinu úkolů."
 
 #: /Language/Interface/Record[Key='LogicMathVertical1']
 msgctxt "Interface.LogicMathVertical1"
