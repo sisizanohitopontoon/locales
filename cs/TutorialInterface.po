@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-18 11:01+0000\n"
+"PO-Revision-Date: 2020-05-18 11:06+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2855,18 +2855,23 @@ msgid ""
 "\n"
 "    "
 msgstr ""
+"Zapisovač logiky nám umožňuje zapsat danou hodnotu do určitých typů logiky na zařízení. \n"
+"\\t\\t\\t\n"
+"Poznámka: Zapisovač logiky musíte umístit tak, aby se výstupní datová zásuvka připojovala k zařízení, do kterého zapisujete, protože některá data logických obvodů proudí specifickým směrem. Navrhněte obvody odpovídajícím způsobem.\n"
+"\n"
+"    "
 
 #: /Language/Interface/Record[Key='SetupLogicWritter']
 msgctxt "Interface.SetupLogicWritter"
 msgid "Setting a Logic Writer"
-msgstr ""
+msgstr "Nastavení zapisovače logiky"
 
 #: /Language/Interface/Record[Key='SetupLogicWritterDescription']
 msgctxt "Interface.SetupLogicWritterDescription"
 msgid ""
 "We need to set our horizontal sensor to the horizontal mode. To do this we will use a {THING:StructureLogicWriter} to set the mode on the sensor by reading a value from a "
 "{THING:StructureLogicMemory}"
-msgstr ""
+msgstr "Musíme nastavit horizontální senzor do horizontálního režimu. K tomu použijeme {THING:StructureLogicWriter} k nastavení režimu na senzoru čtením hodnoty z {THING:StructureLogicMemory}"
 
 #: /Language/Interface/Record[Key='SetupLogicWritter1']
 msgctxt "Interface.SetupLogicWritter1"
@@ -2881,7 +2886,7 @@ msgstr "Pomocí {THING:ItemScrewdriver} nastavte vstup {THING:StructureLogicWrit
 #: /Language/Interface/Record[Key='SetupLogicWritter3']
 msgctxt "Interface.SetupLogicWritter3"
 msgid "Set the {THING:StructureLogicWriter} output to the Horizontal Day Light Sensor."
-msgstr ""
+msgstr "Nastavte výstup {THING:StructureLogicWriter} na horizontální senzor denního světla."
 
 #: /Language/Interface/Record[Key='SetupLogicWritter4']
 msgctxt "Interface.SetupLogicWritter4"
