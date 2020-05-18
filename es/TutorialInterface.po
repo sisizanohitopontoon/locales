@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-18 14:14+0000\n"
+"PO-Revision-Date: 2020-05-18 14:16+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3114,6 +3114,11 @@ msgid ""
 "            \n"
 "The next step is to offset the data delivered by the {THING:StructureDaylightSensor}. In this case we need to adjust the data by -90. Do this by reading in the output value of the {THING:StructureLogicMath} and adding it to the {THING:StructureLogicMemory} labelled Offset."
 msgstr ""
+"Al igual que el módulo vertical del circuito, necesitamos realizar cálculos en los datos de entrada horizontales.\n"
+"\\t\\t\\t\n"
+"Primero, invierta el valor negativo de los datos del ángulo solar horizontal multiplicándolo por -1. Para hacer esto, lea los datos del lector lógico con un {THING:StructureLogicMath} y multiplíquese con el {THING:StructureLogicMemory} etiquetado como Invertir.\n"
+"            \n"
+"El siguiente paso es compensar los datos entregados por {THING:StructureDaylightSensor}. En este caso, necesitamos ajustar los datos en -90. Haga esto leyendo el valor de salida de {THING:StructureLogicMath} y agregándolo al {THING:StructureLogicMemory} etiquetado Offset."
 
 #: /Language/Interface/Record[Key='PlaceLogicMath2']
 msgctxt "Interface.PlaceLogicMath2"
