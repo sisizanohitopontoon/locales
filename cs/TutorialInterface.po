@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-20 21:23+0000\n"
+"PO-Revision-Date: 2020-05-20 21:34+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2113,7 +2113,6 @@ msgid "Airlock upgrades"
 msgstr "Vylepšení přechodové komory"
 
 #: /Language/Interface/Record[Key='AirlockUpgradesDescription']
-#, fuzzy
 msgctxt "Interface.AirlockUpgradesDescription"
 msgid ""
 "Now that you have a basic Airlock, lets make a few upgrades to convert it into an Advanced Airlock. \n"
@@ -2122,16 +2121,16 @@ msgid ""
 "\n"
 "To create an advanced Airlock you will need to build another {THING:StructureActiveVent} inside it, and a passive vent outside, then connect them with pipes."
 msgstr ""
-"Nyní, když máte základní přechodovou komoru, můžeme provést několik vylepšení, aby jste ji převedli na Pokročilou přechodovou komoru. Základní přechodová komora bude dobře fungovat na Měsíci nebo na"
-" planetách bez atmosféry, ale pokud chcete zabránit vstupu jedovatých plynů nebo vysokých/nízkých teplot na vaši základnu, budete potřebovat Pokročilou přechodovou komoru. Pokročilá přechodová "
-"komora odčerpá jakoukoli atmosféru z komory a poté ji znovu natlakuje na požadovanou atmosférou. K vybudování pokročilé přechodové komory budete potřebovat další {THING:StructureActiveVent}, nějaké "
-"trubky a dráty, spolu s {THING:CircuitboardAdvAirlockControl}, který nahradí {THING:CircuitboardAirlockControl} ze základní přechodové komory."
+"Nyní, když máte základní přechodovou komoru, pojďme provést několik vylepšení a převést ji na pokročilou přechodovou komoru.\n"
+"\n"
+"Základní přechodové komory dobře fungují na planetách bez atmosféry, ale abyste zabránili vniknutí jedovatých plynů nebo extrémních teplot do vaší základny, potřebujete pokročilou přechodovou komoru. Tyto odčerpají atmosféru ven, než natlakují přechodovou komoru požadovanou atmosférou.\n"
+"\n"
+"Chcete-li vytvořit pokročilou přechodovou komoru, budete muset uvnitř vytvořit další {THING:StructureActiveVent} a pasivní větrání venku a pak je spojit s trubkami."
 
 #: /Language/Interface/Record[Key='AirlockUpgradesTask1']
-#, fuzzy
 msgctxt "Interface.AirlockUpgradesTask1"
 msgid "Place an {THING:StructureActiveVent} in the highlighted spot in the airlock."
-msgstr "Umístěte {THING:StructureActiveVent} do zvýrazněné oblasti."
+msgstr "Umístěte {THING:StructureActiveVent} na zvýrazněné místo."
 
 #: /Language/Interface/Record[Key='AirlockCableCorner']
 msgctxt "Interface.AirlockCableCorner"
@@ -2149,24 +2148,16 @@ msgid "Advanced Pressure"
 msgstr "Pokročilý tlak"
 
 #: /Language/Interface/Record[Key='AdvancedPressureDescription']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureDescription"
 msgid "Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
-msgstr ""
-"Nyní, když jsou struktury na místě, musíme vyměnit {THING:CircuitboardAirlockControl} za {THING:CircuitboardAdvAirlockControl}\n"
-"        \n"
-"Při programování {THING:CircuitboardAdvAirlockControl} existuje několik rozdílů. Nejprve musíte vybrat interní a externí {THING:StructureActiveVent}. Na rozdíl od dveří se budete muset podívat na přepínač na {THING:StructureActiveVent}, abyste zjistili, zda je či není vzájemně propojitelný. Takto můžete zjistit, které {THING:StructureActiveVent} jste vybrali z nabídky.\n"
-"\n"
-"Poslední věcí, kterou musíte udělat, je vybrat požadovaný vnitřní a vnější tlak, který se nachází v horní části panelu {THING:CircuitboardAdvAirlockControl}. "
+msgstr "Nyní, když jsou struktury na místě, musíme vyměnit {THING:CircuitboardAirlockControl} za {THING:CircuitboardAdvAirlockControl}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask1']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureTask1"
 msgid "Remove the {THING:ItemGlassSheets} from the {THING:StructureConsole} with the crowbar."
-msgstr "Odeberte {THING:ItemGlassSheets} z první {THING:StructureConsole}."
+msgstr "Odstraňte {THING:ItemGlassSheets} z {THING:StructureConsole} pomocí páčidla."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask2']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureTask2"
 msgid "Swap the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
 msgstr "Zaměňte {THING:CircuitboardAirlockControl} za {THING:CircuitboardAdvAirlockControl}."
