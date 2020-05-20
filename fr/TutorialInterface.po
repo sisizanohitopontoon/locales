@@ -1936,13 +1936,15 @@ msgid "Build {THING:StructureCompositeDoor} 2."
 msgstr "Fabriquez une {THING:StructureCompositeDoor} 2"
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask3']
+#, fuzzy
 msgctxt "Interface.CloseTheDoorTask3"
-msgid "Rename the Outter facing {THING:StructureCompositeDoor} to external door or something recognizable."
+msgid "Rename the outer facing {THING:StructureCompositeDoor} to 'External Door'."
 msgstr "Renommez la face de Sortie {THING:StructureCompositeDoor} en porte extérieure ou quelque chose de reconnaissable."
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask4']
+#, fuzzy
 msgctxt "Interface.CloseTheDoorTask4"
-msgid "Rename the Inward facing {THING:StructureCompositeDoor} to Internal door or something recognizable."
+msgid "Rename the inward facing {THING:StructureCompositeDoor} to 'Internal Door."
 msgstr "Renommez la face d'Entrée {THING:StructureCompositeDoor} en porte intérieur ou quelque chose de reconnaissable."
 
 #: /Language/Interface/Record[Key='CreatingASeal']
@@ -1953,7 +1955,10 @@ msgstr "Création d’un sceau"
 #: /Language/Interface/Record[Key='CreatingASealDescription']
 #, fuzzy
 msgctxt "Interface.CreatingASealDescription"
-msgid "Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}. You will then need to rename the newly built doors using the {THING:ItemLabeller} found in the orange crate."
+msgid ""
+"Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.\n"
+"You will then need to rename the newly built doors using the {THING:ItemLabeller}, which can be found in the orange crate.\n"
+"        "
 msgstr "Allez-y et terminez la construction de la {THING:StructureCompositeDoor} avec des {THING:ItemPlasticSheets} et {THING:ItemGlassSheets}."
 
 #: /Language/Interface/Record[Key='CreatingASealTask1']
@@ -2082,11 +2087,11 @@ msgstr "Programmation de sas"
 #, fuzzy
 msgctxt "Interface.AirLockProgrammingDescription"
 msgid ""
-" To programme the Airlock, turn on the {THING:StructureConsole}. Select the {THING:StructureActiveVent} and {THING:StructureGasSensor}.\n"
+" To programme the Airlock, turn on the {THING:StructureConsole}. Select the {THING:StructureActiveVent} and {THING:StructureGasSensor}. Devices highlight green with red text when selected.\n"
 "\n"
-"When selecting the Airlocks, ensure the 'Interior' option is selected for the interior door. Toggle this option by deselecting it, and clicking on the alternate door. The light on the Airlock will turn from green to red, to indicate which Airlock you're programming.\n"
+"Select the two Airlock doors. Selecting one door as 'Exterior' will cause the other to default to 'Internal'. Ensure the doors are correctly assigned.\n"
 "\n"
-"Once the Console has selected a device, that device will be locked under its control, and will not respond to interactions.\n"
+"Once a device is selected, that device will be locked under its control, and will not respond to interactions unless deselected.\n"
 "\n"
 "When you have successfully completed the Airlock set up, the switch on the side of the {THING:StructureConsole} will light up green. You may now remove the Data Disk from the {THING:StructureConsole}.  The Console will be locked, and will not respond to interactions unless you reinsert the Data Disk."
 msgstr ""
@@ -2131,17 +2136,18 @@ msgctxt "Interface.AirlockUpgradesDescription"
 msgid ""
 "Now that you have a basic Airlock, lets make a few upgrades to convert it into an Advanced Airlock. \n"
 "\n"
-"Basic Airlocks will work fine on the moon or planets with no atmosphere, but if you want to prevent poisonous gases or high/low temperatures entering your base, you will need an Advanced Airlock. An Advanced Airlock pumps any atmosphere out of the Airlock, before pressurising it again with the desired atmosphere.\n"
+"Basic Airlocks work well on planets with no atmosphere, but to prevent poisonous gases or extreme temperatures entering your base, you need an Advanced Airlock. These pump atmosphere out, before pressurising the Airlock with the desired atmosphere.\n"
 "\n"
-"To build an advanced Airlock you will need another {THING:StructureActiveVent}, some more pipes and wire, along with the {THING:CircuitboardAdvAirlockControl} to replace the {THING:CircuitboardAirlockControl} from the basic Airlock."
+"To create an advanced Airlock you will need to build another {THING:StructureActiveVent} inside it, and a passive vent outside, then connect them with pipes."
 msgstr ""
 "Maintenant que vous avez un sas de base, il est temps de faire quelques mises à niveau pour le convertir en un sas avancé. Les sas de base fonctionneront aussi bien sur la lune que les planètes sans atmosphère, mais si vous voulez empêcher les gaz toxiques ou les températures élevées/basses d'entrer dans votre base, vous aurez besoin d’un sas avancé. Un sas avancé pompe toute atmosphère hors du sas avant de le pressuriser à nouveau avec l’atmosphère désirée.\n"
 "\n"
 "Pour construire un sas avancé, vous aurez besoin d’un autre {THING:StructureActiveVent} quelques tuyaux et fils plus avec le {THING:CircuitboardAdvAirlockControl} pour remplacer le {THING:CircuitboardAirlockControl} du sas de base."
 
 #: /Language/Interface/Record[Key='AirlockUpgradesTask1']
+#, fuzzy
 msgctxt "Interface.AirlockUpgradesTask1"
-msgid "Place another {THING:StructureActiveVent} in the highlighted spot."
+msgid "Place an {THING:StructureActiveVent} in the highlighted spot in the airlock."
 msgstr "Placez un autre {THING:StructureActiveVent} à l'endroit en surbrillance."
 
 #: /Language/Interface/Record[Key='AirlockCableCorner']
@@ -2162,12 +2168,7 @@ msgstr "Pression avancée"
 #: /Language/Interface/Record[Key='AdvancedPressureDescription']
 #, fuzzy
 msgctxt "Interface.AdvancedPressureDescription"
-msgid ""
-"Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl} \n"
-"        \n"
-"There are a few differences when programming the {THING:CircuitboardAdvAirlockControl}. Firstly, you need to select an internal and external {THING:StructureActiveVent}. Unlike doors, you will need to look at the switch on the {THING:StructureActiveVent} to see if it’s interactable or not. This is how you can tell which {THING:StructureActiveVent} you have selected from the menu.\n"
-"\n"
-"The last thing you need to do is select the desired internal and external pressure, found near the top of the {THING:CircuitboardAdvAirlockControl} panel. "
+msgid "Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
 msgstr ""
 "Maintenant que les structures sont en place, nous devons échanger le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl} \n"
 "        \n"
@@ -2178,12 +2179,13 @@ msgstr ""
 #: /Language/Interface/Record[Key='AdvancedPressureTask1']
 #, fuzzy
 msgctxt "Interface.AdvancedPressureTask1"
-msgid "Remove the {THING:ItemGlassSheets} from the first {THING:StructureConsole}."
+msgid "Remove the {THING:ItemGlassSheets} from the {THING:StructureConsole} with the crowbar."
 msgstr "Ramasser les {THING:ItemGlassSheets}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask2']
+#, fuzzy
 msgctxt "Interface.AdvancedPressureTask2"
-msgid "Swap the {THING:CircuitboardAirlockControl}  for the {THING:CircuitboardAdvAirlockControl}."
+msgid "Swap the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
 msgstr "Échangez le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask3']
@@ -2203,10 +2205,17 @@ msgid "An Advanced Airlock"
 msgstr "Un sas avancé"
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockDescription']
-#, fuzzy
 msgctxt "Interface.AAdvancedAirLockDescription"
-msgid "Make sure the Airlock works by pressing the “Cycle to Interior” button."
-msgstr "Assurez-vous que le sas fonctionne en appuyant sur le bouton \"cycle vers l’intérieur\"."
+msgid ""
+"There are a few differences when programming the {THING:CircuitboardAdvAirlockControl}.\n"
+"\t\t\t\n"
+"First, rename the new vent 'External' and the old vent 'Internal', to identify them on the console. Select each {THING:StructureActiveVent}, ensuring to assign them correctly.\n"
+"\n"
+"The last thing you need to do is select the desired internal and external pressure, found near the top of the {THING:CircuitboardAdvAirlockControl} panel.\n"
+"Make sure the Airlock works by pressing the “Cycle to Interior” button.\n"
+"            \n"
+"            "
+msgstr ""
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockTask1']
 #, fuzzy
@@ -3383,6 +3392,92 @@ msgstr "#6 Base de l’atmosphère"
 msgctxt "Interface.BasicAirlocks"
 msgid "#7 Basic Airlocks"
 msgstr "#7 Base des sas"
+
+#: /Language/Interface/Record[Key='CloseTheDoorTask3']
+msgctxt "Interface.CloseTheDoorTask3"
+msgid "Rename the Outter facing {THING:StructureCompositeDoor} to external door or something recognizable."
+msgstr "Renommez la face de Sortie {THING:StructureCompositeDoor} en porte extérieure ou quelque chose de reconnaissable."
+
+#: /Language/Interface/Record[Key='CloseTheDoorTask4']
+msgctxt "Interface.CloseTheDoorTask4"
+msgid "Rename the Inward facing {THING:StructureCompositeDoor} to Internal door or something recognizable."
+msgstr "Renommez la face d'Entrée {THING:StructureCompositeDoor} en porte intérieur ou quelque chose de reconnaissable."
+
+#: /Language/Interface/Record[Key='CreatingASealDescription']
+#, fuzzy
+msgctxt "Interface.CreatingASealDescription"
+msgid "Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}. You will then need to rename the newly built doors using the {THING:ItemLabeller} found in the orange crate."
+msgstr "Allez-y et terminez la construction de la {THING:StructureCompositeDoor} avec des {THING:ItemPlasticSheets} et {THING:ItemGlassSheets}."
+
+#: /Language/Interface/Record[Key='AirLockProgrammingDescription']
+#, fuzzy
+msgctxt "Interface.AirLockProgrammingDescription"
+msgid ""
+" To programme the Airlock, turn on the {THING:StructureConsole}. Select the {THING:StructureActiveVent} and {THING:StructureGasSensor}.\n"
+"\n"
+"When selecting the Airlocks, ensure the 'Interior' option is selected for the interior door. Toggle this option by deselecting it, and clicking on the alternate door. The light on the Airlock will turn from green to red, to indicate which Airlock you're programming.\n"
+"\n"
+"Once the Console has selected a device, that device will be locked under its control, and will not respond to interactions.\n"
+"\n"
+"When you have successfully completed the Airlock set up, the switch on the side of the {THING:StructureConsole} will light up green. You may now remove the Data Disk from the {THING:StructureConsole}.  The Console will be locked, and will not respond to interactions unless you reinsert the Data Disk."
+msgstr ""
+"Programmer un sas est assez facile, commencez par allumer le {THING:StructureConsole} il suffit de sélectionner le {THING:StructureActiveVent} et {THING:StructureGasSensor}. \n"
+"\n"
+"Lors de la sélection du sas, assurez-vous que l’option \"INTERIEUR\" est sélectionnée sur la porte intérieure. Cela peut être vu par la lumière des sas tournant du vert au rouge pour indiquer à quel sas vous appliquez l’option.\n"
+"Une fois que la console a un appareil sélectionné, il sera sous son contrôle et sera verrouillé, il ne répondra pas à vos interactions de côté.\n"
+"Lorsque vous avez terminé avec succès la mise en place du sas, l’interrupteur sur le côté de la {THING:StructureConsole} s’allume en vert, vous pouvez ensuite retirez le disque de données de la {THING:StructureConsole}."
+
+#: /Language/Interface/Record[Key='AirlockUpgradesDescription']
+#, fuzzy
+msgctxt "Interface.AirlockUpgradesDescription"
+msgid ""
+"Now that you have a basic Airlock, lets make a few upgrades to convert it into an Advanced Airlock. \n"
+"\n"
+"Basic Airlocks will work fine on the moon or planets with no atmosphere, but if you want to prevent poisonous gases or high/low temperatures entering your base, you will need an Advanced Airlock. An Advanced Airlock pumps any atmosphere out of the Airlock, before pressurising it again with the desired atmosphere.\n"
+"\n"
+"To build an advanced Airlock you will need another {THING:StructureActiveVent}, some more pipes and wire, along with the {THING:CircuitboardAdvAirlockControl} to replace the {THING:CircuitboardAirlockControl} from the basic Airlock."
+msgstr ""
+"Maintenant que vous avez un sas de base, il est temps de faire quelques mises à niveau pour le convertir en un sas avancé. Les sas de base fonctionneront aussi bien sur la lune que les planètes sans atmosphère, mais si vous voulez empêcher les gaz toxiques ou les températures élevées/basses d'entrer dans votre base, vous aurez besoin d’un sas avancé. Un sas avancé pompe toute atmosphère hors du sas avant de le pressuriser à nouveau avec l’atmosphère désirée.\n"
+"\n"
+"Pour construire un sas avancé, vous aurez besoin d’un autre {THING:StructureActiveVent} quelques tuyaux et fils plus avec le {THING:CircuitboardAdvAirlockControl} pour remplacer le {THING:CircuitboardAirlockControl} du sas de base."
+
+#: /Language/Interface/Record[Key='AirlockUpgradesTask1']
+msgctxt "Interface.AirlockUpgradesTask1"
+msgid "Place another {THING:StructureActiveVent} in the highlighted spot."
+msgstr "Placez un autre {THING:StructureActiveVent} à l'endroit en surbrillance."
+
+#: /Language/Interface/Record[Key='AdvancedPressureDescription']
+#, fuzzy
+msgctxt "Interface.AdvancedPressureDescription"
+msgid ""
+"Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl} \n"
+"        \n"
+"There are a few differences when programming the {THING:CircuitboardAdvAirlockControl}. Firstly, you need to select an internal and external {THING:StructureActiveVent}. Unlike doors, you will need to look at the switch on the {THING:StructureActiveVent} to see if it’s interactable or not. This is how you can tell which {THING:StructureActiveVent} you have selected from the menu.\n"
+"\n"
+"The last thing you need to do is select the desired internal and external pressure, found near the top of the {THING:CircuitboardAdvAirlockControl} panel. "
+msgstr ""
+"Maintenant que les structures sont en place, nous devons échanger le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl} \n"
+"        \n"
+"Il n’y a que quelques différences lors de la programmation du {THING:CircuitboardAdvAirlockControl}. Tout d’abord, vous devez sélectionner interne et externe {THING:StructureActiveVent} contrairement aux portes que vous aurez besoin de regarder l’interrupteur sur le {THING:StructureActiveVent} pour voir si c’est interagitable ou non c’est ainsi que vous pouvez déchiffrer lequel {THING:StructureActiveVent} correspond à ceux du menu.\n"
+"\n"
+"La dernière chose que vous devez faire est de sélectionner la pression que vous voulez à la fois pour la pression interne et externe trouvée près du haut du panneau."
+
+#: /Language/Interface/Record[Key='AdvancedPressureTask1']
+#, fuzzy
+msgctxt "Interface.AdvancedPressureTask1"
+msgid "Remove the {THING:ItemGlassSheets} from the first {THING:StructureConsole}."
+msgstr "Ramasser les {THING:ItemGlassSheets}."
+
+#: /Language/Interface/Record[Key='AdvancedPressureTask2']
+msgctxt "Interface.AdvancedPressureTask2"
+msgid "Swap the {THING:CircuitboardAirlockControl}  for the {THING:CircuitboardAdvAirlockControl}."
+msgstr "Échangez le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl}."
+
+#: /Language/Interface/Record[Key='AAdvancedAirLockDescription']
+#, fuzzy
+msgctxt "Interface.AAdvancedAirLockDescription"
+msgid "Make sure the Airlock works by pressing the “Cycle to Interior” button."
+msgstr "Assurez-vous que le sas fonctionne en appuyant sur le bouton \"cycle vers l’intérieur\"."
 
 #: /Language/Interface/Record[Key='BasicHydroponics']
 #, fuzzy
