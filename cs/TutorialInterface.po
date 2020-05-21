@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-21 21:05+0000\n"
+"PO-Revision-Date: 2020-05-21 21:10+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2643,7 +2643,7 @@ msgstr "#1 Základní uživatelské rozhraní"
 #: /Language/Interface/Record[Key='Tutorial10-CircuitLogicSolarTracking']
 msgctxt "Interface.Tutorial10-CircuitLogicSolarTracking"
 msgid "#10 ADV Circuit Logic - Solar Tracking"
-msgstr "#10 ADV logika obvodu - Sluneční sledování"
+msgstr "#10 ADV logika obvodu - Solární sledování"
 
 #: /Language/Interface/Record[Key='CircuitLogicSolarTrackingDescription']
 msgctxt "Interface.CircuitLogicSolarTrackingDescription"
@@ -2747,7 +2747,7 @@ msgid ""
 "            \n"
 "The first step is to place daylight sensors. One will measure the horizontal angle of the sun, while the other will measure the vertical angle. This will provide full daytime tracking on any planet."
 msgstr ""
-"Automatizace slunečního sledování maximalizuje energii produkovanou solárními panely a znamená, že je nemusíte ručně upravovat tak, aby směřovaly ke slunci.\n"
+"Automatizace solárního sledování maximalizuje energii produkovanou solárními panely a znamená, že je nemusíte ručně upravovat tak, aby směřovaly ke slunci.\n"
 "            \n"
 "Prvním krokem je umístění senzorů denního světla. Jeden změří horizontální úhel slunce, zatímco druhý změří vertikální úhel. To zajistí úplné denní sledování na jakékoli planetě."
 
@@ -2795,7 +2795,7 @@ msgid ""
 msgstr ""
 "Nyní, když máte jednotku {THING:StructureLogicMemory} na místě a nastavený solární sledovací systém, musíte nastavit specifické hodnoty v {THING:StructureLogicMemory} pomocí {THING:ItemScrewdriver}. Hodnoty závisí na poloze a rotaci {THING:StructureDaylightSensor} a solárních panelů.\n"
 "            \n"
-"Senzory denního světla mají 3 režimy: výchozí, horizontální a vertikální. Každý režim mění výstupní sluneční úhel. V tomto případě musíme nastavit snímač na horizontální, což je režim 1. K tomu nastavte modul horizontální paměti na hodnotu 1 a logický zapisovač tuto hodnotu zapíše do senzoru. "
+"Senzory denního světla mají 3 režimy: výchozí, horizontální a vertikální. Každý režim mění výstupní solární úhel. V tomto případě musíme nastavit snímač na horizontální, což je režim 1. K tomu nastavte modul horizontální paměti na hodnotu 1 a logický zapisovač tuto hodnotu zapíše do senzoru. "
 
 #: /Language/Interface/Record[Key='SetMemoryDescription2']
 msgctxt "Interface.SetMemoryDescription2"
@@ -2813,7 +2813,7 @@ msgctxt "Interface.SetMemoryDescription3"
 msgid ""
 "As solar sensors provide a negative value, you must turn a negative value into a positive one. To do this, multiply the Invert Memory value against the solar sensor value using Horizontal Math 1."
 msgstr ""
-"Protože sluneční senzory poskytují zápornou hodnotu, musíte proměnit zápornou hodnotu na pozitivní. Za tímto účelem vynásobte hodnotu invertní paměti proti hodnotě slunečního senzoru pomocí "
+"Protože solární senzory poskytují zápornou hodnotu, musíte proměnit zápornou hodnotu na pozitivní. Za tímto účelem vynásobte hodnotu invertní paměti proti hodnotě slunečního senzoru pomocí "
 "horizontální matematiky 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription4']
@@ -3216,7 +3216,6 @@ msgid "Sleep Mode Module"
 msgstr "Modul režimu spánku"
 
 #: /Language/Interface/Record[Key='SleepModeDescription']
-#, fuzzy
 msgctxt "Interface.SleepModeDescription"
 msgid ""
 "We now have a solar tracking circuit that will track sunlight throughout the day.\n"
@@ -3226,7 +3225,8 @@ msgid ""
 msgstr ""
 "Nyní máme sluneční sledovací obvod, který bude sledovat sluneční světlo po celý den.\n"
 "\\t\\t\\t\n"
-"Ale co třeba noc? Za tímto účelem nastavíme další modul, který bude fungovat jako režim spánku. Pokud jsou senzory denního světla neaktivní nebo nepřijímají denní světlo, solární panely se vrátí do výchozí polohy. Abychom to mohli udělat, musíme použít jednotky {THING:StructureLogicReader} ke čtení aktivního stavu na každé {THING:StructureDaylightSensor}."
+"Ale co noc? Za tímto účelem nastavíme další modul, který bude fungovat jako režim spánku. Pokud jsou senzory denního světla neaktivní nebo nepřijímají denní světlo, solární panely se vrátí do výchozí polohy. Abychom to mohli udělat, musíme použít jednotky {THING:StructureLogicReader} ke čtení aktivního stavu na každém {THING:StructureDaylightSensor}.\n"
+"            "
 
 #: /Language/Interface/Record[Key='LogicSelect1']
 msgctxt "Interface.LogicSelect1"
