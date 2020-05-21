@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-21 20:54+0000\n"
+"PO-Revision-Date: 2020-05-21 21:00+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1942,10 +1942,9 @@ msgid "Rename the outer {THING:StructureCompositeDoor} to 'External Door'."
 msgstr "Přejmenujte vnější {THING:StructureCompositeDoor} na 'Vnější dveře'."
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask4']
-#, fuzzy
 msgctxt "Interface.CloseTheDoorTask4"
 msgid "Rename the inner {THING:StructureCompositeDoor} to 'Internal Door."
-msgstr "Přejmenujte vnitřní obložení {THING:StructureCompositeDoor} na vnitřní dveře nebo na něco, co lze rozeznat."
+msgstr "Přejmenujte vnitřní {THING:StructureCompositeDoor} na 'Vnitřní dveře'."
 
 #: /Language/Interface/Record[Key='CreatingASeal']
 msgctxt "Interface.CreatingASeal"
@@ -1953,15 +1952,15 @@ msgid "Creating a seal"
 msgstr "Vytvoření těsnění"
 
 #: /Language/Interface/Record[Key='CreatingASealDescription']
-#, fuzzy
 msgctxt "Interface.CreatingASealDescription"
 msgid ""
 "Go ahead and finish constructing each {THING:StructureCompositeDoor} with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.\n"
 "You then need to rename the newly built doors using the {THING:ItemLabeller}, which can be found in the orange crate.\n"
 "        "
 msgstr ""
-"Pokračujte a dokončete konstrukci {THING:StructureCompositeDoor} s {THING:ItemPlasticSheets} a {THING:ItemGlassSheets}. Poté budete muset přejmenovat nově postavené dveře pomocí {THING:ItemLabeller}"
-" nalezeného v oranžové bedně."
+"Pokračujte a dokončete konstrukci každé {THING:StructureCompositeDoor} pomocí {THING:ItemPlasticSheets} a {THING:ItemGlassSheets}.\n"
+"Poté je třeba přejmenovat nově postavené dveře pomocí {THING:ItemLabeller}, který najdete v oranžové bedně.\n"
+"        "
 
 #: /Language/Interface/Record[Key='CreatingASealTask1']
 msgctxt "Interface.CreatingASealTask1"
@@ -2191,7 +2190,6 @@ msgid "An Advanced Airlock"
 msgstr "Pokročilá přechodová komora"
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockDescription']
-#, fuzzy
 msgctxt "Interface.AAdvancedAirLockDescription"
 msgid ""
 "There are a few differences when programming the {THING:CircuitboardAdvAirlockControl}.\n"
@@ -2202,7 +2200,15 @@ msgid ""
 "Make sure the Airlock works by pressing the “Cycle to Interior” button.\n"
 "            \n"
 "            "
-msgstr "Ujistěte se, že vzduchová komora funguje stisknutím tlačítka \"Synchronizovat do interiéru\"."
+msgstr ""
+"Existuje několik rozdílů při programování {THING:CircuitboardAdvAirlockControl}.\n"
+"\\t\\t\\t\t\t\t\n"
+"Nejprve přejmenujte novou ventilaci 'Externí ventilace' a starou ventilaci 'Vnitřní ventil', abyste je identifikovali na konzoli. Vyberte každou {THING:StructureActiveVent} a ujistěte se, že je správně přiřadíte.\n"
+"\n"
+"Poslední věc, kterou musíte udělat, je vybrat požadovaný vnitřní a vnější tlak, který se nachází v horní části panelu {THING:CircuitboardAdvAirlockControl}.\n"
+"Ujistěte se, že přechodová komora funguje stisknutím tlačítka “Synchronizace do interiéru”.\n"
+"            \n"
+"            "
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockTask1']
 msgctxt "Interface.AAdvancedAirLockTask1"
