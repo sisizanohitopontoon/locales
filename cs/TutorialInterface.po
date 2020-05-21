@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-21 21:10+0000\n"
+"PO-Revision-Date: 2020-05-21 21:13+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2824,7 +2824,7 @@ msgid ""
 "To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.\n"
 "            "
 msgstr ""
-"Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o slunečních úhlech ve stupních od 0 do 150.\n"
+"Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o solárních úhlech ve stupních od 0 do 150.\n"
 "            \n"
 "Aby byly solární panely kompatibilní se senzory, používáme Vertikální logiku matematiky 1 k rozdělení dat senzoru 1.5, čímž převedeme stupeň na procenta.\n"
 "            "
@@ -2838,7 +2838,7 @@ msgid ""
 msgstr ""
 "Nakonec zkalibrujte vertikální polohu solárního panelu. \n"
 "\\t\\t\\t\n"
-"Chcete-li to provést, vezměte vertikální procento slunečního úhlu z vertikální matematiky 1 a přidejte 50% pomocí Přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru)."
+"Chcete-li to provést, vezměte vertikální procento solárního úhlu z vertikální matematiky 1 a přidejte 50% pomocí Přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru)."
 
 #: /Language/Interface/Record[Key='SetMemory0']
 msgctxt "Interface.SetMemory0"
@@ -2935,7 +2935,7 @@ msgstr "Nastavení čteček logiky"
 #: /Language/Interface/Record[Key='LogicReaderSetupDescription']
 msgctxt "Interface.LogicReaderSetupDescription"
 msgid "A logic reader does what it sounds like: it reads logic. We will use these to read the solar angle from each sensor."
-msgstr "Čtečka logiky dělá přesně to, jak zní: čte logiku. Použijeme je ke čtení slunečního úhlu z každého senzoru."
+msgstr "Čtečka logiky dělá přesně to, jak zní: čte logiku. Použijeme je ke čtení solárního úhlu z každého senzoru."
 
 #: /Language/Interface/Record[Key='LogicReader1']
 msgctxt "Interface.LogicReader1"
@@ -2960,7 +2960,7 @@ msgstr "Nastavte vstup horizontální logické čtečky 1 na horizontální denn
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup2']
 msgctxt "Interface.LogicReaderLogicSetup2"
 msgid "Set the Logic value to Solar angle."
-msgstr "Nastavte logickou hodnotu na sluneční úhel."
+msgstr "Nastavte logickou hodnotu na solární úhel."
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup3']
 msgctxt "Interface.LogicReaderLogicSetup3"
@@ -2970,7 +2970,7 @@ msgstr "Nastavte vertikální logickou čtečku 1 na vertikální denní světel
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup4']
 msgctxt "Interface.LogicReaderLogicSetup4"
 msgid "Set the Logic value to Solar Angle."
-msgstr "Nastavte logickou hodnotu na sluneční úhel."
+msgstr "Nastavte logickou hodnotu na solární úhel."
 
 #: /Language/Interface/Record[Key='VerticalLogicProcessors']
 msgctxt "Interface.VerticalLogicProcessors"
@@ -3108,7 +3108,6 @@ msgid "Horizontal Logic Processors"
 msgstr "Horizontální logické procesory"
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUpDescription']
-#, fuzzy
 msgctxt "Interface.HorizontalLogicProcessorSetUpDescription"
 msgid ""
 "Just like the vertical module of the circuit, we need to perform calculations on the horizontal input data. \n"
@@ -3121,9 +3120,11 @@ msgid ""
 msgstr ""
 "Stejně jako vertikální modul obvodu musíme provést výpočty horizontálních vstupních dat. \n"
 "\\t\\t\\t\n"
-"Nejprve převeďte zápornou hodnotu horizontálních dat slunečního úhlu vynásobením -1. Chcete-li to provést, přečtěte si data z čtečky logiky pomocí {THING:StructureLogicMath} a vynásobte jej pomocí {THING:StructureLogicMemory} označeného Invertovat.\n"
+"Nejprve převeďte zápornou hodnotu horizontálních dat solárního úhlu vynásobením -1. Chcete-li to provést, přečtěte si data z čtečky logiky pomocí {THING:StructureLogicMath} a vynásobte jej pomocí {THING:StructureLogicMemory} označeného Invertovat.\n"
 "            \n"
-"Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylightSensor}. V tomto případě musíme data upravit o -90. To provedete načtením výstupní hodnoty {THING:StructureLogicMath} a přidáním do {THING:StructureLogicMemory} označeného Posun."
+"Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylightSensor}. V tomto případě musíme data upravit o -90. To provedete načtením výstupní hodnoty {THING:StructureLogicMath} a přidáním do {THING:StructureLogicMemory} označeného Posun.\n"
+"\n"
+"            "
 
 #: /Language/Interface/Record[Key='PlaceLogicMath2']
 msgctxt "Interface.PlaceLogicMath2"
@@ -3223,7 +3224,7 @@ msgid ""
 "But what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.\n"
 "            "
 msgstr ""
-"Nyní máme sluneční sledovací obvod, který bude sledovat sluneční světlo po celý den.\n"
+"Nyní máme solární sledovací obvod, který bude sledovat sluneční světlo po celý den.\n"
 "\\t\\t\\t\n"
 "Ale co noc? Za tímto účelem nastavíme další modul, který bude fungovat jako režim spánku. Pokud jsou senzory denního světla neaktivní nebo nepřijímají denní světlo, solární panely se vrátí do výchozí polohy. Abychom to mohli udělat, musíme použít jednotky {THING:StructureLogicReader} ke čtení aktivního stavu na každém {THING:StructureDaylightSensor}.\n"
 "            "
