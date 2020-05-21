@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-21 08:31+0000\n"
+"PO-Revision-Date: 2020-05-21 08:43+0000\n"
 "Last-Translator: HazarDGLow <hgrof@bk.ru>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2079,6 +2079,12 @@ msgid ""
 "\n"
 "When you have successfully completed the Airlock set up, the switch on the side of the {THING:StructureConsole} will light up green. You may now remove the Data Disk from the {THING:StructureConsole}.  The Console will be locked, and will not respond to interactions unless you reinsert the Data Disk."
 msgstr ""
+"Чтобы запрограммировать шлюз, включите {THING:StructureConsole}. Выберите {THING:StructureActiveVent} и {THING:StructureGasSensor}. Устройства выделяются зеленым с красным текстом при выборе.\n"
+"\n"
+"Выберите две двери шлюза. Выбор первой двери как «Внешняя или Exterior» приведет к тому, что другая дверь по умолчанию будет «Внутренняя или Internal». Убедитесь, что двери правильно назначены.\n"
+"Как только устройство выбрано в списке, оно будет заблокировано для управления и не будет реагировать на взаимодействия.\n"
+"\n"
+"После завершения настройки шлюза, вы можете вытащить диск с данными из {THING:StructureConsole}. Консоль будет заблокирована и не будет реагировать на взаимодействия, если вы не вставите диск данных заново. Переключатель на панели {THING:StructureConsole} загорится зеленым. "
 
 #: /Language/Interface/Record[Key='AirLockProgrammingTask1']
 msgctxt "Interface.AirLockProgrammingTask1"
