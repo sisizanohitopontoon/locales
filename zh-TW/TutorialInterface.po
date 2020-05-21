@@ -1856,16 +1856,28 @@ msgctxt "Interface.CloseTheDoorTask2"
 msgid "Build {THING:StructureCompositeDoor} 2."
 msgstr "焊接 {THING:StructureFrame} 以完成教程"
 
+#: /Language/Interface/Record[Key='CloseTheDoorTask2.5']
+#, fuzzy
+msgctxt "Interface.CloseTheDoorTask2.5"
+msgid "Pick up the {THING:ItemLabeller} from the crate."
+msgstr "撿起 {THING:ItemTablet}"
+
+#: /Language/Interface/Record[Key='CloseTheDoorTask2.6']
+#, fuzzy
+msgctxt "Interface.CloseTheDoorTask2.6"
+msgid "Turn On the {THING:ItemLabeller}."
+msgstr "啟動 {THING:ItemTablet}"
+
 #: /Language/Interface/Record[Key='CloseTheDoorTask3']
 #, fuzzy
 msgctxt "Interface.CloseTheDoorTask3"
-msgid "Rename the outer facing {THING:StructureCompositeDoor} to 'External Door'."
+msgid "Rename the outer {THING:StructureCompositeDoor} to 'External Door'."
 msgstr ""
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask4']
 #, fuzzy
 msgctxt "Interface.CloseTheDoorTask4"
-msgid "Rename the inward facing {THING:StructureCompositeDoor} to 'Internal Door."
+msgid "Rename the inner {THING:StructureCompositeDoor} to 'Internal Door."
 msgstr ""
 
 #: /Language/Interface/Record[Key='CreatingASeal']
@@ -1876,8 +1888,8 @@ msgstr ""
 #: /Language/Interface/Record[Key='CreatingASealDescription']
 msgctxt "Interface.CreatingASealDescription"
 msgid ""
-"Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.\n"
-"You will then need to rename the newly built doors using the {THING:ItemLabeller}, which can be found in the orange crate.\n"
+"Go ahead and finish constructing each {THING:StructureCompositeDoor} with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.\n"
+"You then need to rename the newly built doors using the {THING:ItemLabeller}, which can be found in the orange crate.\n"
 "        "
 msgstr ""
 
@@ -2066,7 +2078,6 @@ msgid "Advanced Pressure"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AdvancedPressureDescription']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureDescription"
 msgid "Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
 msgstr ""
@@ -2078,7 +2089,6 @@ msgid "Remove the {THING:ItemGlassSheets} from the {THING:StructureConsole} with
 msgstr "撿起 {THING:ItemTablet}"
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask2']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureTask2"
 msgid "Swap the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
 msgstr ""
@@ -2105,7 +2115,7 @@ msgctxt "Interface.AAdvancedAirLockDescription"
 msgid ""
 "There are a few differences when programming the {THING:CircuitboardAdvAirlockControl}.\n"
 "\t\t\t\n"
-"First, rename the new vent 'External' and the old vent 'Internal', to identify them on the console. Select each {THING:StructureActiveVent}, ensuring to assign them correctly.\n"
+"First, rename the new vent 'External Vent' and the old vent 'Internal Vent', to identify them on the console. Select each {THING:StructureActiveVent}, ensuring to assign them correctly.\n"
 "\n"
 "The last thing you need to do is select the desired internal and external pressure, found near the top of the {THING:CircuitboardAdvAirlockControl} panel.\n"
 "Make sure the Airlock works by pressing the “Cycle to Interior” button.\n"
@@ -2714,16 +2724,17 @@ msgctxt "Interface.SetMemoryDescription3"
 msgid "As solar sensors provide a negative value, you must turn a negative value into a positive one. To do this, multiply the Invert Memory value against the solar sensor value using Horizontal Math 1."
 msgstr ""
 
-#: /Language/Interface/Record[Key='SetMemoryDescription5']
-msgctxt "Interface.SetMemoryDescription5"
+#: /Language/Interface/Record[Key='SetMemoryDescription4']
+msgctxt "Interface.SetMemoryDescription4"
 msgid ""
 "The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.\n"
 "            \n"
-"To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage."
+"To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.\n"
+"            "
 msgstr ""
 
-#: /Language/Interface/Record[Key='SetMemoryDescription4']
-msgctxt "Interface.SetMemoryDescription4"
+#: /Language/Interface/Record[Key='SetMemoryDescription5']
+msgctxt "Interface.SetMemoryDescription5"
 msgid ""
 "Lastly, calibrate the vertical position for the solar panel. \n"
 "\t\t\t\n"
@@ -3002,7 +3013,9 @@ msgid ""
 "\t\t\t\n"
 "First, invert the negative value of the horizontal solar angle data by multiplying it by -1. To do this, read in data from the Logic Reader with a {THING:StructureLogicMath} and multiply it with the {THING:StructureLogicMemory} labelled Invert.\n"
 "            \n"
-"The next step is to offset the data delivered by the {THING:StructureDaylightSensor}. In this case we need to adjust the data by -90. Do this by reading in the output value of the {THING:StructureLogicMath} and adding it to the {THING:StructureLogicMemory} labelled Offset."
+"The next step is to offset the data delivered by the {THING:StructureDaylightSensor}. In this case we need to adjust the data by -90. Do this by reading in the output value of the {THING:StructureLogicMath} and adding it to the {THING:StructureLogicMemory} labelled Offset.\n"
+"\n"
+"            "
 msgstr ""
 
 #: /Language/Interface/Record[Key='PlaceLogicMath2']
@@ -3104,7 +3117,8 @@ msgctxt "Interface.SleepModeDescription"
 msgid ""
 "We now have a solar tracking circuit that will track sunlight throughout the day.\n"
 "\t\t\t\n"
-"But what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}."
+"But what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.\n"
+"            "
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSelect1']
