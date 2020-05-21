@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-21 21:00+0000\n"
+"PO-Revision-Date: 2020-05-21 21:05+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2817,7 +2817,6 @@ msgstr ""
 "horizontální matematiky 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription4']
-#, fuzzy
 msgctxt "Interface.SetMemoryDescription4"
 msgid ""
 "The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.\n"
@@ -2825,21 +2824,21 @@ msgid ""
 "To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.\n"
 "            "
 msgstr ""
-"Nakonec zkalibrujte vertikální polohu solárního panelu. \n"
-"\\t\\t\\t\n"
-"Chcete-li to provést, vezměte vertikální procento slunečního úhlu z vertikální matematiky 1 a přidejte 50% pomocí funkce přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru)."
+"Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o slunečních úhlech ve stupních od 0 do 150.\n"
+"            \n"
+"Aby byly solární panely kompatibilní se senzory, používáme Vertikální logiku matematiky 1 k rozdělení dat senzoru 1.5, čímž převedeme stupeň na procenta.\n"
+"            "
 
 #: /Language/Interface/Record[Key='SetMemoryDescription5']
-#, fuzzy
 msgctxt "Interface.SetMemoryDescription5"
 msgid ""
 "Lastly, calibrate the vertical position for the solar panel. \n"
 "\t\t\t\n"
 "To do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards)."
 msgstr ""
-"Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o slunečních úhlech ve stupních od 0 do 150.\n"
-"            \n"
-"Aby byly solární panely kompatibilní se senzory, používáme vertikální logiku matematiky 1 k rozdělení dat senzoru o 1.5, čímž převedeme stupeň na procenta."
+"Nakonec zkalibrujte vertikální polohu solárního panelu. \n"
+"\\t\\t\\t\n"
+"Chcete-li to provést, vezměte vertikální procento slunečního úhlu z vertikální matematiky 1 a přidejte 50% pomocí Přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru)."
 
 #: /Language/Interface/Record[Key='SetMemory0']
 msgctxt "Interface.SetMemory0"
