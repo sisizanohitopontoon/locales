@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-21 08:43+0000\n"
+"PO-Revision-Date: 2020-05-21 08:52+0000\n"
 "Last-Translator: HazarDGLow <hgrof@bk.ru>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2102,11 +2102,13 @@ msgid ""
 "Now to test the newly built Airlock. Press the “Cycle to Interior” button to start pressurization. The Airlock pressure must reach at least 101 kPa for the cycle to complete. If the base within is "
 "not pressurized, the airlock cannot complete its cycle. If this happens press the “Cancel pressurize” button."
 msgstr ""
+"Теперь проверим недавно построенный шлюз. Нажмите кнопку цикл входа “Cycle to Interior”, чтобы начать повышать давление. Давление в шлюзе должно достигать не менее 101 кПа для завершения цикла. Если"
+" станция внутри не находится под давлением, шлюз не сможет завершить свой цикл. Если это произойдет, нажмите кнопку отменить повышение давления “Cancel pressurize”."
 
 #: /Language/Interface/Record[Key='ASimpleAirLockTask1']
 msgctxt "Interface.ASimpleAirLockTask1"
 msgid "Remove the {THING:ItemDataDisk} and cycle to interior."
-msgstr "Извлеките {THING:ItemDataDisk} и запустите цикл внутри."
+msgstr "Извлеките {THING:ItemDataDisk} и запустите цикл входа."
 
 #: /Language/Interface/Record[Key='AirlockUpgrades']
 msgctxt "Interface.AirlockUpgrades"
@@ -2122,6 +2124,11 @@ msgid ""
 "\n"
 "To create an advanced Airlock you will need to build another {THING:StructureActiveVent} inside it, and a passive vent outside, then connect them with pipes."
 msgstr ""
+"Теперь, когда у вас есть базовый воздушный шлюз, давайте сделаем несколько обновлений, чтобы превратить его в улучшенный воздушный шлюз.\n"
+"\n"
+"Базовые воздушные шлюзы хорошо работают на планетах без атмосферы, но для предотвращения попадания ядовитых газов или экстремальных температур на вашу базу вам необходим усовершенствованный воздушный шлюз. Они откачивают атмосферу перед тем, как герметизировать воздушный шлюз требуемой атмосферой.\n"
+"\n"
+"Чтобы создать улучшенный воздушный шлюз, вам нужно будет установить внутри него еще одну {THING:StructureActiveVent} и пассивную вентиляцию снаружи и соединить их трубами."
 
 #: /Language/Interface/Record[Key='AirlockUpgradesTask1']
 #, fuzzy
