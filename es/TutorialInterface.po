@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-22 16:35+0000\n"
+"PO-Revision-Date: 2020-05-22 16:37+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2850,16 +2850,15 @@ msgstr ""
 "            "
 
 #: /Language/Interface/Record[Key='SetMemoryDescription5']
-#, fuzzy
 msgctxt "Interface.SetMemoryDescription5"
 msgid ""
 "Lastly, calibrate the vertical position for the solar panel. \n"
 "\t\t\t\n"
 "To do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards)."
 msgstr ""
-"El eje vertical de los paneles solares se mide como un porcentaje, mientras que los sensores emiten datos del ángulo solar en grados de 0 a 150.\n"
-"            \n"
-"Para hacer que los paneles solares sean compatibles con los sensores, usamos Vertical Logic Math 1 para dividir los datos del sensor por 1.5, convirtiendo así el grado en un porcentaje."
+"Por último, calibre la posición vertical del panel solar. \n"
+"\\t\\t\\t\n"
+"Para hacer esto, toma el porcentaje del ángulo solar vertical de la Matemática Vertical 1, y añade el 50% usando Añadir Memoria en la Matemática Vertical 2. Esto hará que el 50% sea el punto cero horizontal del panel solar (plano, mirando hacia arriba)."
 
 #: /Language/Interface/Record[Key='SetMemory0']
 msgctxt "Interface.SetMemory0"
@@ -3130,7 +3129,6 @@ msgid "Horizontal Logic Processors"
 msgstr "Procesadores lógicos horizontales"
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUpDescription']
-#, fuzzy
 msgctxt "Interface.HorizontalLogicProcessorSetUpDescription"
 msgid ""
 "Just like the vertical module of the circuit, we need to perform calculations on the horizontal input data. \n"
@@ -3141,11 +3139,11 @@ msgid ""
 "\n"
 "            "
 msgstr ""
-"Al igual que el módulo vertical del circuito, necesitamos realizar cálculos en los datos de entrada horizontales.\n"
+"Al igual que el módulo vertical del circuito, necesitamos realizar cálculos sobre los datos de entrada horizontales.\n"
 "\\t\\t\\t\n"
-"Primero, invierta el valor negativo de los datos del ángulo solar horizontal multiplicándolo por -1. Para hacer esto, lea los datos del lector lógico con un {THING:StructureLogicMath} y multiplíquese con el {THING:StructureLogicMemory} etiquetado como Invertir.\n"
+"Primero, invierta el valor negativo de los datos del ángulo solar horizontal multiplicándolo por -1. Para hacer esto, lee los datos del Lector Lógico con una {THING:StructureLogicMath} y multiplícalos por la {THING:StructureLogicMemory} llamada Invertir.\n"
 "            \n"
-"El siguiente paso es compensar los datos entregados por {THING:StructureDaylightSensor}. En este caso, necesitamos ajustar los datos en -90. Haga esto leyendo el valor de salida de {THING:StructureLogicMath} y agregándolo al {THING:StructureLogicMemory} etiquetado Offset."
+"El siguiente paso es compensar los datos entregados por el {THING:StructureDaylightSensor}. En este caso necesitamos ajustar los datos en -90. Hazlo leyendo el valor de salida de la {THING:StructureLogicMath} y añadiéndolo a la {THING:StructureLogicMemory} etiquetada Offset."
 
 #: /Language/Interface/Record[Key='PlaceLogicMath2']
 msgctxt "Interface.PlaceLogicMath2"
