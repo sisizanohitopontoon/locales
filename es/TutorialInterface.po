@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-22 16:30+0000\n"
+"PO-Revision-Date: 2020-05-22 16:35+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2096,7 +2096,6 @@ msgid "Airlock programming"
 msgstr "Programación de la cámara de descompresión"
 
 #: /Language/Interface/Record[Key='AirLockProgrammingDescription']
-#, fuzzy
 msgctxt "Interface.AirLockProgrammingDescription"
 msgid ""
 " To programme the Airlock, turn on the {THING:StructureConsole}. Select the {THING:StructureActiveVent} and {THING:StructureGasSensor}. Devices highlight green with red text when selected.\n"
@@ -2107,11 +2106,13 @@ msgid ""
 "\n"
 "When you have successfully completed the Airlock set up, the switch on the side of the {THING:StructureConsole} will light up green. You may now remove the Data Disk from the {THING:StructureConsole}.  The Console will be locked, and will not respond to interactions unless you reinsert the Data Disk."
 msgstr ""
-"Programar una esclusa es fácil, comienza por encender la {THING:StructureConsole}. Selecciona el {THING:StructureActiveVent} y el {THING:StructureGasSensor}.\n"
+"Programar una esclusa es fácil, comienza por encender la {THING:StructureConsole}. Selecciona el {THING:StructureActiveVent} y el {THING:StructureGasSensor}. Los dispositivos resaltados en verde con texto rojo cuando se seleccionan.\n"
 "\n"
-"Al seleccionar las puertas asegúrate de que la puerta 'INTERIOR' este para la puerta interior. Podrás ver es esto cuando las luces de la cámara se cambien a color verde a amarillo indicándote la puerta que estas aplicando los ajustes.\n"
-"Una vez que selecciones un dispositivo en la consola, el mismo aparece bloqueado para los controles individuales.\n"
-"Después de configurar la cámara con éxito, el interior lateral de la  {THING:StructureConsole} se pondrá de color verde y podrás quitar el disco de datos de la {THING:StructureConsole} La consola una vez saques el disco quedará bloqueada y no podras configurarla hasta volver a introducir el disco."
+"Selecciona las dos puertas de la esclusa de aire. Si selecciona una puerta como \"Exterior\", la otra se convertirá en \"Interna\". Asegúrate de que las puertas estén correctamente asignadas.\n"
+"\n"
+"Una vez seleccionado un dispositivo, éste se bloqueará bajo su control y no responderá a las interacciones a menos que sea de seleccionado.\n"
+"\n"
+"Cuando hayas completado con éxito la instalación de la esclusa, el interruptor en al lado de la {THING:StructureConsole} se iluminará en verde. Ahora puedes quitar el disco de datos de la {THING:StructureConsole}.  La Consola se bloqueará, y no responderá a las interacciones a menos que vuelvas a insertar el Disco de datos."
 
 #: /Language/Interface/Record[Key='AirLockProgrammingTask1']
 msgctxt "Interface.AirLockProgrammingTask1"
@@ -2836,7 +2837,6 @@ msgstr ""
 " usando Horizontal Math 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription4']
-#, fuzzy
 msgctxt "Interface.SetMemoryDescription4"
 msgid ""
 "The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.\n"
@@ -2844,9 +2844,10 @@ msgid ""
 "To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.\n"
 "            "
 msgstr ""
-"Por último, calibre la posición vertical del panel solar.\n"
-"\\t\\t\\t\n"
-"Para hacer esto, tome el porcentaje de ángulo solar vertical de Vertical Math 1 y agregue 50% usando Agregar memoria en Vertical Math 2. Esto hará que 50% sea el punto cero horizontal del panel solar (plano, hacia arriba)."
+"El eje vertical de los paneles solares se mide como un porcentaje, mientras que los sensores emiten los datos del ángulo solar en grados de 0 a 150.\n"
+"            \n"
+"Para hacer que los paneles solares sean compatibles con los sensores, usamos Vertical Logic Math 1 para dividir los datos del sensor por 1,5, convirtiendo así el grado en un porcentaje.\n"
+"            "
 
 #: /Language/Interface/Record[Key='SetMemoryDescription5']
 #, fuzzy
