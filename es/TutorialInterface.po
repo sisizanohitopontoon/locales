@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-22 16:24+0000\n"
+"PO-Revision-Date: 2020-05-22 16:30+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1961,10 +1961,9 @@ msgid "Rename the outer {THING:StructureCompositeDoor} to 'External Door'."
 msgstr "Cambie el nombre de la {THING:StructureCompositeDoor} exterior a \"Puerta Exterior\"."
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask4']
-#, fuzzy
 msgctxt "Interface.CloseTheDoorTask4"
 msgid "Rename the inner {THING:StructureCompositeDoor} to 'Internal Door."
-msgstr "Cambie el nombre de la puerta interior {THING:StructureCompositeDoor} por Puerta interior o algo reconocible."
+msgstr "Renombra la {THING:StructureCompositeDoor} interna a \"Puerta Interna\"."
 
 #: /Language/Interface/Record[Key='CreatingASeal']
 msgctxt "Interface.CreatingASeal"
@@ -1972,15 +1971,15 @@ msgid "Creating a seal"
 msgstr "Sellando"
 
 #: /Language/Interface/Record[Key='CreatingASealDescription']
-#, fuzzy
 msgctxt "Interface.CreatingASealDescription"
 msgid ""
 "Go ahead and finish constructing each {THING:StructureCompositeDoor} with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.\n"
 "You then need to rename the newly built doors using the {THING:ItemLabeller}, which can be found in the orange crate.\n"
 "        "
 msgstr ""
-"Adelante y termina la construcción de las {THING:StructureCompositeDoor}s con {THING:ItemPlasticSheets} y {THING:ItemGlassSheets}. Luego tendrás que renombrar las puertas recién construidas usando "
-"la {THING:ItemLabeller} que se encuentra en la caja naranja."
+"Adelante y termina de construir cada {THING:StructureCompositeDoor} con {THING:ItemPlasticSheets} y {THING:ItemGlassSheets}.\n"
+"Luego necesitas renombrar las puertas recién construidas usando la {THING:ItemLabeller}, que se encuentra en la caja naranja.\n"
+"        "
 
 #: /Language/Interface/Record[Key='CreatingASealTask1']
 msgctxt "Interface.CreatingASealTask1"
@@ -2144,7 +2143,6 @@ msgid "Airlock upgrades"
 msgstr "Mejoras de la cámara de descompresión"
 
 #: /Language/Interface/Record[Key='AirlockUpgradesDescription']
-#, fuzzy
 msgctxt "Interface.AirlockUpgradesDescription"
 msgid ""
 "Now that you have a basic Airlock, lets make a few upgrades to convert it into an Advanced Airlock. \n"
@@ -2153,15 +2151,16 @@ msgid ""
 "\n"
 "To create an advanced Airlock you will need to build another {THING:StructureActiveVent} inside it, and a passive vent outside, then connect them with pipes."
 msgstr ""
-"Ahora que tiene una esclusa básica, hagamos algunas actualizaciones para convertirlo en una esclusa avanzada. Las esclusas de aire básicas funcionarán bien en la luna o los planetas sin atmósfera, pero si desea evitar que entren gases venenosos o altas / bajas temperaturas en su base, necesitará una esclusa de aire avanzada. Una cámara de aire avanzada bombea cualquier atmósfera fuera de la cámara de aire antes de presurizarla nuevamente con la atmósfera deseada.\n"
+"Ahora que tienes una esclusa básica, vamos a hacer algunas mejoras para convertirla en una esclusa avanzada. \n"
 "\n"
-"Para construir una esclusa de aire avanzada, necesitará otra {THING: StructureActiveVent}, más tubos y cables, junto con el {THING: CircuitboardAdvAirlockControl} para reemplazar el {THING: CircuitboardAirlockControl} de la esclusa básica."
+"Las esclusas básicas funcionan bien en planetas sin atmósfera, pero para evitar que gases venenosos o temperaturas extremas entren en tu base, necesitas una esclusa avanzada. Estas bombean la atmósfera hacia fuera, antes de presurizar la Esclusa con la atmósfera deseada.\n"
+"\n"
+"Para crear una Esclusa Avanzada necesitarás construir otra {THING:StructureActiveVent} dentro de ella, y un respiradero pasivo en el exterior, y luego conectarlos con tubos."
 
 #: /Language/Interface/Record[Key='AirlockUpgradesTask1']
-#, fuzzy
 msgctxt "Interface.AirlockUpgradesTask1"
 msgid "Place an {THING:StructureActiveVent} in the highlighted spot in the airlock."
-msgstr "Coloca otra {THING:StructureActiveVent} en el lugar destacado."
+msgstr "Coloca una {THING:StructureActiveVent} en el lugar resaltado de la esclusa."
 
 #: /Language/Interface/Record[Key='AirlockCableCorner']
 msgctxt "Interface.AirlockCableCorner"
@@ -2179,27 +2178,19 @@ msgid "Advanced Pressure"
 msgstr "Presión avanzada"
 
 #: /Language/Interface/Record[Key='AdvancedPressureDescription']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureDescription"
 msgid "Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
-msgstr ""
-"Ahora que las estructuras están en su lugar, necesitamos cambiar {THING: CircuitboardAirlockControl} por {THING: CircuitboardAdvAirlockControl}\n"
-"        \n"
-"Solo hay unas pocas diferencias al programar {THING: CircuitboardAdvAirlockControl}. En primer lugar, debe seleccionar {THING: StructureActiveVent} interno y externo. A diferencia de las puertas, tendrá que mirar el interruptor en {THING: StructureActiveVent} para ver si es interactivo o no. Así es como puede identificar qué {THING: StructureActiveVent} esta seleccionado del menú.\n"
-"\n"
-"Lo último que debe hacer es seleccionar la presión que desea para la presión interna y externa, se encuentra cerca de la parte superior del {THING:CircuitboardAdvAirlockControl}. "
+msgstr "Ahora que las estructuras están en su lugar, necesitamos cambiar la {THING:CircuitboardAirlockControl} por la {THING:CircuitboardAdvAirlockControl}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask1']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureTask1"
 msgid "Remove the {THING:ItemGlassSheets} from the {THING:StructureConsole} with the crowbar."
-msgstr "Quita el {THING:ItemGlassSheets} de la primera {THING:StructureConsole}."
+msgstr "Quita la {THING:ItemGlassSheets} de la {THING:StructureConsole} con la palanca."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask2']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureTask2"
 msgid "Swap the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
-msgstr "Cambia el {THING:CircuitboardAirlockControl}  por el {THING:CircuitboardAdvAirlockControl}."
+msgstr "Cambia la {THING:CircuitboardAirlockControl} por la {THING:CircuitboardAdvAirlockControl}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask3']
 msgctxt "Interface.AdvancedPressureTask3"
@@ -3246,7 +3237,6 @@ msgid "Sleep Mode Module"
 msgstr "Módulo de modo de reposo"
 
 #: /Language/Interface/Record[Key='SleepModeDescription']
-#, fuzzy
 msgctxt "Interface.SleepModeDescription"
 msgid ""
 "We now have a solar tracking circuit that will track sunlight throughout the day.\n"
@@ -3254,9 +3244,10 @@ msgid ""
 "But what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.\n"
 "            "
 msgstr ""
-"Ahora tenemos un circuito de seguimiento solar que rastreará la luz solar durante todo el día.\n"
+"Ahora tenemos un circuito de seguimiento solar que rastreará la luz del sol durante todo el día.\n"
 "\\t\\t\\t\n"
-"¿Pero qué hay de la noche? Para esto, configuraremos otro módulo que actuará como modo de suspensión. Cuando los sensores de luz diurna están inactivos o no reciben luz diurna, los paneles solares se restablecerán a su posición predeterminada. Para hacer esto, necesitamos usar las unidades {THING:StructureLogicReader} para leer el estado activo en cada {THING:StructureDaylightSensor}."
+"¿Pero qué hay de la noche? Para ello, instalaremos otro módulo que actuará como un modo de descanso. Cuando los sensores de luz diurna estén inactivos o no reciban luz diurna, los paneles solares se reajustarán a una posición predeterminada. Para hacer esto necesitamos usar las unidades {THING:StructureLogicReader} para leer el estado activo en cada {THING:StructureDaylightSensor}.\n"
+"            "
 
 #: /Language/Interface/Record[Key='LogicSelect1']
 msgctxt "Interface.LogicSelect1"
