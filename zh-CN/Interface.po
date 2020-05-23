@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-23 08:13+0000\n"
+"PO-Revision-Date: 2020-05-23 08:18+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1472,17 +1472,21 @@ msgstr "如果 a >= 0 跳到第 b 行执行代码 并存储下一行行号到ra�
 #: /Language/Interface/Record[Key='ScriptCommandBltzal']
 msgctxt "Interface.ScriptCommandBltzal"
 msgid "Branch to line b if a < 0 and store next line number in ra"
-msgstr ""
+msgstr "如果 a < 0 跳到第 b 行执行代码 并存储下一行行号到ra寄存器"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnaal']
 msgctxt "Interface.ScriptCommandBnaal"
 msgid "Branch to line d if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra"
 msgstr ""
+"如果 abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) 跳到第 d 行执行代码 并存储下一行行号到ra寄存器中\n"
+"abs()--绝对值运算函数 max()--最大值函数"
 
 #: /Language/Interface/Record[Key='ScriptCommandBapal']
 msgctxt "Interface.ScriptCommandBapal"
 msgid "Branch to line d if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra"
 msgstr ""
+"如果 abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) 跳到第 d 行执行代码 并存储下一行行号到ra寄存器中\n"
+"abs()--绝对值运算函数 max()--最大值函数"
 
 #: /Language/Interface/Record[Key='ScriptCommandBneal']
 msgctxt "Interface.ScriptCommandBneal"
