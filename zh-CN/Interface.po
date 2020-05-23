@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-23 07:01+0000\n"
+"PO-Revision-Date: 2020-05-23 07:06+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1367,10 +1367,9 @@ msgstr "入栈操作. 将a值压入堆栈中，并将sp寄存器的值加1"
 #: /Language/Interface/Record[Key='ScriptCommandPeek']
 msgctxt "Interface.ScriptCommandPeek"
 msgid "Register = the value at the top of the stack"
-msgstr ""
+msgstr "取栈顶值放入寄存器 r 中"
 
 #: /Language/Interface/Record[Key='ScriptCommandLabel']
-#, fuzzy
 msgctxt "Interface.ScriptCommandLabel"
 msgid "DEPRECATED"
 msgstr "已弃用"
@@ -1378,12 +1377,12 @@ msgstr "已弃用"
 #: /Language/Interface/Record[Key='ScriptCommandYield']
 msgctxt "Interface.ScriptCommandYield"
 msgid "Pauses execution for 1 tick"
-msgstr ""
+msgstr "暂停程序1 tick时长"
 
 #: /Language/Interface/Record[Key='ScriptCommandRand']
 msgctxt "Interface.ScriptCommandRand"
 msgid "Register = a random value x with 0 <= x < 1"
-msgstr ""
+msgstr "寄存器 r 值等于随机的x数，x区间0 <= x <1"
 
 #: /Language/Interface/Record[Key='ScriptCommandExp']
 msgctxt "Interface.ScriptCommandExp"
