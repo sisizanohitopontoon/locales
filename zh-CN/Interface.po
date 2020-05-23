@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-23 06:55+0000\n"
+"PO-Revision-Date: 2020-05-23 07:01+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1357,12 +1357,12 @@ msgstr "Halt and catch fire, 早期计算机的机器指令，作用是让CPU去
 #: /Language/Interface/Record[Key='ScriptCommandPop']
 msgctxt "Interface.ScriptCommandPop"
 msgid "Register = the value at the top of the stack and decrements sp"
-msgstr "寄存器值取栈顶部的值，并且sp减一"
+msgstr "出栈操作. 取堆栈顶部的值放入寄存器 r 中，并且将sp寄存器的值减一"
 
 #: /Language/Interface/Record[Key='ScriptCommandPush']
 msgctxt "Interface.ScriptCommandPush"
 msgid "Pushes the value of a to the stack at sp and increments sp"
-msgstr ""
+msgstr "入栈操作. 将a值压入堆栈中，并将sp寄存器的值加1"
 
 #: /Language/Interface/Record[Key='ScriptCommandPeek']
 msgctxt "Interface.ScriptCommandPeek"
