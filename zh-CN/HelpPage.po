@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-22 18:23+0000\n"
+"PO-Revision-Date: 2020-05-23 04:10+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -183,11 +183,28 @@ msgid ""
 "The {KEY:InventorySelect} button will swap whatever your selected slot is in your active hand, along with whatever slot you have selected with the {COLORRED:Mouse Wheel} if you want to use the hotkeys rather than doing it using the mouse.\n"
 "      "
 msgstr ""
+"游戏中的所有物品都可以放在各种插槽。这些插槽有的可能有固定的分类，只能放入某些特定的物品。有各种快捷键用于访问角色上的插槽，例如{KEY:HelmetSlot}可访问{SLOT:Helmet}.\n"
+"\n"
+"{HEADER:库存窗口}\n"
+"某些插槽里面也有一些它们自己的内容。 要与插槽的内容交互，按下快捷键就能打开其窗口界面，或者按住{KEY:MouseControl}然后用鼠标点击它。现在插槽的窗口界面应该已打开了，您可以与其进行交互了。窗口可以随意拖动，只需把鼠标移到标题栏上然后按住拖动。\n"
+"\n"
+"{HEADER:快速装备}\n"
+"  您可以按住快捷键来快速装备、取消装备或交换装备. 例如, 我们手中现在拿着{THING:ItemSpaceHelmet}, {SLOT:Helmet}插槽是空的, 长按{KEY:HelmetSlot}一会后它就会自动装备到插槽上。\n"
+"\n"
+"{HEADER:拖放}\n"
+"  或者, 你也可以按住{KEY:MouseControl}启用鼠标来拖放物品来装备. 您可以在插槽之间、窗口之间实现物品拖放，甚至在外部环境和内部插槽之间进行拖放操作。\n"
+"\n"
+"{HEADER:丢弃}\n"
+"  您可以通过按{KEY:MouseControl}启用鼠标把它拖到外面实现丢弃，或直接按{KEY:Drop}。\n"
+"\n"
+"{HEADER:选择}\n"
+"如果你更喜欢使用快捷键而不是鼠标的话，按{KEY:InventorySelect}会交换所选插槽与当前手上的物品，可以用{COLORRED:Mouse Wheel}选择插槽。\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='AirlockDevicePage']
 msgctxt "HelpPage.AirlockDevicePage"
 msgid "Airlock Devices"
-msgstr ""
+msgstr "气闸装置"
 
 #: /Language/HelpPage/StationpediaPage[Key='AirlockDevicePage']
 msgctxt "HelpPage.AirlockDevicePage"
@@ -199,6 +216,12 @@ msgid ""
 "{LIST_OF_AIRLOCK_DEVICES}\n"
 "      "
 msgstr ""
+"将{THING:CircuitboardAirlockControl}放置在{THING:StructureConsole}中，您可以将各种设备连接到{THING:CircuitboardAirlockControl}，以使气闸发挥作用。\n"
+"      \n"
+"{HEADER:气闸装置列表}\n"
+"以下设备可连接至气闸控制系统并由其使用：\n"
+"{LIST_OF_AIRLOCK_DEVICES}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicUnitPage']
 msgctxt "HelpPage.LogicUnitPage"
@@ -212,6 +235,9 @@ msgid ""
 "{LIST_OF_LOGIC_UNITS}\n"
 "      "
 msgstr ""
+"{HEADER:逻辑单元}\n"
+"{LIST_OF_LOGIC_UNITS}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='SlotLeftHand']
 msgctxt "HelpPage.SlotLeftHand"
@@ -240,7 +266,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='FabricatorPage']
 msgctxt "HelpPage.FabricatorPage"
 msgid "Fabricators"
-msgstr ""
+msgstr "加工设备"
 
 #: /Language/HelpPage/StationpediaPage[Key='FabricatorPage']
 msgctxt "HelpPage.FabricatorPage"
@@ -255,7 +281,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
 msgctxt "HelpPage.DevicePage"
 msgid "Devices"
-msgstr ""
+msgstr "设备"
 
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
 msgctxt "HelpPage.DevicePage"
@@ -282,7 +308,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='MiningPage']
 msgctxt "HelpPage.MiningPage"
 msgid "Mining"
-msgstr ""
+msgstr "采矿"
 
 #: /Language/HelpPage/StationpediaPage[Key='MiningPage']
 msgctxt "HelpPage.MiningPage"
@@ -313,7 +339,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
 msgctxt "HelpPage.ReagentPage"
 msgid "Reagents"
-msgstr ""
+msgstr "化学原料"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
 msgctxt "HelpPage.ReagentPage"
@@ -328,7 +354,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
 msgctxt "HelpPage.GasPage"
 msgid "Gases"
-msgstr ""
+msgstr "气体"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
 msgctxt "HelpPage.GasPage"
@@ -343,7 +369,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
 msgctxt "HelpPage.AlloyPage"
 msgid "Alloys"
-msgstr ""
+msgstr "合金"
 
 #: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
 msgctxt "HelpPage.AlloyPage"
@@ -358,7 +384,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='SuperAlloyPage']
 msgctxt "HelpPage.SuperAlloyPage"
 msgid "Superalloys"
-msgstr ""
+msgstr "超级合金"
 
 #: /Language/HelpPage/StationpediaPage[Key='SuperAlloyPage']
 msgctxt "HelpPage.SuperAlloyPage"
@@ -422,7 +448,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
 msgctxt "HelpPage.ResourcePage"
 msgid "Resources"
-msgstr ""
+msgstr "资源"
 
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
 msgctxt "HelpPage.ResourcePage"
@@ -437,7 +463,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
 msgctxt "HelpPage.KitPage"
 msgid "Kits"
-msgstr ""
+msgstr "套件"
 
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
 msgctxt "HelpPage.KitPage"
@@ -452,7 +478,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='FoodPage']
 msgctxt "HelpPage.FoodPage"
 msgid "Food"
-msgstr ""
+msgstr "食物"
 
 #: /Language/HelpPage/StationpediaPage[Key='FoodPage']
 msgctxt "HelpPage.FoodPage"
@@ -467,7 +493,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ClothingPage']
 msgctxt "HelpPage.ClothingPage"
 msgid "Clothing"
-msgstr ""
+msgstr "服装"
 
 #: /Language/HelpPage/StationpediaPage[Key='ClothingPage']
 msgctxt "HelpPage.ClothingPage"
