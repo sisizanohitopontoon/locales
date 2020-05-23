@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-23 06:44+0000\n"
+"PO-Revision-Date: 2020-05-23 06:55+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1352,12 +1352,12 @@ msgstr "如果a不为0，则寄存器值为b，否则为c"
 #: /Language/Interface/Record[Key='ScriptCommandHcf']
 msgctxt "Interface.ScriptCommandHcf"
 msgid "Halt and catch fire"
-msgstr ""
+msgstr "Halt and catch fire, 早期计算机的机器指令，作用是让CPU去做循环的寻址动作，CPU不停地做读取大量数据的循环，如果寻到不存在的内存地址(此时为Catch fire)，将会锁定计算机，即Halt. "
 
 #: /Language/Interface/Record[Key='ScriptCommandPop']
 msgctxt "Interface.ScriptCommandPop"
 msgid "Register = the value at the top of the stack and decrements sp"
-msgstr ""
+msgstr "寄存器值取栈顶部的值，并且sp减一"
 
 #: /Language/Interface/Record[Key='ScriptCommandPush']
 msgctxt "Interface.ScriptCommandPush"
