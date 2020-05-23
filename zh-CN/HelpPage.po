@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-23 04:52+0000\n"
+"PO-Revision-Date: 2020-05-23 05:49+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -575,11 +575,13 @@ msgid ""
 "Melt Temperature {POS:300}{1}\n"
 "Melt Pressure {POS:300}{0}"
 msgstr ""
+"熔体温度 {POS:300}{1}\n"
+"熔体压力 {POS:300}{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorsHeaderTemplate']
 msgctxt "HelpPage.CreatorsHeaderTemplate"
 msgid "{HEADER:Manufactured By}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:制造源}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedByHeaderTemplate']
 msgctxt "HelpPage.ConstructedByHeaderTemplate"
@@ -596,6 +598,8 @@ msgid ""
 "{HEADER:Can Manufacture}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:可制造}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedHeaderTemplate']
 msgctxt "HelpPage.ConstructedHeaderTemplate"
@@ -603,6 +607,8 @@ msgid ""
 "{HEADER:Can Construct}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:可建造}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTransmitHeaderTemplate']
 msgctxt "HelpPage.LogicTransmitHeaderTemplate"
@@ -612,6 +618,10 @@ msgid ""
 "        {LIST}{0}{/LIST}\n"
 "      "
 msgstr ""
+"\n"
+"        {HEADER:连接至}\n"
+"        {LIST}{0}{/LIST}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='TierListHeaderTemplate']
 msgctxt "HelpPage.TierListHeaderTemplate"
