@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-24 09:14+0000\n"
+"PO-Revision-Date: 2020-05-24 09:19+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2787,25 +2787,21 @@ msgid "Setting Memory"
 msgstr "Nastavení paměti"
 
 #: /Language/Interface/Record[Key='SetMemoryDescription']
-#, fuzzy
 msgctxt "Interface.SetMemoryDescription"
 msgid ""
 "Now that you have the {THING:StructureLogicMemory} units in place, and a solar tracking system set up, you need to set specific values on the {THING:StructureLogicMemory} using the {THING:ItemScrewdriver}. The values depend on the position and rotation of the {THING:StructureDaylightSensor} and solar panels.\n"
 "Daylight sensors have 3 modes: Default, Horizontal, and Vertical. Each mode changes the output solar angle. In this case, we need to set the sensor to Horizontal, which is mode 1. To do this, set the Horizontal Memory Module to a value of 1, and the logic writer will write that value to the sensor. "
 msgstr ""
 "Nyní, když máte jednotku {THING:StructureLogicMemory} na místě a nastavený solární sledovací systém, musíte nastavit specifické hodnoty v {THING:StructureLogicMemory} pomocí {THING:ItemScrewdriver}. Hodnoty závisí na poloze a rotaci {THING:StructureDaylightSensor} a solárních panelů.\n"
-"            \n"
-"Senzory denního světla mají 3 režimy: výchozí, horizontální a vertikální. Každý režim mění výstupní solární úhel. V tomto případě musíme nastavit snímač na horizontální, což je režim 1. K tomu nastavte modul horizontální paměti na hodnotu 1 a logický zapisovač tuto hodnotu zapíše do senzoru. "
+"Senzory denního světla mají 3 režimy: výchozí, horizontální a vertikální. Každý režim mění výstupní solární úhel. V tomto případě musíme nastavit senzor na horizontální, což je režim 1. K tomu nastavte modul horizontální paměti na hodnotu 1 a logický zapisovač tuto hodnotu zapíše do senzoru. "
 
 #: /Language/Interface/Record[Key='SetMemoryDescription2']
-#, fuzzy
 msgctxt "Interface.SetMemoryDescription2"
 msgid ""
 "We now need to set a horizontal offset, to correct for the positions and rotations of the solar panel and the daylight sensors. If your solar sensor is at a 90-degree angle to your solar panels, the offset will adjust the solar angle data so the solar panels face towards the sun.\n"
 "We apply this value to Horizontal math unit 2, when we add it to the output value from Horizontal math unit 1."
 msgstr ""
-"Nyní musíme nastavit horizontální posun, abychom opravili polohy a rotace solárního panelu a senzorů denního světla. Pokud je váš solární senzor v úhlu 90 stupňů k vašim solárním panelům, posun upraví údaje o slunečním úhlu tak, aby solární panely směřovaly ke slunci.\n"
-"            \n"
+"Nyní musíme nastavit horizontální posun, abychom opravili polohy a rotace solárního panelu a senzorů denního světla. Pokud je váš solární senzor v úhlu 90 stupňů k vašim solárním panelům, posun upraví údaje o solárním úhlu tak, aby solární panely směřovaly ke slunci.\n"
 "Tuto hodnotu použijeme na horizontální matematickou jednotku 2, když ji přidáme k výstupní hodnotě z horizontální matematické jednotky 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription3']
