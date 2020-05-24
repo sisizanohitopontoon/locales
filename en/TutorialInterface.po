@@ -2368,13 +2368,13 @@ msgstr "Setting Memory"
 
 #: /Language/Interface/Record[Key='SetMemoryDescription']
 msgctxt "Interface.SetMemoryDescription"
-msgid "Now that you have the {THING:StructureLogicMemory} units in place, and a solar tracking system set up, you need to set specific values on the {THING:StructureLogicMemory} using the {THING:ItemScrewdriver}. The values depend on the position and rotation of the {THING:StructureDaylightSensor} and solar panels.\n            \nDaylight sensors have 3 modes: Default, Horizontal, and Vertical. Each mode changes the output solar angle. In this case, we need to set the sensor to Horizontal, which is mode 1. To do this, set the Horizontal Memory Module to a value of 1, and the logic writer will write that value to the sensor. "
-msgstr "Now that you have the {THING:StructureLogicMemory} units in place, and a solar tracking system set up, you need to set specific values on the {THING:StructureLogicMemory} using the {THING:ItemScrewdriver}. The values depend on the position and rotation of the {THING:StructureDaylightSensor} and solar panels.\n            \nDaylight sensors have 3 modes: Default, Horizontal, and Vertical. Each mode changes the output solar angle. In this case, we need to set the sensor to Horizontal, which is mode 1. To do this, set the Horizontal Memory Module to a value of 1, and the logic writer will write that value to the sensor. "
+msgid "Now that you have the {THING:StructureLogicMemory} units in place, and a solar tracking system set up, you need to set specific values on the {THING:StructureLogicMemory} using the {THING:ItemScrewdriver}. The values depend on the position and rotation of the {THING:StructureDaylightSensor} and solar panels.\nDaylight sensors have 3 modes: Default, Horizontal, and Vertical. Each mode changes the output solar angle. In this case, we need to set the sensor to Horizontal, which is mode 1. To do this, set the Horizontal Memory Module to a value of 1, and the logic writer will write that value to the sensor. "
+msgstr "Now that you have the {THING:StructureLogicMemory} units in place, and a solar tracking system set up, you need to set specific values on the {THING:StructureLogicMemory} using the {THING:ItemScrewdriver}. The values depend on the position and rotation of the {THING:StructureDaylightSensor} and solar panels.\nDaylight sensors have 3 modes: Default, Horizontal, and Vertical. Each mode changes the output solar angle. In this case, we need to set the sensor to Horizontal, which is mode 1. To do this, set the Horizontal Memory Module to a value of 1, and the logic writer will write that value to the sensor. "
 
 #: /Language/Interface/Record[Key='SetMemoryDescription2']
 msgctxt "Interface.SetMemoryDescription2"
-msgid "We now need to set a horizontal offset, to correct for the positions and rotations of the solar panel and the daylight sensors. If your solar sensor is at a 90-degree angle to your solar panels, the offset will adjust the solar angle data so the solar panels face towards the sun.\n            \nWe apply this value to Horizontal math unit 2, when we add it to the output value from Horizontal math unit 1."
-msgstr "We now need to set a horizontal offset, to correct for the positions and rotations of the solar panel and the daylight sensors. If your solar sensor is at a 90-degree angle to your solar panels, the offset will adjust the solar angle data so the solar panels face towards the sun.\n            \nWe apply this value to Horizontal math unit 2, when we add it to the output value from Horizontal math unit 1."
+msgid "We now need to set a horizontal offset, to correct for the positions and rotations of the solar panel and the daylight sensors. If your solar sensor is at a 90-degree angle to your solar panels, the offset will adjust the solar angle data so the solar panels face towards the sun.\nWe apply this value to Horizontal math unit 2, when we add it to the output value from Horizontal math unit 1."
+msgstr "We now need to set a horizontal offset, to correct for the positions and rotations of the solar panel and the daylight sensors. If your solar sensor is at a 90-degree angle to your solar panels, the offset will adjust the solar angle data so the solar panels face towards the sun.\nWe apply this value to Horizontal math unit 2, when we add it to the output value from Horizontal math unit 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription3']
 msgctxt "Interface.SetMemoryDescription3"
@@ -2383,13 +2383,13 @@ msgstr "As solar sensors provide a negative value, you must turn a negative valu
 
 #: /Language/Interface/Record[Key='SetMemoryDescription4']
 msgctxt "Interface.SetMemoryDescription4"
-msgid "The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.\n            \nTo make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.\n            "
-msgstr "The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.\n            \nTo make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.\n            "
+msgid "Lastly, calibrate the vertical position for the solar panel. \nTo do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards).\n            \n            "
+msgstr "Lastly, calibrate the vertical position for the solar panel. \nTo do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards).\n            \n            "
 
 #: /Language/Interface/Record[Key='SetMemoryDescription5']
 msgctxt "Interface.SetMemoryDescription5"
-msgid "Lastly, calibrate the vertical position for the solar panel. \n\t\t\t\nTo do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards)."
-msgstr "Lastly, calibrate the vertical position for the solar panel. \n\t\t\t\nTo do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards)."
+msgid "The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.\n            \nTo make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.\n            \n            "
+msgstr "The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.\n            \nTo make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.\n            \n            "
 
 #: /Language/Interface/Record[Key='SetMemory0']
 msgctxt "Interface.SetMemory0"
@@ -2406,13 +2406,13 @@ msgctxt "Interface.SetMemory2"
 msgid "Set Invert Memory to a value of -1"
 msgstr "Set Invert Memory to a value of -1"
 
-#: /Language/Interface/Record[Key='SetMemory4']
-msgctxt "Interface.SetMemory4"
+#: /Language/Interface/Record[Key='SetMemory3']
+msgctxt "Interface.SetMemory3"
 msgid "Set Add Memory to a value of 50"
 msgstr "Set Add Memory to a value of 50"
 
-#: /Language/Interface/Record[Key='SetMemory3']
-msgctxt "Interface.SetMemory3"
+#: /Language/Interface/Record[Key='SetMemory4']
+msgctxt "Interface.SetMemory4"
 msgid "Set Tilt Memory to a value of 1.5"
 msgstr "Set Tilt Memory to a value of 1.5"
 
@@ -2733,8 +2733,8 @@ msgstr "Sleep Mode Module"
 
 #: /Language/Interface/Record[Key='SleepModeDescription']
 msgctxt "Interface.SleepModeDescription"
-msgid "We now have a solar tracking circuit that will track sunlight throughout the day.\n\t\t\t\nBut what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.\n            "
-msgstr "We now have a solar tracking circuit that will track sunlight throughout the day.\n\t\t\t\nBut what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.\n            "
+msgid "We now have a solar tracking circuit that will track sunlight throughout the day.\n\t\t\t\nBut what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.\n            \n            "
+msgstr "We now have a solar tracking circuit that will track sunlight throughout the day.\n\t\t\t\nBut what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.\n            \n            "
 
 #: /Language/Interface/Record[Key='LogicSelect1']
 msgctxt "Interface.LogicSelect1"
