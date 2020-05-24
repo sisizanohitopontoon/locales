@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-24 08:41+0000\n"
+"PO-Revision-Date: 2020-05-24 10:06+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -314,7 +314,6 @@ msgstr ""
 "按键打开和关闭你的 {SLOT:Belt} 装备槽."
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable4']
-#, fuzzy
 msgctxt "Interface.TutorialDescRepairCable4"
 msgid ""
 "With the {THING:ItemCableCoil} in your {COLORYELLOW:Active Hand}, press {KEY:SecondaryAction} to bring up the {LINK:ConstructionPage;construction} cursor.\n"
@@ -325,11 +324,13 @@ msgid ""
 "\n"
 "Press {KEY:QuantityModifier} and the object will attempt its best connection placement, otherwise you can use custom rotation keys."
 msgstr ""
-"与 {THING:ItemCableCoil} 在你的手中激活, 按下 {COLORRED:鼠标右键} 调出建设模型.\n"
+"把 {THING:ItemCableCoil}放在你{COLORYELLOW:当前使用的手}, 按 {KEY:SecondaryAction} 进入 {LINK:ConstructionPage;建造} 蓝图布局界面。\n"
 "\n"
-"使用 {COLORRED:鼠标滚轮} 改变建设模型的类型, 选择 {THING:StructureCableJunction} 建设模型.\n"
+"使用 {COLORRED:鼠标滚轮} 改变建造类型, 选择建造 {THING:StructureCableJunction}.\n"
 "\n"
-"按下 {KEY:RotateLeft} 向左转, {KEY:RotateRight} 向右转, {KEY:RotateUp} 向上转, {KEY:RotateDown} 向下转, {KEY:RotateRollLeft} 向左滚, or {KEY:RotateRollRight} 向右滚."
+"您的布局蓝图包含重要的连接信息，小的加号表示物品能从这里连接到电缆网络。确保你的连接线是准确的。\n"
+"\n"
+"按下 {KEY:QuantityModifier} 会让物品尝试其最佳的连接位置。或者，你也可以使用自定义旋转快捷键。"
 
 #: /Language/Interface/Record[Key='TutorialTitleFinishFrame']
 msgctxt "Interface.TutorialTitleFinishFrame"
