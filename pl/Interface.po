@@ -10,15 +10,50 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
-msgctxt "Interface.PromptDebugLoadConfirm"
-msgid "Debug Load"
-msgstr "Debug Load"
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr "Give Up"
+
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Inne Ustawienia"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Skróty klawiszowe"
+
+#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
+msgctxt "Interface.SettingsVoiceNotifications"
+msgid "Voice Notifications"
+msgstr "Powiadomienia głosowe"
+
+#: /Language/Interface/Record[Key='SettingsSound']
+msgctxt "Interface.SettingsSound"
+msgid "Sound"
+msgstr "Dźwięk"
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Mikser"
+
+#: /Language/Interface/Record[Key='SettingsMasterVolume']
+msgctxt "Interface.SettingsMasterVolume"
+msgid "Master Volume"
+msgstr "Głośność ogólna"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Odbicia"
+
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
+msgstr "Plik {0} jest nieprawidłowy. Sprawdź świat {1}."
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -49,11 +84,6 @@ msgstr "Liczba pikseli światła"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Światło wolumetryczne"
-
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Odrodzenie"
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -342,10 +372,10 @@ msgctxt "Interface.NewWorldAreaEarth"
 msgid "Earth"
 msgstr "Ziemia"
 
-#: /Language/Interface/Record[Key='Mimas']
-msgctxt "Interface.Mimas"
-msgid "Mimas"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Rozpraszanie atmos."
 
 #: /Language/Interface/Record[Key='Europa2']
 #, fuzzy
@@ -358,10 +388,10 @@ msgctxt "Interface.Vulcan2"
 msgid "Vulcan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "Zamień na {1}<color=yellow>({0})</color> dla {2}"
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Space']
 #, fuzzy
@@ -569,36 +599,6 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Kontynuuj"
-
-#: /Language/Interface/Record[Key='SettingsMasterVolume']
-msgctxt "Interface.SettingsMasterVolume"
-msgid "Master Volume"
-msgstr "Głośność ogólna"
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Mikser"
-
-#: /Language/Interface/Record[Key='SettingsSound']
-msgctxt "Interface.SettingsSound"
-msgid "Sound"
-msgstr "Dźwięk"
-
-#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
-msgctxt "Interface.SettingsVoiceNotifications"
-msgid "Voice Notifications"
-msgstr "Powiadomienia głosowe"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Skróty klawiszowe"
-
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Inne Ustawienia"
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -880,16 +880,15 @@ msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 msgstr "Pozwala na montowanie urzadzen nasciennych. Ulepsz, aby stworzyc wiecej mozliwosci montazu."
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoITitle']
-#, fuzzy
-msgctxt "Interface.CartridgeElectronicReaderAutoITitle"
-msgid "Autoignition:"
-msgstr "Uwaga"
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
 msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "Umiejscowienie przylega do siatki."
+
+#: /Language/Interface/Record[Key='ElectronicReaderIce']
+msgctxt "Interface.ElectronicReaderIce"
+msgid "Ice"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -1049,35 +1048,35 @@ msgctxt "Interface.PromptUnsubscribeBody"
 msgid "Are you sure you want to unsubscribe from this Workshop item?"
 msgstr "Czy na pewno chcesz zrezygnować z subskrypcji tego przedmiotu z Warsztatu?"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Jestes martwy"
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr "Anuluj Subskrypcje"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Odrodzenie"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Nadpisz"
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "Give Up"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Czy na pewno chcesz zastapic istniejacy zapisany swiat?"
 
-#: /Language/Interface/Record[Key='PromptGiveUpBody']
-msgctxt "Interface.PromptGiveUpBody"
-msgid "You are unconscious. Do you want to give up and respawn?"
-msgstr "Jestes nieprzytomny. Czy chcesz się poddac i odrodzic?"
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Nadpisz"
 
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr "Give Up"
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "Opublikuj w Warsztacie"
 
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr "Plik {0} jest nieprawidłowy. Sprawdź świat {1}."
+#: /Language/Interface/Record[Key='PromptPublishBody']
+msgctxt "Interface.PromptPublishBody"
+msgid "Are you sure you want to publish this world to the workshop?"
+msgstr "Czy na pewno chcesz opublikowac ten swiat na warsztatach?"
 
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
@@ -1161,36 +1160,6 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "Wpisz IP:Port tutaj..."
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr "Anuluj Subskrypcje"
-
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Nadpisz"
-
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Czy na pewno chcesz zastapic istniejacy zapisany swiat?"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Nadpisz"
-
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "Opublikuj w Warsztacie"
-
-#: /Language/Interface/Record[Key='PromptPublishBody']
-msgctxt "Interface.PromptPublishBody"
-msgid "Are you sure you want to publish this world to the workshop?"
-msgstr "Czy na pewno chcesz opublikowac ten swiat na warsztatach?"
-
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
@@ -1220,6 +1189,36 @@ msgstr "Debug Load"
 msgctxt "Interface.PromptDebugLoadBody"
 msgid "Are you sure you want to load this world with only one character?"
 msgstr "Czy na pewno chcesz zaladowac ten swiat tylko jedna postacia?"
+
+#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
+msgctxt "Interface.PromptDebugLoadConfirm"
+msgid "Debug Load"
+msgstr "Debug Load"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Odrodzenie"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Jestes martwy"
+
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Odrodzenie"
+
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "Give Up"
+
+#: /Language/Interface/Record[Key='PromptGiveUpBody']
+msgctxt "Interface.PromptGiveUpBody"
+msgid "You are unconscious. Do you want to give up and respawn?"
+msgstr "Jestes nieprzytomny. Czy chcesz się poddac i odrodzic?"
 
 #: /Language/Interface/Record[Key='FramerateLock']
 msgctxt "Interface.FramerateLock"
@@ -1343,6 +1342,40 @@ msgstr ""
 msgctxt "Interface.ScriptCommandCommand"
 msgid "command"
 msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandATan']
+#, fuzzy
+msgctxt "Interface.ScriptCommandATan"
+msgid "Returns the angle whos tan is the specified value"
+msgstr "zwraca stan zdrowia rośliny w slocie"
+
+#: /Language/Interface/Record[Key='ScriptCommandACos']
+msgctxt "Interface.ScriptCommandACos"
+msgid "Returns the angle whos cosine is the specified value"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandASin']
+msgctxt "Interface.ScriptCommandASin"
+msgid "Returns the angle whos sine is the specified value"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandTan']
+#, fuzzy
+msgctxt "Interface.ScriptCommandTan"
+msgid "Returns the tan of the specified angle"
+msgstr "zwraca hash struktury w slocie"
+
+#: /Language/Interface/Record[Key='ScriptCommandCos']
+#, fuzzy
+msgctxt "Interface.ScriptCommandCos"
+msgid "Returns the cosine of the specified angle"
+msgstr "zwraca maksymalny rozmiar stosu przedmiotu w slocie"
+
+#: /Language/Interface/Record[Key='ScriptCommandSin']
+#, fuzzy
+msgctxt "Interface.ScriptCommandSin"
+msgid "Returns the sine of the specified angle"
+msgstr "zwraca hash struktury w slocie"
 
 #: /Language/Interface/Record[Key='ScriptCommandSleep']
 msgctxt "Interface.ScriptCommandSleep"
@@ -2297,11 +2330,6 @@ msgctxt "Interface.ElectronicReaderOxite"
 msgid "Oxite"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderIce']
-msgctxt "Interface.ElectronicReaderIce"
-msgid "Ice"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ElectronicReaderIron']
 msgctxt "Interface.ElectronicReaderIron"
 msgid "Iron"
@@ -2316,6 +2344,12 @@ msgstr ""
 msgctxt "Interface.CartridgeElectronicReaderAutoHashTitle"
 msgid "Hash:"
 msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoITitle']
+#, fuzzy
+msgctxt "Interface.CartridgeElectronicReaderAutoITitle"
+msgid "Autoignition:"
+msgstr "Uwaga"
 
 #: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoFlashTitle']
 msgctxt "Interface.CartridgeElectronicReaderAutoFlashTitle"
@@ -2538,10 +2572,10 @@ msgctxt "Interface.HueField"
 msgid "Hue:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='RedField']
-msgctxt "Interface.RedField"
-msgid "Red:"
-msgstr ""
+#: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
+msgctxt "Interface.JoinMenuServerDetailInfoButton"
+msgid "View Info"
+msgstr "Wyswietl informacje"
 
 #: /Language/Interface/Record[Key='GreenField']
 msgctxt "Interface.GreenField"
@@ -2553,10 +2587,11 @@ msgctxt "Interface.BlueField"
 msgid "Blue:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
-msgctxt "Interface.JoinMenuServerDetailInfoButton"
-msgid "View Info"
-msgstr "Wyswietl informacje"
+#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
+#, fuzzy
+msgctxt "Interface.WorldCustomTerrainLabel"
+msgid "Terrain Colour"
+msgstr "Teren"
 
 #: /Language/Interface/Record[Key='SettingsDifficulty']
 #, fuzzy
@@ -3548,6 +3583,11 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Spis Starych Produktow"
 
+#: /Language/Interface/Record[Key='Mimas']
+msgctxt "Interface.Mimas"
+msgid "Mimas"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3567,11 +3607,6 @@ msgstr "f"
 msgctxt "Interface.HeadingEdit"
 msgid "Edit"
 msgstr "Edytuj"
-
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
-msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonLoad']
 msgctxt "Interface.ButtonLoad"
@@ -3748,11 +3783,6 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Zeruj"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Rozpraszanie atmos."
-
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
 msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
@@ -3767,6 +3797,11 @@ msgstr ""
 msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr "Zamień na <color=yellow>{0}</color>>dla wszystkich {1}"
+
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+msgstr "Zamień na {1}<color=yellow>({0})</color> dla {2}"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
 msgctxt "Interface.ChangeReagentSettingTo"
@@ -4229,11 +4264,10 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Usun ulubione"
 
-#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
-#, fuzzy
-msgctxt "Interface.WorldCustomTerrainLabel"
-msgid "Terrain Colour"
-msgstr "Teren"
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"

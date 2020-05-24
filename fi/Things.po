@@ -75,15 +75,15 @@ msgctxt "Things.UniformMarine"
 msgid "Marine Uniform"
 msgstr "Merijalkaväen univormu"
 
-#: /Language/Things/Record[Key='ItemMarineHelmet']
-msgctxt "Things.ItemMarineHelmet"
-msgid "Marine Helmet"
-msgstr "Merijalkaväen avaruuskypärä"
-
 #: /Language/Things/Record[Key='ItemMarineBodyArmor']
 msgctxt "Things.ItemMarineBodyArmor"
 msgid "Marine Armor"
 msgstr "Merijalkaväen panssari"
+
+#: /Language/Things/Record[Key='MotherboardComms']
+msgctxt "Things.MotherboardComms"
+msgid "Motherboard (Communications)"
+msgstr "Emolevy (tietoliikenne)"
 
 #: /Language/Things/Record[Key='ItemAlienMushroom']
 msgctxt "Things.ItemAlienMushroom"
@@ -1300,6 +1300,11 @@ msgctxt "Things.ItemPotato"
 msgid "Potato"
 msgstr "Peruna"
 
+#: /Language/Things/Record[Key='StructureStairs4x2RailL']
+msgctxt "Things.StructureStairs4x2RailL"
+msgid "Stairs with Rail (Left)"
+msgstr ""
+
 #: /Language/Things/Record[Key='StructureTankBig']
 msgctxt "Things.StructureTankBig"
 msgid "Large Tank"
@@ -1309,11 +1314,6 @@ msgstr "Iso säiliö"
 msgctxt "Things.ItemKitBeacon"
 msgid "Kit (Beacon)"
 msgstr "Varustepakkaus (majakka)"
-
-#: /Language/Things/Record[Key='StructureStairs4x2RailL']
-msgctxt "Things.StructureStairs4x2RailL"
-msgid "Stairs with Rail (Left)"
-msgstr ""
 
 #: /Language/Things/Record[Key='StructureBeacon']
 msgctxt "Things.StructureBeacon"
@@ -2942,15 +2942,15 @@ msgctxt "Things.ItemKitChute"
 msgid "Kit (Chutes)"
 msgstr "Varustepakkaus (ränni)"
 
-#: /Language/Things/Record[Key='ItemKitCentrifuge']
-msgctxt "Things.ItemKitCentrifuge"
-msgid "Kit (Centrifuge)"
-msgstr "Varustepakkaus (sentrifugi)"
-
 #: /Language/Things/Record[Key='StructureStairs4x2RailR']
 msgctxt "Things.StructureStairs4x2RailR"
 msgid "Stairs with Rail (Right)"
 msgstr ""
+
+#: /Language/Things/Record[Key='ItemKitBattery']
+msgctxt "Things.ItemKitBattery"
+msgid "Kit (Battery)"
+msgstr "Varustepakkaus (akku)"
 
 #: /Language/Things/Record[Key='ItemKitAtmospherics']
 msgctxt "Things.ItemKitAtmospherics"
@@ -3868,11 +3868,6 @@ msgctxt "Things.ReagentCobalt"
 msgid "Cobalt Powder"
 msgstr "Kultajauhe"
 
-#: /Language/Things/Record[Key='MotherboardComms']
-msgctxt "Things.MotherboardComms"
-msgid "Motherboard (Communications)"
-msgstr "Emolevy (tietoliikenne)"
-
 #: /Language/Things/Record[Key='StructureCompositeCladdingRoundedCornerInner']
 #, fuzzy
 msgctxt "Things.StructureCompositeCladdingRoundedCornerInner"
@@ -3884,6 +3879,11 @@ msgstr "Komposiittipäällyste (pyöristetty, kulma)"
 msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
 msgid "Composite Cladding (Angled Corner Inner Long R)"
 msgstr "Komposiittipäällyste (vino, kulma)"
+
+#: /Language/Things/Record[Key='ItemMarineHelmet']
+msgctxt "Things.ItemMarineHelmet"
+msgid "Marine Helmet"
+msgstr "Merijalkaväen avaruuskypärä"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLongL']
 #, fuzzy
@@ -4206,10 +4206,10 @@ msgctxt "Things.ItemTerrainManipulator"
 msgid "Item Terrain Manipulator"
 msgstr ""
 
-#: /Language/Things/Record[Key='ItemKitBattery']
-msgctxt "Things.ItemKitBattery"
-msgid "Kit (Battery)"
-msgstr "Varustepakkaus (akku)"
+#: /Language/Things/Record[Key='ItemKitCentrifuge']
+msgctxt "Things.ItemKitCentrifuge"
+msgid "Kit (Centrifuge)"
+msgstr "Varustepakkaus (sentrifugi)"
 
 #~ msgctxt "Things.StructureBattery"
 #~ msgid "Stationary Battery"

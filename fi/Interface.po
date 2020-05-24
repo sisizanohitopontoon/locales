@@ -10,15 +10,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
-msgctxt "Interface.PromptDebugLoadConfirm"
-msgid "Debug Load"
-msgstr "Debug-lataus"
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr "Luovuta"
+
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Muut asetukset"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Näppäimet"
+
+#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
+msgctxt "Interface.SettingsVoiceNotifications"
+msgid "Voice Notifications"
+msgstr "Ilmoitukset"
+
+#: /Language/Interface/Record[Key='SettingsSound']
+msgctxt "Interface.SettingsSound"
+msgid "Sound"
+msgstr "Äänet"
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Äänentaso"
+
+#: /Language/Interface/Record[Key='SettingsMasterVolume']
+msgctxt "Interface.SettingsMasterVolume"
+msgid "Master Volume"
+msgstr "Yleinen äänentaso"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Heijastukset"
+
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -49,11 +84,6 @@ msgstr "Pikselivalojen määrä"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Volumetrinen valaistus"
-
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Herätä henkiin"
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -342,10 +372,10 @@ msgctxt "Interface.NewWorldAreaEarth"
 msgid "Earth"
 msgstr "Maa"
 
-#: /Language/Interface/Record[Key='Mimas']
-msgctxt "Interface.Mimas"
-msgid "Mimas"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Ilmakehän Sironta"
 
 #: /Language/Interface/Record[Key='Europa2']
 #, fuzzy
@@ -358,11 +388,10 @@ msgctxt "Interface.Vulcan2"
 msgid "Vulcan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-#, fuzzy
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "Muuta <color=yellow>{0}</color> for {1}"
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Space']
 #, fuzzy
@@ -575,36 +604,6 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka peliä"
-
-#: /Language/Interface/Record[Key='SettingsMasterVolume']
-msgctxt "Interface.SettingsMasterVolume"
-msgid "Master Volume"
-msgstr "Yleinen äänentaso"
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Äänentaso"
-
-#: /Language/Interface/Record[Key='SettingsSound']
-msgctxt "Interface.SettingsSound"
-msgid "Sound"
-msgstr "Äänet"
-
-#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
-msgctxt "Interface.SettingsVoiceNotifications"
-msgid "Voice Notifications"
-msgstr "Ilmoitukset"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Näppäimet"
-
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Muut asetukset"
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -886,16 +885,15 @@ msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 msgstr "Sallii seinään kiinnitettävien laitteiden asennuksen. Päivitä salliaksesi paremman sijoittelun."
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoITitle']
-#, fuzzy
-msgctxt "Interface.CartridgeElectronicReaderAutoITitle"
-msgid "Autoignition:"
-msgstr "Huomio"
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
 msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "Asettelu napsahtaa ruudukkoon."
+
+#: /Language/Interface/Record[Key='ElectronicReaderIce']
+msgctxt "Interface.ElectronicReaderIce"
+msgid "Ice"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -1055,35 +1053,35 @@ msgctxt "Interface.PromptUnsubscribeBody"
 msgid "Are you sure you want to unsubscribe from this Workshop item?"
 msgstr "Oletko varma, että haluat lopettaa tämän Workshop itemin tilaamisen?"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Sinä kuolit."
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr "Lopeta tilaaminen"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Herätä henkiin"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Korvaa"
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "Luovuta"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Haluatko varmasti korvata olemassaolevan maailman?"
 
-#: /Language/Interface/Record[Key='PromptGiveUpBody']
-msgctxt "Interface.PromptGiveUpBody"
-msgid "You are unconscious. Do you want to give up and respawn?"
-msgstr "Olet tajuton. Haluatko luovuttaa ja herätä uudelleen henkiin?"
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Korvaa"
 
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr "Luovuta"
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "Julkaise Workshopissa"
 
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr ""
+#: /Language/Interface/Record[Key='PromptPublishBody']
+msgctxt "Interface.PromptPublishBody"
+msgid "Are you sure you want to publish this world to the workshop?"
+msgstr "Haluatko varmasti julkaista tämän maailman Workshopissa?"
 
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
@@ -1168,36 +1166,6 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "Syötä IP:portti"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr "Lopeta tilaaminen"
-
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Korvaa"
-
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Haluatko varmasti korvata olemassaolevan maailman?"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Korvaa"
-
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "Julkaise Workshopissa"
-
-#: /Language/Interface/Record[Key='PromptPublishBody']
-msgctxt "Interface.PromptPublishBody"
-msgid "Are you sure you want to publish this world to the workshop?"
-msgstr "Haluatko varmasti julkaista tämän maailman Workshopissa?"
-
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
@@ -1227,6 +1195,36 @@ msgstr "Debug-lataus"
 msgctxt "Interface.PromptDebugLoadBody"
 msgid "Are you sure you want to load this world with only one character?"
 msgstr "Haluatko varmasti ladata tämän maailman vain yhdellä hahmolla?"
+
+#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
+msgctxt "Interface.PromptDebugLoadConfirm"
+msgid "Debug Load"
+msgstr "Debug-lataus"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Herätä henkiin"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Sinä kuolit."
+
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Herätä henkiin"
+
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "Luovuta"
+
+#: /Language/Interface/Record[Key='PromptGiveUpBody']
+msgctxt "Interface.PromptGiveUpBody"
+msgid "You are unconscious. Do you want to give up and respawn?"
+msgstr "Olet tajuton. Haluatko luovuttaa ja herätä uudelleen henkiin?"
 
 #: /Language/Interface/Record[Key='FramerateLock']
 msgctxt "Interface.FramerateLock"
@@ -1347,6 +1345,36 @@ msgstr ""
 #: /Language/Interface/Record[Key='ScriptCommandCommand']
 msgctxt "Interface.ScriptCommandCommand"
 msgid "command"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandATan']
+msgctxt "Interface.ScriptCommandATan"
+msgid "Returns the angle whos tan is the specified value"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandACos']
+msgctxt "Interface.ScriptCommandACos"
+msgid "Returns the angle whos cosine is the specified value"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandASin']
+msgctxt "Interface.ScriptCommandASin"
+msgid "Returns the angle whos sine is the specified value"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandTan']
+msgctxt "Interface.ScriptCommandTan"
+msgid "Returns the tan of the specified angle"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandCos']
+msgctxt "Interface.ScriptCommandCos"
+msgid "Returns the cosine of the specified angle"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandSin']
+msgctxt "Interface.ScriptCommandSin"
+msgid "Returns the sine of the specified angle"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandSleep']
@@ -2296,11 +2324,6 @@ msgctxt "Interface.ElectronicReaderOxite"
 msgid "Oxite"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderIce']
-msgctxt "Interface.ElectronicReaderIce"
-msgid "Ice"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ElectronicReaderIron']
 msgctxt "Interface.ElectronicReaderIron"
 msgid "Iron"
@@ -2315,6 +2338,12 @@ msgstr ""
 msgctxt "Interface.CartridgeElectronicReaderAutoHashTitle"
 msgid "Hash:"
 msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoITitle']
+#, fuzzy
+msgctxt "Interface.CartridgeElectronicReaderAutoITitle"
+msgid "Autoignition:"
+msgstr "Huomio"
 
 #: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoFlashTitle']
 msgctxt "Interface.CartridgeElectronicReaderAutoFlashTitle"
@@ -2544,10 +2573,10 @@ msgctxt "Interface.HueField"
 msgid "Hue:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='RedField']
-msgctxt "Interface.RedField"
-msgid "Red:"
-msgstr ""
+#: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
+msgctxt "Interface.JoinMenuServerDetailInfoButton"
+msgid "View Info"
+msgstr "Näytä tiedot"
 
 #: /Language/Interface/Record[Key='GreenField']
 msgctxt "Interface.GreenField"
@@ -2559,10 +2588,11 @@ msgctxt "Interface.BlueField"
 msgid "Blue:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
-msgctxt "Interface.JoinMenuServerDetailInfoButton"
-msgid "View Info"
-msgstr "Näytä tiedot"
+#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
+#, fuzzy
+msgctxt "Interface.WorldCustomTerrainLabel"
+msgid "Terrain Colour"
+msgstr "Maasto"
 
 #: /Language/Interface/Record[Key='SettingsDifficulty']
 #, fuzzy
@@ -3562,6 +3592,11 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr ""
 
+#: /Language/Interface/Record[Key='Mimas']
+msgctxt "Interface.Mimas"
+msgid "Mimas"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3580,11 +3615,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='HeadingEdit']
 msgctxt "Interface.HeadingEdit"
 msgid "Edit"
-msgstr ""
-
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonLoad']
@@ -3762,11 +3792,6 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Nollaa"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Ilmakehän Sironta"
-
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
 msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
@@ -3781,6 +3806,12 @@ msgstr ""
 #, fuzzy
 msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
+msgstr "Muuta <color=yellow>{0}</color> for {1}"
+
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+#, fuzzy
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
 msgstr "Muuta <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
@@ -4261,11 +4292,10 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Poista suosikki"
 
-#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
-#, fuzzy
-msgctxt "Interface.WorldCustomTerrainLabel"
-msgid "Terrain Colour"
-msgstr "Maasto"
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"

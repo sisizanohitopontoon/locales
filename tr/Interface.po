@@ -10,15 +10,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
-msgctxt "Interface.PromptDebugLoadConfirm"
-msgid "Debug Load"
-msgstr "Hata Ayıklamayı Yükle"
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr "Pes Et"
+
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Çeşitli Ayarlar"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Tuş Düzeni"
+
+#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
+msgctxt "Interface.SettingsVoiceNotifications"
+msgid "Voice Notifications"
+msgstr "Sesli Bildirimler"
+
+#: /Language/Interface/Record[Key='SettingsSound']
+msgctxt "Interface.SettingsSound"
+msgid "Sound"
+msgstr "Ses"
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Karıştırıcı"
+
+#: /Language/Interface/Record[Key='SettingsMasterVolume']
+msgctxt "Interface.SettingsMasterVolume"
+msgid "Master Volume"
+msgstr "Ana Ses"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Yansımalar"
+
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
+msgstr "{0} dosyası geçersizdir. {1} dünyasını kontrol ediniz."
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -49,11 +84,6 @@ msgstr "Piksel Işık Adedi"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Hacimsel Işıklandırma"
-
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Yeniden Canlan"
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -341,10 +371,10 @@ msgctxt "Interface.NewWorldAreaEarth"
 msgid "Earth"
 msgstr "Dünya"
 
-#: /Language/Interface/Record[Key='Mimas']
-msgctxt "Interface.Mimas"
-msgid "Mimas"
-msgstr "Mimas"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Atmosferik Saçılma"
 
 #: /Language/Interface/Record[Key='Europa2']
 msgctxt "Interface.Europa2"
@@ -356,10 +386,10 @@ msgctxt "Interface.Vulcan2"
 msgid "Vulcan"
 msgstr "Vulcan"
 
-#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
-msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Change to {1}<color=yellow>({0})</color> for {2}"
-msgstr "{2} için {1}<color=yellow>({0})</color>'a değiştir"
+#: /Language/Interface/Record[Key='Vulcan']
+msgctxt "Interface.Vulcan"
+msgid "Vulcan"
+msgstr "Vulcan"
 
 #: /Language/Interface/Record[Key='Space']
 msgctxt "Interface.Space"
@@ -565,36 +595,6 @@ msgstr "Resim"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "DEVAM ET"
-
-#: /Language/Interface/Record[Key='SettingsMasterVolume']
-msgctxt "Interface.SettingsMasterVolume"
-msgid "Master Volume"
-msgstr "Ana Ses"
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Karıştırıcı"
-
-#: /Language/Interface/Record[Key='SettingsSound']
-msgctxt "Interface.SettingsSound"
-msgid "Sound"
-msgstr "Ses"
-
-#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
-msgctxt "Interface.SettingsVoiceNotifications"
-msgid "Voice Notifications"
-msgstr "Sesli Bildirimler"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Tuş Düzeni"
-
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Çeşitli Ayarlar"
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -877,15 +877,15 @@ msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
 msgstr "Duvara yerleştirilmiş cihazların montajını sağlar. Daha iyi yerleştirme alanı için Yükseltin."
 
-#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoITitle']
-msgctxt "Interface.CartridgeElectronicReaderAutoITitle"
-msgid "Autoignition:"
-msgstr "Yanma:"
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapGrid']
 msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "Yerleştirme ızgaraya takılır."
+
+#: /Language/Interface/Record[Key='ElectronicReaderIce']
+msgctxt "Interface.ElectronicReaderIce"
+msgid "Ice"
+msgstr "Buz"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
@@ -1047,35 +1047,35 @@ msgctxt "Interface.PromptUnsubscribeBody"
 msgid "Are you sure you want to unsubscribe from this Workshop item?"
 msgstr "Bu atölye öğesinden aboneliği kaldırmak istediğine emin misin?"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Öldün."
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr "Aboneliği Kaldır"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Yeniden Canlan"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Üstüne Yaz"
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "Pes Et"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Var olan kaydedilmiş dünyanın üstüne yazmak istediğine emin misin?"
 
-#: /Language/Interface/Record[Key='PromptGiveUpBody']
-msgctxt "Interface.PromptGiveUpBody"
-msgid "You are unconscious. Do you want to give up and respawn?"
-msgstr "Baygın durumdasın. Pes etmek ve yeniden canlanmak ister misin?"
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Üstüne Yaz"
 
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr "Pes Et"
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "Atölyede Yayınla"
 
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr "{0} dosyası geçersizdir. {1} dünyasını kontrol ediniz."
+#: /Language/Interface/Record[Key='PromptPublishBody']
+msgctxt "Interface.PromptPublishBody"
+msgid "Are you sure you want to publish this world to the workshop?"
+msgstr "Bu dünyayı atölyede yayınlamak istediğine emin misin?"
 
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
@@ -1160,36 +1160,6 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "BURAYA IP:PORT GİRİN..."
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr "Aboneliği Kaldır"
-
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Üstüne Yaz"
-
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Var olan kaydedilmiş dünyanın üstüne yazmak istediğine emin misin?"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Üstüne Yaz"
-
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "Atölyede Yayınla"
-
-#: /Language/Interface/Record[Key='PromptPublishBody']
-msgctxt "Interface.PromptPublishBody"
-msgid "Are you sure you want to publish this world to the workshop?"
-msgstr "Bu dünyayı atölyede yayınlamak istediğine emin misin?"
-
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
@@ -1219,6 +1189,36 @@ msgstr "Hata Ayıklamayı Yükle"
 msgctxt "Interface.PromptDebugLoadBody"
 msgid "Are you sure you want to load this world with only one character?"
 msgstr "Bu dünyayı sadece bir karakter ile yüklemek istediğine emin misin?"
+
+#: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
+msgctxt "Interface.PromptDebugLoadConfirm"
+msgid "Debug Load"
+msgstr "Hata Ayıklamayı Yükle"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Yeniden Canlan"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Öldün."
+
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Yeniden Canlan"
+
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "Pes Et"
+
+#: /Language/Interface/Record[Key='PromptGiveUpBody']
+msgctxt "Interface.PromptGiveUpBody"
+msgid "You are unconscious. Do you want to give up and respawn?"
+msgstr "Baygın durumdasın. Pes etmek ve yeniden canlanmak ister misin?"
 
 #: /Language/Interface/Record[Key='FramerateLock']
 msgctxt "Interface.FramerateLock"
@@ -1340,6 +1340,42 @@ msgstr "Mavi "
 msgctxt "Interface.ScriptCommandCommand"
 msgid "command"
 msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandATan']
+#, fuzzy
+msgctxt "Interface.ScriptCommandATan"
+msgid "Returns the angle whos tan is the specified value"
+msgstr "yuvadaki bitkinin sağlığını döndürür"
+
+#: /Language/Interface/Record[Key='ScriptCommandACos']
+#, fuzzy
+msgctxt "Interface.ScriptCommandACos"
+msgid "Returns the angle whos cosine is the specified value"
+msgstr "Cihazın toplam molünü döndürür"
+
+#: /Language/Interface/Record[Key='ScriptCommandASin']
+#, fuzzy
+msgctxt "Interface.ScriptCommandASin"
+msgid "Returns the angle whos sine is the specified value"
+msgstr "Cihazın atmosfer hacmini döndürür"
+
+#: /Language/Interface/Record[Key='ScriptCommandTan']
+#, fuzzy
+msgctxt "Interface.ScriptCommandTan"
+msgid "Returns the tan of the specified angle"
+msgstr "Cihazın toplam molünü döndürür"
+
+#: /Language/Interface/Record[Key='ScriptCommandCos']
+#, fuzzy
+msgctxt "Interface.ScriptCommandCos"
+msgid "Returns the cosine of the specified angle"
+msgstr "Cihazın toplam molünü döndürür"
+
+#: /Language/Interface/Record[Key='ScriptCommandSin']
+#, fuzzy
+msgctxt "Interface.ScriptCommandSin"
+msgid "Returns the sine of the specified angle"
+msgstr "Cihazın toplam molünü döndürür"
 
 #: /Language/Interface/Record[Key='ScriptCommandSleep']
 msgctxt "Interface.ScriptCommandSleep"
@@ -2272,11 +2308,6 @@ msgctxt "Interface.ElectronicReaderOxite"
 msgid "Oxite"
 msgstr "Oksit"
 
-#: /Language/Interface/Record[Key='ElectronicReaderIce']
-msgctxt "Interface.ElectronicReaderIce"
-msgid "Ice"
-msgstr "Buz"
-
 #: /Language/Interface/Record[Key='ElectronicReaderIron']
 msgctxt "Interface.ElectronicReaderIron"
 msgid "Iron"
@@ -2291,6 +2322,11 @@ msgstr "g"
 msgctxt "Interface.CartridgeElectronicReaderAutoHashTitle"
 msgid "Hash:"
 msgstr "Hash:"
+
+#: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoITitle']
+msgctxt "Interface.CartridgeElectronicReaderAutoITitle"
+msgid "Autoignition:"
+msgstr "Yanma:"
 
 #: /Language/Interface/Record[Key='CartridgeElectronicReaderAutoFlashTitle']
 msgctxt "Interface.CartridgeElectronicReaderAutoFlashTitle"
@@ -2502,10 +2538,10 @@ msgctxt "Interface.HueField"
 msgid "Hue:"
 msgstr "Ton:"
 
-#: /Language/Interface/Record[Key='RedField']
-msgctxt "Interface.RedField"
-msgid "Red:"
-msgstr "Kırmızı:"
+#: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
+msgctxt "Interface.JoinMenuServerDetailInfoButton"
+msgid "View Info"
+msgstr "BİLGİLERİ GÖRÜNTÜLE"
 
 #: /Language/Interface/Record[Key='GreenField']
 msgctxt "Interface.GreenField"
@@ -2517,10 +2553,10 @@ msgctxt "Interface.BlueField"
 msgid "Blue:"
 msgstr "Mavi:"
 
-#: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
-msgctxt "Interface.JoinMenuServerDetailInfoButton"
-msgid "View Info"
-msgstr "BİLGİLERİ GÖRÜNTÜLE"
+#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
+msgctxt "Interface.WorldCustomTerrainLabel"
+msgid "Terrain Colour"
+msgstr "Arazi Rengi"
 
 #: /Language/Interface/Record[Key='SettingsDifficulty']
 msgctxt "Interface.SettingsDifficulty"
@@ -3498,6 +3534,11 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Eski Envanter"
 
+#: /Language/Interface/Record[Key='Mimas']
+msgctxt "Interface.Mimas"
+msgid "Mimas"
+msgstr "Mimas"
+
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3517,11 +3558,6 @@ msgstr "f"
 msgctxt "Interface.HeadingEdit"
 msgid "Edit"
 msgstr "Düzenle"
-
-#: /Language/Interface/Record[Key='Vulcan']
-msgctxt "Interface.Vulcan"
-msgid "Vulcan"
-msgstr "Vulcan"
 
 #: /Language/Interface/Record[Key='ButtonLoad']
 msgctxt "Interface.ButtonLoad"
@@ -3710,11 +3746,6 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Atmosferik Saçılma"
-
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
 msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
@@ -3729,6 +3760,11 @@ msgstr "Bu nesnede etkileşim geçici olarak devre dışı"
 msgctxt "Interface.ChangeSettingToForAll"
 msgid "Change to <color=yellow>{0}</color>>for all {1}"
 msgstr "Her {1} için <color=yellow>{0}</color>'a değiştir"
+
+#: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
+msgctxt "Interface.ChangeSlotSettingToFor"
+msgid "Change to {1}<color=yellow>({0})</color> for {2}"
+msgstr "{2} için {1}<color=yellow>({0})</color>'a değiştir"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
 msgctxt "Interface.ChangeReagentSettingTo"
@@ -4206,10 +4242,10 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Sık Kullanılanlardan Kaldır"
 
-#: /Language/Interface/Record[Key='WorldCustomTerrainLabel']
-msgctxt "Interface.WorldCustomTerrainLabel"
-msgid "Terrain Colour"
-msgstr "Arazi Rengi"
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr "Kırmızı:"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
