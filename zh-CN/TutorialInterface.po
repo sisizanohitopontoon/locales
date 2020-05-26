@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-26 13:44+0000\n"
+"PO-Revision-Date: 2020-05-26 14:05+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2012,6 +2012,13 @@ msgid ""
 "\n"
 "When you have successfully completed the Airlock set up, the switch on the side of the {THING:StructureConsole} will light up green. You may now remove the Data Disk from the {THING:StructureConsole}.  The Console will be locked, and will not respond to interactions unless you reinsert the Data Disk."
 msgstr ""
+"要对气闸进行编程，先打开 {THING:StructureConsole}。点击 {THING:StructureActiveVent} 和 {THING:StructureGasSensor}。选中设备时，设备将高亮为绿色并且文本变红。\n"
+"\n"
+"选种这两个气闸门。选择一个门作为'Exterior(外部)'将导致另一扇门默认为'Internal(内部)'。确保门被正确分配。\n"
+"\n"
+"选中设备后，该设备将只会受控制台控制，你的与其发生的任何交互操作都不会被响应。\n"
+"\n"
+"成功完成设置后，{THING:StructureConsole} 侧面的开关将发绿光。你现在可以从 {THING:StructureConsole}中拿走数据磁盘。  此时控制台将被锁定，除非你重新插入数据磁盘，否则不会对交互作出响应。"
 
 #: /Language/Interface/Record[Key='AirLockProgrammingTask1']
 msgctxt "Interface.AirLockProgrammingTask1"
@@ -2028,12 +2035,12 @@ msgctxt "Interface.ASimpleAirLockDescription"
 msgid ""
 "Now to test the newly built Airlock. Press the “Cycle to Interior” button to start pressurization. The Airlock pressure must reach at least 101 kPa for the cycle to complete. If the base within is "
 "not pressurized, the airlock cannot complete its cycle. If this happens press the “Cancel pressurize” button."
-msgstr ""
+msgstr "现在测试你刚建的气闸。点击“Cycle to Interior”按钮开始加压。气闸压力必须达到至少 101 kPa 才能完成气压平衡操作。如果基地内是未加压的，气闸将无法完成其平衡程序。如果发生这种情况，请按“Cancel pressurize”按钮来中断加压操作。"
 
 #: /Language/Interface/Record[Key='ASimpleAirLockTask1']
 msgctxt "Interface.ASimpleAirLockTask1"
 msgid "Remove the {THING:ItemDataDisk} and cycle to interior."
-msgstr ""
+msgstr "拿走 {THING:ItemDataDisk} 并平衡气压来进入内部。"
 
 #: /Language/Interface/Record[Key='AirlockUpgrades']
 msgctxt "Interface.AirlockUpgrades"
