@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-26 07:18+0000\n"
+"PO-Revision-Date: 2020-05-26 07:22+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1196,6 +1196,9 @@ msgid ""
 "\n"
 "Secondly, we need to add a {THING:ItemBatteryCharger} for our depleted batteries. We want to put it into the circuit before the {THING:ItemAreaPowerControl}, so it won’t drain the {THING:ItemAreaPowerControl} battery."
 msgstr ""
+"在下一步中，我们需要放置一个 {THING:ItemAreaPowerControl} 来控制电力流并防止电线烧毁。如果发电机不产电了，它还能当做小型的蓄电池。\n"
+"\n"
+"其次，我们需要为没电的电池建造一个 {THING:ItemBatteryCharger}。我们推荐放在 {THING:ItemAreaPowerControl} 的前面，这样它就不会一直消耗 {THING:ItemAreaPowerControl} 的电池电量。"
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask1']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask1"
