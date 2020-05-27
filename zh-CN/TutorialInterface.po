@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-27 04:16+0000\n"
+"PO-Revision-Date: 2020-05-27 04:19+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2758,6 +2758,9 @@ msgid ""
 "\n"
 "    "
 msgstr ""
+"逻辑写入装置允许我们向设备上逻辑类型写入给定值。\n"
+"\t\t\t\n"
+"注意： 您必须将逻辑写入装置与输出数据套接字连接到要写入的设备，因为某些逻辑电路数据会流向特定方向。根据你的情况设计最佳电路。"
 
 #: /Language/Interface/Record[Key='SetupLogicWritter']
 msgctxt "Interface.SetupLogicWritter"
@@ -2769,7 +2772,7 @@ msgctxt "Interface.SetupLogicWritterDescription"
 msgid ""
 "We need to set our horizontal sensor to the horizontal mode. To do this we will use a {THING:StructureLogicWriter} to set the mode on the sensor by reading a value from a "
 "{THING:StructureLogicMemory}"
-msgstr ""
+msgstr "我们需要将水平角度传感器设置为水平模式。为此，我们将使用 {THING:StructureLogicWriter} 通过读取 {THING:StructureLogicMemory} 中的值来设置传感器上的模式。"
 
 #: /Language/Interface/Record[Key='SetupLogicWritter1']
 msgctxt "Interface.SetupLogicWritter1"
@@ -2784,7 +2787,7 @@ msgstr "用{THING:ItemScrewdriver}将{THING:StructureLogicWriter}的输入设置
 #: /Language/Interface/Record[Key='SetupLogicWritter3']
 msgctxt "Interface.SetupLogicWritter3"
 msgid "Set the {THING:StructureLogicWriter} output to the Horizontal Day Light Sensor."
-msgstr ""
+msgstr "将 {THING:StructureLogicWriter} 输出设置为Horizontal Day Light Sensor。"
 
 #: /Language/Interface/Record[Key='SetupLogicWritter4']
 msgctxt "Interface.SetupLogicWritter4"
