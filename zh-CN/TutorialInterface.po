@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-27 15:04+0000\n"
+"PO-Revision-Date: 2020-05-27 15:30+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3272,6 +3272,13 @@ msgid ""
 "\n"
 "When you have successfully completed the Airlock set up, the switch on the side of the {THING:StructureConsole} will light up green. You may now remove the Data Disk from the {THING:StructureConsole}.  The Console will be locked, and will not respond to interactions unless you reinsert the Data Disk."
 msgstr ""
+"要对气闸进行编程，请先打开 {THING:StructureConsole}。然后分别点击 {THING:StructureActiveVent} 和 {THING:StructureGasSensor}。\n"
+"\n"
+"选择时，请确保内部门选的是 'Interior' 选项。如果选错了要取消选择，请再单击一次，然后点击选择另一扇门。气闸上的设备条将从绿色变为红色，以示意当前你设置的设备是哪个。\n"
+"\n"
+"控制台选择设备后，该设备将锁定在其控制之下，并且不会响应你的对其的任何交互。\n"
+"\n"
+"成功完成气闸设置后，{THING:StructureConsole} 侧面的开关将亮起，发绿光。你现在就可以从 {THING:StructureConsole} 中拿走数据磁盘。 这时控制台将被锁定，除非您重新插入数据磁盘，否则不会响应其他交互选项。"
 
 #: /Language/Interface/Record[Key='AirlockUpgradesDescription']
 msgctxt "Interface.AirlockUpgradesDescription"
