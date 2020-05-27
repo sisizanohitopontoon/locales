@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-27 07:17+0000\n"
+"PO-Revision-Date: 2020-05-27 07:22+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3129,7 +3129,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='SleepModeSetupTask4']
 msgctxt "Interface.SleepModeSetupTask4"
 msgid "Set the Logic type to Activate."
-msgstr ""
+msgstr "将逻辑类型设置为Activate(激活)。"
 
 #: /Language/Interface/Record[Key='SleepModePart2']
 msgctxt "Interface.SleepModePart2"
@@ -3143,6 +3143,9 @@ msgid ""
 "\n"
 "Lastly, change the input value on each {THING:StructureLogicBatchWriter} to use the output data from each {THING:StructureLogicSelect}."
 msgstr ""
+"接下来，用 {THING:StructureLogicSelect} 单元去读取刚刚放置的 {THING:StructureLogicReader} 的数据，然后看你是要用 {THING:StructureLogicMath} 的输出数据还是用 {THING:StructureLogicMemory} 的偏移值了.\n"
+"\n"
+"最后, 把每个 {THING:StructureLogicBatchWriter} 的输入数据改为相应的 {THING:StructureLogicSelect} 的输出数据。"
 
 #: /Language/Interface/Record[Key='SleepModePart2Task1']
 msgctxt "Interface.SleepModePart2Task1"
