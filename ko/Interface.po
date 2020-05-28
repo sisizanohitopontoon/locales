@@ -7,35 +7,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr ""
-
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "기타 설정"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "키보드 설정"
-
-#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
-msgctxt "Interface.SettingsVoiceNotifications"
-msgid "Voice Notifications"
-msgstr "음성 알림"
-
-#: /Language/Interface/Record[Key='SettingsSound']
-msgctxt "Interface.SettingsSound"
-msgid "Sound"
-msgstr "사운드"
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "믹서"
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "부활하기"
 
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
@@ -46,11 +21,6 @@ msgstr "마스터 볼륨"
 msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "반사"
-
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -81,6 +51,11 @@ msgstr "픽셀 라이트 개수"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "볼륨 라이팅"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "당신은 사망했습니다."
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -368,19 +343,19 @@ msgctxt "Interface.NewWorldAreaEarth"
 msgid "Earth"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Atmospheric Scattering"
+#: /Language/Interface/Record[Key='Mimas']
+msgctxt "Interface.Mimas"
+msgid "Mimas"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Europa2']
 msgctxt "Interface.Europa2"
 msgid "Europa"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Vulcan2']
-msgctxt "Interface.Vulcan2"
-msgid "Vulcan"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Vulcan']
@@ -598,6 +573,31 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "이어하기"
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "믹서"
+
+#: /Language/Interface/Record[Key='SettingsSound']
+msgctxt "Interface.SettingsSound"
+msgid "Sound"
+msgstr "사운드"
+
+#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
+msgctxt "Interface.SettingsVoiceNotifications"
+msgid "Voice Notifications"
+msgstr "음성 알림"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "키보드 설정"
+
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "기타 설정"
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -884,15 +884,15 @@ msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "격자에 설치가 가능합니다."
 
-#: /Language/Interface/Record[Key='ElectronicReaderIce']
-msgctxt "Interface.ElectronicReaderIce"
-msgid "Ice"
-msgstr ""
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "격자 표면에 설치가 가능합니다."
+
+#: /Language/Interface/Record[Key='ElectronicReaderIce']
+msgctxt "Interface.ElectronicReaderIce"
+msgid "Ice"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 #, fuzzy
@@ -1059,30 +1059,30 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "덮어쓰기"
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "부활하기"
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "기존 파일에 덮어 씌워집니다. 계속 진행하시겠습니까?"
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr ""
 
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "덮어쓰기"
+#: /Language/Interface/Record[Key='PromptGiveUpBody']
+msgctxt "Interface.PromptGiveUpBody"
+msgid "You are unconscious. Do you want to give up and respawn?"
+msgstr ""
 
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "창작마당 업로드"
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr ""
 
-#: /Language/Interface/Record[Key='PromptPublishBody']
-msgctxt "Interface.PromptPublishBody"
-msgid "Are you sure you want to publish this world to the workshop?"
-msgstr "이 세계를 창작마당으로 업로드 하시겠습니까?"
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
+msgstr ""
 
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
@@ -1166,6 +1166,31 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "아이피:포트 형식으로 입력..."
 
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "덮어쓰기"
+
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "기존 파일에 덮어 씌워집니다. 계속 진행하시겠습니까?"
+
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "덮어쓰기"
+
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "창작마당 업로드"
+
+#: /Language/Interface/Record[Key='PromptPublishBody']
+msgctxt "Interface.PromptPublishBody"
+msgid "Are you sure you want to publish this world to the workshop?"
+msgstr "이 세계를 창작마당으로 업로드 하시겠습니까?"
+
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
@@ -1201,29 +1226,14 @@ msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "디버그 확인"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "부활하기"
-
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "당신은 사망했습니다."
-
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "부활하기"
-
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
+#: /Language/Interface/Record[Key='LaunchRocketAlert']
+msgctxt "Interface.LaunchRocketAlert"
+msgid "Do you want to launch this rocket"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptGiveUpBody']
-msgctxt "Interface.PromptGiveUpBody"
-msgid "You are unconscious. Do you want to give up and respawn?"
+#: /Language/Interface/Record[Key='SaveBeforeTravel']
+msgctxt "Interface.SaveBeforeTravel"
+msgid "You need to save your game before travelling to another world! "
 msgstr ""
 
 #: /Language/Interface/Record[Key='FramerateLock']
@@ -2557,15 +2567,15 @@ msgctxt "Interface.SaturationField"
 msgid "Saturation:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='HueField']
-msgctxt "Interface.HueField"
-msgid "Hue:"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "서버 정보"
+
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr ""
 
 #: /Language/Interface/Record[Key='GreenField']
 msgctxt "Interface.GreenField"
@@ -3587,11 +3597,6 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Mimas']
-msgctxt "Interface.Mimas"
-msgid "Mimas"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3600,6 +3605,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='ButtonLibrary']
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
@@ -3787,10 +3797,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr ""
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Atmospheric Scattering"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4287,9 +4297,9 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "즐겨찾기제거"
 
-#: /Language/Interface/Record[Key='RedField']
-msgctxt "Interface.RedField"
-msgid "Red:"
+#: /Language/Interface/Record[Key='HueField']
+msgctxt "Interface.HueField"
+msgid "Hue:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']

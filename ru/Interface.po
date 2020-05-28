@@ -10,35 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
 msgstr "Возродиться"
-
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Прочие настройки"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Назначение клавиш"
-
-#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
-msgctxt "Interface.SettingsVoiceNotifications"
-msgid "Voice Notifications"
-msgstr "Голосовые оповещения"
-
-#: /Language/Interface/Record[Key='SettingsSound']
-msgctxt "Interface.SettingsSound"
-msgid "Sound"
-msgstr "Звук"
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Микшер"
 
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
@@ -49,11 +24,6 @@ msgstr "Общая громкость"
 msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Отражения"
-
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr "Файл {0} неисправен. Проверьте мир {1}."
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -84,6 +54,11 @@ msgstr "Кол-во источников света"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Объёмное освещение"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Вы умерли."
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -371,20 +346,20 @@ msgctxt "Interface.NewWorldAreaEarth"
 msgid "Earth"
 msgstr "Земля"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Распостранение атмосферы"
+#: /Language/Interface/Record[Key='Mimas']
+msgctxt "Interface.Mimas"
+msgid "Mimas"
+msgstr "Мимас"
 
 #: /Language/Interface/Record[Key='Europa2']
 msgctxt "Interface.Europa2"
 msgid "Europa"
 msgstr "Европа"
 
-#: /Language/Interface/Record[Key='Vulcan2']
-msgctxt "Interface.Vulcan2"
-msgid "Vulcan"
-msgstr "Вулкан"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "Нельзя взаимодействовать, так как у вас нет требуемой {SLOT:AccessCard}"
 
 #: /Language/Interface/Record[Key='Vulcan']
 msgctxt "Interface.Vulcan"
@@ -595,6 +570,31 @@ msgstr "Рисунок"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Продолжить"
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Микшер"
+
+#: /Language/Interface/Record[Key='SettingsSound']
+msgctxt "Interface.SettingsSound"
+msgid "Sound"
+msgstr "Звук"
+
+#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
+msgctxt "Interface.SettingsVoiceNotifications"
+msgid "Voice Notifications"
+msgstr "Голосовые оповещения"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Назначение клавиш"
+
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Прочие настройки"
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -878,15 +878,15 @@ msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "Размещение выравнивается по сетке."
 
-#: /Language/Interface/Record[Key='ElectronicReaderIce']
-msgctxt "Interface.ElectronicReaderIce"
-msgid "Ice"
-msgstr "Лёд"
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "Размещение выравнивается по стороне."
+
+#: /Language/Interface/Record[Key='ElectronicReaderIce']
+msgctxt "Interface.ElectronicReaderIce"
+msgid "Ice"
+msgstr "Лёд"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 msgctxt "Interface.TooltipPlacementSnapFaceMount"
@@ -1043,30 +1043,30 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Отписаться"
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Перезаписать"
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Возродиться"
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Вы уверены, что хотите перезаписать существующее сохранение?"
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "Сдаться"
 
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Перезаписать"
+#: /Language/Interface/Record[Key='PromptGiveUpBody']
+msgctxt "Interface.PromptGiveUpBody"
+msgid "You are unconscious. Do you want to give up and respawn?"
+msgstr "Вы без сознания. Вы хотите сдаться и возродиться?"
 
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "Опубликовать в мастерской"
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr "Возродиться"
 
-#: /Language/Interface/Record[Key='PromptPublishBody']
-msgctxt "Interface.PromptPublishBody"
-msgid "Are you sure you want to publish this world to the workshop?"
-msgstr "Вы увеерны, что хотите опубликовать этот мир в мастерской?"
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
+msgstr "Файл {0} неисправен. Проверьте мир {1}."
 
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
@@ -1149,6 +1149,31 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "Введите IP:Порт здесь..."
 
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Вы уверены, что хотите перезаписать существующее сохранение?"
+
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "Опубликовать в мастерской"
+
+#: /Language/Interface/Record[Key='PromptPublishBody']
+msgctxt "Interface.PromptPublishBody"
+msgid "Are you sure you want to publish this world to the workshop?"
+msgstr "Вы увеерны, что хотите опубликовать этот мир в мастерской?"
+
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
@@ -1184,30 +1209,16 @@ msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "Загрузить"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Возродиться"
+#: /Language/Interface/Record[Key='LaunchRocketAlert']
+#, fuzzy
+msgctxt "Interface.LaunchRocketAlert"
+msgid "Do you want to launch this rocket"
+msgstr "Вы хотите разблокировать это исследование?"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Вы умерли."
-
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Возродиться"
-
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "Сдаться"
-
-#: /Language/Interface/Record[Key='PromptGiveUpBody']
-msgctxt "Interface.PromptGiveUpBody"
-msgid "You are unconscious. Do you want to give up and respawn?"
-msgstr "Вы без сознания. Вы хотите сдаться и возродиться?"
+#: /Language/Interface/Record[Key='SaveBeforeTravel']
+msgctxt "Interface.SaveBeforeTravel"
+msgid "You need to save your game before travelling to another world! "
+msgstr ""
 
 #: /Language/Interface/Record[Key='FramerateLock']
 msgctxt "Interface.FramerateLock"
@@ -2518,15 +2529,15 @@ msgctxt "Interface.SaturationField"
 msgid "Saturation:"
 msgstr "Насыщенность:"
 
-#: /Language/Interface/Record[Key='HueField']
-msgctxt "Interface.HueField"
-msgid "Hue:"
-msgstr "Оттенок:"
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "Показать информацию"
+
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr "Красный:"
 
 #: /Language/Interface/Record[Key='GreenField']
 msgctxt "Interface.GreenField"
@@ -3519,11 +3530,6 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Старый инвентарь"
 
-#: /Language/Interface/Record[Key='Mimas']
-msgctxt "Interface.Mimas"
-msgid "Mimas"
-msgstr "Мимас"
-
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3533,6 +3539,11 @@ msgstr "Расширенные"
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr "Библиотека"
+
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
+msgstr "Вулкан"
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
@@ -3724,10 +3735,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Сброс"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr "Нельзя взаимодействовать, так как у вас нет требуемой {SLOT:AccessCard}"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Распостранение атмосферы"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4214,10 +4225,10 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Удалить из избранного"
 
-#: /Language/Interface/Record[Key='RedField']
-msgctxt "Interface.RedField"
-msgid "Red:"
-msgstr "Красный:"
+#: /Language/Interface/Record[Key='HueField']
+msgctxt "Interface.HueField"
+msgid "Hue:"
+msgstr "Оттенок:"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"

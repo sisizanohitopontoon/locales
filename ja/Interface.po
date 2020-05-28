@@ -10,35 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr "ギブアップ"
-
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "その他の設定"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "キーバインド"
-
-#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
-msgctxt "Interface.SettingsVoiceNotifications"
-msgid "Voice Notifications"
-msgstr "音声通知"
-
-#: /Language/Interface/Record[Key='SettingsSound']
-msgctxt "Interface.SettingsSound"
-msgid "Sound"
-msgstr "サウンド"
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "ミキサー"
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "リスポーン"
 
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
@@ -49,11 +24,6 @@ msgstr "主音量"
 msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "反射"
-
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -84,6 +54,11 @@ msgstr "Pixel Light Count"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Volumetric Lighting"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "死んでしまった。"
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -372,10 +347,10 @@ msgctxt "Interface.NewWorldAreaEarth"
 msgid "Earth"
 msgstr "地球"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "大気散乱"
+#: /Language/Interface/Record[Key='Mimas']
+msgctxt "Interface.Mimas"
+msgid "Mimas"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Europa2']
 #, fuzzy
@@ -383,9 +358,9 @@ msgctxt "Interface.Europa2"
 msgid "Europa"
 msgstr "エウロパ"
 
-#: /Language/Interface/Record[Key='Vulcan2']
-msgctxt "Interface.Vulcan2"
-msgid "Vulcan"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Vulcan']
@@ -604,6 +579,31 @@ msgstr "画像"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "ミキサー"
+
+#: /Language/Interface/Record[Key='SettingsSound']
+msgctxt "Interface.SettingsSound"
+msgid "Sound"
+msgstr "サウンド"
+
+#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
+msgctxt "Interface.SettingsVoiceNotifications"
+msgid "Voice Notifications"
+msgstr "音声通知"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "キーバインド"
+
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "その他の設定"
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -890,15 +890,15 @@ msgctxt "Interface.TooltipPlacementSnapGrid"
 msgid "Placement is snapped to the grid."
 msgstr "グリッドにスナップして設置します。"
 
-#: /Language/Interface/Record[Key='ElectronicReaderIce']
-msgctxt "Interface.ElectronicReaderIce"
-msgid "Ice"
-msgstr ""
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFace']
 msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "グリッド面にスナップして設置します。"
+
+#: /Language/Interface/Record[Key='ElectronicReaderIce']
+msgctxt "Interface.ElectronicReaderIce"
+msgid "Ice"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 #, fuzzy
@@ -1059,30 +1059,30 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "サブスクリプションの解除"
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "上書き"
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "リスポーン"
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "既存のワールドを上書きしてよろしいですか？"
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "ギブアップ"
 
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "上書き"
+#: /Language/Interface/Record[Key='PromptGiveUpBody']
+msgctxt "Interface.PromptGiveUpBody"
+msgid "You are unconscious. Do you want to give up and respawn?"
+msgstr "意識がありません。ギブアップしてリスポーンしますか？"
 
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "ワークショップに公開"
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr "ギブアップ"
 
-#: /Language/Interface/Record[Key='PromptPublishBody']
-msgctxt "Interface.PromptPublishBody"
-msgid "Are you sure you want to publish this world to the workshop?"
-msgstr "このワールドをワークショップに公開してよろしいですか？"
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
+msgstr ""
 
 #: /Language/Interface/Record[Key='AlertInvalidIP']
 msgctxt "Interface.AlertInvalidIP"
@@ -1166,6 +1166,31 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "IP:Portをここに入力"
 
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "上書き"
+
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "既存のワールドを上書きしてよろしいですか？"
+
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "上書き"
+
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "ワークショップに公開"
+
+#: /Language/Interface/Record[Key='PromptPublishBody']
+msgctxt "Interface.PromptPublishBody"
+msgid "Are you sure you want to publish this world to the workshop?"
+msgstr "このワールドをワークショップに公開してよろしいですか？"
+
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
@@ -1201,30 +1226,15 @@ msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "デバッグロード"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "リスポーン"
+#: /Language/Interface/Record[Key='LaunchRocketAlert']
+msgctxt "Interface.LaunchRocketAlert"
+msgid "Do you want to launch this rocket"
+msgstr ""
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "死んでしまった。"
-
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "リスポーン"
-
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "ギブアップ"
-
-#: /Language/Interface/Record[Key='PromptGiveUpBody']
-msgctxt "Interface.PromptGiveUpBody"
-msgid "You are unconscious. Do you want to give up and respawn?"
-msgstr "意識がありません。ギブアップしてリスポーンしますか？"
+#: /Language/Interface/Record[Key='SaveBeforeTravel']
+msgctxt "Interface.SaveBeforeTravel"
+msgid "You need to save your game before travelling to another world! "
+msgstr ""
 
 #: /Language/Interface/Record[Key='FramerateLock']
 msgctxt "Interface.FramerateLock"
@@ -2559,15 +2569,15 @@ msgctxt "Interface.SaturationField"
 msgid "Saturation:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='HueField']
-msgctxt "Interface.HueField"
-msgid "Hue:"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "情報を見る"
+
+#: /Language/Interface/Record[Key='RedField']
+msgctxt "Interface.RedField"
+msgid "Red:"
+msgstr ""
 
 #: /Language/Interface/Record[Key='GreenField']
 msgctxt "Interface.GreenField"
@@ -3577,11 +3587,6 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "レガシーインベントリ"
 
-#: /Language/Interface/Record[Key='Mimas']
-msgctxt "Interface.Mimas"
-msgid "Mimas"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3591,6 +3596,11 @@ msgstr "アドバンスド"
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr "ライブラリ"
+
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
@@ -3777,10 +3787,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "リセット"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "大気散乱"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4269,9 +4279,9 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "お気に入り解除"
 
-#: /Language/Interface/Record[Key='RedField']
-msgctxt "Interface.RedField"
-msgid "Red:"
+#: /Language/Interface/Record[Key='HueField']
+msgctxt "Interface.HueField"
+msgid "Hue:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
