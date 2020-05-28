@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-27 15:30+0000\n"
+"PO-Revision-Date: 2020-05-28 05:33+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2129,6 +2129,14 @@ msgid ""
 "            \n"
 "            "
 msgstr ""
+"对 {THING:CircuitboardAdvAirlockControl} 的编程会有些不一样.\n"
+"\t\t\t\n"
+"首先, 重命名这个新的通风口为 '外部通风口' 之前的那个通风口命名为 '内部通风口', 这是为让你在控制台里能够区分它们. 分别点击这些 {THING:StructureActiveVent}, 确保它们分配到正确的功能。\n"
+"\n"
+"最后你需要设定 进入(internal)的压强值 和 出去(external)压强值 , 可以在 {THING:CircuitboardAdvAirlockControl} 面板顶端找到设置.\n"
+"点击 “Cycle to Interior” 按钮确保运行正常.\n"
+"            \n"
+"            "
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockTask1']
 msgctxt "Interface.AAdvancedAirLockTask1"
