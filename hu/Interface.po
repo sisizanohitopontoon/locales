@@ -10,10 +10,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Újraéledés"
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "Feladás"
+
+#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
+msgctxt "Interface.SettingsVoiceNotifications"
+msgid "Voice Notifications"
+msgstr "Hangjelzések"
+
+#: /Language/Interface/Record[Key='SettingsSound']
+msgctxt "Interface.SettingsSound"
+msgid "Sound"
+msgstr "Hang"
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Keverő"
 
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
@@ -40,6 +55,11 @@ msgctxt "Interface.SettingsShadowResolution"
 msgid "Shadow Resolution"
 msgstr "Árnyék felbontása"
 
+#: /Language/Interface/Record[Key='PromptGiveUpBody']
+msgctxt "Interface.PromptGiveUpBody"
+msgid "You are unconscious. Do you want to give up and respawn?"
+msgstr "Eszméletlen vagy. Fel szeretnéd adni és újraéledni?"
+
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
@@ -54,11 +74,6 @@ msgstr "Pixel fények száma"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Volumetrikus megvilágítás"
-
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Halott vagy."
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -350,15 +365,15 @@ msgctxt "Interface.Mimas"
 msgid "Mimas"
 msgstr "Mimas"
 
-#: /Language/Interface/Record[Key='Europa2']
-msgctxt "Interface.Europa2"
-msgid "Europa"
-msgstr "Europa"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Légköri szóródás"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr "{SLOT:AccessCard} szükséges az interakcióhoz"
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
+msgstr "Vulcan"
 
 #: /Language/Interface/Record[Key='Vulcan']
 msgctxt "Interface.Vulcan"
@@ -569,21 +584,6 @@ msgstr "Kép"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Keverő"
-
-#: /Language/Interface/Record[Key='SettingsSound']
-msgctxt "Interface.SettingsSound"
-msgid "Sound"
-msgstr "Hang"
-
-#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
-msgctxt "Interface.SettingsVoiceNotifications"
-msgid "Voice Notifications"
-msgstr "Hangjelzések"
 
 #: /Language/Interface/Record[Key='SettingsTitleKeybinds']
 msgctxt "Interface.SettingsTitleKeybinds"
@@ -884,10 +884,10 @@ msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "Az elhelyezés rácsoldalhoz van igazítva."
 
-#: /Language/Interface/Record[Key='ElectronicReaderIce']
-msgctxt "Interface.ElectronicReaderIce"
-msgid "Ice"
-msgstr "Jég"
+#: /Language/Interface/Record[Key='ElectronicReaderGold']
+msgctxt "Interface.ElectronicReaderGold"
+msgid "Gold"
+msgstr "Arany"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
 #, fuzzy
@@ -1047,20 +1047,20 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Leiratkozás"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Újraéledés"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Felülírás"
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "Feladás"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Biztos vagy benne, hogy felülírod a mentett világot?"
 
-#: /Language/Interface/Record[Key='PromptGiveUpBody']
-msgctxt "Interface.PromptGiveUpBody"
-msgid "You are unconscious. Do you want to give up and respawn?"
-msgstr "Eszméletlen vagy. Fel szeretnéd adni és újraéledni?"
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Felülírás"
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
@@ -1153,21 +1153,6 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "IP:Port megadása..."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Felülírás"
-
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Biztos vagy benne, hogy felülírod a mentett világot?"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Felülírás"
-
 #: /Language/Interface/Record[Key='PromptPublishTitle']
 msgctxt "Interface.PromptPublishTitle"
 msgid "Publish to Workshop"
@@ -1212,6 +1197,36 @@ msgstr "Biztos vagy benne, hogy csak egy karakterrel töltöd be a világot?"
 msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "Híbakereső betöltés"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Újraéledés"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Halott vagy."
+
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Újraéledés"
+
+#: /Language/Interface/Record[Key='StatusWindowTarget']
+msgctxt "Interface.StatusWindowTarget"
+msgid "Target"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StatusWindowJetpack']
+msgctxt "Interface.StatusWindowJetpack"
+msgid "Jetpack"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StatusWindowVitals']
+msgctxt "Interface.StatusWindowVitals"
+msgid "Vitals"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LaunchRocketAlert']
 msgctxt "Interface.LaunchRocketAlert"
@@ -2320,11 +2335,6 @@ msgctxt "Interface.ElectronicReaderCoal"
 msgid "Coal"
 msgstr "Szén"
 
-#: /Language/Interface/Record[Key='ElectronicReaderGold']
-msgctxt "Interface.ElectronicReaderGold"
-msgid "Gold"
-msgstr "Arany"
-
 #: /Language/Interface/Record[Key='ElectronicReaderVolatiles']
 msgctxt "Interface.ElectronicReaderVolatiles"
 msgid "Volatiles"
@@ -2334,6 +2344,11 @@ msgstr "Hidrogén"
 msgctxt "Interface.ElectronicReaderOxite"
 msgid "Oxite"
 msgstr "Oxit"
+
+#: /Language/Interface/Record[Key='ElectronicReaderIce']
+msgctxt "Interface.ElectronicReaderIce"
+msgid "Ice"
+msgstr "Jég"
 
 #: /Language/Interface/Record[Key='ElectronicReaderIron']
 msgctxt "Interface.ElectronicReaderIron"
@@ -2555,15 +2570,15 @@ msgctxt "Interface.BrightnessField"
 msgid "Brightness:"
 msgstr "Fényesség:"
 
-#: /Language/Interface/Record[Key='SaturationField']
-msgctxt "Interface.SaturationField"
-msgid "Saturation:"
-msgstr "Telítettség:"
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "Szerverinformáció"
+
+#: /Language/Interface/Record[Key='HueField']
+msgctxt "Interface.HueField"
+msgid "Hue:"
+msgstr "Színárnyalat:"
 
 #: /Language/Interface/Record[Key='RedField']
 msgctxt "Interface.RedField"
@@ -3561,6 +3576,11 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Régi tárhely"
 
+#: /Language/Interface/Record[Key='Europa2']
+msgctxt "Interface.Europa2"
+msgid "Europa"
+msgstr "Europa"
+
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3570,11 +3590,6 @@ msgstr "További"
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr "Könyvtár"
-
-#: /Language/Interface/Record[Key='Vulcan2']
-msgctxt "Interface.Vulcan2"
-msgid "Vulcan"
-msgstr "Vulcan"
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
@@ -3773,10 +3788,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Visszaállítás"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Légköri szóródás"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "{SLOT:AccessCard} szükséges az interakcióhoz"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4266,10 +4281,10 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Kedvenc eltávolítása"
 
-#: /Language/Interface/Record[Key='HueField']
-msgctxt "Interface.HueField"
-msgid "Hue:"
-msgstr "Színárnyalat:"
+#: /Language/Interface/Record[Key='SaturationField']
+msgctxt "Interface.SaturationField"
+msgid "Saturation:"
+msgstr "Telítettség:"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"

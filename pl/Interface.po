@@ -10,10 +10,25 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Odrodzenie"
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "Give Up"
+
+#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
+msgctxt "Interface.SettingsVoiceNotifications"
+msgid "Voice Notifications"
+msgstr "Powiadomienia głosowe"
+
+#: /Language/Interface/Record[Key='SettingsSound']
+msgctxt "Interface.SettingsSound"
+msgid "Sound"
+msgstr "Dźwięk"
+
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Mikser"
 
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
@@ -40,6 +55,11 @@ msgctxt "Interface.SettingsShadowResolution"
 msgid "Shadow Resolution"
 msgstr "Rozdzielczość cieni"
 
+#: /Language/Interface/Record[Key='PromptGiveUpBody']
+msgctxt "Interface.PromptGiveUpBody"
+msgid "You are unconscious. Do you want to give up and respawn?"
+msgstr "Jestes nieprzytomny. Czy chcesz się poddac i odrodzic?"
+
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
@@ -54,11 +74,6 @@ msgstr "Liczba pikseli światła"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Światło wolumetryczne"
-
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Jestes martwy"
 
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
@@ -352,15 +367,14 @@ msgctxt "Interface.Mimas"
 msgid "Mimas"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Europa2']
-#, fuzzy
-msgctxt "Interface.Europa2"
-msgid "Europa"
-msgstr "Europa"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Rozpraszanie atmos."
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+#: /Language/Interface/Record[Key='Vulcan2']
+msgctxt "Interface.Vulcan2"
+msgid "Vulcan"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Vulcan']
@@ -574,21 +588,6 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Kontynuuj"
-
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Mikser"
-
-#: /Language/Interface/Record[Key='SettingsSound']
-msgctxt "Interface.SettingsSound"
-msgid "Sound"
-msgstr "Dźwięk"
-
-#: /Language/Interface/Record[Key='SettingsVoiceNotifications']
-msgctxt "Interface.SettingsVoiceNotifications"
-msgid "Voice Notifications"
-msgstr "Powiadomienia głosowe"
 
 #: /Language/Interface/Record[Key='SettingsTitleKeybinds']
 msgctxt "Interface.SettingsTitleKeybinds"
@@ -890,9 +889,9 @@ msgctxt "Interface.TooltipPlacementSnapFace"
 msgid "Placement is snapped to grid faces."
 msgstr "Umiejscowienie przylega do boków siatki."
 
-#: /Language/Interface/Record[Key='ElectronicReaderIce']
-msgctxt "Interface.ElectronicReaderIce"
-msgid "Ice"
+#: /Language/Interface/Record[Key='ElectronicReaderGold']
+msgctxt "Interface.ElectronicReaderGold"
+msgid "Gold"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMount']
@@ -1053,20 +1052,20 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Anuluj Subskrypcje"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Odrodzenie"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Nadpisz"
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "Give Up"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Czy na pewno chcesz zastapic istniejacy zapisany swiat?"
 
-#: /Language/Interface/Record[Key='PromptGiveUpBody']
-msgctxt "Interface.PromptGiveUpBody"
-msgid "You are unconscious. Do you want to give up and respawn?"
-msgstr "Jestes nieprzytomny. Czy chcesz się poddac i odrodzic?"
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Nadpisz"
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
@@ -1160,21 +1159,6 @@ msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "Wpisz IP:Port tutaj..."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Nadpisz"
-
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Czy na pewno chcesz zastapic istniejacy zapisany swiat?"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Nadpisz"
-
 #: /Language/Interface/Record[Key='PromptPublishTitle']
 msgctxt "Interface.PromptPublishTitle"
 msgid "Publish to Workshop"
@@ -1219,6 +1203,36 @@ msgstr "Czy na pewno chcesz zaladowac ten swiat tylko jedna postacia?"
 msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "Debug Load"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Odrodzenie"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Jestes martwy"
+
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Odrodzenie"
+
+#: /Language/Interface/Record[Key='StatusWindowTarget']
+msgctxt "Interface.StatusWindowTarget"
+msgid "Target"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StatusWindowJetpack']
+msgctxt "Interface.StatusWindowJetpack"
+msgid "Jetpack"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StatusWindowVitals']
+msgctxt "Interface.StatusWindowVitals"
+msgid "Vitals"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LaunchRocketAlert']
 msgctxt "Interface.LaunchRocketAlert"
@@ -2325,11 +2339,6 @@ msgctxt "Interface.ElectronicReaderCoal"
 msgid "Coal"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderGold']
-msgctxt "Interface.ElectronicReaderGold"
-msgid "Gold"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ElectronicReaderVolatiles']
 msgctxt "Interface.ElectronicReaderVolatiles"
 msgid "Volatiles"
@@ -2338,6 +2347,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='ElectronicReaderOxite']
 msgctxt "Interface.ElectronicReaderOxite"
 msgid "Oxite"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ElectronicReaderIce']
+msgctxt "Interface.ElectronicReaderIce"
+msgid "Ice"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderIron']
@@ -2572,15 +2586,15 @@ msgctxt "Interface.BrightnessField"
 msgid "Brightness:"
 msgstr "Jasność"
 
-#: /Language/Interface/Record[Key='SaturationField']
-msgctxt "Interface.SaturationField"
-msgid "Saturation:"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinMenuServerDetailInfoButton']
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "Wyswietl informacje"
+
+#: /Language/Interface/Record[Key='HueField']
+msgctxt "Interface.HueField"
+msgid "Hue:"
+msgstr ""
 
 #: /Language/Interface/Record[Key='RedField']
 msgctxt "Interface.RedField"
@@ -3593,6 +3607,12 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Spis Starych Produktow"
 
+#: /Language/Interface/Record[Key='Europa2']
+#, fuzzy
+msgctxt "Interface.Europa2"
+msgid "Europa"
+msgstr "Europa"
+
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3602,11 +3622,6 @@ msgstr "Zaawansowane"
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr "Library"
-
-#: /Language/Interface/Record[Key='Vulcan2']
-msgctxt "Interface.Vulcan2"
-msgid "Vulcan"
-msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
@@ -3793,10 +3808,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Zeruj"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Rozpraszanie atmos."
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr ""
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4274,9 +4289,9 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Usun ulubione"
 
-#: /Language/Interface/Record[Key='HueField']
-msgctxt "Interface.HueField"
-msgid "Hue:"
+#: /Language/Interface/Record[Key='SaturationField']
+msgctxt "Interface.SaturationField"
+msgid "Saturation:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
