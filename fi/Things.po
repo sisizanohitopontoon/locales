@@ -10,10 +10,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='ItemEmergencyHelmet']
-msgctxt "Things.ItemEmergencyHelmet"
-msgid "Emergency Helmet"
+#: /Language/Things/Record[Key='ItemEmergencyArcWelder']
+msgctxt "Things.ItemEmergencyArcWelder"
+msgid "Emergency Arc Welder"
 msgstr ""
+
+#: /Language/Things/Record[Key='ItemStelliteIngot']
+#, fuzzy
+msgctxt "Things.ItemStelliteIngot"
+msgid "Ingot (Stellite)"
+msgstr "Harkko (teräs)"
 
 #: /Language/Things/Record[Key='ItemKitAdvancedFurnace']
 #, fuzzy
@@ -1362,11 +1368,11 @@ msgctxt "Things.ItemSoyOil"
 msgid "Soy Oil"
 msgstr "Soijaöljy"
 
-#: /Language/Things/Record[Key='ItemStelliteIngot']
+#: /Language/Things/Record[Key='ItemWaspaloyIngot']
 #, fuzzy
-msgctxt "Things.ItemStelliteIngot"
-msgid "Ingot (Stellite)"
-msgstr "Harkko (teräs)"
+msgctxt "Things.ItemWaspaloyIngot"
+msgid "Ingot (Waspaloy)"
+msgstr "Harkko (jäte)"
 
 #: /Language/Things/Record[Key='ItemTomatoSoup']
 msgctxt "Things.ItemTomatoSoup"
@@ -3025,10 +3031,10 @@ msgctxt "Things.ItemKitCryoTube"
 msgid "Kit (Cryo Tube)"
 msgstr "Varustepakkaus (syväjäädytys)"
 
-#: /Language/Things/Record[Key='ItemWaspaloyIngot']
+#: /Language/Things/Record[Key='ItemHastelloyIngot']
 #, fuzzy
-msgctxt "Things.ItemWaspaloyIngot"
-msgid "Ingot (Waspaloy)"
+msgctxt "Things.ItemHastelloyIngot"
+msgid "Ingot (Hastelloy)"
 msgstr "Harkko (jäte)"
 
 #: /Language/Things/Record[Key='ItemKitConsole']
@@ -3837,12 +3843,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikroaaltouuni"
 
-#: /Language/Things/Record[Key='ItemHastelloyIngot']
-#, fuzzy
-msgctxt "Things.ItemHastelloyIngot"
-msgid "Ingot (Hastelloy)"
-msgstr "Harkko (jäte)"
-
 #: /Language/Things/Record[Key='ItemInconelIngot']
 #, fuzzy
 msgctxt "Things.ItemInconelIngot"
@@ -3948,14 +3948,9 @@ msgctxt "Things.StructureRTGSurvival"
 msgid "Structure RTG"
 msgstr ""
 
-#: /Language/Things/Record[Key='ItemEmergencyArcWelder']
-msgctxt "Things.ItemEmergencyArcWelder"
-msgid "Emergency Arc Welder"
-msgstr ""
-
-#: /Language/Things/Record[Key='Phobos']
-msgctxt "Things.Phobos"
-msgid "Phobos"
+#: /Language/Things/Record[Key='ItemEmergencyHelmet']
+msgctxt "Things.ItemEmergencyHelmet"
+msgid "Emergency Helmet"
 msgstr ""
 
 #: /Language/Things/Record[Key='ItemEmergencyDrill']
@@ -3963,6 +3958,11 @@ msgstr ""
 msgctxt "Things.ItemEmergencyDrill"
 msgid "Emergency Drill"
 msgstr "Admin-työkalu"
+
+#: /Language/Things/Record[Key='Phobos']
+msgctxt "Things.Phobos"
+msgid "Phobos"
+msgstr ""
 
 #: /Language/Things/Record[Key='ItemEmergencyAngleGrinder']
 #, fuzzy
@@ -4215,33 +4215,43 @@ msgstr "Laskeutumisalusta"
 #: /Language/Things/Record[Key='StructureModularRocketEngine01']
 #, fuzzy
 msgctxt "Things.StructureModularRocketEngine01"
-msgid "Modular Rocket Engine01"
+msgid "Modular Rocket Engine"
 msgstr "Rakettimoottori"
 
 #: /Language/Things/Record[Key='StructureModularRocketCargo']
+#, fuzzy
 msgctxt "Things.StructureModularRocketCargo"
-msgid "Modular Rocket Cargo01"
+msgid "Modular Rocket Cargo"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureModularRocketCommand']
+#, fuzzy
 msgctxt "Things.StructureModularRocketCommand"
-msgid "Modular Rocket Command01"
+msgid "Modular Rocket Command"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureModularRocketFueltank01']
+#, fuzzy
 msgctxt "Things.StructureModularRocketFueltank01"
-msgid "Modular Rocket Fueltank01"
+msgid "Modular Rocket Fueltank"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureModularRocketCargo01']
+#, fuzzy
 msgctxt "Things.StructureModularRocketCargo01"
-msgid "Modular Rocket Cargo01"
+msgid "Modular Rocket Cargo"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureModularRocketCommand01']
 msgctxt "Things.StructureModularRocketCommand01"
 msgid "Modular Rocket Command01"
 msgstr ""
+
+#: /Language/Things/Record[Key='DynamicModularRocketCommand01']
+#, fuzzy
+msgctxt "Things.DynamicModularRocketCommand01"
+msgid "Modular Rocket Command"
+msgstr "Rakettimoottori"
 
 #: /Language/Things/Record[Key='StructureReverseElectrolyzer']
 msgctxt "Things.StructureReverseElectrolyzer"

@@ -10,15 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "Aboneliği Kaldır"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "Pencere Ayarları"
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Çıkış"
 
 #: /Language/Interface/Record[Key='SettingsTitleAutosave']
 msgctxt "Interface.SettingsTitleAutosave"
@@ -35,15 +30,15 @@ msgctxt "Interface.ButtonResetDefaults"
 msgid "Defaults"
 msgstr "Varsayılanlar"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Bu atölye öğesinden aboneliği kaldırmak istediğine emin misin?"
-
 #: /Language/Interface/Record[Key='SettingsDisplayFPS']
 msgctxt "Interface.SettingsDisplayFPS"
 msgid "Display FPS"
 msgstr "FPS'i Göster"
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "Aboneliği Kaldır"
 
 #: /Language/Interface/Record[Key='SettingsDisplayLatency']
 msgctxt "Interface.SettingsDisplayLatency"
@@ -306,15 +301,15 @@ msgctxt "Interface.NewWorldAreaLoulan"
 msgid "Loulan"
 msgstr "Loulan"
 
-#: /Language/Interface/Record[Key='HoldForPreviousObject']
-msgctxt "Interface.HoldForPreviousObject"
-msgid "Hold {KEY:QuantityModifier} for previous object"
-msgstr "Önceki nesne için {KEY:QuantityModifier} tuşuna basılı tut"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Asteroid Belt"
+msgstr "Asteroit Kuşağı"
 
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "Başlangıç Alanı"
+#: /Language/Interface/Record[Key='ChangeSettingToAll']
+msgctxt "Interface.ChangeSettingToAll"
+msgid "Change to All {0}"
+msgstr "Bütün {0}'ları değiştir"
 
 #: /Language/Interface/Record[Key='NewWorldButtonCreate']
 msgctxt "Interface.NewWorldButtonCreate"
@@ -470,6 +465,11 @@ msgstr "Resim"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "DEVAM ET"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "Pencere Ayarları"
 
 #: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
 msgctxt "Interface.SettingsTitleBasicScreen"
@@ -972,10 +972,10 @@ msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
 msgstr "Sürücüleri İndir"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "Birçok AMD grafik kartı kullanıcısı, sürücülerini güncelleyerek çözmüş oldukları oyun ile ilgili sorunları bildirdiler.  Oynamadan önce güncellemenizi <b>ŞİDDETLE</b> öneririz."
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Bu atölye öğesinden aboneliği kaldırmak istediğine emin misin?"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
 msgctxt "Interface.PromptUnsubscribeConfirm"
@@ -1135,6 +1135,11 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Kaydetmek için bir dünya ismi girmeniz gerekir."
 
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "Birçok AMD grafik kartı kullanıcısı, sürücülerini güncelleyerek çözmüş oldukları oyun ile ilgili sorunları bildirdiler.  Oynamadan önce güncellemenizi <b>ŞİDDETLE</b> öneririz."
+
 #: /Language/Interface/Record[Key='SettingsChatFadeTimer']
 msgctxt "Interface.SettingsChatFadeTimer"
 msgid "Chat Fade Delay"
@@ -1189,11 +1194,6 @@ msgstr "Stationeers'tan Çık"
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "Çıkmak istediğine emin misin?"
-
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Çıkış"
 
 #: /Language/Interface/Record[Key='StatusWindowTarget']
 msgctxt "Interface.StatusWindowTarget"
@@ -3579,10 +3579,10 @@ msgctxt "Interface.ButtonHelp"
 msgid "Help"
 msgstr "Yardım"
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Asteroid Belt"
-msgstr "Asteroit Kuşağı"
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "Başlangıç Alanı"
 
 #: /Language/Interface/Record[Key='ButtonPaste']
 msgctxt "Interface.ButtonPaste"
@@ -3786,10 +3786,10 @@ msgctxt "Interface.ChangeSettingToFor"
 msgid "Change to <color=yellow>{0}</color> for {1}"
 msgstr "{1} için <color=yellow>{0}</color>'a değiştir"
 
-#: /Language/Interface/Record[Key='ChangeSettingToAll']
-msgctxt "Interface.ChangeSettingToAll"
-msgid "Change to All {0}"
-msgstr "Bütün {0}'ları değiştir"
+#: /Language/Interface/Record[Key='HoldForPreviousObject']
+msgctxt "Interface.HoldForPreviousObject"
+msgid "Hold {KEY:QuantityModifier} for previous object"
+msgstr "Önceki nesne için {KEY:QuantityModifier} tuşuna basılı tut"
 
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"

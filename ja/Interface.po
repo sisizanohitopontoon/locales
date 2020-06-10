@@ -10,15 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "解除"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "ウィンドウ設定"
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "終了"
 
 #: /Language/Interface/Record[Key='SettingsTitleAutosave']
 msgctxt "Interface.SettingsTitleAutosave"
@@ -35,15 +30,15 @@ msgctxt "Interface.ButtonResetDefaults"
 msgid "Defaults"
 msgstr "デフォルト"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "このワークショップのアイテムのサブスクリプションを解除しますか？"
-
 #: /Language/Interface/Record[Key='SettingsDisplayFPS']
 msgctxt "Interface.SettingsDisplayFPS"
 msgid "Display FPS"
 msgstr "FPSを表示"
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "解除"
 
 #: /Language/Interface/Record[Key='SettingsDisplayLatency']
 msgctxt "Interface.SettingsDisplayLatency"
@@ -306,15 +301,15 @@ msgctxt "Interface.NewWorldAreaLoulan"
 msgid "Loulan"
 msgstr "ロウラン"
 
-#: /Language/Interface/Record[Key='HoldForPreviousObject']
-msgctxt "Interface.HoldForPreviousObject"
-msgid "Hold {KEY:QuantityModifier} for previous object"
-msgstr "{KEY:QuantityModifier}を長押しで前回の物"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Asteroid Belt"
+msgstr "小惑星帯"
 
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "開始エリア"
+#: /Language/Interface/Record[Key='ChangeSettingToAll']
+msgctxt "Interface.ChangeSettingToAll"
+msgid "Change to All {0}"
+msgstr "全て{0}に変更"
 
 #: /Language/Interface/Record[Key='NewWorldButtonCreate']
 msgctxt "Interface.NewWorldButtonCreate"
@@ -470,6 +465,11 @@ msgstr "画像"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "ウィンドウ設定"
 
 #: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
 msgctxt "Interface.SettingsTitleBasicScreen"
@@ -967,10 +967,10 @@ msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
 msgstr "ドライバーダウンロード"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "多くのAMDグラフィックカードユーザによって報告される問題は、ドライバのアップデートによって解決されます。ゲームをプレイする前にアップデートすることを<b>強く</b>推奨します。"
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "このワークショップのアイテムのサブスクリプションを解除しますか？"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
 msgctxt "Interface.PromptUnsubscribeConfirm"
@@ -1130,6 +1130,11 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "ワールド名無しでセーブは出来ません。"
 
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "多くのAMDグラフィックカードユーザによって報告される問題は、ドライバのアップデートによって解決されます。ゲームをプレイする前にアップデートすることを<b>強く</b>推奨します。"
+
 #: /Language/Interface/Record[Key='SettingsChatFadeTimer']
 msgctxt "Interface.SettingsChatFadeTimer"
 msgid "Chat Fade Delay"
@@ -1184,11 +1189,6 @@ msgstr "Stationeersを終了"
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "終了しますか？"
-
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "終了"
 
 #: /Language/Interface/Record[Key='StatusWindowTarget']
 msgctxt "Interface.StatusWindowTarget"
@@ -3562,10 +3562,10 @@ msgctxt "Interface.ButtonHelp"
 msgid "Help"
 msgstr "ヘルプ"
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Asteroid Belt"
-msgstr "小惑星帯"
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "開始エリア"
 
 #: /Language/Interface/Record[Key='ButtonPaste']
 msgctxt "Interface.ButtonPaste"
@@ -3757,10 +3757,10 @@ msgctxt "Interface.ChangeSettingToFor"
 msgid "Change to <color=yellow>{0}</color> for {1}"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ChangeSettingToAll']
-msgctxt "Interface.ChangeSettingToAll"
-msgid "Change to All {0}"
-msgstr "全て{0}に変更"
+#: /Language/Interface/Record[Key='HoldForPreviousObject']
+msgctxt "Interface.HoldForPreviousObject"
+msgid "Hold {KEY:QuantityModifier} for previous object"
+msgstr "{KEY:QuantityModifier}を長押しで前回の物"
 
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"

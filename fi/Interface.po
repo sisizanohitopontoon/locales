@@ -10,15 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "Lopeta tilaaminen"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "Näytön asetukset"
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Lopeta"
 
 #: /Language/Interface/Record[Key='SettingsTitleAutosave']
 msgctxt "Interface.SettingsTitleAutosave"
@@ -35,15 +30,15 @@ msgctxt "Interface.ButtonResetDefaults"
 msgid "Defaults"
 msgstr "Oletusarvot"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Oletko varma, että haluat lopettaa tämän Workshop itemin tilaamisen?"
-
 #: /Language/Interface/Record[Key='SettingsDisplayFPS']
 msgctxt "Interface.SettingsDisplayFPS"
 msgid "Display FPS"
 msgstr "Näytä FPS"
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "Lopeta tilaaminen"
 
 #: /Language/Interface/Record[Key='SettingsDisplayLatency']
 msgctxt "Interface.SettingsDisplayLatency"
@@ -313,15 +308,17 @@ msgctxt "Interface.NewWorldAreaLoulan"
 msgid "Loulan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='HoldForPreviousObject']
-msgctxt "Interface.HoldForPreviousObject"
-msgid "Hold {KEY:QuantityModifier} for previous object"
-msgstr "Pidä {KEY:QuantityModifier} pohjassa siirtyäksesi edellisen esineeseen"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+#, fuzzy
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Asteroid Belt"
+msgstr "Avaruus"
 
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "Aloitusalue"
+#: /Language/Interface/Record[Key='ChangeSettingToAll']
+#, fuzzy
+msgctxt "Interface.ChangeSettingToAll"
+msgid "Change to All {0}"
+msgstr "Muuta {0}"
 
 #: /Language/Interface/Record[Key='NewWorldButtonCreate']
 msgctxt "Interface.NewWorldButtonCreate"
@@ -478,6 +475,11 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka peliä"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "Näytön asetukset"
 
 #: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
 msgctxt "Interface.SettingsTitleBasicScreen"
@@ -977,10 +979,10 @@ msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
 msgstr "Lataa ajurit"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "Monet AMD grafiikka-ohjaimen omistavat ovat raportoineet ongelmia pelin kanssa jotka ovat ratkenneet ajureita päivittämällä. Suosittelemme <b>VAHVASTI</b> päivittämään ajurit ennen pelaamista."
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Oletko varma, että haluat lopettaa tämän Workshop itemin tilaamisen?"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
 msgctxt "Interface.PromptUnsubscribeConfirm"
@@ -1140,6 +1142,11 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Sinun täytyy nimetä maailma."
 
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "Monet AMD grafiikka-ohjaimen omistavat ovat raportoineet ongelmia pelin kanssa jotka ovat ratkenneet ajureita päivittämällä. Suosittelemme <b>VAHVASTI</b> päivittämään ajurit ennen pelaamista."
+
 #: /Language/Interface/Record[Key='SettingsChatFadeTimer']
 msgctxt "Interface.SettingsChatFadeTimer"
 msgid "Chat Fade Delay"
@@ -1194,11 +1201,6 @@ msgstr "Lopeta Stationeers"
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "Haluatko varmasti lopettaa?"
-
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Lopeta"
 
 #: /Language/Interface/Record[Key='StatusWindowTarget']
 msgctxt "Interface.StatusWindowTarget"
@@ -3636,11 +3638,10 @@ msgctxt "Interface.ButtonHelp"
 msgid "Help"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-#, fuzzy
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Asteroid Belt"
-msgstr "Avaruus"
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "Aloitusalue"
 
 #: /Language/Interface/Record[Key='ButtonPaste']
 msgctxt "Interface.ButtonPaste"
@@ -3836,11 +3837,10 @@ msgctxt "Interface.ChangeSettingToFor"
 msgid "Change to <color=yellow>{0}</color> for {1}"
 msgstr "Muuta <color=yellow>{0}</color> for {1}"
 
-#: /Language/Interface/Record[Key='ChangeSettingToAll']
-#, fuzzy
-msgctxt "Interface.ChangeSettingToAll"
-msgid "Change to All {0}"
-msgstr "Muuta {0}"
+#: /Language/Interface/Record[Key='HoldForPreviousObject']
+msgctxt "Interface.HoldForPreviousObject"
+msgid "Hold {KEY:QuantityModifier} for previous object"
+msgstr "Pidä {KEY:QuantityModifier} pohjassa siirtyäksesi edellisen esineeseen"
 
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"

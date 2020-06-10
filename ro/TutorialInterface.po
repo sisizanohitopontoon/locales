@@ -2372,8 +2372,7 @@ msgstr ""
 msgctxt "Interface.UnlockingResearchDescription"
 msgid ""
 "Now we have processed the research capsules, we can allocate the newly-gained points on new technologies. \n"
-"\t\t\t\n"
-"Click the red circle on the {THING:StructureResearchMachine} to access the research menu. In the top right of the menu, you can see your current research points. For each pod processed, you gain one point.\n"
+"\tClick the red circle on the {THING:StructureResearchMachine} to access the research menu. In the top right of the menu, you can see your current research points. For each pod processed, you gain one point.\n"
 "\n"
 "The left side of the menu displays filters that can be toggled on or off, to help find specific technologies to unlock. The center panel displays currently locked categories, and the price of unlocking each.\n"
 "    \n"
@@ -2382,8 +2381,30 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='UnlockingResearch2']
 msgctxt "Interface.UnlockingResearch2"
-msgid "Click the red circle on the {THING:StructureResearchMachine}, then click on a technology category to unlock, and select 'confirm'."
+msgid "Click the red circle on the {THING:StructureResearchMachine}, then click on a technology category named 'Automation'. Select 'Basic Logic Controllers', and select 'confirm'."
 msgstr ""
+
+#: /Language/Interface/Record[Key='ItemsUnlocked']
+msgctxt "Interface.ItemsUnlocked"
+msgid "Items Unlocked"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ItemsUnlockedDescription']
+msgctxt "Interface.ItemsUnlockedDescription"
+msgid "Now that you've unlocked a new research node you can access the newly researched items from their associated printing machine."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ItemsUnlocked1']
+#, fuzzy
+msgctxt "Interface.ItemsUnlocked1"
+msgid "Select the {THING:CircuitboardAirControl} on the {THING:StructureElectronicsPrinter}."
+msgstr "Purtați {THING:ItemSpaceHelmet} "
+
+#: /Language/Interface/Record[Key='ItemsUnlocked2']
+#, fuzzy
+msgctxt "Interface.ItemsUnlocked2"
+msgid "Print a  {THING:CircuitboardAirControl} on the {THING:StructureElectronicsPrinter}."
+msgstr "Purtați {THING:ItemSpaceHelmet} "
 
 #: /Language/Interface/Record[Key='TutorialUIBasics']
 msgctxt "Interface.TutorialUIBasics"
@@ -3170,4 +3191,21 @@ msgstr ""
 #: /Language/Interface/Record[Key='BasicResearch']
 msgctxt "Interface.BasicResearch"
 msgid "#9 Basic Research"
+msgstr ""
+
+#: /Language/Interface/Record[Key='UnlockingResearchDescription']
+msgctxt "Interface.UnlockingResearchDescription"
+msgid ""
+"Now we have processed the research capsules, we can allocate the newly-gained points on new technologies. \n"
+"\t\t\t\n"
+"Click the red circle on the {THING:StructureResearchMachine} to access the research menu. In the top right of the menu, you can see your current research points. For each pod processed, you gain one point.\n"
+"\n"
+"The left side of the menu displays filters that can be toggled on or off, to help find specific technologies to unlock. The center panel displays currently locked categories, and the price of unlocking each.\n"
+"    \n"
+"    "
+msgstr ""
+
+#: /Language/Interface/Record[Key='UnlockingResearch2']
+msgctxt "Interface.UnlockingResearch2"
+msgid "Click the red circle on the {THING:StructureResearchMachine}, then click on a technology category to unlock, and select 'confirm'."
 msgstr ""
