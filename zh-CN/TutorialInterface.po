@@ -823,9 +823,10 @@ msgid "Doing it on your own part 2."
 msgstr "实践出真知 2。"
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Description']
+#, fuzzy
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Description"
-msgid "Well done! Now, finish them off with the {THING:ItemWeldingTorch} and some {THING:ItemIronSheets}. You will find more in the orange crate."
-msgstr "干的好！现在，用 {THING:ItemWeldingTorch} 把所需的 {THING:ItemIronSheets} 焊上去来完成建造。你能在那个橙色箱中找到更多的材料。"
+msgid "Well done! Now, finish them off with the {THING:ItemWeldingTorch} and some {THING:ItemIronSheets} from the orange crate."
+msgstr "干的好！现在，用 {THING:ItemWeldingTorch} 把所需的 {THING:ItemIronSheets} 焊上去来完成建造。"
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Task1']
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Task1"
@@ -1703,10 +1704,13 @@ msgid "Learn how to create an airtight room that can pressurise and depressurise
 msgstr "了解如何搭建一个可以进行加压和减压的气密舱室。"
 
 #: /Language/Interface/Record[Key='DisplayAlertAirlockMalfunction']
+#, fuzzy
 msgctxt "Interface.DisplayAlertAirlockMalfunction"
 msgid ""
 "Welcome back, Cadet! \n"
-"Due to an unfortunate pressurization glitch, a catastrophic failure occurred that destroyed the Airlock!"
+"Due to an unfortunate pressurization glitch, a catastrophic failure occurred and destroyed the Airlock.\n"
+"\n"
+"Let's rebuild it!"
 msgstr ""
 "欢迎回来，学员！\n"
 "现在情况是这样的，由于在加压的时候发生了点故障，现在气密失效整个气闸舱都给毁了！"
@@ -2456,7 +2460,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='UnlockingResearch2']
 msgctxt "Interface.UnlockingResearch2"
-msgid "Click the red circle on the {THING:StructureResearchMachine}, then click on a technology category named 'Automation'. Select 'Basic Logic Controllers', and select 'confirm'."
+msgid "Click the red circle on the {THING:StructureResearchMachine}, then click on the technology category 'Automation'. Select 'Basic Logic Controllers', then select 'confirm'."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ItemsUnlocked']
@@ -2466,7 +2470,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='ItemsUnlockedDescription']
 msgctxt "Interface.ItemsUnlockedDescription"
-msgid "Now that you've unlocked a new research node you can access the newly researched items from their associated printing machine."
+msgid "Now that you've unlocked a new research node, you can access the new items in their associated printing machine."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ItemsUnlocked1']
@@ -2478,7 +2482,7 @@ msgstr "在 {THING:StructureElectronicsPrinter} 上选择打印 {THING:ItemResea
 #: /Language/Interface/Record[Key='ItemsUnlocked2']
 #, fuzzy
 msgctxt "Interface.ItemsUnlocked2"
-msgid "Print a  {THING:CircuitboardAirControl} on the {THING:StructureElectronicsPrinter}."
+msgid "Print a {THING:CircuitboardAirControl} on the {THING:StructureElectronicsPrinter}."
 msgstr "将 {THING:CircuitboardAirlockControl} 插入 {THING:StructureConsole} 中。"
 
 #: /Language/Interface/Record[Key='TutorialUIBasics']
@@ -3191,6 +3195,15 @@ msgstr "#06 基础空气供应"
 msgctxt "Interface.BasicAirlocks"
 msgid "#7 Basic Airlocks"
 msgstr "#07 基础气闸系统"
+
+#: /Language/Interface/Record[Key='DisplayAlertAirlockMalfunction']
+msgctxt "Interface.DisplayAlertAirlockMalfunction"
+msgid ""
+"Welcome back, Cadet! \n"
+"Due to an unfortunate pressurization glitch, a catastrophic failure occurred that destroyed the Airlock!"
+msgstr ""
+"欢迎回来，学员！\n"
+"现在情况是这样的，由于在加压的时候发生了点故障，现在气密失效整个气闸舱都给毁了！"
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask3']
 msgctxt "Interface.CloseTheDoorTask3"

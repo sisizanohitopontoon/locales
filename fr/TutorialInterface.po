@@ -874,7 +874,7 @@ msgstr "Le faire par vous-même - partie 2"
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Description']
 #, fuzzy
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Description"
-msgid "Well done! Now, finish them off with the {THING:ItemWeldingTorch} and some {THING:ItemIronSheets}. You will find more in the orange crate."
+msgid "Well done! Now, finish them off with the {THING:ItemWeldingTorch} and some {THING:ItemIronSheets} from the orange crate."
 msgstr "Bien joué ! Maintenant, terminez-les avec le {THING:ItemWeldingTorch} et quelques {THING:ItemIronSheets}."
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Task1']
@@ -1848,10 +1848,13 @@ msgid "Learn how to create an airtight room that can pressurise and depressurise
 msgstr "Apprenez à créer une pièce hermétique qui peut pressuriser et dépressuriser la pièce."
 
 #: /Language/Interface/Record[Key='DisplayAlertAirlockMalfunction']
+#, fuzzy
 msgctxt "Interface.DisplayAlertAirlockMalfunction"
 msgid ""
 "Welcome back, Cadet! \n"
-"Due to an unfortunate pressurization glitch, a catastrophic failure occurred that destroyed the Airlock!"
+"Due to an unfortunate pressurization glitch, a catastrophic failure occurred and destroyed the Airlock.\n"
+"\n"
+"Let's rebuild it!"
 msgstr ""
 "Bienvenue cadet ! \n"
 "Malheureusement, en raison d’un problème de pressurisation dans le sas, un dysfonctionnement s’est produit causant la défaillance catastrophique ayant entraîné la destruction du sas."
@@ -2688,7 +2691,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='UnlockingResearch2']
 #, fuzzy
 msgctxt "Interface.UnlockingResearch2"
-msgid "Click the red circle on the {THING:StructureResearchMachine}, then click on a technology category named 'Automation'. Select 'Basic Logic Controllers', and select 'confirm'."
+msgid "Click the red circle on the {THING:StructureResearchMachine}, then click on the technology category 'Automation'. Select 'Basic Logic Controllers', then select 'confirm'."
 msgstr "Cliquez sur le cercle rouge de la {THING:StructureResearchMachine}, puis cliquez sur une catégorie de technologie à déverrouiller, et sélectionnez \"confirmer\"."
 
 #: /Language/Interface/Record[Key='ItemsUnlocked']
@@ -2698,7 +2701,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='ItemsUnlockedDescription']
 msgctxt "Interface.ItemsUnlockedDescription"
-msgid "Now that you've unlocked a new research node you can access the newly researched items from their associated printing machine."
+msgid "Now that you've unlocked a new research node, you can access the new items in their associated printing machine."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ItemsUnlocked1']
@@ -2710,7 +2713,7 @@ msgstr "Sélectionnez le {THING:ItemPassiveVent} dans le {THING:StructureHydraul
 #: /Language/Interface/Record[Key='ItemsUnlocked2']
 #, fuzzy
 msgctxt "Interface.ItemsUnlocked2"
-msgid "Print a  {THING:CircuitboardAirControl} on the {THING:StructureElectronicsPrinter}."
+msgid "Print a {THING:CircuitboardAirControl} on the {THING:StructureElectronicsPrinter}."
 msgstr "Insérez la {THING:CircuitboardAirlockControl} dans la {THING:StructureConsole}."
 
 #: /Language/Interface/Record[Key='TutorialUIBasics']
@@ -3438,6 +3441,15 @@ msgstr "#6 Base de l’atmosphère"
 msgctxt "Interface.BasicAirlocks"
 msgid "#7 Basic Airlocks"
 msgstr "#7 Base des sas"
+
+#: /Language/Interface/Record[Key='DisplayAlertAirlockMalfunction']
+msgctxt "Interface.DisplayAlertAirlockMalfunction"
+msgid ""
+"Welcome back, Cadet! \n"
+"Due to an unfortunate pressurization glitch, a catastrophic failure occurred that destroyed the Airlock!"
+msgstr ""
+"Bienvenue cadet ! \n"
+"Malheureusement, en raison d’un problème de pressurisation dans le sas, un dysfonctionnement s’est produit causant la défaillance catastrophique ayant entraîné la destruction du sas."
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask3']
 msgctxt "Interface.CloseTheDoorTask3"
