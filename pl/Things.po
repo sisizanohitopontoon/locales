@@ -10,22 +10,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='ItemEmergencyArcWelder']
-msgctxt "Things.ItemEmergencyArcWelder"
-msgid "Emergency Arc Welder"
-msgstr ""
-
-#: /Language/Things/Record[Key='ItemStelliteIngot']
+#: /Language/Things/Record[Key='StructureRTGSurvival']
 #, fuzzy
-msgctxt "Things.ItemStelliteIngot"
-msgid "Ingot (Stellite)"
-msgstr "Sztabka (Stal)"
-
-#: /Language/Things/Record[Key='ItemKitAdvancedFurnace']
-#, fuzzy
-msgctxt "Things.ItemKitAdvancedFurnace"
-msgid "Kit (Advanced Furnace)"
-msgstr "Zestaw (Piec łukowy)"
+msgctxt "Things.StructureRTGSurvival"
+msgid "Structure RTG"
+msgstr "Sciana plaska"
 
 #: /Language/Things/Record[Key='StructureAdvancedFurnace']
 #, fuzzy
@@ -109,9 +98,9 @@ msgctxt "Things.Meteorite"
 msgid "Meteorite"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureStairs4x2RailR']
-msgctxt "Things.StructureStairs4x2RailR"
-msgid "Stairs with Rail (Right)"
+#: /Language/Things/Record[Key='Phobos']
+msgctxt "Things.Phobos"
+msgid "Phobos"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureStairs4x2RailL']
@@ -1364,11 +1353,11 @@ msgctxt "Things.ItemSoyOil"
 msgid "Soy Oil"
 msgstr "Olej sojowy"
 
-#: /Language/Things/Record[Key='ItemWaspaloyIngot']
+#: /Language/Things/Record[Key='ItemKitAdvancedFurnace']
 #, fuzzy
-msgctxt "Things.ItemWaspaloyIngot"
-msgid "Ingot (Waspaloy)"
-msgstr "Sztabka (odpady)"
+msgctxt "Things.ItemKitAdvancedFurnace"
+msgid "Kit (Advanced Furnace)"
+msgstr "Zestaw (Piec łukowy)"
 
 #: /Language/Things/Record[Key='ItemTomatoSoup']
 msgctxt "Things.ItemTomatoSoup"
@@ -3027,11 +3016,11 @@ msgctxt "Things.ItemKitCryoTube"
 msgid "Kit (Cryo Tube)"
 msgstr "Zestaw (Komora Kriogeniczna)"
 
-#: /Language/Things/Record[Key='ItemHastelloyIngot']
+#: /Language/Things/Record[Key='ItemStelliteIngot']
 #, fuzzy
-msgctxt "Things.ItemHastelloyIngot"
-msgid "Ingot (Hastelloy)"
-msgstr "Sztabka (odpady)"
+msgctxt "Things.ItemStelliteIngot"
+msgid "Ingot (Stellite)"
+msgstr "Sztabka (Stal)"
 
 #: /Language/Things/Record[Key='ItemKitConsole']
 msgctxt "Things.ItemKitConsole"
@@ -3839,6 +3828,18 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrofalowka"
 
+#: /Language/Things/Record[Key='ItemWaspaloyIngot']
+#, fuzzy
+msgctxt "Things.ItemWaspaloyIngot"
+msgid "Ingot (Waspaloy)"
+msgstr "Sztabka (odpady)"
+
+#: /Language/Things/Record[Key='ItemHastelloyIngot']
+#, fuzzy
+msgctxt "Things.ItemHastelloyIngot"
+msgid "Ingot (Hastelloy)"
+msgstr "Sztabka (odpady)"
+
 #: /Language/Things/Record[Key='ItemInconelIngot']
 #, fuzzy
 msgctxt "Things.ItemInconelIngot"
@@ -3940,15 +3941,19 @@ msgctxt "Things.ItemJetpackBasic"
 msgid "Jetpack Basic"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureRTGSurvival']
-#, fuzzy
-msgctxt "Things.StructureRTGSurvival"
-msgid "Structure RTG"
-msgstr "Sciana plaska"
-
 #: /Language/Things/Record[Key='ItemEmergencyHelmet']
 msgctxt "Things.ItemEmergencyHelmet"
 msgid "Emergency Helmet"
+msgstr ""
+
+#: /Language/Things/Record[Key='ItemEmergencyArcWelder']
+msgctxt "Things.ItemEmergencyArcWelder"
+msgid "Emergency Arc Welder"
+msgstr ""
+
+#: /Language/Things/Record[Key='StructureStairs4x2RailR']
+msgctxt "Things.StructureStairs4x2RailR"
+msgid "Stairs with Rail (Right)"
 msgstr ""
 
 #: /Language/Things/Record[Key='ItemEmergencyDrill']
@@ -3956,11 +3961,6 @@ msgstr ""
 msgctxt "Things.ItemEmergencyDrill"
 msgid "Emergency Drill"
 msgstr "Narzędzie Odwołań Przedmiotów"
-
-#: /Language/Things/Record[Key='Phobos']
-msgctxt "Things.Phobos"
-msgid "Phobos"
-msgstr ""
 
 #: /Language/Things/Record[Key='ItemEmergencyAngleGrinder']
 #, fuzzy
@@ -4178,7 +4178,6 @@ msgid "Kit AIMeE"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureAutoMinerSmall']
-#, fuzzy
 msgctxt "Things.StructureAutoMinerSmall"
 msgid "Auto Miner Small"
 msgstr ""
@@ -4190,7 +4189,6 @@ msgid "Kit Auto Miner Small"
 msgstr "Zestaw (Maly silnik)"
 
 #: /Language/Things/Record[Key='ItemDirtCannister']
-#, fuzzy
 msgctxt "Things.ItemDirtCannister"
 msgid "Dirt Cannister"
 msgstr ""
@@ -4212,12 +4210,6 @@ msgctxt "Things.StructureLaunchPad"
 msgid "Launch Pad"
 msgstr "Platforma do lądowania"
 
-#: /Language/Things/Record[Key='StructureModularRocketEngine01']
-#, fuzzy
-msgctxt "Things.StructureModularRocketEngine01"
-msgid "Modular Rocket Engine"
-msgstr "Silnik Rakietowy (Duzy)"
-
 #: /Language/Things/Record[Key='StructureModularRocketCargo']
 msgctxt "Things.StructureModularRocketCargo"
 msgid "Modular Rocket Cargo"
@@ -4228,21 +4220,6 @@ msgctxt "Things.StructureModularRocketCommand"
 msgid "Modular Rocket Command"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureModularRocketFueltank01']
-msgctxt "Things.StructureModularRocketFueltank01"
-msgid "Modular Rocket Fueltank"
-msgstr ""
-
-#: /Language/Things/Record[Key='StructureModularRocketCargo01']
-msgctxt "Things.StructureModularRocketCargo01"
-msgid "Modular Rocket Cargo"
-msgstr ""
-
-#: /Language/Things/Record[Key='StructureModularRocketCommand01']
-msgctxt "Things.StructureModularRocketCommand01"
-msgid "Modular Rocket Command01"
-msgstr ""
-
 #: /Language/Things/Record[Key='DynamicModularRocketCommand01']
 #, fuzzy
 msgctxt "Things.DynamicModularRocketCommand01"
@@ -4250,7 +4227,6 @@ msgid "Modular Rocket Command"
 msgstr "Silnik Rakietowy (Duzy)"
 
 #: /Language/Things/Record[Key='StructureReverseElectrolyzer']
-#, fuzzy
 msgctxt "Things.StructureReverseElectrolyzer"
 msgid "Reverse Electrolyzer"
 msgstr ""
@@ -4261,13 +4237,11 @@ msgid "H2 Combustor"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureInsulatedPipeStraight']
-#, fuzzy
 msgctxt "Things.StructureInsulatedPipeStraight"
 msgid "Insulated Pipe Straight"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureInsulatedPipeCorner']
-#, fuzzy
 msgctxt "Things.StructureInsulatedPipeCorner"
 msgid "Insulated Pipe Corner"
 msgstr ""
@@ -4319,6 +4293,18 @@ msgstr "Tablet"
 msgctxt "Things.ItemKitInsulatedPipe"
 msgid "Kit Insulated Pipe"
 msgstr "Zestaw (zawór rurowy)"
+
+#: /Language/Things/Record[Key='StructureModularRocketEngine']
+#, fuzzy
+msgctxt "Things.StructureModularRocketEngine"
+msgid "Structure Modular Rocket Engine"
+msgstr "Silnik Rakietowy (Duzy)"
+
+#: /Language/Things/Record[Key='StructureModularRocketFueltank']
+#, fuzzy
+msgctxt "Things.StructureModularRocketFueltank"
+msgid "Structure Modular Rocket Fueltank"
+msgstr "Silnik Rakietowy (Duzy)"
 
 #: /Language/Things/Record[Key='ItemKitConveyor']
 msgctxt "Things.ItemKitConveyor"

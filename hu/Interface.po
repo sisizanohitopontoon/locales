@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Kilépés"
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Biztos vagy benne, hogy leiratkozol erről a Műhely tételről?"
+
+#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
+msgctxt "Interface.SettingsTitleBasicScreen"
+msgid "Basic Settings"
+msgstr "Alapbeállítások"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "Ablak beállításai"
 
 #: /Language/Interface/Record[Key='SettingsTitleAutosave']
 msgctxt "Interface.SettingsTitleAutosave"
@@ -25,6 +35,11 @@ msgctxt "Interface.SettingsTitleDisplayTools"
 msgid "Display Tools"
 msgstr "Eszközök megjelenítése"
 
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
+
 #: /Language/Interface/Record[Key='ButtonResetDefaults']
 msgctxt "Interface.ButtonResetDefaults"
 msgid "Defaults"
@@ -34,11 +49,6 @@ msgstr "Alapértelmezett"
 msgctxt "Interface.SettingsDisplayFPS"
 msgid "Display FPS"
 msgstr "FPS megjelenítése"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
 
 #: /Language/Interface/Record[Key='SettingsDisplayLatency']
 msgctxt "Interface.SettingsDisplayLatency"
@@ -300,15 +310,15 @@ msgctxt "Interface.NewWorldAreaLoulan"
 msgid "Loulan"
 msgstr "Loulan"
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Asteroid Belt"
-msgstr "Aszteroidaöv"
+#: /Language/Interface/Record[Key='HoldForPreviousObject']
+msgctxt "Interface.HoldForPreviousObject"
+msgid "Hold {KEY:QuantityModifier} for previous object"
+msgstr "Tarsd a {KEY:QuantityModifier} gombot az előző tárgyhoz"
 
-#: /Language/Interface/Record[Key='ChangeSettingToAll']
-msgctxt "Interface.ChangeSettingToAll"
-msgid "Change to All {0}"
-msgstr "Összes változatása erre: {0}"
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "Kezdő terület"
 
 #: /Language/Interface/Record[Key='NewWorldButtonCreate']
 msgctxt "Interface.NewWorldButtonCreate"
@@ -464,16 +474,6 @@ msgstr "Kép"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "Ablak beállításai"
-
-#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
-msgctxt "Interface.SettingsTitleBasicScreen"
-msgid "Basic Settings"
-msgstr "Alapbeállítások"
 
 #: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
 msgctxt "Interface.SettingsTitleAdvScreen"
@@ -967,15 +967,15 @@ msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
 msgstr "Driverek letöltése"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Biztos vagy benne, hogy leiratkozol erről a Műhely tételről?"
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "Több AMD videókártya tulajdonos jelezte, hogy a játékbeli hibák megoldódtak a driverek frissítésével. <b>Erősen</b> ajánljuk, hogy frissítsd őket te is játék előtt."
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Csevegőablak eltűnési ideje"
 
 #: /Language/Interface/Record[Key='PromptOverwriteTitle']
 msgctxt "Interface.PromptOverwriteTitle"
@@ -1128,16 +1128,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Be kell írnod egy nevet a mentéshez."
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "Több AMD videókártya tulajdonos jelezte, hogy a játékbeli hibák megoldódtak a driverek frissítésével. <b>Erősen</b> ajánljuk, hogy frissítsd őket te is játék előtt."
-
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Csevegőablak eltűnési ideje"
-
 #: /Language/Interface/Record[Key='PromptResetSettingsTitle']
 msgctxt "Interface.PromptResetSettingsTitle"
 msgid "Reset Settings"
@@ -1187,6 +1177,16 @@ msgstr "Kilépés a Stationeersből"
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "Biztosan ki akarsz lépni?"
+
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Kilépés"
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
 
 #: /Language/Interface/Record[Key='StatusWindowTarget']
 msgctxt "Interface.StatusWindowTarget"
@@ -3591,15 +3591,15 @@ msgctxt "Interface.ButtonVariables"
 msgid "x"
 msgstr "x"
 
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Asteroid Belt"
+msgstr "Aszteroidaöv"
+
 #: /Language/Interface/Record[Key='ButtonHelp']
 msgctxt "Interface.ButtonHelp"
 msgid "Help"
 msgstr "Segítség"
-
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "Kezdő terület"
 
 #: /Language/Interface/Record[Key='ButtonPaste']
 msgctxt "Interface.ButtonPaste"
@@ -3803,10 +3803,10 @@ msgctxt "Interface.ChangeSettingToFor"
 msgid "Change to <color=yellow>{0}</color> for {1}"
 msgstr "{1} megváltoztatása erre: <color=yellow>{0}</color>"
 
-#: /Language/Interface/Record[Key='HoldForPreviousObject']
-msgctxt "Interface.HoldForPreviousObject"
-msgid "Hold {KEY:QuantityModifier} for previous object"
-msgstr "Tarsd a {KEY:QuantityModifier} gombot az előző tárgyhoz"
+#: /Language/Interface/Record[Key='ChangeSettingToAll']
+msgctxt "Interface.ChangeSettingToAll"
+msgid "Change to All {0}"
+msgstr "Összes változatása erre: {0}"
 
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"

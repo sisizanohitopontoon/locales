@@ -42,6 +42,9 @@ msgid ""
 "{HEADER:Structures}\n"
 "{LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}\n"
 "{/LIST}\n"
+"{HEADER:World Travel}\n"
+"{LIST}{LINK:RocketShuttlePage;Rocket Shuttle Modules}, {LINK:TravelPage;Travel}\n"
+"{/LIST}\n"
 "      "
 msgstr ""
 "Velkommen Stationeers internet hjælpesystem. Med dette værktøj, kan du finde information om hvordan alle systemerne virker, såvel som vigtig information omkring alle ting i verdenen.\n"
@@ -431,6 +434,35 @@ msgid ""
 "      \n"
 "{HEADER:List of Appliances}\n"
 "{LIST_OF_APPLIANCES}\n"
+"      "
+msgstr ""
+
+#: /Language/HelpPage/StationpediaPage[Key='TravelPage']
+msgctxt "HelpPage.TravelPage"
+msgid "Destination"
+msgstr ""
+
+#: /Language/HelpPage/StationpediaPage[Key='TravelPage']
+msgctxt "HelpPage.TravelPage"
+msgid ""
+"Wait! Don't close me yet! These are the WORLD TRAVEL IDs. You can use them to travel to specific planets, when combined with a completed {LINK:RocketShuttlePage;Rocket Shuttle} and {LINK:LogicUnitPage;Logic Units}. Simply write the hash to the setting variable on the {THING:StructureLaunchPad}. You need at least 3 core modules and all players seated in a functional Rocket for launch.\n"
+"      {LIST}\n"
+"        {WORLD_HASHES}\n"
+"      {/LIST}\n"
+"      "
+msgstr ""
+
+#: /Language/HelpPage/StationpediaPage[Key='RocketShuttlePage']
+msgctxt "HelpPage.RocketShuttlePage"
+msgid "Rocket Shuttle"
+msgstr ""
+
+#: /Language/HelpPage/StationpediaPage[Key='RocketShuttlePage']
+msgctxt "HelpPage.RocketShuttlePage"
+msgid ""
+"These are the Rocket Shuttle Modules, used to travel between worlds. {THING:StructureLaunchPad} is required.\n"
+"{HEADER:List of Rocket Shuttle Modules}\n"
+"{LIST_OF_ROCKET_SHUTTLE}\n"
 "      "
 msgstr ""
 
