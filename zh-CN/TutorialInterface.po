@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-15 17:25+0000\n"
+"PO-Revision-Date: 2020-06-15 17:33+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2757,6 +2757,8 @@ msgid ""
 "            \n"
 "            "
 msgstr ""
+"最后，校准太阳能电池板的垂直位置。\n"
+"为此，从Vertical Math 1中获取垂直太阳角度的百分比数，然后用Vertical Math 2来加上Add Memory的值 50。这将使太阳能电池板的垂直角度设置为50%，达到水平(平面，朝上)。"
 
 #: /Language/Interface/Record[Key='SetMemoryDescription5']
 msgctxt "Interface.SetMemoryDescription5"
@@ -2767,6 +2769,11 @@ msgid ""
 "            \n"
 "            "
 msgstr ""
+"太阳能电池板的垂直轴是按百分比来测量的，而传感器则以角度为单位输出从0-160度的太阳角度数据。\n"
+"            \n"
+"为了使太阳能电池板百分比与传感器角度互相匹配，我们使用Vertical Logic Math 1将传感器的数据除以1.6，从而将角度转换为百分比数据。\n"
+"            \n"
+"            "
 
 #: /Language/Interface/Record[Key='SetMemory0']
 msgctxt "Interface.SetMemory0"
@@ -2913,7 +2920,7 @@ msgid ""
 msgstr ""
 "我们现在需要对 {THING:StructureLogicReader} 和 {THING:StructureLogicMemory} 中的数据进行一些数学运算. 从电路中的垂直数据模块开始.\n"
 "            \n"
-"这第一个 {THING:StructureLogicMath} 会用 {THING:StructureLogicReader} 得到的数据除以{THING:StructureLogicMemory}中的数据也就是1.5.\n"
+"这第一个 {THING:StructureLogicMath} 会用 {THING:StructureLogicReader} 得到的数据除以{THING:StructureLogicMemory}中的数据也就是1.6.\n"
 "  \n"
 "第二个 {THING:StructureLogicMath} 会读取我们第一个 {THING:StructureLogicMath} 的值然后加上我们命名为 offset 的{THING:StructureLogicMemory} 中的值50."
 
