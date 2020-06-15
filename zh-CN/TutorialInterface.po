@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-15 16:21+0000\n"
+"PO-Revision-Date: 2020-06-15 16:32+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2907,6 +2907,11 @@ msgid ""
 "  \n"
 "The next {THING:StructureLogicMath} will read the input of our first {THING:StructureLogicMath} and add 50 using a {THING:StructureLogicMemory} named offset."
 msgstr ""
+"我们现在需要对 {THING:StructureLogicReader} 和 {THING:StructureLogicMemory} 中的数据进行一些数学运算. 从电路中的垂直数据模块开始.\n"
+"            \n"
+"这第一个 {THING:StructureLogicMath} 会用 {THING:StructureLogicReader} 得到的数据除以{THING:StructureLogicMemory}中的数据也就是1.5.\n"
+"  \n"
+"第二个 {THING:StructureLogicMath} 会读取我们第一个 {THING:StructureLogicMath} 的值然后加上我们命名为 offset 的{THING:StructureLogicMemory} 中的值50."
 
 #: /Language/Interface/Record[Key='PlaceLogicMath']
 msgctxt "Interface.PlaceLogicMath"
@@ -2926,7 +2931,7 @@ msgstr "Logic Math Vertical设置。"
 #: /Language/Interface/Record[Key='LogicMathVerticalDescription']
 msgctxt "Interface.LogicMathVerticalDescription"
 msgid "Setting up the math processors is one of the most important steps in creating a logic circuit, as it handles all the calculations required for most tasks."
-msgstr ""
+msgstr "设置数学处理器是创建逻辑电路中最重要的步骤之一，因为它承担着大多数任务所需的所有运算。"
 
 #: /Language/Interface/Record[Key='LogicMathVertical1']
 msgctxt "Interface.LogicMathVertical1"
@@ -2946,7 +2951,7 @@ msgstr "在Vertical Math Unit 1上的输入 2 设置读取Tilt Memory。"
 #: /Language/Interface/Record[Key='LogicMathVertical4']
 msgctxt "Interface.LogicMathVertical4"
 msgid "Set the Math operation type on Vertical Math Unit 1 to 'Divide'."
-msgstr ""
+msgstr "设置Vertical Math Unit 1的运算类型为 'Divide' (除)"
 
 #: /Language/Interface/Record[Key='LogicMathVertical5']
 msgctxt "Interface.LogicMathVertical5"
