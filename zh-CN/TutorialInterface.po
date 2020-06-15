@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-15 16:42+0000\n"
+"PO-Revision-Date: 2020-06-15 16:57+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3039,6 +3039,13 @@ msgid ""
 "\n"
 "            "
 msgstr ""
+"与垂直模块电路那样，我们也需要对水平模块电路中的输入值进行一些数值运算。\n"
+"\t\t\t\n"
+"首先, 对传感器获得的水平太阳角度的数据乘个-1变成正数. 为此, 用 {THING:StructureLogicMath} 来读取逻辑读取中的数据然后乘上我们命名为 Invert的 {THING:StructureLogicMemory} 中设置的值-1.\n"
+"            \n"
+"下一步是偏移 {THING:StructureDaylightSensor} 中的数据.  在这一步中，我们用-90来作为数据调整. 用 {THING:StructureLogicMath} 来读取传感器的数据然后加上我们命名为Offset的 {THING:StructureLogicMemory} 中的值.\n"
+"\n"
+"            "
 
 #: /Language/Interface/Record[Key='PlaceLogicMath2']
 msgctxt "Interface.PlaceLogicMath2"
@@ -3058,17 +3065,17 @@ msgstr "打开 Horizontal Math Unit 1."
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp2']
 msgctxt "Interface.HorizontalLogicProcessorSetUp2"
 msgid "Set input 1 on Horizontal Math Unit 1 to Horizontal Logic Reader 1."
-msgstr ""
+msgstr "设置Horizontal Math Unit 1的输入1为Horizontal Logic Reader 1."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp3']
 msgctxt "Interface.HorizontalLogicProcessorSetUp3"
 msgid "Set input 2 on Horizontal Math Unit 1 to Invert Memory."
-msgstr ""
+msgstr "设置 Horizontal Math Unit 1的输入2为Invert Memory."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp4']
 msgctxt "Interface.HorizontalLogicProcessorSetUp4"
 msgid "Set the Math operation type on Horizontal Math Unit 1 to 'multiply'."
-msgstr ""
+msgstr "设置Horizontal Math Unit 1的运算类型为 'multiply'(乘)."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp5']
 msgctxt "Interface.HorizontalLogicProcessorSetUp5"
@@ -3078,12 +3085,12 @@ msgstr "打开 Horizontal Math Unit 2."
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp6']
 msgctxt "Interface.HorizontalLogicProcessorSetUp6"
 msgid "Set input 1 on Horizontal Math Unit 2 to Horizontal Math Unit 1."
-msgstr ""
+msgstr "设置Horizontal Math Unit 2的输入1为Horizontal Math Unit 1."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp7']
 msgctxt "Interface.HorizontalLogicProcessorSetUp7"
 msgid "Set input 2 on Horizontal Math Unit 2 to OffSet Memory."
-msgstr ""
+msgstr "设置 Horizontal Math Unit 2 的输入2为OffSet Memory."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp8']
 msgctxt "Interface.HorizontalLogicProcessorSetUp8"
@@ -3093,7 +3100,7 @@ msgstr "将Horizontal Math Unit 2上的数学操作类型设置为 'Add'。"
 #: /Language/Interface/Record[Key='HorizontalBatchWriter']
 msgctxt "Interface.HorizontalBatchWriter"
 msgid "Horizontal Batch Writer"
-msgstr ""
+msgstr "水平批量写入"
 
 #: /Language/Interface/Record[Key='HorizontalBatchWriterDescription']
 msgctxt "Interface.HorizontalBatchWriterDescription"
