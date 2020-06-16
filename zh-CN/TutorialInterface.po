@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-15 17:33+0000\n"
+"PO-Revision-Date: 2020-06-16 05:29+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3146,7 +3146,7 @@ msgstr "打开 {THING:StructureLogicBatchWriter}的开关。"
 #: /Language/Interface/Record[Key='SleepMode']
 msgctxt "Interface.SleepMode"
 msgid "Sleep Mode Module"
-msgstr ""
+msgstr "休眠模式"
 
 #: /Language/Interface/Record[Key='SleepModeDescription']
 msgctxt "Interface.SleepModeDescription"
@@ -3157,6 +3157,11 @@ msgid ""
 "            \n"
 "            "
 msgstr ""
+"现在我们拥有了一个可整日追踪太阳轨迹的太阳追踪电路.\n"
+"\t\t\t\n"
+"但是夜晚怎么办? 所以, 我们要搭建另一个模块让整个电路进入休眠模式。 当传感器关闭了或是没有接收到阳光时, 这些太阳能电池板的角度将会重置为一个初始值. 所以我们要用到 {THING:StructureLogicReader} 来读取每个 {THING:StructureDaylightSensor} 的阳光接收状态 .\n"
+"            \n"
+"            "
 
 #: /Language/Interface/Record[Key='LogicSelect1']
 msgctxt "Interface.LogicSelect1"
@@ -3171,12 +3176,12 @@ msgstr "在高亮位置处放置第二个 {THING:StructureLogicSelect}。"
 #: /Language/Interface/Record[Key='SleepModeSetup']
 msgctxt "Interface.SleepModeSetup"
 msgid "Sleep mode Setup"
-msgstr ""
+msgstr "休眠模式安装"
 
 #: /Language/Interface/Record[Key='SleepModeSetupDescription']
 msgctxt "Interface.SleepModeSetupDescription"
 msgid "Now we need to read the the active state of the solar sensors. This will tell us whether it is day or night."
-msgstr ""
+msgstr "现在我们需要读取传感器的状态. 这会告诉我们是在白天还是晚上。"
 
 #: /Language/Interface/Record[Key='SleepModeSetupTask1']
 msgctxt "Interface.SleepModeSetupTask1"
