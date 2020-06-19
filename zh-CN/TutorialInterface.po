@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-19 09:25+0000\n"
+"PO-Revision-Date: 2020-06-19 09:30+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3400,10 +3400,9 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='PipeMetersTask1']
-#, fuzzy
 msgctxt "Interface.PipeMetersTask1"
 msgid "Place a {THING:StructurePipeMeter} in the highlighted position."
-msgstr "在高亮位置处放置 {THING:StructureLogicWriter}。"
+msgstr "在高亮位置处放置 {THING:StructurePipeMeter}。"
 
 #: /Language/Interface/Record[Key='GasMixer']
 msgctxt "Interface.GasMixer"
@@ -3416,10 +3415,9 @@ msgid "The Gas Mixer allows us to combine two gases at a defined ratio. This let
 msgstr ""
 
 #: /Language/Interface/Record[Key='GasMixerTask1']
-#, fuzzy
 msgctxt "Interface.GasMixerTask1"
 msgid "Place the {THING:StructureGasMixer} in the highlighted location."
-msgstr "在高亮位置处建造 {THING:StructureGasSensor}"
+msgstr "在高亮位置处建造 {THING:StructureGasSensor}。"
 
 #: /Language/Interface/Record[Key='PressureRegulator']
 msgctxt "Interface.PressureRegulator"
@@ -3432,16 +3430,14 @@ msgid "The {THING:StructurePressureRegulator} is used to regulate pressure insid
 msgstr ""
 
 #: /Language/Interface/Record[Key='PressureRegulatorTask1']
-#, fuzzy
 msgctxt "Interface.PressureRegulatorTask1"
 msgid "Place the {THING:StructurePressureRegulator} in the highlighted position."
-msgstr "在高亮位置处放置另一个{THING:StructurePipeStraight}。"
+msgstr "在高亮位置处放置 {THING:StructurePressureRegulator}。"
 
 #: /Language/Interface/Record[Key='ConnectingTanks']
-#, fuzzy
 msgctxt "Interface.ConnectingTanks"
 msgid "Connecting Tanks"
-msgstr "完成框架建设"
+msgstr "连接建造"
 
 #: /Language/Interface/Record[Key='ConnectingTanksDescription']
 msgctxt "Interface.ConnectingTanksDescription"
@@ -3451,22 +3447,19 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='ConnectingTanksTask1']
-#, fuzzy
 msgctxt "Interface.ConnectingTanksTask1"
 msgid "Connect the {THING:DynamicGasCanisterOxygen} to the white Tank Connector."
-msgstr "用 {THING:ItemWrench} 把{THING:DynamicGasCanisterWater} 到 {THING:ItemTankConnector} 上面。"
+msgstr "将 {THING:DynamicGasCanisterOxygen} 连接到白色的储罐连接底座上"
 
 #: /Language/Interface/Record[Key='ConnectingTanksTask2']
-#, fuzzy
 msgctxt "Interface.ConnectingTanksTask2"
 msgid "Connect the {THING:DynamicGasCanisterVolatiles} to the red Tank Connector."
-msgstr "用 {THING:ItemWrench} 把{THING:DynamicGasCanisterWater} 到 {THING:ItemTankConnector} 上面。"
+msgstr "将 {THING:DynamicGasCanisterVolatiles} 连接到那个红色的储罐连接底座上。"
 
 #: /Language/Interface/Record[Key='FlipingValves']
-#, fuzzy
 msgctxt "Interface.FlipingValves"
 msgid "Flipping Valves"
-msgstr "装备一个过滤器"
+msgstr "翻转阀门"
 
 #: /Language/Interface/Record[Key='FlipingValvesDescription']
 msgctxt "Interface.FlipingValvesDescription"
@@ -3474,22 +3467,19 @@ msgid "We are now ready to turn on the {THING:StructureValve}. To open the Valve
 msgstr ""
 
 #: /Language/Interface/Record[Key='FlipingValvesTask2']
-#, fuzzy
 msgctxt "Interface.FlipingValvesTask2"
 msgid "Open the {THING:StructureValve} on the oxygen network."
-msgstr "在高亮位置处建造 {THING:StructureGasSensor}"
+msgstr "打开氧气网络的 {THING:StructureValve}。"
 
 #: /Language/Interface/Record[Key='FlipingValvesTask1']
-#, fuzzy
 msgctxt "Interface.FlipingValvesTask1"
 msgid "Open the {THING:StructureValve} on the volatiles network."
-msgstr "放置 {THING:StructureSolidFuelGenerator}。"
+msgstr "打开挥发性有机物网络的 {THING:StructureValve}。"
 
 #: /Language/Interface/Record[Key='SettingYourLimit']
-#, fuzzy
 msgctxt "Interface.SettingYourLimit"
 msgid "Setting Your Limit"
-msgstr "放置一个逻辑写入"
+msgstr "设定你的极限"
 
 #: /Language/Interface/Record[Key='SettingYourLimitDescription']
 msgctxt "Interface.SettingYourLimitDescription"
@@ -3497,22 +3487,19 @@ msgid "We now need to set the pressure limit on the {THING:StructurePressureRegu
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingYourLimitTask1']
-#, fuzzy
 msgctxt "Interface.SettingYourLimitTask1"
 msgid "Set the pressure on the {THING:StructurePressureRegulator} to 1950kPa"
-msgstr "将 {THING:StructureLogicBatchWriter} 上的逻辑值类型设置为 Vertical，来写入太阳能板的垂直角度。"
+msgstr "在 {THING:StructurePressureRegulator} 设置压力为1950kpa"
 
 #: /Language/Interface/Record[Key='SettingYourLimitTask2']
-#, fuzzy
 msgctxt "Interface.SettingYourLimitTask2"
 msgid "Turn on the {THING:StructurePressureRegulator}."
-msgstr "启动 {THING:StructureAutolathe}。"
+msgstr "启动 {THING:StructurePressureRegulator}。"
 
 #: /Language/Interface/Record[Key='TheGasMix']
-#, fuzzy
 msgctxt "Interface.TheGasMix"
 msgid "The Gas Mix"
-msgstr "煤矿工人"
+msgstr "气体混合"
 
 #: /Language/Interface/Record[Key='TheGasMixDescription']
 msgctxt "Interface.TheGasMixDescription"
