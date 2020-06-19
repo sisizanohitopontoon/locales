@@ -3173,6 +3173,281 @@ msgctxt "Interface.TurnOnReader"
 msgid "Turn on the logic reader."
 msgstr ""
 
+#: /Language/Interface/Record[Key='Tutorial11 - GasMixingAndmore']
+msgctxt "Interface.Tutorial11 - GasMixingAndmore"
+msgid "#Tutorial 11 - Gas Mixing and More"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Tutorial 11 -
+#: GasFilteringandmoreDescription']
+msgctxt "Interface.Tutorial 11 - GasFilteringandmoreDescription"
+msgid "Learn how to refill your suit's oxygen tank and mix gases to create fuel."
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasMixingInd']
+msgctxt "Interface.GasMixingInd"
+msgid "Gas Mixing introduction"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasMixingIndDescription']
+msgctxt "Interface.GasMixingIndDescription"
+msgid "Welcome back, Cadet! In this lesson, we'll refill your suit's oxygen tanks, and then mix two gases to make fuel. Fuel is used for many applications: from powering your welder, to launching rockets!"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RemoveingSuitOxy']
+msgctxt "Interface.RemoveingSuitOxy"
+msgid "Removing your suit oxygen tank."
+msgstr ""
+
+#: /Language/Interface/Record[Key='RemoveingSuitOxyDescription']
+msgctxt "Interface.RemoveingSuitOxyDescription"
+msgid ""
+"Open your suit menu, and move the Oxygen Tank to your hand. \n"
+"You will get an on-screen warning when the tank is removed. Don't panic, there's still a small amount of oxygen circulating in the suit itself. \n"
+"You can now attach the oxygen tank to the {THING:DynamicGasCanisterOxygen} and refill it."
+msgstr ""
+
+#: /Language/Interface/Record[Key='RemoveingSuitOxyTask1']
+#, fuzzy
+msgctxt "Interface.RemoveingSuitOxyTask1"
+msgid "Take the {THING:ItemGasCanisterOxygen} from your suit."
+msgstr "Benutze den {THING:ItemDrill} aus dem {SLOT:Belt}."
+
+#: /Language/Interface/Record[Key='RemoveingSuitOxyTask2']
+#, fuzzy
+msgctxt "Interface.RemoveingSuitOxyTask2"
+msgid "Place the Oxygen Tank in the {THING:DynamicGasCanisterOxygen}."
+msgstr "Die {THING:ItemKitAutolathe} aufnehmen."
+
+#: /Language/Interface/Record[Key='RetrievingOxyTank']
+msgctxt "Interface.RetrievingOxyTank"
+msgid "Retrieving the Oxygen Tank"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RetrievingOxyTankDescription']
+msgctxt "Interface.RetrievingOxyTankDescription"
+msgid "The {THING:DynamicGasCanisterOxygen} will fill the {THING:ItemGasCanisterOxygen} with oxygen. You can now remove the {THING:ItemGasCanisterOxygen} from the {THING:DynamicGasCanisterOxygen}."
+msgstr ""
+
+#: /Language/Interface/Record[Key='RetrievingOxyTankTask1']
+#, fuzzy
+msgctxt "Interface.RetrievingOxyTankTask1"
+msgid "Remove the {THING:ItemGasCanisterOxygen} from the {THING:DynamicGasCanisterOxygen}."
+msgstr "{THING:StructureAreaPowerControl} mit einer {THING:ItemBatteryCellLarge} ausrüsten."
+
+#: /Language/Interface/Record[Key='RetrievingOxyTankTask2']
+#, fuzzy
+msgctxt "Interface.RetrievingOxyTankTask2"
+msgid "Replace the {THING:ItemGasCanisterOxygen} back in your suit."
+msgstr "Zwei {THING:ItemPlasticSheets} herstellen."
+
+#: /Language/Interface/Record[Key='RemoveingFuelCan']
+msgctxt "Interface.RemoveingFuelCan"
+msgid "Removing the Fuel Can"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RemoveingFuelCanDescription']
+msgctxt "Interface.RemoveingFuelCanDescription"
+msgid "Your Welder has run out of fuel. To fill it we will need to create the appropropriate gas mixture. Go ahead and put the {THING:ItemGasCanisterFuel} into the {THING:StructureGasTankStorage}."
+msgstr ""
+
+#: /Language/Interface/Record[Key='RemoveingFuelCanTask1']
+#, fuzzy
+msgctxt "Interface.RemoveingFuelCanTask1"
+msgid "Remove the {THING:ItemGasCanisterFuel} from the {THING:ItemWeldingTorch} in your {THING:ItemToolBelt}"
+msgstr "{THING:StructureAreaPowerControl} mit einer {THING:ItemBatteryCellLarge} ausrüsten."
+
+#: /Language/Interface/Record[Key='RemoveingFuelCanTask2']
+#, fuzzy
+msgctxt "Interface.RemoveingFuelCanTask2"
+msgid "Place the {THING:ItemGasCanisterFuel} into the yellow {THING:StructureGasTankStorage} found on the floor."
+msgstr "{THING:StructureAreaPowerControl} mit einer {THING:ItemBatteryCellLarge} ausrüsten."
+
+#: /Language/Interface/Record[Key='Valves']
+msgctxt "Interface.Valves"
+msgid "Valves"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ValvesDescription']
+msgctxt "Interface.ValvesDescription"
+msgid "We now need to set up a pipe network for the gas mixing system. Start by placing valves next to each {THING:StructureTankConnector}. This lets you shut off the network from newly attached gas tanks, until we are ready to connect them to the pipe network."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ValvesTask1']
+#, fuzzy
+msgctxt "Interface.ValvesTask1"
+msgid "Get a {THING:ItemPipeValve} from the nearby crate and place it in the highlighted spot."
+msgstr "{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren."
+
+#: /Language/Interface/Record[Key='PipeMeters']
+msgctxt "Interface.PipeMeters"
+msgid "Pipe Meters"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PipeMetersDescription']
+msgctxt "Interface.PipeMetersDescription"
+msgid "{THING:StructurePipeMeter} allow us to see the current pressure inside a pipe network. Place these next to the {THING:ItemPipeValve}. Note that they are placed on top of a pipe, rather than being their own object. Find some in the crate nearby."
+msgstr ""
+
+#: /Language/Interface/Record[Key='PipeMetersTask1']
+#, fuzzy
+msgctxt "Interface.PipeMetersTask1"
+msgid "Place a {THING:StructurePipeMeter} in the highlighted position."
+msgstr "{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren."
+
+#: /Language/Interface/Record[Key='GasMixer']
+msgctxt "Interface.GasMixer"
+msgid "Gas GasMixer"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasMixerDescription']
+msgctxt "Interface.GasMixerDescription"
+msgid "The Gas Mixer allows us to combine two gases at a defined ratio. This lets you create the fuel mix needed for the {THING:ItemWeldingTorch}."
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasMixerTask1']
+#, fuzzy
+msgctxt "Interface.GasMixerTask1"
+msgid "Place the {THING:StructureGasMixer} in the highlighted location."
+msgstr "{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren."
+
+#: /Language/Interface/Record[Key='PressureRegulator']
+msgctxt "Interface.PressureRegulator"
+msgid "The Pressure Regulator"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PressureRegulatorDescription']
+msgctxt "Interface.PressureRegulatorDescription"
+msgid "The {THING:StructurePressureRegulator} is used to regulate pressure inside of a pipe network. This lets you restrict the pressure, ensuring you don't overpressurize a tank. "
+msgstr ""
+
+#: /Language/Interface/Record[Key='PressureRegulatorTask1']
+#, fuzzy
+msgctxt "Interface.PressureRegulatorTask1"
+msgid "Place the {THING:StructurePressureRegulator} in the highlighted position."
+msgstr "{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren."
+
+#: /Language/Interface/Record[Key='ConnectingTanks']
+msgctxt "Interface.ConnectingTanks"
+msgid "Connecting Tanks"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ConnectingTanksDescription']
+msgctxt "Interface.ConnectingTanksDescription"
+msgid "Now connect the Dynamic Tanks to the {THING:StructureTankConnector}. Drag the tank on top of the corresponding {THING:StructureTankConnector}, then use your {THING:ItemWrench} on the Dynamic tank to connect it."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ConnectingTanksTask1']
+msgctxt "Interface.ConnectingTanksTask1"
+msgid "Connect the {THING:DynamicGasCanisterOxygen} to the white Tank Connector."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ConnectingTanksTask2']
+msgctxt "Interface.ConnectingTanksTask2"
+msgid "Connect the {THING:DynamicGasCanisterVolatiles} to the red Tank Connector."
+msgstr ""
+
+#: /Language/Interface/Record[Key='FlipingValves']
+#, fuzzy
+msgctxt "Interface.FlipingValves"
+msgid "Flipping Valves"
+msgstr "Einen Filter ausrüsten"
+
+#: /Language/Interface/Record[Key='FlipingValvesDescription']
+msgctxt "Interface.FlipingValvesDescription"
+msgid "We are now ready to turn on the {THING:StructureValve}. To open the Valve, interact with the lever on the {THING:StructureValve}."
+msgstr ""
+
+#: /Language/Interface/Record[Key='FlipingValvesTask2']
+#, fuzzy
+msgctxt "Interface.FlipingValvesTask2"
+msgid "Open the {THING:StructureValve} on the oxygen network."
+msgstr "{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren."
+
+#: /Language/Interface/Record[Key='FlipingValvesTask1']
+#, fuzzy
+msgctxt "Interface.FlipingValvesTask1"
+msgid "Open the {THING:StructureValve} on the volatiles network."
+msgstr "Den {THING:StructureSolidFuelGenerator} platzieren."
+
+#: /Language/Interface/Record[Key='SettingYourLimit']
+msgctxt "Interface.SettingYourLimit"
+msgid "Setting Your Limit"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingYourLimitDescription']
+msgctxt "Interface.SettingYourLimitDescription"
+msgid "We now need to set the pressure limit on the {THING:StructurePressureRegulator}. Do this by interacting with the wheel on the {THING:StructurePressureRegulator}. Set the pressure to 1950kPa."
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingYourLimitTask1']
+msgctxt "Interface.SettingYourLimitTask1"
+msgid "Set the pressure on the {THING:StructurePressureRegulator} to 1950kPa"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingYourLimitTask2']
+#, fuzzy
+msgctxt "Interface.SettingYourLimitTask2"
+msgid "Turn on the {THING:StructurePressureRegulator}."
+msgstr "Die {THING:StructureAutolathe} einschalten."
+
+#: /Language/Interface/Record[Key='TheGasMix']
+msgctxt "Interface.TheGasMix"
+msgid "The Gas Mix"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TheGasMixDescription']
+msgctxt "Interface.TheGasMixDescription"
+msgid "Now set the gas mix ratio by interacting with the wheel on the {THING:StructureGasMixer}. Turning the wheel to the RIGHT will alter the ratio in favor of the first input. Turning the wheel to the LEFT will alter the ratio in favor of the second input. Use the {KEY:QuantityModifier} key to reduce the increments from 10 to 1."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TheGasMixTask1']
+msgctxt "Interface.TheGasMixTask1"
+msgid "Set the mix ratio to '33' on input one, and '67' on input two."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TheGasMixTask2']
+msgctxt "Interface.TheGasMixTask2"
+msgid "Turn on the Gas Mixer."
+msgstr ""
+
+#: /Language/Interface/Record[Key='RetrievingTheFuelTank']
+msgctxt "Interface.RetrievingTheFuelTank"
+msgid "Retrieving The Fuel Tank"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RetrievingTheFuelTankDescription']
+msgctxt "Interface.RetrievingTheFuelTankDescription"
+msgid "You now have a perfect fuel mix filling your empty {THING:ItemGasCanisterFuel}. Let it fill, then remove it from the {THING:StructureGasTankStorage} and slot it back into the {THING:ItemWeldingTorch}."
+msgstr ""
+
+#: /Language/Interface/Record[Key='RetrievingTheFuelTankTask1']
+#, fuzzy
+msgctxt "Interface.RetrievingTheFuelTankTask1"
+msgid "Take the {THING:ItemGasCanisterFuel} from the {THING:StructureGasTankStorage}."
+msgstr "{THING:StructureAreaPowerControl} mit einer {THING:ItemBatteryCellLarge} ausrüsten."
+
+#: /Language/Interface/Record[Key='RetrievingTheFuelTankTask2']
+#, fuzzy
+msgctxt "Interface.RetrievingTheFuelTankTask2"
+msgid "Place the {THING:ItemGasCanisterFuel} into the {THING:ItemWeldingTorch}."
+msgstr "{THING:StructureAreaPowerControl} mit einer {THING:ItemBatteryCellLarge} ausrüsten."
+
+#: /Language/Interface/Record[Key='TestTheFuelMix']
+msgctxt "Interface.TestTheFuelMix"
+msgid "Testing The Fuel Mix"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TestTheFuelMixDescription']
+msgctxt "Interface.TestTheFuelMixDescription"
+msgid "Now that we have refueled the {THING:ItemGasCanisterFuel}, test it by completing the glass door next to the gas mixing system. You will find the supplies you need beside the wall."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TestTheFuelMixTask1']
+msgctxt "Interface.TestTheFuelMixTask1"
+msgid "Complete construction of the glass door."
+msgstr ""
+
 #, fuzzy
 #~ msgctxt "Interface.AirlockUpgradesTask1"
 #~ msgid "Place another {THING:StructureActiveVent} in the highlighted spot."
