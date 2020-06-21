@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-21 18:58+0000\n"
+"PO-Revision-Date: 2020-06-21 19:03+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3460,7 +3460,7 @@ msgstr "Reemplaza la {THING:ItemGasCanisterOxygen} de nuevo en tu traje."
 #: /Language/Interface/Record[Key='RemoveingFuelCan']
 msgctxt "Interface.RemoveingFuelCan"
 msgid "Removing the Fuel Can"
-msgstr ""
+msgstr "Retirar la lata de combustible"
 
 #: /Language/Interface/Record[Key='RemoveingFuelCanDescription']
 msgctxt "Interface.RemoveingFuelCanDescription"
@@ -3489,6 +3489,8 @@ msgid ""
 "We now need to set up a pipe network for the gas mixing system. Start by placing valves next to each {THING:StructureTankConnector}. This lets you shut off the network from newly attached gas tanks,"
 " until we are ready to connect them to the pipe network."
 msgstr ""
+"Ahora necesitamos establecer una red de tuberías para el sistema de mezcla de gases. Comience colocando válvulas al lado de cada {THING:StructureTankConnector}. Esto le permite cerrar la red desde "
+"tanques de gas recién conectados, hasta que estemos listos para conectarlos a la red de tuberías."
 
 #: /Language/Interface/Record[Key='ValvesTask1']
 msgctxt "Interface.ValvesTask1"
@@ -3498,7 +3500,7 @@ msgstr "Consigue una {THING:ItemPipeValve} del cajón cercano y colócala en el 
 #: /Language/Interface/Record[Key='PipeMeters']
 msgctxt "Interface.PipeMeters"
 msgid "Pipe Meters"
-msgstr ""
+msgstr "Medidores de Tuberías"
 
 #: /Language/Interface/Record[Key='PipeMetersDescription']
 msgctxt "Interface.PipeMetersDescription"
@@ -3506,6 +3508,8 @@ msgid ""
 "{THING:StructurePipeMeter} allow us to see the current pressure inside a pipe network. Place these next to the {THING:ItemPipeValve}. Note that they are placed on top of a pipe, rather than being "
 "their own object. Find some in the crate nearby."
 msgstr ""
+"{THING:StructurePipeMeter} nos permite ver la presión actual dentro de una red de tuberías. Colóquelos al lado de {THING:ItemPipeValve}. Tenga en cuenta que se colocan encima de una tubería, en "
+"lugar de ser su propio objeto. Encuentra algunos en la caja cercana."
 
 #: /Language/Interface/Record[Key='PipeMetersTask1']
 msgctxt "Interface.PipeMetersTask1"
@@ -3515,12 +3519,12 @@ msgstr "Coloca una {THING:StructurePipeMeter} en la posición resaltada."
 #: /Language/Interface/Record[Key='GasMixer']
 msgctxt "Interface.GasMixer"
 msgid "Gas GasMixer"
-msgstr ""
+msgstr "Mezclador de Gas"
 
 #: /Language/Interface/Record[Key='GasMixerDescription']
 msgctxt "Interface.GasMixerDescription"
 msgid "The Gas Mixer allows us to combine two gases at a defined ratio. This lets you create the fuel mix needed for the {THING:ItemWeldingTorch}."
-msgstr ""
+msgstr "El mezclador de gases nos permite combinar dos gases en una proporción definida. Esto le permite crear la mezcla de combustible necesaria para {THING:ItemWeldingTorch}."
 
 #: /Language/Interface/Record[Key='GasMixerTask1']
 msgctxt "Interface.GasMixerTask1"
@@ -3530,12 +3534,12 @@ msgstr "Coloca la {THING:StructureGasMixer} en el lugar resaltado."
 #: /Language/Interface/Record[Key='PressureRegulator']
 msgctxt "Interface.PressureRegulator"
 msgid "The Pressure Regulator"
-msgstr ""
+msgstr "El Regulador de Presión"
 
 #: /Language/Interface/Record[Key='PressureRegulatorDescription']
 msgctxt "Interface.PressureRegulatorDescription"
 msgid "The {THING:StructurePressureRegulator} is used to regulate pressure inside of a pipe network. This lets you restrict the pressure, ensuring you don't overpressurize a tank. "
-msgstr ""
+msgstr "El {THING:StructurePressureRegulator} se usa para regular la presión dentro de una red de tuberías. Esto le permite restringir la presión, asegurando que no sobre presurice un tanque. "
 
 #: /Language/Interface/Record[Key='PressureRegulatorTask1']
 msgctxt "Interface.PressureRegulatorTask1"
@@ -3553,6 +3557,8 @@ msgid ""
 "Now connect the Dynamic Tanks to the {THING:StructureTankConnector}. Drag the tank on top of the corresponding {THING:StructureTankConnector}, then use your {THING:ItemWrench} on the Dynamic tank to"
 " connect it."
 msgstr ""
+"Ahora conecte los tanques dinámicos a {THING:StructureTankConnector}. Arrastre el tanque encima del {THING:StructureTankConnector}, correspondiente, luego use su {THING:ItemWrench} en el tanque "
+"dinámico para conectarlo."
 
 #: /Language/Interface/Record[Key='ConnectingTanksTask1']
 msgctxt "Interface.ConnectingTanksTask1"
@@ -3572,7 +3578,7 @@ msgstr "Válvulas de giro"
 #: /Language/Interface/Record[Key='FlipingValvesDescription']
 msgctxt "Interface.FlipingValvesDescription"
 msgid "We are now ready to turn on the {THING:StructureValve}. To open the Valve, interact with the lever on the {THING:StructureValve}."
-msgstr ""
+msgstr "Ahora estamos listos para activar {THING:StructureValve}. Para abrir la válvula, interactúe con la palanca en {THING:StructureValve}."
 
 #: /Language/Interface/Record[Key='FlipingValvesTask2']
 msgctxt "Interface.FlipingValvesTask2"
@@ -3593,6 +3599,8 @@ msgstr "Estableciendo su límite"
 msgctxt "Interface.SettingYourLimitDescription"
 msgid "We now need to set the pressure limit on the {THING:StructurePressureRegulator}. Do this by interacting with the wheel on the {THING:StructurePressureRegulator}. Set the pressure to 1950kPa."
 msgstr ""
+"Ahora necesitamos establecer el límite de presión en el {THING:StructurePressureRegulator}. Haga esto interactuando con la rueda en {THING:StructurePressureRegulator}. Establezca la presión en "
+"1950kPa."
 
 #: /Language/Interface/Record[Key='SettingYourLimitTask1']
 msgctxt "Interface.SettingYourLimitTask1"
@@ -3615,11 +3623,13 @@ msgid ""
 "Now set the gas mix ratio by interacting with the wheel on the {THING:StructureGasMixer}. Turning the wheel to the RIGHT will alter the ratio in favor of the first input. Turning the wheel to the "
 "LEFT will alter the ratio in favor of the second input. Use the {KEY:QuantityModifier} key to reduce the increments from 10 to 1."
 msgstr ""
+"Ahora configure la proporción de mezcla de gases interactuando con la rueda en el {THING:StructureGasMixer}. Girar la rueda a la DERECHA alterará la relación a favor de la primera entrada. Girar la "
+"rueda hacia la IZQUIERDA alterará la relación a favor de la segunda entrada. Use la tecla {KEY:QuantityModifier} para reducir los incrementos de 10 a 1."
 
 #: /Language/Interface/Record[Key='TheGasMixTask1']
 msgctxt "Interface.TheGasMixTask1"
 msgid "Set the mix ratio to '33' on input one, and '67' on input two."
-msgstr ""
+msgstr "Establezca la relación de mezcla en '33' en la entrada uno y '67' en la entrada dos."
 
 #: /Language/Interface/Record[Key='TheGasMixTask2']
 msgctxt "Interface.TheGasMixTask2"
@@ -3629,7 +3639,7 @@ msgstr "Enciende el mezclador de gas."
 #: /Language/Interface/Record[Key='RetrievingTheFuelTank']
 msgctxt "Interface.RetrievingTheFuelTank"
 msgid "Retrieving The Fuel Tank"
-msgstr ""
+msgstr "Recuperando el Tanque de Combustible"
 
 #: /Language/Interface/Record[Key='RetrievingTheFuelTankDescription']
 msgctxt "Interface.RetrievingTheFuelTankDescription"
@@ -3637,6 +3647,8 @@ msgid ""
 "You now have a perfect fuel mix filling your empty {THING:ItemGasCanisterFuel}. Let it fill, then remove it from the {THING:StructureGasTankStorage} and slot it back into the "
 "{THING:ItemWeldingTorch}."
 msgstr ""
+"Ahora tiene una mezcla de combustible perfecta para llenar su {THING:ItemGasCanisterFuel} vacío. Deje que se llene, luego retírelo de {THING:StructureGasTankStorage} y vuelva a colocarlo en el "
+"{THING:ItemWeldingTorch}."
 
 #: /Language/Interface/Record[Key='RetrievingTheFuelTankTask1']
 msgctxt "Interface.RetrievingTheFuelTankTask1"
@@ -3651,17 +3663,19 @@ msgstr "Coloca la {THING:ItemGasCanisterFuel} en la {THING:ItemWeldingTorch}."
 #: /Language/Interface/Record[Key='TestTheFuelMix']
 msgctxt "Interface.TestTheFuelMix"
 msgid "Testing The Fuel Mix"
-msgstr ""
+msgstr "Probando la mezcla de Combustible"
 
 #: /Language/Interface/Record[Key='TestTheFuelMixDescription']
 msgctxt "Interface.TestTheFuelMixDescription"
 msgid "Now that we have refueled the {THING:ItemGasCanisterFuel}, test it by completing the glass door next to the gas mixing system. You will find the supplies you need beside the wall."
 msgstr ""
+"Ahora que hemos reabastecido el combustible de {THING:ItemGasCanisterFuel}, pruébelo completando la puerta de vidrio al lado del sistema de mezcla de gases. Encontrarás los suministros que necesitas"
+" al lado de la pared."
 
 #: /Language/Interface/Record[Key='TestTheFuelMixTask1']
 msgctxt "Interface.TestTheFuelMixTask1"
 msgid "Complete construction of the glass door."
-msgstr ""
+msgstr "Completa la construcción de la puerta de cristal."
 
 #~ msgctxt "Interface.TutorialUIBasics"
 #~ msgid "#1 Basic UI"
