@@ -2577,6 +2577,383 @@ msgctxt "Interface.ItemsUnlocked2"
 msgid "Print a {THING:CircuitboardAirControl} on the {THING:StructureElectronicsPrinter}."
 msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
 
+#: /Language/Interface/Record[Key='Tutorial-BaicSmelting']
+msgctxt "Interface.Tutorial-BaicSmelting"
+msgid "Basic Smelting"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Tutorial-BaicSmeltingDescription']
+msgctxt "Interface.Tutorial-BaicSmeltingDescription"
+msgid "Smelt advanced metals and alloys"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasSensors']
+msgctxt "Interface.GasSensors"
+msgid "Gas Sensors"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasSensorsDescription']
+msgctxt "Interface.GasSensorsDescription"
+msgid ""
+"Welcome back Cadet! Let's get smelting. \n"
+"\n"
+"The {THING:StructureFurnace} is used to smelt ores into ingots and alloys. Use these to create new and advanced technologies. \n"
+"\n"
+"Your first task is to set up a Gas Sensor display to monitor the conditions inside the {THING:StructureFurnace}. You can display pressure or temperature, to get live updates on what's happening.\n"
+"    \n"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GasSensorsTask1']
+#, fuzzy
+msgctxt "Interface.GasSensorsTask1"
+msgid "Pick up the {THING:CircuitboardGasDisplay} from the red crate."
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='GasSensorsTask2']
+#, fuzzy
+msgctxt "Interface.GasSensorsTask2"
+msgid "Insert the {THING:CircuitboardGasDisplay) into the empty {THING:StructureConsole} on the wall behind the {THING:StructureFurnace}."
+msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+
+#: /Language/Interface/Record[Key='GasSensorsTask3']
+#, fuzzy
+msgctxt "Interface.GasSensorsTask3"
+msgid "Pick up the {THING:ItemGlassSheets} from the red crate. "
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='GasSensorsTask4']
+#, fuzzy
+msgctxt "Interface.GasSensorsTask4"
+msgid "Install the {THING:ItemGlassSheets} on the {THING:StructureConsole}."
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='ConfigureGasSensor']
+msgctxt "Interface.ConfigureGasSensor"
+msgid "Configure Gas Sensor"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ConfigureGasSensorDescription']
+msgctxt "Interface.ConfigureGasSensorDescription"
+msgid ""
+"You can now turn on and configure the {THING:StructureConsole}. The {THING:StructureConsole} on the right will display pressure, so this console will need to display temperature. After turning on the console and inserting the {THING:ItemDataDisk}, toggle the mode to 'Temperature' by clicking on the 'Pressure' option.\n"
+"\n"
+"Now select the {THING:StructureFurnace} as the input device for the console. Scroll down until you see {THING:StructureFurnace} and select it. \n"
+"    "
+msgstr ""
+
+#: /Language/Interface/Record[Key='ConfigureGasSensorTask1']
+#, fuzzy
+msgctxt "Interface.ConfigureGasSensorTask1"
+msgid "Turn on the {THING:StructureConsole}"
+msgstr "{THING:StructureBench}에 내려놓으세요."
+
+#: /Language/Interface/Record[Key='ConfigureGasSensorTask2']
+#, fuzzy
+msgctxt "Interface.ConfigureGasSensorTask2"
+msgid "Insert the {THING:ItemDataDisk} into the {THING:StructureConsole}"
+msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+
+#: /Language/Interface/Record[Key='ConfigureGasSensorTask3']
+msgctxt "Interface.ConfigureGasSensorTask3"
+msgid "Select the {THING:StructureFurnace} as the input device on the {THING:StructureConsole}, and change the mode to 'Temperature'."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ConfigureGasSensorTask4']
+#, fuzzy
+msgctxt "Interface.ConfigureGasSensorTask4"
+msgid "Remove the data disk from the {THING:StructureConsole}."
+msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+
+#: /Language/Interface/Record[Key='HowToMakeSteel']
+msgctxt "Interface.HowToMakeSteel"
+msgid "How To Make Steel"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HowToMakeSteelDescription']
+msgctxt "Interface.HowToMakeSteelDescription"
+msgid ""
+"To find the recipe for steel, open the Stationpedia with the {KeyCode:Help} key. Navigate to the 'Items' section and click on the 'Alloys' link while holding the {KeyCode:MouseControl} key. On the 'Alloys' page, click on the 'Ingot (steel)' link while holding the {KeyCode:MouseControl} key.\n"
+"\n"
+"As you can see, you need three parts {THING:ItemIronOre} to one part Carbon or {THING:ItemCoalOre}. These must be combined at a minimum temperature of 600K and a minimum pressure of 100.0kPa.\n"
+"    "
+msgstr ""
+
+#: /Language/Interface/Record[Key='HowToMakeSteelTask1']
+msgctxt "Interface.HowToMakeSteelTask1"
+msgid "Open the Stationpedia"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HowToMakeSteelTask2']
+msgctxt "Interface.HowToMakeSteelTask2"
+msgid "Navigate to the 'Ingot (steel)' page"
+msgstr ""
+
+#: /Language/Interface/Record[Key='IgnitingTheFurnace']
+msgctxt "Interface.IgnitingTheFurnace"
+msgid "Igniting The Furnace"
+msgstr ""
+
+#: /Language/Interface/Record[Key='IgnitingTheFurnaceDescription']
+msgctxt "Interface.IgnitingTheFurnaceDescription"
+msgid ""
+"To create steel, the {THING:StructureFurnace} must achieve the minimum required pressure and temperature. You can do this either by adding volatiles and oxite ice directly to the furnace, or by providing a fuel mix.\n"
+"\n"
+"The first method uses two parts volitiles and one part oxite. Be careful not overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may overpressure the furnace and cause a devastating explosion.\n"
+"    "
+msgstr ""
+
+#: /Language/Interface/Record[Key='IgnitingTheFurnaceTask1']
+#, fuzzy
+msgctxt "Interface.IgnitingTheFurnaceTask1"
+msgid "Pick up the {THING:ItemVolatiles} from the red crate"
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='IgnitingTheFurnaceTask2']
+#, fuzzy
+msgctxt "Interface.IgnitingTheFurnaceTask2"
+msgid "Insert the {THING:ItemVolatiles} into the {THING:StructureFurnace}"
+msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+
+#: /Language/Interface/Record[Key='IgnitingTheFurnaceTask3']
+#, fuzzy
+msgctxt "Interface.IgnitingTheFurnaceTask3"
+msgid "Press the red 'activate' button on the {THING:StructureFurnace}"
+msgstr "{THING:StructureBench}에 내려놓으세요."
+
+#: /Language/Interface/Record[Key='IgnitingTheFurnaceTask4']
+#, fuzzy
+msgctxt "Interface.IgnitingTheFurnaceTask4"
+msgid "Pick up the {THING:ItemOxite} from the red crate"
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='IgnitingTheFurnaceTask5']
+#, fuzzy
+msgctxt "Interface.IgnitingTheFurnaceTask5"
+msgid "Insert the {THING:ItemOxite} into the {THING:StructureFurnace}"
+msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+
+#: /Language/Interface/Record[Key='IgnitingTheFurnaceTask6']
+#, fuzzy
+msgctxt "Interface.IgnitingTheFurnaceTask6"
+msgid "Press the red 'activate' button on the {THING:StructureFurnace}"
+msgstr "{THING:StructureBench}에 내려놓으세요."
+
+#: /Language/Interface/Record[Key='SmeltingIron']
+msgctxt "Interface.SmeltingIron"
+msgid "Smelting Iron"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SmeltingIronDescription']
+msgctxt "Interface.SmeltingIronDescription"
+msgid ""
+"Like the {THING:StructureArcFurnace}, you can smelt ores in the {THING:StructureFurnace}, but you can also add other ores. These alter the composition of the metals, creating new alloys. If you get the mix wrong you'll simply generate a {THING:ItemReagentMix}.\n"
+"\n"
+"Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace}.\n"
+"    "
+msgstr ""
+
+#: /Language/Interface/Record[Key='SmeltingIronTask1']
+#, fuzzy
+msgctxt "Interface.SmeltingIronTask1"
+msgid "Pick up {THING:ItemIronOre} from the red crate"
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='SmeltingIronTask2']
+#, fuzzy
+msgctxt "Interface.SmeltingIronTask2"
+msgid "Put the {THING:ItemIronOre} in the {THING:StructureFurnace}"
+msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+
+#: /Language/Interface/Record[Key='MakingAnAlloy']
+msgctxt "Interface.MakingAnAlloy"
+msgid "Making An Alloy"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MakingAnAlloyDescription']
+msgctxt "Interface.MakingAnAlloyDescription"
+msgid "You can now turn the molten iron into steel. To do this, add one part {THING:ItemCoalOre} to the mix."
+msgstr ""
+
+#: /Language/Interface/Record[Key='MakingAnAlloyTask1']
+#, fuzzy
+msgctxt "Interface.MakingAnAlloyTask1"
+msgid "Pick up the {THING:ItemCoalOre} from the red crate"
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='MakingAnAlloyTask2']
+#, fuzzy
+msgctxt "Interface.MakingAnAlloyTask2"
+msgid "Put the {THING:ItemCoalOre} into the {THING:StructureFurnace}"
+msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+
+#: /Language/Interface/Record[Key='FromingTheIngot']
+msgctxt "Interface.FromingTheIngot"
+msgid "Forming the Ingot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='FromingTheIngotDescription']
+msgctxt "Interface.FromingTheIngotDescription"
+msgid "Use the ingot release lever to open the {THING:StructureFurnace} and get the newly made {THING:ItemSteelIngot}. This will provide you with half of the required steel to make a {THING:ItemKitBattery}. "
+msgstr ""
+
+#: /Language/Interface/Record[Key='FromingTheIngotTask1']
+#, fuzzy
+msgctxt "Interface.FromingTheIngotTask1"
+msgid "Pull the ingot release lever on the {THING:StructureFurnace}"
+msgstr "{THING:StructureBench}에 내려놓으세요."
+
+#: /Language/Interface/Record[Key='FromingTheIngotTask2']
+#, fuzzy
+msgctxt "Interface.FromingTheIngotTask2"
+msgid "Pick up the {THING:ItemSteelIngot}"
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='FromingTheIngotTask3']
+#, fuzzy
+msgctxt "Interface.FromingTheIngotTask3"
+msgid "Insert the {THING:ItemSteelIngot} into the {THING:StructureElectronicsPrinter}"
+msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+
+#: /Language/Interface/Record[Key='VentingTheGases']
+msgctxt "Interface.VentingTheGases"
+msgid "Venting The Gases"
+msgstr ""
+
+#: /Language/Interface/Record[Key='VentingTheGasesDescription']
+msgctxt "Interface.VentingTheGasesDescription"
+msgid "The {THING:StructureFurnace} is currently filled with highly pressurized toxic gas. You can vent it directly into the atmosphere or cool, filter and recycle the gases for the future use. The output pipe is connected to a {THING:StructureValve} which prevents the gases from escaping too soon. The pipe is also equipped with a {THING:StructureVolumePump} that allows venting of gases quickly."
+msgstr ""
+
+#: /Language/Interface/Record[Key='VentingTheGasesTask1']
+#, fuzzy
+msgctxt "Interface.VentingTheGasesTask1"
+msgid "Open the output {THING:StructureValve}"
+msgstr "{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다."
+
+#: /Language/Interface/Record[Key='VentingTheGasesTask2']
+#, fuzzy
+msgctxt "Interface.VentingTheGasesTask2"
+msgid "Turn on the {THING:StructureVolumePump}"
+msgstr "{THING:StructureBench}에 내려놓으세요."
+
+#: /Language/Interface/Record[Key='VentingTheGasesTask3']
+msgctxt "Interface.VentingTheGasesTask3"
+msgid "Wait for the internal pressure in the {THING:StructureFurnace} to drop to 2kPa on the left display console. "
+msgstr ""
+
+#: /Language/Interface/Record[Key='VentingTheGasesDescription2']
+msgctxt "Interface.VentingTheGasesDescription2"
+msgid "Now that the gases have been vented, close the {THING:StructureValve} and turn off the {THING:StructureVolumePump}."
+msgstr ""
+
+#: /Language/Interface/Record[Key='VentingTheGasesTask4']
+#, fuzzy
+msgctxt "Interface.VentingTheGasesTask4"
+msgid "Close the {THING:StructureValve}"
+msgstr "{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다."
+
+#: /Language/Interface/Record[Key='VentingTheGasesTask5']
+#, fuzzy
+msgctxt "Interface.VentingTheGasesTask5"
+msgid "Turn off the {THING:StructureValve}"
+msgstr "{THING:StructureBench}에 내려놓으세요."
+
+#: /Language/Interface/Record[Key='AddingFuelMix']
+msgctxt "Interface.AddingFuelMix"
+msgid "Adding Fuel Mix"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AddingFuelMixDescription']
+msgctxt "Interface.AddingFuelMixDescription"
+msgid ""
+"Now that the {THING:StructureFurnace} is empty, we can refill it an alternative way. Rather than putting the volatiles and oxite mix directly into it, we will be piping a pre-prepared fuel mix into the {THING:StructureFurnace} input pipe.  \n"
+"\n"
+"The ideal fuel mix for the {THING:StructureFurnace} is a blend of 75% volatiles and 25% oxygen.\n"
+"\n"
+"Make sure to close the ingot release lever before refilling!\n"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AddingFuelMixTask1']
+msgctxt "Interface.AddingFuelMixTask1"
+msgid "Open the input valve on the right side of the {THING:StructureFurnace}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AddingFuelMixTask3']
+msgctxt "Interface.AddingFuelMixTask3"
+msgid "Wait for the internal pressure of the {THING:StructureFurnace} to reach 100kPa"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AddingFuelMixTask4']
+msgctxt "Interface.AddingFuelMixTask4"
+msgid "Quickly shut off the input valve - too much fuel mix could cause an explosion "
+msgstr ""
+
+#: /Language/Interface/Record[Key='AddingFuelMixTask5']
+#, fuzzy
+msgctxt "Interface.AddingFuelMixTask5"
+msgid "Press the 'activate' button on the {THING:StructureFurnace}"
+msgstr "{THING:StructureBench}에 내려놓으세요."
+
+#: /Language/Interface/Record[Key='NewAlloy']
+msgctxt "Interface.NewAlloy"
+msgid "New Alloy"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NewAlloyDescription']
+msgctxt "Interface.NewAlloyDescription"
+msgid "Let's make another batch of steel. Just like last time we need to add three parts Iron and one part Coal. You can find more {THING:ItemIronOre} and {THING:ItemCoalOre} in the orange crate, which is now open."
+msgstr ""
+
+#: /Language/Interface/Record[Key='NewAlloyTask1']
+#, fuzzy
+msgctxt "Interface.NewAlloyTask1"
+msgid "Place {THING:ItemIronOre} into the furnace"
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='NewAlloyTask2']
+#, fuzzy
+msgctxt "Interface.NewAlloyTask2"
+msgid "Place {THING:ItemCoalOre} into the furnace"
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='NewAlloyTask3']
+#, fuzzy
+msgctxt "Interface.NewAlloyTask3"
+msgid " Open the {THING:StructureFurnace} and remove the steel"
+msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+
+#: /Language/Interface/Record[Key='WhatASteel']
+msgctxt "Interface.WhatASteel"
+msgid "What a Steel"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WhatASteelDescription']
+msgctxt "Interface.WhatASteelDescription"
+msgid ""
+"We now have enough steel to create the {THING:ItemKitBattery}. The {THING:ItemKitBattery} can store large amounts of energy for your station.\n"
+"\n"
+"    Use the {THING:StructureElectronicsPrinter} to print the battery kit.\n"
+"    "
+msgstr ""
+
+#: /Language/Interface/Record[Key='WhatASteelTask1']
+#, fuzzy
+msgctxt "Interface.WhatASteelTask1"
+msgid "Pick up the {THING:ItemSteelIngot}"
+msgstr "{THING:ItemTablet} 들기"
+
+#: /Language/Interface/Record[Key='WhatASteelTask2']
+#, fuzzy
+msgctxt "Interface.WhatASteelTask2"
+msgid "Insert the {THING:ItemSteelIngot} into the {THING:StructureElectronicsPrinter}"
+msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+
+#: /Language/Interface/Record[Key='WhatASteelTask3']
+#, fuzzy
+msgctxt "Interface.WhatASteelTask3"
+msgid "Turn on the {THING:StructureElectronicsPrinter}, look up {THING:ItemKitBattery}, and print it."
+msgstr "{THING:StructureBench}에 내려놓으세요."
+
 #: /Language/Interface/Record[Key='Tutorial10-CircuitLogicSolarTracking']
 msgctxt "Interface.Tutorial10-CircuitLogicSolarTracking"
 msgid "#10 ADV Circuit Logic - Solar Tracking"
@@ -3554,11 +3931,6 @@ msgstr ""
 #, fuzzy
 #~ msgctxt "Interface.AdvancedPressureTask1"
 #~ msgid "Remove the {THING:ItemGlassSheets}."
-#~ msgstr "{THING:ItemTablet} 들기"
-
-#, fuzzy
-#~ msgctxt "Interface.FakePlasticTask2"
-#~ msgid "Pick up {THING:ItemSiliconIngot}"
 #~ msgstr "{THING:ItemTablet} 들기"
 
 #, fuzzy
