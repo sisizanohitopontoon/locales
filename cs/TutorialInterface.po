@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-07-13 10:10+0000\n"
+"PO-Revision-Date: 2020-07-13 10:16+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2788,6 +2788,10 @@ msgid ""
 "The first method uses two parts volitiles and one part oxite. Be careful not overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may overpressure the furnace and cause a devastating explosion.\n"
 "    "
 msgstr ""
+"Chcete-li vytvořit ocel, musí {THING:StructureFurnace} dosáhnout minimálního požadovaného tlaku a teploty. Můžete to udělat buď přidáním těkavých látek a oxidového ledu přímo do pece, nebo poskytnutím palivové směsi.\n"
+"\n"
+"První metoda používá dvě části těkavé látky a jeden díl oxidu. Dávejte pozor, abyste nepřetížili {THING:StructureFurnace}, protože přidání příliš mnoho oxidů nebo těkavých látek může přetlakovat pec a způsobit ničivou explozi.\n"
+"    "
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask1']
 msgctxt "Interface.IgnitingTheFurnaceTask1"
@@ -2832,6 +2836,10 @@ msgid ""
 "Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace}.\n"
 "    "
 msgstr ""
+"Stejně jako {THING:StructureArcFurnace}, můžete roztavit rudy v {THING:StructureFurnace}, ale můžete také přidat další rudy. Ty mění složení kovů a vytvářejí nové slitiny. Pokud se vám směs nepodaří, jednoduše vygenerujete {THING:ItemReagentMix}.\n"
+"\n"
+"Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurnace}.\n"
+"    "
 
 #: /Language/Interface/Record[Key='SmeltingIronTask1']
 msgctxt "Interface.SmeltingIronTask1"
@@ -2846,7 +2854,7 @@ msgstr "Vložte {THING:ItemIronOre} do {THING:StructureFurnace}"
 #: /Language/Interface/Record[Key='MakingAnAlloy']
 msgctxt "Interface.MakingAnAlloy"
 msgid "Making An Alloy"
-msgstr ""
+msgstr "Výroba slitiny"
 
 #: /Language/Interface/Record[Key='MakingAnAlloyDescription']
 msgctxt "Interface.MakingAnAlloyDescription"
