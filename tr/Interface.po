@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Öldün."
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Yeniden Canlan"
+
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "Gölge Mesafesi"
 
 #: /Language/Interface/Record[Key='SettingsShadowResolution']
 msgctxt "Interface.SettingsShadowResolution"
@@ -45,15 +50,15 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "Tanecik Kalitesi"
 
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "Pes Et"
+
 #: /Language/Interface/Record[Key='SettingsTextureQuality']
 msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
 msgstr "Doku Kalitesi"
-
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Yeniden Canlan"
 
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
@@ -552,11 +557,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "DEVAM ET"
 
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "Gölge Mesafesi"
-
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
 msgid "Environmental Elements"
@@ -908,10 +908,10 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountMissingSupport"
 msgid "Placement requires support"
 msgstr "Yerleştirme ızgaraya takılır."
 
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
-msgstr "Uranyum"
+#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
+msgctxt "Interface.ElectronicReaderHydrocarbon"
+msgid "Hydrocarbon"
+msgstr "Hidrokarbon"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedDynamic']
 msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedDynamic"
@@ -1058,10 +1058,10 @@ msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr "Üstüne Yaz"
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "Pes Et"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Var olan kaydedilmiş dünyanın üstüne yazmak istediğine emin misin?"
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
@@ -1136,11 +1136,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Kaydetmek için bir dünya ismi girmeniz gerekir."
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Var olan kaydedilmiş dünyanın üstüne yazmak istediğine emin misin?"
-
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
 msgid "Overwrite"
@@ -1195,6 +1190,16 @@ msgstr "Hata Ayıklamayı Yükle"
 msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "Yeniden Canlan"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Öldün."
+
+#: /Language/Interface/Record[Key='holdhotkey']
+msgctxt "Interface.holdhotkey"
+msgid "(hold)"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PlantToxic']
 #, fuzzy
@@ -2407,10 +2412,10 @@ msgctxt "Interface.ElectronicReaderSilver"
 msgid "Silver"
 msgstr "Gümüş"
 
-#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
-msgctxt "Interface.ElectronicReaderHydrocarbon"
-msgid "Hydrocarbon"
-msgstr "Hidrokarbon"
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr "Uranyum"
 
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
 msgctxt "Interface.ElectronicReaderSteel"
@@ -2618,15 +2623,15 @@ msgctxt "Interface.DifficultyField"
 msgid "Difficulty"
 msgstr "Zorluk"
 
-#: /Language/Interface/Record[Key='RespawnConditionsField']
-msgctxt "Interface.RespawnConditionsField"
-msgid "Respawn Condition"
-msgstr "Yeniden Doğma Koşulu"
-
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Lütfen Bekleyin..."
+
+#: /Language/Interface/Record[Key='TerrainFeaturesField']
+msgctxt "Interface.TerrainFeaturesField"
+msgid "Terrain Features"
+msgstr "Arazi Özellikleri"
 
 #: /Language/Interface/Record[Key='LevelLevelField']
 msgctxt "Interface.LevelLevelField"
@@ -3659,15 +3664,15 @@ msgctxt "Interface.SettingsClouds"
 msgid "Enable Clouds"
 msgstr "Bulutları Etkinleştir"
 
-#: /Language/Interface/Record[Key='SettingsEnableClouds']
-msgctxt "Interface.SettingsEnableClouds"
-msgid "Enable Clouds"
-msgstr "Bulutları Etkinleştir"
-
 #: /Language/Interface/Record[Key='Space']
 msgctxt "Interface.Space"
 msgid "Asteroid Belt"
 msgstr "Asteroit Kuşağı"
+
+#: /Language/Interface/Record[Key='SettingsEnableClouds']
+msgctxt "Interface.SettingsEnableClouds"
+msgid "Enable Clouds"
+msgstr "Bulutları Etkinleştir"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
@@ -4424,10 +4429,10 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Daha fazla {0} gerekir</color>."
 
-#: /Language/Interface/Record[Key='TerrainFeaturesField']
-msgctxt "Interface.TerrainFeaturesField"
-msgid "Terrain Features"
-msgstr "Arazi Özellikleri"
+#: /Language/Interface/Record[Key='RespawnConditionsField']
+msgctxt "Interface.RespawnConditionsField"
+msgid "Respawn Condition"
+msgstr "Yeniden Doğma Koşulu"
 
 #: /Language/Interface/Record[Key='AlertTitleAttention']
 msgctxt "Interface.AlertTitleAttention"

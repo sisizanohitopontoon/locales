@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "死んでしまった。"
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "リスポーン"
+
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "影の距離"
 
 #: /Language/Interface/Record[Key='SettingsShadowResolution']
 msgctxt "Interface.SettingsShadowResolution"
@@ -45,15 +50,15 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "パーティクルクオリティ"
 
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "ギブアップ"
+
 #: /Language/Interface/Record[Key='SettingsTextureQuality']
 msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
 msgstr "テクスチャクオリティ"
-
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "リスポーン"
 
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
@@ -551,11 +556,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
 
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "影の距離"
-
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
 msgid "Environmental Elements"
@@ -902,9 +902,9 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountMissingSupport"
 msgid "Placement requires support"
 msgstr "配置にはサポートが必要"
 
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
+#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
+msgctxt "Interface.ElectronicReaderHydrocarbon"
+msgid "Hydrocarbon"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedDynamic']
@@ -1052,10 +1052,10 @@ msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr "上書き"
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "ギブアップ"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "既存のワールドを上書きしてよろしいですか？"
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
@@ -1130,11 +1130,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "ワールド名無しでセーブは出来ません。"
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "既存のワールドを上書きしてよろしいですか？"
-
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
 msgid "Overwrite"
@@ -1189,6 +1184,16 @@ msgstr "デバッグロード"
 msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "リスポーン"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "死んでしまった。"
+
+#: /Language/Interface/Record[Key='holdhotkey']
+msgctxt "Interface.holdhotkey"
+msgid "(hold)"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PlantToxic']
 msgctxt "Interface.PlantToxic"
@@ -2387,9 +2392,9 @@ msgctxt "Interface.ElectronicReaderSilver"
 msgid "Silver"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
-msgctxt "Interface.ElectronicReaderHydrocarbon"
-msgid "Hydrocarbon"
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
@@ -2597,15 +2602,15 @@ msgctxt "Interface.DifficultyField"
 msgid "Difficulty"
 msgstr "ゲームの難易度"
 
-#: /Language/Interface/Record[Key='RespawnConditionsField']
-msgctxt "Interface.RespawnConditionsField"
-msgid "Respawn Condition"
-msgstr "リスポーン条件"
-
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "お待ちください…"
+
+#: /Language/Interface/Record[Key='TerrainFeaturesField']
+msgctxt "Interface.TerrainFeaturesField"
+msgid "Terrain Features"
+msgstr "地形の特徴"
 
 #: /Language/Interface/Record[Key='LevelLevelField']
 msgctxt "Interface.LevelLevelField"
@@ -3638,15 +3643,15 @@ msgctxt "Interface.SettingsClouds"
 msgid "Enable Clouds"
 msgstr "雲を有効にする"
 
-#: /Language/Interface/Record[Key='SettingsEnableClouds']
-msgctxt "Interface.SettingsEnableClouds"
-msgid "Enable Clouds"
-msgstr "雲を有効にする"
-
 #: /Language/Interface/Record[Key='Space']
 msgctxt "Interface.Space"
 msgid "Asteroid Belt"
 msgstr "小惑星帯"
+
+#: /Language/Interface/Record[Key='SettingsEnableClouds']
+msgctxt "Interface.SettingsEnableClouds"
+msgid "Enable Clouds"
+msgstr "雲を有効にする"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
@@ -4381,10 +4386,10 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>{0}足りない</color>."
 
-#: /Language/Interface/Record[Key='TerrainFeaturesField']
-msgctxt "Interface.TerrainFeaturesField"
-msgid "Terrain Features"
-msgstr "地形の特徴"
+#: /Language/Interface/Record[Key='RespawnConditionsField']
+msgctxt "Interface.RespawnConditionsField"
+msgid "Respawn Condition"
+msgstr "リスポーン条件"
 
 #: /Language/Interface/Record[Key='AlertTitleAttention']
 msgctxt "Interface.AlertTitleAttention"

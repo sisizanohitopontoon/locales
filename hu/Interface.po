@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Halott vagy."
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Újraéledés"
+
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "Árnyék távolsága"
 
 #: /Language/Interface/Record[Key='SettingsShadowResolution']
 msgctxt "Interface.SettingsShadowResolution"
@@ -45,15 +50,15 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "Részecskék minősége"
 
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr "Feladás"
+
 #: /Language/Interface/Record[Key='SettingsTextureQuality']
 msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
 msgstr "Textúra minősége"
-
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Újraéledés"
 
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
@@ -551,11 +556,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
 
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "Árnyék távolsága"
-
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
 msgid "Environmental Elements"
@@ -903,10 +903,10 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountMissingSupport"
 msgid "Placement requires support"
 msgstr "Az elhelyezés rácshoz van igazítva."
 
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
-msgstr "Urán"
+#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
+msgctxt "Interface.ElectronicReaderHydrocarbon"
+msgid "Hydrocarbon"
+msgstr "Szénhidrogén"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedDynamic']
 msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedDynamic"
@@ -1053,10 +1053,10 @@ msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr "Felülírás"
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
-msgstr "Feladás"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Biztos vagy benne, hogy felülírod a mentett világot?"
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
 msgctxt "Interface.PromptGiveUpBody"
@@ -1129,11 +1129,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Be kell írnod egy nevet a mentéshez."
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Biztos vagy benne, hogy felülírod a mentett világot?"
-
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
 msgid "Overwrite"
@@ -1188,6 +1183,16 @@ msgstr "Híbakereső betöltés"
 msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "Újraéledés"
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Halott vagy."
+
+#: /Language/Interface/Record[Key='holdhotkey']
+msgctxt "Interface.holdhotkey"
+msgid "(hold)"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PlantToxic']
 #, fuzzy
@@ -2424,10 +2429,10 @@ msgctxt "Interface.ElectronicReaderSilver"
 msgid "Silver"
 msgstr "Ezüst"
 
-#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
-msgctxt "Interface.ElectronicReaderHydrocarbon"
-msgid "Hydrocarbon"
-msgstr "Szénhidrogén"
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr "Urán"
 
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
 msgctxt "Interface.ElectronicReaderSteel"
@@ -2635,15 +2640,15 @@ msgctxt "Interface.DifficultyField"
 msgid "Difficulty"
 msgstr "Nehézség"
 
-#: /Language/Interface/Record[Key='RespawnConditionsField']
-msgctxt "Interface.RespawnConditionsField"
-msgid "Respawn Condition"
-msgstr "Újraéledési állapot"
-
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Kérjük várj..."
+
+#: /Language/Interface/Record[Key='TerrainFeaturesField']
+msgctxt "Interface.TerrainFeaturesField"
+msgid "Terrain Features"
+msgstr "Terep jellegek"
 
 #: /Language/Interface/Record[Key='LevelLevelField']
 msgctxt "Interface.LevelLevelField"
@@ -3676,15 +3681,15 @@ msgctxt "Interface.SettingsClouds"
 msgid "Enable Clouds"
 msgstr "Felhők engedélyezése"
 
-#: /Language/Interface/Record[Key='SettingsEnableClouds']
-msgctxt "Interface.SettingsEnableClouds"
-msgid "Enable Clouds"
-msgstr "Felhők engedélyezése"
-
 #: /Language/Interface/Record[Key='Space']
 msgctxt "Interface.Space"
 msgid "Asteroid Belt"
 msgstr "Aszteroidaöv"
+
+#: /Language/Interface/Record[Key='SettingsEnableClouds']
+msgctxt "Interface.SettingsEnableClouds"
+msgid "Enable Clouds"
+msgstr "Felhők engedélyezése"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
@@ -4438,10 +4443,10 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Több {0} szükséges</color>."
 
-#: /Language/Interface/Record[Key='TerrainFeaturesField']
-msgctxt "Interface.TerrainFeaturesField"
-msgid "Terrain Features"
-msgstr "Terep jellegek"
+#: /Language/Interface/Record[Key='RespawnConditionsField']
+msgctxt "Interface.RespawnConditionsField"
+msgid "Respawn Condition"
+msgstr "Újraéledési állapot"
 
 #: /Language/Interface/Record[Key='AlertTitleAttention']
 msgctxt "Interface.AlertTitleAttention"

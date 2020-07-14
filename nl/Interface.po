@@ -6,9 +6,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsShadowResolution']
@@ -41,14 +46,14 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr ""
 
+#: /Language/Interface/Record[Key='PromptGiveUpTitle']
+msgctxt "Interface.PromptGiveUpTitle"
+msgid "Give Up"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsTextureQuality']
 msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
@@ -546,11 +551,6 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
 msgid "Environmental Elements"
@@ -889,9 +889,9 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountMissingSupport"
 msgid "Placement requires support"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
+#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
+msgctxt "Interface.ElectronicReaderHydrocarbon"
+msgid "Hydrocarbon"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedDynamic']
@@ -1039,9 +1039,9 @@ msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptGiveUpTitle']
-msgctxt "Interface.PromptGiveUpTitle"
-msgid "Give Up"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PromptGiveUpBody']
@@ -1113,11 +1113,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr ""
-
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
 msgid "Overwrite"
@@ -1171,6 +1166,16 @@ msgstr ""
 #: /Language/Interface/Record[Key='PromptRespawnTitle']
 msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr ""
+
+#: /Language/Interface/Record[Key='holdhotkey']
+msgctxt "Interface.holdhotkey"
+msgid "(hold)"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PlantToxic']
@@ -2359,9 +2364,9 @@ msgctxt "Interface.ElectronicReaderSilver"
 msgid "Silver"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
-msgctxt "Interface.ElectronicReaderHydrocarbon"
-msgid "Hydrocarbon"
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
@@ -2569,14 +2574,14 @@ msgctxt "Interface.DifficultyField"
 msgid "Difficulty"
 msgstr ""
 
-#: /Language/Interface/Record[Key='RespawnConditionsField']
-msgctxt "Interface.RespawnConditionsField"
-msgid "Respawn Condition"
-msgstr ""
-
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TerrainFeaturesField']
+msgctxt "Interface.TerrainFeaturesField"
+msgid "Terrain Features"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LevelLevelField']
@@ -3609,14 +3614,14 @@ msgctxt "Interface.SettingsClouds"
 msgid "Enable Clouds"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsEnableClouds']
-msgctxt "Interface.SettingsEnableClouds"
-msgid "Enable Clouds"
-msgstr ""
-
 #: /Language/Interface/Record[Key='Space']
 msgctxt "Interface.Space"
 msgid "Asteroid Belt"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsEnableClouds']
+msgctxt "Interface.SettingsEnableClouds"
+msgid "Enable Clouds"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
@@ -4336,9 +4341,9 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr ""
 
-#: /Language/Interface/Record[Key='TerrainFeaturesField']
-msgctxt "Interface.TerrainFeaturesField"
-msgid "Terrain Features"
+#: /Language/Interface/Record[Key='RespawnConditionsField']
+msgctxt "Interface.RespawnConditionsField"
+msgid "Respawn Condition"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AlertTitleAttention']
