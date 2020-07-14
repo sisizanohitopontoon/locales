@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Возродиться"
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Вы умерли."
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Разрешение теней"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -45,15 +50,15 @@ msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
 msgstr "Качество текстур"
 
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Возродиться"
+
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
 msgid "Overall Quality"
 msgstr "Общее качество"
-
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Вы умерли."
 
 #: /Language/Interface/Record[Key='SettingsFOV']
 msgctxt "Interface.SettingsFOV"
@@ -341,15 +346,15 @@ msgctxt "Interface.Vulcan"
 msgid "Vulcan"
 msgstr "Вулкан"
 
-#: /Language/Interface/Record[Key='Space']
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "Пояс астероидов"
+#: /Language/Interface/Record[Key='SettingsLensFlares']
+msgctxt "Interface.SettingsLensFlares"
+msgid "Lens Flares"
+msgstr "Эффект отблеска от линз"
 
-#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
-msgctxt "Interface.SettingsAmbientOcclusion"
-msgid "Ambient Occlusion"
-msgstr "Модель затенения"
+#: /Language/Interface/Record[Key='Moon']
+msgctxt "Interface.Moon"
+msgid "Moon"
+msgstr "Луна"
 
 #: /Language/Interface/Record[Key='EuropaBeta']
 msgctxt "Interface.EuropaBeta"
@@ -546,11 +551,6 @@ msgstr "Рисунок"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Продолжить"
-
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Разрешение теней"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1044,10 +1044,10 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Отписаться"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Возродиться"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Перезаписать"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1125,11 +1125,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Вы должны ввести имя мира, чтобы сохраниться."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Перезаписать"
-
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
@@ -1184,6 +1179,11 @@ msgstr "Вы уверены, что хотите загрузить этот м�
 msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "Загрузить"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Возродиться"
 
 #: /Language/Interface/Record[Key='PlantToxic']
 #, fuzzy
@@ -3650,10 +3650,10 @@ msgctxt "Interface.SettingsEnableClouds"
 msgid "Enable Clouds"
 msgstr "Включить облака"
 
-#: /Language/Interface/Record[Key='Moon']
-msgctxt "Interface.Moon"
-msgid "Moon"
-msgstr "Луна"
+#: /Language/Interface/Record[Key='Space']
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "Пояс астероидов"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
@@ -3850,10 +3850,10 @@ msgctxt "Interface.SettingsInputSettings"
 msgid "Input Settings"
 msgstr "Настройки ввода"
 
-#: /Language/Interface/Record[Key='SettingsLensFlares']
-msgctxt "Interface.SettingsLensFlares"
-msgid "Lens Flares"
-msgstr "Эффект отблеска от линз"
+#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
+msgctxt "Interface.SettingsAmbientOcclusion"
+msgid "Ambient Occlusion"
+msgstr "Модель затенения"
 
 #: /Language/Interface/Record[Key='StatusWindowThrust']
 msgctxt "Interface.StatusWindowThrust"

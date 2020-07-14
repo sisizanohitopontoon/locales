@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Yeniden Canlan"
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Öldün."
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Gölge Çözünürlüğü"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -45,15 +50,15 @@ msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
 msgstr "Doku Kalitesi"
 
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Yeniden Canlan"
+
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
 msgid "Overall Quality"
 msgstr "Genel Kalite"
-
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Öldün."
 
 #: /Language/Interface/Record[Key='SettingsFOV']
 msgctxt "Interface.SettingsFOV"
@@ -341,15 +346,15 @@ msgctxt "Interface.Vulcan"
 msgid "Vulcan"
 msgstr "Vulcan"
 
-#: /Language/Interface/Record[Key='Space']
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "Asteroit Kuşağı"
+#: /Language/Interface/Record[Key='SettingsLensFlares']
+msgctxt "Interface.SettingsLensFlares"
+msgid "Lens Flares"
+msgstr "Objektif Yansıması"
 
-#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
-msgctxt "Interface.SettingsAmbientOcclusion"
-msgid "Ambient Occlusion"
-msgstr "Ortam Aydınlatması"
+#: /Language/Interface/Record[Key='Moon']
+msgctxt "Interface.Moon"
+msgid "Moon"
+msgstr "Ay"
 
 #: /Language/Interface/Record[Key='EuropaBeta']
 msgctxt "Interface.EuropaBeta"
@@ -546,11 +551,6 @@ msgstr "Resim"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "DEVAM ET"
-
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Gölge Çözünürlüğü"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1053,10 +1053,10 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Aboneliği Kaldır"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Yeniden Canlan"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Üstüne Yaz"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1136,11 +1136,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Kaydetmek için bir dünya ismi girmeniz gerekir."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Üstüne Yaz"
-
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
@@ -1195,6 +1190,11 @@ msgstr "Bu dünyayı sadece bir karakter ile yüklemek istediğine emin misin?"
 msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "Hata Ayıklamayı Yükle"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Yeniden Canlan"
 
 #: /Language/Interface/Record[Key='PlantToxic']
 #, fuzzy
@@ -3664,10 +3664,10 @@ msgctxt "Interface.SettingsEnableClouds"
 msgid "Enable Clouds"
 msgstr "Bulutları Etkinleştir"
 
-#: /Language/Interface/Record[Key='Moon']
-msgctxt "Interface.Moon"
-msgid "Moon"
-msgstr "Ay"
+#: /Language/Interface/Record[Key='Space']
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "Asteroit Kuşağı"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
@@ -3871,10 +3871,10 @@ msgctxt "Interface.SettingsInputSettings"
 msgid "Input Settings"
 msgstr "Giriş Ayarları"
 
-#: /Language/Interface/Record[Key='SettingsLensFlares']
-msgctxt "Interface.SettingsLensFlares"
-msgid "Lens Flares"
-msgstr "Objektif Yansıması"
+#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
+msgctxt "Interface.SettingsAmbientOcclusion"
+msgid "Ambient Occlusion"
+msgstr "Ortam Aydınlatması"
 
 #: /Language/Interface/Record[Key='StatusWindowThrust']
 msgctxt "Interface.StatusWindowThrust"

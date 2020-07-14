@@ -7,10 +7,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "부활하기"
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "당신은 사망했습니다."
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "그림자 해상도"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -42,15 +47,15 @@ msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
 msgstr "텍스쳐 품질"
 
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "부활하기"
+
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
 msgid "Overall Quality"
 msgstr "전체 품질"
-
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "당신은 사망했습니다."
 
 #: /Language/Interface/Record[Key='SettingsFOV']
 msgctxt "Interface.SettingsFOV"
@@ -338,16 +343,16 @@ msgctxt "Interface.Vulcan"
 msgid "Vulcan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Space']
-#, fuzzy
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "우주"
-
-#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
-msgctxt "Interface.SettingsAmbientOcclusion"
-msgid "Ambient Occlusion"
+#: /Language/Interface/Record[Key='SettingsLensFlares']
+msgctxt "Interface.SettingsLensFlares"
+msgid "Lens Flares"
 msgstr ""
+
+#: /Language/Interface/Record[Key='Moon']
+#, fuzzy
+msgctxt "Interface.Moon"
+msgid "Moon"
+msgstr "달"
 
 #: /Language/Interface/Record[Key='EuropaBeta']
 msgctxt "Interface.EuropaBeta"
@@ -547,11 +552,6 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "이어하기"
-
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "그림자 해상도"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1058,10 +1058,10 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "부활하기"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "덮어쓰기"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1140,11 +1140,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "저장하려면 파일명을 입력하세요."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "덮어쓰기"
-
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
@@ -1199,6 +1194,11 @@ msgstr "이 맵과 함께 한 개의 캐릭터만 로딩하시겠습니까?"
 msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "디버그 확인"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "부활하기"
 
 #: /Language/Interface/Record[Key='PlantToxic']
 msgctxt "Interface.PlantToxic"
@@ -3707,11 +3707,11 @@ msgctxt "Interface.SettingsEnableClouds"
 msgid "Enable Clouds"
 msgstr "자동저장 사용"
 
-#: /Language/Interface/Record[Key='Moon']
+#: /Language/Interface/Record[Key='Space']
 #, fuzzy
-msgctxt "Interface.Moon"
-msgid "Moon"
-msgstr "달"
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "우주"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
@@ -3904,9 +3904,9 @@ msgctxt "Interface.SettingsInputSettings"
 msgid "Input Settings"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsLensFlares']
-msgctxt "Interface.SettingsLensFlares"
-msgid "Lens Flares"
+#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
+msgctxt "Interface.SettingsAmbientOcclusion"
+msgid "Ambient Occlusion"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StatusWindowThrust']

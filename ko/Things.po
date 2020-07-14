@@ -7,17 +7,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Things/Record[Key='ItemEmergencyToolBelt']
+#: /Language/Things/Record[Key='ItemEmergencySpaceHelmet']
 #, fuzzy
-msgctxt "Things.ItemEmergencyToolBelt"
-msgid "Emergency Tool Belt"
+msgctxt "Things.ItemEmergencySpaceHelmet"
+msgid "Emergency Space Helmet"
 msgstr "전선 절단기"
-
-#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLong']
-#, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
-msgid "Composite Cladding (Angled Corner Inner Long)"
-msgstr "합성 판넬 (경사형 모서리)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLongL']
 #, fuzzy
@@ -1249,10 +1243,9 @@ msgid "Composite Floor Grating1"
 msgstr "합성 그레이팅 바닥 1"
 
 #: /Language/Things/Record[Key='StructureCompositeWindowIron']
-#, fuzzy
 msgctxt "Things.StructureCompositeWindowIron"
-msgid "Composite Window (Iron)"
-msgstr "철재 합성 창문"
+msgid "Iron Window"
+msgstr ""
 
 #: /Language/Things/Record[Key='StructureOrganicsPrinter']
 msgctxt "Things.StructureOrganicsPrinter"
@@ -1396,10 +1389,10 @@ msgctxt "Things.StructureCableJunctionH5"
 msgid "Heavy Cable (5-Way Junction)"
 msgstr "고압선 (5방향)"
 
-#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInner']
+#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLong']
 #, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInner"
-msgid "Composite Cladding (Angled Corner Inner)"
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
+msgid "Composite Cladding (Angled Corner Inner Long)"
 msgstr "합성 판넬 (경사형 모서리)"
 
 #: /Language/Things/Record[Key='StructureCableJunction5Burnt']
@@ -1822,8 +1815,9 @@ msgid "Kit (Iron Wall)"
 msgstr "조립킷 (철재 벽)"
 
 #: /Language/Things/Record[Key='StructureWallIron']
+#, fuzzy
 msgctxt "Things.StructureWallIron"
-msgid "Iron Wall"
+msgid "Iron Wall (Type 1)"
 msgstr "철재 벽"
 
 #: /Language/Things/Record[Key='ItemOxite']
@@ -2520,8 +2514,9 @@ msgid "Composite Wall Round"
 msgstr "합성 벽 곡면"
 
 #: /Language/Things/Record[Key='StructureCompositeWall']
+#, fuzzy
 msgctxt "Things.StructureCompositeWall"
-msgid "Composite Wall"
+msgid "Composite Wall (Type 1)"
 msgstr "합성 벽"
 
 #: /Language/Things/Record[Key='StructureCompositeFloorGrating']
@@ -3088,11 +3083,11 @@ msgctxt "Things.ItemKitGyroscope"
 msgid "Kit (Gyroscope)"
 msgstr "조립킷 (자이로스코프)"
 
-#: /Language/Things/Record[Key='ElectronicPrinterMod']
+#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInner']
 #, fuzzy
-msgctxt "Things.ElectronicPrinterMod"
-msgid "Electronic Printer Mod"
-msgstr "전자 프린터"
+msgctxt "Things.StructureCompositeCladdingAngledCornerInner"
+msgid "Composite Cladding (Angled Corner Inner)"
+msgstr "합성 판넬 (경사형 모서리)"
 
 #: /Language/Things/Record[Key='ItemKitFurnace']
 msgctxt "Things.ItemKitFurnace"
@@ -3935,6 +3930,12 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "전자레인지"
 
+#: /Language/Things/Record[Key='ElectronicPrinterMod']
+#, fuzzy
+msgctxt "Things.ElectronicPrinterMod"
+msgid "Electronic Printer Mod"
+msgstr "전자 프린터"
+
 #: /Language/Things/Record[Key='AutolathePrinterMod']
 #, fuzzy
 msgctxt "Things.AutolathePrinterMod"
@@ -4027,10 +4028,10 @@ msgctxt "Things.ItemEmergencyEvaSuit"
 msgid "Emergency Eva Suit"
 msgstr "전선 절단기"
 
-#: /Language/Things/Record[Key='ItemEmergencySpaceHelmet']
+#: /Language/Things/Record[Key='ItemEmergencyToolBelt']
 #, fuzzy
-msgctxt "Things.ItemEmergencySpaceHelmet"
-msgid "Emergency Space Helmet"
+msgctxt "Things.ItemEmergencyToolBelt"
+msgid "Emergency Tool Belt"
 msgstr "전선 절단기"
 
 #: /Language/Things/Record[Key='ItemElectronicParts']
@@ -4054,17 +4055,17 @@ msgctxt "Things.StructureResearchMachine"
 msgid "Structure Research Machine"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureShelf']
-#, fuzzy
-msgctxt "Things.StructureShelf"
-msgid "Structure Shelf"
-msgstr "구조물 도킹 포트 측면"
-
 #: /Language/Things/Record[Key='ItemKitLogicTransmitter']
 #, fuzzy
 msgctxt "Things.ItemKitLogicTransmitter"
 msgid "Kit (Logic Transmitter)"
 msgstr "조립킷 (로직 유닛)"
+
+#: /Language/Things/Record[Key='StructureShelf']
+#, fuzzy
+msgctxt "Things.StructureShelf"
+msgid "Structure Shelf"
+msgstr "구조물 도킹 포트 측면"
 
 #: /Language/Things/Record[Key='HumanSkull']
 #, fuzzy
@@ -4361,53 +4362,80 @@ msgid "Kit Structure Modular Rocket Fueltank"
 msgstr "로켓 엔진"
 
 #: /Language/Things/Record[Key='StructureWallIron02']
+#, fuzzy
 msgctxt "Things.StructureWallIron02"
-msgid "Wall Iron"
+msgid "Iron Wall (Type 2)"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureWallIron03']
+#, fuzzy
 msgctxt "Things.StructureWallIron03"
-msgid "Wall Iron"
+msgid "Iron Wall (Type 3)"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureWallIron04']
+#, fuzzy
 msgctxt "Things.StructureWallIron04"
-msgid "Wall Iron"
-msgstr ""
-
-#: /Language/Things/Record[Key='StructureWallIronWindow']
-msgctxt "Things.StructureWallIronWindow"
-msgid "Wall Iron Window"
+msgid "Iron Wall (Type 4)"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureCompositeWall02']
 #, fuzzy
 msgctxt "Things.StructureCompositeWall02"
-msgid "Composite Wall"
+msgid "Composite Wall (Type 2)"
 msgstr "합성 벽"
 
 #: /Language/Things/Record[Key='StructureCompositeWall03']
 #, fuzzy
 msgctxt "Things.StructureCompositeWall03"
-msgid "Composite Wall"
+msgid "Composite Wall (Type 3)"
 msgstr "합성 벽"
 
 #: /Language/Things/Record[Key='StructureCompositeWall04']
 #, fuzzy
 msgctxt "Things.StructureCompositeWall04"
-msgid "Composite Wall"
+msgid "Composite Wall (Type 4)"
 msgstr "합성 벽"
 
 #: /Language/Things/Record[Key='StructureCompositeWallWindow']
 #, fuzzy
 msgctxt "Things.StructureCompositeWallWindow"
-msgid "Composite Wall Window"
+msgid "Composite Window"
 msgstr "합성 창문"
 
 #: /Language/Things/Record[Key='ItemKitFurniture']
 msgctxt "Things.ItemKitFurniture"
 msgid "Kit (Furniture)"
 msgstr "조립킷 (가구)"
+
+#, fuzzy
+#~ msgctxt "Things.StructureCompositeWindowIron"
+#~ msgid "Composite Window (Iron)"
+#~ msgstr "철재 합성 창문"
+
+#~ msgctxt "Things.StructureCompositeWall"
+#~ msgid "Composite Wall"
+#~ msgstr "합성 벽"
+
+#, fuzzy
+#~ msgctxt "Things.StructureCompositeWall02"
+#~ msgid "Composite Wall"
+#~ msgstr "합성 벽"
+
+#, fuzzy
+#~ msgctxt "Things.StructureCompositeWall03"
+#~ msgid "Composite Wall"
+#~ msgstr "합성 벽"
+
+#, fuzzy
+#~ msgctxt "Things.StructureCompositeWall04"
+#~ msgid "Composite Wall"
+#~ msgstr "합성 벽"
+
+#, fuzzy
+#~ msgctxt "Things.StructureCompositeWallWindow"
+#~ msgid "Composite Wall Window"
+#~ msgstr "합성 창문"
 
 #~ msgctxt "Things.StructureCompositeFloorGrating"
 #~ msgid "Structure Composite Floor Grating"

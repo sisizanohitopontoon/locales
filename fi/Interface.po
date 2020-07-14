@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Herätä henkiin"
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Sinä kuolit."
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Varjojen resoluutio"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -45,15 +50,15 @@ msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
 msgstr "Tekstuurien laatu"
 
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Herätä henkiin"
+
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
 msgid "Overall Quality"
 msgstr "Yleinen laatu"
-
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Sinä kuolit."
 
 #: /Language/Interface/Record[Key='SettingsFOV']
 msgctxt "Interface.SettingsFOV"
@@ -343,16 +348,16 @@ msgctxt "Interface.Vulcan"
 msgid "Vulcan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Space']
-#, fuzzy
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "Avaruus"
+#: /Language/Interface/Record[Key='SettingsLensFlares']
+msgctxt "Interface.SettingsLensFlares"
+msgid "Lens Flares"
+msgstr "Linssiheijastukset"
 
-#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
-msgctxt "Interface.SettingsAmbientOcclusion"
-msgid "Ambient Occlusion"
-msgstr "Ympäristöokluusio(AO)"
+#: /Language/Interface/Record[Key='Moon']
+#, fuzzy
+msgctxt "Interface.Moon"
+msgid "Moon"
+msgstr "Kuu"
 
 #: /Language/Interface/Record[Key='EuropaBeta']
 #, fuzzy
@@ -554,11 +559,6 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka peliä"
-
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Varjojen resoluutio"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1058,10 +1058,10 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Lopeta tilaaminen"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Herätä henkiin"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Korvaa"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1141,11 +1141,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Sinun täytyy nimetä maailma."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Korvaa"
-
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
@@ -1200,6 +1195,11 @@ msgstr "Haluatko varmasti ladata tämän maailman vain yhdellä hahmolla?"
 msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "Debug-lataus"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Herätä henkiin"
 
 #: /Language/Interface/Record[Key='PlantToxic']
 msgctxt "Interface.PlantToxic"
@@ -3717,11 +3717,11 @@ msgctxt "Interface.SettingsEnableClouds"
 msgid "Enable Clouds"
 msgstr "Automaattinen Tallennus"
 
-#: /Language/Interface/Record[Key='Moon']
+#: /Language/Interface/Record[Key='Space']
 #, fuzzy
-msgctxt "Interface.Moon"
-msgid "Moon"
-msgstr "Kuu"
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "Avaruus"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
@@ -3913,10 +3913,10 @@ msgctxt "Interface.SettingsInputSettings"
 msgid "Input Settings"
 msgstr "Näppäinasetukset"
 
-#: /Language/Interface/Record[Key='SettingsLensFlares']
-msgctxt "Interface.SettingsLensFlares"
-msgid "Lens Flares"
-msgstr "Linssiheijastukset"
+#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
+msgctxt "Interface.SettingsAmbientOcclusion"
+msgid "Ambient Occlusion"
+msgstr "Ympäristöokluusio(AO)"
 
 #: /Language/Interface/Record[Key='StatusWindowThrust']
 msgctxt "Interface.StatusWindowThrust"

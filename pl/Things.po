@@ -10,17 +10,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/Record[Key='ItemEmergencyToolBelt']
+#: /Language/Things/Record[Key='ItemEmergencySpaceHelmet']
 #, fuzzy
-msgctxt "Things.ItemEmergencyToolBelt"
-msgid "Emergency Tool Belt"
+msgctxt "Things.ItemEmergencySpaceHelmet"
+msgid "Emergency Space Helmet"
 msgstr "Narzędzie Odwołań Przedmiotów"
-
-#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLong']
-#, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
-msgid "Composite Cladding (Angled Corner Inner Long)"
-msgstr "Kompozytowa okładzina (Kątowa, narożnik)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLongL']
 #, fuzzy
@@ -1241,8 +1235,8 @@ msgstr "Kratki podlogowe kompozytowe 1"
 
 #: /Language/Things/Record[Key='StructureCompositeWindowIron']
 msgctxt "Things.StructureCompositeWindowIron"
-msgid "Composite Window (Iron)"
-msgstr "Okno kompozytowe (żelazne)"
+msgid "Iron Window"
+msgstr ""
 
 #: /Language/Things/Record[Key='StructureOrganicsPrinter']
 msgctxt "Things.StructureOrganicsPrinter"
@@ -1385,10 +1379,10 @@ msgctxt "Things.StructureCableJunctionH5"
 msgid "Heavy Cable (5-Way Junction)"
 msgstr "Ciezki Kabel (5-stronne zlacze)"
 
-#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInner']
+#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLong']
 #, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInner"
-msgid "Composite Cladding (Angled Corner Inner)"
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
+msgid "Composite Cladding (Angled Corner Inner Long)"
 msgstr "Kompozytowa okładzina (Kątowa, narożnik)"
 
 #: /Language/Things/Record[Key='StructureCableJunction5Burnt']
@@ -1811,8 +1805,9 @@ msgid "Kit (Iron Wall)"
 msgstr "Zestaw (Zelazna Sciana)"
 
 #: /Language/Things/Record[Key='StructureWallIron']
+#, fuzzy
 msgctxt "Things.StructureWallIron"
-msgid "Iron Wall"
+msgid "Iron Wall (Type 1)"
 msgstr "Zelazna Sciana"
 
 #: /Language/Things/Record[Key='ItemOxite']
@@ -2509,8 +2504,9 @@ msgid "Composite Wall Round"
 msgstr "Okragla Sciana Kompozytowa"
 
 #: /Language/Things/Record[Key='StructureCompositeWall']
+#, fuzzy
 msgctxt "Things.StructureCompositeWall"
-msgid "Composite Wall"
+msgid "Composite Wall (Type 1)"
 msgstr "Sciana Kompozytowa"
 
 #: /Language/Things/Record[Key='StructureCompositeFloorGrating']
@@ -3077,11 +3073,11 @@ msgctxt "Things.ItemKitGyroscope"
 msgid "Kit (Gyroscope)"
 msgstr "Zestaw (Zyroskop)"
 
-#: /Language/Things/Record[Key='ElectronicPrinterMod']
+#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInner']
 #, fuzzy
-msgctxt "Things.ElectronicPrinterMod"
-msgid "Electronic Printer Mod"
-msgstr "Drukarka Elektroniki"
+msgctxt "Things.StructureCompositeCladdingAngledCornerInner"
+msgid "Composite Cladding (Angled Corner Inner)"
+msgstr "Kompozytowa okładzina (Kątowa, narożnik)"
 
 #: /Language/Things/Record[Key='ItemKitFurnace']
 msgctxt "Things.ItemKitFurnace"
@@ -3925,6 +3921,12 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrofalowka"
 
+#: /Language/Things/Record[Key='ElectronicPrinterMod']
+#, fuzzy
+msgctxt "Things.ElectronicPrinterMod"
+msgid "Electronic Printer Mod"
+msgstr "Drukarka Elektroniki"
+
 #: /Language/Things/Record[Key='AutolathePrinterMod']
 #, fuzzy
 msgctxt "Things.AutolathePrinterMod"
@@ -4020,10 +4022,10 @@ msgctxt "Things.ItemEmergencyEvaSuit"
 msgid "Emergency Eva Suit"
 msgstr "Narzędzie Odwołań Przedmiotów"
 
-#: /Language/Things/Record[Key='ItemEmergencySpaceHelmet']
+#: /Language/Things/Record[Key='ItemEmergencyToolBelt']
 #, fuzzy
-msgctxt "Things.ItemEmergencySpaceHelmet"
-msgid "Emergency Space Helmet"
+msgctxt "Things.ItemEmergencyToolBelt"
+msgid "Emergency Tool Belt"
 msgstr "Narzędzie Odwołań Przedmiotów"
 
 #: /Language/Things/Record[Key='ItemElectronicParts']
@@ -4047,17 +4049,17 @@ msgctxt "Things.StructureResearchMachine"
 msgid "Structure Research Machine"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureShelf']
-#, fuzzy
-msgctxt "Things.StructureShelf"
-msgid "Structure Shelf"
-msgstr "Sciana plaska"
-
 #: /Language/Things/Record[Key='ItemKitLogicTransmitter']
 #, fuzzy
 msgctxt "Things.ItemKitLogicTransmitter"
 msgid "Kit (Logic Transmitter)"
 msgstr "Zestaw (Logic Unit)"
+
+#: /Language/Things/Record[Key='StructureShelf']
+#, fuzzy
+msgctxt "Things.StructureShelf"
+msgid "Structure Shelf"
+msgstr "Sciana plaska"
 
 #: /Language/Things/Record[Key='HumanSkull']
 #, fuzzy
@@ -4358,53 +4360,79 @@ msgid "Kit Structure Modular Rocket Fueltank"
 msgstr "Silnik Rakietowy (Duzy)"
 
 #: /Language/Things/Record[Key='StructureWallIron02']
+#, fuzzy
 msgctxt "Things.StructureWallIron02"
-msgid "Wall Iron"
+msgid "Iron Wall (Type 2)"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureWallIron03']
+#, fuzzy
 msgctxt "Things.StructureWallIron03"
-msgid "Wall Iron"
+msgid "Iron Wall (Type 3)"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureWallIron04']
+#, fuzzy
 msgctxt "Things.StructureWallIron04"
-msgid "Wall Iron"
-msgstr ""
-
-#: /Language/Things/Record[Key='StructureWallIronWindow']
-msgctxt "Things.StructureWallIronWindow"
-msgid "Wall Iron Window"
+msgid "Iron Wall (Type 4)"
 msgstr ""
 
 #: /Language/Things/Record[Key='StructureCompositeWall02']
 #, fuzzy
 msgctxt "Things.StructureCompositeWall02"
-msgid "Composite Wall"
+msgid "Composite Wall (Type 2)"
 msgstr "Sciana Kompozytowa"
 
 #: /Language/Things/Record[Key='StructureCompositeWall03']
 #, fuzzy
 msgctxt "Things.StructureCompositeWall03"
-msgid "Composite Wall"
+msgid "Composite Wall (Type 3)"
 msgstr "Sciana Kompozytowa"
 
 #: /Language/Things/Record[Key='StructureCompositeWall04']
 #, fuzzy
 msgctxt "Things.StructureCompositeWall04"
-msgid "Composite Wall"
+msgid "Composite Wall (Type 4)"
 msgstr "Sciana Kompozytowa"
 
 #: /Language/Things/Record[Key='StructureCompositeWallWindow']
 #, fuzzy
 msgctxt "Things.StructureCompositeWallWindow"
-msgid "Composite Wall Window"
+msgid "Composite Window"
 msgstr "Kompozytowe Okno"
 
 #: /Language/Things/Record[Key='ItemKitFurniture']
 msgctxt "Things.ItemKitFurniture"
 msgid "Kit (Furniture)"
 msgstr "Zestaw (Meble)"
+
+#~ msgctxt "Things.StructureCompositeWindowIron"
+#~ msgid "Composite Window (Iron)"
+#~ msgstr "Okno kompozytowe (żelazne)"
+
+#~ msgctxt "Things.StructureCompositeWall"
+#~ msgid "Composite Wall"
+#~ msgstr "Sciana Kompozytowa"
+
+#, fuzzy
+#~ msgctxt "Things.StructureCompositeWall02"
+#~ msgid "Composite Wall"
+#~ msgstr "Sciana Kompozytowa"
+
+#, fuzzy
+#~ msgctxt "Things.StructureCompositeWall03"
+#~ msgid "Composite Wall"
+#~ msgstr "Sciana Kompozytowa"
+
+#, fuzzy
+#~ msgctxt "Things.StructureCompositeWall04"
+#~ msgid "Composite Wall"
+#~ msgstr "Sciana Kompozytowa"
+
+#, fuzzy
+#~ msgctxt "Things.StructureCompositeWallWindow"
+#~ msgid "Composite Wall Window"
+#~ msgstr "Kompozytowe Okno"
 
 #~ msgctxt "Things.StructureCompositeFloorGrating"
 #~ msgid "Structure Composite Floor Grating"

@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Odrodzenie"
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Jestes martwy"
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Rozdzielczość cieni"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -45,15 +50,15 @@ msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
 msgstr "Jakość tekstur"
 
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Odrodzenie"
+
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
 msgid "Overall Quality"
 msgstr "Jakość ogólna"
-
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Jestes martwy"
 
 #: /Language/Interface/Record[Key='SettingsFOV']
 msgctxt "Interface.SettingsFOV"
@@ -343,16 +348,15 @@ msgctxt "Interface.Vulcan"
 msgid "Vulcan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Space']
-#, fuzzy
-msgctxt "Interface.Space"
-msgid "Asteroid Belt"
-msgstr "Kosmos"
+#: /Language/Interface/Record[Key='SettingsLensFlares']
+msgctxt "Interface.SettingsLensFlares"
+msgid "Lens Flares"
+msgstr "Flary Obiektywu"
 
-#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
-msgctxt "Interface.SettingsAmbientOcclusion"
-msgid "Ambient Occlusion"
-msgstr "Okluzja Otoczenia"
+#: /Language/Interface/Record[Key='Moon']
+msgctxt "Interface.Moon"
+msgid "Moon"
+msgstr "Księżyc"
 
 #: /Language/Interface/Record[Key='EuropaBeta']
 msgctxt "Interface.EuropaBeta"
@@ -550,11 +554,6 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Kontynuuj"
-
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Rozdzielczość cieni"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1054,10 +1053,10 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Anuluj Subskrypcje"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Odrodzenie"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Nadpisz"
 
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
@@ -1136,11 +1135,6 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Musisz wprowadzic nazwe swiata, aby zapisac."
 
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Nadpisz"
-
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
@@ -1195,6 +1189,11 @@ msgstr "Czy na pewno chcesz zaladowac ten swiat tylko jedna postacia?"
 msgctxt "Interface.PromptDebugLoadConfirm"
 msgid "Debug Load"
 msgstr "Debug Load"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Odrodzenie"
 
 #: /Language/Interface/Record[Key='PlantToxic']
 msgctxt "Interface.PlantToxic"
@@ -3709,10 +3708,11 @@ msgctxt "Interface.SettingsEnableClouds"
 msgid "Enable Clouds"
 msgstr "Włącz chmury"
 
-#: /Language/Interface/Record[Key='Moon']
-msgctxt "Interface.Moon"
-msgid "Moon"
-msgstr "Księżyc"
+#: /Language/Interface/Record[Key='Space']
+#, fuzzy
+msgctxt "Interface.Space"
+msgid "Asteroid Belt"
+msgstr "Kosmos"
 
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
@@ -3904,10 +3904,10 @@ msgctxt "Interface.SettingsInputSettings"
 msgid "Input Settings"
 msgstr "Ustawienia wejsciowe"
 
-#: /Language/Interface/Record[Key='SettingsLensFlares']
-msgctxt "Interface.SettingsLensFlares"
-msgid "Lens Flares"
-msgstr "Flary Obiektywu"
+#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
+msgctxt "Interface.SettingsAmbientOcclusion"
+msgid "Ambient Occlusion"
+msgstr "Okluzja Otoczenia"
 
 #: /Language/Interface/Record[Key='StatusWindowThrust']
 msgctxt "Interface.StatusWindowThrust"
@@ -3964,7 +3964,6 @@ msgid "Cycle to <color=yellow>{0}</color> for {3} <color=yellow>({2})</color> in
 msgstr "Zamień na <color=yellow>{0}</color> dla {3} <color=yellow>({2})</color> w {1}"
 
 #: /Language/Interface/Record[Key='ChangeSettingToFor']
-#, fuzzy
 msgctxt "Interface.ChangeSettingToFor"
 msgid "Cycle to <color=yellow>{0}</color> for {1}"
 msgstr ""
