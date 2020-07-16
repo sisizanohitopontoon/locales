@@ -10,50 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadTitle']
-msgctxt "Interface.PromptDebugLoadTitle"
-msgid "Debug Load"
-msgstr "调试加载"
-
-#: /Language/Interface/Record[Key='SettingsSoftParticles']
-msgctxt "Interface.SettingsSoftParticles"
-msgid "Soft Particles"
-msgstr "软粒子"
-
-#: /Language/Interface/Record[Key='SettingsParticleQuality']
-msgctxt "Interface.SettingsParticleQuality"
-msgid "Particle Quality"
-msgstr "粒子质量"
-
-#: /Language/Interface/Record[Key='SettingsTextureQuality']
-msgctxt "Interface.SettingsTextureQuality"
-msgid "Texture Quality"
-msgstr "纹理质量"
-
-#: /Language/Interface/Record[Key='SettingsOverallQuality']
-msgctxt "Interface.SettingsOverallQuality"
-msgid "Overall Quality"
-msgstr "总体质量"
-
-#: /Language/Interface/Record[Key='SettingsFOV']
-msgctxt "Interface.SettingsFOV"
-msgid "Field Of View"
-msgstr "视野"
-
-#: /Language/Interface/Record[Key='SettingsBrightness']
-msgctxt "Interface.SettingsBrightness"
-msgid "Brightness"
-msgstr "亮度"
-
-#: /Language/Interface/Record[Key='SettingsButtonApply']
-msgctxt "Interface.SettingsButtonApply"
-msgid "Apply"
-msgstr "应用"
-
-#: /Language/Interface/Record[Key='PromptDebugLoadBody']
-msgctxt "Interface.PromptDebugLoadBody"
-msgid "Are you sure you want to load this world with only one character?"
-msgstr "您确定要加载这个只有一个字符的世界吗？"
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "覆盖"
 
 #: /Language/Interface/Record[Key='SettingsVsync']
 msgctxt "Interface.SettingsVsync"
@@ -89,6 +49,11 @@ msgstr "窗口设置"
 msgctxt "Interface.SettingsTitleAutosave"
 msgid "AutoSave Settings"
 msgstr "自动保存设置"
+
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "发布到创意工坊"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -336,10 +301,10 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "月球"
 
-#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
-msgctxt "Interface.SettingsAmbientOcclusion"
-msgid "Ambient Occlusion"
-msgstr "环境光遮蔽"
+#: /Language/Interface/Record[Key='EuropaBeta']
+msgctxt "Interface.EuropaBeta"
+msgid "Europa"
+msgstr "木卫二"
 
 #: /Language/Interface/Record[Key='Europa']
 msgctxt "Interface.Europa"
@@ -356,10 +321,10 @@ msgctxt "Interface.NewWorldAreaMars"
 msgid "Mars"
 msgstr "火星"
 
-#: /Language/Interface/Record[Key='LoulanShortDesc']
-msgctxt "Interface.LoulanShortDesc"
-msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
-msgstr "楼兰，在到达这颗星球后你会发现它拥有可呼吸的大气层，也有足够的气压来维持生命——但却鲜有生命存在。这个被沙子覆盖的巨型行星位于卡冈图雅星系中，每天都在越来越接近星系中心的黑洞。虽然被抛弃了，也不再覆盖绿色或充满水资源，这颗星球仍然有一个可用的大气层。你的任务就是搜刮这片荒地，以获得所需的材料和资源，从而生存在这个永恒的沙漠中。"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "大气散射"
 
 #: /Language/Interface/Record[Key='NewWorldAreaLoulan']
 msgctxt "Interface.NewWorldAreaLoulan"
@@ -530,6 +495,41 @@ msgstr "图片"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "继续"
+
+#: /Language/Interface/Record[Key='SettingsButtonApply']
+msgctxt "Interface.SettingsButtonApply"
+msgid "Apply"
+msgstr "应用"
+
+#: /Language/Interface/Record[Key='SettingsBrightness']
+msgctxt "Interface.SettingsBrightness"
+msgid "Brightness"
+msgstr "亮度"
+
+#: /Language/Interface/Record[Key='SettingsFOV']
+msgctxt "Interface.SettingsFOV"
+msgid "Field Of View"
+msgstr "视野"
+
+#: /Language/Interface/Record[Key='SettingsOverallQuality']
+msgctxt "Interface.SettingsOverallQuality"
+msgid "Overall Quality"
+msgstr "总体质量"
+
+#: /Language/Interface/Record[Key='SettingsTextureQuality']
+msgctxt "Interface.SettingsTextureQuality"
+msgid "Texture Quality"
+msgstr "纹理质量"
+
+#: /Language/Interface/Record[Key='SettingsParticleQuality']
+msgctxt "Interface.SettingsParticleQuality"
+msgid "Particle Quality"
+msgstr "粒子质量"
+
+#: /Language/Interface/Record[Key='SettingsSoftParticles']
+msgctxt "Interface.SettingsSoftParticles"
+msgid "Soft Particles"
+msgstr "软粒子"
 
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
@@ -1000,40 +1000,40 @@ msgctxt "Interface.SteamErrorTitle"
 msgid "Steam Error"
 msgstr "Steam错误"
 
-#: /Language/Interface/Record[Key='SteamErrorBody']
-msgctxt "Interface.SteamErrorBody"
-msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
-msgstr "无法连接到Steam。  尝试重新启动Steam，然后再重新游戏"
+#: /Language/Interface/Record[Key='PromptPublishBody']
+msgctxt "Interface.PromptPublishBody"
+msgid "Are you sure you want to publish this world to the workshop?"
+msgstr "您确定要将这个世界发布到创意工坊吗？"
 
-#: /Language/Interface/Record[Key='SteamErrorButton']
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
-msgstr "退出"
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "发布"
 
-#: /Language/Interface/Record[Key='WaitingTitle']
-msgctxt "Interface.WaitingTitle"
-msgid "Saving Warning"
-msgstr "保存中警告"
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "删除存档"
 
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "仍在保存世界数据。请在保存完成后重试。"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "你确定？"
 
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "退出Stationeers"
+#: /Language/Interface/Record[Key='PromptDeleteConfirm']
+msgctxt "Interface.PromptDeleteConfirm"
+msgid "Delete"
+msgstr "删除"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "您确定要退出吗？"
+#: /Language/Interface/Record[Key='PromptDebugLoadTitle']
+msgctxt "Interface.PromptDebugLoadTitle"
+msgid "Debug Load"
+msgstr "调试加载"
 
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "退出"
+#: /Language/Interface/Record[Key='PromptDebugLoadBody']
+msgctxt "Interface.PromptDebugLoadBody"
+msgid "Are you sure you want to load this world with only one character?"
+msgstr "您确定要加载这个只有一个字符的世界吗？"
 
 #: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
 msgctxt "Interface.PromptDebugLoadConfirm"
@@ -1133,6 +1133,41 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "您必须输入世界名称才能保存."
 
+#: /Language/Interface/Record[Key='SteamErrorBody']
+msgctxt "Interface.SteamErrorBody"
+msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
+msgstr "无法连接到Steam。  尝试重新启动Steam，然后再重新游戏"
+
+#: /Language/Interface/Record[Key='SteamErrorButton']
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "退出"
+
+#: /Language/Interface/Record[Key='WaitingTitle']
+msgctxt "Interface.WaitingTitle"
+msgid "Saving Warning"
+msgstr "保存中警告"
+
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "仍在保存世界数据。请在保存完成后重试。"
+
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "退出Stationeers"
+
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "您确定要退出吗？"
+
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "退出"
+
 #: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
 msgctxt "Interface.PromptUnsubscribeTitle"
 msgid "Unsubscribe"
@@ -1157,41 +1192,6 @@ msgstr "覆盖"
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "您确定要覆盖现有的已保存的游戏吗？"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "覆盖"
-
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "发布到创意工坊"
-
-#: /Language/Interface/Record[Key='PromptPublishBody']
-msgctxt "Interface.PromptPublishBody"
-msgid "Are you sure you want to publish this world to the workshop?"
-msgstr "您确定要将这个世界发布到创意工坊吗？"
-
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "发布"
-
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "删除存档"
-
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "你确定？"
-
-#: /Language/Interface/Record[Key='PromptDeleteConfirm']
-msgctxt "Interface.PromptDeleteConfirm"
-msgid "Delete"
-msgstr "删除"
 
 #: /Language/Interface/Record[Key='holdhotkey']
 msgctxt "Interface.holdhotkey"
@@ -3665,11 +3665,6 @@ msgctxt "Interface.SettingsUPNPEnabled"
 msgid "Enable UPNP"
 msgstr "启用UPNP"
 
-#: /Language/Interface/Record[Key='EuropaBeta']
-msgctxt "Interface.EuropaBeta"
-msgid "Europa"
-msgstr "木卫二"
-
 #: /Language/Interface/Record[Key='SettingsInterface']
 msgctxt "Interface.SettingsInterface"
 msgid "Interface"
@@ -3684,6 +3679,11 @@ msgstr "禁用水可视化"
 msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "旧的库存控制"
+
+#: /Language/Interface/Record[Key='LoulanShortDesc']
+msgctxt "Interface.LoulanShortDesc"
+msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
+msgstr "楼兰，在到达这颗星球后你会发现它拥有可呼吸的大气层，也有足够的气压来维持生命——但却鲜有生命存在。这个被沙子覆盖的巨型行星位于卡冈图雅星系中，每天都在越来越接近星系中心的黑洞。虽然被抛弃了，也不再覆盖绿色或充满水资源，这颗星球仍然有一个可用的大气层。你的任务就是搜刮这片荒地，以获得所需的材料和资源，从而生存在这个永恒的沙漠中。"
 
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
@@ -3860,6 +3860,11 @@ msgctxt "Interface.SettingsLensFlares"
 msgid "Lens Flares"
 msgstr "光斑特效"
 
+#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
+msgctxt "Interface.SettingsAmbientOcclusion"
+msgid "Ambient Occlusion"
+msgstr "环境光遮蔽"
+
 #: /Language/Interface/Record[Key='StatusWindowThrust']
 msgctxt "Interface.StatusWindowThrust"
 msgid "Thrust"
@@ -3874,11 +3879,6 @@ msgstr "清除"
 msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "重置"
-
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "大气散射"
 
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
@@ -3998,12 +3998,11 @@ msgid "Smelting {0}"
 msgstr "熔炼 {0}"
 
 #: /Language/Interface/Record[Key='FurnaceChamberText']
+#, fuzzy
 msgctxt "Interface.FurnaceChamberText"
 msgid ""
-"\n"
-"        Pressure {0}\n"
-"        Temperature {1}\n"
-"      "
+"Pressure {0}\n"
+"        Temperature {1}"
 msgstr ""
 "\n"
 "        压力 {0}\n"

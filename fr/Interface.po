@@ -10,50 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadTitle']
-msgctxt "Interface.PromptDebugLoadTitle"
-msgid "Debug Load"
-msgstr "Charger en Debug"
-
-#: /Language/Interface/Record[Key='SettingsSoftParticles']
-msgctxt "Interface.SettingsSoftParticles"
-msgid "Soft Particles"
-msgstr "Particules"
-
-#: /Language/Interface/Record[Key='SettingsParticleQuality']
-msgctxt "Interface.SettingsParticleQuality"
-msgid "Particle Quality"
-msgstr "Qualité des particules"
-
-#: /Language/Interface/Record[Key='SettingsTextureQuality']
-msgctxt "Interface.SettingsTextureQuality"
-msgid "Texture Quality"
-msgstr "Qualité des textures"
-
-#: /Language/Interface/Record[Key='SettingsOverallQuality']
-msgctxt "Interface.SettingsOverallQuality"
-msgid "Overall Quality"
-msgstr "Qualité globale"
-
-#: /Language/Interface/Record[Key='SettingsFOV']
-msgctxt "Interface.SettingsFOV"
-msgid "Field Of View"
-msgstr "Champ de vision"
-
-#: /Language/Interface/Record[Key='SettingsBrightness']
-msgctxt "Interface.SettingsBrightness"
-msgid "Brightness"
-msgstr "Luminosité"
-
-#: /Language/Interface/Record[Key='SettingsButtonApply']
-msgctxt "Interface.SettingsButtonApply"
-msgid "Apply"
-msgstr "Appliquer"
-
-#: /Language/Interface/Record[Key='PromptDebugLoadBody']
-msgctxt "Interface.PromptDebugLoadBody"
-msgid "Are you sure you want to load this world with only one character?"
-msgstr "Êtes-vous sûr de vouloir charger ce monde avec un seul personnage ?"
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Ecraser"
 
 #: /Language/Interface/Record[Key='SettingsVsync']
 msgctxt "Interface.SettingsVsync"
@@ -89,6 +49,11 @@ msgstr "Paramètres d'affichage"
 msgctxt "Interface.SettingsTitleAutosave"
 msgid "AutoSave Settings"
 msgstr "Paramètres de sauvegarde automatique"
+
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "Publier sur le Workshop"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -336,10 +301,10 @@ msgctxt "Interface.Moon"
 msgid "Moon"
 msgstr "Lune"
 
-#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
-msgctxt "Interface.SettingsAmbientOcclusion"
-msgid "Ambient Occlusion"
-msgstr "Occlusion ambiante"
+#: /Language/Interface/Record[Key='EuropaBeta']
+msgctxt "Interface.EuropaBeta"
+msgid "Europa"
+msgstr "Europa"
 
 #: /Language/Interface/Record[Key='Europa']
 msgctxt "Interface.Europa"
@@ -356,10 +321,10 @@ msgctxt "Interface.NewWorldAreaMars"
 msgid "Mars"
 msgstr "Mars"
 
-#: /Language/Interface/Record[Key='LoulanShortDesc']
-msgctxt "Interface.LoulanShortDesc"
-msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
-msgstr "Loulan, à votre arrivée, vous remarquerez une atmosphère respirable, une pression suffisamment élevée pour maintenir la vie - mais un manque sévère de celle-ci. Ce géant des sables est situé dans le système Gargantuesque, se rapprochant chaque jour du trou noir situé au centre. Bien qu'elle soit abandonnée et qu'elle ne soit plus verte et pleine d'eau, cette planète possède toujours une atmosphère en état de fonctionnement et vous êtes chargé de parcourir les terres incultes pour acquérir les matériaux et les ressources nécessaires à la survie dans ce désert éternel."
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Diffusion atmosphérique"
 
 #: /Language/Interface/Record[Key='NewWorldAreaLoulan']
 msgctxt "Interface.NewWorldAreaLoulan"
@@ -531,6 +496,41 @@ msgstr "Image"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuer"
+
+#: /Language/Interface/Record[Key='SettingsButtonApply']
+msgctxt "Interface.SettingsButtonApply"
+msgid "Apply"
+msgstr "Appliquer"
+
+#: /Language/Interface/Record[Key='SettingsBrightness']
+msgctxt "Interface.SettingsBrightness"
+msgid "Brightness"
+msgstr "Luminosité"
+
+#: /Language/Interface/Record[Key='SettingsFOV']
+msgctxt "Interface.SettingsFOV"
+msgid "Field Of View"
+msgstr "Champ de vision"
+
+#: /Language/Interface/Record[Key='SettingsOverallQuality']
+msgctxt "Interface.SettingsOverallQuality"
+msgid "Overall Quality"
+msgstr "Qualité globale"
+
+#: /Language/Interface/Record[Key='SettingsTextureQuality']
+msgctxt "Interface.SettingsTextureQuality"
+msgid "Texture Quality"
+msgstr "Qualité des textures"
+
+#: /Language/Interface/Record[Key='SettingsParticleQuality']
+msgctxt "Interface.SettingsParticleQuality"
+msgid "Particle Quality"
+msgstr "Qualité des particules"
+
+#: /Language/Interface/Record[Key='SettingsSoftParticles']
+msgctxt "Interface.SettingsSoftParticles"
+msgid "Soft Particles"
+msgstr "Particules"
 
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
@@ -1004,40 +1004,40 @@ msgctxt "Interface.SteamErrorTitle"
 msgid "Steam Error"
 msgstr "Erreur Steam"
 
-#: /Language/Interface/Record[Key='SteamErrorBody']
-msgctxt "Interface.SteamErrorBody"
-msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
-msgstr "Impossible de se connecter à Steam.  Essayez de redémarrer Steam avant de relancer Stationeers"
+#: /Language/Interface/Record[Key='PromptPublishBody']
+msgctxt "Interface.PromptPublishBody"
+msgid "Are you sure you want to publish this world to the workshop?"
+msgstr "Êtes vous sûr de vouloir publier ce monde sur le Workshop?"
 
-#: /Language/Interface/Record[Key='SteamErrorButton']
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
-msgstr "Quitter"
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "Publier"
 
-#: /Language/Interface/Record[Key='WaitingTitle']
-msgctxt "Interface.WaitingTitle"
-msgid "Saving Warning"
-msgstr "Avertissement de sauvegarde"
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "Supprimer la sauvegarde"
 
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "Toujours sauver les données du monde.  S'il vous plaît essayer à nouveau quand cela est terminé."
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "Êtes vous sûr ?"
 
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Quitter Stationeers"
+#: /Language/Interface/Record[Key='PromptDeleteConfirm']
+msgctxt "Interface.PromptDeleteConfirm"
+msgid "Delete"
+msgstr "Supprimer"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Êtes vous sur de vouloir quitter ?"
+#: /Language/Interface/Record[Key='PromptDebugLoadTitle']
+msgctxt "Interface.PromptDebugLoadTitle"
+msgid "Debug Load"
+msgstr "Charger en Debug"
 
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Quitter"
+#: /Language/Interface/Record[Key='PromptDebugLoadBody']
+msgctxt "Interface.PromptDebugLoadBody"
+msgid "Are you sure you want to load this world with only one character?"
+msgstr "Êtes-vous sûr de vouloir charger ce monde avec un seul personnage ?"
 
 #: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
 msgctxt "Interface.PromptDebugLoadConfirm"
@@ -1135,6 +1135,41 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Vous devez entrer un nom de monde pour enregistrer."
 
+#: /Language/Interface/Record[Key='SteamErrorBody']
+msgctxt "Interface.SteamErrorBody"
+msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
+msgstr "Impossible de se connecter à Steam.  Essayez de redémarrer Steam avant de relancer Stationeers"
+
+#: /Language/Interface/Record[Key='SteamErrorButton']
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "Quitter"
+
+#: /Language/Interface/Record[Key='WaitingTitle']
+msgctxt "Interface.WaitingTitle"
+msgid "Saving Warning"
+msgstr "Avertissement de sauvegarde"
+
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "Toujours sauver les données du monde.  S'il vous plaît essayer à nouveau quand cela est terminé."
+
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Quitter Stationeers"
+
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Êtes vous sur de vouloir quitter ?"
+
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Quitter"
+
 #: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
 msgctxt "Interface.PromptUnsubscribeTitle"
 msgid "Unsubscribe"
@@ -1159,41 +1194,6 @@ msgstr "Ecraser"
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "Êtes-vous sûr de vouloir écraser le monde sauvé existant ?"
-
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Ecraser"
-
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "Publier sur le Workshop"
-
-#: /Language/Interface/Record[Key='PromptPublishBody']
-msgctxt "Interface.PromptPublishBody"
-msgid "Are you sure you want to publish this world to the workshop?"
-msgstr "Êtes vous sûr de vouloir publier ce monde sur le Workshop?"
-
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "Publier"
-
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "Supprimer la sauvegarde"
-
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "Êtes vous sûr ?"
-
-#: /Language/Interface/Record[Key='PromptDeleteConfirm']
-msgctxt "Interface.PromptDeleteConfirm"
-msgid "Delete"
-msgstr "Supprimer"
 
 #: /Language/Interface/Record[Key='holdhotkey']
 msgctxt "Interface.holdhotkey"
@@ -3692,11 +3692,6 @@ msgctxt "Interface.SettingsUPNPEnabled"
 msgid "Enable UPNP"
 msgstr "Activer UPNP"
 
-#: /Language/Interface/Record[Key='EuropaBeta']
-msgctxt "Interface.EuropaBeta"
-msgid "Europa"
-msgstr "Europa"
-
 #: /Language/Interface/Record[Key='SettingsInterface']
 msgctxt "Interface.SettingsInterface"
 msgid "Interface"
@@ -3711,6 +3706,11 @@ msgstr "Désactiver la visualisation de l'eau"
 msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Inventaire des stocks"
+
+#: /Language/Interface/Record[Key='LoulanShortDesc']
+msgctxt "Interface.LoulanShortDesc"
+msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
+msgstr "Loulan, à votre arrivée, vous remarquerez une atmosphère respirable, une pression suffisamment élevée pour maintenir la vie - mais un manque sévère de celle-ci. Ce géant des sables est situé dans le système Gargantuesque, se rapprochant chaque jour du trou noir situé au centre. Bien qu'elle soit abandonnée et qu'elle ne soit plus verte et pleine d'eau, cette planète possède toujours une atmosphère en état de fonctionnement et vous êtes chargé de parcourir les terres incultes pour acquérir les matériaux et les ressources nécessaires à la survie dans ce désert éternel."
 
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
@@ -3899,6 +3899,11 @@ msgctxt "Interface.SettingsLensFlares"
 msgid "Lens Flares"
 msgstr "Effet lentille lumineuse"
 
+#: /Language/Interface/Record[Key='SettingsAmbientOcclusion']
+msgctxt "Interface.SettingsAmbientOcclusion"
+msgid "Ambient Occlusion"
+msgstr "Occlusion ambiante"
+
 #: /Language/Interface/Record[Key='StatusWindowThrust']
 msgctxt "Interface.StatusWindowThrust"
 msgid "Thrust"
@@ -3913,11 +3918,6 @@ msgstr "Effacer"
 msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Réinitialiser"
-
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Diffusion atmosphérique"
 
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
@@ -4037,12 +4037,11 @@ msgid "Smelting {0}"
 msgstr "Fonte {0}"
 
 #: /Language/Interface/Record[Key='FurnaceChamberText']
+#, fuzzy
 msgctxt "Interface.FurnaceChamberText"
 msgid ""
-"\n"
-"        Pressure {0}\n"
-"        Temperature {1}\n"
-"      "
+"Pressure {0}\n"
+"        Temperature {1}"
 msgstr ""
 "\n"
 "Pression {0}\n"
