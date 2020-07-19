@@ -10,65 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Felülírás"
-
-#: /Language/Interface/Record[Key='SettingsVsync']
-msgctxt "Interface.SettingsVsync"
-msgid "V-Sync"
-msgstr "Vertikális szinkronizálás"
-
-#: /Language/Interface/Record[Key='SettingsScreenMode']
-msgctxt "Interface.SettingsScreenMode"
-msgid "Screen Mode"
-msgstr "Képernyő üzemmód"
-
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Felbontás"
-
-#: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
-msgctxt "Interface.SettingsTitleAdvScreen"
-msgid "Advanced Settings"
-msgstr "További beállítások"
-
-#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
-msgctxt "Interface.SettingsTitleBasicScreen"
-msgid "Basic Settings"
-msgstr "Alapbeállítások"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "Ablak beállításai"
-
-#: /Language/Interface/Record[Key='SettingsTitleAutosave']
-msgctxt "Interface.SettingsTitleAutosave"
-msgid "AutoSave Settings"
-msgstr "Automatikus mentés beállításai"
-
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "Publikálás a Műhelyben"
-
-#: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
-msgctxt "Interface.SettingsTitleDisplayTools"
-msgid "Display Tools"
-msgstr "Eszközök megjelenítése"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Alapértelmezett"
-
-#: /Language/Interface/Record[Key='SettingsDisplayFPS']
-msgctxt "Interface.SettingsDisplayFPS"
-msgid "Display FPS"
-msgstr "FPS megjelenítése"
+#: /Language/Interface/Record[Key='WaitingTitle']
+msgctxt "Interface.WaitingTitle"
+msgid "Saving Warning"
+msgstr "Figyelem, mentés"
 
 #: /Language/Interface/Record[Key='SettingsDisplayLatency']
 msgctxt "Interface.SettingsDisplayLatency"
@@ -104,6 +49,11 @@ msgstr "Irányítás"
 msgctxt "Interface.SettingsMenuAudio"
 msgid "Audio"
 msgstr "Audió"
+
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "Még mindig mentődik a világ. Próbáld meg később."
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -320,10 +270,10 @@ msgctxt "Interface.NewWorldAreaMars"
 msgid "Mars"
 msgstr "Mars"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Légköri szóródás"
+#: /Language/Interface/Record[Key='LoulanShortDesc']
+msgctxt "Interface.LoulanShortDesc"
+msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
+msgstr "Á, a Loulan. Amikor megérkezel tapasztalni fogod a belélegezhető atmoszféráját, mely nyomása elegendő az életfenntartáshoz - de számos hiányossággal. Ez a sivatagos óriás a Gargantua rendszerbrn kering, naponta egyre közelebb a központban levő fekete lyukhoz. Bár a bolygó már kihalt és többé nem borítja felszínét víz és növényzet, mégis van egy működő atmoszférája, a te feladatod pedig, hogy kiaknázd a megmaradt kopár vidék maradék erőforrásait a végtelen sivatagban való túléléshez."
 
 #: /Language/Interface/Record[Key='NewWorldAreaLoulan']
 msgctxt "Interface.NewWorldAreaLoulan"
@@ -345,10 +295,11 @@ msgctxt "Interface.NewWorldButtonCreate"
 msgid "Create World"
 msgstr "Világ létrehozása"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "Vissza"
+#: /Language/Interface/Record[Key='ChangeSettingToForAll']
+#, fuzzy
+msgctxt "Interface.ChangeSettingToForAll"
+msgid "Cycle to <color=yellow>{0}</color>>for all {1}"
+msgstr "Minden {1} megváltoztatása erre: <color=yellow>{0}</color>"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -495,6 +446,56 @@ msgstr "Kép"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
+
+#: /Language/Interface/Record[Key='SettingsDisplayFPS']
+msgctxt "Interface.SettingsDisplayFPS"
+msgid "Display FPS"
+msgstr "FPS megjelenítése"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Alapértelmezett"
+
+#: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
+msgctxt "Interface.SettingsTitleDisplayTools"
+msgid "Display Tools"
+msgstr "Eszközök megjelenítése"
+
+#: /Language/Interface/Record[Key='SettingsTitleAutosave']
+msgctxt "Interface.SettingsTitleAutosave"
+msgid "AutoSave Settings"
+msgstr "Automatikus mentés beállításai"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "Ablak beállításai"
+
+#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
+msgctxt "Interface.SettingsTitleBasicScreen"
+msgid "Basic Settings"
+msgstr "Alapbeállítások"
+
+#: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
+msgctxt "Interface.SettingsTitleAdvScreen"
+msgid "Advanced Settings"
+msgstr "További beállítások"
+
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Felbontás"
+
+#: /Language/Interface/Record[Key='SettingsScreenMode']
+msgctxt "Interface.SettingsScreenMode"
+msgid "Screen Mode"
+msgstr "Képernyő üzemmód"
+
+#: /Language/Interface/Record[Key='SettingsVsync']
+msgctxt "Interface.SettingsVsync"
+msgid "V-Sync"
+msgstr "Vertikális szinkronizálás"
 
 #: /Language/Interface/Record[Key='SettingsButtonApply']
 msgctxt "Interface.SettingsButtonApply"
@@ -911,11 +912,6 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedDynamic"
 msgid "Placement blocked by #VAR1#"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderSteel']
-msgctxt "Interface.ElectronicReaderSteel"
-msgid "Steel"
-msgstr "Acél"
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
@@ -925,6 +921,11 @@ msgstr ""
 msgctxt "Interface.TooltipPlacementSnapFaceNotMountableDynamic"
 msgid "#VAR1# does not allow mounting"
 msgstr ""
+
+#: /Language/Interface/Record[Key='ElectronicReaderLead']
+msgctxt "Interface.ElectronicReaderLead"
+msgid "Lead"
+msgstr "Ólom"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceNotMountableFallback"
@@ -951,55 +952,55 @@ msgctxt "Interface.SettingsInvertMouseWheelInventory"
 msgid "Invert Inventory Scroll"
 msgstr "Tárhely görgetés invertálása"
 
-#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
-msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
-msgid "Advanced Settings"
-msgstr "További beállítások"
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Kilépés a Stationeersből"
 
-#: /Language/Interface/Record[Key='SettingsUPNPNote']
-msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "Ha az Universal Plug and Play (UPNP) engedélyezve van itt és a routereden, a portok automatikusan továbbításra kerülnek egy új játék elindításakor."
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Biztosan ki akarsz lépni?"
 
-#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
-msgctxt "Interface.SettingsTooltipOpacity"
-msgid "Tooltip Opacity"
-msgstr "Eszköztipp átlátszóság"
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Kilépés"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
-msgctxt "Interface.MenuDownloadDriverButton"
-msgid "Download Drivers"
-msgstr "Driverek letöltése"
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "Több AMD videókártya tulajdonos jelezte, hogy a játékbeli hibák megoldódtak a driverek frissítésével. <b>Erősen</b> ajánljuk, hogy frissítsd őket te is játék előtt."
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Biztos vagy benne, hogy leiratkozol erről a Műhely tételről?"
 
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Csevegőablak eltűnési ideje"
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
-msgctxt "Interface.PromptResetSettingsTitle"
-msgid "Reset Settings"
-msgstr "Beállítások visszaállítása"
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Felülírás"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsBody']
-msgctxt "Interface.PromptResetSettingsBody"
-msgid "Are you sure?"
-msgstr "Biztos vagy benne?"
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Biztos vagy benne, hogy felülírod a mentett világot?"
 
-#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
-msgctxt "Interface.PromptResetSettingsConfirm"
-msgid "Reset"
-msgstr "Visszaállítás"
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Felülírás"
 
-#: /Language/Interface/Record[Key='SteamErrorTitle']
-msgctxt "Interface.SteamErrorTitle"
-msgid "Steam Error"
-msgstr "Steam hiba"
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "Publikálás a Műhelyben"
 
 #: /Language/Interface/Record[Key='PromptPublishBody']
 msgctxt "Interface.PromptPublishBody"
@@ -1132,6 +1133,56 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Be kell írnod egy nevet a mentéshez."
 
+#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
+msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
+msgid "Advanced Settings"
+msgstr "További beállítások"
+
+#: /Language/Interface/Record[Key='SettingsUPNPNote']
+msgctxt "Interface.SettingsUPNPNote"
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
+msgstr "Ha az Universal Plug and Play (UPNP) engedélyezve van itt és a routereden, a portok automatikusan továbbításra kerülnek egy új játék elindításakor."
+
+#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
+msgctxt "Interface.SettingsTooltipOpacity"
+msgid "Tooltip Opacity"
+msgstr "Eszköztipp átlátszóság"
+
+#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
+msgctxt "Interface.MenuDownloadDriverButton"
+msgid "Download Drivers"
+msgstr "Driverek letöltése"
+
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "Több AMD videókártya tulajdonos jelezte, hogy a játékbeli hibák megoldódtak a driverek frissítésével. <b>Erősen</b> ajánljuk, hogy frissítsd őket te is játék előtt."
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Csevegőablak eltűnési ideje"
+
+#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
+msgctxt "Interface.PromptResetSettingsTitle"
+msgid "Reset Settings"
+msgstr "Beállítások visszaállítása"
+
+#: /Language/Interface/Record[Key='PromptResetSettingsBody']
+msgctxt "Interface.PromptResetSettingsBody"
+msgid "Are you sure?"
+msgstr "Biztos vagy benne?"
+
+#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
+msgctxt "Interface.PromptResetSettingsConfirm"
+msgid "Reset"
+msgstr "Visszaállítás"
+
+#: /Language/Interface/Record[Key='SteamErrorTitle']
+msgctxt "Interface.SteamErrorTitle"
+msgid "Steam Error"
+msgstr "Steam hiba"
+
 #: /Language/Interface/Record[Key='SteamErrorBody']
 msgctxt "Interface.SteamErrorBody"
 msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
@@ -1141,56 +1192,6 @@ msgstr "A Steamhez való csatlakozás sikertelen. Próbáld meg újraindítani a
 msgctxt "Interface.SteamErrorButton"
 msgid "Quit"
 msgstr "Kilépés"
-
-#: /Language/Interface/Record[Key='WaitingTitle']
-msgctxt "Interface.WaitingTitle"
-msgid "Saving Warning"
-msgstr "Figyelem, mentés"
-
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "Még mindig mentődik a világ. Próbáld meg később."
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Kilépés a Stationeersből"
-
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Biztosan ki akarsz lépni?"
-
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Kilépés"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Biztos vagy benne, hogy leiratkozol erről a Műhely tételről?"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
-
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Felülírás"
-
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Biztos vagy benne, hogy felülírod a mentett világot?"
 
 #: /Language/Interface/Record[Key='holdhotkey']
 msgctxt "Interface.holdhotkey"
@@ -2417,11 +2418,6 @@ msgctxt "Interface.ElectronicReaderElectrum"
 msgid "Electrum"
 msgstr "Elektrum"
 
-#: /Language/Interface/Record[Key='ElectronicReaderLead']
-msgctxt "Interface.ElectronicReaderLead"
-msgid "Lead"
-msgstr "Ólom"
-
 #: /Language/Interface/Record[Key='ElectronicReaderNickel']
 msgctxt "Interface.ElectronicReaderNickel"
 msgid "Nickel"
@@ -2441,6 +2437,11 @@ msgstr "Szénhidrogén"
 msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
 msgstr "Urán"
+
+#: /Language/Interface/Record[Key='ElectronicReaderSteel']
+msgctxt "Interface.ElectronicReaderSteel"
+msgid "Steel"
+msgstr "Acél"
 
 #: /Language/Interface/Record[Key='ElectronicReaderCarbon']
 msgctxt "Interface.ElectronicReaderCarbon"
@@ -3709,11 +3710,6 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Régi tárhely"
 
-#: /Language/Interface/Record[Key='LoulanShortDesc']
-msgctxt "Interface.LoulanShortDesc"
-msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
-msgstr "Á, a Loulan. Amikor megérkezel tapasztalni fogod a belélegezhető atmoszféráját, mely nyomása elegendő az életfenntartáshoz - de számos hiányossággal. Ez a sivatagos óriás a Gargantua rendszerbrn kering, naponta egyre közelebb a központban levő fekete lyukhoz. Bár a bolygó már kihalt és többé nem borítja felszínét víz és növényzet, mégis van egy működő atmoszférája, a te feladatod pedig, hogy kiaknázd a megmaradt kopár vidék maradék erőforrásait a végtelen sivatagban való túléléshez."
-
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3728,6 +3724,11 @@ msgstr "Könyvtár"
 msgctxt "Interface.ButtonFunctions"
 msgid "f"
 msgstr "f"
+
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "Vissza"
 
 #: /Language/Interface/Record[Key='HeadingEdit']
 msgctxt "Interface.HeadingEdit"
@@ -3921,6 +3922,11 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Visszaállítás"
 
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Légköri szóródás"
+
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
 msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
@@ -3930,12 +3936,6 @@ msgstr "{SLOT:AccessCard} szükséges az interakcióhoz"
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
 msgid "Interaction temporarily disabled on this object"
 msgstr "Az interakció ideiglenesen nem engedélyezett"
-
-#: /Language/Interface/Record[Key='ChangeSettingToForAll']
-#, fuzzy
-msgctxt "Interface.ChangeSettingToForAll"
-msgid "Cycle to <color=yellow>{0}</color>>for all {1}"
-msgstr "Minden {1} megváltoztatása erre: <color=yellow>{0}</color>"
 
 #: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
 #, fuzzy
@@ -4043,7 +4043,7 @@ msgstr "Beolvasztás {0}"
 msgctxt "Interface.FurnaceChamberText"
 msgid ""
 "Pressure {0}\n"
-"        Temperature {1}"
+"Temperature {1}"
 msgstr ""
 "\n"
 "        Nyomás {0}\n"

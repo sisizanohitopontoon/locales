@@ -7,65 +7,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
-msgctxt "Interface.PromptOverwriteConfirm"
-msgid "Overwrite"
-msgstr "Prepísať"
-
-#: /Language/Interface/Record[Key='SettingsVsync']
-msgctxt "Interface.SettingsVsync"
-msgid "V-Sync"
-msgstr "V-Sync"
-
-#: /Language/Interface/Record[Key='SettingsScreenMode']
-msgctxt "Interface.SettingsScreenMode"
-msgid "Screen Mode"
-msgstr "Režim Obrazovky"
-
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Rozlíšenie"
-
-#: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
-msgctxt "Interface.SettingsTitleAdvScreen"
-msgid "Advanced Settings"
-msgstr "Pokročilé Nastavenia"
-
-#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
-msgctxt "Interface.SettingsTitleBasicScreen"
-msgid "Basic Settings"
-msgstr "Základné Nastavenia"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "Nastavenia Okna"
-
-#: /Language/Interface/Record[Key='SettingsTitleAutosave']
-msgctxt "Interface.SettingsTitleAutosave"
-msgid "AutoSave Settings"
-msgstr "Nastavenia automatického ukladania"
-
-#: /Language/Interface/Record[Key='PromptPublishTitle']
-msgctxt "Interface.PromptPublishTitle"
-msgid "Publish to Workshop"
-msgstr "Publikovať do Workshopu"
-
-#: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
-msgctxt "Interface.SettingsTitleDisplayTools"
-msgid "Display Tools"
-msgstr "Zobrazenie"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Predvolené"
-
-#: /Language/Interface/Record[Key='SettingsDisplayFPS']
-msgctxt "Interface.SettingsDisplayFPS"
-msgid "Display FPS"
-msgstr "Zobraziť FPS"
+#: /Language/Interface/Record[Key='WaitingTitle']
+#, fuzzy
+msgctxt "Interface.WaitingTitle"
+msgid "Saving Warning"
+msgstr "Varovanie"
 
 #: /Language/Interface/Record[Key='SettingsDisplayLatency']
 msgctxt "Interface.SettingsDisplayLatency"
@@ -101,6 +47,11 @@ msgstr "Ovládanie"
 msgctxt "Interface.SettingsMenuAudio"
 msgid "Audio"
 msgstr "Audio"
+
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -325,10 +276,10 @@ msgctxt "Interface.NewWorldAreaMars"
 msgid "Mars"
 msgstr "Mars"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Atmospheric Scattering"
+#: /Language/Interface/Record[Key='LoulanShortDesc']
+msgctxt "Interface.LoulanShortDesc"
+msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
+msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldAreaLoulan']
 msgctxt "Interface.NewWorldAreaLoulan"
@@ -351,10 +302,11 @@ msgctxt "Interface.NewWorldButtonCreate"
 msgid "Create World"
 msgstr "Vytvoriť svet"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "Naspäť"
+#: /Language/Interface/Record[Key='ChangeSettingToForAll']
+#, fuzzy
+msgctxt "Interface.ChangeSettingToForAll"
+msgid "Cycle to <color=yellow>{0}</color>>for all {1}"
+msgstr "Change to <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -502,6 +454,56 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Pokračovať"
+
+#: /Language/Interface/Record[Key='SettingsDisplayFPS']
+msgctxt "Interface.SettingsDisplayFPS"
+msgid "Display FPS"
+msgstr "Zobraziť FPS"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Predvolené"
+
+#: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
+msgctxt "Interface.SettingsTitleDisplayTools"
+msgid "Display Tools"
+msgstr "Zobrazenie"
+
+#: /Language/Interface/Record[Key='SettingsTitleAutosave']
+msgctxt "Interface.SettingsTitleAutosave"
+msgid "AutoSave Settings"
+msgstr "Nastavenia automatického ukladania"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "Nastavenia Okna"
+
+#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
+msgctxt "Interface.SettingsTitleBasicScreen"
+msgid "Basic Settings"
+msgstr "Základné Nastavenia"
+
+#: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
+msgctxt "Interface.SettingsTitleAdvScreen"
+msgid "Advanced Settings"
+msgstr "Pokročilé Nastavenia"
+
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Rozlíšenie"
+
+#: /Language/Interface/Record[Key='SettingsScreenMode']
+msgctxt "Interface.SettingsScreenMode"
+msgid "Screen Mode"
+msgstr "Režim Obrazovky"
+
+#: /Language/Interface/Record[Key='SettingsVsync']
+msgctxt "Interface.SettingsVsync"
+msgid "V-Sync"
+msgstr "V-Sync"
 
 #: /Language/Interface/Record[Key='SettingsButtonApply']
 msgctxt "Interface.SettingsButtonApply"
@@ -919,11 +921,6 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedDynamic"
 msgid "Placement blocked by #VAR1#"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderSteel']
-msgctxt "Interface.ElectronicReaderSteel"
-msgid "Steel"
-msgstr ""
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
@@ -932,6 +929,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
 msgctxt "Interface.TooltipPlacementSnapFaceNotMountableDynamic"
 msgid "#VAR1# does not allow mounting"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ElectronicReaderLead']
+msgctxt "Interface.ElectronicReaderLead"
+msgid "Lead"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableFallback']
@@ -959,56 +961,55 @@ msgctxt "Interface.SettingsInvertMouseWheelInventory"
 msgid "Invert Inventory Scroll"
 msgstr "Invert Inventory Scroll"
 
-#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
-msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
-msgid "Advanced Settings"
-msgstr "Pokročilé Nastavenia"
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Opustiť Stationeers"
 
-#: /Language/Interface/Record[Key='SettingsUPNPNote']
-#, fuzzy
-msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "Pokiaľ je Universal Plug and Play (UPNP) zapnuté na vašom routeri, budú tieto porty automaticky presmerované pokiaľ hostujete hru."
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Ste si istý, že chcete opustiť hru?"
 
-#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
-msgctxt "Interface.SettingsTooltipOpacity"
-msgid "Tooltip Opacity"
-msgstr "Priehladnosť nápovedy"
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Opustiť"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
-msgctxt "Interface.MenuDownloadDriverButton"
-msgid "Download Drivers"
-msgstr "Stiahnuť Ovládače"
-
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Oneskorenie zmiznutia četu"
-
-#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
-msgctxt "Interface.PromptResetSettingsTitle"
-msgid "Reset Settings"
-msgstr "Resetovať Nastavenia"
-
-#: /Language/Interface/Record[Key='PromptResetSettingsBody']
-msgctxt "Interface.PromptResetSettingsBody"
-msgid "Are you sure?"
-msgstr "Ste si istý?"
-
-#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
-msgctxt "Interface.PromptResetSettingsConfirm"
-msgid "Reset"
-msgstr "Resetovať"
-
-#: /Language/Interface/Record[Key='SteamErrorTitle']
-msgctxt "Interface.SteamErrorTitle"
-msgid "Steam Error"
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
 msgstr ""
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptOverwriteTitle']
+msgctxt "Interface.PromptOverwriteTitle"
+msgid "Overwrite"
+msgstr "Prepísanie"
+
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Ste si istý, ťe chcete prepísať už existujúci uložený svet?"
+
+#: /Language/Interface/Record[Key='PromptOverwriteConfirm']
+msgctxt "Interface.PromptOverwriteConfirm"
+msgid "Overwrite"
+msgstr "Prepísať"
+
+#: /Language/Interface/Record[Key='PromptPublishTitle']
+msgctxt "Interface.PromptPublishTitle"
+msgid "Publish to Workshop"
+msgstr "Publikovať do Workshopu"
 
 #: /Language/Interface/Record[Key='PromptPublishBody']
 msgctxt "Interface.PromptPublishBody"
@@ -1142,6 +1143,57 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "You must enter a world name to save."
 
+#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
+msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
+msgid "Advanced Settings"
+msgstr "Pokročilé Nastavenia"
+
+#: /Language/Interface/Record[Key='SettingsUPNPNote']
+#, fuzzy
+msgctxt "Interface.SettingsUPNPNote"
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
+msgstr "Pokiaľ je Universal Plug and Play (UPNP) zapnuté na vašom routeri, budú tieto porty automaticky presmerované pokiaľ hostujete hru."
+
+#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
+msgctxt "Interface.SettingsTooltipOpacity"
+msgid "Tooltip Opacity"
+msgstr "Priehladnosť nápovedy"
+
+#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
+msgctxt "Interface.MenuDownloadDriverButton"
+msgid "Download Drivers"
+msgstr "Stiahnuť Ovládače"
+
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Oneskorenie zmiznutia četu"
+
+#: /Language/Interface/Record[Key='PromptResetSettingsTitle']
+msgctxt "Interface.PromptResetSettingsTitle"
+msgid "Reset Settings"
+msgstr "Resetovať Nastavenia"
+
+#: /Language/Interface/Record[Key='PromptResetSettingsBody']
+msgctxt "Interface.PromptResetSettingsBody"
+msgid "Are you sure?"
+msgstr "Ste si istý?"
+
+#: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
+msgctxt "Interface.PromptResetSettingsConfirm"
+msgid "Reset"
+msgstr "Resetovať"
+
+#: /Language/Interface/Record[Key='SteamErrorTitle']
+msgctxt "Interface.SteamErrorTitle"
+msgid "Steam Error"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SteamErrorBody']
 msgctxt "Interface.SteamErrorBody"
 msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
@@ -1152,57 +1204,6 @@ msgstr ""
 msgctxt "Interface.SteamErrorButton"
 msgid "Quit"
 msgstr "Opustiť"
-
-#: /Language/Interface/Record[Key='WaitingTitle']
-#, fuzzy
-msgctxt "Interface.WaitingTitle"
-msgid "Saving Warning"
-msgstr "Varovanie"
-
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr ""
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Opustiť Stationeers"
-
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Ste si istý, že chcete opustiť hru?"
-
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Opustiť"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PromptOverwriteTitle']
-msgctxt "Interface.PromptOverwriteTitle"
-msgid "Overwrite"
-msgstr "Prepísanie"
-
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Ste si istý, ťe chcete prepísať už existujúci uložený svet?"
 
 #: /Language/Interface/Record[Key='holdhotkey']
 msgctxt "Interface.holdhotkey"
@@ -2410,11 +2411,6 @@ msgctxt "Interface.ElectronicReaderElectrum"
 msgid "Electrum"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderLead']
-msgctxt "Interface.ElectronicReaderLead"
-msgid "Lead"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ElectronicReaderNickel']
 msgctxt "Interface.ElectronicReaderNickel"
 msgid "Nickel"
@@ -2433,6 +2429,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='ElectronicReaderUranium']
 msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ElectronicReaderSteel']
+msgctxt "Interface.ElectronicReaderSteel"
+msgid "Steel"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderCarbon']
@@ -3741,11 +3742,6 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LoulanShortDesc']
-msgctxt "Interface.LoulanShortDesc"
-msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
@@ -3760,6 +3756,11 @@ msgstr ""
 msgctxt "Interface.ButtonFunctions"
 msgid "f"
 msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "Naspäť"
 
 #: /Language/Interface/Record[Key='HeadingEdit']
 msgctxt "Interface.HeadingEdit"
@@ -3941,6 +3942,11 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Reset"
 
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Atmospheric Scattering"
+
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
 msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
@@ -3950,12 +3956,6 @@ msgstr ""
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
 msgid "Interaction temporarily disabled on this object"
 msgstr ""
-
-#: /Language/Interface/Record[Key='ChangeSettingToForAll']
-#, fuzzy
-msgctxt "Interface.ChangeSettingToForAll"
-msgid "Cycle to <color=yellow>{0}</color>>for all {1}"
-msgstr "Change to <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
 #, fuzzy
@@ -4066,7 +4066,7 @@ msgstr "Smelting {0}"
 msgctxt "Interface.FurnaceChamberText"
 msgid ""
 "Pressure {0}\n"
-"        Temperature {1}"
+"Temperature {1}"
 msgstr ""
 "Pressure {0}\n"
 "Temperature {1}"
