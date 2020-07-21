@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-07-21 08:10+0000\n"
+"PO-Revision-Date: 2020-07-21 08:15+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2715,7 +2715,6 @@ msgid "Configure Gas Display"
 msgstr "Konfigurace displeje plynu"
 
 #: /Language/Interface/Record[Key='ConfigureGasSensorDescription']
-#, fuzzy
 msgctxt "Interface.ConfigureGasSensorDescription"
 msgid ""
 "You can now turn on and configure the {THING:StructureConsole}. The {THING:StructureConsole} on the left will display pressure, so this console will need to display temperature. After turning on the console and inserting the {THING:ItemDataDisk}, toggle the mode to 'Temperature' by clicking on the 'Pressure' option.\n"
@@ -2723,9 +2722,9 @@ msgid ""
 "Now select the {THING:StructureFurnace} as the input device for the console. Scroll down until you see {THING:StructureFurnace} and select it. \n"
 "    "
 msgstr ""
-"Nyní můžete zapnout a nakonfigurovat {THING:StructureConsole}. {THING:StructureConsole} vpravo zobrazí tlak, takže tato konzole bude muset zobrazovat teplotu. Po zapnutí konzole a vložení {THING:ItemDataDisk} přepněte režim na 'Teplota' kliknutím na možnost 'Tlak'.\n"
+"Nyní můžete zapnout a nakonfigurovat {THING:StructureConsole}. Na levé straně {THING:StructureConsole} se zobrazí tlak, takže tato konzole bude muset zobrazovat teplotu. Po zapnutí konzole a vložení {THING:ItemDataDisk} přepněte režim na 'Teplota' kliknutím na možnost 'Tlak'.\n"
 "\n"
-"Nyní vyberte {THING:StructureFurnace} jako vstupní zařízení pro konzoli. Otáčejte kolečkem myši, dokud se nezobrazí položka {THING:StructureFurnace} a vyberte ji. \n"
+"Nyní vyberte jako vstupní zařízení konzole {THING:StructureFurnace}. Posouvejte dolů, dokud se nezobrazí {THING:StructureFurnace} a vyberte ji.\n"
 "    "
 
 #: /Language/Interface/Record[Key='ConfigureGasSensorTask1']
@@ -2734,10 +2733,9 @@ msgid "Turn on the {THING:StructureConsole}"
 msgstr "Zapněte {THING:StructureConsole}"
 
 #: /Language/Interface/Record[Key='ConfigureGasSensorTask2']
-#, fuzzy
 msgctxt "Interface.ConfigureGasSensorTask2"
 msgid "Insert the {THING:ItemDataDisk} found in the red crate into the {THING:StructureConsole}"
-msgstr "Vložte {THING:ItemDataDisk} do {THING:StructureConsole}"
+msgstr "Vložte {THING:ItemDataDisk} nalezený v červené bedně do {THING:StructureConsole}"
 
 #: /Language/Interface/Record[Key='ConfigureGasSensorTask3']
 msgctxt "Interface.ConfigureGasSensorTask3"
@@ -2783,7 +2781,6 @@ msgid "Igniting The Furnace"
 msgstr "Zapálení pece"
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceDescription']
-#, fuzzy
 msgctxt "Interface.IgnitingTheFurnaceDescription"
 msgid ""
 "To create steel, the {THING:StructureFurnace} must achieve the minimum required pressure and temperature. You can do this either by adding volatiles and oxite ice directly to the furnace, or by providing a fuel mix.\n"
@@ -2793,7 +2790,7 @@ msgid ""
 msgstr ""
 "Chcete-li vytvořit ocel, musí {THING:StructureFurnace} dosáhnout minimálního požadovaného tlaku a teploty. Můžete to udělat buď přidáním těkavých látek a oxidového ledu přímo do pece, nebo poskytnutím palivové směsi.\n"
 "\n"
-"První metoda používá dvě části těkavé látky a jeden díl oxidu. Dávejte pozor, abyste nepřetížili {THING:StructureFurnace}, protože přidání příliš mnoho oxidů nebo těkavých látek může přetlakovat pec a způsobit ničivou explozi.\n"
+"První metoda používá dvě části těkavých látek a jeden díl oxidu. Dávejte pozor, abyste nepřetížili {THING:StructureFurnace}, protože přidání příliš mnoho oxidů nebo těkavých látek může přetlakovat pec a způsobit ničivou explozi.\n"
 "    "
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask1']
@@ -2807,10 +2804,9 @@ msgid "Insert the {THING:ItemVolatiles} into the {THING:StructureFurnace}"
 msgstr "Vložte {THING:ItemVolatiles} do {THING:StructureFurnace}"
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask3']
-#, fuzzy
 msgctxt "Interface.IgnitingTheFurnaceTask3"
 msgid "Press the red 'activate' button twice on the {THING:StructureFurnace}"
-msgstr "Stiskněte červené tlačítko 'aktivovat' na {THING:StructureFurnace}"
+msgstr "Stiskněte dvakrát červené tlačítko 'aktivovat' na {THING:StructureFurnace}"
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask4']
 msgctxt "Interface.IgnitingTheFurnaceTask4"
@@ -2881,7 +2877,6 @@ msgid "Forming the Ingot"
 msgstr "Formování Ingotu"
 
 #: /Language/Interface/Record[Key='FromingTheIngotDescription']
-#, fuzzy
 msgctxt "Interface.FromingTheIngotDescription"
 msgid ""
 "Use the Open Mold lever to open the {THING:StructureFurnace} and get the newly made {THING:ItemSteelIngot}. This will provide you with half of the required steel to make a {THING:ItemKitBattery}. "
