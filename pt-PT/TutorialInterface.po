@@ -2529,8 +2529,9 @@ msgid "Smelt advanced metals and alloys"
 msgstr ""
 
 #: /Language/Interface/Record[Key='GasSensors']
+#, fuzzy
 msgctxt "Interface.GasSensors"
-msgid "Gas Sensors"
+msgid "Gas Displays"
 msgstr ""
 
 #: /Language/Interface/Record[Key='GasSensorsDescription']
@@ -2540,7 +2541,7 @@ msgid ""
 "\n"
 "The {THING:StructureFurnace} is used to smelt ores into ingots and alloys. Use these to create new and advanced technologies. \n"
 "\n"
-"Your first task is to set up a Gas Sensor display to monitor the conditions inside the {THING:StructureFurnace}. You can display pressure or temperature, to get live updates on what's happening.\n"
+"Your first task is to set up a Gas Display to monitor the conditions inside the {THING:StructureFurnace}. You can display pressure or temperature, to get live updates on what's happening.\n"
 "    \n"
 msgstr ""
 
@@ -2570,13 +2571,13 @@ msgstr "Remove as {THING:ItemGlassSheets} da primeira {THING:StructureConsole}."
 
 #: /Language/Interface/Record[Key='ConfigureGasSensor']
 msgctxt "Interface.ConfigureGasSensor"
-msgid "Configure Gas Sensor"
+msgid "Configure Gas Display"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ConfigureGasSensorDescription']
 msgctxt "Interface.ConfigureGasSensorDescription"
 msgid ""
-"You can now turn on and configure the {THING:StructureConsole}. The {THING:StructureConsole} on the right will display pressure, so this console will need to display temperature. After turning on the console and inserting the {THING:ItemDataDisk}, toggle the mode to 'Temperature' by clicking on the 'Pressure' option.\n"
+"You can now turn on and configure the {THING:StructureConsole}. The {THING:StructureConsole} on the left will display pressure, so this console will need to display temperature. After turning on the console and inserting the {THING:ItemDataDisk}, toggle the mode to 'Temperature' by clicking on the 'Pressure' option.\n"
 "\n"
 "Now select the {THING:StructureFurnace} as the input device for the console. Scroll down until you see {THING:StructureFurnace} and select it. \n"
 "    "
@@ -2591,7 +2592,7 @@ msgstr "Liga o {THING:StructureAutolathe}."
 #: /Language/Interface/Record[Key='ConfigureGasSensorTask2']
 #, fuzzy
 msgctxt "Interface.ConfigureGasSensorTask2"
-msgid "Insert the {THING:ItemDataDisk} into the {THING:StructureConsole}"
+msgid "Insert the {THING:ItemDataDisk} found in the red crate into the {THING:StructureConsole}"
 msgstr "Introduz o {THING:ItemDataDisk} na {THING:StructureConsole}."
 
 #: /Language/Interface/Record[Key='ConfigureGasSensorTask3']
@@ -2641,7 +2642,7 @@ msgctxt "Interface.IgnitingTheFurnaceDescription"
 msgid ""
 "To create steel, the {THING:StructureFurnace} must achieve the minimum required pressure and temperature. You can do this either by adding volatiles and oxite ice directly to the furnace, or by providing a fuel mix.\n"
 "\n"
-"The first method uses two parts volitiles and one part oxite. Be careful not overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may overpressure the furnace and cause a devastating explosion.\n"
+"The first method uses two parts volatiles and one part oxite. Be careful not to overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may over pressurize the furnace and cause a devastating explosion.\n"
 "    "
 msgstr ""
 
@@ -2660,7 +2661,7 @@ msgstr "Introduz o {THING:ItemDataDisk} na {THING:StructureConsole}."
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask3']
 #, fuzzy
 msgctxt "Interface.IgnitingTheFurnaceTask3"
-msgid "Press the red 'activate' button on the {THING:StructureFurnace}"
+msgid "Press the red 'activate' button twice on the {THING:StructureFurnace}"
 msgstr "Liga o {THING:StructureArcFurnace}."
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask4']
@@ -2737,13 +2738,13 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='FromingTheIngotDescription']
 msgctxt "Interface.FromingTheIngotDescription"
-msgid "Use the ingot release lever to open the {THING:StructureFurnace} and get the newly made {THING:ItemSteelIngot}. This will provide you with half of the required steel to make a {THING:ItemKitBattery}. "
+msgid "Use the Open Mold lever to open the {THING:StructureFurnace} and get the newly made {THING:ItemSteelIngot}. This will provide you with half of the required steel to make a {THING:ItemKitBattery}. "
 msgstr ""
 
 #: /Language/Interface/Record[Key='FromingTheIngotTask1']
 #, fuzzy
 msgctxt "Interface.FromingTheIngotTask1"
-msgid "Pull the ingot release lever on the {THING:StructureFurnace}"
+msgid "Pull the Open Mold lever on the {THING:StructureFurnace}"
 msgstr "Liga o {THING:StructureArcFurnace}."
 
 #: /Language/Interface/Record[Key='FromingTheIngotTask2']
@@ -2765,7 +2766,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='VentingTheGasesDescription']
 msgctxt "Interface.VentingTheGasesDescription"
-msgid "The {THING:StructureFurnace} is currently filled with highly pressurized toxic gas. You can vent it directly into the atmosphere or cool, filter and recycle the gases for the future use. The output pipe is connected to a {THING:StructureValve} which prevents the gases from escaping too soon. The pipe is also equipped with a {THING:StructureVolumePump} that allows venting of gases quickly."
+msgid "The {THING:StructureFurnace} is currently filled with highly pressurized toxic gas. You can vent it directly into the atmosphere or cool, filter and recycle the gases for future use. The output pipe is connected to a {THING:StructureValve} which prevents the gases from escaping too soon. The pipe is also equipped with a {THING:StructureVolumePump} that allows venting of gases quickly."
 msgstr ""
 
 #: /Language/Interface/Record[Key='VentingTheGasesTask1']
@@ -2799,7 +2800,7 @@ msgstr "Solda a {THING:StructureFrame}"
 #: /Language/Interface/Record[Key='VentingTheGasesTask5']
 #, fuzzy
 msgctxt "Interface.VentingTheGasesTask5"
-msgid "Turn off the {THING:StructureValve}"
+msgid "Turn off the {THING:StructureVolumePump}"
 msgstr "Liga o {THING:StructureAutolathe}."
 
 #: /Language/Interface/Record[Key='AddingFuelMix']
@@ -2814,7 +2815,7 @@ msgid ""
 "\n"
 "The ideal fuel mix for the {THING:StructureFurnace} is a blend of 75% volatiles and 25% oxygen.\n"
 "\n"
-"Make sure to close the ingot release lever before refilling!\n"
+"Make sure to close the Open Mold lever before refilling!\n"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AddingFuelMixTask1']
@@ -2863,7 +2864,7 @@ msgstr "Apanha o {THING:ItemKitCompositeFloorGrating} da caixa."
 #: /Language/Interface/Record[Key='NewAlloyTask3']
 #, fuzzy
 msgctxt "Interface.NewAlloyTask3"
-msgid " Open the {THING:StructureFurnace} and remove the steel"
+msgid "Open {THING:StructureFurnace} the using the Open Mold lever and remove the steel"
 msgstr "Constrói o {THING:StructureGasSensor} na área indicada."
 
 #: /Language/Interface/Record[Key='WhatASteel']
@@ -3865,6 +3866,11 @@ msgstr ""
 msgctxt "Interface.TestTheFuelMixTask1"
 msgid "Complete construction of the glass door."
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Interface.VentingTheGasesTask5"
+#~ msgid "Turn off the {THING:StructureValve}"
+#~ msgstr "Liga o {THING:StructureAutolathe}."
 
 #, fuzzy
 #~ msgctxt "Interface.01TutorialUIBasics"
