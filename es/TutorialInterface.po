@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-07-21 06:12+0000\n"
+"PO-Revision-Date: 2020-07-21 06:17+0000\n"
 "Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2693,7 +2693,6 @@ msgid "Gas Displays"
 msgstr "Pantallas de Gas"
 
 #: /Language/Interface/Record[Key='GasSensorsDescription']
-#, fuzzy
 msgctxt "Interface.GasSensorsDescription"
 msgid ""
 "Welcome back Cadet! Let's get smelting. \n"
@@ -2803,6 +2802,9 @@ msgid ""
 "The first method uses two parts volatiles and one part oxite. Be careful not to overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may over pressurize the furnace and cause a devastating explosion.\n"
 "    "
 msgstr ""
+"Para crear acero, la {THING:StructureFurnace} debe alcanzar la presión y temperatura mínima requerida. Puede hacer esto ya sea añadiendo volátiles y hielo de oxite directamente al horno, o proporcionando una mezcla de combustible.\n"
+"\n"
+"El primer método utiliza dos partes de volátiles y una parte de oxiato. Tenga cuidado de no sobrecargar el {THING:StructureFurnace}, ya que añadir demasiados óxidos o volátiles puede sobrepresurizar el horno y causar una explosión devastadora."
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask1']
 msgctxt "Interface.IgnitingTheFurnaceTask1"
@@ -2847,6 +2849,9 @@ msgid ""
 "Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace}.\n"
 "    "
 msgstr ""
+"Como la {THING:StructureArcFurnace}, puedes fundir minerales en la {THING:StructureFurnace}, pero también puedes añadir otros minerales. Estos alteran la composición de los metales, creando nuevas aleaciones. Si te equivocas en la mezcla, simplemente generas una {THING:ItemReagentMix}.\n"
+"\n"
+"Comienza agregando tres partes {{THING:ItemIronOre} en la {THING:StructureFurnace}."
 
 #: /Language/Interface/Record[Key='SmeltingIronTask1']
 msgctxt "Interface.SmeltingIronTask1"
@@ -2912,14 +2917,13 @@ msgid "Venting The Gases"
 msgstr "Ventilación de los gases"
 
 #: /Language/Interface/Record[Key='VentingTheGasesDescription']
-#, fuzzy
 msgctxt "Interface.VentingTheGasesDescription"
 msgid ""
 "The {THING:StructureFurnace} is currently filled with highly pressurized toxic gas. You can vent it directly into the atmosphere or cool, filter and recycle the gases for future use. The output pipe"
 " is connected to a {THING:StructureValve} which prevents the gases from escaping too soon. The pipe is also equipped with a {THING:StructureVolumePump} that allows venting of gases quickly."
 msgstr ""
-"El {THING:StructureFurnace} está actualmente lleno de gas tóxico altamente presurizado. Puedes descargarlo directamente a la atmósfera o enfriar, filtrar y reciclar los gases para su futuro uso. El "
-"tubo de salida está conectado a una {THING:StructureValve} que evita que los gases se escapen demasiado pronto. El tubo también está equipado con una {THING:StructureVolumePump} que permite la "
+"El {THING:StructureFurnace} está actualmente lleno de gas tóxico altamente presurizado. Puedes descargarlo directamente a la atmósfera o enfriarlo, filtrarlo y reciclar los gases para su futuro uso."
+" El tubo de salida está conectado a una {THING:StructureValve} que evita que los gases se escapen demasiado pronto. El tubo también está equipado con una {THING:StructureVolumePump} que permite la "
 "ventilación de los gases rápidamente."
 
 #: /Language/Interface/Record[Key='VentingTheGasesTask1']
@@ -2958,7 +2962,6 @@ msgid "Adding Fuel Mix"
 msgstr "Añadir la mezcla de combustible"
 
 #: /Language/Interface/Record[Key='AddingFuelMixDescription']
-#, fuzzy
 msgctxt "Interface.AddingFuelMixDescription"
 msgid ""
 "Now that the {THING:StructureFurnace} is empty, we can refill it an alternative way. Rather than putting the volatiles and oxite mix directly into it, we will be piping a pre-prepared fuel mix into the {THING:StructureFurnace} input pipe.  \n"
@@ -3018,10 +3021,9 @@ msgid "Place {THING:ItemCoalOre} into the furnace"
 msgstr "Coloca el {THING:ItemCoalOre} en el horno"
 
 #: /Language/Interface/Record[Key='NewAlloyTask3']
-#, fuzzy
 msgctxt "Interface.NewAlloyTask3"
 msgid "Open {THING:StructureFurnace} the using the Open Mold lever and remove the steel"
-msgstr "Abre la {THING:StructureFurnace} y quitar el acero"
+msgstr "Abrir {THING:StructureFurnace} el uso de la palanca del molde abierto y quitar el acero"
 
 #: /Language/Interface/Record[Key='WhatASteel']
 msgctxt "Interface.WhatASteel"
