@@ -7,16 +7,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='SteamErrorButton']
-#, fuzzy
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
-msgstr "離開"
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
+msgctxt "Interface.SettingsTitleBasicScreen"
+msgid "Basic Settings"
+msgstr "基本設定"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "視窗設定"
+
+#: /Language/Interface/Record[Key='SettingsTitleAutosave']
+msgctxt "Interface.SettingsTitleAutosave"
+msgid "AutoSave Settings"
+msgstr "自動存檔設定"
+
+#: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
+msgctxt "Interface.SettingsTitleDisplayTools"
+msgid "Display Tools"
+msgstr "介面設定"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "預設"
+
+#: /Language/Interface/Record[Key='SettingsDisplayFPS']
+msgctxt "Interface.SettingsDisplayFPS"
+msgid "Display FPS"
+msgstr "顯示楨數資訊"
+
+#: /Language/Interface/Record[Key='SettingsDisplayLatency']
+msgctxt "Interface.SettingsDisplayLatency"
+msgid "Display Latency"
+msgstr "顯示延遲資訊"
 
 #: /Language/Interface/Record[Key='SettingsHUDScale']
 msgctxt "Interface.SettingsHUDScale"
 msgid "HUD Scale"
 msgstr "介面縮放"
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsAutosaveInterval']
 msgctxt "Interface.SettingsAutosaveInterval"
@@ -47,12 +86,6 @@ msgstr "聲音"
 msgctxt "Interface.SettingsMenuVideo"
 msgid "Video"
 msgstr "影像"
-
-#: /Language/Interface/Record[Key='WaitingTitle']
-#, fuzzy
-msgctxt "Interface.WaitingTitle"
-msgid "Saving Warning"
-msgstr "警告"
 
 #: /Language/Interface/Record[Key='SettingsMenuGameplay']
 msgctxt "Interface.SettingsMenuGameplay"
@@ -282,11 +315,10 @@ msgctxt "Interface.NewWorldAreaLoulan"
 msgid "Loulan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-#, fuzzy
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Asteroid Belt"
-msgstr "太空"
+#: /Language/Interface/Record[Key='ButtonReset']
+msgctxt "Interface.ButtonReset"
+msgid "Reset"
+msgstr "重置"
 
 #: /Language/Interface/Record[Key='NewWorldAreaTitle']
 msgctxt "Interface.NewWorldAreaTitle"
@@ -298,11 +330,10 @@ msgctxt "Interface.NewWorldButtonCreate"
 msgid "Create World"
 msgstr "創建世界"
 
-#: /Language/Interface/Record[Key='ChangeSettingToForAll']
-#, fuzzy
-msgctxt "Interface.ChangeSettingToForAll"
-msgid "Cycle to <color=yellow>{0}</color>>for all {1}"
-msgstr "改為 <color=yellow>{0}</color> for {1}"
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "返回"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -450,41 +481,6 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "繼續"
-
-#: /Language/Interface/Record[Key='SettingsDisplayLatency']
-msgctxt "Interface.SettingsDisplayLatency"
-msgid "Display Latency"
-msgstr "顯示延遲資訊"
-
-#: /Language/Interface/Record[Key='SettingsDisplayFPS']
-msgctxt "Interface.SettingsDisplayFPS"
-msgid "Display FPS"
-msgstr "顯示楨數資訊"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "預設"
-
-#: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
-msgctxt "Interface.SettingsTitleDisplayTools"
-msgid "Display Tools"
-msgstr "介面設定"
-
-#: /Language/Interface/Record[Key='SettingsTitleAutosave']
-msgctxt "Interface.SettingsTitleAutosave"
-msgid "AutoSave Settings"
-msgstr "自動存檔設定"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "視窗設定"
-
-#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
-msgctxt "Interface.SettingsTitleBasicScreen"
-msgid "Basic Settings"
-msgstr "基本設定"
 
 #: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
 msgctxt "Interface.SettingsTitleAdvScreen"
@@ -932,11 +928,6 @@ msgctxt "Interface.TooltipPlacementSnapFaceNotMountableDynamic"
 msgid "#VAR1# does not allow mounting"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderLead']
-msgctxt "Interface.ElectronicReaderLead"
-msgid "Lead"
-msgstr ""
-
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceNotMountableFallback"
 msgid "One of these structures does not allow mounting"
@@ -957,40 +948,41 @@ msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
 msgstr "清除離線玩家"
 
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
+msgctxt "Interface.SettingsInvertMouseWheelInventory"
+msgid "Invert Inventory Scroll"
+msgstr "反轉欄位滾輪方向"
 
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "離開 Stationeers"
+#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
+msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
+msgid "Advanced Settings"
+msgstr "進階設定"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "您確定要離開遊戲嗎?"
+#: /Language/Interface/Record[Key='SettingsUPNPNote']
+#, fuzzy
+msgctxt "Interface.SettingsUPNPNote"
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
+msgstr "如果您的路由器支援並已啟動 Universal Plug and Play (UPNP) 的話,當啟動遊戲的時候將會自動開啟這些ports."
 
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "離開"
+#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
+msgctxt "Interface.SettingsTooltipOpacity"
+msgid "Tooltip Opacity"
+msgstr "工具提示透明度"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr ""
+#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
+msgctxt "Interface.MenuDownloadDriverButton"
+msgid "Download Drivers"
+msgstr "下載驅動程式"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr ""
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "許多AMD顯示卡用戶回報的遊戲問題，在更新顯示卡驅動程式後有所改善 我們 <b>強烈建議</b> 您在遊玩更新."
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "聊天視窗自動隱藏"
 
 #: /Language/Interface/Record[Key='PromptOverwriteTitle']
 msgctxt "Interface.PromptOverwriteTitle"
@@ -1142,41 +1134,10 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "您必須輸入世界名稱才能存檔."
 
-#: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
-msgctxt "Interface.SettingsInvertMouseWheelInventory"
-msgid "Invert Inventory Scroll"
-msgstr "反轉欄位滾輪方向"
-
-#: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
-msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
-msgid "Advanced Settings"
-msgstr "進階設定"
-
-#: /Language/Interface/Record[Key='SettingsUPNPNote']
-#, fuzzy
-msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "如果您的路由器支援並已啟動 Universal Plug and Play (UPNP) 的話,當啟動遊戲的時候將會自動開啟這些ports."
-
-#: /Language/Interface/Record[Key='SettingsTooltipOpacity']
-msgctxt "Interface.SettingsTooltipOpacity"
-msgid "Tooltip Opacity"
-msgstr "工具提示透明度"
-
-#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
-msgctxt "Interface.MenuDownloadDriverButton"
-msgid "Download Drivers"
-msgstr "下載驅動程式"
-
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "許多AMD顯示卡用戶回報的遊戲問題，在更新顯示卡驅動程式後有所改善 我們 <b>強烈建議</b> 您在遊玩更新."
-
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "聊天視窗自動隱藏"
+#: /Language/Interface/Record[Key='AlertTitleAttention']
+msgctxt "Interface.AlertTitleAttention"
+msgid "Attention"
+msgstr "注意"
 
 #: /Language/Interface/Record[Key='PromptResetSettingsTitle']
 msgctxt "Interface.PromptResetSettingsTitle"
@@ -1201,6 +1162,78 @@ msgstr ""
 #: /Language/Interface/Record[Key='SteamErrorBody']
 msgctxt "Interface.SteamErrorBody"
 msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SteamErrorButton']
+#, fuzzy
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "離開"
+
+#: /Language/Interface/Record[Key='WaitingTitle']
+#, fuzzy
+msgctxt "Interface.WaitingTitle"
+msgid "Saving Warning"
+msgstr "警告"
+
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "離開 Stationeers"
+
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "您確定要離開遊戲嗎?"
+
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "離開"
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr ""
+
+#: /Language/Interface/Record[Key='All']
+msgctxt "Interface.All"
+msgid "All"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PowerAndData']
+msgctxt "Interface.PowerAndData"
+msgid "Power And Data"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Elevator']
+msgctxt "Interface.Elevator"
+msgid "Elevator"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Chute']
+msgctxt "Interface.Chute"
+msgid "Chute"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Data']
+msgctxt "Interface.Data"
+msgid "Data"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Power']
+msgctxt "Interface.Power"
+msgid "Power"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Pipe']
+msgctxt "Interface.Pipe"
+msgid "Pipe"
 msgstr ""
 
 #: /Language/Interface/Record[Key='holdhotkey']
@@ -2409,6 +2442,11 @@ msgctxt "Interface.ElectronicReaderElectrum"
 msgid "Electrum"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ElectronicReaderLead']
+msgctxt "Interface.ElectronicReaderLead"
+msgid "Lead"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ElectronicReaderNickel']
 msgctxt "Interface.ElectronicReaderNickel"
 msgid "Nickel"
@@ -2422,11 +2460,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
 msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
@@ -2625,10 +2658,10 @@ msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr ""
+#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
+msgctxt "Interface.TooltipNeedMoreKit"
+msgid "<color=red>Need more {0}</color>."
+msgstr "<color=red>需要更多 {0}</color>."
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -2641,10 +2674,11 @@ msgctxt "Interface.DifficultyField"
 msgid "Difficulty"
 msgstr "其他設定"
 
-#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
-msgctxt "Interface.AlertTitlePleaseWait"
-msgid "Please Wait..."
-msgstr "請稍後..."
+#: /Language/Interface/Record[Key='RespawnConditionsField']
+#, fuzzy
+msgctxt "Interface.RespawnConditionsField"
+msgid "Respawn Condition"
+msgstr "開局狀態"
 
 #: /Language/Interface/Record[Key='TerrainFeaturesField']
 #, fuzzy
@@ -3735,6 +3769,12 @@ msgctxt "Interface.SettingsDisableWaterVisualizer"
 msgid "Disable Water Visualizer"
 msgstr ""
 
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+#, fuzzy
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Asteroid Belt"
+msgstr "太空"
+
 #: /Language/Interface/Record[Key='SettingsLegacyInventory']
 msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
@@ -3759,11 +3799,6 @@ msgstr ""
 msgctxt "Interface.HeadingEdit"
 msgid "Edit"
 msgstr ""
-
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "返回"
 
 #: /Language/Interface/Record[Key='ButtonLoad']
 msgctxt "Interface.ButtonLoad"
@@ -3935,11 +3970,6 @@ msgctxt "Interface.ButtonClear"
 msgid "Clear"
 msgstr "清除"
 
-#: /Language/Interface/Record[Key='ButtonReset']
-msgctxt "Interface.ButtonReset"
-msgid "Reset"
-msgstr "重置"
-
 #: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
 msgctxt "Interface.SettingsAtmosphericScattering"
 msgid "Atmospheric Scattering"
@@ -3954,6 +3984,12 @@ msgstr ""
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
 msgid "Interaction temporarily disabled on this object"
 msgstr ""
+
+#: /Language/Interface/Record[Key='ChangeSettingToForAll']
+#, fuzzy
+msgctxt "Interface.ChangeSettingToForAll"
+msgid "Cycle to <color=yellow>{0}</color>>for all {1}"
+msgstr "改為 <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
 #, fuzzy
@@ -4459,21 +4495,20 @@ msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "搜尋伺服器名稱"
 
-#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
-msgctxt "Interface.TooltipNeedMoreKit"
-msgid "<color=red>Need more {0}</color>."
-msgstr "<color=red>需要更多 {0}</color>."
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr ""
 
-#: /Language/Interface/Record[Key='RespawnConditionsField']
-#, fuzzy
-msgctxt "Interface.RespawnConditionsField"
-msgid "Respawn Condition"
-msgstr "開局狀態"
+#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
+msgctxt "Interface.AlertTitlePleaseWait"
+msgid "Please Wait..."
+msgstr "請稍後..."
 
-#: /Language/Interface/Record[Key='AlertTitleAttention']
-msgctxt "Interface.AlertTitleAttention"
-msgid "Attention"
-msgstr "注意"
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr ""
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"

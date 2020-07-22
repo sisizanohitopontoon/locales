@@ -150,17 +150,17 @@ msgctxt "Things.StructureCompositeCladdingRoundedCornerInner"
 msgid "Composite Cladding (Rounded Corner Inner)"
 msgstr "Komposiittipäällyste (pyöristetty, kulma)"
 
-#: /Language/Things/Record[Key='ReagentCobalt']
-#, fuzzy
-msgctxt "Things.ReagentCobalt"
-msgid "Cobalt Powder"
-msgstr "Kultajauhe"
-
 #: /Language/Things/Record[Key='ItemCobaltIngot']
 #, fuzzy
 msgctxt "Things.ItemCobaltIngot"
 msgid "Ingot (Cobalt)"
 msgstr "Harkko (kulta)"
+
+#: /Language/Things/Record[Key='ItemCobaltOre']
+#, fuzzy
+msgctxt "Things.ItemCobaltOre"
+msgid "Ore (Cobalt)"
+msgstr "Malmi (kivihiili)"
 
 #: /Language/Things/Record[Key='ItemAstroloyIngot']
 #, fuzzy
@@ -1496,6 +1496,12 @@ msgctxt "Things.StructureCompositeCladdingAngledLong"
 msgid "Composite Cladding (Long Angled)"
 msgstr "Komposiittipäällyste (pitkä, vino)"
 
+#: /Language/Things/Record[Key='ItemEmergencyToolBelt']
+#, fuzzy
+msgctxt "Things.ItemEmergencyToolBelt"
+msgid "Emergency Tool Belt"
+msgstr "Admin-työkalu"
+
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerLong']
 msgctxt "Things.StructureCompositeCladdingAngledCornerLong"
 msgid "Composite Cladding (Long Angled Corner)"
@@ -1505,12 +1511,6 @@ msgstr "Komposiittipäällyste (pitkä, vino, kulma)"
 msgctxt "Things.StructureCompositeCladdingAngledCorner"
 msgid "Composite Cladding (Angled Corner)"
 msgstr "Komposiittipäällyste (vino, kulma)"
-
-#: /Language/Things/Record[Key='ItemEmergencyToolBelt']
-#, fuzzy
-msgctxt "Things.ItemEmergencyToolBelt"
-msgid "Emergency Tool Belt"
-msgstr "Admin-työkalu"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngled']
 msgctxt "Things.StructureCompositeCladdingAngled"
@@ -3221,16 +3221,16 @@ msgctxt "Things.ItemKitSleeper"
 msgid "Kit (Sleeper)"
 msgstr "Varustepakkaus (unikapseli)"
 
-#: /Language/Things/Record[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "Varustepakkaus (kyltti)"
-
 #: /Language/Things/Record[Key='ItemElectronicParts']
 #, fuzzy
 msgctxt "Things.ItemElectronicParts"
 msgid "Electronic Parts"
 msgstr "Elektroniikkatulostin"
+
+#: /Language/Things/Record[Key='ItemKitSensor']
+msgctxt "Things.ItemKitSensor"
+msgid "Kit (Sensors)"
+msgstr "Varustepakkaus (sensori)"
 
 #: /Language/Things/Record[Key='ItemKitRegulator']
 msgctxt "Things.ItemKitRegulator"
@@ -4145,12 +4145,6 @@ msgctxt "Things.StructurePictureFrameThinLandscapeSmall"
 msgid "Picture Frame Thin Landscape Small"
 msgstr ""
 
-#: /Language/Things/Record[Key='ItemCobaltOre']
-#, fuzzy
-msgctxt "Things.ItemCobaltOre"
-msgid "Ore (Cobalt)"
-msgstr "Malmi (kivihiili)"
-
 #: /Language/Things/Record[Key='StructurePictureFrameThinLandscapeLarge']
 msgctxt "Things.StructurePictureFrameThinLandscapeLarge"
 msgid "Picture Frame Thin Landscape Large"
@@ -4165,6 +4159,12 @@ msgstr ""
 msgctxt "Things.StructurePictureFrameThickMountPortraitSmall"
 msgid "Picture Frame Thick Mount Portrait Small"
 msgstr ""
+
+#: /Language/Things/Record[Key='ReagentCobalt']
+#, fuzzy
+msgctxt "Things.ReagentCobalt"
+msgid "Cobalt Powder"
+msgstr "Kultajauhe"
 
 #: /Language/Things/Record[Key='StructurePictureFrameThickMountPortraitLarge']
 msgctxt "Things.StructurePictureFrameThickMountPortraitLarge"
@@ -4569,10 +4569,10 @@ msgctxt "Things.StructureWallPaddedWindow"
 msgid "Wall (Padded Window)"
 msgstr "Seinä (pehmustettu)"
 
-#: /Language/Things/Record[Key='ItemKitSensor']
-msgctxt "Things.ItemKitSensor"
-msgid "Kit (Sensors)"
-msgstr "Varustepakkaus (sensori)"
+#: /Language/Things/Record[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "Varustepakkaus (kyltti)"
 
 #, fuzzy
 #~ msgctxt "Things.StructureInsulatedPipeCrossJunction3"

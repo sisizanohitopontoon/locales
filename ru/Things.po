@@ -138,15 +138,15 @@ msgctxt "Things.StructureCompositeCladdingRoundedCornerInner"
 msgid "Composite Cladding (Rounded Corner Inner)"
 msgstr "Композитное покрытие (Угол закругленный внутренний)"
 
-#: /Language/Things/Record[Key='ReagentCobalt']
-msgctxt "Things.ReagentCobalt"
-msgid "Cobalt Powder"
-msgstr "Порошок кобальта"
-
 #: /Language/Things/Record[Key='ItemCobaltIngot']
 msgctxt "Things.ItemCobaltIngot"
 msgid "Ingot (Cobalt)"
 msgstr "Слиток кобальта"
+
+#: /Language/Things/Record[Key='ItemCobaltOre']
+msgctxt "Things.ItemCobaltOre"
+msgid "Ore (Cobalt)"
+msgstr "Кобальт"
 
 #: /Language/Things/Record[Key='ItemAstroloyIngot']
 msgctxt "Things.ItemAstroloyIngot"
@@ -1466,6 +1466,11 @@ msgctxt "Things.StructureCompositeCladdingAngledLong"
 msgid "Composite Cladding (Long Angled)"
 msgstr "Композитное покрытие (Длинный угол)"
 
+#: /Language/Things/Record[Key='ItemEmergencyToolBelt']
+msgctxt "Things.ItemEmergencyToolBelt"
+msgid "Emergency Tool Belt"
+msgstr "Запасной пояс для инструментов"
+
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerLong']
 msgctxt "Things.StructureCompositeCladdingAngledCornerLong"
 msgid "Composite Cladding (Long Angled Corner)"
@@ -1475,11 +1480,6 @@ msgstr "Композитное покрытие (Длинной угловой �
 msgctxt "Things.StructureCompositeCladdingAngledCorner"
 msgid "Composite Cladding (Angled Corner)"
 msgstr "Композитное покрытие (Угловое скошенное)"
-
-#: /Language/Things/Record[Key='ItemEmergencyToolBelt']
-msgctxt "Things.ItemEmergencyToolBelt"
-msgid "Emergency Tool Belt"
-msgstr "Запасной пояс для инструментов"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngled']
 msgctxt "Things.StructureCompositeCladdingAngled"
@@ -3184,15 +3184,15 @@ msgctxt "Things.ItemKitSleeper"
 msgid "Kit (Sleeper)"
 msgstr "Набор (Слипер)"
 
-#: /Language/Things/Record[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "Набор (Знак)"
-
 #: /Language/Things/Record[Key='ItemElectronicParts']
 msgctxt "Things.ItemElectronicParts"
 msgid "Electronic Parts"
 msgstr "Электронные компоненты"
+
+#: /Language/Things/Record[Key='ItemKitSensor']
+msgctxt "Things.ItemKitSensor"
+msgid "Kit (Sensors)"
+msgstr "Набор (Датчик)"
 
 #: /Language/Things/Record[Key='ItemKitRegulator']
 msgctxt "Things.ItemKitRegulator"
@@ -4112,11 +4112,6 @@ msgctxt "Things.StructurePictureFrameThinLandscapeSmall"
 msgid "Picture Frame Thin Landscape Small"
 msgstr "Фоторамка Тонкий Пейзаж Маленький"
 
-#: /Language/Things/Record[Key='ItemCobaltOre']
-msgctxt "Things.ItemCobaltOre"
-msgid "Ore (Cobalt)"
-msgstr "Кобальт"
-
 #: /Language/Things/Record[Key='StructurePictureFrameThinLandscapeLarge']
 #, fuzzy
 msgctxt "Things.StructurePictureFrameThinLandscapeLarge"
@@ -4134,6 +4129,11 @@ msgstr "Фоторамка Толстый Портрет Маленький"
 msgctxt "Things.StructurePictureFrameThickMountPortraitSmall"
 msgid "Picture Frame Thick Mount Portrait Small"
 msgstr "Фоторамка Толстая Гора Портрет Маленький"
+
+#: /Language/Things/Record[Key='ReagentCobalt']
+msgctxt "Things.ReagentCobalt"
+msgid "Cobalt Powder"
+msgstr "Порошок кобальта"
 
 #: /Language/Things/Record[Key='StructurePictureFrameThickMountPortraitLarge']
 #, fuzzy
@@ -4546,10 +4546,10 @@ msgctxt "Things.StructureWallPaddedWindow"
 msgid "Wall (Padded Window)"
 msgstr "Стена (Наборная)"
 
-#: /Language/Things/Record[Key='ItemKitSensor']
-msgctxt "Things.ItemKitSensor"
-msgid "Kit (Sensors)"
-msgstr "Набор (Датчик)"
+#: /Language/Things/Record[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "Набор (Знак)"
 
 #, fuzzy
 #~ msgctxt "Things.StructureInsulatedPipeCrossJunction3"
