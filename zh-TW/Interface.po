@@ -12,16 +12,6 @@ msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
-msgctxt "Interface.SettingsTitleBasicScreen"
-msgid "Basic Settings"
-msgstr "基本設定"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "視窗設定"
-
 #: /Language/Interface/Record[Key='SettingsTitleAutosave']
 msgctxt "Interface.SettingsTitleAutosave"
 msgid "AutoSave Settings"
@@ -52,11 +42,6 @@ msgctxt "Interface.SettingsHUDScale"
 msgid "HUD Scale"
 msgstr "介面縮放"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsAutosaveInterval']
 msgctxt "Interface.SettingsAutosaveInterval"
 msgid "Interval Time (Seconds)"
@@ -66,6 +51,11 @@ msgstr "間隔時間 (秒數)"
 msgctxt "Interface.SettingsGameplayAutosave"
 msgid "Enable Autosave"
 msgstr "啟用自動存檔"
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMenuMisc']
 msgctxt "Interface.SettingsMenuMisc"
@@ -315,15 +305,16 @@ msgctxt "Interface.NewWorldAreaLoulan"
 msgid "Loulan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtonReset']
-msgctxt "Interface.ButtonReset"
-msgid "Reset"
-msgstr "重置"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+#, fuzzy
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Asteroid Belt"
+msgstr "太空"
 
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "起始區域"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "大氣散射"
 
 #: /Language/Interface/Record[Key='NewWorldButtonCreate']
 msgctxt "Interface.NewWorldButtonCreate"
@@ -481,6 +472,16 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "繼續"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "視窗設定"
+
+#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
+msgctxt "Interface.SettingsTitleBasicScreen"
+msgid "Basic Settings"
+msgstr "基本設定"
 
 #: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
 msgctxt "Interface.SettingsTitleAdvScreen"
@@ -974,15 +975,15 @@ msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
 msgstr "下載驅動程式"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "許多AMD顯示卡用戶回報的遊戲問題，在更新顯示卡驅動程式後有所改善 我們 <b>強烈建議</b> 您在遊玩更新."
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "聊天視窗自動隱藏"
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PromptOverwriteTitle']
 msgctxt "Interface.PromptOverwriteTitle"
@@ -1139,6 +1140,16 @@ msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "注意"
 
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "許多AMD顯示卡用戶回報的遊戲問題，在更新顯示卡驅動程式後有所改善 我們 <b>強烈建議</b> 您在遊玩更新."
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "聊天視窗自動隱藏"
+
 #: /Language/Interface/Record[Key='PromptResetSettingsTitle']
 msgctxt "Interface.PromptResetSettingsTitle"
 msgid "Reset Settings"
@@ -1190,16 +1201,6 @@ msgstr "離開 Stationeers"
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "您確定要離開遊戲嗎?"
-
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "離開"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr ""
 
 #: /Language/Interface/Record[Key='All']
 msgctxt "Interface.All"
@@ -3769,16 +3770,15 @@ msgctxt "Interface.SettingsDisableWaterVisualizer"
 msgid "Disable Water Visualizer"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-#, fuzzy
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Asteroid Belt"
-msgstr "太空"
-
 #: /Language/Interface/Record[Key='SettingsLegacyInventory']
 msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "起始區域"
 
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
@@ -3970,10 +3970,10 @@ msgctxt "Interface.ButtonClear"
 msgid "Clear"
 msgstr "清除"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "大氣散射"
+#: /Language/Interface/Record[Key='ButtonReset']
+msgctxt "Interface.ButtonReset"
+msgid "Reset"
+msgstr "重置"
 
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
@@ -4505,10 +4505,10 @@ msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "請稍後..."
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr ""
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "離開"
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"

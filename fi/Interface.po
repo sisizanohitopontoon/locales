@@ -15,16 +15,6 @@ msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
-msgctxt "Interface.SettingsTitleBasicScreen"
-msgid "Basic Settings"
-msgstr "Perusasetukset"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "Näytön asetukset"
-
 #: /Language/Interface/Record[Key='SettingsTitleAutosave']
 msgctxt "Interface.SettingsTitleAutosave"
 msgid "AutoSave Settings"
@@ -55,11 +45,6 @@ msgctxt "Interface.SettingsHUDScale"
 msgid "HUD Scale"
 msgstr "HUD:in koko"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr "Lopeta tilaaminen"
-
 #: /Language/Interface/Record[Key='SettingsAutosaveInterval']
 msgctxt "Interface.SettingsAutosaveInterval"
 msgid "Interval Time (Seconds)"
@@ -69,6 +54,11 @@ msgstr "Väli (sekuntia)"
 msgctxt "Interface.SettingsGameplayAutosave"
 msgid "Enable Autosave"
 msgstr "Automaattinen tallennus"
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "Lopeta tilaaminen"
 
 #: /Language/Interface/Record[Key='SettingsMenuMisc']
 msgctxt "Interface.SettingsMenuMisc"
@@ -318,15 +308,16 @@ msgctxt "Interface.NewWorldAreaLoulan"
 msgid "Loulan"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtonReset']
-msgctxt "Interface.ButtonReset"
-msgid "Reset"
-msgstr "Nollaa"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+#, fuzzy
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Asteroid Belt"
+msgstr "Avaruus"
 
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "Aloitusalue"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Ilmakehän Sironta"
 
 #: /Language/Interface/Record[Key='NewWorldButtonCreate']
 msgctxt "Interface.NewWorldButtonCreate"
@@ -484,6 +475,16 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka peliä"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "Näytön asetukset"
+
+#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
+msgctxt "Interface.SettingsTitleBasicScreen"
+msgid "Basic Settings"
+msgstr "Perusasetukset"
 
 #: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
 msgctxt "Interface.SettingsTitleAdvScreen"
@@ -976,15 +977,15 @@ msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
 msgstr "Lataa ajurit"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "Monet AMD grafiikka-ohjaimen omistavat ovat raportoineet ongelmia pelin kanssa jotka ovat ratkenneet ajureita päivittämällä. Suosittelemme <b>VAHVASTI</b> päivittämään ajurit ennen pelaamista."
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Oletko varma, että haluat lopettaa tämän Workshop itemin tilaamisen?"
 
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Chatin häipymisviive"
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr "Lopeta tilaaminen"
 
 #: /Language/Interface/Record[Key='PromptOverwriteTitle']
 msgctxt "Interface.PromptOverwriteTitle"
@@ -1144,6 +1145,16 @@ msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Huomio"
 
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "Monet AMD grafiikka-ohjaimen omistavat ovat raportoineet ongelmia pelin kanssa jotka ovat ratkenneet ajureita päivittämällä. Suosittelemme <b>VAHVASTI</b> päivittämään ajurit ennen pelaamista."
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Chatin häipymisviive"
+
 #: /Language/Interface/Record[Key='PromptResetSettingsTitle']
 msgctxt "Interface.PromptResetSettingsTitle"
 msgid "Reset Settings"
@@ -1193,16 +1204,6 @@ msgstr "Lopeta Stationeers"
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "Haluatko varmasti lopettaa?"
-
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Lopeta"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "Lopeta tilaaminen"
 
 #: /Language/Interface/Record[Key='All']
 msgctxt "Interface.All"
@@ -3775,16 +3776,15 @@ msgctxt "Interface.SettingsDisableWaterVisualizer"
 msgid "Disable Water Visualizer"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-#, fuzzy
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Asteroid Belt"
-msgstr "Avaruus"
-
 #: /Language/Interface/Record[Key='SettingsLegacyInventory']
 msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "Aloitusalue"
 
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
@@ -3976,10 +3976,10 @@ msgctxt "Interface.ButtonClear"
 msgid "Clear"
 msgstr "Tyhjennä"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Ilmakehän Sironta"
+#: /Language/Interface/Record[Key='ButtonReset']
+msgctxt "Interface.ButtonReset"
+msgid "Reset"
+msgstr "Nollaa"
 
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
@@ -4512,10 +4512,10 @@ msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Odota hetki..."
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Oletko varma, että haluat lopettaa tämän Workshop itemin tilaamisen?"
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Lopeta"
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"

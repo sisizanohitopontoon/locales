@@ -15,16 +15,6 @@ msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
 msgstr "Uran"
 
-#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
-msgctxt "Interface.SettingsTitleBasicScreen"
-msgid "Basic Settings"
-msgstr "Grundeinstellungen"
-
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "Fenstereinstellungen"
-
 #: /Language/Interface/Record[Key='SettingsTitleAutosave']
 msgctxt "Interface.SettingsTitleAutosave"
 msgid "AutoSave Settings"
@@ -55,11 +45,6 @@ msgctxt "Interface.SettingsHUDScale"
 msgid "HUD Scale"
 msgstr "HUD Skalierung"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
-msgctxt "Interface.PromptUnsubscribeConfirm"
-msgid "Unsubscribe"
-msgstr "Deabonnieren"
-
 #: /Language/Interface/Record[Key='SettingsAutosaveInterval']
 msgctxt "Interface.SettingsAutosaveInterval"
 msgid "Interval Time (Seconds)"
@@ -69,6 +54,11 @@ msgstr "Zeitintervall (Sekunden)"
 msgctxt "Interface.SettingsGameplayAutosave"
 msgid "Enable Autosave"
 msgstr "Aktiviere Automatisches Speichern"
+
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "Deabonnieren"
 
 #: /Language/Interface/Record[Key='SettingsMenuMisc']
 msgctxt "Interface.SettingsMenuMisc"
@@ -311,15 +301,15 @@ msgctxt "Interface.NewWorldAreaLoulan"
 msgid "Loulan"
 msgstr "Loulan"
 
-#: /Language/Interface/Record[Key='ButtonReset']
-msgctxt "Interface.ButtonReset"
-msgid "Reset"
-msgstr "Zurücksetzen"
+#: /Language/Interface/Record[Key='NewWorldAreaSpace']
+msgctxt "Interface.NewWorldAreaSpace"
+msgid "Asteroid Belt"
+msgstr "Asteroidengürtel"
 
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "Startbereich"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Atmosphärische Streuung"
 
 #: /Language/Interface/Record[Key='NewWorldButtonCreate']
 msgctxt "Interface.NewWorldButtonCreate"
@@ -476,6 +466,16 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Fortsetzen"
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "Fenstereinstellungen"
+
+#: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
+msgctxt "Interface.SettingsTitleBasicScreen"
+msgid "Basic Settings"
+msgstr "Grundeinstellungen"
 
 #: /Language/Interface/Record[Key='SettingsTitleAdvScreen']
 msgctxt "Interface.SettingsTitleAdvScreen"
@@ -965,15 +965,15 @@ msgctxt "Interface.MenuDownloadDriverButton"
 msgid "Download Drivers"
 msgstr "Treiber herunterladen"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
-msgctxt "Interface.MenuDownloadDriverWarning"
-msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "Viele Nutzer von AMD-Grafikkarten haben gemeldet, dass Probleme mit dem Spiel durch die Installation aktuellster Teiber behoben werden konnten.  Wir empfehlen <b>STÄRKSTENS</b> diese Treiber vor dem Spielen auf den neusten Stand zu bringen."
+#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
+msgctxt "Interface.PromptUnsubscribeBody"
+msgid "Are you sure you want to unsubscribe from this Workshop item?"
+msgstr "Bist du sicher, dass du diesen Workshop-Artikel deabbonieren willst?"
 
-#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
-msgctxt "Interface.SettingsChatFadeTimer"
-msgid "Chat Fade Delay"
-msgstr "Chat-Ausblendverzögerung"
+#: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
+msgctxt "Interface.PromptUnsubscribeConfirm"
+msgid "Unsubscribe"
+msgstr "Deabonnieren"
 
 #: /Language/Interface/Record[Key='PromptOverwriteTitle']
 msgctxt "Interface.PromptOverwriteTitle"
@@ -1131,6 +1131,16 @@ msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Achtung"
 
+#: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
+msgctxt "Interface.MenuDownloadDriverWarning"
+msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
+msgstr "Viele Nutzer von AMD-Grafikkarten haben gemeldet, dass Probleme mit dem Spiel durch die Installation aktuellster Teiber behoben werden konnten.  Wir empfehlen <b>STÄRKSTENS</b> diese Treiber vor dem Spielen auf den neusten Stand zu bringen."
+
+#: /Language/Interface/Record[Key='SettingsChatFadeTimer']
+msgctxt "Interface.SettingsChatFadeTimer"
+msgid "Chat Fade Delay"
+msgstr "Chat-Ausblendverzögerung"
+
 #: /Language/Interface/Record[Key='PromptResetSettingsTitle']
 msgctxt "Interface.PromptResetSettingsTitle"
 msgid "Reset Settings"
@@ -1180,16 +1190,6 @@ msgstr "Stationeers Verlassen"
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "Willst du das Spiel wirklich verlassen?"
-
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Verlassen"
-
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "Deabonnieren"
 
 #: /Language/Interface/Record[Key='All']
 msgctxt "Interface.All"
@@ -3736,15 +3736,15 @@ msgctxt "Interface.SettingsDisableWaterVisualizer"
 msgid "Disable Water Visualizer"
 msgstr "Wasserdarstellung deaktivieren"
 
-#: /Language/Interface/Record[Key='NewWorldAreaSpace']
-msgctxt "Interface.NewWorldAreaSpace"
-msgid "Asteroid Belt"
-msgstr "Asteroidengürtel"
-
 #: /Language/Interface/Record[Key='SettingsLegacyInventory']
 msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Alte Inventarsteuerung"
+
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "Startbereich"
 
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
@@ -3940,10 +3940,10 @@ msgctxt "Interface.ButtonClear"
 msgid "Clear"
 msgstr "Löschen"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Atmosphärische Streuung"
+#: /Language/Interface/Record[Key='ButtonReset']
+msgctxt "Interface.ButtonReset"
+msgid "Reset"
+msgstr "Zurücksetzen"
 
 #: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
 msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
@@ -4473,10 +4473,10 @@ msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Bitte warten..."
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeBody']
-msgctxt "Interface.PromptUnsubscribeBody"
-msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "Bist du sicher, dass du diesen Workshop-Artikel deabbonieren willst?"
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Verlassen"
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"
