@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-07-26 15:26+0000\n"
+"PO-Revision-Date: 2020-07-26 15:33+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2597,7 +2597,6 @@ msgid "Gas Displays"
 msgstr "气体显示"
 
 #: /Language/Interface/Record[Key='GasSensorsDescription']
-#, fuzzy
 msgctxt "Interface.GasSensorsDescription"
 msgid ""
 "Welcome back Cadet.  Let's get smelting! \n"
@@ -2607,11 +2606,11 @@ msgid ""
 "Your first task is to set up a {THING:CircuitboardGasDisplay} to display pressure and temperature inside the {THING:StructureFurnace}.\n"
 "    \n"
 msgstr ""
-"欢迎回来学员！让我们去学习点熔炼方面的工作。\n"
+"欢迎回来, 学员！让我们去学习点熔炼方面的工作。\n"
 "\n"
-"{THING:StructureFurnace} 用于将矿石熔炼成锭块和合金。使用这些技术来创造新的先进技术。\n"
+"{THING:StructureFurnace} 用于将矿石熔炼成锭块和合金。使用这个技术来建造新技术里面的东西。\n"
 "\n"
-"你的第一个任务是设置气体传感器显示屏，以监控 {THING:StructureFurnace}内的情况。你可以用这个来显示里面的压力或温度，来得到有关所发生情况的实时状况。\n"
+"你的第一个任务是设置一个 {THING:CircuitboardGasDisplay} 来获得 {THING:StructureFurnace} 内部压力和温度信息。\n"
 "    "
 
 #: /Language/Interface/Record[Key='GasSensorsTask1']
@@ -2635,10 +2634,9 @@ msgid "Install the {THING:ItemGlassSheets} on the {THING:StructureConsole}."
 msgstr "给 {THING:StructureConsole} 安上 {THING:ItemGlassSheets}。"
 
 #: /Language/Interface/Record[Key='ConfigureGasSensor']
-#, fuzzy
 msgctxt "Interface.ConfigureGasSensor"
 msgid "Configure Gas Display"
-msgstr "配置气体传感器"
+msgstr "配置气体显示"
 
 #: /Language/Interface/Record[Key='ConfigureGasSensorDescription']
 msgctxt "Interface.ConfigureGasSensorDescription"
@@ -2657,10 +2655,9 @@ msgid "Turn on the {THING:StructureConsole}"
 msgstr "打开 {THING:StructureConsole}。"
 
 #: /Language/Interface/Record[Key='ConfigureGasSensorTask2']
-#, fuzzy
 msgctxt "Interface.ConfigureGasSensorTask2"
 msgid "Insert the {THING:ItemDataDisk} from the crate into the {THING:StructureConsole}"
-msgstr "将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}"
+msgstr "从箱子里拿出 {THING:ItemDataDisk} 并插入到 {THING:StructureConsole}"
 
 #: /Language/Interface/Record[Key='ConfigureGasSensorTask3']
 msgctxt "Interface.ConfigureGasSensorTask3"
@@ -2716,16 +2713,14 @@ msgid "Pick up the {THING:ItemVolatiles} from the red crate"
 msgstr "从红色箱中拿出 {THING:ItemVolatiles}"
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask2']
-#, fuzzy
 msgctxt "Interface.IgnitingTheFurnaceTask2"
 msgid "Insert the {THING:ItemVolatiles} into the top of the {THING:StructureFurnace}"
-msgstr "将 {THING:ItemVolatiles} 放入到 {THING:StructureFurnace}"
+msgstr "将 {THING:ItemVolatiles} 放进 {THING:StructureFurnace} 的上面"
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask3']
-#, fuzzy
 msgctxt "Interface.IgnitingTheFurnaceTask3"
 msgid "Press the red 'activate' button twice on the {THING:StructureFurnace}"
-msgstr "点击 {THING:StructureFurnace} 上面的红色的 'activate' 按钮"
+msgstr "点击2次 {THING:StructureFurnace} 上面的红色的 'activate' 按钮"
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask4']
 msgctxt "Interface.IgnitingTheFurnaceTask4"
@@ -2798,10 +2793,9 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='FromingTheIngotTask1']
-#, fuzzy
 msgctxt "Interface.FromingTheIngotTask1"
 msgid "Pull the Open Mold lever on the {THING:StructureFurnace}"
-msgstr "拉动 {THING:StructureFurnace} 上面的锭块释放操纵杆"
+msgstr "拉动 {THING:StructureFurnace} 上面的Open Mold lever"
 
 #: /Language/Interface/Record[Key='FromingTheIngotTask2']
 msgctxt "Interface.FromingTheIngotTask2"
@@ -2852,10 +2846,9 @@ msgid "Close the {THING:StructureValve}"
 msgstr "关闭 {THING:StructureValve}"
 
 #: /Language/Interface/Record[Key='VentingTheGasesTask5']
-#, fuzzy
 msgctxt "Interface.VentingTheGasesTask5"
 msgid "Turn off the {THING:StructureVolumePump}"
-msgstr "关闭 {THING:StructureValve}"
+msgstr "关闭 {THING:StructureVolumePump}"
 
 #: /Language/Interface/Record[Key='AddingFuelMix']
 msgctxt "Interface.AddingFuelMix"
