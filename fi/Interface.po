@@ -15,11 +15,6 @@ msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsTitleAutosave']
-msgctxt "Interface.SettingsTitleAutosave"
-msgid "AutoSave Settings"
-msgstr "Automaattinen tallennus"
-
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
 msgid "Display Tools"
@@ -55,15 +50,15 @@ msgctxt "Interface.SettingsGameplayAutosave"
 msgid "Enable Autosave"
 msgstr "Automaattinen tallennus"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "Lopeta tilaaminen"
-
 #: /Language/Interface/Record[Key='SettingsMenuMisc']
 msgctxt "Interface.SettingsMenuMisc"
 msgid "Misc"
 msgstr "Muut"
+
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Lopeta"
 
 #: /Language/Interface/Record[Key='SettingsMenuControls']
 msgctxt "Interface.SettingsMenuControls"
@@ -475,6 +470,11 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka peliä"
+
+#: /Language/Interface/Record[Key='SettingsTitleAutosave']
+msgctxt "Interface.SettingsTitleAutosave"
+msgid "AutoSave Settings"
+msgstr "Automaattinen tallennus"
 
 #: /Language/Interface/Record[Key='SettingsTitleScreen']
 msgctxt "Interface.SettingsTitleScreen"
@@ -972,10 +972,10 @@ msgctxt "Interface.SettingsTooltipOpacity"
 msgid "Tooltip Opacity"
 msgstr "Vinkkien läpikuultavuus"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
-msgctxt "Interface.MenuDownloadDriverButton"
-msgid "Download Drivers"
-msgstr "Lataa ajurit"
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "Lopeta tilaaminen"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeBody']
 msgctxt "Interface.PromptUnsubscribeBody"
@@ -1145,6 +1145,11 @@ msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Huomio"
 
+#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
+msgctxt "Interface.MenuDownloadDriverButton"
+msgid "Download Drivers"
+msgstr "Lataa ajurit"
+
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
 msgctxt "Interface.MenuDownloadDriverWarning"
 msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
@@ -1199,11 +1204,6 @@ msgstr "Tallentaa maailmaa. Yritä uudelleen, kun tallennus päättyy."
 msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Lopeta Stationeers"
-
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Haluatko varmasti lopettaa?"
 
 #: /Language/Interface/Record[Key='All']
 msgctxt "Interface.All"
@@ -3781,15 +3781,15 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "Aloitusalue"
-
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
 msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "Aloitusalue"
 
 #: /Language/Interface/Record[Key='ButtonLibrary']
 msgctxt "Interface.ButtonLibrary"
@@ -4512,10 +4512,10 @@ msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Odota hetki..."
 
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Lopeta"
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Haluatko varmasti lopettaa?"
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"

@@ -15,11 +15,6 @@ msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsTitleAutosave']
-msgctxt "Interface.SettingsTitleAutosave"
-msgid "AutoSave Settings"
-msgstr "Ustawienia automatycznego zapisu"
-
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
 msgid "Display Tools"
@@ -55,15 +50,15 @@ msgctxt "Interface.SettingsGameplayAutosave"
 msgid "Enable Autosave"
 msgstr "Włącz automatyczny zapis"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "Anuluj subskrybcję"
-
 #: /Language/Interface/Record[Key='SettingsMenuMisc']
 msgctxt "Interface.SettingsMenuMisc"
 msgid "Misc"
 msgstr "Inne"
+
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Zakończ"
 
 #: /Language/Interface/Record[Key='SettingsMenuControls']
 msgctxt "Interface.SettingsMenuControls"
@@ -470,6 +465,11 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Kontynuuj"
+
+#: /Language/Interface/Record[Key='SettingsTitleAutosave']
+msgctxt "Interface.SettingsTitleAutosave"
+msgid "AutoSave Settings"
+msgstr "Ustawienia automatycznego zapisu"
 
 #: /Language/Interface/Record[Key='SettingsTitleScreen']
 msgctxt "Interface.SettingsTitleScreen"
@@ -967,10 +967,10 @@ msgctxt "Interface.SettingsTooltipOpacity"
 msgid "Tooltip Opacity"
 msgstr "Przeźroczystość dymków"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
-msgctxt "Interface.MenuDownloadDriverButton"
-msgid "Download Drivers"
-msgstr "Pobierz sterowniki"
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "Anuluj subskrybcję"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeBody']
 msgctxt "Interface.PromptUnsubscribeBody"
@@ -1139,6 +1139,11 @@ msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Uwaga"
 
+#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
+msgctxt "Interface.MenuDownloadDriverButton"
+msgid "Download Drivers"
+msgstr "Pobierz sterowniki"
+
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
 msgctxt "Interface.MenuDownloadDriverWarning"
 msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
@@ -1193,11 +1198,6 @@ msgstr "Wciąż zapisuję stan świata.  Spróbuj ponownie po ukończeniu."
 msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Zamknij Stationeers"
-
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Czy na pewno chcesz zakończyć?"
 
 #: /Language/Interface/Record[Key='All']
 msgctxt "Interface.All"
@@ -3773,15 +3773,15 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Spis Starych Produktow"
 
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "Obszar startowy"
-
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
 msgstr "Zaawansowane"
+
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "Obszar startowy"
 
 #: /Language/Interface/Record[Key='ButtonLibrary']
 msgctxt "Interface.ButtonLibrary"
@@ -4488,10 +4488,10 @@ msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Prosze czekac..."
 
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Zakończ"
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Czy na pewno chcesz zakończyć?"
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"

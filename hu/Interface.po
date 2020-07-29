@@ -15,11 +15,6 @@ msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
 msgstr "Urán"
 
-#: /Language/Interface/Record[Key='SettingsTitleAutosave']
-msgctxt "Interface.SettingsTitleAutosave"
-msgid "AutoSave Settings"
-msgstr "Automatikus mentés beállításai"
-
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
 msgid "Display Tools"
@@ -55,15 +50,15 @@ msgctxt "Interface.SettingsGameplayAutosave"
 msgid "Enable Autosave"
 msgstr "Automatikus mentés engedélyezése"
 
-#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
-msgctxt "Interface.PromptUnsubscribeTitle"
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
-
 #: /Language/Interface/Record[Key='SettingsMenuMisc']
 msgctxt "Interface.SettingsMenuMisc"
 msgid "Misc"
 msgstr "Egyéb"
+
+#: /Language/Interface/Record[Key='PromptQuitConfirm']
+msgctxt "Interface.PromptQuitConfirm"
+msgid "Quit"
+msgstr "Kilépés"
 
 #: /Language/Interface/Record[Key='SettingsMenuControls']
 msgctxt "Interface.SettingsMenuControls"
@@ -465,6 +460,11 @@ msgstr "Kép"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
+
+#: /Language/Interface/Record[Key='SettingsTitleAutosave']
+msgctxt "Interface.SettingsTitleAutosave"
+msgid "AutoSave Settings"
+msgstr "Automatikus mentés beállításai"
 
 #: /Language/Interface/Record[Key='SettingsTitleScreen']
 msgctxt "Interface.SettingsTitleScreen"
@@ -961,10 +961,10 @@ msgctxt "Interface.SettingsTooltipOpacity"
 msgid "Tooltip Opacity"
 msgstr "Eszköztipp átlátszóság"
 
-#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
-msgctxt "Interface.MenuDownloadDriverButton"
-msgid "Download Drivers"
-msgstr "Driverek letöltése"
+#: /Language/Interface/Record[Key='PromptUnsubscribeTitle']
+msgctxt "Interface.PromptUnsubscribeTitle"
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeBody']
 msgctxt "Interface.PromptUnsubscribeBody"
@@ -1132,6 +1132,11 @@ msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Figyelem"
 
+#: /Language/Interface/Record[Key='MenuDownloadDriverButton']
+msgctxt "Interface.MenuDownloadDriverButton"
+msgid "Download Drivers"
+msgstr "Driverek letöltése"
+
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
 msgctxt "Interface.MenuDownloadDriverWarning"
 msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
@@ -1186,11 +1191,6 @@ msgstr "Még mindig mentődik a világ. Próbáld meg később."
 msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Kilépés a Stationeersből"
-
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Biztosan ki akarsz lépni?"
 
 #: /Language/Interface/Record[Key='All']
 msgctxt "Interface.All"
@@ -3744,15 +3744,15 @@ msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
 msgstr "Régi tárhely"
 
-#: /Language/Interface/Record[Key='NewWorldAreaTitle']
-msgctxt "Interface.NewWorldAreaTitle"
-msgid "Starting Area"
-msgstr "Kezdő terület"
-
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
 msgstr "További"
+
+#: /Language/Interface/Record[Key='NewWorldAreaTitle']
+msgctxt "Interface.NewWorldAreaTitle"
+msgid "Starting Area"
+msgstr "Kezdő terület"
 
 #: /Language/Interface/Record[Key='ButtonLibrary']
 msgctxt "Interface.ButtonLibrary"
@@ -4486,10 +4486,10 @@ msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Kérjük várj..."
 
-#: /Language/Interface/Record[Key='PromptQuitConfirm']
-msgctxt "Interface.PromptQuitConfirm"
-msgid "Quit"
-msgstr "Kilépés"
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Biztosan ki akarsz lépni?"
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"
