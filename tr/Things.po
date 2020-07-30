@@ -15,6 +15,11 @@ msgctxt "Things.StructurePictureFrameThickLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr ""
 
+#: /Language/Things/Record[Key='ManualGetResearchPodsRequired']
+msgctxt "Things.ManualGetResearchPodsRequired"
+msgid "PodTypeToSearchFor"
+msgstr "PodTypeToSearchFor"
+
 #: /Language/Things/Record[Key='ItemKitResearchMachine']
 #, fuzzy
 msgctxt "Things.ItemKitResearchMachine"
@@ -140,10 +145,10 @@ msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
 msgid "Composite Cladding (Angled Corner Inner Long)"
 msgstr "Alaşım Kaplama (Açılı Köşe İç Uzun)"
 
-#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLongL']
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
-msgid "Composite Cladding (Angled Corner Inner Long L)"
-msgstr "Alaşım Kaplama (Açılı Köşe İç Uzun Sol)"
+#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLongR']
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
+msgid "Composite Cladding (Angled Corner Inner Long R)"
+msgstr "Alaşım Kaplama (Açılı Köşe İç Uzun Sağ)"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingRoundedCornerInner']
 msgctxt "Things.StructureCompositeCladdingRoundedCornerInner"
@@ -1484,10 +1489,11 @@ msgctxt "Things.StructureCompositeCladdingAngledLong"
 msgid "Composite Cladding (Long Angled)"
 msgstr "Alaşım Kaplama (Uzun Açılı)"
 
-#: /Language/Things/Record[Key='ManualGetResearchPodsRequired']
-msgctxt "Things.ManualGetResearchPodsRequired"
-msgid "PodTypeToSearchFor"
-msgstr "PodTypeToSearchFor"
+#: /Language/Things/Record[Key='StructureResearchMachine']
+#, fuzzy
+msgctxt "Things.StructureResearchMachine"
+msgid "Research Machine"
+msgstr "Yapı Araştırma Makinesi"
 
 #: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerLong']
 msgctxt "Things.StructureCompositeCladdingAngledCornerLong"
@@ -3202,11 +3208,10 @@ msgctxt "Things.ItemKitSleeper"
 msgid "Kit (Sleeper)"
 msgstr "Donanım (Uyku Kapsülü)"
 
-#: /Language/Things/Record[Key='StructureResearchMachine']
-#, fuzzy
-msgctxt "Things.StructureResearchMachine"
-msgid "Research Machine"
-msgstr "Yapı Araştırma Makinesi"
+#: /Language/Things/Record[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "Donanım (İşaret)"
 
 #: /Language/Things/Record[Key='ItemKitSensor']
 msgctxt "Things.ItemKitSensor"
@@ -3859,10 +3864,10 @@ msgctxt "Things.BodyPartRoosterBlackBody"
 msgid "Body Part Rooster Black Body"
 msgstr "Vücut Parçası Horoz Siyah Gövde"
 
-#: /Language/Things/Record[Key='BodyPartGraylienPelvis ']
-msgctxt "Things.BodyPartGraylienPelvis "
-msgid "Body Part Graylien Pelvis "
-msgstr "Vücut Parçası Graylien Alt Karın "
+#: /Language/Things/Record[Key='StructureShelf']
+msgctxt "Things.StructureShelf"
+msgid "Shelf"
+msgstr ""
 
 #: /Language/Things/Record[Key='BodyPartGraylienLegR ']
 msgctxt "Things.BodyPartGraylienLegR "
@@ -4069,11 +4074,6 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrodalga"
 
-#: /Language/Things/Record[Key='StructureShelf']
-msgctxt "Things.StructureShelf"
-msgid "Shelf"
-msgstr ""
-
 #: /Language/Things/Record[Key='HumanSkull']
 msgctxt "Things.HumanSkull"
 msgid "Human Skull"
@@ -4133,15 +4133,15 @@ msgctxt "Things.StructurePictureFrameThickMountPortraitLarge"
 msgid "Picture Frame Thick Mount Portrait Large"
 msgstr ""
 
-#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLongR']
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
-msgid "Composite Cladding (Angled Corner Inner Long R)"
-msgstr "Alaşım Kaplama (Açılı Köşe İç Uzun Sağ)"
-
 #: /Language/Things/Record[Key='StructurePictureFrameThickMountLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickMountLandscapeSmall"
 msgid "Picture Frame Thick Landscape Small"
 msgstr ""
+
+#: /Language/Things/Record[Key='StructureCompositeCladdingAngledCornerInnerLongL']
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
+msgid "Composite Cladding (Angled Corner Inner Long L)"
+msgstr "Alaşım Kaplama (Açılı Köşe İç Uzun Sol)"
 
 #: /Language/Things/Record[Key='StructurePictureFrameThickMountLandscapeLarge']
 msgctxt "Things.StructurePictureFrameThickMountLandscapeLarge"
@@ -4554,10 +4554,16 @@ msgctxt "Things.DynamicGasCanisterRocketFuel"
 msgid "Dynamic Gas Canister Rocket Fuel"
 msgstr ""
 
-#: /Language/Things/Record[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "Donanım (İşaret)"
+#: /Language/Things/Record[Key='ModularRocketCommand01Lander']
+#, fuzzy
+msgctxt "Things.ModularRocketCommand01Lander"
+msgid "Rocket Command Lander"
+msgstr "Roket Motoru"
+
+#: /Language/Things/Record[Key='BodyPartGraylienPelvis ']
+msgctxt "Things.BodyPartGraylienPelvis "
+msgid "Body Part Graylien Pelvis "
+msgstr "Vücut Parçası Graylien Alt Karın "
 
 #, fuzzy
 #~ msgctxt "Things.StructureInsulatedPipeCrossJunction3"
