@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
-msgstr "Uran"
+#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
+msgctxt "Interface.ElectronicReaderHydrocarbon"
+msgid "Hydrocarbon"
+msgstr "Uhlovodík"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -1191,6 +1191,11 @@ msgstr "Stále se ukládají světová data.  Jakmile uložení skončí, zkuste
 msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Ukončit Stationeers"
+
+#: /Language/Interface/Record[Key='DeconstructToolTipText']
+msgctxt "Interface.DeconstructToolTipText"
+msgid "{0} required to deconstruct"
+msgstr "{0} potřeba k dekonstrukci"
 
 #: /Language/Interface/Record[Key='All']
 msgctxt "Interface.All"
@@ -2419,10 +2424,10 @@ msgctxt "Interface.ElectronicReaderSilver"
 msgid "Silver"
 msgstr "Stříbro"
 
-#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
-msgctxt "Interface.ElectronicReaderHydrocarbon"
-msgid "Hydrocarbon"
-msgstr "Uhlovodík"
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr "Uran"
 
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
 msgctxt "Interface.ElectronicReaderSteel"
@@ -2609,15 +2614,15 @@ msgctxt "Interface.NoonTemperatureField"
 msgid "Noon Temperature"
 msgstr "Teplota poledne"
 
-#: /Language/Interface/Record[Key='DawnTemperatureField']
-msgctxt "Interface.DawnTemperatureField"
-msgid "Dawn Temperature"
-msgstr "Teplota úsvitu"
-
 #: /Language/Interface/Record[Key='TooltipNeedMoreKit']
 msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Potřebujete více {0}</color>."
+
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Stupnice sluneční intenzity"
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -4402,10 +4407,10 @@ msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "Hledat podle názvu serveru"
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Stupnice sluneční intenzity"
+#: /Language/Interface/Record[Key='DawnTemperatureField']
+msgctxt "Interface.DawnTemperatureField"
+msgid "Dawn Temperature"
+msgstr "Teplota úsvitu"
 
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
@@ -4416,10 +4421,6 @@ msgstr "Počkejte prosím..."
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "Opravdu chcete skončit?"
-
-#~ msgctxt "Interface.DeconstructToolTipText"
-#~ msgid "{0} required to deconstruct"
-#~ msgstr "{0} potřeba k dekonstrukci"
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"
