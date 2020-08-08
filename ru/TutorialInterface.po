@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-08 10:21+0000\n"
+"PO-Revision-Date: 2020-08-08 10:29+0000\n"
 "Last-Translator: AndreyKl <andreykl@ukr.net>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2459,7 +2459,7 @@ msgstr "Разблокируйте новые технологии с помощ
 #: /Language/Interface/Record[Key='TheResearchMachine']
 msgctxt "Interface.TheResearchMachine"
 msgid "The Research Machine"
-msgstr ""
+msgstr "Исследовательская Машина"
 
 #: /Language/Interface/Record[Key='TheResearchMachineDescription']
 msgctxt "Interface.TheResearchMachineDescription"
@@ -2770,6 +2770,10 @@ msgid ""
 "The first method uses two parts volatiles and one part oxite. Be careful not to overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may over pressurize the furnace and cause a devastating explosion.\n"
 "    "
 msgstr ""
+"Чтобы выплавить сталь, в {THING:StructureFurnace} нужно достичь минимального необходимого давления и температуры. Это может быть сделано путем добавления летучих веществ и окситов в форме льда непосредственно в печь, или путем предоставления топливной смеси.\n"
+"\n"
+"Первый метод использует две части летучих веществ и одну часть оксита. Будьте осторожны и не перегрузите {THING:StructureFurnace}, так как добавление слишком большого количества окситов или летучих веществ может привести большому давлению на печь, что приведет к разрушительному взрыву.\n"
+"    "
 
 #: /Language/Interface/Record[Key='IgnitingTheFurnaceTask1']
 msgctxt "Interface.IgnitingTheFurnaceTask1"
@@ -2814,6 +2818,10 @@ msgid ""
 "Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace}.\n"
 "    "
 msgstr ""
+"Как и в {THING:StructureArcFurnace}, вы можете плавить руды в {THING:StructureFurnace}, но вы также можете их комбинировать. Комбинирование изменяет состав металлов, создавая новые сплавы. Если вы ошибетесь, вы будете создавать {THING:ItemReagentMix} вместо сплавов.\n"
+"\n"
+"Начните с добавления трех частей {THING:ItemIronOre} в {THING:StructureFurnace}.\n"
+"    "
 
 #: /Language/Interface/Record[Key='SmeltingIronTask1']
 msgctxt "Interface.SmeltingIronTask1"
@@ -2828,12 +2836,12 @@ msgstr "Положите {THING:ItemIronOre} в {THING:StructureFurnace}"
 #: /Language/Interface/Record[Key='MakingAnAlloy']
 msgctxt "Interface.MakingAnAlloy"
 msgid "Making An Alloy"
-msgstr ""
+msgstr "Делаем Сплав"
 
 #: /Language/Interface/Record[Key='MakingAnAlloyDescription']
 msgctxt "Interface.MakingAnAlloyDescription"
 msgid "You can now turn the molten iron into steel. To do this, add one part {THING:ItemCoalOre} to the mix."
-msgstr ""
+msgstr "Теперь вы можете превратить расплавленное железо в сталь. Чтобы сделать это, добавьте одну часть {THING:ItemCoalOre} в смесь."
 
 #: /Language/Interface/Record[Key='MakingAnAlloyTask1']
 msgctxt "Interface.MakingAnAlloyTask1"
@@ -2848,7 +2856,7 @@ msgstr "Вставьте {THING:ItemCoalOre} в {THING:StructureFurnace}"
 #: /Language/Interface/Record[Key='FromingTheIngot']
 msgctxt "Interface.FromingTheIngot"
 msgid "Forming the Ingot"
-msgstr ""
+msgstr "Изготовление Слитка"
 
 #: /Language/Interface/Record[Key='FromingTheIngotDescription']
 msgctxt "Interface.FromingTheIngotDescription"
