@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-14 04:10+0000\n"
+"PO-Revision-Date: 2020-08-14 04:14+0000\n"
 "Last-Translator: tinygrox <tinygrox@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3067,28 +3067,24 @@ msgid "Rockets in Stationeers use the same fuel as other items requiring flammab
 msgstr ""
 
 #: /Language/Interface/Record[Key='FuelTanks2Task1']
-#, fuzzy
 msgctxt "Interface.FuelTanks2Task1"
 msgid "Attach {THING:ItemKitTank} to the {THING:StructureModularRocketFueltank01}"
-msgstr "将 {THING:ItemOxite} 放入到 {THING:StructureFurnace}"
+msgstr "将 {THING:ItemKitTank} 安装到 {THING:StructureModularRocketFueltank01}"
 
 #: /Language/Interface/Record[Key='FuelTanks2Task2']
-#, fuzzy
 msgctxt "Interface.FuelTanks2Task2"
 msgid "Weld {THING:ItemSteelSheets} to the {THING:StructureModularRocketFueltank01}"
-msgstr "把这些 {THING:ItemPlasticSheets} 焊接到 {THING:StructureAutolathe} 上。"
+msgstr "把 {THING:ItemSteelSheets} 焊接到 {THING:StructureModularRocketFueltank01} 上。"
 
 #: /Language/Interface/Record[Key='FuelTanks2Task3']
-#, fuzzy
 msgctxt "Interface.FuelTanks2Task3"
 msgid "Attach {THING:ItemElectronicParts} to the {THING:StructureModularRocketFueltank01}"
-msgstr "给 {THING:StructureConsole} 安上 {THING:ItemGlassSheets}。"
+msgstr "给 {THING:StructureModularRocketFueltank01} 安上 {THING:ItemElectronicParts}。"
 
 #: /Language/Interface/Record[Key='CargoModule']
-#, fuzzy
 msgctxt "Interface.CargoModule"
 msgid "Cargo Module"
-msgstr "内存模块"
+msgstr "货舱模块"
 
 #: /Language/Interface/Record[Key='CargoModuleDescription']
 msgctxt "Interface.CargoModuleDescription"
@@ -3096,16 +3092,14 @@ msgid "The Cargo Module allows you to take equipment and devices with you to you
 msgstr ""
 
 #: /Language/Interface/Record[Key='CargoModuleTask1']
-#, fuzzy
 msgctxt "Interface.CargoModuleTask1"
 msgid "Pick up the {THING:ItemKitStructureModularRocketCargo01} from the lefthand crate"
-msgstr "从红色箱中拿出 {THING:ItemCoalOre}"
+msgstr "从左边箱中拿出{THING:ItemKitStructureModularRocketCargo01}"
 
 #: /Language/Interface/Record[Key='CargoModuleTask2']
-#, fuzzy
 msgctxt "Interface.CargoModuleTask2"
 msgid "Build the {THING:StructureModularRocketCargo01} in the highlighted position"
-msgstr "在高亮位置处建造 {THING:StructureGasSensor}"
+msgstr "在高亮位置处建造 {THING:StructureModularRocketCargo01}"
 
 #: /Language/Interface/Record[Key='CargoModule2']
 msgctxt "Interface.CargoModule2"
@@ -3118,22 +3112,19 @@ msgid "Building the Cargo Module is similar to other modules. Building multiple 
 msgstr ""
 
 #: /Language/Interface/Record[Key='CargoModule2Task1']
-#, fuzzy
 msgctxt "Interface.CargoModule2Task1"
 msgid "Weld {THING:ItemSteelSheets} to the {THING:StructureModularRocketCargo01}"
-msgstr "把这些 {THING:ItemPlasticSheets} 焊接到 {THING:StructureAutolathe} 上。"
+msgstr "把这些 {THING:ItemSteelSheets} 焊接到 {THING:StructureModularRocketCargo01} 上。"
 
 #: /Language/Interface/Record[Key='CargoModule2Task2']
-#, fuzzy
 msgctxt "Interface.CargoModule2Task2"
 msgid "Weld {THING:ItemPlasticSheets} to the {THING:StructureModularRocketCargo01}"
-msgstr "把这些 {THING:ItemPlasticSheets} 焊接到 {THING:StructureAutolathe} 上。"
+msgstr "把这些 {THING:ItemPlasticSheets} 焊接到 {THING:StructureModularRocketCargo01} 上"
 
 #: /Language/Interface/Record[Key='CargoModule2Task3']
-#, fuzzy
 msgctxt "Interface.CargoModule2Task3"
 msgid "Attach {THING:ItemElectronicParts} to the {THING:StructureModularRocketCargo01}"
-msgstr "给 {THING:StructureConsole} 安上 {THING:ItemGlassSheets}。"
+msgstr "给 {THING:StructureModularRocketCargo01} 安上 {THING:ItemElectronicParts}。"
 
 #: /Language/Interface/Record[Key='CommandMod']
 msgctxt "Interface.CommandMod"
@@ -3146,16 +3137,14 @@ msgid "The Command Module is the final part of the Rocket, and its central contr
 msgstr ""
 
 #: /Language/Interface/Record[Key='CommandModTask1']
-#, fuzzy
 msgctxt "Interface.CommandModTask1"
 msgid "Pick up the {THING:ItemKitStructureModularRocketCommand01} from the white crate on the left"
-msgstr "从红色箱中拿出 {THING:ItemCoalOre}"
+msgstr "从左边白色箱中拿出{THING:ItemKitStructureModularRocketCommand01}"
 
 #: /Language/Interface/Record[Key='CommandModTask2']
-#, fuzzy
 msgctxt "Interface.CommandModTask2"
 msgid "Place the {THING:StructureModularRocketCommand01} in the highlighted position"
-msgstr "在高亮位置处放置 {THING:StructurePressureRegulator}。"
+msgstr "在高亮位置处放置 {THING:StructureModularRocketCommand01}。"
 
 #: /Language/Interface/Record[Key='CommandMod2']
 msgctxt "Interface.CommandMod2"
@@ -3170,22 +3159,19 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='CommandMod2Task1']
-#, fuzzy
 msgctxt "Interface.CommandMod2Task1"
 msgid "Weld {THING:ItemSteelSheets} to the {THING:StructureModularRocketCommand01}"
-msgstr "把这些 {THING:ItemPlasticSheets} 焊接到 {THING:StructureAutolathe} 上。"
+msgstr "把这些 {THING:ItemSteelSheets} 焊接到 {THING:StructureModularRocketCommand01} 上"
 
 #: /Language/Interface/Record[Key='CommandMod2Task2']
-#, fuzzy
 msgctxt "Interface.CommandMod2Task2"
 msgid "Weld {THING:ItemPlasticSheets} to the {THING:StructureModularRocketCommand01}"
-msgstr "把这些 {THING:ItemPlasticSheets} 焊接到 {THING:StructureAutolathe} 上。"
+msgstr "把这些 {THING:ItemPlasticSheets} 焊接到 {THING:StructureModularRocketCommand01} 上。"
 
 #: /Language/Interface/Record[Key='CommandMod2Task3']
-#, fuzzy
 msgctxt "Interface.CommandMod2Task3"
 msgid "Attach {THING:ItemElectronicParts} to the {THING:StructureModularRocketCommand01}"
-msgstr "给 {THING:StructureConsole} 安上 {THING:ItemGlassSheets}。"
+msgstr "给 {THING:StructureModularRocketCommand01} 安上 {THING:ItemElectronicParts}"
 
 #: /Language/Interface/Record[Key='FuelUp']
 msgctxt "Interface.FuelUp"
@@ -3200,16 +3186,14 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='FuelUpStraight']
-#, fuzzy
 msgctxt "Interface.FuelUpStraight"
 msgid "Build a {THING:StructureInsulatedPipeStraight} in the highlighted position"
-msgstr "在高亮位置处放置另一个{THING:StructurePipeStraight}。"
+msgstr "在高亮位置处搭建{THING:StructureInsulatedPipeStraight}"
 
 #: /Language/Interface/Record[Key='FuelUpCorner']
-#, fuzzy
 msgctxt "Interface.FuelUpCorner"
 msgid "Build a {THING:StructureInsulatedPipeCorner} in the highlighted position"
-msgstr "在高亮位置处放置 {THING:StructurePipeMeter}。"
+msgstr "在高亮位置处放置 {THING:StructureInsulatedPipeCorner}"
 
 #: /Language/Interface/Record[Key='NoPower']
 msgctxt "Interface.NoPower"
@@ -3222,16 +3206,14 @@ msgid "There seems to be no power to the rocket. Check the {THING:StructureAreaP
 msgstr ""
 
 #: /Language/Interface/Record[Key='NoPower1']
-#, fuzzy
 msgctxt "Interface.NoPower1"
 msgid "Turn on the {THING:StructureAreaPowerControl}"
-msgstr "打开 {THING:StructureConsole}。"
+msgstr "打开 {THING:StructureAreaPowerControl}"
 
 #: /Language/Interface/Record[Key='SettingTheDestination']
-#, fuzzy
 msgctxt "Interface.SettingTheDestination"
 msgid "Setting a Destination"
-msgstr "设置传感器"
+msgstr "设置目的地"
 
 #: /Language/Interface/Record[Key='SettingTheDestinationDescription']
 msgctxt "Interface.SettingTheDestinationDescription"
@@ -3241,7 +3223,6 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingTheDestination1']
-#, fuzzy
 msgctxt "Interface.SettingTheDestination1"
 msgid "Open the Stationpedia"
 msgstr "打开Stationpedia"
@@ -3252,10 +3233,9 @@ msgid "Navigate to the World Travel Section, click on \"Travel\", and read about
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingTheDestination3']
-#, fuzzy
 msgctxt "Interface.SettingTheDestination3"
 msgid "Pick up the {THING:ItemLabeller} found in the lefthand crate."
-msgstr "从箱中拿出 {THING:ItemLabeller}。"
+msgstr "从左边箱中拿出 {THING:ItemLabeller}。"
 
 #: /Language/Interface/Record[Key='SettingTheDestination4']
 #, fuzzy
