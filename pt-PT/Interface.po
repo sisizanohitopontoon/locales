@@ -10,15 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
-msgctxt "Interface.ElectronicReaderHydrocarbon"
-msgid "Hydrocarbon"
-msgstr "Hidrocarbonetos"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Padrões"
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "Ainda salvando os dados do mundo. Por favor, tente novamente quando terminar."
 
 #: /Language/Interface/Record[Key='SettingsDisplayFPS']
 msgctxt "Interface.SettingsDisplayFPS"
@@ -55,15 +50,15 @@ msgctxt "Interface.SettingsMenuControls"
 msgid "Controls"
 msgstr "Controlos"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Tens a certeza que queres sair?"
-
 #: /Language/Interface/Record[Key='SettingsMenuAudio']
 msgctxt "Interface.SettingsMenuAudio"
 msgid "Audio"
 msgstr "Áudio"
+
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Sair do Stationeers"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -301,10 +296,10 @@ msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "Área de Início"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr "Incapaz de interagir por não teres o {SLOT:AccessCard} requerido"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Dispersão Atmosférica"
 
 #: /Language/Interface/Record[Key='NewWorldButtonBack']
 msgctxt "Interface.NewWorldButtonBack"
@@ -456,6 +451,11 @@ msgstr "Fotografia"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuar"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Padrões"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -929,6 +929,11 @@ msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceDynamic"
 msgid "Cannot mount to this face of #VAR1#, try another one"
 msgstr "Não podes montar nesta superfície de #VAR1#, tenta noutra"
 
+#: /Language/Interface/Record[Key='ElectronicReaderSteel']
+msgctxt "Interface.ElectronicReaderSteel"
+msgid "Steel"
+msgstr "Aço"
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceFallback"
 msgid "Cannot mount to this face, try another one"
@@ -949,10 +954,10 @@ msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
 msgid "Advanced Settings"
 msgstr "Definições avançadas"
 
-#: /Language/Interface/Record[Key='SettingsUPNPNote']
-msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "Se o Universal Plug and Play (UPNP) estiver habilitado no seu router, estas portas serão encaminhadas automaticamente quando criares um jogo."
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Tens a certeza que queres sair?"
 
 #: /Language/Interface/Record[Key='PromptQuitConfirm']
 msgctxt "Interface.PromptQuitConfirm"
@@ -1126,10 +1131,10 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Deves inserir um nome de mundo a gravar."
 
-#: /Language/Interface/Record[Key='AlertTitleAttention']
-msgctxt "Interface.AlertTitleAttention"
-msgid "Attention"
-msgstr "Atenção"
+#: /Language/Interface/Record[Key='SettingsUPNPNote']
+msgctxt "Interface.SettingsUPNPNote"
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
+msgstr "Se o Universal Plug and Play (UPNP) estiver habilitado no seu router, estas portas serão encaminhadas automaticamente quando criares um jogo."
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -1185,11 +1190,6 @@ msgstr "Sair"
 msgctxt "Interface.WaitingTitle"
 msgid "Saving Warning"
 msgstr "Alerta de Salvamento"
-
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "Ainda salvando os dados do mundo. Por favor, tente novamente quando terminar."
 
 #: /Language/Interface/Record[Key='DeconstructToolTipText']
 msgctxt "Interface.DeconstructToolTipText"
@@ -2449,15 +2449,15 @@ msgctxt "Interface.ElectronicReaderSilver"
 msgid "Silver"
 msgstr "Prata"
 
+#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
+msgctxt "Interface.ElectronicReaderHydrocarbon"
+msgid "Hydrocarbon"
+msgstr "Hidrocarbonetos"
+
 #: /Language/Interface/Record[Key='ElectronicReaderUranium']
 msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
 msgstr "Urânio"
-
-#: /Language/Interface/Record[Key='ElectronicReaderSteel']
-msgctxt "Interface.ElectronicReaderSteel"
-msgid "Steel"
-msgstr "Aço"
 
 #: /Language/Interface/Record[Key='ElectronicReaderCarbon']
 msgctxt "Interface.ElectronicReaderCarbon"
@@ -2639,10 +2639,10 @@ msgctxt "Interface.NoonTemperatureField"
 msgid "Noon Temperature"
 msgstr "Temperatura à tarde"
 
-#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
-msgctxt "Interface.TooltipNeedMoreKit"
-msgid "<color=red>Need more {0}</color>."
-msgstr "<color=red>Preciso mais de {0}</color>."
+#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
+msgctxt "Interface.AlertTitlePleaseWait"
+msgid "Please Wait..."
+msgstr "Por favor, aguarde..."
 
 #: /Language/Interface/Record[Key='SolarScaleField']
 #, fuzzy
@@ -2941,7 +2941,6 @@ msgid "Spes'mall"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderGas']
-#, fuzzy
 msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr ""
@@ -2962,7 +2961,6 @@ msgid "Tool Corp"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderPaint']
-#, fuzzy
 msgctxt "Interface.TraderPaint"
 msgid "Color Corp"
 msgstr ""
@@ -3930,10 +3928,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Reiniciar"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Dispersão Atmosférica"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "Incapaz de interagir por não teres o {SLOT:AccessCard} requerido"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4442,20 +4440,20 @@ msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "Pesquisar pelo Nome"
 
+#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
+msgctxt "Interface.TooltipNeedMoreKit"
+msgid "<color=red>Need more {0}</color>."
+msgstr "<color=red>Preciso mais de {0}</color>."
+
 #: /Language/Interface/Record[Key='DawnTemperatureField']
 msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr "Temperatura de manhã"
 
-#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
-msgctxt "Interface.AlertTitlePleaseWait"
-msgid "Please Wait..."
-msgstr "Por favor, aguarde..."
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Sair do Stationeers"
+#: /Language/Interface/Record[Key='AlertTitleAttention']
+msgctxt "Interface.AlertTitleAttention"
+msgid "Attention"
+msgstr "Atenção"
 
 #, fuzzy
 #~ msgctxt "Interface.FurnaceChamberText"

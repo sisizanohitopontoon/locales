@@ -10,15 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
-msgctxt "Interface.ElectronicReaderHydrocarbon"
-msgid "Hydrocarbon"
-msgstr "Szénhidrogén"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Alapértelmezett"
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "Még mindig mentődik a világ. Próbáld meg később."
 
 #: /Language/Interface/Record[Key='SettingsDisplayFPS']
 msgctxt "Interface.SettingsDisplayFPS"
@@ -55,15 +50,15 @@ msgctxt "Interface.SettingsMenuControls"
 msgid "Controls"
 msgstr "Irányítás"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Biztosan ki akarsz lépni?"
-
 #: /Language/Interface/Record[Key='SettingsMenuAudio']
 msgctxt "Interface.SettingsMenuAudio"
 msgid "Audio"
 msgstr "Audió"
+
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Kilépés a Stationeersből"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -300,10 +295,10 @@ msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "Kezdő terület"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr "{SLOT:AccessCard} szükséges az interakcióhoz"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Légköri szóródás"
 
 #: /Language/Interface/Record[Key='NewWorldButtonBack']
 msgctxt "Interface.NewWorldButtonBack"
@@ -455,6 +450,11 @@ msgstr "Kép"
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Alapértelmezett"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -929,6 +929,11 @@ msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceDynamic"
 msgid "Cannot mount to this face of #VAR1#, try another one"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ElectronicReaderSteel']
+msgctxt "Interface.ElectronicReaderSteel"
+msgid "Steel"
+msgstr "Acél"
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceFallback"
 msgid "Cannot mount to this face, try another one"
@@ -949,10 +954,10 @@ msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
 msgid "Advanced Settings"
 msgstr "További beállítások"
 
-#: /Language/Interface/Record[Key='SettingsUPNPNote']
-msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "Ha az Universal Plug and Play (UPNP) engedélyezve van itt és a routereden, a portok automatikusan továbbításra kerülnek egy új játék elindításakor."
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Biztosan ki akarsz lépni?"
 
 #: /Language/Interface/Record[Key='PromptQuitConfirm']
 msgctxt "Interface.PromptQuitConfirm"
@@ -1124,10 +1129,10 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Be kell írnod egy nevet a mentéshez."
 
-#: /Language/Interface/Record[Key='AlertTitleAttention']
-msgctxt "Interface.AlertTitleAttention"
-msgid "Attention"
-msgstr "Figyelem"
+#: /Language/Interface/Record[Key='SettingsUPNPNote']
+msgctxt "Interface.SettingsUPNPNote"
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
+msgstr "Ha az Universal Plug and Play (UPNP) engedélyezve van itt és a routereden, a portok automatikusan továbbításra kerülnek egy új játék elindításakor."
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -1183,11 +1188,6 @@ msgstr "Kilépés"
 msgctxt "Interface.WaitingTitle"
 msgid "Saving Warning"
 msgstr "Figyelem, mentés"
-
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "Még mindig mentődik a világ. Próbáld meg később."
 
 #: /Language/Interface/Record[Key='DeconstructToolTipText']
 msgctxt "Interface.DeconstructToolTipText"
@@ -1521,7 +1521,6 @@ msgid "Green"
 msgstr "Zöld:"
 
 #: /Language/Interface/Record[Key='RedPodType']
-#, fuzzy
 msgctxt "Interface.RedPodType"
 msgid "Red"
 msgstr ""
@@ -2472,15 +2471,15 @@ msgctxt "Interface.ElectronicReaderSilver"
 msgid "Silver"
 msgstr "Ezüst"
 
+#: /Language/Interface/Record[Key='ElectronicReaderHydrocarbon']
+msgctxt "Interface.ElectronicReaderHydrocarbon"
+msgid "Hydrocarbon"
+msgstr "Szénhidrogén"
+
 #: /Language/Interface/Record[Key='ElectronicReaderUranium']
 msgctxt "Interface.ElectronicReaderUranium"
 msgid "Uranium"
 msgstr "Urán"
-
-#: /Language/Interface/Record[Key='ElectronicReaderSteel']
-msgctxt "Interface.ElectronicReaderSteel"
-msgid "Steel"
-msgstr "Acél"
 
 #: /Language/Interface/Record[Key='ElectronicReaderCarbon']
 msgctxt "Interface.ElectronicReaderCarbon"
@@ -2662,10 +2661,10 @@ msgctxt "Interface.NoonTemperatureField"
 msgid "Noon Temperature"
 msgstr "Déli hőmérséklet"
 
-#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
-msgctxt "Interface.TooltipNeedMoreKit"
-msgid "<color=red>Need more {0}</color>."
-msgstr "<color=red>Több {0} szükséges</color>."
+#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
+msgctxt "Interface.AlertTitlePleaseWait"
+msgid "Please Wait..."
+msgstr "Kérjük várj..."
 
 #: /Language/Interface/Record[Key='SolarScaleField']
 #, fuzzy
@@ -2965,7 +2964,6 @@ msgid "Spes'mall"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderGas']
-#, fuzzy
 msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr ""
@@ -2986,7 +2984,6 @@ msgid "Tool Corp"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderPaint']
-#, fuzzy
 msgctxt "Interface.TraderPaint"
 msgid "Color Corp"
 msgstr ""
@@ -3964,10 +3961,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Visszaállítás"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Légköri szóródás"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "{SLOT:AccessCard} szükséges az interakcióhoz"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4478,20 +4475,20 @@ msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "Keresés szervernév alapján"
 
+#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
+msgctxt "Interface.TooltipNeedMoreKit"
+msgid "<color=red>Need more {0}</color>."
+msgstr "<color=red>Több {0} szükséges</color>."
+
 #: /Language/Interface/Record[Key='DawnTemperatureField']
 msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr "Hajnali hőmérséklet"
 
-#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
-msgctxt "Interface.AlertTitlePleaseWait"
-msgid "Please Wait..."
-msgstr "Kérjük várj..."
-
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Kilépés a Stationeersből"
+#: /Language/Interface/Record[Key='AlertTitleAttention']
+msgctxt "Interface.AlertTitleAttention"
+msgid "Attention"
+msgstr "Figyelem"
 
 #, fuzzy
 #~ msgctxt "Interface.FurnaceChamberText"

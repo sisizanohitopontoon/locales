@@ -159,10 +159,10 @@ msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
 msgid "Composite Cladding (Angled Corner Inner Long)"
 msgstr "Komposiittipäällyste (vino, kulma)"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
 #, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
-msgid "Composite Cladding (Angled Corner Inner Long R)"
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
+msgid "Composite Cladding (Angled Corner Inner Long L)"
 msgstr "Komposiittipäällyste (vino, kulma)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingRoundedCornerInner']
@@ -1518,15 +1518,15 @@ msgctxt "Things.StructureCompositeCladdingCylindrical"
 msgid "Composite Cladding (Cylindrical)"
 msgstr "Komposiittipäällyste (lieriö)"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
-msgctxt "Things.StructureCompositeCladdingAngledLong"
-msgid "Composite Cladding (Long Angled)"
-msgstr "Komposiittipäällyste (pitkä, vino)"
-
 #: /Language/Things/RecordThing[Key='StructureShelf']
 msgctxt "Things.StructureShelf"
 msgid "Shelf"
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
+msgctxt "Things.StructureCompositeCladdingAngledLong"
+msgid "Composite Cladding (Long Angled)"
+msgstr "Komposiittipäällyste (pitkä, vino)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerLong']
 msgctxt "Things.StructureCompositeCladdingAngledCornerLong"
@@ -3248,10 +3248,11 @@ msgctxt "Things.ItemKitSleeper"
 msgid "Kit (Sleeper)"
 msgstr "Varustepakkaus (unikapseli)"
 
-#: /Language/Things/RecordThing[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "Varustepakkaus (kyltti)"
+#: /Language/Things/RecordThing[Key='HumanSkull']
+#, fuzzy
+msgctxt "Things.HumanSkull"
+msgid "Human Skull"
+msgstr "Keuhkot"
 
 #: /Language/Things/RecordThing[Key='ItemKitSensor']
 msgctxt "Things.ItemKitSensor"
@@ -3905,11 +3906,11 @@ msgctxt "Things.BodyPartRoosterBlackBody"
 msgid "Body Part Rooster Black Body"
 msgstr "Body Part Rooster Black Body"
 
-#: /Language/Things/RecordThing[Key='HumanSkull']
+#: /Language/Things/RecordThing[Key='BodyPartGraylienPelvis']
 #, fuzzy
-msgctxt "Things.HumanSkull"
-msgid "Human Skull"
-msgstr "Keuhkot"
+msgctxt "Things.BodyPartGraylienPelvis"
+msgid "Body Part Graylien Pelvis"
+msgstr "Body Part Graylien Pelvis "
 
 #: /Language/Things/RecordThing[Key='BodyPartGraylienLegR']
 #, fuzzy
@@ -4109,7 +4110,13 @@ msgstr "Body Part Astronaut Female Arm R"
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleArmL']
 msgctxt "Things.BodyPartAstronautFemaleArmL"
-msgid "Body Part Astronaut Female Arm)"
+msgid "The left arm of a femal Astronaut, better when it is attatched. You only have two!"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleArmL']
+#, fuzzy
+msgctxt "Things.BodyPartAstronautFemaleArmL"
+msgid "Body Part Astronaut Female Arm"
 msgstr "Body Part Astronaut Female Arm L"
 
 #: /Language/Things/RecordThing[Key='ApplianceReagentProcessor']
@@ -4172,6 +4179,12 @@ msgctxt "Things.StructurePictureFrameThickMountPortraitLarge"
 msgid "Picture Frame Thick Mount Portrait Large"
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
+#, fuzzy
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
+msgid "Composite Cladding (Angled Corner Inner Long R)"
+msgstr "Komposiittipäällyste (vino, kulma)"
+
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickMountLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickMountLandscapeSmall"
 msgid "Picture Frame Thick Landscape Small"
@@ -4181,12 +4194,6 @@ msgstr ""
 msgctxt "Things.StructurePictureFrameThickMountLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr ""
-
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
-#, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
-msgid "Composite Cladding (Angled Corner Inner Long L)"
-msgstr "Komposiittipäällyste (vino, kulma)"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickLandscapeSmall"
@@ -4605,11 +4612,10 @@ msgctxt "Things.ModularRocketCargo01"
 msgid "Rocket Cargo"
 msgstr "Rakettimoottori"
 
-#: /Language/Things/RecordThing[Key='BodyPartGraylienPelvis']
-#, fuzzy
-msgctxt "Things.BodyPartGraylienPelvis"
-msgid "Body Part Graylien Pelvis"
-msgstr "Body Part Graylien Pelvis "
+#: /Language/Things/RecordThing[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "Varustepakkaus (kyltti)"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "

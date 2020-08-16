@@ -155,10 +155,10 @@ msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
 msgid "Composite Cladding (Angled Corner Inner Long)"
 msgstr "합성 판넬 (경사형 모서리)"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
 #, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
-msgid "Composite Cladding (Angled Corner Inner Long R)"
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
+msgid "Composite Cladding (Angled Corner Inner Long L)"
 msgstr "합성 판넬 (경사형 모서리)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingRoundedCornerInner']
@@ -1493,15 +1493,15 @@ msgctxt "Things.StructureCompositeCladdingCylindrical"
 msgid "Composite Cladding (Cylindrical)"
 msgstr "합성 판넬 (원통형)"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
-msgctxt "Things.StructureCompositeCladdingAngledLong"
-msgid "Composite Cladding (Long Angled)"
-msgstr "합성 판넬 (긴 경사형)"
-
 #: /Language/Things/RecordThing[Key='StructureShelf']
 msgctxt "Things.StructureShelf"
 msgid "Shelf"
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
+msgctxt "Things.StructureCompositeCladdingAngledLong"
+msgid "Composite Cladding (Long Angled)"
+msgstr "합성 판넬 (긴 경사형)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerLong']
 msgctxt "Things.StructureCompositeCladdingAngledCornerLong"
@@ -3223,10 +3223,11 @@ msgctxt "Things.ItemKitSleeper"
 msgid "Kit (Sleeper)"
 msgstr "조립킷 (수면장치)"
 
-#: /Language/Things/RecordThing[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "건축물 조립킷 (표지)"
+#: /Language/Things/RecordThing[Key='HumanSkull']
+#, fuzzy
+msgctxt "Things.HumanSkull"
+msgid "Human Skull"
+msgstr "인간 폐"
 
 #: /Language/Things/RecordThing[Key='ItemKitSensor']
 msgctxt "Things.ItemKitSensor"
@@ -3879,11 +3880,11 @@ msgctxt "Things.BodyPartRoosterBlackBody"
 msgid "Body Part Rooster Black Body"
 msgstr "검은수탉 몸통"
 
-#: /Language/Things/RecordThing[Key='HumanSkull']
+#: /Language/Things/RecordThing[Key='BodyPartGraylienPelvis']
 #, fuzzy
-msgctxt "Things.HumanSkull"
-msgid "Human Skull"
-msgstr "인간 폐"
+msgctxt "Things.BodyPartGraylienPelvis"
+msgid "Body Part Graylien Pelvis"
+msgstr "회색외계인 골반 "
 
 #: /Language/Things/RecordThing[Key='BodyPartGraylienLegR']
 #, fuzzy
@@ -4083,7 +4084,13 @@ msgstr "여성 우주 비행사의 오른팔"
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleArmL']
 msgctxt "Things.BodyPartAstronautFemaleArmL"
-msgid "Body Part Astronaut Female Arm)"
+msgid "The left arm of a femal Astronaut, better when it is attatched. You only have two!"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleArmL']
+#, fuzzy
+msgctxt "Things.BodyPartAstronautFemaleArmL"
+msgid "Body Part Astronaut Female Arm"
 msgstr "여성 우주 비행사의 왼팔"
 
 #: /Language/Things/RecordThing[Key='ApplianceReagentProcessor']
@@ -4146,6 +4153,12 @@ msgctxt "Things.StructurePictureFrameThickMountPortraitLarge"
 msgid "Picture Frame Thick Mount Portrait Large"
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
+#, fuzzy
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
+msgid "Composite Cladding (Angled Corner Inner Long R)"
+msgstr "합성 판넬 (경사형 모서리)"
+
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickMountLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickMountLandscapeSmall"
 msgid "Picture Frame Thick Landscape Small"
@@ -4155,12 +4168,6 @@ msgstr ""
 msgctxt "Things.StructurePictureFrameThickMountLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr ""
-
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
-#, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
-msgid "Composite Cladding (Angled Corner Inner Long L)"
-msgstr "합성 판넬 (경사형 모서리)"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickLandscapeSmall"
@@ -4560,11 +4567,10 @@ msgctxt "Things.ModularRocketCargo01"
 msgid "Rocket Cargo"
 msgstr "로켓 엔진"
 
-#: /Language/Things/RecordThing[Key='BodyPartGraylienPelvis']
-#, fuzzy
-msgctxt "Things.BodyPartGraylienPelvis"
-msgid "Body Part Graylien Pelvis"
-msgstr "회색외계인 골반 "
+#: /Language/Things/RecordThing[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "건축물 조립킷 (표지)"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "

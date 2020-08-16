@@ -145,10 +145,10 @@ msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
 msgid "Composite Cladding (Angled Corner Inner Long)"
 msgstr "Композитное покрытие (Угол внутренний длинный)"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
-msgid "Composite Cladding (Angled Corner Inner Long R)"
-msgstr "Композитное покрытие (Угол внутренний длинный правый)"
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
+msgid "Composite Cladding (Angled Corner Inner Long L)"
+msgstr "Композитное покрытие (Угол внутренний длинный левый)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingRoundedCornerInner']
 msgctxt "Things.StructureCompositeCladdingRoundedCornerInner"
@@ -1445,15 +1445,15 @@ msgctxt "Things.StructureCompositeCladdingCylindrical"
 msgid "Composite Cladding (Cylindrical)"
 msgstr "Композитное покрытие (Цилиндрическое)"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
-msgctxt "Things.StructureCompositeCladdingAngledLong"
-msgid "Composite Cladding (Long Angled)"
-msgstr "Композитное покрытие (Длинный угол)"
-
 #: /Language/Things/RecordThing[Key='StructureShelf']
 msgctxt "Things.StructureShelf"
 msgid "Shelf"
 msgstr "Полка"
+
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
+msgctxt "Things.StructureCompositeCladdingAngledLong"
+msgid "Composite Cladding (Long Angled)"
+msgstr "Композитное покрытие (Длинный угол)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerLong']
 msgctxt "Things.StructureCompositeCladdingAngledCornerLong"
@@ -3151,10 +3151,10 @@ msgctxt "Things.ItemKitSleeper"
 msgid "Kit (Sleeper)"
 msgstr "Набор (Слипер)"
 
-#: /Language/Things/RecordThing[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "Набор (Знак)"
+#: /Language/Things/RecordThing[Key='HumanSkull']
+msgctxt "Things.HumanSkull"
+msgid "Human Skull"
+msgstr "Человеческий череп"
 
 #: /Language/Things/RecordThing[Key='ItemKitSensor']
 msgctxt "Things.ItemKitSensor"
@@ -3796,10 +3796,11 @@ msgctxt "Things.BodyPartRoosterBlackBody"
 msgid "Body Part Rooster Black Body"
 msgstr "Часть черного петуха (Тушка)"
 
-#: /Language/Things/RecordThing[Key='HumanSkull']
-msgctxt "Things.HumanSkull"
-msgid "Human Skull"
-msgstr "Человеческий череп"
+#: /Language/Things/RecordThing[Key='BodyPartGraylienPelvis']
+#, fuzzy
+msgctxt "Things.BodyPartGraylienPelvis"
+msgid "Body Part Graylien Pelvis"
+msgstr "Часть грейлина (Таз) "
 
 #: /Language/Things/RecordThing[Key='BodyPartGraylienLegR']
 #, fuzzy
@@ -3999,7 +4000,13 @@ msgstr "Часть тела астронавта (женская правая р
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleArmL']
 msgctxt "Things.BodyPartAstronautFemaleArmL"
-msgid "Body Part Astronaut Female Arm)"
+msgid "The left arm of a femal Astronaut, better when it is attatched. You only have two!"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleArmL']
+#, fuzzy
+msgctxt "Things.BodyPartAstronautFemaleArmL"
+msgid "Body Part Astronaut Female Arm"
 msgstr "Часть тела астронавта (женская левая рука)"
 
 #: /Language/Things/RecordThing[Key='ApplianceReagentProcessor']
@@ -4062,6 +4069,11 @@ msgctxt "Things.StructurePictureFrameThickMountPortraitLarge"
 msgid "Picture Frame Thick Mount Portrait Large"
 msgstr "Фоторамка Толстая Горный Портрет Большой"
 
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
+msgid "Composite Cladding (Angled Corner Inner Long R)"
+msgstr "Композитное покрытие (Угол внутренний длинный правый)"
+
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickMountLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickMountLandscapeSmall"
 msgid "Picture Frame Thick Landscape Small"
@@ -4071,11 +4083,6 @@ msgstr "Фоторамка Толстая Пейзаж Маленький"
 msgctxt "Things.StructurePictureFrameThickMountLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr "Фоторамка Толстая Пейзаж Большой"
-
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
-msgid "Composite Cladding (Angled Corner Inner Long L)"
-msgstr "Композитное покрытие (Угол внутренний длинный левый)"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickLandscapeSmall"
@@ -4447,11 +4454,10 @@ msgctxt "Things.ModularRocketCargo01"
 msgid "Rocket Cargo"
 msgstr "Ракетный груз"
 
-#: /Language/Things/RecordThing[Key='BodyPartGraylienPelvis']
-#, fuzzy
-msgctxt "Things.BodyPartGraylienPelvis"
-msgid "Body Part Graylien Pelvis"
-msgstr "Часть грейлина (Таз) "
+#: /Language/Things/RecordThing[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "Набор (Знак)"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "

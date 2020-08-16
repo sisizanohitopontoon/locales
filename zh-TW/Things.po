@@ -158,10 +158,10 @@ msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
 msgid "Composite Cladding (Angled Corner Inner Long)"
 msgstr "複合牆板 (斜角)"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
 #, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
-msgid "Composite Cladding (Angled Corner Inner Long R)"
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
+msgid "Composite Cladding (Angled Corner Inner Long L)"
 msgstr "複合牆板 (斜角)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingRoundedCornerInner']
@@ -1546,15 +1546,15 @@ msgctxt "Things.StructureCompositeCladdingCylindrical"
 msgid "Composite Cladding (Cylindrical)"
 msgstr "複合牆板 (圓柱)"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
-msgctxt "Things.StructureCompositeCladdingAngledLong"
-msgid "Composite Cladding (Long Angled)"
-msgstr "複合牆板 (長角)"
-
 #: /Language/Things/RecordThing[Key='StructureShelf']
 msgctxt "Things.StructureShelf"
 msgid "Shelf"
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
+msgctxt "Things.StructureCompositeCladdingAngledLong"
+msgid "Composite Cladding (Long Angled)"
+msgstr "複合牆板 (長角)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerLong']
 msgctxt "Things.StructureCompositeCladdingAngledCornerLong"
@@ -3276,10 +3276,11 @@ msgctxt "Things.ItemKitSleeper"
 msgid "Kit (Sleeper)"
 msgstr "睡眠倉"
 
-#: /Language/Things/RecordThing[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "套件 標誌"
+#: /Language/Things/RecordThing[Key='HumanSkull']
+#, fuzzy
+msgctxt "Things.HumanSkull"
+msgid "Human Skull"
+msgstr "肺部"
 
 #: /Language/Things/RecordThing[Key='ItemKitSensor']
 msgctxt "Things.ItemKitSensor"
@@ -3933,11 +3934,11 @@ msgctxt "Things.BodyPartRoosterBlackBody"
 msgid "Body Part Rooster Black Body"
 msgstr "公黑雞身體"
 
-#: /Language/Things/RecordThing[Key='HumanSkull']
+#: /Language/Things/RecordThing[Key='BodyPartGraylienPelvis']
 #, fuzzy
-msgctxt "Things.HumanSkull"
-msgid "Human Skull"
-msgstr "肺部"
+msgctxt "Things.BodyPartGraylienPelvis"
+msgid "Body Part Graylien Pelvis"
+msgstr "Graylien骨盆"
 
 #: /Language/Things/RecordThing[Key='BodyPartGraylienLegR']
 #, fuzzy
@@ -4137,7 +4138,13 @@ msgstr "女太空人右手"
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleArmL']
 msgctxt "Things.BodyPartAstronautFemaleArmL"
-msgid "Body Part Astronaut Female Arm)"
+msgid "The left arm of a femal Astronaut, better when it is attatched. You only have two!"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleArmL']
+#, fuzzy
+msgctxt "Things.BodyPartAstronautFemaleArmL"
+msgid "Body Part Astronaut Female Arm"
 msgstr "女太空人左手"
 
 #: /Language/Things/RecordThing[Key='ApplianceReagentProcessor']
@@ -4200,6 +4207,12 @@ msgctxt "Things.StructurePictureFrameThickMountPortraitLarge"
 msgid "Picture Frame Thick Mount Portrait Large"
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
+#, fuzzy
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
+msgid "Composite Cladding (Angled Corner Inner Long R)"
+msgstr "複合牆板 (斜角)"
+
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickMountLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickMountLandscapeSmall"
 msgid "Picture Frame Thick Landscape Small"
@@ -4209,12 +4222,6 @@ msgstr ""
 msgctxt "Things.StructurePictureFrameThickMountLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr ""
-
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
-#, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
-msgid "Composite Cladding (Angled Corner Inner Long L)"
-msgstr "複合牆板 (斜角)"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickLandscapeSmall"
@@ -4632,11 +4639,10 @@ msgctxt "Things.ModularRocketCargo01"
 msgid "Rocket Cargo"
 msgstr "火箭引擎"
 
-#: /Language/Things/RecordThing[Key='BodyPartGraylienPelvis']
-#, fuzzy
-msgctxt "Things.BodyPartGraylienPelvis"
-msgid "Body Part Graylien Pelvis"
-msgstr "Graylien骨盆"
+#: /Language/Things/RecordThing[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "套件 標誌"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "
