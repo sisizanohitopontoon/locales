@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "Dünya verisi işleniyor.  Lütfen bittikten sonra tekrar deneyiniz."
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Stationeers'tan Çık"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Varsayılanlar"
 
 #: /Language/Interface/Record[Key='SettingsDisplayFPS']
 msgctxt "Interface.SettingsDisplayFPS"
@@ -55,10 +60,10 @@ msgctxt "Interface.SettingsMenuAudio"
 msgid "Audio"
 msgstr "SES"
 
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Stationeers'tan Çık"
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Çıkmak istediğine emin misin?"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -296,15 +301,15 @@ msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "Başlangıç Alanı"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Atmosferik Saçılma"
+#: /Language/Interface/Record[Key='NewWorldButtonCreate']
+msgctxt "Interface.NewWorldButtonCreate"
+msgid "Create World"
+msgstr "Dünya Oluştur"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "GERİ"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "Gerekli olan {SLOT:AccessCard}'na sahip olmadığınız için etkileşim kurulamıyor"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -446,15 +451,25 @@ msgctxt "Interface.Picture"
 msgid "Picture"
 msgstr "Resim"
 
+#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
+msgctxt "Interface.TraderErrorMissingVendingMachine"
+msgid "You are missing a connected empty Vending machine, the trade could not complete."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
+msgctxt "Interface.TraderErrorMissingMotherboard"
+msgid "You are missing a motherboard in your computer, you lost contact with the trader."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorConnectWires']
+msgctxt "Interface.TraderErrorConnectWires"
+msgid "The trader could not complete the trade, check your cables for any breaks!"
+msgstr ""
+
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "DEVAM ET"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Varsayılanlar"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -910,6 +925,11 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
 msgstr "Yerleşim engellendi"
 
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr "Uranyum"
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
 msgctxt "Interface.TooltipPlacementSnapFaceNotMountableDynamic"
 msgid "#VAR1# does not allow mounting"
@@ -924,11 +944,6 @@ msgstr "Bu yapılardan biri montaja izin vermiyor"
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceDynamic"
 msgid "Cannot mount to this face of #VAR1#, try another one"
 msgstr "#VAR1#'in bu yüzüne montaj edilemiyor; diğerini deneyin"
-
-#: /Language/Interface/Record[Key='ElectronicReaderSteel']
-msgctxt "Interface.ElectronicReaderSteel"
-msgid "Steel"
-msgstr "Çelik"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceFallback"
@@ -950,10 +965,10 @@ msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
 msgid "Advanced Settings"
 msgstr "Gelişmiş Ayarlar"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Çıkmak istediğine emin misin?"
+#: /Language/Interface/Record[Key='SettingsUPNPNote']
+msgctxt "Interface.SettingsUPNPNote"
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
+msgstr "Eğer, burada ve yönlendiricinde, Evrensel Tak ve Çalıştır (UPNP) etkin ise, bir oyun oluşturduğunda bu portlar otomatik olarak yönlendirilir."
 
 #: /Language/Interface/Record[Key='PromptQuitConfirm']
 msgctxt "Interface.PromptQuitConfirm"
@@ -1112,26 +1127,6 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "Sunucu Şifresi yanlış."
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "Port değeri, 0 ile 65535 arasında olmalıdır."
-
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "Sunucu çalışıyorken Port'u Güncelle değiştirilemiyor."
-
-#: /Language/Interface/Record[Key='AlertBlankSaveName']
-msgctxt "Interface.AlertBlankSaveName"
-msgid "You must enter a world name to save."
-msgstr "Kaydetmek için bir dünya ismi girmeniz gerekir."
-
-#: /Language/Interface/Record[Key='SettingsUPNPNote']
-msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "Eğer, burada ve yönlendiricinde, Evrensel Tak ve Çalıştır (UPNP) etkin ise, bir oyun oluşturduğunda bu portlar otomatik olarak yönlendirilir."
-
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
 msgid "Tooltip Opacity"
@@ -1186,6 +1181,16 @@ msgstr "Çıkış"
 msgctxt "Interface.WaitingTitle"
 msgid "Saving Warning"
 msgstr "Kaydetme Uyarısı"
+
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "Dünya verisi işleniyor.  Lütfen bittikten sonra tekrar deneyiniz."
+
+#: /Language/Interface/Record[Key='SettingsDoubleClickDelay']
+msgctxt "Interface.SettingsDoubleClickDelay"
+msgid "Double Click Delay"
+msgstr ""
 
 #: /Language/Interface/Record[Key='DeconstructToolTipText']
 msgctxt "Interface.DeconstructToolTipText"
@@ -2441,10 +2446,10 @@ msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
 msgstr "Hidrokarbon"
 
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
-msgstr "Uranyum"
+#: /Language/Interface/Record[Key='ElectronicReaderSteel']
+msgctxt "Interface.ElectronicReaderSteel"
+msgid "Steel"
+msgstr "Çelik"
 
 #: /Language/Interface/Record[Key='ElectronicReaderCarbon']
 msgctxt "Interface.ElectronicReaderCarbon"
@@ -2626,15 +2631,15 @@ msgctxt "Interface.NoonTemperatureField"
 msgid "Noon Temperature"
 msgstr "Öğlen Sıcaklığı"
 
-#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
-msgctxt "Interface.AlertTitlePleaseWait"
-msgid "Please Wait..."
-msgstr "Lütfen Bekleyin..."
+#: /Language/Interface/Record[Key='DawnTemperatureField']
+msgctxt "Interface.DawnTemperatureField"
+msgid "Dawn Temperature"
+msgstr "Şafak Sıcaklığı"
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Güneş Yoğunluk Oranı"
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "Sunucu çalışıyorken Port'u Güncelle değiştirilemiyor."
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -3722,15 +3727,15 @@ msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
 msgstr "GELİŞMİŞ"
 
-#: /Language/Interface/Record[Key='NewWorldButtonCreate']
-msgctxt "Interface.NewWorldButtonCreate"
-msgid "Create World"
-msgstr "Dünya Oluştur"
-
 #: /Language/Interface/Record[Key='ButtonLibrary']
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr "Kitaplık"
+
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "GERİ"
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
@@ -3929,10 +3934,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr "Gerekli olan {SLOT:AccessCard}'na sahip olmadığınız için etkileşim kurulamıyor"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Atmosferik Saçılma"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4449,15 +4454,30 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Daha fazla {0} gerekir</color>."
 
-#: /Language/Interface/Record[Key='DawnTemperatureField']
-msgctxt "Interface.DawnTemperatureField"
-msgid "Dawn Temperature"
-msgstr "Şafak Sıcaklığı"
+#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
+msgctxt "Interface.AlertTitlePleaseWait"
+msgid "Please Wait..."
+msgstr "Lütfen Bekleyin..."
 
 #: /Language/Interface/Record[Key='AlertTitleAttention']
 msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Dikkat"
+
+#: /Language/Interface/Record[Key='AlertBlankSaveName']
+msgctxt "Interface.AlertBlankSaveName"
+msgid "You must enter a world name to save."
+msgstr "Kaydetmek için bir dünya ismi girmeniz gerekir."
+
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Güneş Yoğunluk Oranı"
+
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "Port değeri, 0 ile 65535 arasında olmalıdır."
 
 #~ msgctxt "Interface.FurnaceChamberText"
 #~ msgid ""

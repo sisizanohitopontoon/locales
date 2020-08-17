@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "Stále se ukládají světová data.  Jakmile uložení skončí, zkuste to znova."
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Ukončit Stationeers"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Výchozí"
 
 #: /Language/Interface/Record[Key='SettingsDisplayFPS']
 msgctxt "Interface.SettingsDisplayFPS"
@@ -55,10 +60,10 @@ msgctxt "Interface.SettingsMenuAudio"
 msgid "Audio"
 msgstr "Zvuk"
 
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Ukončit Stationeers"
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Opravdu chcete skončit?"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -296,15 +301,15 @@ msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "Startovní oblast"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Atmosférický rozptyl"
+#: /Language/Interface/Record[Key='NewWorldButtonCreate']
+msgctxt "Interface.NewWorldButtonCreate"
+msgid "Create World"
+msgstr "Vytvořit svět"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "Zpět"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "Nelze komunikovat, protože nemáte požadovanou {SLOT:AccessCard}"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -446,15 +451,25 @@ msgctxt "Interface.Picture"
 msgid "Picture"
 msgstr "Fotka"
 
+#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
+msgctxt "Interface.TraderErrorMissingVendingMachine"
+msgid "You are missing a connected empty Vending machine, the trade could not complete."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
+msgctxt "Interface.TraderErrorMissingMotherboard"
+msgid "You are missing a motherboard in your computer, you lost contact with the trader."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorConnectWires']
+msgctxt "Interface.TraderErrorConnectWires"
+msgid "The trader could not complete the trade, check your cables for any breaks!"
+msgstr ""
+
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Pokračovat"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Výchozí"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -906,6 +921,11 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
 msgstr "Umístění blokováno"
 
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr "Uran"
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
 msgctxt "Interface.TooltipPlacementSnapFaceNotMountableDynamic"
 msgid "#VAR1# does not allow mounting"
@@ -920,11 +940,6 @@ msgstr "Jedna z těchto konstrukcí neumožňuje montáž"
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceDynamic"
 msgid "Cannot mount to this face of #VAR1#, try another one"
 msgstr "Nelze se připojit k této ploše #VAR1#, zkuste jinou"
-
-#: /Language/Interface/Record[Key='ElectronicReaderSteel']
-msgctxt "Interface.ElectronicReaderSteel"
-msgid "Steel"
-msgstr "Ocel"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceFallback"
@@ -946,10 +961,10 @@ msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
 msgid "Advanced Settings"
 msgstr "Pokročilé nastavení"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Opravdu chcete skončit?"
+#: /Language/Interface/Record[Key='SettingsUPNPNote']
+msgctxt "Interface.SettingsUPNPNote"
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
+msgstr "Pokud je na routeru povolena technologie UPNP (Universal Plug and Play) budou tyto porty automaticky nastaveny."
 
 #: /Language/Interface/Record[Key='PromptQuitConfirm']
 msgctxt "Interface.PromptQuitConfirm"
@@ -1105,26 +1120,6 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "Nesprávné heslo serveru."
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "Hodnota portu musí být mezi 0 a 65535."
-
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "Nelze změnit port pro aktualizace, je-li spuštěn server."
-
-#: /Language/Interface/Record[Key='AlertBlankSaveName']
-msgctxt "Interface.AlertBlankSaveName"
-msgid "You must enter a world name to save."
-msgstr "Musíte zadat název světa, který chcete uložit."
-
-#: /Language/Interface/Record[Key='SettingsUPNPNote']
-msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "Pokud je na routeru povolena technologie UPNP (Universal Plug and Play) budou tyto porty automaticky nastaveny."
-
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
 msgid "Tooltip Opacity"
@@ -1179,6 +1174,16 @@ msgstr "Ukončit"
 msgctxt "Interface.WaitingTitle"
 msgid "Saving Warning"
 msgstr "Upozornění při ukládání"
+
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "Stále se ukládají světová data.  Jakmile uložení skončí, zkuste to znova."
+
+#: /Language/Interface/Record[Key='SettingsDoubleClickDelay']
+msgctxt "Interface.SettingsDoubleClickDelay"
+msgid "Double Click Delay"
+msgstr ""
 
 #: /Language/Interface/Record[Key='DeconstructToolTipText']
 msgctxt "Interface.DeconstructToolTipText"
@@ -2417,10 +2422,10 @@ msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
 msgstr "Uhlovodík"
 
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
-msgstr "Uran"
+#: /Language/Interface/Record[Key='ElectronicReaderSteel']
+msgctxt "Interface.ElectronicReaderSteel"
+msgid "Steel"
+msgstr "Ocel"
 
 #: /Language/Interface/Record[Key='ElectronicReaderCarbon']
 msgctxt "Interface.ElectronicReaderCarbon"
@@ -2602,15 +2607,15 @@ msgctxt "Interface.NoonTemperatureField"
 msgid "Noon Temperature"
 msgstr "Teplota poledne"
 
-#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
-msgctxt "Interface.AlertTitlePleaseWait"
-msgid "Please Wait..."
-msgstr "Počkejte prosím..."
+#: /Language/Interface/Record[Key='DawnTemperatureField']
+msgctxt "Interface.DawnTemperatureField"
+msgid "Dawn Temperature"
+msgstr "Teplota úsvitu"
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Stupnice sluneční intenzity"
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "Nelze změnit port pro aktualizace, je-li spuštěn server."
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -3693,15 +3698,15 @@ msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
 msgstr "Pokročilé"
 
-#: /Language/Interface/Record[Key='NewWorldButtonCreate']
-msgctxt "Interface.NewWorldButtonCreate"
-msgid "Create World"
-msgstr "Vytvořit svět"
-
 #: /Language/Interface/Record[Key='ButtonLibrary']
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr "Knihovna"
+
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "Zpět"
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
@@ -3888,10 +3893,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Obnovit"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr "Nelze komunikovat, protože nemáte požadovanou {SLOT:AccessCard}"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Atmosférický rozptyl"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4398,15 +4403,30 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Potřebujete více {0}</color>."
 
-#: /Language/Interface/Record[Key='DawnTemperatureField']
-msgctxt "Interface.DawnTemperatureField"
-msgid "Dawn Temperature"
-msgstr "Teplota úsvitu"
+#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
+msgctxt "Interface.AlertTitlePleaseWait"
+msgid "Please Wait..."
+msgstr "Počkejte prosím..."
 
 #: /Language/Interface/Record[Key='AlertTitleAttention']
 msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Pozor"
+
+#: /Language/Interface/Record[Key='AlertBlankSaveName']
+msgctxt "Interface.AlertBlankSaveName"
+msgid "You must enter a world name to save."
+msgstr "Musíte zadat název světa, který chcete uložit."
+
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Stupnice sluneční intenzity"
+
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "Hodnota portu musí být mezi 0 a 65535."
 
 #~ msgctxt "Interface.FurnaceChamberText"
 #~ msgid ""

@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "Toujours sauver les données du monde.  S'il vous plaît essayer à nouveau quand cela est terminé."
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "Quitter Stationeers"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Par défaut"
 
 #: /Language/Interface/Record[Key='SettingsDisplayFPS']
 msgctxt "Interface.SettingsDisplayFPS"
@@ -55,10 +60,10 @@ msgctxt "Interface.SettingsMenuAudio"
 msgid "Audio"
 msgstr "Audio"
 
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "Quitter Stationeers"
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "Êtes vous sur de vouloir quitter ?"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -296,15 +301,15 @@ msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "Zone de départ"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Diffusion atmosphérique"
+#: /Language/Interface/Record[Key='NewWorldButtonCreate']
+msgctxt "Interface.NewWorldButtonCreate"
+msgid "Create World"
+msgstr "Créer un monde"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "Retour"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "Impossible d'interagir car vous n'avez pas le {SLOT:AccessCard} requis"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -446,15 +451,25 @@ msgctxt "Interface.Picture"
 msgid "Picture"
 msgstr "Image"
 
+#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
+msgctxt "Interface.TraderErrorMissingVendingMachine"
+msgid "You are missing a connected empty Vending machine, the trade could not complete."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
+msgctxt "Interface.TraderErrorMissingMotherboard"
+msgid "You are missing a motherboard in your computer, you lost contact with the trader."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorConnectWires']
+msgctxt "Interface.TraderErrorConnectWires"
+msgid "The trader could not complete the trade, check your cables for any breaks!"
+msgstr ""
+
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuer"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Par défaut"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -904,6 +919,11 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
 msgstr "Placement bloqué"
 
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr "Uranium"
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
 msgctxt "Interface.TooltipPlacementSnapFaceNotMountableDynamic"
 msgid "#VAR1# does not allow mounting"
@@ -918,11 +938,6 @@ msgstr "L'une de ces structures ne permet pas de monter"
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceDynamic"
 msgid "Cannot mount to this face of #VAR1#, try another one"
 msgstr "Impossible de monter sur cette face de #VAR1#, essayez-en une autre"
-
-#: /Language/Interface/Record[Key='ElectronicReaderSteel']
-msgctxt "Interface.ElectronicReaderSteel"
-msgid "Steel"
-msgstr "Acier"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceFallback"
@@ -944,10 +959,10 @@ msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
 msgid "Advanced Settings"
 msgstr "Paramètres multijoueurs avancés"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "Êtes vous sur de vouloir quitter ?"
+#: /Language/Interface/Record[Key='SettingsUPNPNote']
+msgctxt "Interface.SettingsUPNPNote"
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
+msgstr "Si Universal Plug and Play (UPNP) est activé sur votre routeur, ces ports seront automatiquement transférés lorsque vous hébergez un jeu."
 
 #: /Language/Interface/Record[Key='PromptQuitConfirm']
 msgctxt "Interface.PromptQuitConfirm"
@@ -1103,26 +1118,6 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "Mot de passe du serveur incorrect."
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "Les valeurs du port doivent être comprises entre 0 et 65535."
-
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "Impossible de modifier le port de mise à jour pendant l'exécution du serveur."
-
-#: /Language/Interface/Record[Key='AlertBlankSaveName']
-msgctxt "Interface.AlertBlankSaveName"
-msgid "You must enter a world name to save."
-msgstr "Vous devez entrer un nom de monde pour enregistrer."
-
-#: /Language/Interface/Record[Key='SettingsUPNPNote']
-msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "Si Universal Plug and Play (UPNP) est activé sur votre routeur, ces ports seront automatiquement transférés lorsque vous hébergez un jeu."
-
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
 msgid "Tooltip Opacity"
@@ -1177,6 +1172,16 @@ msgstr "Quitter"
 msgctxt "Interface.WaitingTitle"
 msgid "Saving Warning"
 msgstr "Avertissement de sauvegarde"
+
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "Toujours sauver les données du monde.  S'il vous plaît essayer à nouveau quand cela est terminé."
+
+#: /Language/Interface/Record[Key='SettingsDoubleClickDelay']
+msgctxt "Interface.SettingsDoubleClickDelay"
+msgid "Double Click Delay"
+msgstr ""
 
 #: /Language/Interface/Record[Key='DeconstructToolTipText']
 msgctxt "Interface.DeconstructToolTipText"
@@ -2415,10 +2420,10 @@ msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
 msgstr "Hydrocarbure"
 
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
-msgstr "Uranium"
+#: /Language/Interface/Record[Key='ElectronicReaderSteel']
+msgctxt "Interface.ElectronicReaderSteel"
+msgid "Steel"
+msgstr "Acier"
 
 #: /Language/Interface/Record[Key='ElectronicReaderCarbon']
 msgctxt "Interface.ElectronicReaderCarbon"
@@ -2600,15 +2605,15 @@ msgctxt "Interface.NoonTemperatureField"
 msgid "Noon Temperature"
 msgstr "Température de midi"
 
-#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
-msgctxt "Interface.AlertTitlePleaseWait"
-msgid "Please Wait..."
-msgstr "Merci de patienter..."
+#: /Language/Interface/Record[Key='DawnTemperatureField']
+msgctxt "Interface.DawnTemperatureField"
+msgid "Dawn Temperature"
+msgstr "Température de l’aube"
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Angle solaire"
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "Impossible de modifier le port de mise à jour pendant l'exécution du serveur."
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -3691,15 +3696,15 @@ msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
 msgstr "Avancé"
 
-#: /Language/Interface/Record[Key='NewWorldButtonCreate']
-msgctxt "Interface.NewWorldButtonCreate"
-msgid "Create World"
-msgstr "Créer un monde"
-
 #: /Language/Interface/Record[Key='ButtonLibrary']
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr "Bibliothèque"
+
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "Retour"
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
@@ -3892,10 +3897,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr "Réinitialiser"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr "Impossible d'interagir car vous n'avez pas le {SLOT:AccessCard} requis"
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Diffusion atmosphérique"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4404,15 +4409,30 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Besoin plus de : {0}</color>."
 
-#: /Language/Interface/Record[Key='DawnTemperatureField']
-msgctxt "Interface.DawnTemperatureField"
-msgid "Dawn Temperature"
-msgstr "Température de l’aube"
+#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
+msgctxt "Interface.AlertTitlePleaseWait"
+msgid "Please Wait..."
+msgstr "Merci de patienter..."
 
 #: /Language/Interface/Record[Key='AlertTitleAttention']
 msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Attention"
+
+#: /Language/Interface/Record[Key='AlertBlankSaveName']
+msgctxt "Interface.AlertBlankSaveName"
+msgid "You must enter a world name to save."
+msgstr "Vous devez entrer un nom de monde pour enregistrer."
+
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Angle solaire"
+
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "Les valeurs du port doivent être comprises entre 0 et 65535."
 
 #~ msgctxt "Interface.FurnaceChamberText"
 #~ msgid ""

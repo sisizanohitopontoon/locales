@@ -7,10 +7,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr ""
+#: /Language/Interface/Record[Key='PromptQuitTitle']
+msgctxt "Interface.PromptQuitTitle"
+msgid "Quit Stationeers"
+msgstr "게임 종료"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "기본값"
 
 #: /Language/Interface/Record[Key='SettingsDisplayFPS']
 msgctxt "Interface.SettingsDisplayFPS"
@@ -52,10 +57,10 @@ msgctxt "Interface.SettingsMenuAudio"
 msgid "Audio"
 msgstr "오디오"
 
-#: /Language/Interface/Record[Key='PromptQuitTitle']
-msgctxt "Interface.PromptQuitTitle"
-msgid "Quit Stationeers"
-msgstr "게임 종료"
+#: /Language/Interface/Record[Key='PromptQuitBody']
+msgctxt "Interface.PromptQuitBody"
+msgid "Are you sure you want to quit?"
+msgstr "게임을 종료하시겠습니까?"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -297,15 +302,15 @@ msgctxt "Interface.NewWorldAreaTitle"
 msgid "Starting Area"
 msgstr "지역 선택"
 
-#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
-msgctxt "Interface.SettingsAtmosphericScattering"
-msgid "Atmospheric Scattering"
-msgstr "Atmospheric Scattering"
+#: /Language/Interface/Record[Key='NewWorldButtonCreate']
+msgctxt "Interface.NewWorldButtonCreate"
+msgid "Create World"
+msgstr "생성"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "뒤로"
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -449,15 +454,25 @@ msgctxt "Interface.Picture"
 msgid "Picture"
 msgstr ""
 
+#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
+msgctxt "Interface.TraderErrorMissingVendingMachine"
+msgid "You are missing a connected empty Vending machine, the trade could not complete."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
+msgctxt "Interface.TraderErrorMissingMotherboard"
+msgid "You are missing a motherboard in your computer, you lost contact with the trader."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorConnectWires']
+msgctxt "Interface.TraderErrorConnectWires"
+msgid "The trader could not complete the trade, check your cables for any breaks!"
+msgstr ""
+
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "이어하기"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "기본값"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -920,6 +935,11 @@ msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr ""
+
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
 msgctxt "Interface.TooltipPlacementSnapFaceNotMountableDynamic"
 msgid "#VAR1# does not allow mounting"
@@ -933,11 +953,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceDynamic']
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceDynamic"
 msgid "Cannot mount to this face of #VAR1#, try another one"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderSteel']
-msgctxt "Interface.ElectronicReaderSteel"
-msgid "Steel"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceFallback']
@@ -960,10 +975,11 @@ msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
 msgid "Advanced Settings"
 msgstr "고급 설정"
 
-#: /Language/Interface/Record[Key='PromptQuitBody']
-msgctxt "Interface.PromptQuitBody"
-msgid "Are you sure you want to quit?"
-msgstr "게임을 종료하시겠습니까?"
+#: /Language/Interface/Record[Key='SettingsUPNPNote']
+#, fuzzy
+msgctxt "Interface.SettingsUPNPNote"
+msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
+msgstr "사용자가 UPNP(Universal Plug and Play) 환경에 있는 경우 이 포트들로 자동으로 포워딩됩니다."
 
 #: /Language/Interface/Record[Key='PromptQuitConfirm']
 msgctxt "Interface.PromptQuitConfirm"
@@ -1120,27 +1136,6 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "암호가 일치하지 않습니다."
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "포트값은 0-65535 사이여야 합니다."
-
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "서버가 작동하고 있어 포트를 업데이트할 수 없습니다."
-
-#: /Language/Interface/Record[Key='AlertBlankSaveName']
-msgctxt "Interface.AlertBlankSaveName"
-msgid "You must enter a world name to save."
-msgstr "저장하려면 파일명을 입력하세요."
-
-#: /Language/Interface/Record[Key='SettingsUPNPNote']
-#, fuzzy
-msgctxt "Interface.SettingsUPNPNote"
-msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "사용자가 UPNP(Universal Plug and Play) 환경에 있는 경우 이 포트들로 자동으로 포워딩됩니다."
-
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
 msgid "Tooltip Opacity"
@@ -1197,6 +1192,16 @@ msgstr "종료"
 msgctxt "Interface.WaitingTitle"
 msgid "Saving Warning"
 msgstr "경고"
+
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsDoubleClickDelay']
+msgctxt "Interface.SettingsDoubleClickDelay"
+msgid "Double Click Delay"
+msgstr ""
 
 #: /Language/Interface/Record[Key='DeconstructToolTipText']
 msgctxt "Interface.DeconstructToolTipText"
@@ -2460,9 +2465,9 @@ msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
+#: /Language/Interface/Record[Key='ElectronicReaderSteel']
+msgctxt "Interface.ElectronicReaderSteel"
+msgid "Steel"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderCarbon']
@@ -2651,15 +2656,15 @@ msgctxt "Interface.NoonTemperatureField"
 msgid "Noon Temperature"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
-msgctxt "Interface.AlertTitlePleaseWait"
-msgid "Please Wait..."
-msgstr "잠시 기다려주세요..."
-
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
+#: /Language/Interface/Record[Key='DawnTemperatureField']
+msgctxt "Interface.DawnTemperatureField"
+msgid "Dawn Temperature"
 msgstr ""
+
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "서버가 작동하고 있어 포트를 업데이트할 수 없습니다."
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -3777,15 +3782,15 @@ msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldButtonCreate']
-msgctxt "Interface.NewWorldButtonCreate"
-msgid "Create World"
-msgstr "생성"
-
 #: /Language/Interface/Record[Key='ButtonLibrary']
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "뒤로"
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
@@ -3972,10 +3977,10 @@ msgctxt "Interface.ButtonReset"
 msgid "Reset"
 msgstr ""
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr ""
+#: /Language/Interface/Record[Key='SettingsAtmosphericScattering']
+msgctxt "Interface.SettingsAtmosphericScattering"
+msgid "Atmospheric Scattering"
+msgstr "Atmospheric Scattering"
 
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
@@ -4494,15 +4499,30 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>{0}이(가) 부족 합니다. </color>."
 
-#: /Language/Interface/Record[Key='DawnTemperatureField']
-msgctxt "Interface.DawnTemperatureField"
-msgid "Dawn Temperature"
-msgstr ""
+#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
+msgctxt "Interface.AlertTitlePleaseWait"
+msgid "Please Wait..."
+msgstr "잠시 기다려주세요..."
 
 #: /Language/Interface/Record[Key='AlertTitleAttention']
 msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "주의"
+
+#: /Language/Interface/Record[Key='AlertBlankSaveName']
+msgctxt "Interface.AlertBlankSaveName"
+msgid "You must enter a world name to save."
+msgstr "저장하려면 파일명을 입력하세요."
+
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "포트값은 0-65535 사이여야 합니다."
 
 #, fuzzy
 #~ msgctxt "Interface.FurnaceChamberText"
