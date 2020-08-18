@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-18 06:01+0000\n"
+"PO-Revision-Date: 2020-08-18 06:07+0000\n"
 "Last-Translator: HazarDGLow <hgrof@bk.ru>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2926,12 +2926,12 @@ msgstr "Включите {THING:StructureVolumePump}"
 #: /Language/Interface/Record[Key='VentingTheGasesTask3']
 msgctxt "Interface.VentingTheGasesTask3"
 msgid "Wait for the internal pressure in the {THING:StructureFurnace} to drop to 2kPa on the left display console. "
-msgstr ""
+msgstr "Подождите, пока давление в {THING:StructureFurnace} упадет до 2 кПа на левом дисплее."
 
 #: /Language/Interface/Record[Key='VentingTheGasesDescription2']
 msgctxt "Interface.VentingTheGasesDescription2"
 msgid "Now that the gases have been vented, close the {THING:StructureValve} and turn off the {THING:StructureVolumePump}."
-msgstr ""
+msgstr "Теперь, когда газы выпущены, закройте {THING:StructureValve} и выключите {THING:StructureVolumePump}."
 
 #: /Language/Interface/Record[Key='VentingTheGasesTask4']
 msgctxt "Interface.VentingTheGasesTask4"
@@ -2946,7 +2946,7 @@ msgstr "Выключите {THING:StructureVolumePump}"
 #: /Language/Interface/Record[Key='AddingFuelMix']
 msgctxt "Interface.AddingFuelMix"
 msgid "Adding Fuel Mix"
-msgstr ""
+msgstr "Добавление топливной смеси"
 
 #: /Language/Interface/Record[Key='AddingFuelMixDescription']
 msgctxt "Interface.AddingFuelMixDescription"
@@ -2957,11 +2957,16 @@ msgid ""
 "\n"
 "Make sure to close the Open Mold lever before refilling!\n"
 msgstr ""
+"Теперь, когда {THING:StructureFurnace} пуста, мы можем пополнить ее другим способом, подав подготовленную топливную смесь во входную трубу.\n"
+"\n"
+"Идеальная топливная смесь для {THING:StructureFurnace} - это смесь из 75% летучих веществ и 25% кислорода.\n"
+"\n"
+"Перед заправкой обязательно закройте рычаг плавильни!"
 
 #: /Language/Interface/Record[Key='AddingFuelMixTask1']
 msgctxt "Interface.AddingFuelMixTask1"
 msgid "Open the input valve on the right side of the {THING:StructureFurnace}"
-msgstr ""
+msgstr "Откройте входной клапан с правой стороны {THING:StructureFurnace}"
 
 #: /Language/Interface/Record[Key='AddingFuelMixTask3']
 msgctxt "Interface.AddingFuelMixTask3"
