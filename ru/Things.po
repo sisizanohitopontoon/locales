@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitLarge']
-msgctxt "Things.StructurePictureFrameThickPortraitLarge"
-msgid "Picture Frame Thick Portrait Large"
-msgstr "Фоторамка Толстый портрет Большой"
+#: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitLarge']
+msgctxt "Things.StructurePictureFrameThinPortraitLarge"
+msgid "Picture Frame Thin Portrait Large"
+msgstr "Фоторамка Тонкая Портрет Большой"
 
 #: /Language/Things/RecordThing[Key='StructureResearchMachine']
 msgctxt "Things.StructureResearchMachine"
@@ -125,11 +125,6 @@ msgctxt "Things.PipeBenderMod"
 msgid "Pipe Bender Mod"
 msgstr "Модуль гидравлического сгибателя труб"
 
-#: /Language/Things/RecordThing[Key='AutolathePrinterMod']
-msgctxt "Things.AutolathePrinterMod"
-msgid "Autolathe Printer Mod"
-msgstr "Модуль улучшения автолата"
-
 #: /Language/Things/RecordThing[Key='ElectronicPrinterMod']
 msgctxt "Things.ElectronicPrinterMod"
 msgid "Electronic Printer Mod"
@@ -139,6 +134,11 @@ msgstr "Модуль принтера электроники"
 msgctxt "Things.StructureCompositeCladdingAngledCornerInner"
 msgid "Composite Cladding (Angled Corner Inner)"
 msgstr "Композитное покрытие (Угол внутренний)"
+
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLong']
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
+msgid "Composite Cladding (Angled Corner Inner Long)"
+msgstr "Композитное покрытие (Угол внутренний длинный)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
 msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
@@ -1435,6 +1435,11 @@ msgctxt "Things.StructureCompositeCladdingSphericalCorner"
 msgid "Composite Cladding (Spherical Corner)"
 msgstr "Композитное покрытие (Сферическрй угол)"
 
+#: /Language/Things/RecordThing[Key='StructureShelf']
+msgctxt "Things.StructureShelf"
+msgid "Shelf"
+msgstr "Полка"
+
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingCylindricalPanel']
 msgctxt "Things.StructureCompositeCladdingCylindricalPanel"
 msgid "Composite Cladding (Cylindrical Panel)"
@@ -1444,11 +1449,6 @@ msgstr "Композитное покрытие (Цилиндрическая п
 msgctxt "Things.StructureCompositeCladdingCylindrical"
 msgid "Composite Cladding (Cylindrical)"
 msgstr "Композитное покрытие (Цилиндрическое)"
-
-#: /Language/Things/RecordThing[Key='StructureShelf']
-msgctxt "Things.StructureShelf"
-msgid "Shelf"
-msgstr "Полка"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
 msgctxt "Things.StructureCompositeCladdingAngledLong"
@@ -3145,15 +3145,15 @@ msgctxt "Things.ItemKitSolarPanel"
 msgid "Kit (Solar Panel)"
 msgstr "Набор (Солнечная панель)"
 
-#: /Language/Things/RecordThing[Key='ItemKitSleeper']
-msgctxt "Things.ItemKitSleeper"
-msgid "Kit (Sleeper)"
-msgstr "Набор (Слипер)"
-
 #: /Language/Things/RecordThing[Key='HumanSkull']
 msgctxt "Things.HumanSkull"
 msgid "Human Skull"
 msgstr "Человеческий череп"
+
+#: /Language/Things/RecordThing[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "Набор (Знак)"
 
 #: /Language/Things/RecordThing[Key='ItemKitSensor']
 msgctxt "Things.ItemKitSensor"
@@ -4070,11 +4070,6 @@ msgctxt "Things.StructurePictureFrameThickMountLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr "Фоторамка Толстая Пейзаж Большой"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLong']
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
-msgid "Composite Cladding (Angled Corner Inner Long)"
-msgstr "Композитное покрытие (Угол внутренний длинный)"
-
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickLandscapeSmall"
 msgid "Picture Frame Thick Landscape Small"
@@ -4085,10 +4080,15 @@ msgctxt "Things.StructurePictureFrameThickLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr "Фоторамка Толстая Пейзаж Большой"
 
-#: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitLarge']
-msgctxt "Things.StructurePictureFrameThinPortraitLarge"
-msgid "Picture Frame Thin Portrait Large"
-msgstr "Фоторамка Тонкая Портрет Большой"
+#: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitLarge']
+msgctxt "Things.StructurePictureFrameThickPortraitLarge"
+msgid "Picture Frame Thick Portrait Large"
+msgstr "Фоторамка Толстый портрет Большой"
+
+#: /Language/Things/RecordThing[Key='AutolathePrinterMod']
+msgctxt "Things.AutolathePrinterMod"
+msgid "Autolathe Printer Mod"
+msgstr "Модуль улучшения автолата"
 
 #: /Language/Things/RecordThing[Key='ApplianceDeskLampLeft']
 msgctxt "Things.ApplianceDeskLampLeft"
@@ -4445,10 +4445,10 @@ msgctxt "Things.ModularRocketCargo01"
 msgid "Rocket Cargo"
 msgstr "Ракетный груз"
 
-#: /Language/Things/RecordThing[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "Набор (Знак)"
+#: /Language/Things/RecordThing[Key='ItemKitSleeper']
+msgctxt "Things.ItemKitSleeper"
+msgid "Kit (Sleeper)"
+msgstr "Набор (Слипер)"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "

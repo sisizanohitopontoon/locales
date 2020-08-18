@@ -15,60 +15,15 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Esci da Stationeers"
 
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Default"
-
-#: /Language/Interface/Record[Key='SettingsDisplayFPS']
-msgctxt "Interface.SettingsDisplayFPS"
-msgid "Display FPS"
-msgstr "Mostra FPS"
-
-#: /Language/Interface/Record[Key='SettingsDisplayLatency']
-msgctxt "Interface.SettingsDisplayLatency"
-msgid "Display Latency"
-msgstr "Mostra latenza"
-
-#: /Language/Interface/Record[Key='SettingsHUDScale']
-msgctxt "Interface.SettingsHUDScale"
-msgid "HUD Scale"
-msgstr "Scala HUD"
-
-#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
-msgctxt "Interface.SettingsAutosaveInterval"
-msgid "Interval Time (Seconds)"
-msgstr "Intervallo di tempo (in secondi)"
-
-#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
-msgctxt "Interface.SettingsGameplayAutosave"
-msgid "Enable Autosave"
-msgstr "Attiva salvataggio automatico"
-
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "Miscellanea"
-
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "Controlli"
-
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "Audio"
+#: /Language/Interface/Record[Key='SettingsMenuVideo']
+msgctxt "Interface.SettingsMenuVideo"
+msgid "Video"
+msgstr "Video"
 
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "Sei sicuro di voler uscire ?"
-
-#: /Language/Interface/Record[Key='SettingsMenuVideo']
-msgctxt "Interface.SettingsMenuVideo"
-msgid "Video"
-msgstr "Video"
 
 #: /Language/Interface/Record[Key='SettingsMenuGameplay']
 msgctxt "Interface.SettingsMenuGameplay"
@@ -310,10 +265,10 @@ msgctxt "Interface.NewWorldButtonCreate"
 msgid "Create World"
 msgstr "Crea nuovo mondo"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr "Impossibile interagire in quanto non hai la {SLOT:AccessCard} richiesta."
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "Indietro"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -335,10 +290,11 @@ msgctxt "Interface.JoinMenuServerListVersion"
 msgid "Version"
 msgstr "Versione"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListName']
-msgctxt "Interface.JoinMenuServerListName"
-msgid "Server Name"
-msgstr "Nome del Server"
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+#, fuzzy
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgstr "Cambia a {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 
 #: /Language/Interface/Record[Key='JoinMenuButtonJoin']
 msgctxt "Interface.JoinMenuButtonJoin"
@@ -475,6 +431,51 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continua"
+
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "Audio"
+
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "Controlli"
+
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "Miscellanea"
+
+#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
+msgctxt "Interface.SettingsGameplayAutosave"
+msgid "Enable Autosave"
+msgstr "Attiva salvataggio automatico"
+
+#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
+msgctxt "Interface.SettingsAutosaveInterval"
+msgid "Interval Time (Seconds)"
+msgstr "Intervallo di tempo (in secondi)"
+
+#: /Language/Interface/Record[Key='SettingsHUDScale']
+msgctxt "Interface.SettingsHUDScale"
+msgid "HUD Scale"
+msgstr "Scala HUD"
+
+#: /Language/Interface/Record[Key='SettingsDisplayLatency']
+msgctxt "Interface.SettingsDisplayLatency"
+msgid "Display Latency"
+msgstr "Mostra latenza"
+
+#: /Language/Interface/Record[Key='SettingsDisplayFPS']
+msgctxt "Interface.SettingsDisplayFPS"
+msgid "Display FPS"
+msgstr "Mostra FPS"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Default"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -888,6 +889,11 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "Una volta piazzato, usa {0} per aggiornare."
 
+#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
+msgctxt "Interface.ElectronicReaderCarbon"
+msgid "Carbon"
+msgstr ""
+
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
@@ -931,11 +937,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
@@ -1082,56 +1083,6 @@ msgstr "Arrenditi"
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Sei incosciente. Vuoi arrendenderti ed effettuare il respawn?"
-
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr "Arrenditi"
-
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr "Il file {0} non è valido. Controlla il mondo {1}."
-
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Indirizzo IP non valido {0} \\ verifica che IP o URL siano corretti"
-
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Cartella Backup mancante o vuota."
-
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "Il server è pieno."
-
-#: /Language/Interface/Record[Key='AlertVersionMismatch']
-msgctxt "Interface.AlertVersionMismatch"
-msgid "Game version mismatch with server."
-msgstr "La versione di gioco non è compatibile con la versione del server."
-
-#: /Language/Interface/Record[Key='AlertNoResponse']
-#, fuzzy
-msgctxt "Interface.AlertNoResponse"
-msgid ""
-"There is no response from the Game Server.\n"
-"                                              Please try again."
-msgstr ""
-"Il server non risponde. \n"
-"Prova di nuovo."
-
-#: /Language/Interface/Record[Key='AlertKicked']
-msgctxt "Interface.AlertKicked"
-msgid "You have been kicked from the server."
-msgstr "Sei stato kickato dal server."
-
-#: /Language/Interface/Record[Key='AlertWrongPassword']
-msgctxt "Interface.AlertWrongPassword"
-msgid "Server Password Incorrect."
-msgstr "Password server errata."
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -2490,14 +2441,14 @@ msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
 msgctxt "Interface.ElectronicReaderSteel"
 msgid "Steel"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
-msgctxt "Interface.ElectronicReaderCarbon"
-msgid "Carbon"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderCobalt']
@@ -2691,10 +2642,11 @@ msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr "Temperatura"
 
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "Impossibile aggiornare porta mentre il server è attivo."
+#: /Language/Interface/Record[Key='SolarScaleField']
+#, fuzzy
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Angolo solare"
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -2719,10 +2671,10 @@ msgctxt "Interface.TerrainFeaturesField"
 msgid "Terrain Features"
 msgstr "Terreno"
 
-#: /Language/Interface/Record[Key='LevelLevelField']
-msgctxt "Interface.LevelLevelField"
-msgid "Lava Level"
-msgstr ""
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
+msgstr "Il file {0} non è valido. Controlla il mondo {1}."
 
 #: /Language/Interface/Record[Key='MineablesField']
 msgctxt "Interface.MineablesField"
@@ -3808,11 +3760,6 @@ msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr "Libreria"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "Indietro"
-
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
 msgid "f"
@@ -3827,6 +3774,11 @@ msgstr "Modifica"
 msgctxt "Interface.ButtonLoad"
 msgid "Load"
 msgstr "Carica"
+
+#: /Language/Interface/Record[Key='JoinMenuServerListName']
+msgctxt "Interface.JoinMenuServerListName"
+msgid "Server Name"
+msgstr "Nome del Server"
 
 #: /Language/Interface/Record[Key='HeadingHelp']
 msgctxt "Interface.HeadingHelp"
@@ -4007,6 +3959,11 @@ msgctxt "Interface.SettingsAtmosphericScattering"
 msgid "Atmospheric Scattering"
 msgstr "Dispersione atmosferica"
 
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "Impossibile interagire in quanto non hai la {SLOT:AccessCard} richiesta."
+
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
 msgid "Interaction temporarily disabled on this object"
@@ -4023,12 +3980,6 @@ msgstr "Cambia a <color=yellow>{0}</color> per tutti {1}"
 msgctxt "Interface.ChangeSlotSettingToFor"
 msgid "Cycle to {1}<color=yellow>({0})</color> for {2}"
 msgstr "Cambia a {1}<color=yellow>({0})</color> per {2}"
-
-#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-#, fuzzy
-msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
-msgstr "Cambia a {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
 #, fuzzy
@@ -4537,16 +4488,65 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Devi inserire un nome per il Mondo per poter salvare."
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-#, fuzzy
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Angolo solare"
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "Impossibile aggiornare porta mentre il server è attivo."
 
 #: /Language/Interface/Record[Key='AlertInvalidPort']
 msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Il valore delle porte deve essere tra 0 e 65535."
+
+#: /Language/Interface/Record[Key='AlertWrongPassword']
+msgctxt "Interface.AlertWrongPassword"
+msgid "Server Password Incorrect."
+msgstr "Password server errata."
+
+#: /Language/Interface/Record[Key='AlertKicked']
+msgctxt "Interface.AlertKicked"
+msgid "You have been kicked from the server."
+msgstr "Sei stato kickato dal server."
+
+#: /Language/Interface/Record[Key='AlertNoResponse']
+#, fuzzy
+msgctxt "Interface.AlertNoResponse"
+msgid ""
+"There is no response from the Game Server.\n"
+"                                              Please try again."
+msgstr ""
+"Il server non risponde. \n"
+"Prova di nuovo."
+
+#: /Language/Interface/Record[Key='AlertVersionMismatch']
+msgctxt "Interface.AlertVersionMismatch"
+msgid "Game version mismatch with server."
+msgstr "La versione di gioco non è compatibile con la versione del server."
+
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "Il server è pieno."
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Cartella Backup mancante o vuota."
+
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Indirizzo IP non valido {0} \\ verifica che IP o URL siano corretti"
+
+#: /Language/Interface/Record[Key='LevelLevelField']
+msgctxt "Interface.LevelLevelField"
+msgid "Lava Level"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr "Arrenditi"
 
 #, fuzzy
 #~ msgctxt "Interface.FurnaceChamberText"

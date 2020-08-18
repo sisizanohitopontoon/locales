@@ -12,60 +12,15 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "離開 Stationeers"
 
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "預設"
-
-#: /Language/Interface/Record[Key='SettingsDisplayFPS']
-msgctxt "Interface.SettingsDisplayFPS"
-msgid "Display FPS"
-msgstr "顯示楨數資訊"
-
-#: /Language/Interface/Record[Key='SettingsDisplayLatency']
-msgctxt "Interface.SettingsDisplayLatency"
-msgid "Display Latency"
-msgstr "顯示延遲資訊"
-
-#: /Language/Interface/Record[Key='SettingsHUDScale']
-msgctxt "Interface.SettingsHUDScale"
-msgid "HUD Scale"
-msgstr "介面縮放"
-
-#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
-msgctxt "Interface.SettingsAutosaveInterval"
-msgid "Interval Time (Seconds)"
-msgstr "間隔時間 (秒數)"
-
-#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
-msgctxt "Interface.SettingsGameplayAutosave"
-msgid "Enable Autosave"
-msgstr "啟用自動存檔"
-
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "其它"
-
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "控制"
-
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "聲音"
+#: /Language/Interface/Record[Key='SettingsMenuVideo']
+msgctxt "Interface.SettingsMenuVideo"
+msgid "Video"
+msgstr "影像"
 
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "您確定要離開遊戲嗎?"
-
-#: /Language/Interface/Record[Key='SettingsMenuVideo']
-msgctxt "Interface.SettingsMenuVideo"
-msgid "Video"
-msgstr "影像"
 
 #: /Language/Interface/Record[Key='SettingsMenuGameplay']
 msgctxt "Interface.SettingsMenuGameplay"
@@ -311,10 +266,10 @@ msgctxt "Interface.NewWorldButtonCreate"
 msgid "Create World"
 msgstr "創建世界"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr ""
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "返回"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -336,10 +291,11 @@ msgctxt "Interface.JoinMenuServerListVersion"
 msgid "Version"
 msgstr "版本"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListName']
-msgctxt "Interface.JoinMenuServerListName"
-msgid "Server Name"
-msgstr "伺服器名稱"
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+#, fuzzy
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgstr "改為 <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='JoinMenuButtonJoin']
 msgctxt "Interface.JoinMenuButtonJoin"
@@ -477,6 +433,51 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "繼續"
+
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "聲音"
+
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "控制"
+
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "其它"
+
+#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
+msgctxt "Interface.SettingsGameplayAutosave"
+msgid "Enable Autosave"
+msgstr "啟用自動存檔"
+
+#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
+msgctxt "Interface.SettingsAutosaveInterval"
+msgid "Interval Time (Seconds)"
+msgstr "間隔時間 (秒數)"
+
+#: /Language/Interface/Record[Key='SettingsHUDScale']
+msgctxt "Interface.SettingsHUDScale"
+msgid "HUD Scale"
+msgstr "介面縮放"
+
+#: /Language/Interface/Record[Key='SettingsDisplayLatency']
+msgctxt "Interface.SettingsDisplayLatency"
+msgid "Display Latency"
+msgstr "顯示延遲資訊"
+
+#: /Language/Interface/Record[Key='SettingsDisplayFPS']
+msgctxt "Interface.SettingsDisplayFPS"
+msgid "Display FPS"
+msgstr "顯示楨數資訊"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "預設"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -892,6 +893,11 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "安裝後可以使用 {0} 進行升級."
 
+#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
+msgctxt "Interface.ElectronicReaderCarbon"
+msgid "Carbon"
+msgstr ""
+
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
@@ -933,11 +939,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
@@ -1085,54 +1086,6 @@ msgstr ""
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr ""
-
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr ""
-
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr ""
-
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "無效的 IP 位置 {0} \\n檢查 IP 位置或者 URL 是否有效"
-
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr ""
-
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "伺服器已滿."
-
-#: /Language/Interface/Record[Key='AlertVersionMismatch']
-msgctxt "Interface.AlertVersionMismatch"
-msgid "Game version mismatch with server."
-msgstr "遊戲版本與伺服器不相符."
-
-#: /Language/Interface/Record[Key='AlertNoResponse']
-#, fuzzy
-msgctxt "Interface.AlertNoResponse"
-msgid ""
-"There is no response from the Game Server.\n"
-"                                              Please try again."
-msgstr "伺服器 {0} 無回應 \\n 請檢查IP或Url是否可用"
-
-#: /Language/Interface/Record[Key='AlertKicked']
-msgctxt "Interface.AlertKicked"
-msgid "You have been kicked from the server."
-msgstr "您已經被伺服器踢除."
-
-#: /Language/Interface/Record[Key='AlertWrongPassword']
-msgctxt "Interface.AlertWrongPassword"
-msgid "Server Password Incorrect."
-msgstr "伺服器密碼不正確"
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -2467,14 +2420,14 @@ msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
 msgctxt "Interface.ElectronicReaderSteel"
 msgid "Steel"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
-msgctxt "Interface.ElectronicReaderCarbon"
-msgid "Carbon"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderCobalt']
@@ -2663,10 +2616,10 @@ msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "當伺服器運行時無法修改 Update Port."
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr ""
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -2691,9 +2644,9 @@ msgctxt "Interface.TerrainFeaturesField"
 msgid "Terrain Features"
 msgstr "地形"
 
-#: /Language/Interface/Record[Key='LevelLevelField']
-msgctxt "Interface.LevelLevelField"
-msgid "Lava Level"
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MineablesField']
@@ -3789,11 +3742,6 @@ msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "返回"
-
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
 msgid "f"
@@ -3808,6 +3756,11 @@ msgstr ""
 msgctxt "Interface.ButtonLoad"
 msgid "Load"
 msgstr ""
+
+#: /Language/Interface/Record[Key='JoinMenuServerListName']
+msgctxt "Interface.JoinMenuServerListName"
+msgid "Server Name"
+msgstr "伺服器名稱"
 
 #: /Language/Interface/Record[Key='HeadingHelp']
 msgctxt "Interface.HeadingHelp"
@@ -3984,6 +3937,11 @@ msgctxt "Interface.SettingsAtmosphericScattering"
 msgid "Atmospheric Scattering"
 msgstr "大氣散射"
 
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr ""
+
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
 msgid "Interaction temporarily disabled on this object"
@@ -3999,12 +3957,6 @@ msgstr "改為 <color=yellow>{0}</color> for {1}"
 #, fuzzy
 msgctxt "Interface.ChangeSlotSettingToFor"
 msgid "Cycle to {1}<color=yellow>({0})</color> for {2}"
-msgstr "改為 <color=yellow>{0}</color> for {1}"
-
-#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-#, fuzzy
-msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 msgstr "改為 <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
@@ -4516,15 +4468,63 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "您必須輸入世界名稱才能存檔."
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr ""
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "當伺服器運行時無法修改 Update Port."
 
 #: /Language/Interface/Record[Key='AlertInvalidPort']
 msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Port 數值必須在 0 到 65535 之間."
+
+#: /Language/Interface/Record[Key='AlertWrongPassword']
+msgctxt "Interface.AlertWrongPassword"
+msgid "Server Password Incorrect."
+msgstr "伺服器密碼不正確"
+
+#: /Language/Interface/Record[Key='AlertKicked']
+msgctxt "Interface.AlertKicked"
+msgid "You have been kicked from the server."
+msgstr "您已經被伺服器踢除."
+
+#: /Language/Interface/Record[Key='AlertNoResponse']
+#, fuzzy
+msgctxt "Interface.AlertNoResponse"
+msgid ""
+"There is no response from the Game Server.\n"
+"                                              Please try again."
+msgstr "伺服器 {0} 無回應 \\n 請檢查IP或Url是否可用"
+
+#: /Language/Interface/Record[Key='AlertVersionMismatch']
+msgctxt "Interface.AlertVersionMismatch"
+msgid "Game version mismatch with server."
+msgstr "遊戲版本與伺服器不相符."
+
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "伺服器已滿."
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr ""
+
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "無效的 IP 位置 {0} \\n檢查 IP 位置或者 URL 是否有效"
+
+#: /Language/Interface/Record[Key='LevelLevelField']
+msgctxt "Interface.LevelLevelField"
+msgid "Lava Level"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr ""
 
 #, fuzzy
 #~ msgctxt "Interface.FurnaceChamberText"

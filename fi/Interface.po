@@ -15,60 +15,15 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Lopeta Stationeers"
 
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Oletusarvot"
-
-#: /Language/Interface/Record[Key='SettingsDisplayFPS']
-msgctxt "Interface.SettingsDisplayFPS"
-msgid "Display FPS"
-msgstr "Näytä FPS"
-
-#: /Language/Interface/Record[Key='SettingsDisplayLatency']
-msgctxt "Interface.SettingsDisplayLatency"
-msgid "Display Latency"
-msgstr "Näytä latenssi"
-
-#: /Language/Interface/Record[Key='SettingsHUDScale']
-msgctxt "Interface.SettingsHUDScale"
-msgid "HUD Scale"
-msgstr "HUD:in koko"
-
-#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
-msgctxt "Interface.SettingsAutosaveInterval"
-msgid "Interval Time (Seconds)"
-msgstr "Väli (sekuntia)"
-
-#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
-msgctxt "Interface.SettingsGameplayAutosave"
-msgid "Enable Autosave"
-msgstr "Automaattinen tallennus"
-
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "Muut"
-
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "Näppäimistö"
-
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "Ääni"
+#: /Language/Interface/Record[Key='SettingsMenuVideo']
+msgctxt "Interface.SettingsMenuVideo"
+msgid "Video"
+msgstr "Video"
 
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "Haluatko varmasti lopettaa?"
-
-#: /Language/Interface/Record[Key='SettingsMenuVideo']
-msgctxt "Interface.SettingsMenuVideo"
-msgid "Video"
-msgstr "Video"
 
 #: /Language/Interface/Record[Key='SettingsMenuGameplay']
 msgctxt "Interface.SettingsMenuGameplay"
@@ -314,10 +269,10 @@ msgctxt "Interface.NewWorldButtonCreate"
 msgid "Create World"
 msgstr "Luo maailma"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr ""
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "Takaisin"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -339,10 +294,11 @@ msgctxt "Interface.JoinMenuServerListVersion"
 msgid "Version"
 msgstr "Versio"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListName']
-msgctxt "Interface.JoinMenuServerListName"
-msgid "Server Name"
-msgstr "Palvelimen nimi"
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+#, fuzzy
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgstr "Muuta <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='JoinMenuButtonJoin']
 msgctxt "Interface.JoinMenuButtonJoin"
@@ -480,6 +436,51 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka peliä"
+
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "Ääni"
+
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "Näppäimistö"
+
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "Muut"
+
+#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
+msgctxt "Interface.SettingsGameplayAutosave"
+msgid "Enable Autosave"
+msgstr "Automaattinen tallennus"
+
+#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
+msgctxt "Interface.SettingsAutosaveInterval"
+msgid "Interval Time (Seconds)"
+msgstr "Väli (sekuntia)"
+
+#: /Language/Interface/Record[Key='SettingsHUDScale']
+msgctxt "Interface.SettingsHUDScale"
+msgid "HUD Scale"
+msgstr "HUD:in koko"
+
+#: /Language/Interface/Record[Key='SettingsDisplayLatency']
+msgctxt "Interface.SettingsDisplayLatency"
+msgid "Display Latency"
+msgstr "Näytä latenssi"
+
+#: /Language/Interface/Record[Key='SettingsDisplayFPS']
+msgctxt "Interface.SettingsDisplayFPS"
+msgid "Display FPS"
+msgstr "Näytä FPS"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Oletusarvot"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -895,6 +896,11 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "Asettamisen jälkeen käytä {0} päivitykseen."
 
+#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
+msgctxt "Interface.ElectronicReaderCarbon"
+msgid "Carbon"
+msgstr ""
+
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
@@ -936,11 +942,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
@@ -1087,57 +1088,6 @@ msgstr "Luovuta"
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Olet tajuton. Haluatko luovuttaa ja herätä uudelleen henkiin?"
-
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr "Luovuta"
-
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr ""
-
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Väärä IP-osoite {0} \\nTarkista että IP-osoite tai URL on oikein"
-
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr ""
-
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "Palvelin on täynnä."
-
-#: /Language/Interface/Record[Key='AlertVersionMismatch']
-msgctxt "Interface.AlertVersionMismatch"
-msgid "Game version mismatch with server."
-msgstr "Pelin versio ei täsmää palvelimen version kanssa."
-
-#: /Language/Interface/Record[Key='AlertNoResponse']
-#, fuzzy
-msgctxt "Interface.AlertNoResponse"
-msgid ""
-"There is no response from the Game Server.\n"
-"                                              Please try again."
-msgstr ""
-"Palvelin ei vastaa.\n"
-"Ole hyvä ja kokeile uudestaan.\n"
-"      "
-
-#: /Language/Interface/Record[Key='AlertKicked']
-msgctxt "Interface.AlertKicked"
-msgid "You have been kicked from the server."
-msgstr "Sinut on potkittu pois palvelimelta."
-
-#: /Language/Interface/Record[Key='AlertWrongPassword']
-msgctxt "Interface.AlertWrongPassword"
-msgid "Server Password Incorrect."
-msgstr "Väärä salasana."
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -2473,14 +2423,14 @@ msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
 msgctxt "Interface.ElectronicReaderSteel"
 msgid "Steel"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
-msgctxt "Interface.ElectronicReaderCarbon"
-msgid "Carbon"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderCobalt']
@@ -2674,10 +2624,11 @@ msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr "Lämpötila"
 
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "Päivitysporttia ei pysty muuttamaan palvelimen ollessa käynnissä."
+#: /Language/Interface/Record[Key='SolarScaleField']
+#, fuzzy
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Auringon kulma"
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -2702,9 +2653,9 @@ msgctxt "Interface.TerrainFeaturesField"
 msgid "Terrain Features"
 msgstr "Maasto"
 
-#: /Language/Interface/Record[Key='LevelLevelField']
-msgctxt "Interface.LevelLevelField"
-msgid "Lava Level"
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MineablesField']
@@ -3796,11 +3747,6 @@ msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "Takaisin"
-
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
 msgid "f"
@@ -3815,6 +3761,11 @@ msgstr ""
 msgctxt "Interface.ButtonLoad"
 msgid "Load"
 msgstr "Lataa"
+
+#: /Language/Interface/Record[Key='JoinMenuServerListName']
+msgctxt "Interface.JoinMenuServerListName"
+msgid "Server Name"
+msgstr "Palvelimen nimi"
 
 #: /Language/Interface/Record[Key='HeadingHelp']
 msgctxt "Interface.HeadingHelp"
@@ -3991,6 +3942,11 @@ msgctxt "Interface.SettingsAtmosphericScattering"
 msgid "Atmospheric Scattering"
 msgstr "Ilmakehän Sironta"
 
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr ""
+
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
 msgid "Interaction temporarily disabled on this object"
@@ -4006,12 +3962,6 @@ msgstr "Muuta <color=yellow>{0}</color> for {1}"
 #, fuzzy
 msgctxt "Interface.ChangeSlotSettingToFor"
 msgid "Cycle to {1}<color=yellow>({0})</color> for {2}"
-msgstr "Muuta <color=yellow>{0}</color> for {1}"
-
-#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-#, fuzzy
-msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 msgstr "Muuta <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
@@ -4523,16 +4473,66 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Sinun täytyy nimetä maailma."
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-#, fuzzy
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Auringon kulma"
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "Päivitysporttia ei pysty muuttamaan palvelimen ollessa käynnissä."
 
 #: /Language/Interface/Record[Key='AlertInvalidPort']
 msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Portin arvo täytyy olla 0 ja 65535 väliltä."
+
+#: /Language/Interface/Record[Key='AlertWrongPassword']
+msgctxt "Interface.AlertWrongPassword"
+msgid "Server Password Incorrect."
+msgstr "Väärä salasana."
+
+#: /Language/Interface/Record[Key='AlertKicked']
+msgctxt "Interface.AlertKicked"
+msgid "You have been kicked from the server."
+msgstr "Sinut on potkittu pois palvelimelta."
+
+#: /Language/Interface/Record[Key='AlertNoResponse']
+#, fuzzy
+msgctxt "Interface.AlertNoResponse"
+msgid ""
+"There is no response from the Game Server.\n"
+"                                              Please try again."
+msgstr ""
+"Palvelin ei vastaa.\n"
+"Ole hyvä ja kokeile uudestaan.\n"
+"      "
+
+#: /Language/Interface/Record[Key='AlertVersionMismatch']
+msgctxt "Interface.AlertVersionMismatch"
+msgid "Game version mismatch with server."
+msgstr "Pelin versio ei täsmää palvelimen version kanssa."
+
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "Palvelin on täynnä."
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr ""
+
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Väärä IP-osoite {0} \\nTarkista että IP-osoite tai URL on oikein"
+
+#: /Language/Interface/Record[Key='LevelLevelField']
+msgctxt "Interface.LevelLevelField"
+msgid "Lava Level"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr "Luovuta"
 
 #, fuzzy
 #~ msgctxt "Interface.FurnaceChamberText"

@@ -10,11 +10,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitLarge']
+#: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitLarge']
 #, fuzzy
-msgctxt "Things.StructurePictureFrameThickPortraitLarge"
-msgid "Picture Frame Thick Portrait Large"
-msgstr "Estrutura Moldura grossa vertical grande"
+msgctxt "Things.StructurePictureFrameThinPortraitLarge"
+msgid "Picture Frame Thin Portrait Large"
+msgstr "Estrutura Moldura fina vertical grande"
 
 #: /Language/Things/RecordThing[Key='StructureResearchMachine']
 #, fuzzy
@@ -129,11 +129,6 @@ msgctxt "Things.PipeBenderMod"
 msgid "Pipe Bender Mod"
 msgstr "Mod para Dobrador Hidráulico de Canos"
 
-#: /Language/Things/RecordThing[Key='AutolathePrinterMod']
-msgctxt "Things.AutolathePrinterMod"
-msgid "Autolathe Printer Mod"
-msgstr "Mod para Torno Mecânico Auto"
-
 #: /Language/Things/RecordThing[Key='ElectronicPrinterMod']
 msgctxt "Things.ElectronicPrinterMod"
 msgid "Electronic Printer Mod"
@@ -143,6 +138,11 @@ msgstr "Mod para Impressora de Componentes Eletrónicos"
 msgctxt "Things.StructureCompositeCladdingAngledCornerInner"
 msgid "Composite Cladding (Angled Corner Inner)"
 msgstr "Revestimento Composto (Cantos Angulosos interior)"
+
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLong']
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
+msgid "Composite Cladding (Angled Corner Inner Long)"
+msgstr "Revestimento Composto (Cantos Angulosos interior longo)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
 msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
@@ -1477,6 +1477,11 @@ msgctxt "Things.StructureCompositeCladdingSphericalCorner"
 msgid "Composite Cladding (Spherical Corner)"
 msgstr "Revestimento Composto (Canto Esférico)"
 
+#: /Language/Things/RecordThing[Key='StructureShelf']
+msgctxt "Things.StructureShelf"
+msgid "Shelf"
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingCylindricalPanel']
 msgctxt "Things.StructureCompositeCladdingCylindricalPanel"
 msgid "Composite Cladding (Cylindrical Panel)"
@@ -1486,11 +1491,6 @@ msgstr "Revestimento Composto (Painel Cilíndrico)"
 msgctxt "Things.StructureCompositeCladdingCylindrical"
 msgid "Composite Cladding (Cylindrical)"
 msgstr "Revestimento Composto (Cilíndrico)"
-
-#: /Language/Things/RecordThing[Key='StructureShelf']
-msgctxt "Things.StructureShelf"
-msgid "Shelf"
-msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
 msgctxt "Things.StructureCompositeCladdingAngledLong"
@@ -3206,15 +3206,15 @@ msgctxt "Things.ItemKitSolarPanel"
 msgid "Kit (Solar Panel)"
 msgstr "Kit (Painel Solar)"
 
-#: /Language/Things/RecordThing[Key='ItemKitSleeper']
-msgctxt "Things.ItemKitSleeper"
-msgid "Kit (Sleeper)"
-msgstr "Kit (Câmara de Stasis)"
-
 #: /Language/Things/RecordThing[Key='HumanSkull']
 msgctxt "Things.HumanSkull"
 msgid "Human Skull"
 msgstr "Caveira Humana"
+
+#: /Language/Things/RecordThing[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "Kit (Letreiro)"
 
 #: /Language/Things/RecordThing[Key='ItemKitSensor']
 msgctxt "Things.ItemKitSensor"
@@ -4162,11 +4162,6 @@ msgctxt "Things.StructurePictureFrameThickMountLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr "Estrutura Moldura de montagem grossa horizontal grande"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLong']
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
-msgid "Composite Cladding (Angled Corner Inner Long)"
-msgstr "Revestimento Composto (Cantos Angulosos interior longo)"
-
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickLandscapeSmall']
 #, fuzzy
 msgctxt "Things.StructurePictureFrameThickLandscapeSmall"
@@ -4179,11 +4174,16 @@ msgctxt "Things.StructurePictureFrameThickLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr "Estrutura Moldura grossa horizontal grande"
 
-#: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitLarge']
+#: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitLarge']
 #, fuzzy
-msgctxt "Things.StructurePictureFrameThinPortraitLarge"
-msgid "Picture Frame Thin Portrait Large"
-msgstr "Estrutura Moldura fina vertical grande"
+msgctxt "Things.StructurePictureFrameThickPortraitLarge"
+msgid "Picture Frame Thick Portrait Large"
+msgstr "Estrutura Moldura grossa vertical grande"
+
+#: /Language/Things/RecordThing[Key='AutolathePrinterMod']
+msgctxt "Things.AutolathePrinterMod"
+msgid "Autolathe Printer Mod"
+msgstr "Mod para Torno Mecânico Auto"
 
 #: /Language/Things/RecordThing[Key='ApplianceDeskLampLeft']
 msgctxt "Things.ApplianceDeskLampLeft"
@@ -4589,10 +4589,10 @@ msgctxt "Things.ModularRocketCargo01"
 msgid "Rocket Cargo"
 msgstr "Motor de Foguete"
 
-#: /Language/Things/RecordThing[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "Kit (Letreiro)"
+#: /Language/Things/RecordThing[Key='ItemKitSleeper']
+msgctxt "Things.ItemKitSleeper"
+msgid "Kit (Sleeper)"
+msgstr "Kit (Câmara de Stasis)"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "

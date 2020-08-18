@@ -12,60 +12,15 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "게임 종료"
 
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "기본값"
-
-#: /Language/Interface/Record[Key='SettingsDisplayFPS']
-msgctxt "Interface.SettingsDisplayFPS"
-msgid "Display FPS"
-msgstr "FPS 표시"
-
-#: /Language/Interface/Record[Key='SettingsDisplayLatency']
-msgctxt "Interface.SettingsDisplayLatency"
-msgid "Display Latency"
-msgstr "지연 속도 표시"
-
-#: /Language/Interface/Record[Key='SettingsHUDScale']
-msgctxt "Interface.SettingsHUDScale"
-msgid "HUD Scale"
-msgstr "HUD 스케일"
-
-#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
-msgctxt "Interface.SettingsAutosaveInterval"
-msgid "Interval Time (Seconds)"
-msgstr "저장간격 (초)"
-
-#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
-msgctxt "Interface.SettingsGameplayAutosave"
-msgid "Enable Autosave"
-msgstr "자동저장 사용"
-
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "기타"
-
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "조작"
-
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "오디오"
+#: /Language/Interface/Record[Key='SettingsMenuVideo']
+msgctxt "Interface.SettingsMenuVideo"
+msgid "Video"
+msgstr "비디오"
 
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "게임을 종료하시겠습니까?"
-
-#: /Language/Interface/Record[Key='SettingsMenuVideo']
-msgctxt "Interface.SettingsMenuVideo"
-msgid "Video"
-msgstr "비디오"
 
 #: /Language/Interface/Record[Key='SettingsMenuGameplay']
 msgctxt "Interface.SettingsMenuGameplay"
@@ -307,10 +262,10 @@ msgctxt "Interface.NewWorldButtonCreate"
 msgid "Create World"
 msgstr "생성"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr ""
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "뒤로"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -332,10 +287,11 @@ msgctxt "Interface.JoinMenuServerListVersion"
 msgid "Version"
 msgstr "버전"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListName']
-msgctxt "Interface.JoinMenuServerListName"
-msgid "Server Name"
-msgstr "서버명"
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+#, fuzzy
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgstr "Change to <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='JoinMenuButtonJoin']
 msgctxt "Interface.JoinMenuButtonJoin"
@@ -473,6 +429,51 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "이어하기"
+
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "오디오"
+
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "조작"
+
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "기타"
+
+#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
+msgctxt "Interface.SettingsGameplayAutosave"
+msgid "Enable Autosave"
+msgstr "자동저장 사용"
+
+#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
+msgctxt "Interface.SettingsAutosaveInterval"
+msgid "Interval Time (Seconds)"
+msgstr "저장간격 (초)"
+
+#: /Language/Interface/Record[Key='SettingsHUDScale']
+msgctxt "Interface.SettingsHUDScale"
+msgid "HUD Scale"
+msgstr "HUD 스케일"
+
+#: /Language/Interface/Record[Key='SettingsDisplayLatency']
+msgctxt "Interface.SettingsDisplayLatency"
+msgid "Display Latency"
+msgstr "지연 속도 표시"
+
+#: /Language/Interface/Record[Key='SettingsDisplayFPS']
+msgctxt "Interface.SettingsDisplayFPS"
+msgid "Display FPS"
+msgstr "FPS 표시"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "기본값"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -888,6 +889,11 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "설치 후 {0}을 사용하여 업그레이드하세요."
 
+#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
+msgctxt "Interface.ElectronicReaderCarbon"
+msgid "Carbon"
+msgstr ""
+
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
@@ -933,11 +939,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceMountBlockedFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
@@ -1085,56 +1086,6 @@ msgstr ""
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr ""
-
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr ""
-
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr ""
-
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "{0} 잘못된 주소입니다.\\n아이피나 URL을 다시 확인해주세요."
-
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr ""
-
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "서버 접속자가 꽉 찼습니다."
-
-#: /Language/Interface/Record[Key='AlertVersionMismatch']
-msgctxt "Interface.AlertVersionMismatch"
-msgid "Game version mismatch with server."
-msgstr "게임 버전이 서버와 일치하지 않습니다."
-
-#: /Language/Interface/Record[Key='AlertNoResponse']
-#, fuzzy
-msgctxt "Interface.AlertNoResponse"
-msgid ""
-"There is no response from the Game Server.\n"
-"                                              Please try again."
-msgstr ""
-"서버로부터 응답이 없습니다. \n"
-"나중에 다시 시도해주세요."
-
-#: /Language/Interface/Record[Key='AlertKicked']
-msgctxt "Interface.AlertKicked"
-msgid "You have been kicked from the server."
-msgstr "호스트로부터 강제 퇴장 당했습니다."
-
-#: /Language/Interface/Record[Key='AlertWrongPassword']
-msgctxt "Interface.AlertWrongPassword"
-msgid "Server Password Incorrect."
-msgstr "암호가 일치하지 않습니다."
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -2465,14 +2416,14 @@ msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
 msgctxt "Interface.ElectronicReaderSteel"
 msgid "Steel"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
-msgctxt "Interface.ElectronicReaderCarbon"
-msgid "Carbon"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ElectronicReaderCobalt']
@@ -2661,10 +2612,10 @@ msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "서버가 작동하고 있어 포트를 업데이트할 수 없습니다."
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr ""
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -2689,9 +2640,9 @@ msgctxt "Interface.TerrainFeaturesField"
 msgid "Terrain Features"
 msgstr "Terrain"
 
-#: /Language/Interface/Record[Key='LevelLevelField']
-msgctxt "Interface.LevelLevelField"
-msgid "Lava Level"
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MineablesField']
@@ -3787,11 +3738,6 @@ msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr ""
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "뒤로"
-
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
 msgid "f"
@@ -3806,6 +3752,11 @@ msgstr ""
 msgctxt "Interface.ButtonLoad"
 msgid "Load"
 msgstr ""
+
+#: /Language/Interface/Record[Key='JoinMenuServerListName']
+msgctxt "Interface.JoinMenuServerListName"
+msgid "Server Name"
+msgstr "서버명"
 
 #: /Language/Interface/Record[Key='HeadingHelp']
 msgctxt "Interface.HeadingHelp"
@@ -3982,6 +3933,11 @@ msgctxt "Interface.SettingsAtmosphericScattering"
 msgid "Atmospheric Scattering"
 msgstr "Atmospheric Scattering"
 
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr ""
+
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
 msgid "Interaction temporarily disabled on this object"
@@ -3997,12 +3953,6 @@ msgstr "Change to <color=yellow>{0}</color> for {1}"
 #, fuzzy
 msgctxt "Interface.ChangeSlotSettingToFor"
 msgid "Cycle to {1}<color=yellow>({0})</color> for {2}"
-msgstr "Change to <color=yellow>{0}</color> for {1}"
-
-#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-#, fuzzy
-msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 msgstr "Change to <color=yellow>{0}</color> for {1}"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
@@ -4514,15 +4464,65 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "저장하려면 파일명을 입력하세요."
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr ""
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "서버가 작동하고 있어 포트를 업데이트할 수 없습니다."
 
 #: /Language/Interface/Record[Key='AlertInvalidPort']
 msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "포트값은 0-65535 사이여야 합니다."
+
+#: /Language/Interface/Record[Key='AlertWrongPassword']
+msgctxt "Interface.AlertWrongPassword"
+msgid "Server Password Incorrect."
+msgstr "암호가 일치하지 않습니다."
+
+#: /Language/Interface/Record[Key='AlertKicked']
+msgctxt "Interface.AlertKicked"
+msgid "You have been kicked from the server."
+msgstr "호스트로부터 강제 퇴장 당했습니다."
+
+#: /Language/Interface/Record[Key='AlertNoResponse']
+#, fuzzy
+msgctxt "Interface.AlertNoResponse"
+msgid ""
+"There is no response from the Game Server.\n"
+"                                              Please try again."
+msgstr ""
+"서버로부터 응답이 없습니다. \n"
+"나중에 다시 시도해주세요."
+
+#: /Language/Interface/Record[Key='AlertVersionMismatch']
+msgctxt "Interface.AlertVersionMismatch"
+msgid "Game version mismatch with server."
+msgstr "게임 버전이 서버와 일치하지 않습니다."
+
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "서버 접속자가 꽉 찼습니다."
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr ""
+
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "{0} 잘못된 주소입니다.\\n아이피나 URL을 다시 확인해주세요."
+
+#: /Language/Interface/Record[Key='LevelLevelField']
+msgctxt "Interface.LevelLevelField"
+msgid "Lava Level"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr ""
 
 #, fuzzy
 #~ msgctxt "Interface.FurnaceChamberText"

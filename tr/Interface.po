@@ -15,60 +15,15 @@ msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
 msgstr "Stationeers'tan Çık"
 
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "Varsayılanlar"
-
-#: /Language/Interface/Record[Key='SettingsDisplayFPS']
-msgctxt "Interface.SettingsDisplayFPS"
-msgid "Display FPS"
-msgstr "FPS'i Göster"
-
-#: /Language/Interface/Record[Key='SettingsDisplayLatency']
-msgctxt "Interface.SettingsDisplayLatency"
-msgid "Display Latency"
-msgstr "Gecikmeyi Göster"
-
-#: /Language/Interface/Record[Key='SettingsHUDScale']
-msgctxt "Interface.SettingsHUDScale"
-msgid "HUD Scale"
-msgstr "HUD Ölçeği"
-
-#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
-msgctxt "Interface.SettingsAutosaveInterval"
-msgid "Interval Time (Seconds)"
-msgstr "Zaman Aralığı (Saniye)"
-
-#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
-msgctxt "Interface.SettingsGameplayAutosave"
-msgid "Enable Autosave"
-msgstr "Otomatik Kaydı Etkinleştir"
-
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "ÇEŞİTLİ"
-
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "KONTROLLER"
-
-#: /Language/Interface/Record[Key='SettingsMenuAudio']
-msgctxt "Interface.SettingsMenuAudio"
-msgid "Audio"
-msgstr "SES"
+#: /Language/Interface/Record[Key='SettingsMenuVideo']
+msgctxt "Interface.SettingsMenuVideo"
+msgid "Video"
+msgstr "GÖRÜNTÜ"
 
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
 msgstr "Çıkmak istediğine emin misin?"
-
-#: /Language/Interface/Record[Key='SettingsMenuVideo']
-msgctxt "Interface.SettingsMenuVideo"
-msgid "Video"
-msgstr "GÖRÜNTÜ"
 
 #: /Language/Interface/Record[Key='SettingsMenuGameplay']
 msgctxt "Interface.SettingsMenuGameplay"
@@ -306,10 +261,10 @@ msgctxt "Interface.NewWorldButtonCreate"
 msgid "Create World"
 msgstr "Dünya Oluştur"
 
-#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
-msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
-msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
-msgstr "Gerekli olan {SLOT:AccessCard}'na sahip olmadığınız için etkileşim kurulamıyor"
+#: /Language/Interface/Record[Key='NewWorldButtonBack']
+msgctxt "Interface.NewWorldButtonBack"
+msgid "Back"
+msgstr "GERİ"
 
 #: /Language/Interface/Record[Key='NewWorldTitle']
 msgctxt "Interface.NewWorldTitle"
@@ -331,10 +286,11 @@ msgctxt "Interface.JoinMenuServerListVersion"
 msgid "Version"
 msgstr "SÜRÜM"
 
-#: /Language/Interface/Record[Key='JoinMenuServerListName']
-msgctxt "Interface.JoinMenuServerListName"
-msgid "Server Name"
-msgstr "SUNUCU İSMİ"
+#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
+#, fuzzy
+msgctxt "Interface.ChangeReagentSettingTo"
+msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgstr "{2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>'a değiştir."
 
 #: /Language/Interface/Record[Key='JoinMenuButtonJoin']
 msgctxt "Interface.JoinMenuButtonJoin"
@@ -470,6 +426,51 @@ msgstr ""
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "DEVAM ET"
+
+#: /Language/Interface/Record[Key='SettingsMenuAudio']
+msgctxt "Interface.SettingsMenuAudio"
+msgid "Audio"
+msgstr "SES"
+
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "KONTROLLER"
+
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "ÇEŞİTLİ"
+
+#: /Language/Interface/Record[Key='SettingsGameplayAutosave']
+msgctxt "Interface.SettingsGameplayAutosave"
+msgid "Enable Autosave"
+msgstr "Otomatik Kaydı Etkinleştir"
+
+#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
+msgctxt "Interface.SettingsAutosaveInterval"
+msgid "Interval Time (Seconds)"
+msgstr "Zaman Aralığı (Saniye)"
+
+#: /Language/Interface/Record[Key='SettingsHUDScale']
+msgctxt "Interface.SettingsHUDScale"
+msgid "HUD Scale"
+msgstr "HUD Ölçeği"
+
+#: /Language/Interface/Record[Key='SettingsDisplayLatency']
+msgctxt "Interface.SettingsDisplayLatency"
+msgid "Display Latency"
+msgstr "Gecikmeyi Göster"
+
+#: /Language/Interface/Record[Key='SettingsDisplayFPS']
+msgctxt "Interface.SettingsDisplayFPS"
+msgid "Display FPS"
+msgstr "FPS'i Göster"
+
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "Varsayılanlar"
 
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
@@ -885,6 +886,11 @@ msgctxt "Interface.TooltipUpgrade"
 msgid "Once placed use {0} for upgrade."
 msgstr "Yerleştiğinde, yükseltmek için {0} kullanın."
 
+#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
+msgctxt "Interface.ElectronicReaderCarbon"
+msgid "Carbon"
+msgstr "Karbon"
+
 #: /Language/Interface/Record[Key='TooltipAllowsMounting']
 msgctxt "Interface.TooltipAllowsMounting"
 msgid "Allows the mounting of wall placed devices. Upgrade to allow better placement area."
@@ -924,11 +930,6 @@ msgstr "Yerleşim #VAR1# tarafından engellendi"
 msgctxt "Interface.TooltipPlacementSnapFaceMountBlockedFallback"
 msgid "Placement blocked"
 msgstr "Yerleşim engellendi"
-
-#: /Language/Interface/Record[Key='ElectronicReaderUranium']
-msgctxt "Interface.ElectronicReaderUranium"
-msgid "Uranium"
-msgstr "Uranyum"
 
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceNotMountableDynamic']
 msgctxt "Interface.TooltipPlacementSnapFaceNotMountableDynamic"
@@ -1074,58 +1075,6 @@ msgstr "Pes Et"
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Baygın durumdasın. Pes etmek ve yeniden canlanmak ister misin?"
-
-#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
-msgctxt "Interface.PromptGiveUpConfirm"
-msgid "Give Up"
-msgstr "Pes Et"
-
-#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
-msgctxt "Interface.AlertYourSaveFileIsBroken"
-msgid "The file {0} is invalid. Check world {1}."
-msgstr "{0} dosyası geçersizdir. {1} dünyasını kontrol ediniz."
-
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Geçersiz IP Adresi {0} \\nGeçerli IP adresini veya URL'yi kontrol edin"
-
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Yedek klasörü eksik veya boş."
-
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "Sunucu dolu."
-
-#: /Language/Interface/Record[Key='AlertVersionMismatch']
-msgctxt "Interface.AlertVersionMismatch"
-msgid "Game version mismatch with server."
-msgstr "Oyun sürümü sunucu ile uyuşmuyor."
-
-#: /Language/Interface/Record[Key='AlertNoResponse']
-#, fuzzy
-msgctxt "Interface.AlertNoResponse"
-msgid ""
-"There is no response from the Game Server.\n"
-"                                              Please try again."
-msgstr ""
-"\n"
-"        Oyun Sunucusu'ndan yanıt yok.\n"
-"        Lütfen tekrar deneyin.\n"
-"      "
-
-#: /Language/Interface/Record[Key='AlertKicked']
-msgctxt "Interface.AlertKicked"
-msgid "You have been kicked from the server."
-msgstr "Sunucudan atıldınız."
-
-#: /Language/Interface/Record[Key='AlertWrongPassword']
-msgctxt "Interface.AlertWrongPassword"
-msgid "Server Password Incorrect."
-msgstr "Sunucu Şifresi yanlış."
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
@@ -2446,15 +2395,15 @@ msgctxt "Interface.ElectronicReaderHydrocarbon"
 msgid "Hydrocarbon"
 msgstr "Hidrokarbon"
 
+#: /Language/Interface/Record[Key='ElectronicReaderUranium']
+msgctxt "Interface.ElectronicReaderUranium"
+msgid "Uranium"
+msgstr "Uranyum"
+
 #: /Language/Interface/Record[Key='ElectronicReaderSteel']
 msgctxt "Interface.ElectronicReaderSteel"
 msgid "Steel"
 msgstr "Çelik"
-
-#: /Language/Interface/Record[Key='ElectronicReaderCarbon']
-msgctxt "Interface.ElectronicReaderCarbon"
-msgid "Carbon"
-msgstr "Karbon"
 
 #: /Language/Interface/Record[Key='ElectronicReaderCobalt']
 msgctxt "Interface.ElectronicReaderCobalt"
@@ -2636,10 +2585,10 @@ msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr "Şafak Sıcaklığı"
 
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "Sunucu çalışıyorken Port'u Güncelle değiştirilemiyor."
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Güneş Yoğunluk Oranı"
 
 #: /Language/Interface/Record[Key='HasLODField']
 msgctxt "Interface.HasLODField"
@@ -2661,10 +2610,10 @@ msgctxt "Interface.TerrainFeaturesField"
 msgid "Terrain Features"
 msgstr "Arazi Özellikleri"
 
-#: /Language/Interface/Record[Key='LevelLevelField']
-msgctxt "Interface.LevelLevelField"
-msgid "Lava Level"
-msgstr "Lav Seviyesi"
+#: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
+msgctxt "Interface.AlertYourSaveFileIsBroken"
+msgid "The file {0} is invalid. Check world {1}."
+msgstr "{0} dosyası geçersizdir. {1} dünyasını kontrol ediniz."
 
 #: /Language/Interface/Record[Key='MineablesField']
 msgctxt "Interface.MineablesField"
@@ -3732,11 +3681,6 @@ msgctxt "Interface.ButtonLibrary"
 msgid "Library"
 msgstr "Kitaplık"
 
-#: /Language/Interface/Record[Key='NewWorldButtonBack']
-msgctxt "Interface.NewWorldButtonBack"
-msgid "Back"
-msgstr "GERİ"
-
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
 msgid "f"
@@ -3751,6 +3695,11 @@ msgstr "Düzenle"
 msgctxt "Interface.ButtonLoad"
 msgid "Load"
 msgstr "Yükle"
+
+#: /Language/Interface/Record[Key='JoinMenuServerListName']
+msgctxt "Interface.JoinMenuServerListName"
+msgid "Server Name"
+msgstr "SUNUCU İSMİ"
 
 #: /Language/Interface/Record[Key='HeadingHelp']
 msgctxt "Interface.HeadingHelp"
@@ -3939,6 +3888,11 @@ msgctxt "Interface.SettingsAtmosphericScattering"
 msgid "Atmospheric Scattering"
 msgstr "Atmosferik Saçılma"
 
+#: /Language/Interface/Record[Key='UnableToInteractAsYouDoNotHaveTheRequiredAccessCard']
+msgctxt "Interface.UnableToInteractAsYouDoNotHaveTheRequiredAccessCard"
+msgid "Unable to interact as you do not have the required {SLOT:AccessCard}"
+msgstr "Gerekli olan {SLOT:AccessCard}'na sahip olmadığınız için etkileşim kurulamıyor"
+
 #: /Language/Interface/Record[Key='InteractionTemporarilyDisabledOnThisObject']
 msgctxt "Interface.InteractionTemporarilyDisabledOnThisObject"
 msgid "Interaction temporarily disabled on this object"
@@ -3955,12 +3909,6 @@ msgstr "Her {1} için <color=yellow>{0}</color>'a değiştir"
 msgctxt "Interface.ChangeSlotSettingToFor"
 msgid "Cycle to {1}<color=yellow>({0})</color> for {2}"
 msgstr "{2} için {1}<color=yellow>({0})</color>'a değiştir"
-
-#: /Language/Interface/Record[Key='ChangeReagentSettingTo']
-#, fuzzy
-msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
-msgstr "{2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>'a değiştir."
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
 #, fuzzy
@@ -4469,15 +4417,67 @@ msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Kaydetmek için bir dünya ismi girmeniz gerekir."
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Güneş Yoğunluk Oranı"
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "Sunucu çalışıyorken Port'u Güncelle değiştirilemiyor."
 
 #: /Language/Interface/Record[Key='AlertInvalidPort']
 msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Port değeri, 0 ile 65535 arasında olmalıdır."
+
+#: /Language/Interface/Record[Key='AlertWrongPassword']
+msgctxt "Interface.AlertWrongPassword"
+msgid "Server Password Incorrect."
+msgstr "Sunucu Şifresi yanlış."
+
+#: /Language/Interface/Record[Key='AlertKicked']
+msgctxt "Interface.AlertKicked"
+msgid "You have been kicked from the server."
+msgstr "Sunucudan atıldınız."
+
+#: /Language/Interface/Record[Key='AlertNoResponse']
+#, fuzzy
+msgctxt "Interface.AlertNoResponse"
+msgid ""
+"There is no response from the Game Server.\n"
+"                                              Please try again."
+msgstr ""
+"\n"
+"        Oyun Sunucusu'ndan yanıt yok.\n"
+"        Lütfen tekrar deneyin.\n"
+"      "
+
+#: /Language/Interface/Record[Key='AlertVersionMismatch']
+msgctxt "Interface.AlertVersionMismatch"
+msgid "Game version mismatch with server."
+msgstr "Oyun sürümü sunucu ile uyuşmuyor."
+
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "Sunucu dolu."
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Yedek klasörü eksik veya boş."
+
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Geçersiz IP Adresi {0} \\nGeçerli IP adresini veya URL'yi kontrol edin"
+
+#: /Language/Interface/Record[Key='LevelLevelField']
+msgctxt "Interface.LevelLevelField"
+msgid "Lava Level"
+msgstr "Lav Seviyesi"
+
+#: /Language/Interface/Record[Key='PromptGiveUpConfirm']
+msgctxt "Interface.PromptGiveUpConfirm"
+msgid "Give Up"
+msgstr "Pes Et"
 
 #~ msgctxt "Interface.FurnaceChamberText"
 #~ msgid ""

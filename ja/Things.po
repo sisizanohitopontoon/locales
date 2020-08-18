@@ -10,9 +10,9 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitLarge']
-msgctxt "Things.StructurePictureFrameThickPortraitLarge"
-msgid "Picture Frame Thick Portrait Large"
+#: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitLarge']
+msgctxt "Things.StructurePictureFrameThinPortraitLarge"
+msgid "Picture Frame Thin Portrait Large"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureResearchMachine']
@@ -127,11 +127,6 @@ msgctxt "Things.PipeBenderMod"
 msgid "Pipe Bender Mod"
 msgstr "パイプベンダー Mod"
 
-#: /Language/Things/RecordThing[Key='AutolathePrinterMod']
-msgctxt "Things.AutolathePrinterMod"
-msgid "Autolathe Printer Mod"
-msgstr "自動旋盤プリンター Mod"
-
 #: /Language/Things/RecordThing[Key='ElectronicPrinterMod']
 msgctxt "Things.ElectronicPrinterMod"
 msgid "Electronic Printer Mod"
@@ -141,6 +136,11 @@ msgstr "エレクトロニックプリンター Mod"
 msgctxt "Things.StructureCompositeCladdingAngledCornerInner"
 msgid "Composite Cladding (Angled Corner Inner)"
 msgstr "複合被覆材 (傾斜 角 内側)"
+
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLong']
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
+msgid "Composite Cladding (Angled Corner Inner Long)"
+msgstr "複合被覆材 (角 傾斜 内側 ロング)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
 msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
@@ -1444,6 +1444,11 @@ msgctxt "Things.StructureCompositeCladdingSphericalCorner"
 msgid "Composite Cladding (Spherical Corner)"
 msgstr "複合被覆材 (球 角)"
 
+#: /Language/Things/RecordThing[Key='StructureShelf']
+msgctxt "Things.StructureShelf"
+msgid "Shelf"
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingCylindricalPanel']
 msgctxt "Things.StructureCompositeCladdingCylindricalPanel"
 msgid "Composite Cladding (Cylindrical Panel)"
@@ -1453,11 +1458,6 @@ msgstr "複合被覆材 (円筒 パネル)"
 msgctxt "Things.StructureCompositeCladdingCylindrical"
 msgid "Composite Cladding (Cylindrical)"
 msgstr "複合被覆材 (円筒)"
-
-#: /Language/Things/RecordThing[Key='StructureShelf']
-msgctxt "Things.StructureShelf"
-msgid "Shelf"
-msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledLong']
 msgctxt "Things.StructureCompositeCladdingAngledLong"
@@ -3167,15 +3167,15 @@ msgctxt "Things.ItemKitSolarPanel"
 msgid "Kit (Solar Panel)"
 msgstr "キット (ソーラーパネル)"
 
-#: /Language/Things/RecordThing[Key='ItemKitSleeper']
-msgctxt "Things.ItemKitSleeper"
-msgid "Kit (Sleeper)"
-msgstr "キット (睡眠装置)"
-
 #: /Language/Things/RecordThing[Key='HumanSkull']
 msgctxt "Things.HumanSkull"
 msgid "Human Skull"
 msgstr "人間の頭蓋骨"
+
+#: /Language/Things/RecordThing[Key='ItemKitSign']
+msgctxt "Things.ItemKitSign"
+msgid "Kit (Sign)"
+msgstr "キット (看板)"
 
 #: /Language/Things/RecordThing[Key='ItemKitSensor']
 msgctxt "Things.ItemKitSensor"
@@ -4104,11 +4104,6 @@ msgctxt "Things.StructurePictureFrameThickMountLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLong']
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
-msgid "Composite Cladding (Angled Corner Inner Long)"
-msgstr "複合被覆材 (角 傾斜 内側 ロング)"
-
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickLandscapeSmall"
 msgid "Picture Frame Thick Landscape Small"
@@ -4119,10 +4114,15 @@ msgctxt "Things.StructurePictureFrameThickLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitLarge']
-msgctxt "Things.StructurePictureFrameThinPortraitLarge"
-msgid "Picture Frame Thin Portrait Large"
+#: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitLarge']
+msgctxt "Things.StructurePictureFrameThickPortraitLarge"
+msgid "Picture Frame Thick Portrait Large"
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='AutolathePrinterMod']
+msgctxt "Things.AutolathePrinterMod"
+msgid "Autolathe Printer Mod"
+msgstr "自動旋盤プリンター Mod"
 
 #: /Language/Things/RecordThing[Key='ApplianceDeskLampLeft']
 msgctxt "Things.ApplianceDeskLampLeft"
@@ -4505,10 +4505,10 @@ msgctxt "Things.ModularRocketCargo01"
 msgid "Rocket Cargo"
 msgstr "モジュラーロケットカーゴ"
 
-#: /Language/Things/RecordThing[Key='ItemKitSign']
-msgctxt "Things.ItemKitSign"
-msgid "Kit (Sign)"
-msgstr "キット (看板)"
+#: /Language/Things/RecordThing[Key='ItemKitSleeper']
+msgctxt "Things.ItemKitSleeper"
+msgid "Kit (Sleeper)"
+msgstr "キット (睡眠装置)"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "
