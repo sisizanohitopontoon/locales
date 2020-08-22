@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-22 16:51+0000\n"
+"PO-Revision-Date: 2020-08-22 16:57+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2399,7 +2399,6 @@ msgid "Portable Hydroponics"
 msgstr "Station Hydroponique portable"
 
 #: /Language/Interface/Record[Key='PortableHydroponicsDescription']
-#, fuzzy
 msgctxt "Interface.PortableHydroponicsDescription"
 msgid ""
 "{THING:DynamicHydroponics} unit are great for setting up temporary food sources. They're light and portable, but aren't equipped with a lighting system due to weight requirements. \n"
@@ -2409,9 +2408,11 @@ msgid ""
 "Best plant growth conditions are between 15 and 50 degrees celsius at a preassure of 8KPa to 130 KPa. The Air composition should contain no hydrogen or pollutants and at least 2% carborn dioxide.\n"
 "\n"
 msgstr ""
-"{THING:DynamicHydroponics} sont parfaits pour la mise en place de sources de nourriture temporaires. Ils sont légers et portables, mais ne sont pas équipés d’un système d’éclairage en raison des exigences de poids. \n"
+"{THING:DynamicHydroponics} unité sont idéales pour la mise en place de sources de nourriture temporaires. Ils sont légers et portables, mais ne sont pas équipés d’un système d’éclairage en raison des exigences de poids. \n"
 "            \n"
-"Cela signifie que le {THING:DynamicHydroponics} doit être dans un endroit ensoleillé pour les plantes à cultiver."
+"Cela signifie que l’unité {THING:DynamicHydroponics} doit être dans un endroit ensoleillé pour que les plantes puissent pousser. En plus d’avoir besoin d’un bon endroit éclairé par le soleil, ils nécessitent également une atmosphère contrôlée.\n"
+"\n"
+"Les meilleures conditions de croissance des plantes sont comprises entre 15 et 50 degrés Celsius à une pression de 8KPa à 130 KPa. La composition de l’air ne doit contenir ni hydrogène ni polluants et au moins 2 % de dioxyde de carbone."
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask1']
 #, fuzzy
@@ -2426,13 +2427,11 @@ msgid "Pick up the {THING:ItemGasCanisterWater}."
 msgstr "Ramasser le {THING:ItemKitAutolathe}."
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask3']
-#, fuzzy
 msgctxt "Interface.PortableHydroponicsTask3"
 msgid "Insert the water canister into the base of the {THING:DynamicHydroponics} unit"
-msgstr "Insérez la carte de localisation dans la {THING:ItemTablet}."
+msgstr "Insérez la bouteille d'eau dans la base de l’unité {THING:DynamicHydroponics}"
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask4']
-#, fuzzy
 msgctxt "Interface.PortableHydroponicsTask4"
 msgid "Plant a {THING:ItemPotato} in any of the {THING:DynamicHydroponics} unit planting slots."
 msgstr "Plantez une {THING:ItemPotato} dans l'un des emplacements de {THING:DynamicHydroponics}."
@@ -2465,14 +2464,13 @@ msgid "Fixed Hydroponics"
 msgstr "Hydroponique fixe"
 
 #: /Language/Interface/Record[Key='FixedHydroponicsDescription']
-#, fuzzy
 msgctxt "Interface.FixedHydroponicsDescription"
 msgid ""
 "The {THING:DynamicHydroponics} unit is good for starting out, but you will soon want to upgrade to a {THING:StructureHydroponicsStation}. It has built-in UV lights and a pipe import to help with "
 "automating the system."
 msgstr ""
-"Le {THING:DynamicHydroponics} est bon pour commencer, mais vous aurez bientôt envie de passer à une {THING:StructureHydroponicsStation}. Il a intégré des lumières UV et une importation de tuyaux "
-"pour aider à automatiser le système."
+"L’unité {THING:DynamicHydroponics} est bonne pour commencer, mais vous voudrez bientôt passer à un {THING:StructureHydroponicsStation}. Il a intégré des lumières UV et une importation de tuyaux pour"
+" aider à automatiser le système."
 
 #: /Language/Interface/Record[Key='FixedHydroponicsTask1']
 #, fuzzy
@@ -2514,12 +2512,9 @@ msgid "Water Tanks and Wrenches"
 msgstr "Réservoirs d’eau et clés"
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenchesDescription']
-#, fuzzy
 msgctxt "Interface.WaterTanksAndWrenchesDescription"
 msgid "Place the {THING:DynamicGasCanisterWater} on top of the {THING:ItemTankConnector} and connect it using a {THING:ItemWrench}."
-msgstr ""
-"Pour joindre un {THING:DynamicGasCanisterWater} à un {THING:ItemTankConnector}, placez le {THING:DynamicGasCanisterWater} sur le dessus de la {THING:ItemTankConnector} et connectez-le à l’aide d’une"
-" {THING:ItemWrench}."
+msgstr "Placez la {THING:DynamicGasCanisterWater} au-dessus du {THING:ItemTankConnector} et connectez-la à l’aide d’une {THING:ItemWrench}."
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenches1']
 #, fuzzy
@@ -2528,10 +2523,9 @@ msgid "Get the {THING:ItemWrench} from your toolbelt."
 msgstr "Utilisez la {THING:ItemDrill} depuis de votre {SLOT:Belt}."
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenchesTask2']
-#, fuzzy
 msgctxt "Interface.WaterTanksAndWrenchesTask2"
 msgid "Use the {THING:ItemWrench} to connect the {THING:DynamicGasCanisterWater} to the {THING:ItemTankConnector}."
-msgstr " Enfin, utilisez le {THING:ItemWrench} pour emballer le {THING:StructureAutolathe} dans un {THING:ItemKitAutolathe}."
+msgstr " Enfin, utilisez la {THING:ItemWrench} pour emballer le {THING:StructureAutolathe} dans un {THING:ItemKitAutolathe}."
 
 #: /Language/Interface/Record[Key='WaterNetworks']
 msgctxt "Interface.WaterNetworks"
@@ -2665,7 +2659,6 @@ msgstr ""
 "Votre première tâche consiste à construire la {THING:StructureResearchMachine}. Vous trouverez tout ce dont vous avez besoin dans la {THING:DynamicCrate} rouge."
 
 #: /Language/Interface/Record[Key='TheResearchMachine1']
-#, fuzzy
 msgctxt "Interface.TheResearchMachine1"
 msgid "Pick up the {THING:ItemKitResearchMachine} from the red {THING:DynamicCrate}."
 msgstr "Prenez un {THING:ItemCopperIngot} dans la caisse orange."
@@ -3810,6 +3803,8 @@ msgid ""
 "Now that you have the {THING:StructureLogicMemory} units in place, and a solar tracking system set up, you need to set specific values on the {THING:StructureLogicMemory} using the {THING:ItemScrewdriver}. The values depend on the position and rotation of the {THING:StructureDaylightSensor} and solar panels.\n"
 "Daylight sensors have 3 modes: Default, Horizontal, and Vertical. Each mode changes the output solar angle. In this case, we need to set the sensor to Horizontal, which is mode 1. To do this, set the Horizontal Memory Module to a value of 1, and the logic writer will write that value to the sensor. "
 msgstr ""
+"Maintenant que vous avez mis en place les {THING:StructureLogicMemory} et la configuration d’un système de suivi solaire, vous devez définir des valeurs spécifiques sur {THING:StructureLogicMemory} à l’aide du {THING:ItemScrewdriver}. Les valeurs dépendent de la position et de la rotation des {THING:StructureDaylightSensor} et des panneaux solaires.\n"
+"Les {THING:StructureDaylightSensor} ont 3 modes : Par défaut, Horizontal et Vertical. Chaque mode modifie l’angle solaire de sortie. Dans ce cas, nous devons régler le {THING:StructureDaylightSensor} sur le mode Horizontal. Pour ce faire, définissez l'{THINGS:StructureLogicMemory} horizontale sur la valeur de 1, et l’{THINGS:StructureLogicWriter} écrira cette valeur dans le capteur."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription2']
 msgctxt "Interface.SetMemoryDescription2"
@@ -3866,7 +3861,7 @@ msgstr "Définir ajouter de la mémoire à une valeur de 50"
 #: /Language/Interface/Record[Key='SetMemory4']
 msgctxt "Interface.SetMemory4"
 msgid "Set Tilt Memory to a value of 1.6"
-msgstr ""
+msgstr "Définir la mémoire d’inclinaison sur une valeur de 1,6"
 
 #: /Language/Interface/Record[Key='SetupHorizontalSensor']
 msgctxt "Interface.SetupHorizontalSensor"
@@ -3886,7 +3881,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='SetupLogicWritter']
 msgctxt "Interface.SetupLogicWritter"
 msgid "Setting a Logic Writer"
-msgstr ""
+msgstr "Configuration d'une Unité Logique: Ecriture"
 
 #: /Language/Interface/Record[Key='SetupLogicWritterDescription']
 msgctxt "Interface.SetupLogicWritterDescription"
@@ -4385,16 +4380,14 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='RemoveingSuitOxyTask1']
-#, fuzzy
 msgctxt "Interface.RemoveingSuitOxyTask1"
 msgid "Take the {THING:ItemGasCanisterOxygen} from your suit."
-msgstr "Utilisez la {THING:ItemDrill} depuis de votre {SLOT:Belt}."
+msgstr "Prenez le {THING:ItemGasCanisterOxygen} de votre combinaison."
 
 #: /Language/Interface/Record[Key='RemoveingSuitOxyTask2']
-#, fuzzy
 msgctxt "Interface.RemoveingSuitOxyTask2"
 msgid "Place the Oxygen Tank in the {THING:DynamicGasCanisterOxygen}."
-msgstr "Ramasser le {THING:ItemKitAutolathe}."
+msgstr "Placez la bouteille d'oxygène dans la {THING:DynamicGasCanisterOxygen}."
 
 #: /Language/Interface/Record[Key='RetrievingOxyTank']
 msgctxt "Interface.RetrievingOxyTank"
@@ -4407,10 +4400,9 @@ msgid "The {THING:DynamicGasCanisterOxygen} will fill the {THING:ItemGasCanister
 msgstr ""
 
 #: /Language/Interface/Record[Key='RetrievingOxyTankTask1']
-#, fuzzy
 msgctxt "Interface.RetrievingOxyTankTask1"
 msgid "Remove the {THING:ItemGasCanisterOxygen} from the {THING:DynamicGasCanisterOxygen}."
-msgstr "Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}."
+msgstr "Supprimez la {THING:ItemGasCanisterOxygen} de {THING:DynamicGasCanisterOxygen}."
 
 #: /Language/Interface/Record[Key='RetrievingOxyTankTask2']
 #, fuzzy
@@ -4523,10 +4515,9 @@ msgstr ""
 "le réservoir Dynamique pour le connecter."
 
 #: /Language/Interface/Record[Key='ConnectingTanksTask1']
-#, fuzzy
 msgctxt "Interface.ConnectingTanksTask1"
 msgid "Connect the {THING:DynamicGasCanisterOxygen} to the white Tank Connector."
-msgstr " Enfin, utilisez le {THING:ItemWrench} pour emballer le {THING:StructureAutolathe} dans un {THING:ItemKitAutolathe}."
+msgstr "Connectez la {THING:DynamicGasCanisterOxygen} au connecteur de réservoir blanc."
 
 #: /Language/Interface/Record[Key='ConnectingTanksTask2']
 msgctxt "Interface.ConnectingTanksTask2"
