@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-22 17:21+0000\n"
+"PO-Revision-Date: 2020-08-22 17:26+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1529,7 +1529,6 @@ msgid "Mine some {THING:ItemIronOre}."
 msgstr "Miner quelques {THING:ItemIronOre}."
 
 #: /Language/Interface/Record[Key='ConductiveMetals']
-#, fuzzy
 msgctxt "Interface.ConductiveMetals"
 msgid "Conductive Metals"
 msgstr "Métaux conducteurs"
@@ -1604,10 +1603,9 @@ msgid "Get the newly smelted {THING:ItemIronIngot}."
 msgstr "Obtenez la nouvelle fusion {THING:ItemIronIngot}."
 
 #: /Language/Interface/Record[Key='05BasicFabrication']
-#, fuzzy
 msgctxt "Interface.05BasicFabrication"
 msgid "Basic Fabrication"
-msgstr "#5 Base de fabrication"
+msgstr "Base de fabrication"
 
 #: /Language/Interface/Record[Key='BasicFabricationDescription']
 #, fuzzy
@@ -2062,22 +2060,19 @@ msgid "Pick up the {THING:ItemLabeller} from the crate."
 msgstr "Prenez un {THING:ItemCopperIngot} dans la caisse orange."
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask2.6']
-#, fuzzy
 msgctxt "Interface.CloseTheDoorTask2.6"
 msgid "Turn On the {THING:ItemLabeller}."
-msgstr "Allumer la {THING:ItemTablet}"
+msgstr "Allumer la{THING:ItemLabeller}."
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask3']
-#, fuzzy
 msgctxt "Interface.CloseTheDoorTask3"
 msgid "Rename the outer {THING:StructureCompositeDoor} to 'External Door'."
-msgstr "Renommez la face de Sortie {THING:StructureCompositeDoor} en porte extérieure ou quelque chose de reconnaissable."
+msgstr "Renommez la sortie {THING:StructureCompositeDoor} en 'Porte externe'."
 
 #: /Language/Interface/Record[Key='CloseTheDoorTask4']
-#, fuzzy
 msgctxt "Interface.CloseTheDoorTask4"
 msgid "Rename the inner {THING:StructureCompositeDoor} to 'Internal Door."
-msgstr "Renommez la face d'Entrée {THING:StructureCompositeDoor} en porte intérieur ou quelque chose de reconnaissable."
+msgstr "Renommez l’entrée {THING:StructureCompositeDoor} en 'Porte interne."
 
 #: /Language/Interface/Record[Key='CreatingASeal']
 msgctxt "Interface.CreatingASeal"
@@ -2085,25 +2080,24 @@ msgid "Creating a seal"
 msgstr "Création d’un sceau"
 
 #: /Language/Interface/Record[Key='CreatingASealDescription']
-#, fuzzy
 msgctxt "Interface.CreatingASealDescription"
 msgid ""
 "Go ahead and finish constructing each {THING:StructureCompositeDoor} with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.\n"
 "You then need to rename the newly built doors using the {THING:ItemLabeller}, which can be found in the orange crate.\n"
 "        "
-msgstr "Allez-y et terminez la construction de la {THING:StructureCompositeDoor} avec des {THING:ItemPlasticSheets} et {THING:ItemGlassSheets}."
+msgstr ""
+"Allez-y et terminez la construction de chaque {THING:StructureCompositeDoor} avec {THING:ItemPlasticSheets} et {THING:ItemGlassSheets}.\n"
+"Vous devez ensuite renommer les portes nouvellement construites à l’aide du {THING:ItemLabeller}, qui se trouve dans la caisse orange.        "
 
 #: /Language/Interface/Record[Key='CreatingASealTask1']
-#, fuzzy
 msgctxt "Interface.CreatingASealTask1"
 msgid "Construct {THING:StructureCompositeDoor} 1."
 msgstr "Construire la {THING:StructureCompositeDoor} 1"
 
 #: /Language/Interface/Record[Key='CreatingASealTask2']
-#, fuzzy
 msgctxt "Interface.CreatingASealTask2"
 msgid "Construct {THING:StructureCompositeDoor} 2."
-msgstr "Construire la {THING:StructureCompositeDoor} 2"
+msgstr "Construire la {THING:StructureCompositeDoor} 2."
 
 #: /Language/Interface/Record[Key='AirSensoresAndMore']
 msgctxt "Interface.AirSensoresAndMore"
@@ -3830,11 +3824,14 @@ msgid ""
 "            \n"
 "            "
 msgstr ""
+"L’axe vertical des panneaux solaires est mesuré en pourcentage, tandis que les capteurs produisent des données d’angle solaire en degrés de 0 à 160.\n"
+"            \n"
+"Pour rendre les panneaux solaires compatibles avec les capteurs, nous utilisons Vertical Logic Math 1 pour diviser les données du capteur par 1,6, convertissant ainsi le degré en pourcentage.            "
 
 #: /Language/Interface/Record[Key='SetMemory0']
 msgctxt "Interface.SetMemory0"
 msgid "Set Horizontal Mode Memory to a value of 1"
-msgstr ""
+msgstr "Réglez la mémoire du mode horizontal sur une valeur de 1"
 
 #: /Language/Interface/Record[Key='SetMemory1']
 msgctxt "Interface.SetMemory1"
@@ -4344,7 +4341,7 @@ msgstr "Mélange de gaz et plus"
 #: /Language/Interface/Record[Key='Tutorial 11 - GasFilteringandmoreDescription']
 msgctxt "Interface.Tutorial 11 - GasFilteringandmoreDescription"
 msgid "Learn how to refill your suit's oxygen tank and mix gases to create fuel."
-msgstr ""
+msgstr "Apprenez à remplir la bouteille d'oxygène de votre combinaison et à mélanger les gaz pour créer du carburant."
 
 #: /Language/Interface/Record[Key='GasMixingInd']
 msgctxt "Interface.GasMixingInd"
@@ -4356,8 +4353,8 @@ msgctxt "Interface.GasMixingIndDescription"
 msgid ""
 "Welcome back, Cadet! In this lesson, we'll refill your suit's oxygen tanks, and then mix two gases to make fuel. Fuel is used for many applications: from powering your welder, to launching rockets!"
 msgstr ""
-"Bienvenue, Cadet ! Dans cette leçon, nous remplirons les réservoirs d’oxygène de votre combinaison, puis mélangerons deux gaz pour en faire du carburant. Le carburant est utilisé pour de nombreuses "
-"applications : de l’alimentation de votre soudeuse au lancement de fusées !"
+"Bienvenue, Cadet ! Dans cette leçon, nous allons voir comment remplir la bouteille d’oxygène de votre combinaison, puis comment mélanger deux gaz pour en faire du carburant. Le carburant est utilisé"
+" pour de nombreuses applications, allant de l’alimentation de votre soudeuse au lancement de fusées !"
 
 #: /Language/Interface/Record[Key='RemoveingSuitOxy']
 msgctxt "Interface.RemoveingSuitOxy"
@@ -4371,6 +4368,9 @@ msgid ""
 "You will get an on-screen warning when the tank is removed. Don't panic, there's still a small amount of oxygen circulating in the suit itself. \n"
 "You can now attach the oxygen tank to the {THING:DynamicGasCanisterOxygen} and refill it."
 msgstr ""
+"Ouvrez le menu de votre combinaison et placez la bouteille d'oxygène dans votre main.\n"
+"Vous obtiendrez un avertissement à l'écran lorsque la bouteille sera retirée. Pas de panique, c'est parce qu'il y a encore une petite quantité d'oxygène qui circule dans la combinaison.\n"
+"Vous pouvez maintenant insérer la bouteille d'oxygène dans le {THING:DynamicGasCanisterOxygen} pour la remplir."
 
 #: /Language/Interface/Record[Key='RemoveingSuitOxyTask1']
 msgctxt "Interface.RemoveingSuitOxyTask1"
@@ -4391,6 +4391,7 @@ msgstr "Récupération du réservoir d’oxygène"
 msgctxt "Interface.RetrievingOxyTankDescription"
 msgid "The {THING:DynamicGasCanisterOxygen} will fill the {THING:ItemGasCanisterOxygen} with oxygen. You can now remove the {THING:ItemGasCanisterOxygen} from the {THING:DynamicGasCanisterOxygen}."
 msgstr ""
+"Le {THING:DynamicGasCanisterOxygen} va remplir la {THING:ItemGasCanisterOxygen} avec de l'oxygène. Vous pouvez à présent retirer la {THING:ItemGasCanisterOxygen} du {THING:DynamicGasCanisterOxygen}."
 
 #: /Language/Interface/Record[Key='RetrievingOxyTankTask1']
 msgctxt "Interface.RetrievingOxyTankTask1"
