@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-04-01 19:23+0000\n"
+"PO-Revision-Date: 2020-08-22 16:40+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -668,10 +668,9 @@ msgid "Close your helmet with {KEY:Internals}"
 msgstr "Fermez votre casque avec '{KEY:Internals}"
 
 #: /Language/Interface/Record[Key='TutorialUIControlsTask2']
-#, fuzzy
 msgctxt "Interface.TutorialUIControlsTask2"
 msgid "Be sure to lock your helmet to prevent it happening again. Hold the {KEY:MouseControl} key and click the Lock Mask option on the helmet menu."
-msgstr "Assurez-vous de verrouiller le casque pour éviter qu’il ne se reproduise tout en tenant la touche {KEY:MouseControl} cliquez sur l’option masque de verrouillage sur le menu du casque."
+msgstr "Assurez-vous de verrouiller le casque pour éviter un incident. Tenez la touche {KEY:MouseControl} et cliquez sur l’option masque de verrouillage sur le menu du casque."
 
 #: /Language/Interface/Record[Key='AlertSystem2']
 msgctxt "Interface.AlertSystem2"
@@ -2370,6 +2369,12 @@ msgid ""
 "            \n"
 "            "
 msgstr ""
+"Il existe quelques différences lors de la programmation du {THING:CircuitboardAdvAirlockControl}.\n"
+"\t\t\t\n"
+"Tout d’abord, renommez la nouvelle Ventilation Active  'Ventilateur Externe' et l’ancienne Ventilation Active 'Ventilateur Interne', pour les identifier sur la console. Sélectionnez chaque {THING:StructureActiveVent}, en vous assurant de les affecter correctement dans la configuration de la console.\n"
+"\n"
+"La dernière chose que vous devez faire est de sélectionner la pression interne et externe souhaitée. Le réglage se trouve près du haut du panneau de la console {THING:CircuitboardAdvAirlockControl}.\n"
+"Assurez-vous que le sas fonctionne en appuyant sur le bouton \"Cycle to interior\"."
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockTask1']
 #, fuzzy
@@ -4392,7 +4397,7 @@ msgstr "Ramasser le {THING:ItemKitAutolathe}."
 #: /Language/Interface/Record[Key='RetrievingOxyTank']
 msgctxt "Interface.RetrievingOxyTank"
 msgid "Retrieving the Oxygen Tank"
-msgstr ""
+msgstr "Récupération du réservoir d’oxygène"
 
 #: /Language/Interface/Record[Key='RetrievingOxyTankDescription']
 msgctxt "Interface.RetrievingOxyTankDescription"
@@ -4414,7 +4419,7 @@ msgstr "Remplacer les {THING:ItemGlassSheets}."
 #: /Language/Interface/Record[Key='RemoveingFuelCan']
 msgctxt "Interface.RemoveingFuelCan"
 msgid "Removing the Fuel Can"
-msgstr "Retirer le réservoir de carburant"
+msgstr "Retirer la bouteille de carburant"
 
 #: /Language/Interface/Record[Key='RemoveingFuelCanDescription']
 msgctxt "Interface.RemoveingFuelCanDescription"
@@ -4502,10 +4507,9 @@ msgid "Place the {THING:StructurePressureRegulator} in the highlighted position.
 msgstr "Placez un autre {THING:StructureActiveVent} à l'endroit en surbrillance."
 
 #: /Language/Interface/Record[Key='ConnectingTanks']
-#, fuzzy
 msgctxt "Interface.ConnectingTanks"
 msgid "Connecting Tanks"
-msgstr "Compléter les cadres"
+msgstr "Connecter les réservoirs"
 
 #: /Language/Interface/Record[Key='ConnectingTanksDescription']
 msgctxt "Interface.ConnectingTanksDescription"
@@ -4635,7 +4639,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='TestTheFuelMixTask1']
 msgctxt "Interface.TestTheFuelMixTask1"
 msgid "Complete construction of the glass door."
-msgstr ""
+msgstr "Construction complète de la porte en verre."
 
 #~ msgctxt "Interface.SettingTheDestination6"
 #~ msgid "Set the output value on the {THING:StructureLogicWriter} to {THING:ItemKitStructureModularRocketCommand01} using a {THING:ItemScrewdriver} "
