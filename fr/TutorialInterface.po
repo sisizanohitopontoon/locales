@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-22 17:06+0000\n"
+"PO-Revision-Date: 2020-08-22 17:14+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3684,7 +3684,7 @@ msgstr "Configuration du contrôle manuel de la console"
 #: /Language/Interface/Record[Key='ConsoleManualControlSetUpDescription']
 msgctxt "Interface.ConsoleManualControlSetUpDescription"
 msgid "Just like setting up an airlock, you must program the solar panel control circuit using a {THING:CircuitboardSolarControl}."
-msgstr ""
+msgstr "Tout comme la configuration d'un sas, vous devez programmer le circuit de commande du panneau solaire à l'aide d'un {THING:CircuitboardSolarControl}."
 
 #: /Language/Interface/Record[Key='ConsoleManualControlSetupTask1']
 #, fuzzy
@@ -4384,10 +4384,9 @@ msgid "Remove the {THING:ItemGasCanisterOxygen} from the {THING:DynamicGasCanist
 msgstr "Supprimez la {THING:ItemGasCanisterOxygen} de {THING:DynamicGasCanisterOxygen}."
 
 #: /Language/Interface/Record[Key='RetrievingOxyTankTask2']
-#, fuzzy
 msgctxt "Interface.RetrievingOxyTankTask2"
 msgid "Replace the {THING:ItemGasCanisterOxygen} back in your suit."
-msgstr "Remplacer les {THING:ItemGlassSheets}."
+msgstr "Replacez la {THING:ItemGasCanisterOxygen} dans votre combinaison."
 
 #: /Language/Interface/Record[Key='RemoveingFuelCan']
 msgctxt "Interface.RemoveingFuelCan"
@@ -4398,18 +4397,17 @@ msgstr "Retirer la bouteille de carburant"
 msgctxt "Interface.RemoveingFuelCanDescription"
 msgid "Your Welder has run out of fuel. To fill it we will need to create the appropropriate gas mixture. Go ahead and put the {THING:ItemGasCanisterFuel} into the {THING:StructureGasTankStorage}."
 msgstr ""
+"Votre chalumeau est à court de carburant. Pour le recharger, nous devrons créer un mélange de gaz approprié. Allez placer la {THING:ItemGasCanisterFuel} dans le {THING:StructureGasTankStorage}."
 
 #: /Language/Interface/Record[Key='RemoveingFuelCanTask1']
-#, fuzzy
 msgctxt "Interface.RemoveingFuelCanTask1"
 msgid "Remove the {THING:ItemGasCanisterFuel} from the {THING:ItemWeldingTorch} in your {THING:ItemToolBelt}"
-msgstr "Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}."
+msgstr "Retirez la {THING:ItemGasCanisterFuel} du {THING:ItemWeldingTorch} dans votre {THING:ItemToolBelt}"
 
 #: /Language/Interface/Record[Key='RemoveingFuelCanTask2']
-#, fuzzy
 msgctxt "Interface.RemoveingFuelCanTask2"
 msgid "Place the {THING:ItemGasCanisterFuel} into the yellow {THING:StructureGasTankStorage} found on the floor."
-msgstr "Placez la {THING:ItemBatteryCellLarge} dans le {THING:StructureAreaPowerControl}."
+msgstr "Placez la {THING:ItemGasCanisterFuel} dans le {THING:StructureGasTankStorage} jaune posé au sol derrière vous."
 
 #: /Language/Interface/Record[Key='Valves']
 msgctxt "Interface.Valves"
@@ -4422,12 +4420,13 @@ msgid ""
 "We now need to set up a pipe network for the gas mixing system. Start by placing valves next to each {THING:StructureTankConnector}. This lets you shut off the network from newly attached gas tanks,"
 " until we are ready to connect them to the pipe network."
 msgstr ""
+"Nous devons mettre en place maintenant un réseau de canalisations pour le système de mélange de gaz. Commencez par placer des vannes à côté de chaque {THING:StructureTankConnector}. Cela vous permet"
+" de couper le réseau des réservoirs de gaz nouvellement connectés, jusqu'à ce que nous soyons prêts à les connecter au réseau de canalisations."
 
 #: /Language/Interface/Record[Key='ValvesTask1']
-#, fuzzy
 msgctxt "Interface.ValvesTask1"
 msgid "Get a {THING:ItemPipeValve} from the nearby crate and place it in the highlighted spot."
-msgstr "Utilisez le {THING:ItemKitDoor} de la caisse jaune pour construire deux {THING:StructureCompositeDoor} dans les endroits mis en surbrillance."
+msgstr "Récupérez une {THING:ItemPipeValve} dans la caisse voisine et placez-la à l'endroit en surbrillance."
 
 #: /Language/Interface/Record[Key='PipeMeters']
 msgctxt "Interface.PipeMeters"
@@ -4440,12 +4439,13 @@ msgid ""
 "{THING:StructurePipeMeter} allow us to see the current pressure inside a pipe network. Place these next to the {THING:ItemPipeValve}. Note that they are placed on top of a pipe, rather than being "
 "their own object. Find some in the crate nearby."
 msgstr ""
+"Le {THING:StructurePipeMeter} vous permet de voir la pression actuelle à l'intérieur d'un réseau de canalisations. Placez-les à côté de chaque {THING:ItemPipeValve}. Notez qu'ils sont placés sur un "
+"tuyau et non entre deux tuyaux. Prenez-les dans la caisse à proximité."
 
 #: /Language/Interface/Record[Key='PipeMetersTask1']
-#, fuzzy
 msgctxt "Interface.PipeMetersTask1"
 msgid "Place a {THING:StructurePipeMeter} in the highlighted position."
-msgstr "Placez un autre {THING:StructureActiveVent} à l'endroit en surbrillance."
+msgstr "Placez un {THING:StructurePipeMeter} à l'endroit en surbrillance."
 
 #: /Language/Interface/Record[Key='GasMixer']
 msgctxt "Interface.GasMixer"
@@ -4458,10 +4458,9 @@ msgid "The Gas Mixer allows us to combine two gases at a defined ratio. This let
 msgstr "Le mélangeur de gaz permet de mélanger deux gaz dans des proportions définies. Cela vous permet de créer le carburant nécessaire pour le {THING:ItemWeldingTorch}."
 
 #: /Language/Interface/Record[Key='GasMixerTask1']
-#, fuzzy
 msgctxt "Interface.GasMixerTask1"
 msgid "Place the {THING:StructureGasMixer} in the highlighted location."
-msgstr "Construisez un {THING:StructureGasSensor} à l'endroit mis en surbrillance"
+msgstr "Placez le {THING:StructureGasMixer} à l'endroit mis en surbrillance."
 
 #: /Language/Interface/Record[Key='PressureRegulator']
 msgctxt "Interface.PressureRegulator"
@@ -4472,12 +4471,13 @@ msgstr "Le régulateur de pression"
 msgctxt "Interface.PressureRegulatorDescription"
 msgid "The {THING:StructurePressureRegulator} is used to regulate pressure inside of a pipe network. This lets you restrict the pressure, ensuring you don't overpressurize a tank. "
 msgstr ""
+"Le {THING:StructurePressureRegulator} est utilisé pour réguler la pression à l'intérieur d'un réseau de canalisations. Cela vous permet de limiter la pression et de ne pas sur-pressuriser un "
+"réservoir."
 
 #: /Language/Interface/Record[Key='PressureRegulatorTask1']
-#, fuzzy
 msgctxt "Interface.PressureRegulatorTask1"
 msgid "Place the {THING:StructurePressureRegulator} in the highlighted position."
-msgstr "Placez un autre {THING:StructureActiveVent} à l'endroit en surbrillance."
+msgstr "Placez le {THING:StructurePressureRegulator} à l'endroit en surbrillance."
 
 #: /Language/Interface/Record[Key='ConnectingTanks']
 msgctxt "Interface.ConnectingTanks"
@@ -4524,10 +4524,9 @@ msgid "Open the {THING:StructureValve} on the volatiles network."
 msgstr "Ouvrez la {THING:StructureValve} sur le réseau volatiles."
 
 #: /Language/Interface/Record[Key='SettingYourLimit']
-#, fuzzy
 msgctxt "Interface.SettingYourLimit"
 msgid "Setting Your Limit"
-msgstr "Paramétrage de la mémoire"
+msgstr "Réguler la pression"
 
 #: /Language/Interface/Record[Key='SettingYourLimitDescription']
 msgctxt "Interface.SettingYourLimitDescription"
@@ -4591,10 +4590,9 @@ msgid "Take the {THING:ItemGasCanisterFuel} from the {THING:StructureGasTankStor
 msgstr "Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}."
 
 #: /Language/Interface/Record[Key='RetrievingTheFuelTankTask2']
-#, fuzzy
 msgctxt "Interface.RetrievingTheFuelTankTask2"
 msgid "Place the {THING:ItemGasCanisterFuel} into the {THING:ItemWeldingTorch}."
-msgstr "Placez la {THING:ItemBatteryCellLarge} dans le {THING:StructureAreaPowerControl}."
+msgstr "Replacez la {THING:ItemGasCanisterFuel} dans le {THING:ItemWeldingTorch}."
 
 #: /Language/Interface/Record[Key='TestTheFuelMix']
 msgctxt "Interface.TestTheFuelMix"
