@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-22 17:14+0000\n"
+"PO-Revision-Date: 2020-08-22 17:21+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3711,6 +3711,9 @@ msgid ""
 "            \n"
 "Once complete remove the data disk, you can now adjust the horizontal and vertical angle of all the connected Solar Panels, as well as monitor power output"
 msgstr ""
+"Activez la console et sélectionnez les quatre panneaux solaires affichés.\n"
+"\n"
+"Une fois terminé retirer le disque de données. Vous pouvez maintenant ajuster l’angle horizontal et vertical de tous les panneaux solaires connectés, ainsi que surveiller la puissance de sortie"
 
 #: /Language/Interface/Record[Key='ConsoleManualControlSetupTask4']
 #, fuzzy
@@ -3736,6 +3739,9 @@ msgid ""
 "            \n"
 "The first step is to place daylight sensors. One will measure the horizontal angle of the sun, while the other will measure the vertical angle. This will provide full daytime tracking on any planet."
 msgstr ""
+"L’automatisation du suivi solaire maximise l’énergie produite par les panneaux solaires, et signifie que vous n’avez pas besoin de les ajuster manuellement pour faire face au soleil.\n"
+"\n"
+"La première étape consiste à placer des capteurs de lumière du jour. L’un mesurera l’angle horizontal du soleil, tandis que l’autre mesurera l’angle vertical. Cela fournira un suivi complet du soleil sur n’importe quelle planète."
 
 #: /Language/Interface/Record[Key='PickUpDaylightSensor']
 #, fuzzy
@@ -3758,6 +3764,8 @@ msgstr "Module mémoire"
 msgctxt "Interface.SolarMemoryDescription"
 msgid "Memory is used to store data, with values set manually by a screwdriver. We will need five memory modules to store the data needed for the circut."
 msgstr ""
+"La mémoire est utilisée pour stocker des données, avec des valeurs réglées manuellement par un tournevis. Nous aurons besoin de cinq modules de mémoire pour stocker les données nécessaires au "
+"circuit."
 
 #: /Language/Interface/Record[Key='PickUpMemory']
 #, fuzzy
@@ -3791,12 +3799,16 @@ msgid ""
 "We now need to set a horizontal offset, to correct for the positions and rotations of the solar panel and the daylight sensors. If your solar sensor is at a 90-degree angle to your solar panels, the offset will adjust the solar angle data so the solar panels face towards the sun.\n"
 "We apply this value to Horizontal math unit 2, when we add it to the output value from Horizontal math unit 1."
 msgstr ""
+"Nous devons maintenant définir un décalage horizontal, pour corriger les positions et les rotations du panneau solaire et des capteurs de lumière du jour. Si votre capteur solaire est à un angle de 90 degrés à vos panneaux solaires, le décalage ajustera les données d’angle solaire de sorte que les panneaux solaires face vers le soleil.\n"
+"Nous appliquons cette valeur à l’unité de mathématiques horizontale 2, lorsque nous l’ajoutons à la valeur de sortie de l’unité de mathématiques horizontale 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription3']
 msgctxt "Interface.SetMemoryDescription3"
 msgid ""
 "As solar sensors provide a negative value, you must turn a negative value into a positive one. To do this, multiply the Invert Memory value against the solar sensor value using Horizontal Math 1."
 msgstr ""
+"Comme les capteurs solaires fournissent une valeur négative, vous devez transformer une valeur négative en une valeur positive. Pour ce faire, multipliez la valeur mémoire inversé par la valeur du "
+"capteur solaire à l’aide de Horizontal Math 1."
 
 #: /Language/Interface/Record[Key='SetMemoryDescription4']
 msgctxt "Interface.SetMemoryDescription4"
@@ -3806,6 +3818,8 @@ msgid ""
 "            \n"
 "            "
 msgstr ""
+"Enfin, calibrer la position verticale du panneau solaire. \n"
+"Pour ce faire, prenez le pourcentage d’angle solaire vertical de Vertical Math 1, et ajoutez 50% en utilisant la fonction Add Memory dans le Vertical Math 2. Cela fera 50% du point zéro horizontal du panneau solaire (plat, orienté vers le haut).            "
 
 #: /Language/Interface/Record[Key='SetMemoryDescription5']
 msgctxt "Interface.SetMemoryDescription5"
