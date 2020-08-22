@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-22 17:26+0000\n"
+"PO-Revision-Date: 2020-08-22 17:37+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2105,23 +2105,20 @@ msgid "Air Sensors and More!"
 msgstr "Capteurs d’air et plus encore !"
 
 #: /Language/Interface/Record[Key='AirSensoresAndMoreDescription']
-#, fuzzy
 msgctxt "Interface.AirSensoresAndMoreDescription"
 msgid ""
 "Next, set up a {THING:StructureGasSensor} and an {THING:StructureActiveVent}. A {THING:StructureGasSensor} is a key component in the Airlock, as it informs the console of the current atmosphere "
 "inside it, while the {THING:StructureActiveVent} pressurizes and depressurizes the Airlock."
 msgstr ""
-"Ensuite, il s’agit de mettre en place un {THING:StructureGasSensor} et un {THING:StructureActiveVent}, le {THING:StructureGasSensor} dira à la console l’atmosphère actuelle dans le sas et est un "
-"élément clé dans le sas, tandis que le {THING:StructureActiveVent} gérera la pression et dépressurisation du sas. Construire un {THING:StructureGasSensor} et un {THING:StructureActiveVent}."
+"Ensuite, mettez en place un {THING:StructureGasSensor} et un {THING:StructureActiveVent}. Un {THING:StructureGasSensor} est un composant clé du sas, car il informe la console de l’atmosphère "
+"actuelle à l’intérieur, tandis que la {THING:StructureActiveVent} pressurise et dépressurise le sas."
 
 #: /Language/Interface/Record[Key='AirSensoresAndMoreTask1']
-#, fuzzy
 msgctxt "Interface.AirSensoresAndMoreTask1"
 msgid "Build the {THING:StructureGasSensor} in the highlighted location."
 msgstr "Construisez un {THING:StructureGasSensor} à l'endroit mis en surbrillance"
 
 #: /Language/Interface/Record[Key='AirSensoresAndMoreTask2']
-#, fuzzy
 msgctxt "Interface.AirSensoresAndMoreTask2"
 msgid "Build the {THING:StructureActiveVent} in the highlighted location."
 msgstr "Construisez un {THING:StructureActiveVent} à l'endroit mis en surbrillance"
@@ -2132,16 +2129,15 @@ msgid "Gas Pipes"
 msgstr "Tuyaux de gaz"
 
 #: /Language/Interface/Record[Key='GasPipesDescription']
-#, fuzzy
 msgctxt "Interface.GasPipesDescription"
 msgid ""
 "{THING:ItemKitPipe} are used to carry gases from one point to another. We will need to connect the {THING:StructureActiveVent} to the {THING:StructurePassiveVent} using {THING:ItemKitPipe}. \n"
 "            \n"
 "Note: When building an Airlock you can store the gases in the pipe itself, if you don’t have access to a {THING:StructurePassiveVent}."
 msgstr ""
-"Les « THING : ItemKitPipe » sont utilisés pour transporter le gaz d’un point à l’autre. Nous devrons utiliser des tuyaux pour le sas, connecter le 'THING:StructureActiveVent' à la 'THING:StructurePassiveVent' en utilisant 'THING:ItemKitPipe'. \n"
+"{THING:ItemKitPipe} sont utilisés pour transporter les gaz d’un point à l’autre. Nous devrons connecter le {THING:StructureActiveVent} à {THING:StructurePassiveVent} à l’aide de {THING:ItemKitPipe}. \n"
 "            \n"
-"Remarque : lors de la construction d’un sas, vous pouvez simplement stocker les gaz dans le tuyau lui-même si vous n’avez pas accès à un « THING: StructurePassiveVent »."
+"Remarque : Lors de la construction d’un sas, vous pouvez stocker les gaz dans le tuyau lui-même, si vous n’avez pas accès à un {THING:StructurePassiveVent}."
 
 #: /Language/Interface/Record[Key='GasPipeCorner']
 msgctxt "Interface.GasPipeCorner"
@@ -2149,13 +2145,11 @@ msgid "Build a {THING:StructurePipeCorner}."
 msgstr "Fabriquez un {THING:StructureCableCorner}."
 
 #: /Language/Interface/Record[Key='GasPipeStraight']
-#, fuzzy
 msgctxt "Interface.GasPipeStraight"
 msgid "Build a {THING:StructurePipeStraight}."
 msgstr "Fabriquez un {THING:StructurePipeStraight}."
 
 #: /Language/Interface/Record[Key='PassiveVentBuild']
-#, fuzzy
 msgctxt "Interface.PassiveVentBuild"
 msgid "Build a {THING:StructurePassiveVent}."
 msgstr "Fabriquez un {THING:StructureCableCorner}."
@@ -2181,23 +2175,20 @@ msgid "Under Pressure"
 msgstr "Sous pression"
 
 #: /Language/Interface/Record[Key='UnderPressureDescription']
-#, fuzzy
 msgctxt "Interface.UnderPressureDescription"
 msgid ""
 "To complete the {THING:StructureConsole} we need to add a circuit board to it. There are different types of circuit boards for different situations. You're building an Airlock, so you need to use "
 "the {THING:CircuitboardAirlockControl}. You will also need to use a data disk to allow the {THING:CircuitboardAirlockControl} to be programmed."
 msgstr ""
-"Pour compléter la console, nous devons y ajouter un circuit imprimé. Il existe différents types de circuits imprimés pour différentes situations, Dans ce cas, nous allons construire un sas, donc "
-"nous devons utiliser le {THING:CircuitboardAirlockControl}, Vous aurez également besoin d’utiliser un disque de données pour permettre à la {THING:CircuitboardAirlockControl} d’être Programmé."
+"Pour compléter le {THING:StructureConsole} nous devons y ajouter une carte de circuit. Il existe différents types de circuits pour différentes situations. Vous construisez un sas, vous devez donc "
+"utiliser {THING:CircuitboardAirlockControl}. Vous devrez également utiliser un disque de données pour permettre le programme {THING:CircuitboardAirlockControl}."
 
 #: /Language/Interface/Record[Key='UnderPressureTask1']
-#, fuzzy
 msgctxt "Interface.UnderPressureTask1"
 msgid "Insert the {THING:CircuitboardAirlockControl} into the {THING:StructureConsole}."
 msgstr "Insérez la {THING:CircuitboardAirlockControl} dans la {THING:StructureConsole}."
 
 #: /Language/Interface/Record[Key='UnderPressureTask2']
-#, fuzzy
 msgctxt "Interface.UnderPressureTask2"
 msgid "Place {THING:ItemGlassSheets} on the {THING:StructureConsole} to complete the console."
 msgstr "Placez une {THING:ItemGlassSheets} sur la {THING:StructureConsole} pour compléter la console."
@@ -2213,7 +2204,6 @@ msgid "Airlock programming"
 msgstr "Programmation de sas"
 
 #: /Language/Interface/Record[Key='AirLockProgrammingDescription']
-#, fuzzy
 msgctxt "Interface.AirLockProgrammingDescription"
 msgid ""
 " To programme the Airlock, turn on the {THING:StructureConsole}. Select the {THING:StructureActiveVent} and {THING:StructureGasSensor}. Devices highlight green with red text when selected.\n"
@@ -2224,11 +2214,13 @@ msgid ""
 "\n"
 "When you have successfully completed the Airlock set up, the switch on the side of the {THING:StructureConsole} will light up green. You may now remove the Data Disk from the {THING:StructureConsole}.  The Console will be locked, and will not respond to interactions unless you reinsert the Data Disk."
 msgstr ""
-"Programmer un sas est assez facile, commencez par allumer le {THING:StructureConsole} il suffit de sélectionner le {THING:StructureActiveVent} et {THING:StructureGasSensor}. \n"
+"Pour programmer le sas, activez la {THING:StructureConsole}. Sélectionnez les {THING:StructureActiveVent} et {THING:StructureGasSensor}. Les périphériques mettent en surbrillance le vert avec le texte rouge lorsqu’ils sont sélectionnés.\n"
 "\n"
-"Lors de la sélection du sas, assurez-vous que l’option \"INTERIEUR\" est sélectionnée sur la porte intérieure. Cela peut être vu par la lumière des sas tournant du vert au rouge pour indiquer à quel sas vous appliquez l’option.\n"
-"Une fois que la console a un appareil sélectionné, il sera sous son contrôle et sera verrouillé, il ne répondra pas à vos interactions de côté.\n"
-"Lorsque vous avez terminé avec succès la mise en place du sas, l’interrupteur sur le côté de la {THING:StructureConsole} s’allume en vert, vous pouvez ensuite retirez le disque de données de la {THING:StructureConsole}."
+"Sélectionnez les deux portes du sas. Le choix d’une porte comme « extérieur » entraînera le défaut de l’autre à « interne ». Assurez-vous que les portes sont correctement assignées.\n"
+"\n"
+"Une fois qu’un périphérique est sélectionné, cet appareil sera verrouillé sous son contrôle et ne répondra pas aux interactions à moins d’être désélectionné.\n"
+"\n"
+"Lorsque vous avez terminé avec succès la configuration du sas, le commutateur sur le côté de {THING:StructureConsole} s’allume en vert. Vous pouvez maintenant supprimer le disque de données de {THING:StructureConsole}.  La console sera verrouillée et ne répondra pas aux interactions à moins que vous réinsérez le disque de données."
 
 #: /Language/Interface/Record[Key='AirLockProgrammingTask1']
 msgctxt "Interface.AirLockProgrammingTask1"
@@ -2241,17 +2233,15 @@ msgid "A simple Airlock"
 msgstr "Un simple sas"
 
 #: /Language/Interface/Record[Key='ASimpleAirLockDescription']
-#, fuzzy
 msgctxt "Interface.ASimpleAirLockDescription"
 msgid ""
 "Now to test the newly built Airlock. Press the “Cycle to Interior” button to start pressurization. The Airlock pressure must reach at least 101 kPa for the cycle to complete. If the base within is "
 "not pressurized, the airlock cannot complete its cycle. If this happens press the “Cancel pressurize” button."
 msgstr ""
-"Maintenant, pour tester le sas nouvellement construit, appuyez sur le bouton \"cycle pour l’intérieur\" pour initialiser la pressurisation, la pression doit atteindre au moins 101 kPa pour que le "
-"cycle se termine. Dans certains cas, l’Intérieur n’a pas encore été sous pression et n’atteindra jamais la pression cible. Si cela se produit appuyez sur le bouton \"Annuler pressurisation\"."
+"Maintenant, pour tester le sas nouvellement construit. Appuyez sur le bouton « Cycle à l’intérieur » pour commencer la pressurisation. La pression du sas doit atteindre au moins 101 kPa pour que le "
+"cycle se termine. Si la base à l’intérieur n’est pas pressurisée, le sas ne peut pas terminer son cycle. Si cela se produit, appuyez sur le bouton « Annuler la pressurisation »."
 
 #: /Language/Interface/Record[Key='ASimpleAirLockTask1']
-#, fuzzy
 msgctxt "Interface.ASimpleAirLockTask1"
 msgid "Remove the {THING:ItemDataDisk} and cycle to interior."
 msgstr "Retirez le {THING:ItemDataDisk} et lancer le cycle pour l’intérieur."
@@ -2354,10 +2344,9 @@ msgstr ""
 "Assurez-vous que le sas fonctionne en appuyant sur le bouton \"Cycle to interior\"."
 
 #: /Language/Interface/Record[Key='AAdvancedAirLockTask1']
-#, fuzzy
 msgctxt "Interface.AAdvancedAirLockTask1"
 msgid "Press the “Cycle to Interior” button."
-msgstr "appuyez sur le bouton \"cycle à l’intérieur\"."
+msgstr "Appuyez sur le bouton \"cycle à l’intérieur\"."
 
 #: /Language/Interface/Record[Key='08BasicHydroponics']
 msgctxt "Interface.08BasicHydroponics"
@@ -2391,16 +2380,14 @@ msgstr ""
 "Les meilleures conditions de croissance des plantes sont comprises entre 15 et 50 degrés Celsius à une pression de 8KPa à 130 KPa. La composition de l’air ne doit contenir ni hydrogène ni polluants et au moins 2 % de dioxyde de carbone."
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask1']
-#, fuzzy
 msgctxt "Interface.PortableHydroponicsTask1"
 msgid "Pick up a {THING:ItemPotato}."
-msgstr "Ramasser la {THING:ItemTablet}"
+msgstr "Prenez une {THING:ItemPotato}."
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask2']
-#, fuzzy
 msgctxt "Interface.PortableHydroponicsTask2"
 msgid "Pick up the {THING:ItemGasCanisterWater}."
-msgstr "Ramasser le {THING:ItemKitAutolathe}."
+msgstr "Prenez la {THING:ItemGasCanisterWater}."
 
 #: /Language/Interface/Record[Key='PortableHydroponicsTask3']
 msgctxt "Interface.PortableHydroponicsTask3"
@@ -2418,10 +2405,9 @@ msgid "Potatoes in Space"
 msgstr "Pommes de terre dans l’espace"
 
 #: /Language/Interface/Record[Key='PotatosInSpaceDescription']
-#, fuzzy
 msgctxt "Interface.PotatosInSpaceDescription"
 msgid "Let the {THING:ItemPotato} plant grow"
-msgstr "Ouvrez l'inventaire de la {THING:ItemEvaSuit}"
+msgstr "Laissez pousser la plante {THING:ItemPotato}"
 
 #: /Language/Interface/Record[Key='PotatosInSpaceTask1']
 msgctxt "Interface.PotatosInSpaceTask1"
@@ -2429,10 +2415,9 @@ msgid "Wait for the plant to grow. Note: We have sped up the plant's growth rate
 msgstr "Attendez que la plante pousse. Note: Nous avons accéléré le taux de croissance pour ce tutoriel."
 
 #: /Language/Interface/Record[Key='PotatosInSpaceTask2']
-#, fuzzy
 msgctxt "Interface.PotatosInSpaceTask2"
 msgid "Harvest the {THING:ItemPotato}."
-msgstr "Insérez le {THING:ItemDataDisk}."
+msgstr "Récoltez la {THING:ItemPotato}."
 
 #: /Language/Interface/Record[Key='FixedHydroponics']
 msgctxt "Interface.FixedHydroponics"
@@ -2449,16 +2434,14 @@ msgstr ""
 " aider à automatiser le système."
 
 #: /Language/Interface/Record[Key='FixedHydroponicsTask1']
-#, fuzzy
 msgctxt "Interface.FixedHydroponicsTask1"
 msgid "Pick up the {THING:ItemKitHydroponicStation}."
-msgstr "Ramasser le {THING:ItemKitAutolathe}."
+msgstr "Récupérez le {THING:ItemKitHydroponicStation}."
 
 #: /Language/Interface/Record[Key='FixedHydroponicsTask2']
-#, fuzzy
 msgctxt "Interface.FixedHydroponicsTask2"
 msgid "Place the {THING:ItemKitHydroponicStation} in the highlighted position."
-msgstr "Placez le {THING:ItemAreaPowerControl} dans la zone en surbrillance."
+msgstr "Placez le {THING:ItemKitHydroponicStation} sur la position en surbrillance."
 
 #: /Language/Interface/Record[Key='TankConnectorsWhatAreThey']
 msgctxt "Interface.TankConnectorsWhatAreThey"
@@ -2471,16 +2454,14 @@ msgid "Tank connectors are used to connect a {THING:DynamicGasCanisterWater} to 
 msgstr "Les connecteurs de réservoir sont utilisés pour relier un {THING:DynamicGasCanisterWater} aux réseaux de tuyaux, qui peuvent être utilisés pour transporter du gaz et de l’eau."
 
 #: /Language/Interface/Record[Key='TankConnectorsWhatAreTheyTask1']
-#, fuzzy
 msgctxt "Interface.TankConnectorsWhatAreTheyTask1"
 msgid "Pick up the {THING:ItemTankConnector}."
-msgstr "Ramasser la {THING:ItemTablet}"
+msgstr "Récupérez le {THING:ItemTankConnector}."
 
 #: /Language/Interface/Record[Key='TankConnectorsWhatAreTheyTask2']
-#, fuzzy
 msgctxt "Interface.TankConnectorsWhatAreTheyTask2"
 msgid "Place the {THING:StructureTankConnector} in the highlighted position."
-msgstr "Construisez un {THING:StructureGasSensor} à l'endroit mis en surbrillance"
+msgstr "Placez le {THING:StructureTankConnector} sur la position en surbrillance."
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenches']
 msgctxt "Interface.WaterTanksAndWrenches"
@@ -2493,10 +2474,9 @@ msgid "Place the {THING:DynamicGasCanisterWater} on top of the {THING:ItemTankCo
 msgstr "Placez la {THING:DynamicGasCanisterWater} au-dessus du {THING:ItemTankConnector} et connectez-la à l’aide d’une {THING:ItemWrench}."
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenches1']
-#, fuzzy
 msgctxt "Interface.WaterTanksAndWrenches1"
 msgid "Get the {THING:ItemWrench} from your toolbelt."
-msgstr "Utilisez la {THING:ItemDrill} depuis de votre {SLOT:Belt}."
+msgstr "Obtenez la {THING:ItemWrench} à partir de votre ceinture d’outils."
 
 #: /Language/Interface/Record[Key='WaterTanksAndWrenchesTask2']
 msgctxt "Interface.WaterTanksAndWrenchesTask2"
@@ -2516,16 +2496,14 @@ msgstr ""
 "soit vide."
 
 #: /Language/Interface/Record[Key='WaterNetworksTask1']
-#, fuzzy
 msgctxt "Interface.WaterNetworksTask1"
 msgid "Pick up the blue {THING:ItemKitPipe}."
-msgstr "Ramasser le {THING:ItemKitAutolathe}."
+msgstr "Prenez le {THING:ItemKitPipe} bleu."
 
 #: /Language/Interface/Record[Key='WaterNetworksTask2']
-#, fuzzy
 msgctxt "Interface.WaterNetworksTask2"
 msgid "Place the {THING:StructurePipeStraight} in the highlighted position."
-msgstr "Placez un autre {THING:StructureActiveVent} à l'endroit en surbrillance."
+msgstr "Placez le {THING:StructurePipeStraight} sur la position mise en surbrillance."
 
 #: /Language/Interface/Record[Key='KeepingItTidy']
 msgctxt "Interface.KeepingItTidy"
@@ -2539,16 +2517,14 @@ msgstr ""
 "Le {THING:ItemKitCompositeFloorGrating} est un excellent moyen de cacher les tuyaux et les fils montés sur le sol. Il permet également un meilleur mouvement tout en marchant autour de votre base."
 
 #: /Language/Interface/Record[Key='KeepingItTidyTask1']
-#, fuzzy
 msgctxt "Interface.KeepingItTidyTask1"
 msgid "Pick up the {THING:ItemKitCompositeFloorGrating} from the crate."
-msgstr "Prenez un {THING:ItemCopperIngot} dans la caisse orange."
+msgstr "Récupérez le {THING:ItemKitCompositeFloorGrating} dans la caisse."
 
 #: /Language/Interface/Record[Key='KeepingItTidyTask2']
-#, fuzzy
 msgctxt "Interface.KeepingItTidyTask2"
 msgid "Place the {THING:StructureCompositeFloorGrating} in the highlighted position."
-msgstr "Placez un autre {THING:StructureActiveVent} à l'endroit en surbrillance."
+msgstr "Placez le {THING:StructureCompositeFloorGrating} sur la position en surbrillance."
 
 #: /Language/Interface/Record[Key='AutomatedHydroponics']
 msgctxt "Interface.AutomatedHydroponics"
@@ -2556,7 +2532,6 @@ msgid "Automated Hydroponics"
 msgstr "Hydroponique automatisé"
 
 #: /Language/Interface/Record[Key='AutomatedHydroponicsDescription']
-#, fuzzy
 msgctxt "Interface.AutomatedHydroponicsDescription"
 msgid "You can now turn on the new {THING:StructureHydroponicsStation} and plant your {THING:ItemPotato}. It has built-in lights that will keep your plants happy even in low-light conditions."
 msgstr ""
@@ -2564,22 +2539,19 @@ msgstr ""
 "de faible luminosité."
 
 #: /Language/Interface/Record[Key='AutomatedHydroponicsTask1']
-#, fuzzy
 msgctxt "Interface.AutomatedHydroponicsTask1"
 msgid "Turn on the {THING:StructureHydroponicsStation}."
-msgstr "Allumer la {THING:ItemTablet}"
+msgstr "Activez la {THING:StructureHydroponicsStation}."
 
 #: /Language/Interface/Record[Key='AutomatedHydroponicsTask2']
-#, fuzzy
 msgctxt "Interface.AutomatedHydroponicsTask2"
 msgid "Pick up a previously harvested {THING:ItemPotato}."
-msgstr "Ramasser le {THING:ItemKitAutolathe}."
+msgstr "Récupérez une {THING:ItemPotato} précédemment récoltée."
 
 #: /Language/Interface/Record[Key='AutomatedHydroponicsTask3']
-#, fuzzy
 msgctxt "Interface.AutomatedHydroponicsTask3"
 msgid "Plant the {THING:ItemPotato} in the {THING:StructureHydroponicsStation}."
-msgstr "Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}."
+msgstr "Plantez la {THING:ItemPotato} dans la {THING:StructureHydroponicsStation}."
 
 #: /Language/Interface/Record[Key='AutomatedHydroponicsTask4']
 msgctxt "Interface.AutomatedHydroponicsTask4"
@@ -2602,10 +2574,9 @@ msgid "Wait for the {THING:ItemPotato} plant to fully grow."
 msgstr "Attendez que la {THING:ItemPotato} se développe pleinement."
 
 #: /Language/Interface/Record[Key='HonestWorkTask2']
-#, fuzzy
 msgctxt "Interface.HonestWorkTask2"
 msgid "Harvest a {THING:ItemPotato}."
-msgstr "Imprimez un {THING:ItemPassiveVent}."
+msgstr "Récoltez une {THING:ItemPotato}."
 
 #: /Language/Interface/Record[Key='09BasicResearch']
 msgctxt "Interface.09BasicResearch"
@@ -2639,10 +2610,9 @@ msgid "Pick up the {THING:ItemKitResearchMachine} from the red {THING:DynamicCra
 msgstr "Prenez un {THING:ItemCopperIngot} dans la caisse orange."
 
 #: /Language/Interface/Record[Key='TheResearchMachine2']
-#, fuzzy
 msgctxt "Interface.TheResearchMachine2"
 msgid "Place the {THING:ItemKitResearchMachine} in the highlighted position."
-msgstr "Placez le {THING:ItemAreaPowerControl} dans la zone en surbrillance."
+msgstr "Placez la {THING:ItemKitResearchMachine} sur la position en surbrillance."
 
 #: /Language/Interface/Record[Key='TheResearchMachineBuild']
 msgctxt "Interface.TheResearchMachineBuild"
