@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-19 20:56+0000\n"
+"PO-Revision-Date: 2020-09-19 21:12+0000\n"
 "Last-Translator: brainkiller <dchambelant@gmail.com>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1838,14 +1838,13 @@ msgstr ""
 "Actuellement, la base n’a pas d’atmosphère interne. De ce fait, le sas ne fonctionnera pas correctement. En effet, il nécessite une pression de 100kpa dans le bâtiment pour fonctionner correctement. Nous pouvons toujours entrer dans la base en annulant le cycle de pressurisation du sas. Un conseil a se souvenir, si votre base a une fuite d’air et vous deviez entrer ou sortir sans exécuter le cycle."
 
 #: /Language/Interface/Record[Key='AtmoAirLockTask1']
-#, fuzzy
 msgctxt "Interface.AtmoAirLockTask1"
 msgid ""
 "Enter the airlock and press the \"Cycle to Interior\" button on the console. Wait for the exterior door to close, and a new button labelled \"Cancel Pressurize\" will appear. Press this button and the internal door will open.\n"
 "        "
 msgstr ""
-"À votre base et entrez le sas appuyez sur le bouton \"Cycle pour l'intérieur\" sur la console et attendez la fermeture de la porte extérieure. Un nouveau bouton apparaîtra \"Annuler pressurisation\""
-" appuyer sur ce bouton et la porte interne doit s’ouvrir."
+"Rejoignez votre base et entrez le sas. Appuyez sur le bouton &quot;Cycle to interior&quot; sur la console et attendez la fermeture de la porte extérieure. Un nouveau bouton apparaîtra &quot;Cancel "
+"Pressurize&quot;, appuyer sur ce bouton et la porte interne doit s’ouvrir."
 
 #: /Language/Interface/Record[Key='AtmosAnalyser']
 msgctxt "Interface.AtmosAnalyser"
@@ -1869,16 +1868,14 @@ msgid "Generating an Atmosphere."
 msgstr "Générer une atmosphère."
 
 #: /Language/Interface/Record[Key='Creating_AtmoDescription']
-#, fuzzy
 msgctxt "Interface.Creating_AtmoDescription"
 msgid ""
 "The simplest way of creating a breathable atmosphere is to mine oxite, then drop it into your base and let it melt. This will release breathable oxygen into the atmosphere, and increase air "
 "pressure. Be careful when melting oxite as you could over-pressurize the base, causing damage to walls. Humans need to breathe a minimum 20% oxygen without pollutants or poisons. You can have a "
 "small amount of carbon dioxide in the atmosphere but exceeding 10% is not recommended."
 msgstr ""
-"La façon la plus simple de créer une atmosphère respirable est de miner l’oxite et de la laisser tomber dans votre base pour la laisser fondre, ce qui libérera de l’oxygène respirable dans "
-"l’atmosphère tout en augmentant la pression de l’air, soyez prudent lors de la fonte de l’oxite que vous pourriez trop pressuriser le base causant des dommages aux murs. Les humains doivent respirer"
-" un minimum de 20% d’oxygène sans polluants ou poisons. Vous pouvez avoir une petite quantité de dioxyde de carbone dans l’atmosphère, mais il n’est pas recommandé de dépasser 10%."
+"La façon la plus simple de créer une atmosphère respirable, est de miner la {THING:ItemOxite}. Ensuite la laisser fondre dans votre base, ce qui libérera de l’oxygène respirable dans l’atmosphère. Soyez prudent lors de la fonte de {THING:ItemOxite}, la pression de l'air va augmenter. Une pression trop importante peut causer des dommages aux murs et aux fenêtres.\n"
+"Les humains doivent respirer un minimum de 20% d’oxygène sans polluants ou poisons. Une petite quantité de dioxyde de carbone dans l’atmosphère est acceptable, mais il n’est pas recommandé de dépasser 10%."
 
 #: /Language/Interface/Record[Key='Creating_AtmoTask1']
 msgctxt "Interface.Creating_AtmoTask1"
