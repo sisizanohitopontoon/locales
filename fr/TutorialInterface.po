@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-21 21:58+0000\n"
+"PO-Revision-Date: 2020-09-21 22:16+0000\n"
 "Last-Translator: brainkiller <dchambelant@gmail.com>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2222,32 +2222,31 @@ msgid "Advanced Pressure"
 msgstr "Amélioration de la pression"
 
 #: /Language/Interface/Record[Key='AdvancedPressureDescription']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureDescription"
 msgid "Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
 msgstr ""
-"Maintenant que les structures sont en place, nous devons échanger le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl} \n"
+"Maintenant que les différents éléments sont en place, nous devons remplacer le {THING:CircuitboardAirlockControl} par le {THING:CircuitboardAdvAirlockControl} \n"
 "        \n"
-"Il n’y a que quelques différences lors de la programmation du {THING:CircuitboardAdvAirlockControl}. Tout d’abord, vous devez sélectionner interne et externe {THING:StructureActiveVent} contrairement aux portes que vous aurez besoin de regarder l’interrupteur sur le {THING:StructureActiveVent} pour voir si c’est interagitable ou non c’est ainsi que vous pouvez déchiffrer lequel {THING:StructureActiveVent} correspond à ceux du menu.\n"
+"Il y a quelques différences dans la programmation du {THING:CircuitboardAdvAirlockControl}. Tout d’abord, vous devez sélectionner {THING:StructureActiveVent} interne et externe. Contrairement aux portes, vous aurez besoin de regarder l’interrupteur sur la {THING:StructureActiveVent} pour voir s'il est verrouillé ou non. C’est ainsi que vous pouvez savoir quelle {THING:StructureActiveVent} correspond au menu de la {THING:StructureConsole}.\n"
+"\n"
+"La dernière chose que vous devez faire est de sélectionner les pression interne et externe cible, en haut du menu de la {THING:StructureConsole}.\n"
 "\n"
 "La dernière chose que vous devez faire est de sélectionner la pression que vous voulez à la fois pour la pression interne et externe trouvée près du haut du panneau."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask1']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureTask1"
 msgid "Remove the {THING:ItemGlassSheets} from the {THING:StructureConsole} with the crowbar."
-msgstr "Ramasser les {THING:ItemGlassSheets}."
+msgstr "A l'aide de votre {THING:ItemCrowbar}, démonter la {THING:StructureConsole}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask2']
-#, fuzzy
 msgctxt "Interface.AdvancedPressureTask2"
 msgid "Swap the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}."
-msgstr "Échangez le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl}."
+msgstr "Permutez le {THING:CircuitboardAirlockControl} avec le {THING:CircuitboardAdvAirlockControl}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureTask3']
 msgctxt "Interface.AdvancedPressureTask3"
 msgid "Replace the {THING:ItemGlassSheets}."
-msgstr "Remplacer les {THING:ItemGlassSheets}."
+msgstr "Replacer les {THING:ItemGlassSheets}."
 
 #: /Language/Interface/Record[Key='AdvancedPressureask4']
 msgctxt "Interface.AdvancedPressureask4"
