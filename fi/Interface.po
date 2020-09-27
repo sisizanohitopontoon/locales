@@ -10,55 +10,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldInfoButtonDelete']
-msgctxt "Interface.WorldInfoButtonDelete"
-msgid "Delete"
-msgstr "Poista"
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "Maailmat"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "Nälkä (Kerroin)"
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Aloitusvarusteet"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Jatka peliä"
 
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Tallennettu:"
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Pelattu:"
+
+#: /Language/Interface/Record[Key='WorldInfoMapName']
+#, fuzzy
+msgctxt "Interface.WorldInfoMapName"
+msgid "Map:"
+msgstr "Kartta:"
+
+#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
+msgctxt "Interface.WorldInfoTextAsteroids"
+msgid "Asteroids:"
+msgstr "Asteroidit:"
+
+#: /Language/Interface/Record[Key='WorldInfoTextVersion']
+msgctxt "Interface.WorldInfoTextVersion"
+msgid "Version:"
+msgstr "Versio:"
+
+#: /Language/Interface/Record[Key='WorldInfoButtonDelete']
+msgctxt "Interface.WorldInfoButtonDelete"
+msgid "Delete"
+msgstr "Poista"
+
 #: /Language/Interface/Record[Key='WorldInfoButtonPublish']
 msgctxt "Interface.WorldInfoButtonPublish"
 msgid "Publish"
 msgstr "Julkaise"
-
-#: /Language/Interface/Record[Key='TraderErrorConnectWires']
-msgctxt "Interface.TraderErrorConnectWires"
-msgid "The trader could not complete the trade, check your cables for any breaks!"
-msgstr ""
-
-#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
-msgctxt "Interface.TraderErrorMissingMotherboard"
-msgid "You are missing a motherboard in your computer, you lost contact with the trader."
-msgstr ""
-
-#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
-msgctxt "Interface.TraderErrorMissingVendingMachine"
-msgid "You are missing a connected empty Vending machine, the trade could not complete."
-msgstr ""
-
-#: /Language/Interface/Record[Key='Picture']
-msgctxt "Interface.Picture"
-msgid "Picture"
-msgstr ""
-
-#: /Language/Interface/Record[Key='MainMenuNewWorld']
-msgctxt "Interface.MainMenuNewWorld"
-msgid "New World"
-msgstr "Uusi maailma"
-
-#: /Language/Interface/Record[Key='MainMenuLoadWorld']
-msgctxt "Interface.MainMenuLoadWorld"
-msgid "Load World"
-msgstr "Lataa maailma"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDebugLoad']
 msgctxt "Interface.WorldInfoButtonDebugLoad"
@@ -1016,16 +1017,16 @@ msgctxt "Interface.PromptPublishTitle"
 msgid "Publish to Workshop"
 msgstr "Julkaise Workshopissa"
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-#, fuzzy
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Auringon kulma"
-
 #: /Language/Interface/Record[Key='PromptPublishBody']
 msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Haluatko varmasti julkaista tämän maailman Workshopissa?"
+
+#: /Language/Interface/Record[Key='DifficultyField']
+#, fuzzy
+msgctxt "Interface.DifficultyField"
+msgid "Difficulty"
+msgstr "Muut asetukset"
 
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
@@ -1087,6 +1088,36 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Olet tajuton. Haluatko luovuttaa ja herätä uudelleen henkiin?"
 
+#: /Language/Interface/Record[Key='TraderErrorConnectWires']
+msgctxt "Interface.TraderErrorConnectWires"
+msgid "The trader could not complete the trade, check your cables for any breaks!"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
+msgctxt "Interface.TraderErrorMissingMotherboard"
+msgid "You are missing a motherboard in your computer, you lost contact with the trader."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
+msgctxt "Interface.TraderErrorMissingVendingMachine"
+msgid "You are missing a connected empty Vending machine, the trade could not complete."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Picture']
+msgctxt "Interface.Picture"
+msgid "Picture"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MainMenuNewWorld']
+msgctxt "Interface.MainMenuNewWorld"
+msgid "New World"
+msgstr "Uusi maailma"
+
+#: /Language/Interface/Record[Key='MainMenuLoadWorld']
+msgctxt "Interface.MainMenuLoadWorld"
+msgid "Load World"
+msgstr "Lataa maailma"
+
 #: /Language/Interface/Record[Key='MainMenuJoinWorld']
 msgctxt "Interface.MainMenuJoinWorld"
 msgid "Join World"
@@ -1117,37 +1148,6 @@ msgstr "Tekijät"
 msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Lopeta peli"
-
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "Lataa maailma"
-
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "Maailmat"
-
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Tallennettu:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Pelattu:"
-
-#: /Language/Interface/Record[Key='WorldInfoMapName']
-#, fuzzy
-msgctxt "Interface.WorldInfoMapName"
-msgid "Map:"
-msgstr "Kartta:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
-msgctxt "Interface.WorldInfoTextAsteroids"
-msgid "Asteroids:"
-msgstr "Asteroidit:"
 
 #: /Language/Interface/Record[Key='PressEnterToContinue']
 msgctxt "Interface.PressEnterToContinue"
@@ -2662,10 +2662,11 @@ msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr "Lämpötila"
 
-#: /Language/Interface/Record[Key='HasLODField']
-msgctxt "Interface.HasLODField"
-msgid "Has LOD"
-msgstr ""
+#: /Language/Interface/Record[Key='SolarScaleField']
+#, fuzzy
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Auringon kulma"
 
 #: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
 msgctxt "Interface.AlertYourSaveFileIsBroken"
@@ -4125,11 +4126,6 @@ msgctxt "Interface.ScenariosStartButton"
 msgid "Start Scenario"
 msgstr "Aloita Skenaario"
 
-#: /Language/Interface/Record[Key='WorldInfoTextVersion']
-msgctxt "Interface.WorldInfoTextVersion"
-msgid "Version:"
-msgstr "Versio:"
-
 #: /Language/Interface/Record[Key='MainMenuScenarios']
 msgctxt "Interface.MainMenuScenarios"
 msgid "Scenarios"
@@ -4139,6 +4135,11 @@ msgstr "Skenaario"
 msgctxt "Interface.GameMenuRespawn"
 msgid "Respawn"
 msgstr "Herää"
+
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "Lataa maailma"
 
 #: /Language/Interface/Record[Key='SomethingWentWrongTrading2']
 msgctxt "Interface.SomethingWentWrongTrading2"
@@ -4350,15 +4351,15 @@ msgctxt "Interface.JoinWorldSortBy"
 msgid "Sort by"
 msgstr "Lajittele"
 
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "Nälkä (Kerroin)"
+
 #: /Language/Interface/Record[Key='SettingsTitleGameSettings']
 msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Pelin asetukset"
-
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Aloitusvarusteet"
 
 #: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
 msgctxt "Interface.AppearanceTitleFacialHairStyle"
@@ -4556,11 +4557,10 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Väärä IP-osoite {0} \\nTarkista että IP-osoite tai URL on oikein"
 
-#: /Language/Interface/Record[Key='DifficultyField']
-#, fuzzy
-msgctxt "Interface.DifficultyField"
-msgid "Difficulty"
-msgstr "Muut asetukset"
+#: /Language/Interface/Record[Key='HasLODField']
+msgctxt "Interface.HasLODField"
+msgid "Has LOD"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
