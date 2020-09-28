@@ -10,50 +10,50 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "Сохранённые миры"
+#: /Language/Interface/Record[Key='WorldInfoTextVersion']
+msgctxt "Interface.WorldInfoTextVersion"
+msgid "Version:"
+msgstr "Версия:"
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Состояние на старте"
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "Коэффициент голода"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Продолжить"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Сохранено:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Время игры:"
-
-#: /Language/Interface/Record[Key='WorldInfoMapName']
-msgctxt "Interface.WorldInfoMapName"
-msgid "Map:"
-msgstr "Карта:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
-msgctxt "Interface.WorldInfoTextAsteroids"
-msgid "Asteroids:"
-msgstr "Астероиды:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextVersion']
-msgctxt "Interface.WorldInfoTextVersion"
-msgid "Version:"
-msgstr "Версия:"
-
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Удалить"
+
+#: /Language/Interface/Record[Key='TraderErrorConnectWires']
+msgctxt "Interface.TraderErrorConnectWires"
+msgid "The trader could not complete the trade, check your cables for any breaks!"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
+msgctxt "Interface.TraderErrorMissingMotherboard"
+msgid "You are missing a motherboard in your computer, you lost contact with the trader."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
+msgctxt "Interface.TraderErrorMissingVendingMachine"
+msgid "You are missing a connected empty Vending machine, the trade could not complete."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Picture']
+msgctxt "Interface.Picture"
+msgid "Picture"
+msgstr "Рисунок"
+
+#: /Language/Interface/Record[Key='MainMenuNewWorld']
+msgctxt "Interface.MainMenuNewWorld"
+msgid "New World"
+msgstr "Новый мир"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonPublish']
 msgctxt "Interface.WorldInfoButtonPublish"
@@ -1000,15 +1000,15 @@ msgctxt "Interface.PromptPublishTitle"
 msgid "Publish to Workshop"
 msgstr "Опубликовать в мастерской"
 
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Солнечная энергия"
+
 #: /Language/Interface/Record[Key='PromptPublishBody']
 msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Вы увеерны, что хотите опубликовать этот мир в мастерской?"
-
-#: /Language/Interface/Record[Key='DifficultyField']
-msgctxt "Interface.DifficultyField"
-msgid "Difficulty"
-msgstr "Сложность"
 
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
@@ -1070,31 +1070,6 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Вы без сознания. Вы хотите сдаться и возродиться?"
 
-#: /Language/Interface/Record[Key='TraderErrorConnectWires']
-msgctxt "Interface.TraderErrorConnectWires"
-msgid "The trader could not complete the trade, check your cables for any breaks!"
-msgstr ""
-
-#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
-msgctxt "Interface.TraderErrorMissingMotherboard"
-msgid "You are missing a motherboard in your computer, you lost contact with the trader."
-msgstr ""
-
-#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
-msgctxt "Interface.TraderErrorMissingVendingMachine"
-msgid "You are missing a connected empty Vending machine, the trade could not complete."
-msgstr ""
-
-#: /Language/Interface/Record[Key='Picture']
-msgctxt "Interface.Picture"
-msgid "Picture"
-msgstr "Рисунок"
-
-#: /Language/Interface/Record[Key='MainMenuNewWorld']
-msgctxt "Interface.MainMenuNewWorld"
-msgid "New World"
-msgstr "Новый мир"
-
 #: /Language/Interface/Record[Key='MainMenuLoadWorld']
 msgctxt "Interface.MainMenuLoadWorld"
 msgid "Load World"
@@ -1129,6 +1104,31 @@ msgstr "Создатели"
 msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Выйти на рабочий стол"
+
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "Загрузить мир"
+
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "Сохранённые миры"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Сохранено:"
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Время игры:"
+
+#: /Language/Interface/Record[Key='WorldInfoMapName']
+msgctxt "Interface.WorldInfoMapName"
+msgid "Map:"
+msgstr "Карта:"
 
 #: /Language/Interface/Record[Key='PressEnterToContinue']
 msgctxt "Interface.PressEnterToContinue"
@@ -2606,10 +2606,10 @@ msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr "Температура на рассвете"
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Солнечная энергия"
+#: /Language/Interface/Record[Key='HasLODField']
+msgctxt "Interface.HasLODField"
+msgid "Has LOD"
+msgstr "Наличие LOD"
 
 #: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
 msgctxt "Interface.AlertYourSaveFileIsBroken"
@@ -4043,15 +4043,15 @@ msgctxt "Interface.MainMenuScenarios"
 msgid "Scenarios"
 msgstr "Сценарии"
 
+#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
+msgctxt "Interface.WorldInfoTextAsteroids"
+msgid "Asteroids:"
+msgstr "Астероиды:"
+
 #: /Language/Interface/Record[Key='GameMenuRespawn']
 msgctxt "Interface.GameMenuRespawn"
 msgid "Respawn"
 msgstr "Возродиться"
-
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "Загрузить мир"
 
 #: /Language/Interface/Record[Key='SomethingWentWrongTrading2']
 msgctxt "Interface.SomethingWentWrongTrading2"
@@ -4264,15 +4264,15 @@ msgctxt "Interface.JoinWorldSortBy"
 msgid "Sort by"
 msgstr "Сортировать"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "Коэффициент голода"
-
 #: /Language/Interface/Record[Key='SettingsTitleGameSettings']
 msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Настройки игры"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Состояние на старте"
 
 #: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
 msgctxt "Interface.AppearanceTitleFacialHairStyle"
@@ -4468,10 +4468,10 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Неверный IP адрес {0} \\nУбедитесь, что IP адрес или URL корректный"
 
-#: /Language/Interface/Record[Key='HasLODField']
-msgctxt "Interface.HasLODField"
-msgid "Has LOD"
-msgstr "Наличие LOD"
+#: /Language/Interface/Record[Key='DifficultyField']
+msgctxt "Interface.DifficultyField"
+msgid "Difficulty"
+msgstr "Сложность"
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"

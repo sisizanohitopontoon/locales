@@ -10,50 +10,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
-msgctxt "Interface.LoadMenuFileListTitle"
-msgid "Saved Worlds"
-msgstr "Guardar Mundo"
+#: /Language/Interface/Record[Key='WorldInfoTextVersion']
+msgctxt "Interface.WorldInfoTextVersion"
+msgid "Version:"
+msgstr "Versión:"
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Condición de inicio de partida"
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger Rate"
+msgstr "Grado de Hambre"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continuar"
 
-#: /Language/Interface/Record[Key='WorldInfoTextDate']
-msgctxt "Interface.WorldInfoTextDate"
-msgid "Saved:"
-msgstr "Guardar:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
-msgctxt "Interface.WorldInfoTextPlaytime"
-msgid "Playtime:"
-msgstr "Tiempo de juego:"
-
-#: /Language/Interface/Record[Key='WorldInfoMapName']
-msgctxt "Interface.WorldInfoMapName"
-msgid "Map:"
-msgstr "Mapa:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
-msgctxt "Interface.WorldInfoTextAsteroids"
-msgid "Asteroids:"
-msgstr "Asteroides:"
-
-#: /Language/Interface/Record[Key='WorldInfoTextVersion']
-msgctxt "Interface.WorldInfoTextVersion"
-msgid "Version:"
-msgstr "Versión:"
-
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Borrar"
+
+#: /Language/Interface/Record[Key='TraderErrorConnectWires']
+msgctxt "Interface.TraderErrorConnectWires"
+msgid "The trader could not complete the trade, check your cables for any breaks!"
+msgstr "El comerciante no pudo completar el intercambio, ¡revise sus cables en busca de roturas!"
+
+#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
+msgctxt "Interface.TraderErrorMissingMotherboard"
+msgid "You are missing a motherboard in your computer, you lost contact with the trader."
+msgstr "Le falta una placa base en su computadora, perdió el contacto con el comerciante."
+
+#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
+msgctxt "Interface.TraderErrorMissingVendingMachine"
+msgid "You are missing a connected empty Vending machine, the trade could not complete."
+msgstr "Falta una máquina expendedora vacía conectada, el intercambio no se pudo completar."
+
+#: /Language/Interface/Record[Key='Picture']
+msgctxt "Interface.Picture"
+msgid "Picture"
+msgstr "Cuadro"
+
+#: /Language/Interface/Record[Key='MainMenuNewWorld']
+msgctxt "Interface.MainMenuNewWorld"
+msgid "New World"
+msgstr "Nuevo Mundo"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonPublish']
 msgctxt "Interface.WorldInfoButtonPublish"
@@ -999,15 +999,15 @@ msgctxt "Interface.PromptPublishTitle"
 msgid "Publish to Workshop"
 msgstr "Publicar en el Workshop"
 
+#: /Language/Interface/Record[Key='SolarScaleField']
+msgctxt "Interface.SolarScaleField"
+msgid "Solar Intensity Scale"
+msgstr "Escala de intensidad solar"
+
 #: /Language/Interface/Record[Key='PromptPublishBody']
 msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Seguro que quieres publicar este mundo en el workshop?"
-
-#: /Language/Interface/Record[Key='DifficultyField']
-msgctxt "Interface.DifficultyField"
-msgid "Difficulty"
-msgstr "Dificultad"
 
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
@@ -1069,31 +1069,6 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Estás inconsciente. ¿Quieres abandonar y volver a aparecer?"
 
-#: /Language/Interface/Record[Key='TraderErrorConnectWires']
-msgctxt "Interface.TraderErrorConnectWires"
-msgid "The trader could not complete the trade, check your cables for any breaks!"
-msgstr "El comerciante no pudo completar el intercambio, ¡revise sus cables en busca de roturas!"
-
-#: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
-msgctxt "Interface.TraderErrorMissingMotherboard"
-msgid "You are missing a motherboard in your computer, you lost contact with the trader."
-msgstr "Le falta una placa base en su computadora, perdió el contacto con el comerciante."
-
-#: /Language/Interface/Record[Key='TraderErrorMissingVendingMachine']
-msgctxt "Interface.TraderErrorMissingVendingMachine"
-msgid "You are missing a connected empty Vending machine, the trade could not complete."
-msgstr "Falta una máquina expendedora vacía conectada, el intercambio no se pudo completar."
-
-#: /Language/Interface/Record[Key='Picture']
-msgctxt "Interface.Picture"
-msgid "Picture"
-msgstr "Cuadro"
-
-#: /Language/Interface/Record[Key='MainMenuNewWorld']
-msgctxt "Interface.MainMenuNewWorld"
-msgid "New World"
-msgstr "Nuevo Mundo"
-
 #: /Language/Interface/Record[Key='MainMenuLoadWorld']
 msgctxt "Interface.MainMenuLoadWorld"
 msgid "Load World"
@@ -1128,6 +1103,31 @@ msgstr "Creditos"
 msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Salir al Escritorio"
+
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "Cargar Mundo"
+
+#: /Language/Interface/Record[Key='LoadMenuFileListTitle']
+msgctxt "Interface.LoadMenuFileListTitle"
+msgid "Saved Worlds"
+msgstr "Guardar Mundo"
+
+#: /Language/Interface/Record[Key='WorldInfoTextDate']
+msgctxt "Interface.WorldInfoTextDate"
+msgid "Saved:"
+msgstr "Guardar:"
+
+#: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
+msgctxt "Interface.WorldInfoTextPlaytime"
+msgid "Playtime:"
+msgstr "Tiempo de juego:"
+
+#: /Language/Interface/Record[Key='WorldInfoMapName']
+msgctxt "Interface.WorldInfoMapName"
+msgid "Map:"
+msgstr "Mapa:"
 
 #: /Language/Interface/Record[Key='PressEnterToContinue']
 msgctxt "Interface.PressEnterToContinue"
@@ -2596,10 +2596,10 @@ msgctxt "Interface.DawnTemperatureField"
 msgid "Dawn Temperature"
 msgstr "Temperatura al amanecer"
 
-#: /Language/Interface/Record[Key='SolarScaleField']
-msgctxt "Interface.SolarScaleField"
-msgid "Solar Intensity Scale"
-msgstr "Escala de intensidad solar"
+#: /Language/Interface/Record[Key='HasLODField']
+msgctxt "Interface.HasLODField"
+msgid "Has LOD"
+msgstr "Tiene LOD"
 
 #: /Language/Interface/Record[Key='AlertYourSaveFileIsBroken']
 msgctxt "Interface.AlertYourSaveFileIsBroken"
@@ -4034,15 +4034,15 @@ msgctxt "Interface.MainMenuScenarios"
 msgid "Scenarios"
 msgstr "Escenarios"
 
+#: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
+msgctxt "Interface.WorldInfoTextAsteroids"
+msgid "Asteroids:"
+msgstr "Asteroides:"
+
 #: /Language/Interface/Record[Key='GameMenuRespawn']
 msgctxt "Interface.GameMenuRespawn"
 msgid "Respawn"
 msgstr "Reaparecer"
-
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "Cargar Mundo"
 
 #: /Language/Interface/Record[Key='SomethingWentWrongTrading2']
 msgctxt "Interface.SomethingWentWrongTrading2"
@@ -4252,15 +4252,15 @@ msgctxt "Interface.JoinWorldSortBy"
 msgid "Sort by"
 msgstr "Ordenar por"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger Rate"
-msgstr "Grado de Hambre"
-
 #: /Language/Interface/Record[Key='SettingsTitleGameSettings']
 msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Configuración de Juego"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Condición de inicio de partida"
 
 #: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
 msgctxt "Interface.AppearanceTitleFacialHairStyle"
@@ -4456,10 +4456,10 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Dirección IP no válida {0} \\nVerificar dirección IP o una URL válida"
 
-#: /Language/Interface/Record[Key='HasLODField']
-msgctxt "Interface.HasLODField"
-msgid "Has LOD"
-msgstr "Tiene LOD"
+#: /Language/Interface/Record[Key='DifficultyField']
+msgctxt "Interface.DifficultyField"
+msgid "Difficulty"
+msgstr "Dificultad"
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
