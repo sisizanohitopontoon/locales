@@ -7,11 +7,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='PersonalSuits']
-#, fuzzy
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "太空裝"
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PersonalClothing']
 msgctxt "Interface.PersonalClothing"
@@ -43,9 +42,9 @@ msgctxt "Interface.CartridgeCategory"
 msgid "Cartridges"
 msgstr ""
 
-#: /Language/Interface/Record[Key='BatteryCategory']
-msgctxt "Interface.BatteryCategory"
-msgid "Power Storage"
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Tables and Chairs"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PersonalHelmets']
@@ -1134,25 +1133,26 @@ msgctxt "Interface.CableCategory"
 msgid "Cables and Analyzers"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "Port 數值必須在 0 到 65535 之間."
+#: /Language/Interface/Record[Key='BatteryCategory']
+msgctxt "Interface.BatteryCategory"
+msgid "Power Storage"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PersonalSuits']
+#, fuzzy
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "太空裝"
+
+#: /Language/Interface/Record[Key='AlertWrongPassword']
+msgctxt "Interface.AlertWrongPassword"
+msgid "Server Password Incorrect."
+msgstr "伺服器密碼不正確"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "繼續"
-
-#: /Language/Interface/Record[Key='KitCategory']
-msgctxt "Interface.KitCategory"
-msgid "Construction Kits"
-msgstr ""
-
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
-msgstr ""
 
 #: /Language/Interface/Record[Key='PressEnterToContinue']
 msgctxt "Interface.PressEnterToContinue"
@@ -4311,15 +4311,15 @@ msgctxt "Interface.WorkshopPageButton"
 msgid "Workshop Page"
 msgstr "工作坊頁面"
 
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Tables and Chairs"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "已訂閱模組"
+
+#: /Language/Interface/Record[Key='KitCategory']
+msgctxt "Interface.KitCategory"
+msgid "Construction Kits"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinWorldEmptyServers']
 msgctxt "Interface.JoinWorldEmptyServers"
@@ -4516,10 +4516,10 @@ msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "當伺服器運行時無法修改 Update Port."
 
-#: /Language/Interface/Record[Key='AlertWrongPassword']
-msgctxt "Interface.AlertWrongPassword"
-msgid "Server Password Incorrect."
-msgstr "伺服器密碼不正確"
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "Port 數值必須在 0 到 65535 之間."
 
 #: /Language/Interface/Record[Key='AlertKicked']
 msgctxt "Interface.AlertKicked"

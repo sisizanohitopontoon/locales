@@ -10,11 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PersonalSuits']
-#, fuzzy
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "Costum"
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PersonalClothing']
 msgctxt "Interface.PersonalClothing"
@@ -46,9 +45,9 @@ msgctxt "Interface.CartridgeCategory"
 msgid "Cartridges"
 msgstr ""
 
-#: /Language/Interface/Record[Key='BatteryCategory']
-msgctxt "Interface.BatteryCategory"
-msgid "Power Storage"
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Tables and Chairs"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PersonalHelmets']
@@ -1113,24 +1112,25 @@ msgctxt "Interface.CableCategory"
 msgid "Cables and Analyzers"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
+#: /Language/Interface/Record[Key='BatteryCategory']
+msgctxt "Interface.BatteryCategory"
+msgid "Power Storage"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PersonalSuits']
+#, fuzzy
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "Costum"
+
+#: /Language/Interface/Record[Key='AlertWrongPassword']
+msgctxt "Interface.AlertWrongPassword"
+msgid "Server Password Incorrect."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
-msgstr ""
-
-#: /Language/Interface/Record[Key='KitCategory']
-msgctxt "Interface.KitCategory"
-msgid "Construction Kits"
-msgstr ""
-
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PressEnterToContinue']
@@ -4218,14 +4218,14 @@ msgctxt "Interface.WorkshopPageButton"
 msgid "Workshop Page"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Tables and Chairs"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
+msgstr ""
+
+#: /Language/Interface/Record[Key='KitCategory']
+msgctxt "Interface.KitCategory"
+msgid "Construction Kits"
 msgstr ""
 
 #: /Language/Interface/Record[Key='JoinWorldEmptyServers']
@@ -4423,9 +4423,9 @@ msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertWrongPassword']
-msgctxt "Interface.AlertWrongPassword"
-msgid "Server Password Incorrect."
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
 msgstr ""
 
 #: /Language/Interface/Record[Key='AlertKicked']

@@ -10,11 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='PersonalSuits']
-#, fuzzy
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "スーツ"
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PersonalClothing']
 msgctxt "Interface.PersonalClothing"
@@ -46,9 +45,9 @@ msgctxt "Interface.CartridgeCategory"
 msgid "Cartridges"
 msgstr ""
 
-#: /Language/Interface/Record[Key='BatteryCategory']
-msgctxt "Interface.BatteryCategory"
-msgid "Power Storage"
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Tables and Chairs"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PersonalHelmets']
@@ -1130,26 +1129,26 @@ msgctxt "Interface.CableCategory"
 msgid "Cables and Analyzers"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "ポート番号は0から65535の範囲です。"
+#: /Language/Interface/Record[Key='BatteryCategory']
+msgctxt "Interface.BatteryCategory"
+msgid "Power Storage"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PersonalSuits']
+#, fuzzy
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "スーツ"
+
+#: /Language/Interface/Record[Key='AlertWrongPassword']
+msgctxt "Interface.AlertWrongPassword"
+msgid "Server Password Incorrect."
+msgstr "サーバーパスワードが間違っています。"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
-
-#: /Language/Interface/Record[Key='KitCategory']
-#, fuzzy
-msgctxt "Interface.KitCategory"
-msgid "Construction Kits"
-msgstr "建造物"
-
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
-msgstr ""
 
 #: /Language/Interface/Record[Key='PressEnterToContinue']
 msgctxt "Interface.PressEnterToContinue"
@@ -4230,15 +4229,16 @@ msgctxt "Interface.WorkshopPageButton"
 msgid "Workshop Page"
 msgstr "ワークショップページ"
 
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Tables and Chairs"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "サブスクライブしたMod"
+
+#: /Language/Interface/Record[Key='KitCategory']
+#, fuzzy
+msgctxt "Interface.KitCategory"
+msgid "Construction Kits"
+msgstr "建造物"
 
 #: /Language/Interface/Record[Key='JoinWorldEmptyServers']
 msgctxt "Interface.JoinWorldEmptyServers"
@@ -4435,10 +4435,10 @@ msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "サーバー稼働中はポートを変更出来ません。"
 
-#: /Language/Interface/Record[Key='AlertWrongPassword']
-msgctxt "Interface.AlertWrongPassword"
-msgid "Server Password Incorrect."
-msgstr "サーバーパスワードが間違っています。"
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "ポート番号は0から65535の範囲です。"
 
 #: /Language/Interface/Record[Key='AlertKicked']
 msgctxt "Interface.AlertKicked"

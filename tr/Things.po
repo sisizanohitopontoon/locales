@@ -2260,15 +2260,15 @@ msgctxt "Things.ItemVolatiles"
 msgid "Ice (Volatiles)"
 msgstr "Buz (Uçucu Madde)"
 
-#: /Language/Things/RecordThing[Key='StructureWallArchCornerSquare']
-msgctxt "Things.StructureWallArchCornerSquare"
-msgid "Wall (Arch Corner Square)"
-msgstr "Duvar (Kavisli Köşe Kare)"
-
 #: /Language/Things/RecordThing[Key='StructureElectronicsPrinter']
 msgctxt "Things.StructureElectronicsPrinter"
 msgid "Electronics Printer"
 msgstr "Elektronik Yazıcı"
+
+#: /Language/Things/RecordThing[Key='StructureWallArchCornerSquare']
+msgctxt "Things.StructureWallArchCornerSquare"
+msgid "Wall (Arch Corner Square)"
+msgstr "Duvar (Kavisli Köşe Kare)"
 
 #: /Language/Things/RecordThing[Key='ItemCerealBar']
 msgctxt "Things.ItemCerealBar"
@@ -4118,7 +4118,7 @@ msgstr "Alaşım Zemin Izgarası"
 
 #: /Language/Things/RecordThing[Key='ItemCoalOre']
 msgctxt "Things.ItemCoalOre"
-msgid "Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:DynamicGenerator} or {THING:StructureSolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create <color=#0080FFFF>{LINK:AlloysPage;alloys}</color>, or use it in the {THING:ApplianceReagentProcessor} to make  {THING:ItemSprayCanBlack}. Just don't smear it on your face and do jazz hands. That's not cool."
+msgid "Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:StructureSolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create <color=#0080FFFF>{LINK:AlloysPage;alloys}</color>, or use it in the {THING:ApplianceReagentProcessor} to make  {THING:ItemSprayCanBlack}. Just don't smear it on your face and do jazz hands. That's not cool."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemCoalOre']
@@ -4146,15 +4146,15 @@ msgctxt "Things.ItemChemLightWhite"
 msgid "Chem Light (White)"
 msgstr "Kimyasal Işık (Beyaz)"
 
+#: /Language/Things/RecordThing[Key='ItemChemLightRed']
+msgctxt "Things.ItemChemLightRed"
+msgid "A red glowstick. Snap to activate. Then reach for the lasers."
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='StructureWallArchCornerTriangle']
 msgctxt "Things.StructureWallArchCornerTriangle"
 msgid "Wall (Arch Corner Triangle)"
 msgstr "Duvar (Kavisli Köşe Üçgen)"
-
-#: /Language/Things/RecordThing[Key='ItemChemLightRed']
-msgctxt "Things.ItemChemLightRed"
-msgid "Chem Light (Red)"
-msgstr "Kimyasal Işık (Kırmızı)"
 
 #: /Language/Things/RecordThing[Key='ItemChemLightGreen']
 msgctxt "Things.ItemChemLightGreen"
@@ -5190,6 +5190,12 @@ msgctxt "Things.ApplianceReagentProcessor"
 msgid "Reagent Processor"
 msgstr "Reaktif İşleyici"
 
+#: /Language/Things/RecordThing[Key='StructureEmergencyButton']
+#, fuzzy
+msgctxt "Things.StructureEmergencyButton"
+msgid "Emergency Button"
+msgstr "Acil Durum Eva Kıyafeti"
+
 #: /Language/Things/RecordThing[Key='ApplianceMicrowave']
 msgctxt "Things.ApplianceMicrowave"
 msgid "While countless 'better' ways of cooking <color=#0080FFFF>{LINK:FoodPage;Food}</color> have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from Xigo, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. Just bolt it to a bench, and you're cooking."
@@ -5546,7 +5552,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitFurnitureBeds"
 msgid "Kit (Bed)"
-msgstr "Donanım (Fener)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitFurnitureBeds']
 msgctxt "Things.ItemKitFurnitureBeds"
@@ -5617,7 +5623,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitAirlockGate"
 msgid "Kit (Airlock Gate)"
-msgstr "Donanım (Hava Kilidi)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitAirlockGate']
 msgctxt "Things.ItemKitAirlockGate"
@@ -5628,7 +5634,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureAirlockGate"
 msgid "Airlock Gate"
-msgstr "Hava Kilidi"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureAirlockGate']
 msgctxt "Things.StructureAirlockGate"
@@ -5639,7 +5645,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureBatteryLarge"
 msgid "Battery Large"
-msgstr "Pil Hücresi (Büyük)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureBatteryLarge']
 msgctxt "Things.StructureBatteryLarge"
@@ -5650,7 +5656,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitBatteryLarge"
 msgid "Kit (Battery Large)"
-msgstr "Donanım (Pil Şarj Cihazı)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitBatteryLarge']
 msgctxt "Things.ItemKitBatteryLarge"
@@ -5659,13 +5665,8 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemChemLightRed']
 msgctxt "Things.ItemChemLightRed"
-msgid "A red glowstick. Snap to activate. Then reach for the lasers."
-msgstr ""
-
-#, fuzzy
-#~ msgctxt "Things.StructureEmergencyButton"
-#~ msgid "Emergency Button"
-#~ msgstr "Acil Durum Eva Kıyafeti"
+msgid "Chem Light (Red)"
+msgstr "Kimyasal Işık (Kırmızı)"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "
