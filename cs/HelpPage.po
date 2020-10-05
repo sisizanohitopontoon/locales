@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-05 07:34+0000\n"
+"PO-Revision-Date: 2020-10-05 07:40+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -370,7 +370,6 @@ msgid "Ingots"
 msgstr "Ingoty"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
-#, fuzzy
 msgctxt "HelpPage.IngotPage"
 msgid ""
 "These are Items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.\n"
@@ -386,8 +385,14 @@ msgid ""
 "      "
 msgstr ""
 "Jedná se o položky, které jsou obvykle vyrobeny z {LINK:SmeltingPage;tavení} {LINK:OrePage;rud}.\n"
-"      \n"
+"           \n"
 "{HEADER:Seznam ingotů}\n"
+"{LIST_OF_INGOTS}\n"
+"\n"
+"{HEADER:Seznam slitin}\n"
+"{LIST_OF_INGOTS}\n"
+"\n"
+"{HEADER:Seznam super slitin}\n"
 "{LIST_OF_INGOTS}\n"
 "      "
 
@@ -684,14 +689,13 @@ msgid "{0}"
 msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='IceMeltingTemplate']
-#, fuzzy
 msgctxt "HelpPage.IceMeltingTemplate"
 msgid ""
 "Melt Temperature {1}\n"
 "Melt Pressure {0}"
 msgstr ""
-"Teplota tání {POS:300}{1}\n"
-"Tlak tání {POS:300}{0}"
+"Teplota tání {1}\n"
+"Tlak tání {0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorsHeaderTemplate']
 msgctxt "HelpPage.CreatorsHeaderTemplate"
@@ -750,10 +754,9 @@ msgstr ""
 "      "
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorTemplate']
-#, fuzzy
 msgctxt "HelpPage.CreatorTemplate"
 msgid "{LIST}{0}{1}{/LIST}{/LIST}"
-msgstr "{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}"
+msgstr "{LIST}{0}{1}{/LIST}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeHeaderTemplate']
 msgctxt "HelpPage.LogicTypeHeaderTemplate"
@@ -789,10 +792,9 @@ msgstr ""
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringItemTemplate']
-#, fuzzy
 msgctxt "HelpPage.ModeStringItemTemplate"
 msgid "{0}.{1}"
-msgstr "{0}.{POS:100}{1}"
+msgstr "{0}.{1}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPageTemplate']
 #, fuzzy
@@ -835,10 +837,9 @@ msgstr ""
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageFlamableTemplate']
-#, fuzzy
 msgctxt "HelpPage.GasPageFlamableTemplate"
 msgid "Flamable Limit {0} to {1}"
-msgstr "Hořlavý limit {POS:300}{0} až {1}"
+msgstr "Limit hořlavosti {0} až {1}"
 
 #~ msgctxt "HelpPage.Home"
 #~ msgid ""
