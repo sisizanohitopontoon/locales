@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-11 16:33+0000\n"
+"PO-Revision-Date: 2020-10-11 16:38+0000\n"
 "Last-Translator: EmreAdv <emrecabi85@gmail.com>\n"
 "Language: tr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -354,7 +354,6 @@ msgid "Ingots"
 msgstr "Külçeler"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
-#, fuzzy
 msgctxt "HelpPage.IngotPage"
 msgid ""
 "These are Items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.\n"
@@ -369,11 +368,13 @@ msgid ""
 "{LIST_OF_INGOTS}\n"
 "      "
 msgstr ""
-"Bunlar, tipik olarak {LINK:OrePage;Cevherler}i {LINK:SmeltingPage;Eritme} ile üretilen Öğelerdir.\n"
+"Bunlar, tipik olarak {LINK:OrePage;cevher} {LINK:SmeltingPage;eritilerek} üretilen Öğelerdir.\n"
 "      \n"
 "{HEADER:Külçelerin Listesi}\n"
 "{LIST_OF_INGOTS}\n"
-"      "
+"\n"
+"{HEADER:Alaşımların Listesi}\n"
+"{LIST_OF_INGOTS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
 msgctxt "HelpPage.ToolPage"
@@ -605,10 +606,9 @@ msgid "{HEADER:Slots}{LIST}{0}{/LIST}"
 msgstr "{HEADER:Yuvalar}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotItemTemplate']
-#, fuzzy
 msgctxt "HelpPage.ThingSlotItemTemplate"
 msgid "{0}. {1} Type {2}"
-msgstr "{0}. {POS:100}{1} {POS:300}Tür {2}"
+msgstr "{0}. {1} Tip {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingStackTemplate']
 msgctxt "HelpPage.ThingStackTemplate"
@@ -691,10 +691,9 @@ msgstr ""
 "      "
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorTemplate']
-#, fuzzy
 msgctxt "HelpPage.CreatorTemplate"
 msgid "{LIST}{0}{1}{/LIST}{/LIST}"
-msgstr "{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}"
+msgstr "{LIST}{0}{1}{/LIST}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeHeaderTemplate']
 msgctxt "HelpPage.LogicTypeHeaderTemplate"
