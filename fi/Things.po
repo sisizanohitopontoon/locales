@@ -2417,6 +2417,12 @@ msgctxt "Things.ItemGasTankStorage"
 msgid "This kit produces a {THING:ItemGasTankStorage} for refilling a {THING:ItemGasCanisterEmpty}."
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='StructureFrameCornerCut']
+#, fuzzy
+msgctxt "Things.StructureFrameCornerCut"
+msgid "Steel Frame (Corner Cut)"
+msgstr "Runko (viistottu kulma)"
+
 #: /Language/Things/RecordThing[Key='ItemGasTankStorage']
 msgctxt "Things.ItemGasTankStorage"
 msgid "Kit (Canister Storage)"
@@ -2426,12 +2432,6 @@ msgstr "Varustepakkaus (kaasusäiliön teline)"
 msgctxt "Things.ItemGasFilterWater"
 msgid "Sinotai filters are used to capture various gases, which can be disposed of, or used elsewhere. Water can be collected by filtering smelted <color=#0080FFFF>{LINK:OrePage;ice (water)}</color>"
 msgstr ""
-
-#: /Language/Things/RecordThing[Key='StructureFrameCornerCut']
-#, fuzzy
-msgctxt "Things.StructureFrameCornerCut"
-msgid "Steel Frame (Corner Cut)"
-msgstr "Runko (viistottu kulma)"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterWater']
 msgctxt "Things.ItemGasFilterWater"
@@ -2699,16 +2699,16 @@ msgctxt "Things.ItemCoalOre"
 msgid "Ore (Coal)"
 msgstr "Malmi (kivihiili)"
 
-#: /Language/Things/RecordThing[Key='ItemChemLightYellow']
-msgctxt "Things.ItemChemLightYellow"
-msgid "Dispel the darkness with this yellow glowstick."
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='CompositeWallPanelling1']
 #, fuzzy
 msgctxt "Things.CompositeWallPanelling1"
 msgid "Composite Wall Panelling"
 msgstr "Komposiittiseinäpaneeli 1"
+
+#: /Language/Things/RecordThing[Key='ItemChemLightYellow']
+msgctxt "Things.ItemChemLightYellow"
+msgid "Chem Light (Yellow)"
+msgstr "Kemiallinen valo (keltainen)"
 
 #: /Language/Things/RecordThing[Key='ItemChemLightWhite']
 msgctxt "Things.ItemChemLightWhite"
@@ -3776,7 +3776,6 @@ msgid "Reagent Processor"
 msgstr "Reagenssiprosessori"
 
 #: /Language/Things/RecordThing[Key='StructureEmergencyButton']
-#, fuzzy
 msgctxt "Things.StructureEmergencyButton"
 msgid "Emergency Button"
 msgstr ""
@@ -3835,8 +3834,8 @@ msgstr "Komposiittiseinäpaneeli 8"
 
 #: /Language/Things/RecordThing[Key='ItemChemLightYellow']
 msgctxt "Things.ItemChemLightYellow"
-msgid "Chem Light (Yellow)"
-msgstr "Kemiallinen valo (keltainen)"
+msgid "Dispel the darkness with this yellow glowstick."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='CompositeWallPanelling9']
 #, fuzzy
@@ -4951,6 +4950,18 @@ msgctxt "Things.ItemAstroloyIngot"
 msgid "Ingot (Astroloy)"
 msgstr "Harkko (rauta)"
 
+#: /Language/Things/RecordThing[Key='ItemCobaltOre']
+#, fuzzy
+msgctxt "Things.ItemCobaltOre"
+msgid "Ore (Cobalt)"
+msgstr "Malmi (kivihiili)"
+
+#: /Language/Things/RecordThing[Key='ItemCobaltIngot']
+#, fuzzy
+msgctxt "Things.ItemCobaltIngot"
+msgid "Ingot (Cobalt)"
+msgstr "Harkko (kulta)"
+
 #: /Language/Things/RecordThing[Key='ItemKitBatteryLarge']
 msgctxt "Things.ItemKitBatteryLarge"
 msgid "This is the default thing page."
@@ -5973,18 +5984,6 @@ msgstr "Komposiittipäällyste (pyöristetty, kulma)"
 msgctxt "Things.ReagentCobalt"
 msgid "Cobalt Powder"
 msgstr "Kultajauhe"
-
-#: /Language/Things/RecordThing[Key='ItemCobaltIngot']
-#, fuzzy
-msgctxt "Things.ItemCobaltIngot"
-msgid "Ingot (Cobalt)"
-msgstr "Harkko (kulta)"
-
-#: /Language/Things/RecordThing[Key='ItemCobaltOre']
-#, fuzzy
-msgctxt "Things.ItemCobaltOre"
-msgid "Ore (Cobalt)"
-msgstr "Malmi (kivihiili)"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "

@@ -10,9 +10,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='BluePodType']
-msgctxt "Interface.BluePodType"
-msgid "Blue"
+#: /Language/Interface/Record[Key='ScriptCommandCommand']
+msgctxt "Interface.ScriptCommandCommand"
+msgid "command"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandBnaal']
@@ -459,6 +459,16 @@ msgstr "Resetuj"
 msgctxt "Interface.ResearchFilter"
 msgid "Filter"
 msgstr "Filtry"
+
+#: /Language/Interface/Record[Key='MineablesInQueue']
+msgctxt "Interface.MineablesInQueue"
+msgid "Returns the amount of mineables AIMEe has queued up to mine."
+msgstr ""
+
+#: /Language/Interface/Record[Key='MineablesInVicinity']
+msgctxt "Interface.MineablesInVicinity"
+msgid "Returns the amount of potential mineables within an extended area around AIMEe."
+msgstr ""
 
 #: /Language/Interface/Record[Key='CurrentResearchPodType']
 #, fuzzy
@@ -2885,15 +2895,15 @@ msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
 msgstr "Give Up"
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "Odrodzenie"
-
 #: /Language/Interface/Record[Key='PromptRespawnBody']
 msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
 msgstr "Jestes martwy"
+
+#: /Language/Interface/Record[Key='PromptRespawnTitle']
+msgctxt "Interface.PromptRespawnTitle"
+msgid "Respawn"
+msgstr "Odrodzenie"
 
 #: /Language/Interface/Record[Key='PromptDebugLoadConfirm']
 msgctxt "Interface.PromptDebugLoadConfirm"
@@ -4015,14 +4025,14 @@ msgctxt "Interface.AirContitioningAtmos"
 msgid "Air Conditioning"
 msgstr "Stan poczatkowy"
 
-#: /Language/Interface/Record[Key='Edibles']
-msgctxt "Interface.Edibles"
-msgid "Edibles"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ScriptCommandBltzal']
 msgctxt "Interface.ScriptCommandBltzal"
 msgid "Branch to line b if a < 0 and store next line number in ra"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Fabricators']
+msgctxt "Interface.Fabricators"
+msgid "Fabricators"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ApplianceCategory']
@@ -4351,9 +4361,9 @@ msgctxt "Interface.ScriptCommandATan"
 msgid "Returns the angle whos tan is the specified value"
 msgstr "zwraca stan zdrowia rośliny w slocie"
 
-#: /Language/Interface/Record[Key='ScriptCommandCommand']
-msgctxt "Interface.ScriptCommandCommand"
-msgid "command"
+#: /Language/Interface/Record[Key='BluePodType']
+msgctxt "Interface.BluePodType"
+msgid "Blue"
 msgstr ""
 
 #: /Language/Interface/Record[Key='RedPodType']
@@ -4635,15 +4645,15 @@ msgctxt "Interface.PlantNoSunlight"
 msgid "The {0} does not have the required {1}sunlight{2}"
 msgstr ""
 
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "Odrodzenie"
+
 #: /Language/Interface/Record[Key='PlantToxic']
 msgctxt "Interface.PlantToxic"
 msgid "The {0} is being damaged due to high {1}pollutant{2} in the atmosphere"
 msgstr ""
-
-#: /Language/Interface/Record[Key='PromptRespawnTitle']
-msgctxt "Interface.PromptRespawnTitle"
-msgid "Respawn"
-msgstr "Odrodzenie"
 
 #: /Language/Interface/Record[Key='holdhotkey']
 msgctxt "Interface.holdhotkey"
@@ -4728,9 +4738,9 @@ msgctxt "Interface.PressEnterToContinue"
 msgid "Press <color=#FBB03B>Space</color> to Continue"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Fabricators']
-msgctxt "Interface.Fabricators"
-msgid "Fabricators"
+#: /Language/Interface/Record[Key='Edibles']
+msgctxt "Interface.Edibles"
+msgid "Edibles"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TravelMenuListTitle']
