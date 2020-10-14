@@ -10,9 +10,29 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='ScriptCommandCommand']
-msgctxt "Interface.ScriptCommandCommand"
-msgid "command"
+#: /Language/Interface/Record[Key='YellowPodType']
+msgctxt "Interface.YellowPodType"
+msgid "Yellow"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandBgtzal']
+msgctxt "Interface.ScriptCommandBgtzal"
+msgid "Branch to line b if a > 0 and store next line number in ra"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandBlezal']
+msgctxt "Interface.ScriptCommandBlezal"
+msgid "Branch to line b if a <= 0 and store next line number in ra"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandBgezal']
+msgctxt "Interface.ScriptCommandBgezal"
+msgid "Branch to line b if a >= 0 and store next line number in ra"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandBltzal']
+msgctxt "Interface.ScriptCommandBltzal"
+msgid "Branch to line b if a < 0 and store next line number in ra"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandBnaal']
@@ -1116,15 +1136,15 @@ msgctxt "Interface.TravelMenuButtonTravel"
 msgid "Travel World"
 msgstr "トラベルワールド"
 
+#: /Language/Interface/Record[Key='TravelMenuListTitle']
+msgctxt "Interface.TravelMenuListTitle"
+msgid "Available Worlds"
+msgstr "利用可能なワールド"
+
 #: /Language/Interface/Record[Key='TravelMenuTitle']
 msgctxt "Interface.TravelMenuTitle"
 msgid "Travel World"
 msgstr "トラベルワールド"
-
-#: /Language/Interface/Record[Key='TierTwo']
-msgctxt "Interface.TierTwo"
-msgid "Tier Two"
-msgstr ""
 
 #: /Language/Interface/Record[Key='TierOne']
 msgctxt "Interface.TierOne"
@@ -2848,6 +2868,11 @@ msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
 msgstr "ギブアップ"
 
+#: /Language/Interface/Record[Key='PromptRespawnConfirm']
+msgctxt "Interface.PromptRespawnConfirm"
+msgid "Respawn"
+msgstr "リスポーン"
+
 #: /Language/Interface/Record[Key='PromptRespawnBody']
 msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
@@ -2867,11 +2892,6 @@ msgstr "デバッグロード"
 msgctxt "Interface.PromptDebugLoadBody"
 msgid "Are you sure you want to load this world with only one character?"
 msgstr "キャラクター1人用でワールドをロードしますか？"
-
-#: /Language/Interface/Record[Key='PromptDebugLoadTitle']
-msgctxt "Interface.PromptDebugLoadTitle"
-msgid "Debug Load"
-msgstr "デバッグロード"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -3974,9 +3994,9 @@ msgctxt "Interface.AirContitioningAtmos"
 msgid "Air Conditioning"
 msgstr "開始状態"
 
-#: /Language/Interface/Record[Key='ScriptCommandBltzal']
-msgctxt "Interface.ScriptCommandBltzal"
-msgid "Branch to line b if a < 0 and store next line number in ra"
+#: /Language/Interface/Record[Key='ScriptCommandBeqzal']
+msgctxt "Interface.ScriptCommandBeqzal"
+msgid "Branch to line b if a == 0 and store next line number in ra"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Fabricators']
@@ -4149,26 +4169,6 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ScriptCommandBgezal']
-msgctxt "Interface.ScriptCommandBgezal"
-msgid "Branch to line b if a >= 0 and store next line number in ra"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ScriptCommandBlezal']
-msgctxt "Interface.ScriptCommandBlezal"
-msgid "Branch to line b if a <= 0 and store next line number in ra"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ScriptCommandBgtzal']
-msgctxt "Interface.ScriptCommandBgtzal"
-msgid "Branch to line b if a > 0 and store next line number in ra"
-msgstr ""
-
-#: /Language/Interface/Record[Key='ScriptCommandBeqzal']
-msgctxt "Interface.ScriptCommandBeqzal"
-msgid "Branch to line b if a == 0 and store next line number in ra"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ScriptCommandBnezal']
 msgctxt "Interface.ScriptCommandBnezal"
 msgid "Branch to line b if a != 0 and store next line number in ra"
@@ -4309,6 +4309,11 @@ msgctxt "Interface.ScriptCommandATan"
 msgid "Returns the angle whos tan is the specified value"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ScriptCommandCommand']
+msgctxt "Interface.ScriptCommandCommand"
+msgid "command"
+msgstr ""
+
 #: /Language/Interface/Record[Key='BluePodType']
 msgctxt "Interface.BluePodType"
 msgid "Blue"
@@ -4322,11 +4327,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='GreenPodType']
 msgctxt "Interface.GreenPodType"
 msgid "Green"
-msgstr ""
-
-#: /Language/Interface/Record[Key='YellowPodType']
-msgctxt "Interface.YellowPodType"
-msgid "Yellow"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsResearch']
@@ -4579,11 +4579,6 @@ msgctxt "Interface.PlantNoSunlight"
 msgid "The {0} does not have the required {1}sunlight{2}"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PromptRespawnConfirm']
-msgctxt "Interface.PromptRespawnConfirm"
-msgid "Respawn"
-msgstr "リスポーン"
-
 #: /Language/Interface/Record[Key='PlantToxic']
 msgctxt "Interface.PlantToxic"
 msgid "The {0} is being damaged due to high {1}pollutant{2} in the atmosphere"
@@ -4645,6 +4640,11 @@ msgctxt "Interface.SettingsServerAdminPassword"
 msgid "Server Admin Password"
 msgstr "サーバーパスワードが間違っています。"
 
+#: /Language/Interface/Record[Key='PromptDebugLoadTitle']
+msgctxt "Interface.PromptDebugLoadTitle"
+msgid "Debug Load"
+msgstr "デバッグロード"
+
 #: /Language/Interface/Record[Key='ScoreboardPlayer']
 #, fuzzy
 msgctxt "Interface.ScoreboardPlayer"
@@ -4672,15 +4672,36 @@ msgctxt "Interface.PressEnterToContinue"
 msgid "Press <color=#FBB03B>Space</color> to Continue"
 msgstr ""
 
+#: /Language/Interface/Record[Key='TutorialCompleteDateOfCompletion']
+msgctxt "Interface.TutorialCompleteDateOfCompletion"
+msgid "Date of Completion:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TutorialCompleteDeanHall']
+msgctxt "Interface.TutorialCompleteDeanHall"
+msgid "Deal Hall"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TutorialCompleteTruly']
+msgctxt "Interface.TutorialCompleteTruly"
+msgid "Your Dearest Friend"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TutorialCompleteNextTutorial']
+#, fuzzy
+msgctxt "Interface.TutorialCompleteNextTutorial"
+msgid "Next Tutorial"
+msgstr "チュートリアル"
+
 #: /Language/Interface/Record[Key='Edibles']
 msgctxt "Interface.Edibles"
 msgid "Edibles"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TravelMenuListTitle']
-msgctxt "Interface.TravelMenuListTitle"
-msgid "Available Worlds"
-msgstr "利用可能なワールド"
+#: /Language/Interface/Record[Key='TierTwo']
+msgctxt "Interface.TierTwo"
+msgid "Tier Two"
+msgstr ""
 
 #~ msgctxt "Interface.FurnaceChamberText"
 #~ msgid ""
@@ -4693,10 +4714,6 @@ msgstr "利用可能なワールド"
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"
 #~ msgstr "メニューに戻る"
-
-#~ msgctxt "Interface.MainMenuTutorial"
-#~ msgid "Tutorial"
-#~ msgstr "チュートリアル"
 
 #~ msgctxt "Interface.TutorialStartButton"
 #~ msgid "Begin"
