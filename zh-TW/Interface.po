@@ -7,9 +7,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='YellowPodType']
-msgctxt "Interface.YellowPodType"
-msgid "Yellow"
+#: /Language/Interface/Record[Key='SettingsResearch']
+msgctxt "Interface.SettingsResearch"
+msgid "Research Pool Selection"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandBeqzal']
+msgctxt "Interface.ScriptCommandBeqzal"
+msgid "Branch to line b if a == 0 and store next line number in ra"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandBgtzal']
@@ -1184,9 +1189,9 @@ msgctxt "Interface.TravelMenuTitle"
 msgid "Travel World"
 msgstr "儲存世界"
 
-#: /Language/Interface/Record[Key='TierOne']
-msgctxt "Interface.TierOne"
-msgid "Tier One"
+#: /Language/Interface/Record[Key='TierTwo']
+msgctxt "Interface.TierTwo"
+msgid "Tier Two"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TierThree']
@@ -2953,6 +2958,11 @@ msgctxt "Interface.PromptDebugLoadBody"
 msgid "Are you sure you want to load this world with only one character?"
 msgstr "你確定只用一個角色載入世界嗎?"
 
+#: /Language/Interface/Record[Key='PromptDebugLoadTitle']
+msgctxt "Interface.PromptDebugLoadTitle"
+msgid "Debug Load"
+msgstr "除錯載入"
+
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
 msgid "Delete"
@@ -2962,11 +2972,6 @@ msgstr "刪除"
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "您確定刪除存檔?"
-
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "刪除存檔"
 
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
@@ -4066,9 +4071,9 @@ msgctxt "Interface.AirContitioningAtmos"
 msgid "Air Conditioning"
 msgstr "開局狀態"
 
-#: /Language/Interface/Record[Key='ScriptCommandBeqzal']
-msgctxt "Interface.ScriptCommandBeqzal"
-msgid "Branch to line b if a == 0 and store next line number in ra"
+#: /Language/Interface/Record[Key='ScriptCommandBnezal']
+msgctxt "Interface.ScriptCommandBnezal"
+msgid "Branch to line b if a != 0 and store next line number in ra"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Fabricators']
@@ -4237,11 +4242,6 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ScriptCommandBnezal']
-msgctxt "Interface.ScriptCommandBnezal"
-msgid "Branch to line b if a != 0 and store next line number in ra"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ScriptCommandBapzal']
 msgctxt "Interface.ScriptCommandBapzal"
 msgid "Branch to line c if abs(a) <= float.epsilon * 8"
@@ -4397,9 +4397,9 @@ msgctxt "Interface.GreenPodType"
 msgid "Green"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsResearch']
-msgctxt "Interface.SettingsResearch"
-msgid "Research Pool Selection"
+#: /Language/Interface/Record[Key='YellowPodType']
+msgctxt "Interface.YellowPodType"
+msgid "Yellow"
 msgstr ""
 
 #: /Language/Interface/Record[Key='DialogConfirmResearchUnlock']
@@ -4720,11 +4720,6 @@ msgctxt "Interface.SettingsServerAdminPassword"
 msgid "Server Admin Password"
 msgstr "伺服器密碼不正確"
 
-#: /Language/Interface/Record[Key='PromptDebugLoadTitle']
-msgctxt "Interface.PromptDebugLoadTitle"
-msgid "Debug Load"
-msgstr "除錯載入"
-
 #: /Language/Interface/Record[Key='ScoreboardPlayer']
 #, fuzzy
 msgctxt "Interface.ScoreboardPlayer"
@@ -4752,6 +4747,11 @@ msgctxt "Interface.PressEnterToContinue"
 msgid "Press <color=#FBB03B>Space</color> to Continue"
 msgstr ""
 
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "刪除存檔"
+
 #: /Language/Interface/Record[Key='TutorialCompleteDateOfCompletion']
 msgctxt "Interface.TutorialCompleteDateOfCompletion"
 msgid "Date of Completion:"
@@ -4773,14 +4773,20 @@ msgctxt "Interface.TutorialCompleteNextTutorial"
 msgid "Next Tutorial"
 msgstr "新手教學<color=green> - 新!</color> "
 
+#: /Language/Interface/Record[Key='SettingsMineableRenderDistance']
+#, fuzzy
+msgctxt "Interface.SettingsMineableRenderDistance"
+msgid "Mineable Render Distance"
+msgstr "渲染塊距離"
+
 #: /Language/Interface/Record[Key='Edibles']
 msgctxt "Interface.Edibles"
 msgid "Edibles"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TierTwo']
-msgctxt "Interface.TierTwo"
-msgid "Tier Two"
+#: /Language/Interface/Record[Key='TierOne']
+msgctxt "Interface.TierOne"
+msgid "Tier One"
 msgstr ""
 
 #, fuzzy

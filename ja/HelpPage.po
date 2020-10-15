@@ -22,25 +22,13 @@ msgid ""
 "      "
 msgstr ""
 
-#: /Language/HelpPage/StationpediaPage[Key='GettingStarted']
-msgctxt "HelpPage.GettingStarted"
-msgid "Getting Started"
-msgstr "はじめに"
-
-#: /Language/HelpPage/StationpediaPage[Key='GettingStarted']
-msgctxt "HelpPage.GettingStarted"
-msgid ""
-"\n"
-"      "
+#: /Language/HelpPage/StationpediaPage[Key='Search']
+msgctxt "HelpPage.Search"
+msgid "Search"
 msgstr ""
 
-#: /Language/HelpPage/StationpediaPage[Key='InventoryPage']
-msgctxt "HelpPage.InventoryPage"
-msgid "Inventory"
-msgstr "インベントリ"
-
-#: /Language/HelpPage/StationpediaPage[Key='InventoryPage']
-msgctxt "HelpPage.InventoryPage"
+#: /Language/HelpPage/StationpediaPage[Key='Search']
+msgctxt "HelpPage.Search"
 msgid ""
 "\n"
 "      "
@@ -124,32 +112,6 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='FurniturePage']
 msgctxt "HelpPage.FurniturePage"
 msgid "{LIST_OF_FURNITURES}"
-msgstr ""
-
-#: /Language/HelpPage/StationpediaPage[Key='SlotLeftHand']
-msgctxt "HelpPage.SlotLeftHand"
-msgid "Hand Slots"
-msgstr "ハンドスロット"
-
-#: /Language/HelpPage/StationpediaPage[Key='SlotLeftHand']
-msgctxt "HelpPage.SlotLeftHand"
-msgid ""
-"Your hands are special slots. You have one active hand at any time, which is the hand that is currently used by your {COLORRED:Primary Action}. To swap the active hand, press {KEY:SwapHands}. You active hand can be interacted with by pressing {KEY:ActiveHandSlot} which will open and close the contents of your active hand. As always, you can use {KEY:MouseControl} to bring up the mouse and interact that way. For more information, see the {LINK:InventoryPage;Inventory} section.\n"
-"      "
-msgstr ""
-"あなたの手は特別なスロットです。アクティブな手は常に1つであり、その手は{COLORRED:Primary Action}で使用する手です。アクティブな手を入れ替えるには、{KEY:SwapHands}を押します。アクティブな手は{KEY:ActiveHandSlot}を押すことで操作でき、アクティブな手の持ったものを開いたり閉じたりすることができます。いつものように、{KEY:MouseControl}を使ってマウス操作をし、インタラクトすることもできます。詳細については、{LINK:InventoryPage;インベントリ} のセクションを参照してください。\n"
-"      "
-
-#: /Language/HelpPage/StationpediaPage[Key='SlotRightHand']
-msgctxt "HelpPage.SlotRightHand"
-msgid "Hand Slots"
-msgstr ""
-
-#: /Language/HelpPage/StationpediaPage[Key='SlotRightHand']
-msgctxt "HelpPage.SlotRightHand"
-msgid ""
-"Your hands are special slots. You have one active hand at any time, which is the hand that is currently used by your {COLORRED:Primary Action}. To swap the active hand, press {KEY:SwapHands}. You active hand can be interacted with by pressing {KEY:ActiveHandSlot} which will open and close the contents of your active hand. As always, you can use {KEY:MouseControl} to bring up the mouse and interact that way. For more information, see the {LINK:InventoryPage:Inventory} section.\n"
-"      "
 msgstr ""
 
 #: /Language/HelpPage/StationpediaPage[Key='FabricatorPage']
@@ -255,37 +217,6 @@ msgid ""
 "      "
 msgstr ""
 
-#: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
-msgctxt "HelpPage.AlloyPage"
-msgid "Alloys"
-msgstr ""
-
-#: /Language/HelpPage/StationpediaPage[Key='AlloyPage']
-msgctxt "HelpPage.AlloyPage"
-msgid ""
-"Created in the {THING:StructureFurnace} or {THING:StructureAdvancedFurnace} from specialist {LINK:ReagentPage;Reagent} mixtures, these are advanced {LINK:IngotPage;Ingots} for use in {LINK:FabricatorPage;Fabricators}. The {THING:StructureArcFurnace} is not able to smelt these.\n"
-"\n"
-"{HEADER:List of Alloys}\n"
-"{LIST_OF_ALLOYS}\n"
-"      "
-msgstr ""
-
-#: /Language/HelpPage/StationpediaPage[Key='SuperAlloyPage']
-msgctxt "HelpPage.SuperAlloyPage"
-msgid "Superalloys"
-msgstr ""
-
-#: /Language/HelpPage/StationpediaPage[Key='SuperAlloyPage']
-msgctxt "HelpPage.SuperAlloyPage"
-msgid ""
-"\n"
-"        Created in the {THING:StructureAdvancedFurnace} from specialist {LINK:ReagentPage;Reagent} mixtures, these are very advanced {LINK:IngotPage;Ingots} for use in {LINK:FabricatorPage;Fabricators}. The {THING:StructureArcFurnace} and {THING:StructureFurnace} are not able to smelt these.\n"
-"\n"
-"{HEADER:List of Superalloys}\n"
-"{LIST_OF_SUPER_ALLOYS}\n"
-"      "
-msgstr ""
-
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
 msgctxt "HelpPage.OrePage"
 msgid "Ores"
@@ -334,7 +265,6 @@ msgstr ""
 msgctxt "HelpPage.ToolPage"
 msgid ""
 "These are Items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.\n"
-"      \n"
 "{HEADER:List of Tools}\n"
 "{LIST_OF_TOOLS}\n"
 "      "
@@ -346,10 +276,10 @@ msgid "Resources"
 msgstr ""
 
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
+#, fuzzy
 msgctxt "HelpPage.ResourcePage"
 msgid ""
 "These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.\n"
-"      \n"
 "{HEADER:List of Resources}\n"
 "{LIST_OF_RESOURCES}\n"
 "      "
@@ -438,43 +368,6 @@ msgid ""
 "        {WORLD_HASHES}\n"
 "      {/LIST}\n"
 "      "
-msgstr ""
-
-#: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
-msgctxt "HelpPage.RocketShuttleModulesHelpPage"
-msgid "Rocket Shuttle Modules"
-msgstr ""
-
-#: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
-msgctxt "HelpPage.RocketShuttleModulesHelpPage"
-msgid ""
-"{HEADER:Modular Rocket Cargo}\n"
-"\n"
-"The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.\n"
-"\n"
-"{HEADER:Modular Rocket Command}\n"
-"\n"
-"The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.\n"
-"\n"
-"The following conditions must be met for launch:\n"
-"\n"
-"Fuel full\n"
-"Fuel mix ratio correct\n"
-"All players seated\n"
-"Power supplied to the launch pad\n"
-"Fully built rocket\n"
-"\n"
-"The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.\n"
-"\n"
-"{HEADER:Modular Rocket Engine}\n"
-"\n"
-"The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).\n"
-"\n"
-"{HEADER:Modular Rocket Fuel Tank}\n"
-"\n"
-"The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.\n"
-"\n"
-"          "
 msgstr ""
 
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttlePage']
@@ -657,6 +550,26 @@ msgstr ""
 msgctxt "HelpPage.GasPageFlamableTemplate"
 msgid "Flamable Limit {0} to {1}"
 msgstr ""
+
+#~ msgctxt "HelpPage.GettingStarted"
+#~ msgid "Getting Started"
+#~ msgstr "はじめに"
+
+#~ msgctxt "HelpPage.InventoryPage"
+#~ msgid "Inventory"
+#~ msgstr "インベントリ"
+
+#~ msgctxt "HelpPage.SlotLeftHand"
+#~ msgid "Hand Slots"
+#~ msgstr "ハンドスロット"
+
+#~ msgctxt "HelpPage.SlotLeftHand"
+#~ msgid ""
+#~ "Your hands are special slots. You have one active hand at any time, which is the hand that is currently used by your {COLORRED:Primary Action}. To swap the active hand, press {KEY:SwapHands}. You active hand can be interacted with by pressing {KEY:ActiveHandSlot} which will open and close the contents of your active hand. As always, you can use {KEY:MouseControl} to bring up the mouse and interact that way. For more information, see the {LINK:InventoryPage;Inventory} section.\n"
+#~ "      "
+#~ msgstr ""
+#~ "あなたの手は特別なスロットです。アクティブな手は常に1つであり、その手は{COLORRED:Primary Action}で使用する手です。アクティブな手を入れ替えるには、{KEY:SwapHands}を押します。アクティブな手は{KEY:ActiveHandSlot}を押すことで操作でき、アクティブな手の持ったものを開いたり閉じたりすることができます。いつものように、{KEY:MouseControl}を使ってマウス操作をし、インタラクトすることもできます。詳細については、{LINK:InventoryPage;インベントリ} のセクションを参照してください。\n"
+#~ "      "
 
 #, fuzzy
 #~ msgctxt "HelpPage.Home"
