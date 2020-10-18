@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-18 16:26+0000\n"
+"PO-Revision-Date: 2020-10-18 16:34+0000\n"
 "Last-Translator: brainkiller <dchambelant@gmail.com>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3432,6 +3432,10 @@ msgid ""
 "modes: Pressure, Draft and Offline. Pressure mode maintains a 100kPa atmosphere, switching the active vent between inward and outward flow until target pressure is achieved. Draft mode allows you to"
 " pair active vents to circulate air. Offline mode deactivates the vent. "
 msgstr ""
+"Lorsqu’il est installé dans une {THING:StructureConsole}, le circuit imprimé de contrôle de l’air vous permet de programmer une {THING:StructureActiveVent} et un {THING:StructureGasSensor}. Comme "
+"pour les petits chiens et 83% des personnes, les circuits de contrôle de l’air n’ont que trois modes : Pressure, Draught et Offline. Le mode Pressure maintient une atmosphère de 100 kPa, basculant "
+"la ventilation active entre le flux entrant et le flux sortant jusqu’à ce que la pression cible soit atteinte, puis s'arrête. Le mode Draught à la différence du mode Pressure, ne s'arrête pas "
+"lorsque la pression cible est atteinte. Il bascule continuellement la ventilation active entre les flux entrant et sortant pour faire circuler l’air. Le mode Offline désactive la ventilation active."
 
 #: /Language/Things/RecordThing[Key='CircuitboardAirControl']
 msgctxt "Things.CircuitboardAirControl"
