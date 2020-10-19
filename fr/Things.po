@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-19 14:54+0000\n"
+"PO-Revision-Date: 2020-10-19 15:05+0000\n"
 "Last-Translator: brainkiller <dchambelant@gmail.com>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3147,6 +3147,10 @@ msgid ""
 "reaches an internal pressure of 8106kPA, an error signal will flash on the switch, indicating it needs to be emptied. Either vent it directly, or attach it to a pipe network via a "
 "{THING:ItemTankConnector} and a {THING:ItemWrench}."
 msgstr ""
+"Un épurateur d'air portable fait exactement ça: enlever des substances spécifiques de l’air. Par exemple, l'insertion d’un {THING:ItemGasFilterCarbonDioxide} retirera le "
+"<color=#0080FFFF>{LINK:GasPage;CO2}</color=#0080FFFF> de l’atmosphère environnante. Notez que l’épurateur a de la place pour une batterie et deux filtres, ce qui doublera sa vitesse de "
+"fonctionnement. Lorsqu’il atteint une pression interne de 8106kPA, un signal d’erreur clignote sur l’interrupteur, indiquant qu’il doit être vidé. Soit vous le ventilez directement, ou vous "
+"l'attachez à un réseau de tuyaux via un {THING:ItemTankConnector} et une {THING:ItemWrench}."
 
 #: /Language/Things/RecordThing[Key='DynamicScrubber']
 msgctxt "Things.DynamicScrubber"
