@@ -6,9 +6,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='WorldPresetTitle']
-msgctxt "Interface.WorldPresetTitle"
-msgid "World Preset"
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SafetyCategory']
+msgctxt "Interface.SafetyCategory"
+msgid "Safety and Transport"
 msgstr ""
 
 #: /Language/Interface/Record[Key='OrganicsCategory']
@@ -116,9 +126,9 @@ msgctxt "Interface.AirContitioningAtmos"
 msgid "Air Conditioning"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SafetyCategory']
-msgctxt "Interface.SafetyCategory"
-msgid "Safety and Transport"
+#: /Language/Interface/Record[Key='AtmosDevices']
+msgctxt "Interface.AtmosDevices"
+msgid "Atmospheric Devices"
 msgstr ""
 
 #: /Language/Interface/Record[Key='FireArm']
@@ -139,11 +149,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TraderErrorConnectWires']
 msgctxt "Interface.TraderErrorConnectWires"
 msgid "The trader could not complete the trade, check your cables for any breaks!"
-msgstr ""
-
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderErrorMissingMotherboard']
@@ -796,11 +801,6 @@ msgctxt "Interface.ButtonKick"
 msgid "Kick"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ButtonBan']
-msgctxt "Interface.ButtonBan"
-msgid "Ban"
-msgstr ""
-
 #: /Language/Interface/Record[Key='ButtoConfirmExitAsServer']
 msgctxt "Interface.ButtoConfirmExitAsServer"
 msgid "Are you sure you want to exit the game without saving? Any unsaved progress will be lost."
@@ -904,6 +904,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='TutorialSkipButton']
 msgctxt "Interface.TutorialSkipButton"
 msgid "Skip"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TutorialStartButton']
+msgctxt "Interface.TutorialStartButton"
+msgid "Start Tutorial"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialComplete']
@@ -1108,11 +1113,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='SteamErrorBody']
 msgctxt "Interface.SteamErrorBody"
 msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
-msgstr ""
-
-#: /Language/Interface/Record[Key='SteamErrorButton']
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
 msgstr ""
 
 #: /Language/Interface/Record[Key='WaitingTitle']
@@ -1447,6 +1447,11 @@ msgctxt "Interface.SettingsStartingCondition"
 msgid "Starting Condition"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ButtonBan']
+msgctxt "Interface.ButtonBan"
+msgid "Ban"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsTitleGameSettings']
 msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
@@ -1495,11 +1500,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='WorkshopPageButton']
 msgctxt "Interface.WorkshopPageButton"
 msgid "Workshop Page"
-msgstr ""
-
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
 msgstr ""
 
 #: /Language/Interface/Record[Key='FoodCategory']
@@ -1558,9 +1558,9 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderElectronics']
-msgctxt "Interface.TraderElectronics"
-msgid "Tech Tree"
+#: /Language/Interface/Record[Key='SpinnerPannelSaving']
+msgctxt "Interface.SpinnerPannelSaving"
+msgid "Saving"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMineableRenderDistance']
@@ -1575,7 +1575,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialCompleteTruly']
 msgctxt "Interface.TutorialCompleteTruly"
-msgid "Your Dearest Friend"
+msgid "Commodore ODA"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialCompleteDeanHall']
@@ -3419,9 +3419,9 @@ msgctxt "Interface.TraderOrganics"
 msgid "Organtion"
 msgstr ""
 
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
+#: /Language/Interface/Record[Key='TraderElectronics']
+msgctxt "Interface.TraderElectronics"
+msgid "Tech Tree"
 msgstr ""
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
@@ -3489,9 +3489,9 @@ msgctxt "Interface.SpinnerPannelDone"
 msgid "Done"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SpinnerPannelSaving']
-msgctxt "Interface.SpinnerPannelSaving"
-msgid "Saving"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AppearanceTitleSpecies']
@@ -4604,11 +4604,6 @@ msgctxt "Interface.WorldCratersLabel"
 msgid "Craters"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TutorialStartButton']
-msgctxt "Interface.TutorialStartButton"
-msgid "Start Tutorial"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorldSeedLabel']
 msgctxt "Interface.WorldSeedLabel"
 msgid "World Seed"
@@ -4649,7 +4644,12 @@ msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AtmosDevices']
-msgctxt "Interface.AtmosDevices"
-msgid "Atmospheric Devices"
+#: /Language/Interface/Record[Key='WorldPresetTitle']
+msgctxt "Interface.WorldPresetTitle"
+msgid "World Preset"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SteamErrorButton']
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
 msgstr ""
