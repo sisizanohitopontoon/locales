@@ -10,10 +10,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='DynamicPortal']
-msgctxt "Things.DynamicPortal"
-msgid "Dynamic Portal"
-msgstr "Portal Dinâmico"
+#: /Language/Things/RecordThing[Key='ItemArcWelder']
+msgctxt "Things.ItemArcWelder"
+msgid "Arc Welder"
+msgstr "Soldador Eléctrico"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
+msgctxt "Things.ItemWreckageHydroponicsTray1"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
+#, fuzzy
+msgctxt "Things.ItemWreckageHydroponicsTray1"
+msgid "Wreckage Hydroponics Tray"
+msgstr "Estação de Hidroponia"
 
 #: /Language/Things/RecordThing[Key='StructureBlocker']
 msgctxt "Things.StructureBlocker"
@@ -349,9 +360,10 @@ msgid "Wreckage Hydroponics Station"
 msgstr "Estação de Hidroponia"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsAutomatic3']
+#, fuzzy
 msgctxt "Things.ItemWreckageHydroponicsAutomatic3"
-msgid "This is the default thing page."
-msgstr ""
+msgid "Wreckage Hydroponics Automatic"
+msgstr "Estação de Hidroponia"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsAutomatic2']
 msgctxt "Things.ItemWreckageHydroponicsAutomatic2"
@@ -381,7 +393,6 @@ msgid "This is the default thing page."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageH2Combustor1']
-#, fuzzy
 msgctxt "Things.ItemWreckageH2Combustor1"
 msgid "Wreckage H2 Combustor"
 msgstr ""
@@ -1693,17 +1704,16 @@ msgctxt "Things.StructureWallArchCornerRound"
 msgid "Wall (Arch Corner Round)"
 msgstr "Parede (Arqueada com Seta)"
 
+#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsAutomatic3']
+msgctxt "Things.ItemWreckageHydroponicsAutomatic3"
+msgid "This is the default thing page."
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='ItemKitRailing']
 #, fuzzy
 msgctxt "Things.ItemKitRailing"
 msgid "Kit (Railing)"
 msgstr "Kit (Revestimento)"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsAutomatic3']
-#, fuzzy
-msgctxt "Things.ItemWreckageHydroponicsAutomatic3"
-msgid "Wreckage Hydroponics Automatic"
-msgstr "Estação de Hidroponia"
 
 #: /Language/Things/RecordThing[Key='RailingIndustrial02']
 msgctxt "Things.RailingIndustrial02"
@@ -2392,10 +2402,10 @@ msgctxt "Things.ItemMiningDrillHeavy"
 msgid "Mining Drill (Heavy)"
 msgstr "Broca de Mineração (Industrial)"
 
-#: /Language/Things/RecordThing[Key='ItemArcWelder']
-msgctxt "Things.ItemArcWelder"
-msgid "Arc Welder"
-msgstr "Soldador Eléctrico"
+#: /Language/Things/RecordThing[Key='DynamicPortal']
+msgctxt "Things.DynamicPortal"
+msgid "Dynamic Portal"
+msgstr "Portal Dinâmico"
 
 #: /Language/Things/RecordThing[Key='StructureWallLightBattery']
 msgctxt "Things.StructureWallLightBattery"
@@ -4903,7 +4913,7 @@ msgstr "Carregador de Baterias"
 
 #: /Language/Things/RecordThing[Key='StructureBattery']
 msgctxt "Things.StructureBattery"
-msgid "{BLANK}"
+msgid "Providing large-scale, reliable power storage, the Sinotai 'Dianzi' station battery is the heart of most Stationeer bases."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureBattery']
@@ -4914,7 +4924,7 @@ msgstr "Estrutura Bateria"
 
 #: /Language/Things/RecordThing[Key='StructureBackPressureRegulator']
 msgctxt "Things.StructureBackPressureRegulator"
-msgid "{BLANK}"
+msgid "Unlike the {THING:StructurePressureRegulator}, which closes when the input exceeds a given pressure, the back pressure regulator opens when input pressure reaches a given value."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureBackPressureRegulator']
@@ -4924,7 +4934,9 @@ msgstr "Regulador de Pressão Traseiro"
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControlReversed']
 msgctxt "Things.StructureAreaPowerControlReversed"
-msgid "{BLANK}"
+msgid ""
+"An Area Power Control (APC) has three main functions. \n"
+"      An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControlReversed']
@@ -4934,7 +4946,9 @@ msgstr "Controlo de Energia de Área"
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControl']
 msgctxt "Things.StructureAreaPowerControl"
-msgid "{BLANK}"
+msgid ""
+"An Area Power Control (APC) has three main functions. \n"
+"      An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControl']
@@ -4944,7 +4958,7 @@ msgstr "Controlo de Energia de Área"
 
 #: /Language/Things/RecordThing[Key='StructureAirlock']
 msgctxt "Things.StructureAirlock"
-msgid "{BLANK}"
+msgid "The standard airlock is a powered portal that forms the main component of an airlock chamber. As long as the airlock is not locked, it can be manually opened using a {Thing:ItemCrowbar}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureAirlock']
@@ -4954,7 +4968,10 @@ msgstr "Airlock"
 
 #: /Language/Things/RecordThing[Key='StructureAirConditioner']
 msgctxt "Things.StructureAirConditioner"
-msgid "{BLANK}"
+msgid ""
+"Built using the {THING:ItemKitAtmospherics}, the ExMin-designed air conditioner is used to raise or lower local temperature.\n"
+"The unit has three pipe connections: input, output, and waste. Attach an {THING:ItemActiveVent} to the unit's input port, and a passive vent to the output port, so the unit can draw gas through it. Run pipes from the unit's waste port to outside your base, where you can add {THING:StructurePipeRadiator}s to rapidly shed or gain temperature from the network. \n"
+"Note that some <color=#0080FFFF>{LINK:GasPage;gases}</color> are better coolants than others, but if the coolant pipe has less than 100kPa pressure, it will siphon its output to reach the necessary pressure."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureAirConditioner']
@@ -6310,8 +6327,8 @@ msgstr "Fundo do Ovo"
 #: /Language/Things/RecordThing[Key='ItemEgg']
 msgctxt "Things.ItemEgg"
 msgid ""
-"It came first.\n"
-"As in nature, somes eggs are fertilized, some not. A {THING:EntityChick} will emerge from a fertilized egg, and for the rest, there is the {THING:ApplianceMicrowave}. Perfect for {THING:ItemMuffin}s."
+"Resolving, finally, the question of which came first: it was the egg.\n"
+"If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChick} will emerge. For the rest, there is the {THING:ApplianceMicrowave}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemEgg']
