@@ -721,11 +721,6 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Volume maître"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Mélangeur"
-
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -740,6 +735,11 @@ msgstr "Notifications vocales"
 msgctxt "Interface.SettingsTitleKeybinds"
 msgid "Keybinds"
 msgstr "Configuration des touches"
+
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Paramètres divers"
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -1373,6 +1373,11 @@ msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "Sauvegarder le monde"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Mélangeur"
+
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
@@ -1392,11 +1397,6 @@ msgstr "Créatif"
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "Survie"
-
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Paramètres divers"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
@@ -1583,10 +1583,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
-msgctxt "Interface.LogicSlotTypePressureWaste"
-msgid "returns pressure in the waste tank of the jetpack in this slot"
-msgstr "Indique la pression dans le réservoir de déchets du Jetpack de cet emplacement"
+#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
+msgctxt "Interface.LogicSlotTypeChargeRatio"
+msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+msgstr "Indique la charge d'énergie actuelle par l'emplacement occupé comme un ratio entre 0 et 1 étant son maximum"
 
 #: /Language/Interface/Record[Key='SettingsMineableRenderDistance']
 #, fuzzy
@@ -3569,20 +3569,20 @@ msgctxt "Interface.LogicSlotTypePressureAir"
 msgid "returns pressure in the air tank of the jetpack in this slot"
 msgstr "Indique la pression dans la bouteille d'oxygène du Jetpack de cet emplacement"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Se désabonner"
+#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
+msgctxt "Interface.LogicSlotTypePressureWaste"
+msgid "returns pressure in the waste tank of the jetpack in this slot"
+msgstr "Indique la pression dans le réservoir de déchets du Jetpack de cet emplacement"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeClass']
 msgctxt "Interface.LogicSlotTypeClass"
 msgid "returns integer representing the class of object"
 msgstr "Indique un nombre entier représentant la classe de l'objet"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
-msgctxt "Interface.LogicSlotTypeChargeRatio"
-msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
-msgstr "Indique la charge d'énergie actuelle par l'emplacement occupé comme un ratio entre 0 et 1 étant son maximum"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Se désabonner"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeCharge']
 msgctxt "Interface.LogicSlotTypeCharge"

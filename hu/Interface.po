@@ -719,11 +719,6 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Fő hangerő"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Keverő"
-
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -738,6 +733,11 @@ msgstr "Hangjelzések"
 msgctxt "Interface.SettingsTitleKeybinds"
 msgid "Keybinds"
 msgstr "Billentyűkiosztás"
+
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Egyéb beállítások"
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -1382,6 +1382,11 @@ msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "Világ mentése"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Keverő"
+
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
@@ -1401,11 +1406,6 @@ msgstr "Kreatív"
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
 msgstr "Túlélő"
-
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Egyéb beállítások"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
@@ -1591,10 +1591,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
-msgctxt "Interface.LogicSlotTypePressureWaste"
-msgid "returns pressure in the waste tank of the jetpack in this slot"
-msgstr "visszaadja a selejtes tartály nyomását, ami a ruha slotjában van"
+#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
+msgctxt "Interface.LogicSlotTypeChargeRatio"
+msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+msgstr "visszaadja a jelenlegi töltöttségét a slotban levő dolopgnak egy 0 és egy 1 közötti arányként"
 
 #: /Language/Interface/Record[Key='SettingsMineableRenderDistance']
 #, fuzzy
@@ -3630,20 +3630,20 @@ msgctxt "Interface.LogicSlotTypePressureAir"
 msgid "returns pressure in the air tank of the jetpack in this slot"
 msgstr "visszaadja a levegő tartály nyomását, ami a ruha slotjában van"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
+#: /Language/Interface/Record[Key='LogicSlotTypePressureWaste']
+msgctxt "Interface.LogicSlotTypePressureWaste"
+msgid "returns pressure in the waste tank of the jetpack in this slot"
+msgstr "visszaadja a selejtes tartály nyomását, ami a ruha slotjában van"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeClass']
 msgctxt "Interface.LogicSlotTypeClass"
 msgid "returns integer representing the class of object"
 msgstr "visszaad egy egész számot, ami az objektum oszályát jelöli"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
-msgctxt "Interface.LogicSlotTypeChargeRatio"
-msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
-msgstr "visszaadja a jelenlegi töltöttségét a slotban levő dolopgnak egy 0 és egy 1 közötti arányként"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeCharge']
 msgctxt "Interface.LogicSlotTypeCharge"
