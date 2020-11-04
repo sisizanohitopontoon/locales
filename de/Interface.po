@@ -707,10 +707,10 @@ msgctxt "Interface.SettingsEnvElements"
 msgid "Environmental Elements"
 msgstr "Umweltelemente"
 
-#: /Language/Interface/Record[Key='SettingsReflections']
-msgctxt "Interface.SettingsReflections"
-msgid "Reflections"
-msgstr "Reflektionen"
+#: /Language/Interface/Record[Key='SettingsMasterVolume']
+msgctxt "Interface.SettingsMasterVolume"
+msgid "Master Volume"
+msgstr "Gesamtlautstärke"
 
 #: /Language/Interface/Record[Key='SettingsTitleMixer']
 msgctxt "Interface.SettingsTitleMixer"
@@ -1368,15 +1368,15 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Favoriten Entfernen"
 
+#: /Language/Interface/Record[Key='SettingsReflections']
+msgctxt "Interface.SettingsReflections"
+msgid "Reflections"
+msgstr "Reflektionen"
+
 #: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "Favoriten"
-
-#: /Language/Interface/Record[Key='SettingsMasterVolume']
-msgctxt "Interface.SettingsMasterVolume"
-msgid "Master Volume"
-msgstr "Gesamtlautstärke"
 
 #: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
 msgctxt "Interface.SaveMenuSaveWorldButton"
@@ -1587,10 +1587,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
-msgctxt "Interface.LogicSlotTypeChargeRatio"
-msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
-msgstr "Gibt das elektrische Ladungsverhältnis des Gegenstandes im Slot als wert von 0 bis 1 zurück "
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
+msgstr "Gibt die Temperatur des Gegenstandes im Slot zurück"
 
 #: /Language/Interface/Record[Key='SettingsMineableRenderDistance']
 #, fuzzy
@@ -3633,20 +3633,20 @@ msgctxt "Interface.LogicSlotTypeClass"
 msgid "returns integer representing the class of object"
 msgstr "Gibt eine Ganzzahl zurück, die die Klasse des Objekts darstellt"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Deabonnieren"
+#: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
+msgctxt "Interface.LogicSlotTypeChargeRatio"
+msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
+msgstr "Gibt das elektrische Ladungsverhältnis des Gegenstandes im Slot als wert von 0 bis 1 zurück "
 
 #: /Language/Interface/Record[Key='LogicSlotTypeCharge']
 msgctxt "Interface.LogicSlotTypeCharge"
 msgid "returns current energy charge the slot occupant is holding"
 msgstr "Gibt die elektrische Ladung des Gegenstandes im Slot zurück"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
-msgctxt "Interface.LogicSlotTypeTemperature"
-msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr "Gibt die Temperatur des Gegenstandes im Slot zurück"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Deabonnieren"
 
 #: /Language/Interface/Record[Key='LogicSlotTypePressure']
 msgctxt "Interface.LogicSlotTypePressure"
@@ -4296,7 +4296,6 @@ msgid "Return to Game"
 msgstr "Zurück zum Spiel"
 
 #: /Language/Interface/Record[Key='ScenarioScoreboardBackToMenu']
-#, fuzzy
 msgctxt "Interface.ScenarioScoreboardBackToMenu"
 msgid "Return to Main Menu"
 msgstr ""
