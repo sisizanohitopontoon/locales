@@ -775,7 +775,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='OpenBackControls']
 msgctxt "Interface.OpenBackControls"
-msgid "{KEY:Helmet}-{KEY:Belt}"
+msgid "{KEY:HelmetSlot}-{KEY:ToolBeltSlot}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='OpenBackControlsDisc']
@@ -890,17 +890,48 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='QucikEquiptControls']
 msgctxt "Interface.QucikEquiptControls"
-msgid "Scroll wheel + {KEY:InventorySelect} / {KEY:PrimaryAction} x2."
+msgid "Scroll wheel"
 msgstr ""
 
 #: /Language/Interface/Record[Key='QucikEquiptControlsDisc']
 msgctxt "Interface.QucikEquiptControlsDisc"
-msgid "Send item to/from hand"
+msgid "Select Inventory Slot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='QuickSelectItemControls']
+msgctxt "Interface.QuickSelectItemControls"
+msgid "{KEY:InventorySelect}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='QuickSelectItemControlsDisc']
+msgctxt "Interface.QuickSelectItemControlsDisc"
+msgid "Interact with inventory"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DoubleClickingControls']
+msgctxt "Interface.DoubleClickingControls"
+msgid "{KEY:PrimaryAction} x2"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DoubleClickingControlsDisc']
+msgctxt "Interface.DoubleClickingControlsDisc"
+msgid "Interact with inventory"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SecondaryActionControls']
+msgctxt "Interface.SecondaryActionControls"
+msgid "(hold) {KEY:SecondaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SecondaryActionControlsDisc']
+msgctxt "Interface.SecondaryActionControlsDisc"
+msgid "Secondary Action"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ControlLeftClickBuildDisc']
+#, fuzzy
 msgctxt "Interface.ControlLeftClickBuildDisc"
-msgid "Place Item."
+msgid "Build Structure."
 msgstr ""
 
 #: /Language/Interface/Record[Key='BuildControls']
@@ -1092,17 +1123,27 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='ControlJetpackToggleDisc']
 msgctxt "Interface.ControlJetpackToggleDisc"
-msgid "JetPack on/off"
+msgid "Toggle Jetpack Power"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ControlJetpackMovement']
-msgctxt "Interface.ControlJetpackMovement"
-msgid "{KEY:Ascend}/{KEY:Descend}"
+#: /Language/Interface/Record[Key='ControlJetpackAsendMovement']
+msgctxt "Interface.ControlJetpackAsendMovement"
+msgid "{KEY:Ascend}"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ControlJetpackMovementDisc']
-msgctxt "Interface.ControlJetpackMovementDisc"
-msgid "Up/Down"
+#: /Language/Interface/Record[Key='ControlJetpackAsendMovementDisc']
+msgctxt "Interface.ControlJetpackAsendMovementDisc"
+msgid "Ascend"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlJetpackDesendMovement']
+msgctxt "Interface.ControlJetpackDesendMovement"
+msgid "{KEY:Descend}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlJetpackDesendMovementDisc']
+msgctxt "Interface.ControlJetpackDesendMovementDisc"
+msgid "Descend"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Narration17D']
@@ -1141,6 +1182,12 @@ msgid ""
 "You'll need a welder in your active hand, and iron sheets in the other."
 msgstr ""
 
+#: /Language/Interface/Record[Key='PickUpT1 9']
+#, fuzzy
+msgctxt "Interface.PickUpT1 9"
+msgid "Take Iron Frames from crate"
+msgstr "Purtați {THING: ItemEvaSuit}"
+
 #: /Language/Interface/Record[Key='BuildFrameT1Disc']
 msgctxt "Interface.BuildFrameT1Disc"
 msgid "Complete the unfinished roof using iron sheets."
@@ -1161,6 +1208,11 @@ msgstr ""
 msgctxt "Interface.PickUpT1 4"
 msgid "Take iron sheets from crate"
 msgstr "Purtați {THING: ItemEvaSuit}"
+
+#: /Language/Interface/Record[Key='UsePrimeControlsBuildDisc']
+msgctxt "Interface.UsePrimeControlsBuildDisc"
+msgid "Construct"
+msgstr ""
 
 #: /Language/Interface/Record[Key='FinsihFramesT1Disc']
 msgctxt "Interface.FinsihFramesT1Disc"

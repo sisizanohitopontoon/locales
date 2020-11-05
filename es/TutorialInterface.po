@@ -853,7 +853,7 @@ msgstr "Abre tu cinturón de herramientas para acceder a las herramientas."
 
 #: /Language/Interface/Record[Key='OpenBackControls']
 msgctxt "Interface.OpenBackControls"
-msgid "{KEY:Helmet}-{KEY:Belt}"
+msgid "{KEY:HelmetSlot}-{KEY:ToolBeltSlot}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='OpenBackControlsDisc']
@@ -900,7 +900,6 @@ msgid "There are many ways to move items around. Start by dragging items from yo
 msgstr ""
 
 #: /Language/Interface/Record[Key='HoldMiningBeltT1Disc']
-#, fuzzy
 msgctxt "Interface.HoldMiningBeltT1Disc"
 msgid "Drag mining belt from Jetpack into left hand"
 msgstr ""
@@ -938,7 +937,6 @@ msgid "You can also drag items from the world directly into your inventory."
 msgstr ""
 
 #: /Language/Interface/Record[Key='DragFromWorldT1Disc']
-#, fuzzy
 msgctxt "Interface.DragFromWorldT1Disc"
 msgid "Drag mining belt from ground into Jetpack"
 msgstr ""
@@ -975,18 +973,54 @@ msgstr "Cambiar la Stationpedia"
 
 #: /Language/Interface/Record[Key='QucikEquiptControls']
 msgctxt "Interface.QucikEquiptControls"
-msgid "Scroll wheel + {KEY:InventorySelect} / {KEY:PrimaryAction} x2."
+msgid "Scroll wheel"
 msgstr ""
 
 #: /Language/Interface/Record[Key='QucikEquiptControlsDisc']
 msgctxt "Interface.QucikEquiptControlsDisc"
-msgid "Send item to/from hand"
+msgid "Select Inventory Slot"
 msgstr ""
+
+#: /Language/Interface/Record[Key='QuickSelectItemControls']
+#, fuzzy
+msgctxt "Interface.QuickSelectItemControls"
+msgid "{KEY:InventorySelect}"
+msgstr "{KEY:Internals}"
+
+#: /Language/Interface/Record[Key='QuickSelectItemControlsDisc']
+#, fuzzy
+msgctxt "Interface.QuickSelectItemControlsDisc"
+msgid "Interact with inventory"
+msgstr "Interactúe con el inventario."
+
+#: /Language/Interface/Record[Key='DoubleClickingControls']
+#, fuzzy
+msgctxt "Interface.DoubleClickingControls"
+msgid "{KEY:PrimaryAction} x2"
+msgstr "{KEY:PrimaryAction}"
+
+#: /Language/Interface/Record[Key='DoubleClickingControlsDisc']
+#, fuzzy
+msgctxt "Interface.DoubleClickingControlsDisc"
+msgid "Interact with inventory"
+msgstr "Interactúe con el inventario."
+
+#: /Language/Interface/Record[Key='SecondaryActionControls']
+#, fuzzy
+msgctxt "Interface.SecondaryActionControls"
+msgid "(hold) {KEY:SecondaryAction}"
+msgstr "{KEY:PrimaryAction}"
+
+#: /Language/Interface/Record[Key='SecondaryActionControlsDisc']
+#, fuzzy
+msgctxt "Interface.SecondaryActionControlsDisc"
+msgid "Secondary Action"
+msgstr "{KEY:PrimaryAction}"
 
 #: /Language/Interface/Record[Key='ControlLeftClickBuildDisc']
 #, fuzzy
 msgctxt "Interface.ControlLeftClickBuildDisc"
-msgid "Place Item."
+msgid "Build Structure."
 msgstr "Coloca los marcos 1."
 
 #: /Language/Interface/Record[Key='BuildControls']
@@ -1021,7 +1055,6 @@ msgid "Use item"
 msgstr ""
 
 #: /Language/Interface/Record[Key='JetpackInsert']
-#, fuzzy
 msgctxt "Interface.JetpackInsert"
 msgid "Drag mining belt from ground into jetpack"
 msgstr ""
@@ -1042,7 +1075,6 @@ msgid "Use 'Hot Keys' to equip a road flare"
 msgstr ""
 
 #: /Language/Interface/Record[Key='GetRoadFlare']
-#, fuzzy
 msgctxt "Interface.GetRoadFlare"
 msgid "Move road flare from Jetpack to left hand"
 msgstr ""
@@ -1165,7 +1197,6 @@ msgid "Move to Section B of the training base."
 msgstr ""
 
 #: /Language/Interface/Record[Key='EnterAreaT3']
-#, fuzzy
 msgctxt "Interface.EnterAreaT3"
 msgid "Enter the next airlock"
 msgstr ""
@@ -1181,19 +1212,33 @@ msgid "{KEY:Jetpack}"
 msgstr "{KEY:Jetpack}"
 
 #: /Language/Interface/Record[Key='ControlJetpackToggleDisc']
+#, fuzzy
 msgctxt "Interface.ControlJetpackToggleDisc"
-msgid "JetPack on/off"
+msgid "Toggle Jetpack Power"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ControlJetpackMovement']
-msgctxt "Interface.ControlJetpackMovement"
-msgid "{KEY:Ascend}/{KEY:Descend}"
+#: /Language/Interface/Record[Key='ControlJetpackAsendMovement']
+#, fuzzy
+msgctxt "Interface.ControlJetpackAsendMovement"
+msgid "{KEY:Ascend}"
+msgstr "{KEY:Help}"
+
+#: /Language/Interface/Record[Key='ControlJetpackAsendMovementDisc']
+msgctxt "Interface.ControlJetpackAsendMovementDisc"
+msgid "Ascend"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlJetpackDesendMovement']
+#, fuzzy
+msgctxt "Interface.ControlJetpackDesendMovement"
+msgid "{KEY:Descend}"
 msgstr "{KEY:Ascend}/{KEY:Descend}"
 
-#: /Language/Interface/Record[Key='ControlJetpackMovementDisc']
-msgctxt "Interface.ControlJetpackMovementDisc"
-msgid "Up/Down"
-msgstr ""
+#: /Language/Interface/Record[Key='ControlJetpackDesendMovementDisc']
+#, fuzzy
+msgctxt "Interface.ControlJetpackDesendMovementDisc"
+msgid "Descend"
+msgstr "Ascender/Descender"
 
 #: /Language/Interface/Record[Key='Narration17D']
 msgctxt "Interface.Narration17D"
@@ -1231,6 +1276,12 @@ msgid ""
 "You'll need a welder in your active hand, and iron sheets in the other."
 msgstr ""
 
+#: /Language/Interface/Record[Key='PickUpT1 9']
+#, fuzzy
+msgctxt "Interface.PickUpT1 9"
+msgid "Take Iron Frames from crate"
+msgstr "Recoge las planchas de hierro de la caja"
+
 #: /Language/Interface/Record[Key='BuildFrameT1Disc']
 msgctxt "Interface.BuildFrameT1Disc"
 msgid "Complete the unfinished roof using iron sheets."
@@ -1252,6 +1303,11 @@ msgctxt "Interface.PickUpT1 4"
 msgid "Take iron sheets from crate"
 msgstr "Recoge las planchas de hierro de la caja"
 
+#: /Language/Interface/Record[Key='UsePrimeControlsBuildDisc']
+msgctxt "Interface.UsePrimeControlsBuildDisc"
+msgid "Construct"
+msgstr ""
+
 #: /Language/Interface/Record[Key='FinsihFramesT1Disc']
 msgctxt "Interface.FinsihFramesT1Disc"
 msgid "Equip the welder and steel sheets from the crate, to complete the training base."
@@ -1268,13 +1324,11 @@ msgid "Open the APC with crowbar from crate"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TurnOnAPC']
-#, fuzzy
 msgctxt "Interface.TurnOnAPC"
 msgid "Turn on the APC"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TurningOnTheOXygen']
-#, fuzzy
 msgctxt "Interface.TurningOnTheOXygen"
 msgid "Wait for external pressure to reachmask 60kPa."
 msgstr ""
@@ -5085,6 +5139,11 @@ msgid "Complete construction of the glass door."
 msgstr "Completa la construcción de la puerta de cristal."
 
 #, fuzzy
+#~ msgctxt "Interface.ControlLeftClickBuildDisc"
+#~ msgid "Place Item."
+#~ msgstr "Coloca los marcos 1."
+
+#, fuzzy
 #~ msgctxt "Interface.ControlLeftClickDisc"
 #~ msgid "Cycle airlock"
 #~ msgstr "Ciclar la esclusa de aire."
@@ -5164,10 +5223,6 @@ msgstr "Completa la construcción de la puerta de cristal."
 #~ msgid "Merge frames"
 #~ msgstr "Fusiona los marcos"
 
-#~ msgctxt "Interface.ControlJetpackMovementDisc"
-#~ msgid "Ascend/Descend"
-#~ msgstr "Ascender/Descender"
-
 #~ msgctxt "Interface.FinishFrameT1"
 #~ msgid "Finish the frame"
 #~ msgstr "Termine el marco"
@@ -5207,10 +5262,6 @@ msgstr "Completa la construcción de la puerta de cristal."
 #~ msgctxt "Interface.Narration11T"
 #~ msgid "HotKeys."
 #~ msgstr "HotKeys."
-
-#~ msgctxt "Interface.ControlJetpackToggleDisc"
-#~ msgid "Toggle JetPack"
-#~ msgstr "Cambiar JetPack"
 
 #~ msgctxt "Interface.SettingTheDestination6"
 #~ msgid "Set the output value on the {THING:StructureLogicWriter} to {THING:ItemKitStructureModularRocketCommand01} using a {THING:ItemScrewdriver} "
