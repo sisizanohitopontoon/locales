@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-07 15:48+0000\n"
+"PO-Revision-Date: 2020-11-07 16:58+0000\n"
 "Last-Translator: brainkiller <dchambelant@gmail.com>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4893,6 +4893,10 @@ msgid ""
 "The unit has three pipe connections: input, output, and waste. Attach an {THING:ItemActiveVent} to the unit's input port, and a passive vent to the output port, so the unit can draw gas through it. Run pipes from the unit's waste port to outside your base, where you can add {THING:StructurePipeRadiator}s to rapidly shed or gain temperature from the network. \n"
 "Note that some <color=#0080FFFF>{LINK:GasPage;gases}</color> are better coolants than others, but if the coolant pipe has less than 100kPa pressure, it will siphon its output to reach the necessary pressure."
 msgstr ""
+"Construit à l’aide du {THING:ItemKitAtmospherics}, le climatiseur conçu par ExMin est utilisé pour augmenter ou abaisser la température locale.\n"
+"L’unité dispose de trois raccords tubulaires : entrée, sortie et déchets. Fixez une {THING:StructurePassiveVent} au port d’entrée de l’appareil et une {THING:StructurePassiveVent} au port de sortie, afin .que les gaz puissent traverser le {THING:StructureAirConditioner}. Installer des tuyaux calfeutrés depuis le port de déchets de l’unité vers l’extérieur de la pièce. Vous pouvez ajouter des {THING:StructurePipeRadiator} pour rapidement éliminer ou augmenter la température du liquide de refroidissement. \n"
+"Notez que certain <color=#0080FFFF>{LINK:GasPage;gaz}</color> sont de meilleurs échangeurs thermiques que d’autres. \n"
+"Si le tuyau de liquide de refroidissement a une pression inférieure à 100 kPa, il siphonnera la sortie du {THING:StructureAirConditioner} pour atteindre la pression nécessaire."
 
 #: /Language/Things/RecordThing[Key='StructureAirConditioner']
 msgctxt "Things.StructureAirConditioner"
