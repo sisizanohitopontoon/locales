@@ -688,11 +688,6 @@ msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Objemové Osvetlenie"
 
-#: /Language/Interface/Record[Key='SettingsPixelLightCount']
-msgctxt "Interface.SettingsPixelLightCount"
-msgid "Pixel Light Count"
-msgstr "Pixel Light Count"
-
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
@@ -712,6 +707,11 @@ msgstr "Vzdialenosť Tieňov"
 msgctxt "Interface.SettingsEnvElements"
 msgid "Environmental Elements"
 msgstr "Enviromentálne Elementy"
+
+#: /Language/Interface/Record[Key='SettingsReflections']
+msgctxt "Interface.SettingsReflections"
+msgid "Reflections"
+msgstr "Odrazy"
 
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
@@ -1347,6 +1347,11 @@ msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Please Wait..."
 
+#: /Language/Interface/Record[Key='SettingsPixelLightCount']
+msgctxt "Interface.SettingsPixelLightCount"
+msgid "Pixel Light Count"
+msgstr "Pixel Light Count"
+
 #: /Language/Interface/Record[Key='TooltipNeedMoreKit']
 msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
@@ -1376,11 +1381,6 @@ msgstr "View Info"
 msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Remove Favorite"
-
-#: /Language/Interface/Record[Key='SettingsReflections']
-msgctxt "Interface.SettingsReflections"
-msgid "Reflections"
-msgstr "Odrazy"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
@@ -1595,9 +1595,9 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
-msgctxt "Interface.LogicSlotTypeTemperature"
-msgid "returns temperature of the slot occupants internal atmosphere"
+#: /Language/Interface/Record[Key='LogicSlotTypeMature']
+msgctxt "Interface.LogicSlotTypeMature"
+msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMineableRenderDistance']
@@ -3660,10 +3660,10 @@ msgctxt "Interface.LogicSlotTypeCharge"
 msgid "returns current energy charge the slot occupant is holding"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Unsubscribe"
+#: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
+msgctxt "Interface.LogicSlotTypeTemperature"
+msgid "returns temperature of the slot occupants internal atmosphere"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSlotTypePressure']
 msgctxt "Interface.LogicSlotTypePressure"
@@ -3680,10 +3680,10 @@ msgctxt "Interface.LogicSlotTypeHealth"
 msgid "returns the health of the plant in the slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeMature']
-msgctxt "Interface.LogicSlotTypeMature"
-msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Unsubscribe"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
 msgctxt "Interface.LogicSlotTypeEfficiency"
