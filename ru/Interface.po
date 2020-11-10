@@ -636,11 +636,6 @@ msgctxt "Interface.SettingsVsync"
 msgid "V-Sync"
 msgstr "V-Sync"
 
-#: /Language/Interface/Record[Key='SettingsButtonApply']
-msgctxt "Interface.SettingsButtonApply"
-msgid "Apply"
-msgstr "Применить"
-
 #: /Language/Interface/Record[Key='SettingsBrightness']
 msgctxt "Interface.SettingsBrightness"
 msgid "Brightness"
@@ -675,6 +670,11 @@ msgstr "Мягкие частицы"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "Объёмное освещение"
+
+#: /Language/Interface/Record[Key='SettingsPixelLightCount']
+msgctxt "Interface.SettingsPixelLightCount"
+msgid "Pixel Light Count"
+msgstr "Кол-во источников света"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -1125,15 +1125,15 @@ msgctxt "Interface.SteamErrorBody"
 msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
 msgstr "Не удается подключится к Steam.  Перезагрузите Steam, затем перезапустите игру"
 
+#: /Language/Interface/Record[Key='SteamErrorButton']
+msgctxt "Interface.SteamErrorButton"
+msgid "Quit"
+msgstr "Выйти"
+
 #: /Language/Interface/Record[Key='WaitingTitle']
 msgctxt "Interface.WaitingTitle"
 msgid "Saving Warning"
 msgstr "Предупреждение (сохранение)"
-
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "Мир ещё сохраняется.  Повторите попытку позже, когда это закончится."
 
 #: /Language/Interface/Record[Key='PromptQuitTitle']
 msgctxt "Interface.PromptQuitTitle"
@@ -1280,6 +1280,11 @@ msgctxt "Interface.AlertVersionMismatch"
 msgid "Game version mismatch with server."
 msgstr "Версия игры не совпадает с версией сервера."
 
+#: /Language/Interface/Record[Key='SettingsButtonApply']
+msgctxt "Interface.SettingsButtonApply"
+msgid "Apply"
+msgstr "Применить"
+
 #: /Language/Interface/Record[Key='AlertNoResponse']
 msgctxt "Interface.AlertNoResponse"
 msgid ""
@@ -1323,11 +1328,6 @@ msgstr "Внимание"
 msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Пожалуйста, подождите..."
-
-#: /Language/Interface/Record[Key='SettingsPixelLightCount']
-msgctxt "Interface.SettingsPixelLightCount"
-msgid "Pixel Light Count"
-msgstr "Кол-во источников света"
 
 #: /Language/Interface/Record[Key='TooltipNeedMoreKit']
 msgctxt "Interface.TooltipNeedMoreKit"
@@ -1570,10 +1570,64 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeMature']
-msgctxt "Interface.LogicSlotTypeMature"
-msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
-msgstr "возвращает 1, если растение в этом слоте является зрелым, 0, когда это не так"
+#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
+msgctxt "Interface.LogicSlotTypeDamage"
+msgid "returns the damage state of the item in the slot"
+msgstr "возвращает состояние повреждения предмета в слоте"
+
+#: /Language/Interface/Record[Key='ControlHoldPrimaryClickHarvestDisc']
+msgctxt "Interface.ControlHoldPrimaryClickHarvestDisc"
+msgid "Harvest"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlHoldPrimaryClickPlantDisc']
+#, fuzzy
+msgctxt "Interface.ControlHoldPrimaryClickPlantDisc"
+msgid "Plant"
+msgstr "Подключение пропеллента"
+
+#: /Language/Interface/Record[Key='ControlHoldPrimaryClickPlaceDisc']
+msgctxt "Interface.ControlHoldPrimaryClickPlaceDisc"
+msgid "Place"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlHoldPrimaryClickDeconstructDisc']
+#, fuzzy
+msgctxt "Interface.ControlHoldPrimaryClickDeconstructDisc"
+msgid "Deconstruct"
+msgstr "Строительство"
+
+#: /Language/Interface/Record[Key='ControlHoldPrimaryClickConstructDisc']
+#, fuzzy
+msgctxt "Interface.ControlHoldPrimaryClickConstructDisc"
+msgid "Construct"
+msgstr "Строительство"
+
+#: /Language/Interface/Record[Key='ControlHoldPrimaryClick']
+msgctxt "Interface.ControlHoldPrimaryClick"
+msgid "Hold {KEY:PrimaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlPrimaryClickDisc']
+#, fuzzy
+msgctxt "Interface.ControlPrimaryClickDisc"
+msgid "Interact"
+msgstr "Интерфейс"
+
+#: /Language/Interface/Record[Key='ControlPrimaryClick']
+msgctxt "Interface.ControlPrimaryClick"
+msgid "{KEY:PrimaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SetSpawnTitle']
+msgctxt "Interface.SetSpawnTitle"
+msgid "Spawn Point"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SetSpawnMessage']
+msgctxt "Interface.SetSpawnMessage"
+msgid "Use to set Spawn Point"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsMineableRenderDistance']
 msgctxt "Interface.SettingsMineableRenderDistance"
@@ -3598,20 +3652,20 @@ msgctxt "Interface.LogicSlotTypeHealth"
 msgid "returns the health of the plant in the slot"
 msgstr "возвращает здоровье растения в слоте"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Отписаться"
+#: /Language/Interface/Record[Key='LogicSlotTypeMature']
+msgctxt "Interface.LogicSlotTypeMature"
+msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
+msgstr "возвращает 1, если растение в этом слоте является зрелым, 0, когда это не так"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
 msgctxt "Interface.LogicSlotTypeEfficiency"
 msgid "returns the growth efficiency of the plant in the slot"
 msgstr "возвращает эффективность роста растения в слоте"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
-msgctxt "Interface.LogicSlotTypeDamage"
-msgid "returns the damage state of the item in the slot"
-msgstr "возвращает состояние повреждения предмета в слоте"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Отписаться"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
 msgctxt "Interface.LogicSlotTypeQuantity"
@@ -4688,10 +4742,10 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Предустановки мира"
 
-#: /Language/Interface/Record[Key='SteamErrorButton']
-msgctxt "Interface.SteamErrorButton"
-msgid "Quit"
-msgstr "Выйти"
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "Мир ещё сохраняется.  Повторите попытку позже, когда это закончится."
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Main menu"
