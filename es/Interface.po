@@ -636,15 +636,15 @@ msgctxt "Interface.SettingsVsync"
 msgid "V-Sync"
 msgstr "Sincronizacion Vertical"
 
+#: /Language/Interface/Record[Key='SettingsButtonApply']
+msgctxt "Interface.SettingsButtonApply"
+msgid "Apply"
+msgstr "Aplicar"
+
 #: /Language/Interface/Record[Key='SettingsBrightness']
 msgctxt "Interface.SettingsBrightness"
 msgid "Brightness"
 msgstr "Brillo"
-
-#: /Language/Interface/Record[Key='SettingsFOV']
-msgctxt "Interface.SettingsFOV"
-msgid "Field Of View"
-msgstr "Campo de Visión"
 
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
@@ -1279,11 +1279,6 @@ msgctxt "Interface.AlertVersionMismatch"
 msgid "Game version mismatch with server."
 msgstr "La versión del juego no coincide con el servidor."
 
-#: /Language/Interface/Record[Key='SettingsButtonApply']
-msgctxt "Interface.SettingsButtonApply"
-msgid "Apply"
-msgstr "Aplicar"
-
 #: /Language/Interface/Record[Key='AlertNoResponse']
 msgctxt "Interface.AlertNoResponse"
 msgid ""
@@ -1297,6 +1292,11 @@ msgstr ""
 msgctxt "Interface.AlertKicked"
 msgid "You have been kicked from the server."
 msgstr "Has sido expulsado del servidor."
+
+#: /Language/Interface/Record[Key='SettingsFOV']
+msgctxt "Interface.SettingsFOV"
+msgid "Field Of View"
+msgstr "Campo de Visión"
 
 #: /Language/Interface/Record[Key='AlertWrongPassword']
 msgctxt "Interface.AlertWrongPassword"
@@ -1568,10 +1568,30 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Ranura"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
-msgctxt "Interface.LogicSlotTypeDamage"
-msgid "returns the damage state of the item in the slot"
-msgstr "devuelve el estado de daño del artículo en la ranura"
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr "devuelve el estado actual de crecimiento de la planta en la ranura"
+
+#: /Language/Interface/Record[Key='ControlSwapHandsDisc']
+msgctxt "Interface.ControlSwapHandsDisc"
+msgid "Swap Hands"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlSwapHands']
+msgctxt "Interface.ControlSwapHands"
+msgid "{KEY:SwapHands}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlPlayerMovementDisc']
+msgctxt "Interface.ControlPlayerMovementDisc"
+msgid "Movement"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlPlayerMovement']
+msgctxt "Interface.ControlPlayerMovement"
+msgid "{KEY:Forward}{KEY:Left}{KEY:Backward}{KEY:Right}"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ControlHoldPrimaryClickHarvestDisc']
 msgctxt "Interface.ControlHoldPrimaryClickHarvestDisc"
@@ -3635,10 +3655,10 @@ msgctxt "Interface.LogicSlotTypePressure"
 msgid "returns pressure of the slot occupants internal atmosphere"
 msgstr "devuelve la presión de la atmósfera interna de los ocupantes de la ranura"
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr "devuelve el estado actual de crecimiento de la planta en la ranura"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Anular Suscripción"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeHealth']
 msgctxt "Interface.LogicSlotTypeHealth"
@@ -3655,10 +3675,10 @@ msgctxt "Interface.LogicSlotTypeEfficiency"
 msgid "returns the growth efficiency of the plant in the slot"
 msgstr "devuelve la eficiencia de crecimiento de la planta en la ranura"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Anular Suscripción"
+#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
+msgctxt "Interface.LogicSlotTypeDamage"
+msgid "returns the damage state of the item in the slot"
+msgstr "devuelve el estado de daño del artículo en la ranura"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
 msgctxt "Interface.LogicSlotTypeQuantity"

@@ -648,15 +648,15 @@ msgctxt "Interface.SettingsVsync"
 msgid "V-Sync"
 msgstr "V-Sync"
 
+#: /Language/Interface/Record[Key='SettingsButtonApply']
+msgctxt "Interface.SettingsButtonApply"
+msgid "Apply"
+msgstr "Aplikovať"
+
 #: /Language/Interface/Record[Key='SettingsBrightness']
 msgctxt "Interface.SettingsBrightness"
 msgid "Brightness"
 msgstr "Jas"
-
-#: /Language/Interface/Record[Key='SettingsFOV']
-msgctxt "Interface.SettingsFOV"
-msgid "Field Of View"
-msgstr "Hĺbka pohľadu"
 
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
@@ -1303,11 +1303,6 @@ msgctxt "Interface.AlertVersionMismatch"
 msgid "Game version mismatch with server."
 msgstr "Game version mismatch with server."
 
-#: /Language/Interface/Record[Key='SettingsButtonApply']
-msgctxt "Interface.SettingsButtonApply"
-msgid "Apply"
-msgstr "Aplikovať"
-
 #: /Language/Interface/Record[Key='AlertNoResponse']
 #, fuzzy
 msgctxt "Interface.AlertNoResponse"
@@ -1322,6 +1317,11 @@ msgstr ""
 msgctxt "Interface.AlertKicked"
 msgid "You have been kicked from the server."
 msgstr "You have been kicked from the server."
+
+#: /Language/Interface/Record[Key='SettingsFOV']
+msgctxt "Interface.SettingsFOV"
+msgid "Field Of View"
+msgstr "Hĺbka pohľadu"
 
 #: /Language/Interface/Record[Key='AlertWrongPassword']
 msgctxt "Interface.AlertWrongPassword"
@@ -1596,9 +1596,29 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
-msgctxt "Interface.LogicSlotTypeDamage"
-msgid "returns the damage state of the item in the slot"
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlSwapHandsDisc']
+msgctxt "Interface.ControlSwapHandsDisc"
+msgid "Swap Hands"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlSwapHands']
+msgctxt "Interface.ControlSwapHands"
+msgid "{KEY:SwapHands}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlPlayerMovementDisc']
+msgctxt "Interface.ControlPlayerMovementDisc"
+msgid "Movement"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlPlayerMovement']
+msgctxt "Interface.ControlPlayerMovement"
+msgid "{KEY:Forward}{KEY:Left}{KEY:Backward}{KEY:Right}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ControlHoldPrimaryClickHarvestDisc']
@@ -3723,10 +3743,10 @@ msgctxt "Interface.LogicSlotTypePressure"
 msgid "returns pressure of the slot occupants internal atmosphere"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Unsubscribe"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeHealth']
 msgctxt "Interface.LogicSlotTypeHealth"
@@ -3743,10 +3763,10 @@ msgctxt "Interface.LogicSlotTypeEfficiency"
 msgid "returns the growth efficiency of the plant in the slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Unsubscribe"
+#: /Language/Interface/Record[Key='LogicSlotTypeDamage']
+msgctxt "Interface.LogicSlotTypeDamage"
+msgid "returns the damage state of the item in the slot"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
 msgctxt "Interface.LogicSlotTypeQuantity"
