@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-12 15:47+0000\n"
+"PO-Revision-Date: 2020-11-12 15:49+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4729,22 +4729,22 @@ msgstr "Nous devons maintenant mettre en place nos nouveaux lecteurs logiques. C
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup1']
 msgctxt "Interface.LogicReaderLogicSetup1"
 msgid "Set Horizontal Logic Reader 1's input to Horizontal Day Light Sensor."
-msgstr ""
+msgstr "Régler l'entrée du lecteur logique horizontal 1 sur le capteur horizontal de lumière du jour."
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup2']
 msgctxt "Interface.LogicReaderLogicSetup2"
 msgid "Set the Logic value to Solar angle."
-msgstr ""
+msgstr "Réglez la valeur logique sur l'angle solaire."
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup3']
 msgctxt "Interface.LogicReaderLogicSetup3"
 msgid "Set the Vertical Logic Reader 1 to Vertical Day Light Sensor."
-msgstr ""
+msgstr "Réglez le lecteur logique vertical 1 sur le capteur de lumière du jour vertical."
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup4']
 msgctxt "Interface.LogicReaderLogicSetup4"
 msgid "Set the Logic value to Solar Angle."
-msgstr ""
+msgstr "Réglez la valeur logique sur l'angle solaire."
 
 #: /Language/Interface/Record[Key='VerticalLogicProcessors']
 msgctxt "Interface.VerticalLogicProcessors"
@@ -4760,6 +4760,11 @@ msgid ""
 "  \n"
 "The next {THING:StructureLogicMath} will read the input of our first {THING:StructureLogicMath} and add 50 using a {THING:StructureLogicMemory} named offset."
 msgstr ""
+"Nous devons maintenant effectuer quelques calculs sur les valeurs lues par l'{THING:StructureLogicReader} et {THING:StructureLogicMemory}. Commencez par le module de données verticale du circuit.\n"
+"            \n"
+"Le premier {THING:StructureLogicMath} divisera les données {THING:StructureLogicReader} par 1.5 à l’aide d’un {THING:StructureLogicMemory}.\n"
+"  \n"
+"Le prochain {THING:StructureLogicMath} lira l’entrée de notre premier {THING:StructureLogicMath} et ajoutera 50 à l’aide d’un décalage nommé {THING:StructureLogicMemory} ."
 
 #: /Language/Interface/Record[Key='PlaceLogicMath']
 #, fuzzy
@@ -4781,7 +4786,7 @@ msgstr "Configuration verticale de l'unité logique mathématique."
 #: /Language/Interface/Record[Key='LogicMathVerticalDescription']
 msgctxt "Interface.LogicMathVerticalDescription"
 msgid "Setting up the math processors is one of the most important steps in creating a logic circuit, as it handles all the calculations required for most tasks."
-msgstr ""
+msgstr "La configuration des processeurs mathématiques est l’une des étapes les plus importantes dans la création d’un circuit logique, car il gère tous les calculs requis pour la plupart des tâches."
 
 #: /Language/Interface/Record[Key='LogicMathVertical1']
 msgctxt "Interface.LogicMathVertical1"
