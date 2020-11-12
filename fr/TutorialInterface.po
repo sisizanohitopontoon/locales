@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-12 15:42+0000\n"
+"PO-Revision-Date: 2020-11-12 15:47+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1447,6 +1447,8 @@ msgid ""
 "Excellent, Cadet! That's the last step of Practical Testing, Phase I. \n"
 "Press the orange 'Complete' button to transmit your results to Stationeer Command."
 msgstr ""
+"Excellent, cadet ! C’est la dernière étape des tests pratiques, phase I. \n"
+"Appuyez sur le bouton orange 'Complete' pour transmettre vos résultats au commandement Stationeer."
 
 #: /Language/Interface/Record[Key='HangUpSuitT1Disc']
 msgctxt "Interface.HangUpSuitT1Disc"
@@ -4333,6 +4335,8 @@ msgstr "Ouvrir la Stationpedia"
 msgctxt "Interface.SettingTheDestination2"
 msgid "Navigate to the World Travel Section, click on \"Travel\", and read about how to set destinations then click on the Mimas Coordinates: -712314497 to copy it to your clipboard"
 msgstr ""
+"Accédez à la section Voyage dans le monde, cliquez sur « ie », et lisez comment définir des destinations, puis cliquez sur les coordonnées de Mimas : -712314497 pour le copier dans votre presse-"
+"papiers"
 
 #: /Language/Interface/Record[Key='SettingTheDestination3']
 #, fuzzy
@@ -4394,6 +4398,7 @@ msgstr "L'heure du décollage"
 msgctxt "Interface.LaunchRocketDescription"
 msgid "It's time to lift off! Take the elevator up to the top floor, Once the rocket is fulled and ready you can enter the Command Module. Then hit the LAUNCH button."
 msgstr ""
+"Il est temps de décoller ! Prenez l’ascenseur jusqu’au dernier étage, Une fois que la fusée est pleine et prête, vous pouvez entrer dans le module de commande. Appuyez ensuite sur le bouton LANCER."
 
 #: /Language/Interface/Record[Key='LaunchRocketTask1']
 msgctxt "Interface.LaunchRocketTask1"
@@ -4648,6 +4653,9 @@ msgid ""
 "\n"
 "    "
 msgstr ""
+"Une unité logique d'écriture vous permet d’écrire une valeur donnée à certains types de logique sur un appareil. \n"
+"\t\t\t\n"
+"Remarque : Vous devez placer l’unité logique d'écriture avec la prise de données de sortie se connectant à l’appareil sur lequelle vous écrivez, car certaines données de circuit logique circulent dans une direction spécifique. Concevoir les circuits en conséquence.    "
 
 #: /Language/Interface/Record[Key='SetupLogicWritter']
 msgctxt "Interface.SetupLogicWritter"
@@ -4660,6 +4668,8 @@ msgid ""
 "We need to set our horizontal sensor to the horizontal mode. To do this we will use a {THING:StructureLogicWriter} to set the mode on the sensor by reading a value from a "
 "{THING:StructureLogicMemory}"
 msgstr ""
+"Nous devons mettre notre capteur horizontal en mode horizontal. Pour ce faire, nous utiliserons une {THING:StructureLogicWriter} pour définir le mode sur le capteur en lisant une valeur à partir "
+"d’un {THING:StructureLogicMemory}"
 
 #: /Language/Interface/Record[Key='SetupLogicWritter1']
 msgctxt "Interface.SetupLogicWritter1"
@@ -4674,12 +4684,12 @@ msgstr "Définissez l’entrée {THING:StructureLogicWriter} sur la mémoire en 
 #: /Language/Interface/Record[Key='SetupLogicWritter3']
 msgctxt "Interface.SetupLogicWritter3"
 msgid "Set the {THING:StructureLogicWriter} output to the Horizontal Day Light Sensor."
-msgstr ""
+msgstr "Définissez la sortie {THING:StructureLogicWriter} sur le capteur horizontal de lumière de jour."
 
 #: /Language/Interface/Record[Key='SetupLogicWritter4']
 msgctxt "Interface.SetupLogicWritter4"
 msgid "Set the {THING:StructureLogicWriter} to write to the sensor's logic value called Mode."
-msgstr ""
+msgstr "Définissez le {THING:StructureLogicWriter} pour écrire sur la valeur logique du capteur appelée Mode."
 
 #: /Language/Interface/Record[Key='PickUpLogicProcessor']
 msgctxt "Interface.PickUpLogicProcessor"
@@ -4699,7 +4709,7 @@ msgstr "Configuration des lecteurs logiques"
 #: /Language/Interface/Record[Key='LogicReaderSetupDescription']
 msgctxt "Interface.LogicReaderSetupDescription"
 msgid "A logic reader does what it sounds like: it reads logic. We will use these to read the solar angle from each sensor."
-msgstr ""
+msgstr "Un lecteur logique fait ce qu’il ressemble : il lit la logique. Nous allons les utiliser pour lire l’angle solaire de chaque capteur."
 
 #: /Language/Interface/Record[Key='LogicReader1']
 msgctxt "Interface.LogicReader1"
@@ -4714,7 +4724,7 @@ msgstr "SetUp du lecteur logique"
 #: /Language/Interface/Record[Key='LogicReaderLogicSetupDescription']
 msgctxt "Interface.LogicReaderLogicSetupDescription"
 msgid "We now need to set up our newly placed Logic Readers. As with the Logic Writer, we need to set the inputs."
-msgstr ""
+msgstr "Nous devons maintenant mettre en place nos nouveaux lecteurs logiques. Comme avec l’unité logique d'écriture, nous devons définir les entrées."
 
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup1']
 msgctxt "Interface.LogicReaderLogicSetup1"
