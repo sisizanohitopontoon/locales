@@ -646,6 +646,11 @@ msgctxt "Interface.SettingsBrightness"
 msgid "Brightness"
 msgstr "Яркость"
 
+#: /Language/Interface/Record[Key='SettingsFOV']
+msgctxt "Interface.SettingsFOV"
+msgid "Field Of View"
+msgstr "Угол обзора"
+
 #: /Language/Interface/Record[Key='SettingsOverallQuality']
 msgctxt "Interface.SettingsOverallQuality"
 msgid "Overall Quality"
@@ -725,11 +730,6 @@ msgstr "Голосовые оповещения"
 msgctxt "Interface.SettingsTitleKeybinds"
 msgid "Keybinds"
 msgstr "Назначение клавиш"
-
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Прочие настройки"
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -1135,6 +1135,11 @@ msgctxt "Interface.WaitingTitle"
 msgid "Saving Warning"
 msgstr "Предупреждение (сохранение)"
 
+#: /Language/Interface/Record[Key='WaitingBody']
+msgctxt "Interface.WaitingBody"
+msgid "Still saving world data.  Please try it again when it finishes."
+msgstr "Мир ещё сохраняется.  Повторите попытку позже, когда это закончится."
+
 #: /Language/Interface/Record[Key='PromptQuitTitle']
 msgctxt "Interface.PromptQuitTitle"
 msgid "Quit Stationeers"
@@ -1169,11 +1174,6 @@ msgstr "Отписаться"
 msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr "Перезаписать"
-
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Вы уверены, что хотите перезаписать существующее сохранение?"
 
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
@@ -1294,11 +1294,6 @@ msgctxt "Interface.AlertKicked"
 msgid "You have been kicked from the server."
 msgstr "Вас выгнали с сервера."
 
-#: /Language/Interface/Record[Key='SettingsFOV']
-msgctxt "Interface.SettingsFOV"
-msgid "Field Of View"
-msgstr "Угол обзора"
-
 #: /Language/Interface/Record[Key='AlertWrongPassword']
 msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
@@ -1383,6 +1378,11 @@ msgstr "Введите название сохранения..."
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Креатив"
+
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Прочие настройки"
 
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
@@ -1570,10 +1570,142 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
-msgctxt "Interface.LogicSlotTypeGrowth"
-msgid "returns the current growth state of the plant in the slot"
-msgstr "возвращает текущее состояние роста растения в слоте"
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr "Происшествия"
+
+#: /Language/Interface/Record[Key='StationeersDesc']
+msgctxt "Interface.StationeersDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Stationeers']
+#, fuzzy
+msgctxt "Interface.Stationeers"
+msgid "Stationeers"
+msgstr "Выйти из игры"
+
+#: /Language/Interface/Record[Key='XigoDesc']
+msgctxt "Interface.XigoDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Xigo']
+msgctxt "Interface.Xigo"
+msgid "Xigo"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TKDesc']
+msgctxt "Interface.TKDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='TK']
+#, fuzzy
+msgctxt "Interface.TK"
+msgid "TK"
+msgstr "K"
+
+#: /Language/Interface/Record[Key='SinotaiDesc']
+msgctxt "Interface.SinotaiDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Sinotai']
+msgctxt "Interface.Sinotai"
+msgid "Sinotai"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RecursoDesc']
+msgctxt "Interface.RecursoDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Recurso']
+msgctxt "Interface.Recurso"
+msgid "Recurso"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ODADesc']
+msgctxt "Interface.ODADesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ODA']
+msgctxt "Interface.ODA"
+msgid "ODA"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NorsecDesc']
+msgctxt "Interface.NorsecDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Norsec']
+msgctxt "Interface.Norsec"
+msgid "Norsec"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HiiragiDesc']
+msgctxt "Interface.HiiragiDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Hiiragi']
+msgctxt "Interface.Hiiragi"
+msgid "Hiiragi"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GeFabrikDesc']
+msgctxt "Interface.GeFabrikDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='GeFabrik']
+msgctxt "Interface.GeFabrik"
+msgid "GeFabrik"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ExMinDesc']
+msgctxt "Interface.ExMinDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ExMin']
+msgctxt "Interface.ExMin"
+msgid "ExMin"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CHACDesc']
+msgctxt "Interface.CHACDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='CHAC']
+msgctxt "Interface.CHAC"
+msgid "CHAC"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AsuraDesc']
+msgctxt "Interface.AsuraDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Asura']
+msgctxt "Interface.Asura"
+msgid "Asura"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AgrizeroDesc']
+msgctxt "Interface.AgrizeroDesc"
+msgid "Coming soon..."
+msgstr ""
+
+#: /Language/Interface/Record[Key='Agrizero']
+msgctxt "Interface.Agrizero"
+msgid "Agrizero"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ControlSwapHandsDisc']
 msgctxt "Interface.ControlSwapHandsDisc"
@@ -3572,10 +3704,10 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr "Открыть Происшествия"
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr "Происшествия"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Отписаться"
 
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
@@ -3662,10 +3794,10 @@ msgctxt "Interface.LogicSlotTypePressure"
 msgid "returns pressure of the slot occupants internal atmosphere"
 msgstr "возвращает давление внутри предмета занимающего слот"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Отписаться"
+#: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
+msgctxt "Interface.LogicSlotTypeGrowth"
+msgid "returns the current growth state of the plant in the slot"
+msgstr "возвращает текущее состояние роста растения в слоте"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeHealth']
 msgctxt "Interface.LogicSlotTypeHealth"
@@ -4762,10 +4894,10 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Предустановки мира"
 
-#: /Language/Interface/Record[Key='WaitingBody']
-msgctxt "Interface.WaitingBody"
-msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "Мир ещё сохраняется.  Повторите попытку позже, когда это закончится."
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Вы уверены, что хотите перезаписать существующее сохранение?"
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Main menu"
