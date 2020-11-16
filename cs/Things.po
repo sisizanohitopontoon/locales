@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-16 13:13+0000\n"
+"PO-Revision-Date: 2020-11-16 13:54+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2338,6 +2338,15 @@ msgid ""
 "RobotMode.None = 5 = Path(find) to target\n"
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
 msgstr ""
+"AIMeE (nebo automatizovaná nezávislá mechanická entita), navržená - pravděpodobně opilými - robotiky Norsec, může být nejlepším přítelem Stationeera, nebo únavnou nemesis, nebo obojím několikrát ve stejný den. Jednotka určena k automatickému odkrývání a získávání rud, vyžaduje pro provoz základní znalosti programování.\n"
+"AIMEe má 7 režimů:\n"
+"RobotMode.None = 0 = Nedělat nic\n"
+"RobotMode.None = 1 = Sledovat nejbližšího hráče\n"
+"RobotMode.None = 2 = Přesunout se na cíl v přímé linii\n"
+"RobotMode.None = 3 = Projíždět a hledat rudy v okruhu 15 souřadnic\n"
+"RobotMode.None = 4 = Vykládat ve vstupu do skluzu nebo do odpadkového koše do 3 metrů / 1.5 velké mřížky\n"
+"RobotMode.None = 5 = Cesta (najít) k cíli\n"
+"RobotMode.None = 6 = Automaticky přiřazovat stav, ukazuje, kdy jsou sloty úložiště plné"
 
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
@@ -4699,12 +4708,13 @@ msgid "Console"
 msgstr "Konzole"
 
 #: /Language/Things/RecordThing[Key='StructureComputer']
-#, fuzzy
 msgctxt "Things.StructureComputer"
 msgid ""
 "In some ways a relic, the 'Chonk R1' was designed by severely conflicted Norsec technicians, who needed a unit that could operate with a wide range of <color=#0080FFFF>{LINK:LogicUnitPage;motherboards}</color>, while also enduring the worst a new Cadet could throw at it.\n"
 "The result is a machine described by some as 'the only PC likely to survive our collision with a blackhole', while other, less appreciative users regard it as sharing most of its technological DNA with a cheese grater."
-msgstr "Počítač"
+msgstr ""
+"V některých ohledech byla památka 'Chonk R1' navržena těžce konfliktními technickými pracovníky společnosti Norsec, kteří potřebovali jednotku, která by dokázala pracovat se širokou škálou <color=#0080FFFF>{LINK:LogicUnitPage;základních desek}</color>, a zároveň vydržet to nejhorší, jaké na ni nový kadet mohl klást.\n"
+"Výsledkem je stroj, který někteří označují za 'jediný počítač, který pravděpodobně přežije naši kolizi s černou dírou', zatímco jiní méně vděční uživatelé jej považují za sdílení většiny své technologické DNA se struhadlem na sýr."
 
 #: /Language/Things/RecordThing[Key='StructureComputer']
 msgctxt "Things.StructureComputer"
