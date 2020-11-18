@@ -6,10 +6,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Things/RecordThing[Key='ItemKitLogicTransmitter']
-msgctxt "Things.ItemKitLogicTransmitter"
-msgid "Kit (Logic Transmitter)"
-msgstr "Kit (Logic Transmitter)"
+#: /Language/Things/RecordThing[Key='Robot']
+msgctxt "Things.Robot"
+msgid "Designed by - presumably drunk - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> best friend, or tiresome nemesis, or both several times in the same day. Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate.\nAIMEe has 7 modes:\nRobotMode.None = 0 = Do nothing\nRobotMode.None = 1 = Follow nearest player\nRobotMode.None = 2 = Move to target in straight line\nRobotMode.None = 3 = Wander around looking for ores in 15 co-ords radius\nRobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids\nRobotMode.None = 5 = Path(find) to target\nRobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
+msgstr "Designed by - presumably drunk - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> best friend, or tiresome nemesis, or both several times in the same day. Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate.\nAIMEe has 7 modes:\nRobotMode.None = 0 = Do nothing\nRobotMode.None = 1 = Follow nearest player\nRobotMode.None = 2 = Move to target in straight line\nRobotMode.None = 3 = Wander around looking for ores in 15 co-ords radius\nRobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids\nRobotMode.None = 5 = Path(find) to target\nRobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_6m']
+msgctxt "Things.Flag_ODA_6m"
+msgid "Flag ODA 6m"
+msgstr "Flag ODA 6m"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_6m']
+msgctxt "Things.Flag_ODA_6m"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
+msgctxt "Things.Flag_ODA_4m"
+msgid "Flag ODA 4m"
+msgstr "Flag ODA 4m"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
+msgctxt "Things.Flag_ODA_4m"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageStructureRTG1']
 msgctxt "Things.ItemWreckageStructureRTG1"
@@ -110,26 +130,6 @@ msgstr "Rover MKI"
 msgctxt "Things.Rover_MkI_build_states"
 msgid "{BLANK}"
 msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
-msgctxt "Things.Flag_ODA_4m"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
-msgctxt "Things.Flag_ODA_4m"
-msgid "Flag ODA 4m"
-msgstr "Flag ODA 4m"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_6m']
-msgctxt "Things.Flag_ODA_6m"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_6m']
-msgctxt "Things.Flag_ODA_6m"
-msgid "Flag ODA 6m"
-msgstr "Flag ODA 6m"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_8m']
 msgctxt "Things.Flag_ODA_8m"
@@ -383,13 +383,13 @@ msgstr "Wreckage Airlock"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirlock1']
 msgctxt "Things.ItemWreckageAirlock1"
-msgid "Wreckage Airlock"
-msgstr "Wreckage Airlock"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
-msgctxt "Things.ItemWreckageCompositeDoor3"
 msgid "{BLANK}"
 msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageAirlock1']
+msgctxt "Things.ItemWreckageAirlock1"
+msgid "Wreckage Airlock"
+msgstr "Wreckage Airlock"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
 msgctxt "Things.ItemWreckageCompositeDoor3"
@@ -1686,11 +1686,6 @@ msgctxt "Things.ItemSensorProcessingUnitOreScanner"
 msgid "Sensor Processing Unit (Ore Scanner)"
 msgstr "Sensor Processing Unit (Ore Scanner)"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageAirlock1']
-msgctxt "Things.ItemWreckageAirlock1"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='ModularRocketCargo01']
 msgctxt "Things.ModularRocketCargo01"
 msgid "Rocket Cargo"
@@ -1705,6 +1700,11 @@ msgstr "Rocket Command Lander"
 msgctxt "Things.DynamicGasCanisterRocketFuel"
 msgid "Dynamic Gas Canister Rocket Fuel"
 msgstr "Dynamic Gas Canister Rocket Fuel"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
+msgctxt "Things.ItemWreckageCompositeDoor3"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitPipeOrgan']
 msgctxt "Things.ItemKitPipeOrgan"
@@ -2331,6 +2331,11 @@ msgctxt "Things.StructureAdvancedFurnace"
 msgid "Advanced Furnace"
 msgstr "Advanced Furnace"
 
+#: /Language/Things/RecordThing[Key='ItemKitLogicTransmitter']
+msgctxt "Things.ItemKitLogicTransmitter"
+msgid "Kit (Logic Transmitter)"
+msgstr "Kit (Logic Transmitter)"
+
 #: /Language/Things/RecordThing[Key='StructureLogicTransmitter']
 msgctxt "Things.StructureLogicTransmitter"
 msgid "Logic Transmitter"
@@ -2340,11 +2345,6 @@ msgstr "Logic Transmitter"
 msgctxt "Things.CartridgeGPS"
 msgid "GPS"
 msgstr "GPS"
-
-#: /Language/Things/RecordThing[Key='Robot']
-msgctxt "Things.Robot"
-msgid "Designed by - presumably drunk - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> best friend, or tiresome nemesis, or both several times in the same day. Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate.\nAIMEe has 7 modes:\nRobotMode.None = 0 = Do nothing\nRobotMode.None = 1 = Follow nearest player\nRobotMode.None = 2 = Move to target in straight line\nRobotMode.None = 3 = Wander around looking for ores in 15 co-ords radius\nRobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids\nRobotMode.None = 5 = Path(find) to target\nRobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
-msgstr "Designed by - presumably drunk - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> best friend, or tiresome nemesis, or both several times in the same day. Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate.\nAIMEe has 7 modes:\nRobotMode.None = 0 = Do nothing\nRobotMode.None = 1 = Follow nearest player\nRobotMode.None = 2 = Move to target in straight line\nRobotMode.None = 3 = Wander around looking for ores in 15 co-ords radius\nRobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids\nRobotMode.None = 5 = Path(find) to target\nRobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
 
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
@@ -4683,8 +4683,18 @@ msgstr "Conveyor (Corner)"
 
 #: /Language/Things/RecordThing[Key='StructureControlChair']
 msgctxt "Things.StructureControlChair"
+msgid "Once, these chairs were the heart of space-going behemoths. Now, they're items of nostalgia built by a handful of Stationeers with a sense of history. In other words, it's kitsch."
+msgstr "Once, these chairs were the heart of space-going behemoths. Now, they're items of nostalgia built by a handful of Stationeers with a sense of history. In other words, it's kitsch."
+
+#: /Language/Things/RecordThing[Key='StructureControlChair']
+msgctxt "Things.StructureControlChair"
 msgid "Control Chair"
 msgstr "Control Chair"
+
+#: /Language/Things/RecordThing[Key='StructureConsoleMonitor']
+msgctxt "Things.StructureConsoleMonitor"
+msgid "This <color=#0080FFFF>{LINK:Norsec;Norsec-designed}</color> control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} and {THING:StructureCompositeDoor}, depending on which <color=#0080FFFF>{LINK:LogicPage;circuitboard}</color> is inserted into the unit. It has a shared data/power port, and a charming sloped interface.\nA completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed."
+msgstr "This <color=#0080FFFF>{LINK:Norsec;Norsec-designed}</color> control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} and {THING:StructureCompositeDoor}, depending on which <color=#0080FFFF>{LINK:LogicPage;circuitboard}</color> is inserted into the unit. It has a shared data/power port, and a charming sloped interface.\nA completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed."
 
 #: /Language/Things/RecordThing[Key='StructureConsoleMonitor']
 msgctxt "Things.StructureConsoleMonitor"
@@ -4693,8 +4703,18 @@ msgstr "Console Monitor"
 
 #: /Language/Things/RecordThing[Key='StructureConsoleDual']
 msgctxt "Things.StructureConsoleDual"
+msgid "This <color=#0080FFFF>{LINK:Norsec;Norsec-designed}</color> control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} and others, depending on which <color=#0080FFFF>{LINK:LogicPage;circuitboard}</color> is inserted into the unit. It has separate data and power ports.\nA completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed."
+msgstr "This <color=#0080FFFF>{LINK:Norsec;Norsec-designed}</color> control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} and others, depending on which <color=#0080FFFF>{LINK:LogicPage;circuitboard}</color> is inserted into the unit. It has separate data and power ports.\nA completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed."
+
+#: /Language/Things/RecordThing[Key='StructureConsoleDual']
+msgctxt "Things.StructureConsoleDual"
 msgid "Console Dual"
 msgstr "Console Dual"
+
+#: /Language/Things/RecordThing[Key='StructureConsole']
+msgctxt "Things.StructureConsole"
+msgid "This <color=#0080FFFF>{LINK:Norsec;Norsec-designed}</color> control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} and {THING:StructureCompositeDoor}, depending on which <color=#0080FFFF>{LINK:LogicPage;circuitboard}</color> is inserted into the unit. It has a shared data/power port.\nA completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed."
+msgstr "This <color=#0080FFFF>{LINK:Norsec;Norsec-designed}</color> control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} and {THING:StructureCompositeDoor}, depending on which <color=#0080FFFF>{LINK:LogicPage;circuitboard}</color> is inserted into the unit. It has a shared data/power port.\nA completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed."
 
 #: /Language/Things/RecordThing[Key='StructureConsole']
 msgctxt "Things.StructureConsole"
@@ -6231,10 +6251,10 @@ msgctxt "Things.ItemGasCanisterOxygen"
 msgid "The white portable 64L canister is the <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> basic unit of <color=#0080FFFF>{LINK:GasPage;oxygen}</color> delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
 msgstr "The white portable 64L canister is the <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> basic unit of <color=#0080FFFF>{LINK:GasPage;oxygen}</color> delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
 
-#: /Language/Things/RecordThing[Key='ItemGasCanisterOxygen']
-msgctxt "Things.ItemGasCanisterOxygen"
-msgid "Canister (Oxygen)"
-msgstr "Canister (Oxygen)"
+#: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
+msgctxt "Things.ItemGasCanisterNitrogen"
+msgid "The green portable <color=#0080FFFF>{LINK:GasPage;nitrogen or nitrous oxide}</color> canister supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
+msgstr "The green portable <color=#0080FFFF>{LINK:GasPage;nitrogen or nitrous oxide}</color> canister supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
 msgctxt "Things.ItemGasCanisterNitrogen"
@@ -7518,8 +7538,8 @@ msgstr "Body Part Astronaut Female Arm"
 
 #: /Language/Things/RecordThing[Key='ApplianceReagentProcessor']
 msgctxt "Things.ApplianceReagentProcessor"
-msgid "Sitting somewhere between a high powered juicer and an alchemist's alembic, the <color=#0080FFFF>{LINK:Xigo;Xigo}</color> reagent processor turns certain raw materials into critical ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go."
-msgstr "Sitting somewhere between a high powered juicer and an alchemist's alembic, the <color=#0080FFFF>{LINK:Xigo;Xigo}</color> reagent processor turns certain raw materials into critical ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go."
+msgid "Sitting somewhere between a high powered juicer and an alchemist's alembic, the <color=#0080FFFF>{LINK:Xigo;Xigo}</color> reagent processor turns certain raw materials and food items into cooking and crafting ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go."
+msgstr "Sitting somewhere between a high powered juicer and an alchemist's alembic, the <color=#0080FFFF>{LINK:Xigo;Xigo}</color> reagent processor turns certain raw materials and food items into cooking and crafting ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go."
 
 #: /Language/Things/RecordThing[Key='ApplianceReagentProcessor']
 msgctxt "Things.ApplianceReagentProcessor"
@@ -7536,7 +7556,7 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Microwave"
 
-#: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
-msgctxt "Things.ItemGasCanisterNitrogen"
-msgid "The green portable <color=#0080FFFF>{LINK:GasPage;nitrogen or nitrous oxide}</color> canister supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
-msgstr "The green portable <color=#0080FFFF>{LINK:GasPage;nitrogen or nitrous oxide}</color> canister supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
+#: /Language/Things/RecordThing[Key='ItemGasCanisterOxygen']
+msgctxt "Things.ItemGasCanisterOxygen"
+msgid "Canister (Oxygen)"
+msgstr "Canister (Oxygen)"
