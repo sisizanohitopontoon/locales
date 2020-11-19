@@ -24,6 +24,16 @@ msgid ""
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
+msgctxt "Things.Flag_ODA_8m"
+msgid "Flag ODA 8m"
+msgstr "Drapeau ODA 8m"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
+msgctxt "Things.Flag_ODA_8m"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
 #: /Language/Things/RecordThing[Key='Flag_ODA_6m']
 msgctxt "Things.Flag_ODA_6m"
 msgid "Flag ODA 6m"
@@ -147,16 +157,6 @@ msgstr "{BLANK}"
 msgctxt "Things.Rover_MkI_build_states"
 msgid "{BLANK}"
 msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
-msgctxt "Things.Flag_ODA_8m"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
-msgctxt "Things.Flag_ODA_8m"
-msgid "Flag ODA 8m"
-msgstr "Drapeau ODA 8m"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_10m']
 msgctxt "Things.Flag_ODA_10m"
@@ -410,8 +410,8 @@ msgstr "Panneau de commande d'une {THING:StructureAirlock}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
 msgctxt "Things.ItemWreckageCompositeDoor3"
-msgid "Wreckage Composite Door"
-msgstr "Panneau de commande d'une {THING:StructureCompositeDoor}"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
 msgctxt "Things.ItemWreckageCompositeDoor2"
@@ -1720,15 +1720,15 @@ msgctxt "Things.DynamicGasCanisterRocketFuel"
 msgid "Dynamic Gas Canister Rocket Fuel"
 msgstr "Bouteille dynamique (carburant fusée)"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
-msgctxt "Things.ItemWreckageCompositeDoor3"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='ItemKitPipeOrgan']
 msgctxt "Things.ItemKitPipeOrgan"
 msgid "Kit (Pipe Organ)"
 msgstr "Kit (Orgue)"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
+msgctxt "Things.ItemWreckageCompositeDoor3"
+msgid "Wreckage Composite Door"
+msgstr "Panneau de commande d'une {THING:StructureCompositeDoor}"
 
 #: /Language/Things/RecordThing[Key='StructurePipeOrgan']
 msgctxt "Things.StructurePipeOrgan"
@@ -2241,6 +2241,15 @@ msgid "RTG"
 msgstr "RTG"
 
 #: /Language/Things/RecordThing[Key='ItemJetpackBasic']
+#, fuzzy
+msgctxt "Things.ItemJetpackBasic"
+msgid ""
+"The basic <color=#0080FFFF>{LINK:CHAC;CHAC}</color> jetpack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the <color=#0080FFFF>{LINK:AtmosphericsPage;canister}</color> is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.\n"
+"Indispensible for building, mining and general movement, it has ten storage slots and lets <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
+"USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
+msgstr "Jetpack basique"
+
+#: /Language/Things/RecordThing[Key='ItemJetpackBasic']
 msgctxt "Things.ItemJetpackBasic"
 msgid "Jetpack Basic"
 msgstr "Jetpack basique"
@@ -2640,6 +2649,15 @@ msgstr "Kit (Station Hydroponique portable)"
 msgctxt "Things.DynamicHydroponics"
 msgid "Portable Hydroponics"
 msgstr "Station Hydroponique portable"
+
+#: /Language/Things/RecordThing[Key='ItemHardJetpack']
+#, fuzzy
+msgctxt "Things.ItemHardJetpack"
+msgid ""
+"The <color=#0080FFFF>{LINK:Norsec;Norsec}</color> jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the <color=#0080FFFF>{LINK:AtmosphericsPage;canister}</color> is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
+"The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensible for building, mining and general movement, it has fifteen storage slots.\n"
+"USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
+msgstr "Propulseur dorsal renforcé"
 
 #: /Language/Things/RecordThing[Key='ItemHardJetpack']
 msgctxt "Things.ItemHardJetpack"
@@ -4654,7 +4672,7 @@ msgstr "Filtration"
 #: /Language/Things/RecordThing[Key='StructureFabricator']
 #, fuzzy
 msgctxt "Things.StructureFabricator"
-msgid "Capable of manufacturing a vast array of items, the <color=#0080FFFF>{LINK:Norsec;Norsec}</color> General Fabricator was considered too powerful by the <color=#0080FFFF>{LINK:ODA;ODA}</color> for civilian - or even general <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> - use. As a result, its deployment is now heavily regulated."
+msgid "Capable of manufacturing a vast array of items, the <color=#0080FFFF>{LINK:Norsec;Norsec}</color> General Fabricator was considered too risky by the <color=#0080FFFF>{LINK:ODA;ODA}</color> for widespread use. Certainly, it has been used for purposes beyond those it was intended, including counterfeiting, terrorism, and bad art. As a result, its deployment is now heavily regulated."
 msgstr "Fabricateur"
 
 #: /Language/Things/RecordThing[Key='StructureFabricator']
@@ -5555,9 +5573,9 @@ msgstr "Peinture en Aérosol (Noir)"
 #, fuzzy
 msgctxt "Things.ItemSpacepack"
 msgid ""
-"The basic spacepack isn't 'technically' a jetpack, it's a gas thruster. Indispensible for building, mining and general movement, it lets <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
-"The spacepack has ten storage slots and can be powered by any gas, so long as the internal pressure of the <color=#0080FFFF>{LINK:AtmosphericsPage;canister}</color> is higher than the ambient external pressure. If the external pressure is greater, the jetpack will not function.\n"
-"Use 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
+"The basic <color=#0080FFFF>{LINK:CHAC;CHAC}</color> spacepack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the <color=#0080FFFF>{LINK:AtmosphericsPage;canister}</color> is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.\n"
+"Indispensible for building, mining and general movement, it has ten storage slots and lets <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
+"USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
 msgstr "Sac à dos Spatial"
 
 #: /Language/Things/RecordThing[Key='ItemSpacepack']
