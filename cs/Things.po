@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-20 20:41+0000\n"
+"PO-Revision-Date: 2020-11-20 20:46+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11,7 +11,6 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: /Language/Things/RecordThing[Key='Robot']
-#, fuzzy
 msgctxt "Things.Robot"
 msgid ""
 "Designed by - presumably drunk - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> best friend, or tiresome nemesis, or both several times in the same day. Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate.\n"
@@ -23,7 +22,16 @@ msgid ""
 "RobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids\n"
 "RobotMode.None = 5 = Path(find) to target\n"
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
-msgstr "AIMeE Bot"
+msgstr ""
+"AIMeE (nebo Automatizovaná nezávislá mechanická entita), navržená - pravděpodobně opilými - robotiky <color=#0080FFFF>{LINK:Norsec;Norsec}</color>, může být nejlepším přítelem <color=#0080FFFF>{LINK:Stationeers;Stationeera}</color>, nebo otravným nemesis, nebo obojím několikrát ve stejný den. Jednotka určená k automatickému odkrývání a získávání rud, vyžaduje pro provoz základní znalosti programování.\n"
+"AIMEe má 7 režimů:\n"
+"RobotMode.None = 0 = Nedělat nic\n"
+"RobotMode.None = 1 = Sledovat nejbližšího hráče\n"
+"RobotMode.None = 2 = Přesunout se za cílem v přímé linii\n"
+"RobotMode.None = 3 = Projíždět kolem a hledat rudy v okruhu 15 souřadnic\n"
+"RobotMode.None = 4 = Vykládat na vstupu do skluzu nebo do šachty do 3 metrů / 1,5 velké mřížky\n"
+"RobotMode.None = 5 = Cesta (najít) k cíli\n"
+"RobotMode.None = 6 = Automaticky přiřazený stav, ukazuje, kdy jsou sloty úložiště plné"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_8m']
 msgctxt "Things.Flag_ODA_8m"
