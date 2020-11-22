@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-22 12:27+0000\n"
-"Last-Translator: socramazibi <socramazibi@yahoo.es>\n"
+"PO-Revision-Date: 2020-11-22 14:04+0000\n"
+"Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -23,6 +23,15 @@ msgid ""
 "RobotMode.None = 5 = Path(find) to target\n"
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
 msgstr ""
+"Diseñado por un robotista presumiblemente borracho, <color=#0080FFFF>{LINK:Norsec;Norsec}</color> , AIMeE (o entidad mecánica independiente automatizada) puede ser un <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> mejor amigo, o una molesta némesis, o ambas cosas varias veces en el mismo día. Destinada a desenterrar y recuperar minerales automáticamente, la unidad requiere conocimientos básicos de programación para funcionar.\n"
+"AIMEe tiene 7 modos:\n"
+"RobotMode.None = 0 = No hacer nada\n"
+"RobotMode.None = 1 = Sigue al jugador más cercano\n"
+"RobotMode.None = 2 = Mover al objetivo en línea recta\n"
+"RobotMode.None = 3 = deambular buscando minerales en un radio de 15 coordenadas\n"
+"RobotMode.None = 4 = Descarga en la entrada de la tolva o tolva dentro de los 3 metros / 1.5 rejillas grandes\n"
+"RobotMode.None = 5 = Ruta (buscar) al objetivo\n"
+"RobotMode.None = 6 = Estado asignado automático, muestra cuando las ranuras de almacenamiento están llenas"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_8m']
 msgctxt "Things.Flag_ODA_8m"
@@ -2421,6 +2430,9 @@ msgid ""
 "Indispensible for building, mining and general movement, it has ten storage slots and lets <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
 msgstr ""
+"El jetpack <color=#0080FFFF>{LINK:CHAC;CHAC}</color> básico no es 'técnicamente' un jetpack, es un propulsor de gas. Puede funcionar con cualquier gas, siempre que la presión interna del <color=#0080FFFF>{LINK:AtmosphericsPage;canister}</color> sea mayor que la presión externa ambiental. Si la presión externa es mayor, el spacepack no funcionará.\n"
+"Indispensable para la construcción, la minería y el movimiento en general, tiene diez espacios de almacenamiento y permite que <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> vuele a 3 m/s, en comparación con el {THING:ItemHardJetpack} más potente. El ajuste del valor de empuje altera su tasa de aceleración, mientras que la activación del estabilizador hace que el paquete espacial se mueva cuando se alcanza una altura determinada.\n"
+"USE: 'J' para activar; 'espacio' para volar; 'Ctrl izquierda' para descender; y 'WASD' para moverse."
 
 #: /Language/Things/RecordThing[Key='ItemJetpackBasic']
 msgctxt "Things.ItemJetpackBasic"
@@ -2830,6 +2842,9 @@ msgid ""
 "The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensible for building, mining and general movement, it has fifteen storage slots.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
 msgstr ""
+"El <color=#0080FFFF>{LINK:Norsec;Norsec}</color> jetpack no es 'técnicamente' un jetpack en absoluto, es un propulsor de gas. Puede funcionar con cualquier gas, siempre que la presión interna del <color=#0080FFFF>{LINK:AtmosphericsPage;canister}</color> sea mayor que la presión externa ambiental. Si la presión externa es mayor, el spacepack no funcionará. El ajuste del valor de empuje altera su tasa de aceleración, mientras que la activación del estabilizador hace que el paquete espacial se mueva cuando se alcanza una altura determinada.\n"
+"El jetpack de traje duro es capaz de alcanzar velocidades mucho más altas que el {THING:ItemJetpackBasic}: hasta 15 m / s. Indispensable para edificación, minería y movimiento en general, cuenta con quince ranuras de almacenamiento.\n"
+"USE: 'J' para activar; 'espacio' para volar; 'Ctrl izquierda' para descender; y 'WASD' para moverse."
 
 #: /Language/Things/RecordThing[Key='ItemHardJetpack']
 msgctxt "Things.ItemHardJetpack"
@@ -4614,7 +4629,7 @@ msgstr "Tanque Pequeño"
 #: /Language/Things/RecordThing[Key='StructureTankConnector']
 msgctxt "Things.StructureTankConnector"
 msgid "Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a pipe network."
-msgstr ""
+msgstr "Los conectores de tanque son dispositivos de montaje básicos que le permiten conectar una {THING:DynamicGasCanisterEmpty} a una red de tuberías."
 
 #: /Language/Things/RecordThing[Key='StructureTankConnector']
 msgctxt "Things.StructureTankConnector"
@@ -4764,7 +4779,7 @@ msgstr "Sensor de Movimiento"
 #: /Language/Things/RecordThing[Key='StructureLocker']
 msgctxt "Things.StructureLocker"
 msgid "If a tidy base is the sign of a ordered mind, lockers are the post upon which that sign sits."
-msgstr ""
+msgstr "Si una base ordenada es el signo de una mente ordenada, los casilleros son el poste sobre el que se asienta ese letrero."
 
 #: /Language/Things/RecordThing[Key='StructureLocker']
 msgctxt "Things.StructureLocker"
@@ -4847,6 +4862,9 @@ msgid ""
 "Capable of manufacturing a vast array of items, the <color=#0080FFFF>{LINK:Norsec;Norsec}</color> General Fabricator was considered too risky by the <color=#0080FFFF>{LINK:ODA;ODA}</color> for "
 "widespread use. Certainly, it has been used for purposes beyond those it was intended, including counterfeiting, terrorism, and bad art. As a result, its deployment is now heavily regulated."
 msgstr ""
+"Capaz de fabricar una amplia variedad de artículos, el <color=#0080FFFF>{LINK:Norsec;Norsec}</color> General Fabricator fue considerado demasiado arriesgado por el <color=#0080FFFF>{LINK:ODA;ODA}</ "
+"color> para uso generalizado. Ciertamente, se ha utilizado para fines más allá de los previstos, incluida la falsificación, el terrorismo y el mal arte. Como resultado, su implementación ahora está "
+"fuertemente regulada."
 
 #: /Language/Things/RecordThing[Key='StructureFabricator']
 msgctxt "Things.StructureFabricator"
@@ -4897,6 +4915,8 @@ msgstr "Cinta (Esquina)"
 msgctxt "Things.StructureControlChair"
 msgid "Once, these chairs were the heart of space-going behemoths. Now, they're items of nostalgia built by a handful of Stationeers with a sense of history. In other words, it's kitsch."
 msgstr ""
+"Una vez, estas sillas fueron el corazón de los gigantes del espacio. Ahora, son elementos de nostalgia construidos por un puñado de Stationeers con un sentido de la historia. En otras palabras, es "
+"kitsch."
 
 #: /Language/Things/RecordThing[Key='StructureControlChair']
 msgctxt "Things.StructureControlChair"
@@ -4955,6 +4975,8 @@ msgstr "Ordenador"
 msgctxt "Things.StructureCompositeWindow"
 msgid "Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function."
 msgstr ""
+"Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la "
+"función."
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWindow']
 msgctxt "Things.StructureCompositeWindow"
@@ -4965,6 +4987,8 @@ msgstr "Ventana Compuesta"
 msgctxt "Things.StructureCompositeWallType4"
 msgid "Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function."
 msgstr ""
+"Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la "
+"función."
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWallType4']
 msgctxt "Things.StructureCompositeWallType4"
@@ -4975,6 +4999,8 @@ msgstr "Pared compuesta (Tipo 4)"
 msgctxt "Things.StructureCompositeWallType3"
 msgid "Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their focus on form over function."
 msgstr ""
+"Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la "
+"función."
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWallType3']
 msgctxt "Things.StructureCompositeWallType3"
@@ -4985,6 +5011,8 @@ msgstr "Pared Compuesta (Tipo 3)"
 msgctxt "Things.StructureCompositeWallType2"
 msgid "Air-tight and resistant to extreme temperatures, composite walls come several charming, near identical varieties - reflecting their focus on form over function."
 msgstr ""
+"Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la "
+"función."
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWallType2']
 msgctxt "Things.StructureCompositeWallType2"
@@ -4995,6 +5023,8 @@ msgstr "Pared Compuesta (Tipo 2)"
 msgctxt "Things.StructureCompositeWallType1"
 msgid "Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function."
 msgstr ""
+"Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la "
+"función."
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWallType1']
 msgctxt "Things.StructureCompositeWallType1"
@@ -5015,6 +5045,7 @@ msgstr "Compuesto de Pared Redondo"
 msgctxt "Things.StructureCompositeWall"
 msgid "Air-tight and resistant to extreme temperatures, composite walls favor form over function, coming in a range of slightly different, functionally identical varieties."
 msgstr ""
+"Herméticos y resistentes a temperaturas extremas, las paredes compuestas favorecen la forma sobre la función, y vienen en una gama de variedades ligeramente diferentes y funcionalmente idénticas."
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWall']
 msgctxt "Things.StructureCompositeWall"
@@ -5039,6 +5070,8 @@ msgid ""
 "<color=#0080FFFF>{LINK:Recurso;Recurso's}</color> composite doors are rated to 300kPa, which is more than sufficient for most purposes they were designed for. However, steep pressure differentials "
 "are not your friend."
 msgstr ""
+"<color=#0080FFFF>{LINK:Recurso;Recurso's}</color> Las puertas compuestas tienen una resistencia de 300kPa, que es más que suficiente para la mayoría de los propósitos para los que fueron diseñadas. "
+"Sin embargo, los diferenciales de presión pronunciados no son tus amigos."
 
 #: /Language/Things/RecordThing[Key='StructureCompositeDoor']
 msgctxt "Things.StructureCompositeDoor"
@@ -5120,7 +5153,7 @@ msgstr "Contenedor con Tolva"
 #: /Language/Things/RecordThing[Key='StructureChair']
 msgctxt "Things.StructureChair"
 msgid "One of the universe's many chairs, optimized for bipeds with somewhere between zero and two upper limbs."
-msgstr ""
+msgstr "Una de las muchas sillas del universo, optimizada para bípedos con entre cero y dos miembros superiores."
 
 #: /Language/Things/RecordThing[Key='StructureChair']
 msgctxt "Things.StructureChair"
@@ -5133,6 +5166,8 @@ msgid ""
 "If a {THING:StructureRecycler} or unbalanced{THING:StructureFurnace} outputs <color=#0080FFFF>{LINK:ReagentPage;reagent}</color> mixture rather than the desired "
 "<color=#0080FFFF>{LINK:IngotPage;ingots}</color>, a centrifuge allows you to reclaim the raw ores."
 msgstr ""
+"Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desequilibrado genera <color=#0080FFFF>{LINK:ReagentPage;reagent}</color> mezcla en lugar del "
+"<color=#0080FFFF>{LINK:IngotPage;ingots}</color> deseado, una centrífugadora le permite recuperar los minerales crudos separados."
 
 #: /Language/Things/RecordThing[Key='StructureCentrifuge']
 msgctxt "Things.StructureCentrifuge"
@@ -5158,6 +5193,8 @@ msgid ""
 "Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> life - so much so, the <color=#0080FFFF>{LINK:ODA;ODA}</color> designated it an official <color=#0080FFFF>{LINK:ToolPage;'tool'}</color>.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
+"Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color>, tanto es así, que la <color=#0080FFFF>{LINK:ODA;ODA}</color> lo designó como una <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> oficial.\n"
+"La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}."
 
 #: /Language/Things/RecordThing[Key='StructureCableStraight']
 msgctxt "Things.StructureCableStraight"
@@ -5170,6 +5207,8 @@ msgid ""
 "Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> duty - so much so, the <color=#0080FFFF>{LINK:ODA;ODA}</color> designated it an official <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
+"Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color>, tanto es así, que la <color=#0080FFFF>{LINK:ODA;ODA}</color> lo designó como una <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> oficial.\n"
+"La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}."
 
 #: /Language/Things/RecordThing[Key='StructureCableJunction6']
 msgctxt "Things.StructureCableJunction6"
@@ -5182,6 +5221,8 @@ msgid ""
 "Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> life - so much so, the <color=#0080FFFF>{LINK:ODA;ODA}</color> designated it an official <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
+"Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color>, tanto es así, que la <color=#0080FFFF>{LINK:ODA;ODA}</color> lo designó como una <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> oficial.\n"
+"La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}."
 
 #: /Language/Things/RecordThing[Key='StructureCableJunction4']
 msgctxt "Things.StructureCableJunction4"
@@ -5194,6 +5235,8 @@ msgid ""
 "Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> life - so much so, the <color=#0080FFFF>{LINK:ODA;ODA}</color> designated it an official <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
+"Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color>, tanto es así, que la <color=#0080FFFF>{LINK:ODA;ODA}</color> lo designó como una <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> oficial.\n"
+"La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}."
 
 #: /Language/Things/RecordThing[Key='StructureCableJunction']
 msgctxt "Things.StructureCableJunction"
@@ -5206,6 +5249,8 @@ msgid ""
 "Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> life - so essential, the <color=#0080FFFF>{LINK:ODA;ODA}</color> designated it an official <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
+"Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color>, tanto es así, que la <color=#0080FFFF>{LINK:ODA;ODA}</color> lo designó como una <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> oficial.\n"
+"La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}."
 
 #: /Language/Things/RecordThing[Key='StructureCableCorner3']
 msgctxt "Things.StructureCableCorner3"
@@ -5218,6 +5263,8 @@ msgid ""
 "Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> life - so essential, the <color=#0080FFFF>{LINK:ODA;ODA}</color> designated it an official <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
+"Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color>, tanto es así, que la <color=#0080FFFF>{LINK:ODA;ODA}</color> lo designó como una <color=#0080FFFF>{LINK:ToolPage;'tool'}</color> oficial.\n"
+"La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}."
 
 #: /Language/Things/RecordThing[Key='StructureCableCorner']
 msgctxt "Things.StructureCableCorner"
@@ -5230,6 +5277,8 @@ msgid ""
 "Airtight and almost undamageable, the original 'Millmar' series of blast door was designed by off-world mining giant <color=#0080FFFF>{LINK:Recurso;Recurso}</color> to protect asteroid-mining facilities from nuclear-incident-level explosive decompression.\n"
 "Short of a pocket-sized singularity blinking into the local space-time frame, there is effectively no limit to the pressure these blast doors can contain - ideal for constructing airlocks in pressure-sensitive environments."
 msgstr ""
+"Hermética y casi indemne, la serie original de puertas blindadas 'Millmar' fue diseñada por el gigante minero externo <color=#0080FFFF>{LINK:Recurso;Recurso}</color> para proteger las instalaciones mineras de asteroides de incidentes nucleares. nivel de descompresión explosiva.\n"
+"A falta de una singularidad del tamaño de bolsillo que parpadea en el marco del espacio-tiempo local, efectivamente no hay límite para la presión que estas puertas blindadas pueden contener, ideal para construir esclusas de aire en entornos sensibles a la presión."
 
 #: /Language/Things/RecordThing[Key='StructureBlastDoor']
 msgctxt "Things.StructureBlastDoor"
@@ -5239,7 +5288,7 @@ msgstr "Puerta Blindada"
 #: /Language/Things/RecordThing[Key='StructureBench']
 msgctxt "Things.StructureBench"
 msgid "When it's time to sit, nothing supports you like a bench."
-msgstr ""
+msgstr "Cuando llega el momento de sentarse, nada te apoya más que un banco."
 
 #: /Language/Things/RecordThing[Key='StructureBench']
 msgctxt "Things.StructureBench"
@@ -5252,6 +5301,8 @@ msgid ""
 "The 5-slot <color=#0080FFFF>{LINK:Xigo;Xigo}</color> battery charger fits the {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} and {THING:ItemBatteryCellNuclear}, providing up to 500W to any "
 "connected cell. Note: the older design means this device has minor power draw (10W) even when not charging."
 msgstr ""
+"El cargador de batería <color=#0080FFFF>{LINK:Xigo;Xigo}</color> de 5 ranuras se adapta a {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} y {THING:ItemBatteryCellNuclear}, y proporciona hasta "
+"500 W a cualquier célula. Nota: el diseño anterior significa que este dispositivo tiene un consumo de energía mínimo (10 W) incluso cuando no se está cargando."
 
 #: /Language/Things/RecordThing[Key='StructureBatteryCharger']
 msgctxt "Things.StructureBatteryCharger"
@@ -5265,6 +5316,9 @@ msgid ""
 "There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' \n"
 "Able to store up to 1kWh of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate our their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}."
 msgstr ""
+"Al proporcionar almacenamiento de energía confiable y a gran escala, la batería de la estación <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> 'Dianzi' es el corazón de la mayoría de <color=#0080FFFF>{LINK: Stationeers;Stationeer}</color> bases.\n"
+"Hay una variedad de precauciones para el diseño de sistemas eléctricos que utilizan baterías, y cada Stationeer experimentado tiene una historia que contar, de ahí el adagio Stationeer: \"Dianzi cocina, pero también fríe\".\n"
+"Capaz de almacenar hasta 1kWh de energía, no hay límites prácticos para su rendimiento, por lo tanto, es aconsejable usar {THING:ItemCableCoilHeavy}. Los ingenieros eléctricos experimentados también se reirán de aquellos que no logran separar nuestras redes de generación de energía usando {THING:StructureAreaPowerControl} y {THING:StructureTransformer}."
 
 #: /Language/Things/RecordThing[Key='StructureBattery']
 msgctxt "Things.StructureBattery"
@@ -5275,6 +5329,8 @@ msgstr "Batería"
 msgctxt "Things.StructureBackPressureRegulator"
 msgid "Unlike the {THING:StructurePressureRegulator}, which closes when the input exceeds a given pressure, the back pressure regulator opens when input pressure reaches a given value."
 msgstr ""
+"A diferencia de el {THING:StructurePressureRegulator}, que se cierra cuando la entrada supera una presión determinada, el regulador de contrapresión se abre cuando la presión de entrada alcanza un "
+"valor determinado."
 
 #: /Language/Things/RecordThing[Key='StructureBackPressureRegulator']
 msgctxt "Things.StructureBackPressureRegulator"
@@ -5287,6 +5343,8 @@ msgid ""
 "An Area Power Control (APC) has three main functions. \n"
 "An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage."
 msgstr ""
+"Un control de potencia de área (APC) tiene tres funciones principales.\n"
+"El propósito principal de un APC es regular el flujo de energía, asegurando un rendimiento ininterrumpido de los dispositivos y maquinaria, especialmente aquellos con un consumo fluctuante. Los APC también crean subredes, ya que ningún dispositivo en el extremo más alejado de un APC es visible en la red principal. Por último, un APC carga las baterías, lo que puede proporcionar energía de respaldo a la subred en caso de una interrupción de energia."
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControlReversed']
 msgctxt "Things.StructureAreaPowerControlReversed"
@@ -5299,6 +5357,8 @@ msgid ""
 "An Area Power Control (APC) has three main functions. \n"
 "An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage."
 msgstr ""
+"Un control de potencia de área (APC) tiene tres funciones principales.\n"
+"El propósito principal de un APC es regular el flujo de energía, asegurando un rendimiento ininterrumpido de los dispositivos y maquinaria, especialmente aquellos con un consumo fluctuante. Los APC también crean subredes, ya que ningún dispositivo en el extremo más alejado de un APC es visible en la red principal. Por último, un APC carga las baterías, lo que puede proporcionar energía de respaldo a la subred en caso de una interrupción de energia."
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControl']
 msgctxt "Things.StructureAreaPowerControl"
@@ -5309,6 +5369,8 @@ msgstr "Control de Energía "
 msgctxt "Things.StructureAirlock"
 msgid "The standard airlock is a powered portal that forms the main component of an airlock chamber. As long as the airlock is not locked, it can be manually opened using a {Thing:ItemCrowbar}."
 msgstr ""
+"La esclusa de aire estándar es un portal motorizado que forma el componente principal de una cámara de esclusa. Siempre que la esclusa de aire no esté bloqueada, se puede abrir manualmente usando "
+"una {Thing:ItemCrowbar}."
 
 #: /Language/Things/RecordThing[Key='StructureAirlock']
 msgctxt "Things.StructureAirlock"
@@ -5334,6 +5396,8 @@ msgid ""
 "Fragments of the original <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> Handbook recovered from its self-induced singularity describe the design of active vents:\n"
 "... active vent is a powered device for maintaining <color=#0080FFFF>{LINK:GasPage;gas}</color> pressure by pumping gas into (or out of) a pipe network. The vent has two modes: 'Outward' sets it to pump gas into a space until pressure is reached; 'Inward' sets it to pump gas out until pressure is reached. The pressure parameter can be set on a connected {THING:StructureConsole}. Default pressure is 101kPa for Outward; 0kPa for Inward ..."
 msgstr ""
+"Los fragmentos del manual <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> original recuperados de su singularidad autoinducida describen el diseño de ventilaciones activas:\n"
+"... la ventilación activa es un dispositivo motorizado para mantener la presión de <color=#0080FFFF>{LINK:GasPage;gas}</color> bombeando gas dentro (o fuera) de una red de tuberías. El respiradero tiene dos modos: \"Hacia afuera\" lo configura para bombear gas en un espacio hasta que se alcanza la presión; 'Inward' lo configura para bombear gas hasta que se alcanza la presión. El parámetro de presión se puede configurar en una {THING:StructureConsole} conectada. La presión predeterminada es 101 kPa para el exterior; 0kPa para el interior..."
 
 #: /Language/Things/RecordThing[Key='StructureActiveVent']
 msgctxt "Things.StructureActiveVent"
@@ -5343,7 +5407,7 @@ msgstr "Ventilación Activa"
 #: /Language/Things/RecordThing[Key='SpaceShuttle']
 msgctxt "Things.SpaceShuttle"
 msgid "An antiquated <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> transport craft, long since de-commissioned."
-msgstr ""
+msgstr "Una nave de transporte <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> anticuada, que se retiró del servicio hace mucho tiempo."
 
 #: /Language/Things/RecordThing[Key='SpaceShuttle']
 msgctxt "Things.SpaceShuttle"
@@ -5353,7 +5417,7 @@ msgstr "Transbordador"
 #: /Language/Things/RecordThing[Key='OrganLungs']
 msgctxt "Things.OrganLungs"
 msgid "Lungs are delicate organs. Keeping them at the correct temperature and pressure is advisable."
-msgstr ""
+msgstr "Los pulmones son órganos delicados. Es aconsejable mantenerlos a la temperatura y presión correctas."
 
 #: /Language/Things/RecordThing[Key='OrganLungs']
 msgctxt "Things.OrganLungs"
@@ -5392,6 +5456,8 @@ msgid ""
 "A relic of from an earlier era of space ambition, <color=#0080FFFF>{LINK:Sinotai;Sinotai's}</color> mothership cores formed the central element of a generation's space-going creations. While "
 "Sinotai's pivot to smaller, modular craft upset some purists, motherships continue to be built and maintained by dedicated enthusiasts."
 msgstr ""
+"Una reliquia de una era anterior de ambición espacial, los núcleos de nave nodriza de <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> formaron el elemento central de las creaciones espaciales de una"
+" generación. Si bien el giro de Sinotai hacia embarcaciones modulares más pequeñas molestó a algunos puristas, las naves nodrizas continúan siendo construidas y mantenidas por entusiastas dedicados."
 
 #: /Language/Things/RecordThing[Key='MothershipCore']
 msgctxt "Things.MothershipCore"
@@ -5440,6 +5506,8 @@ msgid ""
 "One of humanity's enduring contributions to the cosmos, the wrench represents the essence of our species. A simple, effective and spiritually barren tool, use it to build and deconstruct a variety "
 "of <color=#0080FFFF>{LINK:StructurePage;structures}</color>."
 msgstr ""
+"Una de las contribuciones perdurables de la humanidad al cosmos, la llave inglesa representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsela para "
+"construir y deconstruir una variedad de <color=#0080FFFF>{LINK:StructurePage;structures}</color>."
 
 #: /Language/Things/RecordThing[Key='ItemWrench']
 msgctxt "Things.ItemWrench"
@@ -5614,6 +5682,8 @@ msgid ""
 "A caricature of light itself, yellow lacks the self-confidence of red, or the swagger of purple. It's less fun than orange, but less emotionally limp than khaki. It's hard to know when yellow is "
 "appropriate, but it persists as a primary color regardless. Suggesting that yellow gonna yellow, no matter what anyone thinks."
 msgstr ""
+"Una caricatura de la luz en sí misma, el amarillo carece de la confianza en sí mismo del rojo o de la arrogancia del púrpura. Es menos divertido que el naranja, pero menos débil emocionalmente que "
+"el caqui. Es difícil saber cuándo es apropiado el amarillo, pero persiste como color primario independientemente. Sugiere que el amarillo se volverá amarillo, no importa lo que piensen los demás."
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanYellow']
 msgctxt "Things.ItemSprayCanYellow"
@@ -5633,7 +5703,7 @@ msgstr "Spray Pintura (Blanco)"
 #: /Language/Things/RecordThing[Key='ItemSprayCanRed']
 msgctxt "Things.ItemSprayCanRed"
 msgid "The king of colors, red is perhaps the defining tone of the universe. Linked to blood, royalty, fire and damnation, it is the chromatic expression of power."
-msgstr ""
+msgstr "El rey de los colores, el rojo es quizás el tono definitorio del universo. Vinculado a la sangre, la realeza, el fuego y la condenación, es la expresión cromática del poder."
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanRed']
 msgctxt "Things.ItemSprayCanRed"
@@ -5643,7 +5713,7 @@ msgstr "Spray Pintura (Rojo)"
 #: /Language/Things/RecordThing[Key='ItemSprayCanPurple']
 msgctxt "Things.ItemSprayCanPurple"
 msgid "Purple is a curious color. You need to be careful with purple. It can be very good, or go horribly, horribly wrong."
-msgstr ""
+msgstr "El morado es un color curioso. Debes tener cuidado con el morado. Puede ser muy bueno o salir horriblemente mal."
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanPurple']
 msgctxt "Things.ItemSprayCanPurple"
@@ -5656,6 +5726,8 @@ msgid ""
 "With the invention of enduring chemical dyes, the 20th century bestowed associations with innocence and tenderness upon this pale tint of red. Yet classically, it was the color of seduction and "
 "eroticism. Things change."
 msgstr ""
+"Con la invención de tintes químicos duraderos, el siglo XX otorgó asociaciones con inocencia y ternura a este pálido tinte rojo. Sin embargo, clásicamente, era el color de la seducción y el "
+"erotismo. Las cosas cambian."
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanPink']
 msgctxt "Things.ItemSprayCanPink"
@@ -5665,7 +5737,7 @@ msgstr "Spray Pintura (Rosa)"
 #: /Language/Things/RecordThing[Key='ItemSprayCanOrange']
 msgctxt "Things.ItemSprayCanOrange"
 msgid "Orange is fun, but also suggestive of hazards. Sitting proudly in the middle of the visual spectrum, it has nothing to prove."
-msgstr ""
+msgstr "El naranja es divertido, pero también sugiere peligros. Sentado con orgullo en medio del espectro visual, no tiene nada que probar."
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanOrange']
 msgctxt "Things.ItemSprayCanOrange"
@@ -5675,7 +5747,7 @@ msgstr "Spray Pintura (Naranja)"
 #: /Language/Things/RecordThing[Key='ItemSprayCanKhaki']
 msgctxt "Things.ItemSprayCanKhaki"
 msgid "Not so much a single color, as a category of boredom, khaki is the pigmentation equivalent of a mild depressive episode."
-msgstr ""
+msgstr "No tanto un color como una categoría de aburrimiento, el caqui es el equivalente de pigmentación de un episodio depresivo leve."
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanKhaki']
 msgctxt "Things.ItemSprayCanKhaki"
