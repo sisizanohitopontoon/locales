@@ -711,6 +711,11 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Ana Ses"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Karıştırıcı"
+
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -755,11 +760,6 @@ msgstr "Kayıt Başarılı"
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
 msgstr "Kayıt dosyalarının konumuna erişilemiyor; geçersiz bir karakter mi kullanıyorsunuz? Ayarlardan kayıt dizinini değiştirmeyi deneyin."
-
-#: /Language/Interface/Record[Key='AlertButtonClose']
-msgctxt "Interface.AlertButtonClose"
-msgid "Close"
-msgstr "Kapat"
 
 #: /Language/Interface/Record[Key='AlertButtonTitle']
 msgctxt "Interface.AlertButtonTitle"
@@ -1174,6 +1174,11 @@ msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr "Üstüne Yaz"
 
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Var olan kaydedilmiş dünyanın üstüne yazmak istediğine emin misin?"
+
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
 msgid "Overwrite"
@@ -1188,11 +1193,6 @@ msgstr "Atölyede Yayınla"
 msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Bu dünyayı atölyede yayınlamak istediğine emin misin?"
-
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "Yayınla"
 
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
@@ -1358,11 +1358,6 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "SIK KULLANILANLAR"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Karıştırıcı"
-
 #: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
@@ -1412,6 +1407,11 @@ msgstr "Sürüm:"
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "GECİKME:"
+
+#: /Language/Interface/Record[Key='AlertButtonClose']
+msgctxt "Interface.AlertButtonClose"
+msgid "Close"
+msgstr "Kapat"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
 msgctxt "Interface.JoinMenuInfoPlayers"
@@ -1569,10 +1569,93 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SpinnerPannelSaving']
-msgctxt "Interface.SpinnerPannelSaving"
-msgid "Saving"
-msgstr "Kaydediyor"
+#: /Language/Interface/Record[Key='ContactTradeRequestFail']
+msgctxt "Interface.ContactTradeRequestFail"
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
+msgstr "Tüccar güvenli iniş talep ediyor. Lütfen iniş alanının açık ve bağlı olduğundan emin olun. Bir otomat ta, ticareti gerçekleştirmek için gereklidir."
+
+#: /Language/Interface/Record[Key='ControlQuickMoveDisc']
+msgctxt "Interface.ControlQuickMoveDisc"
+msgid "Quick Move Item"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlQuickMove']
+msgctxt "Interface.ControlQuickMove"
+msgid "Scroll wheel + {KEY:InventorySelect}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlTurnOnDisc']
+msgctxt "Interface.ControlTurnOnDisc"
+msgid "Turn On"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlTurnOn']
+msgctxt "Interface.ControlTurnOn"
+msgid "{KEY:SecondaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlMouseScrollDisc']
+#, fuzzy
+msgctxt "Interface.ControlMouseScrollDisc"
+msgid "Item Select"
+msgstr "Senaryo Seçimi"
+
+#: /Language/Interface/Record[Key='ControlMouseScroll']
+msgctxt "Interface.ControlMouseScroll"
+msgid "Mouse scroll"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlAutoRotateDisc']
+msgctxt "Interface.ControlAutoRotateDisc"
+msgid "Auto Rotate"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlAutoRotate']
+#, fuzzy
+msgctxt "Interface.ControlAutoRotate"
+msgid "{KEY:QuantityModifier}"
+msgstr "Önceki nesne için {KEY:QuantityModifier} tuşuna basılı tut"
+
+#: /Language/Interface/Record[Key='ControlScrollWheelSelectDisc']
+msgctxt "Interface.ControlScrollWheelSelectDisc"
+msgid "Toggle Build Mode"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlScrollWheelSelect']
+msgctxt "Interface.ControlScrollWheelSelect"
+msgid "{KEY:SecondaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlSecondaryActionBuildModeDisc']
+msgctxt "Interface.ControlSecondaryActionBuildModeDisc"
+msgid "Toggle Build Mode"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlSecondaryAction']
+msgctxt "Interface.ControlSecondaryAction"
+msgid "{KEY:SecondaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlMouseDragDisc']
+#, fuzzy
+msgctxt "Interface.ControlMouseDragDisc"
+msgid "Move Selection"
+msgstr "Yansımalar"
+
+#: /Language/Interface/Record[Key='ControlMouseDrag']
+msgctxt "Interface.ControlMouseDrag"
+msgid "Hold and Drag {KEY:PrimaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlMouseControlDisc']
+msgctxt "Interface.ControlMouseControlDisc"
+msgid "Activate Mouse Control"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlMouseControl']
+msgctxt "Interface.ControlMouseControl"
+msgid "{KEY:MouseControl}"
+msgstr ""
 
 #: /Language/Interface/Record[Key='StationeersDesc']
 msgctxt "Interface.StationeersDesc"
@@ -3698,10 +3781,10 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr "Ticaret Terminali"
 
-#: /Language/Interface/Record[Key='ContactTradeRequestFail']
-msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
-msgstr "Tüccar güvenli iniş talep ediyor. Lütfen iniş alanının açık ve bağlı olduğundan emin olun. Bir otomat ta, ticareti gerçekleştirmek için gereklidir."
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Aboneliği Kaldır"
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
@@ -3758,10 +3841,10 @@ msgctxt "Interface.SpinnerPannelDone"
 msgid "Done"
 msgstr "Tamamlandı"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Aboneliği Kaldır"
+#: /Language/Interface/Record[Key='SpinnerPannelSaving']
+msgctxt "Interface.SpinnerPannelSaving"
+msgid "Saving"
+msgstr "Kaydediyor"
 
 #: /Language/Interface/Record[Key='AppearanceTitleSpecies']
 msgctxt "Interface.AppearanceTitleSpecies"
@@ -4940,10 +5023,10 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Dünya Ön Ayarı"
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Var olan kaydedilmiş dünyanın üstüne yazmak istediğine emin misin?"
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "Yayınla"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"

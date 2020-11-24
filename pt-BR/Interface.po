@@ -714,6 +714,11 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Volume Geral"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Misturador"
+
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -758,11 +763,6 @@ msgstr "Salvo com Sucesso"
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
 msgstr "No foi possvel acessar o local dos arquivos de salvamento, voc est usando um caractere invlido? Tente alterar o diretrio de salvamento em Configuraes."
-
-#: /Language/Interface/Record[Key='AlertButtonClose']
-msgctxt "Interface.AlertButtonClose"
-msgid "Close"
-msgstr "Fechar"
 
 #: /Language/Interface/Record[Key='AlertButtonTitle']
 msgctxt "Interface.AlertButtonTitle"
@@ -1177,6 +1177,11 @@ msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
 msgstr "Substituir"
 
+#: /Language/Interface/Record[Key='PromptOverwriteBody']
+msgctxt "Interface.PromptOverwriteBody"
+msgid "Are you sure you want to overwrite existing saved world?"
+msgstr "Tem certeza de que deseja substituir o mundo salvo existente?"
+
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
 msgid "Overwrite"
@@ -1191,11 +1196,6 @@ msgstr "Publicar no Workshop"
 msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Tem certeza de que deseja publicar este mundo no Workshop?"
-
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "Publicar"
 
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
@@ -1364,11 +1364,6 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "Favorito"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Misturador"
-
 #: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
@@ -1418,6 +1413,11 @@ msgstr "Verso:"
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "Latncia:"
+
+#: /Language/Interface/Record[Key='AlertButtonClose']
+msgctxt "Interface.AlertButtonClose"
+msgid "Close"
+msgstr "Fechar"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
 msgctxt "Interface.JoinMenuInfoPlayers"
@@ -1578,9 +1578,91 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SpinnerPannelSaving']
-msgctxt "Interface.SpinnerPannelSaving"
-msgid "Saving"
+#: /Language/Interface/Record[Key='ContactTradeRequestFail']
+msgctxt "Interface.ContactTradeRequestFail"
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlQuickMoveDisc']
+msgctxt "Interface.ControlQuickMoveDisc"
+msgid "Quick Move Item"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlQuickMove']
+msgctxt "Interface.ControlQuickMove"
+msgid "Scroll wheel + {KEY:InventorySelect}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlTurnOnDisc']
+msgctxt "Interface.ControlTurnOnDisc"
+msgid "Turn On"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlTurnOn']
+msgctxt "Interface.ControlTurnOn"
+msgid "{KEY:SecondaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlMouseScrollDisc']
+#, fuzzy
+msgctxt "Interface.ControlMouseScrollDisc"
+msgid "Item Select"
+msgstr "Seleo de Cenrio"
+
+#: /Language/Interface/Record[Key='ControlMouseScroll']
+msgctxt "Interface.ControlMouseScroll"
+msgid "Mouse scroll"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlAutoRotateDisc']
+msgctxt "Interface.ControlAutoRotateDisc"
+msgid "Auto Rotate"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlAutoRotate']
+msgctxt "Interface.ControlAutoRotate"
+msgid "{KEY:QuantityModifier}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlScrollWheelSelectDisc']
+msgctxt "Interface.ControlScrollWheelSelectDisc"
+msgid "Toggle Build Mode"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlScrollWheelSelect']
+msgctxt "Interface.ControlScrollWheelSelect"
+msgid "{KEY:SecondaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlSecondaryActionBuildModeDisc']
+msgctxt "Interface.ControlSecondaryActionBuildModeDisc"
+msgid "Toggle Build Mode"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlSecondaryAction']
+msgctxt "Interface.ControlSecondaryAction"
+msgid "{KEY:SecondaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlMouseDragDisc']
+#, fuzzy
+msgctxt "Interface.ControlMouseDragDisc"
+msgid "Move Selection"
+msgstr "Reflexos"
+
+#: /Language/Interface/Record[Key='ControlMouseDrag']
+msgctxt "Interface.ControlMouseDrag"
+msgid "Hold and Drag {KEY:PrimaryAction}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlMouseControlDisc']
+msgctxt "Interface.ControlMouseControlDisc"
+msgid "Activate Mouse Control"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ControlMouseControl']
+msgctxt "Interface.ControlMouseControl"
+msgid "{KEY:MouseControl}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationeersDesc']
@@ -3701,10 +3783,10 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequestFail']
-msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Cancelar Inscrio"
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
@@ -3761,10 +3843,10 @@ msgctxt "Interface.SpinnerPannelDone"
 msgid "Done"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Cancelar Inscrio"
+#: /Language/Interface/Record[Key='SpinnerPannelSaving']
+msgctxt "Interface.SpinnerPannelSaving"
+msgid "Saving"
+msgstr ""
 
 #: /Language/Interface/Record[Key='AppearanceTitleSpecies']
 msgctxt "Interface.AppearanceTitleSpecies"
@@ -4921,10 +5003,10 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Predefinio do Mundo"
 
-#: /Language/Interface/Record[Key='PromptOverwriteBody']
-msgctxt "Interface.PromptOverwriteBody"
-msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "Tem certeza de que deseja substituir o mundo salvo existente?"
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "Publicar"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"
