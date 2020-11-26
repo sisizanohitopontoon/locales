@@ -731,11 +731,6 @@ msgctxt "Interface.SettingsTitleKeybinds"
 msgid "Keybinds"
 msgstr "Tuş Düzeni"
 
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Çeşitli Ayarlar"
-
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
 msgid "Language"
@@ -760,6 +755,11 @@ msgstr "Kayıt Başarılı"
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
 msgstr "Kayıt dosyalarının konumuna erişilemiyor; geçersiz bir karakter mi kullanıyorsunuz? Ayarlardan kayıt dizinini değiştirmeyi deneyin."
+
+#: /Language/Interface/Record[Key='AlertButtonClose']
+msgctxt "Interface.AlertButtonClose"
+msgid "Close"
+msgstr "Kapat"
 
 #: /Language/Interface/Record[Key='AlertButtonTitle']
 msgctxt "Interface.AlertButtonTitle"
@@ -1378,6 +1378,11 @@ msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Yaratıcı"
 
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Çeşitli Ayarlar"
+
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
@@ -1407,11 +1412,6 @@ msgstr "Sürüm:"
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "GECİKME:"
-
-#: /Language/Interface/Record[Key='AlertButtonClose']
-msgctxt "Interface.AlertButtonClose"
-msgid "Close"
-msgstr "Kapat"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
 msgctxt "Interface.JoinMenuInfoPlayers"
@@ -1569,10 +1569,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequestFail']
-msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
-msgstr "Tüccar güvenli iniş talep ediyor. Lütfen iniş alanının açık ve bağlı olduğundan emin olun. Bir otomat ta, ticareti gerçekleştirmek için gereklidir."
+#: /Language/Interface/Record[Key='ContactEventDefault']
+msgctxt "Interface.ContactEventDefault"
+msgid "There was no response."
+msgstr "Cevap yoktu."
 
 #: /Language/Interface/Record[Key='ControlQuickMoveDisc']
 msgctxt "Interface.ControlQuickMoveDisc"
@@ -3781,10 +3781,10 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr "Ticaret Terminali"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Aboneliği Kaldır"
+#: /Language/Interface/Record[Key='ContactTradeRequestFail']
+msgctxt "Interface.ContactTradeRequestFail"
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
+msgstr "Tüccar güvenli iniş talep ediyor. Lütfen iniş alanının açık ve bağlı olduğundan emin olun. Bir otomat ta, ticareti gerçekleştirmek için gereklidir."
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
@@ -3801,10 +3801,10 @@ msgctxt "Interface.ContactTradeRequest"
 msgid "A trader has requested permission for landing."
 msgstr "Bir ticaret gemisi iniş için izin istedi."
 
-#: /Language/Interface/Record[Key='ContactEventDefault']
-msgctxt "Interface.ContactEventDefault"
-msgid "There was no response."
-msgstr "Cevap yoktu."
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Aboneliği Kaldır"
 
 #: /Language/Interface/Record[Key='Locked']
 msgctxt "Interface.Locked"

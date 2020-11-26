@@ -740,11 +740,6 @@ msgctxt "Interface.SettingsTitleKeybinds"
 msgid "Keybinds"
 msgstr "按键设置"
 
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "其他设置"
-
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
 msgid "Language"
@@ -769,6 +764,11 @@ msgstr "保存成功"
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
 msgstr "无法访问存档位置。您是否使用了非法字符？请尝试在设置中修改保存路径。"
+
+#: /Language/Interface/Record[Key='AlertButtonClose']
+msgctxt "Interface.AlertButtonClose"
+msgid "Close"
+msgstr "关闭"
 
 #: /Language/Interface/Record[Key='AlertButtonTitle']
 msgctxt "Interface.AlertButtonTitle"
@@ -1387,6 +1387,11 @@ msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "创造"
 
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "其他设置"
+
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
@@ -1416,11 +1421,6 @@ msgstr "版本:"
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "延迟:"
-
-#: /Language/Interface/Record[Key='AlertButtonClose']
-msgctxt "Interface.AlertButtonClose"
-msgid "Close"
-msgstr "关闭"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
 msgctxt "Interface.JoinMenuInfoPlayers"
@@ -1582,10 +1582,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequestFail']
-msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
-msgstr "交易者请求安全着陆。请确保着陆空间畅通且已连接。同时还需要一个智能货柜来处理交易。"
+#: /Language/Interface/Record[Key='ContactEventDefault']
+msgctxt "Interface.ContactEventDefault"
+msgid "There was no response."
+msgstr "没有回复。"
 
 #: /Language/Interface/Record[Key='ControlQuickMoveDisc']
 msgctxt "Interface.ControlQuickMoveDisc"
@@ -3798,10 +3798,10 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr "交易终端"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "退订"
+#: /Language/Interface/Record[Key='ContactTradeRequestFail']
+msgctxt "Interface.ContactTradeRequestFail"
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
+msgstr "交易者请求安全着陆。请确保着陆空间畅通且已连接。同时还需要一个智能货柜来处理交易。"
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
@@ -3818,10 +3818,10 @@ msgctxt "Interface.ContactTradeRequest"
 msgid "A trader has requested permission for landing."
 msgstr "一个商人请求着陆许可。"
 
-#: /Language/Interface/Record[Key='ContactEventDefault']
-msgctxt "Interface.ContactEventDefault"
-msgid "There was no response."
-msgstr "没有回复。"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "退订"
 
 #: /Language/Interface/Record[Key='Locked']
 msgctxt "Interface.Locked"

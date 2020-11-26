@@ -734,11 +734,6 @@ msgctxt "Interface.SettingsTitleKeybinds"
 msgid "Keybinds"
 msgstr "Teclas de Atalho"
 
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Outras Definições"
-
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
 msgid "Language"
@@ -763,6 +758,11 @@ msgstr "Gravado com sucesso"
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
 msgstr "Não foi possível acessar o local de arquivos salvos, você está usando um caractere inválido? Tente alterar o diretório de salvamento em Configurações."
+
+#: /Language/Interface/Record[Key='AlertButtonClose']
+msgctxt "Interface.AlertButtonClose"
+msgid "Close"
+msgstr "Fechar"
 
 #: /Language/Interface/Record[Key='AlertButtonTitle']
 msgctxt "Interface.AlertButtonTitle"
@@ -1393,6 +1393,11 @@ msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Criativo"
 
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Outras Definições"
+
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
@@ -1422,11 +1427,6 @@ msgstr "Versão:"
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "Latência:"
-
-#: /Language/Interface/Record[Key='AlertButtonClose']
-msgctxt "Interface.AlertButtonClose"
-msgid "Close"
-msgstr "Fechar"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
 msgctxt "Interface.JoinMenuInfoPlayers"
@@ -1586,10 +1586,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequestFail']
-msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
-msgstr "Comerciante solicitando pouso seguro. Verifique se o espaço de pouso está limpo e conectado. Uma máquina de venda automática também é necessária para processar uma negociação."
+#: /Language/Interface/Record[Key='ContactEventDefault']
+msgctxt "Interface.ContactEventDefault"
+msgid "There was no response."
+msgstr "Não houve resposta."
 
 #: /Language/Interface/Record[Key='ControlQuickMoveDisc']
 msgctxt "Interface.ControlQuickMoveDisc"
@@ -3815,10 +3815,10 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr "Terminal de Comércio"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Cancelar Subscrição"
+#: /Language/Interface/Record[Key='ContactTradeRequestFail']
+msgctxt "Interface.ContactTradeRequestFail"
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
+msgstr "Comerciante solicitando pouso seguro. Verifique se o espaço de pouso está limpo e conectado. Uma máquina de venda automática também é necessária para processar uma negociação."
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
@@ -3835,10 +3835,10 @@ msgctxt "Interface.ContactTradeRequest"
 msgid "A trader has requested permission for landing."
 msgstr "Um comerciante solicitou permissão para pousar."
 
-#: /Language/Interface/Record[Key='ContactEventDefault']
-msgctxt "Interface.ContactEventDefault"
-msgid "There was no response."
-msgstr "Não houve resposta."
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Cancelar Subscrição"
 
 #: /Language/Interface/Record[Key='Locked']
 msgctxt "Interface.Locked"

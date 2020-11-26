@@ -739,11 +739,6 @@ msgctxt "Interface.SettingsTitleKeybinds"
 msgid "Keybinds"
 msgstr "Billentyűkiosztás"
 
-#: /Language/Interface/Record[Key='SettingsTitleMisc']
-msgctxt "Interface.SettingsTitleMisc"
-msgid "Misc Settings"
-msgstr "Egyéb beállítások"
-
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
 msgid "Language"
@@ -768,6 +763,11 @@ msgstr "Mentés sikeres"
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
 msgstr "Nem lehet hozzáférni a mentett fájlokhoz, talán érvénytelen karaktert használsz? Próbáld megváltoztatni a mentés helyét a beállításokban!"
+
+#: /Language/Interface/Record[Key='AlertButtonClose']
+msgctxt "Interface.AlertButtonClose"
+msgid "Close"
+msgstr "Bezárás"
 
 #: /Language/Interface/Record[Key='AlertButtonTitle']
 msgctxt "Interface.AlertButtonTitle"
@@ -1397,6 +1397,11 @@ msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Kreatív"
 
+#: /Language/Interface/Record[Key='SettingsTitleMisc']
+msgctxt "Interface.SettingsTitleMisc"
+msgid "Misc Settings"
+msgstr "Egyéb beállítások"
+
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
 msgid "Survival"
@@ -1426,11 +1431,6 @@ msgstr "Verzió:"
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
 msgstr "Késleltetés:"
-
-#: /Language/Interface/Record[Key='AlertButtonClose']
-msgctxt "Interface.AlertButtonClose"
-msgid "Close"
-msgstr "Bezárás"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
 msgctxt "Interface.JoinMenuInfoPlayers"
@@ -1591,10 +1591,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequestFail']
-msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
-msgstr "A kereskedő biztonságosan szeretne leszállni. Biztosítsd számára, hogy a leszállásra kijelölt hely akadálymentes és hálózathoz csatlakoztatott. Az üzlet lebonyolításához kereskedő automata szükséges."
+#: /Language/Interface/Record[Key='ContactEventDefault']
+msgctxt "Interface.ContactEventDefault"
+msgid "There was no response."
+msgstr "Nem volt válasz."
 
 #: /Language/Interface/Record[Key='ControlQuickMoveDisc']
 msgctxt "Interface.ControlQuickMoveDisc"
@@ -3853,10 +3853,10 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr "Kereskedő terminál"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
+#: /Language/Interface/Record[Key='ContactTradeRequestFail']
+msgctxt "Interface.ContactTradeRequestFail"
+msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
+msgstr "A kereskedő biztonságosan szeretne leszállni. Biztosítsd számára, hogy a leszállásra kijelölt hely akadálymentes és hálózathoz csatlakoztatott. Az üzlet lebonyolításához kereskedő automata szükséges."
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
@@ -3873,10 +3873,10 @@ msgctxt "Interface.ContactTradeRequest"
 msgid "A trader has requested permission for landing."
 msgstr "Egy kereskedő engedélyt kért a leszálláshoz."
 
-#: /Language/Interface/Record[Key='ContactEventDefault']
-msgctxt "Interface.ContactEventDefault"
-msgid "There was no response."
-msgstr "Nem volt válasz."
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
 
 #: /Language/Interface/Record[Key='Locked']
 msgctxt "Interface.Locked"
