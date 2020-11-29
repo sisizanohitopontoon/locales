@@ -7,11 +7,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Things/RecordThing[Key='StructureSolarPanelFused']
-#, fuzzy
-msgctxt "Things.StructureSolarPanelFused"
-msgid "Solar Panel"
-msgstr "Solar Panel"
+#: /Language/Things/RecordThing[Key='ItemExplosive']
+msgctxt "Things.ItemExplosive"
+msgid "Remote Explosive"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
+msgctxt "Things.ItemKitFlagODA"
+msgid "Kit Flag ODA"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
+msgctxt "Things.ItemKitFlagODA"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_10m']
+msgctxt "Things.Flag_ODA_10m"
+msgid "Flag ODA 10m"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_10m']
+msgctxt "Things.Flag_ODA_10m"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
+msgctxt "Things.Flag_ODA_8m"
+msgid "Flag ODA 8m"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_8m']
 msgctxt "Things.Flag_ODA_8m"
@@ -138,29 +162,25 @@ msgctxt "Things.Rover_MkI_build_states"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
-msgctxt "Things.Flag_ODA_8m"
-msgid "Flag ODA 8m"
-msgstr ""
+#: /Language/Things/RecordThing[Key='StructureGrowLight']
+#, fuzzy
+msgctxt "Things.StructureGrowLight"
+msgid "Structure Grow Light"
+msgstr "Structure Wall Flat"
 
-#: /Language/Things/RecordThing[Key='Flag_ODA_10m']
-msgctxt "Things.Flag_ODA_10m"
+#: /Language/Things/RecordThing[Key='StructureGrowLight']
+msgctxt "Things.StructureGrowLight"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='Flag_ODA_10m']
-msgctxt "Things.Flag_ODA_10m"
-msgid "Flag ODA 10m"
+#: /Language/Things/RecordThing[Key='ItemKitGrowLight']
+msgctxt "Things.ItemKitGrowLight"
+msgid "Item Kit Grow Light"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
-msgctxt "Things.ItemKitFlagODA"
+#: /Language/Things/RecordThing[Key='ItemKitGrowLight']
+msgctxt "Things.ItemKitGrowLight"
 msgid "{BLANK}"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
-msgctxt "Things.ItemKitFlagODA"
-msgid "Kit Flag ODA"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
@@ -1837,11 +1857,6 @@ msgctxt "Things.StructureWallPaddedArchCorner"
 msgid "Wall (Padded Arch Corner)"
 msgstr "Structure Wall Padded Arch"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
-msgctxt "Things.ItemWreckageCompositeDoor3"
-msgid "Wreckage Composite Door"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='StructureWallPaddedCornerThin']
 #, fuzzy
 msgctxt "Things.StructureWallPaddedCornerThin"
@@ -1853,6 +1868,11 @@ msgstr "Structure Wall Padding Thin"
 msgctxt "Things.StructureWallPaddedCorner"
 msgid "Wall (Padded Corner)"
 msgstr "Structure Wall Padded Arch"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
+msgctxt "Things.ItemWreckageCompositeDoor3"
+msgid "Wreckage Composite Door"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureWallPaddedNoBorderCorner']
 #, fuzzy
@@ -2571,10 +2591,11 @@ msgctxt "Things.ItemCoffeeMug"
 msgid "Coffee Mug"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemExplosive']
-msgctxt "Things.ItemExplosive"
-msgid "Remote Explosive"
-msgstr ""
+#: /Language/Things/RecordThing[Key='StructureSolarPanelFused']
+#, fuzzy
+msgctxt "Things.StructureSolarPanelFused"
+msgid "Solar Panel"
+msgstr "Solar Panel"
 
 #: /Language/Things/RecordThing[Key='ItemRemoteDetonator']
 msgctxt "Things.ItemRemoteDetonator"
@@ -4185,6 +4206,13 @@ msgid "Logic Unit"
 msgstr "Logic Unit"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerSmallReversed']
+msgctxt "Things.StructureTransformerSmallReversed"
+msgid ""
+"Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading <color=#0080FFFF>{LINK:ElectronicPage;electrical}</color> systems. Output on small transformers can be set from 0 to 5000W.\n"
+"Note that transformers operate as data isolators, preventing data flowing into any network beyond it."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureTransformerSmallReversed']
 #, fuzzy
 msgctxt "Things.StructureTransformerSmallReversed"
 msgid "Transformer Reversed (Small)"
@@ -4476,6 +4504,11 @@ msgstr "Kit (Fabrication)"
 
 #: /Language/Things/RecordThing[Key='StructureAutolathe']
 msgctxt "Things.StructureAutolathe"
+msgid "The foundation of most <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> fabrication systems, the <color=#0080FFFF>{LINK:ExMin;ExMin}</color>autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensible creation tool."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureAutolathe']
+msgctxt "Things.StructureAutolathe"
 msgid "Autolathe"
 msgstr "Autolathe"
 
@@ -4505,6 +4538,13 @@ msgstr "Energy Pistol"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerSmall']
 msgctxt "Things.StructureTransformerSmall"
+msgid ""
+"Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading <color=#0080FFFF>{LINK:ElectronicPage;electrical}</color> systems. Output on small transformers can be set from 0 to 5000W.\n"
+"Note that transformers operate as data isolators, preventing data flowing into any network beyond it."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureTransformerSmall']
+msgctxt "Things.StructureTransformerSmall"
 msgid "Transformer (Small)"
 msgstr "Transformer (Small)"
 
@@ -4513,6 +4553,13 @@ msgstr "Transformer (Small)"
 msgctxt "Things.ItemKitTransformer"
 msgid "Kit Transformer (Large)"
 msgstr "Kit (Transformer)"
+
+#: /Language/Things/RecordThing[Key='StructureTransformer']
+msgctxt "Things.StructureTransformer"
+msgid ""
+"The large <color=#0080FFFF>{LINK:Norsec;Norsec}</color> transformer is a critical component of extended <color=#0080FFFF>{LINK:ElectronicPage;electrical}</color> networks, controlling the maximum power that will flow down a cable. To prevent overloading, output can be set from 0 to 50,000W. \n"
+"Note that transformers operate as data isolators, preventing data flowing into any network beyond it."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureTransformer']
 #, fuzzy
@@ -4875,6 +4922,13 @@ msgstr "Skrinka"
 msgctxt "Things.StructureIgniter"
 msgid "Igniter"
 msgstr "Zapalovač"
+
+#: /Language/Things/RecordThing[Key='StructureHydroponicsTray']
+msgctxt "Things.StructureHydroponicsTray"
+msgid ""
+"The {<color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> hydroponics tray is the ideal vessel for growing a range of <color=#0080FFFF>{LINK:OrganicPage;plantlife}</color>. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. \n"
+"It can be automated using the {THING:StructureHarvie}."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureHydroponicsTray']
 msgctxt "Things.StructureHydroponicsTray"
@@ -6707,9 +6761,10 @@ msgid "Filter (Pollutant)"
 msgstr "Filter (Pollutant)"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
+#, fuzzy
 msgctxt "Things.ItemGasFilterCarbonDioxide"
-msgid "Given humanity's obsession with exhaling CO2, all <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> are issued two basic <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> CO2 filters as part of their standard deployment kit (SDK). These filters allow passage of CO2 into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available."
-msgstr ""
+msgid "Filter (Carbon Dioxide)"
+msgstr "Filter (CO2)"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
 msgctxt "Things.ItemGasCanisterWater"
@@ -8071,10 +8126,9 @@ msgid "Microwave"
 msgstr "Mikrovlnná Rúra"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
-#, fuzzy
 msgctxt "Things.ItemGasFilterCarbonDioxide"
-msgid "Filter (Carbon Dioxide)"
-msgstr "Filter (CO2)"
+msgid "Given humanity's obsession with exhaling CO2, all <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> are issued two basic <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> CO2 filters as part of their standard deployment kit (SDK). These filters allow passage of CO2 into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available."
+msgstr ""
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "
@@ -8123,11 +8177,6 @@ msgstr "Filter (CO2)"
 #~ msgctxt "Things.MotherboardLogic"
 #~ msgid "Motherboard (Logic)"
 #~ msgstr "Motherboard (Logic)"
-
-#, fuzzy
-#~ msgctxt "Things.StructureShelf"
-#~ msgid "Structure Shelf"
-#~ msgstr "Structure Wall Flat"
 
 #, fuzzy
 #~ msgctxt "Things.ItemKitStructureModularRocketCommand01"
