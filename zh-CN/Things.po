@@ -10,10 +10,32 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemExplosive']
-msgctxt "Things.ItemExplosive"
-msgid "Remote Explosive"
-msgstr "遥控炸药"
+#: /Language/Things/RecordThing[Key='DynamicGasCanisterPollutants']
+msgctxt "Things.DynamicGasCanisterPollutants"
+msgid "Portable Tank (Pollutants)"
+msgstr "便携储罐(污染物)"
+
+#: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
+#, fuzzy
+msgctxt "Things.RespawnPointWallMounted"
+msgid "Respawn Point Wall Mounted"
+msgstr "电梯前部"
+
+#: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
+#, fuzzy
+msgctxt "Things.RespawnPointWallMounted"
+msgid "{BLANK}"
+msgstr "电梯前部"
+
+#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
+msgctxt "Things.ItemKitRespawnPointWallMounted"
+msgid "Respawn Structure (Kit)"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
+msgctxt "Things.ItemKitRespawnPointWallMounted"
+msgid "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitFlagODA']
 msgctxt "Things.ItemKitFlagODA"
@@ -206,28 +228,6 @@ msgstr "电梯前部"
 #, fuzzy
 msgctxt "Things.ItemKitGrowLight"
 msgid "{BLANK}"
-msgstr "电梯前部"
-
-#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
-msgctxt "Things.ItemKitRespawnPointWallMounted"
-msgid "{BLANK}"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
-msgctxt "Things.ItemKitRespawnPointWallMounted"
-msgid "Respawn Structure (Kit)"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
-#, fuzzy
-msgctxt "Things.RespawnPointWallMounted"
-msgid "{BLANK}"
-msgstr "电梯前部"
-
-#: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
-#, fuzzy
-msgctxt "Things.RespawnPointWallMounted"
-msgid "Respawn Point Wall Mounted"
 msgstr "电梯前部"
 
 #: /Language/Things/RecordThing[Key='RespawnPoint']
@@ -471,16 +471,16 @@ msgctxt "Things.ItemWreckageCompositeDoor3"
 msgid "{BLANK}"
 msgstr "复合门"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
 #, fuzzy
-msgctxt "Things.ItemWreckageCompositeDoor2"
-msgid "{BLANK}"
+msgctxt "Things.ItemWreckageCompositeDoor3"
+msgid "Wreckage Composite Door"
 msgstr "复合门"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
 #, fuzzy
 msgctxt "Things.ItemWreckageCompositeDoor2"
-msgid "Wreckage Composite Door"
+msgid "{BLANK}"
 msgstr "复合门"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
@@ -1941,12 +1941,6 @@ msgctxt "Things.StructureWallPaddedCorner"
 msgid "Wall (Padded Corner)"
 msgstr "壁拱型填充墙"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
-#, fuzzy
-msgctxt "Things.ItemWreckageCompositeDoor3"
-msgid "Wreckage Composite Door"
-msgstr "复合门"
-
 #: /Language/Things/RecordThing[Key='StructureWallPaddedNoBorderCorner']
 #, fuzzy
 msgctxt "Things.StructureWallPaddedNoBorderCorner"
@@ -1962,6 +1956,12 @@ msgstr "墙体(薄型填充无边框拐角)"
 msgctxt "Things.StructureWallPaddedWindowThin"
 msgid "Wall (Padded Window Thin)"
 msgstr "墙体(薄型填充)"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
+#, fuzzy
+msgctxt "Things.ItemWreckageCompositeDoor2"
+msgid "Wreckage Composite Door"
+msgstr "复合门"
 
 #: /Language/Things/RecordThing[Key='StructureWallPaddedThinNoBorder']
 msgctxt "Things.StructureWallPaddedThinNoBorder"
@@ -2610,6 +2610,11 @@ msgctxt "Things.StructureSolarPanelFused"
 msgid "Solar Panel"
 msgstr "太阳能板"
 
+#: /Language/Things/RecordThing[Key='ItemExplosive']
+msgctxt "Things.ItemExplosive"
+msgid "Remote Explosive"
+msgstr "遥控炸药"
+
 #: /Language/Things/RecordThing[Key='ItemRemoteDetonator']
 msgctxt "Things.ItemRemoteDetonator"
 msgid "Remote Detonator"
@@ -2619,11 +2624,6 @@ msgstr "遥控引爆器"
 msgctxt "Things.Lander"
 msgid "Lander"
 msgstr "着陆器"
-
-#: /Language/Things/RecordThing[Key='DynamicGasCanisterPollutants']
-msgctxt "Things.DynamicGasCanisterPollutants"
-msgid "Portable Tank (Pollutants)"
-msgstr "便携储罐(污染物)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrousOxide']
 msgctxt "Things.DynamicGasCanisterNitrousOxide"
@@ -4879,8 +4879,18 @@ msgstr "炮台"
 
 #: /Language/Things/RecordThing[Key='StructureGlassDoor']
 msgctxt "Things.StructureGlassDoor"
+msgid "A highly regarded professional review site."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureGlassDoor']
+msgctxt "Things.StructureGlassDoor"
 msgid "Glass Door"
 msgstr "玻璃门"
+
+#: /Language/Things/RecordThing[Key='StructureGasTankStorage']
+msgctxt "Things.StructureGasTankStorage"
+msgid "When connected to a pipe network, the tank storage unit allows you to refill a {THING:ItemGasCanisterEmpty}, as well as read various atmospheric data from the canister."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureGasTankStorage']
 msgctxt "Things.StructureGasTankStorage"
@@ -4889,8 +4899,18 @@ msgstr "气瓶填充器"
 
 #: /Language/Things/RecordThing[Key='StructureGasSensor']
 msgctxt "Things.StructureGasSensor"
+msgid "Gas sensors are designed to monitor and report basic atmospheric information, including temperature, pressure, and gas ratios. They also make wonderful wedding presents."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureGasSensor']
+msgctxt "Things.StructureGasSensor"
 msgid "Gas Sensor"
 msgstr "气体传感器"
+
+#: /Language/Things/RecordThing[Key='StructureGasMixer']
+msgctxt "Things.StructureGasMixer"
+msgid "Indispensible for producing precise atmospheric ratios, this gas mixer blends two gases in proportions ranging anywhere from 0-100%."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureGasMixer']
 msgctxt "Things.StructureGasMixer"
@@ -6675,10 +6695,10 @@ msgctxt "Things.ItemGasFilterPollutants"
 msgid "Filters are used to capture various gases, such as waste emissions from a {THING:StructureFurnace} or {THING:StructureArcFurnace}. Adding <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color>-designed <color=#0080FFFF>{LINK:GasPage;pollutant}</color> filters to a {THING:ItemDynamicScrubber} allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a {THING:StructureWallCooler}. Try not to inhale."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemGasFilterPollutants']
-msgctxt "Things.ItemGasFilterPollutants"
-msgid "Filter (Pollutant)"
-msgstr "次级滤芯(污染物)"
+#: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
+msgctxt "Things.ItemGasFilterCarbonDioxide"
+msgid "Given humanity's obsession with exhaling CO2, all <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> are issued two basic <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> CO2 filters as part of their standard deployment kit (SDK). These filters allow passage of CO2 into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
 msgctxt "Things.ItemGasFilterCarbonDioxide"
@@ -8041,10 +8061,10 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "微波炉"
 
-#: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
-msgctxt "Things.ItemGasFilterCarbonDioxide"
-msgid "Given humanity's obsession with exhaling CO2, all <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> are issued two basic <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> CO2 filters as part of their standard deployment kit (SDK). These filters allow passage of CO2 into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available."
-msgstr ""
+#: /Language/Things/RecordThing[Key='ItemGasFilterPollutants']
+msgctxt "Things.ItemGasFilterPollutants"
+msgid "Filter (Pollutant)"
+msgstr "次级滤芯(污染物)"
 
 #~ msgctxt "Things.Robot"
 #~ msgid "Robot"
