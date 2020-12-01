@@ -1568,10 +1568,21 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Ranura"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "Parece que el contacto se ha movido."
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
+msgstr "Comerciar"
+
+#: /Language/Interface/Record[Key='ControlMineDisc']
+#, fuzzy
+msgctxt "Interface.ControlMineDisc"
+msgid "Mine Ore"
+msgstr "MineRite"
+
+#: /Language/Interface/Record[Key='ControlUseItemDisc']
+msgctxt "Interface.ControlUseItemDisc"
+msgid "Use Item"
+msgstr ""
 
 #: /Language/Interface/Record[Key='WeatherEventsField']
 msgctxt "Interface.WeatherEventsField"
@@ -1595,8 +1606,8 @@ msgstr "Enciende"
 
 #: /Language/Interface/Record[Key='ControlTurnOn']
 msgctxt "Interface.ControlTurnOn"
-msgid "{KEY:SecondaryAction}"
-msgstr "{KEY:SecondaryAction}"
+msgid "{KEY:ToggleHandPower}"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ControlMouseScrollDisc']
 msgctxt "Interface.ControlMouseScrollDisc"
@@ -2932,6 +2943,11 @@ msgctxt "Interface.ResearchFilter"
 msgid "Filter"
 msgstr "Filtros"
 
+#: /Language/Interface/Record[Key='NextWeatherEventTime']
+msgctxt "Interface.NextWeatherEventTime"
+msgid "Returns in seconds when the next weather event is inbound."
+msgstr ""
+
 #: /Language/Interface/Record[Key='MineablesInQueue']
 msgctxt "Interface.MineablesInQueue"
 msgid "Returns the amount of mineables AIMEe has queued up to mine."
@@ -3843,15 +3859,15 @@ msgctxt "Interface.Locked"
 msgid "Locked"
 msgstr "Bloqueado"
 
-#: /Language/Interface/Record[Key='Trade']
-msgctxt "Interface.Trade"
-msgid "Trade"
-msgstr "Comerciar"
-
 #: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
 msgctxt "Interface.WorkshopUnsubscribeButton"
 msgid "Unsubscribe"
 msgstr "Anular Suscripción"
+
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "Parece que el contacto se ha movido."
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5058,6 +5074,10 @@ msgstr "Preajuste Mundial"
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Publicar"
+
+#~ msgctxt "Interface.ControlTurnOn"
+#~ msgid "{KEY:SecondaryAction}"
+#~ msgstr "{KEY:SecondaryAction}"
 
 #~ msgctxt "Interface.TK"
 #~ msgid "TK"

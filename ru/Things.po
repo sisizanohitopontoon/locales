@@ -10,20 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='DynamicGasCanisterPollutants']
-msgctxt "Things.DynamicGasCanisterPollutants"
-msgid "Portable Tank (Pollutants)"
-msgstr "Большой баллон (Токсины)"
-
-#: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
-msgctxt "Things.RespawnPointWallMounted"
-msgid "Respawn Point Wall Mounted"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
-msgctxt "Things.RespawnPointWallMounted"
-msgid "{BLANK}"
-msgstr ""
+#: /Language/Things/RecordThing[Key='ItemRemoteDetonator']
+msgctxt "Things.ItemRemoteDetonator"
+msgid "Remote Detonator"
+msgstr "Дистанционный детонатор"
 
 #: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
 msgctxt "Things.ItemKitRespawnPointWallMounted"
@@ -203,6 +193,38 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='ItemKitGrowLight']
 msgctxt "Things.ItemKitGrowLight"
 msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureWeatherStation']
+#, fuzzy
+msgctxt "Things.StructureWeatherStation"
+msgid "Weather Station"
+msgstr "Химическая установка"
+
+#: /Language/Things/RecordThing[Key='StructureWeatherStation']
+msgctxt "Things.StructureWeatherStation"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitWeatherStation']
+#, fuzzy
+msgctxt "Things.ItemKitWeatherStation"
+msgid "Kit (Weather Station)"
+msgstr "Набор (Фабрикатор)"
+
+#: /Language/Things/RecordThing[Key='ItemKitWeatherStation']
+msgctxt "Things.ItemKitWeatherStation"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
+msgctxt "Things.RespawnPointWallMounted"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
+msgctxt "Things.RespawnPointWallMounted"
+msgid "Respawn Point Wall Mounted"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='RespawnPoint']
@@ -421,11 +443,6 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
 msgctxt "Things.ItemWreckageCompositeDoor3"
-msgid "{BLANK}"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
-msgctxt "Things.ItemWreckageCompositeDoor3"
 msgid "Wreckage Composite Door"
 msgstr ""
 
@@ -433,6 +450,12 @@ msgstr ""
 msgctxt "Things.ItemWreckageCompositeDoor2"
 msgid "{BLANK}"
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
+#, fuzzy
+msgctxt "Things.ItemWreckageCompositeDoor2"
+msgid "Wreckage Composite Door"
+msgstr "Композитная Дверь"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
 msgctxt "Things.ItemWreckageCompositeDoor1"
@@ -1845,6 +1868,11 @@ msgctxt "Things.StructureWallPaddedNoBorderCorner"
 msgid "Wall (Padded No Border Corner)"
 msgstr "Стена (Наборная, угол без окантовки)"
 
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
+msgctxt "Things.ItemWreckageCompositeDoor3"
+msgid "{BLANK}"
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='StructureWallPaddedThinNoBorderCorner']
 msgctxt "Things.StructureWallPaddedThinNoBorderCorner"
 msgid "Wall (Padded Thin No Border Corner)"
@@ -1854,12 +1882,6 @@ msgstr "Стена (Наборная, тонкий угол без оканто�
 msgctxt "Things.StructureWallPaddedWindowThin"
 msgid "Wall (Padded Window Thin)"
 msgstr "Стена (Наборная, тонкое окно)"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
-#, fuzzy
-msgctxt "Things.ItemWreckageCompositeDoor2"
-msgid "Wreckage Composite Door"
-msgstr "Композитная Дверь"
 
 #: /Language/Things/RecordThing[Key='StructureWallPaddedThinNoBorder']
 msgctxt "Things.StructureWallPaddedThinNoBorder"
@@ -2504,15 +2526,15 @@ msgctxt "Things.ItemExplosive"
 msgid "Remote Explosive"
 msgstr "Дистанционная взрывчатка"
 
-#: /Language/Things/RecordThing[Key='ItemRemoteDetonator']
-msgctxt "Things.ItemRemoteDetonator"
-msgid "Remote Detonator"
-msgstr "Дистанционный детонатор"
-
 #: /Language/Things/RecordThing[Key='Lander']
 msgctxt "Things.Lander"
 msgid "Lander"
 msgstr "Посадочный модуль"
+
+#: /Language/Things/RecordThing[Key='DynamicGasCanisterPollutants']
+msgctxt "Things.DynamicGasCanisterPollutants"
+msgid "Portable Tank (Pollutants)"
+msgstr "Большой баллон (Токсины)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrousOxide']
 msgctxt "Things.DynamicGasCanisterNitrousOxide"
@@ -4719,6 +4741,11 @@ msgstr "Анализатор атмосферы трубы"
 
 #: /Language/Things/RecordThing[Key='StructurePassiveVent']
 msgctxt "Things.StructurePassiveVent"
+msgid "Passive vents allow gases to move into and out of pipe networks, which are closed systems unless connected to a device or structure. Passive vents are not powered, merely an aperture, essentially turning an enclosed space into part of the pipe network. "
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructurePassiveVent']
+msgctxt "Things.StructurePassiveVent"
 msgid "Passive Vent"
 msgstr "Пассивная вентиляция"
 
@@ -5403,7 +5430,7 @@ msgstr "Кондиционер"
 #: /Language/Things/RecordThing[Key='StructureActiveVent']
 msgctxt "Things.StructureActiveVent"
 msgid ""
-"Fragments of the original <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> Handbook recovered from its self-induced singularity describe the design of active vents:\n"
+"Fragments of the original <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> Handbook recovered from the singularity describe the design of active vents:\n"
 "... active vent is a powered device for maintaining <color=#0080FFFF>{LINK:GasPage;gas}</color> pressure by pumping gas into (or out of) a pipe network. The vent has two modes: 'Outward' sets it to pump gas into a space until pressure is reached; 'Inward' sets it to pump gas out until pressure is reached. The pressure parameter can be set on a connected {THING:StructureConsole}. Default pressure is 101kPa for Outward; 0kPa for Inward ..."
 msgstr ""
 
@@ -6577,8 +6604,8 @@ msgstr "Фильтр (Азот)"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterPollutants']
 msgctxt "Things.ItemGasFilterPollutants"
-msgid "Filters are used to capture various gases, such as waste emissions from a {THING:StructureFurnace} or {THING:StructureArcFurnace}. Adding <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color>-designed <color=#0080FFFF>{LINK:GasPage;pollutant}</color> filters to a {THING:ItemDynamicScrubber} allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a {THING:StructureWallCooler}. Try not to inhale."
-msgstr ""
+msgid "Filter (Pollutant)"
+msgstr "Фильтр (Токсины)"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
 msgctxt "Things.ItemGasFilterCarbonDioxide"
@@ -7933,8 +7960,8 @@ msgstr "Микроволновая печь"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterPollutants']
 msgctxt "Things.ItemGasFilterPollutants"
-msgid "Filter (Pollutant)"
-msgstr "Фильтр (Токсины)"
+msgid "Filters are used to capture various gases, such as waste emissions from a {THING:StructureFurnace} or {THING:StructureArcFurnace}. Adding <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color>-designed <color=#0080FFFF>{LINK:GasPage;pollutant}</color> filters to a {THING:ItemDynamicScrubber} allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a {THING:StructureWallCooler}. Try not to inhale."
+msgstr ""
 
 #~ msgctxt "Things.Robot"
 #~ msgid "Robot"
