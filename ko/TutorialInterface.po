@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-21 05:35+0000\n"
+"PO-Revision-Date: 2020-12-04 00:37+0000\n"
 "Last-Translator: Refirser <choh3722@gmail.com>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5168,12 +5168,12 @@ msgstr "수직 논리 판독기 1을 수직 햇빛 감지기로 설정하세요.
 #: /Language/Interface/Record[Key='LogicReaderLogicSetup4']
 msgctxt "Interface.LogicReaderLogicSetup4"
 msgid "Set the Logic value to Solar Angle."
-msgstr ""
+msgstr "논리 값을 태양 각도로 설정하세요."
 
 #: /Language/Interface/Record[Key='VerticalLogicProcessors']
 msgctxt "Interface.VerticalLogicProcessors"
 msgid "Logic Processors."
-msgstr ""
+msgstr "논리 단계"
 
 #: /Language/Interface/Record[Key='VerticalLogicProcessorsDescription']
 msgctxt "Interface.VerticalLogicProcessorsDescription"
@@ -5184,68 +5184,71 @@ msgid ""
 "  \n"
 "The next {THING:StructureLogicMath} will read the input of our first {THING:StructureLogicMath} and add 50 using a {THING:StructureLogicMemory} named offset."
 msgstr ""
+"이제 {THING:StructureLogicReader} 및 {THING:StructureLogicMemory}가 읽는 값에 대해 몇가지 계산을 해야합니다. 회로의 수직 데이터 모듈부터 시작하세요.\n"
+"\n"
+"첫 번째로 {THING:StructureLogicMath}는 {THING:StructureLogicMemory}를 사용하여 {THING:StructureLogicReader} 데이터를 1.5로 나눕니다.\n"
+"\n"
+"다음으로 {THING:StructureLogicMath}는 처음에 {THING:StructureLogicMath}의 값을 읽고 {THING:StructureLogicMemory}의 명시된 오프셋을 사용하여 50을 추가하세요."
 
 #: /Language/Interface/Record[Key='PlaceLogicMath']
-#, fuzzy
 msgctxt "Interface.PlaceLogicMath"
 msgid "Place the first {THING:StructureLogicMath} in the highlighted position."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "{THING:StructureLogicMath}를 강조 표시된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='PlaceLogicMath1']
-#, fuzzy
 msgctxt "Interface.PlaceLogicMath1"
 msgid "Place the next {THING:StructureLogicMath} in the highlighted position."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "다음 {THING:StructureLogicMath}를 강조 표시된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='LogicMathVertical']
 msgctxt "Interface.LogicMathVertical"
 msgid "Logic Math Vertical Setup."
-msgstr ""
+msgstr "논리 연산 수직 설정"
 
 #: /Language/Interface/Record[Key='LogicMathVerticalDescription']
 msgctxt "Interface.LogicMathVerticalDescription"
 msgid "Setting up the math processors is one of the most important steps in creating a logic circuit, as it handles all the calculations required for most tasks."
-msgstr ""
+msgstr "대부분의 작업에 필요한 모든 연산을 처리하기 때문에 연산 프로세서를 설정하는 것은 논리 회로를 만드는데 있어 가장 중요한 단계 중 하나입니다."
 
 #: /Language/Interface/Record[Key='LogicMathVertical1']
 msgctxt "Interface.LogicMathVertical1"
 msgid "Turn on Vertical Math Unit 1."
-msgstr ""
+msgstr "수직 연산 유닛 1을 켜세요."
 
 #: /Language/Interface/Record[Key='LogicMathVertical2']
 msgctxt "Interface.LogicMathVertical2"
 msgid "Set input 1 on Vertical Math Unit 1 to read Vertical Logic Reader 1."
-msgstr ""
+msgstr "수직 연산 유닛 1의 입력 1을 수직 논리 판독기 1로 설정합니다."
 
 #: /Language/Interface/Record[Key='LogicMathVertical3']
 msgctxt "Interface.LogicMathVertical3"
 msgid "Set input 2 on Vertical Math Unit 1 to read Tilt Memory."
-msgstr ""
+msgstr "수직 연산 유닛 1의 입력 2를 기울기 메모리로 설정합니다."
 
 #: /Language/Interface/Record[Key='LogicMathVertical4']
 msgctxt "Interface.LogicMathVertical4"
 msgid "Set the Math operation type on Vertical Math Unit 1 to 'Divide'."
-msgstr ""
+msgstr "수직 연산 유닛 1의 연산 방식을 '나누기'로 설정하세요."
 
 #: /Language/Interface/Record[Key='LogicMathVertical5']
 msgctxt "Interface.LogicMathVertical5"
 msgid "Turn on Vertical Math Unit 2."
-msgstr ""
+msgstr "수직 연산 유닛 2를 켜세요."
 
 #: /Language/Interface/Record[Key='LogicMathVertical6']
 msgctxt "Interface.LogicMathVertical6"
 msgid "Set input 1 on Vertical Math Unit 2 to read Vertical Math Unit 1."
-msgstr ""
+msgstr "수직 연산 유닛 2의 입력 1을 수직 연산 유닛 1로 설정하세요."
 
 #: /Language/Interface/Record[Key='LogicMathVertical7']
 msgctxt "Interface.LogicMathVertical7"
 msgid "Set input 2 on Vertical Math Unit 2 to read Add Memory."
-msgstr ""
+msgstr "수직 연산 유닛 2의 입력 2를 덧셈 메모리로 설정합니다."
 
 #: /Language/Interface/Record[Key='LogicMathVertical8']
 msgctxt "Interface.LogicMathVertical8"
 msgid "Set the Math operation type on Vertical Math Unit 2 to 'Add'."
-msgstr ""
+msgstr "수직 연산 유닛 2의 연산 방식을 '덧셈' 으로 설정하세요."
 
 #: /Language/Interface/Record[Key='VerticalBatchWriter']
 msgctxt "Interface.VerticalBatchWriter"
@@ -5283,22 +5286,19 @@ msgid "Set the logic type on the {THING:StructureLogicBatchWriter} to Vertical."
 msgstr ""
 
 #: /Language/Interface/Record[Key='VerticalBatchWritterSetup4']
-#, fuzzy
 msgctxt "Interface.VerticalBatchWritterSetup4"
 msgid "Turn on the {THING:StructureLogicBatchWriter}."
-msgstr "{THING:StructureBench}에 내려놓으세요."
+msgstr "{THING:StructureLogicBatchWriter}를 켜세요."
 
 #: /Language/Interface/Record[Key='PickUpLogicInputOutput']
-#, fuzzy
 msgctxt "Interface.PickUpLogicInputOutput"
 msgid "Pick up a {THING:ItemKitLogicInputOutput} from the crate."
-msgstr "{THING:ItemTablet} 들기"
+msgstr "상자에서 {THING:ItemKitLogicInputOutput}를 주우세요."
 
 #: /Language/Interface/Record[Key='BatchWriter1']
-#, fuzzy
 msgctxt "Interface.BatchWriter1"
 msgid "Place a {THING:StructureLogicBatchWriter} in the highlighted position."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "{THING:StructureLogicBatchWriter}를 강조 표시된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp']
 msgctxt "Interface.HorizontalLogicProcessorSetUp"
@@ -5332,42 +5332,42 @@ msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp1']
 msgctxt "Interface.HorizontalLogicProcessorSetUp1"
 msgid "Turn on the Horizontal Math Unit 1."
-msgstr ""
+msgstr "수평 연산 유닛 1을 켜세요."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp2']
 msgctxt "Interface.HorizontalLogicProcessorSetUp2"
 msgid "Set input 1 on Horizontal Math Unit 1 to Horizontal Logic Reader 1."
-msgstr ""
+msgstr "수평 연산 유닛 1의 입력 1을 수평 논리 판독기 1로 설정합니다."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp3']
 msgctxt "Interface.HorizontalLogicProcessorSetUp3"
 msgid "Set input 2 on Horizontal Math Unit 1 to Invert Memory."
-msgstr ""
+msgstr "수평 연산 유닛 1의 입력 2를 반전 메모리로 설정합니다."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp4']
 msgctxt "Interface.HorizontalLogicProcessorSetUp4"
 msgid "Set the Math operation type on Horizontal Math Unit 1 to 'multiply'."
-msgstr ""
+msgstr "수평 연산 유닛 1의 연산 방식을 '곱셈'으로 설정하세요."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp5']
 msgctxt "Interface.HorizontalLogicProcessorSetUp5"
 msgid "Turn on the Horizontal Math Unit 2."
-msgstr ""
+msgstr "수평 연산 유닛 2를 켜세요."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp6']
 msgctxt "Interface.HorizontalLogicProcessorSetUp6"
 msgid "Set input 1 on Horizontal Math Unit 2 to Horizontal Math Unit 1."
-msgstr ""
+msgstr "수평 연산 유닛 2의 입력을 1로 설정하여 수평 연산 유닛 1을 읽습니다."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp7']
 msgctxt "Interface.HorizontalLogicProcessorSetUp7"
 msgid "Set input 2 on Horizontal Math Unit 2 to OffSet Memory."
-msgstr ""
+msgstr "수평 연산 유닛 2의 입력 2를 오프셋 메모리로 설정합니다."
 
 #: /Language/Interface/Record[Key='HorizontalLogicProcessorSetUp8']
 msgctxt "Interface.HorizontalLogicProcessorSetUp8"
 msgid "Set the Math operation type on Horizontal Math Unit 2 to 'Add'."
-msgstr ""
+msgstr "수평 논리 연산 2의 연산 방식을 '덧셈'으로 설정하세요."
 
 #: /Language/Interface/Record[Key='HorizontalBatchWriter']
 msgctxt "Interface.HorizontalBatchWriter"
@@ -5380,10 +5380,9 @@ msgid "The Batch Writer writes to all connected devices of a given type. We will
 msgstr ""
 
 #: /Language/Interface/Record[Key='BatchWriter2']
-#, fuzzy
 msgctxt "Interface.BatchWriter2"
 msgid "Place a {THING:StructureLogicBatchWriter} in the highlighted position."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "{THING:StructureLogicBatchWriter}를 강조 표시된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='HorizontalBatchWritterSetup1']
 msgctxt "Interface.HorizontalBatchWritterSetup1"
@@ -5401,15 +5400,14 @@ msgid "Set the logic type on the {THING:StructureLogicBatchWriter} to Horizontal
 msgstr ""
 
 #: /Language/Interface/Record[Key='HorizontalBatchWritterSetup4']
-#, fuzzy
 msgctxt "Interface.HorizontalBatchWritterSetup4"
 msgid "Turn on the {THING:StructureLogicBatchWriter}."
-msgstr "{THING:StructureBench}에 내려놓으세요."
+msgstr "{THING:StructureLogicBatchWriter}를 켜세요."
 
 #: /Language/Interface/Record[Key='SleepMode']
 msgctxt "Interface.SleepMode"
 msgid "Sleep Mode Module"
-msgstr ""
+msgstr "절전 모드 모듈"
 
 #: /Language/Interface/Record[Key='SleepModeDescription']
 msgctxt "Interface.SleepModeDescription"
@@ -5436,37 +5434,37 @@ msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
 #: /Language/Interface/Record[Key='SleepModeSetup']
 msgctxt "Interface.SleepModeSetup"
 msgid "Sleep mode Setup"
-msgstr ""
+msgstr "절전 모드 설정"
 
 #: /Language/Interface/Record[Key='SleepModeSetupDescription']
 msgctxt "Interface.SleepModeSetupDescription"
 msgid "Now we need to read the the active state of the solar sensors. This will tell us whether it is day or night."
-msgstr ""
+msgstr "이제 태양 센서의 활성 상태를 읽어줘야합니다. 이는 낮과 밤을 구분할 수 있게 해줍니다."
 
 #: /Language/Interface/Record[Key='SleepModeSetupTask1']
 msgctxt "Interface.SleepModeSetupTask1"
 msgid "Set the input device on the Vertical Logic Reader 2 to Vertical Day Light Sensor"
-msgstr ""
+msgstr "수직 논리 판독기 2의 입력 장치를 수직 햇빛 감지기로 설정하세요."
 
 #: /Language/Interface/Record[Key='SleepModeSetupTask2']
 msgctxt "Interface.SleepModeSetupTask2"
 msgid "Set the Logic type to Activate."
-msgstr ""
+msgstr "논리 종류를 활성화로 설정합니다."
 
 #: /Language/Interface/Record[Key='SleepModeSetupTask3']
 msgctxt "Interface.SleepModeSetupTask3"
 msgid "Set the input device on the Horizontal Logic Reader 2 to Horizontal Day Light Sensor"
-msgstr ""
+msgstr "수평 논리 판독기 2의 입력 장치를 수평 햇빛 감지기로 설정하세요."
 
 #: /Language/Interface/Record[Key='SleepModeSetupTask4']
 msgctxt "Interface.SleepModeSetupTask4"
 msgid "Set the Logic type to Activate."
-msgstr ""
+msgstr "논리 종류를 활성화로 설정합니다."
 
 #: /Language/Interface/Record[Key='SleepModePart2']
 msgctxt "Interface.SleepModePart2"
 msgid "SleepModePart2"
-msgstr ""
+msgstr "절전 모드 파트 2"
 
 #: /Language/Interface/Record[Key='SleepModePart2Description']
 msgctxt "Interface.SleepModePart2Description"
@@ -5479,47 +5477,47 @@ msgstr ""
 #: /Language/Interface/Record[Key='SleepModePart2Task1']
 msgctxt "Interface.SleepModePart2Task1"
 msgid "On Vertical Logic Selector, set the Select input to Vertical Logic Reader 2."
-msgstr ""
+msgstr "수직 논리 선택기에서, 선택 입력을 수직 논리 판독기 2로 설정하세요."
 
 #: /Language/Interface/Record[Key='SleepModePart2Task2']
 msgctxt "Interface.SleepModePart2Task2"
 msgid "On Vertical Logic Selector, set input 1 to Add Memory."
-msgstr ""
+msgstr "수직 논리 선택기에서 입력 1을 덧셈 메모리로 설정하세요."
 
 #: /Language/Interface/Record[Key='SleepModePart2Task3']
 msgctxt "Interface.SleepModePart2Task3"
 msgid "Set the final input to Vertical Math Unit 2."
-msgstr ""
+msgstr "마지막 입력을 수직 연산 유닛 2로 설정하세요."
 
 #: /Language/Interface/Record[Key='SleepModePart2Task4']
 msgctxt "Interface.SleepModePart2Task4"
 msgid "Turn on Vertical Logic Selector."
-msgstr ""
+msgstr "수직 논리 선택기를 켜세요."
 
 #: /Language/Interface/Record[Key='SleepModePart2Task5']
 msgctxt "Interface.SleepModePart2Task5"
 msgid "On Horizontal Logic Selector, set the Select input to Horizontal Logic Reader 2."
-msgstr ""
+msgstr "수평 논리 선택기에서, 선택 입력을 수평 논리 판독기 2로 설정하세요."
 
 #: /Language/Interface/Record[Key='SleepModePart2Task6']
 msgctxt "Interface.SleepModePart2Task6"
 msgid "On Horizontal Logic Selector, set input 1 to Offset Memory."
-msgstr ""
+msgstr "수평 논리 선택기에서, 입력 1을 오프셋 메모리로 설정하세요."
 
 #: /Language/Interface/Record[Key='SleepModePart2Task7']
 msgctxt "Interface.SleepModePart2Task7"
 msgid "Set the final input to Horizontal Math Unit 2."
-msgstr ""
+msgstr "마지막 입력을 수평 연산 유닛 2로 설정하세요."
 
 #: /Language/Interface/Record[Key='SleepModePart2Task8']
 msgctxt "Interface.SleepModePart2Task8"
 msgid "Turn on Horizontal Logic Selector."
-msgstr ""
+msgstr "수평 논리 선택기를 켜세요."
 
 #: /Language/Interface/Record[Key='FinalStage']
 msgctxt "Interface.FinalStage"
 msgid "Final Stage"
-msgstr ""
+msgstr "마지막 단계"
 
 #: /Language/Interface/Record[Key='FinalStageDescription']
 msgctxt "Interface.FinalStageDescription"
@@ -5541,33 +5539,33 @@ msgstr ""
 #: /Language/Interface/Record[Key='TurnOnReader']
 msgctxt "Interface.TurnOnReader"
 msgid "Turn on the logic reader."
-msgstr ""
+msgstr "논리 판독기를 켜세요."
 
 #: /Language/Interface/Record[Key='Tutorial11 - GasMixingAndmore']
 msgctxt "Interface.Tutorial11 - GasMixingAndmore"
 msgid "Gas Mixing and More"
-msgstr ""
+msgstr "가스 혼합 및 나머지"
 
 #: /Language/Interface/Record[Key='Tutorial 11 - GasFilteringandmoreDescription']
 msgctxt "Interface.Tutorial 11 - GasFilteringandmoreDescription"
 msgid "Learn how to refill your suit's oxygen tank and mix gases to create fuel."
-msgstr ""
+msgstr "슈트에 산소 탱크를 채우고 가스를 혼합하여 연료를 만드는 방법에 대해 배우겠습니다."
 
 #: /Language/Interface/Record[Key='GasMixingInd']
 msgctxt "Interface.GasMixingInd"
 msgid "Gas Mixing introduction"
-msgstr ""
+msgstr "가스 혼합 설명"
 
 #: /Language/Interface/Record[Key='GasMixingIndDescription']
 msgctxt "Interface.GasMixingIndDescription"
 msgid ""
 "Welcome back, Cadet! In this lesson, we'll refill your suit's oxygen tanks, and then mix two gases to make fuel. Fuel is used for many applications: from powering your welder, to launching rockets!"
-msgstr ""
+msgstr "환영합니다, 훈련생님! 이 강의에서는 산소 탱크를 다시 채우는 방법과 가스 2개를 혼합하여 연료를 만드는 방법에 대해 배우도록 하겠습니다. 연료는 여러 동력에 많이 사용됩니다."
 
 #: /Language/Interface/Record[Key='RemoveingSuitOxy']
 msgctxt "Interface.RemoveingSuitOxy"
 msgid "Removing your suit oxygen tank."
-msgstr ""
+msgstr "슈트의 산소 탱크를 제거하세요."
 
 #: /Language/Interface/Record[Key='RemoveingSuitOxyDescription']
 msgctxt "Interface.RemoveingSuitOxyDescription"
@@ -5576,18 +5574,19 @@ msgid ""
 "You will get an on-screen warning when the tank is removed. Don't panic, there's still a small amount of oxygen circulating in the suit itself. \n"
 "You can now attach the oxygen tank to the {THING:DynamicGasCanisterOxygen} and refill it."
 msgstr ""
+"슈트 메뉴를 열고 산소 탱크를 손으로 옮기세요.\n"
+"탱크를 분리할 시 화면에 경고가 표시됩니다. 당황하지마세요, 슈트 자체에는 아직 소량의 산소가 존재합니다.\n"
+"이제 산소 탱크를 {THING:DynamicGasCanisterOxygen}에 부착하고 다시 채우세요.\n"
 
 #: /Language/Interface/Record[Key='RemoveingSuitOxyTask1']
-#, fuzzy
 msgctxt "Interface.RemoveingSuitOxyTask1"
 msgid "Take the {THING:ItemGasCanisterOxygen} from your suit."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "{THING:ItemGasCanisterOxygen}를 슈트에서 꺼내세요."
 
 #: /Language/Interface/Record[Key='RemoveingSuitOxyTask2']
-#, fuzzy
 msgctxt "Interface.RemoveingSuitOxyTask2"
 msgid "Place the Oxygen Tank in the {THING:DynamicGasCanisterOxygen}."
-msgstr "{THING:ItemTablet} 들기"
+msgstr "{THING:DynamicGasCanisterOxygen} 안에 산소 탱크를 설치하세요."
 
 #: /Language/Interface/Record[Key='RetrievingOxyTank']
 msgctxt "Interface.RetrievingOxyTank"
@@ -5600,21 +5599,19 @@ msgid "The {THING:DynamicGasCanisterOxygen} will fill the {THING:ItemGasCanister
 msgstr ""
 
 #: /Language/Interface/Record[Key='RetrievingOxyTankTask1']
-#, fuzzy
 msgctxt "Interface.RetrievingOxyTankTask1"
 msgid "Remove the {THING:ItemGasCanisterOxygen} from the {THING:DynamicGasCanisterOxygen}."
-msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+msgstr "{THING:DynamicGasCanisterOxygen}에서 {THING:ItemGasCanisterOxygen}를 제거하세요."
 
 #: /Language/Interface/Record[Key='RetrievingOxyTankTask2']
-#, fuzzy
 msgctxt "Interface.RetrievingOxyTankTask2"
 msgid "Replace the {THING:ItemGasCanisterOxygen} back in your suit."
-msgstr "{THING:ItemTablet} 들기"
+msgstr "슈트의 {THING:ItemGasCanisterOxygen}를 교체하세요."
 
 #: /Language/Interface/Record[Key='RemoveingFuelCan']
 msgctxt "Interface.RemoveingFuelCan"
 msgid "Removing the Fuel Can"
-msgstr ""
+msgstr "연료 캔 제거하기"
 
 #: /Language/Interface/Record[Key='RemoveingFuelCanDescription']
 msgctxt "Interface.RemoveingFuelCanDescription"
@@ -5636,20 +5633,19 @@ msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
 #: /Language/Interface/Record[Key='Valves']
 msgctxt "Interface.Valves"
 msgid "Valves"
-msgstr ""
+msgstr "밸브"
 
 #: /Language/Interface/Record[Key='ValvesDescription']
 msgctxt "Interface.ValvesDescription"
 msgid ""
 "We now need to set up a pipe network for the gas mixing system. Start by placing valves next to each {THING:StructureTankConnector}. This lets you shut off the network from newly attached gas tanks,"
 " until we are ready to connect them to the pipe network."
-msgstr ""
+msgstr "이제 가스 혼합 시스템을 위한 배관 네트워크를 설치해야합니다. 밸브를 각 {THING:StructureTankConnector} 옆에 배치하는 것부터 시작하세요. 이는 네트워크에 연결할 준비가 될 때까지 새로 부착된 가스 탱크로부터 네트워크를 차단할 수 있게 해줍니다."
 
 #: /Language/Interface/Record[Key='ValvesTask1']
-#, fuzzy
 msgctxt "Interface.ValvesTask1"
 msgid "Get a {THING:ItemPipeValve} from the nearby crate and place it in the highlighted spot."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "근처 상자에서 {THING:ItemPipeValve}를 주워 강조 표시된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='PipeMeters']
 msgctxt "Interface.PipeMeters"
@@ -5664,10 +5660,9 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='PipeMetersTask1']
-#, fuzzy
 msgctxt "Interface.PipeMetersTask1"
 msgid "Place a {THING:StructurePipeMeter} in the highlighted position."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "{THING:StructurePipeMeter}를 강조 표시된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='GasMixer']
 msgctxt "Interface.GasMixer"
@@ -5680,15 +5675,14 @@ msgid "The Gas Mixer allows us to combine two gases at a defined ratio. This let
 msgstr ""
 
 #: /Language/Interface/Record[Key='GasMixerTask1']
-#, fuzzy
 msgctxt "Interface.GasMixerTask1"
 msgid "Place the {THING:StructureGasMixer} in the highlighted location."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "{THING:StructureGasMixer}를 강조 표시된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='PressureRegulator']
 msgctxt "Interface.PressureRegulator"
 msgid "The Pressure Regulator"
-msgstr ""
+msgstr "압력 조절기"
 
 #: /Language/Interface/Record[Key='PressureRegulatorDescription']
 msgctxt "Interface.PressureRegulatorDescription"
@@ -5696,15 +5690,14 @@ msgid "The {THING:StructurePressureRegulator} is used to regulate pressure insid
 msgstr ""
 
 #: /Language/Interface/Record[Key='PressureRegulatorTask1']
-#, fuzzy
 msgctxt "Interface.PressureRegulatorTask1"
 msgid "Place the {THING:StructurePressureRegulator} in the highlighted position."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "{THING:StructurePressureRegulator}를 강조 표시된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='ConnectingTanks']
 msgctxt "Interface.ConnectingTanks"
 msgid "Connecting Tanks"
-msgstr ""
+msgstr "탱크 연결"
 
 #: /Language/Interface/Record[Key='ConnectingTanksDescription']
 msgctxt "Interface.ConnectingTanksDescription"
@@ -5735,21 +5728,19 @@ msgid "We are now ready to turn on the {THING:StructureValve}. To open the Valve
 msgstr ""
 
 #: /Language/Interface/Record[Key='FlipingValvesTask2']
-#, fuzzy
 msgctxt "Interface.FlipingValvesTask2"
 msgid "Open the {THING:StructureValve} on the oxygen network."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "산소 네트워크에서 {THING:StructureValve}를 여세요."
 
 #: /Language/Interface/Record[Key='FlipingValvesTask1']
-#, fuzzy
 msgctxt "Interface.FlipingValvesTask1"
 msgid "Open the {THING:StructureValve} on the volatiles network."
-msgstr "{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다."
+msgstr "휘발성 네트워크에서 {THING:StructureValve}를 여세요."
 
 #: /Language/Interface/Record[Key='SettingYourLimit']
 msgctxt "Interface.SettingYourLimit"
 msgid "Setting Your Limit"
-msgstr ""
+msgstr "제한 설정"
 
 #: /Language/Interface/Record[Key='SettingYourLimitDescription']
 msgctxt "Interface.SettingYourLimitDescription"
@@ -5765,15 +5756,14 @@ msgid "Set the pressure on the {THING:StructurePressureRegulator} to 1950kPa"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingYourLimitTask2']
-#, fuzzy
 msgctxt "Interface.SettingYourLimitTask2"
 msgid "Turn on the {THING:StructurePressureRegulator}."
-msgstr "{THING:StructureBench}에 내려놓으세요."
+msgstr "{THING:StructurePressureRegulator}를 켜세요."
 
 #: /Language/Interface/Record[Key='TheGasMix']
 msgctxt "Interface.TheGasMix"
 msgid "The Gas Mix"
-msgstr ""
+msgstr "가스 혼합"
 
 #: /Language/Interface/Record[Key='TheGasMixDescription']
 msgctxt "Interface.TheGasMixDescription"
@@ -5785,17 +5775,17 @@ msgstr ""
 #: /Language/Interface/Record[Key='TheGasMixTask1']
 msgctxt "Interface.TheGasMixTask1"
 msgid "Set the mix ratio to '33' on input one, and '67' on input two."
-msgstr ""
+msgstr "혼합 배율을 입력 1에는 '33'으로, 입력 2에는 '67'로 설정하세요."
 
 #: /Language/Interface/Record[Key='TheGasMixTask2']
 msgctxt "Interface.TheGasMixTask2"
 msgid "Turn on the Gas Mixer."
-msgstr ""
+msgstr "가스 혼합기를 켜세요."
 
 #: /Language/Interface/Record[Key='RetrievingTheFuelTank']
 msgctxt "Interface.RetrievingTheFuelTank"
 msgid "Retrieving The Fuel Tank"
-msgstr ""
+msgstr "연료 탱크 검색"
 
 #: /Language/Interface/Record[Key='RetrievingTheFuelTankDescription']
 msgctxt "Interface.RetrievingTheFuelTankDescription"
@@ -5805,21 +5795,19 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='RetrievingTheFuelTankTask1']
-#, fuzzy
 msgctxt "Interface.RetrievingTheFuelTankTask1"
 msgid "Take the {THING:ItemGasCanisterFuel} from the {THING:StructureGasTankStorage}."
-msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+msgstr "{THING:StructureGasTankStorage}에서 {THING:ItemGasCanisterFuel}를 주우세요."
 
 #: /Language/Interface/Record[Key='RetrievingTheFuelTankTask2']
-#, fuzzy
 msgctxt "Interface.RetrievingTheFuelTankTask2"
 msgid "Place the {THING:ItemGasCanisterFuel} into the {THING:ItemWeldingTorch}."
-msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+msgstr "{THING:ItemGasCanisterFuel}를 {THING:ItemWeldingTorch}에 삽입하세요."
 
 #: /Language/Interface/Record[Key='TestTheFuelMix']
 msgctxt "Interface.TestTheFuelMix"
 msgid "Testing The Fuel Mix"
-msgstr ""
+msgstr "연료 혼합 시험"
 
 #: /Language/Interface/Record[Key='TestTheFuelMixDescription']
 msgctxt "Interface.TestTheFuelMixDescription"
@@ -5829,7 +5817,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='TestTheFuelMixTask1']
 msgctxt "Interface.TestTheFuelMixTask1"
 msgid "Complete construction of the glass door."
-msgstr ""
+msgstr "유리 문 건설을 완료하세요."
 
 #~ msgctxt "Interface.ControlLeftClickDisc"
 #~ msgid "Cycle airlock"
