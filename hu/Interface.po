@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-04 11:07+0000\n"
+"PO-Revision-Date: 2020-12-04 11:14+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2336,10 +2336,9 @@ msgid "Returns the cosine of the specified angle"
 msgstr "Visszatér az adott szög koszinuszával"
 
 #: /Language/Interface/Record[Key='ScriptCommandSin']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSin"
 msgid "Returns the sine of the specified angle"
-msgstr "Visszaadja az eszköz mólszámát"
+msgstr "Visszatér az adott szög szinuszával"
 
 #: /Language/Interface/Record[Key='ScriptCommandSleep']
 msgctxt "Interface.ScriptCommandSleep"
@@ -2372,7 +2371,6 @@ msgid "Register = the value at the top of the stack"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandLabel']
-#, fuzzy
 msgctxt "Interface.ScriptCommandLabel"
 msgid "DEPRECATED"
 msgstr "ELAVULT"
@@ -2738,28 +2736,24 @@ msgid "Register = a * b"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandNor']
-#, fuzzy
 msgctxt "Interface.ScriptCommandNor"
 msgid "Register = 1 if a and b are 0, otherwise 0"
-msgstr "1 visszaadása ha az eszköz tétlen, különben 0"
+msgstr "Regiszter = 1, ha a és b is 0, különben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandXor']
-#, fuzzy
 msgctxt "Interface.ScriptCommandXor"
 msgid "Register = 1 if either a or b not 0, otherwise 0"
-msgstr "1 visszaadása ha az eszköz tétlen, különben 0"
+msgstr "Regiszter = 1, ha a és b sem 0, különben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandOr']
-#, fuzzy
 msgctxt "Interface.ScriptCommandOr"
 msgid "Register = 1 if a and/or b not 0, otherwise 0"
-msgstr "1 visszaadása ha az eszköz tétlen, különben 0"
+msgstr "Regiszter = 1, ha a és/vagy b nem 0, különben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandAnd']
-#, fuzzy
 msgctxt "Interface.ScriptCommandAnd"
 msgid "Register = 1 if a and b not zero, otherwise 0"
-msgstr "1 visszaadása ha az eszköz tétlen, különben 0"
+msgstr "Regiszter = 1, ha a és b nem 0, ülönben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSnaz']
 msgctxt "Interface.ScriptCommandSnaz"
@@ -2792,16 +2786,14 @@ msgid "Register = 1 if a <= 0, otherwise 0"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandSgtz']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSgtz"
 msgid "Register = 1 if a > 0, otherwise 0"
-msgstr "1 ha az eszköz nyitva van, különben 0"
+msgstr "Regiszter = 1, ha a > 0, különben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSltz']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSltz"
 msgid "Register = 1 if a < 0, otherwise 0"
-msgstr "1 ha az eszköz nyitva van, különben 0"
+msgstr "Regiszter = 1, ha a < 0, különben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSna']
 msgctxt "Interface.ScriptCommandSna"
@@ -2834,28 +2826,24 @@ msgid "Register = 1 if a <= b, otherwise 0"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandSgt']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSgt"
 msgid "Register = 1 if a > b, otherwise 0"
-msgstr "1 ha az eszköz nyitva van, különben 0"
+msgstr "Regiszter = 1, ha a > b, különben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSlt']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSlt"
 msgid "Register = 1 if a < b, otherwise 0"
-msgstr "1 ha az eszköz nyitva van, különben 0"
+msgstr "Regiszter = 1, ha a < b, különben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSdns']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSdns"
 msgid "Register = 1 if device is not set, otherwise 0"
-msgstr "1 ha az eszköz nyitva van, különben 0"
+msgstr "Regiszter = 1, ha az eszköz nincs beállítva, különben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSdse']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSdse"
 msgid "Register = 1 if device is set, otherwise 0."
-msgstr "1 ha az eszköz nyitva van, különben 0"
+msgstr "Regiszter = 1, ha az eszköz be van állítva, különben 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSub']
 msgctxt "Interface.ScriptCommandSub"
@@ -2903,10 +2891,9 @@ msgid "Loads device var to register."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ResearchCancel']
-#, fuzzy
 msgctxt "Interface.ResearchCancel"
 msgid "Cancel"
-msgstr "Mégse"
+msgstr "Mégsem"
 
 #: /Language/Interface/Record[Key='ResearchConfirm']
 #, fuzzy
