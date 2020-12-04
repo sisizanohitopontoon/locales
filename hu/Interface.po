@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-04 11:39+0000\n"
+"PO-Revision-Date: 2020-12-04 11:45+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3968,17 +3968,17 @@ msgstr "visszatér a slotban levő tárgy sérülésének mértékével"
 #: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
 msgctxt "Interface.LogicSlotTypeQuantity"
 msgid "returns the current quantity, such as stack size, of the item in the slot"
-msgstr "visszaadja a slotban levő tárgy mennyiségét, stack-méretét"
+msgstr "visszatér a slotban levő tárgy mennyiségével (például stack-méret)"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupantHash']
 msgctxt "Interface.LogicSlotTypeOccupantHash"
 msgid "returns the has of the current occupant, the unique identifier of the thing"
-msgstr "visszaadja a tárgy hashét, azaz az egyedi jellemzőjét"
+msgstr "visszatér a tárgy hash értékével, azaz az egyedi azonosítójával"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
 msgctxt "Interface.LogicSlotTypeOccupied"
 msgid "returns 0 when slot is not occupied, 1 when it is"
-msgstr "ha a slot üres, 0 kiírása, ha foglalt, 1"
+msgstr "visszatér 0-val, ha a slot üres, 1-gyel, ha foglalt"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeNone']
 msgctxt "Interface.LogicSlotTypeNone"
@@ -3993,7 +3993,7 @@ msgstr "Visszaadja a műholdból annak az ügyfélnek az azonosítóját, akinek
 #: /Language/Interface/Record[Key='LogicTypeSignalStrength']
 msgctxt "Interface.LogicTypeSignalStrength"
 msgid "Returns the strength of the strongest signal received from this Satellite"
-msgstr "Visszaadja a műhold által vett legerősebb jelet"
+msgstr "Visszatér a műhold által vett legerősebb jel erősségével"
 
 #: /Language/Interface/Record[Key='LogicTypeForceWrite']
 msgctxt "Interface.LogicTypeForceWrite"
@@ -4087,7 +4087,7 @@ msgstr "Elvégzi az ültetési műveletet bármely növényi gépen"
 #: /Language/Interface/Record[Key='LogicTypeVolume']
 msgctxt "Interface.LogicTypeVolume"
 msgid "Returns the device atmosphere volume"
-msgstr "Visszaadja az adott eszköz légköri térfogatát"
+msgstr "Visszatér az adott eszköz légköri térfogatával"
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMoles']
 msgctxt "Interface.LogicTypeTotalMoles"
