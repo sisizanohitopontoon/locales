@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-03 23:35+0000\n"
-"Last-Translator: LamRis <richard.rokyta@volny.cz>\n"
+"PO-Revision-Date: 2020-12-04 08:53+0000\n"
+"Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
@@ -1287,8 +1287,8 @@ msgid ""
 "Complete the base by welding iron sheets onto the new frames.\n"
 "You'll need a welder in your active hand, and iron sheets in the other."
 msgstr ""
-"Dokončete základnu svařováním železných panelů na nových rámech.\n"
-"V aktivní ruce budete potřebovat svářečku a v druhé železné panely."
+"Dokončete základnu svařením železných plechů na nových rámech.\n"
+"V aktivní ruce budete potřebovat svářečku a v druhé železné plechy."
 
 #: /Language/Interface/Record[Key='PickUpT1 9']
 msgctxt "Interface.PickUpT1 9"
@@ -2644,16 +2644,14 @@ msgid "Turn tablet on."
 msgstr "Zapněte tablet."
 
 #: /Language/Interface/Record[Key='3Narration3D']
-#, fuzzy
 msgctxt "Interface.3Narration3D"
 msgid "Use the tablet to navigate to the beacon we've placed near an ore deposit."
 msgstr "Pomocí tabletu najděte maják, který jsme umístili poblíž ložiska rudy."
 
 #: /Language/Interface/Record[Key='3EnterAreaT1']
-#, fuzzy
 msgctxt "Interface.3EnterAreaT1"
 msgid "Navigate to the beacon"
-msgstr "Najděte maják"
+msgstr "Jděte k majáku"
 
 #: /Language/Interface/Record[Key='3Narration4D']
 msgctxt "Interface.3Narration4D"
@@ -2747,7 +2745,6 @@ msgid "To make a hydraulic pipebender, you need copper, iron and gold. Grab othe
 msgstr "K výrobě hydraulické ohýbačce trubek potřebujete měď, železo a zlato. Vezměte z bedny další ingoty a přidejte je do autosoustruhu."
 
 #: /Language/Interface/Record[Key='3GetCopperIngot']
-#, fuzzy
 msgctxt "Interface.3GetCopperIngot"
 msgid "Pick up copper ingot from crate."
 msgstr "Vezměte měděný ingot z bedny."
@@ -2758,7 +2755,6 @@ msgid "Add copper ingot to autolathe."
 msgstr "Přidejte měděný ingot do autosoustruhu."
 
 #: /Language/Interface/Record[Key='3GetGoldIngot']
-#, fuzzy
 msgctxt "Interface.3GetGoldIngot"
 msgid "Pick up gold ingot from crate."
 msgstr "Vezměte zlatý ingot z bedny."
@@ -2801,16 +2797,14 @@ msgid "Place hydraulic pipebender in highlighted position"
 msgstr "Umístěte hydraulickou ohýbačku trubek na zvýrazněné místo"
 
 #: /Language/Interface/Record[Key='3Narration11D']
-#, fuzzy
 msgctxt "Interface.3Narration11D"
 msgid "Now that the pipebender's frame is placed, we need to complete it. Just like the autolathe, follow the tooltips to finish construction."
-msgstr "Nyní, když je rám ohýbačky trubek na místě, musíme jej dokončit. Stejně jako u autosoustruhu postupujte podle tipů pro dokončení."
+msgstr "Nyní, když je rám ohýbačky trubek na místě, musíte ji dokončit. Postupujte stejně jako u autosoustruhu a dokončete konstrukci podle pokynů."
 
 #: /Language/Interface/Record[Key='3FinishPipeBender']
-#, fuzzy
 msgctxt "Interface.3FinishPipeBender"
 msgid "Using resources from the crate, complete pipebender."
-msgstr "Pomocí zdrojů nalezených v bedně dokončete ohýbačku trubek."
+msgstr "Pomocí zdrojů z bedny dokončete ohýbačku trubek."
 
 #: /Language/Interface/Record[Key='3PipeBenderOn']
 #, fuzzy
@@ -2866,7 +2860,6 @@ msgid "Fabricate active vent using pipeBender."
 msgstr "Vytvořte aktivní ventilátor pomocí ohýbačky trubek."
 
 #: /Language/Interface/Record[Key='3PipeBenderOff']
-#, fuzzy
 msgctxt "Interface.3PipeBenderOff"
 msgid "Turn off pipebender once fabrication is complete."
 msgstr "Po dokončení výroby vypněte ohýbačku trubek."
@@ -2885,10 +2878,9 @@ msgstr ""
 "Dobrá práce, kadete. Postavil jste systém výroby. To je poslední krok praktického testování, fáze III. Stisknutím tlačítka 'Dokončit' přenesete výsledky do příkazu Stationeer a my půjdeme dál."
 
 #: /Language/Interface/Record[Key='3OnButtonPressTaskT1']
-#, fuzzy
 msgctxt "Interface.3OnButtonPressTaskT1"
 msgid "Press transmit button to complete test."
-msgstr "Stisknutím tlačítka dokončete test."
+msgstr "Stiskněte přenosové tlačítko k dokončení testu."
 
 #: /Language/Interface/Record[Key='04BasicMining']
 msgctxt "Interface.04BasicMining"
@@ -4639,7 +4631,7 @@ msgstr "{THING:StructureLaunchPad} je hlavním nabíjecím bodem rakety a připo
 #: /Language/Interface/Record[Key='WeildSteelPlatesL']
 msgctxt "Interface.WeildSteelPlatesL"
 msgid "Weld {THING:ItemSteelSheets} to the {THING:StructureLaunchPad}."
-msgstr "Přivařte {THING:ItemSteelSheets} k }l{THING:StructureLaunchPad}."
+msgstr "Přivařte {THING:ItemSteelSheets} k {THING:StructureLaunchPad}."
 
 #: /Language/Interface/Record[Key='ElectronicsL']
 msgctxt "Interface.ElectronicsL"
@@ -4720,7 +4712,7 @@ msgstr "Palivové nádrže"
 msgctxt "Interface.FuelTanks2Description"
 msgid "Rockets in Stationeers use the same fuel as other items requiring flammable gas such as the Welder or Gas Generator. A 2:1 ratio of Volatiles and Oxygen provides the cleanest burn."
 msgstr ""
-"Rakety ve stationeers používají stejné palivo jako jiné položky, které vyžadují hořlavý plyn, jako je svářečka nebo generátor na plyn. Poměr těkavých látek a kyslíku 2:1 zajišťuje nejčistší odpal."
+"Rakety ve Stationeers používají stejné palivo jako jiné předměty vyžadující hořlavý plyn, například svářečka nebo generátor na plyn. Nejčistší spálení těkavých látek a kyslíku zajistí poměr 2 : 1."
 
 #: /Language/Interface/Record[Key='FuelTanks2Task1']
 msgctxt "Interface.FuelTanks2Task1"
@@ -4881,8 +4873,8 @@ msgid ""
 "Before you launch, you will want to program the flight computer with a valid destination - or else you may end up in the middle of nowhere. In this case, we want to travel to Mimas, one of Saturn's "
 "moons. Do this by writing the Planet ID to the Command Module using a logic writer."
 msgstr ""
-"Před odpálením, budete chtít naprogramovat letový počítač s platnou destinací - jinak můžete skončit uprostřed ničeho. V tomto případě chceme cestovat do Mimas, jednoho ze Saturnových měsíců. To "
-"provedeme zápisem ID planety do velitelského modulu pomocí zapisovače logiky."
+"Před spuštěním budete chtít naprogramovat letový počítač s platným cílem - jinak můžete skončit uprostřed ničeho. V tomto případě poletíte na Mimas, jednoho ze Saturnových měsíců. To provedete "
+"zápisem ID planety do velitelského modulu pomocí logického zapisovače."
 
 #: /Language/Interface/Record[Key='SettingTheDestination1']
 msgctxt "Interface.SettingTheDestination1"
