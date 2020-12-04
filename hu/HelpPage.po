@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-04 09:57+0000\n"
+"PO-Revision-Date: 2020-12-04 10:10+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -441,6 +441,16 @@ msgid ""
 "      {/LIST}\n"
 "      "
 msgstr ""
+"Várj! Még ne zárj be! Ezek itt a VILÁGUTAZÓ-AZONOSÍTÓK. Használhatod őket bizonyos bolygók közti utazásra, ha együtt használod egy már kész {LINK:RocketShuttlePage;űrhajóval} és {LINK:LogicUnitPage;logikai egységekkel}.\n"
+"       \n"
+"Csak írd be a hash értékeket a {THING:StructureLaunchPad} Beállítás változójábaegy {THING:ItemLabeller} segítségével. Megjegyzés: Ha a hash értékre kattintasz, akkor bemásolódik a vágólapra.\n"
+"      \n"
+"Az induláshoz legalább 3 központi modulra lesz szükséged és arra, hogy minden játékos a rakétában üljön.\n"
+"\n"
+"      {LIST}\n"
+"        {WORLD_HASHES}\n"
+"      {/LIST}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttlePage']
 msgctxt "HelpPage.RocketShuttlePage"
@@ -499,16 +509,14 @@ msgid "{HEADER:Slots}{LIST}{0}{/LIST}"
 msgstr "{HEADER:Slotok}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotItemTemplate']
-#, fuzzy
 msgctxt "HelpPage.ThingSlotItemTemplate"
 msgid "{0}. {1} Type {2}"
-msgstr "{0}. {POS:100}{1} {POS:300}Típus {2}"
+msgstr "{0}. {1} Típus {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingStackTemplate']
-#, fuzzy
 msgctxt "HelpPage.ThingStackTemplate"
 msgid "{0}"
-msgstr "Stack-méret {POS:300}{0}"
+msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingTransmissibleTemplate']
 msgctxt "HelpPage.ThingTransmissibleTemplate"
