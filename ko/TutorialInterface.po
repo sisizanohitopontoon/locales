@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-04 00:06+0000\n"
+"PO-Revision-Date: 2020-12-04 00:11+0000\n"
 "Last-Translator: Refirser <choh3722@gmail.com>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1952,17 +1952,17 @@ msgstr "마지막으로, {THING:ItemScrewdriver}를 이용해 정면의 패널�
 #: /Language/Interface/Record[Key='TutoiralConstruction']
 msgctxt "Interface.TutoiralConstruction"
 msgid "Construction"
-msgstr ""
+msgstr "건설"
 
 #: /Language/Interface/Record[Key='TutoiralConstructionDescription']
 msgctxt "Interface.TutoiralConstructionDescription"
 msgid "Test your basic construction skills."
-msgstr ""
+msgstr "기본 건설 기술을 테스트하세요."
 
 #: /Language/Interface/Record[Key='TutoiralConstructionSubTitle']
 msgctxt "Interface.TutoiralConstructionSubTitle"
 msgid "Practical Training: Stage II"
-msgstr ""
+msgstr "실용적인 훈련: 단계 2"
 
 #: /Language/Interface/Record[Key='IntoTutoiralConstructionDescription']
 msgctxt "Interface.IntoTutoiralConstructionDescription"
@@ -2002,17 +2002,17 @@ msgstr ""
 #: /Language/Interface/Record[Key='2Narration2T']
 msgctxt "Interface.2Narration2T"
 msgid "Deconstruction "
-msgstr ""
+msgstr "해체"
 
 #: /Language/Interface/Record[Key='T2Deconstruct1']
 msgctxt "Interface.T2Deconstruct1"
 msgid "Remove Destroyed frame 1."
-msgstr ""
+msgstr "파괴된 틀 - 1을 제거하세요."
 
 #: /Language/Interface/Record[Key='T2Deconstruct2']
 msgctxt "Interface.T2Deconstruct2"
 msgid "Remove Destroyed frame 2."
-msgstr ""
+msgstr "파괴된 틀 - 2을 제거하세요."
 
 #: /Language/Interface/Record[Key='2Narration3T']
 msgctxt "Interface.2Narration3T"
@@ -2339,49 +2339,51 @@ msgstr "{THING:StructureSolidFuelGenerator}를 설치하세요."
 #: /Language/Interface/Record[Key='TutorialGoingSolar']
 msgctxt "Interface.TutorialGoingSolar"
 msgid "Going Solar - Part I"
-msgstr ""
+msgstr "태양열 발전 - 파트 1"
 
 #: /Language/Interface/Record[Key='TutorialGoingSolarDescription']
 msgctxt "Interface.TutorialGoingSolarDescription"
 msgid "Great work, Cadet! Our next task is to set up a {THING:StructureSolarPanel}. This will provide renewable energy for the base without needing fuel. However, it will only work during the day. "
 msgstr ""
+"잘하셨습니다, 훈련생님! 다음으로는 {THING:StructureSolarPanel}를 진행하겠습니다.  태양광 발전기는 따로 연료 없이 기지를 위한 전력을 생산합니다.\n"
+"하지만 낮에만 사용할 수 있다는 단점이 존재합니다."
 
 #: /Language/Interface/Record[Key='GoingSolarTask1']
 msgctxt "Interface.GoingSolarTask1"
 msgid "Grab the {THING:ItemKitSolarPanel} from Construction Crate #1."
-msgstr ""
+msgstr "{THING:ItemKitSolarPanel}를 건설 상자 #1에서 집으세요."
 
 #: /Language/Interface/Record[Key='GoingSolarTask2']
 msgctxt "Interface.GoingSolarTask2"
 msgid ""
 "Kits can build different structures and variants. To build this kind of Solar Panel, use the scroll wheel to swap to the correct variant, then match the cursor shape with the highlighted spot. "
 "Remember to use {KEY:QuantityModifier} to rotate the object to the correct position."
-msgstr ""
+msgstr "키트는 다른 구조물과 여러 형태로 설치할 수 있습니다.  강조된 모습과 비슷한 태양광 발전기를 고르려면 마우스 휠을 올리고 내려 형태를 선택하세요. 회전은 {KEY:QuantityModifier} 키로 할 수 있습니다."
 
 #: /Language/Interface/Record[Key='TutorialGoingSolarpart2']
 msgctxt "Interface.TutorialGoingSolarpart2"
 msgid "Going Solar - Part II."
-msgstr ""
+msgstr "태양열 발전 - 파트 2"
 
 #: /Language/Interface/Record[Key='TutorialGoingSolarDescriptionpart2']
 msgctxt "Interface.TutorialGoingSolarDescriptionpart2"
 msgid "Like the {THING:StructureAutolathe}, the Solar Panel also requires an extra step to construct. "
-msgstr ""
+msgstr "{THING:StructureAutolathe}과 마찬가지로, 태양광 발전기도 설치에 여러 추가 단계가 존재합니다. "
 
 #: /Language/Interface/Record[Key='GoingSolarPart2Task1']
 msgctxt "Interface.GoingSolarPart2Task1"
 msgid "Grab the {THING:ItemGlassSheets} from Construction Crate #1."
-msgstr ""
+msgstr "{THING:ItemGlassSheets}을 건설 상자 #1에서 집으세요."
 
 #: /Language/Interface/Record[Key='GoingSolarPart2Task2']
 msgctxt "Interface.GoingSolarPart2Task2"
 msgid "Place the {THING:ItemGlassSheets} on the Solar Panel."
-msgstr ""
+msgstr "{THING:ItemGlassSheets}을 태양광 발전기에 설치하세요."
 
 #: /Language/Interface/Record[Key='TutorialLearningToWire']
 msgctxt "Interface.TutorialLearningToWire"
 msgid "Learning to wire"
-msgstr ""
+msgstr "전선에 대해 배우기"
 
 #: /Language/Interface/Record[Key='TutorialLearningToWireDescription']
 msgctxt "Interface.TutorialLearningToWireDescription"
@@ -2391,6 +2393,10 @@ msgid ""
 "\n"
 "In your {SLOT:Belt}, you will find the {THING:ItemCableCoil}. Place the cables in the highlighted area, using the scroll wheel to select the correct wire, and the {KEY:QuantityModifier} key to rotate to match the placement. "
 msgstr ""
+"이제 저희는 전선을 사용하여 장비를 서로 연결해야합니다. 지구에서는 일반적인 전선으로 정상적인 배선이 가능하지만 우주에서는 불가능하기 때문에 우주용 케이블로 배선해야합니다. 이는 전력과 데이터 전부 전송이 가능합니다.\n"
+"\n"
+"\n"
+"{SLOT:Belt}에서 {THING:ItemCableCoil}을 찾을 수 있습니다. 케이블을 강조된 지점에 설치하세요, 마우스 휠을 굴려 케이블의 모양을 선택할 수 있으며 , {KEY:QuantityModifier} 키를 눌러 회전이 가능합니다. "
 
 #: /Language/Interface/Record[Key='LearningToWireTask0.5']
 msgctxt "Interface.LearningToWireTask0.5"
@@ -2415,17 +2421,17 @@ msgstr "{THING:StructureCableJunction}를 설치하세요."
 #: /Language/Interface/Record[Key='TutorialWiringWires']
 msgctxt "Interface.TutorialWiringWires"
 msgid "Wiring Wires"
-msgstr ""
+msgstr "전선 연결하기"
 
 #: /Language/Interface/Record[Key='TutorialWiringWiresDescription']
 msgctxt "Interface.TutorialWiringWiresDescription"
 msgid "Extend the wires to the main platform."
-msgstr ""
+msgstr "전선을 메인 플랫폼까지 연장하세요."
 
 #: /Language/Interface/Record[Key='TutorialPowerControlersAndbatteryCharges']
 msgctxt "Interface.TutorialPowerControlersAndbatteryCharges"
 msgid "Battery Charges and Power Controllers"
-msgstr ""
+msgstr "배터리 충전과 전력 제어"
 
 #: /Language/Interface/Record[Key='TutorialPowerControlersAndbatteryChargesDescription']
 msgctxt "Interface.TutorialPowerControlersAndbatteryChargesDescription"
@@ -2434,61 +2440,59 @@ msgid ""
 "\n"
 "Secondly, we need to add a {THING:ItemBatteryCharger} for our depleted batteries. We want to put it into the circuit before the {THING:ItemAreaPowerControl}, so it won’t drain the {THING:ItemAreaPowerControl} battery."
 msgstr ""
+"다음 단계에서는 , 전력의 흐름을 제어하고 전선이 불타지않도록 {THING:ItemAreaPowerControl}를 배치해야합니다. 이는 발전기가 오프라인일 시 소규모적인 중간 전력을 제공하기도 합니다. \n"
+"\n"
+"두번째로는, {THING:ItemBatteryCharger}를 추가하여 배터리가 방전되지 않도록합니다. {THING:ItemAreaPowerControl} 이전에 회로를 두어 {THING:ItemAreaPowerControl}의 배터리가 방전되지 않도록합니다."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask1']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask1"
 msgid "Get the {THING:ItemAreaPowerControl} from Construction Crate #1."
-msgstr ""
+msgstr "{THING:ItemAreaPowerControl}를 건설 상자 #1에서 집으세요."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask2']
-#, fuzzy
 msgctxt "Interface.PowerControlersAndbatteryChargesTask2"
 msgid "Place the {THING:ItemAreaPowerControl} in the highlighted spot."
-msgstr "{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기"
+msgstr "{THING:ItemAreaPowerControl}를 강조 표시된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask3']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask3"
 msgid "Get the {THING:ItemBatteryCharger} from Construction Crate #2."
-msgstr ""
+msgstr "{THING:ItemBatteryCharger}를 건설 상자 #2에서 집으세요."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask4']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask4"
 msgid "place the {THING:ItemBatteryCharger} in the highlighted spot."
-msgstr ""
+msgstr "{THING:ItemBatteryCharger}를 강조된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='TutorialFinishingTheCircuit']
 msgctxt "Interface.TutorialFinishingTheCircuit"
 msgid "Finishing the circuit"
-msgstr ""
+msgstr "회로를 완성하기"
 
 #: /Language/Interface/Record[Key='TutorialTutorialFinishingTheCircuitDescription']
 msgctxt "Interface.TutorialTutorialFinishingTheCircuitDescription"
 msgid "Wire the rest of the components up to our machines."
-msgstr ""
+msgstr "나머지 기계들을 연결하세요."
 
 #: /Language/Interface/Record[Key='FinishingTheCircuitTask2']
-#, fuzzy
 msgctxt "Interface.FinishingTheCircuitTask2"
 msgid "Place a {THING:StructureCableCorner3}."
-msgstr "{THING:StructureCableJunctionBurnt} 제거하기"
+msgstr "{THING:StructureCableCorner3}를 설치하세요."
 
 #: /Language/Interface/Record[Key='FinishingTheCircuitTask4']
-#, fuzzy
 msgctxt "Interface.FinishingTheCircuitTask4"
 msgid "Place a {THING:StructureCableJunction}."
-msgstr "{THING:StructureCableJunctionBurnt} 제거하기"
+msgstr "{THING:StructureCableJunction}를 설치하세요."
 
 #: /Language/Interface/Record[Key='FinishingTheCircuitTask6']
-#, fuzzy
 msgctxt "Interface.FinishingTheCircuitTask6"
 msgid "Place a {THING:StructureCableJunction}."
-msgstr "{THING:StructureCableJunctionBurnt} 제거하기"
+msgstr "{THING:StructureCableJunction}를 설치하세요."
 
 #: /Language/Interface/Record[Key='FinishingTheCircuitTask8']
-#, fuzzy
 msgctxt "Interface.FinishingTheCircuitTask8"
 msgid "Place a {THING:StructureCableJunction}."
-msgstr "{THING:StructureCableJunctionBurnt} 제거하기"
+msgstr "{THING:StructureCableJunction}를 설치하세요."
 
 #: /Language/Interface/Record[Key='TutorialSettingUpThePowerController']
 msgctxt "Interface.TutorialSettingUpThePowerController"
@@ -2501,37 +2505,38 @@ msgid ""
 "To make the {THING:StructureAreaPowerControl} work, we need to open the cover and insert a battery, then flip the breaker switch to let electricity and data pass-through. It's recommended to use a "
 "large battery for long-lasting power in case of an outage, but a small battery can be used."
 msgstr ""
+"{THING:StructureAreaPowerControl}가 작동할 수 있게하려면 덮개를 열고 배터리를 삽입한 다음 차단기 스위치를 돌려 전기와 데이터가 통과할 수 있게 해야합니다.\n"
+"정전 시 전원 유지용으로는 대용량 배터리를 사용하는 것이 좋지만 소형 배터리도 사용은 가능합니다. "
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask1']
 msgctxt "Interface.SettingUpThePowerControllerTask1"
 msgid "Equip the {THING:ItemCrowbar} from your {SLOT:Belt}."
-msgstr ""
+msgstr "{THING:ItemCrowbar}를 {SLOT:Belt}에서 꺼내 장착하세요."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask2']
 msgctxt "Interface.SettingUpThePowerControllerTask2"
 msgid "Open the {THING:StructureAreaPowerControl} with the {THING:ItemCrowbar}."
-msgstr ""
+msgstr "{THING:StructureAreaPowerControl}를 {THING:ItemCrowbar}를 사용해 열어주세요."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask3']
 msgctxt "Interface.SettingUpThePowerControllerTask3"
 msgid "Grab the {THING:ItemBatteryCellLarge} from Construction Crate #2."
-msgstr ""
+msgstr "{THING:ItemBatteryCellLarge}를 건설 상자 #2에서 집으세요."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask4']
-#, fuzzy
 msgctxt "Interface.SettingUpThePowerControllerTask4"
 msgid "Place the {THING:ItemBatteryCellLarge} into the {THING:StructureAreaPowerControl}."
-msgstr "{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기"
+msgstr "{THING:ItemBatteryCellLarge}를 {THING:StructureAreaPowerControl}에 끼워주세요."
 
 #: /Language/Interface/Record[Key='SettingUpThePowerControllerTask5']
 msgctxt "Interface.SettingUpThePowerControllerTask5"
 msgid "Flip the breaker to the “On” position on the {THING:StructureAreaPowerControl}."
-msgstr ""
+msgstr "차단기를 {THING:StructureAreaPowerControl}의 '켜기' 버튼으로 뒤집으세요."
 
 #: /Language/Interface/Record[Key='TutoiralFabrication']
 msgctxt "Interface.TutoiralFabrication"
 msgid "Fabrication"
-msgstr ""
+msgstr "제조"
 
 #: /Language/Interface/Record[Key='TutoiralFabricationDescription']
 msgctxt "Interface.TutoiralFabricationDescription"
@@ -2541,7 +2546,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='TutoiralFabricationSubTitle']
 msgctxt "Interface.TutoiralFabricationSubTitle"
 msgid "Practical Training: Stage III"
-msgstr ""
+msgstr "실용적인 훈련: 단계 3"
 
 #: /Language/Interface/Record[Key='IntoTutoiralFabricationDescription']
 msgctxt "Interface.IntoTutoiralFabricationDescription"
@@ -2553,7 +2558,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='3Narration1T']
 msgctxt "Interface.3Narration1T"
 msgid "Practical Training: Stage III"
-msgstr ""
+msgstr "실용적인 훈련: 단계 3"
 
 #: /Language/Interface/Record[Key='3Narration1D']
 msgctxt "Interface.3Narration1D"
@@ -2561,15 +2566,14 @@ msgid "To finish this part of the base, you need a hydraulic pipebender to creat
 msgstr ""
 
 #: /Language/Interface/Record[Key='3GetTablet']
-#, fuzzy
 msgctxt "Interface.3GetTablet"
 msgid "Get tablet from crate."
-msgstr "{THING:ItemTablet} 들기"
+msgstr "태블릿을 상자에서 주우세요."
 
 #: /Language/Interface/Record[Key='3Narration2T']
 msgctxt "Interface.3Narration2T"
 msgid "Practical Training: Stage III"
-msgstr ""
+msgstr "실용적인 훈련: 단계 3"
 
 #: /Language/Interface/Record[Key='3Narration2D']
 msgctxt "Interface.3Narration2D"
@@ -2582,10 +2586,9 @@ msgid "Add tracker cartridge from crate to tablet."
 msgstr ""
 
 #: /Language/Interface/Record[Key='3TabletOn']
-#, fuzzy
 msgctxt "Interface.3TabletOn"
 msgid "Turn tablet on."
-msgstr "{THING:ItemTablet} 켜기"
+msgstr "태블릿을 켜세요."
 
 #: /Language/Interface/Record[Key='3Narration3D']
 msgctxt "Interface.3Narration3D"
@@ -2595,7 +2598,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='3EnterAreaT1']
 msgctxt "Interface.3EnterAreaT1"
 msgid "Navigate to the beacon"
-msgstr ""
+msgstr "비콘으로 이동하세요"
 
 #: /Language/Interface/Record[Key='3Narration4D']
 msgctxt "Interface.3Narration4D"
@@ -2605,17 +2608,17 @@ msgstr ""
 #: /Language/Interface/Record[Key='3GetMDrill']
 msgctxt "Interface.3GetMDrill"
 msgid "Equip mining drill from mining belt in backpack."
-msgstr ""
+msgstr "채굴 드릴을 가방안의 채굴용 벨트에서 장착하세요."
 
 #: /Language/Interface/Record[Key='3MDrillOn']
 msgctxt "Interface.3MDrillOn"
 msgid "Turn on drill"
-msgstr ""
+msgstr "드릴을 켜세요."
 
 #: /Language/Interface/Record[Key='3GetIronOre']
 msgctxt "Interface.3GetIronOre"
 msgid "Mine 30 iron."
-msgstr ""
+msgstr "30개의 철을 캐세요."
 
 #: /Language/Interface/Record[Key='3Narration5D']
 msgctxt "Interface.3Narration5D"
@@ -2625,7 +2628,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='3EnterAreaT2']
 msgctxt "Interface.3EnterAreaT2"
 msgid "Return to the base"
-msgstr ""
+msgstr "기지로 돌아가세요"
 
 #: /Language/Interface/Record[Key='3Narration6D']
 msgctxt "Interface.3Narration6D"
