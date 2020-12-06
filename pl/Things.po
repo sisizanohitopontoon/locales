@@ -10,24 +10,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemKitRoverFrame']
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "Zestaw (Rama Łazika)"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
-msgctxt "Things.ItemWreckageHydroponicsTray1"
-msgid "Wreckage Hydroponics Tray"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
-msgctxt "Things.ItemWreckageHydroponicsTray1"
-msgid "{BLANK}"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
-msgctxt "Things.DynamicGasTankAdvanced"
-msgid "Gas Tank (Advanced)"
+#: /Language/Things/RecordThing[Key='StructureStairs4x2Rails']
+msgctxt "Things.StructureStairs4x2Rails"
+msgid "Stairs with Rails"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
@@ -295,6 +280,21 @@ msgctxt "Things.ItemKitWeatherStation"
 msgid "{BLANK}"
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
+msgctxt "Things.DynamicGasTankAdvanced"
+msgid "Gas Tank (Advanced)"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
+msgctxt "Things.ItemWreckageHydroponicsTray1"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
+msgctxt "Things.ItemWreckageHydroponicsTray1"
+msgid "Wreckage Hydroponics Tray"
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='StructureBlocker']
 msgctxt "Things.StructureBlocker"
 msgid "{BLANK}"
@@ -476,17 +476,16 @@ msgctxt "Things.ItemWreckageBlastDoor2"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
-#, fuzzy
-msgctxt "Things.ItemWreckageBlastDoor2"
-msgid "Wreckage Blast Door"
-msgstr "Drzwi Pancerne"
+#: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor1']
+msgctxt "Things.ItemWreckageBlastDoor1"
+msgid "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor1']
 #, fuzzy
 msgctxt "Things.ItemWreckageBlastDoor1"
 msgid "Wreckage Blast Door"
-msgstr "Drzwi Pancerne"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad5']
 msgctxt "Things.ItemWreckageShuttleLandingPad5"
@@ -1507,7 +1506,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureEmergencyButton']
 msgctxt "Things.StructureEmergencyButton"
-msgid "Emergency Button"
+msgid "Important Button"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='TriggerZone']
@@ -1944,6 +1943,12 @@ msgctxt "Things.StructureWallFlatCornerSquare"
 msgid "Wall (Flat Corner Square)"
 msgstr "Ściana (geometryczna, róg)"
 
+#: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
+#, fuzzy
+msgctxt "Things.ItemWreckageBlastDoor2"
+msgid "Wreckage Blast Door"
+msgstr "Drzwi Pancerne"
+
 #: /Language/Things/RecordThing[Key='StructureWallFlatCornerRound']
 #, fuzzy
 msgctxt "Things.StructureWallFlatCornerRound"
@@ -1955,11 +1960,6 @@ msgstr "Ściana (geometryczna, róg)"
 msgctxt "Things.StructureWallArchCornerTriangle"
 msgid "Wall (Arch Corner Triangle)"
 msgstr "Ściana (łuk, dwu-barwna)"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor1']
-msgctxt "Things.ItemWreckageBlastDoor1"
-msgid "{BLANK}"
-msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureWallArchCornerSquare']
 #, fuzzy
@@ -2672,10 +2672,10 @@ msgctxt "Things.StructureStairs4x2RailL"
 msgid "Stairs with Rail (Left)"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureStairs4x2Rails']
-msgctxt "Things.StructureStairs4x2Rails"
-msgid "Stairs with Rails"
-msgstr ""
+#: /Language/Things/RecordThing[Key='ItemKitRoverFrame']
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "Zestaw (Rama Łazika)"
 
 #: /Language/Things/RecordThing[Key='StructureRover']
 msgctxt "Things.StructureRover"
@@ -5657,7 +5657,8 @@ msgstr "Regulator Cisnienia Wstecznego"
 msgctxt "Things.StructureAreaPowerControlReversed"
 msgid ""
 "An Area Power Control (APC) has three main functions. \n"
-"An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage."
+"Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.\n"
+"Note that the APC has two variants, each allowing power to flow."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControlReversed']
@@ -7275,7 +7276,7 @@ msgstr "Ogniwo (Male)"
 
 #: /Language/Things/RecordThing[Key='ItemAreaPowerControl']
 msgctxt "Things.ItemAreaPowerControl"
-msgid "This kit places a {THING:StructureAreaPowerControl} (APC) on any support structure. The APC kit has two options, allowing you to determine which direction you would like the APC power to flow."
+msgid "This kit places a {THING:StructureAreaPowerControl} (APC) on any support structure. The APC kit has two options, selecting which direction you would like the APC power to flow."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemAreaPowerControl']

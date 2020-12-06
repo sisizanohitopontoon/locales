@@ -682,10 +682,10 @@ msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "Кол-во источников света"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Разрешение теней"
+#: /Language/Interface/Record[Key='SettingsShadows']
+msgctxt "Interface.SettingsShadows"
+msgid "Shadows"
+msgstr "Тени"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1196,15 +1196,15 @@ msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Вы увеерны, что хотите опубликовать этот мир в мастерской?"
 
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "Опубликовать"
+
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
 msgstr "Удалить сохранение"
-
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "Вы увеерны?"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1330,11 +1330,6 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Нужно больше {0}</color>."
 
-#: /Language/Interface/Record[Key='SettingsShadows']
-msgctxt "Interface.SettingsShadows"
-msgid "Shadows"
-msgstr "Тени"
-
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
@@ -1344,6 +1339,11 @@ msgstr "Искать сервер по имени"
 msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "Введите IP:Порт здесь..."
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Разрешение теней"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
@@ -1571,10 +1571,27 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='OpenIncidentUI']
-msgctxt "Interface.OpenIncidentUI"
-msgid "Open Incidents"
-msgstr "Открыть Происшествия"
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
+msgstr "Обмен"
+
+#: /Language/Interface/Record[Key='LightString']
+#, fuzzy
+msgctxt "Interface.LightString"
+msgid "Da Light"
+msgstr "Свет"
+
+#: /Language/Interface/Record[Key='HelmetString']
+#, fuzzy
+msgctxt "Interface.HelmetString"
+msgid "Helmet"
+msgstr "Шлем"
+
+#: /Language/Interface/Record[Key='ShowPreviousVideoText']
+msgctxt "Interface.ShowPreviousVideoText"
+msgid "Show Previous video"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ToggleChangeLog']
 msgctxt "Interface.ToggleChangeLog"
@@ -3838,10 +3855,10 @@ msgctxt "Interface.Locked"
 msgid "Locked"
 msgstr "Заблокировано"
 
-#: /Language/Interface/Record[Key='Trade']
-msgctxt "Interface.Trade"
-msgid "Trade"
-msgstr "Обмен"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Отписаться"
 
 #: /Language/Interface/Record[Key='TraderGoneMissing']
 msgctxt "Interface.TraderGoneMissing"
@@ -3853,10 +3870,10 @@ msgctxt "Interface.ContactsTrading"
 msgid "Contacts"
 msgstr "Контакты"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Отписаться"
+#: /Language/Interface/Record[Key='OpenIncidentUI']
+msgctxt "Interface.OpenIncidentUI"
+msgid "Open Incidents"
+msgstr "Открыть Происшествия"
 
 #: /Language/Interface/Record[Key='IncidentsTitle']
 msgctxt "Interface.IncidentsTitle"
@@ -5048,10 +5065,10 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Предустановки мира"
 
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "Опубликовать"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "Вы увеерны?"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"

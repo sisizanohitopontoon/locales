@@ -10,28 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemKitRoverFrame']
-msgctxt "Things.ItemKitRoverFrame"
-msgid "Kit (Rover Frame)"
-msgstr "(套件)漫游车"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
-#, fuzzy
-msgctxt "Things.ItemWreckageHydroponicsTray1"
-msgid "Wreckage Hydroponics Tray"
-msgstr "水培站"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
-#, fuzzy
-msgctxt "Things.ItemWreckageHydroponicsTray1"
-msgid "{BLANK}"
-msgstr "水培站"
-
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
-#, fuzzy
-msgctxt "Things.DynamicGasTankAdvanced"
-msgid "Gas Tank (Advanced)"
-msgstr "储气罐(空气)"
+#: /Language/Things/RecordThing[Key='StructureStairs4x2Rails']
+msgctxt "Things.StructureStairs4x2Rails"
+msgid "Stairs with Rails"
+msgstr "带导轨的楼梯"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
 #, fuzzy
@@ -334,6 +316,24 @@ msgctxt "Things.ItemKitWeatherStation"
 msgid "{BLANK}"
 msgstr "电梯前部"
 
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
+#, fuzzy
+msgctxt "Things.DynamicGasTankAdvanced"
+msgid "Gas Tank (Advanced)"
+msgstr "储气罐(空气)"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
+#, fuzzy
+msgctxt "Things.ItemWreckageHydroponicsTray1"
+msgid "{BLANK}"
+msgstr "水培站"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
+#, fuzzy
+msgctxt "Things.ItemWreckageHydroponicsTray1"
+msgid "Wreckage Hydroponics Tray"
+msgstr "水培站"
+
 #: /Language/Things/RecordThing[Key='StructureBlocker']
 #, fuzzy
 msgctxt "Things.StructureBlocker"
@@ -531,10 +531,10 @@ msgctxt "Things.ItemWreckageBlastDoor2"
 msgid "{BLANK}"
 msgstr "防护门"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
+#: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor1']
 #, fuzzy
-msgctxt "Things.ItemWreckageBlastDoor2"
-msgid "Wreckage Blast Door"
+msgctxt "Things.ItemWreckageBlastDoor1"
+msgid "{BLANK}"
 msgstr "防护门"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor1']
@@ -1584,8 +1584,9 @@ msgid "This is the default thing page."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureEmergencyButton']
+#, fuzzy
 msgctxt "Things.StructureEmergencyButton"
-msgid "Emergency Button"
+msgid "Important Button"
 msgstr "紧急按钮"
 
 #: /Language/Things/RecordThing[Key='TriggerZone']
@@ -2011,6 +2012,12 @@ msgctxt "Things.StructureWallFlatCornerSquare"
 msgid "Wall (Flat Corner Square)"
 msgstr "墙体(方形平角)"
 
+#: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
+#, fuzzy
+msgctxt "Things.ItemWreckageBlastDoor2"
+msgid "Wreckage Blast Door"
+msgstr "防护门"
+
 #: /Language/Things/RecordThing[Key='StructureWallFlatCornerRound']
 msgctxt "Things.StructureWallFlatCornerRound"
 msgid "Wall (Flat Corner Round)"
@@ -2020,12 +2027,6 @@ msgstr "墙体(圆形平角)"
 msgctxt "Things.StructureWallArchCornerTriangle"
 msgid "Wall (Arch Corner Triangle)"
 msgstr "墙体(三角形拱角)"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor1']
-#, fuzzy
-msgctxt "Things.ItemWreckageBlastDoor1"
-msgid "{BLANK}"
-msgstr "防护门"
 
 #: /Language/Things/RecordThing[Key='StructureWallArchCornerSquare']
 msgctxt "Things.StructureWallArchCornerSquare"
@@ -2684,10 +2685,10 @@ msgctxt "Things.StructureStairs4x2RailL"
 msgid "Stairs with Rail (Left)"
 msgstr "带导轨的楼梯（左）"
 
-#: /Language/Things/RecordThing[Key='StructureStairs4x2Rails']
-msgctxt "Things.StructureStairs4x2Rails"
-msgid "Stairs with Rails"
-msgstr "带导轨的楼梯"
+#: /Language/Things/RecordThing[Key='ItemKitRoverFrame']
+msgctxt "Things.ItemKitRoverFrame"
+msgid "Kit (Rover Frame)"
+msgstr "(套件)漫游车"
 
 #: /Language/Things/RecordThing[Key='StructureRover']
 msgctxt "Things.StructureRover"
@@ -5613,7 +5614,8 @@ msgstr "背压调节器"
 msgctxt "Things.StructureAreaPowerControlReversed"
 msgid ""
 "An Area Power Control (APC) has three main functions. \n"
-"An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage."
+"Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.\n"
+"Note that the APC has two variants, each allowing power to flow."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControlReversed']
@@ -7236,7 +7238,7 @@ msgstr "电池(小)"
 
 #: /Language/Things/RecordThing[Key='ItemAreaPowerControl']
 msgctxt "Things.ItemAreaPowerControl"
-msgid "This kit places a {THING:StructureAreaPowerControl} (APC) on any support structure. The APC kit has two options, allowing you to determine which direction you would like the APC power to flow."
+msgid "This kit places a {THING:StructureAreaPowerControl} (APC) on any support structure. The APC kit has two options, selecting which direction you would like the APC power to flow."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemAreaPowerControl']
@@ -8203,9 +8205,8 @@ msgctxt "Things.ItemGasFilterOxygen"
 msgid "Filter (Oxygen)"
 msgstr "次级滤芯(氧)"
 
-#, fuzzy
 #~ msgctxt "Things.StructureEmergencyButton"
-#~ msgid "Important Button"
+#~ msgid "Emergency Button"
 #~ msgstr "紧急按钮"
 
 #~ msgctxt "Things.Robot"

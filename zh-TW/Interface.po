@@ -693,10 +693,10 @@ msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "光點數量"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "陰影品質"
+#: /Language/Interface/Record[Key='SettingsShadows']
+msgctxt "Interface.SettingsShadows"
+msgid "Shadows"
+msgstr "陰影"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1218,15 +1218,15 @@ msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "您確定要發佈這個世界至工作坊嗎?"
 
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "發佈"
+
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
 msgstr "刪除存檔"
-
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "您確定刪除存檔?"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1351,11 +1351,6 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>需要更多 {0}</color>."
 
-#: /Language/Interface/Record[Key='SettingsShadows']
-msgctxt "Interface.SettingsShadows"
-msgid "Shadows"
-msgstr "陰影"
-
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
@@ -1365,6 +1360,11 @@ msgstr "搜尋伺服器名稱"
 msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "輸入 IP:Port ..."
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "陰影品質"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
@@ -1594,9 +1594,26 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='OpenIncidentUI']
-msgctxt "Interface.OpenIncidentUI"
-msgid "Open Incidents"
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LightString']
+#, fuzzy
+msgctxt "Interface.LightString"
+msgid "Da Light"
+msgstr "亮度"
+
+#: /Language/Interface/Record[Key='HelmetString']
+#, fuzzy
+msgctxt "Interface.HelmetString"
+msgid "Helmet"
+msgstr "頭盔"
+
+#: /Language/Interface/Record[Key='ShowPreviousVideoText']
+msgctxt "Interface.ShowPreviousVideoText"
+msgid "Show Previous video"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ToggleChangeLog']
@@ -3913,10 +3930,10 @@ msgctxt "Interface.Locked"
 msgid "Locked"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Trade']
-msgctxt "Interface.Trade"
-msgid "Trade"
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "退訂"
 
 #: /Language/Interface/Record[Key='TraderGoneMissing']
 msgctxt "Interface.TraderGoneMissing"
@@ -3929,10 +3946,10 @@ msgctxt "Interface.ContactsTrading"
 msgid "Contacts"
 msgstr "控制"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "退訂"
+#: /Language/Interface/Record[Key='OpenIncidentUI']
+msgctxt "Interface.OpenIncidentUI"
+msgid "Open Incidents"
+msgstr ""
 
 #: /Language/Interface/Record[Key='IncidentsTitle']
 msgctxt "Interface.IncidentsTitle"
@@ -5140,10 +5157,10 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "預設世界"
 
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "發佈"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "您確定刪除存檔?"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"
