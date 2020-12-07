@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-06 23:02+0000\n"
+"PO-Revision-Date: 2020-12-07 01:01+0000\n"
 "Last-Translator: LamRis <richard.rokyta@volny.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4640,6 +4640,8 @@ msgid ""
 "Controlling the flow of gas between two pipe networks, pressure regulators shift gas until a set pressure on the outlet side is achieved, or the gas supply is exhausted. The back pressure regulator,"
 " by contrast, will only operate when pressure on the intake side exceeds the set value. With a max pressure of over 20,000kPa, it requires power to operate."
 msgstr ""
+"Reguluje průtok plynu mezi dvěma potrubními sítěmi, dokud není dosaženo nastaveného výstupního tlaku nebo do vyčerpání přívodu plynu. Regulátor zpětného tlaku bude naopak fungovat pouze tehdy, když "
+"tlak na sací straně překročí nastavenou hodnotu. Při tlaku nad 20 MPa je vyžadovaná energie k provozu."
 
 #: /Language/Things/RecordThing[Key='StructurePressureRegulator']
 msgctxt "Things.StructurePressureRegulator"
@@ -4649,7 +4651,7 @@ msgstr "Regulátor tlaku"
 #: /Language/Things/RecordThing[Key='StructurePowerConnector']
 msgctxt "Things.StructurePowerConnector"
 msgid "Attaches a {THING:ItemKitDynamicGenerator} to a power network."
-msgstr ""
+msgstr "Připojí {THING:ItemKitDynamicGenerator} k elektrické síti."
 
 #: /Language/Things/RecordThing[Key='StructurePowerConnector']
 msgctxt "Things.StructurePowerConnector"
@@ -4662,6 +4664,8 @@ msgid ""
 "The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.\n"
 "Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'."
 msgstr ""
+"První věc, kterou se Stationeer naučí, je, že jsou sami. Druhá je, že potrubí hromadí plyn.\n"
+"Potrubí šíří svůj obsah rovnoměrně po celé síti a mohou být připojeny k široké škále zařízení a struktur. Základní potrubí vydrží tlak až 60 MPa. Kromě toho jsou věci 'zajímavé'."
 
 #: /Language/Things/RecordThing[Key='StructurePipeTJunction']
 msgctxt "Things.StructurePipeTJunction"
@@ -4674,6 +4678,8 @@ msgid ""
 "The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.\n"
 "Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'."
 msgstr ""
+"První věc, kterou se Stationeer naučí, je, že jsou sami. Druhá je, že potrubí hromadí plyn.\n"
+"Potrubí šíří svůj obsah rovnoměrně po celé síti a mohou být připojeny k široké škále zařízení a struktur. Základní potrubí vydrží tlak až 60 MPa. Kromě toho jsou věci 'zajímavé'."
 
 #: /Language/Things/RecordThing[Key='StructurePipeStraight']
 msgctxt "Things.StructurePipeStraight"
@@ -4686,6 +4692,8 @@ msgid ""
 "A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added the gas within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. \n"
 "The speed of heat gain or loss will depend on the gas in question. Adding multiple radiators will sped up heat transfer."
 msgstr ""
+"Jednoduchý výměník tepla, trubkový radiátor může být umístěn na potrubí ke snížení nebo zvýšení teploty v závislosti na teplotě okolní atmosféry. Pokud je atmosféra teplejší, přidá se teplo do potrubí a opačně, pokud je chladnější. Ve vakuu bude teplo vyzařováno vždy.\n"
+"Rychlost tepelného zisku nebo ztráty bude záviset na daném typu chladiva. Přidání více radiátorů urychlí výměnu tepla."
 
 #: /Language/Things/RecordThing[Key='StructurePipeRadiator']
 msgctxt "Things.StructurePipeRadiator"
@@ -4700,16 +4708,20 @@ msgid ""
 "speaks the truth, transmits pressure\n"
 "within any pipe\""
 msgstr ""
+"Zatímco program Stationeers dosud inspiroval klasickou poezii jen málo, následující haiku bylo ironicky vyryté na troskách potrubí nalezených na Vulcánu:\n"
+"\"Pokorný měřič potrubí\n"
+"mluví pravdu, přenáší tlak\n"
+"v libovolném potrubí\""
 
 #: /Language/Things/RecordThing[Key='StructurePipeMeter']
 msgctxt "Things.StructurePipeMeter"
 msgid "Pipe Meter"
-msgstr "Měřidlo potrubí"
+msgstr "Měřič potrubí"
 
 #: /Language/Things/RecordThing[Key='StructurePipeLabel']
 msgctxt "Things.StructurePipeLabel"
 msgid "As its perspicacious name suggests, the pipe label is designed to be attached to a straight stretch of pipe. Users can then label the label with the {THING:ItemLabeller}."
-msgstr ""
+msgstr "Jak naznačuje jeho slibný název, štítek potrubí je navržen tak, aby byl připevněn k přímému úseku potrubí. Uživatelé pak mohou štítek označit {THING:ItemLabeller}."
 
 #: /Language/Things/RecordThing[Key='StructurePipeLabel']
 msgctxt "Things.StructurePipeLabel"
@@ -4722,6 +4734,8 @@ msgid ""
 "The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.\n"
 "Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'."
 msgstr ""
+"První věc, kterou se Stationeer naučí, je, že jsou sami. Druhá je, že potrubí hromadí plyn.\n"
+"Potrubí šíří svůj obsah rovnoměrně po celé síti a mohou být připojeny k široké škále zařízení a struktur. Základní potrubí vydrží tlak až 60 MPa. Kromě toho jsou věci 'zajímavé'."
 
 #: /Language/Things/RecordThing[Key='StructurePipeCrossJunction6']
 msgctxt "Things.StructurePipeCrossJunction6"
@@ -4734,6 +4748,8 @@ msgid ""
 "The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.\n"
 "Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'."
 msgstr ""
+"První věc, kterou se Stationeer naučí, je, že jsou sami. Druhá je, že potrubí hromadí plyn.\n"
+"Potrubí šíří svůj obsah rovnoměrně po celé síti a mohou být připojeny k široké škále zařízení a struktur. Základní potrubí vydrží tlak až 60 MPa. Kromě toho jsou věci 'zajímavé'."
 
 #: /Language/Things/RecordThing[Key='StructurePipeCrossJunction5']
 msgctxt "Things.StructurePipeCrossJunction5"
@@ -4746,6 +4762,8 @@ msgid ""
 "The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.\n"
 "Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'."
 msgstr ""
+"První věc, kterou se Stationeer naučí, je, že jsou sami. Druhá je, že potrubí hromadí plyn.\n"
+"Potrubí šíří svůj obsah rovnoměrně po celé síti a mohou být připojeny k široké škále zařízení a struktur. Základní potrubí vydrží tlak až 60 MPa. Kromě toho jsou věci 'zajímavé'."
 
 #: /Language/Things/RecordThing[Key='StructurePipeCrossJunction3']
 msgctxt "Things.StructurePipeCrossJunction3"
@@ -4758,6 +4776,8 @@ msgid ""
 "The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.\n"
 "Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'."
 msgstr ""
+"První věc, kterou se Stationeer naučí, je, že jsou sami. Druhá je, že potrubí hromadí plyn.\n"
+"Potrubí šíří svůj obsah rovnoměrně po celé síti a mohou být připojeny k široké škále zařízení a struktur. Základní potrubí vydrží tlak až 60 MPa. Kromě toho jsou věci 'zajímavé'."
 
 #: /Language/Things/RecordThing[Key='StructurePipeCrossJunction']
 msgctxt "Things.StructurePipeCrossJunction"
@@ -4770,6 +4790,8 @@ msgid ""
 "The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.\n"
 "Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'."
 msgstr ""
+"První věc, kterou se Stationeer naučí, je, že jsou sami. Druhá je, že potrubí hromadí plyn.\n"
+"Potrubí šíří svůj obsah rovnoměrně po celé síti a mohou být připojeny k široké škále zařízení a struktur. Základní potrubí vydrží tlak až 60 MPa. Kromě toho jsou věci 'zajímavé'."
 
 #: /Language/Things/RecordThing[Key='StructurePipeCorner']
 msgctxt "Things.StructurePipeCorner"
@@ -4782,6 +4804,8 @@ msgid ""
 "Allegedly the outcome of a weekend father-daughter electronics project by an overzealous {<color=#0080FFFF>{LINK:ExMin;ExMin}</color> engineer, the pipe analyzer is essentially a more advanced version of the {THING:StructurePipeMeter}.\n"
 "Displaying the internal pressure of pipe networks, it  also reads out temperature and gas contents, and can be connected to a {THING:StructureConsole} or {THING:StructureComputer} via a {<color=#0080FFFF>{LINK:LogicPage;logic}</color> system."
 msgstr ""
+"Údajný výsledek víkendového projektu elektroniky otce a dcery od příliš horlivého inženýra {<color=#0080FFFF>{LINK:ExMin;ExMin}</color>, je analyzátor potrubí v podstatě pokročilejší verzí {THING:StructurePipeMeter}.\n"
+"Zobrazuje vnitřní tlak potrubních sítí, ale také čte teplotu a obsah plynu a lze jej připojit ke {THING:StructureConsole} nebo {THING:StructureComputer} pomocí {<color=#0080FFFF>{LINK:LogicPage;logického systému}</color>."
 
 #: /Language/Things/RecordThing[Key='StructurePipeAnalysizer']
 msgctxt "Things.StructurePipeAnalysizer"
@@ -4808,6 +4832,8 @@ msgid ""
 "Originally developed to monitor dance marathons, the motion sensor can also be connect to {<color=#0080FFFF>{LINK:LogicPage;logic}</color> systems for security purposes, automatic lighting, doors and various other applications.\n"
 "The sensor activates whenever a player enters the grid it is place on."
 msgstr ""
+"Původně byl vyvinut pro monitorování tanečních maratónů. Snímač pohybu lze také připojit k {<color=#0080FFFF>{LINK:LogicPage;logickým systémům}</color> pro bezpečnostní účely, automatickému osvětlení, dveřím a k různým dalším aplikacím.\n"
+"Senzor se aktivuje vždy, když někdo vstoupí do mřížky, na které je umístěn."
 
 #: /Language/Things/RecordThing[Key='StructureMotionSensor']
 msgctxt "Things.StructureMotionSensor"
