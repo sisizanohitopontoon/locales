@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
-msgstr "Apri Workshop"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Cancella sottoscrizione"
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -691,10 +691,16 @@ msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "Numero di pixel luce"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Risoluzione ombre"
+#: /Language/Interface/Record[Key='SettingsShadows']
+msgctxt "Interface.SettingsShadows"
+msgid "Shadows"
+msgstr "Ombre"
+
+#: /Language/Interface/Record[Key='SettingsWeatherQuality']
+#, fuzzy
+msgctxt "Interface.SettingsWeatherQuality"
+msgid "Weather Quality"
+msgstr "Qualità delle Texture"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1218,10 +1224,10 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Pubblica"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "Cancella salvataggio"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "Sei sicuro ?"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1353,10 +1359,10 @@ msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "Cerca per nome Server"
 
-#: /Language/Interface/Record[Key='SettingsShadows']
-msgctxt "Interface.SettingsShadows"
-msgid "Shadows"
-msgstr "Ombre"
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Risoluzione ombre"
 
 #: /Language/Interface/Record[Key='JoinMenuAddressPlaceholder']
 msgctxt "Interface.JoinMenuAddressPlaceholder"
@@ -1528,11 +1534,6 @@ msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "Mod Sottoscritte"
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "Pagina Workshop"
-
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
@@ -1591,10 +1592,15 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactsTrading']
-msgctxt "Interface.ContactsTrading"
-msgid "Contacts"
-msgstr "Contatti"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "Sembra che il contatto sia andato avanti."
+
+#: /Language/Interface/Record[Key='FixedWeatherEventMissing']
+msgctxt "Interface.FixedWeatherEventMissing"
+msgid "No weather event was found for this world. The default weather event has been applied."
+msgstr ""
 
 #: /Language/Interface/Record[Key='LightString']
 #, fuzzy
@@ -3968,15 +3974,15 @@ msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr "Commercio"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "Sembra che il contatto sia andato avanti."
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "Pagina Workshop"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Cancella sottoscrizione"
+#: /Language/Interface/Record[Key='ContactsTrading']
+msgctxt "Interface.ContactsTrading"
+msgid "Contacts"
+msgstr "Contatti"
 
 #: /Language/Interface/Record[Key='OpenIncidentUI']
 msgctxt "Interface.OpenIncidentUI"
@@ -5179,10 +5185,15 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Mondo predefinito"
 
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "Sei sicuro ?"
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr "Apri Workshop"
+
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "Cancella salvataggio"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"

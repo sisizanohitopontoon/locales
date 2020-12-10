@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
-msgstr "Otevřít Workshop"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Odhlásit"
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -681,10 +681,16 @@ msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "Počet pixelů světla"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Rozlišení stínu"
+#: /Language/Interface/Record[Key='SettingsShadows']
+msgctxt "Interface.SettingsShadows"
+msgid "Shadows"
+msgstr "Stíny"
+
+#: /Language/Interface/Record[Key='SettingsWeatherQuality']
+#, fuzzy
+msgctxt "Interface.SettingsWeatherQuality"
+msgid "Weather Quality"
+msgstr "Kvalita textur"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1201,10 +1207,10 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Publikovat"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "Odstranit svět"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "Opravdu?"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1335,10 +1341,10 @@ msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "Hledat podle názvu serveru"
 
-#: /Language/Interface/Record[Key='SettingsShadows']
-msgctxt "Interface.SettingsShadows"
-msgid "Shadows"
-msgstr "Stíny"
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Rozlišení stínu"
 
 #: /Language/Interface/Record[Key='JoinMenuAddressPlaceholder']
 msgctxt "Interface.JoinMenuAddressPlaceholder"
@@ -1510,11 +1516,6 @@ msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "Odebírané mody"
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "Workshop stránka"
-
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
@@ -1570,10 +1571,15 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Slot"
 
-#: /Language/Interface/Record[Key='ContactsTrading']
-msgctxt "Interface.ContactsTrading"
-msgid "Contacts"
-msgstr "Kontakty"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "Zdá se, že kontakt byl přesunut."
+
+#: /Language/Interface/Record[Key='FixedWeatherEventMissing']
+msgctxt "Interface.FixedWeatherEventMissing"
+msgid "No weather event was found for this world. The default weather event has been applied."
+msgstr ""
 
 #: /Language/Interface/Record[Key='LightString']
 msgctxt "Interface.LightString"
@@ -3885,15 +3891,15 @@ msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr "Obchod"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "Zdá se, že kontakt byl přesunut."
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "Workshop stránka"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Odhlásit"
+#: /Language/Interface/Record[Key='ContactsTrading']
+msgctxt "Interface.ContactsTrading"
+msgid "Contacts"
+msgstr "Kontakty"
 
 #: /Language/Interface/Record[Key='OpenIncidentUI']
 msgctxt "Interface.OpenIncidentUI"
@@ -5081,10 +5087,15 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Předvolby světa"
 
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "Opravdu?"
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr "Otevřít Workshop"
+
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "Odstranit svět"
 
 #~ msgctxt "Interface.ControlTurnOn"
 #~ msgid "{KEY:ToggleHandPower}"

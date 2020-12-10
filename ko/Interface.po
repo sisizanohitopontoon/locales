@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
-msgstr "창작마당 열기"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "구독 취소"
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -683,10 +683,16 @@ msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "픽셀 라이트 개수"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "그림자 해상도"
+#: /Language/Interface/Record[Key='SettingsShadows']
+msgctxt "Interface.SettingsShadows"
+msgid "Shadows"
+msgstr "그림자"
+
+#: /Language/Interface/Record[Key='SettingsWeatherQuality']
+#, fuzzy
+msgctxt "Interface.SettingsWeatherQuality"
+msgid "Weather Quality"
+msgstr "텍스쳐 품질"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1208,10 +1214,10 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "업로드"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "삭제하기"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "계속 진행하시겠습니까?"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1342,10 +1348,10 @@ msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "서버 이름으로 검색"
 
-#: /Language/Interface/Record[Key='SettingsShadows']
-msgctxt "Interface.SettingsShadows"
-msgid "Shadows"
-msgstr "그림자"
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "그림자 해상도"
 
 #: /Language/Interface/Record[Key='JoinMenuAddressPlaceholder']
 msgctxt "Interface.JoinMenuAddressPlaceholder"
@@ -1517,11 +1523,6 @@ msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "Mods 구독"
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "창작마당 검색"
-
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
@@ -1577,11 +1578,15 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "슬롯"
 
-#: /Language/Interface/Record[Key='ContactsTrading']
-#, fuzzy
-msgctxt "Interface.ContactsTrading"
-msgid "Contacts"
-msgstr "조작"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr ""
+
+#: /Language/Interface/Record[Key='FixedWeatherEventMissing']
+msgctxt "Interface.FixedWeatherEventMissing"
+msgid "No weather event was found for this world. The default weather event has been applied."
+msgstr ""
 
 #: /Language/Interface/Record[Key='LightString']
 #, fuzzy
@@ -3904,15 +3909,16 @@ msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "창작마당 검색"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "구독 취소"
+#: /Language/Interface/Record[Key='ContactsTrading']
+#, fuzzy
+msgctxt "Interface.ContactsTrading"
+msgid "Contacts"
+msgstr "조작"
 
 #: /Language/Interface/Record[Key='OpenIncidentUI']
 msgctxt "Interface.OpenIncidentUI"
@@ -5125,10 +5131,15 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "World Preset"
 
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "계속 진행하시겠습니까?"
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr "창작마당 열기"
+
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "삭제하기"
 
 #~ msgctxt "Interface.TK"
 #~ msgid "TK"

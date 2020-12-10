@@ -7,10 +7,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
-msgstr "打開工作坊"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "退訂"
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -693,10 +693,16 @@ msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "光點數量"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "陰影品質"
+#: /Language/Interface/Record[Key='SettingsShadows']
+msgctxt "Interface.SettingsShadows"
+msgid "Shadows"
+msgstr "陰影"
+
+#: /Language/Interface/Record[Key='SettingsWeatherQuality']
+#, fuzzy
+msgctxt "Interface.SettingsWeatherQuality"
+msgid "Weather Quality"
+msgstr "貼圖品質"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1223,10 +1229,10 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "發佈"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "刪除存檔"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "您確定刪除存檔?"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1356,10 +1362,10 @@ msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "搜尋伺服器名稱"
 
-#: /Language/Interface/Record[Key='SettingsShadows']
-msgctxt "Interface.SettingsShadows"
-msgid "Shadows"
-msgstr "陰影"
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "陰影品質"
 
 #: /Language/Interface/Record[Key='JoinMenuAddressPlaceholder']
 msgctxt "Interface.JoinMenuAddressPlaceholder"
@@ -1531,11 +1537,6 @@ msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "已訂閱模組"
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "工作坊頁面"
-
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
@@ -1594,11 +1595,15 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactsTrading']
-#, fuzzy
-msgctxt "Interface.ContactsTrading"
-msgid "Contacts"
-msgstr "控制"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr ""
+
+#: /Language/Interface/Record[Key='FixedWeatherEventMissing']
+msgctxt "Interface.FixedWeatherEventMissing"
+msgid "No weather event was found for this world. The default weather event has been applied."
+msgstr ""
 
 #: /Language/Interface/Record[Key='LightString']
 #, fuzzy
@@ -3936,15 +3941,16 @@ msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "工作坊頁面"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "退訂"
+#: /Language/Interface/Record[Key='ContactsTrading']
+#, fuzzy
+msgctxt "Interface.ContactsTrading"
+msgid "Contacts"
+msgstr "控制"
 
 #: /Language/Interface/Record[Key='OpenIncidentUI']
 msgctxt "Interface.OpenIncidentUI"
@@ -5157,10 +5163,15 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "預設世界"
 
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "您確定刪除存檔?"
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr "打開工作坊"
+
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "刪除存檔"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"
