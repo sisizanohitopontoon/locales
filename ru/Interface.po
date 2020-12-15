@@ -10,10 +10,16 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Отписаться"
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "Страница в мастерской"
+
+#: /Language/Interface/Record[Key='FoodCategory']
+#, fuzzy
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr "Расходники"
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -687,10 +693,11 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Тени"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Разрешение теней"
+#: /Language/Interface/Record[Key='SettingsWeatherQuality']
+#, fuzzy
+msgctxt "Interface.SettingsWeatherQuality"
+msgid "Weather Quality"
+msgstr "Качество текстур"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1201,10 +1208,10 @@ msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Вы увеерны, что хотите опубликовать этот мир в мастерской?"
 
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "Опубликовать"
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "Удалить сохранение"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
@@ -1335,6 +1342,11 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Нужно больше {0}</color>."
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Разрешение теней"
+
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
@@ -1344,12 +1356,6 @@ msgstr "Искать сервер по имени"
 msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "Введите IP:Порт здесь..."
-
-#: /Language/Interface/Record[Key='SettingsWeatherQuality']
-#, fuzzy
-msgctxt "Interface.SettingsWeatherQuality"
-msgid "Weather Quality"
-msgstr "Качество текстур"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
@@ -1511,17 +1517,6 @@ msgctxt "Interface.JoinWorldEmptyServers"
 msgid "Hide Empty Servers"
 msgstr "Скрыть пустые серверы"
 
-#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
-msgctxt "Interface.WorkshopSubscribedModsTitle"
-msgid "Subscribed Mods"
-msgstr "Ваши моды"
-
-#: /Language/Interface/Record[Key='FoodCategory']
-#, fuzzy
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr "Расходники"
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1567,15 +1562,20 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Продолжить"
 
+#: /Language/Interface/Record[Key='SoonTM']
+msgctxt "Interface.SoonTM"
+msgid "Coming Soon..."
+msgstr ""
+
 #: /Language/Interface/Record[Key='SlotKey']
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
-msgstr "Заблокировано"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "Кажется, контакт переместился."
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
 msgctxt "Interface.BasicButtonTutorial"
@@ -3867,20 +3867,20 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr "Ответа не было."
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "Страница в мастерской"
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr "Заблокировано"
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr "Обмен"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "Кажется, контакт переместился."
+#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
+msgctxt "Interface.WorkshopSubscribedModsTitle"
+msgid "Subscribed Mods"
+msgstr "Ваши моды"
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5087,10 +5087,15 @@ msgctxt "Interface.OpenWorkshopButton"
 msgid "Open Workshop"
 msgstr "Открыть мастерскую"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "Удалить сохранение"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Отписаться"
+
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "Опубликовать"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"

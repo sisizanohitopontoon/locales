@@ -7,10 +7,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "退訂"
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "工作坊頁面"
+
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr ""
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -698,10 +703,11 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "陰影"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "陰影品質"
+#: /Language/Interface/Record[Key='SettingsWeatherQuality']
+#, fuzzy
+msgctxt "Interface.SettingsWeatherQuality"
+msgid "Weather Quality"
+msgstr "貼圖品質"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1223,10 +1229,10 @@ msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "您確定要發佈這個世界至工作坊嗎?"
 
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "發佈"
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "刪除存檔"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
@@ -1356,6 +1362,11 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>需要更多 {0}</color>."
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "陰影品質"
+
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
@@ -1365,12 +1376,6 @@ msgstr "搜尋伺服器名稱"
 msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "輸入 IP:Port ..."
-
-#: /Language/Interface/Record[Key='SettingsWeatherQuality']
-#, fuzzy
-msgctxt "Interface.SettingsWeatherQuality"
-msgid "Weather Quality"
-msgstr "貼圖品質"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
@@ -1532,16 +1537,6 @@ msgctxt "Interface.JoinWorldEmptyServers"
 msgid "Hide Empty Servers"
 msgstr "隱藏 空的伺服器"
 
-#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
-msgctxt "Interface.WorkshopSubscribedModsTitle"
-msgid "Subscribed Mods"
-msgstr "已訂閱模組"
-
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr ""
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 #, fuzzy
 msgctxt "Interface.PersonalBackpacks"
@@ -1590,14 +1585,19 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "繼續"
 
+#: /Language/Interface/Record[Key='SoonTM']
+msgctxt "Interface.SoonTM"
+msgid "Coming Soon..."
+msgstr ""
+
 #: /Language/Interface/Record[Key='SlotKey']
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
 msgstr ""
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
@@ -3942,20 +3942,20 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "工作坊頁面"
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
+msgctxt "Interface.WorkshopSubscribedModsTitle"
+msgid "Subscribed Mods"
+msgstr "已訂閱模組"
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 #, fuzzy
@@ -5179,10 +5179,15 @@ msgctxt "Interface.OpenWorkshopButton"
 msgid "Open Workshop"
 msgstr "打開工作坊"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "刪除存檔"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "退訂"
+
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "發佈"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"

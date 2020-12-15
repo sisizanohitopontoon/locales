@@ -10,10 +10,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Leiratkozás"
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "Műhely oldal"
+
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr "Elfogyaszthatók"
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -685,10 +690,11 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Árnyékok"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Árnyék felbontása"
+#: /Language/Interface/Record[Key='SettingsWeatherQuality']
+#, fuzzy
+msgctxt "Interface.SettingsWeatherQuality"
+msgid "Weather Quality"
+msgstr "Textúra minősége"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1200,10 +1206,10 @@ msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Biztos vagy benne, hogy publikálod ezt a világot a műhelyben?"
 
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "Publikálás"
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "Mentés törlése"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
@@ -1334,6 +1340,11 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Több {0} szükséges</color>."
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Árnyék felbontása"
+
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
@@ -1343,12 +1354,6 @@ msgstr "Keresés szervernév alapján"
 msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "IP:Port megadása..."
-
-#: /Language/Interface/Record[Key='SettingsWeatherQuality']
-#, fuzzy
-msgctxt "Interface.SettingsWeatherQuality"
-msgid "Weather Quality"
-msgstr "Textúra minősége"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
@@ -1510,16 +1515,6 @@ msgctxt "Interface.JoinWorldEmptyServers"
 msgid "Hide Empty Servers"
 msgstr "Üres szerverek elrejtése"
 
-#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
-msgctxt "Interface.WorkshopSubscribedModsTitle"
-msgid "Subscribed Mods"
-msgstr "Feliratkozott modok"
-
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr "Elfogyaszthatók"
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1565,15 +1560,20 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Folytatás"
 
+#: /Language/Interface/Record[Key='SoonTM']
+msgctxt "Interface.SoonTM"
+msgid "Coming Soon..."
+msgstr ""
+
 #: /Language/Interface/Record[Key='SlotKey']
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
-msgstr "Zárolva"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "Úgy tűnik az ügyfél elment."
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
 msgctxt "Interface.BasicButtonTutorial"
@@ -3849,20 +3849,20 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr "Nem volt válasz."
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "Műhely oldal"
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr "Zárolva"
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr "Üzletelés"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "Úgy tűnik az ügyfél elment."
+#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
+msgctxt "Interface.WorkshopSubscribedModsTitle"
+msgid "Subscribed Mods"
+msgstr "Feliratkozott modok"
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5057,10 +5057,15 @@ msgctxt "Interface.OpenWorkshopButton"
 msgid "Open Workshop"
 msgstr "Műhely megnyitása"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "Mentés törlése"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
+
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "Publikálás"
 
 #~ msgctxt "Interface.TK"
 #~ msgid "TK"
