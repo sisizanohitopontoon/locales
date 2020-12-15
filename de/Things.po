@@ -10,9 +10,24 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='Phobos']
-msgctxt "Things.Phobos"
-msgid "Phobos"
+#: /Language/Things/RecordThing[Key='ItemKitAutoMiner']
+msgctxt "Things.ItemKitAutoMiner"
+msgid "Kit Auto Miner"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
+msgctxt "Things.ItemKitDynamicGasTankAdvanced"
+msgid "Kit (Portable Tank Advanced)"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
+msgctxt "Things.ItemKitDynamicGasTankAdvanced"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructurePlinth']
+msgctxt "Things.StructurePlinth"
+msgid "Plinth"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePlinth']
@@ -280,21 +295,6 @@ msgctxt "Things.StructureUprightWindTurbine"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructurePlinth']
-msgctxt "Things.StructurePlinth"
-msgid "Plinth"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
-msgctxt "Things.ItemKitDynamicGasTankAdvanced"
-msgid "{BLANK}"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
-msgctxt "Things.ItemKitDynamicGasTankAdvanced"
-msgid "Kit (Portable Tank Advanced)"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
 msgctxt "Things.DynamicGasTankAdvanced"
 msgid "{BLANK}"
@@ -474,10 +474,11 @@ msgctxt "Things.ItemWreckageCompositeDoor2"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
-msgctxt "Things.ItemWreckageCompositeDoor1"
-msgid "{BLANK}"
-msgstr ""
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
+#, fuzzy
+msgctxt "Things.ItemWreckageCompositeDoor2"
+msgid "Wreckage Composite Door"
+msgstr "Verbundtür"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
 msgctxt "Things.ItemWreckageCompositeDoor1"
@@ -1944,12 +1945,6 @@ msgctxt "Things.StructureWallPaddedArchLightFittingTop"
 msgid "Wall (Padded Arch Light Fitting Top)"
 msgstr "Polsterwand (konkav; Lichtaussparungen)"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
-#, fuzzy
-msgctxt "Things.ItemWreckageCompositeDoor2"
-msgid "Wreckage Composite Door"
-msgstr "Verbundtür"
-
 #: /Language/Things/RecordThing[Key='StructureWallFlatCornerTriangleFlat']
 msgctxt "Things.StructureWallFlatCornerTriangleFlat"
 msgid "Wall (Flat Corner Triangle Flat)"
@@ -1966,6 +1961,11 @@ msgstr "Flachwand (gepanzert)"
 msgctxt "Things.StructureWallFlatCornerSquare"
 msgid "Wall (Flat Corner Square)"
 msgstr "Gerahmte Wand (Ecke)"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
+msgctxt "Things.ItemWreckageCompositeDoor1"
+msgid "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureWallFlatCornerRound']
 #, fuzzy
@@ -2081,10 +2081,20 @@ msgid "Kit (Modular Rocket Command)"
 msgstr "Triebwerk (Groß)"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketFueltank01']
+msgctxt "Things.StructureModularRocketFueltank01"
+msgid "The rocket fueltank requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other <color=#0080FFFF>{LINK:GasPage;gases}</color> in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureModularRocketFueltank01']
 #, fuzzy
 msgctxt "Things.StructureModularRocketFueltank01"
 msgid "Modular Rocket Fueltank"
 msgstr "Triebwerk (Groß)"
+
+#: /Language/Things/RecordThing[Key='StructureModularRocketEngine01']
+msgctxt "Things.StructureModularRocketEngine01"
+msgid "The modular rocket engine is capable of lifting up to seven modules, including itself."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketEngine01']
 #, fuzzy
@@ -2172,10 +2182,31 @@ msgid "Modular Rocket Command"
 msgstr "Triebwerk (Groß)"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
+msgctxt "Things.StructureModularRocketCommand01"
+msgid ""
+"The command module must be placed on top of the rocket, and will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.\n"
+"\n"
+"The following conditions must be met for launch:\n"
+"\n"
+"- Fuel full\n"
+"- Fuel mix ratio correct - a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}.\n"
+"- All players seated\n"
+"- Power supplied to the {THING:StructureLaunchPad}\n"
+"- Fully built rocket\n"
+"\n"
+"The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
 #, fuzzy
 msgctxt "Things.StructureModularRocketCommand01"
 msgid "Modular Rocket Command"
 msgstr "Triebwerk (Groß)"
+
+#: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
+msgctxt "Things.StructureModularRocketCargo01"
+msgid "The cargo module has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
 #, fuzzy
@@ -2634,15 +2665,15 @@ msgctxt "Things.DynamicGasCanisterNitrousOxide"
 msgid "Portable Tank (Nitrous Oxide)"
 msgstr "Portabler Tank (Distickstoffmonoxid N2O)"
 
-#: /Language/Things/RecordThing[Key='ItemKitAutoMiner']
-msgctxt "Things.ItemKitAutoMiner"
-msgid "Kit Auto Miner"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='Meteorite']
 msgctxt "Things.Meteorite"
 msgid "Meteorite"
 msgstr "Meteorit"
+
+#: /Language/Things/RecordThing[Key='Phobos']
+msgctxt "Things.Phobos"
+msgid "Phobos"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureStairs4x2RailR']
 msgctxt "Things.StructureStairs4x2RailR"
@@ -6836,10 +6867,10 @@ msgctxt "Things.ItemGasFilterVolatiles"
 msgid "Filters are used to capture various gases, which can be disposed of or used elsewhere. <color=#0080FFFF>{LINK:GasPage;Volatiles}</color> are created by exposing <color=#0080FFFF>{LINK:OrePage;ice (volatiles)}</color> to heat. The product can then be collected and combined with <color=#0080FFFF>{LINK:GasPage;oxygen}</color> to create fuel, or used within a {THING:StructureFurnace} to smelt ores and create <color=#0080FFFF>{LINK:AlloyPage;alloys}</color>."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemGasFilterVolatiles']
-msgctxt "Things.ItemGasFilterVolatiles"
-msgid "Filter (Volatiles)"
-msgstr "Leichter Filter (Flüchtige Stoffe - H2)"
+#: /Language/Things/RecordThing[Key='ItemGasFilterOxygen']
+msgctxt "Things.ItemGasFilterOxygen"
+msgid "<color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> have cornered the market in filter design. Their trademarked templates are simple to print and highly efficient at capturing various gases, which can be disposed of or used elsewhere. Oxygen is a common byproduct of smelting various ores, but must be filtered of such impurities as nitrogen using this filter and various devices, such as the {THING:ItemDynamicScrubber}."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterOxygen']
 msgctxt "Things.ItemGasFilterOxygen"
@@ -8230,10 +8261,10 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrowelle"
 
-#: /Language/Things/RecordThing[Key='ItemGasFilterOxygen']
-msgctxt "Things.ItemGasFilterOxygen"
-msgid "<color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> have cornered the market in filter design. Their trademarked templates are simple to print and highly efficient at capturing various gases, which can be disposed of or used elsewhere. Oxygen is a common byproduct of smelting various ores, but must be filtered of such impurities as nitrogen using this filter and various devices, such as the {THING:ItemDynamicScrubber}."
-msgstr ""
+#: /Language/Things/RecordThing[Key='ItemGasFilterVolatiles']
+msgctxt "Things.ItemGasFilterVolatiles"
+msgid "Filter (Volatiles)"
+msgstr "Leichter Filter (Flüchtige Stoffe - H2)"
 
 #~ msgctxt "Things.StructureCableCornerHBurnt"
 #~ msgid "Burnt Cable (Corner) "
