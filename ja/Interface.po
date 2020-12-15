@@ -10,15 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "ワークショップページ"
-
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "サブスクライブ解除"
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -700,11 +695,10 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "影"
 
-#: /Language/Interface/Record[Key='SettingsWeatherQuality']
-#, fuzzy
-msgctxt "Interface.SettingsWeatherQuality"
-msgid "Weather Quality"
-msgstr "テクスチャクオリティ"
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "影の解像度"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1223,10 +1217,10 @@ msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "このワールドをワークショップに公開してよろしいですか？"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "セーブ削除"
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "公開"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
@@ -1360,11 +1354,6 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>{0}足りない</color>."
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "影の解像度"
-
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
@@ -1374,6 +1363,12 @@ msgstr "サーバー名で検索"
 msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "IP:Portをここに入力"
+
+#: /Language/Interface/Record[Key='SettingsWeatherQuality']
+#, fuzzy
+msgctxt "Interface.SettingsWeatherQuality"
+msgid "Weather Quality"
+msgstr "テクスチャクオリティ"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
@@ -1535,6 +1530,16 @@ msgctxt "Interface.JoinWorldEmptyServers"
 msgid "Hide Empty Servers"
 msgstr "空員のサーバーを非表示"
 
+#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
+msgctxt "Interface.WorkshopSubscribedModsTitle"
+msgid "Subscribed Mods"
+msgstr "サブスクライブしたMod"
+
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr ""
+
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 #, fuzzy
 msgctxt "Interface.PersonalBackpacks"
@@ -1584,19 +1589,14 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "続き"
 
-#: /Language/Interface/Record[Key='SoonTM']
-msgctxt "Interface.SoonTM"
-msgid "Coming Soon..."
-msgstr ""
-
 #: /Language/Interface/Record[Key='SlotKey']
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
 msgstr ""
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
@@ -3886,20 +3886,20 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr ""
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "ワークショップページ"
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
-msgctxt "Interface.WorkshopSubscribedModsTitle"
-msgid "Subscribed Mods"
-msgstr "サブスクライブしたMod"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr ""
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5101,15 +5101,10 @@ msgctxt "Interface.OpenWorkshopButton"
 msgid "Open Workshop"
 msgstr "ワークショップを開く"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "サブスクライブ解除"
-
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "公開"
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "セーブ削除"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"

@@ -10,15 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "Pagina Workshop"
-
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Cancella sottoscrizione"
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -701,11 +696,10 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Ombre"
 
-#: /Language/Interface/Record[Key='SettingsWeatherQuality']
-#, fuzzy
-msgctxt "Interface.SettingsWeatherQuality"
-msgid "Weather Quality"
-msgstr "Qualità delle Texture"
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Risoluzione ombre"
 
 #: /Language/Interface/Record[Key='SettingsShadowDistamce']
 msgctxt "Interface.SettingsShadowDistamce"
@@ -1224,10 +1218,10 @@ msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "Sei sicuro di voler pubblicare questo Mondo sul Workshop?"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "Cancella salvataggio"
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "Pubblica"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
@@ -1359,11 +1353,6 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Servono più : {0}</color>."
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Risoluzione ombre"
-
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
@@ -1373,6 +1362,12 @@ msgstr "Cerca per nome Server"
 msgctxt "Interface.JoinMenuAddressPlaceholder"
 msgid "Enter IP:Port here..."
 msgstr "Inserisci indirizzo IP:Porta qui..."
+
+#: /Language/Interface/Record[Key='SettingsWeatherQuality']
+#, fuzzy
+msgctxt "Interface.SettingsWeatherQuality"
+msgid "Weather Quality"
+msgstr "Qualità delle Texture"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailConnectButton']
 msgctxt "Interface.JoinMenuServerDetailConnectButton"
@@ -1534,6 +1529,16 @@ msgctxt "Interface.JoinWorldEmptyServers"
 msgid "Hide Empty Servers"
 msgstr "Nascondi server vuoti"
 
+#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
+msgctxt "Interface.WorkshopSubscribedModsTitle"
+msgid "Subscribed Mods"
+msgstr "Mod Sottoscritte"
+
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr ""
+
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 #, fuzzy
 msgctxt "Interface.PersonalBackpacks"
@@ -1582,20 +1587,15 @@ msgctxt "Interface.MainMenuContinue"
 msgid "Continue"
 msgstr "Continua"
 
-#: /Language/Interface/Record[Key='SoonTM']
-msgctxt "Interface.SoonTM"
-msgid "Coming Soon..."
-msgstr ""
-
 #: /Language/Interface/Record[Key='SlotKey']
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "Sembra che il contatto sia andato avanti."
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr "Bloccato"
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
 msgctxt "Interface.BasicButtonTutorial"
@@ -3975,20 +3975,20 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr "Nessuna risposta."
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
-msgstr "Bloccato"
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "Pagina Workshop"
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr "Commercio"
 
-#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
-msgctxt "Interface.WorkshopSubscribedModsTitle"
-msgid "Subscribed Mods"
-msgstr "Mod Sottoscritte"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "Sembra che il contatto sia andato avanti."
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5201,15 +5201,10 @@ msgctxt "Interface.OpenWorkshopButton"
 msgid "Open Workshop"
 msgstr "Apri Workshop"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Cancella sottoscrizione"
-
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "Pubblica"
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "Cancella salvataggio"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"
