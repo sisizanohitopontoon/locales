@@ -1433,6 +1433,12 @@ msgctxt "Interface.UIBasicsEndDescription"
 msgid "Congratulations. Your results have been received by Stationeer Command of the Offworld Development Agency."
 msgstr "축하합니다. 귀하의 결과는 오프월드 개발 기관의 스테이셔니어 커맨드에 전송되었습니다."
 
+#: /Language/Interface/Record[Key='Dropflare']
+#, fuzzy
+msgctxt "Interface.Dropflare"
+msgid "Drop the flare in your right hand"
+msgstr "오른손에 도구를 떨구거나 던지세요."
+
 #: /Language/Interface/Record[Key='01TutorialUIBasics']
 msgctxt "Interface.01TutorialUIBasics"
 msgid "Basic UI"
@@ -2278,7 +2284,6 @@ msgid "Complete."
 msgstr "끝났습니다."
 
 #: /Language/Interface/Record[Key='2Narration16D']
-#, fuzzy
 msgctxt "Interface.2Narration16D"
 msgid "Good work, Cadet. You've repaired the walls and finished a power system. That's the last step of Phase II. Press the 'Complete' button to transmit your results to Stationeer Command, and we'll move on."
 msgstr ""
@@ -2818,7 +2823,6 @@ msgid "Active vents are critical airlock components: you can now fabricate one w
 msgstr ""
 
 #: /Language/Interface/Record[Key='3ActiveVentHash']
-#, fuzzy
 msgctxt "Interface.3ActiveVentHash"
 msgid "Select active vent on pipebender."
 msgstr ""
@@ -2890,8 +2894,8 @@ msgctxt "Interface.TutoiralAtmosphericsSubTitle"
 msgid "Practical Training: Stage IV"
 msgstr "실용적인 훈련 : 스테이지 1"
 
-#: /Language/Interface/Record[Key='IntoTutoiralAtmosphericsDescription']
-msgctxt "Interface.IntoTutoiralAtmosphericsDescription"
+#: /Language/Interface/Record[Key='IntoTutoiralAirlocksDescription']
+msgctxt "Interface.IntoTutoiralAirlocksDescription"
 msgid "Welcome Cadet. To finish this stage of base construction and pressurize your base, you need to build an airlock."
 msgstr ""
 
@@ -2908,7 +2912,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='4GetDucktape']
 msgctxt "Interface.4GetDucktape"
-msgid "Equip duct tape in active hand from backpack."
+msgid "Equip duct tape in active hand from crate."
 msgstr ""
 
 #: /Language/Interface/Record[Key='4UseDuctTape']
@@ -3016,6 +3020,35 @@ msgstr "틀을 강조된 지점에 설치하세요."
 
 #: /Language/Interface/Record[Key='4Narration7D']
 msgctxt "Interface.4Narration7D"
+msgid "To pressurize and depressurize the airlock, you will need an active vent to cycle air, and a passive vent to draw atmosphere into the pipe network."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4FabricateItemPassiveVent']
+#, fuzzy
+msgctxt "Interface.4FabricateItemPassiveVent"
+msgid "Print passive vent"
+msgstr "자연식 환풍기"
+
+#: /Language/Interface/Record[Key='4GetActiveVent']
+#, fuzzy
+msgctxt "Interface.4GetActiveVent"
+msgid "Get active vent from crate"
+msgstr "태블릿을 상자에서 주우세요."
+
+#: /Language/Interface/Record[Key='4BuildStructureActiveVent']
+#, fuzzy
+msgctxt "Interface.4BuildStructureActiveVent"
+msgid "Build active vent in highlighted position inside of the airlock"
+msgstr "틀을 강조된 지점에 설치하세요."
+
+#: /Language/Interface/Record[Key='4BuildStructurePassiveVent']
+#, fuzzy
+msgctxt "Interface.4BuildStructurePassiveVent"
+msgid "Build passive vent in highlighted position outside of the airlock"
+msgstr "틀을 강조된 지점에 설치하세요."
+
+#: /Language/Interface/Record[Key='4Narration8D']
+msgctxt "Interface.4Narration8D"
 msgid "You will need to connect the vents with a pipe network, in order to pump air from the room into the airlock."
 msgstr ""
 
@@ -3029,25 +3062,25 @@ msgctxt "Interface.4BuildPipeCorner2Tutorial"
 msgid "Add pipe #2 to pipe network"
 msgstr ""
 
-#: /Language/Interface/Record[Key='4Narration8D']
-msgctxt "Interface.4Narration8D"
+#: /Language/Interface/Record[Key='4Narration9D']
+msgctxt "Interface.4Narration9D"
 msgid "Consoles allow you to control and monitor a variety of systems - in this case, a basic airlock."
 msgstr ""
 
-#: /Language/Interface/Record[Key='4BuildGasSensorTutorial']
+#: /Language/Interface/Record[Key='4BuildConsoleTutorial']
 #, fuzzy
-msgctxt "Interface.4BuildGasSensorTutorial"
+msgctxt "Interface.4BuildConsoleTutorial"
 msgid "Build console in highlighted position"
 msgstr "틀을 강조된 지점에 설치하세요."
 
-#: /Language/Interface/Record[Key='4Narration9D']
-msgctxt "Interface.4Narration9D"
+#: /Language/Interface/Record[Key='4Narration10D']
+msgctxt "Interface.4Narration10D"
 msgid "Circuitboards provide consoles with a range of different functionality. Here you need an airlock circuitboard, and a datadisk to program it."
 msgstr ""
 
 #: /Language/Interface/Record[Key='4FabricateAirlcokCircuit']
 msgctxt "Interface.4FabricateAirlcokCircuit"
-msgid "Print circuitboard"
+msgid "Print Airlock circuitboard"
 msgstr ""
 
 #: /Language/Interface/Record[Key='4FabricateDataDisk']
@@ -3067,14 +3100,161 @@ msgctxt "Interface.4ConsoleOn"
 msgid "Turn console on"
 msgstr "태블릿을 켜세요."
 
-#: /Language/Interface/Record[Key='4Narration10D']
-msgctxt "Interface.4Narration10D"
+#: /Language/Interface/Record[Key='4Narration11D']
+msgctxt "Interface.4Narration11D"
 msgid "To programme the airlock, select all the items you would like the console to operate. Devices highlight green with red text when selected."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4PediaOpen']
+#, fuzzy
+msgctxt "Interface.4PediaOpen"
+msgid "Open Stationpedia with F1"
+msgstr "도움말 열기"
+
+#: /Language/Interface/Record[Key='4Narration12D']
+msgctxt "Interface.4Narration12D"
+msgid "Now select the two airlock doors. Selecting one door as 'Exterior' will cause the other to default to 'Internal'."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4GetpipeKit']
+#, fuzzy
+msgctxt "Interface.4GetpipeKit"
+msgid "Get Pipes from crate."
+msgstr "태블릿을 상자에서 주우세요."
+
+#: /Language/Interface/Record[Key='4GetConsole']
+#, fuzzy
+msgctxt "Interface.4GetConsole"
+msgid "Get Console from crate"
+msgstr "석탄을 상자에서 주우세요"
+
+#: /Language/Interface/Record[Key='4Narration13D']
+msgctxt "Interface.4Narration13D"
+msgid "When you have successfully completed the airlock set up, the switch on the side of the console will light up green. Remove the data disk from the console to lock it."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4PutCircuitInConsole']
+msgctxt "Interface.4PutCircuitInConsole"
+msgid "Add circuitboard airlock to console."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4Narration14D']
+msgctxt "Interface.4Narration14D"
+msgid "The airlock's ready, so now you can pressurize the base! Turn on the APC to fill the room with atmosphere. The system will maintain a 100kPa pressure."
 msgstr ""
 
 #: /Language/Interface/Record[Key='']
 msgctxt "Interface."
 msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4Narration15D']
+msgctxt "Interface.4Narration15D"
+msgid "As the room fills with atmosphere, your suit will register the external pressure and temperature change."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4TurningOnTheOXygen']
+#, fuzzy
+msgctxt "Interface.4TurningOnTheOXygen"
+msgid "Wait for pressure to reach 90kPa"
+msgstr "외부 압력이 60kPa에 도달할 때까지 기다리세요."
+
+#: /Language/Interface/Record[Key='4Narration16D']
+msgctxt "Interface.4Narration16D"
+msgid "Now the base is pressurized, you can test the airlock by pressing 'Cycle to Exterior' on the console."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4OpenAirlock']
+#, fuzzy
+msgctxt "Interface.4OpenAirlock"
+msgid "Cycle the airlock"
+msgstr "에어록 상태 전환"
+
+#: /Language/Interface/Record[Key='4Narration17D']
+#, fuzzy
+msgctxt "Interface.4Narration17D"
+msgid "Good work, Cadet. You've build an airtight, pressurized base. That's the last step of Practical Testing, Phase IV. Return inside and press the 'Complete' button to transmit your results to Stationeer Command."
+msgstr ""
+"훌륭합니다, 훈련생님! 이것이 실기 테스트 1 단계의 마지막 단계입니다.\n"
+"주황색의 '완료' 버튼을 눌러 결과를 스테이셔니어 커맨드로 전송하세요."
+
+#: /Language/Interface/Record[Key='4AirlockProggramGasSensor']
+msgctxt "Interface.4AirlockProggramGasSensor"
+msgid "Select gas sensor"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4AirlockProggramActiveVent']
+msgctxt "Interface.4AirlockProggramActiveVent"
+msgid "Select active vent"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4AirlockExternalDoor']
+msgctxt "Interface.4AirlockExternalDoor"
+msgid "Select external door as 'Exterior'"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4AirlockInternalDoor']
+msgctxt "Interface.4AirlockInternalDoor"
+msgid "Select Internal door as 'Internal'"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4GetDataDisk2']
+msgctxt "Interface.4GetDataDisk2"
+msgid "Remove the data disk"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4FlipSwitch']
+msgctxt "Interface.4FlipSwitch"
+msgid "Turn on APC to start pressurization."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4FinishDoor1']
+#, fuzzy
+msgctxt "Interface.4FinishDoor1"
+msgid "Finish construction of door #1"
+msgstr "틀 용접 완료하기 - 1"
+
+#: /Language/Interface/Record[Key='4FinishDoor2']
+#, fuzzy
+msgctxt "Interface.4FinishDoor2"
+msgid "Finish construction of door #2"
+msgstr "틀 용접 완료하기 - 2"
+
+#: /Language/Interface/Record[Key='4Narration55D']
+msgctxt "Interface.4Narration55D"
+msgid "Using the resource the crate and the on-screen tooltips complete the doors."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4Narration56D']
+msgctxt "Interface.4Narration56D"
+msgid "Use the labeller to name the interior and exterior door on the data network."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4GetLabeler']
+#, fuzzy
+msgctxt "Interface.4GetLabeler"
+msgid "Equip labeller from the crate"
+msgstr "{THING:ItemLabeller}를 상자에서 집으세요."
+
+#: /Language/Interface/Record[Key='4LabelerOn']
+#, fuzzy
+msgctxt "Interface.4LabelerOn"
+msgid "Turn labeller on"
+msgstr "태블릿을 켜세요."
+
+#: /Language/Interface/Record[Key='4CustomName']
+msgctxt "Interface.4CustomName"
+msgid "Label inner door 'Interior door'"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4CustomName2']
+msgctxt "Interface.4CustomName2"
+msgid "Label the outer door 'Exterior door'"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4PutDataDiskInConsole']
+msgctxt "Interface.4PutDataDiskInConsole"
+msgid "Insert Data disk into console"
 msgstr ""
 
 #: /Language/Interface/Record[Key='04BasicMining']
@@ -3559,6 +3739,11 @@ msgstr "수경 재배의 기본"
 #: /Language/Interface/Record[Key='TutoiralHydroponicsDescription']
 msgctxt "Interface.TutoiralHydroponicsDescription"
 msgid "No this inst hydro slides but that would be cool. zero G hydro slides how would that work? Pressure and lots of water?."
+msgstr ""
+
+#: /Language/Interface/Record[Key='IntoTutoiralAtmosphericsDescription']
+msgctxt "Interface.IntoTutoiralAtmosphericsDescription"
+msgid "Welcome Cadet. To finish this stage of base construction and pressurize your base, you need to build an airlock."
 msgstr ""
 
 #: /Language/Interface/Record[Key='07BasicAirlocks']

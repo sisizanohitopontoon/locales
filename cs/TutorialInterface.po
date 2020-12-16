@@ -1462,6 +1462,12 @@ msgctxt "Interface.UIBasicsEndDescription"
 msgid "Congratulations. Your results have been received by Stationeer Command of the Offworld Development Agency."
 msgstr "Gratulujeme. Vaše výsledky obdrželo velitelství Stationeer z rozvojové agentury mimo svět."
 
+#: /Language/Interface/Record[Key='Dropflare']
+#, fuzzy
+msgctxt "Interface.Dropflare"
+msgid "Drop the flare in your right hand"
+msgstr "Položte nebo hoďte nástrojem z pravé ruky"
+
 #: /Language/Interface/Record[Key='01TutorialUIBasics']
 msgctxt "Interface.01TutorialUIBasics"
 msgid "Basic UI"
@@ -2923,8 +2929,9 @@ msgctxt "Interface.TutoiralAtmosphericsSubTitle"
 msgid "Practical Training: Stage IV"
 msgstr "Praktický výcvik: Fáze IV"
 
-#: /Language/Interface/Record[Key='IntoTutoiralAtmosphericsDescription']
-msgctxt "Interface.IntoTutoiralAtmosphericsDescription"
+#: /Language/Interface/Record[Key='IntoTutoiralAirlocksDescription']
+#, fuzzy
+msgctxt "Interface.IntoTutoiralAirlocksDescription"
 msgid "Welcome Cadet. To finish this stage of base construction and pressurize your base, you need to build an airlock."
 msgstr "Vítejte kadete. Chcete-li dokončit tuto fázi výstavby a natlakování základny, musíte postavit přechodovou komoru."
 
@@ -2939,8 +2946,9 @@ msgid "Before we start, looks like your suit's taken some damage. Use duct tape 
 msgstr "Než začneme, vypadá to, že váš oblek utrpěl nějaké škody. Opravte ho lepicí páskou."
 
 #: /Language/Interface/Record[Key='4GetDucktape']
+#, fuzzy
 msgctxt "Interface.4GetDucktape"
-msgid "Equip duct tape in active hand from backpack."
+msgid "Equip duct tape in active hand from crate."
 msgstr "Vezměte z batohu lepicí páskou aktivní rukou."
 
 #: /Language/Interface/Record[Key='4UseDuctTape']
@@ -3042,6 +3050,35 @@ msgstr "Postavte plynový senzor na zvýrazněné místo"
 
 #: /Language/Interface/Record[Key='4Narration7D']
 msgctxt "Interface.4Narration7D"
+msgid "To pressurize and depressurize the airlock, you will need an active vent to cycle air, and a passive vent to draw atmosphere into the pipe network."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4FabricateItemPassiveVent']
+#, fuzzy
+msgctxt "Interface.4FabricateItemPassiveVent"
+msgid "Print passive vent"
+msgstr "Pasivní ventilace"
+
+#: /Language/Interface/Record[Key='4GetActiveVent']
+#, fuzzy
+msgctxt "Interface.4GetActiveVent"
+msgid "Get active vent from crate"
+msgstr "Vezměte tablet z bedny."
+
+#: /Language/Interface/Record[Key='4BuildStructureActiveVent']
+#, fuzzy
+msgctxt "Interface.4BuildStructureActiveVent"
+msgid "Build active vent in highlighted position inside of the airlock"
+msgstr "Postavte plynový senzor na zvýrazněné místo"
+
+#: /Language/Interface/Record[Key='4BuildStructurePassiveVent']
+#, fuzzy
+msgctxt "Interface.4BuildStructurePassiveVent"
+msgid "Build passive vent in highlighted position outside of the airlock"
+msgstr "Postavte plynový senzor na zvýrazněné místo"
+
+#: /Language/Interface/Record[Key='4Narration8D']
+msgctxt "Interface.4Narration8D"
 msgid "You will need to connect the vents with a pipe network, in order to pump air from the room into the airlock."
 msgstr ""
 
@@ -3055,24 +3092,26 @@ msgctxt "Interface.4BuildPipeCorner2Tutorial"
 msgid "Add pipe #2 to pipe network"
 msgstr ""
 
-#: /Language/Interface/Record[Key='4Narration8D']
-msgctxt "Interface.4Narration8D"
+#: /Language/Interface/Record[Key='4Narration9D']
+msgctxt "Interface.4Narration9D"
 msgid "Consoles allow you to control and monitor a variety of systems - in this case, a basic airlock."
 msgstr ""
 
-#: /Language/Interface/Record[Key='4BuildGasSensorTutorial']
-msgctxt "Interface.4BuildGasSensorTutorial"
+#: /Language/Interface/Record[Key='4BuildConsoleTutorial']
+#, fuzzy
+msgctxt "Interface.4BuildConsoleTutorial"
 msgid "Build console in highlighted position"
 msgstr "Postavte konzoli na zvýrazněné místo"
 
-#: /Language/Interface/Record[Key='4Narration9D']
-msgctxt "Interface.4Narration9D"
+#: /Language/Interface/Record[Key='4Narration10D']
+msgctxt "Interface.4Narration10D"
 msgid "Circuitboards provide consoles with a range of different functionality. Here you need an airlock circuitboard, and a datadisk to program it."
 msgstr ""
 
 #: /Language/Interface/Record[Key='4FabricateAirlcokCircuit']
+#, fuzzy
 msgctxt "Interface.4FabricateAirlcokCircuit"
-msgid "Print circuitboard"
+msgid "Print Airlock circuitboard"
 msgstr "Tisk obvodové desky"
 
 #: /Language/Interface/Record[Key='4FabricateDataDisk']
@@ -3090,15 +3129,165 @@ msgctxt "Interface.4ConsoleOn"
 msgid "Turn console on"
 msgstr "Zapněte konzoli"
 
-#: /Language/Interface/Record[Key='4Narration10D']
-msgctxt "Interface.4Narration10D"
+#: /Language/Interface/Record[Key='4Narration11D']
+#, fuzzy
+msgctxt "Interface.4Narration11D"
 msgid "To programme the airlock, select all the items you would like the console to operate. Devices highlight green with red text when selected."
 msgstr "Chcete-li naprogramovat přechodovou komoru, musíte vybrat všechny položky, které má konzole ovládat. Zařízení jsou při výběru zvýrazněna zeleně s červeným textem."
+
+#: /Language/Interface/Record[Key='4PediaOpen']
+#, fuzzy
+msgctxt "Interface.4PediaOpen"
+msgid "Open Stationpedia with F1"
+msgstr "Otevřete Stationpedii pomocí F1"
+
+#: /Language/Interface/Record[Key='4Narration12D']
+msgctxt "Interface.4Narration12D"
+msgid "Now select the two airlock doors. Selecting one door as 'Exterior' will cause the other to default to 'Internal'."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4GetpipeKit']
+#, fuzzy
+msgctxt "Interface.4GetpipeKit"
+msgid "Get Pipes from crate."
+msgstr "Vezměte tablet z bedny."
+
+#: /Language/Interface/Record[Key='4GetConsole']
+#, fuzzy
+msgctxt "Interface.4GetConsole"
+msgid "Get Console from crate"
+msgstr "Vezměte uhlí z bedny"
+
+#: /Language/Interface/Record[Key='4Narration13D']
+msgctxt "Interface.4Narration13D"
+msgid "When you have successfully completed the airlock set up, the switch on the side of the console will light up green. Remove the data disk from the console to lock it."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4PutCircuitInConsole']
+msgctxt "Interface.4PutCircuitInConsole"
+msgid "Add circuitboard airlock to console."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4Narration14D']
+msgctxt "Interface.4Narration14D"
+msgid "The airlock's ready, so now you can pressurize the base! Turn on the APC to fill the room with atmosphere. The system will maintain a 100kPa pressure."
+msgstr ""
 
 #: /Language/Interface/Record[Key='']
 msgctxt "Interface."
 msgid "{BLANK}"
 msgstr "{BLANK}"
+
+#: /Language/Interface/Record[Key='4Narration15D']
+msgctxt "Interface.4Narration15D"
+msgid "As the room fills with atmosphere, your suit will register the external pressure and temperature change."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4TurningOnTheOXygen']
+#, fuzzy
+msgctxt "Interface.4TurningOnTheOXygen"
+msgid "Wait for pressure to reach 90kPa"
+msgstr "Počkejte, až vnější tlak dosáhne 60kPa."
+
+#: /Language/Interface/Record[Key='4Narration16D']
+msgctxt "Interface.4Narration16D"
+msgid "Now the base is pressurized, you can test the airlock by pressing 'Cycle to Exterior' on the console."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4OpenAirlock']
+#, fuzzy
+msgctxt "Interface.4OpenAirlock"
+msgid "Cycle the airlock"
+msgstr "Synchronizace přechodové komory"
+
+#: /Language/Interface/Record[Key='4Narration17D']
+#, fuzzy
+msgctxt "Interface.4Narration17D"
+msgid "Good work, Cadet. You've build an airtight, pressurized base. That's the last step of Practical Testing, Phase IV. Return inside and press the 'Complete' button to transmit your results to Stationeer Command."
+msgstr ""
+"Dobrá práce, kadete. Vytvořili jste kompletní výrobní systém.\n"
+"To byl poslední krok praktického výcviku, fáze III. Stisknutím tlačítka 'Dokončit' přeneste své výsledky na velitelství Stationeer."
+
+#: /Language/Interface/Record[Key='4AirlockProggramGasSensor']
+msgctxt "Interface.4AirlockProggramGasSensor"
+msgid "Select gas sensor"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4AirlockProggramActiveVent']
+#, fuzzy
+msgctxt "Interface.4AirlockProggramActiveVent"
+msgid "Select active vent"
+msgstr "Vyberte aktivní ventilaci v hydraulické ohýbačce trubek."
+
+#: /Language/Interface/Record[Key='4AirlockExternalDoor']
+msgctxt "Interface.4AirlockExternalDoor"
+msgid "Select external door as 'Exterior'"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4AirlockInternalDoor']
+msgctxt "Interface.4AirlockInternalDoor"
+msgid "Select Internal door as 'Internal'"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4GetDataDisk2']
+#, fuzzy
+msgctxt "Interface.4GetDataDisk2"
+msgid "Remove the data disk"
+msgstr "Tisk datového disku"
+
+#: /Language/Interface/Record[Key='4FlipSwitch']
+msgctxt "Interface.4FlipSwitch"
+msgid "Turn on APC to start pressurization."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4FinishDoor1']
+#, fuzzy
+msgctxt "Interface.4FinishDoor1"
+msgid "Finish construction of door #1"
+msgstr "Dokončete konstrukci rámu 1."
+
+#: /Language/Interface/Record[Key='4FinishDoor2']
+#, fuzzy
+msgctxt "Interface.4FinishDoor2"
+msgid "Finish construction of door #2"
+msgstr "Dokončete konstrukci rámu 2."
+
+#: /Language/Interface/Record[Key='4Narration55D']
+msgctxt "Interface.4Narration55D"
+msgid "Using the resource the crate and the on-screen tooltips complete the doors."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4Narration56D']
+msgctxt "Interface.4Narration56D"
+msgid "Use the labeller to name the interior and exterior door on the data network."
+msgstr ""
+
+#: /Language/Interface/Record[Key='4GetLabeler']
+#, fuzzy
+msgctxt "Interface.4GetLabeler"
+msgid "Equip labeller from the crate"
+msgstr "Vezměte {THING:ItemLabeller} z bedny."
+
+#: /Language/Interface/Record[Key='4LabelerOn']
+#, fuzzy
+msgctxt "Interface.4LabelerOn"
+msgid "Turn labeller on"
+msgstr "Zapněte tablet."
+
+#: /Language/Interface/Record[Key='4CustomName']
+msgctxt "Interface.4CustomName"
+msgid "Label inner door 'Interior door'"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4CustomName2']
+msgctxt "Interface.4CustomName2"
+msgid "Label the outer door 'Exterior door'"
+msgstr ""
+
+#: /Language/Interface/Record[Key='4PutDataDiskInConsole']
+msgctxt "Interface.4PutDataDiskInConsole"
+msgid "Insert Data disk into console"
+msgstr ""
 
 #: /Language/Interface/Record[Key='04BasicMining']
 msgctxt "Interface.04BasicMining"
@@ -3581,6 +3770,11 @@ msgstr "Hydroponie"
 msgctxt "Interface.TutoiralHydroponicsDescription"
 msgid "No this inst hydro slides but that would be cool. zero G hydro slides how would that work? Pressure and lots of water?."
 msgstr ""
+
+#: /Language/Interface/Record[Key='IntoTutoiralAtmosphericsDescription']
+msgctxt "Interface.IntoTutoiralAtmosphericsDescription"
+msgid "Welcome Cadet. To finish this stage of base construction and pressurize your base, you need to build an airlock."
+msgstr "Vítejte kadete. Chcete-li dokončit tuto fázi výstavby a natlakování základny, musíte postavit přechodovou komoru."
 
 #: /Language/Interface/Record[Key='07BasicAirlocks']
 msgctxt "Interface.07BasicAirlocks"
