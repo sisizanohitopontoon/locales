@@ -1350,15 +1350,15 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>需要更多{0}</color>."
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "阴影分辨率"
-
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "服务器名搜索"
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "阴影分辨率"
 
 #: /Language/Interface/Record[Key='JoinMenuAddressPlaceholder']
 msgctxt "Interface.JoinMenuAddressPlaceholder"
@@ -1584,10 +1584,15 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "看起来此联系人已经离开了。"
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
+msgstr "交易"
+
+#: /Language/Interface/Record[Key='NextTutoiralButtonFail']
+msgctxt "Interface.NextTutoiralButtonFail"
+msgid "Unable to load Next Tutorial. Please return to menu."
+msgstr ""
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
 msgctxt "Interface.BasicButtonTutorial"
@@ -1608,7 +1613,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='LightString']
 #, fuzzy
 msgctxt "Interface.LightString"
-msgid "Da Light"
+msgid "Light"
 msgstr "亮度"
 
 #: /Language/Interface/Record[Key='HelmetString']
@@ -3888,15 +3893,15 @@ msgctxt "Interface.Locked"
 msgid "Locked"
 msgstr "锁定"
 
-#: /Language/Interface/Record[Key='Trade']
-msgctxt "Interface.Trade"
-msgid "Trade"
-msgstr "交易"
-
 #: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "订阅mods"
+
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "看起来此联系人已经离开了。"
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5108,6 +5113,11 @@ msgstr "退订"
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "发布"
+
+#, fuzzy
+#~ msgctxt "Interface.LightString"
+#~ msgid "Da Light"
+#~ msgstr "亮度"
 
 #~ msgctxt "Interface.TK"
 #~ msgid "TK"

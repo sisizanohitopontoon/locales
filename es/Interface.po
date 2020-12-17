@@ -1338,15 +1338,15 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Necesita más {0}</color>."
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Resolución de Sombras"
-
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "Buscar por nombre"
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Resolución de Sombras"
 
 #: /Language/Interface/Record[Key='JoinMenuAddressPlaceholder']
 msgctxt "Interface.JoinMenuAddressPlaceholder"
@@ -1568,10 +1568,15 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Ranura"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "Parece que el contacto se ha movido."
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
+msgstr "Comerciar"
+
+#: /Language/Interface/Record[Key='NextTutoiralButtonFail']
+msgctxt "Interface.NextTutoiralButtonFail"
+msgid "Unable to load Next Tutorial. Please return to menu."
+msgstr ""
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
 msgctxt "Interface.BasicButtonTutorial"
@@ -1591,8 +1596,9 @@ msgid "No weather system was found for this world. The default weather system ha
 msgstr "No hay eventos de clima en este mundo. Los eventos por defecto del clima se han aplicado en esta partida."
 
 #: /Language/Interface/Record[Key='LightString']
+#, fuzzy
 msgctxt "Interface.LightString"
-msgid "Da Light"
+msgid "Light"
 msgstr "Luz"
 
 #: /Language/Interface/Record[Key='HelmetString']
@@ -3895,15 +3901,15 @@ msgctxt "Interface.Locked"
 msgid "Locked"
 msgstr "Bloqueado"
 
-#: /Language/Interface/Record[Key='Trade']
-msgctxt "Interface.Trade"
-msgid "Trade"
-msgstr "Comerciar"
-
 #: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "Suscríbete a los Mods"
+
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "Parece que el contacto se ha movido."
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5120,6 +5126,10 @@ msgstr "Anular Suscripción"
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Publicar"
+
+#~ msgctxt "Interface.LightString"
+#~ msgid "Da Light"
+#~ msgstr "Luz"
 
 #~ msgctxt "Interface.TK"
 #~ msgid "TK"

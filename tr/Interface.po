@@ -1340,15 +1340,15 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Daha fazla {0} gerekir</color>."
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Gölge Çözünürlüğü"
-
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "SUNUCU İSMİNE GÖRE ARA"
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Gölge Çözünürlüğü"
 
 #: /Language/Interface/Record[Key='JoinMenuAddressPlaceholder']
 msgctxt "Interface.JoinMenuAddressPlaceholder"
@@ -1570,10 +1570,15 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "İrtibat ayrılmış görünüyor."
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
+msgstr "Ticaret"
+
+#: /Language/Interface/Record[Key='NextTutoiralButtonFail']
+msgctxt "Interface.NextTutoiralButtonFail"
+msgid "Unable to load Next Tutorial. Please return to menu."
+msgstr ""
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
 msgctxt "Interface.BasicButtonTutorial"
@@ -1594,7 +1599,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='LightString']
 #, fuzzy
 msgctxt "Interface.LightString"
-msgid "Da Light"
+msgid "Light"
 msgstr "Işıklar"
 
 #: /Language/Interface/Record[Key='HelmetString']
@@ -3870,15 +3875,15 @@ msgctxt "Interface.Locked"
 msgid "Locked"
 msgstr "Kilitli"
 
-#: /Language/Interface/Record[Key='Trade']
-msgctxt "Interface.Trade"
-msgid "Trade"
-msgstr "Ticaret"
-
 #: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "Abone Olunmuş Modlar"
+
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "İrtibat ayrılmış görünüyor."
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5096,6 +5101,11 @@ msgstr "Aboneliği Kaldır"
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Yayınla"
+
+#, fuzzy
+#~ msgctxt "Interface.LightString"
+#~ msgid "Da Light"
+#~ msgstr "Işıklar"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"

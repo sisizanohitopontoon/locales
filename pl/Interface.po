@@ -1359,15 +1359,15 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>Need more {0}</color>."
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Rozdzielczość cieni"
-
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "Wyszukaj wedlug nazwy..."
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Rozdzielczość cieni"
 
 #: /Language/Interface/Record[Key='JoinMenuAddressPlaceholder']
 msgctxt "Interface.JoinMenuAddressPlaceholder"
@@ -1592,10 +1592,15 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "Wygląda na to, że kontakt się przemieścił."
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
+msgstr "Handel"
+
+#: /Language/Interface/Record[Key='NextTutoiralButtonFail']
+msgctxt "Interface.NextTutoiralButtonFail"
+msgid "Unable to load Next Tutorial. Please return to menu."
+msgstr ""
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
 msgctxt "Interface.BasicButtonTutorial"
@@ -1616,7 +1621,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='LightString']
 #, fuzzy
 msgctxt "Interface.LightString"
-msgid "Da Light"
+msgid "Light"
 msgstr "Jasność"
 
 #: /Language/Interface/Record[Key='HelmetString']
@@ -3958,15 +3963,15 @@ msgctxt "Interface.Locked"
 msgid "Locked"
 msgstr "Zablokowane"
 
-#: /Language/Interface/Record[Key='Trade']
-msgctxt "Interface.Trade"
-msgid "Trade"
-msgstr "Handel"
-
 #: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "Subskrybowane Mody"
+
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "Wygląda na to, że kontakt się przemieścił."
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5174,6 +5179,11 @@ msgstr "Anuluj Subskrypcje"
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Opublikuj"
+
+#, fuzzy
+#~ msgctxt "Interface.LightString"
+#~ msgid "Da Light"
+#~ msgstr "Jasność"
 
 #, fuzzy
 #~ msgctxt "Interface.TK"

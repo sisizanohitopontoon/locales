@@ -1348,15 +1348,15 @@ msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}</color>."
 msgstr "<color=red>{0}이(가) 부족 합니다. </color>."
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "그림자 해상도"
-
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
 msgid "Search by Server Name"
 msgstr "서버 이름으로 검색"
+
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "그림자 해상도"
 
 #: /Language/Interface/Record[Key='JoinMenuAddressPlaceholder']
 msgctxt "Interface.JoinMenuAddressPlaceholder"
@@ -1578,9 +1578,14 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "슬롯"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NextTutoiralButtonFail']
+msgctxt "Interface.NextTutoiralButtonFail"
+msgid "Unable to load Next Tutorial. Please return to menu."
 msgstr ""
 
 #: /Language/Interface/Record[Key='BasicButtonTutorial']
@@ -1602,7 +1607,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='LightString']
 #, fuzzy
 msgctxt "Interface.LightString"
-msgid "Da Light"
+msgid "Light"
 msgstr "조명"
 
 #: /Language/Interface/Record[Key='HelmetString']
@@ -3915,15 +3920,15 @@ msgctxt "Interface.Locked"
 msgid "Locked"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Trade']
-msgctxt "Interface.Trade"
-msgid "Trade"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "Mods 구독"
+
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr ""
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 #, fuzzy
@@ -5156,6 +5161,11 @@ msgstr "구독 취소"
 msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "업로드"
+
+#, fuzzy
+#~ msgctxt "Interface.LightString"
+#~ msgid "Da Light"
+#~ msgstr "조명"
 
 #~ msgctxt "Interface.TK"
 #~ msgid "TK"

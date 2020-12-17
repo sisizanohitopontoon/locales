@@ -18,12 +18,6 @@ msgstr "套件(自动挖矿机)"
 #: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
 #, fuzzy
 msgctxt "Things.ItemKitDynamicGasTankAdvanced"
-msgid "Kit (Portable Tank Advanced)"
-msgstr "电梯前部"
-
-#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
-#, fuzzy
-msgctxt "Things.ItemKitDynamicGasTankAdvanced"
 msgid "{BLANK}"
 msgstr "电梯前部"
 
@@ -331,6 +325,12 @@ msgstr ""
 msgctxt "Things.StructureUprightWindTurbine"
 msgid "{BLANK}"
 msgstr "储气罐(空气)"
+
+#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
+#, fuzzy
+msgctxt "Things.ItemKitDynamicGasTankAdvanced"
+msgid "Kit (Portable Tank Advanced)"
+msgstr "电梯前部"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
 #, fuzzy
@@ -2029,16 +2029,16 @@ msgctxt "Things.StructureWallFlatCornerTriangle"
 msgid "Wall (Flat Corner Triangle)"
 msgstr "墙体(三角形平角)"
 
-#: /Language/Things/RecordThing[Key='StructureWallFlatCornerSquare']
-msgctxt "Things.StructureWallFlatCornerSquare"
-msgid "Wall (Flat Corner Square)"
-msgstr "墙体(方形平角)"
-
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
 #, fuzzy
 msgctxt "Things.ItemWreckageCompositeDoor1"
 msgid "{BLANK}"
 msgstr "复合门"
+
+#: /Language/Things/RecordThing[Key='StructureWallFlatCornerSquare']
+msgctxt "Things.StructureWallFlatCornerSquare"
+msgid "Wall (Flat Corner Square)"
+msgstr "墙体(方形平角)"
 
 #: /Language/Things/RecordThing[Key='StructureWallFlatCornerRound']
 msgctxt "Things.StructureWallFlatCornerRound"
@@ -8245,7 +8245,7 @@ msgstr "化学原料处理机"
 
 #: /Language/Things/RecordThing[Key='ApplianceMicrowave']
 msgctxt "Things.ApplianceMicrowave"
-msgid "While countless 'better' ways of cooking <color=#0080FFFF>{LINK:FoodPage;Food}</color> have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from <color=#0080FFFF>{LINK:Xigo;Xigo}</color>, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. Just bolt it to a bench, follow the recipe, and you're cooking."
+msgid "While countless 'better' ways of cooking <color=#0080FFFF>{LINK:FoodPage;Food}</color> have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from <color=#0080FFFF>{LINK:Xigo;Xigo}</color>, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. Just bolt it to a {THING:StructureBench}, follow the recipe, and you're cooking."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ApplianceMicrowave']
