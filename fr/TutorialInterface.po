@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-17 09:02+0000\n"
+"PO-Revision-Date: 2020-12-17 21:15+0000\n"
 "Last-Translator: brainkiller <dchambelant@gmail.com>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1147,14 +1147,13 @@ msgid "Items in items"
 msgstr "Des objets dans les objets"
 
 #: /Language/Interface/Record[Key='Narration12D']
-#, fuzzy
 msgctxt "Interface.Narration12D"
 msgid ""
 "Stationeer equiment is designed for durability and ease of fabrication, not good looks.\n"
 "Many of them, like powered tools, contain items like batteries or gas canisters."
 msgstr ""
 "L'équipement du Stationeer est conçu pour la durabilité et la facilité de fabrication, pas pour qu'ils soient beaux.\n"
-"Bon nombre d’entre eux, comme les outils électriques, contiennent une pile ou une bouteille de gaz."
+"Bon nombre d’entre eux, notament vos outils, contiennent une pile ou une bouteille de gaz."
 
 #: /Language/Interface/Record[Key='ChildOnSlotOpenDisc']
 msgctxt "Interface.ChildOnSlotOpenDisc"
@@ -1348,12 +1347,12 @@ msgstr ""
 #: /Language/Interface/Record[Key='PickUpT1 9']
 msgctxt "Interface.PickUpT1 9"
 msgid "Take Iron Frames from crate"
-msgstr "Prendre les {THING:ItemIronFrames} dans la caisse"
+msgstr "Prendre les Kit (Cadres en Fer) dans la caisse"
 
 #: /Language/Interface/Record[Key='BuildFrameT1Disc']
 msgctxt "Interface.BuildFrameT1Disc"
 msgid "Complete the unfinished roof using iron sheets."
-msgstr "Compléter le toit en utilisant des {THING:ItemIronFrames} et des {THING:ItemIronSheets}."
+msgstr "Compléter le toit en utilisant des Kit (Cadres en Fer) et des Plaques de Fer."
 
 #: /Language/Interface/Record[Key='IronFrameBuildTaskT1']
 msgctxt "Interface.IronFrameBuildTaskT1"
@@ -1368,7 +1367,7 @@ msgstr "Construire le cadre #2 dans l’endroit en surbrillance."
 #: /Language/Interface/Record[Key='PickUpT1 4']
 msgctxt "Interface.PickUpT1 4"
 msgid "Take iron sheets from crate"
-msgstr "Prendre les {THING:ItemIronSheets} dans la caisse"
+msgstr "Prendre les Plaques de Fer dans la caisse"
 
 #: /Language/Interface/Record[Key='UsePrimeControlsBuildDisc']
 msgctxt "Interface.UsePrimeControlsBuildDisc"
@@ -1378,7 +1377,7 @@ msgstr "Construire"
 #: /Language/Interface/Record[Key='FinsihFramesT1Disc']
 msgctxt "Interface.FinsihFramesT1Disc"
 msgid "Equip the welder and steel sheets from the crate, to complete the training base."
-msgstr "Equipez-vous avec le {THING:ItemWeldingTorch} et les {THING:ItemSteelSheets} dans la caisse, et compléter la base d'entraînement."
+msgstr "Equipez-vous avec le Chalumeau et les Plaques d'acier dans la caisse, et compléter la base d'entraînement."
 
 #: /Language/Interface/Record[Key='FillingWithAirT1Disc']
 msgctxt "Interface.FillingWithAirT1Disc"
@@ -1388,12 +1387,12 @@ msgstr "Remplissez la base d’une atmosphère respirable."
 #: /Language/Interface/Record[Key='OpenTheAPCPanel']
 msgctxt "Interface.OpenTheAPCPanel"
 msgid "Open the APC with crowbar from crate"
-msgstr "Ouvrez le {THING:StructureAreaPowerControl} avec le {THING:ItemCrowbar} trouvé dans la caisse"
+msgstr "Ouvrez le Contrôleur d'Alimentation avec le Pieds de biche trouvé dans la caisse"
 
 #: /Language/Interface/Record[Key='TurnOnAPC']
 msgctxt "Interface.TurnOnAPC"
 msgid "Turn on the APC"
-msgstr "Allumez le {THING:StructureAreaPowerControl}"
+msgstr "Allumez le Contrôleur d'Alimentation"
 
 #: /Language/Interface/Record[Key='TurningOnTheOXygen']
 msgctxt "Interface.TurningOnTheOXygen"
@@ -1423,7 +1422,7 @@ msgstr "Cadres"
 #: /Language/Interface/Record[Key='FinishFrameT1']
 msgctxt "Interface.FinishFrameT1"
 msgid "Finish frames: iron sheets + welding torch (active hand)"
-msgstr "Terminer la construction du {THING:StructureFrameIron} avec des {THING:ItemIronSheets} et un {THING:ItemWeldingTorch}"
+msgstr "Terminer la construction du Cadre en Fer avec des Plaques de Fer et un Chalumeau"
 
 #: /Language/Interface/Record[Key='Narration20D']
 msgctxt "Interface.Narration20D"
@@ -1431,7 +1430,7 @@ msgid ""
 "The base is now airtight, so you can add atmosphere. Activate the area power controller (APC) to turn on the active vents, and start airflow into the room.\n"
 "Monitor the external pressure on your status panel."
 msgstr ""
-"Le bâtiment est étanche, maintenant vous pouvez ajouter une atmosphère. Activer le {THING:StructureAreaPowerControl} (APC) pour alimenter les {THING:StructureActiveVent}. L’air affluera dans la pièce.\n"
+"Le bâtiment est étanche, maintenant vous pouvez ajouter une atmosphère. Activer le Contrôleur d'Alimentation (APC) pour alimenter les Ventilations Actives. L’air affluera dans la pièce.\n"
 "Surveillez la pression atmosphérique sur votre panneau d’état."
 
 #: /Language/Interface/Record[Key='Narration21T']
@@ -1455,27 +1454,25 @@ msgid "Final phase"
 msgstr "Phase finale"
 
 #: /Language/Interface/Record[Key='Narration22D']
-#, fuzzy
 msgctxt "Interface.Narration22D"
 msgid ""
 "Alright, Cadet, you've nearly finished Phase I of Stationeers Practical Testing.\n"
 "If you want to learn more, consult the Stationpedia by pressing F1. Once you've read up close the Stationpedia. You'll be doing more testing soon, but for now, make yourself at home. \n"
 "Take off your suit and place it in a storage locker."
 msgstr ""
-"Vous ferez plus de tests bientôt, alors faites-vous à la maison. \n"
-"Enlève ton costume et place-le dans un casier."
+"Très bien, Cadet, vous avez presque terminé la phase I des tests pratiques Stationeers.\n"
+"Si vous souhaitez en savoir plus, consultez la Stationpedia en appuyant sur F1. Une fois que vous l'aurez lu, fermez la Stationpedia. Vous ferez d’autres tests bientôt, mais pour l’instant, faites comme chez vous. \n"
+"Enlevez votre combinaison et placez-la dans le casier."
 
 #: /Language/Interface/Record[Key='GettingHelp']
-#, fuzzy
 msgctxt "Interface.GettingHelp"
 msgid "Open Stationpedia, and navigate to the 'Personal' tab."
-msgstr "Ouverture de Stationpedia, navigation pour \"démarrer\"."
+msgstr "Ouvrez la Stationpedia, et aller dans la section Personnel."
 
 #: /Language/Interface/Record[Key='GettingHelpClose']
-#, fuzzy
 msgctxt "Interface.GettingHelpClose"
 msgid "Close the Stationpedia"
-msgstr "Fermez la {LINK:Home;Stationpedia}"
+msgstr "Fermez la Stationpedia"
 
 #: /Language/Interface/Record[Key='Narration23T']
 msgctxt "Interface.Narration23T"
@@ -1483,36 +1480,33 @@ msgid "Final phase"
 msgstr "Phase finale"
 
 #: /Language/Interface/Record[Key='Narration23D']
-#, fuzzy
 msgctxt "Interface.Narration23D"
 msgid ""
 "Excellent, Cadet. That's the last step of Phase I. The ODA will be relieved you survived this far.\n"
 "Press the blue 'Complete' button to transmit your results to Stationeer Command."
 msgstr ""
-"Excellent, cadet ! C’est la dernière étape des tests pratiques, phase I. \n"
-"Appuyez sur le bouton orange 'Complete' pour transmettre vos résultats au commandement Stationeer."
+"Excellent, cadet. C’est la dernière étape de la phase I. L’ODA sera soulagée que vous ayez survécu jusqu’ici.\n"
+"Appuyez sur le bouton bleu 'Complete' pour transmettre vos résultats à Stationeer Command."
 
 #: /Language/Interface/Record[Key='HangUpSuitT1Disc']
 msgctxt "Interface.HangUpSuitT1Disc"
 msgid "Drag your suit into the storage locker."
-msgstr "Faites glisser votre combinaison dans le casier de rangement."
+msgstr "Déposer votre combinaison dans le Stockage de combinaison."
 
 #: /Language/Interface/Record[Key='HangHelm']
 msgctxt "Interface.HangHelm"
 msgid "Drag space helmet onto suit storage"
-msgstr "Faites glisser le casque spatial sur le stockage de la combinaison"
+msgstr "Déposer votre casque spatial dans le Stockage de combinaison"
 
 #: /Language/Interface/Record[Key='HangSuit']
-#, fuzzy
 msgctxt "Interface.HangSuit"
 msgid "Drag suit onto suit storage"
-msgstr "Faites glisser la combinaison EVA sur le rangement de la combinaison"
+msgstr "Déposer votre combinaison EVA dans le Stockage de combinaison"
 
 #: /Language/Interface/Record[Key='HangPack']
-#, fuzzy
 msgctxt "Interface.HangPack"
 msgid "Drag backpack onto suit storage"
-msgstr "Faites glisser le jetpack sur le stockage de la combinaison"
+msgstr "Déposer le jetpack dans le Stockage de combinaison"
 
 #: /Language/Interface/Record[Key='JetpackOn']
 msgctxt "Interface.JetpackOn"
@@ -1525,10 +1519,9 @@ msgid "Turn off jetpack"
 msgstr "Désactiver le jetpack"
 
 #: /Language/Interface/Record[Key='JetpackT1Disc']
-#, fuzzy
 msgctxt "Interface.JetpackT1Disc"
 msgid "Test your jetpack controls."
-msgstr "Testez vos commandes de jet pack."
+msgstr "Testez votre contrôle du jetpack."
 
 #: /Language/Interface/Record[Key='PickUpT1 6']
 msgctxt "Interface.PickUpT1 6"
@@ -1548,7 +1541,7 @@ msgstr "Appuyez sur le bouton 'Confirmer' pour terminer le test"
 #: /Language/Interface/Record[Key='UIBasicsEndDescription']
 msgctxt "Interface.UIBasicsEndDescription"
 msgid "Congratulations. Your results have been received by Stationeer Command of the Offworld Development Agency."
-msgstr "Félicitations. Vos résultats ont été reçus par Le Commandement Stationeer de l’Agence de développement Offworld."
+msgstr "Félicitations. Vos résultats ont été reçus par le Stationeer Command de l’ODA."
 
 #: /Language/Interface/Record[Key='Dropflare']
 #, fuzzy
