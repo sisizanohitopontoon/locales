@@ -680,7 +680,7 @@ msgstr "O dobrador de canos"
 
 #: /Language/Interface/Record[Key='Narration4D']
 msgctxt "Interface.Narration4D"
-msgid "You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Lots of them. Some must be activated first, with 'Right Click'."
+msgid "You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Lots of them. Some must be activated first, with {KEY:SecondaryAction}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ActiveWilderDisc']
@@ -717,7 +717,7 @@ msgstr ""
 msgctxt "Interface.Narration5D"
 msgid ""
 "So far, your hands are working fine. That's good, you'll need them. So let's try dropping and throwing.\n"
-"Press Q to drop items, or hold Q to throw them."
+"Press {KEY:Drop} to drop items, or hold {KEY:Drop} to throw them."
 msgstr ""
 
 #: /Language/Interface/Record[Key='DropItemT1 1']
@@ -753,7 +753,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='PrecisionPLaceT1 1']
 msgctxt "Interface.PrecisionPLaceT1 1"
-msgid "Precision place tool on table using 'T'"
+msgid "Precision place tool on table using {KEY:PrecisionPlace}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Narration6T']
@@ -764,7 +764,7 @@ msgstr "O dobrador de canos"
 
 #: /Language/Interface/Record[Key='Narration6D']
 msgctxt "Interface.Narration6D"
-msgid "Sometimes, you'll need to put items down more carefully. They're ODA property. Try it using 'T', and check your suit joints are working smoothly."
+msgid "Sometimes, you'll need to put items down more carefully. They're ODA property. Try it using {KEY:PrecisionPlace}, and check your suit joints are working smoothly."
 msgstr ""
 
 #: /Language/Interface/Record[Key='PrecisionPlaceControls']
@@ -802,7 +802,7 @@ msgstr ""
 msgctxt "Interface.Narration7D"
 msgid ""
 "We can't teach you everything, but we can ensure you've got the basics down: surviving in the Solar System is up to you.\n"
-"Hold LEFT ALT to access your inventory, then click on a panel to open it."
+"Hold {KEY:MouseControl} to access your inventory, then click on a panel to open it."
 msgstr ""
 
 #: /Language/Interface/Record[Key='OpenToolControls']
@@ -1092,13 +1092,11 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='ReplaceBattT1Disc']
-#, fuzzy
 msgctxt "Interface.ReplaceBattT1Disc"
 msgid "Add battery from crate to mining drill"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ChangePowerCell']
-#, fuzzy
 msgctxt "Interface.ChangePowerCell"
 msgid "Add battery from crate to mining drill"
 msgstr ""
@@ -1443,6 +1441,12 @@ msgstr ""
 msgctxt "Interface.Dropflare"
 msgid "Drop the flare in your right hand"
 msgstr "Larga os restantes itens das tuas mãos."
+
+#: /Language/Interface/Record[Key='NarrationClose']
+#, fuzzy
+msgctxt "Interface.NarrationClose"
+msgid "Close Narration Panel"
+msgstr "Fecha a {LINK:Home;Stationpedia}"
 
 #: /Language/Interface/Record[Key='01TutorialUIBasics']
 #, fuzzy
@@ -2942,7 +2946,6 @@ msgid "Let's get started. To build an airlock, start by printing two door kits. 
 msgstr ""
 
 #: /Language/Interface/Record[Key='4PutCopperIngotInAutoLathe']
-#, fuzzy
 msgctxt "Interface.4PutCopperIngotInAutoLathe"
 msgid "Add copper ingot to autolathe"
 msgstr ""
@@ -2968,13 +2971,11 @@ msgid "Before you can construct replacement doors, ODA protocol dictates you mus
 msgstr ""
 
 #: /Language/Interface/Record[Key='T4Deconstruct1']
-#, fuzzy
 msgctxt "Interface.T4Deconstruct1"
 msgid "Deconstruct destroyed door 1."
 msgstr ""
 
 #: /Language/Interface/Record[Key='T4Deconstruct2']
-#, fuzzy
 msgctxt "Interface.T4Deconstruct2"
 msgid "Deconstruct destroyed door 2."
 msgstr ""
@@ -3624,7 +3625,6 @@ msgid "Print a {THING:ItemPassiveVent}."
 msgstr "Imprime um {THING:ItemPassiveVent}."
 
 #: /Language/Interface/Record[Key='TutoiralGasMixing']
-#, fuzzy
 msgctxt "Interface.TutoiralGasMixing"
 msgid "Gas Mixing"
 msgstr ""
@@ -6086,7 +6086,6 @@ msgid "A course on refilling suit oxygen tanks and mixing fuel gases."
 msgstr ""
 
 #: /Language/Interface/Record[Key='GasMixingInd']
-#, fuzzy
 msgctxt "Interface.GasMixingInd"
 msgid "Gas mixing introduction"
 msgstr ""

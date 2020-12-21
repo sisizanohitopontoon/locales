@@ -660,7 +660,7 @@ msgstr "용접공"
 #: /Language/Interface/Record[Key='Narration4D']
 #, fuzzy
 msgctxt "Interface.Narration4D"
-msgid "You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Lots of them. Some must be activated first, with 'Right Click'."
+msgid "You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Lots of them. Some must be activated first, with {KEY:SecondaryAction}."
 msgstr "도구들 중 상당수는 'O'키 또는 우클릭을 눌러 먼저 활성화해야합니다."
 
 #: /Language/Interface/Record[Key='ActiveWilderDisc']
@@ -698,7 +698,7 @@ msgstr "갑시다."
 msgctxt "Interface.Narration5D"
 msgid ""
 "So far, your hands are working fine. That's good, you'll need them. So let's try dropping and throwing.\n"
-"Press Q to drop items, or hold Q to throw them."
+"Press {KEY:Drop} to drop items, or hold {KEY:Drop} to throw them."
 msgstr "아이템을 버리려면 Q를 한번 누르고, 아이템을 던지려면 Q를 꾹 누르세요."
 
 #: /Language/Interface/Record[Key='DropItemT1 1']
@@ -733,8 +733,9 @@ msgid "Drop item"
 msgstr "아이템 버리기"
 
 #: /Language/Interface/Record[Key='PrecisionPLaceT1 1']
+#, fuzzy
 msgctxt "Interface.PrecisionPLaceT1 1"
-msgid "Precision place tool on table using 'T'"
+msgid "Precision place tool on table using {KEY:PrecisionPlace}"
 msgstr "'T'키를 사용하여 도구를 테이블 위에 정밀하게 배치할 수 있습니다."
 
 #: /Language/Interface/Record[Key='Narration6T']
@@ -745,7 +746,7 @@ msgstr "용접기"
 #: /Language/Interface/Record[Key='Narration6D']
 #, fuzzy
 msgctxt "Interface.Narration6D"
-msgid "Sometimes, you'll need to put items down more carefully. They're ODA property. Try it using 'T', and check your suit joints are working smoothly."
+msgid "Sometimes, you'll need to put items down more carefully. They're ODA property. Try it using {KEY:PrecisionPlace}, and check your suit joints are working smoothly."
 msgstr "가끔, 무언가를 더 조심히 내려놔야 할 때가 있을거에요. 그럴때는 'T'를 사용해보고, 슈트의 조인트가 부드럽게 작동하는지 확인하세요."
 
 #: /Language/Interface/Record[Key='PrecisionPlaceControls']
@@ -782,7 +783,7 @@ msgstr "인벤토리 시스템"
 msgctxt "Interface.Narration7D"
 msgid ""
 "We can't teach you everything, but we can ensure you've got the basics down: surviving in the Solar System is up to you.\n"
-"Hold LEFT ALT to access your inventory, then click on a panel to open it."
+"Hold {KEY:MouseControl} to access your inventory, then click on a panel to open it."
 msgstr ""
 
 #: /Language/Interface/Record[Key='OpenToolControls']
@@ -1440,6 +1441,12 @@ msgstr "축하합니다. 귀하의 결과는 오프월드 개발 기관의 스�
 msgctxt "Interface.Dropflare"
 msgid "Drop the flare in your right hand"
 msgstr "오른손에 도구를 떨구거나 던지세요."
+
+#: /Language/Interface/Record[Key='NarrationClose']
+#, fuzzy
+msgctxt "Interface.NarrationClose"
+msgid "Close Narration Panel"
+msgstr "{LINK:Home;Stationpedia}를 닫으세요."
 
 #: /Language/Interface/Record[Key='01TutorialUIBasics']
 msgctxt "Interface.01TutorialUIBasics"
@@ -2892,7 +2899,6 @@ msgid "Airlocks"
 msgstr "에어록의 기본"
 
 #: /Language/Interface/Record[Key='TutoiralAirlocksDescription']
-#, fuzzy
 msgctxt "Interface.TutoiralAirlocksDescription"
 msgid "Refresh your knowledge of airlock construction."
 msgstr ""

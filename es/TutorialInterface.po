@@ -689,7 +689,7 @@ msgstr "El soldador."
 #: /Language/Interface/Record[Key='Narration4D']
 #, fuzzy
 msgctxt "Interface.Narration4D"
-msgid "You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Lots of them. Some must be activated first, with 'Right Click'."
+msgid "You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Lots of them. Some must be activated first, with {KEY:SecondaryAction}."
 msgstr ""
 "Podrías haber sido un malabarista. Pero te inscribiste como un Stationeer, así que vas a hacer malabares con herramientas en su lugar. Muchas de ellas.\n"
 "Muchas de ellas deben ser activadas primero, con \"Click derecho\"."
@@ -725,10 +725,11 @@ msgid "Letting Go"
 msgstr "Dejarlo ir"
 
 #: /Language/Interface/Record[Key='Narration5D']
+#, fuzzy
 msgctxt "Interface.Narration5D"
 msgid ""
 "So far, your hands are working fine. That's good, you'll need them. So let's try dropping and throwing.\n"
-"Press Q to drop items, or hold Q to throw them."
+"Press {KEY:Drop} to drop items, or hold {KEY:Drop} to throw them."
 msgstr ""
 "Hasta ahora, tus manos funcionan bien. Eso es bueno. Intentemos soltar y lanzar.\n"
 "Presiona Q para soltar objetos. Sostenga Q para lanzarlos lejos."
@@ -764,8 +765,9 @@ msgid "Drop item"
 msgstr "Suelta el artículo"
 
 #: /Language/Interface/Record[Key='PrecisionPLaceT1 1']
+#, fuzzy
 msgctxt "Interface.PrecisionPLaceT1 1"
-msgid "Precision place tool on table using 'T'"
+msgid "Precision place tool on table using {KEY:PrecisionPlace}"
 msgstr "Coloca la herramienta en la mesa con precisión usando la 'T'"
 
 #: /Language/Interface/Record[Key='Narration6T']
@@ -774,8 +776,9 @@ msgid "The welder"
 msgstr "El soldador."
 
 #: /Language/Interface/Record[Key='Narration6D']
+#, fuzzy
 msgctxt "Interface.Narration6D"
-msgid "Sometimes, you'll need to put items down more carefully. They're ODA property. Try it using 'T', and check your suit joints are working smoothly."
+msgid "Sometimes, you'll need to put items down more carefully. They're ODA property. Try it using {KEY:PrecisionPlace}, and check your suit joints are working smoothly."
 msgstr "A veces, tendrá que dejar objetos con más cuidado.Son propiedad del ODA. Pruébelo usando 'T' y verifique que las articulaciones de su traje estén funcionando sin problemas."
 
 #: /Language/Interface/Record[Key='PrecisionPlaceControls']
@@ -812,7 +815,7 @@ msgstr "Sistemas de inventario"
 msgctxt "Interface.Narration7D"
 msgid ""
 "We can't teach you everything, but we can ensure you've got the basics down: surviving in the Solar System is up to you.\n"
-"Hold LEFT ALT to access your inventory, then click on a panel to open it."
+"Hold {KEY:MouseControl} to access your inventory, then click on a panel to open it."
 msgstr ""
 
 #: /Language/Interface/Record[Key='OpenToolControls']
@@ -1471,6 +1474,12 @@ msgstr "Felicidades. Sus resultados han sido recibidos por Stationeer Command de
 msgctxt "Interface.Dropflare"
 msgid "Drop the flare in your right hand"
 msgstr "Deja caer o lanza la herramienta de tu mano derecha"
+
+#: /Language/Interface/Record[Key='NarrationClose']
+#, fuzzy
+msgctxt "Interface.NarrationClose"
+msgid "Close Narration Panel"
+msgstr "Cierre la Stationpedia"
 
 #: /Language/Interface/Record[Key='01TutorialUIBasics']
 msgctxt "Interface.01TutorialUIBasics"
@@ -2909,7 +2918,6 @@ msgid "Airlocks"
 msgstr "Esclusas de aire básicas"
 
 #: /Language/Interface/Record[Key='TutoiralAirlocksDescription']
-#, fuzzy
 msgctxt "Interface.TutoiralAirlocksDescription"
 msgid "Refresh your knowledge of airlock construction."
 msgstr ""
@@ -2952,7 +2960,6 @@ msgid "Let's get started. To build an airlock, start by printing two door kits. 
 msgstr ""
 
 #: /Language/Interface/Record[Key='4PutCopperIngotInAutoLathe']
-#, fuzzy
 msgctxt "Interface.4PutCopperIngotInAutoLathe"
 msgid "Add copper ingot to autolathe"
 msgstr ""
