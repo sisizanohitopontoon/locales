@@ -313,7 +313,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemKitCrateMkII"
 msgid "Kit (Crate Mk II)"
-msgstr "Kit (Caisse)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitCrateMkII']
 #, fuzzy
@@ -5599,16 +5599,12 @@ msgid "Back Pressure Regulator"
 msgstr "Régulateur de pression arrière"
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControlReversed']
+#, fuzzy
 msgctxt "Things.StructureAreaPowerControlReversed"
 msgid ""
 "An Area Power Control (APC) has three main functions. \n"
-"Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.\n"
-"Note that the APC has two variants, each allowing power to flow."
-msgstr ""
-"Un {THING:StructureAreaPowerControl} (APC) a trois fonctions principales. \n"
-"Le but principal d’un APC est de réguler le flux de puissance électrique, en assurant une alimentation ininterrompue aux dispositifs et des machines, en particulier ceux avec un tirage fluctuant.\n"
-"Les APC créent également des sous-réseaux de données. Aucun dispositif derrière un APC n’est visible sur le réseau principal.\n"
-"Enfin, un APC contient une batterie. Elle peut fournir une alimentation de secours au sous-réseau en cas de panne de l'alimentation principale.\n"
+"Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only."
+msgstr "Contrôleur d'Alimentation"
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControlReversed']
 msgctxt "Things.StructureAreaPowerControlReversed"
@@ -5616,15 +5612,12 @@ msgid "Area Power Control"
 msgstr "Contrôleur d'Alimentation"
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControl']
+#, fuzzy
 msgctxt "Things.StructureAreaPowerControl"
 msgid ""
 "An Area Power Control (APC) has three main functions. \n"
-"An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage."
-msgstr ""
-"Un {THING:StructureAreaPowerControl} (APC) a trois fonctions principales. \n"
-"Le but principal d’un APC est de réguler le flux de puissance électrique, en assurant une alimentation ininterrompue aux dispositifs et des machines, en particulier ceux avec un tirage fluctuant.\n"
-"Les APC créent également des sous-réseaux de données. Aucun dispositif derrière un APC n’est visible sur le réseau principal.\n"
-"Enfin, un APC contient une batterie. Elle peut fournir une alimentation de secours au sous-réseau en cas de panne de l'alimentation principale."
+"it's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only."
+msgstr "Contrôleur d'Alimentation"
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControl']
 msgctxt "Things.StructureAreaPowerControl"
@@ -8219,6 +8212,16 @@ msgstr "Micro-onde"
 msgctxt "Things.ItemGasFilterVolatiles"
 msgid "Filter (Volatiles)"
 msgstr "Filtre (Hydrogène)"
+
+#~ msgctxt "Things.StructureAreaPowerControl"
+#~ msgid ""
+#~ "An Area Power Control (APC) has three main functions. \n"
+#~ "An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage."
+#~ msgstr ""
+#~ "Un {THING:StructureAreaPowerControl} (APC) a trois fonctions principales. \n"
+#~ "Le but principal d’un APC est de réguler le flux de puissance électrique, en assurant une alimentation ininterrompue aux dispositifs et des machines, en particulier ceux avec un tirage fluctuant.\n"
+#~ "Les APC créent également des sous-réseaux de données. Aucun dispositif derrière un APC n’est visible sur le réseau principal.\n"
+#~ "Enfin, un APC contient une batterie. Elle peut fournir une alimentation de secours au sous-réseau en cas de panne de l'alimentation principale."
 
 #~ msgctxt "Things.StructureEmergencyButton"
 #~ msgid "Emergency Button"
