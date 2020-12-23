@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "창작마당 검색"
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr "창작마당 열기"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -668,11 +668,6 @@ msgctxt "Interface.SettingsTextureQuality"
 msgid "Texture Quality"
 msgstr "텍스쳐 품질"
 
-#: /Language/Interface/Record[Key='SettingsParticleQuality']
-msgctxt "Interface.SettingsParticleQuality"
-msgid "Particle Quality"
-msgstr "파티클 품질"
-
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
@@ -682,6 +677,11 @@ msgstr "부드러운 파티클"
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
 msgstr "볼륨 라이팅"
+
+#: /Language/Interface/Record[Key='SettingsPixelLightCount']
+msgctxt "Interface.SettingsPixelLightCount"
+msgid "Pixel Light Count"
+msgstr "픽셀 라이트 개수"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -1214,15 +1214,15 @@ msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
 msgstr "이 세계를 창작마당으로 업로드 하시겠습니까?"
 
+#: /Language/Interface/Record[Key='PromptPublishConfirm']
+msgctxt "Interface.PromptPublishConfirm"
+msgid "Publish"
+msgstr "업로드"
+
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
 msgstr "삭제하기"
-
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "계속 진행하시겠습니까?"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1338,15 +1338,15 @@ msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "주의"
 
+#: /Language/Interface/Record[Key='SettingsParticleQuality']
+msgctxt "Interface.SettingsParticleQuality"
+msgid "Particle Quality"
+msgstr "파티클 품질"
+
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "잠시 기다려주세요..."
-
-#: /Language/Interface/Record[Key='SettingsPixelLightCount']
-msgctxt "Interface.SettingsPixelLightCount"
-msgid "Pixel Light Count"
-msgstr "픽셀 라이트 개수"
 
 #: /Language/Interface/Record[Key='TooltipNeedMoreKit']
 msgctxt "Interface.TooltipNeedMoreKit"
@@ -1523,6 +1523,16 @@ msgctxt "Interface.JoinWorldEmptyServers"
 msgid "Hide Empty Servers"
 msgstr "빈 서버 숨기기"
 
+#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
+msgctxt "Interface.WorkshopSubscribedModsTitle"
+msgid "Subscribed Mods"
+msgstr "Mods 구독"
+
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "창작마당 검색"
+
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1578,9 +1588,9 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "슬롯"
 
-#: /Language/Interface/Record[Key='Trade']
-msgctxt "Interface.Trade"
-msgid "Trade"
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
 msgstr ""
 
 #: /Language/Interface/Record[Key='NextTutoiralButtonFail']
@@ -3920,10 +3930,10 @@ msgctxt "Interface.Locked"
 msgid "Locked"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
-msgctxt "Interface.WorkshopSubscribedModsTitle"
-msgid "Subscribed Mods"
-msgstr "Mods 구독"
+#: /Language/Interface/Record[Key='Trade']
+msgctxt "Interface.Trade"
+msgid "Trade"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TraderGoneMissing']
 msgctxt "Interface.TraderGoneMissing"
@@ -3941,10 +3951,10 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr ""
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr ""
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "구독 취소"
 
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
@@ -5147,20 +5157,10 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "World Preset"
 
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
-msgstr "창작마당 열기"
-
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "구독 취소"
-
-#: /Language/Interface/Record[Key='PromptPublishConfirm']
-msgctxt "Interface.PromptPublishConfirm"
-msgid "Publish"
-msgstr "업로드"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "계속 진행하시겠습니까?"
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"
