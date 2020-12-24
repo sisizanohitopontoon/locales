@@ -15,6 +15,16 @@ msgctxt "Things.Lander"
 msgid "Lander"
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
+msgctxt "Things.DynamicGasTankAdvanced"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
+msgctxt "Things.ItemKitDynamicGasTankAdvanced"
+msgid "Kit (Portable Tank Advanced)"
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
 msgctxt "Things.ItemKitDynamicGasTankAdvanced"
 msgid "{BLANK}"
@@ -317,18 +327,18 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemEmptyCan']
 msgctxt "Things.ItemEmptyCan"
-msgid "{BLANK}"
+msgid "Used for making soups when combined with food in the {THING:ApplianceMicrowave}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
 #, fuzzy
 msgctxt "Things.ItemPumpkinSoup"
 msgid "Pumpkin Soup"
-msgstr "Pompoen"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
 msgctxt "Things.ItemPumpkinSoup"
-msgid "{BLANK}"
+msgid "Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemCornSoup']
@@ -338,7 +348,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemCornSoup']
 msgctxt "Things.ItemCornSoup"
-msgid "{BLANK}"
+msgid "Made using {THING:ItemCorn} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemBreadLoaf']
@@ -351,14 +361,14 @@ msgctxt "Things.ItemBreadLoaf"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
-msgctxt "Things.ItemKitDynamicGasTankAdvanced"
-msgid "Kit (Portable Tank Advanced)"
+#: /Language/Things/RecordThing[Key='ItemOrganicMaterial']
+msgctxt "Things.ItemOrganicMaterial"
+msgid "Organic Material"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
-msgctxt "Things.DynamicGasTankAdvanced"
-msgid "{BLANK}"
+#: /Language/Things/RecordThing[Key='ItemOrganicMaterial']
+msgctxt "Things.ItemOrganicMaterial"
+msgid "Diced organic material that is returned when food is passed through the {THING:StructureCentrifuge}. When planted in a {THING:StructureHydroponicsTray} it can be used for growing a {THING:ItemMushroom}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
@@ -2882,6 +2892,11 @@ msgstr "Pompoen"
 
 #: /Language/Things/RecordThing[Key='ItemMushroom']
 msgctxt "Things.ItemMushroom"
+msgid "A tasty food item, able to grow without light. Grows from {THING:ItemOrganicMaterial} planted into a {THING:StructureHydroponicsTray}. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide}."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemMushroom']
+msgctxt "Things.ItemMushroom"
 msgid "Mushroom"
 msgstr "Paddenstoel"
 
@@ -3896,6 +3911,11 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='ItemSoyOil']
 msgctxt "Things.ItemSoyOil"
 msgid "Soy Oil"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemTomatoSoup']
+msgctxt "Things.ItemTomatoSoup"
+msgid "Made using {THING:ItemTomato} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemTomatoSoup']
@@ -5421,7 +5441,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureCentrifuge']
 msgctxt "Things.StructureCentrifuge"
-msgid "If a {THING:StructureRecycler} or unbalanced{THING:StructureFurnace} outputs <color=#0080FFFF>{LINK:ReagentPage;reagent}</color> mixture rather than the desired <color=#0080FFFF>{LINK:IngotPage;ingots}</color>, a centrifuge allows you to reclaim the raw ores."
+msgid "If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs <color=#0080FFFF>{LINK:ReagentPage;reagent}</color> mixture rather than the desired <color=#0080FFFF>{LINK:IngotPage;ingots}</color>, a centrifuge allows you to reclaim the raw ores or generate {THING:ItemOrganicMaterial}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureCentrifuge']

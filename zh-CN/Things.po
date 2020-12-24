@@ -15,6 +15,16 @@ msgctxt "Things.Lander"
 msgid "Lander"
 msgstr "着陆器"
 
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
+msgctxt "Things.DynamicGasTankAdvanced"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
+msgctxt "Things.ItemKitDynamicGasTankAdvanced"
+msgid "Kit (Portable Tank Advanced)"
+msgstr "套件(便携式高级储罐)"
+
 #: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
 msgctxt "Things.ItemKitDynamicGasTankAdvanced"
 msgid "{BLANK}"
@@ -316,34 +326,31 @@ msgid "Empty Can"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemEmptyCan']
-#, fuzzy
 msgctxt "Things.ItemEmptyCan"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "Used for making soups when combined with food in the {THING:ApplianceMicrowave}."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
 #, fuzzy
 msgctxt "Things.ItemPumpkinSoup"
 msgid "Pumpkin Soup"
-msgstr "南瓜"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
-#, fuzzy
 msgctxt "Things.ItemPumpkinSoup"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemCornSoup']
 #, fuzzy
 msgctxt "Things.ItemCornSoup"
 msgid "Corn Soup"
-msgstr "玉米"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemCornSoup']
-#, fuzzy
 msgctxt "Things.ItemCornSoup"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "Made using {THING:ItemCorn} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemBreadLoaf']
 msgctxt "Things.ItemBreadLoaf"
@@ -356,15 +363,16 @@ msgctxt "Things.ItemBreadLoaf"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
-msgctxt "Things.ItemKitDynamicGasTankAdvanced"
-msgid "Kit (Portable Tank Advanced)"
-msgstr "套件(便携式高级储罐)"
+#: /Language/Things/RecordThing[Key='ItemOrganicMaterial']
+#, fuzzy
+msgctxt "Things.ItemOrganicMaterial"
+msgid "Organic Material"
+msgstr "有机物打印机"
 
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
-msgctxt "Things.DynamicGasTankAdvanced"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='ItemOrganicMaterial']
+msgctxt "Things.ItemOrganicMaterial"
+msgid "Diced organic material that is returned when food is passed through the {THING:StructureCentrifuge}. When planted in a {THING:StructureHydroponicsTray} it can be used for growing a {THING:ItemMushroom}."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
 msgctxt "Things.DynamicGasTankAdvanced"
@@ -2850,6 +2858,11 @@ msgstr "南瓜"
 
 #: /Language/Things/RecordThing[Key='ItemMushroom']
 msgctxt "Things.ItemMushroom"
+msgid "A tasty food item, able to grow without light. Grows from {THING:ItemOrganicMaterial} planted into a {THING:StructureHydroponicsTray}. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide}."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemMushroom']
+msgctxt "Things.ItemMushroom"
 msgid "Mushroom"
 msgstr "蘑菇"
 
@@ -3862,6 +3875,11 @@ msgstr "薯条"
 msgctxt "Things.ItemSoyOil"
 msgid "Soy Oil"
 msgstr "大豆油"
+
+#: /Language/Things/RecordThing[Key='ItemTomatoSoup']
+msgctxt "Things.ItemTomatoSoup"
+msgid "Made using {THING:ItemTomato} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemTomatoSoup']
 msgctxt "Things.ItemTomatoSoup"
@@ -5386,7 +5404,7 @@ msgstr "椅子"
 
 #: /Language/Things/RecordThing[Key='StructureCentrifuge']
 msgctxt "Things.StructureCentrifuge"
-msgid "If a {THING:StructureRecycler} or unbalanced{THING:StructureFurnace} outputs <color=#0080FFFF>{LINK:ReagentPage;reagent}</color> mixture rather than the desired <color=#0080FFFF>{LINK:IngotPage;ingots}</color>, a centrifuge allows you to reclaim the raw ores."
+msgid "If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs <color=#0080FFFF>{LINK:ReagentPage;reagent}</color> mixture rather than the desired <color=#0080FFFF>{LINK:IngotPage;ingots}</color>, a centrifuge allows you to reclaim the raw ores or generate {THING:ItemOrganicMaterial}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureCentrifuge']
@@ -8116,6 +8134,21 @@ msgstr "微波炉"
 msgctxt "Things.ItemGasFilterVolatiles"
 msgid "Filter (Volatiles)"
 msgstr "次级滤芯(挥发性有机物)"
+
+#, fuzzy
+#~ msgctxt "Things.ItemEmptyCan"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.ItemPumpkinSoup"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.ItemCornSoup"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.StructureEmergencyButton"
 #~ msgid "Emergency Button"
