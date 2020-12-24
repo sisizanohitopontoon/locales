@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-24 09:21+0000\n"
+"PO-Revision-Date: 2020-12-24 09:26+0000\n"
 "Last-Translator: Croco <crocofr@yahoo.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2896,10 +2896,9 @@ msgstr ""
 "Les autres lingots dont vous avez besoin sont dans la caisse."
 
 #: /Language/Interface/Record[Key='3GetCopperIngot']
-#, fuzzy
 msgctxt "Interface.3GetCopperIngot"
 msgid "Pick up copper ingot from crate."
-msgstr "Prenez un {THING:ItemCopperIngot} dans la caisse orange."
+msgstr "Ramasser le lingot de cuivre dans la caisse."
 
 #: /Language/Interface/Record[Key='3PutCopperIngotInAutoLathe']
 msgctxt "Interface.3PutCopperIngotInAutoLathe"
@@ -2907,10 +2906,9 @@ msgid "Add copper ingot to autolathe."
 msgstr ""
 
 #: /Language/Interface/Record[Key='3GetGoldIngot']
-#, fuzzy
 msgctxt "Interface.3GetGoldIngot"
 msgid "Pick up gold ingot from crate."
-msgstr "Prenez un {THING:ItemGoldIngot} dans la caisse orange."
+msgstr "Ramasser le lingot d’or dans la caisse."
 
 #: /Language/Interface/Record[Key='3PutGoldIngotInAutoLathe']
 msgctxt "Interface.3PutGoldIngotInAutoLathe"
@@ -2923,6 +2921,8 @@ msgid ""
 "The autolathe is multi-axis molecular compositional tool. It fabricates a range of structural and device kits, including the humble hydraulic pipebender. Click the search button on the front to "
 "search to select recipes."
 msgstr ""
+"L’e tour automatique est un outil de composition moléculaire à axes multiples. Il fabrique une gamme de kits structurels et d’appareils, y compris l’humble cintreuse hydraulique. Cliquez sur le "
+"bouton de recherche à l’avant pour rechercher des recettes sélectionnées."
 
 #: /Language/Interface/Record[Key='3AutoLatheOn']
 msgctxt "Interface.3AutoLatheOn"
@@ -2932,7 +2932,7 @@ msgstr "Allumez le tour automatique."
 #: /Language/Interface/Record[Key='3PipebenderHash']
 msgctxt "Interface.3PipebenderHash"
 msgid "Select hydraulic pipebender recipe using search function."
-msgstr ""
+msgstr "Sélectionnez la recette de cintreuse hydraulique en utilisant la fonction de recherche."
 
 #: /Language/Interface/Record[Key='3FabricatePipeBender']
 msgctxt "Interface.3FabricatePipeBender"
@@ -2998,37 +2998,36 @@ msgstr "Mettre lingot d’or dans la cintreuse hydraulique"
 #: /Language/Interface/Record[Key='3Narration13D']
 msgctxt "Interface.3Narration13D"
 msgid "Active vents are critical airlock components: you can now fabricate one with the hydraulic pipebender!"
-msgstr ""
+msgstr "Les ventilations actives sont des composants critiques de sas : vous pouvez maintenant en fabriquer un avec la cintreuse hydraulique !"
 
 #: /Language/Interface/Record[Key='3ActiveVentHash']
 msgctxt "Interface.3ActiveVentHash"
 msgid "Select active vent on pipebender."
-msgstr ""
+msgstr "Sélectionnez la ventilation active sur la cintreuse hydraulique."
 
 #: /Language/Interface/Record[Key='3FabricateActiveVent']
 msgctxt "Interface.3FabricateActiveVent"
 msgid "Fabricate active vent using pipebender."
-msgstr ""
+msgstr "Fabriquer la ventilation active à l’aide de la cintreuse hydraulique."
 
 #: /Language/Interface/Record[Key='3PipeBenderOff']
 msgctxt "Interface.3PipeBenderOff"
 msgid "Turn off pipebender when fabrication is complete."
-msgstr ""
+msgstr "Éteignez la cintreuse hydraulique lorsque la fabrication est terminée."
 
 #: /Language/Interface/Record[Key='3GetItemActiveVent']
 msgctxt "Interface.3GetItemActiveVent"
 msgid "Pick up the active vent."
-msgstr ""
+msgstr "Prenez une ventilation active."
 
 #: /Language/Interface/Record[Key='3Narration14D']
-#, fuzzy
 msgctxt "Interface.3Narration14D"
 msgid ""
 "Good work, Cadet. You've created a complete fabrication system.\n"
 "That's the last step of Practical Testing, Phase III. Press the 'Complete' button to transmit your results to Stationeer Command."
 msgstr ""
-"Excellent, cadet ! C’est la dernière étape des tests pratiques, phase I. \n"
-"Appuyez sur le bouton orange 'Complete' pour transmettre vos résultats au commandement Stationeer."
+"Bon travail, Cadet. Vous avez créé un système de fabrication complet.\n"
+"C’est la dernière étape des tests pratiques, la phase III. Appuyez sur le bouton 'Terminer' pour transmettre vos résultats à Stationeer Command."
 
 #: /Language/Interface/Record[Key='3OnButtonPressTaskT1']
 msgctxt "Interface.3OnButtonPressTaskT1"
@@ -3195,7 +3194,7 @@ msgstr "Construire le cadre #1 dans l’endroit en surbrillance."
 #: /Language/Interface/Record[Key='4Narration7D']
 msgctxt "Interface.4Narration7D"
 msgid "To pressurize an airlock, you need an active vent to cycle air, and a passive vent to allow atmosphere to pass into the pipe network."
-msgstr ""
+msgstr "Pour pressuriser un sas, vous avez besoin d’une ventilation active pour faire du vélo d’air, et d’un évent passif pour permettre à l’atmosphère de passer dans le réseau de tuyaux."
 
 #: /Language/Interface/Record[Key='4FabricateItemPassiveVent']
 #, fuzzy
@@ -3204,16 +3203,14 @@ msgid "Fabricate passive vent"
 msgstr "La ventilation passive"
 
 #: /Language/Interface/Record[Key='4GetActiveVent']
-#, fuzzy
 msgctxt "Interface.4GetActiveVent"
 msgid "Get active vent from crate"
-msgstr "Prendre des cadres en fer dans une caisse"
+msgstr "Obtenez une ventilation active de la caisse"
 
 #: /Language/Interface/Record[Key='4BuildStructureActiveVent']
-#, fuzzy
 msgctxt "Interface.4BuildStructureActiveVent"
 msgid "Build active vent in highlighted position inside airlock"
-msgstr "Construire le cadre #1 dans l’endroit en surbrillance."
+msgstr "Construire la ventilation active en position surlignée à l’intérieur du sas"
 
 #: /Language/Interface/Record[Key='4BuildStructurePassiveVent']
 #, fuzzy
@@ -3364,7 +3361,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='4AirlockProggramActiveVent']
 msgctxt "Interface.4AirlockProggramActiveVent"
 msgid "Select active vent"
-msgstr ""
+msgstr "Sélectionnez la ventilation active"
 
 #: /Language/Interface/Record[Key='4AirlockExternalDoor']
 msgctxt "Interface.4AirlockExternalDoor"
