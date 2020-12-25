@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
-msgstr "Otworz Warsztat"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Anuluj Subskrypcje"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -132,6 +132,12 @@ msgstr ""
 msgctxt "Interface.Edibles"
 msgid "Edibles"
 msgstr ""
+
+#: /Language/Interface/Record[Key='Plants']
+#, fuzzy
+msgctxt "Interface.Plants"
+msgid "Plants"
+msgstr "Gaz napędowy"
 
 #: /Language/Interface/Record[Key='AirContitioningAtmos']
 #, fuzzy
@@ -1229,10 +1235,10 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Opublikuj"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "Usun Zapis"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "Jestes pewny?"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1309,6 +1315,11 @@ msgctxt "Interface.AlertVersionMismatch"
 msgid "Game version mismatch with server."
 msgstr "Niezgodność wersji gry z serwerem."
 
+#: /Language/Interface/Record[Key='SettingsVsync']
+msgctxt "Interface.SettingsVsync"
+msgid "V-Sync"
+msgstr "Synchronizacja pionowa"
+
 #: /Language/Interface/Record[Key='AlertNoResponse']
 #, fuzzy
 msgctxt "Interface.AlertNoResponse"
@@ -1318,11 +1329,6 @@ msgid ""
 msgstr ""
 "Brak odpowiedzi od Serwera Gry.\n"
 "Spróbuj ponownie."
-
-#: /Language/Interface/Record[Key='SettingsVsync']
-msgctxt "Interface.SettingsVsync"
-msgid "V-Sync"
-msgstr "Synchronizacja pionowa"
 
 #: /Language/Interface/Record[Key='AlertKicked']
 msgctxt "Interface.AlertKicked"
@@ -1538,11 +1544,6 @@ msgstr "Ukryj puste serwery"
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "Subskrybowane Mody"
-
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "Strona Warsztatu"
 
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 #, fuzzy
@@ -4013,10 +4014,10 @@ msgctxt "Interface.AppearanceTitleSpecies"
 msgid "Species"
 msgstr "Gatunki"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Anuluj Subskrypcje"
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "Strona Warsztatu"
 
 #: /Language/Interface/Record[Key='SettingsSavePath']
 msgctxt "Interface.SettingsSavePath"
@@ -5175,10 +5176,15 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Ustawienie Świata"
 
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "Jestes pewny?"
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr "Otworz Warsztat"
+
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "Usun Zapis"
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"

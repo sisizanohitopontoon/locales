@@ -7,10 +7,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
-msgstr "打開工作坊"
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "退訂"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -129,6 +129,12 @@ msgstr ""
 msgctxt "Interface.Edibles"
 msgid "Edibles"
 msgstr ""
+
+#: /Language/Interface/Record[Key='Plants']
+#, fuzzy
+msgctxt "Interface.Plants"
+msgid "Plants"
+msgstr "推進劑"
 
 #: /Language/Interface/Record[Key='AirContitioningAtmos']
 #, fuzzy
@@ -1234,10 +1240,10 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "發佈"
 
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "刪除存檔"
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "您確定刪除存檔?"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1314,6 +1320,11 @@ msgctxt "Interface.AlertVersionMismatch"
 msgid "Game version mismatch with server."
 msgstr "遊戲版本與伺服器不相符."
 
+#: /Language/Interface/Record[Key='SettingsVsync']
+msgctxt "Interface.SettingsVsync"
+msgid "V-Sync"
+msgstr "垂直同步 V-Sync"
+
 #: /Language/Interface/Record[Key='AlertNoResponse']
 #, fuzzy
 msgctxt "Interface.AlertNoResponse"
@@ -1321,11 +1332,6 @@ msgid ""
 "There is no response from the Game Server.\n"
 "                                              Please try again."
 msgstr "伺服器 {0} 無回應 \\n 請檢查IP或Url是否可用"
-
-#: /Language/Interface/Record[Key='SettingsVsync']
-msgctxt "Interface.SettingsVsync"
-msgid "V-Sync"
-msgstr "垂直同步 V-Sync"
 
 #: /Language/Interface/Record[Key='AlertKicked']
 msgctxt "Interface.AlertKicked"
@@ -1541,11 +1547,6 @@ msgstr "隱藏 空的伺服器"
 msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "已訂閱模組"
-
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "工作坊頁面"
 
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 #, fuzzy
@@ -4003,10 +4004,10 @@ msgctxt "Interface.AppearanceTitleSpecies"
 msgid "Species"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "退訂"
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "工作坊頁面"
 
 #: /Language/Interface/Record[Key='SettingsSavePath']
 msgctxt "Interface.SettingsSavePath"
@@ -5189,10 +5190,15 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "預設世界"
 
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "您確定刪除存檔?"
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr "打開工作坊"
+
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "刪除存檔"
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"
