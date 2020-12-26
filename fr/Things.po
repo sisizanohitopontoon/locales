@@ -10,21 +10,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='Lander']
-msgctxt "Things.Lander"
-msgid "Lander"
-msgstr "Atterisseur"
-
-#: /Language/Things/RecordThing[Key='StructureHarvieReversed']
-msgctxt "Things.StructureHarvieReversed"
-msgid "Harvie Reversed"
-msgstr "Récolteur inversé"
+#: /Language/Things/RecordThing[Key='ItemRemoteDetonator']
+msgctxt "Things.ItemRemoteDetonator"
+msgid "Remote Detonator"
+msgstr "Détonateur à distance"
 
 #: /Language/Things/RecordThing[Key='StructureHarvieReversed']
 #, fuzzy
 msgctxt "Things.StructureHarvieReversed"
-msgid "Use above a {THING:StructureHydroponicsTray} to automatically plant and harvest your crops."
+msgid "Harvie"
 msgstr "Récolteur inversé"
+
+#: /Language/Things/RecordThing[Key='StructureHarvieReversed']
+msgctxt "Things.StructureHarvieReversed"
+msgid "Use above a {THING:StructureHydroponicsTray} or {THING:StructureHydroponicsTrayData} to manage the planting and harvest of your crops. It contains a button that will allow you to activate it's modes, or connect it to a logic system to do this for you. The modes indicate current growth status of the plant below. Import is used for planting, and harvested plants are sent to export."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureHarvie']
 msgctxt "Things.StructureHarvie"
@@ -32,10 +32,9 @@ msgid "Harvie"
 msgstr "Récolteur"
 
 #: /Language/Things/RecordThing[Key='StructureHarvie']
-#, fuzzy
 msgctxt "Things.StructureHarvie"
-msgid "Use above a {THING:StructureHydroponicsTray} to automatically plant and harvest your crops."
-msgstr "Récolteur"
+msgid "Use above a {THING:StructureHydroponicsTray} or {THING:StructureHydroponicsTrayData} to manage the planting and harvest of your crops. It contains a button that will allow you to activate it's modes, or connect it to a logic system to do this for you. The modes indicate current growth status of the plant below. Import is used for planting, and harvested plants are sent to export."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='SpecialBlocks']
 msgctxt "Things.SpecialBlocks"
@@ -438,6 +437,22 @@ msgctxt "Things.ItemOrganicMaterial"
 msgid "Diced organic material that is returned when food is passed through the {THING:StructureCentrifuge}. When planted in a {THING:StructureHydroponicsTray} it can be used for growing a {THING:ItemMushroom}."
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='StructureHydroponicsTrayData']
+#, fuzzy
+msgctxt "Things.StructureHydroponicsTrayData"
+msgid "Hydroponics Device"
+msgstr "Bac Hydroponique"
+
+#: /Language/Things/RecordThing[Key='StructureHydroponicsTrayData']
+#, fuzzy
+msgctxt "Things.StructureHydroponicsTrayData"
+msgid ""
+"The {<color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> hydroponics device is the ideal vessel for growing a range of <color=#0080FFFF>{LINK:OrganicPage;plantlife}</color>. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. \n"
+"It can be automated using the {THING:StructureHarvie}. Note that unlike the {THING:StructureHydroponicsTray}, these cannot be placed consecutively as they are considered devices rather than pure pipes. They do, however, allow data interrogation for logic systems."
+msgstr ""
+"Le plateau hydroponique <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> est le pot idéal pour cultiver des <color=#0080FFFF>{LINK:OrganicPage;plantes}</color>. Il doit être alimenté en eau par un réseau de canalisations, et il faut suffisamment de lumière solaire pour permettre la photosynthèse. \n"
+"la culture peut être automatisé à l’aide du {THING:StructureHarvie}."
+
 #: /Language/Things/RecordThing[Key='ItemKitHarvie']
 msgctxt "Things.ItemKitHarvie"
 msgid "Kit (Harvie)"
@@ -555,8 +570,8 @@ msgstr "Panneau de commande d'une {THING:StructureCompositeDoor}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
 msgctxt "Things.ItemWreckageCompositeDoor1"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "Wreckage Composite Door"
+msgstr "{THING:StructureCompositeDoor} endommagée"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
 msgctxt "Things.ItemWreckageBlastDoor2"
@@ -1930,15 +1945,15 @@ msgctxt "Things.StructureWallFlatCornerTriangle"
 msgid "Wall (Flat Corner Triangle)"
 msgstr "Mur plat (coin, triangulaire)"
 
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
+msgctxt "Things.ItemWreckageCompositeDoor1"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
 #: /Language/Things/RecordThing[Key='StructureWallFlatCornerSquare']
 msgctxt "Things.StructureWallFlatCornerSquare"
 msgid "Wall (Flat Corner Square)"
 msgstr "Mur plat (coin, carré)"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
-msgctxt "Things.ItemWreckageCompositeDoor1"
-msgid "Wreckage Composite Door"
-msgstr "{THING:StructureCompositeDoor} endommagée"
 
 #: /Language/Things/RecordThing[Key='StructureWallFlatCornerRound']
 msgctxt "Things.StructureWallFlatCornerRound"
@@ -2631,10 +2646,10 @@ msgctxt "Things.ItemExplosive"
 msgid "Remote Explosive"
 msgstr "Explosif à distance"
 
-#: /Language/Things/RecordThing[Key='ItemRemoteDetonator']
-msgctxt "Things.ItemRemoteDetonator"
-msgid "Remote Detonator"
-msgstr "Détonateur à distance"
+#: /Language/Things/RecordThing[Key='Lander']
+msgctxt "Things.Lander"
+msgid "Lander"
+msgstr "Atterisseur"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterPollutants']
 msgctxt "Things.DynamicGasCanisterPollutants"
@@ -8351,6 +8366,20 @@ msgstr "Micro-onde"
 msgctxt "Things.ItemGasFilterWater"
 msgid "Filter (Water)"
 msgstr "Filtre (Eau)"
+
+#~ msgctxt "Things.StructureHarvieReversed"
+#~ msgid "Harvie Reversed"
+#~ msgstr "Récolteur inversé"
+
+#, fuzzy
+#~ msgctxt "Things.StructureHarvieReversed"
+#~ msgid "Use above a {THING:StructureHydroponicsTray} to automatically plant and harvest your crops."
+#~ msgstr "Récolteur inversé"
+
+#, fuzzy
+#~ msgctxt "Things.StructureHarvie"
+#~ msgid "Use above a {THING:StructureHydroponicsTray} to automatically plant and harvest your crops."
+#~ msgstr "Récolteur"
 
 #~ msgctxt "Things.StructureSpawnPoint"
 #~ msgid "Structure Spawn Point"
