@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-27 07:35+0000\n"
+"PO-Revision-Date: 2020-12-27 07:40+0000\n"
 "Last-Translator: amosa <ksp.amosa@gmail.com>\n"
 "Language: zh_TW\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -301,12 +301,13 @@ msgid "Replace with a {THING:StructureCableJunction} from the {THING:ItemCableCo
 msgstr "將{THING:ItemCableCoil} 取代程 {THING:StructureCableJunction}"
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable2']
-#, fuzzy
 msgctxt "Interface.TutorialDescRepairCable2"
 msgid ""
 "Look at the {THING:StructureCableJunctionBurnt} while the {THING:ItemWireCutters} are in your active hand. You will see a {COLORYELLOW:yellow} box around it. Press and hold {KEY:PrimaryAction} to "
 "remove the {THING:StructureCableJunctionBurnt}."
-msgstr "拿著 {THING:ItemWireCutters} 在手上，並且面向 {THING:StructureCableJunctionBurnt}。會看到一個 {COLORYELLOW:yellow} 選擇區塊。按住 <color=red>滑鼠左鍵</color> 來移除 {THING:StructureCableJunctionBurnt}."
+msgstr ""
+"Look at the {THING:StructureCableJunctionBurnt} while the {THING:ItemWireCutters} are in your active hand. You will see a {COLORYELLOW:yellow} box around it. Press and hold {KEY:PrimaryAction} to "
+"remove the {THING:StructureCableJunctionBurnt}."
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable3']
 msgctxt "Interface.TutorialDescRepairCable3"
@@ -321,7 +322,6 @@ msgstr ""
 "{KEY:ToolBeltSlot} 將會開關您的 {SLOT:Belt} 欄位格."
 
 #: /Language/Interface/Record[Key='TutorialDescRepairCable4']
-#, fuzzy
 msgctxt "Interface.TutorialDescRepairCable4"
 msgid ""
 "With the {THING:ItemCableCoil} in your {COLORYELLOW:Active Hand}, press {KEY:SecondaryAction} to bring up the {LINK:ConstructionPage;construction} cursor.\n"
@@ -332,11 +332,13 @@ msgid ""
 "\n"
 "Press {KEY:QuantityModifier} and the object will attempt its best connection placement, otherwise you can use custom rotation keys."
 msgstr ""
-"確認手上目前裝備著 {THING:ItemCableCoil} ， 按下 <color=red>滑鼠右鍵</color> 將會帶出建造模式.\n"
+"With the {THING:ItemCableCoil} in your {COLORYELLOW:Active Hand}, press {KEY:SecondaryAction} to bring up the {LINK:ConstructionPage;construction} cursor.\n"
 "\n"
-"使用 <color=red>滑鼠滾輪</color> 切換各種不同的安裝形式， 選擇到 {THING:StructureCableJunction} .\n"
+"Use the {COLORRED:Mouse Wheel} to change placement type, selecting the {THING:StructureCableJunction} variant.\n"
 "\n"
-"按下 {KEY:RotateLeft} 向左選轉， {KEY:RotateRight} 向右旋轉， {KEY:RotateUp} 往上旋轉， {KEY:RotateDown} 往下旋轉， {KEY:RotateRollLeft} 往左側翻， 或者 {KEY:RotateRollRight} 向右側翻."
+"Your placement blueprint contains important connection information, the small plus symbols indicate the item connects to a cable network here. Make sure your connection lines up exactly.\n"
+"\n"
+"Press {KEY:QuantityModifier} and the object will attempt its best connection placement, otherwise you can use custom rotation keys."
 
 #: /Language/Interface/Record[Key='TutorialTitleFinishFrame']
 msgctxt "Interface.TutorialTitleFinishFrame"
@@ -363,22 +365,22 @@ msgid "Interacting with Items in Hands"
 msgstr "切換手中的物品"
 
 #: /Language/Interface/Record[Key='TutorialDescTablet1']
-#, fuzzy
 msgctxt "Interface.TutorialDescTablet1"
 msgid ""
 "Pickup a {THING:ItemTablet} and {THING:ItemBatteryCellLarge} into your {SLOT:LeftHand} or {SLOT:RightHand} slots by looking at it and clicking the {KEY:PrimaryAction}. You can switch your active "
 "hand by pressing the {KEY:SwapHands} key. This will allow you to put one item in each hands. Do this to continue."
 msgstr ""
-"您可以使用 <color=red>滑鼠左鍵</color> 點擊撿起 {THING:ItemTablet} 和 {THING:ItemBatteryCellLarge} 至您的 {SLOT:LeftHand} 或 {SLOT:RightHand} 欄位。先拾取 {THING:ItemTablet} 後，按下 {KEY:SwapHands} 鍵來切換另一隻手的欄位，接著再拾取 "
-"{THING:ItemBatteryCellLarge}。當雙手持有相關裝備時，可以讓您把手上的物品安裝至另一隻手上的裝備"
+"Pickup a {THING:ItemTablet} and {THING:ItemBatteryCellLarge} into your {SLOT:LeftHand} or {SLOT:RightHand} slots by looking at it and clicking the {KEY:PrimaryAction}. You can switch your active "
+"hand by pressing the {KEY:SwapHands} key. This will allow you to put one item in each hands. Do this to continue."
 
 #: /Language/Interface/Record[Key='TutorialDescTablet2']
-#, fuzzy
 msgctxt "Interface.TutorialDescTablet2"
 msgid ""
 "You can interact with your active hand slot by pressing and releasing the {KEY:ActiveHandSlot} key or clicking on it. This will open the {LINK:InventoryPage;inventory} window for the current hand. "
 "You can change your currently active hand with the {KEY:SwapHands} key. Select the {THING:ItemTablet} as your active hand and open its slot interior to continue."
-msgstr "現在請選擇 {THING:ItemTablet} 為您的當前手持物品 並且打開內部欄位格以繼續。再次提醒您，您可以多次點擊 {KEY:ActiveHandSlot} 鍵以切換目前手持裝備的 欄位格 與 互動選項 的內容(如果設備有該選項的話)， 使用 {KEY:SwapHands} 鍵來切換當前手持物品."
+msgstr ""
+"You can interact with your active hand slot by pressing and releasing the {KEY:ActiveHandSlot} key or clicking on it. This will open the {LINK:InventoryPage;inventory} window for the current hand. "
+"You can change your currently active hand with the {KEY:SwapHands} key. Select the {THING:ItemTablet} as your active hand and open its slot interior to continue."
 
 #: /Language/Interface/Record[Key='TutorialDescTablet4']
 msgctxt "Interface.TutorialDescTablet4"
@@ -449,12 +451,13 @@ msgid "Bake a {THING:ItemMuffin}"
 msgstr "烘培一份 {THING:ItemMuffin}"
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin1']
-#, fuzzy
 msgctxt "Interface.TutorialDescBakeMuffin1"
 msgid ""
 "Some devices in the game are mounted on {THING:StructureBench}s; they are called {LINK:AppliancePage;Appliances}. Pickup the {THING:ApplianceMicrowave} and walk in front of the "
 "{THING:StructureBench}."
-msgstr "遊戲中有些設備必須被安裝到 {THING:StructureBench}; 我們把它稱為家電。撿起 {THING:ApplianceMicrowave} 然後走到 {THING:StructureBench} 前面."
+msgstr ""
+"Some devices in the game are mounted on {THING:StructureBench}s; they are called {LINK:AppliancePage;Appliances}. Pickup the {THING:ApplianceMicrowave} and walk in front of the "
+"{THING:StructureBench}."
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin2']
 msgctxt "Interface.TutorialDescBakeMuffin2"
@@ -464,27 +467,29 @@ msgid ""
 msgstr "走貼近 {THING:StructureBench} 後，按下 {KEY:Drop} 鍵把 {THING:ApplianceMicrowave} 放到 {THING:StructureBench} 的上方。盡量保持 {THING:ApplianceMicrowave} 平穩不動的放在 {THING:StructureBench} 上面."
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin3']
-#, fuzzy
 msgctxt "Interface.TutorialDescBakeMuffin3"
 msgid ""
 "Look at the {THING:ApplianceMicrowave}. Look at the side, rather than the door, so that you are targeting the item directly and not trying to open it. When you see a {COLORYELLOW:yellow box} hold "
 "down the {KEY:PrimaryAction} to wrench it onto the {THING:StructureBench}."
-msgstr "接著面向 {THING:ApplianceMicrowave}。調整視線位置，直到出現 <color=yellow>黃色框線</color> 的時候，按住 <color=red>滑鼠左鍵</color>  將設備正確安裝到 {THING:StructureBench}."
+msgstr ""
+"Look at the {THING:ApplianceMicrowave}. Look at the side, rather than the door, so that you are targeting the item directly and not trying to open it. When you see a {COLORYELLOW:yellow box} hold "
+"down the {KEY:PrimaryAction} to wrench it onto the {THING:StructureBench}."
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin4']
-#, fuzzy
 msgctxt "Interface.TutorialDescBakeMuffin4"
 msgid "Look at the door on the {THING:ApplianceMicrowave}. Press the {KEY:PrimaryAction} to open the door and allow you to put reagents inside."
-msgstr "面向 {THING:ApplianceMicrowave} 的門前方。按下 <color=red>滑鼠左鍵</color> 可以打開門，讓您可以放入要製作的材料."
+msgstr "Look at the door on the {THING:ApplianceMicrowave}. Press the {KEY:PrimaryAction} to open the door and allow you to put reagents inside."
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin5']
-#, fuzzy
 msgctxt "Interface.TutorialDescBakeMuffin5"
 msgid ""
 "Pickup the required ingredients in your task list and look inside the {THING:ApplianceMicrowave} with it in your active hand. Keep clicking {KEY:PrimaryAction} to add more of the reagent until you have added enough. Do not add more than is needed for the recipe. You will need to do this twice for some recipes.\n"
 "      \n"
 "If you add too much, drop what you are carrying with the {KEY:Drop} and then look at the {THING:ApplianceMicrowave} with the door open to access the {COLORYELLOW:Clear} action, to start again."
-msgstr "撿起在桌邊 列表上所需要的配方材料，接著面對 {THING:ApplianceMicrowave} 並將材料切換至您當前的手上。按住 <color=red>滑鼠左鍵</color> 填入足夠滿足配方的材料數量。不要加入超過配方所需要的材料數量，等下將會有其它配方需要這些材料"
+msgstr ""
+"Pickup the required ingredients in your task list and look inside the {THING:ApplianceMicrowave} with it in your active hand. Keep clicking {KEY:PrimaryAction} to add more of the reagent until you have added enough. Do not add more than is needed for the recipe. You will need to do this twice for some recipes.\n"
+"      \n"
+"If you add too much, drop what you are carrying with the {KEY:Drop} and then look at the {THING:ApplianceMicrowave} with the door open to access the {COLORYELLOW:Clear} action, to start again."
 
 #: /Language/Interface/Record[Key='TutorialDescBakeMuffin6']
 msgctxt "Interface.TutorialDescBakeMuffin6"
@@ -588,10 +593,9 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='WelcomeRecuitDisc']
-#, fuzzy
 msgctxt "Interface.WelcomeRecuitDisc"
 msgid "Make your way into the training base."
-msgstr "氣閘門循環"
+msgstr "Make your way into the training base."
 
 #: /Language/Interface/Record[Key='ControlMovement-1']
 msgctxt "Interface.ControlMovement-1"
@@ -616,10 +620,9 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='EnterAreaT1']
-#, fuzzy
 msgctxt "Interface.EnterAreaT1"
 msgid "Enter the airlock"
-msgstr "氣閘門循環"
+msgstr "Enter the airlock"
 
 #: /Language/Interface/Record[Key='ControlLeftClick']
 msgctxt "Interface.ControlLeftClick"
@@ -689,10 +692,9 @@ msgid "Test your co-ordination by swapping items between hands."
 msgstr ""
 
 #: /Language/Interface/Record[Key='PickUpT1']
-#, fuzzy
 msgctxt "Interface.PickUpT1"
 msgid "Take welding torch from the crate"
-msgstr "撿起 {THING:ItemTablet}"
+msgstr "Take welding torch from the crate"
 
 #: /Language/Interface/Record[Key='SwapHandsT1']
 msgctxt "Interface.SwapHandsT1"
@@ -948,10 +950,9 @@ msgid "{KEY:MouseControl} + {KEY:PrimaryAction}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AltClickControlsDisc']
-#, fuzzy
 msgctxt "Interface.AltClickControlsDisc"
 msgid "Interact with mouse"
-msgstr "切換手中的物品"
+msgstr "Interact with mouse"
 
 #: /Language/Interface/Record[Key='OpenMaskControls']
 msgctxt "Interface.OpenMaskControls"
@@ -989,10 +990,9 @@ msgid "{KEY:InventorySelect}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='QuickSelectItemControlsDisc']
-#, fuzzy
 msgctxt "Interface.QuickSelectItemControlsDisc"
 msgid "Interact with inventory"
-msgstr "切換手中的物品"
+msgstr "Interact with inventory"
 
 #: /Language/Interface/Record[Key='DoubleClickingControls']
 msgctxt "Interface.DoubleClickingControls"
@@ -1000,10 +1000,9 @@ msgid "{KEY:PrimaryAction} x2"
 msgstr ""
 
 #: /Language/Interface/Record[Key='DoubleClickingControlsDisc']
-#, fuzzy
 msgctxt "Interface.DoubleClickingControlsDisc"
 msgid "Interact with inventory"
-msgstr "切換手中的物品"
+msgstr "Interact with inventory"
 
 #: /Language/Interface/Record[Key='SecondaryActionControls']
 msgctxt "Interface.SecondaryActionControls"
@@ -1275,10 +1274,9 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='PickUpT1 9']
-#, fuzzy
 msgctxt "Interface.PickUpT1 9"
 msgid "Take Iron Frames from crate"
-msgstr "撿起 {THING:ItemTablet}"
+msgstr "Take Iron Frames from crate"
 
 #: /Language/Interface/Record[Key='BuildFrameT1Disc']
 msgctxt "Interface.BuildFrameT1Disc"
@@ -1296,10 +1294,9 @@ msgid "Build frame #2 in highlighted spot above."
 msgstr ""
 
 #: /Language/Interface/Record[Key='PickUpT1 4']
-#, fuzzy
 msgctxt "Interface.PickUpT1 4"
 msgid "Take iron sheets from crate"
-msgstr "撿起 {THING:ItemTablet}"
+msgstr "Take iron sheets from crate"
 
 #: /Language/Interface/Record[Key='UsePrimeControlsBuildDisc']
 msgctxt "Interface.UsePrimeControlsBuildDisc"
@@ -1394,10 +1391,9 @@ msgid "Open Stationpedia, and navigate to the 'Personal' tab."
 msgstr ""
 
 #: /Language/Interface/Record[Key='GettingHelpClose']
-#, fuzzy
 msgctxt "Interface.GettingHelpClose"
 msgid "Close the Stationpedia"
-msgstr "焊接 {THING:StructureFrame} 以完成教程"
+msgstr "Close the Stationpedia"
 
 #: /Language/Interface/Record[Key='Narration23T']
 msgctxt "Interface.Narration23T"
@@ -1472,10 +1468,9 @@ msgid "Drop the flare in your right hand"
 msgstr ""
 
 #: /Language/Interface/Record[Key='NarrationClose']
-#, fuzzy
 msgctxt "Interface.NarrationClose"
 msgid "Close Narration Panel"
-msgstr "焊接 {THING:StructureFrame} 以完成教程"
+msgstr "Close Narration Panel"
 
 #: /Language/Interface/Record[Key='01TutorialUIBasics']
 msgctxt "Interface.01TutorialUIBasics"
@@ -1642,10 +1637,9 @@ msgid "Now for the final step. Lets clean up the UI windows."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ALTTask3']
-#, fuzzy
 msgctxt "Interface.ALTTask3"
 msgid "Close the Alert"
-msgstr "氣閘門循環"
+msgstr "Close the Alert"
 
 #: /Language/Interface/Record[Key='CloseingUIstask1']
 msgctxt "Interface.CloseingUIstask1"
@@ -1798,46 +1792,39 @@ msgid "Well done! Now, finish them off with the {THING:ItemWeldingTorch} and som
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Task1']
-#, fuzzy
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Task1"
 msgid "Finish constructing Frame 1."
-msgstr "完成框架焊接"
+msgstr "Finish constructing Frame 1."
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Task2']
-#, fuzzy
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Task2"
 msgid "Finish constructing Frame 2."
-msgstr "完成框架焊接"
+msgstr "Finish constructing Frame 2."
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Task3']
-#, fuzzy
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Task3"
 msgid "Finish constructing Frame 3."
-msgstr "完成框架焊接"
+msgstr "Finish constructing Frame 3."
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Task4']
-#, fuzzy
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Task4"
 msgid "Finish constructing Frame 4."
-msgstr "完成框架焊接"
+msgstr "Finish constructing Frame 4."
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Task5']
-#, fuzzy
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Task5"
 msgid "Finish constructing Frame 5."
-msgstr "完成框架焊接"
+msgstr "Finish constructing Frame 5."
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Task6']
-#, fuzzy
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Task6"
 msgid "Finish constructing Frame 6."
-msgstr "完成框架焊接"
+msgstr "Finish constructing Frame 6."
 
 #: /Language/Interface/Record[Key='TutorialDoingitOnYourOwnpt2Task7']
-#, fuzzy
 msgctxt "Interface.TutorialDoingitOnYourOwnpt2Task7"
 msgid "Finish constructing Frame 7."
-msgstr "完成框架焊接"
+msgstr "Finish constructing Frame 7."
 
 #: /Language/Interface/Record[Key='TutorialDeconstructingAnArcFurnace']
 msgctxt "Interface.TutorialDeconstructingAnArcFurnace"
@@ -1850,16 +1837,14 @@ msgid "Cadet, it looks like the arc furnace has been buried by sand. We'll need 
 msgstr ""
 
 #: /Language/Interface/Record[Key='BuildingDeconstructingAnFurnaceTask1']
-#, fuzzy
 msgctxt "Interface.BuildingDeconstructingAnFurnaceTask1"
 msgid "Use the {THING:ItemDrill} from your {SLOT:Belt}."
-msgstr "穿上 {THING:ItemToolBelt} 至您的 {SLOT:Belt} 欄位"
+msgstr "Use the {THING:ItemDrill} from your {SLOT:Belt}."
 
 #: /Language/Interface/Record[Key='BuildingDeconstructingAnFurnaceTask2']
-#, fuzzy
 msgctxt "Interface.BuildingDeconstructingAnFurnaceTask2"
 msgid "Pick up {THING:ItemKitArcFurnace}."
-msgstr "撿起 {THING:ItemTablet}"
+msgstr "Pick up {THING:ItemKitArcFurnace}."
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnArcFurnace']
 msgctxt "Interface.TutorialBuildingAnArcFurnace"
@@ -1919,10 +1904,9 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnAutolatheTask1']
-#, fuzzy
 msgctxt "Interface.TutorialBuildingAnAutolatheTask1"
 msgid "Pick up the {THING:ItemKitAutolathe}."
-msgstr "撿起 {THING:ItemTablet}"
+msgstr "Pick up the {THING:ItemKitAutolathe}."
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnAutolatheTask2']
 msgctxt "Interface.TutorialBuildingAnAutolatheTask2"
@@ -1950,10 +1934,9 @@ msgid "Weld some {THING:ItemIronSheets} onto the {THING:StructureAutolathe}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnAutolatheTask1.5']
-#, fuzzy
 msgctxt "Interface.TutorialBuildingAnAutolatheTask1.5"
 msgid "Get your {THING:ItemCableCoil} from the {SLOT:Belt}."
-msgstr "穿上 {THING:ItemToolBelt} 至您的 {SLOT:Belt} 欄位"
+msgstr "Get your {THING:ItemCableCoil} from the {SLOT:Belt}."
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnAutolathePart2Task2']
 msgctxt "Interface.TutorialBuildingAnAutolathePart2Task2"
@@ -1971,10 +1954,9 @@ msgid "Weld the {THING:ItemPlasticSheets} to the {THING:StructureAutolathe}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnAutolatheTask3.5']
-#, fuzzy
 msgctxt "Interface.TutorialBuildingAnAutolatheTask3.5"
 msgid "Get your {THING:ItemScrewdriver} from the {SLOT:Belt}."
-msgstr "穿上 {THING:ItemToolBelt} 至您的 {SLOT:Belt} 欄位"
+msgstr "Get your {THING:ItemScrewdriver} from the {SLOT:Belt}."
 
 #: /Language/Interface/Record[Key='TutorialBuildingAnAutolathePart2Task4']
 msgctxt "Interface.TutorialBuildingAnAutolathePart2Task4"
@@ -2058,18 +2040,18 @@ msgid "Construction "
 msgstr ""
 
 #: /Language/Interface/Record[Key='2Narration3D']
-#, fuzzy
 msgctxt "Interface.2Narration3D"
 msgid ""
 "Make sure this base is tidy for the next Cadet - finish constructing the base walls.\n"
 "Start with iron frames."
-msgstr "完成框架焊接"
+msgstr ""
+"Make sure this base is tidy for the next Cadet - finish constructing the base walls.\n"
+"Start with iron frames."
 
 #: /Language/Interface/Record[Key='BuildFramesTutorial2N1']
-#, fuzzy
 msgctxt "Interface.BuildFramesTutorial2N1"
 msgid "Build frame in highlighted location."
-msgstr "穿上 {THING:ItemToolBelt} 至您的 {SLOT:Belt} 欄位"
+msgstr "Build frame in highlighted location."
 
 #: /Language/Interface/Record[Key='BuildIronFramesT2']
 msgctxt "Interface.BuildIronFramesT2"
@@ -2241,10 +2223,9 @@ msgid "Use wirecutters and cable to create a junction."
 msgstr ""
 
 #: /Language/Interface/Record[Key='2Narration12T']
-#, fuzzy
 msgctxt "Interface.2Narration12T"
 msgid "Powering Up"
-msgstr "啟動太空裝"
+msgstr "Powering Up"
 
 #: /Language/Interface/Record[Key='2Narration12D']
 msgctxt "Interface.2Narration12D"
@@ -2272,10 +2253,9 @@ msgid "The APC also charges batteries, which is good: the ODA recommends keeping
 msgstr ""
 
 #: /Language/Interface/Record[Key='2GetBatt']
-#, fuzzy
 msgctxt "Interface.2GetBatt"
 msgid "Get battery from crate"
-msgstr "撿起 {THING:ItemTablet}"
+msgstr "Get battery from crate"
 
 #: /Language/Interface/Record[Key='2OpenAPCTask']
 msgctxt "Interface.2OpenAPCTask"
@@ -2283,10 +2263,9 @@ msgid "Open APC with crowbar."
 msgstr ""
 
 #: /Language/Interface/Record[Key='2GetCoal']
-#, fuzzy
 msgctxt "Interface.2GetCoal"
 msgid "Get coal from crate"
-msgstr "撿起 {THING:ItemTablet}"
+msgstr "Get coal from crate"
 
 #: /Language/Interface/Record[Key='AddCoalToGenerator']
 msgctxt "Interface.AddCoalToGenerator"
@@ -2331,10 +2310,9 @@ msgid "Navigate to Area Power Control page."
 msgstr ""
 
 #: /Language/Interface/Record[Key='2GettingHelpClose']
-#, fuzzy
 msgctxt "Interface.2GettingHelpClose"
 msgid "Close Stationpedia"
-msgstr "焊接 {THING:StructureFrame} 以完成教程"
+msgstr "Close Stationpedia"
 
 #: /Language/Interface/Record[Key='2Narration16T']
 msgctxt "Interface.2Narration16T"
@@ -2354,16 +2332,14 @@ msgid "Press button to complete test."
 msgstr ""
 
 #: /Language/Interface/Record[Key='2GetCableHCoil']
-#, fuzzy
 msgctxt "Interface.2GetCableHCoil"
 msgid "Get Heavy Cable from Crate."
-msgstr "撿起 {THING:ItemTablet}"
+msgstr "Get Heavy Cable from Crate."
 
 #: /Language/Interface/Record[Key='2GetFrames']
-#, fuzzy
 msgctxt "Interface.2GetFrames"
 msgid "Get Iron Frames from Crate."
-msgstr "撿起 {THING:ItemTablet}"
+msgstr "Get Iron Frames from Crate."
 
 #: /Language/Interface/Record[Key='03BasicPowerGeneration']
 msgctxt "Interface.03BasicPowerGeneration"
@@ -2408,10 +2384,9 @@ msgid "Grab the {THING:ItemKitSolidGenerator} from Construction Crate #1."
 msgstr ""
 
 #: /Language/Interface/Record[Key='SolidFuelEnergyTask2']
-#, fuzzy
 msgctxt "Interface.SolidFuelEnergyTask2"
 msgid "Place the {THING:StructureSolidFuelGenerator}."
-msgstr "焊接 {THING:StructureFrame} 以完成教程"
+msgstr "Place the {THING:StructureSolidFuelGenerator}."
 
 #: /Language/Interface/Record[Key='TutorialGoingSolar']
 msgctxt "Interface.TutorialGoingSolar"
@@ -2470,28 +2445,24 @@ msgid ""
 msgstr ""
 
 #: /Language/Interface/Record[Key='LearningToWireTask0.5']
-#, fuzzy
 msgctxt "Interface.LearningToWireTask0.5"
 msgid "Get {THING:ItemCableCoil} from your {SLOT:Belt}."
-msgstr "穿上 {THING:ItemToolBelt} 至您的 {SLOT:Belt} 欄位"
+msgstr "Get {THING:ItemCableCoil} from your {SLOT:Belt}."
 
 #: /Language/Interface/Record[Key='CableCorner']
-#, fuzzy
 msgctxt "Interface.CableCorner"
 msgid "Place a {THING:StructureCableCorner}."
-msgstr "移除 {THING:StructureCableJunctionBurnt}"
+msgstr "Place a {THING:StructureCableCorner}."
 
 #: /Language/Interface/Record[Key='CableStraight']
-#, fuzzy
 msgctxt "Interface.CableStraight"
 msgid "Place a {THING:StructureCableStraight}."
-msgstr "移除 {THING:StructureCableJunctionBurnt}"
+msgstr "Place a {THING:StructureCableStraight}."
 
 #: /Language/Interface/Record[Key='LearningToWireTask4']
-#, fuzzy
 msgctxt "Interface.LearningToWireTask4"
 msgid "Place a {THING:StructureCableJunction}."
-msgstr "移除 {THING:StructureCableJunctionBurnt}"
+msgstr "Place a {THING:StructureCableJunction}."
 
 #: /Language/Interface/Record[Key='TutorialWiringWires']
 msgctxt "Interface.TutorialWiringWires"
@@ -2522,10 +2493,9 @@ msgid "Get the {THING:ItemAreaPowerControl} from Construction Crate #1."
 msgstr ""
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask2']
-#, fuzzy
 msgctxt "Interface.PowerControlersAndbatteryChargesTask2"
 msgid "Place the {THING:ItemAreaPowerControl} in the highlighted spot."
-msgstr "穿上 {THING:ItemToolBelt} 至您的 {SLOT:Belt} 欄位"
+msgstr "Place the {THING:ItemAreaPowerControl} in the highlighted spot."
 
 #: /Language/Interface/Record[Key='PowerControlersAndbatteryChargesTask3']
 msgctxt "Interface.PowerControlersAndbatteryChargesTask3"
@@ -2548,16 +2518,14 @@ msgid "Wire the rest of the components up to our machines."
 msgstr ""
 
 #: /Language/Interface/Record[Key='FinishingTheCircuitTask2']
-#, fuzzy
 msgctxt "Interface.FinishingTheCircuitTask2"
 msgid "Place a {THING:StructureCableCorner3}."
-msgstr "移除 {THING:StructureCableJunctionBurnt}"
+msgstr "Place a {THING:StructureCableCorner3}."
 
 #: /Language/Interface/Record[Key='FinishingTheCircuitTask4']
-#, fuzzy
 msgctxt "Interface.FinishingTheCircuitTask4"
 msgid "Place a {THING:StructureCableJunction}."
-msgstr "移除 {THING:StructureCableJunctionBurnt}"
+msgstr "Place a {THING:StructureCableJunction}."
 
 #: /Language/Interface/Record[Key='FinishingTheCircuitTask6']
 #, fuzzy
