@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-28 18:08+0000\n"
+"PO-Revision-Date: 2020-12-28 18:13+0000\n"
 "Last-Translator: amosa <ksp.amosa@gmail.com>\n"
 "Language: zh_TW\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -436,32 +436,32 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypePageTemplate']
 msgctxt "HelpPage.LogicTypePageTemplate"
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotHeaderTemplate']
 msgctxt "HelpPage.ThingSlotHeaderTemplate"
 msgid "{HEADER:Slots}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Slots}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotItemTemplate']
 msgctxt "HelpPage.ThingSlotItemTemplate"
 msgid "{0}. {1} Type {2}"
-msgstr ""
+msgstr "{0}. {1} 類型 {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingStackTemplate']
 msgctxt "HelpPage.ThingStackTemplate"
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingTransmissibleTemplate']
 msgctxt "HelpPage.ThingTransmissibleTemplate"
 msgid "Connects to {POS:300}{THING:StructureLogicTransmitter}"
-msgstr ""
+msgstr "連接至 {POS:300}{THING:StructureLogicTransmitter}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingNutritionTemplate']
 msgctxt "HelpPage.ThingNutritionTemplate"
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='IceMeltingTemplate']
 msgctxt "HelpPage.IceMeltingTemplate"
@@ -475,7 +475,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='CreatorsHeaderTemplate']
 msgctxt "HelpPage.CreatorsHeaderTemplate"
 msgid "{HEADER:Manufactured By}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Manufactured By}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedByHeaderTemplate']
 msgctxt "HelpPage.ConstructedByHeaderTemplate"
@@ -483,6 +483,8 @@ msgid ""
 "{HEADER:Constructed From}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Constructed From}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedHeaderTemplate']
 msgctxt "HelpPage.CreatedHeaderTemplate"
@@ -490,6 +492,8 @@ msgid ""
 "{HEADER:Can Manufacture}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Can Manufacture}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedHeaderTemplate']
 msgctxt "HelpPage.ConstructedHeaderTemplate"
@@ -497,6 +501,8 @@ msgid ""
 "{HEADER:Can Construct}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Can Construct}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTransmitHeaderTemplate']
 msgctxt "HelpPage.LogicTransmitHeaderTemplate"
@@ -506,6 +512,10 @@ msgid ""
 "        {LIST}{0}{/LIST}\n"
 "      "
 msgstr ""
+"\n"
+"        {HEADER:Connects to}\n"
+"        {LIST}{0}{/LIST}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='TierListHeaderTemplate']
 msgctxt "HelpPage.TierListHeaderTemplate"
@@ -514,26 +524,29 @@ msgid ""
 "        {HEADER:Structures Tier List}\n"
 "      "
 msgstr ""
+"\n"
+"        {HEADER:Structures Tier List}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorTemplate']
 msgctxt "HelpPage.CreatorTemplate"
 msgid "{LIST}{0}{1}{/LIST}{/LIST}"
-msgstr ""
+msgstr "{LIST}{0}{1}{/LIST}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeHeaderTemplate']
 msgctxt "HelpPage.LogicTypeHeaderTemplate"
 msgid "{HEADER:Logic}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Logic}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeTemplate']
 msgctxt "HelpPage.LogicTypeTemplate"
 msgid "{0}{POS:300}{1} {2}"
-msgstr ""
+msgstr "{0}{POS:300}{1} {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringHeaderTemplate']
 msgctxt "HelpPage.ModeStringHeaderTemplate"
 msgid "{HEADER:Modes}{LIST}{0}{/LIST}"
-msgstr ""
+msgstr "{HEADER:Modes}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedGasesTemplate']
 msgctxt "HelpPage.CreatedGasesTemplate"
@@ -541,6 +554,8 @@ msgid ""
 "{HEADER:Gases}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Gases}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedReagentTemplate']
 msgctxt "HelpPage.CreatedReagentTemplate"
@@ -548,11 +563,13 @@ msgid ""
 "{HEADER:Reagents}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"{HEADER:Reagents}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringItemTemplate']
 msgctxt "HelpPage.ModeStringItemTemplate"
 msgid "{0}.{1}"
-msgstr ""
+msgstr "{0}.{1}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPageTemplate']
 msgctxt "HelpPage.ReagentPageTemplate"
@@ -565,6 +582,13 @@ msgid ""
 "{HEADER:Found In}\n"
 "{LIST}{2}{/LIST}"
 msgstr ""
+"A {LINK:ReagentPage;reagent}, often usable when in {LINK:IngotPage;Ingots} form.\n"
+"\n"
+"{HEADER:General}\n"
+"{LIST}Unit {1}{/LIST}\n"
+"\n"
+"{HEADER:Found In}\n"
+"{LIST}{2}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageTemplate']
 msgctxt "HelpPage.GasPageTemplate"
@@ -577,6 +601,13 @@ msgid ""
 "{HEADER:Found In}\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"A {LINK:GasPage;gas}, often produced when {LINK:SmeltingPage;smelting}.\n"
+"\n"
+"{HEADER:General}\n"
+"{LIST}Specific Heat {1}{2}{/LIST}\n"
+"\n"
+"{HEADER:Found In}\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageFlamableTemplate']
 msgctxt "HelpPage.GasPageFlamableTemplate"
