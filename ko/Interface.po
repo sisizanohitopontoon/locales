@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "구독 취소"
+#: /Language/Interface/Record[Key='WorldAtmosphere']
+msgctxt "Interface.WorldAtmosphere"
+msgid "Atmosphere"
+msgstr "Atmosphere"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -619,11 +619,6 @@ msgctxt "Interface.SettingsTitleAutosave"
 msgid "AutoSave Settings"
 msgstr "자동저장 설정"
 
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "윈도우 설정"
-
 #: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
 msgctxt "Interface.SettingsTitleBasicScreen"
 msgid "Basic Settings"
@@ -638,6 +633,11 @@ msgstr "고급 설정"
 msgctxt "Interface.SettingsResolution"
 msgid "Resolution"
 msgstr "해상도"
+
+#: /Language/Interface/Record[Key='SettingsScreenMode']
+msgctxt "Interface.SettingsScreenMode"
+msgid "Screen Mode"
+msgstr "스크린모드"
 
 #: /Language/Interface/Record[Key='SettingsVsync']
 msgctxt "Interface.SettingsVsync"
@@ -1225,15 +1225,15 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "업로드"
 
+#: /Language/Interface/Record[Key='PromptDeleteTitle']
+msgctxt "Interface.PromptDeleteTitle"
+msgid "Delete Save"
+msgstr "삭제하기"
+
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "계속 진행하시겠습니까?"
-
-#: /Language/Interface/Record[Key='PromptDeleteConfirm']
-msgctxt "Interface.PromptDeleteConfirm"
-msgid "Delete"
-msgstr "삭제"
 
 #: /Language/Interface/Record[Key='PromptDebugLoadTitle']
 msgctxt "Interface.PromptDebugLoadTitle"
@@ -1300,11 +1300,6 @@ msgctxt "Interface.AlertPlayerCountExceeded"
 msgid "Server is full."
 msgstr "서버 접속자가 꽉 찼습니다."
 
-#: /Language/Interface/Record[Key='SettingsScreenMode']
-msgctxt "Interface.SettingsScreenMode"
-msgid "Screen Mode"
-msgstr "스크린모드"
-
 #: /Language/Interface/Record[Key='AlertVersionMismatch']
 msgctxt "Interface.AlertVersionMismatch"
 msgid "Game version mismatch with server."
@@ -1318,6 +1313,11 @@ msgid ""
 msgstr ""
 "서버로부터 응답이 없습니다. \n"
 "나중에 다시 시도해주세요."
+
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "윈도우 설정"
 
 #: /Language/Interface/Record[Key='AlertKicked']
 msgctxt "Interface.AlertKicked"
@@ -1534,6 +1534,36 @@ msgctxt "Interface.WorkshopSubscribedModsTitle"
 msgid "Subscribed Mods"
 msgstr "Mods 구독"
 
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "창작마당 검색"
+
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "구독 취소"
+
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr "창작마당 열기"
+
+#: /Language/Interface/Record[Key='WorldPresetTitle']
+msgctxt "Interface.WorldPresetTitle"
+msgid "World Preset"
+msgstr "World Preset"
+
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Preset"
+
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "World Name"
+
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1589,9 +1619,9 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "슬롯"
 
-#: /Language/Interface/Record[Key='SettingsP2PHostNote']
-msgctxt "Interface.SettingsP2PHostNote"
-msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
+#: /Language/Interface/Record[Key='AppearanceButtonRandomize']
+msgctxt "Interface.AppearanceButtonRandomize"
+msgid "Randomize"
 msgstr ""
 
 #: /Language/Interface/Record[Key='NextTutoiralButtonFail']
@@ -3982,10 +4012,10 @@ msgctxt "Interface.SettingsSavePath"
 msgid "Path"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "창작마당 검색"
+#: /Language/Interface/Record[Key='SettingsP2PHostNote']
+msgctxt "Interface.SettingsP2PHostNote"
+msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsP2PHostEnabled']
 #, fuzzy
@@ -3993,10 +4023,10 @@ msgctxt "Interface.SettingsP2PHostEnabled"
 msgid "Enable P2PHost"
 msgstr "자동저장 사용"
 
-#: /Language/Interface/Record[Key='AppearanceButtonRandomize']
-msgctxt "Interface.AppearanceButtonRandomize"
-msgid "Randomize"
-msgstr ""
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Description"
 
 #: /Language/Interface/Record[Key='LogicSlotTypePrefabHash']
 msgctxt "Interface.LogicSlotTypePrefabHash"
@@ -5138,40 +5168,10 @@ msgctxt "Interface.GameSettingsTitle"
 msgid "Game Settings"
 msgstr "Game Settings"
 
-#: /Language/Interface/Record[Key='WorldAtmosphere']
-msgctxt "Interface.WorldAtmosphere"
-msgid "Atmosphere"
-msgstr "Atmosphere"
-
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Description"
-
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "World Name"
-
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Preset"
-
-#: /Language/Interface/Record[Key='WorldPresetTitle']
-msgctxt "Interface.WorldPresetTitle"
-msgid "World Preset"
-msgstr "World Preset"
-
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
-msgstr "창작마당 열기"
-
-#: /Language/Interface/Record[Key='PromptDeleteTitle']
-msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
-msgstr "삭제하기"
+#: /Language/Interface/Record[Key='PromptDeleteConfirm']
+msgctxt "Interface.PromptDeleteConfirm"
+msgid "Delete"
+msgstr "삭제"
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"
