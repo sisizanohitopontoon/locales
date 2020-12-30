@@ -629,6 +629,11 @@ msgctxt "Interface.SettingsTitleAutosave"
 msgid "AutoSave Settings"
 msgstr "Nastavenia automatického ukladania"
 
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "Nastavenia Okna"
+
 #: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
 msgctxt "Interface.SettingsTitleBasicScreen"
 msgid "Basic Settings"
@@ -638,11 +643,6 @@ msgstr "Základné Nastavenia"
 msgctxt "Interface.SettingsTitleAdvScreen"
 msgid "Advanced Settings"
 msgstr "Pokročilé Nastavenia"
-
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Rozlíšenie"
 
 #: /Language/Interface/Record[Key='SettingsScreenMode']
 msgctxt "Interface.SettingsScreenMode"
@@ -1330,11 +1330,6 @@ msgstr ""
 "There is no response from the Game Server.\n"
 "Please try again."
 
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "Nastavenia Okna"
-
 #: /Language/Interface/Record[Key='AlertKicked']
 msgctxt "Interface.AlertKicked"
 msgid "You have been kicked from the server."
@@ -1354,6 +1349,11 @@ msgstr "Port values must be between 0 and 65535."
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Cannot modify Update Port while server is running."
+
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Rozlíšenie"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1638,9 +1638,9 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceButtonRandomize']
-msgctxt "Interface.AppearanceButtonRandomize"
-msgid "Randomize"
+#: /Language/Interface/Record[Key='SettingsP2PHostNote']
+msgctxt "Interface.SettingsP2PHostNote"
+msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
 msgstr ""
 
 #: /Language/Interface/Record[Key='NextTutoiralButtonFail']
@@ -4046,10 +4046,10 @@ msgctxt "Interface.SettingsSavePath"
 msgid "Path"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsP2PHostNote']
-msgctxt "Interface.SettingsP2PHostNote"
-msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
-msgstr ""
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Description"
 
 #: /Language/Interface/Record[Key='SettingsP2PHostEnabled']
 #, fuzzy
@@ -4057,10 +4057,10 @@ msgctxt "Interface.SettingsP2PHostEnabled"
 msgid "Enable P2PHost"
 msgstr "Zapnúť Autosave"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Description"
+#: /Language/Interface/Record[Key='AppearanceButtonRandomize']
+msgctxt "Interface.AppearanceButtonRandomize"
+msgid "Randomize"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSlotTypePrefabHash']
 msgctxt "Interface.LogicSlotTypePrefabHash"

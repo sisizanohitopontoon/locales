@@ -618,6 +618,11 @@ msgctxt "Interface.SettingsTitleAutosave"
 msgid "AutoSave Settings"
 msgstr "Otomatik Kayıt Ayarları"
 
+#: /Language/Interface/Record[Key='SettingsTitleScreen']
+msgctxt "Interface.SettingsTitleScreen"
+msgid "Window Settings"
+msgstr "Pencere Ayarları"
+
 #: /Language/Interface/Record[Key='SettingsTitleBasicScreen']
 msgctxt "Interface.SettingsTitleBasicScreen"
 msgid "Basic Settings"
@@ -627,11 +632,6 @@ msgstr "Temel Ayarlar"
 msgctxt "Interface.SettingsTitleAdvScreen"
 msgid "Advanced Settings"
 msgstr "Gelişmiş Ayarlar"
-
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Çözünürlük"
 
 #: /Language/Interface/Record[Key='SettingsScreenMode']
 msgctxt "Interface.SettingsScreenMode"
@@ -1306,11 +1306,6 @@ msgstr ""
 "Oyun Sunucusundan yanıt yok.\n"
 "                                              Lütfen tekrar deneyin."
 
-#: /Language/Interface/Record[Key='SettingsTitleScreen']
-msgctxt "Interface.SettingsTitleScreen"
-msgid "Window Settings"
-msgstr "Pencere Ayarları"
-
 #: /Language/Interface/Record[Key='AlertKicked']
 msgctxt "Interface.AlertKicked"
 msgid "You have been kicked from the server."
@@ -1330,6 +1325,11 @@ msgstr "Port değeri, 0 ile 65535 arasında olmalıdır."
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Sunucu çalışıyorken Port'u Güncelle değiştirilemiyor."
+
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Çözünürlük"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1611,10 +1611,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceButtonRandomize']
-msgctxt "Interface.AppearanceButtonRandomize"
-msgid "Randomize"
-msgstr "Rastgele"
+#: /Language/Interface/Record[Key='SettingsP2PHostNote']
+msgctxt "Interface.SettingsP2PHostNote"
+msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
+msgstr "P2PHost etkin ise, Stationeers, arkadaşın ile NAT ve VPN altında oynayabilmen için Steam'in paket iletimini kullanacaktır. TCP/IP uyumlu değildir ve sunucuya bildiri iletmemeye zorlar."
 
 #: /Language/Interface/Record[Key='NextTutoiralButtonFail']
 msgctxt "Interface.NextTutoiralButtonFail"
@@ -3966,20 +3966,20 @@ msgctxt "Interface.SettingsSavePath"
 msgid "Path"
 msgstr "Yol"
 
-#: /Language/Interface/Record[Key='SettingsP2PHostNote']
-msgctxt "Interface.SettingsP2PHostNote"
-msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
-msgstr "P2PHost etkin ise, Stationeers, arkadaşın ile NAT ve VPN altında oynayabilmen için Steam'in paket iletimini kullanacaktır. TCP/IP uyumlu değildir ve sunucuya bildiri iletmemeye zorlar."
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Açıklama"
 
 #: /Language/Interface/Record[Key='SettingsP2PHostEnabled']
 msgctxt "Interface.SettingsP2PHostEnabled"
 msgid "Enable P2PHost"
 msgstr "P2PHost'u Etkinleştir"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Açıklama"
+#: /Language/Interface/Record[Key='AppearanceButtonRandomize']
+msgctxt "Interface.AppearanceButtonRandomize"
+msgid "Randomize"
+msgstr "Rastgele"
 
 #: /Language/Interface/Record[Key='LogicSlotTypePrefabHash']
 msgctxt "Interface.LogicSlotTypePrefabHash"
