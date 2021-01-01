@@ -1321,15 +1321,15 @@ msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "A Port értéke 0 és 65535 között kell hogy legyen."
 
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Felbontás"
-
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Uptade Port nem módosítható a szerver futása közben."
+
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Felbontás"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1611,10 +1611,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsP2PHostNote']
-msgctxt "Interface.SettingsP2PHostNote"
-msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
-msgstr "Ha a P2PHost be van kapcsolva, a Stationeers a Steam adatcsomagját fogja továbbításra használni, így a barátoddal NAT vagy VPN hálózaton játszhatsz. Nem TCP/IP kompatibilis, ezért célszerű nem hirdetni a szervert."
+#: /Language/Interface/Record[Key='SettingsSavePath']
+msgctxt "Interface.SettingsSavePath"
+msgid "Path"
+msgstr "Útvonal"
 
 #: /Language/Interface/Record[Key='NextTutoiralButtonFail']
 msgctxt "Interface.NextTutoiralButtonFail"
@@ -2954,6 +2954,11 @@ msgctxt "Interface.ScriptCommandLS"
 msgid "Loads slot var on device to register."
 msgstr ""
 
+#: /Language/Interface/Record[Key='ScriptCommandSB']
+msgctxt "Interface.ScriptCommandSB"
+msgid "Stores register value to var on all output network devices with provided type hash."
+msgstr ""
+
 #: /Language/Interface/Record[Key='ScriptCommandS']
 msgctxt "Interface.ScriptCommandS"
 msgid "Stores register value to var on device."
@@ -3945,15 +3950,15 @@ msgctxt "Interface.ButtonFolderBrowse"
 msgid "..."
 msgstr "..."
 
-#: /Language/Interface/Record[Key='SettingsSavePath']
-msgctxt "Interface.SettingsSavePath"
-msgid "Path"
-msgstr "Útvonal"
-
 #: /Language/Interface/Record[Key='WorldDescriptionLabel']
 msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Leírás"
+
+#: /Language/Interface/Record[Key='SettingsP2PHostNote']
+msgctxt "Interface.SettingsP2PHostNote"
+msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
+msgstr "Ha a P2PHost be van kapcsolva, a Stationeers a Steam adatcsomagját fogja továbbításra használni, így a barátoddal NAT vagy VPN hálózaton játszhatsz. Nem TCP/IP kompatibilis, ezért célszerű nem hirdetni a szervert."
 
 #: /Language/Interface/Record[Key='SettingsP2PHostEnabled']
 msgctxt "Interface.SettingsP2PHostEnabled"

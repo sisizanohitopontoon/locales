@@ -1301,15 +1301,15 @@ msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Port values must be between 0 and 65535."
 
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Resolution"
-
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Cannot modify Update Port while server is running."
+
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Resolution"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1591,10 +1591,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Slot"
 
-#: /Language/Interface/Record[Key='SettingsP2PHostNote']
-msgctxt "Interface.SettingsP2PHostNote"
-msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
-msgstr "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
+#: /Language/Interface/Record[Key='SettingsSavePath']
+msgctxt "Interface.SettingsSavePath"
+msgid "Path"
+msgstr "Path"
 
 #: /Language/Interface/Record[Key='NextTutoiralButtonFail']
 msgctxt "Interface.NextTutoiralButtonFail"
@@ -2886,6 +2886,11 @@ msgctxt "Interface.ScriptCommandLS"
 msgid "Loads slot var on device to register."
 msgstr "Loads slot var on device to register."
 
+#: /Language/Interface/Record[Key='ScriptCommandSB']
+msgctxt "Interface.ScriptCommandSB"
+msgid "Stores register value to var on all output network devices with provided type hash."
+msgstr "Stores register value to var on all output network devices with provided type hash."
+
 #: /Language/Interface/Record[Key='ScriptCommandS']
 msgctxt "Interface.ScriptCommandS"
 msgid "Stores register value to var on device."
@@ -3876,15 +3881,15 @@ msgctxt "Interface.ButtonFolderBrowse"
 msgid "..."
 msgstr "..."
 
-#: /Language/Interface/Record[Key='SettingsSavePath']
-msgctxt "Interface.SettingsSavePath"
-msgid "Path"
-msgstr "Path"
-
 #: /Language/Interface/Record[Key='WorldDescriptionLabel']
 msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Description"
+
+#: /Language/Interface/Record[Key='SettingsP2PHostNote']
+msgctxt "Interface.SettingsP2PHostNote"
+msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
+msgstr "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
 
 #: /Language/Interface/Record[Key='SettingsP2PHostEnabled']
 msgctxt "Interface.SettingsP2PHostEnabled"
