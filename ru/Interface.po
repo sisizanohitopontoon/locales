@@ -634,10 +634,10 @@ msgctxt "Interface.SettingsTitleAdvScreen"
 msgid "Advanced Settings"
 msgstr "Расширенные настройки"
 
-#: /Language/Interface/Record[Key='SettingsScreenMode']
-msgctxt "Interface.SettingsScreenMode"
-msgid "Screen Mode"
-msgstr "Режим экрана"
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Разрешение"
 
 #: /Language/Interface/Record[Key='SettingsVsync']
 msgctxt "Interface.SettingsVsync"
@@ -1328,10 +1328,10 @@ msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Нельзя изменить порт обновления, пока сервер запущен."
 
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Разрешение"
+#: /Language/Interface/Record[Key='SettingsScreenMode']
+msgctxt "Interface.SettingsScreenMode"
+msgid "Screen Mode"
+msgstr "Режим экрана"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1613,10 +1613,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsSavePath']
-msgctxt "Interface.SettingsSavePath"
-msgid "Path"
-msgstr "Путь"
+#: /Language/Interface/Record[Key='ButtonFolderBrowse']
+msgctxt "Interface.ButtonFolderBrowse"
+msgid "..."
+msgstr "..."
 
 #: /Language/Interface/Record[Key='NextTutoiralButtonFail']
 msgctxt "Interface.NextTutoiralButtonFail"
@@ -2960,7 +2960,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandLR']
 msgctxt "Interface.ScriptCommandLR"
-msgid "Loads reagent of device's reagentMode to register."
+msgid "Loads reagent of device's reagentMode to register. Contents (0), Required (1), Recipe (2). Can use either the word, or the number."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandLS']
@@ -2976,6 +2976,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='ScriptCommandS']
 msgctxt "Interface.ScriptCommandS"
 msgid "Stores register value to var on device."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScriptCommandLB']
+msgctxt "Interface.ScriptCommandLB"
+msgid "Loads var from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandL']
@@ -3963,15 +3968,15 @@ msgctxt "Interface.AppearanceTitleSpecies"
 msgid "Species"
 msgstr "Виды"
 
-#: /Language/Interface/Record[Key='ButtonFolderBrowse']
-msgctxt "Interface.ButtonFolderBrowse"
-msgid "..."
-msgstr "..."
-
 #: /Language/Interface/Record[Key='WorldDescriptionLabel']
 msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Описание"
+
+#: /Language/Interface/Record[Key='SettingsSavePath']
+msgctxt "Interface.SettingsSavePath"
+msgid "Path"
+msgstr "Путь"
 
 #: /Language/Interface/Record[Key='SettingsP2PHostNote']
 msgctxt "Interface.SettingsP2PHostNote"
