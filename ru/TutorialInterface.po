@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-25 12:42+0000\n"
-"Last-Translator: Schmarotzer <scheugen86@gmail.com>\n"
+"PO-Revision-Date: 2021-01-10 13:21+0000\n"
+"Last-Translator: AndreyKl <andreykl@ukr.net>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -671,12 +671,12 @@ msgstr "Войдите на тренировочную базу."
 #: /Language/Interface/Record[Key='OpenAirlock']
 msgctxt "Interface.OpenAirlock"
 msgid "Cycle airlock using console"
-msgstr ""
+msgstr "Начните цикл шлюзования используя консоль"
 
 #: /Language/Interface/Record[Key='ExitAreaT1']
 msgctxt "Interface.ExitAreaT1"
 msgid "Enter Testing Area"
-msgstr ""
+msgstr "Войдите в Тестовую Зону"
 
 #: /Language/Interface/Record[Key='Narration3T']
 msgctxt "Interface.Narration3T"
@@ -686,7 +686,7 @@ msgstr "Протоколы"
 #: /Language/Interface/Record[Key='Narration3D']
 msgctxt "Interface.Narration3D"
 msgid "Before the original Stationeers Handbook collapsed into a singularity, it established a central Stationeers protocol: Cadets have TWO hands, but should only do ONE thing at a time."
-msgstr ""
+msgstr "Прежде чем оригинальный Справочник Станционеров схлопнулся в сингулярность, он установил главный протокол Станционеров: у Кадетов ДВЕ руки, но можно делать только ОДНО действие за раз."
 
 #: /Language/Interface/Record[Key='PickUpControlsDisc']
 msgctxt "Interface.PickUpControlsDisc"
@@ -701,7 +701,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='SwapControlsDisc']
 msgctxt "Interface.SwapControlsDisc"
 msgid "Swap hands"
-msgstr ""
+msgstr "Сменить руку"
 
 #: /Language/Interface/Record[Key='Co-OrdinationDisc']
 msgctxt "Interface.Co-OrdinationDisc"
@@ -716,32 +716,33 @@ msgstr "Возьмите сварочный инструмент из ящика
 #: /Language/Interface/Record[Key='SwapHandsT1']
 msgctxt "Interface.SwapHandsT1"
 msgid "Swap hands"
-msgstr ""
+msgstr "Смените руку"
 
 #: /Language/Interface/Record[Key='PickUpT1 1']
 msgctxt "Interface.PickUpT1 1"
 msgid "Take wirecutters from the crate."
-msgstr ""
+msgstr "Возьмите кусачки из ящика."
 
 #: /Language/Interface/Record[Key='SwapHandsT1 2']
 msgctxt "Interface.SwapHandsT1 2"
 msgid "Swap hands ... again"
-msgstr ""
+msgstr "Смените руку ... ещё разок"
 
 #: /Language/Interface/Record[Key='Narration4T']
 msgctxt "Interface.Narration4T"
 msgid "The welder."
-msgstr ""
+msgstr "Сварочный аппарат."
 
 #: /Language/Interface/Record[Key='Narration4D']
 msgctxt "Interface.Narration4D"
 msgid "You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Lots of them. Some must be activated first, with {KEY:SecondaryAction}."
 msgstr ""
+"Вы могли бы стать жонглёром. Но вы записались в Станционеры, так что вам придётся жонглировать инструментами. Многими из них. Некоторые нужно сначала активировать с помощью {KEY:SecondaryAction}."
 
 #: /Language/Interface/Record[Key='ActiveWilderDisc']
 msgctxt "Interface.ActiveWilderDisc"
 msgid "Activate the welding torch"
-msgstr ""
+msgstr "Включить сварочный аппарат"
 
 #: /Language/Interface/Record[Key='TurnOnControlsDisc']
 msgctxt "Interface.TurnOnControlsDisc"
@@ -805,12 +806,12 @@ msgstr ""
 #: /Language/Interface/Record[Key='DropControlsDisc']
 msgctxt "Interface.DropControlsDisc"
 msgid "Drop item"
-msgstr ""
+msgstr "Выложить предмет"
 
 #: /Language/Interface/Record[Key='PrecisionPLaceT1 1']
 msgctxt "Interface.PrecisionPLaceT1 1"
 msgid "Precision place tool on table using {KEY:PrecisionPlace}"
-msgstr ""
+msgstr "Разместите инструмент прямо на столе, используя {KEY:PrecisionPlace}"
 
 #: /Language/Interface/Record[Key='Narration6T']
 msgctxt "Interface.Narration6T"
@@ -846,7 +847,7 @@ msgstr "Разместить предмет"
 #: /Language/Interface/Record[Key='PrecisionPlace']
 msgctxt "Interface.PrecisionPlace"
 msgid "Place welding torch on table using 'Precision place'"
-msgstr ""
+msgstr "Разместите газовую горелку прямо на столе, используя 'Точное размещение'"
 
 #: /Language/Interface/Record[Key='Narration7T']
 msgctxt "Interface.Narration7T"
@@ -859,6 +860,8 @@ msgid ""
 "We can't teach you everything, but we can ensure you've got the basics down: surviving in the Solar System is up to you.\n"
 "Hold {KEY:MouseControl} to access your inventory, then click on a panel to open it."
 msgstr ""
+"Мы не можем научить вас всему, но мы можем гарантировать, что вы усвоили основы: выживание в Солнечной системе зависит от вас.\n"
+"Чтобы получить доступ к вашему инвентарю, удерживайте {KEY:MouseControl} и кликните по нему на панели."
 
 #: /Language/Interface/Record[Key='OpenToolControls']
 msgctxt "Interface.OpenToolControls"
@@ -873,7 +876,7 @@ msgstr "Показать Курсор Мыши"
 #: /Language/Interface/Record[Key='OpenToolbeltT1Disc']
 msgctxt "Interface.OpenToolbeltT1Disc"
 msgid "Open your toolbelt to access tools."
-msgstr ""
+msgstr "Откройте ваш пояс инструментов для доступа к инструментам."
 
 #: /Language/Interface/Record[Key='OpenBackControls']
 msgctxt "Interface.OpenBackControls"
@@ -883,7 +886,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='OpenBackControlsDisc']
 msgctxt "Interface.OpenBackControlsDisc"
 msgid "Open equipped slots"
-msgstr ""
+msgstr "Открыть экипированные слоты"
 
 #: /Language/Interface/Record[Key='GettingTheBelt']
 msgctxt "Interface.GettingTheBelt"
