@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-11 21:54+0000\n"
+"PO-Revision-Date: 2021-01-11 21:57+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,10 +94,9 @@ msgid "Organics"
 msgstr "Organika"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrganicPage']
-#, fuzzy
 msgctxt "HelpPage.OrganicPage"
 msgid "{LIST_OF_FOOD}{LIST_OF_ORGANICS}"
-msgstr "{LIST_OF_FOOD} {LIST_OF_ORGANICS}"
+msgstr "{LIST_OF_FOOD}{LIST_OF_ORGANICS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='AtmosphericPage']
 msgctxt "HelpPage.AtmosphericPage"
@@ -135,7 +134,6 @@ msgid "Fabricators"
 msgstr "Konstruktéři"
 
 #: /Language/HelpPage/StationpediaPage[Key='FabricatorPage']
-#, fuzzy
 msgctxt "HelpPage.FabricatorPage"
 msgid ""
 "These are powered Structures that can be used to Manufacture things you need in the game. They usually take {LINK:IngotPage;Ingots} to provide the {LINK:ReagentPage;Reagents} they need to make things.\n"
@@ -143,9 +141,8 @@ msgid ""
 "      "
 msgstr ""
 "Jedná se o výrobní napájené struktury, které budete potřebovat k výrobě potřebných věcí. Obvykle vyžadují {LINK:IngotPage;ingoty} k přípravě {LINK:ReagentPage;činidel}, které potřebují k výrobě.\n"
-"\n"
-"{HEADER:Seznam konstruktérů}\n"
-"{LIST_OF_FABRICATORS}"
+"        {LIST_OF_FABRICATORS}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
 msgctxt "HelpPage.DevicePage"
@@ -153,7 +150,6 @@ msgid "Devices"
 msgstr "Zařízení"
 
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
-#, fuzzy
 msgctxt "HelpPage.DevicePage"
 msgid ""
 "These are Structures, typically powered, that have specialist functions including Logic, Atmospherics, and more. They are constructed in the same way as other structures.\n"
@@ -161,9 +157,7 @@ msgid ""
 "      "
 msgstr ""
 "Tohle jsou struktury, obvykle napájené, které mají specializované funkce, včetně logiky, atmosféry a další. Jsou konstruovány stejným způsobem jako ostatní struktury.\n"
-"      \n"
-"{HEADER:Seznam zařízení}\n"
-"{LIST_OF_DEVICES}\n"
+"        {LIST_OF_DEVICES}\n"
 "      "
 
 #: /Language/HelpPage/StationpediaPage[Key='SmeltingPage']
@@ -373,7 +367,6 @@ msgid "Appliances"
 msgstr "Spotřebiče"
 
 #: /Language/HelpPage/StationpediaPage[Key='AppliancePage']
-#, fuzzy
 msgctxt "HelpPage.AppliancePage"
 msgid ""
 "These are Items that can be placed on Benches. You have to place them on a Bench by sitting them on a Bench and using a Wrench.\n"
@@ -381,9 +374,8 @@ msgid ""
 "      "
 msgstr ""
 "Jedná se o předměty, které mohou být umístěny na pracovní stůl pomocí hasáku.\n"
-"\n"
-"{HEADER:Seznam spotřebičů}\n"
-"{LIST_OF_APPLIANCES}"
+"{LIST_OF_APPLIANCES}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='TravelPage']
 msgctxt "HelpPage.TravelPage"
@@ -624,7 +616,6 @@ msgid "{0}.{1}"
 msgstr "{0}.{1}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPageTemplate']
-#, fuzzy
 msgctxt "HelpPage.ReagentPageTemplate"
 msgid ""
 "A {LINK:ReagentPage;reagent}, often usable when in {LINK:IngotPage;Ingots} form.\n"
@@ -637,14 +628,13 @@ msgid ""
 msgstr ""
 "{LINK:ReagentPage;Činidlo}, často použitelné, když je ve formě {LINK:IngotPage;ingotů}.\n"
 "\n"
-"{HEADER:Všeobecné}\n"
-"{LIST}Jednotka {1}{/LIST}\n"
 "\n"
-"{HEADER:Nalezeno v}\n"
+"{LIST}Unit {1}{/LIST}\n"
+"\n"
+"\n"
 "{LIST}{2}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageTemplate']
-#, fuzzy
 msgctxt "HelpPage.GasPageTemplate"
 msgid ""
 "A {LINK:GasPage;gas}, often produced when {LINK:SmeltingPage;smelting}.\n"
@@ -657,10 +647,10 @@ msgid ""
 msgstr ""
 "{LINK:GasPage;Plyn}, který se často vytváří při {LINK:SmeltingPage;tavení}.\n"
 "\n"
-"{HEADER:Všeobecné}\n"
+"\n"
 "{LIST}Specifické teplo {1}{2}{/LIST}\n"
 "\n"
-"{HEADER:Nalezeno v}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageFlamableTemplate']
