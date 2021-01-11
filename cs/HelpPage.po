@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-11 21:49+0000\n"
+"PO-Revision-Date: 2021-01-11 21:54+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -227,16 +227,12 @@ msgid "Reagents"
 msgstr "Činidla"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
-#, fuzzy
 msgctxt "HelpPage.ReagentPage"
 msgid ""
 "These are chemical quantities of certain types. {LIST_OF_REAGENTS}\n"
 "      "
 msgstr ""
-"Tohle jsou chemická množství určitých typů.\n"
-"      \n"
-"{HEADER:Seznam činidel}\n"
-"{LIST_OF_REAGENTS}\n"
+"Tohle jsou chemická množství určitých typů. {LIST_OF_REAGENTS}\n"
 "      "
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
@@ -245,16 +241,13 @@ msgid "Gases"
 msgstr "Plyny"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
-#, fuzzy
 msgctxt "HelpPage.GasPage"
 msgid ""
 "These are chemical gases of certain types.{LIST_OF_GASES}\n"
 "      "
 msgstr ""
-"Tohle jsou chemické plyny určitých typů.\n"
+"Tohle jsou chemické plyny určitých typů.{LIST_OF_GASES}\n"
 "      \n"
-"{HEADER:Seznam plynů}\n"
-"{LIST_OF_GASES}\n"
 "      "
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
@@ -263,7 +256,6 @@ msgid "Ores"
 msgstr "Rudy"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
-#, fuzzy
 msgctxt "HelpPage.OrePage"
 msgid ""
 "These are Items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}.\n"
@@ -271,11 +263,7 @@ msgid ""
 "      "
 msgstr ""
 "Jedná se o položky, které jsou {LINK:MiningPage;vytěžené} a často mohou být {LINK:SmeltingPage;taveny}. Můžete také získat smíšené rudy recyklací položek v {THING:StructureRecycler} a předáním přes {THING:StructureCentrifuge}, který ji rozdělí na {LINK:OrePage;rudy} pro {LINK:SmeltingPage;tavení}.\n"
-"      \n"
-"{HEADER:Tání ledu}\n"
-"Existují některé rudy, které roztají, když jsou vystaveny slunečnímu záření nebo teplu a produkují {LINK:GasPage;plyny}. Například {THING:ItemIce} se roztaje na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je chránili před teplem nebo slunečním zářením, dokud je opravdu nechcete roztát.\n"
-"      \n"
-"{HEADER:Seznam rud}\n"
+"        Existují některé rudy, které roztají, když jsou vystaveny slunečnímu záření nebo teplu a produkují {LINK:GasPage;plyny}. Například {THING:ItemIce} se roztaje na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je chránili před teplem nebo slunečním zářením, dokud je opravdu nechcete roztát.\n"
 "{LIST_OF_ORES}\n"
 "      "
 
@@ -285,7 +273,6 @@ msgid "Ingots"
 msgstr "Ingoty"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
-#, fuzzy
 msgctxt "HelpPage.IngotPage"
 msgid ""
 "These are Items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.\n"
@@ -294,14 +281,7 @@ msgid ""
 "      "
 msgstr ""
 "Jedná se o položky, které jsou obvykle vyrobeny z {LINK:SmeltingPage;tavení} {LINK:OrePage;rud}.\n"
-"           \n"
-"{HEADER:Seznam ingotů}\n"
-"{LIST_OF_INGOTS}\n"
 "\n"
-"{HEADER:Seznam slitin}\n"
-"{LIST_OF_INGOTS}\n"
-"\n"
-"{HEADER:Seznam super slitin}\n"
 "{LIST_OF_INGOTS}\n"
 "      "
 
@@ -311,7 +291,6 @@ msgid "Tools"
 msgstr "Nástroje"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
-#, fuzzy
 msgctxt "HelpPage.ToolPage"
 msgid ""
 "These are Items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.\n"
@@ -320,7 +299,7 @@ msgid ""
 "      "
 msgstr ""
 "Toto jsou položky, které se vejdou do speciálního slotu a používají se pro {LINK:ConstructionPage;konstrukce} a další úkoly.\n"
-"{HEADER:Seznam nástrojů}\n"
+"\n"
 "{LIST_OF_TOOLS}\n"
 "      "
 
@@ -330,7 +309,6 @@ msgid "Resources"
 msgstr "Zdroje"
 
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
-#, fuzzy
 msgctxt "HelpPage.ResourcePage"
 msgid ""
 "These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.\n"
@@ -338,7 +316,6 @@ msgid ""
 "      "
 msgstr ""
 "Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.\n"
-"{HEADER:Seznam zdrojů}\n"
 "{LIST_OF_RESOURCES}\n"
 "      "
 
@@ -348,16 +325,13 @@ msgid "Kits"
 msgstr "Sady"
 
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
-#, fuzzy
 msgctxt "HelpPage.KitPage"
 msgid ""
 "These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.\n"
 "{LIST_OF_KITS}\n"
 "      "
 msgstr ""
-"Tohle jsou položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.\n"
-"      \n"
-"{HEADER:Seznam sad}\n"
+"Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.\n"
 "{LIST_OF_KITS}\n"
 "      "
 
@@ -367,17 +341,15 @@ msgid "Food"
 msgstr "Jídlo"
 
 #: /Language/HelpPage/StationpediaPage[Key='FoodPage']
-#, fuzzy
 msgctxt "HelpPage.FoodPage"
 msgid ""
 "These are Items that are consumed to provide nutrition.\n"
 "        {LIST_OF_FOOD}\n"
 "      "
 msgstr ""
-"Jedná se o předměty, které se konzumují k zajištění výživy.\n"
-"\n"
-"{HEADER:Seznam potravin}\n"
-"{LIST_OF_FOOD}"
+"Jedná se o položky, které se konzumují k zajištění výživy.\n"
+"        {LIST_OF_FOOD}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='ClothingPage']
 msgctxt "HelpPage.ClothingPage"
@@ -391,7 +363,7 @@ msgid ""
 "{LIST_OF_CLOTHING}\n"
 "      "
 msgstr ""
-"Tohle jsou položky, které mohou být nošeny entitami ve slotech.\n"
+"Jedná se o položky, které mohou být nošeny entitami ve slotech.\n"
 "{LIST_OF_CLOTHING}\n"
 "      "
 
