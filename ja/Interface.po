@@ -608,6 +608,11 @@ msgctxt "Interface.SettingsDisplayFPS"
 msgid "Display FPS"
 msgstr "FPSを表示"
 
+#: /Language/Interface/Record[Key='ButtonResetDefaults']
+msgctxt "Interface.ButtonResetDefaults"
+msgid "Defaults"
+msgstr "デフォルト"
+
 #: /Language/Interface/Record[Key='SettingsTitleDisplayTools']
 msgctxt "Interface.SettingsTitleDisplayTools"
 msgid "Display Tools"
@@ -667,11 +672,6 @@ msgstr "被写界深度"
 msgctxt "Interface.SettingsOverallQuality"
 msgid "Overall Quality"
 msgstr "オーバーオールクォリティ"
-
-#: /Language/Interface/Record[Key='SettingsTextureQuality']
-msgctxt "Interface.SettingsTextureQuality"
-msgid "Texture Quality"
-msgstr "テクスチャクオリティ"
 
 #: /Language/Interface/Record[Key='SettingsParticleQuality']
 msgctxt "Interface.SettingsParticleQuality"
@@ -1235,6 +1235,11 @@ msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
 msgstr "セーブ削除"
 
+#: /Language/Interface/Record[Key='PromptDeleteBody']
+msgctxt "Interface.PromptDeleteBody"
+msgid "Are you sure?"
+msgstr "よろしいですか？"
+
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
 msgid "Delete"
@@ -1259,11 +1264,6 @@ msgstr "デバッグロード"
 msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "リスポーン"
-
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "死んでしまった。"
 
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
@@ -1309,11 +1309,6 @@ msgstr "サーバーは満員です。"
 msgctxt "Interface.AlertVersionMismatch"
 msgid "Game version mismatch with server."
 msgstr "サーバーとゲームのバージョンが一致しません。"
-
-#: /Language/Interface/Record[Key='ButtonResetDefaults']
-msgctxt "Interface.ButtonResetDefaults"
-msgid "Defaults"
-msgstr "デフォルト"
 
 #: /Language/Interface/Record[Key='AlertNoResponse']
 #, fuzzy
@@ -1386,6 +1381,11 @@ msgstr "ワールドに参加"
 msgctxt "Interface.JoinMenuServerDetailInfoButton"
 msgid "View Info"
 msgstr "情報を見る"
+
+#: /Language/Interface/Record[Key='SettingsTextureQuality']
+msgctxt "Interface.SettingsTextureQuality"
+msgid "Texture Quality"
+msgstr "テクスチャクオリティ"
 
 #: /Language/Interface/Record[Key='JoinMenuServerDetailUnFavoriteButton']
 msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
@@ -1630,9 +1630,119 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceButtonRandomize']
-msgctxt "Interface.AppearanceButtonRandomize"
-msgid "Randomize"
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
+msgstr ""
+
+#: /Language/Interface/Record[Key='PersonalCategoryKey']
+msgctxt "Interface.PersonalCategoryKey"
+msgid "Personal"
+msgstr ""
+
+#: /Language/Interface/Record[Key='OreCategoryKey ']
+msgctxt "Interface.OreCategoryKey "
+msgid "Ores"
+msgstr ""
+
+#: /Language/Interface/Record[Key='OreCategoryKey']
+msgctxt "Interface.OreCategoryKey"
+msgid "Ores"
+msgstr ""
+
+#: /Language/Interface/Record[Key='IngotsCategoryKey']
+msgctxt "Interface.IngotsCategoryKey"
+msgid "Ingots"
+msgstr ""
+
+#: /Language/Interface/Record[Key='FabricatorCategoryKey']
+msgctxt "Interface.FabricatorCategoryKey"
+msgid "Fabricators"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ConstructionKitsCategoryKey']
+#, fuzzy
+msgctxt "Interface.ConstructionKitsCategoryKey"
+msgid "Structure Kits"
+msgstr "建造物"
+
+#: /Language/Interface/Record[Key='GasesCategoryKey']
+msgctxt "Interface.GasesCategoryKey"
+msgid "Gases"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ReagentsCategoryKey']
+msgctxt "Interface.ReagentsCategoryKey"
+msgid "Reagents"
+msgstr ""
+
+#: /Language/Interface/Record[Key='AtmopshericsCategoryKey']
+#, fuzzy
+msgctxt "Interface.AtmopshericsCategoryKey"
+msgid "Atmospherics"
+msgstr "大気"
+
+#: /Language/Interface/Record[Key='AppliancesCategoryKey']
+#, fuzzy
+msgctxt "Interface.AppliancesCategoryKey"
+msgid "Appliances"
+msgstr "外観"
+
+#: /Language/Interface/Record[Key='PowerCategoryKey']
+#, fuzzy
+msgctxt "Interface.PowerCategoryKey"
+msgid "Electronics"
+msgstr "反射"
+
+#: /Language/Interface/Record[Key='LogicCategoryKey']
+#, fuzzy
+msgctxt "Interface.LogicCategoryKey"
+msgid "Logic Devices"
+msgstr "デバイス無し"
+
+#: /Language/Interface/Record[Key='StructureCategoryKey']
+msgctxt "Interface.StructureCategoryKey"
+msgid "Structures"
+msgstr ""
+
+#: /Language/Interface/Record[Key='OrganicsCategoryKey']
+#, fuzzy
+msgctxt "Interface.OrganicsCategoryKey"
+msgid "Organics"
+msgstr "オーガニック"
+
+#: /Language/Interface/Record[Key='HandToolsCategoryKey']
+#, fuzzy
+msgctxt "Interface.HandToolsCategoryKey"
+msgid "Hand Tools"
+msgstr "ツール"
+
+#: /Language/Interface/Record[Key='WeatherCategoryKey']
+#, fuzzy
+msgctxt "Interface.WeatherCategoryKey"
+msgid "Weather"
+msgstr "天候のクオリティ"
+
+#: /Language/Interface/Record[Key='CartidgeCategoryKey']
+msgctxt "Interface.CartidgeCategoryKey"
+msgid "Cartridges"
+msgstr ""
+
+#: /Language/Interface/Record[Key='FurnitureCategoryKey']
+#, fuzzy
+msgctxt "Interface.FurnitureCategoryKey"
+msgid "Furniture"
+msgstr "画像"
+
+#: /Language/Interface/Record[Key='TravelCategoryKey']
+#, fuzzy
+msgctxt "Interface.TravelCategoryKey"
+msgid "Travel"
+msgstr "トラベル"
+
+#: /Language/Interface/Record[Key='ImportExportCategoryKey']
+msgctxt "Interface.ImportExportCategoryKey"
+msgid "Import/Export"
 msgstr ""
 
 #: /Language/Interface/Record[Key='NextTutoiralButtonFail']
@@ -3919,10 +4029,10 @@ msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderInUse']
-msgctxt "Interface.TraderInUse"
-msgid "This contact is already interacting with someone, try again soon."
-msgstr ""
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "説明"
 
 #: /Language/Interface/Record[Key='ContactTradeRequest']
 msgctxt "Interface.ContactTradeRequest"
@@ -3999,10 +4109,10 @@ msgctxt "Interface.SettingsP2PHostEnabled"
 msgid "Enable P2PHost"
 msgstr "P2P ホストを有効にする"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "説明"
+#: /Language/Interface/Record[Key='AppearanceButtonRandomize']
+msgctxt "Interface.AppearanceButtonRandomize"
+msgid "Randomize"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSlotTypePrefabHash']
 msgctxt "Interface.LogicSlotTypePrefabHash"
@@ -5124,10 +5234,10 @@ msgctxt "Interface.GameSettingsTitle"
 msgid "Game Settings"
 msgstr "ゲーム設定"
 
-#: /Language/Interface/Record[Key='PromptDeleteBody']
-msgctxt "Interface.PromptDeleteBody"
-msgid "Are you sure?"
-msgstr "よろしいですか？"
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "死んでしまった。"
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"

@@ -94,8 +94,9 @@ msgid "Organics"
 msgstr "Organikus"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrganicPage']
+#, fuzzy
 msgctxt "HelpPage.OrganicPage"
-msgid "{LIST_OF_FOOD} {LIST_OF_ORGANICS}"
+msgid "{LIST_OF_FOOD}{LIST_OF_ORGANICS}"
 msgstr "{LIST_OF_FOOD} {LIST_OF_ORGANICS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='AtmosphericPage']
@@ -134,12 +135,11 @@ msgid "Fabricators"
 msgstr "Gyártógépek"
 
 #: /Language/HelpPage/StationpediaPage[Key='FabricatorPage']
+#, fuzzy
 msgctxt "HelpPage.FabricatorPage"
 msgid ""
 "These are powered Structures that can be used to Manufacture things you need in the game. They usually take {LINK:IngotPage;Ingots} to provide the {LINK:ReagentPage;Reagents} they need to make things.\n"
-"      \n"
-"{HEADER:List of Fabricators}\n"
-"{LIST_OF_FABRICATORS}\n"
+"        {LIST_OF_FABRICATORS}\n"
 "      "
 msgstr ""
 "Ezek az árammal ellátott masinák gyártják le az összes játékbeli tárgyat. Legtöbb esetben {LINK:IngotPage;öntött fémrudak} kellenek, hogy a gépeket a gyártáshoz elegendő {LINK:ReagentPage;reagenssel}  lásd el.\n"
@@ -153,12 +153,11 @@ msgid "Devices"
 msgstr "Berendezések"
 
 #: /Language/HelpPage/StationpediaPage[Key='DevicePage']
+#, fuzzy
 msgctxt "HelpPage.DevicePage"
 msgid ""
 "These are Structures, typically powered, that have specialist functions including Logic, Atmospherics, and more. They are constructed in the same way as other structures.\n"
-"      \n"
-"{HEADER:List of Devices}\n"
-"{LIST_OF_DEVICES}\n"
+"        {LIST_OF_DEVICES}\n"
 "      "
 msgstr ""
 "Olyan árammal ellátott szerkezetek, melyek speciális funkciókkal rendelkeznek, mint például logika, atmoszferika kezelése stb. Ugyanúgy kell építeni őket, mint a többi építhető tárgyat.\n"
@@ -223,12 +222,10 @@ msgid "Reagents"
 msgstr "Reagensek"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
+#, fuzzy
 msgctxt "HelpPage.ReagentPage"
 msgid ""
-"These are chemical quantities of certain types.\n"
-"      \n"
-"{HEADER:List of Reagents} \n"
-"{LIST_OF_REAGENTS}\n"
+"These are chemical quantities of certain types. {LIST_OF_REAGENTS}\n"
 "      "
 msgstr ""
 "Ezek bizonyos típusú kémiai mennyiségek\n"
@@ -243,12 +240,10 @@ msgid "Gases"
 msgstr "Gázok"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
+#, fuzzy
 msgctxt "HelpPage.GasPage"
 msgid ""
-"These are chemical gases of certain types.\n"
-"      \n"
-"{HEADER:List of Gases}\n"
-"{LIST_OF_GASES}\n"
+"These are chemical gases of certain types.{LIST_OF_GASES}\n"
 "      "
 msgstr ""
 "Ezek bizonyos típusú kémiai gázok.\n"
@@ -262,15 +257,11 @@ msgid "Ores"
 msgstr "Ércek"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
+#, fuzzy
 msgctxt "HelpPage.OrePage"
 msgid ""
 "These are Items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}.\n"
-"      \n"
-"{HEADER:Melting Ices}\n"
-"There are some ores that will melt when exposed to sunlight or heat and produce {LINK:GasPage;gases}. For example {THING:ItemIce} melts into {GAS:Water} and {GAS:Oxygen}. Be careful to keep these out of heat or sunlight until you actually want them to melt.\n"
-"      \n"
-"{HEADER:List of Ores}\n"
-"{LIST_OF_ORES}\n"
+"        There are some ores that will melt when exposed to sunlight or heat and produce {LINK:GasPage;gases}. For example {THING:ItemIce} melts into {GAS:Water} and {GAS:Oxygen}. Be careful to keep these out of heat or sunlight until you actually want them to melt.{LIST_OF_ORES}\n"
 "      "
 msgstr ""
 "Az {LINK:OrePage;ércek} {LINK:MiningPage;bányászhatóak} és sokszor {LINK:SmeltingPage;be lehet olvasztani} őket. A {THING:StructureRecycler} használatával vegyes érceket kaphatsz, amiket csa a {THING:StructureCentrifuge} segítrségével válkaszhatsz szét újra. A kapott {LINK:OrePage;érceket} újra {LINK:SmeltingPage;beolvaszthatod}.\n"
@@ -287,17 +278,11 @@ msgid "Ingots"
 msgstr "Öntött fémrudak"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
+#, fuzzy
 msgctxt "HelpPage.IngotPage"
 msgid ""
 "These are Items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.\n"
-"      \n"
-"{HEADER:List of Ingots}\n"
-"{LIST_OF_INGOTS}\n"
 "\n"
-"{HEADER:List of Alloys}\n"
-"{LIST_OF_INGOTS}\n"
-"\n"
-"{HEADER:List of Super-Alloys}\n"
 "{LIST_OF_INGOTS}\n"
 "      "
 msgstr ""
@@ -312,10 +297,11 @@ msgid "Tools"
 msgstr "Eszközök"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
+#, fuzzy
 msgctxt "HelpPage.ToolPage"
 msgid ""
 "These are Items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.\n"
-"{HEADER:List of Tools}\n"
+"\n"
 "{LIST_OF_TOOLS}\n"
 "      "
 msgstr ""
@@ -330,10 +316,10 @@ msgid "Resources"
 msgstr "Nyersanyagok"
 
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
+#, fuzzy
 msgctxt "HelpPage.ResourcePage"
 msgid ""
 "These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.\n"
-"{HEADER:List of Resources}\n"
 "{LIST_OF_RESOURCES}\n"
 "      "
 msgstr ""
@@ -348,11 +334,10 @@ msgid "Kits"
 msgstr "Készletek"
 
 #: /Language/HelpPage/StationpediaPage[Key='KitPage']
+#, fuzzy
 msgctxt "HelpPage.KitPage"
 msgid ""
 "These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.\n"
-"      \n"
-"{HEADER:List of Kits}\n"
 "{LIST_OF_KITS}\n"
 "      "
 msgstr ""
@@ -367,12 +352,11 @@ msgid "Food"
 msgstr "Élelmiszer"
 
 #: /Language/HelpPage/StationpediaPage[Key='FoodPage']
+#, fuzzy
 msgctxt "HelpPage.FoodPage"
 msgid ""
 "These are Items that are consumed to provide nutrition.\n"
-"      \n"
-"{HEADER:List of Food}\n"
-"{LIST_OF_FOOD}\n"
+"        {LIST_OF_FOOD}\n"
 "      "
 msgstr ""
 "Ezek használhatók az éhség csillapításához.\n"
@@ -386,11 +370,10 @@ msgid "Clothing"
 msgstr "Öltözködés"
 
 #: /Language/HelpPage/StationpediaPage[Key='ClothingPage']
+#, fuzzy
 msgctxt "HelpPage.ClothingPage"
 msgid ""
 "These are Items that can be worn by entities in slots.\n"
-"      \n"
-"{HEADER:List of Clothing}\n"
 "{LIST_OF_CLOTHING}\n"
 "      "
 msgstr ""
@@ -401,11 +384,10 @@ msgid "Appliances"
 msgstr "Készülékek"
 
 #: /Language/HelpPage/StationpediaPage[Key='AppliancePage']
+#, fuzzy
 msgctxt "HelpPage.AppliancePage"
 msgid ""
 "These are Items that can be placed on Benches. You have to place them on a Bench by sitting them on a Bench and using a Wrench.\n"
-"      \n"
-"{HEADER:List of Appliances}\n"
 "{LIST_OF_APPLIANCES}\n"
 "      "
 msgstr ""
@@ -519,8 +501,9 @@ msgid "{0}"
 msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotHeaderTemplate']
+#, fuzzy
 msgctxt "HelpPage.ThingSlotHeaderTemplate"
-msgid "{HEADER:Slots}{LIST}{0}{/LIST}"
+msgid "{LIST}{0}{/LIST}"
 msgstr "{HEADER:Slotok}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotItemTemplate']
@@ -553,42 +536,47 @@ msgstr ""
 "Olvadási nyomás {0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorsHeaderTemplate']
+#, fuzzy
 msgctxt "HelpPage.CreatorsHeaderTemplate"
-msgid "{HEADER:Manufactured By}{LIST}{0}{/LIST}"
+msgid "{LIST}{0}{/LIST}"
 msgstr "{HEADER:Előállítható ezzel:}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedByHeaderTemplate']
+#, fuzzy
 msgctxt "HelpPage.ConstructedByHeaderTemplate"
 msgid ""
-"{HEADER:Constructed From}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
 "{HEADER:Előállítva ezzel:}\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedHeaderTemplate']
+#, fuzzy
 msgctxt "HelpPage.CreatedHeaderTemplate"
 msgid ""
-"{HEADER:Can Manufacture}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
 "{HEADER:Gyárhatja ezt:}\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedHeaderTemplate']
+#, fuzzy
 msgctxt "HelpPage.ConstructedHeaderTemplate"
 msgid ""
-"{HEADER:Can Construct}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
 "{HEADER:Építeni tudja ezt:}\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTransmitHeaderTemplate']
+#, fuzzy
 msgctxt "HelpPage.LogicTransmitHeaderTemplate"
 msgid ""
 "\n"
-"        {HEADER:Connects to}\n"
+"        \n"
 "        {LIST}{0}{/LIST}\n"
 "      "
 msgstr ""
@@ -596,10 +584,11 @@ msgstr ""
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='TierListHeaderTemplate']
+#, fuzzy
 msgctxt "HelpPage.TierListHeaderTemplate"
 msgid ""
 "\n"
-"        {HEADER:Structures Tier List}\n"
+"        \n"
 "      "
 msgstr ""
 "\n"
@@ -612,8 +601,9 @@ msgid "{LIST}{0}{1}{/LIST}{/LIST}"
 msgstr "{LIST}{0}{1}{/LIST}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeHeaderTemplate']
+#, fuzzy
 msgctxt "HelpPage.LogicTypeHeaderTemplate"
-msgid "{HEADER:Logic}{LIST}{0}{/LIST}"
+msgid "{LIST}{0}{/LIST}"
 msgstr "{HEADER:Logika}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeTemplate']
@@ -622,23 +612,26 @@ msgid "{0}{POS:300}{1} {2}"
 msgstr "{0}{POS:300}{1} {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringHeaderTemplate']
+#, fuzzy
 msgctxt "HelpPage.ModeStringHeaderTemplate"
-msgid "{HEADER:Modes}{LIST}{0}{/LIST}"
+msgid "{LIST}{0}{/LIST}"
 msgstr "{HEADER:Üzemmódok}{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedGasesTemplate']
+#, fuzzy
 msgctxt "HelpPage.CreatedGasesTemplate"
 msgid ""
-"{HEADER:Gases}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
 "{HEADER:Gázok}\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedReagentTemplate']
+#, fuzzy
 msgctxt "HelpPage.CreatedReagentTemplate"
 msgid ""
-"{HEADER:Reagents}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
 "{HEADER:Reagensek}\n"
@@ -650,14 +643,15 @@ msgid "{0}.{1}"
 msgstr "{0}.{1}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPageTemplate']
+#, fuzzy
 msgctxt "HelpPage.ReagentPageTemplate"
 msgid ""
 "A {LINK:ReagentPage;reagent}, often usable when in {LINK:IngotPage;Ingots} form.\n"
 "\n"
-"{HEADER:General}\n"
+"\n"
 "{LIST}Unit {1}{/LIST}\n"
 "\n"
-"{HEADER:Found In}\n"
+"\n"
 "{LIST}{2}{/LIST}"
 msgstr ""
 "Egy {LINK:ReagentPage;reagens} leggyakrabban {LINK:IngotPage;öntött rúd} formában használható.\n"
@@ -669,14 +663,15 @@ msgstr ""
 "{LIST}{2}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageTemplate']
+#, fuzzy
 msgctxt "HelpPage.GasPageTemplate"
 msgid ""
 "A {LINK:GasPage;gas}, often produced when {LINK:SmeltingPage;smelting}.\n"
 "\n"
-"{HEADER:General}\n"
+"\n"
 "{LIST}Specific Heat {1}{2}{/LIST}\n"
 "\n"
-"{HEADER:Found In}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
 "A {LINK:GasPage;gázok} gyakran {LINK:SmeltingPage;ércek beolvasztásánál} szabadulnak fel.\n"
@@ -691,6 +686,72 @@ msgstr ""
 msgctxt "HelpPage.GasPageFlamableTemplate"
 msgid "Flamable Limit {0} to {1}"
 msgstr "Lobbanási határ {0} és egy {1} között"
+
+#~ msgctxt "HelpPage.ThingSlotHeaderTemplate"
+#~ msgid "{HEADER:Slots}{LIST}{0}{/LIST}"
+#~ msgstr "{HEADER:Slotok}{LIST}{0}{/LIST}"
+
+#~ msgctxt "HelpPage.CreatorsHeaderTemplate"
+#~ msgid "{HEADER:Manufactured By}{LIST}{0}{/LIST}"
+#~ msgstr "{HEADER:Előállítható ezzel:}{LIST}{0}{/LIST}"
+
+#~ msgctxt "HelpPage.ConstructedByHeaderTemplate"
+#~ msgid ""
+#~ "{HEADER:Constructed From}\n"
+#~ "{LIST}{0}{/LIST}"
+#~ msgstr ""
+#~ "{HEADER:Előállítva ezzel:}\n"
+#~ "{LIST}{0}{/LIST}"
+
+#~ msgctxt "HelpPage.CreatedHeaderTemplate"
+#~ msgid ""
+#~ "{HEADER:Can Manufacture}\n"
+#~ "{LIST}{0}{/LIST}"
+#~ msgstr ""
+#~ "{HEADER:Gyárhatja ezt:}\n"
+#~ "{LIST}{0}{/LIST}"
+
+#~ msgctxt "HelpPage.ConstructedHeaderTemplate"
+#~ msgid ""
+#~ "{HEADER:Can Construct}\n"
+#~ "{LIST}{0}{/LIST}"
+#~ msgstr ""
+#~ "{HEADER:Építeni tudja ezt:}\n"
+#~ "{LIST}{0}{/LIST}"
+
+#~ msgctxt "HelpPage.TierListHeaderTemplate"
+#~ msgid ""
+#~ "\n"
+#~ "        {HEADER:Structures Tier List}\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "        {HEADER:Struktúrák tier szerinti listája}\n"
+#~ "      "
+
+#~ msgctxt "HelpPage.LogicTypeHeaderTemplate"
+#~ msgid "{HEADER:Logic}{LIST}{0}{/LIST}"
+#~ msgstr "{HEADER:Logika}{LIST}{0}{/LIST}"
+
+#~ msgctxt "HelpPage.ModeStringHeaderTemplate"
+#~ msgid "{HEADER:Modes}{LIST}{0}{/LIST}"
+#~ msgstr "{HEADER:Üzemmódok}{LIST}{0}{/LIST}"
+
+#~ msgctxt "HelpPage.CreatedGasesTemplate"
+#~ msgid ""
+#~ "{HEADER:Gases}\n"
+#~ "{LIST}{0}{/LIST}"
+#~ msgstr ""
+#~ "{HEADER:Gázok}\n"
+#~ "{LIST}{0}{/LIST}"
+
+#~ msgctxt "HelpPage.CreatedReagentTemplate"
+#~ msgid ""
+#~ "{HEADER:Reagents}\n"
+#~ "{LIST}{0}{/LIST}"
+#~ msgstr ""
+#~ "{HEADER:Reagensek}\n"
+#~ "{LIST}{0}{/LIST}"
 
 #~ msgctxt "HelpPage.GettingStarted"
 #~ msgid "Getting Started"
