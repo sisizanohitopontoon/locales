@@ -15,16 +15,6 @@ msgctxt "Things.ItemCoffeeMug"
 msgid "Coffee Mug"
 msgstr "Tasse de café"
 
-#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
-msgctxt "Things.Flag_ODA_8m"
-msgid "Flag (ODA 8m)"
-msgstr "Drapeau ODA (8m)"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
-msgctxt "Things.Flag_ODA_8m"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='Flag_ODA_6m']
 msgctxt "Things.Flag_ODA_6m"
 msgid "Flag (ODA 6m)"
@@ -303,7 +293,7 @@ msgstr "Un carburant de base."
 #, fuzzy
 msgctxt "Things.ItemKitSolarPanelReinforced"
 msgid "Kit (Solar Panel Heavy)"
-msgstr "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitSolarPanelReinforced']
 msgctxt "Things.ItemKitSolarPanelReinforced"
@@ -314,7 +304,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitSolarPanelBasicReinforced"
 msgid "Kit (Solar Panel Basic Heavy)"
-msgstr "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitSolarPanelBasicReinforced']
 msgctxt "Things.ItemKitSolarPanelBasicReinforced"
@@ -325,7 +315,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSolarPanel45Reinforced"
 msgid "Solar Panel (Heavy Angled)"
-msgstr "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanel45Reinforced']
 msgctxt "Things.StructureSolarPanel45Reinforced"
@@ -336,7 +326,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSolarPanelDualReinforced"
 msgid "Solar Panel (Heavy Dual)"
-msgstr "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelDualReinforced']
 msgctxt "Things.StructureSolarPanelDualReinforced"
@@ -347,7 +337,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSolarPanelFlatReinforced"
 msgid "Solar Panel (Heavy Flat)"
-msgstr "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelFlatReinforced']
 msgctxt "Things.StructureSolarPanelFlatReinforced"
@@ -358,7 +348,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSolarPanelReinforced"
 msgid "Solar Panel (Heavy)"
-msgstr "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelReinforced']
 msgctxt "Things.StructureSolarPanelReinforced"
@@ -381,12 +371,22 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMiningBeltAdvanced"
 msgid "Mining Belt (Advanced)"
-msgstr "{BLANK}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemMiningBeltAdvanced']
 msgctxt "Things.ItemMiningBeltAdvanced"
 msgid "A mining belt with 12 slots for ore and three slots for tools."
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
+msgctxt "Things.Flag_ODA_8m"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_8m']
+msgctxt "Things.Flag_ODA_8m"
+msgid "Flag (ODA 8m)"
+msgstr "Drapeau ODA (8m)"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_10m']
 msgctxt "Things.Flag_ODA_10m"
@@ -548,10 +548,10 @@ msgctxt "Things.ItemWreckageElevatorLevelFront2"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront2']
-msgctxt "Things.ItemWreckageElevatorLevelFront2"
-msgid "Wreckage Elevator Level Front"
-msgstr "Barrière de {THING:StructureElevatorLevelFront}"
+#: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront1']
+msgctxt "Things.ItemWreckageElevatorLevelFront1"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront1']
 msgctxt "Things.ItemWreckageElevatorLevelFront1"
@@ -1918,10 +1918,10 @@ msgctxt "Things.StructurePipeOrgan"
 msgid "Pipe Organ"
 msgstr "Orgue"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront1']
-msgctxt "Things.ItemWreckageElevatorLevelFront1"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront2']
+msgctxt "Things.ItemWreckageElevatorLevelFront2"
+msgid "Wreckage Elevator Level Front"
+msgstr "Barrière de {THING:StructureElevatorLevelFront}"
 
 #: /Language/Things/RecordThing[Key='StructureWallPaddedWindow']
 msgctxt "Things.StructureWallPaddedWindow"
@@ -7032,8 +7032,8 @@ msgstr "Filtre (Eau)"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterVolatiles']
 msgctxt "Things.ItemGasFilterVolatiles"
-msgid "Filters are used to capture various gases, which can be disposed of or used elsewhere. <color=#0080FFFF>{LINK:GasPage;Volatiles}</color> are created by exposing <color=#0080FFFF>{LINK:OrePage;ice (volatiles)}</color> to heat. The product can then be collected and combined with <color=#0080FFFF>{LINK:GasPage;oxygen}</color> to create fuel, or used within a {THING:StructureFurnace} to smelt ores and create <color=#0080FFFF>{LINK:AlloyPage;alloys}</color>."
-msgstr "Les filtres sont utilisés pour capter divers gaz, qui peuvent être éliminés ou utilisés ailleurs. Les <color=#0080FFFF>{LINK:GasPage;Volatiles}</color> sont créés en exposant de la <color=#0080FFFF>{LINK:OrePage;glace (volatiles)}</color> à la chaleur. Le gaz peut ensuite être collecté et combiné avec de l'<color=#0080FFFF>{LINK:GasPage;oxygène}</color> pour créer du carburant, ou utilisé dans un {THING:StructureFurnace} pour fusionner des minerais et créer des <color=#0080FFFF>{LINK:AlloyPage;alliages}</color>."
+msgid "Filter (Volatiles)"
+msgstr "Filtre (Hydrogène)"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterOxygen']
 msgctxt "Things.ItemGasFilterOxygen"
@@ -8422,8 +8422,8 @@ msgstr "Micro-onde"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterVolatiles']
 msgctxt "Things.ItemGasFilterVolatiles"
-msgid "Filter (Volatiles)"
-msgstr "Filtre (Hydrogène)"
+msgid "Filters are used to capture various gases, which can be disposed of or used elsewhere. <color=#0080FFFF>{LINK:GasPage;Volatiles}</color> are created by exposing <color=#0080FFFF>{LINK:OrePage;ice (volatiles)}</color> to heat. The product can then be collected and combined with <color=#0080FFFF>{LINK:GasPage;oxygen}</color> to create fuel, or used within a {THING:StructureFurnace} to smelt ores and create <color=#0080FFFF>{LINK:AlloyPage;alloys}</color>."
+msgstr "Les filtres sont utilisés pour capter divers gaz, qui peuvent être éliminés ou utilisés ailleurs. Les <color=#0080FFFF>{LINK:GasPage;Volatiles}</color> sont créés en exposant de la <color=#0080FFFF>{LINK:OrePage;glace (volatiles)}</color> à la chaleur. Le gaz peut ensuite être collecté et combiné avec de l'<color=#0080FFFF>{LINK:GasPage;oxygène}</color> pour créer du carburant, ou utilisé dans un {THING:StructureFurnace} pour fusionner des minerais et créer des <color=#0080FFFF>{LINK:AlloyPage;alliages}</color>."
 
 #, fuzzy
 #~ msgctxt "Things.ItemKitSolarPanelReinforced"
