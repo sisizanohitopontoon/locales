@@ -687,6 +687,11 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "Jakość cząsteczek"
 
+#: /Language/Interface/Record[Key='SettingsSoftParticles']
+msgctxt "Interface.SettingsSoftParticles"
+msgid "Soft Particles"
+msgstr "Miękkie cząsteczki"
+
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
@@ -772,11 +777,6 @@ msgstr "Kontrola głosem"
 msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
 msgstr "Czułość kamery"
-
-#: /Language/Interface/Record[Key='NotificationTitle']
-msgctxt "Interface.NotificationTitle"
-msgid "Save Successful"
-msgstr "Zapis udany"
 
 #: /Language/Interface/Record[Key='SaveLocationBroken']
 msgctxt "Interface.SaveLocationBroken"
@@ -1270,6 +1270,11 @@ msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "Odrodzenie"
 
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Jestes martwy"
+
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -1294,11 +1299,6 @@ msgstr "Give Up"
 msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "Plik {0} jest nieprawidłowy. Sprawdź świat {1}."
-
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Nieprawidłowy adres IP {0} \\nSprawdź czy IP lub URL są prawidłowe"
 
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
@@ -1395,11 +1395,6 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "Ulubione"
 
-#: /Language/Interface/Record[Key='SettingsSoftParticles']
-msgctxt "Interface.SettingsSoftParticles"
-msgid "Soft Particles"
-msgstr "Miękkie cząsteczki"
-
 #: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
@@ -1484,6 +1479,11 @@ msgstr "Kolor Wlosow"
 msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Kolor Oczu"
+
+#: /Language/Interface/Record[Key='NotificationTitle']
+msgctxt "Interface.NotificationTitle"
+msgid "Save Successful"
+msgstr "Zapis udany"
 
 #: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
 msgctxt "Interface.AppearanceTitleSkinColor"
@@ -1633,14 +1633,168 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderInUse']
-msgctxt "Interface.TraderInUse"
-msgid "This contact is already interacting with someone, try again soon."
-msgstr "Ten kontakt już dokonuje z kimś wymiany, spróbuj ponownie później."
+#: /Language/Interface/Record[Key='RoomControlTickSpeed']
+msgctxt "Interface.RoomControlTickSpeed"
+msgid "RoomControl TickSpeed"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaTutorialListHeader"
+msgid "Tutorials"
+msgstr "Samouczek"
+
+#: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
+msgctxt "Interface.StationpediaLogicSlotHeader"
+msgid "Logic Slots\n"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaLogicHeader']
+msgctxt "Interface.StationpediaLogicHeader"
+msgid "Logic\n"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaModeHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaModeHeader"
+msgid "Mode"
+msgstr "Tryb Rozgrywki"
+
+#: /Language/Interface/Record[Key='StationpediaConstructionOptions']
+msgctxt "Interface.StationpediaConstructionOptions"
+msgid "Construction Options\n"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaFoundIn']
+#, fuzzy
+msgctxt "Interface.StationpediaFoundIn"
+msgid "Found In"
+msgstr "Głośność dźwięków"
+
+#: /Language/Interface/Record[Key='StationpediaManufactures']
+msgctxt "Interface.StationpediaManufactures"
+msgid "Manufactures"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaUsedIn']
+msgctxt "Interface.StationpediaUsedIn"
+msgid "Used In"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaResoucesHeader']
+msgctxt "Interface.StationpediaResoucesHeader"
+msgid "Resources Used"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaGasHeader']
+msgctxt "Interface.StationpediaGasHeader"
+msgid "Gases"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaMachineVersion']
+#, fuzzy
+msgctxt "Interface.StationpediaMachineVersion"
+msgid "Versions"
+msgstr "Wersja"
+
+#: /Language/Interface/Record[Key='StationpediaBuildStates']
+#, fuzzy
+msgctxt "Interface.StationpediaBuildStates"
+msgid "Build States"
+msgstr "Zamknij Stationeers"
+
+#: /Language/Interface/Record[Key='StationpediaHowToManufacture']
+msgctxt "Interface.StationpediaHowToManufacture"
+msgid "How to Manufacure"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaSlotsHeader']
+msgctxt "Interface.StationpediaSlotsHeader"
+msgid "Slots"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaConstructedFrom']
+msgctxt "Interface.StationpediaConstructedFrom"
+msgid "Constructed From"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaAutoIgniteHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaAutoIgniteHeader"
+msgid "Autoignition:"
+msgstr "Uwaga"
+
+#: /Language/Interface/Record[Key='StationpediaFlashpointHeader']
+msgctxt "Interface.StationpediaFlashpointHeader"
+msgid "Flashpoint:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaShatterHeader']
+msgctxt "Interface.StationpediaShatterHeader"
+msgid "Shatter:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaHeatHeader']
+msgctxt "Interface.StationpediaHeatHeader"
+msgid "Specific Heat:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaReagentsHeader']
+msgctxt "Interface.StationpediaReagentsHeader"
+msgid "Reagents:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaThingUnit']
+msgctxt "Interface.StationpediaThingUnit"
+msgid "Unit:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaStackSize']
+msgctxt "Interface.StationpediaStackSize"
+msgid "Stack Size:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaPaintable']
+msgctxt "Interface.StationpediaPaintable"
+msgid "Paintable:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaPrefabHash']
+msgctxt "Interface.StationpediaPrefabHash"
+msgid "Prefab Hash:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaConstructWith']
+msgctxt "Interface.StationpediaConstructWith"
+msgid "Construct with:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaAdvancedGuides']
+#, fuzzy
+msgctxt "Interface.StationpediaAdvancedGuides"
+msgid "Advanced Guides"
+msgstr "Zaawansowane"
+
+#: /Language/Interface/Record[Key='StationpediaBeginnerGuides']
+msgctxt "Interface.StationpediaBeginnerGuides"
+msgid "Beginner Guides"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaSearch']
+#, fuzzy
+msgctxt "Interface.StationpediaSearch"
+msgid "Search"
+msgstr "Resetuj"
+
+#: /Language/Interface/Record[Key='StationpediaTitle']
+#, fuzzy
+msgctxt "Interface.StationpediaTitle"
+msgid "Stationpedia"
+msgstr "Zamknij Stationeers"
 
 #: /Language/Interface/Record[Key='CableMaxPowerSPDA']
 msgctxt "Interface.CableMaxPowerSPDA"
-msgid "Maximum Voltage:"
+msgid "Maximum Wattage:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PressureKeySPDA']
@@ -1769,7 +1923,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='AdvancedTutorialButton']
 #, fuzzy
 msgctxt "Interface.AdvancedTutorialButton"
-msgid "Advanced"
+msgid "Legacy/Advanced"
 msgstr "Zaawansowane"
 
 #: /Language/Interface/Record[Key='FixedWeatherEventMissing']
@@ -3997,10 +4151,10 @@ msgctxt "Interface.LogicTypeTargetX"
 msgid "The target position in X dimension in world coordinates"
 msgstr ""
 
-#: /Language/Interface/Record[Key='RoomControlTickSpeed']
-msgctxt "Interface.RoomControlTickSpeed"
-msgid "RoomControl TickSpeed"
-msgstr ""
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Opis"
 
 #: /Language/Interface/Record[Key='OcclusionTickSpeed']
 msgctxt "Interface.OcclusionTickSpeed"
@@ -4112,10 +4266,10 @@ msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
 msgstr "Brak odpowiedzi."
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Opis"
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
+msgstr "Ten kontakt już dokonuje z kimś wymiany, spróbuj ponownie później."
 
 #: /Language/Interface/Record[Key='ContactTradeRequest']
 msgctxt "Interface.ContactTradeRequest"
@@ -5314,10 +5468,10 @@ msgctxt "Interface.GameSettingsTitle"
 msgid "Game Settings"
 msgstr "Ustawienia gry"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Jestes martwy"
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Nieprawidłowy adres IP {0} \\nSprawdź czy IP lub URL są prawidłowe"
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"

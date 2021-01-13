@@ -677,6 +677,11 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "粒子质量"
 
+#: /Language/Interface/Record[Key='SettingsSoftParticles']
+msgctxt "Interface.SettingsSoftParticles"
+msgid "Soft Particles"
+msgstr "软粒子"
+
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
@@ -761,11 +766,6 @@ msgstr "语音控制"
 msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
 msgstr "镜头灵敏度"
-
-#: /Language/Interface/Record[Key='NotificationTitle']
-msgctxt "Interface.NotificationTitle"
-msgid "Save Successful"
-msgstr "保存成功"
 
 #: /Language/Interface/Record[Key='SaveLocationBroken']
 msgctxt "Interface.SaveLocationBroken"
@@ -1250,6 +1250,11 @@ msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "重生"
 
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "你死了."
+
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -1274,11 +1279,6 @@ msgstr "放弃"
 msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "文件{0}无效，请检查世界{1}。"
-
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "无效的IP地址 {0} \\n检查IP地址或URL是否有效"
 
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
@@ -1374,11 +1374,6 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "收藏"
 
-#: /Language/Interface/Record[Key='SettingsSoftParticles']
-msgctxt "Interface.SettingsSoftParticles"
-msgid "Soft Particles"
-msgstr "软粒子"
-
 #: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
@@ -1463,6 +1458,11 @@ msgstr "发色"
 msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "眼睛颜色"
+
+#: /Language/Interface/Record[Key='NotificationTitle']
+msgctxt "Interface.NotificationTitle"
+msgid "Save Successful"
+msgstr "保存成功"
 
 #: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
 msgctxt "Interface.AppearanceTitleSkinColor"
@@ -1609,14 +1609,178 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderInUse']
-msgctxt "Interface.TraderInUse"
-msgid "This contact is already interacting with someone, try again soon."
-msgstr "此联系人正在与某人互动中，请稍后重试。"
+#: /Language/Interface/Record[Key='RoomControlTickSpeed']
+msgctxt "Interface.RoomControlTickSpeed"
+msgid "RoomControl TickSpeed"
+msgstr "房间控制的Tick速度"
+
+#: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaTutorialListHeader"
+msgid "Tutorials"
+msgstr "教程"
+
+#: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaLogicSlotHeader"
+msgid "Logic Slots\n"
+msgstr "逻辑写入"
+
+#: /Language/Interface/Record[Key='StationpediaLogicHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaLogicHeader"
+msgid "Logic\n"
+msgstr "逻辑电路"
+
+#: /Language/Interface/Record[Key='StationpediaModeHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaModeHeader"
+msgid "Mode"
+msgstr "游戏模式"
+
+#: /Language/Interface/Record[Key='StationpediaConstructionOptions']
+#, fuzzy
+msgctxt "Interface.StationpediaConstructionOptions"
+msgid "Construction Options\n"
+msgstr "建造物资 2"
+
+#: /Language/Interface/Record[Key='StationpediaFoundIn']
+#, fuzzy
+msgctxt "Interface.StationpediaFoundIn"
+msgid "Found In"
+msgstr "声音效果"
+
+#: /Language/Interface/Record[Key='StationpediaManufactures']
+msgctxt "Interface.StationpediaManufactures"
+msgid "Manufactures"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaUsedIn']
+msgctxt "Interface.StationpediaUsedIn"
+msgid "Used In"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaResoucesHeader']
+msgctxt "Interface.StationpediaResoucesHeader"
+msgid "Resources Used"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaGasHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaGasHeader"
+msgid "Gases"
+msgstr "气体"
+
+#: /Language/Interface/Record[Key='StationpediaMachineVersion']
+#, fuzzy
+msgctxt "Interface.StationpediaMachineVersion"
+msgid "Versions"
+msgstr "版本"
+
+#: /Language/Interface/Record[Key='StationpediaBuildStates']
+#, fuzzy
+msgctxt "Interface.StationpediaBuildStates"
+msgid "Build States"
+msgstr "退出Stationeers"
+
+#: /Language/Interface/Record[Key='StationpediaHowToManufacture']
+msgctxt "Interface.StationpediaHowToManufacture"
+msgid "How to Manufacure"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaSlotsHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaSlotsHeader"
+msgid "Slots"
+msgstr "所有插槽"
+
+#: /Language/Interface/Record[Key='StationpediaConstructedFrom']
+#, fuzzy
+msgctxt "Interface.StationpediaConstructedFrom"
+msgid "Constructed From"
+msgstr "建筑"
+
+#: /Language/Interface/Record[Key='StationpediaAutoIgniteHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaAutoIgniteHeader"
+msgid "Autoignition:"
+msgstr "燃点："
+
+#: /Language/Interface/Record[Key='StationpediaFlashpointHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaFlashpointHeader"
+msgid "Flashpoint:"
+msgstr "闪点："
+
+#: /Language/Interface/Record[Key='StationpediaShatterHeader']
+msgctxt "Interface.StationpediaShatterHeader"
+msgid "Shatter:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaHeatHeader']
+msgctxt "Interface.StationpediaHeatHeader"
+msgid "Specific Heat:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaReagentsHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaReagentsHeader"
+msgid "Reagents:"
+msgstr "化学原料"
+
+#: /Language/Interface/Record[Key='StationpediaThingUnit']
+msgctxt "Interface.StationpediaThingUnit"
+msgid "Unit:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaStackSize']
+msgctxt "Interface.StationpediaStackSize"
+msgid "Stack Size:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaPaintable']
+#, fuzzy
+msgctxt "Interface.StationpediaPaintable"
+msgid "Paintable:"
+msgstr "矿物设置"
+
+#: /Language/Interface/Record[Key='StationpediaPrefabHash']
+msgctxt "Interface.StationpediaPrefabHash"
+msgid "Prefab Hash:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaConstructWith']
+#, fuzzy
+msgctxt "Interface.StationpediaConstructWith"
+msgid "Construct with:"
+msgstr "建筑"
+
+#: /Language/Interface/Record[Key='StationpediaAdvancedGuides']
+#, fuzzy
+msgctxt "Interface.StationpediaAdvancedGuides"
+msgid "Advanced Guides"
+msgstr "高级"
+
+#: /Language/Interface/Record[Key='StationpediaBeginnerGuides']
+msgctxt "Interface.StationpediaBeginnerGuides"
+msgid "Beginner Guides"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaSearch']
+#, fuzzy
+msgctxt "Interface.StationpediaSearch"
+msgid "Search"
+msgstr "研究"
+
+#: /Language/Interface/Record[Key='StationpediaTitle']
+#, fuzzy
+msgctxt "Interface.StationpediaTitle"
+msgid "Stationpedia"
+msgstr "饱和度："
 
 #: /Language/Interface/Record[Key='CableMaxPowerSPDA']
 msgctxt "Interface.CableMaxPowerSPDA"
-msgid "Maximum Voltage:"
+msgid "Maximum Wattage:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PressureKeySPDA']
@@ -1751,8 +1915,9 @@ msgid "Basic"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AdvancedTutorialButton']
+#, fuzzy
 msgctxt "Interface.AdvancedTutorialButton"
-msgid "Advanced"
+msgid "Legacy/Advanced"
 msgstr "高级"
 
 #: /Language/Interface/Record[Key='FixedWeatherEventMissing']
@@ -3904,10 +4069,10 @@ msgctxt "Interface.LogicTypeTargetX"
 msgid "The target position in X dimension in world coordinates"
 msgstr "世界坐标下目标在X轴上的位置"
 
-#: /Language/Interface/Record[Key='RoomControlTickSpeed']
-msgctxt "Interface.RoomControlTickSpeed"
-msgid "RoomControl TickSpeed"
-msgstr "房间控制的Tick速度"
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "描述/类型"
 
 #: /Language/Interface/Record[Key='OcclusionTickSpeed']
 msgctxt "Interface.OcclusionTickSpeed"
@@ -4019,10 +4184,10 @@ msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
 msgstr "没有回复。"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "描述/类型"
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
+msgstr "此联系人正在与某人互动中，请稍后重试。"
 
 #: /Language/Interface/Record[Key='ContactTradeRequest']
 msgctxt "Interface.ContactTradeRequest"
@@ -5224,10 +5389,10 @@ msgctxt "Interface.GameSettingsTitle"
 msgid "Game Settings"
 msgstr "游戏设置"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "你死了."
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "无效的IP地址 {0} \\n检查IP地址或URL是否有效"
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"

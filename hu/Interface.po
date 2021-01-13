@@ -676,6 +676,11 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "Részecskék minősége"
 
+#: /Language/Interface/Record[Key='SettingsSoftParticles']
+msgctxt "Interface.SettingsSoftParticles"
+msgid "Soft Particles"
+msgstr "Finom részecskék"
+
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
@@ -761,11 +766,6 @@ msgstr "Irányítás hanggal"
 msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
 msgstr "Kameraérzékenység"
-
-#: /Language/Interface/Record[Key='NotificationTitle']
-msgctxt "Interface.NotificationTitle"
-msgid "Save Successful"
-msgstr "Mentés sikeres"
 
 #: /Language/Interface/Record[Key='SaveLocationBroken']
 msgctxt "Interface.SaveLocationBroken"
@@ -1252,6 +1252,11 @@ msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "Újraéledés"
 
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "Halott vagy."
+
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -1276,11 +1281,6 @@ msgstr "Feladás"
 msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "A(z) {0} fájl érvénytelen. Ellenőrizd a(z) {1} világot."
-
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Érvénytelen IP cím {0} \\nEllenőrizd az IP címet vagy az URL  érvénytelen."
 
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
@@ -1376,11 +1376,6 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "Kedvenc"
 
-#: /Language/Interface/Record[Key='SettingsSoftParticles']
-msgctxt "Interface.SettingsSoftParticles"
-msgid "Soft Particles"
-msgstr "Finom részecskék"
-
 #: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
@@ -1465,6 +1460,11 @@ msgstr "Hajszín"
 msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Szemszín"
+
+#: /Language/Interface/Record[Key='NotificationTitle']
+msgctxt "Interface.NotificationTitle"
+msgid "Save Successful"
+msgstr "Mentés sikeres"
 
 #: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
 msgctxt "Interface.AppearanceTitleSkinColor"
@@ -1611,14 +1611,177 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderInUse']
-msgctxt "Interface.TraderInUse"
-msgid "This contact is already interacting with someone, try again soon."
-msgstr "Ez az ügyfél már valakivel kapcsolatba lépett, próbálkozz újra később."
+#: /Language/Interface/Record[Key='RoomControlTickSpeed']
+msgctxt "Interface.RoomControlTickSpeed"
+msgid "RoomControl TickSpeed"
+msgstr "RoomControl TickSpeed"
+
+#: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaTutorialListHeader"
+msgid "Tutorials"
+msgstr "Oktatóanyagok"
+
+#: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaLogicSlotHeader"
+msgid "Logic Slots\n"
+msgstr "Logikai írók"
+
+#: /Language/Interface/Record[Key='StationpediaLogicHeader']
+msgctxt "Interface.StationpediaLogicHeader"
+msgid "Logic\n"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaModeHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaModeHeader"
+msgid "Mode"
+msgstr "Játékmód"
+
+#: /Language/Interface/Record[Key='StationpediaConstructionOptions']
+#, fuzzy
+msgctxt "Interface.StationpediaConstructionOptions"
+msgid "Construction Options\n"
+msgstr "Építési készletek"
+
+#: /Language/Interface/Record[Key='StationpediaFoundIn']
+#, fuzzy
+msgctxt "Interface.StationpediaFoundIn"
+msgid "Found In"
+msgstr "Effektek"
+
+#: /Language/Interface/Record[Key='StationpediaManufactures']
+msgctxt "Interface.StationpediaManufactures"
+msgid "Manufactures"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaUsedIn']
+msgctxt "Interface.StationpediaUsedIn"
+msgid "Used In"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaResoucesHeader']
+msgctxt "Interface.StationpediaResoucesHeader"
+msgid "Resources Used"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaGasHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaGasHeader"
+msgid "Gases"
+msgstr "Gázok"
+
+#: /Language/Interface/Record[Key='StationpediaMachineVersion']
+#, fuzzy
+msgctxt "Interface.StationpediaMachineVersion"
+msgid "Versions"
+msgstr "Verzió"
+
+#: /Language/Interface/Record[Key='StationpediaBuildStates']
+#, fuzzy
+msgctxt "Interface.StationpediaBuildStates"
+msgid "Build States"
+msgstr "Kilépés a Stationeersből"
+
+#: /Language/Interface/Record[Key='StationpediaHowToManufacture']
+msgctxt "Interface.StationpediaHowToManufacture"
+msgid "How to Manufacure"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaSlotsHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaSlotsHeader"
+msgid "Slots"
+msgstr "Bővítőhelyek (slot)"
+
+#: /Language/Interface/Record[Key='StationpediaConstructedFrom']
+#, fuzzy
+msgctxt "Interface.StationpediaConstructedFrom"
+msgid "Constructed From"
+msgstr "Készítés"
+
+#: /Language/Interface/Record[Key='StationpediaAutoIgniteHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaAutoIgniteHeader"
+msgid "Autoignition:"
+msgstr "Öngyulladás:"
+
+#: /Language/Interface/Record[Key='StationpediaFlashpointHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaFlashpointHeader"
+msgid "Flashpoint:"
+msgstr "Lobbanáspont:"
+
+#: /Language/Interface/Record[Key='StationpediaShatterHeader']
+msgctxt "Interface.StationpediaShatterHeader"
+msgid "Shatter:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaHeatHeader']
+msgctxt "Interface.StationpediaHeatHeader"
+msgid "Specific Heat:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaReagentsHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaReagentsHeader"
+msgid "Reagents:"
+msgstr "Reagensek"
+
+#: /Language/Interface/Record[Key='StationpediaThingUnit']
+msgctxt "Interface.StationpediaThingUnit"
+msgid "Unit:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaStackSize']
+msgctxt "Interface.StationpediaStackSize"
+msgid "Stack Size:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaPaintable']
+#, fuzzy
+msgctxt "Interface.StationpediaPaintable"
+msgid "Paintable:"
+msgstr "Bányászhatók"
+
+#: /Language/Interface/Record[Key='StationpediaPrefabHash']
+msgctxt "Interface.StationpediaPrefabHash"
+msgid "Prefab Hash:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaConstructWith']
+#, fuzzy
+msgctxt "Interface.StationpediaConstructWith"
+msgid "Construct with:"
+msgstr "Építési készletek"
+
+#: /Language/Interface/Record[Key='StationpediaAdvancedGuides']
+#, fuzzy
+msgctxt "Interface.StationpediaAdvancedGuides"
+msgid "Advanced Guides"
+msgstr "További"
+
+#: /Language/Interface/Record[Key='StationpediaBeginnerGuides']
+msgctxt "Interface.StationpediaBeginnerGuides"
+msgid "Beginner Guides"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaSearch']
+#, fuzzy
+msgctxt "Interface.StationpediaSearch"
+msgid "Search"
+msgstr "Fejlesztés"
+
+#: /Language/Interface/Record[Key='StationpediaTitle']
+#, fuzzy
+msgctxt "Interface.StationpediaTitle"
+msgid "Stationpedia"
+msgstr "Stationeers"
 
 #: /Language/Interface/Record[Key='CableMaxPowerSPDA']
 msgctxt "Interface.CableMaxPowerSPDA"
-msgid "Maximum Voltage:"
+msgid "Maximum Wattage:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PressureKeySPDA']
@@ -1756,7 +1919,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='AdvancedTutorialButton']
 #, fuzzy
 msgctxt "Interface.AdvancedTutorialButton"
-msgid "Advanced"
+msgid "Legacy/Advanced"
 msgstr "További"
 
 #: /Language/Interface/Record[Key='FixedWeatherEventMissing']
@@ -3902,10 +4065,10 @@ msgctxt "Interface.LogicTypeTargetX"
 msgid "The target position in X dimension in world coordinates"
 msgstr "Az célpont pozíciójának X-dimenzióbeli koordinátái"
 
-#: /Language/Interface/Record[Key='RoomControlTickSpeed']
-msgctxt "Interface.RoomControlTickSpeed"
-msgid "RoomControl TickSpeed"
-msgstr "RoomControl TickSpeed"
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Leírás"
 
 #: /Language/Interface/Record[Key='OcclusionTickSpeed']
 msgctxt "Interface.OcclusionTickSpeed"
@@ -4017,10 +4180,10 @@ msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
 msgstr "Nem volt válasz."
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Leírás"
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
+msgstr "Ez az ügyfél már valakivel kapcsolatba lépett, próbálkozz újra később."
 
 #: /Language/Interface/Record[Key='ContactTradeRequest']
 msgctxt "Interface.ContactTradeRequest"
@@ -5215,10 +5378,10 @@ msgctxt "Interface.GameSettingsTitle"
 msgid "Game Settings"
 msgstr "Játékbeállítások"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "Halott vagy."
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Érvénytelen IP cím {0} \\nEllenőrizd az IP címet vagy az URL  érvénytelen."
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"

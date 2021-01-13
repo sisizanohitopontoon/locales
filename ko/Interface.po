@@ -679,6 +679,11 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "파티클 품질"
 
+#: /Language/Interface/Record[Key='SettingsSoftParticles']
+msgctxt "Interface.SettingsSoftParticles"
+msgid "Soft Particles"
+msgstr "부드러운 파티클"
+
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
@@ -764,11 +769,6 @@ msgstr "음성 인식"
 msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
 msgstr "카메라 민감도"
-
-#: /Language/Interface/Record[Key='NotificationTitle']
-msgctxt "Interface.NotificationTitle"
-msgid "Save Successful"
-msgstr "저장 성공"
 
 #: /Language/Interface/Record[Key='SaveLocationBroken']
 msgctxt "Interface.SaveLocationBroken"
@@ -1260,6 +1260,11 @@ msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "부활하기"
 
+#: /Language/Interface/Record[Key='PromptRespawnBody']
+msgctxt "Interface.PromptRespawnBody"
+msgid "You are dead."
+msgstr "당신은 사망했습니다."
+
 #: /Language/Interface/Record[Key='PromptRespawnConfirm']
 msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
@@ -1284,11 +1289,6 @@ msgstr ""
 msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr ""
-
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "{0} 잘못된 주소입니다.\\n아이피나 URL을 다시 확인해주세요."
 
 #: /Language/Interface/Record[Key='AlertNoBackups']
 msgctxt "Interface.AlertNoBackups"
@@ -1384,11 +1384,6 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "즐겨찾기추가"
 
-#: /Language/Interface/Record[Key='SettingsSoftParticles']
-msgctxt "Interface.SettingsSoftParticles"
-msgid "Soft Particles"
-msgstr "부드러운 파티클"
-
 #: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
@@ -1473,6 +1468,11 @@ msgstr "머리색"
 msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "눈색"
+
+#: /Language/Interface/Record[Key='NotificationTitle']
+msgctxt "Interface.NotificationTitle"
+msgid "Save Successful"
+msgstr "저장 성공"
 
 #: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
 msgctxt "Interface.AppearanceTitleSkinColor"
@@ -1619,14 +1619,175 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "슬롯"
 
-#: /Language/Interface/Record[Key='TraderInUse']
-msgctxt "Interface.TraderInUse"
-msgid "This contact is already interacting with someone, try again soon."
+#: /Language/Interface/Record[Key='RoomControlTickSpeed']
+msgctxt "Interface.RoomControlTickSpeed"
+msgid "RoomControl TickSpeed"
 msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaTutorialListHeader"
+msgid "Tutorials"
+msgstr "튜토리얼"
+
+#: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaLogicSlotHeader"
+msgid "Logic Slots\n"
+msgstr "논리 작성기"
+
+#: /Language/Interface/Record[Key='StationpediaLogicHeader']
+msgctxt "Interface.StationpediaLogicHeader"
+msgid "Logic\n"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaModeHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaModeHeader"
+msgid "Mode"
+msgstr "게임 포트"
+
+#: /Language/Interface/Record[Key='StationpediaConstructionOptions']
+#, fuzzy
+msgctxt "Interface.StationpediaConstructionOptions"
+msgid "Construction Options\n"
+msgstr "건설 키트"
+
+#: /Language/Interface/Record[Key='StationpediaFoundIn']
+#, fuzzy
+msgctxt "Interface.StationpediaFoundIn"
+msgid "Found In"
+msgstr "사운드"
+
+#: /Language/Interface/Record[Key='StationpediaManufactures']
+msgctxt "Interface.StationpediaManufactures"
+msgid "Manufactures"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaUsedIn']
+msgctxt "Interface.StationpediaUsedIn"
+msgid "Used In"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaResoucesHeader']
+msgctxt "Interface.StationpediaResoucesHeader"
+msgid "Resources Used"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaGasHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaGasHeader"
+msgid "Gases"
+msgstr "기체"
+
+#: /Language/Interface/Record[Key='StationpediaMachineVersion']
+#, fuzzy
+msgctxt "Interface.StationpediaMachineVersion"
+msgid "Versions"
+msgstr "버전"
+
+#: /Language/Interface/Record[Key='StationpediaBuildStates']
+#, fuzzy
+msgctxt "Interface.StationpediaBuildStates"
+msgid "Build States"
+msgstr "게임 종료"
+
+#: /Language/Interface/Record[Key='StationpediaHowToManufacture']
+msgctxt "Interface.StationpediaHowToManufacture"
+msgid "How to Manufacure"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaSlotsHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaSlotsHeader"
+msgid "Slots"
+msgstr "슬롯"
+
+#: /Language/Interface/Record[Key='StationpediaConstructedFrom']
+#, fuzzy
+msgctxt "Interface.StationpediaConstructedFrom"
+msgid "Constructed From"
+msgstr "건설"
+
+#: /Language/Interface/Record[Key='StationpediaAutoIgniteHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaAutoIgniteHeader"
+msgid "Autoignition:"
+msgstr "주의"
+
+#: /Language/Interface/Record[Key='StationpediaFlashpointHeader']
+msgctxt "Interface.StationpediaFlashpointHeader"
+msgid "Flashpoint:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaShatterHeader']
+msgctxt "Interface.StationpediaShatterHeader"
+msgid "Shatter:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaHeatHeader']
+msgctxt "Interface.StationpediaHeatHeader"
+msgid "Specific Heat:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaReagentsHeader']
+#, fuzzy
+msgctxt "Interface.StationpediaReagentsHeader"
+msgid "Reagents:"
+msgstr "재료"
+
+#: /Language/Interface/Record[Key='StationpediaThingUnit']
+msgctxt "Interface.StationpediaThingUnit"
+msgid "Unit:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaStackSize']
+msgctxt "Interface.StationpediaStackSize"
+msgid "Stack Size:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaPaintable']
+msgctxt "Interface.StationpediaPaintable"
+msgid "Paintable:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaPrefabHash']
+msgctxt "Interface.StationpediaPrefabHash"
+msgid "Prefab Hash:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaConstructWith']
+#, fuzzy
+msgctxt "Interface.StationpediaConstructWith"
+msgid "Construct with:"
+msgstr "건설 키트"
+
+#: /Language/Interface/Record[Key='StationpediaAdvancedGuides']
+#, fuzzy
+msgctxt "Interface.StationpediaAdvancedGuides"
+msgid "Advanced Guides"
+msgstr "고급 설정"
+
+#: /Language/Interface/Record[Key='StationpediaBeginnerGuides']
+msgctxt "Interface.StationpediaBeginnerGuides"
+msgid "Beginner Guides"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaSearch']
+#, fuzzy
+msgctxt "Interface.StationpediaSearch"
+msgid "Search"
+msgstr "복구"
+
+#: /Language/Interface/Record[Key='StationpediaTitle']
+#, fuzzy
+msgctxt "Interface.StationpediaTitle"
+msgid "Stationpedia"
+msgstr "스테이셔니어"
 
 #: /Language/Interface/Record[Key='CableMaxPowerSPDA']
 msgctxt "Interface.CableMaxPowerSPDA"
-msgid "Maximum Voltage:"
+msgid "Maximum Wattage:"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PressureKeySPDA']
@@ -1764,7 +1925,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='AdvancedTutorialButton']
 #, fuzzy
 msgctxt "Interface.AdvancedTutorialButton"
-msgid "Advanced"
+msgid "Legacy/Advanced"
 msgstr "고급 설정"
 
 #: /Language/Interface/Record[Key='FixedWeatherEventMissing']
@@ -3961,10 +4122,10 @@ msgctxt "Interface.LogicTypeTargetX"
 msgid "The target position in X dimension in world coordinates"
 msgstr ""
 
-#: /Language/Interface/Record[Key='RoomControlTickSpeed']
-msgctxt "Interface.RoomControlTickSpeed"
-msgid "RoomControl TickSpeed"
-msgstr ""
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Description"
 
 #: /Language/Interface/Record[Key='OcclusionTickSpeed']
 msgctxt "Interface.OcclusionTickSpeed"
@@ -4078,10 +4239,10 @@ msgctxt "Interface.ContactNoResponse"
 msgid "There was no response."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Description"
+#: /Language/Interface/Record[Key='TraderInUse']
+msgctxt "Interface.TraderInUse"
+msgid "This contact is already interacting with someone, try again soon."
+msgstr ""
 
 #: /Language/Interface/Record[Key='ContactTradeRequest']
 msgctxt "Interface.ContactTradeRequest"
@@ -5305,10 +5466,10 @@ msgctxt "Interface.GameSettingsTitle"
 msgid "Game Settings"
 msgstr "Game Settings"
 
-#: /Language/Interface/Record[Key='PromptRespawnBody']
-msgctxt "Interface.PromptRespawnBody"
-msgid "You are dead."
-msgstr "당신은 사망했습니다."
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "{0} 잘못된 주소입니다.\\n아이피나 URL을 다시 확인해주세요."
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"
