@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldAtmosphere']
-msgctxt "Interface.WorldAtmosphere"
-msgid "Atmosphere"
-msgstr "Атмосфера"
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Описание"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -348,6 +348,11 @@ msgstr ""
 "Лоулан, по прибытии вы заметите плотную атмосферу, достаточно высокое давление, чтобы выжить - но этого мало. Песчаный гигант расположен в системе Гаргантюан, каждый день приближается к черной дыре,"
 " расположенной в центре. Так как эта планета заброшена, она больше не цветет, но на ней по-прежнему поддерживается атмосфера, и перед вами стоит задача исследовать пустоши, чтобы найти материалы и "
 "ресурсы, необходимые для выживания в этой вечной пустыне."
+
+#: /Language/Interface/Record[Key='NewWorldAreaVenus']
+msgctxt "Interface.NewWorldAreaVenus"
+msgid "Venus"
+msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldAreaMars']
 msgctxt "Interface.NewWorldAreaMars"
@@ -770,6 +775,11 @@ msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
 msgstr "Чувствительность камеры"
 
+#: /Language/Interface/Record[Key='NotificationTitle']
+msgctxt "Interface.NotificationTitle"
+msgid "Save Successful"
+msgstr "Успешно сохранено"
+
 #: /Language/Interface/Record[Key='SaveLocationBroken']
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
@@ -779,11 +789,6 @@ msgstr "Не удается получить доступ к сохранени�
 msgctxt "Interface.AlertButtonClose"
 msgid "Close"
 msgstr "Закрыть"
-
-#: /Language/Interface/Record[Key='AlertButtonTitle']
-msgctxt "Interface.AlertButtonTitle"
-msgid "Attention"
-msgstr "Внимание"
 
 #: /Language/Interface/Record[Key='ServerSettingsButtonReset']
 msgctxt "Interface.ServerSettingsButtonReset"
@@ -1284,10 +1289,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "Файл {0} неисправен. Проверьте мир {1}."
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Папка резервных копий пуста или отсутсвует."
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Неверный IP адрес {0} \\nУбедитесь, что IP адрес или URL корректный"
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1463,11 +1468,6 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Цвет глаз"
 
-#: /Language/Interface/Record[Key='NotificationTitle']
-msgctxt "Interface.NotificationTitle"
-msgid "Save Successful"
-msgstr "Успешно сохранено"
-
 #: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
 msgctxt "Interface.AppearanceTitleSkinColor"
 msgid "Skin Colour"
@@ -1482,6 +1482,11 @@ msgstr "Борода (Усы)"
 msgctxt "Interface.SettingsStartingCondition"
 msgid "Starting Condition"
 msgstr "Состояние на старте"
+
+#: /Language/Interface/Record[Key='AlertButtonTitle']
+msgctxt "Interface.AlertButtonTitle"
+msgid "Attention"
+msgstr "Внимание"
 
 #: /Language/Interface/Record[Key='SettingsTitleGameSettings']
 msgctxt "Interface.SettingsTitleGameSettings"
@@ -1553,11 +1558,6 @@ msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "Предустановки"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Название мира"
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1613,10 +1613,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Слот"
 
-#: /Language/Interface/Record[Key='RoomControlTickSpeed']
-msgctxt "Interface.RoomControlTickSpeed"
-msgid "RoomControl TickSpeed"
-msgstr "RoomControl TickSpeed"
+#: /Language/Interface/Record[Key='Experiments']
+msgctxt "Interface.Experiments"
+msgid "Experiments"
+msgstr "Эксперименты"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 #, fuzzy
@@ -4068,20 +4068,20 @@ msgctxt "Interface.LogicTypeTargetX"
 msgid "The target position in X dimension in world coordinates"
 msgstr "Текущая позиция по оси X в мировых координатах"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Описание"
+#: /Language/Interface/Record[Key='RoomControlTickSpeed']
+msgctxt "Interface.RoomControlTickSpeed"
+msgid "RoomControl TickSpeed"
+msgstr "RoomControl TickSpeed"
 
 #: /Language/Interface/Record[Key='OcclusionTickSpeed']
 msgctxt "Interface.OcclusionTickSpeed"
 msgid "Occlusion TickSpeed"
 msgstr "Скрытая скорость тика"
 
-#: /Language/Interface/Record[Key='Experiments']
-msgctxt "Interface.Experiments"
-msgid "Experiments"
-msgstr "Эксперименты"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Название мира"
 
 #: /Language/Interface/Record[Key='BackupMenuFileListTitle']
 msgctxt "Interface.BackupMenuFileListTitle"
@@ -4176,9 +4176,31 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr "Торговый терминал"
 
+#: /Language/Interface/Record[Key='ContactLandingRequestFailStorm']
+msgctxt "Interface.ContactLandingRequestFailStorm"
+msgid "Trader is unable to travel in this storm."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
+msgctxt "Interface.ContactLandingRequestFailSatellite"
+msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
+msgctxt "Interface.ContactLandingRequestFailVendingMachine"
+msgid "You need a powered Vending Machine on the network to interact with this trader."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
+#, fuzzy
+msgctxt "Interface.ContactTradeRequestFailInUse"
+msgid "Somebody is already interacting with this Trader, try again soon."
+msgstr "Этот контакт уже взаимодействует с кем-то, попробуйте чуть позже."
+
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
+#, fuzzy
 msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
+msgid "Trader requesting safe landing. A powered landing pad is required to continue."
 msgstr "Торговец запрашивает безопасную посадку. Убедитесь, что место посадки свободное и подключено к сети, так же потребуется склад."
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
@@ -5045,6 +5067,11 @@ msgstr ""
 "\n"
 "      "
 
+#: /Language/Interface/Record[Key='NewWorldVenusShortDesc']
+msgctxt "Interface.NewWorldVenusShortDesc"
+msgid "Venus planet!"
+msgstr ""
+
 #: /Language/Interface/Record[Key='NewWorldSpaceShortDesc']
 msgctxt "Interface.NewWorldSpaceShortDesc"
 msgid "While there's no gravity or atmosphere, at least there's a lot of space to build!  You'll find yourself amongst several asteroids that may contain various ores and ices you can use to survive out here."
@@ -5397,10 +5424,15 @@ msgctxt "Interface.GameSettingsTitle"
 msgid "Game Settings"
 msgstr "Настройки игры"
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Неверный IP адрес {0} \\nУбедитесь, что IP адрес или URL корректный"
+#: /Language/Interface/Record[Key='WorldAtmosphere']
+msgctxt "Interface.WorldAtmosphere"
+msgid "Atmosphere"
+msgstr "Атмосфера"
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Папка резервных копий пуста или отсутсвует."
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"

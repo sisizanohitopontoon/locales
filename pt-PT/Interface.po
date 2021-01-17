@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldAtmosphere']
-msgctxt "Interface.WorldAtmosphere"
-msgid "Atmosphere"
-msgstr "Atmosfera"
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Descrição"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 #, fuzzy
@@ -350,6 +350,11 @@ msgstr "Loulan"
 msgctxt "Interface.LoulanShortDesc"
 msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
 msgstr "Loulan, ao chegar notará uma atmosfera respirável, alta o suficiente para sustentar vida - mas uma severa falta desta. Este gigante de areia está situado no sistema Gargantuan, movendo-se cada dia mais perto para o buraco negro situado no centro. Mesmo abandonado e não mais verde ou cheio de água, este planeta ainda tem uma atmosfera funcional, sendo a sua tarefa a busca de materiais e recursos por este terreno abandonado, de forma a sobreviver neste deserto infinito."
+
+#: /Language/Interface/Record[Key='NewWorldAreaVenus']
+msgctxt "Interface.NewWorldAreaVenus"
+msgid "Venus"
+msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldAreaMars']
 msgctxt "Interface.NewWorldAreaMars"
@@ -773,6 +778,11 @@ msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
 msgstr "Sensibilidade da Câmara"
 
+#: /Language/Interface/Record[Key='NotificationTitle']
+msgctxt "Interface.NotificationTitle"
+msgid "Save Successful"
+msgstr "Gravado com sucesso"
+
 #: /Language/Interface/Record[Key='SaveLocationBroken']
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
@@ -782,11 +792,6 @@ msgstr "Não foi possível acessar o local de arquivos salvos, você está usand
 msgctxt "Interface.AlertButtonClose"
 msgid "Close"
 msgstr "Fechar"
-
-#: /Language/Interface/Record[Key='AlertButtonTitle']
-msgctxt "Interface.AlertButtonTitle"
-msgid "Attention"
-msgstr "Atenção"
 
 #: /Language/Interface/Record[Key='ServerSettingsButtonReset']
 msgctxt "Interface.ServerSettingsButtonReset"
@@ -1295,10 +1300,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "O arquivo {0} é invalido. Verifique o mundo {1}."
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "A pasta de Backups não existe ou está vazia."
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "O endereço de IP é inválido {0} \\nVerifique se o endereço de IP ou o URL é válido"
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1477,11 +1482,6 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Cor dos Olhos"
 
-#: /Language/Interface/Record[Key='NotificationTitle']
-msgctxt "Interface.NotificationTitle"
-msgid "Save Successful"
-msgstr "Gravado com sucesso"
-
 #: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
 msgctxt "Interface.AppearanceTitleSkinColor"
 msgid "Skin Colour"
@@ -1496,6 +1496,11 @@ msgstr "Pêlos Faciais"
 msgctxt "Interface.SettingsStartingCondition"
 msgid "Starting Condition"
 msgstr "Condições de Inicio"
+
+#: /Language/Interface/Record[Key='AlertButtonTitle']
+msgctxt "Interface.AlertButtonTitle"
+msgid "Attention"
+msgstr "Atenção"
 
 #: /Language/Interface/Record[Key='SettingsTitleGameSettings']
 msgctxt "Interface.SettingsTitleGameSettings"
@@ -1567,11 +1572,6 @@ msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "Predefinição"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Nome do Mundo"
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1629,10 +1629,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='RoomControlTickSpeed']
-msgctxt "Interface.RoomControlTickSpeed"
-msgid "RoomControl TickSpeed"
-msgstr "RoomControl TickSpeed"
+#: /Language/Interface/Record[Key='Experiments']
+msgctxt "Interface.Experiments"
+msgid "Experiments"
+msgstr "Experimentos"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 #, fuzzy
@@ -4108,20 +4108,20 @@ msgctxt "Interface.LogicTypeTargetX"
 msgid "The target position in X dimension in world coordinates"
 msgstr "A posição X do alvo nas coordenadas do mundo"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Descrição"
+#: /Language/Interface/Record[Key='RoomControlTickSpeed']
+msgctxt "Interface.RoomControlTickSpeed"
+msgid "RoomControl TickSpeed"
+msgstr "RoomControl TickSpeed"
 
 #: /Language/Interface/Record[Key='OcclusionTickSpeed']
 msgctxt "Interface.OcclusionTickSpeed"
 msgid "Occlusion TickSpeed"
 msgstr "Oclusão TickSpeed"
 
-#: /Language/Interface/Record[Key='Experiments']
-msgctxt "Interface.Experiments"
-msgid "Experiments"
-msgstr "Experimentos"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Nome do Mundo"
 
 #: /Language/Interface/Record[Key='BackupMenuFileListTitle']
 msgctxt "Interface.BackupMenuFileListTitle"
@@ -4214,9 +4214,31 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr "Terminal de Comércio"
 
+#: /Language/Interface/Record[Key='ContactLandingRequestFailStorm']
+msgctxt "Interface.ContactLandingRequestFailStorm"
+msgid "Trader is unable to travel in this storm."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
+msgctxt "Interface.ContactLandingRequestFailSatellite"
+msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
+msgctxt "Interface.ContactLandingRequestFailVendingMachine"
+msgid "You need a powered Vending Machine on the network to interact with this trader."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
+#, fuzzy
+msgctxt "Interface.ContactTradeRequestFailInUse"
+msgid "Somebody is already interacting with this Trader, try again soon."
+msgstr "Este contacto já está interagindo com alguém, tente novamente em breve."
+
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
+#, fuzzy
 msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
+msgid "Trader requesting safe landing. A powered landing pad is required to continue."
 msgstr "Comerciante solicitando pouso seguro. Verifique se o espaço de pouso está limpo e conectado. Uma máquina de venda automática também é necessária para processar uma negociação."
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
@@ -5081,6 +5103,11 @@ msgctxt "Interface.NewWorldEuropaShortDesc"
 msgid "Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents a serious challenge for the stationeers.The extreme cold will cause batteries to rapidly lose power, so getting a steady power source and warm location are your priorities."
 msgstr "O derretimento de algum gelo neste mundo frio, deu-lhe finalmente uma atmosfera, mas o seu ambiente extremamente gélido apresenta algumas dificuldades aos stationeers. O frio extremo irá drenar rapidamente as baterias, então obter uma fonte estável de energia e um lugar quente, são as tuas prioridades."
 
+#: /Language/Interface/Record[Key='NewWorldVenusShortDesc']
+msgctxt "Interface.NewWorldVenusShortDesc"
+msgid "Venus planet!"
+msgstr ""
+
 #: /Language/Interface/Record[Key='NewWorldSpaceShortDesc']
 msgctxt "Interface.NewWorldSpaceShortDesc"
 msgid "While there's no gravity or atmosphere, at least there's a lot of space to build!  You'll find yourself amongst several asteroids that may contain various ores and ices you can use to survive out here."
@@ -5433,10 +5460,15 @@ msgctxt "Interface.GameSettingsTitle"
 msgid "Game Settings"
 msgstr "Definições do Jogo"
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "O endereço de IP é inválido {0} \\nVerifique se o endereço de IP ou o URL é válido"
+#: /Language/Interface/Record[Key='WorldAtmosphere']
+msgctxt "Interface.WorldAtmosphere"
+msgid "Atmosphere"
+msgstr "Atmosfera"
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "A pasta de Backups não existe ou está vazia."
 
 #~ msgctxt "Interface.ScriptCommandLR"
 #~ msgid "Loads reagent of device's reagentMode to register."

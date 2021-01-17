@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldAtmosphere']
-msgctxt "Interface.WorldAtmosphere"
-msgid "Atmosphere"
-msgstr "Atmosphere"
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Description"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -345,6 +345,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LoulanShortDesc']
 msgctxt "Interface.LoulanShortDesc"
 msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
+msgstr ""
+
+#: /Language/Interface/Record[Key='NewWorldAreaVenus']
+msgctxt "Interface.NewWorldAreaVenus"
+msgid "Venus"
 msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldAreaMars']
@@ -770,6 +775,11 @@ msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
 msgstr "카메라 민감도"
 
+#: /Language/Interface/Record[Key='NotificationTitle']
+msgctxt "Interface.NotificationTitle"
+msgid "Save Successful"
+msgstr "저장 성공"
+
 #: /Language/Interface/Record[Key='SaveLocationBroken']
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
@@ -779,11 +789,6 @@ msgstr ""
 msgctxt "Interface.AlertButtonClose"
 msgid "Close"
 msgstr "닫기"
-
-#: /Language/Interface/Record[Key='AlertButtonTitle']
-msgctxt "Interface.AlertButtonTitle"
-msgid "Attention"
-msgstr "주의"
 
 #: /Language/Interface/Record[Key='ServerSettingsButtonReset']
 msgctxt "Interface.ServerSettingsButtonReset"
@@ -1290,10 +1295,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr ""
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "{0} 잘못된 주소입니다.\\n아이피나 URL을 다시 확인해주세요."
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1469,11 +1474,6 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "눈색"
 
-#: /Language/Interface/Record[Key='NotificationTitle']
-msgctxt "Interface.NotificationTitle"
-msgid "Save Successful"
-msgstr "저장 성공"
-
 #: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
 msgctxt "Interface.AppearanceTitleSkinColor"
 msgid "Skin Colour"
@@ -1488,6 +1488,11 @@ msgstr "수염"
 msgctxt "Interface.SettingsStartingCondition"
 msgid "Starting Condition"
 msgstr "시작 조건"
+
+#: /Language/Interface/Record[Key='AlertButtonTitle']
+msgctxt "Interface.AlertButtonTitle"
+msgid "Attention"
+msgstr "주의"
 
 #: /Language/Interface/Record[Key='SettingsTitleGameSettings']
 msgctxt "Interface.SettingsTitleGameSettings"
@@ -1559,11 +1564,6 @@ msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "Preset"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "World Name"
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1619,9 +1619,9 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "슬롯"
 
-#: /Language/Interface/Record[Key='RoomControlTickSpeed']
-msgctxt "Interface.RoomControlTickSpeed"
-msgid "RoomControl TickSpeed"
+#: /Language/Interface/Record[Key='Experiments']
+msgctxt "Interface.Experiments"
+msgid "Experiments"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
@@ -4122,20 +4122,20 @@ msgctxt "Interface.LogicTypeTargetX"
 msgid "The target position in X dimension in world coordinates"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Description"
+#: /Language/Interface/Record[Key='RoomControlTickSpeed']
+msgctxt "Interface.RoomControlTickSpeed"
+msgid "RoomControl TickSpeed"
+msgstr ""
 
 #: /Language/Interface/Record[Key='OcclusionTickSpeed']
 msgctxt "Interface.OcclusionTickSpeed"
 msgid "Occlusion TickSpeed"
 msgstr ""
 
-#: /Language/Interface/Record[Key='Experiments']
-msgctxt "Interface.Experiments"
-msgid "Experiments"
-msgstr ""
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "World Name"
 
 #: /Language/Interface/Record[Key='BackupMenuFileListTitle']
 #, fuzzy
@@ -4229,9 +4229,29 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ContactLandingRequestFailStorm']
+msgctxt "Interface.ContactLandingRequestFailStorm"
+msgid "Trader is unable to travel in this storm."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
+msgctxt "Interface.ContactLandingRequestFailSatellite"
+msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
+msgctxt "Interface.ContactLandingRequestFailVendingMachine"
+msgid "You need a powered Vending Machine on the network to interact with this trader."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
+msgctxt "Interface.ContactTradeRequestFailInUse"
+msgid "Somebody is already interacting with this Trader, try again soon."
+msgstr ""
+
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 msgctxt "Interface.ContactTradeRequestFail"
-msgid "Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade."
+msgid "Trader requesting safe landing. A powered landing pad is required to continue."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
@@ -5109,6 +5129,11 @@ msgctxt "Interface.NewWorldEuropaShortDesc"
 msgid "Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents a serious challenge for the stationeers.The extreme cold will cause batteries to rapidly lose power, so getting a steady power source and warm location are your priorities."
 msgstr ""
 
+#: /Language/Interface/Record[Key='NewWorldVenusShortDesc']
+msgctxt "Interface.NewWorldVenusShortDesc"
+msgid "Venus planet!"
+msgstr ""
+
 #: /Language/Interface/Record[Key='NewWorldSpaceShortDesc']
 msgctxt "Interface.NewWorldSpaceShortDesc"
 msgid "While there's no gravity or atmosphere, at least there's a lot of space to build!  You'll find yourself amongst several asteroids that may contain various ores and ices you can use to survive out here."
@@ -5466,10 +5491,15 @@ msgctxt "Interface.GameSettingsTitle"
 msgid "Game Settings"
 msgstr "Game Settings"
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "{0} 잘못된 주소입니다.\\n아이피나 URL을 다시 확인해주세요."
+#: /Language/Interface/Record[Key='WorldAtmosphere']
+msgctxt "Interface.WorldAtmosphere"
+msgid "Atmosphere"
+msgstr "Atmosphere"
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr ""
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"
