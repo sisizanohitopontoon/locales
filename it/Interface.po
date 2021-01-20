@@ -758,11 +758,6 @@ msgctxt "Interface.SettingsVoiceNotifications"
 msgid "Voice Notifications"
 msgstr "Notifiche vocali"
 
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Configurazione controlli"
-
 #: /Language/Interface/Record[Key='SettingsTitleMisc']
 msgctxt "Interface.SettingsTitleMisc"
 msgid "Misc Settings"
@@ -792,6 +787,11 @@ msgstr "Salvataggio riuscito"
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
 msgstr ""
+
+#: /Language/Interface/Record[Key='AlertButtonClose']
+msgctxt "Interface.AlertButtonClose"
+msgid "Close"
+msgstr "Chiudi"
 
 #: /Language/Interface/Record[Key='AlertButtonTitle']
 msgctxt "Interface.AlertButtonTitle"
@@ -1460,6 +1460,11 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Cambia aspetto"
 
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Configurazione controlli"
+
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
 msgid "Gender"
@@ -1494,11 +1499,6 @@ msgstr "Colore pelle"
 msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Barba"
-
-#: /Language/Interface/Record[Key='AlertButtonClose']
-msgctxt "Interface.AlertButtonClose"
-msgid "Close"
-msgstr "Chiudi"
 
 #: /Language/Interface/Record[Key='SettingsStartingCondition']
 msgctxt "Interface.SettingsStartingCondition"
@@ -1633,10 +1633,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LoadBackupsTitle']
-msgctxt "Interface.LoadBackupsTitle"
-msgid "Load Backup"
-msgstr "Carica backup"
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Kolders' Goods"
+msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 #, fuzzy
@@ -4193,10 +4193,10 @@ msgctxt "Interface.BackupMenuFileListTitle"
 msgid "Backups"
 msgstr "Backup"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Nome del Mondo"
+#: /Language/Interface/Record[Key='LoadBackupsTitle']
+msgctxt "Interface.LoadBackupsTitle"
+msgid "Load Backup"
+msgstr "Carica backup"
 
 #: /Language/Interface/Record[Key='ButtonContact']
 msgctxt "Interface.ButtonContact"
@@ -4213,10 +4213,10 @@ msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderOther']
-msgctxt "Interface.TraderOther"
-msgid "Kolders' Goods"
-msgstr ""
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Nome del Mondo"
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
@@ -5170,7 +5170,7 @@ msgstr "Lo scioglimento di parte dei ghiacci su questo freddo mondo gli ha final
 
 #: /Language/Interface/Record[Key='NewWorldVenusShortDesc']
 msgctxt "Interface.NewWorldVenusShortDesc"
-msgid "Venus planet!"
+msgid "Extreme temperatures and ultra-high pressures make Venus no place for the faint-hearted. Only the most accomplished Stationeers will survive on our once-sister planet, now a barren rock. Dig deep, or go home."
 msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldSpaceShortDesc']
@@ -5181,14 +5181,15 @@ msgstr "Non ci sono gravità o atmosfera, ma almeno è pieno di spazio per costr
 #: /Language/Interface/Record[Key='NewWorldMoonShortDesc']
 #, fuzzy
 msgctxt "Interface.NewWorldMoonShortDesc"
-msgid "While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape.A great location for the budding stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds"
+msgid "While the presence of coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape. A great location for the budding Stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds"
 msgstr ""
 "Mentre la presenza di carbone non è tipica della Luna terrestre, la sua piatta superficie piena di crateri di varie dimensioni e l'assenza di atmosfera dovrebbero essere più familiari in questo "
 "grigio paesaggio."
 
 #: /Language/Interface/Record[Key='NewWorldMarsShortDesc']
+#, fuzzy
 msgctxt "Interface.NewWorldMarsShortDesc"
-msgid "A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something..."
+msgid "A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something ..."
 msgstr "Una palla rossa polverosa e desolata, Marte è caratterizzato da una superficie più varia che può anche proiettarsi verso il cielo, ed un'atmosfera fredda che non può essere respirata, ma forse può essere utile per qualcosa..."
 
 #: /Language/Interface/Record[Key='NewWorldAreaMimas']

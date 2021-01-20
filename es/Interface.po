@@ -746,11 +746,6 @@ msgctxt "Interface.SettingsVoiceNotifications"
 msgid "Voice Notifications"
 msgstr "Notificaciones de Voz"
 
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Editar Teclas"
-
 #: /Language/Interface/Record[Key='SettingsTitleMisc']
 msgctxt "Interface.SettingsTitleMisc"
 msgid "Misc Settings"
@@ -780,6 +775,11 @@ msgstr "Se ha Guardado Correctamente"
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
 msgstr "No se puede acceder a la ubicación de los archivos guardados, ¿está usando un carácter no válido? Intente cambiar el directorio de guardar en Configuración."
+
+#: /Language/Interface/Record[Key='AlertButtonClose']
+msgctxt "Interface.AlertButtonClose"
+msgid "Close"
+msgstr "Cancelar"
 
 #: /Language/Interface/Record[Key='AlertButtonTitle']
 msgctxt "Interface.AlertButtonTitle"
@@ -1438,6 +1438,11 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Cambiar de Apariencia"
 
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Editar Teclas"
+
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
 msgid "Gender"
@@ -1472,11 +1477,6 @@ msgstr "Color de Piel"
 msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Vello Facial"
-
-#: /Language/Interface/Record[Key='AlertButtonClose']
-msgctxt "Interface.AlertButtonClose"
-msgid "Close"
-msgstr "Cancelar"
 
 #: /Language/Interface/Record[Key='SettingsStartingCondition']
 msgctxt "Interface.SettingsStartingCondition"
@@ -1608,10 +1608,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Ranura"
 
-#: /Language/Interface/Record[Key='LoadBackupsTitle']
-msgctxt "Interface.LoadBackupsTitle"
-msgid "Load Backup"
-msgstr "Cargar copia de seguridad"
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Kolders' Goods"
+msgstr "Kolders' Goods"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 msgctxt "Interface.StationpediaTutorialListHeader"
@@ -4089,10 +4089,10 @@ msgctxt "Interface.BackupMenuFileListTitle"
 msgid "Backups"
 msgstr "Copias de Seguridad"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Nombre del Mundo"
+#: /Language/Interface/Record[Key='LoadBackupsTitle']
+msgctxt "Interface.LoadBackupsTitle"
+msgid "Load Backup"
+msgstr "Cargar copia de seguridad"
 
 #: /Language/Interface/Record[Key='ButtonContact']
 msgctxt "Interface.ButtonContact"
@@ -4109,10 +4109,10 @@ msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr "Gassy Trade"
 
-#: /Language/Interface/Record[Key='TraderOther']
-msgctxt "Interface.TraderOther"
-msgid "Kolders' Goods"
-msgstr "Kolders' Goods"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Nombre del Mundo"
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
@@ -5070,8 +5070,8 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldVenusShortDesc']
 msgctxt "Interface.NewWorldVenusShortDesc"
-msgid "Venus planet!"
-msgstr "¡Planeta Venus!"
+msgid "Extreme temperatures and ultra-high pressures make Venus no place for the faint-hearted. Only the most accomplished Stationeers will survive on our once-sister planet, now a barren rock. Dig deep, or go home."
+msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldSpaceShortDesc']
 msgctxt "Interface.NewWorldSpaceShortDesc"
@@ -5079,13 +5079,15 @@ msgid "While there's no gravity or atmosphere, at least there's a lot of space t
 msgstr "Aunque no hay gravedad ni atmósfera, al menos hay mucho espacio para construir!  Te encontrarás entre varios asteroides que pueden contener varios minerales y hielos que puedes usar para sobrevivir aquí."
 
 #: /Language/Interface/Record[Key='NewWorldMoonShortDesc']
+#, fuzzy
 msgctxt "Interface.NewWorldMoonShortDesc"
-msgid "While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape.A great location for the budding stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds"
+msgid "While the presence of coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape. A great location for the budding Stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds"
 msgstr "Mientras que la presencia de carbón no es típica de la Luna de la Tierra, el terreno relativamente llano lleno de cráteres de varios tamaños y la falta de atmósfera puede ser más familiar en este paisaje gris. Un gran lugar para el stationeer en formación para comenzar su viaje, con menos de los peligros y complejidades que se ofrecen en los mundos más exóticos"
 
 #: /Language/Interface/Record[Key='NewWorldMarsShortDesc']
+#, fuzzy
 msgctxt "Interface.NewWorldMarsShortDesc"
-msgid "A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something..."
+msgid "A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something ..."
 msgstr "Una esfera roja y polvorienta desolada, Marte presenta un terreno más variado que puede llegar hasta el cielo, y una atmósfera fría que no es buena para respirar, pero tal vez se pueda usar para algo..."
 
 #: /Language/Interface/Record[Key='NewWorldAreaMimas']
@@ -5429,6 +5431,10 @@ msgstr "Atmósfera"
 msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
 msgstr "Falta la carpeta de copias de seguridad o está vacía."
+
+#~ msgctxt "Interface.NewWorldVenusShortDesc"
+#~ msgid "Venus planet!"
+#~ msgstr "¡Planeta Venus!"
 
 #~ msgctxt "Interface.ScriptCommandLR"
 #~ msgid "Loads reagent of device's reagentMode to register."
