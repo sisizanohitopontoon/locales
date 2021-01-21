@@ -745,11 +745,6 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Ceľková Hlasitosť"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Mixér"
-
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -759,6 +754,11 @@ msgstr "Zvuk"
 msgctxt "Interface.SettingsVoiceNotifications"
 msgid "Voice Notifications"
 msgstr "Zvukové Notifikácie"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Keybinds"
 
 #: /Language/Interface/Record[Key='SettingsTitleMisc']
 msgctxt "Interface.SettingsTitleMisc"
@@ -1450,6 +1450,11 @@ msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "Version:"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Mixér"
+
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
@@ -1464,11 +1469,6 @@ msgstr "Players:"
 msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Change Appearance"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Keybinds"
 
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
@@ -1638,9 +1638,9 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderOther']
-msgctxt "Interface.TraderOther"
-msgid "Kolders' Goods"
+#: /Language/Interface/Record[Key='TraderTool']
+msgctxt "Interface.TraderTool"
+msgid "Tool Corp"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
@@ -1710,7 +1710,7 @@ msgstr "Opustiť Stationeers"
 
 #: /Language/Interface/Record[Key='StationpediaHowToManufacture']
 msgctxt "Interface.StationpediaHowToManufacture"
-msgid "How to Manufacure"
+msgid "How to Manufacture"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaSlotsHeader']
@@ -4182,20 +4182,20 @@ msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "World Name"
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Kolders' Goods"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
 msgid "Hall Corp"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderTool']
-msgctxt "Interface.TraderTool"
-msgid "Tool Corp"
-msgstr ""
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "World Name"
 
 #: /Language/Interface/Record[Key='TraderPaint']
 msgctxt "Interface.TraderPaint"
@@ -5092,10 +5092,22 @@ msgctxt "Interface.ConnectionWaste"
 msgid "Waste"
 msgstr "Waste"
 
+#: /Language/Interface/Record[Key='ConnectionOutput2']
+#, fuzzy
+msgctxt "Interface.ConnectionOutput2"
+msgid "Output 2"
+msgstr "Output"
+
 #: /Language/Interface/Record[Key='ConnectionOutput']
 msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr "Output"
+
+#: /Language/Interface/Record[Key='ConnectionInput2']
+#, fuzzy
+msgctxt "Interface.ConnectionInput2"
+msgid "Input 2"
+msgstr "Input"
 
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
