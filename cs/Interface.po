@@ -731,6 +731,11 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Hlavní hlasitost"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Směšovač"
+
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -740,11 +745,6 @@ msgstr "Zvuk"
 msgctxt "Interface.SettingsVoiceNotifications"
 msgid "Voice Notifications"
 msgstr "Hlasová upozornění"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Klávesové zkratky"
 
 #: /Language/Interface/Record[Key='SettingsTitleMisc']
 msgctxt "Interface.SettingsTitleMisc"
@@ -1425,11 +1425,6 @@ msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "Verze:"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Směšovač"
-
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
@@ -1444,6 +1439,11 @@ msgstr "Hráči:"
 msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Změnit vzhled"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Klávesové zkratky"
 
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
@@ -1610,10 +1610,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Slot"
 
-#: /Language/Interface/Record[Key='TraderTool']
-msgctxt "Interface.TraderTool"
-msgid "Tool Corp"
-msgstr "Prodejce nástrojů"
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Kolders' Goods"
+msgstr "Koldersovo zboží"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 msgctxt "Interface.StationpediaTutorialListHeader"
@@ -1678,7 +1678,7 @@ msgstr "Stavy sestavení"
 #: /Language/Interface/Record[Key='StationpediaHowToManufacture']
 #, fuzzy
 msgctxt "Interface.StationpediaHowToManufacture"
-msgid "How to Manufacture"
+msgid "How to Manufacure"
 msgstr "Jak vyrobit"
 
 #: /Language/Interface/Record[Key='StationpediaSlotsHeader']
@@ -4112,20 +4112,20 @@ msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr "Plynárenský obchod"
 
-#: /Language/Interface/Record[Key='TraderOther']
-msgctxt "Interface.TraderOther"
-msgid "Kolders' Goods"
-msgstr "Koldersovo zboží"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Název světa"
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
 msgid "Hall Corp"
 msgstr "Prodejce zabezpečení"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Název světa"
+#: /Language/Interface/Record[Key='TraderTool']
+msgctxt "Interface.TraderTool"
+msgid "Tool Corp"
+msgstr "Prodejce nástrojů"
 
 #: /Language/Interface/Record[Key='TraderPaint']
 msgctxt "Interface.TraderPaint"
@@ -5010,22 +5010,10 @@ msgctxt "Interface.ConnectionWaste"
 msgid "Waste"
 msgstr "Odpad"
 
-#: /Language/Interface/Record[Key='ConnectionOutput2']
-#, fuzzy
-msgctxt "Interface.ConnectionOutput2"
-msgid "Output 2"
-msgstr "Výstup"
-
 #: /Language/Interface/Record[Key='ConnectionOutput']
 msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr "Výstup"
-
-#: /Language/Interface/Record[Key='ConnectionInput2']
-#, fuzzy
-msgctxt "Interface.ConnectionInput2"
-msgid "Input 2"
-msgstr "Vstup"
 
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
@@ -5438,6 +5426,16 @@ msgstr "Atmosféra"
 msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
 msgstr "Složka záloh chybí nebo je prázdná."
+
+#, fuzzy
+#~ msgctxt "Interface.ConnectionOutput2"
+#~ msgid "Output 2"
+#~ msgstr "Výstup"
+
+#, fuzzy
+#~ msgctxt "Interface.ConnectionInput2"
+#~ msgid "Input 2"
+#~ msgstr "Vstup"
 
 #~ msgctxt "Interface.NewWorldVenusShortDesc"
 #~ msgid "Venus planet!"

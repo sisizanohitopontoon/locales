@@ -732,6 +732,11 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "主音量"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "混合器"
+
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -741,11 +746,6 @@ msgstr "声音"
 msgctxt "Interface.SettingsVoiceNotifications"
 msgid "Voice Notifications"
 msgstr "语音通知"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "按键设置"
 
 #: /Language/Interface/Record[Key='SettingsTitleMisc']
 msgctxt "Interface.SettingsTitleMisc"
@@ -1424,11 +1424,6 @@ msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "版本:"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "混合器"
-
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
@@ -1443,6 +1438,11 @@ msgstr "玩家:"
 msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "改变外观"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "按键设置"
 
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
@@ -1609,10 +1609,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderTool']
-msgctxt "Interface.TraderTool"
-msgid "Tool Corp"
-msgstr "工具公司"
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Kolders' Goods"
+msgstr "Kolders商品批发"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 #, fuzzy
@@ -1685,7 +1685,7 @@ msgstr "退出Stationeers"
 
 #: /Language/Interface/Record[Key='StationpediaHowToManufacture']
 msgctxt "Interface.StationpediaHowToManufacture"
-msgid "How to Manufacture"
+msgid "How to Manufacure"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaSlotsHeader']
@@ -4109,20 +4109,20 @@ msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr "Gassy贸易中心"
 
-#: /Language/Interface/Record[Key='TraderOther']
-msgctxt "Interface.TraderOther"
-msgid "Kolders' Goods"
-msgstr "Kolders商品批发"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "世界名称"
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
 msgid "Hall Corp"
 msgstr "Hall公司"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "世界名称"
+#: /Language/Interface/Record[Key='TraderTool']
+msgctxt "Interface.TraderTool"
+msgid "Tool Corp"
+msgstr "工具公司"
 
 #: /Language/Interface/Record[Key='TraderPaint']
 msgctxt "Interface.TraderPaint"
@@ -5007,22 +5007,10 @@ msgctxt "Interface.ConnectionWaste"
 msgid "Waste"
 msgstr "废物"
 
-#: /Language/Interface/Record[Key='ConnectionOutput2']
-#, fuzzy
-msgctxt "Interface.ConnectionOutput2"
-msgid "Output 2"
-msgstr "输出"
-
 #: /Language/Interface/Record[Key='ConnectionOutput']
 msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr "输出"
-
-#: /Language/Interface/Record[Key='ConnectionInput2']
-#, fuzzy
-msgctxt "Interface.ConnectionInput2"
-msgid "Input 2"
-msgstr "输入"
 
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
@@ -5439,6 +5427,16 @@ msgstr "大气"
 msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
 msgstr "备份文件夹缺失或为空。"
+
+#, fuzzy
+#~ msgctxt "Interface.ConnectionOutput2"
+#~ msgid "Output 2"
+#~ msgstr "输出"
+
+#, fuzzy
+#~ msgctxt "Interface.ConnectionInput2"
+#~ msgid "Input 2"
+#~ msgstr "输入"
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"
