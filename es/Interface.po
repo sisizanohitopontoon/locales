@@ -731,11 +731,6 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Volumen Principal"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Mezclador"
-
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -745,6 +740,11 @@ msgstr "Sonido"
 msgctxt "Interface.SettingsVoiceNotifications"
 msgid "Voice Notifications"
 msgstr "Notificaciones de Voz"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Editar Teclas"
 
 #: /Language/Interface/Record[Key='SettingsTitleMisc']
 msgctxt "Interface.SettingsTitleMisc"
@@ -1423,6 +1423,11 @@ msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "Versión:"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Mezclador"
+
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
@@ -1437,11 +1442,6 @@ msgstr "Jugadores:"
 msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Cambiar de Apariencia"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Editar Teclas"
 
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
@@ -1608,10 +1608,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Ranura"
 
-#: /Language/Interface/Record[Key='TraderOther']
-msgctxt "Interface.TraderOther"
-msgid "Kolders' Goods"
-msgstr "Kolders' Goods"
+#: /Language/Interface/Record[Key='TraderTool']
+msgctxt "Interface.TraderTool"
+msgid "Tool Corp"
+msgstr "Tool Corp"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 msgctxt "Interface.StationpediaTutorialListHeader"
@@ -1676,7 +1676,7 @@ msgstr "Estados de Construcción"
 #: /Language/Interface/Record[Key='StationpediaHowToManufacture']
 #, fuzzy
 msgctxt "Interface.StationpediaHowToManufacture"
-msgid "How to Manufacure"
+msgid "How to Manufacture"
 msgstr "Cómo fabricar"
 
 #: /Language/Interface/Record[Key='StationpediaSlotsHeader']
@@ -4109,20 +4109,20 @@ msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr "Gassy Trade"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Nombre del Mundo"
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Kolders' Goods"
+msgstr "Kolders' Goods"
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
 msgid "Hall Corp"
 msgstr "Hall Corp"
 
-#: /Language/Interface/Record[Key='TraderTool']
-msgctxt "Interface.TraderTool"
-msgid "Tool Corp"
-msgstr "Tool Corp"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Nombre del Mundo"
 
 #: /Language/Interface/Record[Key='TraderPaint']
 msgctxt "Interface.TraderPaint"
@@ -5005,10 +5005,22 @@ msgctxt "Interface.ConnectionWaste"
 msgid "Waste"
 msgstr "Residuos"
 
+#: /Language/Interface/Record[Key='ConnectionOutput2']
+#, fuzzy
+msgctxt "Interface.ConnectionOutput2"
+msgid "Output 2"
+msgstr "Salida"
+
 #: /Language/Interface/Record[Key='ConnectionOutput']
 msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr "Salida"
+
+#: /Language/Interface/Record[Key='ConnectionInput2']
+#, fuzzy
+msgctxt "Interface.ConnectionInput2"
+msgid "Input 2"
+msgstr "Entrada"
 
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
@@ -5429,16 +5441,6 @@ msgstr "Atmósfera"
 msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
 msgstr "Falta la carpeta de copias de seguridad o está vacía."
-
-#, fuzzy
-#~ msgctxt "Interface.ConnectionOutput2"
-#~ msgid "Output 2"
-#~ msgstr "Salida"
-
-#, fuzzy
-#~ msgctxt "Interface.ConnectionInput2"
-#~ msgid "Input 2"
-#~ msgstr "Entrada"
 
 #~ msgctxt "Interface.NewWorldVenusShortDesc"
 #~ msgid "Venus planet!"

@@ -731,11 +731,6 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Volume maître"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Mélangeur"
-
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -745,6 +740,11 @@ msgstr "Son"
 msgctxt "Interface.SettingsVoiceNotifications"
 msgid "Voice Notifications"
 msgstr "Notifications vocales"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Configuration des touches"
 
 #: /Language/Interface/Record[Key='SettingsTitleMisc']
 msgctxt "Interface.SettingsTitleMisc"
@@ -1423,6 +1423,11 @@ msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "Version:"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Mélangeur"
+
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
@@ -1437,11 +1442,6 @@ msgstr "Joueurs:"
 msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Changer d'apparence"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Configuration des touches"
 
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
@@ -1608,10 +1608,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Emplacement"
 
-#: /Language/Interface/Record[Key='TraderOther']
-msgctxt "Interface.TraderOther"
-msgid "Kolders' Goods"
-msgstr "Kolders' Goods"
+#: /Language/Interface/Record[Key='TraderTool']
+msgctxt "Interface.TraderTool"
+msgid "Tool Corp"
+msgstr "Tool Corp"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 #, fuzzy
@@ -1685,7 +1685,7 @@ msgstr "Quitter Stationeers"
 
 #: /Language/Interface/Record[Key='StationpediaHowToManufacture']
 msgctxt "Interface.StationpediaHowToManufacture"
-msgid "How to Manufacure"
+msgid "How to Manufacture"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaSlotsHeader']
@@ -4146,20 +4146,20 @@ msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr "Gassy Trade"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Nom du Monde"
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Kolders' Goods"
+msgstr "Kolders' Goods"
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
 msgid "Hall Corp"
 msgstr "Hall Corp"
 
-#: /Language/Interface/Record[Key='TraderTool']
-msgctxt "Interface.TraderTool"
-msgid "Tool Corp"
-msgstr "Tool Corp"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Nom du Monde"
 
 #: /Language/Interface/Record[Key='TraderPaint']
 msgctxt "Interface.TraderPaint"
@@ -5044,10 +5044,22 @@ msgctxt "Interface.ConnectionWaste"
 msgid "Waste"
 msgstr "Déchets"
 
+#: /Language/Interface/Record[Key='ConnectionOutput2']
+#, fuzzy
+msgctxt "Interface.ConnectionOutput2"
+msgid "Output 2"
+msgstr "Sortie"
+
 #: /Language/Interface/Record[Key='ConnectionOutput']
 msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr "Sortie"
+
+#: /Language/Interface/Record[Key='ConnectionInput2']
+#, fuzzy
+msgctxt "Interface.ConnectionInput2"
+msgid "Input 2"
+msgstr "Entrée"
 
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
@@ -5468,16 +5480,6 @@ msgstr "Atmosphère"
 msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
 msgstr "Dossier de sauvegarde manquant ou vide."
-
-#, fuzzy
-#~ msgctxt "Interface.ConnectionOutput2"
-#~ msgid "Output 2"
-#~ msgstr "Sortie"
-
-#, fuzzy
-#~ msgctxt "Interface.ConnectionInput2"
-#~ msgid "Input 2"
-#~ msgstr "Entrée"
 
 #~ msgctxt "Interface.ScriptCommandLR"
 #~ msgid "Loads reagent of device's reagentMode to register."

@@ -735,11 +735,6 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Общая громкость"
 
-#: /Language/Interface/Record[Key='SettingsTitleMixer']
-msgctxt "Interface.SettingsTitleMixer"
-msgid "Mixer"
-msgstr "Микшер"
-
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -749,6 +744,11 @@ msgstr "Звук"
 msgctxt "Interface.SettingsVoiceNotifications"
 msgid "Voice Notifications"
 msgstr "Голосовые оповещения"
+
+#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
+msgctxt "Interface.SettingsTitleKeybinds"
+msgid "Keybinds"
+msgstr "Назначение клавиш"
 
 #: /Language/Interface/Record[Key='SettingsTitleMisc']
 msgctxt "Interface.SettingsTitleMisc"
@@ -1428,6 +1428,11 @@ msgctxt "Interface.JoinMenuInfoVersion"
 msgid "Version:"
 msgstr "Версия:"
 
+#: /Language/Interface/Record[Key='SettingsTitleMixer']
+msgctxt "Interface.SettingsTitleMixer"
+msgid "Mixer"
+msgstr "Микшер"
+
 #: /Language/Interface/Record[Key='JoinMenuInfoLatency']
 msgctxt "Interface.JoinMenuInfoLatency"
 msgid "Latency:"
@@ -1442,11 +1447,6 @@ msgstr "Игроков:"
 msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Изменение внешности"
-
-#: /Language/Interface/Record[Key='SettingsTitleKeybinds']
-msgctxt "Interface.SettingsTitleKeybinds"
-msgid "Keybinds"
-msgstr "Назначение клавиш"
 
 #: /Language/Interface/Record[Key='AppearanceTitleGender']
 msgctxt "Interface.AppearanceTitleGender"
@@ -1613,10 +1613,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Слот"
 
-#: /Language/Interface/Record[Key='TraderOther']
-msgctxt "Interface.TraderOther"
-msgid "Kolders' Goods"
-msgstr "Товары Колдерса"
+#: /Language/Interface/Record[Key='TraderTool']
+msgctxt "Interface.TraderTool"
+msgid "Tool Corp"
+msgstr "Продавец инструментов"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 #, fuzzy
@@ -1689,7 +1689,7 @@ msgstr "Выйти из игры"
 
 #: /Language/Interface/Record[Key='StationpediaHowToManufacture']
 msgctxt "Interface.StationpediaHowToManufacture"
-msgid "How to Manufacure"
+msgid "How to Manufacture"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaSlotsHeader']
@@ -4109,10 +4109,10 @@ msgctxt "Interface.TraderGas"
 msgid "Gassy Trade"
 msgstr "Торговец газами"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Название мира"
+#: /Language/Interface/Record[Key='TraderOther']
+msgctxt "Interface.TraderOther"
+msgid "Kolders' Goods"
+msgstr "Товары Колдерса"
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 #, fuzzy
@@ -4120,10 +4120,10 @@ msgctxt "Interface.TraderSecurity"
 msgid "Hall Corp"
 msgstr "Поставщик безопасности "
 
-#: /Language/Interface/Record[Key='TraderTool']
-msgctxt "Interface.TraderTool"
-msgid "Tool Corp"
-msgstr "Продавец инструментов"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Название мира"
 
 #: /Language/Interface/Record[Key='TraderPaint']
 msgctxt "Interface.TraderPaint"
@@ -5009,10 +5009,22 @@ msgctxt "Interface.ConnectionWaste"
 msgid "Waste"
 msgstr "Вспомогательный выход"
 
+#: /Language/Interface/Record[Key='ConnectionOutput2']
+#, fuzzy
+msgctxt "Interface.ConnectionOutput2"
+msgid "Output 2"
+msgstr "Выход"
+
 #: /Language/Interface/Record[Key='ConnectionOutput']
 msgctxt "Interface.ConnectionOutput"
 msgid "Output"
 msgstr "Выход"
+
+#: /Language/Interface/Record[Key='ConnectionInput2']
+#, fuzzy
+msgctxt "Interface.ConnectionInput2"
+msgid "Input 2"
+msgstr "Вход"
 
 #: /Language/Interface/Record[Key='ConnectionInput']
 msgctxt "Interface.ConnectionInput"
@@ -5435,16 +5447,6 @@ msgstr "Атмосфера"
 msgctxt "Interface.AlertNoBackups"
 msgid "Backups folder missing or empty."
 msgstr "Папка резервных копий пуста или отсутсвует."
-
-#, fuzzy
-#~ msgctxt "Interface.ConnectionOutput2"
-#~ msgid "Output 2"
-#~ msgstr "Выход"
-
-#, fuzzy
-#~ msgctxt "Interface.ConnectionInput2"
-#~ msgid "Input 2"
-#~ msgstr "Вход"
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"
