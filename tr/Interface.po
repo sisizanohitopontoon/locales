@@ -701,15 +701,15 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Gölgeler"
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Gölge Çözünürlüğü"
+
 #: /Language/Interface/Record[Key='SettingsWeatherQuality']
 msgctxt "Interface.SettingsWeatherQuality"
 msgid "Weather Quality"
 msgstr "Hava Kalitesi"
-
-#: /Language/Interface/Record[Key='SettingsShadowDistamce']
-msgctxt "Interface.SettingsShadowDistamce"
-msgid "Shadow Distance"
-msgstr "Gölge Mesafesi"
 
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
@@ -991,7 +991,7 @@ msgstr "<color=red>İnşa Edilemiyor</color>."
 
 #: /Language/Interface/Record[Key='PortableConnectionFailure']
 msgctxt "Interface.PortableConnectionFailure"
-msgid "Content type does not match."
+msgid "Can only connect {0} to this {1}"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipRotateLeftRight']
@@ -1398,15 +1398,15 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Kayıt İsmini Gir..."
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Gölge Çözünürlüğü"
-
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Yaratıcı"
+
+#: /Language/Interface/Record[Key='SettingsShadowDistamce']
+msgctxt "Interface.SettingsShadowDistamce"
+msgid "Shadow Distance"
+msgstr "Gölge Mesafesi"
 
 #: /Language/Interface/Record[Key='NewWorldModeSurvival']
 msgctxt "Interface.NewWorldModeSurvival"
@@ -1608,10 +1608,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderMicrowave']
-msgctxt "Interface.TraderMicrowave"
-msgid "Microwares"
-msgstr "Mikrodalga"
+#: /Language/Interface/Record[Key='TraderOre']
+msgctxt "Interface.TraderOre"
+msgid "MineRite"
+msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 msgctxt "Interface.StationpediaTutorialListHeader"
@@ -2414,6 +2414,12 @@ msgstr "Çevir"
 msgctxt "Interface.Empty"
 msgid "Empty"
 msgstr "Boş"
+
+#: /Language/Interface/Record[Key='Gas']
+#, fuzzy
+msgctxt "Interface.Gas"
+msgid "Gas"
+msgstr "Gazlar"
 
 #: /Language/Interface/Record[Key='Liquid']
 msgctxt "Interface.Liquid"
@@ -4102,15 +4108,15 @@ msgctxt "Interface.TraderChemistry"
 msgid "Chem Lab"
 msgstr "Kimya Laboratuvarı"
 
+#: /Language/Interface/Record[Key='TraderMicrowave']
+msgctxt "Interface.TraderMicrowave"
+msgid "Microwares"
+msgstr "Mikrodalga"
+
 #: /Language/Interface/Record[Key='WorldPresetLabel']
 msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "Ön Ayar"
-
-#: /Language/Interface/Record[Key='TraderOre']
-msgctxt "Interface.TraderOre"
-msgid "MineRite"
-msgstr ""
 
 #: /Language/Interface/Record[Key='TraderHydraulic']
 msgctxt "Interface.TraderHydraulic"

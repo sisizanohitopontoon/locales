@@ -17,11 +17,6 @@ msgstr "Revestimiento compuesto (Esquina en Ángulo interior larga L)"
 
 #: /Language/Things/RecordThing[Key='StructureGrowLight']
 msgctxt "Things.StructureGrowLight"
-msgid "Grow Light"
-msgstr "Luz de cultivo"
-
-#: /Language/Things/RecordThing[Key='StructureGrowLight']
-msgctxt "Things.StructureGrowLight"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -409,6 +404,11 @@ msgctxt "Things.ItemWreckageWindTurbine005"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
+#: /Language/Things/RecordThing[Key='StructureGrowLight']
+msgctxt "Things.StructureGrowLight"
+msgid "Grow Light"
+msgstr "Luz de cultivo"
+
 #: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
 msgctxt "Things.Rover_MkI_build_states"
 msgid "{BLANK}"
@@ -554,10 +554,10 @@ msgctxt "Things.ItemKitFlagODA"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
-msgctxt "Things.ItemKitFlagODA"
-msgid "Kit (ODA Flag)"
-msgstr "Kit (Bandera ODA)"
+#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
+msgctxt "Things.ItemKitRespawnPointWallMounted"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
 msgctxt "Things.ItemKitRespawnPointWallMounted"
@@ -1974,15 +1974,15 @@ msgctxt "Things.StructureSDBSilo"
 msgid "SDB Silo"
 msgstr "SDB Silo"
 
-#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
-msgctxt "Things.ItemKitRespawnPointWallMounted"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='ItemKitSDBHopper']
 msgctxt "Things.ItemKitSDBHopper"
 msgid "Kit (SDB Hopper)"
 msgstr "Kit (SDB Tolva)"
+
+#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
+msgctxt "Things.ItemKitFlagODA"
+msgid "Kit (ODA Flag)"
+msgstr "Kit (Bandera ODA)"
 
 #: /Language/Things/RecordThing[Key='StructureSDBHopper']
 msgctxt "Things.StructureSDBHopper"
@@ -4991,7 +4991,7 @@ msgstr "Tanque Pequeño"
 #, fuzzy
 msgctxt "Things.StructureTankConnectorLiquid"
 msgid "Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network."
-msgstr "Los conectores de tanque son dispositivos de montaje básicos que le permiten conectar una {THING:DynamicGasCanisterEmpty} a una red de tuberías."
+msgstr "Conector de Tanque Portátil"
 
 #: /Language/Things/RecordThing[Key='StructureTankConnectorLiquid']
 #, fuzzy
@@ -5336,7 +5336,7 @@ msgstr "Puerta de Cristal"
 #, fuzzy
 msgctxt "Things.StructureLiquidTankStorage"
 msgid "When connected to a liquid pipe network, the tank storage unit allows you to refill a {THING:ItemLiquidCanisterEmpty}, as well as read various atmospheric data from the canister."
-msgstr "Cuando se conecta a una red de tuberías, la unidad de almacenamiento del tanque le permite rellenar una {THING:ItemGasCanisterEmpty}, así como leer varios datos atmosféricos del recipiente."
+msgstr "Recargador de Bombonas"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankStorage']
 #, fuzzy
@@ -6249,7 +6249,7 @@ msgstr "Cinturón de Herramientas"
 #, fuzzy
 msgctxt "Things.ItemTankConnectorLiquid"
 msgid "This kit creates a {THING:StructureTankConnectorLiquid}."
-msgstr "Este kit crea un {THING:StructureTankConnector}."
+msgstr "Conector de Tanques"
 
 #: /Language/Things/RecordThing[Key='ItemTankConnectorLiquid']
 #, fuzzy
@@ -7186,16 +7186,17 @@ msgctxt "Things.ItemGlassSheets"
 msgid "A fundamental construction component, glass sheets are created from <color=#0080FFFF>{LINK:IngotPage;silicon ingot}</color>. Fabricated on the {THING:StructureAutolathe}, they are used to make {THING:StructureSolarPanel}s, {THING:StructureAirlock}s and many other structures."
 msgstr "Un componente fundamental de la construcción, las láminas de vidrio se crean a partir de <color=#0080FFFF>{LINK:IngotPage;silicon lingot}</color>. Fabricados en {THING:StructureAutolathe}, se utilizan para hacer los {THING:StructureSolarPanel} , {THING:StructureAirlock} y muchas otras estructuras."
 
-#: /Language/Things/RecordThing[Key='ItemGlassSheets']
-msgctxt "Things.ItemGlassSheets"
-msgid "Glass Sheets"
-msgstr "Placa de Vidrio"
+#: /Language/Things/RecordThing[Key='ItemLiquidTankStorage']
+#, fuzzy
+msgctxt "Things.ItemLiquidTankStorage"
+msgid "This kit produces a {THING:ItemLiquidTankStorage} for refilling a {THING:ItemLiquidCanisterEmpty}."
+msgstr "Este kit produce una {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}."
 
 #: /Language/Things/RecordThing[Key='ItemLiquidTankStorage']
 #, fuzzy
 msgctxt "Things.ItemLiquidTankStorage"
 msgid "Kit (Liquid Canister Storage)"
-msgstr "Recargador de Bombonas"
+msgstr "Este kit produce una {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}."
 
 #: /Language/Things/RecordThing[Key='ItemGasTankStorage']
 msgctxt "Things.ItemGasTankStorage"
@@ -8636,11 +8637,10 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Microondas"
 
-#: /Language/Things/RecordThing[Key='ItemLiquidTankStorage']
-#, fuzzy
-msgctxt "Things.ItemLiquidTankStorage"
-msgid "This kit produces a {THING:ItemLiquidTankStorage} for refilling a {THING:ItemLiquidCanisterEmpty}."
-msgstr "Este kit produce una {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}."
+#: /Language/Things/RecordThing[Key='ItemGlassSheets']
+msgctxt "Things.ItemGlassSheets"
+msgid "Glass Sheets"
+msgstr "Placa de Vidrio"
 
 #~ msgctxt "Things.ItemKitSolarPanelReinforced"
 #~ msgid "{BLANK}"
