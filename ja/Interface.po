@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "説明"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "ワールド名"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -708,11 +708,6 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "影"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "影の解像度"
-
 #: /Language/Interface/Record[Key='SettingsWeatherQuality']
 msgctxt "Interface.SettingsWeatherQuality"
 msgid "Weather Quality"
@@ -722,6 +717,11 @@ msgstr "天候のクオリティ"
 msgctxt "Interface.SettingsShadowDistamce"
 msgid "Shadow Distance"
 msgstr "影の距離"
+
+#: /Language/Interface/Record[Key='SettingsEnvElements']
+msgctxt "Interface.SettingsEnvElements"
+msgid "Environmental Elements"
+msgstr "環境エレメント"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
@@ -1001,6 +1001,11 @@ msgstr ""
 msgctxt "Interface.UnableToConstruct"
 msgid "<color=red>Unable to Construct</color>."
 msgstr "<color=red>建造できません</color>."
+
+#: /Language/Interface/Record[Key='PortableConnectionFailure']
+msgctxt "Interface.PortableConnectionFailure"
+msgid "Content type does not match."
+msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipRotateLeftRight']
 #, fuzzy
@@ -1305,10 +1310,10 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "無効なIPアドレス {0} です。 \\nIPアドレスまたはURLが正しいか確認してください。"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "バックアップフォルダが見つからないか、空です。"
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "サーバーは満員です。"
 
 #: /Language/Interface/Record[Key='AlertVersionMismatch']
 msgctxt "Interface.AlertVersionMismatch"
@@ -1412,6 +1417,11 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "セーブ名を入力…"
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "影の解像度"
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
@@ -1431,11 +1441,6 @@ msgstr "マップ"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IPアドレス:"
-
-#: /Language/Interface/Record[Key='SettingsEnvElements']
-msgctxt "Interface.SettingsEnvElements"
-msgid "Environmental Elements"
-msgstr "環境エレメント"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1567,11 +1572,6 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "ワールドプリセット"
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "プリセット"
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1630,9 +1630,9 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderExotics']
-msgctxt "Interface.TraderExotics"
-msgid "ExoTech"
+#: /Language/Interface/Record[Key='TraderMicrowave']
+msgctxt "Interface.TraderMicrowave"
+msgid "Microwares"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
@@ -4144,20 +4144,20 @@ msgctxt "Interface.TraderPaint"
 msgid "Color Corp"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "ワールド名"
+#: /Language/Interface/Record[Key='TraderExotics']
+msgctxt "Interface.TraderExotics"
+msgid "ExoTech"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TraderChemistry']
 msgctxt "Interface.TraderChemistry"
 msgid "Chem Lab"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderMicrowave']
-msgctxt "Interface.TraderMicrowave"
-msgid "Microwares"
-msgstr ""
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "プリセット"
 
 #: /Language/Interface/Record[Key='TraderOre']
 msgctxt "Interface.TraderOre"
@@ -5446,10 +5446,15 @@ msgctxt "Interface.WorldAtmosphere"
 msgid "Atmosphere"
 msgstr "大気"
 
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "サーバーは満員です。"
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "説明"
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "バックアップフォルダが見つからないか、空です。"
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"

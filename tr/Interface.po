@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Açıklama"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Dünya İsmi"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -701,11 +701,6 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Gölgeler"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Gölge Çözünürlüğü"
-
 #: /Language/Interface/Record[Key='SettingsWeatherQuality']
 msgctxt "Interface.SettingsWeatherQuality"
 msgid "Weather Quality"
@@ -715,6 +710,11 @@ msgstr "Hava Kalitesi"
 msgctxt "Interface.SettingsShadowDistamce"
 msgid "Shadow Distance"
 msgstr "Gölge Mesafesi"
+
+#: /Language/Interface/Record[Key='SettingsEnvElements']
+msgctxt "Interface.SettingsEnvElements"
+msgid "Environmental Elements"
+msgstr "Çevresel Elemanlar"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
@@ -988,6 +988,11 @@ msgstr ""
 msgctxt "Interface.UnableToConstruct"
 msgid "<color=red>Unable to Construct</color>."
 msgstr "<color=red>İnşa Edilemiyor</color>."
+
+#: /Language/Interface/Record[Key='PortableConnectionFailure']
+msgctxt "Interface.PortableConnectionFailure"
+msgid "Content type does not match."
+msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipRotateLeftRight']
 msgctxt "Interface.TooltipRotateLeftRight"
@@ -1289,10 +1294,10 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Geçersiz IP Adresi {0} \\nGeçerli IP adresini veya URL'yi kontrol edin"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Yedek klasörü eksik veya boş."
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "Sunucu dolu."
 
 #: /Language/Interface/Record[Key='AlertVersionMismatch']
 msgctxt "Interface.AlertVersionMismatch"
@@ -1393,6 +1398,11 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Kayıt İsmini Gir..."
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Gölge Çözünürlüğü"
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
@@ -1412,11 +1422,6 @@ msgstr "HARİTA"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP ADRESİ:"
-
-#: /Language/Interface/Record[Key='SettingsEnvElements']
-msgctxt "Interface.SettingsEnvElements"
-msgid "Environmental Elements"
-msgstr "Çevresel Elemanlar"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1548,11 +1553,6 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Dünya Ön Ayarı"
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Ön Ayar"
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1608,10 +1608,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderExotics']
-msgctxt "Interface.TraderExotics"
-msgid "ExoTech"
-msgstr ""
+#: /Language/Interface/Record[Key='TraderMicrowave']
+msgctxt "Interface.TraderMicrowave"
+msgid "Microwares"
+msgstr "Mikrodalga"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 msgctxt "Interface.StationpediaTutorialListHeader"
@@ -4092,20 +4092,20 @@ msgctxt "Interface.TraderPaint"
 msgid "Color Corp"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Dünya İsmi"
+#: /Language/Interface/Record[Key='TraderExotics']
+msgctxt "Interface.TraderExotics"
+msgid "ExoTech"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TraderChemistry']
 msgctxt "Interface.TraderChemistry"
 msgid "Chem Lab"
 msgstr "Kimya Laboratuvarı"
 
-#: /Language/Interface/Record[Key='TraderMicrowave']
-msgctxt "Interface.TraderMicrowave"
-msgid "Microwares"
-msgstr "Mikrodalga"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Ön Ayar"
 
 #: /Language/Interface/Record[Key='TraderOre']
 msgctxt "Interface.TraderOre"
@@ -5403,10 +5403,15 @@ msgctxt "Interface.WorldAtmosphere"
 msgid "Atmosphere"
 msgstr "Atmosfer"
 
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "Sunucu dolu."
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Açıklama"
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Yedek klasörü eksik veya boş."
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"

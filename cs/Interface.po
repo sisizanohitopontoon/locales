@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Popis"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Název světa"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -701,11 +701,6 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Stíny"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Rozlišení stínu"
-
 #: /Language/Interface/Record[Key='SettingsWeatherQuality']
 msgctxt "Interface.SettingsWeatherQuality"
 msgid "Weather Quality"
@@ -715,6 +710,11 @@ msgstr "Kvalita počasí"
 msgctxt "Interface.SettingsShadowDistamce"
 msgid "Shadow Distance"
 msgstr "Vzdálenost stínu"
+
+#: /Language/Interface/Record[Key='SettingsEnvElements']
+msgctxt "Interface.SettingsEnvElements"
+msgid "Environmental Elements"
+msgstr "Prvky životního prostředí"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
@@ -990,6 +990,11 @@ msgstr ""
 msgctxt "Interface.UnableToConstruct"
 msgid "<color=red>Unable to Construct</color>."
 msgstr "<color=red>Nelze zkonstruovat</color>."
+
+#: /Language/Interface/Record[Key='PortableConnectionFailure']
+msgctxt "Interface.PortableConnectionFailure"
+msgid "Content type does not match."
+msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipRotateLeftRight']
 msgctxt "Interface.TooltipRotateLeftRight"
@@ -1291,10 +1296,10 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Neplatná IP Adresa {0} \\nZkontroluj IP adresu nebo URL jestli je platná"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Složka záloh chybí nebo je prázdná."
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "Server je plný."
 
 #: /Language/Interface/Record[Key='AlertVersionMismatch']
 msgctxt "Interface.AlertVersionMismatch"
@@ -1395,6 +1400,11 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Zadejte název pro uložení..."
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Rozlišení stínu"
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
@@ -1414,11 +1424,6 @@ msgstr "Mapa"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP Adresa:"
-
-#: /Language/Interface/Record[Key='SettingsEnvElements']
-msgctxt "Interface.SettingsEnvElements"
-msgid "Environmental Elements"
-msgstr "Prvky životního prostředí"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1550,11 +1555,6 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Předvolby světa"
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Předvolby"
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1610,10 +1610,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Slot"
 
-#: /Language/Interface/Record[Key='TraderExotics']
-msgctxt "Interface.TraderExotics"
-msgid "ExoTech"
-msgstr "Exo technologie"
+#: /Language/Interface/Record[Key='TraderMicrowave']
+msgctxt "Interface.TraderMicrowave"
+msgid "Microwares"
+msgstr "Mikrodráty"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 msgctxt "Interface.StationpediaTutorialListHeader"
@@ -4132,20 +4132,20 @@ msgctxt "Interface.TraderPaint"
 msgid "Color Corp"
 msgstr "Prodejce barev"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Název světa"
+#: /Language/Interface/Record[Key='TraderExotics']
+msgctxt "Interface.TraderExotics"
+msgid "ExoTech"
+msgstr "Exo technologie"
 
 #: /Language/Interface/Record[Key='TraderChemistry']
 msgctxt "Interface.TraderChemistry"
 msgid "Chem Lab"
 msgstr "Chemická laboratoř"
 
-#: /Language/Interface/Record[Key='TraderMicrowave']
-msgctxt "Interface.TraderMicrowave"
-msgid "Microwares"
-msgstr "Mikrodráty"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Předvolby"
 
 #: /Language/Interface/Record[Key='TraderOre']
 msgctxt "Interface.TraderOre"
@@ -5434,10 +5434,15 @@ msgctxt "Interface.WorldAtmosphere"
 msgid "Atmosphere"
 msgstr "Atmosféra"
 
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "Server je plný."
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Popis"
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Složka záloh chybí nebo je prázdná."
 
 #~ msgctxt "Interface.NewWorldVenusShortDesc"
 #~ msgid "Venus planet!"

@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Opis"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Nazwa świata"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -712,11 +712,6 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Cienie"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Rozdzielczość cieni"
-
 #: /Language/Interface/Record[Key='SettingsWeatherQuality']
 #, fuzzy
 msgctxt "Interface.SettingsWeatherQuality"
@@ -727,6 +722,11 @@ msgstr "Jakość tekstur"
 msgctxt "Interface.SettingsShadowDistamce"
 msgid "Shadow Distance"
 msgstr "Odległość cieni"
+
+#: /Language/Interface/Record[Key='SettingsEnvElements']
+msgctxt "Interface.SettingsEnvElements"
+msgid "Environmental Elements"
+msgstr "Elementy środowiskowe"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
@@ -1003,6 +1003,11 @@ msgstr ""
 msgctxt "Interface.UnableToConstruct"
 msgid "<color=red>Unable to Construct</color>."
 msgstr "<color=red>Nie można skonstruować</color>."
+
+#: /Language/Interface/Record[Key='PortableConnectionFailure']
+msgctxt "Interface.PortableConnectionFailure"
+msgid "Content type does not match."
+msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipRotateLeftRight']
 #, fuzzy
@@ -1310,10 +1315,10 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Nieprawidłowy adres IP {0} \\nSprawdź czy IP lub URL są prawidłowe"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Folder backupów jest pusty lub nie istnieje."
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "Serwer jest pełny."
 
 #: /Language/Interface/Record[Key='AlertVersionMismatch']
 msgctxt "Interface.AlertVersionMismatch"
@@ -1415,6 +1420,11 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Wprowadź nazwę zapisu..."
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Rozdzielczość cieni"
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
@@ -1434,11 +1444,6 @@ msgstr "Mapa"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr ""
-
-#: /Language/Interface/Record[Key='SettingsEnvElements']
-msgctxt "Interface.SettingsEnvElements"
-msgid "Environmental Elements"
-msgstr "Elementy środowiskowe"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1570,11 +1575,6 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Ustawienie Świata"
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr ""
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 #, fuzzy
 msgctxt "Interface.PersonalBackpacks"
@@ -1633,9 +1633,9 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderExotics']
-msgctxt "Interface.TraderExotics"
-msgid "ExoTech"
+#: /Language/Interface/Record[Key='TraderMicrowave']
+msgctxt "Interface.TraderMicrowave"
+msgid "Microwares"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
@@ -4211,19 +4211,19 @@ msgctxt "Interface.TraderPaint"
 msgid "Color Corp"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Nazwa świata"
+#: /Language/Interface/Record[Key='TraderExotics']
+msgctxt "Interface.TraderExotics"
+msgid "ExoTech"
+msgstr ""
 
 #: /Language/Interface/Record[Key='TraderChemistry']
 msgctxt "Interface.TraderChemistry"
 msgid "Chem Lab"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderMicrowave']
-msgctxt "Interface.TraderMicrowave"
-msgid "Microwares"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderOre']
@@ -5512,10 +5512,15 @@ msgctxt "Interface.WorldAtmosphere"
 msgid "Atmosphere"
 msgstr "Atmosfera"
 
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "Serwer jest pełny."
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Opis"
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Folder backupów jest pusty lub nie istnieje."
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"

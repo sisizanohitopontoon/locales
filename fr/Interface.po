@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldDescriptionLabel']
-msgctxt "Interface.WorldDescriptionLabel"
-msgid "Description"
-msgstr "Description"
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Nom du Monde"
 
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
@@ -701,11 +701,6 @@ msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Ombres"
 
-#: /Language/Interface/Record[Key='SettingsShadowResolution']
-msgctxt "Interface.SettingsShadowResolution"
-msgid "Shadow Resolution"
-msgstr "Résolution des ombres"
-
 #: /Language/Interface/Record[Key='SettingsWeatherQuality']
 msgctxt "Interface.SettingsWeatherQuality"
 msgid "Weather Quality"
@@ -715,6 +710,11 @@ msgstr "Qualité de la météo"
 msgctxt "Interface.SettingsShadowDistamce"
 msgid "Shadow Distance"
 msgstr "Distance des ombres"
+
+#: /Language/Interface/Record[Key='SettingsEnvElements']
+msgctxt "Interface.SettingsEnvElements"
+msgid "Environmental Elements"
+msgstr "Eléments environnementaux"
 
 #: /Language/Interface/Record[Key='SettingsReflections']
 msgctxt "Interface.SettingsReflections"
@@ -988,6 +988,11 @@ msgstr ""
 msgctxt "Interface.UnableToConstruct"
 msgid "<color=red>Unable to Construct</color>."
 msgstr "<color=red>Impossible de construire</color>."
+
+#: /Language/Interface/Record[Key='PortableConnectionFailure']
+msgctxt "Interface.PortableConnectionFailure"
+msgid "Content type does not match."
+msgstr ""
 
 #: /Language/Interface/Record[Key='TooltipRotateLeftRight']
 msgctxt "Interface.TooltipRotateLeftRight"
@@ -1289,10 +1294,10 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Adresse IP non valide {0} \\nVérifier que l'adresse IP ou l'URL soit valide"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Dossier de sauvegarde manquant ou vide."
+#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
+msgctxt "Interface.AlertPlayerCountExceeded"
+msgid "Server is full."
+msgstr "Le serveur est plein."
 
 #: /Language/Interface/Record[Key='AlertVersionMismatch']
 msgctxt "Interface.AlertVersionMismatch"
@@ -1393,6 +1398,11 @@ msgctxt "Interface.SaveMenuNamePlaceholder"
 msgid "Enter Save Name..."
 msgstr "Entrer le nom d'enregistrement..."
 
+#: /Language/Interface/Record[Key='SettingsShadowResolution']
+msgctxt "Interface.SettingsShadowResolution"
+msgid "Shadow Resolution"
+msgstr "Résolution des ombres"
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
@@ -1412,11 +1422,6 @@ msgstr "Carte"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP Addresse:"
-
-#: /Language/Interface/Record[Key='SettingsEnvElements']
-msgctxt "Interface.SettingsEnvElements"
-msgid "Environmental Elements"
-msgstr "Eléments environnementaux"
 
 #: /Language/Interface/Record[Key='JoinMenuInfoMap']
 msgctxt "Interface.JoinMenuInfoMap"
@@ -1548,11 +1553,6 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Monde prédéfini"
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Prédéfini"
-
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1608,10 +1608,10 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Emplacement"
 
-#: /Language/Interface/Record[Key='TraderExotics']
-msgctxt "Interface.TraderExotics"
-msgid "ExoTech"
-msgstr "ExoTech"
+#: /Language/Interface/Record[Key='TraderMicrowave']
+msgctxt "Interface.TraderMicrowave"
+msgid "Microwares"
+msgstr "Micro-ondes"
 
 #: /Language/Interface/Record[Key='StationpediaTutorialListHeader']
 #, fuzzy
@@ -4166,20 +4166,20 @@ msgctxt "Interface.TraderPaint"
 msgid "Color Corp"
 msgstr "Color Corp"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Nom du Monde"
+#: /Language/Interface/Record[Key='TraderExotics']
+msgctxt "Interface.TraderExotics"
+msgid "ExoTech"
+msgstr "ExoTech"
 
 #: /Language/Interface/Record[Key='TraderChemistry']
 msgctxt "Interface.TraderChemistry"
 msgid "Chem Lab"
 msgstr "Chem Lab"
 
-#: /Language/Interface/Record[Key='TraderMicrowave']
-msgctxt "Interface.TraderMicrowave"
-msgid "Microwares"
-msgstr "Micro-ondes"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Prédéfini"
 
 #: /Language/Interface/Record[Key='TraderOre']
 msgctxt "Interface.TraderOre"
@@ -5476,10 +5476,15 @@ msgctxt "Interface.WorldAtmosphere"
 msgid "Atmosphere"
 msgstr "Atmosphère"
 
-#: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
-msgctxt "Interface.AlertPlayerCountExceeded"
-msgid "Server is full."
-msgstr "Le serveur est plein."
+#: /Language/Interface/Record[Key='WorldDescriptionLabel']
+msgctxt "Interface.WorldDescriptionLabel"
+msgid "Description"
+msgstr "Description"
+
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Dossier de sauvegarde manquant ou vide."
 
 #~ msgctxt "Interface.ScriptCommandLR"
 #~ msgid "Loads reagent of device's reagentMode to register."
