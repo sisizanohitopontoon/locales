@@ -10,11 +10,26 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingRoundedCornerInner']
 #, fuzzy
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
-msgid "Composite Cladding (Angled Corner Inner Long L)"
-msgstr "Komposiittipäällyste (vino, kulma)"
+msgctxt "Things.StructureCompositeCladdingRoundedCornerInner"
+msgid "Composite Cladding (Rounded Corner Inner)"
+msgstr "Komposiittipäällyste (pyöristetty, kulma)"
+
+#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
+msgctxt "Things.Rover_MkI_build_states"
+msgid "Rover MKI"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
+msgctxt "Things.Rover_MkI_build_states"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureGrowLight']
+msgctxt "Things.StructureGrowLight"
+msgid "Grow Light"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureGrowLight']
 msgctxt "Things.StructureGrowLight"
@@ -403,21 +418,6 @@ msgctxt "Things.ItemWreckageWindTurbine005"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureGrowLight']
-msgctxt "Things.StructureGrowLight"
-msgid "Grow Light"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
-msgctxt "Things.Rover_MkI_build_states"
-msgid "{BLANK}"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
-msgctxt "Things.Rover_MkI_build_states"
-msgid "Rover MKI"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='ItemKitRoverMKI']
 msgctxt "Things.ItemKitRoverMKI"
 msgid "{BLANK}"
@@ -553,14 +553,14 @@ msgctxt "Things.ItemKitFlagODA"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
-msgctxt "Things.ItemKitRespawnPointWallMounted"
-msgid "{BLANK}"
+#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
+msgctxt "Things.ItemKitFlagODA"
+msgid "Kit (ODA Flag)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
 msgctxt "Things.ItemKitRespawnPointWallMounted"
-msgid "Kit (Respawn)"
+msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
@@ -2074,14 +2074,14 @@ msgctxt "Things.ItemKitSDBHopper"
 msgid "Kit (SDB Hopper)"
 msgstr "Varustepakkaus (lajittelija)"
 
-#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
-msgctxt "Things.ItemKitFlagODA"
-msgid "Kit (ODA Flag)"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='StructureSDBHopper']
 msgctxt "Things.StructureSDBHopper"
 msgid "SDB Hopper"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
+msgctxt "Things.ItemKitRespawnPointWallMounted"
+msgid "Kit (Respawn)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSDBHopperAdvanced']
@@ -2844,17 +2844,17 @@ msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
 msgid "Composite Cladding (Angled Corner Inner Long)"
 msgstr "Komposiittipäällyste (vino, kulma)"
 
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
+#, fuzzy
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
+msgid "Composite Cladding (Angled Corner Inner Long L)"
+msgstr "Komposiittipäällyste (vino, kulma)"
+
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
 #, fuzzy
 msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
 msgid "Composite Cladding (Angled Corner Inner Long R)"
 msgstr "Komposiittipäällyste (vino, kulma)"
-
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingRoundedCornerInner']
-#, fuzzy
-msgctxt "Things.StructureCompositeCladdingRoundedCornerInner"
-msgid "Composite Cladding (Rounded Corner Inner)"
-msgstr "Komposiittipäällyste (pyöristetty, kulma)"
 
 #: /Language/Things/RecordThing[Key='ReagentCobalt']
 #, fuzzy
@@ -5144,6 +5144,12 @@ msgctxt "Things.StructureWallCooler"
 msgid "Wall Cooler"
 msgstr "Seinäjäähdytin"
 
+#: /Language/Things/RecordThing[Key='StructureLiquidValve']
+#, fuzzy
+msgctxt "Things.StructureLiquidValve"
+msgid "Liquid Valve"
+msgstr "Kanisteri"
+
 #: /Language/Things/RecordThing[Key='StructureVolumePump']
 msgctxt "Things.StructureVolumePump"
 msgid "Volume Pump"
@@ -6668,6 +6674,17 @@ msgctxt "Things.ItemPowerConnector"
 msgid "Kit (Power Connector)"
 msgstr "Varustepakkaus (virtaliitin)"
 
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeValve']
+msgctxt "Things.ItemLiquidPipeValve"
+msgid "This kit creates a {THING:StructureLiquidValve}."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeValve']
+#, fuzzy
+msgctxt "Things.ItemLiquidPipeValve"
+msgid "Kit (Liquid Pipe Valve)"
+msgstr "Varustepakkaus (putkiventtiili)"
+
 #: /Language/Things/RecordThing[Key='ItemPipeVolumePump']
 msgctxt "Things.ItemPipeVolumePump"
 msgid "This kit creates a {THING:StructureVolumePump}."
@@ -7299,7 +7316,6 @@ msgid "This kit produces a {THING:ItemLiquidTankStorage} for refilling a {THING:
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemLiquidTankStorage']
-#, fuzzy
 msgctxt "Things.ItemLiquidTankStorage"
 msgid "Kit (Liquid Canister Storage)"
 msgstr ""

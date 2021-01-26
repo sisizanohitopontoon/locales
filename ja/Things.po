@@ -10,10 +10,25 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
-msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
-msgid "Composite Cladding (Angled Corner Inner Long L)"
-msgstr "複合被覆材 (角 傾斜 内側 ロング 左)"
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingRoundedCornerInner']
+msgctxt "Things.StructureCompositeCladdingRoundedCornerInner"
+msgid "Composite Cladding (Rounded Corner Inner)"
+msgstr "複合被覆材 (曲面 角 内側)"
+
+#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
+msgctxt "Things.Rover_MkI_build_states"
+msgid "Rover MKI"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
+msgctxt "Things.Rover_MkI_build_states"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureGrowLight']
+msgctxt "Things.StructureGrowLight"
+msgid "Grow Light"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureGrowLight']
 msgctxt "Things.StructureGrowLight"
@@ -402,21 +417,6 @@ msgctxt "Things.ItemWreckageWindTurbine005"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureGrowLight']
-msgctxt "Things.StructureGrowLight"
-msgid "Grow Light"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
-msgctxt "Things.Rover_MkI_build_states"
-msgid "{BLANK}"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
-msgctxt "Things.Rover_MkI_build_states"
-msgid "Rover MKI"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='ItemKitRoverMKI']
 msgctxt "Things.ItemKitRoverMKI"
 msgid "{BLANK}"
@@ -552,14 +552,14 @@ msgctxt "Things.ItemKitFlagODA"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
-msgctxt "Things.ItemKitRespawnPointWallMounted"
-msgid "{BLANK}"
+#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
+msgctxt "Things.ItemKitFlagODA"
+msgid "Kit (ODA Flag)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
 msgctxt "Things.ItemKitRespawnPointWallMounted"
-msgid "Kit (Respawn)"
+msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
@@ -2073,14 +2073,14 @@ msgctxt "Things.ItemKitSDBHopper"
 msgid "Kit (SDB Hopper)"
 msgstr "キット (ソーター)"
 
-#: /Language/Things/RecordThing[Key='ItemKitFlagODA']
-msgctxt "Things.ItemKitFlagODA"
-msgid "Kit (ODA Flag)"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='StructureSDBHopper']
 msgctxt "Things.StructureSDBHopper"
 msgid "SDB Hopper"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
+msgctxt "Things.ItemKitRespawnPointWallMounted"
+msgid "Kit (Respawn)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSDBHopperAdvanced']
@@ -2813,15 +2813,15 @@ msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLong"
 msgid "Composite Cladding (Angled Corner Inner Long)"
 msgstr "複合被覆材 (角 傾斜 内側 ロング)"
 
+#: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongL']
+msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongL"
+msgid "Composite Cladding (Angled Corner Inner Long L)"
+msgstr "複合被覆材 (角 傾斜 内側 ロング 左)"
+
 #: /Language/Things/RecordThing[Key='StructureCompositeCladdingAngledCornerInnerLongR']
 msgctxt "Things.StructureCompositeCladdingAngledCornerInnerLongR"
 msgid "Composite Cladding (Angled Corner Inner Long R)"
 msgstr "複合被覆材 (角 傾斜 内側 ロング 右)"
-
-#: /Language/Things/RecordThing[Key='StructureCompositeCladdingRoundedCornerInner']
-msgctxt "Things.StructureCompositeCladdingRoundedCornerInner"
-msgid "Composite Cladding (Rounded Corner Inner)"
-msgstr "複合被覆材 (曲面 角 内側)"
 
 #: /Language/Things/RecordThing[Key='ReagentCobalt']
 msgctxt "Things.ReagentCobalt"
@@ -5054,6 +5054,12 @@ msgctxt "Things.StructureWallCooler"
 msgid "Wall Cooler"
 msgstr "壁冷房"
 
+#: /Language/Things/RecordThing[Key='StructureLiquidValve']
+#, fuzzy
+msgctxt "Things.StructureLiquidValve"
+msgid "Liquid Valve"
+msgstr "ダートキャニスター"
+
 #: /Language/Things/RecordThing[Key='StructureVolumePump']
 msgctxt "Things.StructureVolumePump"
 msgid "Volume Pump"
@@ -6570,6 +6576,17 @@ msgctxt "Things.ItemPowerConnector"
 msgid "Kit (Power Connector)"
 msgstr "キット (パワーコネクター)"
 
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeValve']
+msgctxt "Things.ItemLiquidPipeValve"
+msgid "This kit creates a {THING:StructureLiquidValve}."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeValve']
+#, fuzzy
+msgctxt "Things.ItemLiquidPipeValve"
+msgid "Kit (Liquid Pipe Valve)"
+msgstr "キット (パイプ弁)"
+
 #: /Language/Things/RecordThing[Key='ItemPipeVolumePump']
 msgctxt "Things.ItemPipeVolumePump"
 msgid "This kit creates a {THING:StructureVolumePump}."
@@ -7201,7 +7218,6 @@ msgid "This kit produces a {THING:ItemLiquidTankStorage} for refilling a {THING:
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemLiquidTankStorage']
-#, fuzzy
 msgctxt "Things.ItemLiquidTankStorage"
 msgid "Kit (Liquid Canister Storage)"
 msgstr ""
