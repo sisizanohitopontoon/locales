@@ -10,15 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='AutolathePrinterMod']
-msgctxt "Things.AutolathePrinterMod"
-msgid "Apply to an {THING:StructureAutolathe} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
-msgstr "Použijte na {THING:StructureAutolathe} se {THING:ItemWeldingTorch} nebo {THING:ItemArcWelder} pro vylepšení na zvýšení rychlosti zpracování a více možností receptů."
-
-#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
-msgctxt "Things.Rover_MkI_build_states"
-msgid "Rover MKI"
-msgstr "Rover MKI"
+#: /Language/Things/RecordThing[Key='PipeBenderMod']
+msgctxt "Things.PipeBenderMod"
+msgid "Apply to an {THING:StructureHydraulicPipeBender} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
+msgstr "Použijte na {THING:StructureHydraulicPipeBender} se {THING:ItemWeldingTorch} nebo {THING:ItemArcWelder} pro vylepšení na zvýšení rychlosti zpracování a více možností receptů."
 
 #: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
 msgctxt "Things.Rover_MkI_build_states"
@@ -551,6 +546,35 @@ msgctxt "Things.StructureWaterBottleFiller"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
+#: /Language/Things/RecordThing[Key='StructureIceCrusher']
+msgctxt "Things.StructureIceCrusher"
+msgid "Ice Crusher"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureIceCrusher']
+msgctxt "Things.StructureIceCrusher"
+msgid ""
+"The <color=#0080FFFF>{LINK:Recurso;Recurso}</color> KoolAuger converts various ices into their respective <color=#0080FFFF>{LINK:GasPage;gases}</color> and liquids.\n"
+"A remarkably smart and compact sublimator-cum-melting unit, it produces gas or liquid depending on the ice being processed. If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
+#, fuzzy
+msgctxt "Things.ItemKitIceCrusher"
+msgid "Kit (Ice Crusher)"
+msgstr "Rohové potrubí (sada)"
+
+#: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
+#, fuzzy
+msgctxt "Things.ItemKitIceCrusher"
+msgid "This kit creates a {THING:StructureIceCrusher}."
+msgstr "Tato sada vytváří {THING:StructurePipeCorner}."
+
+#: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
+msgctxt "Things.Rover_MkI_build_states"
+msgid "Rover MKI"
+msgstr "Rover MKI"
+
 #: /Language/Things/RecordThing[Key='ItemKitRoverMKI']
 msgctxt "Things.ItemKitRoverMKI"
 msgid "{BLANK}"
@@ -626,11 +650,6 @@ msgctxt "Things.ItemWreckageTurbineGenerator1"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator1']
-msgctxt "Things.ItemWreckageTurbineGenerator1"
-msgid "Wreckage Turbine Generator"
-msgstr "Vrak turbogenerátoru"
-
 #: /Language/Things/RecordThing[Key='ItemWreckageStructureRTG1']
 msgctxt "Things.ItemWreckageStructureRTG1"
 msgid "{BLANK}"
@@ -640,6 +659,11 @@ msgstr "{BLANK}"
 msgctxt "Things.ItemWreckageStructureRTG1"
 msgid "Wreckage Structure RTG"
 msgstr "Vrak konstrukce RTG"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
+msgctxt "Things.Flag_ODA_4m"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_4m']
 msgctxt "Things.Flag_ODA_4m"
@@ -2071,15 +2095,15 @@ msgctxt "Things.StructureChairThickDouble"
 msgid "Chair (Thick Double)"
 msgstr "Židle (dvojitá silná)"
 
+#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator1']
+msgctxt "Things.ItemWreckageTurbineGenerator1"
+msgid "Wreckage Turbine Generator"
+msgstr "Vrak turbogenerátoru"
+
 #: /Language/Things/RecordThing[Key='StructureChairThickSingle']
 msgctxt "Things.StructureChairThickSingle"
 msgid "Chair (Thick Single)"
 msgstr "Židle (jednoduchá silná)"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
-msgctxt "Things.Flag_ODA_4m"
-msgid "{BLANK}"
-msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitDebug']
 msgctxt "Things.ItemKitDebug"
@@ -2791,13 +2815,13 @@ msgstr "Mod tiskárny nástrojů"
 
 #: /Language/Things/RecordThing[Key='PipeBenderMod']
 msgctxt "Things.PipeBenderMod"
-msgid "Apply to an {THING:StructureHydraulicPipeBender} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
-msgstr "Použijte na {THING:StructureHydraulicPipeBender} se {THING:ItemWeldingTorch} nebo {THING:ItemArcWelder} pro vylepšení na zvýšení rychlosti zpracování a více možností receptů."
-
-#: /Language/Things/RecordThing[Key='PipeBenderMod']
-msgctxt "Things.PipeBenderMod"
 msgid "Pipe Bender Mod"
 msgstr "Mod hydraulické ohýbačky trubek"
+
+#: /Language/Things/RecordThing[Key='AutolathePrinterMod']
+msgctxt "Things.AutolathePrinterMod"
+msgid "Apply to an {THING:StructureAutolathe} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
+msgstr "Použijte na {THING:StructureAutolathe} se {THING:ItemWeldingTorch} nebo {THING:ItemArcWelder} pro vylepšení na zvýšení rychlosti zpracování a více možností receptů."
 
 #: /Language/Things/RecordThing[Key='AutolathePrinterMod']
 msgctxt "Things.AutolathePrinterMod"
@@ -7327,10 +7351,10 @@ msgctxt "Things.ItemGoldOre"
 msgid "Surprisingly common throughout the Solar System, gold is thought to originate in the heart of supernovas, gathering as dust in the early stages of solar formation, then incorporating into the slowly accreting planetary bodies. Now a prized element in <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> construction, gold is valued not for its beauty, but its reliability: inert, durable, conductive and highly stable, gold's strength is that it does nothing."
 msgstr "Překvapivě běžné v celé sluneční soustavě, předpokládá se, že zlato pochází ze srdce supernov, které se v raných fázích sluneční formace hromadí jako prach a poté se začleňují do pomalu se rozvíjejících planetárních těles. Zlato, které je nyní cenným prvkem v <color=#0080FFFF>{LINK:Stationeers;Stationeerově}</color> konstrukci, si cení ne své krásy, ale své spolehlivosti: inertní, odolné, vodivé a vysoce stabilní, síla zlata spočívá v tom, že nedělá nic."
 
-#: /Language/Things/RecordThing[Key='ItemGoldOre']
-msgctxt "Things.ItemGoldOre"
-msgid "Ore (Gold)"
-msgstr "Zlato (ruda)"
+#: /Language/Things/RecordThing[Key='ItemGoldIngot']
+msgctxt "Things.ItemGoldIngot"
+msgid "There is an enduring paradox at the heart of the <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> project: An initiative conceived as 'cut-price space exploration' uses <color=#0080FFFF>{LINK:OrePage;gold}</color> as a fundamental ingredient in fabricating so much of its equipment and materiel. "
+msgstr "V srdci projektu <color=#0080FFFF>{LINK:Stationeers;Stationeerů}</color> je trvalý paradox: Iniciativa koncipovaná jako 'průzkum vesmíru za sníženou cenu' využívá <color=#0080FFFF>{LINK:OrePage;zlato}</color> jako základní přísadu při výrobě tolik jeho vybavení a materiálu. "
 
 #: /Language/Things/RecordThing[Key='ItemGoldIngot']
 msgctxt "Things.ItemGoldIngot"
@@ -8794,10 +8818,10 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrovlnná trouba"
 
-#: /Language/Things/RecordThing[Key='ItemGoldIngot']
-msgctxt "Things.ItemGoldIngot"
-msgid "There is an enduring paradox at the heart of the <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> project: An initiative conceived as 'cut-price space exploration' uses <color=#0080FFFF>{LINK:OrePage;gold}</color> as a fundamental ingredient in fabricating so much of its equipment and materiel. "
-msgstr "V srdci projektu <color=#0080FFFF>{LINK:Stationeers;Stationeerů}</color> je trvalý paradox: Iniciativa koncipovaná jako 'průzkum vesmíru za sníženou cenu' využívá <color=#0080FFFF>{LINK:OrePage;zlato}</color> jako základní přísadu při výrobě tolik jeho vybavení a materiálu. "
+#: /Language/Things/RecordThing[Key='ItemGoldOre']
+msgctxt "Things.ItemGoldOre"
+msgid "Ore (Gold)"
+msgstr "Zlato (ruda)"
 
 #~ msgctxt "Things.StructureGrowLight"
 #~ msgid "{BLANK}"
