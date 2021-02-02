@@ -7,9 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Things/RecordThing[Key='ToolPrinterMod']
-msgctxt "Things.ToolPrinterMod"
-msgid "Tool Printer Mod"
+#: /Language/Things/RecordThing[Key='StructureTransformerMedium']
+msgctxt "Things.StructureTransformerMedium"
+msgid "Transformer (Medium)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
@@ -69,7 +69,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitUprightWindTurbine']
 msgctxt "Things.ItemKitUprightWindTurbine"
-msgid "{BLANK}"
+msgid "This kit produces a {THING:StructureUprightWindTurbine}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureUprightWindTurbine']
@@ -79,7 +79,9 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureUprightWindTurbine']
 msgctxt "Things.StructureUprightWindTurbine"
-msgid "{BLANK}"
+msgid ""
+"Norsec's basic wind turbine is an easily fabricated, rapidly deployed design that is strong enough to withstand the worst that environments can throw at it. \n"
+"While the wind turbine is optimized to produce power even on low atmosphere worlds (up to 200W), it performs best in denser environments. Output varies with wind speed, and during storms, may increase dramatically, so be careful to design your power networks with that in mind."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='CrateMkII']
@@ -89,7 +91,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='CrateMkII']
 msgctxt "Things.CrateMkII"
-msgid "{BLANK}"
+msgid "A more heavily reinforced version of the iconic {THING:DynamicCrate}, the Crate Mk II is resistant to incredibly high pressures and temperatures. Short of disposing of it in a black hole, the Mk II is about as safe as luggage gets."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitCrateMkII']
@@ -99,7 +101,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitCrateMkII']
 msgctxt "Things.ItemKitCrateMkII"
-msgid "{BLANK}"
+msgid "This kit produces a {THING:CrateMkII}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemEmptyCan']
@@ -261,7 +263,9 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureWindTurbine']
 msgctxt "Things.StructureWindTurbine"
-msgid "{BLANK}"
+msgid ""
+"The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceeedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.\n"
+"While the wind turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 10,000W), so be careful to design your power networks with that in mind."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitWindTurbine']
@@ -271,7 +275,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitWindTurbine']
 msgctxt "Things.ItemKitWindTurbine"
-msgid "{BLANK}"
+msgid "This kit produces a {THING:StructureWindTurbine}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPipeLiquid']
@@ -533,11 +537,10 @@ msgstr ""
 msgctxt "Things.StructureIceCrusher"
 msgid ""
 "The <color=#0080FFFF>{LINK:Recurso;Recurso}</color> KoolAuger converts various ices into their respective <color=#0080FFFF>{LINK:GasPage;gases}</color> and liquids.\n"
-"A remarkably smart and compact sublimator-cum-melting unit, it produces gas or liquid depending on the ice being processed. If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained."
+"A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
-#, fuzzy
 msgctxt "Things.ItemKitIceCrusher"
 msgid "Kit (Ice Crusher)"
 msgstr ""
@@ -561,10 +564,44 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.DynamicGasTankAdvancedWater"
 msgid "Water Gas Tank (Advanced)"
-msgstr "가스 탱크 (공기)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
 msgctxt "Things.DynamicGasTankAdvancedWater"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
+#, fuzzy
+msgctxt "Things.StructureLiquidPipeRadiator"
+msgid "Liquid Pipe Radiator"
+msgstr "배관 방열기"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
+msgctxt "Things.StructureLiquidPipeRadiator"
+msgid ""
+"A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added the gas within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. \n"
+"The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will sped up heat transfer."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
+msgctxt "Things.StructureLiquidPipeRadiator"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
+#, fuzzy
+msgctxt "Things.ItemPipeLiquidRadiator"
+msgid "Kit (Liquid Radiator)"
+msgstr "배관 방열기"
+
+#: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
+msgctxt "Things.ItemPipeLiquidRadiator"
+msgid "This kit creates a {THING:StructureLiquidPipeRadiator}."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
+msgctxt "Things.ItemPipeLiquidRadiator"
 msgid "{BLANK}"
 msgstr ""
 
@@ -623,11 +660,6 @@ msgctxt "Things.ItemWreckageTurbineGenerator3"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
-msgctxt "Things.ItemWreckageTurbineGenerator3"
-msgid "Wreckage Turbine Generator"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator2']
 msgctxt "Things.ItemWreckageTurbineGenerator2"
 msgid "{BLANK}"
@@ -636,6 +668,11 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator2']
 msgctxt "Things.ItemWreckageTurbineGenerator2"
 msgid "Wreckage Turbine Generator"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator1']
+msgctxt "Things.ItemWreckageTurbineGenerator1"
+msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator1']
@@ -2156,6 +2193,11 @@ msgctxt "Things.StructureChairBoothCornerRight"
 msgid "Chair (Booth Corner Right)"
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
+msgctxt "Things.ItemWreckageTurbineGenerator3"
+msgid "Wreckage Turbine Generator"
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='StructureChairBoothMiddle']
 msgctxt "Things.StructureChairBoothMiddle"
 msgid "Chair (Booth Middle)"
@@ -2164,11 +2206,6 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureChairRectangleDouble']
 msgctxt "Things.StructureChairRectangleDouble"
 msgid "Chair (Rectangle Double)"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator1']
-msgctxt "Things.ItemWreckageTurbineGenerator1"
-msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureChairRectangleSingle']
@@ -2911,14 +2948,14 @@ msgctxt "Things.StructureTransformerMediumReversed"
 msgid "Transformer Reversed (Medium)"
 msgstr "변압기 (소형)"
 
-#: /Language/Things/RecordThing[Key='StructureTransformerMedium']
-msgctxt "Things.StructureTransformerMedium"
-msgid "Transformer (Medium)"
+#: /Language/Things/RecordThing[Key='ToolPrinterMod']
+msgctxt "Things.ToolPrinterMod"
+msgid "Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ToolPrinterMod']
 msgctxt "Things.ToolPrinterMod"
-msgid "Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
+msgid "Tool Printer Mod"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='PipeBenderMod']
@@ -5349,7 +5386,7 @@ msgstr "분류장치"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanel']
 msgctxt "Things.StructureSolarPanel"
-msgid "{<color=#0080FFFF>{LINK:Sinotai;Sinotai's}</color> standard solar panels are used for generating power from sunlight. They can be connected to {<color=#0080FFFF>{LINK:LogicPage;logic}</color> systems, in order to track sunlight, but their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}."
+msgid "<color=#0080FFFF>{LINK:Sinotai;Sinotai's}</color> standard solar panels are used for generating power from sunlight. They can be connected to <color=#0080FFFF>{LINK:LogicPage;logic}</color> systems, in order to track sunlight, but their reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanel']
@@ -5364,7 +5401,7 @@ msgstr "수면장치"
 
 #: /Language/Things/RecordThing[Key='StructureRTG']
 msgctxt "Things.StructureRTG"
-msgid "The {<color=#0080FFFF>{LINK:Norsec;Norsec}</color>RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a thermocouple. Normally restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output."
+msgid "The <color=#0080FFFF>{LINK:Norsec;Norsec}</color>RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a thermocouple. Normally restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRTG']
@@ -5594,7 +5631,7 @@ msgstr "점화기"
 #: /Language/Things/RecordThing[Key='StructureHydroponicsTray']
 msgctxt "Things.StructureHydroponicsTray"
 msgid ""
-"The {<color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> hydroponics tray is the ideal vessel for growing a range of <color=#0080FFFF>{LINK:OrganicPage;plantlife}</color>. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. \n"
+"The <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> hydroponics tray is the ideal vessel for growing a range of <color=#0080FFFF>{LINK:OrganicPage;plantlife}</color>. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. \n"
 "It can be automated using the {THING:StructureHarvie}."
 msgstr ""
 
@@ -7399,8 +7436,8 @@ msgstr "수류탄"
 
 #: /Language/Things/RecordThing[Key='ItemGoldOre']
 msgctxt "Things.ItemGoldOre"
-msgid "Surprisingly common throughout the Solar System, gold is thought to originate in the heart of supernovas, gathering as dust in the early stages of solar formation, then incorporating into the slowly accreting planetary bodies. Now a prized element in <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> construction, gold is valued not for its beauty, but its reliability: inert, durable, conductive and highly stable, gold's strength is that it does nothing."
-msgstr ""
+msgid "Ore (Gold)"
+msgstr "광물 (금)"
 
 #: /Language/Things/RecordThing[Key='ItemGoldIngot']
 msgctxt "Things.ItemGoldIngot"
@@ -8880,8 +8917,8 @@ msgstr "전자레인지"
 
 #: /Language/Things/RecordThing[Key='ItemGoldOre']
 msgctxt "Things.ItemGoldOre"
-msgid "Ore (Gold)"
-msgstr "광물 (금)"
+msgid "Surprisingly common throughout the Solar System, gold is thought to originate in the heart of supernovas, gathering as dust in the early stages of solar formation, then incorporating into the slowly accreting planetary bodies. Now a prized element in <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> construction, gold is valued not for its beauty, but its reliability: inert, durable, conductive and highly stable, gold's strength is that it does nothing."
+msgstr ""
 
 #, fuzzy
 #~ msgctxt "Things.StructureSolarPanel45"

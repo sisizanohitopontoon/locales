@@ -636,15 +636,15 @@ msgctxt "Interface.SettingsTitleAdvScreen"
 msgid "Advanced Settings"
 msgstr "További beállítások"
 
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Felbontás"
-
 #: /Language/Interface/Record[Key='SettingsScreenMode']
 msgctxt "Interface.SettingsScreenMode"
 msgid "Screen Mode"
 msgstr "Képernyő üzemmód"
+
+#: /Language/Interface/Record[Key='SettingsVsync']
+msgctxt "Interface.SettingsVsync"
+msgid "V-Sync"
+msgstr "Vertikális szinkronizálás"
 
 #: /Language/Interface/Record[Key='SettingsButtonApply']
 msgctxt "Interface.SettingsButtonApply"
@@ -1336,6 +1336,11 @@ msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Uptade Port nem módosítható a szerver futása közben."
 
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Felbontás"
+
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
@@ -1345,11 +1350,6 @@ msgstr "Be kell írnod egy nevet a mentéshez."
 msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Figyelem"
-
-#: /Language/Interface/Record[Key='SettingsVsync']
-msgctxt "Interface.SettingsVsync"
-msgid "V-Sync"
-msgstr "Vertikális szinkronizálás"
 
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
@@ -1611,10 +1611,11 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
-msgctxt "Interface.ContactLandingRequestFailSatellite"
-msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
-msgstr ""
+#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
+#, fuzzy
+msgctxt "Interface.ContactTradeRequestFailInUse"
+msgid "Somebody is already interacting with this Trader, try again soon."
+msgstr "Ez az ügyfél már valakivel kapcsolatba lépett, próbálkozz újra később."
 
 #: /Language/Interface/Record[Key='StationpediaNoResults']
 msgctxt "Interface.StationpediaNoResults"
@@ -4186,21 +4187,20 @@ msgctxt "Interface.ContactLandingRequestFailStorm"
 msgid "Trader is unable to travel in this storm."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Előbeállítás"
+#: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
+msgctxt "Interface.ContactLandingRequestFailSatellite"
+msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
+msgstr ""
 
 #: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
 msgctxt "Interface.ContactLandingRequestFailVendingMachine"
 msgid "You need a powered Vending Machine on the network to interact with this trader."
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
-#, fuzzy
-msgctxt "Interface.ContactTradeRequestFailInUse"
-msgid "Somebody is already interacting with this Trader, try again soon."
-msgstr "Ez az ügyfél már valakivel kapcsolatba lépett, próbálkozz újra később."
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Előbeállítás"
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 #, fuzzy

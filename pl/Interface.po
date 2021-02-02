@@ -647,15 +647,15 @@ msgctxt "Interface.SettingsTitleAdvScreen"
 msgid "Advanced Settings"
 msgstr "Ustawienia zaawansowane"
 
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Rozdzielczość"
-
 #: /Language/Interface/Record[Key='SettingsScreenMode']
 msgctxt "Interface.SettingsScreenMode"
 msgid "Screen Mode"
 msgstr "Tryb ekranu"
+
+#: /Language/Interface/Record[Key='SettingsVsync']
+msgctxt "Interface.SettingsVsync"
+msgid "V-Sync"
+msgstr "Synchronizacja pionowa"
 
 #: /Language/Interface/Record[Key='SettingsButtonApply']
 msgctxt "Interface.SettingsButtonApply"
@@ -1355,6 +1355,11 @@ msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Nie mozna zmodyfikowac portu aktualizacji podczas dzialania serwera."
 
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Rozdzielczość"
+
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
@@ -1364,11 +1369,6 @@ msgstr "Musisz wprowadzic nazwe swiata, aby zapisac."
 msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Uwaga"
-
-#: /Language/Interface/Record[Key='SettingsVsync']
-msgctxt "Interface.SettingsVsync"
-msgid "V-Sync"
-msgstr "Synchronizacja pionowa"
 
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
@@ -1633,10 +1633,11 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
-msgctxt "Interface.ContactLandingRequestFailSatellite"
-msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
-msgstr ""
+#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
+#, fuzzy
+msgctxt "Interface.ContactTradeRequestFailInUse"
+msgid "Somebody is already interacting with this Trader, try again soon."
+msgstr "Ten kontakt już dokonuje z kimś wymiany, spróbuj ponownie później."
 
 #: /Language/Interface/Record[Key='StationpediaNoResults']
 msgctxt "Interface.StationpediaNoResults"
@@ -4271,9 +4272,9 @@ msgctxt "Interface.ContactLandingRequestFailStorm"
 msgid "Trader is unable to travel in this storm."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
+#: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
+msgctxt "Interface.ContactLandingRequestFailSatellite"
+msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
 msgstr ""
 
 #: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
@@ -4281,11 +4282,10 @@ msgctxt "Interface.ContactLandingRequestFailVendingMachine"
 msgid "You need a powered Vending Machine on the network to interact with this trader."
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
-#, fuzzy
-msgctxt "Interface.ContactTradeRequestFailInUse"
-msgid "Somebody is already interacting with this Trader, try again soon."
-msgstr "Ten kontakt już dokonuje z kimś wymiany, spróbuj ponownie później."
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 #, fuzzy

@@ -637,15 +637,15 @@ msgctxt "Interface.SettingsTitleAdvScreen"
 msgid "Advanced Settings"
 msgstr "高级设置"
 
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "分辨率"
-
 #: /Language/Interface/Record[Key='SettingsScreenMode']
 msgctxt "Interface.SettingsScreenMode"
 msgid "Screen Mode"
 msgstr "显示模式"
+
+#: /Language/Interface/Record[Key='SettingsVsync']
+msgctxt "Interface.SettingsVsync"
+msgid "V-Sync"
+msgstr "垂直同步"
 
 #: /Language/Interface/Record[Key='SettingsButtonApply']
 msgctxt "Interface.SettingsButtonApply"
@@ -1334,6 +1334,11 @@ msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "无法在服务器运行时修改更新端口."
 
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "分辨率"
+
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
@@ -1343,11 +1348,6 @@ msgstr "您必须输入世界名称才能保存."
 msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "注意"
-
-#: /Language/Interface/Record[Key='SettingsVsync']
-msgctxt "Interface.SettingsVsync"
-msgid "V-Sync"
-msgstr "垂直同步"
 
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
@@ -1609,10 +1609,11 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
-msgctxt "Interface.ContactLandingRequestFailSatellite"
-msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
-msgstr ""
+#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
+#, fuzzy
+msgctxt "Interface.ContactTradeRequestFailInUse"
+msgid "Somebody is already interacting with this Trader, try again soon."
+msgstr "此联系人正在与某人互动中，请稍后重试。"
 
 #: /Language/Interface/Record[Key='StationpediaNoResults']
 msgctxt "Interface.StationpediaNoResults"
@@ -4190,21 +4191,20 @@ msgctxt "Interface.ContactLandingRequestFailStorm"
 msgid "Trader is unable to travel in this storm."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "预置"
+#: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
+msgctxt "Interface.ContactLandingRequestFailSatellite"
+msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
+msgstr ""
 
 #: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
 msgctxt "Interface.ContactLandingRequestFailVendingMachine"
 msgid "You need a powered Vending Machine on the network to interact with this trader."
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
-#, fuzzy
-msgctxt "Interface.ContactTradeRequestFailInUse"
-msgid "Somebody is already interacting with this Trader, try again soon."
-msgstr "此联系人正在与某人互动中，请稍后重试。"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "预置"
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 #, fuzzy
