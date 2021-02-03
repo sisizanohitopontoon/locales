@@ -15,11 +15,6 @@ msgctxt "Interface.WorldNameLabel"
 msgid "World Name"
 msgstr "世界名称"
 
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr "消耗性物资"
-
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
 msgid "Walls and Floors"
@@ -235,6 +230,11 @@ msgstr "保存世界"
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "保存:"
+
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr "锁定"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
@@ -587,11 +587,6 @@ msgctxt "Interface.SettingsGameplayAutosave"
 msgid "Enable Autosave"
 msgstr "启用自动保存"
 
-#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
-msgctxt "Interface.SettingsAutosaveInterval"
-msgid "Interval Time (Seconds)"
-msgstr "间隔时间(秒)"
-
 #: /Language/Interface/Record[Key='SettingsHUDScale']
 msgctxt "Interface.SettingsHUDScale"
 msgid "HUD Scale"
@@ -636,6 +631,11 @@ msgstr "基本设置"
 msgctxt "Interface.SettingsTitleAdvScreen"
 msgid "Advanced Settings"
 msgstr "高级设置"
+
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "分辨率"
 
 #: /Language/Interface/Record[Key='SettingsScreenMode']
 msgctxt "Interface.SettingsScreenMode"
@@ -1280,6 +1280,11 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "你陷入无意识状态。你想放弃然后重生吗？"
 
+#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
+msgctxt "Interface.SettingsAutosaveInterval"
+msgid "Interval Time (Seconds)"
+msgstr "间隔时间(秒)"
+
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
 msgid "Give Up"
@@ -1290,10 +1295,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "文件{0}无效，请检查世界{1}。"
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "无效的IP地址 {0} \\n检查IP地址或URL是否有效"
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "备份文件夹缺失或为空。"
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1333,11 +1338,6 @@ msgstr "端口值必须介于0到65535之间."
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "无法在服务器运行时修改更新端口."
-
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "分辨率"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1554,6 +1554,11 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "世界预置"
 
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr "消耗性物资"
+
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1608,12 +1613,6 @@ msgstr ""
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
-
-#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
-#, fuzzy
-msgctxt "Interface.ContactTradeRequestFailInUse"
-msgid "Somebody is already interacting with this Trader, try again soon."
-msgstr "此联系人正在与某人互动中，请稍后重试。"
 
 #: /Language/Interface/Record[Key='StationpediaNoResults']
 msgctxt "Interface.StationpediaNoResults"
@@ -4201,10 +4200,11 @@ msgctxt "Interface.ContactLandingRequestFailVendingMachine"
 msgid "You need a powered Vending Machine on the network to interact with this trader."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "预置"
+#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
+#, fuzzy
+msgctxt "Interface.ContactTradeRequestFailInUse"
+msgid "Somebody is already interacting with this Trader, try again soon."
+msgstr "此联系人正在与某人互动中，请稍后重试。"
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 #, fuzzy
@@ -4232,10 +4232,10 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr "没有回复。"
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
-msgstr "锁定"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "预置"
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
@@ -5451,10 +5451,10 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "描述/类型"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "备份文件夹缺失或为空。"
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "无效的IP地址 {0} \\n检查IP地址或URL是否有效"
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"

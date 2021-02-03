@@ -15,11 +15,6 @@ msgctxt "Interface.WorldNameLabel"
 msgid "World Name"
 msgstr "Název světa"
 
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr "Spotřeba"
-
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
 msgid "Walls and Floors"
@@ -234,6 +229,11 @@ msgstr "Uložené světy"
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Uloženo:"
+
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr "Uzamčeno"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
@@ -586,11 +586,6 @@ msgctxt "Interface.SettingsGameplayAutosave"
 msgid "Enable Autosave"
 msgstr "Povolit automatické ukládání"
 
-#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
-msgctxt "Interface.SettingsAutosaveInterval"
-msgid "Interval Time (Seconds)"
-msgstr "Časový interval (sekundy)"
-
 #: /Language/Interface/Record[Key='SettingsHUDScale']
 msgctxt "Interface.SettingsHUDScale"
 msgid "HUD Scale"
@@ -635,6 +630,11 @@ msgstr "Základní nastavení"
 msgctxt "Interface.SettingsTitleAdvScreen"
 msgid "Advanced Settings"
 msgstr "Pokročilé nastavení"
+
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Rozlišení"
 
 #: /Language/Interface/Record[Key='SettingsScreenMode']
 msgctxt "Interface.SettingsScreenMode"
@@ -1281,6 +1281,11 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Jste v bezvědomí. Chcete to vzdát a znovu se oživit?"
 
+#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
+msgctxt "Interface.SettingsAutosaveInterval"
+msgid "Interval Time (Seconds)"
+msgstr "Časový interval (sekundy)"
+
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
 msgid "Give Up"
@@ -1291,10 +1296,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "Soubor {0} je neplatný. Zkontrolujte svět {1}."
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Neplatná IP Adresa {0} \\nZkontroluj IP adresu nebo URL jestli je platná"
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Složka záloh chybí nebo je prázdná."
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1334,11 +1339,6 @@ msgstr "Hodnota portu musí být mezi 0 a 65535."
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Nelze změnit port pro aktualizace, je-li spuštěn server."
-
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Rozlišení"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1555,6 +1555,11 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Předvolby světa"
 
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr "Spotřeba"
+
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1609,11 +1614,6 @@ msgstr "Již brzy..."
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Slot"
-
-#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
-msgctxt "Interface.ContactTradeRequestFailInUse"
-msgid "Somebody is already interacting with this Trader, try again soon."
-msgstr "Někdo je již v interakci s tímto obchodníkem, zkuste to později."
 
 #: /Language/Interface/Record[Key='StationpediaNoResults']
 msgctxt "Interface.StationpediaNoResults"
@@ -4200,10 +4200,10 @@ msgctxt "Interface.ContactLandingRequestFailVendingMachine"
 msgid "You need a powered Vending Machine on the network to interact with this trader."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Předvolby"
+#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
+msgctxt "Interface.ContactTradeRequestFailInUse"
+msgid "Somebody is already interacting with this Trader, try again soon."
+msgstr "Někdo je již v interakci s tímto obchodníkem, zkuste to později."
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 msgctxt "Interface.ContactTradeRequestFail"
@@ -4230,10 +4230,10 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr "Žádná odpověď."
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
-msgstr "Uzamčeno"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Předvolby"
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
@@ -5445,10 +5445,10 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Popis"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Složka záloh chybí nebo je prázdná."
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Neplatná IP Adresa {0} \\nZkontroluj IP adresu nebo URL jestli je platná"
 
 #~ msgctxt "Interface.NewWorldVenusShortDesc"
 #~ msgid "Venus planet!"

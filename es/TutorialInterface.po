@@ -3509,7 +3509,7 @@ msgstr "Terminar la construcción del horno"
 
 #: /Language/Interface/Record[Key='4.5Narration2D']
 msgctxt "Interface.4.5Narration2D"
-msgid "Furnaces produce usable waste gas, but you're not set up for that yet. So you will have to pump it outside. This will let you vent excess pressure later, too."
+msgid "Furnaces produce usable waste gas, but you're not set up for that yet. So you will have to pump it outside through a vent. Later, this also will let you vent excess pressure."
 msgstr ""
 
 #: /Language/Interface/Record[Key='4.5BuildPipe']
@@ -3549,8 +3549,9 @@ msgid "To run a furnace, you need to monitor its pressure and temperature. Set u
 msgstr ""
 
 #: /Language/Interface/Record[Key='4.5PlaceConsole']
+#, fuzzy
 msgctxt "Interface.4.5PlaceConsole"
-msgid "Place console In highlighted Postion"
+msgid "Place console In highlighted posi furnace page intion"
 msgstr "Construye la consola en la posición resaltada"
 
 #: /Language/Interface/Record[Key='4.5PutGasCircuitInConsole']
@@ -3610,8 +3611,9 @@ msgid "While furnaces work best with a steady gas supply, you can power one with
 msgstr ""
 
 #: /Language/Interface/Record[Key='4.5PediaNavigation1']
+#, fuzzy
 msgctxt "Interface.4.5PediaNavigation1"
-msgid "Check Stationpedia for furnace fuel proportions"
+msgid "Consult6 times to process each oxite Stationpedia for fuel proportions"
 msgstr "Consulte Stationpedia para conocer las proporciones de combustible del horno"
 
 #: /Language/Interface/Record[Key='4.5Narration8D']
@@ -3656,8 +3658,9 @@ msgid "Add 6 oxite to furnace"
 msgstr "Agregue 6 oxitas al horno"
 
 #: /Language/Interface/Record[Key='4.5IgnitingTheFurnace']
+#, fuzzy
 msgctxt "Interface.4.5IgnitingTheFurnace"
-msgid "Press activate button until lid opens again"
+msgid "Press activate button x 6 to process oxite"
 msgstr "Presione el botón de activación hasta que la tapa se abra de nuevo"
 
 #: /Language/Interface/Record[Key='4.5AddVolatilestoFurnace']
@@ -3665,11 +3668,17 @@ msgctxt "Interface.4.5AddVolatilestoFurnace"
 msgid "Add 12 volatiles to furnace"
 msgstr "Agregue 12 volátiles al horno"
 
+#: /Language/Interface/Record[Key='4.5IgnitingTheFurnace']
+#, fuzzy
+msgctxt "Interface.4.5IgnitingTheFurnace"
+msgid "Press activate button x 2"
+msgstr "Presione el botón de activación hasta que la tapa se abra de nuevo"
+
 #: /Language/Interface/Record[Key='4.5Narration12D']
 msgctxt "Interface.4.5Narration12D"
 msgid ""
-"Before you make steel, prepare your other ingredients. The station battery also requires copper and gold.\n"
-"The furnace smelts ordinary ingots much faster than the arc furnace. We've left you ores in the locker."
+"Before you make steel, prepare your other ingredients.\n"
+"The station battery also requires copper and gold. The furnace smelts ordinary ingots much faster than the arc furnace. We've left you ores in the locker."
 msgstr ""
 
 #: /Language/Interface/Record[Key='5AddCoppertoFurnace']
@@ -3710,7 +3719,7 @@ msgstr "Lingote de oro completo"
 #: /Language/Interface/Record[Key='4.5Narration14D']
 msgctxt "Interface.4.5Narration14D"
 msgid ""
-"The furnace maintains pressure, even when it cools. So unless you want to go 'bang', vent the furnace.\n"
+"You're almost there, Cadet. The furnace maintains pressure, even when it cools. So unless you want to go 'bang', vent the furnace.\n"
 "Clear out the gas and reset the pressure."
 msgstr ""
 
@@ -3736,7 +3745,9 @@ msgstr "Encienda el horno de nuevo."
 
 #: /Language/Interface/Record[Key='4.5Narration16D']
 msgctxt "Interface.4.5Narration16D"
-msgid "Correct ingredient proportions are also critical for creating alloys. Use the Stationpedia to find the best ratio of iron and carbon to make steel, as well as the appropriate pressure and temperature."
+msgid ""
+"Correct ingredient proportions are critical for creating alloys.\n"
+"Use the Stationpedia to find the best ratio of iron and carbon to make steel, as well as the appropriate pressure and temperature."
 msgstr ""
 
 #: /Language/Interface/Record[Key='4.5HowToMakeSteel']
@@ -3760,13 +3771,15 @@ msgid "Add 8 coal"
 msgstr "Añade 8 de carbón"
 
 #: /Language/Interface/Record[Key='4.5SmeltSteel']
+#, fuzzy
 msgctxt "Interface.4.5SmeltSteel"
-msgid "Complete a steel ingot"
+msgid "Wait for steel ingot to finish smelting"
 msgstr "Completar un lingote de acero"
 
 #: /Language/Interface/Record[Key='4.5PickUpSteel']
+#, fuzzy
 msgctxt "Interface.4.5PickUpSteel"
-msgid "Pick up steel ingot"
+msgid "Eject and pick up steel ingot"
 msgstr "Recoge el lingote de acero"
 
 #: /Language/Interface/Record[Key='4.5Narration18D']
@@ -3781,7 +3794,7 @@ msgstr "Imprime un (kit) batería"
 
 #: /Language/Interface/Record[Key='4.5Narration19D']
 msgctxt "Interface.4.5Narration19D"
-msgid "The station battery provides you with a way to store power to use at night or times of high drain, so you don't need to always be generating it. "
+msgid "Excellent. Station batteries let you store excess power, so you don't need to be continually generating it. Place it and turn it on to restore power to your base."
 msgstr ""
 
 #: /Language/Interface/Record[Key='4.5BuildStationBattery']
@@ -3791,8 +3804,9 @@ msgid "Place kit (battery) in highlighted position"
 msgstr "Construya la batería de la estación en la posición resaltada"
 
 #: /Language/Interface/Record[Key='4.5Narration20D']
+#, fuzzy
 msgctxt "Interface.4.5Narration20D"
-msgid "Battries need to be turned on to start reciving power."
+msgid "Batteries need to be turned on to recieve power."
 msgstr "Las baterías tienen que estar encendidas para empezar a recibir energía."
 
 #: /Language/Interface/Record[Key='4.5TurnBattery']
@@ -3802,8 +3816,8 @@ msgstr "Enciende la batería"
 
 #: /Language/Interface/Record[Key='4.5Narration21D']
 msgctxt "Interface.4.5Narration21D"
-msgid "Now turn on the area power controllers (APCs) to activate the new battery system and main power system."
-msgstr "Ahora encienda los controladores de potencia de área (APC) para activar el nuevo sistema de baterías y el sistema de potencia principal."
+msgid "Almost there! Turn on the battery network's APC (area power controller) to link it to the main power network. The APC ensures stable, steady power flow between networks."
+msgstr ""
 
 #: /Language/Interface/Record[Key='4.5TurnAPC1']
 msgctxt "Interface.4.5TurnAPC1"
@@ -6725,6 +6739,14 @@ msgstr "Ahora que hemos reabastecido el combustible de {THING:ItemGasCanisterFue
 msgctxt "Interface.TestTheFuelMixTask1"
 msgid "Complete construction of the glass door."
 msgstr "Completa la construcción de la puerta de cristal."
+
+#~ msgctxt "Interface.4.5SmeltSteel"
+#~ msgid "Complete a steel ingot"
+#~ msgstr "Completar un lingote de acero"
+
+#~ msgctxt "Interface.4.5Narration21D"
+#~ msgid "Now turn on the area power controllers (APCs) to activate the new battery system and main power system."
+#~ msgstr "Ahora encienda los controladores de potencia de área (APC) para activar el nuevo sistema de baterías y el sistema de potencia principal."
 
 #~ msgctxt "Interface.TutoiralHydroponicsDescription"
 #~ msgid "No this inst hydro slides but that would be cool. zero G hydro slides how would that work? Pressure and lots of water?."

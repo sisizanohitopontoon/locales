@@ -15,12 +15,6 @@ msgctxt "Interface.WorldNameLabel"
 msgid "World Name"
 msgstr "Nome do Mundo"
 
-#: /Language/Interface/Record[Key='FoodCategory']
-#, fuzzy
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr "Consumíveis"
-
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
 msgid "Walls and Floors"
@@ -239,6 +233,11 @@ msgstr "Mundos Gravados"
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Gravado:"
+
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr "Trancado"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
@@ -592,11 +591,6 @@ msgctxt "Interface.SettingsGameplayAutosave"
 msgid "Enable Autosave"
 msgstr "Gravação Automática"
 
-#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
-msgctxt "Interface.SettingsAutosaveInterval"
-msgid "Interval Time (Seconds)"
-msgstr "Intervalo (Segundos)"
-
 #: /Language/Interface/Record[Key='SettingsHUDScale']
 msgctxt "Interface.SettingsHUDScale"
 msgid "HUD Scale"
@@ -641,6 +635,11 @@ msgstr "Definições Básicas"
 msgctxt "Interface.SettingsTitleAdvScreen"
 msgid "Advanced Settings"
 msgstr "Definições Avançadas"
+
+#: /Language/Interface/Record[Key='SettingsResolution']
+msgctxt "Interface.SettingsResolution"
+msgid "Resolution"
+msgstr "Resolução"
 
 #: /Language/Interface/Record[Key='SettingsScreenMode']
 msgctxt "Interface.SettingsScreenMode"
@@ -1295,6 +1294,11 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Estás inconsciente. Queres desistir e reaparecer novamente?"
 
+#: /Language/Interface/Record[Key='SettingsAutosaveInterval']
+msgctxt "Interface.SettingsAutosaveInterval"
+msgid "Interval Time (Seconds)"
+msgstr "Intervalo (Segundos)"
+
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
 msgid "Give Up"
@@ -1305,10 +1309,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "O arquivo {0} é invalido. Verifique o mundo {1}."
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "O endereço de IP é inválido {0} \\nVerifique se o endereço de IP ou o URL é válido"
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "A pasta de Backups não existe ou está vazia."
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1351,11 +1355,6 @@ msgstr "Os valores da Porta devem ser entre 0 e 65535."
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Não é possível modificar a Porta de Atualização enquanto o servidor está ativo."
-
-#: /Language/Interface/Record[Key='SettingsResolution']
-msgctxt "Interface.SettingsResolution"
-msgid "Resolution"
-msgstr "Resolução"
 
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
@@ -1572,6 +1571,12 @@ msgctxt "Interface.WorldPresetTitle"
 msgid "World Preset"
 msgstr "Predefinição do Mundo"
 
+#: /Language/Interface/Record[Key='FoodCategory']
+#, fuzzy
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr "Consumíveis"
+
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -1628,12 +1633,6 @@ msgstr ""
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
-
-#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
-#, fuzzy
-msgctxt "Interface.ContactTradeRequestFailInUse"
-msgid "Somebody is already interacting with this Trader, try again soon."
-msgstr "Este contacto já está interagindo com alguém, tente novamente em breve."
 
 #: /Language/Interface/Record[Key='StationpediaNoResults']
 msgctxt "Interface.StationpediaNoResults"
@@ -4240,10 +4239,11 @@ msgctxt "Interface.ContactLandingRequestFailVendingMachine"
 msgid "You need a powered Vending Machine on the network to interact with this trader."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Predefinição"
+#: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
+#, fuzzy
+msgctxt "Interface.ContactTradeRequestFailInUse"
+msgid "Somebody is already interacting with this Trader, try again soon."
+msgstr "Este contacto já está interagindo com alguém, tente novamente em breve."
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 #, fuzzy
@@ -4271,10 +4271,10 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr "Não houve resposta."
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
-msgstr "Trancado"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Predefinição"
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
@@ -5494,10 +5494,10 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Descrição"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "A pasta de Backups não existe ou está vazia."
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "O endereço de IP é inválido {0} \\nVerifique se o endereço de IP ou o URL é válido"
 
 #~ msgctxt "Interface.ScriptCommandLR"
 #~ msgid "Loads reagent of device's reagentMode to register."

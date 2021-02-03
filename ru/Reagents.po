@@ -10,11 +10,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Reagents/RecordReagent[Key='Milk']
-msgctxt "Reagents.Milk"
-msgid "Milk"
-msgstr "Молоко"
-
 #: /Language/Reagents/RecordReagent[Key='Flour']
 msgctxt "Reagents.Flour"
 msgid "Flour"
@@ -43,15 +38,16 @@ msgid "Biomass"
 msgstr "Биомасса"
 
 # Original: "g"
+#: /Language/Reagents/RecordReagent[Key='Wheat']
+msgctxt "Reagents.Wheat"
+msgid "Wheat.Unit"
+msgstr "{BLANK}"
+
+# Original: "g"
 #: /Language/Reagents/RecordReagent[Key='Flour']
 msgctxt "Reagents.Flour"
 msgid "Flour.Unit"
 msgstr "г"
-
-#: /Language/Reagents/RecordReagent[Key='Wheat']
-msgctxt "Reagents.Wheat"
-msgid "Wheat"
-msgstr "Пшеница"
 
 # Original: "g"
 #: /Language/Reagents/RecordReagent[Key='Corn']
@@ -466,8 +462,12 @@ msgctxt "Reagents.Milk"
 msgid "Milk.Unit"
 msgstr "мл"
 
-# Original: "g"
+#: /Language/Reagents/RecordReagent[Key='Milk']
+msgctxt "Reagents.Milk"
+msgid "Milk"
+msgstr "Молоко"
+
 #: /Language/Reagents/RecordReagent[Key='Wheat']
 msgctxt "Reagents.Wheat"
-msgid "Wheat.Unit"
-msgstr "{BLANK}"
+msgid "Wheat"
+msgstr "Пшеница"
