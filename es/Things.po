@@ -10,25 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemKitResearchMachine']
-msgctxt "Things.ItemKitResearchMachine"
-msgid "Kit Research Machine"
-msgstr "Kit Máquina de Investigación"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
-msgctxt "Things.Flag_ODA_4m"
-msgid "Flag (ODA 4m)"
-msgstr "Kit (ODA 4m)"
-
-#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
-msgctxt "Things.Flag_ODA_4m"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageStructureRTG1']
-msgctxt "Things.ItemWreckageStructureRTG1"
-msgid "Wreckage Structure RTG"
-msgstr "Estructura de los restos RTG"
+#: /Language/Things/RecordThing[Key='StructureResearchMachine']
+msgctxt "Things.StructureResearchMachine"
+msgid "Research Machine"
+msgstr "Máquina de investigación"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageStructureRTG1']
 msgctxt "Things.ItemWreckageStructureRTG1"
@@ -90,8 +75,8 @@ msgctxt "Things.ItemWreckageWallCooler1"
 msgid "Wreckage Wall Cooler"
 msgstr "Restos enfriador de pared"
 
-#: /Language/Things/RecordThing[Key='Flag_ODA_6m']
-msgctxt "Things.Flag_ODA_6m"
+#: /Language/Things/RecordThing[Key='ItemWreckageWallCooler1']
+msgctxt "Things.ItemWreckageWallCooler1"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -105,10 +90,10 @@ msgctxt "Things.ItemWreckageWallCooler2"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemKitRoverMKI']
-msgctxt "Things.ItemKitRoverMKI"
-msgid "Kit (Rover MKI)"
-msgstr "Kit (Rover MKI)"
+#: /Language/Things/RecordThing[Key='ItemWreckageStructureRTG1']
+msgctxt "Things.ItemWreckageStructureRTG1"
+msgid "Wreckage Structure RTG"
+msgstr "Estructura de los restos RTG"
 
 #: /Language/Things/RecordThing[Key='ItemKitRoverMKI']
 msgctxt "Things.ItemKitRoverMKI"
@@ -654,7 +639,8 @@ msgstr ""
 msgctxt "Things.StructureIceCrusher"
 msgid ""
 "The <color=#0080FFFF>{LINK:Recurso;Recurso}</color> KoolAuger converts various ices into their respective <color=#0080FFFF>{LINK:GasPage;gases}</color> and liquids.\n"
-"A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch."
+"A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either oulet, it will only function if the correct network is attached. \n"
+"If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
@@ -672,7 +658,7 @@ msgstr "Este kit crea un {THING:StructurePipeCorner}."
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedOxygen']
 #, fuzzy
 msgctxt "Things.DynamicGasTankAdvancedOxygen"
-msgid "Oxygen Gas Tank (Advanced)"
+msgid "Portable Gas Tank Mk II (Oxygen)"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedOxygen']
@@ -684,7 +670,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
 #, fuzzy
 msgctxt "Things.DynamicGasTankAdvancedWater"
-msgid "Water Gas Tank (Advanced)"
+msgid "Portable Liquid Tank Mk II (Water)"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
@@ -795,7 +781,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.StructureBackLiquidPressureRegulator"
 msgid "Back Liquid Pressure Regulator"
-msgstr "Regulador de Presión Posterior"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureBackLiquidPressureRegulator']
 #, fuzzy
@@ -807,7 +793,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.StructureLiquidPressureRegulator"
 msgid "Liquid Pressure Regulator"
-msgstr "Regulador de Presión"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPressureRegulator']
 #, fuzzy
@@ -819,7 +805,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemLiquidCanisterSmart"
 msgid "Liquid Canister (Smart)"
-msgstr "Bombona de Gas (Inteligente)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemLiquidCanisterSmart']
 #, fuzzy
@@ -831,7 +817,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMKIIScrewdriver"
 msgid "MKII Screwdriver"
-msgstr "Destornillador"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIScrewdriver']
 #, fuzzy
@@ -843,7 +829,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMKIIAngleGrinder"
 msgid "MKII Angle Grinder"
-msgstr "Amoladora Angular"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIAngleGrinder']
 #, fuzzy
@@ -855,7 +841,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMKIICrowbar"
 msgid "MKII Crowbar"
-msgstr "Palanca"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemMKIICrowbar']
 #, fuzzy
@@ -867,7 +853,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMKIIArcWelder"
 msgid "MKII Arc Welder"
-msgstr "Soldador Eléctrico"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIArcWelder']
 #, fuzzy
@@ -879,7 +865,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMKIIDrill"
 msgid "MKII Drill"
-msgstr "Taladro Minería"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIDrill']
 #, fuzzy
@@ -891,7 +877,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMKIIMiningDrill"
 msgid "MKII Mining Drill"
-msgstr "Taladro Minería"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIMiningDrill']
 #, fuzzy
@@ -903,7 +889,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMKIIWireCutters"
 msgid "MKII Wire Cutters"
-msgstr "Alicates"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIWireCutters']
 #, fuzzy
@@ -915,7 +901,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMKIIWrench"
 msgid "MKII Wrench"
-msgstr "Llave Inglesa"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIWrench']
 #, fuzzy
@@ -927,11 +913,38 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemMKIIDuctTape"
 msgid "MKII Duct Tape"
-msgstr "Cinta Adhesiva"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIDuctTape']
 #, fuzzy
 msgctxt "Things.ItemMKIIDuctTape"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitWaterBottleFiller']
+#, fuzzy
+msgctxt "Things.ItemKitWaterBottleFiller"
+msgid "Item Kit Water Bottle Filler"
+msgstr "Estructura Relleno de botellas de agua"
+
+#: /Language/Things/RecordThing[Key='ItemKitWaterBottleFiller']
+#, fuzzy
+msgctxt "Things.ItemKitWaterBottleFiller"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
+msgctxt "Things.Flag_ODA_4m"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_4m']
+msgctxt "Things.Flag_ODA_4m"
+msgid "Flag (ODA 4m)"
+msgstr "Kit (ODA 4m)"
+
+#: /Language/Things/RecordThing[Key='Flag_ODA_6m']
+msgctxt "Things.Flag_ODA_6m"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -1046,8 +1059,9 @@ msgid "{BLANK}"
 msgstr "Tanque de gas (Avanzado)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
+#, fuzzy
 msgctxt "Things.DynamicGasTankAdvanced"
-msgid "Gas Tank (Advanced)"
+msgid "Gas Tank Mk II"
 msgstr "Tanque de gas (Avanzado)"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
@@ -2325,15 +2339,15 @@ msgctxt "Things.StructureChairBacklessSingle"
 msgid "Chair (Backless Single)"
 msgstr "Silla (sin respaldo individual)"
 
+#: /Language/Things/RecordThing[Key='ItemKitRoverMKI']
+msgctxt "Things.ItemKitRoverMKI"
+msgid "Kit (Rover MKI)"
+msgstr "Kit (Rover MKI)"
+
 #: /Language/Things/RecordThing[Key='StructureChairBoothCornerLeft']
 msgctxt "Things.StructureChairBoothCornerLeft"
 msgid "Chair (Booth Corner Left)"
 msgstr "Silla (esquina izquierda de la cabina)"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageWallCooler1']
-msgctxt "Things.ItemWreckageWallCooler1"
-msgid "{BLANK}"
-msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureChairBoothCornerRight']
 msgctxt "Things.StructureChairBoothCornerRight"
@@ -2813,7 +2827,7 @@ msgstr "Tubería aislada recta"
 
 #: /Language/Things/RecordThing[Key='H2Combustor']
 msgctxt "Things.H2Combustor"
-msgid "Adapted slightly from its original <color=#0080FFFF>{LINK:Recurso;Recurso}</color> design, the H2 Combustor does exactly what its name suggests - it burns a mixture of hydrogen and oxygen to create water. Extremely useful in hot or arid environments, users need to be aware that the Combustor outputs considerable waste heat."
+msgid "Adapted slightly from its original <color=#0080FFFF>{LINK:Recurso;Recurso}</color> design, the H2 Combustor does exactly what its name suggests - it burns a mixture of hydrogen and oxygen to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='H2Combustor']
@@ -3035,15 +3049,15 @@ msgctxt "Things.StructureShelf"
 msgid "Shelf"
 msgstr "Estantería"
 
-#: /Language/Things/RecordThing[Key='StructureResearchMachine']
-msgctxt "Things.StructureResearchMachine"
-msgid "Research Machine"
-msgstr "Máquina de investigación"
-
 #: /Language/Things/RecordThing[Key='ManualGetResearchPodsRequired']
 msgctxt "Things.ManualGetResearchPodsRequired"
 msgid "PodTypeToSearchFor"
 msgstr "PodTypeToSearchFor"
+
+#: /Language/Things/RecordThing[Key='ItemKitResearchMachine']
+msgctxt "Things.ItemKitResearchMachine"
+msgid "Kit Research Machine"
+msgstr "Kit Máquina de Investigación"
 
 #: /Language/Things/RecordThing[Key='ItemElectronicParts']
 msgctxt "Things.ItemElectronicParts"
@@ -5517,9 +5531,10 @@ msgid "Liquid Tank Connector"
 msgstr "Conector del tanque de líquido"
 
 #: /Language/Things/RecordThing[Key='StructureTankConnector']
+#, fuzzy
 msgctxt "Things.StructureTankConnector"
-msgid "Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a pipe network."
-msgstr "Los conectores de tanque son dispositivos de montaje básicos que le permiten conectar una {THING:DynamicGasCanisterEmpty} a una red de tuberías."
+msgid "Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a gas pipe network."
+msgstr "Conector de Tanque Portátil"
 
 #: /Language/Things/RecordThing[Key='StructureTankConnector']
 msgctxt "Things.StructureTankConnector"
@@ -7659,10 +7674,10 @@ msgctxt "Things.ItemHydroponicTray"
 msgid "This kits creates a {THING:StructureHydroponicsTray} for growing various plants."
 msgstr "Este kit crea una {THING:StructureHydroponicsTray} para el cultivo de varias plantas."
 
-#: /Language/Things/RecordThing[Key='ItemHydroponicTray']
-msgctxt "Things.ItemHydroponicTray"
-msgid "Kit (Hydroponic Tray)"
-msgstr "Bandeja hidropónica"
+#: /Language/Things/RecordThing[Key='ItemHealPill']
+msgctxt "Things.ItemHealPill"
+msgid "Three centuries of pharmeceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
+msgstr "Tres siglos de tecnología farmacéutica comprimidos en una pequeña píldora fácil de ingerir: la píldora curativa, también conocida como la píldora de protones, también conocida como Mr. Happy, contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares de mamíferos en un impulso de una sola dosis de alta pureza, eficacia y potencia que potencia una rápida respuesta inmunológica parasimpática."
 
 #: /Language/Things/RecordThing[Key='ItemHealPill']
 msgctxt "Things.ItemHealPill"
@@ -7810,13 +7825,15 @@ msgid "Liquid Canister"
 msgstr "Recipiente de líquido"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
+#, fuzzy
 msgctxt "Things.ItemGasCanisterWater"
-msgid "The blue portable <color=#0080FFFF>{LINK:GasPage;H20}</color> canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit, or any other connected system. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
-msgstr "El bote portátil azul <color=#0080FFFF>{LINK:GasPage;H20}</color> tiene una capacidad de 64L, suministrando agua a artículos como la unidad {THING:DynamicHydroponics}, o cualquier otro sistema conectado. Todos los bidones de gas están llenos cuando se fabrican a una presión de 8000kPa (80 atmósferas), y pueden ser montados en una {THING:DynamicGasCanisterAir} o {THING:StructureGasTankStorage} para ser rellenados. Tenga cuidado de no presurizar más allá de 100kPA, o puede explotar."
+msgid "The blue portable <color=#0080FFFF>{LINK:GasPage;H20}</color> canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit, or any other connected system. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureLiquidTankStorage} for refill."
+msgstr "Bombona (Agua)"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
+#, fuzzy
 msgctxt "Things.ItemGasCanisterWater"
-msgid "Canister (Water)"
+msgid "Liquid Canister (Water)"
 msgstr "Bombona (Agua)"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterOxygen']
@@ -8213,9 +8230,10 @@ msgid "Kit (Active Vent)"
 msgstr "Ventilación Activa"
 
 #: /Language/Things/RecordThing[Key='GasTankAir']
+#, fuzzy
 msgctxt "Things.GasTankAir"
-msgid "Portable tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll taste the delicate flavor of regret. Use tanks to fill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere, attach it to a rover and take it for a drive, or just use it for loud, expensive target practice."
-msgstr "Los tanques portátiles almacenan gas. Para rellenar uno, atorníllelo a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conéctelo a una red de tuberías. Trate de evitar sobrepresionarlo por encima de las 100 atmósferas, o probará el delicado sabor del arrepentimiento. Usa tanques para llenar una {THING:ItemGasCanisterEmpty} colocándola en la sección rayada del tanque. O puede descomprimirlo en una habitación sellada para crear una atmósfera, conectarlo a un rover y llevarlo a dar una vuelta, o simplemente usarlo para prácticas de tiro ruidosas y costosas."
+msgid "Portable gas tanks store gas, and gas only. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll taste the delicate flavor of regret. Use tanks to fill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere, attach it to a rover and take it for a drive, or just use it for loud, expensive target practice."
+msgstr "Tanque de Gas (Aire)"
 
 #: /Language/Things/RecordThing[Key='GasTankAir']
 msgctxt "Things.GasTankAir"
@@ -8345,8 +8363,9 @@ msgid "This portable tank stores liquid, and liquid only. You can bolt one to a 
 msgstr "Tanque Portátil (Agua)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterWater']
+#, fuzzy
 msgctxt "Things.DynamicGasCanisterWater"
-msgid "Portable Tank (Water)"
+msgid "Portable Liquid Tank (Water)"
 msgstr "Tanque Portátil (Agua)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterVolatiles']
@@ -9169,10 +9188,32 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Microondas"
 
-#: /Language/Things/RecordThing[Key='ItemHealPill']
-msgctxt "Things.ItemHealPill"
-msgid "Three centuries of pharmeceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
-msgstr "Tres siglos de tecnología farmacéutica comprimidos en una pequeña píldora fácil de ingerir: la píldora curativa, también conocida como la píldora de protones, también conocida como Mr. Happy, contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares de mamíferos en un impulso de una sola dosis de alta pureza, eficacia y potencia que potencia una rápida respuesta inmunológica parasimpática."
+#: /Language/Things/RecordThing[Key='ItemHydroponicTray']
+msgctxt "Things.ItemHydroponicTray"
+msgid "Kit (Hydroponic Tray)"
+msgstr "Bandeja hidropónica"
+
+#, fuzzy
+#~ msgctxt "Things.DynamicGasTankAdvancedOxygen"
+#~ msgid "Oxygen Gas Tank (Advanced)"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.DynamicGasTankAdvancedWater"
+#~ msgid "Water Gas Tank (Advanced)"
+#~ msgstr "{BLANK}"
+
+#~ msgctxt "Things.DynamicGasTankAdvanced"
+#~ msgid "Gas Tank (Advanced)"
+#~ msgstr "Tanque de gas (Avanzado)"
+
+#~ msgctxt "Things.ItemGasCanisterWater"
+#~ msgid "Canister (Water)"
+#~ msgstr "Bombona (Agua)"
+
+#~ msgctxt "Things.DynamicGasCanisterWater"
+#~ msgid "Portable Tank (Water)"
+#~ msgstr "Tanque Portátil (Agua)"
 
 #~ msgctxt "Things.ItemWaterBottle"
 #~ msgid "{BLANK}"
