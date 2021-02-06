@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-06 00:20+0000\n"
+"PO-Revision-Date: 2021-02-06 00:33+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2833,7 +2833,6 @@ msgid "Modular Rocket Command"
 msgstr "Comando de cohetes modular"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
-#, fuzzy
 msgctxt "Things.StructureModularRocketCommand01"
 msgid ""
 "The command module must be placed on top of the rocket, and will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.\n"
@@ -2848,7 +2847,19 @@ msgid ""
 "\n"
 "The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.\n"
 "When landing, the rocket will deploy a lander, and any cargo contained in the {THING:StructureModularRocketCargo01} module."
-msgstr "Comando de cohetes modular"
+msgstr ""
+"El módulo de comando debe colocarse en la parte superior del cohete y evaluará la preparación del cohete para el vuelo. Una vez que se cumplen todas las condiciones, el cohete se puede lanzar cuando todos los jugadores estén sentados en el módulo presionando \"ENCENDIDO\" en la consola.\n"
+"\n"
+"Se deben cumplir las siguientes condiciones para el lanzamiento:\n"
+"\n"
+"- Combustible lleno\n"
+"- Relación de mezcla de combustible correcta: una mezcla 2: 1 de {GAS:Volátiles} y {GAS:Oxygen}.\n"
+"- Todos los jugadores sentados\n"
+"- Energía suministrada a {THING:StructureLaunchPad}\n"
+"- Cohete completamente construido\n"
+"\n"
+"La consola {THING:StructureModularRocketCommand01} muestra el estado actual de estas condiciones. No requiere una atmósfera para despegar, la atmósfera de su traje es suficiente.\n"
+"Al aterrizar, el cohete desplegará un módulo de aterrizaje y cualquier carga contenida en el módulo {THING:StructureModularRocketCargo01}."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
 msgctxt "Things.StructureModularRocketCommand01"
@@ -2856,12 +2867,13 @@ msgid "Modular Rocket Command"
 msgstr "Comando de cohetes modular"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
-#, fuzzy
 msgctxt "Things.StructureModularRocketCargo01"
 msgid ""
 "The cargo module has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total. This cargo will be released in orbit and "
 "descend the surface of your destination. Unless that happens to be the asteroid belt, in which case it will be left floating serenely in the void."
-msgstr "Carga de cohete modular"
+msgstr ""
+"El módulo de carga tiene capacidad para dos cajas de diez ranuras. Puede tener varios módulos de carga en su cohete. El cohete puede levantar hasta siete módulos en total. Esta carga será liberada "
+"en órbita y descenderá por la superficie de su destino. A menos que sea el cinturón de asteroides, en cuyo caso quedará flotando serenamente en el vacío."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
 msgctxt "Things.StructureModularRocketCargo01"
@@ -3789,10 +3801,9 @@ msgid "Flower (Blue)"
 msgstr "Flor (Azul)"
 
 #: /Language/Things/RecordThing[Key='ItemKitDynamicLiquidCanister']
-#, fuzzy
 msgctxt "Things.ItemKitDynamicLiquidCanister"
 msgid "This kit produces a {THING:DynamicLiquidCanisterEmpty}."
-msgstr "Kit (tanque de líquido portátil)"
+msgstr "Este kit produce una {THING:DynamicLiquidCanisterEmpty}."
 
 #: /Language/Things/RecordThing[Key='ItemKitDynamicLiquidCanister']
 msgctxt "Things.ItemKitDynamicLiquidCanister"
@@ -5550,10 +5561,9 @@ msgid "Small Tank"
 msgstr "Tanque Pequeño"
 
 #: /Language/Things/RecordThing[Key='StructureTankConnectorLiquid']
-#, fuzzy
 msgctxt "Things.StructureTankConnectorLiquid"
 msgid "These basic mounting devices allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network."
-msgstr "Conector del tanque de líquido"
+msgstr "Estos dispositivos de montaje básicos le permiten conectar una {THING:DynamicLiquidCanisterEmpty} a una red de tuberías de líquido."
 
 #: /Language/Things/RecordThing[Key='StructureTankConnectorLiquid']
 msgctxt "Things.StructureTankConnectorLiquid"
@@ -5561,10 +5571,9 @@ msgid "Liquid Tank Connector"
 msgstr "Conector del tanque de líquido"
 
 #: /Language/Things/RecordThing[Key='StructureTankConnector']
-#, fuzzy
 msgctxt "Things.StructureTankConnector"
 msgid "Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a gas pipe network."
-msgstr "Conector de Tanque Portátil"
+msgstr "Los conectores de tanque son dispositivos de montaje básicos que le permiten conectar una {THING:DynamicGasCanisterEmpty} a una red de tuberías de gas."
 
 #: /Language/Things/RecordThing[Key='StructureTankConnector']
 msgctxt "Things.StructureTankConnector"
@@ -5613,12 +5622,13 @@ msgid "Sorter"
 msgstr "Clasificador"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanel']
-#, fuzzy
 msgctxt "Things.StructureSolarPanel"
 msgid ""
 "<color=#0080FFFF>{LINK:Sinotai;Sinotai's}</color> standard solar panels are used for generating power from sunlight. They can be connected to <color=#0080FFFF>{LINK:LogicPage;logic}</color> systems,"
 " in order to track sunlight, but their reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}."
-msgstr "Panel Solar"
+msgstr ""
+"<color=#0080FFFF>{LINK:Sinotai;Sinotai's} </color>los palenes solares standard de Sinotai se utilizan para generar energía a partir de la luz solar. Se pueden conectar a sistemas "
+"<color=#0080FFFF>{LINK:LogicPage;logic}</color> para rastrear la luz solar, pero se reducen durante tormentas y cuando se dañan. Puede repararlos utilizando {THING:ItemDuctTape} de confianza."
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanel']
 msgctxt "Things.StructureSolarPanel"
@@ -5631,12 +5641,14 @@ msgid "Sleeper"
 msgstr "Cama"
 
 #: /Language/Things/RecordThing[Key='StructureRTG']
-#, fuzzy
 msgctxt "Things.StructureRTG"
 msgid ""
 "The <color=#0080FFFF>{LINK:Norsec;Norsec}</color>RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a "
 "thermocouple. Normally restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output."
-msgstr "Creativo RTG"
+msgstr ""
+"El <color=#0080FFFF>{LINK:Norsec;Norsec}</color> RTG (generador termoeléctrico de radioisótopos) utiliza la salida de calor de la desintegración radiactiva para generar voltaje a través de un "
+"diferencial de temperatura a través de un termopar. Normalmente restringido a dispositivos de baja energía, se rumorea que el RTG aprovecha la ingeniería de Zrillian para lograr su potencia de "
+"salida increíblemente alta."
 
 #: /Language/Things/RecordThing[Key='StructureRTG']
 msgctxt "Things.StructureRTG"
@@ -5883,12 +5895,13 @@ msgid "Igniter"
 msgstr "Encendedor"
 
 #: /Language/Things/RecordThing[Key='StructureHydroponicsTray']
-#, fuzzy
 msgctxt "Things.StructureHydroponicsTray"
 msgid ""
 "The <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> hydroponics tray is the ideal vessel for growing a range of <color=#0080FFFF>{LINK:OrganicPage;plantlife}</color>. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. \n"
 "It can be automated using the {THING:StructureHarvie}."
-msgstr "Bandeja Hidropónica"
+msgstr ""
+"La bandeja hidropónica <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> es el recipiente ideal para cultivar una variedad de <color=#0080FFFF>{LINK:OrganicPage;plantlife}</color>. Se debe abastecer de agua mediante una red de tuberías y luz suficiente para generar la fotosíntesis.\n"
+"Se puede automatizar utilizando {THING:StructureHarvie}."
 
 #: /Language/Things/RecordThing[Key='StructureHydroponicsTray']
 msgctxt "Things.StructureHydroponicsTray"
@@ -5921,12 +5934,13 @@ msgid "Glass Door"
 msgstr "Puerta de Cristal"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankStorage']
-#, fuzzy
 msgctxt "Things.StructureLiquidTankStorage"
 msgid ""
 "When connected to a liquid pipe network, the tank storage unit allows you to refill a {THING:ItemLiquidCanisterEmpty}, as well as read various atmospheric data from the canister. It will not accept "
 "gas canisters."
-msgstr "Almacenamiento de tanque de líquido"
+msgstr ""
+"Cuando se conecta a una red de tuberías de líquido, la unidad de almacenamiento del tanque le permite rellenar una {THING:ItemLiquidCanisterEmpty}, así como leer varios datos atmosféricos del "
+"recipiente. No acepta bidones de gas."
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankStorage']
 msgctxt "Things.StructureLiquidTankStorage"
@@ -5964,13 +5978,15 @@ msgid "Gas Mixer"
 msgstr "Mezclador de Gas"
 
 #: /Language/Things/RecordThing[Key='StructureFurnace']
-#, fuzzy
 msgctxt "Things.StructureFurnace"
 msgid ""
 "The Zhurong furnace employs a high-temperature gas mixture of <color=#0080FFFF>{LINK:GasPage;oxygen}</color> and <color=#0080FFFF>{LINK:GasPage;volatiles}</color> to smelt <color=#0080FFFF>{LINK:IngotPage;ingots}</color> and a range of <color=#0080FFFF>{LINK:IngotPage;alloys}</color> as raw materials for <color=#0080FFFF>{LINK:FabricatorPage;fabricators}</color>.\n"
 "A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemVolatiles} in a 1:2 ratio directly to the furnace, but more complex alloys will require careful management of a dedicated gas mixing network. Exact ingredient ratios must be observed. Likewise, smelting ores at insufficient temperatures will produce <color=#0080FFFF>{LINK:ReagentPage;reagents}</color>, which must be recycled.\n"
 "If water is present in the furnace, it will gather there until the furnace is connected to a liquid pipe network."
-msgstr "Horno"
+msgstr ""
+"El horno Zhurong emplea una mezcla de gas a alta temperatura de <color=#0080FFFF>{LINK:GasPage;oxygen}</color> y <color=#0080FFFF>{LINK:GasPage;volatiles}</color> para fundir <color=#0080FFFF>{LINK:IngotPage;lingots}</color> y una gama de <color=#0080FFFF>{LINK:IngotPage;alloys}</color> como materias primas para <color=#0080FFFF>{LINK:FabricatorPage ;fabricators}</color>.\n"
+"Se puede lograr una mezcla de gas básica agregando {THING:ItemOxite} y {THING:ItemVolatiles} en una proporción de 1: 2 directamente al horno, pero las aleaciones más complejas requerirán una gestión cuidadosa de una red de mezcla de gas dedicada. Deben observarse las proporciones exactas de los ingredientes. Del mismo modo, la fundición de minerales a temperaturas insuficientes producirá <color=#0080FFFF>{LINK:ReagentPage;reagents}</color>, que deben reciclarse.\n"
+"Si hay agua en el horno, se acumulará allí hasta que el horno se conecte a una red de tuberías de líquido."
 
 #: /Language/Things/RecordThing[Key='StructureFurnace']
 msgctxt "Things.StructureFurnace"
@@ -8086,18 +8102,19 @@ msgid "Liquid Canister"
 msgstr "Recipiente de líquido"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
-#, fuzzy
 msgctxt "Things.ItemGasCanisterWater"
 msgid ""
 "The blue portable <color=#0080FFFF>{LINK:GasPage;H20}</color> canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit, or any other connected system. All gas "
 "canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureLiquidTankStorage} for refill."
-msgstr "Bombona (Agua)"
+msgstr ""
+"El recipiente azul portátil <color=#0080FFFF>{LINK:GasPage;H20}</color> tiene una capacidad de 64L y suministra agua a elementos como la unidad {THING:DynamicHydroponics} o cualquier otro sistema "
+"conectado. Todos los recipientes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {THING:DynamicGasCanisterAir} o "
+"{THING:StructureLiquidTankStorage} para rellenar"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
-#, fuzzy
 msgctxt "Things.ItemGasCanisterWater"
 msgid "Liquid Canister (Water)"
-msgstr "Bombona (Agua)"
+msgstr "Bombona líquidos (Agua)"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterOxygen']
 msgctxt "Things.ItemGasCanisterOxygen"
@@ -8564,13 +8581,15 @@ msgid "Kit (Active Vent)"
 msgstr "Ventilación Activa"
 
 #: /Language/Things/RecordThing[Key='GasTankAir']
-#, fuzzy
 msgctxt "Things.GasTankAir"
 msgid ""
 "Portable gas tanks store gas, and gas only. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 "
 "atmospheres, or you'll taste the delicate flavor of regret. Use tanks to fill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent it into a sealed room to"
 " create an atmosphere, attach it to a rover and take it for a drive, or just use it for loud, expensive target practice."
-msgstr "Tanque de Gas (Aire)"
+msgstr ""
+"Los tanques de gas portátiles almacenan gas y solo gas. Para rellenar uno, atorníllelo a un {THING:ItemTankConnector} usando un {THING:ItemWrench}, luego conéctelo a una red de tuberías. Trate de "
+"evitar empujarlo por encima de las 100 atmósferas, o probará el delicado sabor del arrepentimiento. Usa tanques para llenar una {THING:ItemGasCanisterEmpty} colocándola en la sección rayada del "
+"tanque. O puede ventilarlo en una habitación sellada para crear una atmósfera, conectarlo a un rover y llevarlo a dar una vuelta, o simplemente usarlo para prácticas de tiro ruidosas y costosas."
 
 #: /Language/Things/RecordThing[Key='GasTankAir']
 msgctxt "Things.GasTankAir"
@@ -8701,13 +8720,15 @@ msgid "Portable Generator"
 msgstr "Generador Portátil"
 
 #: /Language/Things/RecordThing[Key='DynamicLiquidCanisterEmpty']
-#, fuzzy
 msgctxt "Things.DynamicLiquidCanisterEmpty"
 msgid ""
 "This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnectorLiquid} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a "
 "{THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about"
 " yourself."
-msgstr "Tanque de líquido portátil"
+msgstr ""
+"Este tanque portátil almacena líquido y solo líquido. Puede atornillar uno a un {THING:ItemTankConnectorLiquid} usando un {THING:ItemWrench}, luego conectarlo a una red de tuberías para rellenarlo. "
+"Puedes rellenar una {THING:ItemGasCanisterWater} colocándola en la sección rayada del tanque. O podrías usar una {THING:ItemWrench} para conectarlo a un cohete y llevarlo a algún lugar distante y "
+"seco, luego sentirte bien contigo mismo."
 
 #: /Language/Things/RecordThing[Key='DynamicLiquidCanisterEmpty']
 msgctxt "Things.DynamicLiquidCanisterEmpty"
@@ -8715,19 +8736,21 @@ msgid "Portable Liquid Tank"
 msgstr "Tanque de líquido portátil"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterWater']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterWater"
 msgid ""
 "This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid"
 " to a network. But try to keep pressure under 100 atmospheres, or you'll end up wet, hurt and sorry, without any of the fun. You can refill a {THING:ItemGasCanisterWater} by attaching it to the "
 "tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself."
-msgstr "Tanque Portátil (Agua)"
+msgstr ""
+"Este tanque portátil almacena líquido y solo líquido. Puede atornillar uno a un {THING:ItemTankConnector} usando un {THING:ItemWrench}, luego conectarlo a {THING:StructurePipeLiquidStraight} para "
+"suministrar líquido a una red. Pero trate de mantener la presión por debajo de 100 atmósferas, o terminará mojado, dolido y arrepentido, sin nada de diversión. Puedes rellenar una "
+"{THING:ItemGasCanisterWater} colocándola en la sección rayada del tanque. O podrías usar una {THING:ItemWrench} para conectarlo a un cohete y llevarlo a algún lugar distante y seco, luego sentirte "
+"bien contigo mismo."
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterWater']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterWater"
 msgid "Portable Liquid Tank (Water)"
-msgstr "Tanque Portátil (Agua)"
+msgstr "Tanque Portátil liquidos (Agua)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterVolatiles']
 msgctxt "Things.DynamicGasCanisterVolatiles"
@@ -9631,12 +9654,13 @@ msgid "Reagent Processor"
 msgstr "Procesador de Reactivos"
 
 #: /Language/Things/RecordThing[Key='ApplianceMicrowave']
-#, fuzzy
 msgctxt "Things.ApplianceMicrowave"
 msgid ""
 "While countless 'better' ways of cooking <color=#0080FFFF>{LINK:FoodPage;Food}</color> have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from <color=#0080FFFF>{LINK:Xigo;Xigo}</color>, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. \n"
 "      Just bolt it to a {THING:StructureBench} using a {THING;ItemWrench} to power it, follow the recipe, and you're cooking."
-msgstr "Microondas"
+msgstr ""
+"Si bien en los últimos cientos de años se han inventado innumerables formas 'mejores' de cocinar <color=#0080FFFF>{LINK:FoodPage;Food}</color>, pocas son tan duraderas o fáciles de fabricar como el microondas OK-Zoomer. Con licencia de <color=#0080FFFF>{LINK:Xigo;Xigo}</color>, los planos se basan en un modelo clásico de mediados del siglo XXI, lo que le confiere una encantadora sensación retro. Pero no se preocupe, hace oscilar las moléculas de agua de manera más que adecuada.\n"
+"       Simplemente atorníllelo a un {THING:StructureBench} usando una {THING;ItemWrench} para encenderlo, siga la receta y estará cocinando."
 
 #: /Language/Things/RecordThing[Key='ApplianceMicrowave']
 msgctxt "Things.ApplianceMicrowave"
