@@ -231,15 +231,15 @@ msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Mentve:"
 
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr "Váratlan események"
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Játékidő:"
-
-#: /Language/Interface/Record[Key='SpinnerPannelDone']
-msgctxt "Interface.SpinnerPannelDone"
-msgid "Done"
-msgstr "Kész"
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
@@ -531,15 +531,15 @@ msgctxt "Interface.ButtonBack"
 msgid "Back"
 msgstr "Vissza"
 
+#: /Language/Interface/Record[Key='ButtonDelete']
+msgctxt "Interface.ButtonDelete"
+msgid "Delete"
+msgstr "Törlés"
+
 #: /Language/Interface/Record[Key='WorkshopUploadProgress']
 msgctxt "Interface.WorkshopUploadProgress"
 msgid "Processing configuration data"
 msgstr "Konfigurációs adatok feldolgozása"
-
-#: /Language/Interface/Record[Key='ButtonConfirmWarning']
-msgctxt "Interface.ButtonConfirmWarning"
-msgid "Warning"
-msgstr "Figyelem"
 
 #: /Language/Interface/Record[Key='GameMenuButtonExit']
 msgctxt "Interface.GameMenuButtonExit"
@@ -1227,11 +1227,6 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Publikálás"
 
-#: /Language/Interface/Record[Key='ButtonDelete']
-msgctxt "Interface.ButtonDelete"
-msgid "Delete"
-msgstr "Törlés"
-
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
@@ -1241,6 +1236,11 @@ msgstr "Mentés törlése"
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "Biztos vagy benne?"
+
+#: /Language/Interface/Record[Key='ButtonConfirmWarning']
+msgctxt "Interface.ButtonConfirmWarning"
+msgid "Warning"
+msgstr "Figyelem"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1297,10 +1297,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "A(z) {0} fájl érvénytelen. Ellenőrizd a(z) {1} világot."
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Érvénytelen IP cím {0} \\nEllenőrizd az IP címet vagy az URL  érvénytelen."
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Biztonsági mentések mappa hiányzik vagy üres."
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1499,7 +1499,7 @@ msgstr "Játékbeállítások"
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 #, fuzzy
 msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
+msgid "Hunger Rate"
 msgstr "Éhség mértéke"
 
 #: /Language/Interface/Record[Key='JoinWorldSortBy']
@@ -2329,11 +2329,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TutorialCompleteDeanHall']
 msgctxt "Interface.TutorialCompleteDeanHall"
 msgid "Dean Hall"
-msgstr ""
-
-#: /Language/Interface/Record[Key='BottleSlot']
-msgctxt "Interface.BottleSlot"
-msgid "Bottle Slot"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialCompleteDateOfCompletion']
@@ -4276,15 +4271,15 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr "Események megnyitása"
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr "Váratlan események"
-
 #: /Language/Interface/Record[Key='WorldPresetLabel']
 msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "Előbeállítás"
+
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr "Kész"
 
 #: /Language/Interface/Record[Key='SpinnerPannelSaving']
 msgctxt "Interface.SpinnerPannelSaving"
@@ -5463,10 +5458,10 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Leírás"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Biztonsági mentések mappa hiányzik vagy üres."
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Érvénytelen IP cím {0} \\nEllenőrizd az IP címet vagy az URL  érvénytelen."
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"

@@ -237,15 +237,15 @@ msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Spielstand:"
 
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr ""
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Spielzeit:"
-
-#: /Language/Interface/Record[Key='SpinnerPannelDone']
-msgctxt "Interface.SpinnerPannelDone"
-msgid "Done"
-msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
@@ -538,15 +538,15 @@ msgctxt "Interface.ButtonBack"
 msgid "Back"
 msgstr "Zurück"
 
+#: /Language/Interface/Record[Key='ButtonDelete']
+msgctxt "Interface.ButtonDelete"
+msgid "Delete"
+msgstr "Löschen"
+
 #: /Language/Interface/Record[Key='WorkshopUploadProgress']
 msgctxt "Interface.WorkshopUploadProgress"
 msgid "Processing configuration data"
 msgstr "Konfigurationsdaten verarbeiten"
-
-#: /Language/Interface/Record[Key='ButtonConfirmWarning']
-msgctxt "Interface.ButtonConfirmWarning"
-msgid "Warning"
-msgstr "Warnung"
 
 #: /Language/Interface/Record[Key='GameMenuButtonExit']
 msgctxt "Interface.GameMenuButtonExit"
@@ -1240,11 +1240,6 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Veröffentlichen"
 
-#: /Language/Interface/Record[Key='ButtonDelete']
-msgctxt "Interface.ButtonDelete"
-msgid "Delete"
-msgstr "Löschen"
-
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
@@ -1254,6 +1249,11 @@ msgstr "Spielstand Löschen"
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "Bist du Sicher?"
+
+#: /Language/Interface/Record[Key='ButtonConfirmWarning']
+msgctxt "Interface.ButtonConfirmWarning"
+msgid "Warning"
+msgstr "Warnung"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1310,10 +1310,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Ungültige IP Adresse {0} \\nBitte IP-Adresse oder URL auf Gültigkeit überprüfen"
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr ""
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1513,7 +1513,7 @@ msgstr "Spieleinstellungen"
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 #, fuzzy
 msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
+msgid "Hunger Rate"
 msgstr "Sättigungsabnahme"
 
 #: /Language/Interface/Record[Key='JoinWorldSortBy']
@@ -2344,11 +2344,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TutorialCompleteDeanHall']
 msgctxt "Interface.TutorialCompleteDeanHall"
 msgid "Dean Hall"
-msgstr ""
-
-#: /Language/Interface/Record[Key='BottleSlot']
-msgctxt "Interface.BottleSlot"
-msgid "Bottle Slot"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialCompleteDateOfCompletion']
@@ -4340,15 +4335,15 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr ""
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorldPresetLabel']
 msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "Voreinstellung"
+
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SpinnerPannelSaving']
 msgctxt "Interface.SpinnerPannelSaving"
@@ -5543,10 +5538,10 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Beschreibung"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr ""
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Ungültige IP Adresse {0} \\nBitte IP-Adresse oder URL auf Gültigkeit überprüfen"
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"

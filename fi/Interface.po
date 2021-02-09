@@ -237,15 +237,15 @@ msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Tallennettu:"
 
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr ""
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Pelattu:"
-
-#: /Language/Interface/Record[Key='SpinnerPannelDone']
-msgctxt "Interface.SpinnerPannelDone"
-msgid "Done"
-msgstr "Valmis"
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 #, fuzzy
@@ -547,15 +547,15 @@ msgctxt "Interface.ButtonBack"
 msgid "Back"
 msgstr "Takaisin"
 
+#: /Language/Interface/Record[Key='ButtonDelete']
+msgctxt "Interface.ButtonDelete"
+msgid "Delete"
+msgstr "Poista"
+
 #: /Language/Interface/Record[Key='WorkshopUploadProgress']
 msgctxt "Interface.WorkshopUploadProgress"
 msgid "Processing configuration data"
 msgstr "Käsitellään konfiguraatiotietoja"
-
-#: /Language/Interface/Record[Key='ButtonConfirmWarning']
-msgctxt "Interface.ButtonConfirmWarning"
-msgid "Warning"
-msgstr "Varoitus"
 
 #: /Language/Interface/Record[Key='GameMenuButtonExit']
 msgctxt "Interface.GameMenuButtonExit"
@@ -1250,11 +1250,6 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Julkaise"
 
-#: /Language/Interface/Record[Key='ButtonDelete']
-msgctxt "Interface.ButtonDelete"
-msgid "Delete"
-msgstr "Poista"
-
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
@@ -1264,6 +1259,11 @@ msgstr "Poista tallennus"
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "Oletko varma?"
+
+#: /Language/Interface/Record[Key='ButtonConfirmWarning']
+msgctxt "Interface.ButtonConfirmWarning"
+msgid "Warning"
+msgstr "Varoitus"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1320,10 +1320,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Väärä IP-osoite {0} \\nTarkista että IP-osoite tai URL on oikein"
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr ""
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1524,7 +1524,7 @@ msgstr "Pelin asetukset"
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 #, fuzzy
 msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
+msgid "Hunger Rate"
 msgstr "Nälkä (Kerroin)"
 
 #: /Language/Interface/Record[Key='JoinWorldSortBy']
@@ -2347,11 +2347,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='TutorialCompleteDeanHall']
 msgctxt "Interface.TutorialCompleteDeanHall"
 msgid "Dean Hall"
-msgstr ""
-
-#: /Language/Interface/Record[Key='BottleSlot']
-msgctxt "Interface.BottleSlot"
-msgid "Bottle Slot"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialCompleteDateOfCompletion']
@@ -4363,15 +4358,15 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr ""
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorldPresetLabel']
 msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "Esiasetus"
+
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr "Valmis"
 
 #: /Language/Interface/Record[Key='SpinnerPannelSaving']
 msgctxt "Interface.SpinnerPannelSaving"
@@ -5569,10 +5564,10 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Kuvaus"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr ""
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Väärä IP-osoite {0} \\nTarkista että IP-osoite tai URL on oikein"
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"

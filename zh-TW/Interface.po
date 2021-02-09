@@ -230,15 +230,15 @@ msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "儲存:"
 
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr ""
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "遊戲時間:"
-
-#: /Language/Interface/Record[Key='SpinnerPannelDone']
-msgctxt "Interface.SpinnerPannelDone"
-msgid "Done"
-msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
@@ -531,15 +531,15 @@ msgctxt "Interface.ButtonBack"
 msgid "Back"
 msgstr "返回"
 
+#: /Language/Interface/Record[Key='ButtonDelete']
+msgctxt "Interface.ButtonDelete"
+msgid "Delete"
+msgstr "刪除"
+
 #: /Language/Interface/Record[Key='WorkshopUploadProgress']
 msgctxt "Interface.WorkshopUploadProgress"
 msgid "Processing configuration data"
 msgstr "處理設置數據"
-
-#: /Language/Interface/Record[Key='ButtonConfirmWarning']
-msgctxt "Interface.ButtonConfirmWarning"
-msgid "Warning"
-msgstr "警告"
 
 #: /Language/Interface/Record[Key='GameMenuButtonExit']
 msgctxt "Interface.GameMenuButtonExit"
@@ -1224,11 +1224,6 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "發佈"
 
-#: /Language/Interface/Record[Key='ButtonDelete']
-msgctxt "Interface.ButtonDelete"
-msgid "Delete"
-msgstr "刪除"
-
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
@@ -1238,6 +1233,11 @@ msgstr "刪除存檔"
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "您確定刪除存檔?"
+
+#: /Language/Interface/Record[Key='ButtonConfirmWarning']
+msgctxt "Interface.ButtonConfirmWarning"
+msgid "Warning"
+msgstr "警告"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1294,10 +1294,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "無效的 IP 位置 {0} \\n檢查 IP 位置或者 URL 是否有效"
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "備份資料夾丟失或為空。"
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1496,7 +1496,7 @@ msgstr "參數設定"
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 #, fuzzy
 msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
+msgid "Hunger Rate"
 msgstr "飢餓速率"
 
 #: /Language/Interface/Record[Key='JoinWorldSortBy']
@@ -2286,11 +2286,6 @@ msgstr "ODA 準將"
 #: /Language/Interface/Record[Key='TutorialCompleteDeanHall']
 msgctxt "Interface.TutorialCompleteDeanHall"
 msgid "Dean Hall"
-msgstr ""
-
-#: /Language/Interface/Record[Key='BottleSlot']
-msgctxt "Interface.BottleSlot"
-msgid "Bottle Slot"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialCompleteDateOfCompletion']
@@ -4229,15 +4224,15 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr ""
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorldPresetLabel']
 msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "預設"
+
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SpinnerPannelSaving']
 msgctxt "Interface.SpinnerPannelSaving"
@@ -5413,10 +5408,10 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "描述"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "備份資料夾丟失或為空。"
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "無效的 IP 位置 {0} \\n檢查 IP 位置或者 URL 是否有效"
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"

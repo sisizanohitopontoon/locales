@@ -230,15 +230,15 @@ msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Sauvegardé le :"
 
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr "Incidents"
+
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Temps de jeu :"
-
-#: /Language/Interface/Record[Key='SpinnerPannelDone']
-msgctxt "Interface.SpinnerPannelDone"
-msgid "Done"
-msgstr "Terminé"
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
@@ -531,15 +531,15 @@ msgctxt "Interface.ButtonBack"
 msgid "Back"
 msgstr "Retour"
 
+#: /Language/Interface/Record[Key='ButtonDelete']
+msgctxt "Interface.ButtonDelete"
+msgid "Delete"
+msgstr "Supprimer"
+
 #: /Language/Interface/Record[Key='WorkshopUploadProgress']
 msgctxt "Interface.WorkshopUploadProgress"
 msgid "Processing configuration data"
 msgstr "Traitement des données de configuration"
-
-#: /Language/Interface/Record[Key='ButtonConfirmWarning']
-msgctxt "Interface.ButtonConfirmWarning"
-msgid "Warning"
-msgstr "Attention !"
 
 #: /Language/Interface/Record[Key='GameMenuButtonExit']
 msgctxt "Interface.GameMenuButtonExit"
@@ -1224,11 +1224,6 @@ msgctxt "Interface.PromptPublishConfirm"
 msgid "Publish"
 msgstr "Publier"
 
-#: /Language/Interface/Record[Key='ButtonDelete']
-msgctxt "Interface.ButtonDelete"
-msgid "Delete"
-msgstr "Supprimer"
-
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
 msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
@@ -1238,6 +1233,11 @@ msgstr "Supprimer la sauvegarde"
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
 msgstr "Êtes vous sûr ?"
+
+#: /Language/Interface/Record[Key='ButtonConfirmWarning']
+msgctxt "Interface.ButtonConfirmWarning"
+msgid "Warning"
+msgstr "Attention !"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
@@ -1294,10 +1294,10 @@ msgctxt "Interface.AlertYourSaveFileIsBroken"
 msgid "The file {0} is invalid. Check world {1}."
 msgstr "Le fichier {0} est invalide. Vérifiez le monde {1}."
 
-#: /Language/Interface/Record[Key='AlertInvalidIP']
-msgctxt "Interface.AlertInvalidIP"
-msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
-msgstr "Adresse IP non valide {0} \\nVérifier que l'adresse IP ou l'URL soit valide"
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "Dossier de sauvegarde manquant ou vide."
 
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
@@ -1496,7 +1496,7 @@ msgstr "Paramètres de Jeu"
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 #, fuzzy
 msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
+msgid "Hunger Rate"
 msgstr "Taux de faim"
 
 #: /Language/Interface/Record[Key='JoinWorldSortBy']
@@ -2331,11 +2331,6 @@ msgstr "Commodore ODA"
 msgctxt "Interface.TutorialCompleteDeanHall"
 msgid "Dean Hall"
 msgstr "Doyen du Hall"
-
-#: /Language/Interface/Record[Key='BottleSlot']
-msgctxt "Interface.BottleSlot"
-msgid "Bottle Slot"
-msgstr ""
 
 #: /Language/Interface/Record[Key='TutorialCompleteDateOfCompletion']
 msgctxt "Interface.TutorialCompleteDateOfCompletion"
@@ -4274,15 +4269,15 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr "Incidents actifs"
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr "Incidents"
-
 #: /Language/Interface/Record[Key='WorldPresetLabel']
 msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "Prédéfini"
+
+#: /Language/Interface/Record[Key='SpinnerPannelDone']
+msgctxt "Interface.SpinnerPannelDone"
+msgid "Done"
+msgstr "Terminé"
 
 #: /Language/Interface/Record[Key='SpinnerPannelSaving']
 msgctxt "Interface.SpinnerPannelSaving"
@@ -5468,10 +5463,10 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Description"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "Dossier de sauvegarde manquant ou vide."
+#: /Language/Interface/Record[Key='AlertInvalidIP']
+msgctxt "Interface.AlertInvalidIP"
+msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
+msgstr "Adresse IP non valide {0} \\nVérifier que l'adresse IP ou l'URL soit valide"
 
 #~ msgctxt "Interface.PortableConnectionFailure"
 #~ msgid "Content type does not match."
