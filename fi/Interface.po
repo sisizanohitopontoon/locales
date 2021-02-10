@@ -242,10 +242,11 @@ msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Pelattu:"
 
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr ""
+#: /Language/Interface/Record[Key='ContactsTrading']
+#, fuzzy
+msgctxt "Interface.ContactsTrading"
+msgid "Contacts"
+msgstr "Näppäimistö"
 
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 #, fuzzy
@@ -547,6 +548,11 @@ msgctxt "Interface.ButtonBack"
 msgid "Back"
 msgstr "Takaisin"
 
+#: /Language/Interface/Record[Key='ButtonDelete']
+msgctxt "Interface.ButtonDelete"
+msgid "Delete"
+msgstr "Poista"
+
 #: /Language/Interface/Record[Key='WorkshopUploadProgress']
 msgctxt "Interface.WorkshopUploadProgress"
 msgid "Processing configuration data"
@@ -556,11 +562,6 @@ msgstr "Käsitellään konfiguraatiotietoja"
 msgctxt "Interface.ButtonConfirmWarning"
 msgid "Warning"
 msgstr "Varoitus"
-
-#: /Language/Interface/Record[Key='GameMenuButtonExit']
-msgctxt "Interface.GameMenuButtonExit"
-msgid "Exit Game"
-msgstr "Poistu"
 
 #: /Language/Interface/Record[Key='SettingsMenuTitle']
 msgctxt "Interface.SettingsMenuTitle"
@@ -1255,11 +1256,6 @@ msgctxt "Interface.PromptDeleteTitle"
 msgid "Delete Save"
 msgstr "Poista tallennus"
 
-#: /Language/Interface/Record[Key='ButtonDelete']
-msgctxt "Interface.ButtonDelete"
-msgid "Delete"
-msgstr "Poista"
-
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
@@ -1274,6 +1270,11 @@ msgstr "Poista"
 msgctxt "Interface.PromptDebugLoadTitle"
 msgid "Debug Load"
 msgstr "Debug-lataus"
+
+#: /Language/Interface/Record[Key='GameMenuButtonExit']
+msgctxt "Interface.GameMenuButtonExit"
+msgid "Exit Game"
+msgstr "Poistu"
 
 #: /Language/Interface/Record[Key='PromptDebugLoadBody']
 msgctxt "Interface.PromptDebugLoadBody"
@@ -1643,6 +1644,27 @@ msgstr ""
 #: /Language/Interface/Record[Key='SlotKey']
 msgctxt "Interface.SlotKey"
 msgid "Slot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HydrationCritical']
+msgctxt "Interface.HydrationCritical"
+msgid "Hydration Critical"
+msgstr ""
+
+#: /Language/Interface/Record[Key='HydrationCaution']
+#, fuzzy
+msgctxt "Interface.HydrationCaution"
+msgid "Hydration Caution"
+msgstr "Nälkä (Kerroin)"
+
+#: /Language/Interface/Record[Key='StatusIconHydrationKey']
+msgctxt "Interface.StatusIconHydrationKey"
+msgid "Hydration Low"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StatusIconHydrationDesc']
+msgctxt "Interface.StatusIconHydrationDesc"
+msgid "Hydration is running low"
 msgstr ""
 
 #: /Language/Interface/Record[Key='NutritionSPDAKey']
@@ -4359,21 +4381,20 @@ msgctxt "Interface.TraderGoneMissing"
 msgid "Seems the contact has moved on."
 msgstr ""
 
-#: /Language/Interface/Record[Key='ContactsTrading']
-#, fuzzy
-msgctxt "Interface.ContactsTrading"
-msgid "Contacts"
-msgstr "Näppäimistö"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Esiasetus"
 
 #: /Language/Interface/Record[Key='OpenIncidentUI']
 msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Esiasetus"
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
