@@ -11,6 +11,11 @@ msgctxt "Things.StructurePictureFrameThinMountLandscapeSmall"
 msgid "Picture Frame Thin Landscape Small"
 msgstr "Picture Frame Thin Landscape Small"
 
+#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
+msgctxt "Things.ItemWreckageTurbineGenerator3"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
 #: /Language/Things/RecordThing[Key='ItemWreckageAirConditioner1']
 msgctxt "Things.ItemWreckageAirConditioner1"
 msgid "Wreckage Air Conditioner"
@@ -83,8 +88,8 @@ msgstr "<color=#0080FFFF>{LINK:Agrizero;Agrizero's}</color> leading hydroponic l
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
 msgctxt "Things.ItemWreckageTurbineGenerator3"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "Wreckage Turbine Generator"
+msgstr "Wreckage Turbine Generator"
 
 #: /Language/Things/RecordThing[Key='ItemKitGrowLight']
 msgctxt "Things.ItemKitGrowLight"
@@ -850,11 +855,6 @@ msgstr "Kit (Liquid Tank)"
 msgctxt "Things.ItemKitLiquidTank"
 msgid "{BLANK}"
 msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
-msgctxt "Things.ItemWreckageTurbineGenerator3"
-msgid "Wreckage Turbine Generator"
-msgstr "Wreckage Turbine Generator"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator2']
 msgctxt "Things.ItemWreckageTurbineGenerator2"
@@ -2266,15 +2266,15 @@ msgctxt "Things.KitchenTableTall"
 msgid "Kitchen Table (Tall)"
 msgstr "Kitchen Table (Tall)"
 
-#: /Language/Things/RecordThing[Key='ItemKitGrowLight']
-msgctxt "Things.ItemKitGrowLight"
-msgid "Kit (Grow Light)"
-msgstr "Kit (Grow Light)"
-
 #: /Language/Things/RecordThing[Key='ItemKitTables']
 msgctxt "Things.ItemKitTables"
 msgid "Kit (Tables)"
 msgstr "Kit (Tables)"
+
+#: /Language/Things/RecordThing[Key='ItemKitGrowLight']
+msgctxt "Things.ItemKitGrowLight"
+msgid "Kit (Grow Light)"
+msgstr "Kit (Grow Light)"
 
 #: /Language/Things/RecordThing[Key='StructureAngledBench']
 msgctxt "Things.StructureAngledBench"
@@ -5123,6 +5123,11 @@ msgstr "Iron Frame"
 
 #: /Language/Things/RecordThing[Key='ItemCableCoilHeavy']
 msgctxt "Things.ItemCableCoilHeavy"
+msgid "Use heavy cable coil for power systems with large draws. Unlike {THING:StructureCableCoil}, which can only safely conduct 5kW, heavy cables can transmit up to 100kW."
+msgstr "Use heavy cable coil for power systems with large draws. Unlike {THING:StructureCableCoil}, which can only safely conduct 5kW, heavy cables can transmit up to 100kW."
+
+#: /Language/Things/RecordThing[Key='ItemCableCoilHeavy']
+msgctxt "Things.ItemCableCoilHeavy"
 msgid "Cable Coil (Heavy)"
 msgstr "Cable Coil (Heavy)"
 
@@ -7803,8 +7808,8 @@ msgstr "Chem Light (Blue)"
 
 #: /Language/Things/RecordThing[Key='ItemCableCoil']
 msgctxt "Things.ItemCableCoil"
-msgid "Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first <color=#0080FFFF>{LINK:ODA;ODA}</color> Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> network begins."
-msgstr "Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first <color=#0080FFFF>{LINK:ODA;ODA}</color> Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> network begins."
+msgid "Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first <color=#0080FFFF>{LINK:ODA;ODA}</color> Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> network begins. \nNormal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
+msgstr "Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first <color=#0080FFFF>{LINK:ODA;ODA}</color> Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> network begins. \nNormal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 
 #: /Language/Things/RecordThing[Key='ItemCableCoil']
 msgctxt "Things.ItemCableCoil"

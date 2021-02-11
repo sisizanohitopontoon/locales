@@ -16,6 +16,11 @@ msgctxt "Things.StructurePictureFrameThinMountLandscapeSmall"
 msgid "Picture Frame Thin Landscape Small"
 msgstr "小型 细型 景观相框"
 
+#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
+msgctxt "Things.ItemWreckageTurbineGenerator3"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
 #: /Language/Things/RecordThing[Key='ItemWreckageAirConditioner1']
 msgctxt "Things.ItemWreckageAirConditioner1"
 msgid "Wreckage Air Conditioner"
@@ -89,8 +94,8 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
 msgctxt "Things.ItemWreckageTurbineGenerator3"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "Wreckage Turbine Generator"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitGrowLight']
 msgctxt "Things.ItemKitGrowLight"
@@ -943,11 +948,6 @@ msgstr "{BLANK}"
 msgctxt "Things.ItemKitLiquidTank"
 msgid "{BLANK}"
 msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
-msgctxt "Things.ItemWreckageTurbineGenerator3"
-msgid "Wreckage Turbine Generator"
-msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator2']
 msgctxt "Things.ItemWreckageTurbineGenerator2"
@@ -2360,15 +2360,15 @@ msgctxt "Things.KitchenTableTall"
 msgid "Kitchen Table (Tall)"
 msgstr "厨房餐桌(高)"
 
-#: /Language/Things/RecordThing[Key='ItemKitGrowLight']
-msgctxt "Things.ItemKitGrowLight"
-msgid "Kit (Grow Light)"
-msgstr "套件 (生长照射灯)"
-
 #: /Language/Things/RecordThing[Key='ItemKitTables']
 msgctxt "Things.ItemKitTables"
 msgid "Kit (Tables)"
 msgstr "套件(桌子)"
+
+#: /Language/Things/RecordThing[Key='ItemKitGrowLight']
+msgctxt "Things.ItemKitGrowLight"
+msgid "Kit (Grow Light)"
+msgstr "套件 (生长照射灯)"
 
 #: /Language/Things/RecordThing[Key='StructureAngledBench']
 msgctxt "Things.StructureAngledBench"
@@ -5264,6 +5264,11 @@ msgstr "铁框架"
 
 #: /Language/Things/RecordThing[Key='ItemCableCoilHeavy']
 msgctxt "Things.ItemCableCoilHeavy"
+msgid "Use heavy cable coil for power systems with large draws. Unlike {THING:StructureCableCoil}, which can only safely conduct 5kW, heavy cables can transmit up to 100kW."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemCableCoilHeavy']
+msgctxt "Things.ItemCableCoilHeavy"
 msgid "Cable Coil (Heavy)"
 msgstr "高压电线"
 
@@ -8081,7 +8086,9 @@ msgstr "荧光棒(蓝色)"
 
 #: /Language/Things/RecordThing[Key='ItemCableCoil']
 msgctxt "Things.ItemCableCoil"
-msgid "Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first <color=#0080FFFF>{LINK:ODA;ODA}</color> Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> network begins."
+msgid ""
+"Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first <color=#0080FFFF>{LINK:ODA;ODA}</color> Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> network begins. \n"
+"Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemCableCoil']
