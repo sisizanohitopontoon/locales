@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-14 22:32+0000\n"
+"PO-Revision-Date: 2021-02-14 22:48+0000\n"
 "Last-Translator: brainkiller <dchambelant@gmail.com>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2870,7 +2870,6 @@ msgid "Modular Rocket Command"
 msgstr "Module dynamique de commande de Fusée"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
-#, fuzzy
 msgctxt "Things.StructureModularRocketCommand01"
 msgid ""
 "The command module must be placed on top of the rocket, and will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.\n"
@@ -2885,7 +2884,19 @@ msgid ""
 "\n"
 "The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.\n"
 "When landing, the rocket will deploy a lander, and any cargo contained in the {THING:StructureModularRocketCargo01} module."
-msgstr "Module de commande de Fusée"
+msgstr ""
+"Le module de commande doit être placé en haut de la fusée et permettra d’évaluer l’état de préparation de la fusée pour le vol. Une fois que toutes les conditions sont réunies, lorsque tous les joueurs sont assis dans le module, la fusée peut être lancée en appuyant sur le bouton « IGNITION » de la console.\n"
+"\n"
+"Les conditions suivantes doivent être remplies pour le lancement :\n"
+"\n"
+"- Réservoir de carburant plein.\n"
+"- Le mélange de carburant est correct - un mélange 2:1 de {GAS:Volatiles} et {GAS:Oxygen}.\n"
+"- Tous les joueurs sont assis.\n"
+"- Alimentation électrique de l'{THING:StructureLaunchPad}.\n"
+"- Fusée entièrement construite.\n"
+"\n"
+"La console du {THING:StructureModularRocketCommand01} affiche l’état actuel des conditions de lancement. Il ne nécessite pas d’atmosphère pour décoller - l’atmosphère de votre combinaison est suffisante.\n"
+"À l’atterrissage, la fusée déploiera un atterrisseur et toute cargaison contenue dans le module {THING:StructureModularRocketCargo01}."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
 msgctxt "Things.StructureModularRocketCommand01"
