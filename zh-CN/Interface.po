@@ -236,15 +236,15 @@ msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "游戏时间:"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr "看起来此联系人已经离开了。"
-
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
 msgid "Map:"
 msgstr "地图:"
+
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr "锁定"
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
 msgctxt "Interface.WorldInfoTextAsteroids"
@@ -547,10 +547,10 @@ msgctxt "Interface.ButtonConfirmWarning"
 msgid "Warning"
 msgstr "警告"
 
-#: /Language/Interface/Record[Key='SettingsMenuTitle']
-msgctxt "Interface.SettingsMenuTitle"
-msgid "Settings"
-msgstr "设置"
+#: /Language/Interface/Record[Key='GameMenuButtonExit']
+msgctxt "Interface.GameMenuButtonExit"
+msgid "Exit Game"
+msgstr "退出游戏"
 
 #: /Language/Interface/Record[Key='SettingsMenuGameplay']
 msgctxt "Interface.SettingsMenuGameplay"
@@ -1245,10 +1245,10 @@ msgctxt "Interface.PromptDebugLoadTitle"
 msgid "Debug Load"
 msgstr "调试加载"
 
-#: /Language/Interface/Record[Key='GameMenuButtonExit']
-msgctxt "Interface.GameMenuButtonExit"
-msgid "Exit Game"
-msgstr "退出游戏"
+#: /Language/Interface/Record[Key='SettingsMenuTitle']
+msgctxt "Interface.SettingsMenuTitle"
+msgid "Settings"
+msgstr "设置"
 
 #: /Language/Interface/Record[Key='PromptDebugLoadBody']
 msgctxt "Interface.PromptDebugLoadBody"
@@ -1300,15 +1300,15 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "无效的IP地址 {0} \\n检查IP地址或URL是否有效"
 
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr "备份文件夹缺失或为空。"
+
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
 msgid "Server is full."
 msgstr "服务器已满."
-
-#: /Language/Interface/Record[Key='AlertVersionMismatch']
-msgctxt "Interface.AlertVersionMismatch"
-msgid "Game version mismatch with server."
-msgstr "游戏版本与服务器不匹配."
 
 #: /Language/Interface/Record[Key='AlertNoResponse']
 msgctxt "Interface.AlertNoResponse"
@@ -1615,6 +1615,16 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
+#: /Language/Interface/Record[Key='Lore']
+msgctxt "Interface.Lore"
+msgid "Lore"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Guides']
+msgctxt "Interface.Guides"
+msgid "Guides"
+msgstr ""
+
 #: /Language/Interface/Record[Key='HydrationCritical']
 #, fuzzy
 msgctxt "Interface.HydrationCritical"
@@ -1802,14 +1812,13 @@ msgid "Construct with:"
 msgstr "建筑"
 
 #: /Language/Interface/Record[Key='StationpediaAdvancedGuides']
-#, fuzzy
 msgctxt "Interface.StationpediaAdvancedGuides"
-msgid "Advanced Guides"
-msgstr "高级"
+msgid "Universe"
+msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaBeginnerGuides']
 msgctxt "Interface.StationpediaBeginnerGuides"
-msgid "Beginner Guides"
+msgid "Guides"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaSearch']
@@ -4290,20 +4299,20 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr "没有回复。"
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
-msgstr "锁定"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "预置"
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr "交易"
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "预置"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr "看起来此联系人已经离开了。"
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5509,10 +5518,15 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "描述/类型"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr "备份文件夹缺失或为空。"
+#: /Language/Interface/Record[Key='AlertVersionMismatch']
+msgctxt "Interface.AlertVersionMismatch"
+msgid "Game version mismatch with server."
+msgstr "游戏版本与服务器不匹配."
+
+#, fuzzy
+#~ msgctxt "Interface.StationpediaAdvancedGuides"
+#~ msgid "Advanced Guides"
+#~ msgstr "高级"
 
 #~ msgctxt "Interface.LightString"
 #~ msgid "Da Light"

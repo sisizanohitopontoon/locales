@@ -242,15 +242,15 @@ msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Spielzeit:"
 
-#: /Language/Interface/Record[Key='TraderGoneMissing']
-msgctxt "Interface.TraderGoneMissing"
-msgid "Seems the contact has moved on."
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
 msgid "Map:"
 msgstr "Karte:"
+
+#: /Language/Interface/Record[Key='Locked']
+msgctxt "Interface.Locked"
+msgid "Locked"
+msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
 msgctxt "Interface.WorldInfoTextAsteroids"
@@ -553,10 +553,10 @@ msgctxt "Interface.ButtonConfirmWarning"
 msgid "Warning"
 msgstr "Warnung"
 
-#: /Language/Interface/Record[Key='SettingsMenuTitle']
-msgctxt "Interface.SettingsMenuTitle"
-msgid "Settings"
-msgstr "Einstellungen"
+#: /Language/Interface/Record[Key='GameMenuButtonExit']
+msgctxt "Interface.GameMenuButtonExit"
+msgid "Exit Game"
+msgstr "Spiel Verlassen"
 
 #: /Language/Interface/Record[Key='SettingsMenuGameplay']
 msgctxt "Interface.SettingsMenuGameplay"
@@ -1260,10 +1260,10 @@ msgctxt "Interface.PromptDebugLoadTitle"
 msgid "Debug Load"
 msgstr "Debug-Laden"
 
-#: /Language/Interface/Record[Key='GameMenuButtonExit']
-msgctxt "Interface.GameMenuButtonExit"
-msgid "Exit Game"
-msgstr "Spiel Verlassen"
+#: /Language/Interface/Record[Key='SettingsMenuTitle']
+msgctxt "Interface.SettingsMenuTitle"
+msgid "Settings"
+msgstr "Einstellungen"
 
 #: /Language/Interface/Record[Key='PromptDebugLoadBody']
 msgctxt "Interface.PromptDebugLoadBody"
@@ -1315,15 +1315,15 @@ msgctxt "Interface.AlertInvalidIP"
 msgid "Invalid IP Address {0} \\nCheck IP address or URL is valid"
 msgstr "Ungültige IP Adresse {0} \\nBitte IP-Adresse oder URL auf Gültigkeit überprüfen"
 
+#: /Language/Interface/Record[Key='AlertNoBackups']
+msgctxt "Interface.AlertNoBackups"
+msgid "Backups folder missing or empty."
+msgstr ""
+
 #: /Language/Interface/Record[Key='AlertPlayerCountExceeded']
 msgctxt "Interface.AlertPlayerCountExceeded"
 msgid "Server is full."
 msgstr "Server ist voll."
-
-#: /Language/Interface/Record[Key='AlertVersionMismatch']
-msgctxt "Interface.AlertVersionMismatch"
-msgid "Game version mismatch with server."
-msgstr "Spielversion stimmt nicht mit dem Server überein."
 
 #: /Language/Interface/Record[Key='AlertNoResponse']
 #, fuzzy
@@ -1635,6 +1635,16 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
+#: /Language/Interface/Record[Key='Lore']
+msgctxt "Interface.Lore"
+msgid "Lore"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Guides']
+msgctxt "Interface.Guides"
+msgid "Guides"
+msgstr ""
+
 #: /Language/Interface/Record[Key='HydrationCritical']
 #, fuzzy
 msgctxt "Interface.HydrationCritical"
@@ -1815,14 +1825,13 @@ msgid "Construct with:"
 msgstr "Konstantan"
 
 #: /Language/Interface/Record[Key='StationpediaAdvancedGuides']
-#, fuzzy
 msgctxt "Interface.StationpediaAdvancedGuides"
-msgid "Advanced Guides"
-msgstr "Erweitert"
+msgid "Universe"
+msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaBeginnerGuides']
 msgctxt "Interface.StationpediaBeginnerGuides"
-msgid "Beginner Guides"
+msgid "Guides"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaSearch']
@@ -4350,20 +4359,20 @@ msgctxt "Interface.ContactEventDefault"
 msgid "There was no response."
 msgstr ""
 
-#: /Language/Interface/Record[Key='Locked']
-msgctxt "Interface.Locked"
-msgid "Locked"
-msgstr ""
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Voreinstellung"
 
 #: /Language/Interface/Record[Key='Trade']
 msgctxt "Interface.Trade"
 msgid "Trade"
 msgstr "Handel"
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Voreinstellung"
+#: /Language/Interface/Record[Key='TraderGoneMissing']
+msgctxt "Interface.TraderGoneMissing"
+msgid "Seems the contact has moved on."
+msgstr ""
 
 #: /Language/Interface/Record[Key='ContactsTrading']
 msgctxt "Interface.ContactsTrading"
@@ -5578,10 +5587,15 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Beschreibung"
 
-#: /Language/Interface/Record[Key='AlertNoBackups']
-msgctxt "Interface.AlertNoBackups"
-msgid "Backups folder missing or empty."
-msgstr ""
+#: /Language/Interface/Record[Key='AlertVersionMismatch']
+msgctxt "Interface.AlertVersionMismatch"
+msgid "Game version mismatch with server."
+msgstr "Spielversion stimmt nicht mit dem Server überein."
+
+#, fuzzy
+#~ msgctxt "Interface.StationpediaAdvancedGuides"
+#~ msgid "Advanced Guides"
+#~ msgstr "Erweitert"
 
 #, fuzzy
 #~ msgctxt "Interface.LightString"
