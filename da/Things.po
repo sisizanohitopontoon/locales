@@ -1048,7 +1048,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
 msgctxt "Things.ItemKitDynamicGasTankAdvanced"
-msgid "Kit (Portable Tank Mk II)"
+msgid "Kit (Portable Gas Tank Mk II)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
@@ -3357,12 +3357,12 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterPollutants']
 msgctxt "Things.DynamicGasCanisterPollutants"
-msgid "Portable Tank (Pollutants)"
+msgid "Portable Gas Tank (Pollutants)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrousOxide']
 msgctxt "Things.DynamicGasCanisterNitrousOxide"
-msgid "Portable Tank (Nitrous Oxide)"
+msgid "Portable Gas Tank (Nitrous Oxide)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitAutoMiner']
@@ -3457,7 +3457,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='MotherboardComms']
 msgctxt "Things.MotherboardComms"
-msgid "When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureShuttleLandingPad} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader."
+msgid "When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} allows Stationeers to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureSatelliteDish} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='MotherboardComms']
@@ -3482,7 +3482,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSatelliteDish']
 msgctxt "Things.StructureSatelliteDish"
-msgid "Giant communications array that can be used to communicate with nearby trade vessels. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader."
+msgid "Giant communications array that can be used to communicate with nearby trade vessels. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine}, this allows Stationeers to trade with suppliers. Adjust its horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSatelliteDish']
@@ -3497,7 +3497,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureShuttleLandingPad']
 msgctxt "Things.StructureShuttleLandingPad"
-msgid "Landing pad capable to handling a small trade shuttle. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader."
+msgid "Landing pad capable of handling a small trade shuttle. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. You need a communications signal of 95% or above to establish reliable communications with a trader."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureShuttleLandingPad']
@@ -3794,8 +3794,9 @@ msgid "Kit (Portable Liquid Tank)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitDynamicCanister']
+#, fuzzy
 msgctxt "Things.ItemKitDynamicCanister"
-msgid "Kit (Portable Tank)"
+msgid "Kit (Portable Gas Tank)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePressurePlateSmall']
@@ -7735,7 +7736,9 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterOxygen']
 msgctxt "Things.ItemGasCanisterOxygen"
-msgid "The white portable 64L canister is the <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> basic unit of <color=#0080FFFF>{LINK:GasPage;oxygen}</color> delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
+msgid ""
+"The white portable 64L canister is the <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> basic unit of <color=#0080FFFF>{LINK:GasPage;oxygen}</color> delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
+"Careful not to pressurize beyond 100kPA, or it may go 'bang'."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterOxygen']
@@ -7745,7 +7748,9 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
 msgctxt "Things.ItemGasCanisterNitrogen"
-msgid "The green portable <color=#0080FFFF>{LINK:GasPage;nitrogen or nitrous oxide}</color> canister supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
+msgid ""
+"The green portable <color=#0080FFFF>{LINK:GasPage;nitrogen or nitrous oxide}</color> canister supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
+"Careful not to pressurize beyond 100kPA, or it may go 'bang'."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
@@ -7760,7 +7765,9 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterFuel']
 msgctxt "Things.ItemGasCanisterFuel"
-msgid "The orange portable <color=#0080FFFF>{LINK:GasPage;fuel}</color> canister supplies a 64L mixture of 66% volatiles/34% oxygen for powering such items as the {THING:ItemWeldingTorch} and the {THING:DynamicGenerator}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
+msgid ""
+"The orange portable <color=#0080FFFF>{LINK:GasPage;fuel}</color> canister supplies a 64L mixture of 66% volatiles/34% oxygen for powering such items as the {THING:ItemWeldingTorch} and the {THING:DynamicGenerator}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
+"Careful not to pressurize beyond 100kPA, or it may go 'bang'."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterFuel']
@@ -7770,7 +7777,10 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterEmpty']
 msgctxt "Things.ItemGasCanisterEmpty"
-msgid "The portable canister is the <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> basic unit of <color=#0080FFFF>{LINK:GasPage;gas}</color> delivery. Rated to a standard pressure of 8000kPa (80 atmospheres), empty gas canisters can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'. Contains 64L of gas."
+msgid ""
+"The portable canister is the <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> basic unit of <color=#0080FFFF>{LINK:GasPage;gas}</color> delivery. Rated to a standard pressure of 8000kPa (80 atmospheres), empty gas canisters can be mounted to a \n"
+"{THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
+"Careful not to pressurize beyond 100kPA, or it may go 'bang'. Contains 64L of gas."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterEmpty']
@@ -7780,7 +7790,9 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterPollutants']
 msgctxt "Things.ItemGasCanisterPollutants"
-msgid "While this byproduct from smelting - sometimes known simply as 'X' - is a toxin, its specific heat makes it a valuable coolant. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'."
+msgid ""
+"While this byproduct from smelting - sometimes known simply as 'X' - is a toxin, its specific heat makes it a valuable coolant. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. \n"
+"Careful not to pressurize beyond 100kPA, or it may go 'bang'."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterPollutants']
@@ -7790,7 +7802,9 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterCarbonDioxide']
 msgctxt "Things.ItemGasCanisterCarbonDioxide"
-msgid "When fabricated, the <color=#0080FFFF>{LINK:GasPage;CO2}</color> canister is filled a pressure of 8000kPa (80 atmospheres) and coloured default grey. Used as a secondary fuel in the {THING:ItemJetpackBasic}, it can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to overpressurize when refilling, or it may go 'bang'."
+msgid ""
+"When fabricated, the <color=#0080FFFF>{LINK:GasPage;CO2}</color> canister is filled a pressure of 8000kPa (80 atmospheres) and coloured default grey. Used as a secondary fuel in the {THING:ItemJetpackBasic}, it can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
+"Careful not to overpressurize when refilling, or it may go 'bang'."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterCarbonDioxide']
@@ -8251,7 +8265,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterWater']
 msgctxt "Things.DynamicGasCanisterWater"
-msgid "This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. But try to keep pressure under 100 atmospheres, or you'll end up wet, hurt and sorry, without any of the fun. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself."
+msgid "This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. But try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterWater']
@@ -8261,72 +8275,72 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterVolatiles']
 msgctxt "Things.DynamicGasCanisterVolatiles"
-msgid "Portable tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Don't fill it above 100 atmospheres, unless you're the sort who loves complicated, flammable emergencies. You can refill a {THING:ItemGasCanisterVolatiles} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach to a rocket and show it around the Solar System."
+msgid "Portable tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Don't fill it above 10 MPa, unless you're the sort who loves complicated, flammable emergencies. You can refill a {THING:ItemGasCanisterVolatiles} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach to a rocket and show it around the Solar System."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterVolatiles']
 msgctxt "Things.DynamicGasCanisterVolatiles"
-msgid "Portable Tank (Volatiles)"
+msgid "Portable Gas Tank (Volatiles)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterOxygen']
 msgctxt "Things.DynamicGasCanisterOxygen"
-msgid "Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll be picking tank shards out of your face. You can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere. Or even paint it pink, call it Steve and fill that sad space in your heart."
+msgid "Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll be picking tank shards out of your face. You can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere. Or even paint it pink, call it Steve and fill that sad space in your heart."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterOxygen']
 msgctxt "Things.DynamicGasCanisterOxygen"
-msgid "Portable Tank (Oxygen)"
+msgid "Portable Gas Tank (Oxygen)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrogen']
 msgctxt "Things.DynamicGasCanisterNitrogen"
-msgid "Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll end up with nitrogen in places you weren't expecting. You can refill a {THING:ItemGasCanisterNitrogen} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later."
+msgid "Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll end up with nitrogen in places you weren't expecting. You can refill a {THING:ItemGasCanisterNitrogen} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrogen']
 msgctxt "Things.DynamicGasCanisterNitrogen"
-msgid "Portable Tank (Nitrogen)"
+msgid "Portable Gas Tank (Nitrogen)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterFuel']
 msgctxt "Things.DynamicGasCanisterFuel"
-msgid "Portable tanks store gas. They're good at it. If you need to refill a tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or things get messy. You can refill a {THING:ItemGasCanisterFuel} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later. It's really up to you."
+msgid "Portable tanks store gas. They're good at it. If you need to refill a tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or things get messy. You can refill a {THING:ItemGasCanisterFuel} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later. It's really up to you."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterFuel']
 msgctxt "Things.DynamicGasCanisterFuel"
-msgid "Portable Tank (Fuel)"
+msgid "Portable Gas Tank (Fuel)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterEmpty']
 msgctxt "Things.DynamicGasCanisterEmpty"
-msgid "Portable tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere."
+msgid "Portable gas tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterEmpty']
 msgctxt "Things.DynamicGasCanisterEmpty"
-msgid "Portable Tank"
+msgid "Portable Gas Tank"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterCarbonDioxide']
 msgctxt "Things.DynamicGasCanisterCarbonDioxide"
-msgid "Portable tanks do one thing: store gas. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or ... boom. Once it's full, you can refill a {THING:ItemGasCanisterCarbonDioxide} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere ... of sorts."
+msgid "Portable gas tanks do one thing: store gas. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or ... boom. Once it's full, you can refill a {THING:ItemGasCanisterCarbonDioxide} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere ... of sorts."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterCarbonDioxide']
 msgctxt "Things.DynamicGasCanisterCarbonDioxide"
-msgid "Portable Tank (CO2)"
+msgid "Portable Gas Tank (CO2)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterAir']
 msgctxt "Things.DynamicGasCanisterAir"
-msgid "Portable tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possiblities are endless."
+msgid "Portable gas tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possiblities are endless."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterAir']
 msgctxt "Things.DynamicGasCanisterAir"
-msgid "Portable Tank (Air)"
+msgid "Portable Gas Tank (Air)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicCratePipeSupplies']
