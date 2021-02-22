@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='StructurePictureFrameThinLandscapeSmall']
-msgctxt "Things.StructurePictureFrameThinLandscapeSmall"
-msgid "Picture Frame Thin Landscape Small"
-msgstr "Cuadro delgado pequeño"
+#: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitSmall']
+msgctxt "Things.StructurePictureFrameThickPortraitSmall"
+msgid "Picture Frame Thick Portrait Small"
+msgstr "Marco de foto retrato grueso pequeño"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirConditioner2']
 msgctxt "Things.ItemWreckageAirConditioner2"
@@ -105,20 +105,20 @@ msgctxt "Things.ItemKitWeatherStation"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageAirConditioner1']
-msgctxt "Things.ItemWreckageAirConditioner1"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='ItemKitUprightWindTurbine']
+msgctxt "Things.ItemKitUprightWindTurbine"
+msgid "Kit (Upright Wind Turbine)"
+msgstr "Kit (Turbina de viento vertical)"
 
 #: /Language/Things/RecordThing[Key='ItemKitUprightWindTurbine']
 msgctxt "Things.ItemKitUprightWindTurbine"
 msgid "This kit produces a {THING:StructureUprightWindTurbine}."
 msgstr "Este kit produce una {THING:StructureUprightWindTurbine}."
 
-#: /Language/Things/RecordThing[Key='StructureUprightWindTurbine']
-msgctxt "Things.StructureUprightWindTurbine"
-msgid "Upright Wind Turbine"
-msgstr "Turbina de viento vertical"
+#: /Language/Things/RecordThing[Key='ItemWreckageAirConditioner1']
+msgctxt "Things.ItemWreckageAirConditioner1"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureUprightWindTurbine']
 msgctxt "Things.StructureUprightWindTurbine"
@@ -897,27 +897,51 @@ msgctxt "Things.StructureRocketModuleBattery"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='StructureRocketModuleMining']
+#: /Language/Things/RecordThing[Key='StructureRocketModuleGasCollector']
 #, fuzzy
-msgctxt "Things.StructureRocketModuleMining"
-msgid "Structure Rocket Module Mining"
-msgstr "Estructura del módulo del cohete Silo"
-
-#: /Language/Things/RecordThing[Key='StructureRocketModuleMining']
-#, fuzzy
-msgctxt "Things.StructureRocketModuleMining"
-msgid "{BLANK}"
+msgctxt "Things.StructureRocketModuleGasCollector"
+msgid "Structure Rocket Module Gas Collector"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleGasCollector']
 #, fuzzy
 msgctxt "Things.StructureRocketModuleGasCollector"
-msgid "Structure Rocket Module Gas Collector"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
+#, fuzzy
+msgctxt "Things.StructureRocketModuleEnergyGenerator"
+msgid "Structure Rocket Module Energy Generator"
+msgstr "Estructura de la batería del módulo del cohete"
+
+#: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
+#, fuzzy
+msgctxt "Things.StructureRocketModuleEnergyGenerator"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureRocketModuleMiningJunk']
+#, fuzzy
+msgctxt "Things.StructureRocketModuleMiningJunk"
+msgid "Structure Rocket Module Mining Junk"
 msgstr "Estructura del módulo del cohete Silo"
 
-#: /Language/Things/RecordThing[Key='StructureRocketModuleGasCollector']
+#: /Language/Things/RecordThing[Key='StructureRocketModuleMiningJunk']
 #, fuzzy
-msgctxt "Things.StructureRocketModuleGasCollector"
+msgctxt "Things.StructureRocketModuleMiningJunk"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
+#, fuzzy
+msgctxt "Things.StructureRocketModuleMiningOre"
+msgid "Structure Rocket Module Mining Ore"
+msgstr "Estructura del módulo del cohete Silo"
+
+#: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
+#, fuzzy
+msgctxt "Things.StructureRocketModuleMiningOre"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -2316,6 +2340,11 @@ msgctxt "Things.StructureSmallTableRectangleSingle"
 msgid "Small (Table Rectangle Single)"
 msgstr "Pequeño (rectángulo de mesa simple)"
 
+#: /Language/Things/RecordThing[Key='StructureUprightWindTurbine']
+msgctxt "Things.StructureUprightWindTurbine"
+msgid "Upright Wind Turbine"
+msgstr "Turbina de viento vertical"
+
 #: /Language/Things/RecordThing[Key='StructureSmallTableThickDouble']
 msgctxt "Things.StructureSmallTableThickDouble"
 msgid "Small (Table Thick Double)"
@@ -2325,11 +2354,6 @@ msgstr "Pequeña (Tabla Doble Gruesa)"
 msgctxt "Things.StructureSmallTableThickSingle"
 msgid "Small Table (Thick Single)"
 msgstr "Mesa pequeña (gruesa individual)"
-
-#: /Language/Things/RecordThing[Key='ItemKitUprightWindTurbine']
-msgctxt "Things.ItemKitUprightWindTurbine"
-msgid "Kit (Upright Wind Turbine)"
-msgstr "Kit (Turbina de viento vertical)"
 
 #: /Language/Things/RecordThing[Key='KitchenTableShort']
 msgctxt "Things.KitchenTableShort"
@@ -3035,15 +3059,15 @@ msgctxt "Things.StructurePictureFrameThickMountPortraitSmall"
 msgid "Picture Frame Thick Mount Portrait Small"
 msgstr "Cuadro grueso retrato de monte pequeño"
 
-#: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitSmall']
-msgctxt "Things.StructurePictureFrameThickPortraitSmall"
-msgid "Picture Frame Thick Portrait Small"
-msgstr "Marco de foto retrato grueso pequeño"
-
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinLandscapeLarge']
 msgctxt "Things.StructurePictureFrameThinLandscapeLarge"
 msgid "Picture Frame Thin Landscape Large"
 msgstr "Cuadro delgado grande"
+
+#: /Language/Things/RecordThing[Key='StructurePictureFrameThinLandscapeSmall']
+msgctxt "Things.StructurePictureFrameThinLandscapeSmall"
+msgid "Picture Frame Thin Landscape Small"
+msgstr "Cuadro delgado pequeño"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitSmall']
 msgctxt "Things.StructurePictureFrameThinPortraitSmall"
@@ -9265,6 +9289,11 @@ msgstr "Microondas"
 msgctxt "Things.ItemIgniter"
 msgid "Kit (Igniter)"
 msgstr "Encendedor"
+
+#, fuzzy
+#~ msgctxt "Things.StructureRocketModuleMining"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.ItemWreckageHydroponicsStation2"
 #~ msgid "This is the default thing page."
