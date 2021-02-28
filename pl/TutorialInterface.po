@@ -4225,11 +4225,17 @@ msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='6BuildPipe']
 msgctxt "Interface.6BuildPipe"
-msgid "Place pipe"
+msgid "Place a T Junction pipe"
 msgstr ""
 
 #: /Language/Interface/Record[Key='6BuildPipept2']
+#, fuzzy
 msgctxt "Interface.6BuildPipept2"
+msgid "Place Missing pipe in highlighted location"
+msgstr ""
+
+#: /Language/Interface/Record[Key='6BuildPipept3']
+msgctxt "Interface.6BuildPipept3"
 msgid "Place the last pipe and Finish pipe system"
 msgstr ""
 
@@ -4430,6 +4436,12 @@ msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 msgctxt "Interface.6NarrationExtra1"
 msgid "Now you can  luckily you can use the water bottle filler to do this."
 msgstr ""
+
+#: /Language/Interface/Record[Key='6GetWaterBottle']
+#, fuzzy
+msgctxt "Interface.6GetWaterBottle"
+msgid "Get the empty water bottle from the crate"
+msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='6AddWaterbottletofiller']
 msgctxt "Interface.6AddWaterbottletofiller"
@@ -4826,17 +4838,17 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='GasMixingDescription']
 msgctxt "Interface.GasMixingDescription"
-msgid "Lean to mix gass"
+msgid "Flex your skills in the realm of gas filtration and mixing to create atmospheres, fuels and more."
 msgstr ""
 
 #: /Language/Interface/Record[Key='IntoTutoiralGasMixingDescription']
 msgctxt "Interface.IntoTutoiralGasMixingDescription"
-msgid "Welcome Cadet. Stationeer Command wants to test your knowledge of gas filtering and mixing, to ensure you can provide liveable fuels and liveable atmospheres for the bases you build for the ODA."
+msgid "Welcome Cadet. Stationeer Command wants to test your knowledge of gas filtering and mixing, to ensure you can provide fuels and liveable atmospheres when building ODA bases."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration0D']
 msgctxt "Interface.7Narration0D"
-msgid "Your welder is out of gas, which means its time to demonstrate your skills in gas filtering and mixing, to create more fuel. Let's start at the beginning. Your waste tank is full of carbon dioxide you've breathed out. Plants will turn that into oxygen, if you open it in the hydroponics room."
+msgid "Your welder is out of gas, which means its time to create more fuel. You'll need a source of oxygen. Plants can turn the waste CO2 from your tank into oxygen: just vent your waste tank in the hydroponics room."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7WasteTankOpened']
@@ -4851,23 +4863,24 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration1D']
 msgctxt "Interface.7Narration1D"
-msgid "Plants breath out oxygen. You need this for your fuel mix. Build a passive vent in the highlighted position. We'll use this to collect oxygen from the room."
+msgid "To collect the oxygen, build an active vent in the highlighted position. We'll use this to pump oxygen from the rom."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetActiveVent']
 #, fuzzy
 msgctxt "Interface.7GetActiveVent"
-msgid "Get active vent."
+msgid "Get active vent"
 msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='7BuildActiveVent']
+#, fuzzy
 msgctxt "Interface.7BuildActiveVent"
-msgid "Build active vent."
+msgid "Build active vent from crate"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration2D']
 msgctxt "Interface.7Narration2D"
-msgid "Go through the airlock to the gas room to build your mixing apparatus."
+msgid "Now, move through the airlock to the atmospherics room to build your gas mixing system."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7MoveToArea']
@@ -4877,7 +4890,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration3D']
 msgctxt "Interface.7Narration3D"
-msgid "You can use a filtration unit to separate out oxygen from the other gases in the hydroponic room atmosphere. Build a filtration unit in the highlighted position."
+msgid "You can use a filtration unit to separate out oxygen from the hydroponic room atmosphere. Build a filtration unit in the highlighted position."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetAtmospherics']
@@ -4889,28 +4902,28 @@ msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 #: /Language/Interface/Record[Key='7BuildAtmospherics']
 #, fuzzy
 msgctxt "Interface.7BuildAtmospherics"
-msgid "Build filtration unit in highlighted position."
+msgid "Build filtration unit in highlighted position"
 msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 
 #: /Language/Interface/Record[Key='7Narration4D']
 msgctxt "Interface.7Narration4D"
-msgid "The filtration unit outputs both filtered and waste gas. Connect the device to the hydroponic room pipe network"
+msgid "Complete the green oxygen pipe network. This will connect the hydroponic room's atmospheric pipe network to the filtration unit's input."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetPipeKit']
 #, fuzzy
 msgctxt "Interface.7GetPipeKit"
-msgid "Get the pipes from the crate"
+msgid "Get pipes from crate"
 msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='7BuildPipe']
 msgctxt "Interface.7BuildPipe"
-msgid "Connect the hydroponic gas network with pipes"
+msgid "Complete oxygen pipe network"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration5D']
 msgctxt "Interface.7Narration5D"
-msgid "You'll also be creating waste gas, so connect the filtration unit to the waste gas network, which expells outside."
+msgid "The filtration unit also creates waste gas. So connect the unit to the waste gas network, which expells outside."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetPipeKit']
@@ -4927,7 +4940,7 @@ msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='7Narration6D']
 msgctxt "Interface.7Narration6D"
-msgid "A filtration unit can filter out two gases simultaneously, but you need oxygen right now - so put an oxygen filter in the unit."
+msgid "A filtration unit can filter out two gases simultaneously, but right now you need oxygen - so add an oxygen filter in the unit."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetFilter']
@@ -4937,8 +4950,9 @@ msgid "Get oxygen filter from crate"
 msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='7AddFilterToFilitration']
+#, fuzzy
 msgctxt "Interface.7AddFilterToFilitration"
-msgid "Add oxygen filter to filtration unit"
+msgid "Insert oxygen filter in filtration unit"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration7D']
@@ -4949,7 +4963,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='7GetPipeRadiator']
 #, fuzzy
 msgctxt "Interface.7GetPipeRadiator"
-msgid "Get Pipe Radiator from crate"
+msgid "Get pipe radiator from crate"
 msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='7BuildPipeRadiator']
@@ -4987,18 +5001,18 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration9D']
 msgctxt "Interface.7Narration9D"
-msgid "We'll use the ice crusher to produce volatile gas. Get the mining belt from the crate, then add the volatiles within to the ice crusher. You will have to move quickly, as the volatiles will being to melt as soon as they leave the ore belt (but will not melt in the ice crusher)."
+msgid "The other component to fuel is volatile gas. Get the mining belt from the crate, then add the volatiles to the ice crusher. Note that you will have to move quickly, as volatiles melt rapidlp."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetMiningBelt']
 #, fuzzy
 msgctxt "Interface.7GetMiningBelt"
-msgid "Get the Mining belt from the crate"
+msgid "Get mining belt from crate"
 msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
-#: /Language/Interface/Record[Key='7AddIceToCrusher']
-msgctxt "Interface.7AddIceToCrusher"
-msgid "Add stack of volatiles to ice crusher from the mining belt"
+#: /Language/Interface/Record[Key='7AddIceToCrusper']
+msgctxt "Interface.7AddIceToCrusper"
+msgid "Add stack of volatiles to ice crusher"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration10D']
@@ -5026,7 +5040,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='7GetRegulator']
 #, fuzzy
 msgctxt "Interface.7GetRegulator"
-msgid "Get the Pressure regulator from the Crate"
+msgid "Get pressure regulator from crate"
 msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='7BuildRegulator']
@@ -5037,41 +5051,41 @@ msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 
 #: /Language/Interface/Record[Key='7Narration12D']
 msgctxt "Interface.7Narration12D"
-msgid "Valves allow us to control the flow of gas's or liquids inside pipe because of this its a good"
+msgid "Valves allow us to control the flow of gases or liquids inside pipes. Because losing control is dangerous."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetValve']
 #, fuzzy
 msgctxt "Interface.7GetValve"
-msgid "Get the Pipe Vavle from the crate"
+msgid "Get the pipe valve from the crate"
 msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='7BuildValve']
 #, fuzzy
 msgctxt "Interface.7BuildValve"
-msgid "Place Valve in highlited position"
+msgid "Place valve in highlighted position"
 msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 
 #: /Language/Interface/Record[Key='7Narration13D']
 msgctxt "Interface.7Narration13D"
-msgid "You'll need a tank to store fuel, and recharge your cannister from. So attach a tank to the pipe network using a tank connector."
+msgid "You need a tank storage unit, so you can recharge your cannister. Tank storage units attach directly to pipe networks."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetTankConnector']
 #, fuzzy
 msgctxt "Interface.7GetTankConnector"
-msgid "Get tank Connector from the crate"
+msgid "Get tank storage unit from crate"
 msgstr "Podnieś {THING:ItemBatteryCellLarge}"
 
 #: /Language/Interface/Record[Key='7BuildTankConnector']
 #, fuzzy
 msgctxt "Interface.7BuildTankConnector"
-msgid "Build Tank Connector In highlighted position"
+msgid "Build tank storage unit in highlighted position"
 msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 
 #: /Language/Interface/Record[Key='7Narration14D']
 msgctxt "Interface.7Narration14D"
-msgid "The Gas Network is now set up Inset the empty tank and charge it up with new fuel"
+msgid "Excellent! Your gas network is now set up. Insert the empty tank from your welder into the storage unit, so it's ready to be charged up."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetEmptyTank']
@@ -5087,7 +5101,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration15D']
 msgctxt "Interface.7Narration15D"
-msgid "To determine correct fuel ratio to fill your tank with. Consult Stationpedia to find correct fuel mix ratio."
+msgid "To determine correct fuel ratio for your tank, consult the Stationpedia Canister (Fuel) page."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7SetGasMix']
@@ -5102,8 +5116,9 @@ msgid "Consult Canister (Fuel) page in Stationpedia"
 msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 
 #: /Language/Interface/Record[Key='7PediaNavigationClose']
+#, fuzzy
 msgctxt "Interface.7PediaNavigationClose"
-msgid "Close Stationpedia Once you finish reading"
+msgid "Close Stationpedia"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration16D']
@@ -5118,60 +5133,61 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration17D']
 msgctxt "Interface.7Narration17D"
-msgid "Great work Cadet! Now that everythings set up we can safely begin turnnig on our equitment and start producing fuel."
+msgid "Great work Cadet! Now that everything's set up we can safely begin turnnig on our equitment and start producing fuel."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7ActiveVentOn']
 msgctxt "Interface.7ActiveVentOn"
-msgid "Go back to grow room and turn on the active vent"
+msgid "Turn on active vent in hydroponics room"
 msgstr ""
-
-#: /Language/Interface/Record[Key='7GasMixerOn']
-msgctxt "Interface.7GasMixerOn"
-msgid "Return to the atmsopherics room and turn on the Gas mixer"
-msgstr ""
-
-#: /Language/Interface/Record[Key='7PressureReg']
-#, fuzzy
-msgctxt "Interface.7PressureReg"
-msgid "Turn on the pressuie regulator"
-msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 
 #: /Language/Interface/Record[Key='7IceCrusherOn']
 #, fuzzy
 msgctxt "Interface.7IceCrusherOn"
-msgid "Turn on the Ice Crusher"
+msgid "Turn on ice crusher"
 msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 
 #: /Language/Interface/Record[Key='7FilterOn']
 #, fuzzy
 msgctxt "Interface.7FilterOn"
-msgid "Turn on the filter"
+msgid "Turn on filtration unit"
+msgstr "Usuń {THING:StructureCableJunctionBurnt}"
+
+#: /Language/Interface/Record[Key='7GasMixerOn']
+#, fuzzy
+msgctxt "Interface.7GasMixerOn"
+msgid "Turn on gas mixer"
+msgstr ""
+
+#: /Language/Interface/Record[Key='7PressureReg']
+#, fuzzy
+msgctxt "Interface.7PressureReg"
+msgid "Turn on pressure regulator"
 msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 
 #: /Language/Interface/Record[Key='7Narration17D']
 msgctxt "Interface.7Narration17D"
-msgid "The Volitiles and oxygen are currently waiting in the pipe so now its time to open the valves and let the gas flow into the gas mixer"
+msgid "The volatiles and oxygen are currently waiting in the pipe. Open the valves to let the gas flow into the gas mixer."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7VolatilesValveOn']
 msgctxt "Interface.7VolatilesValveOn"
-msgid "Open the volitiles pipe valve"
+msgid "Open volatiles pipe valve"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7OxideValveOn']
 msgctxt "Interface.7OxideValveOn"
-msgid "Open the Oxygen pipe valve"
+msgid "Open oxygen pipe valve"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration18D']
 msgctxt "Interface.7Narration18D"
-msgid "Now your canister is refilled, you can insert it into your welder"
+msgid "Your fuel canister is now refilled! Insert it into your welder."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7AddTankToWeilder']
 msgctxt "Interface.7AddTankToWeilder"
-msgid "Put the fuel canister back into the weidler"
+msgid "Return fuel canister to welder"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration19D']
@@ -7375,6 +7391,26 @@ msgstr ""
 msgctxt "Interface.TestTheFuelMixTask1"
 msgid "Complete construction of the glass door."
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Interface.7GetPipeKit"
+#~ msgid "Get the pipes from the crate"
+#~ msgstr "Podnieś {THING:ItemBatteryCellLarge}"
+
+#, fuzzy
+#~ msgctxt "Interface.7GetMiningBelt"
+#~ msgid "Get the Mining belt from the crate"
+#~ msgstr "Podnieś {THING:ItemBatteryCellLarge}"
+
+#, fuzzy
+#~ msgctxt "Interface.7GetTankConnector"
+#~ msgid "Get tank Connector from the crate"
+#~ msgstr "Podnieś {THING:ItemBatteryCellLarge}"
+
+#, fuzzy
+#~ msgctxt "Interface.7BuildTankConnector"
+#~ msgid "Build Tank Connector In highlighted position"
+#~ msgstr "Usuń {THING:StructureCableJunctionBurnt}"
 
 #, fuzzy
 #~ msgctxt "Interface.6BuildWaterBottleFiller"
