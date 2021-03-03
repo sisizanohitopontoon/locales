@@ -4283,13 +4283,11 @@ msgid "Place T-junction pipe in highlighted position"
 msgstr "Разместить предмет"
 
 #: /Language/Interface/Record[Key='6BuildPipept2']
-#, fuzzy
 msgctxt "Interface.6BuildPipept2"
 msgid "Place pipe in highlighted position"
 msgstr ""
 
 #: /Language/Interface/Record[Key='6BuildPipept3']
-#, fuzzy
 msgctxt "Interface.6BuildPipept3"
 msgid "Place T-junction pipe in highlighted position"
 msgstr ""
@@ -4912,18 +4910,21 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration0D']
 msgctxt "Interface.7Narration0D"
-msgid "Your welder is out of gas, which means its time to create more fuel. You'll need a source of oxygen. Plants can turn the waste CO2 from your tank into oxygen: just vent your waste tank in the hydroponics room."
+msgid ""
+"Your welder is out of gas, and you need to create more fuel. First, you need a source of oxygen.\n"
+"Luckily, plants create oxygen from CO2, which you have in your suit's waste tank. So vent your suit's waste tank in the hydroponics room."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7WasteTankOpened']
 #, fuzzy
 msgctxt "Interface.7WasteTankOpened"
-msgid "Open your waste tank"
+msgid "Open suit waste tank"
 msgstr "Откройте ваш рюкзак."
 
 #: /Language/Interface/Record[Key='7WasteTankClosed']
+#, fuzzy
 msgctxt "Interface.7WasteTankClosed"
-msgid "Shut your waste tank"
+msgid "Close suit waste tank"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration1D']
@@ -4934,13 +4935,13 @@ msgstr ""
 #: /Language/Interface/Record[Key='7GetActiveVent']
 #, fuzzy
 msgctxt "Interface.7GetActiveVent"
-msgid "Get active vent"
+msgid "Get active vent from crate"
 msgstr "Выделите активную вентиляцию"
 
 #: /Language/Interface/Record[Key='7BuildActiveVent']
 #, fuzzy
 msgctxt "Interface.7BuildActiveVent"
-msgid "Build active vent from crate"
+msgid "Build active vent in highlighted position"
 msgstr "Выделите активную вентиляцию"
 
 #: /Language/Interface/Record[Key='7Narration2D']
@@ -5067,7 +5068,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration9D']
 msgctxt "Interface.7Narration9D"
-msgid "The other component to fuel is volatile gas. Get the mining belt from the crate, then add the volatiles to the ice crusher. Note that you will have to move quickly, as volatiles melt rapidlp."
+msgid "The other component of fuel is volatile gas. Get the mining belt from the crate, then add the volatiles to the ice crusher. Note that volatiles sublime rapidly, but not inside the ice crusher (or ore belt)."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7GetMiningBelt']
@@ -5090,7 +5091,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='7GetGasMixer']
 #, fuzzy
 msgctxt "Interface.7GetGasMixer"
-msgid "Get the Gas mixer from crate"
+msgid "Get the gas mixer from crate"
 msgstr "Возьмите активную вентиляцию из ящика"
 
 #: /Language/Interface/Record[Key='7BuildGasMixer']
@@ -5163,7 +5164,7 @@ msgstr "Возьмите батарейку из ящика"
 
 #: /Language/Interface/Record[Key='7AddCanisterToTankConnector']
 msgctxt "Interface.7AddCanisterToTankConnector"
-msgid "Insert canister into tank"
+msgid "Insert welder fuel canister into tank"
 msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration15D']
@@ -5189,7 +5190,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='7Narration16D']
 msgctxt "Interface.7Narration16D"
-msgid "Now set the pressure on the regulator. A safe pressure for canisters is to 5000kPa (5mPa)"
+msgid "Now set the pressure on the regulator. A safe pressure for canisters is 1950kPa, although they can tolerate up to almost 10MPa."
 msgstr ""
 
 #: /Language/Interface/Record[Key='7LimitRegulator']
@@ -7368,6 +7369,16 @@ msgstr "Теперь, когда мы заправили {THING:ItemGasCanisterF
 msgctxt "Interface.TestTheFuelMixTask1"
 msgid "Complete construction of the glass door."
 msgstr "Завершите сборку стеклянной двери."
+
+#, fuzzy
+#~ msgctxt "Interface.7GetActiveVent"
+#~ msgid "Get active vent"
+#~ msgstr "Выделите активную вентиляцию"
+
+#, fuzzy
+#~ msgctxt "Interface.7BuildActiveVent"
+#~ msgid "Build active vent from crate"
+#~ msgstr "Выделите активную вентиляцию"
 
 #, fuzzy
 #~ msgctxt "Interface.6BuildPipe"

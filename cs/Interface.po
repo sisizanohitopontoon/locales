@@ -235,15 +235,15 @@ msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr "Herní čas:"
 
+#: /Language/Interface/Record[Key='AppearanceTitleSpecies']
+msgctxt "Interface.AppearanceTitleSpecies"
+msgid "Species"
+msgstr "Druh"
+
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
 msgid "Map:"
 msgstr "Mapa:"
-
-#: /Language/Interface/Record[Key='IncidentsTitle']
-msgctxt "Interface.IncidentsTitle"
-msgid "Incidents"
-msgstr "Incidenty"
 
 #: /Language/Interface/Record[Key='WorldInfoTextAsteroids']
 msgctxt "Interface.WorldInfoTextAsteroids"
@@ -491,11 +491,6 @@ msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr "Návrat do hry"
 
-#: /Language/Interface/Record[Key='GameMenuButtonSave']
-msgctxt "Interface.GameMenuButtonSave"
-msgid "Save World"
-msgstr "Uložit svět"
-
 #: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
 msgctxt "Interface.GameMenuButtonChangeCharacter"
 msgid "Change Appearance"
@@ -505,6 +500,11 @@ msgstr "Změnit vzhled"
 msgctxt "Interface.GameMenuButtonSettings"
 msgid "Settings"
 msgstr "Nastavení"
+
+#: /Language/Interface/Record[Key='GameMenuButtonLeave']
+msgctxt "Interface.GameMenuButtonLeave"
+msgid "Leave Session"
+msgstr "Opustit relaci"
 
 #: /Language/Interface/Record[Key='GameMenuButtonExitDesktop']
 msgctxt "Interface.GameMenuButtonExitDesktop"
@@ -1196,6 +1196,11 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr "Odhlásit odběr"
 
+#: /Language/Interface/Record[Key='GameMenuButtonSave']
+msgctxt "Interface.GameMenuButtonSave"
+msgid "Save World"
+msgstr "Uložit svět"
+
 #: /Language/Interface/Record[Key='PromptOverwriteTitle']
 msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
@@ -1205,11 +1210,6 @@ msgstr "Přepsat"
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
 msgstr "Opravdu chcete přepsat stávající uložený svět?"
-
-#: /Language/Interface/Record[Key='GameMenuButtonLeave']
-msgctxt "Interface.GameMenuButtonLeave"
-msgid "Leave Session"
-msgstr "Opustit relaci"
 
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
@@ -1615,6 +1615,11 @@ msgstr "Již brzy..."
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Slot"
+
+#: /Language/Interface/Record[Key='CrowbarToFlip']
+msgctxt "Interface.CrowbarToFlip"
+msgid "Flip using crowbar."
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsLightShadowDistance']
 #, fuzzy
@@ -4326,10 +4331,10 @@ msgctxt "Interface.OpenIncidentUI"
 msgid "Open Incidents"
 msgstr "Otevřít incidenty"
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Předvolby"
+#: /Language/Interface/Record[Key='IncidentsTitle']
+msgctxt "Interface.IncidentsTitle"
+msgid "Incidents"
+msgstr "Incidenty"
 
 #: /Language/Interface/Record[Key='SpinnerPannelDone']
 msgctxt "Interface.SpinnerPannelDone"
@@ -4341,10 +4346,10 @@ msgctxt "Interface.SpinnerPannelSaving"
 msgid "Saving"
 msgstr "Ukládání"
 
-#: /Language/Interface/Record[Key='AppearanceTitleSpecies']
-msgctxt "Interface.AppearanceTitleSpecies"
-msgid "Species"
-msgstr "Druh"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Předvolby"
 
 #: /Language/Interface/Record[Key='ButtonFolderBrowse']
 msgctxt "Interface.ButtonFolderBrowse"
