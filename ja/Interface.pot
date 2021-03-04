@@ -225,11 +225,6 @@ msgctxt "Interface.WorldInfoTextPlaytime"
 msgid "Playtime:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleSpecies']
-msgctxt "Interface.AppearanceTitleSpecies"
-msgid "Species"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorldInfoMapName']
 msgctxt "Interface.WorldInfoMapName"
 msgid "Map:"
@@ -243,6 +238,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='WorldInfoTextVersion']
 msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TraderHydraulic']
+msgctxt "Interface.TraderHydraulic"
+msgid "HyrdauliKit"
 msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
@@ -480,6 +480,11 @@ msgctxt "Interface.GameMenuButtonReturn"
 msgid "Return To Game"
 msgstr ""
 
+#: /Language/Interface/Record[Key='GameMenuButtonSave']
+msgctxt "Interface.GameMenuButtonSave"
+msgid "Save World"
+msgstr ""
+
 #: /Language/Interface/Record[Key='GameMenuButtonChangeCharacter']
 msgctxt "Interface.GameMenuButtonChangeCharacter"
 msgid "Change Appearance"
@@ -558,11 +563,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='SettingsMenuControls']
 msgctxt "Interface.SettingsMenuControls"
 msgid "Controls"
-msgstr ""
-
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsGameplayAutosave']
@@ -1175,11 +1175,6 @@ msgctxt "Interface.PromptUnsubscribeConfirm"
 msgid "Unsubscribe"
 msgstr ""
 
-#: /Language/Interface/Record[Key='GameMenuButtonSave']
-msgctxt "Interface.GameMenuButtonSave"
-msgid "Save World"
-msgstr ""
-
 #: /Language/Interface/Record[Key='PromptOverwriteTitle']
 msgctxt "Interface.PromptOverwriteTitle"
 msgid "Overwrite"
@@ -1265,6 +1260,11 @@ msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr ""
 
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr ""
+
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
 msgid "Give Up"
@@ -1290,6 +1290,11 @@ msgctxt "Interface.AlertPlayerCountExceeded"
 msgid "Server is full."
 msgstr ""
 
+#: /Language/Interface/Record[Key='AlertVersionMismatch']
+msgctxt "Interface.AlertVersionMismatch"
+msgid "Game version mismatch with server."
+msgstr ""
+
 #: /Language/Interface/Record[Key='AlertNoResponse']
 msgctxt "Interface.AlertNoResponse"
 msgid "There is no response from the Game Server.\n                                              Please try again."
@@ -1313,11 +1318,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
-msgstr ""
-
-#: /Language/Interface/Record[Key='AlertBlankSaveName']
-msgctxt "Interface.AlertBlankSaveName"
-msgid "You must enter a world name to save."
 msgstr ""
 
 #: /Language/Interface/Record[Key='AlertTitleAttention']
@@ -2178,6 +2178,146 @@ msgstr ""
 #: /Language/Interface/Record[Key='Agrizero']
 msgctxt "Interface.Agrizero"
 msgid "Agrizero"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandHelp']
+msgctxt "Interface.CommandHelp"
+msgid "Displays help menu. : \"/help\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandAddGas']
+msgctxt "Interface.CommandAddGas"
+msgid "Adds gas's or liquids to a given tank or pipenetwork. : \"/addgas [refID] [gasType 1-8] [molecount]\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandFillHealth']
+msgctxt "Interface.CommandFillHealth"
+msgid "heals a player. : \"/fillhealth\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandFillNeeds']
+msgctxt "Interface.CommandFillNeeds"
+msgid "Fills a players hunger and hydration. : \"/fillneeds\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandShowStage']
+msgctxt "Interface.CommandShowStage"
+msgid "Displays the current mission Stage and how many stages are in the mission. : \"/showstage\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandSetStage']
+msgctxt "Interface.CommandSetStage"
+msgid "Sets the current mission Stage. : \"/setstage\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandSkipStage']
+msgctxt "Interface.CommandSkipStage"
+msgid "Skips the current mission Stage. : \"/skipstage\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandToggleNoClip']
+msgctxt "Interface.CommandToggleNoClip"
+msgid "Toggles player collisions. : \"/tnc\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandStartWeather']
+msgctxt "Interface.CommandStartWeather"
+msgid "Starts a new Storm Instantly. : \"/startweather\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandStopWeather']
+msgctxt "Interface.CommandStopWeather"
+msgid "Stops a Storm Instantly. : \"/stopweather\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandToggleInstaGrow']
+msgctxt "Interface.CommandToggleInstaGrow"
+msgid "Toggles Instant plant growth on a server or game. : \"/tgrow\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandSetTime']
+msgctxt "Interface.CommandSetTime"
+msgid "Sets the sun offset affectivley changing the time of day. : \"/settime 0.25\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandToggleGameMode']
+msgctxt "Interface.CommandToggleGameMode"
+msgid "Toggles Gamemode between Survival and Creative. : \"/tgm\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandToggleInfinitePower']
+msgctxt "Interface.CommandToggleInfinitePower"
+msgid "Toggles Infinite power on a player or serverwide. : \"/tgp\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandToggleGod']
+msgctxt "Interface.CommandToggleGod"
+msgid "Toggles Player invinciablity including suit. : \"/tg\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandResume']
+msgctxt "Interface.CommandResume"
+msgid "Resumes the game for all connected players. : \"/resume\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandPause']
+msgctxt "Interface.CommandPause"
+msgid "Pauses the game for all connected players. : \"/pause\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandSetHunger']
+msgctxt "Interface.CommandSetHunger"
+msgid "Sets the hunger rate. : \"/hungerrate 0.25\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandResetThread']
+msgctxt "Interface.CommandResetThread"
+msgid "Resets a given thread. : \"/resetthread atmospherics\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandThreadStatus']
+msgctxt "Interface.CommandThreadStatus"
+msgid "Shows the current status of the game's threads.: \"/threadstatus\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandClearAll']
+msgctxt "Interface.CommandClearAll"
+msgid "Clears all disconnect players from the server: \"/clearall\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandKick']
+msgctxt "Interface.CommandKick"
+msgid "Kicks a player from a given steam ID from the server: \"/kick 102039237390\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandUnBan']
+msgctxt "Interface.CommandUnBan"
+msgid "Revoke a ban from a given steam ID from the server: \"/unban 102039237390\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandBan']
+msgctxt "Interface.CommandBan"
+msgid "Ban a given steam ID from the server: \"/ban 102039237390\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandStatus']
+msgctxt "Interface.CommandStatus"
+msgid "Displays the current status of the server and who's currently in the server: \"/status\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandNotice']
+msgctxt "Interface.CommandNotice"
+msgid "Send a message to the players of a server. usage: \"/notice the message you want to send\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandShutdown']
+msgctxt "Interface.CommandShutdown"
+msgid "Shutsdown the game server and returns player to the lobby can append a timer and message. usage: \"/shutdown\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandSave']
+msgctxt "Interface.CommandSave"
+msgid "Saves the game and names it as a given parameter. usage: \"/save nameofsave\""
 msgstr ""
 
 #: /Language/Interface/Record[Key='ControlSwapHandsDisc']
@@ -4115,9 +4255,9 @@ msgctxt "Interface.TraderOre"
 msgid "MineRite"
 msgstr ""
 
-#: /Language/Interface/Record[Key='TraderHydraulic']
-msgctxt "Interface.TraderHydraulic"
-msgid "HyrdauliKit"
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderBasic']
@@ -4225,9 +4365,9 @@ msgctxt "Interface.SpinnerPannelSaving"
 msgid "Saving"
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
+#: /Language/Interface/Record[Key='AppearanceTitleSpecies']
+msgctxt "Interface.AppearanceTitleSpecies"
+msgid "Species"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonFolderBrowse']
@@ -5375,7 +5515,7 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AlertVersionMismatch']
-msgctxt "Interface.AlertVersionMismatch"
-msgid "Game version mismatch with server."
+#: /Language/Interface/Record[Key='AlertBlankSaveName']
+msgctxt "Interface.AlertBlankSaveName"
+msgid "You must enter a world name to save."
 msgstr ""
