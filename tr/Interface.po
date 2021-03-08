@@ -250,15 +250,15 @@ msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Sürüm:"
 
-#: /Language/Interface/Record[Key='TraderHydraulic']
-msgctxt "Interface.TraderHydraulic"
-msgid "HyrdauliKit"
-msgstr ""
-
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Sil"
+
+#: /Language/Interface/Record[Key='TraderBasic']
+msgctxt "Interface.TraderBasic"
+msgid "Spes'mall"
+msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoButtonPublish']
 msgctxt "Interface.WorldInfoButtonPublish"
@@ -571,10 +571,10 @@ msgctxt "Interface.SettingsMenuAudio"
 msgid "Audio"
 msgstr "SES"
 
-#: /Language/Interface/Record[Key='SettingsMenuControls']
-msgctxt "Interface.SettingsMenuControls"
-msgid "Controls"
-msgstr "KONTROLLER"
+#: /Language/Interface/Record[Key='SettingsMenuMisc']
+msgctxt "Interface.SettingsMenuMisc"
+msgid "Misc"
+msgstr "ÇEŞİTLİ"
 
 #: /Language/Interface/Record[Key='SettingsGameplayAutosave']
 msgctxt "Interface.SettingsGameplayAutosave"
@@ -1269,6 +1269,11 @@ msgctxt "Interface.PromptRespawnConfirm"
 msgid "Respawn"
 msgstr "Yeniden Canlan"
 
+#: /Language/Interface/Record[Key='SettingsMenuControls']
+msgctxt "Interface.SettingsMenuControls"
+msgid "Controls"
+msgstr "KONTROLLER"
+
 #: /Language/Interface/Record[Key='PromptGiveUpTitle']
 msgctxt "Interface.PromptGiveUpTitle"
 msgid "Give Up"
@@ -1278,11 +1283,6 @@ msgstr "Pes Et"
 msgctxt "Interface.PromptGiveUpBody"
 msgid "You are unconscious. Do you want to give up and respawn?"
 msgstr "Baygın durumdasın. Pes etmek ve yeniden canlanmak ister misin?"
-
-#: /Language/Interface/Record[Key='SettingsMenuMisc']
-msgctxt "Interface.SettingsMenuMisc"
-msgid "Misc"
-msgstr "ÇEŞİTLİ"
 
 #: /Language/Interface/Record[Key='PromptGiveUpConfirm']
 msgctxt "Interface.PromptGiveUpConfirm"
@@ -1343,15 +1343,15 @@ msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
 msgstr "Sunucu çalışıyorken Port'u Güncelle değiştirilemiyor."
 
+#: /Language/Interface/Record[Key='AlertBlankSaveName']
+msgctxt "Interface.AlertBlankSaveName"
+msgid "You must enter a world name to save."
+msgstr "Kaydetmek için bir dünya ismi girmeniz gerekir."
+
 #: /Language/Interface/Record[Key='AlertTitleAttention']
 msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Dikkat"
-
-#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
-msgctxt "Interface.AlertTitlePleaseWait"
-msgid "Please Wait..."
-msgstr "Lütfen Bekleyin..."
 
 #: /Language/Interface/Record[Key='TooltipNeedMoreKit']
 msgctxt "Interface.TooltipNeedMoreKit"
@@ -1613,6 +1613,12 @@ msgstr ""
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
+
+#: /Language/Interface/Record[Key='TimerPanel']
+#, fuzzy
+msgctxt "Interface.TimerPanel"
+msgid "Timer"
+msgstr "Zaman"
 
 #: /Language/Interface/Record[Key='CrowbarToFlip']
 msgctxt "Interface.CrowbarToFlip"
@@ -4329,15 +4335,15 @@ msgctxt "Interface.TraderOre"
 msgid "MineRite"
 msgstr ""
 
+#: /Language/Interface/Record[Key='TraderHydraulic']
+msgctxt "Interface.TraderHydraulic"
+msgid "HyrdauliKit"
+msgstr ""
+
 #: /Language/Interface/Record[Key='WorldPresetLabel']
 msgctxt "Interface.WorldPresetLabel"
 msgid "Preset"
 msgstr "Ön Ayar"
-
-#: /Language/Interface/Record[Key='TraderBasic']
-msgctxt "Interface.TraderBasic"
-msgid "Spes'mall"
-msgstr ""
 
 #: /Language/Interface/Record[Key='TraderOrganics']
 msgctxt "Interface.TraderOrganics"
@@ -5637,10 +5643,10 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Açıklama"
 
-#: /Language/Interface/Record[Key='AlertBlankSaveName']
-msgctxt "Interface.AlertBlankSaveName"
-msgid "You must enter a world name to save."
-msgstr "Kaydetmek için bir dünya ismi girmeniz gerekir."
+#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
+msgctxt "Interface.AlertTitlePleaseWait"
+msgid "Please Wait..."
+msgstr "Lütfen Bekleyin..."
 
 #~ msgctxt "Interface.LogicTypeColor"
 #~ msgid "The color setting for the device, represented as an integer"
