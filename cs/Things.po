@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemDirtCannister']
-msgctxt "Things.ItemDirtCannister"
-msgid "Dirt Cannister"
-msgstr "Kanystr na horninu"
+#: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
+msgctxt "Things.StructureModularRocketCargo01"
+msgid "Modular Rocket Cargo"
+msgstr "Raketový nákladový modul"
+
+#: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
+msgctxt "Things.ItemPumpkinSoup"
+msgid "Pumpkin Soup"
+msgstr "Dýňová polévka"
+
+#: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
+msgctxt "Things.ItemPumpkinSoup"
+msgid "Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
+msgstr "Vyrobeno z {THING:ItemPumpkin} a {THING:ItemEmptyCan} v {THING:ApplianceMicrowave}."
 
 #: /Language/Things/RecordThing[Key='ItemCornSoup']
 msgctxt "Things.ItemCornSoup"
@@ -109,10 +119,10 @@ msgctxt "Things.StructureSolarPanelDualReinforced"
 msgid "This solar panel is resistant to storm damage."
 msgstr "Tento solární panel je odolný vůči poškození bouří."
 
-#: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
-msgctxt "Things.ItemPumpkinSoup"
-msgid "Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
-msgstr "Vyrobeno z {THING:ItemPumpkin} a {THING:ItemEmptyCan} v {THING:ApplianceMicrowave}."
+#: /Language/Things/RecordThing[Key='StructureSolarPanelFlatReinforced']
+msgctxt "Things.StructureSolarPanelFlatReinforced"
+msgid "Solar Panel (Heavy Flat)"
+msgstr "Solární panel základní masivní (plochý)"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelFlatReinforced']
 msgctxt "Things.StructureSolarPanelFlatReinforced"
@@ -139,10 +149,10 @@ msgctxt "Things.ItemAstroloySheets"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemMiningBeltAdvanced']
-msgctxt "Things.ItemMiningBeltAdvanced"
-msgid "Mining Belt (Advanced)"
-msgstr "Hornický opasek (pokročilý)"
+#: /Language/Things/RecordThing[Key='ItemEmptyCan']
+msgctxt "Things.ItemEmptyCan"
+msgid "Used for making soups when combined with food in the {THING:ApplianceMicrowave}."
+msgstr "Používá se k výrobě polévek v kombinaci s jídlem v {THING:ApplianceMicrowave}."
 
 #: /Language/Things/RecordThing[Key='ItemMiningBeltAdvanced']
 msgctxt "Things.ItemMiningBeltAdvanced"
@@ -924,7 +934,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.StructureModularRocketScrapMining"
 msgid "Modular Rocket Mining Scrap"
-msgstr "Raketový motorový modul"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketScrapMining']
 #, fuzzy
@@ -944,15 +954,89 @@ msgctxt "Things.ItemKitModularRocketScrapMining"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
-msgctxt "Things.ItemPumpkinSoup"
-msgid "Pumpkin Soup"
-msgstr "Dýňová polévka"
+#: /Language/Things/RecordThing[Key='ItemWaterPipeMeter']
+#, fuzzy
+msgctxt "Things.ItemWaterPipeMeter"
+msgid "Kit (Liquid Pipe Meter)"
+msgstr "Potrubí na kapaliny (sada)"
 
-#: /Language/Things/RecordThing[Key='ItemEmptyCan']
-msgctxt "Things.ItemEmptyCan"
-msgid "Used for making soups when combined with food in the {THING:ApplianceMicrowave}."
-msgstr "Používá se k výrobě polévek v kombinaci s jídlem v {THING:ApplianceMicrowave}."
+#: /Language/Things/RecordThing[Key='ItemWaterPipeMeter']
+#, fuzzy
+msgctxt "Things.ItemWaterPipeMeter"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
+#, fuzzy
+msgctxt "Things.StructureWaterPipeMeter"
+msgid "Liquid Pipe Meter"
+msgstr "Rohové potrubí na kapaliny"
+
+#: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
+#, fuzzy
+msgctxt "Things.StructureWaterPipeMeter"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemWaterPipeDigitalValve']
+#, fuzzy
+msgctxt "Things.ItemWaterPipeDigitalValve"
+msgid "Kit (Liquid Digital Valve)"
+msgstr "Digitální ventil (sada)"
+
+#: /Language/Things/RecordThing[Key='ItemWaterPipeDigitalValve']
+#, fuzzy
+msgctxt "Things.ItemWaterPipeDigitalValve"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureWaterDigitalValve']
+#, fuzzy
+msgctxt "Things.StructureWaterDigitalValve"
+msgid "Liquid Digital Valve"
+msgstr "Digitální ventil"
+
+#: /Language/Things/RecordThing[Key='StructureWaterDigitalValve']
+#, fuzzy
+msgctxt "Things.StructureWaterDigitalValve"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemWaterWallCooler']
+#, fuzzy
+msgctxt "Things.ItemWaterWallCooler"
+msgid "Kit (Liquid Wall Cooler)"
+msgstr "Nástěnný chladič (sada)"
+
+#: /Language/Things/RecordThing[Key='ItemWaterWallCooler']
+#, fuzzy
+msgctxt "Things.ItemWaterWallCooler"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureWaterWallCooler']
+#, fuzzy
+msgctxt "Things.StructureWaterWallCooler"
+msgid "Liquid Wall Cooler"
+msgstr "Nástěnný chladič"
+
+#: /Language/Things/RecordThing[Key='StructureWaterWallCooler']
+#, fuzzy
+msgctxt "Things.StructureWaterWallCooler"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureWaterBottleFillerBottom']
+#, fuzzy
+msgctxt "Things.StructureWaterBottleFillerBottom"
+msgid "Water Bottle Filler Bottom"
+msgstr "Plnička lahví na vodu"
+
+#: /Language/Things/RecordThing[Key='StructureWaterBottleFillerBottom']
+#, fuzzy
+msgctxt "Things.StructureWaterBottleFillerBottom"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemEmptyCan']
 msgctxt "Things.ItemEmptyCan"
@@ -2369,6 +2453,11 @@ msgctxt "Things.StructureBatteryLarge"
 msgid "Battery Large"
 msgstr "Velká baterie"
 
+#: /Language/Things/RecordThing[Key='ItemMiningBeltAdvanced']
+msgctxt "Things.ItemMiningBeltAdvanced"
+msgid "Mining Belt (Advanced)"
+msgstr "Hornický opasek (pokročilý)"
+
 #: /Language/Things/RecordThing[Key='StructureAirlockGate']
 msgctxt "Things.StructureAirlockGate"
 msgid "Description coming."
@@ -2388,11 +2477,6 @@ msgstr ""
 msgctxt "Things.ItemKitAirlockGate"
 msgid "Item Kit Airlock Gate"
 msgstr "Přechodová vrata (sada)"
-
-#: /Language/Things/RecordThing[Key='StructureSolarPanelFlatReinforced']
-msgctxt "Things.StructureSolarPanelFlatReinforced"
-msgid "Solar Panel (Heavy Flat)"
-msgstr "Solární panel základní masivní (plochý)"
 
 #: /Language/Things/RecordThing[Key='StructureEmergencyButton']
 msgctxt "Things.StructureEmergencyButton"
@@ -3078,11 +3162,6 @@ msgctxt "Things.StructureModularRocketCargo01"
 msgid "The cargo module has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total. This cargo will be released in orbit and descend the surface of your destination. Unless that happens to be the asteroid belt, in which case it will be left floating serenely in the void."
 msgstr "Raketový nákladový modul"
 
-#: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
-msgctxt "Things.StructureModularRocketCargo01"
-msgid "Modular Rocket Cargo"
-msgstr "Raketový nákladový modul"
-
 #: /Language/Things/RecordThing[Key='StructureLaunchPad']
 msgctxt "Things.StructureLaunchPad"
 msgid "Modular Rocket Launch Pad"
@@ -3096,6 +3175,11 @@ msgstr "Terénní manipulátor"
 #: /Language/Things/RecordThing[Key='ItemDirtCanister']
 msgctxt "Things.ItemDirtCanister"
 msgid "Dirt Canister"
+msgstr "Kanystr na horninu"
+
+#: /Language/Things/RecordThing[Key='ItemDirtCannister']
+msgctxt "Things.ItemDirtCannister"
+msgid "Dirt Cannister"
 msgstr "Kanystr na horninu"
 
 #: /Language/Things/RecordThing[Key='ItemKitAutoMinerSmall']
@@ -4054,6 +4138,11 @@ msgstr "Konec žebříku"
 msgctxt "Things.StructurePlatformLadderOpen"
 msgid "Ladder Platform"
 msgstr "Žebříková plošina"
+
+#: /Language/Things/RecordThing[Key='ReagentFenoxitone']
+msgctxt "Things.ReagentFenoxitone"
+msgid "Effectively deprecated. Use {THING:ItemFern} directly."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ReagentFenoxitone']
 msgctxt "Things.ReagentFenoxitone"
@@ -5333,6 +5422,11 @@ msgstr "Tiskárna elektroniky"
 msgctxt "Things.ItemCerealBar"
 msgid "Cereal Bar"
 msgstr "Cereální tyčinka"
+
+#: /Language/Things/RecordThing[Key='ItemFern']
+msgctxt "Things.ItemFern"
+msgid "There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use ferns directly in recipes."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemFern']
 msgctxt "Things.ItemFern"
@@ -6942,9 +7036,10 @@ msgid "Wire Cutters"
 msgstr "Kleště"
 
 #: /Language/Things/RecordThing[Key='ItemWheat']
+#, fuzzy
 msgctxt "Things.ItemWheat"
-msgid "A classical symbol of growth and new life, wheat is grown in various <color=#0080FFFF>{LINK:OrganicPage;hydroponics}</color> devices. Once harvested, it can be turned into a <color=#0080FFFF>{LINK:ReagentPage;reagent}</color> using the {THING:ApplianceReagentProcessor}, then turned into sustenance such as a {THING:ItemCerealBar} using the {THING:ApplianceMicrowave}."
-msgstr "Klasický symbol růstu a nového života, pšenice se pěstuje v různých <color=#0080FFFF>{LINK:OrganicPage;hydroponických}</color> zařízeních. Jakmile je sklizena, může být přeměněna na <color=#0080FFFF>{LINK:ReagentPage;činidla}</color> pomocí {THING:ApplianceReagentProcessor} a dále pak pomocí {THING:ApplianceMicrowave} změnit na výživu, jako je {THING:ItemCerealBar}."
+msgid "A classical symbol of growth and new life, wheat is grown in various <color=#0080FFFF>{LINK:OrganicPage;hydroponics}</color> devices. Once harvested, it produces two wheat, and can be turned into a <color=#0080FFFF>{LINK:ReagentPage;flour}</color> using the {THING:ApplianceReagentProcessor}, thence transmuted into sustenance like a {THING:ItemCerealBar} or {THING:ItemMuffin} using the {THING:ApplianceMicrowave}."
+msgstr "Pšenice"
 
 #: /Language/Things/RecordThing[Key='ItemWheat']
 msgctxt "Things.ItemWheat"
@@ -7535,9 +7630,10 @@ msgid "Kit (Passive Vent)"
 msgstr "Pasivní ventilace (sada)"
 
 #: /Language/Things/RecordThing[Key='ItemMuffin']
+#, fuzzy
 msgctxt "Things.ItemMuffin"
-msgid "A delicious, semi-healthful snack, nothing comforts a <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> 800 million kilometers from home like a hand-made muffin.  "
-msgstr "Lahodné, polozdravé občerstvení, nic neuspokojí <color=#0080FFFF>{LINK:Stationeers;Stationeera}</color> 800 milionů kilometrů od domova jako ručně vyrobený muffin.  "
+msgid "A delicious, semi-healthful snack, nothing comforts a <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> 800 million kilometers from home like a hand-made muffin."
+msgstr "Muffin"
 
 #: /Language/Things/RecordThing[Key='ItemMuffin']
 msgctxt "Things.ItemMuffin"
@@ -7565,9 +7661,10 @@ msgid "Mining Belt"
 msgstr "Hornický opasek"
 
 #: /Language/Things/RecordThing[Key='ItemMilk']
+#, fuzzy
 msgctxt "Things.ItemMilk"
-msgid "Full disclosure, it's not actually 'milk', but an <color=#0080FFFF>{LINK:Agrizero;Agrizero-invented}</color> synthesis of {THING:ItemSoyOil} and {THING:ReagentFenoxitone}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other <color=#0080FFFF>{LINK:FoodPage;food}</color> in the {THING:ApplianceMicrowave}."
-msgstr "Úplné zveřejnění, ve skutečnosti to není 'mléko', ale syntéza {THING:ItemSoyOil} a {THING:ReagentFenoxitone} vyvinutá společností <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color>, jemně smíchaná v {THING:ApplianceChemistryStation}. Je překvapivě sytá a lze ji použít jako přísadu k vaření jiného <color=#0080FFFF>{LINK:FoodPage;jídla}</color> v {THING:ApplianceMicrowave}."
+msgid "Full disclosure, it's not actually 'milk', but an <color=#0080FFFF>{LINK:Agrizero;Agrizero-invented}</color> synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other <color=#0080FFFF>{LINK:FoodPage;food}</color> in the {THING:ApplianceMicrowave}. Think, {THING:ItemMuffin}."
+msgstr "Mléko"
 
 #: /Language/Things/RecordThing[Key='ItemMilk']
 msgctxt "Things.ItemMilk"
@@ -7850,15 +7947,15 @@ msgctxt "Things.ItemKitAirlock"
 msgid "This kit produces a single {THING:StructureAirlock} portal."
 msgstr "Tato sada vytváří jediný portál {THING:StructureAirlock}."
 
-#: /Language/Things/RecordThing[Key='ItemKitAirlock']
-msgctxt "Things.ItemKitAirlock"
-msgid "Kit (Airlock)"
-msgstr "Přechodová komora (sada)"
-
 #: /Language/Things/RecordThing[Key='ItemIronOre']
 msgctxt "Things.ItemIronOre"
 msgid "Abundant throughout the Solar System, iron is the ore most commonly used by <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> constructing offworld bases. It can be smelted into both {THING:ItemIronIngot}s and {THING:ItemSteelIngot}s."
 msgstr "Železo je hojné v celé sluneční soustavě a je to ruda, kterou <color=#0080FFFF>{LINK:Stationeers;Stationeerové}</color> nejčastěji používají při stavbě základen mimo svět. Lze jej roztavit jak do {THING:ItemIronIngot}, tak do {THING:ItemSteelIngot}."
+
+#: /Language/Things/RecordThing[Key='ItemIronOre']
+msgctxt "Things.ItemIronOre"
+msgid "Ore (Iron)"
+msgstr "Železo (ruda)"
 
 #: /Language/Things/RecordThing[Key='ItemIronIngot']
 msgctxt "Things.ItemIronIngot"
@@ -8236,13 +8333,13 @@ msgid "Egg Bottom"
 msgstr "Spodek vejce"
 
 #: /Language/Things/RecordThing[Key='ItemEgg']
+#, fuzzy
 msgctxt "Things.ItemEgg"
 msgid ""
-"Resolving, finally, the question of which came first: it was the egg.\n"
-"If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChick} will emerge. For the rest, there is the {THING:ApplianceMicrowave}."
-msgstr ""
-"Nakonec se vyřešila otázka, která byla na prvním místě: bylo to vejce.\n"
-"Pokud bylo vajíčko oplodněno a je udržováno mezi 20 ° C - 30 ° C, objeví se {THING:EntityChick}. Zbytek je {THING:ApplianceMicrowave}."
+"Resolving, finally, the question of which came first: it was the egg. \n"
+"Eggs are deposited every 60-90 seconds by your average chicken.\n"
+"If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChick} will emerge. For the rest, there is the {THING:ApplianceMicrowave} and all manner of <color=#0080FFFF>{LINK:FoodPage;gustatory}</color> consolations."
+msgstr "Vejce"
 
 #: /Language/Things/RecordThing[Key='ItemEgg']
 msgctxt "Things.ItemEgg"
@@ -9458,10 +9555,10 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrovlnná trouba"
 
-#: /Language/Things/RecordThing[Key='ItemIronOre']
-msgctxt "Things.ItemIronOre"
-msgid "Ore (Iron)"
-msgstr "Železo (ruda)"
+#: /Language/Things/RecordThing[Key='ItemKitAirlock']
+msgctxt "Things.ItemKitAirlock"
+msgid "Kit (Airlock)"
+msgstr "Přechodová komora (sada)"
 
 #, fuzzy
 #~ msgctxt "Things.StructureRocketModuleMiningIce"

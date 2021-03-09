@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemDirtCannister']
-msgctxt "Things.ItemDirtCannister"
-msgid "Dirt Cannister"
-msgstr "Recipiente de basura"
+#: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
+msgctxt "Things.StructureModularRocketCargo01"
+msgid "Modular Rocket Cargo"
+msgstr "Carga de cohete modular"
+
+#: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
+msgctxt "Things.ItemPumpkinSoup"
+msgid "Pumpkin Soup"
+msgstr "Sopa de Calabaza"
+
+#: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
+msgctxt "Things.ItemPumpkinSoup"
+msgid "Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
+msgstr "Realizado con {THING:ItemPumpkin} y una {THING:ItemEmptyCan} en una {THING:ApplianceMicrowave}."
 
 #: /Language/Things/RecordThing[Key='ItemCornSoup']
 msgctxt "Things.ItemCornSoup"
@@ -109,10 +119,10 @@ msgctxt "Things.StructureSolarPanelDualReinforced"
 msgid "This solar panel is resistant to storm damage."
 msgstr "Este panel solar es resistente a los daños de las tormentas."
 
-#: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
-msgctxt "Things.ItemPumpkinSoup"
-msgid "Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}."
-msgstr "Realizado con {THING:ItemPumpkin} y una {THING:ItemEmptyCan} en una {THING:ApplianceMicrowave}."
+#: /Language/Things/RecordThing[Key='StructureSolarPanelFlatReinforced']
+msgctxt "Things.StructureSolarPanelFlatReinforced"
+msgid "Solar Panel (Heavy Flat)"
+msgstr "Panel solar (reforzado plano)"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelFlatReinforced']
 msgctxt "Things.StructureSolarPanelFlatReinforced"
@@ -139,10 +149,10 @@ msgctxt "Things.ItemAstroloySheets"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemMiningBeltAdvanced']
-msgctxt "Things.ItemMiningBeltAdvanced"
-msgid "Mining Belt (Advanced)"
-msgstr "Cinturón minero (Avanzado)"
+#: /Language/Things/RecordThing[Key='ItemEmptyCan']
+msgctxt "Things.ItemEmptyCan"
+msgid "Used for making soups when combined with food in the {THING:ApplianceMicrowave}."
+msgstr "Se utiliza para hacer sopas cuando se combina con alimentos en el {THING:ApplianceMicrowave}."
 
 #: /Language/Things/RecordThing[Key='ItemMiningBeltAdvanced']
 msgctxt "Things.ItemMiningBeltAdvanced"
@@ -877,7 +887,7 @@ msgstr "SIN TRADUCIR"
 #, fuzzy
 msgctxt "Things.StructureModularRocketIceMining"
 msgid "Rocket Modular Mining Ice"
-msgstr "Módulo Mineria de Hielo del cohete"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketIceMining']
 #, fuzzy
@@ -889,7 +899,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemKitModularRocketIceMining"
 msgid "Kit (Modular Rocket Mining Ice)"
-msgstr "Kit (Módulo Minería de minerales del cohete)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketIceMining']
 #, fuzzy
@@ -901,7 +911,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.StructureModularRocketScrapMining"
 msgid "Modular Rocket Mining Scrap"
-msgstr "Motor del cohete modular"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketScrapMining']
 #, fuzzy
@@ -913,7 +923,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.ItemKitModularRocketScrapMining"
 msgid "Kit (Modular Rocket Mining Scrap)"
-msgstr "Kit (Módulo Minería de minerales del cohete)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketScrapMining']
 #, fuzzy
@@ -921,15 +931,89 @@ msgctxt "Things.ItemKitModularRocketScrapMining"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
-msgctxt "Things.ItemPumpkinSoup"
-msgid "Pumpkin Soup"
-msgstr "Sopa de Calabaza"
+#: /Language/Things/RecordThing[Key='ItemWaterPipeMeter']
+#, fuzzy
+msgctxt "Things.ItemWaterPipeMeter"
+msgid "Kit (Liquid Pipe Meter)"
+msgstr "Kit (Tubo de Líquidos)"
 
-#: /Language/Things/RecordThing[Key='ItemEmptyCan']
-msgctxt "Things.ItemEmptyCan"
-msgid "Used for making soups when combined with food in the {THING:ApplianceMicrowave}."
-msgstr "Se utiliza para hacer sopas cuando se combina con alimentos en el {THING:ApplianceMicrowave}."
+#: /Language/Things/RecordThing[Key='ItemWaterPipeMeter']
+#, fuzzy
+msgctxt "Things.ItemWaterPipeMeter"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
+#, fuzzy
+msgctxt "Things.StructureWaterPipeMeter"
+msgid "Liquid Pipe Meter"
+msgstr "Rincón de la tubería de líquidos"
+
+#: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
+#, fuzzy
+msgctxt "Things.StructureWaterPipeMeter"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemWaterPipeDigitalValve']
+#, fuzzy
+msgctxt "Things.ItemWaterPipeDigitalValve"
+msgid "Kit (Liquid Digital Valve)"
+msgstr "Válvula Digital de Tubería"
+
+#: /Language/Things/RecordThing[Key='ItemWaterPipeDigitalValve']
+#, fuzzy
+msgctxt "Things.ItemWaterPipeDigitalValve"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureWaterDigitalValve']
+#, fuzzy
+msgctxt "Things.StructureWaterDigitalValve"
+msgid "Liquid Digital Valve"
+msgstr "Válvula Digital"
+
+#: /Language/Things/RecordThing[Key='StructureWaterDigitalValve']
+#, fuzzy
+msgctxt "Things.StructureWaterDigitalValve"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemWaterWallCooler']
+#, fuzzy
+msgctxt "Things.ItemWaterWallCooler"
+msgid "Kit (Liquid Wall Cooler)"
+msgstr "Enfriador de Pared"
+
+#: /Language/Things/RecordThing[Key='ItemWaterWallCooler']
+#, fuzzy
+msgctxt "Things.ItemWaterWallCooler"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureWaterWallCooler']
+#, fuzzy
+msgctxt "Things.StructureWaterWallCooler"
+msgid "Liquid Wall Cooler"
+msgstr "Enfriador de Pared"
+
+#: /Language/Things/RecordThing[Key='StructureWaterWallCooler']
+#, fuzzy
+msgctxt "Things.StructureWaterWallCooler"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureWaterBottleFillerBottom']
+#, fuzzy
+msgctxt "Things.StructureWaterBottleFillerBottom"
+msgid "Water Bottle Filler Bottom"
+msgstr "Rellenar botella de agua"
+
+#: /Language/Things/RecordThing[Key='StructureWaterBottleFillerBottom']
+#, fuzzy
+msgctxt "Things.StructureWaterBottleFillerBottom"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemEmptyCan']
 msgctxt "Things.ItemEmptyCan"
@@ -2348,6 +2432,11 @@ msgctxt "Things.StructureBatteryLarge"
 msgid "Battery Large"
 msgstr "Batería (Grande)"
 
+#: /Language/Things/RecordThing[Key='ItemMiningBeltAdvanced']
+msgctxt "Things.ItemMiningBeltAdvanced"
+msgid "Mining Belt (Advanced)"
+msgstr "Cinturón minero (Avanzado)"
+
 #: /Language/Things/RecordThing[Key='StructureAirlockGate']
 msgctxt "Things.StructureAirlockGate"
 msgid "Description coming."
@@ -2367,11 +2456,6 @@ msgstr "A TRADUCIR PROXIMAMENTE"
 msgctxt "Things.ItemKitAirlockGate"
 msgid "Item Kit Airlock Gate"
 msgstr "Kit Puerta de esclusa de aire"
-
-#: /Language/Things/RecordThing[Key='StructureSolarPanelFlatReinforced']
-msgctxt "Things.StructureSolarPanelFlatReinforced"
-msgid "Solar Panel (Heavy Flat)"
-msgstr "Panel solar (reforzado plano)"
 
 #: /Language/Things/RecordThing[Key='StructureEmergencyButton']
 msgctxt "Things.StructureEmergencyButton"
@@ -3067,11 +3151,6 @@ msgctxt "Things.StructureModularRocketCargo01"
 msgid "The cargo module has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total. This cargo will be released in orbit and descend the surface of your destination. Unless that happens to be the asteroid belt, in which case it will be left floating serenely in the void."
 msgstr "El módulo de carga tiene capacidad para dos cajas de diez ranuras. Puede tener varios módulos de carga en su cohete. El cohete puede levantar hasta siete módulos en total. Esta carga será liberada en órbita y descenderá por la superficie de su destino. A menos que sea el cinturón de asteroides, en cuyo caso quedará flotando serenamente en el vacío."
 
-#: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
-msgctxt "Things.StructureModularRocketCargo01"
-msgid "Modular Rocket Cargo"
-msgstr "Carga de cohete modular"
-
 #: /Language/Things/RecordThing[Key='StructureLaunchPad']
 msgctxt "Things.StructureLaunchPad"
 msgid "Modular Rocket Launch Pad"
@@ -3085,6 +3164,11 @@ msgstr "Manipulador de terreno"
 #: /Language/Things/RecordThing[Key='ItemDirtCanister']
 msgctxt "Things.ItemDirtCanister"
 msgid "Dirt Canister"
+msgstr "Recipiente de basura"
+
+#: /Language/Things/RecordThing[Key='ItemDirtCannister']
+msgctxt "Things.ItemDirtCannister"
+msgid "Dirt Cannister"
 msgstr "Recipiente de basura"
 
 #: /Language/Things/RecordThing[Key='ItemKitAutoMinerSmall']
@@ -4036,6 +4120,11 @@ msgstr "Fin de Escalera"
 msgctxt "Things.StructurePlatformLadderOpen"
 msgid "Ladder Platform"
 msgstr "Plataforma de la Escalera"
+
+#: /Language/Things/RecordThing[Key='ReagentFenoxitone']
+msgctxt "Things.ReagentFenoxitone"
+msgid "Effectively deprecated. Use {THING:ItemFern} directly."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ReagentFenoxitone']
 msgctxt "Things.ReagentFenoxitone"
@@ -5315,6 +5404,11 @@ msgstr "Impresora Electrónica"
 msgctxt "Things.ItemCerealBar"
 msgid "Cereal Bar"
 msgstr "Barra de Cereal"
+
+#: /Language/Things/RecordThing[Key='ItemFern']
+msgctxt "Things.ItemFern"
+msgid "There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use ferns directly in recipes."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemFern']
 msgctxt "Things.ItemFern"
@@ -6911,9 +7005,10 @@ msgid "Wire Cutters"
 msgstr "Alicates"
 
 #: /Language/Things/RecordThing[Key='ItemWheat']
+#, fuzzy
 msgctxt "Things.ItemWheat"
-msgid "A classical symbol of growth and new life, wheat is grown in various <color=#0080FFFF>{LINK:OrganicPage;hydroponics}</color> devices. Once harvested, it can be turned into a <color=#0080FFFF>{LINK:ReagentPage;reagent}</color> using the {THING:ApplianceReagentProcessor}, then turned into sustenance such as a {THING:ItemCerealBar} using the {THING:ApplianceMicrowave}."
-msgstr "Un símbolo clásico de crecimiento y nueva vida, el trigo se cultiva en varios dispositivos <color=#0080FFFF>{LINK:OrganicPage;hydroponics}</color>. Una vez cosechado, se puede convertir en un <color=#0080FFFF>{LINK:ReagentPage;reagent}</color> usando el {THING:ApplianceReagentProcessor}, luego se puede convertir en sustento como un {THING:ItemCerealBar} usando el {THING:ApplianceMicrowave}."
+msgid "A classical symbol of growth and new life, wheat is grown in various <color=#0080FFFF>{LINK:OrganicPage;hydroponics}</color> devices. Once harvested, it produces two wheat, and can be turned into a <color=#0080FFFF>{LINK:ReagentPage;flour}</color> using the {THING:ApplianceReagentProcessor}, thence transmuted into sustenance like a {THING:ItemCerealBar} or {THING:ItemMuffin} using the {THING:ApplianceMicrowave}."
+msgstr "Trigo"
 
 #: /Language/Things/RecordThing[Key='ItemWheat']
 msgctxt "Things.ItemWheat"
@@ -7503,9 +7598,10 @@ msgid "Kit (Passive Vent)"
 msgstr "Ventilación Pasiva"
 
 #: /Language/Things/RecordThing[Key='ItemMuffin']
+#, fuzzy
 msgctxt "Things.ItemMuffin"
-msgid "A delicious, semi-healthful snack, nothing comforts a <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> 800 million kilometers from home like a hand-made muffin.  "
-msgstr "Un refrigerio delicioso y semi-saludable, nada reconforta a un <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> a 800 millones de kilómetros de casa como un muffin hecho a mano."
+msgid "A delicious, semi-healthful snack, nothing comforts a <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> 800 million kilometers from home like a hand-made muffin."
+msgstr "Muffin"
 
 #: /Language/Things/RecordThing[Key='ItemMuffin']
 msgctxt "Things.ItemMuffin"
@@ -7533,9 +7629,10 @@ msgid "Mining Belt"
 msgstr "Cinturón Minero"
 
 #: /Language/Things/RecordThing[Key='ItemMilk']
+#, fuzzy
 msgctxt "Things.ItemMilk"
-msgid "Full disclosure, it's not actually 'milk', but an <color=#0080FFFF>{LINK:Agrizero;Agrizero-invented}</color> synthesis of {THING:ItemSoyOil} and {THING:ReagentFenoxitone}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other <color=#0080FFFF>{LINK:FoodPage;food}</color> in the {THING:ApplianceMicrowave}."
-msgstr "Revelación completa, no es en realidad 'leche', sino una síntesis <color=#0080FFFF>{LINK:Agrizero;Agrizero-invented}</color> de {THING:ItemSoyOil} y {THING:ReagentFenoxitone}, delicadamente mezclada en el {THING:ApplianceChemistryStation}. Sorprendentemente abundante, se puede utilizar como ingrediente para cocinar otros <color=#0080FFFF>{LINK:FoodPage;food}</color> en {THING:ApplianceMicrowave}."
+msgid "Full disclosure, it's not actually 'milk', but an <color=#0080FFFF>{LINK:Agrizero;Agrizero-invented}</color> synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other <color=#0080FFFF>{LINK:FoodPage;food}</color> in the {THING:ApplianceMicrowave}. Think, {THING:ItemMuffin}."
+msgstr "Leche"
 
 #: /Language/Things/RecordThing[Key='ItemMilk']
 msgctxt "Things.ItemMilk"
@@ -7817,15 +7914,15 @@ msgctxt "Things.ItemKitAirlock"
 msgid "This kit produces a single {THING:StructureAirlock} portal."
 msgstr "Este kit produce un único portal de {THING:StructureAirlock}."
 
-#: /Language/Things/RecordThing[Key='ItemKitAirlock']
-msgctxt "Things.ItemKitAirlock"
-msgid "Kit (Airlock)"
-msgstr "Kit (Esclusa)"
-
 #: /Language/Things/RecordThing[Key='ItemIronOre']
 msgctxt "Things.ItemIronOre"
 msgid "Abundant throughout the Solar System, iron is the ore most commonly used by <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> constructing offworld bases. It can be smelted into both {THING:ItemIronIngot}s and {THING:ItemSteelIngot}s."
 msgstr "Abundante en todo el Sistema Solar, el hierro es el mineral más utilizado por <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> que construyen bases fuera del mundo. Se puede fundir en {THING:ItemIronIngot} y {THING:ItemSteelIngot}."
+
+#: /Language/Things/RecordThing[Key='ItemIronOre']
+msgctxt "Things.ItemIronOre"
+msgid "Ore (Iron)"
+msgstr "Mineral (Hierro)"
 
 #: /Language/Things/RecordThing[Key='ItemIronIngot']
 msgctxt "Things.ItemIronIngot"
@@ -8209,13 +8306,13 @@ msgid "Egg Bottom"
 msgstr "Parte inferior del huevo"
 
 #: /Language/Things/RecordThing[Key='ItemEgg']
+#, fuzzy
 msgctxt "Things.ItemEgg"
 msgid ""
-"Resolving, finally, the question of which came first: it was the egg.\n"
-"If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChick} will emerge. For the rest, there is the {THING:ApplianceMicrowave}."
-msgstr ""
-"Resolviendo, finalmente, la cuestión de qué vino primero: era el huevo.\n"
-"Si un óvulo ha sido fertilizado y se mantiene entre 20 ° C y 30 ° C, emergerá un {THING:EntityChick}. Para el resto, está la {THING:ApplianceMicrowave}."
+"Resolving, finally, the question of which came first: it was the egg. \n"
+"Eggs are deposited every 60-90 seconds by your average chicken.\n"
+"If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChick} will emerge. For the rest, there is the {THING:ApplianceMicrowave} and all manner of <color=#0080FFFF>{LINK:FoodPage;gustatory}</color> consolations."
+msgstr "Huevo"
 
 #: /Language/Things/RecordThing[Key='ItemEgg']
 msgctxt "Things.ItemEgg"
@@ -9416,10 +9513,10 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Microondas"
 
-#: /Language/Things/RecordThing[Key='ItemIronOre']
-msgctxt "Things.ItemIronOre"
-msgid "Ore (Iron)"
-msgstr "Mineral (Hierro)"
+#: /Language/Things/RecordThing[Key='ItemKitAirlock']
+msgctxt "Things.ItemKitAirlock"
+msgid "Kit (Airlock)"
+msgstr "Kit (Esclusa)"
 
 #~ msgctxt "Things.StructureRocketModuleMiningIce"
 #~ msgid "{BLANK}"
