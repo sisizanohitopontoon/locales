@@ -11,7 +11,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureModularRocketCargo01"
 msgid "Modular Rocket Cargo"
-msgstr "로켓 엔진"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
 msgctxt "Things.ItemPumpkinSoup"
@@ -714,7 +714,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketLiquidTank']
 msgctxt "Things.StructureModularRocketLiquidTank"
-msgid "Modular Rocket Liquid Tank"
+msgid "Automated Rocket Liquid Storage Module"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketLiquidTank']
@@ -724,27 +724,29 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleSilo']
 msgctxt "Things.StructureRocketModuleSilo"
-msgid "Rocket Module Silo"
+msgid "Automated Rocket Silo Module"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleSilo']
 msgctxt "Things.StructureRocketModuleSilo"
-msgid "{BLANK}"
+msgid ""
+"The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autononmous silo module provides storage for <color=#0080FFFF>{LINK:OrePage;ores}</color> collected by the {THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices}</color> collected by the {THING:StructureModularRocketIceMining} and 'space junk' collected by the {THING:StructureRocketModuleMiningJunk}. It must be connected to the unit by a properly placed {THING:StructureMOdularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the mining unit into the silo. Each mining unit must have its own silo and coupling unit.\n"
+"      The silo module must also be powered when on the launch pad, and is on be default, but can be turned off with logic if needed. Connects to chute networks."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleBattery']
 msgctxt "Things.StructureRocketModuleBattery"
-msgid "Rocket Module Battery"
+msgid "Automated Rocket Storage Battery Module"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleBattery']
 msgctxt "Things.StructureRocketModuleBattery"
-msgid "{BLANK}"
+msgid "Stores power collected by the {THING:StructureRocketModuleEnergyGenerator}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleGasCollector']
 msgctxt "Things.StructureRocketModuleGasCollector"
-msgid "Rocket Module Gas Collector"
+msgid "Automated Rocket Gas Collection Module"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleGasCollector']
@@ -754,32 +756,36 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
 msgctxt "Things.StructureRocketModuleEnergyGenerator"
-msgid "Rocket Module Energy Generator"
+msgid "Automated Rocket Energy Generator"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
 msgctxt "Things.StructureRocketModuleEnergyGenerator"
-msgid "{BLANK}"
+msgid "Collects energy by electromagnetically capturing the solar wind. Stores it in the {THING:StructureRocketModuleBattery}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningJunk']
 msgctxt "Things.StructureRocketModuleMiningJunk"
-msgid "Rocket Module Mining Junk"
+msgid "Automated Rocket Salvage Unit"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningJunk']
 msgctxt "Things.StructureRocketModuleMiningJunk"
-msgid "{BLANK}"
+msgid ""
+"The so-called <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color>'space junk' collector module is really a high-end automated salvaging unit, purpose designed to interface with the <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autonomous rocket. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. \n"
+"The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
 msgctxt "Things.StructureRocketModuleMiningOre"
-msgid "Rocket Module Mining Ore"
+msgid "Automated Rocket Ore Mining Module"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
 msgctxt "Things.StructureRocketModuleMiningOre"
-msgid "{BLANK}"
+msgid ""
+"The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autonomous ore miner harvests metallic ores from asteroids and planets in the local region of space. Its range - and therefore how much ore it collects - is strictly determined by the rocket's fuel quantity.\n"
+"The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketAutonomous']
@@ -794,7 +800,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleCollectorLiquid']
 msgctxt "Things.StructureRocketModuleCollectorLiquid"
-msgid "Rocket Module Collector Liquid"
+msgid "Automated Rocket Liquid Harvesting Module"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleCollectorLiquid']
@@ -804,47 +810,49 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketAutomation']
 msgctxt "Things.StructureModularRocketAutomation"
-msgid "Rocket Modular Automation"
+msgid "Automated Rocket Automation Module"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketAutomation']
 msgctxt "Things.StructureModularRocketAutomation"
-msgid "{BLANK}"
+msgid "The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> rocket automation module is a programmable guidance system for a range of resource-collection applications. It must be placed on top of any automated rocket system, and powered, then programmed using <color=#0080FFFF>{LINK:LogicPage;IC logic}</color> systems."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCouplingDown']
 msgctxt "Things.StructureModularRocketCouplingDown"
-msgid "Rocket Modular Coupling Down"
+msgid "Automated Rocket Coupling Module (Down)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCouplingDown']
 msgctxt "Things.StructureModularRocketCouplingDown"
-msgid "{BLANK}"
+msgid "A uni-directional, multi-state conveyance solution, the coupling module is designed to interface between mining and storage modules. The 'down' unit passes mined or harvested material (solid, liquid or gas) from the collection module to its respective storage unit, when the unit is placed BELOW the collection unit. Without such a coupler, the collection module would rapidly fill up and stop harvesting."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCouplingUp']
 msgctxt "Things.StructureModularRocketCouplingUp"
-msgid "Rocket Modular Coupling Up"
+msgid "Automated Rocket Coupling Module (Up)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCouplingUp']
 msgctxt "Things.StructureModularRocketCouplingUp"
-msgid "{BLANK}"
+msgid "A uni-directional, multi-state conveyance solution, the coupling module is designed to interface between mining and storage modules. The 'up' unit passes mined or harvested material (solid, liquid or gas) from the collection module to its respective storage unit, when the unit is placed ABOVE the collector. Without such a coupler, the collection module would rapidly fill up and stop harvesting."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketOreStorage']
 msgctxt "Things.ItemKitModularRocketOreStorage"
-msgid "Kit (Modular Rocket Ore Storage)"
+msgid "Kit (Automated Rocket Ore Storage Module)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketOreStorage']
+#, fuzzy
 msgctxt "Things.ItemKitModularRocketOreStorage"
-msgid "{BLANK}"
+msgid "Creates a {THING:StructureRocketModuleSilo}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketCoupling']
+#, fuzzy
 msgctxt "Things.ItemKitModularRocketCoupling"
-msgid "Kit (Modular Rocket Coupling)"
+msgid "Kit (Automated Rocket Coupling Module)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketCoupling']
@@ -853,8 +861,9 @@ msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketAutomation']
+#, fuzzy
 msgctxt "Things.ItemKitModularRocketAutomation"
-msgid "Kit (Modular Rocket Automation)"
+msgid "Kit (Automated Rocket Automation Module)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketAutomation']
@@ -864,7 +873,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketOreMining']
 msgctxt "Things.ItemKitModularRocketOreMining"
-msgid "Kit (Modular Rocket Ore Mining)"
+msgid "Kit (Automated Rocket Ore Mining Module)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketOreMining']
@@ -874,18 +883,19 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketIceMining']
 msgctxt "Things.StructureModularRocketIceMining"
-msgid "Rocket Modular Mining Ice"
+msgid "Automated Rocket Ice Mining Module"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketIceMining']
 msgctxt "Things.StructureModularRocketIceMining"
-msgid "{BLANK}"
+msgid ""
+"The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autonomous ice miner is a purpose-built, robotic ice harvester, able to mine ice ores from asteroids and planets in the local region of space. Its range - and therefore how much ice ore it collects - is strictly determined by the rocket's fuel quantity.\n"
+"The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketIceMining']
-#, fuzzy
 msgctxt "Things.ItemKitModularRocketIceMining"
-msgid "Kit (Modular Rocket Mining Ice)"
+msgid "Kit (Automated Rocket Ice Mining Module)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketIceMining']
@@ -894,20 +904,20 @@ msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketScrapMining']
-#, fuzzy
 msgctxt "Things.StructureModularRocketScrapMining"
-msgid "Modular Rocket Mining Scrap"
+msgid "Automated Rocket Salvage Module"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketScrapMining']
 msgctxt "Things.StructureModularRocketScrapMining"
-msgid "{BLANK}"
+msgid ""
+"The so-called <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color>'space junk' collector module is really a high-end automated salvaging unit, purpose designed to interface with the <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autonomous rocket. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. \n"
+"The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketScrapMining']
-#, fuzzy
 msgctxt "Things.ItemKitModularRocketScrapMining"
-msgid "Kit (Modular Rocket Mining Scrap)"
+msgid "Kit (Automated Rocket Scrap Salvage Module)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketScrapMining']
@@ -919,7 +929,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemWaterPipeMeter"
 msgid "Kit (Liquid Pipe Meter)"
-msgstr "배관 밸브"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWaterPipeMeter']
 msgctxt "Things.ItemWaterPipeMeter"
@@ -930,7 +940,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureWaterPipeMeter"
 msgid "Liquid Pipe Meter"
-msgstr "배관 압력계"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
 msgctxt "Things.StructureWaterPipeMeter"
@@ -941,7 +951,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemWaterPipeDigitalValve"
 msgid "Kit (Liquid Digital Valve)"
-msgstr "배관 디지털 밸브"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWaterPipeDigitalValve']
 msgctxt "Things.ItemWaterPipeDigitalValve"
@@ -952,7 +962,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureWaterDigitalValve"
 msgid "Liquid Digital Valve"
-msgstr "디지털 밸브"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureWaterDigitalValve']
 msgctxt "Things.StructureWaterDigitalValve"
@@ -963,7 +973,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemWaterWallCooler"
 msgid "Kit (Liquid Wall Cooler)"
-msgstr "벽면 냉방기"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWaterWallCooler']
 msgctxt "Things.ItemWaterWallCooler"
@@ -974,7 +984,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureWaterWallCooler"
 msgid "Liquid Wall Cooler"
-msgstr "벽면 냉각기"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureWaterWallCooler']
 msgctxt "Things.StructureWaterWallCooler"
@@ -3074,7 +3084,7 @@ msgstr "로켓 엔진"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketEngine01']
 msgctxt "Things.StructureModularRocketEngine01"
-msgid "The modular rocket engine is capable of lifting up to seven modules, including itself."
+msgid "The modular rocket engine is capable of lifting up to seven modules, including itself. It must be fueled by at least one {THING:StructureModularRocketFueltank01}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketEngine01']
