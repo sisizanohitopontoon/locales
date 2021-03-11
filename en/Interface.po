@@ -251,10 +251,10 @@ msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Delete"
 
-#: /Language/Interface/Record[Key='ContactLandingRequestFailStorm']
-msgctxt "Interface.ContactLandingRequestFailStorm"
-msgid "Trader is unable to travel in this storm."
-msgstr "Trader is unable to travel in this storm."
+#: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
+msgctxt "Interface.ContactLandingRequestFailVendingMachine"
+msgid "You need a powered Vending Machine on the network to interact with this trader."
+msgstr "You need a powered Vending Machine on the network to interact with this trader."
 
 #: /Language/Interface/Record[Key='WorldInfoButtonPublish']
 msgctxt "Interface.WorldInfoButtonPublish"
@@ -536,6 +536,11 @@ msgctxt "Interface.WorkshopUploadProgress"
 msgid "Processing configuration data"
 msgstr "Processing configuration data"
 
+#: /Language/Interface/Record[Key='ButtonConfirmWarning']
+msgctxt "Interface.ButtonConfirmWarning"
+msgid "Warning"
+msgstr "Warning"
+
 #: /Language/Interface/Record[Key='GameMenuButtonExit']
 msgctxt "Interface.GameMenuButtonExit"
 msgid "Exit Game"
@@ -545,11 +550,6 @@ msgstr "Exit Game"
 msgctxt "Interface.SettingsMenuTitle"
 msgid "Settings"
 msgstr "Settings"
-
-#: /Language/Interface/Record[Key='SettingsMenuGameplay']
-msgctxt "Interface.SettingsMenuGameplay"
-msgid "Gameplay"
-msgstr "Gameplay"
 
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
@@ -1226,11 +1226,6 @@ msgctxt "Interface.PromptDeleteConfirm"
 msgid "Delete"
 msgstr "Delete"
 
-#: /Language/Interface/Record[Key='ButtonConfirmWarning']
-msgctxt "Interface.ButtonConfirmWarning"
-msgid "Warning"
-msgstr "Warning"
-
 #: /Language/Interface/Record[Key='PromptDebugLoadTitle']
 msgctxt "Interface.PromptDebugLoadTitle"
 msgid "Debug Load"
@@ -1250,6 +1245,11 @@ msgstr "Debug Load"
 msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "Respawn"
+
+#: /Language/Interface/Record[Key='SettingsMenuGameplay']
+msgctxt "Interface.SettingsMenuGameplay"
+msgid "Gameplay"
+msgstr "Gameplay"
 
 #: /Language/Interface/Record[Key='PromptRespawnBody']
 msgctxt "Interface.PromptRespawnBody"
@@ -4291,20 +4291,20 @@ msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
 msgstr "Trading Terminal"
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Preset"
+#: /Language/Interface/Record[Key='ContactLandingRequestFailStorm']
+msgctxt "Interface.ContactLandingRequestFailStorm"
+msgid "Trader is unable to travel in this storm."
+msgstr "Trader is unable to travel in this storm."
 
 #: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
 msgctxt "Interface.ContactLandingRequestFailSatellite"
 msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
 msgstr "There is an issue with your Satellite. Check it's connected to the network and powered."
 
-#: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
-msgctxt "Interface.ContactLandingRequestFailVendingMachine"
-msgid "You need a powered Vending Machine on the network to interact with this trader."
-msgstr "You need a powered Vending Machine on the network to interact with this trader."
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Preset"
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
 msgctxt "Interface.ContactTradeRequestFailInUse"
@@ -4410,6 +4410,31 @@ msgstr "Randomize"
 msgctxt "Interface.LogicSlotTypePrefabHash"
 msgid "returns the hash of the structure in the slot"
 msgstr "returns the hash of the structure in the slot"
+
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
+msgstr "When set to the unique identifier, re quests an item of the provided type from the device"
+
+#: /Language/Interface/Record[Key='CollectableGoods']
+msgctxt "Interface.CollectableGoods"
+msgid "Gets the collectable goods that the rocket network can collect."
+msgstr "Gets the collectable goods that the rocket network can collect."
+
+#: /Language/Interface/Record[Key='RocketMode']
+msgctxt "Interface.RocketMode"
+msgid "Gets the current RocketMode value."
+msgstr "Gets the current RocketMode value."
+
+#: /Language/Interface/Record[Key='FuelReturnCost']
+msgctxt "Interface.FuelReturnCost"
+msgid "Gets the cost of fuel to return."
+msgstr "Gets the cost of fuel to return."
+
+#: /Language/Interface/Record[Key='FuelInTankRemaining']
+msgctxt "Interface.FuelInTankRemaining"
+msgid "Gets the fuel remaining inside of your rocketfuel tank."
+msgstr "Gets the fuel remaining inside of your rocketfuel tank."
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMaxQuantity']
 msgctxt "Interface.LogicSlotTypeMaxQuantity"
@@ -4625,11 +4650,6 @@ msgstr "When set to 1, clears the counter memory (e.g. ExportCount). Will set it
 msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
 msgstr "How complete the current production is for this device, between 0 and 1"
-
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, re quests an item of the provided type from the device"
-msgstr "When set to the unique identifier, re quests an item of the provided type from the device"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
