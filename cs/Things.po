@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-12 18:05+0000\n"
+"PO-Revision-Date: 2021-03-12 18:17+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3142,7 +3142,6 @@ msgid "Modular Rocket Command"
 msgstr "Raketový velitelský modul"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
-#, fuzzy
 msgctxt "Things.StructureModularRocketCommand01"
 msgid ""
 "The command module must be placed on top of the rocket, and will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.\n"
@@ -3157,7 +3156,19 @@ msgid ""
 "\n"
 "The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.\n"
 "When landing, the rocket will deploy a lander, and any cargo contained in the {THING:StructureModularRocketCargo01} module."
-msgstr "Raketový velitelský modul"
+msgstr ""
+"Raketový velitelský modul musí být umístěn na vrcholu rakety. Posoudí připravenost rakety k letu. Jakmile jsou splněny všechny podmínky, může být raketa vypuštěna, když všichni hráči sedí v modulu stisknutím tlačítka \"Spuštění\" na konzoli.\n"
+"\n"
+"Pro spuštění musí být splněny následující podmínky:\n"
+"\n"
+"- Palivo plné;\n"
+"- Správný poměr palivové směsi - {GAS:Volatiles} a {GAS:Oxygen} 2 : 1;\n"
+"- Všichni hráči usazeni\n"
+"- Napájení {THING:StructureLaunchPad};\n"
+"- Plně postavená raketa\n"
+"\n"
+"Konzole {THING:StructureModularRocketCommand01} zobrazuje aktuální stav těchto podmínek. Nevyžaduje atmosféru pro zvednutí - atmosféra vašeho obleku je dostatečná.\n"
+"Při přistání nasadí raketa přistávací modul a veškerý náklad obsažený v modulu {THING:StructureModularRocketCargo01}."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
 msgctxt "Things.StructureModularRocketCommand01"
@@ -3654,7 +3665,6 @@ msgid "Portable Gas Tank (Pollutants)"
 msgstr "Přenosná nádrž na plyn (Znečišťující látky)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrousOxide']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterNitrousOxide"
 msgid "Portable Gas Tank (Nitrous Oxide)"
 msgstr "Přenosná nádrž na plyn (oxid dusný)"
@@ -3750,13 +3760,15 @@ msgid "Marine Armor"
 msgstr "Námořní vesta"
 
 #: /Language/Things/RecordThing[Key='MotherboardComms']
-#, fuzzy
 msgctxt "Things.MotherboardComms"
 msgid ""
 "When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} allows Stationeers to trade "
 "with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureSatelliteDish} either directly or through logic. You need a communications signal of 95% or above to establish "
 "reliable communications with a trader."
-msgstr "Komunikace"
+msgstr ""
+"Když je umístěna v {THING:StructureComputer} a připojena k {THING:StructureShuttleLandingPad}, {THING:StructureSatelliteDish} a {THING:StructureVendingMachine} umožňují Stationeerům obchodovat s "
+"dodavateli. Upravte horizontální a vertikální atributy {THING:StructureSatelliteDish} buď přímo, nebo pomocí logiky. K navázání spolehlivé komunikace s obchodníkem potřebujete komunikační signál 95%"
+" nebo vyšší."
 
 #: /Language/Things/RecordThing[Key='MotherboardComms']
 msgctxt "Things.MotherboardComms"
