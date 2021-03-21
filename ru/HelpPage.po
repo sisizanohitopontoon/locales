@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-17 20:16+0000\n"
+"PO-Revision-Date: 2021-03-17 20:17+0000\n"
 "Last-Translator: zorgkirill <gorocds@gmail.com>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -470,6 +470,23 @@ msgid ""
 "      {/LIST}\n"
 "      "
 msgstr ""
+"Погоди! Не закрывай меня! Следующие условия должны быть выполнены для запуска:\n"
+"\n"
+"- Полностью построенная ракета: как минимум 3 основных модуля\n"
+"- Полностью заправленный {THING:StructureModularRocketFueltank01}\n"
+"- Правильные пропорции смеси топлива - смесь 2:1 из {GAS:Volatiles} и {GAS:Oxygen}.\n"
+"- Проведено электричество к {THING:StructureLaunchPad}\n"
+"- Все игроки пристегнуты к {THING:StructureModularRocketCommand01}\n"
+"\n"
+"Ниже указаны ID-координаты МИРОВ ДЛЯ ПУТЕШЕСТВИЙ. Ты можешь использовать их для путешествия к определенным планетам, вместе с построенным {LINK:RocketShuttlePage;Rocket Shuttle} и {LINK:LogicUnitPage;Logic Units}.\n"
+"       \n"
+"Просто запиши ID в переменную настроек в {THING:StructureLaunchPad} с помощью {THING:StructureLogicWriter} и {THING:StructureLogicMemory}. Заметка: Ты можешь нажать на ID чтобы скопировать его в буфер обмена клавиатуры.\n"
+"      \n"
+"\n"
+"      {LIST}\n"
+"        {WORLD_HASHES}\n"
+"      {/LIST}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
 msgctxt "HelpPage.RocketShuttleModulesHelpPage"
@@ -479,7 +496,7 @@ msgstr "Модули Ракетного Шаттла"
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
 msgctxt "HelpPage.RocketShuttleModulesHelpPage"
 msgid "Guides"
-msgstr ""
+msgstr "Руководства"
 
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
 #, fuzzy
@@ -567,7 +584,7 @@ msgstr "Погода"
 #: /Language/HelpPage/StationpediaPage[Key='WeatherPage']
 msgctxt "HelpPage.WeatherPage"
 msgid "Guides"
-msgstr ""
+msgstr "Руководства"
 
 #: /Language/HelpPage/StationpediaPage[Key='WeatherPage']
 msgctxt "HelpPage.WeatherPage"
@@ -735,12 +752,12 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='Lore']
 msgctxt "HelpPage.Lore"
 msgid "{BLANK}"
-msgstr ""
+msgstr "{BLANK}"
 
 #: /Language/HelpPage/StationpediaPage[Key='Guides']
 msgctxt "HelpPage.Guides"
 msgid "{BLANK}"
-msgstr ""
+msgstr "{BLANK}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedReagentTemplate']
 msgctxt "HelpPage.CreatedReagentTemplate"
@@ -804,12 +821,12 @@ msgstr "Огнеопасный Предел {0} до {1}"
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
 msgctxt "HelpPage.NutritionPage"
 msgid "Hunger + nutrition"
-msgstr ""
+msgstr "Голод + питание"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
 msgctxt "HelpPage.NutritionPage"
 msgid "Guides"
-msgstr ""
+msgstr "Руководства"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
 msgctxt "HelpPage.NutritionPage"
