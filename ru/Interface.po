@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-17 20:18+0000\n"
-"Last-Translator: zorgkirill <gorocds@gmail.com>\n"
+"PO-Revision-Date: 2021-03-21 17:16+0000\n"
+"Last-Translator: Kastuk <kastuk@gmail.com>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -138,7 +138,7 @@ msgstr "Состояние на старте"
 #: /Language/Interface/Record[Key='AtmosDevices']
 msgctxt "Interface.AtmosDevices"
 msgid "Atmospheric Devices"
-msgstr "Атмосфера"
+msgstr "Устройства для контроля атмосферы"
 
 #: /Language/Interface/Record[Key='FireArm']
 msgctxt "Interface.FireArm"
@@ -1000,7 +1000,7 @@ msgstr "<color=red>Невозможно построить</color>."
 #: /Language/Interface/Record[Key='PortableConnectionFailure']
 msgctxt "Interface.PortableConnectionFailure"
 msgid "Can only connect {0} to this {1}"
-msgstr ""
+msgstr "К {1} можно присоединить только {0}"
 
 #: /Language/Interface/Record[Key='TooltipRotateLeftRight']
 msgctxt "Interface.TooltipRotateLeftRight"
@@ -1502,10 +1502,9 @@ msgid "Game Settings"
 msgstr "Настройки игры"
 
 #: /Language/Interface/Record[Key='SettingsHungerRate']
-#, fuzzy
 msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger/Hydration Rate"
-msgstr "Коэффициент голода"
+msgstr "Коэффициент Голода/Гидратации"
 
 #: /Language/Interface/Record[Key='JoinWorldSortBy']
 msgctxt "Interface.JoinWorldSortBy"
@@ -1634,10 +1633,9 @@ msgid "Flip using crowbar."
 msgstr "Переключить используя лом."
 
 #: /Language/Interface/Record[Key='SettingsLightShadowDistance']
-#, fuzzy
 msgctxt "Interface.SettingsLightShadowDistance"
 msgid "Light Shadow Distance"
-msgstr "Дальность прорисовки теней"
+msgstr "Дальность прорисовки теней искусственного освещения"
 
 #: /Language/Interface/Record[Key='Lore']
 msgctxt "Interface.Lore"
@@ -1650,27 +1648,24 @@ msgid "Guides"
 msgstr "Руководства"
 
 #: /Language/Interface/Record[Key='HydrationCritical']
-#, fuzzy
 msgctxt "Interface.HydrationCritical"
 msgid "Hydration Critical"
-msgstr "Углеводород"
+msgstr "Уровень гидратации критический"
 
 #: /Language/Interface/Record[Key='HydrationCaution']
-#, fuzzy
 msgctxt "Interface.HydrationCaution"
 msgid "Hydration Caution"
-msgstr "Углеводород"
+msgstr "Предупреждение о гидратации"
 
 #: /Language/Interface/Record[Key='StatusIconHydrationKey']
-#, fuzzy
 msgctxt "Interface.StatusIconHydrationKey"
 msgid "Hydration Low"
-msgstr "Углеводород"
+msgstr "Уровень гидратации низкий"
 
 #: /Language/Interface/Record[Key='StatusIconHydrationDesc']
 msgctxt "Interface.StatusIconHydrationDesc"
 msgid "Hydration is running low"
-msgstr ""
+msgstr "Уровень гидратации падает"
 
 #: /Language/Interface/Record[Key='NutritionSPDAKey']
 #, fuzzy
@@ -1684,10 +1679,9 @@ msgid "EVA"
 msgstr ""
 
 #: /Language/Interface/Record[Key='HydrationSPDAKey']
-#, fuzzy
 msgctxt "Interface.HydrationSPDAKey"
 msgid "Hydration"
-msgstr "Углеводород"
+msgstr "Гидратация"
 
 #: /Language/Interface/Record[Key='StationpediaNoResults']
 msgctxt "Interface.StationpediaNoResults"
@@ -1725,10 +1719,9 @@ msgid "Construction Options\n"
 msgstr "Строительные Наборы"
 
 #: /Language/Interface/Record[Key='StationpediaFoundIn']
-#, fuzzy
 msgctxt "Interface.StationpediaFoundIn"
 msgid "Found In"
-msgstr "Звук"
+msgstr "Можно найти в"
 
 #: /Language/Interface/Record[Key='StationpediaManufactures']
 msgctxt "Interface.StationpediaManufactures"
@@ -1738,12 +1731,12 @@ msgstr ""
 #: /Language/Interface/Record[Key='StationpediaUsedIn']
 msgctxt "Interface.StationpediaUsedIn"
 msgid "Used In"
-msgstr ""
+msgstr "Используется в"
 
 #: /Language/Interface/Record[Key='StationpediaResoucesHeader']
 msgctxt "Interface.StationpediaResoucesHeader"
 msgid "Resources Used"
-msgstr ""
+msgstr "Используемые Ресурсы"
 
 #: /Language/Interface/Record[Key='StationpediaGasHeader']
 #, fuzzy
@@ -1758,15 +1751,14 @@ msgid "Versions"
 msgstr "Версия"
 
 #: /Language/Interface/Record[Key='StationpediaBuildStates']
-#, fuzzy
 msgctxt "Interface.StationpediaBuildStates"
 msgid "Build States"
-msgstr "Выйти из игры"
+msgstr "Этапы Строительства"
 
 #: /Language/Interface/Record[Key='StationpediaHowToManufacture']
 msgctxt "Interface.StationpediaHowToManufacture"
 msgid "How to Manufacture"
-msgstr ""
+msgstr "Как Произвести"
 
 #: /Language/Interface/Record[Key='StationpediaSlotsHeader']
 #, fuzzy
@@ -1838,24 +1830,22 @@ msgstr "Строительные Наборы"
 #: /Language/Interface/Record[Key='StationpediaAdvancedGuides']
 msgctxt "Interface.StationpediaAdvancedGuides"
 msgid "Universe"
-msgstr ""
+msgstr "Вселенная"
 
 #: /Language/Interface/Record[Key='StationpediaBeginnerGuides']
 msgctxt "Interface.StationpediaBeginnerGuides"
 msgid "Guides"
-msgstr ""
+msgstr "Руководства"
 
 #: /Language/Interface/Record[Key='StationpediaSearch']
-#, fuzzy
 msgctxt "Interface.StationpediaSearch"
 msgid "Search"
-msgstr "Исследование"
+msgstr "Поиск"
 
 #: /Language/Interface/Record[Key='StationpediaTitle']
-#, fuzzy
 msgctxt "Interface.StationpediaTitle"
 msgid "Stationpedia"
-msgstr "Насыщенность:"
+msgstr "Станциопедия"
 
 #: /Language/Interface/Record[Key='CableMaxPowerSPDA']
 msgctxt "Interface.CableMaxPowerSPDA"
