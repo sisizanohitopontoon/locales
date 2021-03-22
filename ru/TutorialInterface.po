@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-22 08:27+0000\n"
-"Last-Translator: AndreyKl <andreykl@ukr.net>\n"
+"PO-Revision-Date: 2021-03-20 12:32+0000\n"
+"Last-Translator: Pavlik <pavelgorbatiuk@gmail.com>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -2915,6 +2915,8 @@ msgid ""
 "The autolathe is multi-axis molecular compositional tool. It fabricates a range of structural and device kits, including the humble hydraulic pipebender. Click the search button on the front to "
 "search to select recipes."
 msgstr ""
+"Автолат это многоосевой композитный инструмент. Он изготавливает широкий диапазон структур и наборов для устройств, включая простой гидравлический трубосгибатель. Нажми на кнопку спереди для поиска "
+"и выбора рецептов."
 
 #: /Language/Interface/Record[Key='3AutoLatheOn']
 msgctxt "Interface.3AutoLatheOn"
@@ -2992,7 +2994,7 @@ msgstr "Поместите слиток золота в сгибатель тр�
 #: /Language/Interface/Record[Key='3Narration13D']
 msgctxt "Interface.3Narration13D"
 msgid "Active vents are critical airlock components: you can now fabricate one with the hydraulic pipebender!"
-msgstr ""
+msgstr "Активные вентиляции являются критически важными компонентами шлюза: теперь ты можешь изготовить их с помощью гидравлического трубосгибателя!"
 
 #: /Language/Interface/Record[Key='3ActiveVentHash']
 msgctxt "Interface.3ActiveVentHash"
@@ -3020,11 +3022,13 @@ msgid ""
 "Good work, Cadet. You've created a complete fabrication system.\n"
 "That's the last step of Practical Testing, Phase III. Press the 'Complete' button to transmit your results to Stationeer Command."
 msgstr ""
+"Хорошая работа, Кадет. Вы создали полную производственную систему.\n"
+"Это последний шаг Практического Тестирования Фазы III. Нажмите кнопку 'Завершить' для того, чтобы отправить ваши результаты в Командный Пункт Стационеров."
 
 #: /Language/Interface/Record[Key='3OnButtonPressTaskT1']
 msgctxt "Interface.3OnButtonPressTaskT1"
 msgid "Press transmit button to complete test."
-msgstr ""
+msgstr "Нажмите кнопку передачи данных, чтобы завершить тест."
 
 #: /Language/Interface/Record[Key='3Narration15D']
 msgctxt "Interface.3Narration15D"
@@ -3032,6 +3036,8 @@ msgid ""
 "Your mining belt does two things: It holds your mining tools, and stores the ore you mine.\n"
 "When it's equipped in your 'belt' slot, any ores mined are stored there automatically."
 msgstr ""
+"Твой шахтерский пояс выполняет две вещи: он держит твои шахтерские инструменты, и хранит добытую тобой руду.\n"
+"Когда он снаряжен в 'поясном' слоте, любая добытая руда складывается в него автоматически."
 
 #: /Language/Interface/Record[Key='2EquiptMiningbelt']
 msgctxt "Interface.2EquiptMiningbelt"
@@ -3041,12 +3047,12 @@ msgstr "Наденьте {THING:ItemMiningBelt}"
 #: /Language/Interface/Record[Key='3Narration16D']
 msgctxt "Interface.3Narration16D"
 msgid "That's it, you're done mining for now, so swap back to the tool belt - you'll be needing it shortly."
-msgstr ""
+msgstr "Вот и всё, на данный момент вы закончили добычу, так что переключитесь обратно на пояс инструментов - в скоре он вам понадобится."
 
 #: /Language/Interface/Record[Key='2EquiptToolbelt']
 msgctxt "Interface.2EquiptToolbelt"
 msgid "Equip tool belt."
-msgstr ""
+msgstr "Наденьте пояс инструментов."
 
 #: /Language/Interface/Record[Key='TutoiralAirlocks']
 msgctxt "Interface.TutoiralAirlocks"
@@ -3187,7 +3193,7 @@ msgstr "Постройте {THING:StructureGasSensor} в подсвеченно�
 #: /Language/Interface/Record[Key='4Narration7D']
 msgctxt "Interface.4Narration7D"
 msgid "To pressurize an airlock, you need an active vent to cycle air, and a passive vent to allow atmosphere to pass into the pipe network."
-msgstr ""
+msgstr "Для герметизации шлюза, тебе нужна активная вентиляция для циркуляции воздуха, и пассивная вентиляция чтобы дать атмосфере перейти в систему труб."
 
 #: /Language/Interface/Record[Key='4FabricateItemPassiveVent']
 msgctxt "Interface.4FabricateItemPassiveVent"
@@ -3227,7 +3233,7 @@ msgstr "Добавьте трубу #2 в трубопровод"
 #: /Language/Interface/Record[Key='4Narration9D']
 msgctxt "Interface.4Narration9D"
 msgid "Norsec consoles allow you to control and monitor various systems, depending on their configuration. Think of them as a small, simple brain."
-msgstr ""
+msgstr "Консоли Норсек позволяют контролировать и отслеживать различные системы, в зависимости от их конфигурации. Считай их маленьким, простым мозгом."
 
 #: /Language/Interface/Record[Key='4BuildConsoleTutorial']
 msgctxt "Interface.4BuildConsoleTutorial"
@@ -3237,22 +3243,22 @@ msgstr "Постройте консоль в выделенном месте"
 #: /Language/Interface/Record[Key='4Narration10D']
 msgctxt "Interface.4Narration10D"
 msgid "Circuitboards provide consoles with a range of different functionality. Here you need an airlock circuitboard, and a datadisk to program it."
-msgstr ""
+msgstr "Печатные платы обеспечивают консоли набором различного функционала. Здесь тебе нужна шлюзовая печатная плата, и дата-диск чтобы запрограммировать ее."
 
 #: /Language/Interface/Record[Key='4FabricateAirlcokCircuit']
 msgctxt "Interface.4FabricateAirlcokCircuit"
 msgid "Fabricate airlock circuitboard"
-msgstr ""
+msgstr "Изготовьте плату управления шлюзом"
 
 #: /Language/Interface/Record[Key='4FabricateDataDisk']
 msgctxt "Interface.4FabricateDataDisk"
 msgid "Fabricate data disk"
-msgstr ""
+msgstr "Изготовьте дата-диск"
 
 #: /Language/Interface/Record[Key='4FinsihConsole']
 msgctxt "Interface.4FinsihConsole"
 msgid "Complete the console with glass sheet"
-msgstr ""
+msgstr "Завершите консоль листом стекла"
 
 #: /Language/Interface/Record[Key='4ConsoleOn']
 msgctxt "Interface.4ConsoleOn"
@@ -3265,6 +3271,8 @@ msgid ""
 "To programme the airlock, you'll need a data disk. Then select the items you would like the console to operate.\n"
 "Devices highlight GREEN with RED TEXT when selected."
 msgstr ""
+"Чтобы запрограммировать шлюз, тебе потребуется дата-диск. Затем выберите элементы, с которыми должна работать консоль.\n"
+"Устройства подсвечиваются ЗЕЛЕНЫМ с КРАСНЫМ ТЕКСТОМ когда выбраны."
 
 #: /Language/Interface/Record[Key='4PediaOpen']
 msgctxt "Interface.4PediaOpen"
@@ -3274,7 +3282,7 @@ msgstr "Откройте Stationpedia с помощью F1"
 #: /Language/Interface/Record[Key='4Narration12D']
 msgctxt "Interface.4Narration12D"
 msgid "Now select the airlock doors: selecting the external door as 'Exterior' will cause the other to default to 'Internal'."
-msgstr ""
+msgstr "Теперь выбери шлюзовые двери: выбирая наружную дверь как 'Наружную' сделает другую дверь по умолчанию 'Внутренней'."
 
 #: /Language/Interface/Record[Key='4GetpipeKit']
 msgctxt "Interface.4GetpipeKit"
@@ -3289,7 +3297,7 @@ msgstr "Возьмите консоль из ящика"
 #: /Language/Interface/Record[Key='4Narration13D']
 msgctxt "Interface.4Narration13D"
 msgid "When you have successfully completed the airlock set up, the switch on the side of the console will light up green. Remove the data disk from the console to lock it."
-msgstr ""
+msgstr "Когда ты успешно завершил настройку шлюза, переключатель сбоку консоли загорится зеленым. Извлеки дата-диск из консоли чтобы закрыть настройки."
 
 #: /Language/Interface/Record[Key='4PutCircuitInConsole']
 msgctxt "Interface.4PutCircuitInConsole"
@@ -3319,7 +3327,7 @@ msgstr "Подождите пока давление достигнет 92кПа
 #: /Language/Interface/Record[Key='4Narration16D']
 msgctxt "Interface.4Narration16D"
 msgid "Now the base is pressurized, you can test the airlock by pressing 'Cycle to Exterior' on the console."
-msgstr ""
+msgstr "Теперь база под давлением, ты можешь протестировать шлюз нажав 'Cycle to Exterior' на консоли."
 
 #: /Language/Interface/Record[Key='4OpenAirlock']
 #, fuzzy
@@ -3333,6 +3341,8 @@ msgid ""
 "Good work, Cadet. You've build an airtight, pressurized base. That's the last step of Practical Testing, Phase IV. Return inside and press the 'Complete' button to transmit your results to ODA "
 "Stationeer Command."
 msgstr ""
+"Отличная работа, Кадет. Ты построил герметичную, наполненную атмосферой базу. Это последний шаг Практического Тестирования, Фазы IV. Вернись внутрь и нажми 'Важную' кнопку чтобы отправить твои "
+"результаты в Командование Станционеров ODA."
 
 #: /Language/Interface/Record[Key='4AirlockProggramGasSensor']
 msgctxt "Interface.4AirlockProggramGasSensor"
