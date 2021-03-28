@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-28 16:46+0000\n"
+"PO-Revision-Date: 2021-03-28 16:57+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,12 +121,12 @@ msgstr "{LIST_OF_FURNITURES}"
 #: /Language/HelpPage/StationpediaPage[Key='LorePage']
 msgctxt "HelpPage.LorePage"
 msgid "Lore"
-msgstr ""
+msgstr "Történet"
 
 #: /Language/HelpPage/StationpediaPage[Key='LorePage']
 msgctxt "HelpPage.LorePage"
 msgid "Factions"
-msgstr ""
+msgstr "Frakciók"
 
 #: /Language/HelpPage/StationpediaPage[Key='LorePage']
 msgctxt "HelpPage.LorePage"
@@ -168,7 +168,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ImportExportPage']
 msgctxt "HelpPage.ImportExportPage"
 msgid "Import/Export and Chutes"
-msgstr ""
+msgstr "Import/export és szállítás"
 
 #: /Language/HelpPage/StationpediaPage[Key='ImportExportPage']
 msgctxt "HelpPage.ImportExportPage"
@@ -217,7 +217,7 @@ msgstr "Építkezés"
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
 msgctxt "HelpPage.ConstructionPage"
 msgid "Guides"
-msgstr ""
+msgstr "Útmutatók"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
 msgctxt "HelpPage.ConstructionPage"
@@ -384,6 +384,9 @@ msgid ""
 "{LIST_OF_CLOTHING}\n"
 "      "
 msgstr ""
+"Ezek a tárgyak entitások által hordhatók (slotokban).\n"
+"{LIST_OF_CLOTHING}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='AppliancePage']
 msgctxt "HelpPage.AppliancePage"
@@ -409,10 +412,9 @@ msgstr "Úticél"
 #: /Language/HelpPage/StationpediaPage[Key='TravelPage']
 msgctxt "HelpPage.TravelPage"
 msgid "Guides"
-msgstr ""
+msgstr "Útmutatók"
 
 #: /Language/HelpPage/StationpediaPage[Key='TravelPage']
-#, fuzzy
 msgctxt "HelpPage.TravelPage"
 msgid ""
 "Wait! Don't close me yet! The following conditions must be met for launch:\n"
@@ -433,7 +435,15 @@ msgid ""
 "      {/LIST}\n"
 "      "
 msgstr ""
-"Várj! Még ne zárj be! Ezek itt a VILÁGUTAZÓ-AZONOSÍTÓK. Használhatod őket bizonyos bolygók közti utazásra, ha együtt használod egy már kész {LINK:RocketShuttlePage;űrhajóval} és {LINK:LogicUnitPage;logikai egységekkel}.\n"
+"Várj! Még ne zárj be! Ezeknek a feltételeknek kell teljesülnie az indításhoz:\n"
+"\n"
+"- Teljesen megépített rakéta: legalább 3 központi modul\n"
+"- Teljesen feltankolt {THING:StructureModularRocketFueltank01}\n"
+"- Megfelelő üzemanyag-keverési arány - 2:1 arányú {GAS:Volatiles}-{GAS:Oxygen} keverék\n"
+"- {THING:StructureLaunchPad} ellátva árammal\n"
+"- Minden játékos a(z) {THING:StructureModularRocketCommand01} belsejében ül\n"
+"\n"
+"Ezek itt a VILÁGUTAZÓ-AZONOSÍTÓK. Használhatod őket bizonyos bolygók közti utazásra, ha együtt használod egy már kész {LINK:RocketShuttlePage;űrhajóval} és {LINK:LogicUnitPage;logikai egységekkel}.\n"
 "       \n"
 "Csak írd be a hash értékeket a {THING:StructureLaunchPad} Beállítás változójábaegy {THING:ItemLabeller} segítségével. Megjegyzés: Ha a hash értékre kattintasz, akkor bemásolódik a vágólapra.\n"
 "      \n"
@@ -452,7 +462,7 @@ msgstr "Űrsikló modulok"
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
 msgctxt "HelpPage.RocketShuttleModulesHelpPage"
 msgid "Guides"
-msgstr ""
+msgstr "Útmutatók"
 
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
 msgctxt "HelpPage.RocketShuttleModulesHelpPage"
@@ -507,12 +517,12 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='WeatherPage']
 msgctxt "HelpPage.WeatherPage"
 msgid "Weather"
-msgstr ""
+msgstr "Időjárás"
 
 #: /Language/HelpPage/StationpediaPage[Key='WeatherPage']
 msgctxt "HelpPage.WeatherPage"
 msgid "Guides"
-msgstr ""
+msgstr "Útmutatók"
 
 #: /Language/HelpPage/StationpediaPage[Key='WeatherPage']
 msgctxt "HelpPage.WeatherPage"
@@ -558,10 +568,9 @@ msgid "{0}"
 msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.ThingSlotHeaderTemplate"
 msgid "{LIST}{0}{/LIST}"
-msgstr "{HEADER:Slotok}{LIST}{0}{/LIST}"
+msgstr "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotItemTemplate']
 msgctxt "HelpPage.ThingSlotItemTemplate"
@@ -593,43 +602,38 @@ msgstr ""
 "Olvadási nyomás {0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorsHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.CreatorsHeaderTemplate"
 msgid "{LIST}{0}{/LIST}"
-msgstr "{HEADER:Előállítható ezzel:}{LIST}{0}{/LIST}"
+msgstr "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedByHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.ConstructedByHeaderTemplate"
 msgid ""
 "\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
-"{HEADER:Előállítva ezzel:}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.CreatedHeaderTemplate"
 msgid ""
 "\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
-"{HEADER:Gyárhatja ezt:}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.ConstructedHeaderTemplate"
 msgid ""
 "\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
-"{HEADER:Építeni tudja ezt:}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTransmitHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.LogicTransmitHeaderTemplate"
 msgid ""
 "\n"
@@ -637,11 +641,12 @@ msgid ""
 "        {LIST}{0}{/LIST}\n"
 "      "
 msgstr ""
-"{HEADER:Kapcsolódik ehhez:}\n"
-"{LIST}{0}{/LIST}"
+"\n"
+"        \n"
+"        {LIST}{0}{/LIST}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='TierListHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.TierListHeaderTemplate"
 msgid ""
 "\n"
@@ -649,7 +654,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"        {HEADER:Struktúrák tier szerinti listája}\n"
+"        \n"
 "      "
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorTemplate']
@@ -658,10 +663,9 @@ msgid "{LIST}{0}{1}{/LIST}{/LIST}"
 msgstr "{LIST}{0}{1}{/LIST}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.LogicTypeHeaderTemplate"
 msgid "{LIST}{0}{/LIST}"
-msgstr "{HEADER:Logika}{LIST}{0}{/LIST}"
+msgstr "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTypeTemplate']
 msgctxt "HelpPage.LogicTypeTemplate"
@@ -669,39 +673,36 @@ msgid "{0}{POS:300}{1} {2}"
 msgstr "{0}{POS:300}{1} {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.ModeStringHeaderTemplate"
 msgid "{LIST}{0}{/LIST}"
-msgstr "{HEADER:Üzemmódok}{LIST}{0}{/LIST}"
+msgstr "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedGasesTemplate']
-#, fuzzy
 msgctxt "HelpPage.CreatedGasesTemplate"
 msgid ""
 "\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
-"{HEADER:Gázok}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='Lore']
 msgctxt "HelpPage.Lore"
 msgid "{BLANK}"
-msgstr ""
+msgstr "{BLANK}"
 
 #: /Language/HelpPage/StationpediaPage[Key='Guides']
 msgctxt "HelpPage.Guides"
 msgid "{BLANK}"
-msgstr ""
+msgstr "{BLANK}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedReagentTemplate']
-#, fuzzy
 msgctxt "HelpPage.CreatedReagentTemplate"
 msgid ""
 "\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
-"{HEADER:Reagensek}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ModeStringItemTemplate']
@@ -710,7 +711,6 @@ msgid "{0}.{1}"
 msgstr "{0}.{1}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPageTemplate']
-#, fuzzy
 msgctxt "HelpPage.ReagentPageTemplate"
 msgid ""
 "A {LINK:ReagentPage;reagent}, often usable when in {LINK:IngotPage;Ingots} form.\n"
@@ -723,14 +723,13 @@ msgid ""
 msgstr ""
 "Egy {LINK:ReagentPage;reagens} leggyakrabban {LINK:IngotPage;öntött rúd} formában használható.\n"
 "\n"
-"{HEADER:Általános}\n"
+"\n"
 "{LIST}Mértékegység: {1}{/LIST}\n"
 "\n"
-"{HEADER:Megtalálható itt:}\n"
+"\n"
 "{LIST}{2}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageTemplate']
-#, fuzzy
 msgctxt "HelpPage.GasPageTemplate"
 msgid ""
 "A {LINK:GasPage;gas}, often produced when {LINK:SmeltingPage;smelting}.\n"
@@ -743,10 +742,10 @@ msgid ""
 msgstr ""
 "A {LINK:GasPage;gázok} gyakran {LINK:SmeltingPage;ércek beolvasztásánál} szabadulnak fel.\n"
 "\n"
-"{HEADER:Általános}\n"
+"\n"
 "{LIST}Jellemző hőmérséklet {1}{2}{/LIST}\n"
 "\n"
-"{HEADER:Megtalálható itt:}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageFlamableTemplate']
@@ -762,7 +761,7 @@ msgstr "Éhség + tápláltság"
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
 msgctxt "HelpPage.NutritionPage"
 msgid "Guides"
-msgstr ""
+msgstr "Útmutatók"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
 msgctxt "HelpPage.NutritionPage"
@@ -784,7 +783,7 @@ msgstr "Hidratáld magad"
 #: /Language/HelpPage/StationpediaPage[Key='HydrationPage']
 msgctxt "HelpPage.HydrationPage"
 msgid "Guides"
-msgstr ""
+msgstr "Útmutatók"
 
 #: /Language/HelpPage/StationpediaPage[Key='HydrationPage']
 msgctxt "HelpPage.HydrationPage"
@@ -806,7 +805,7 @@ msgstr "Űrruhák"
 #: /Language/HelpPage/StationpediaPage[Key='EVAPage']
 msgctxt "HelpPage.EVAPage"
 msgid "Guides"
-msgstr ""
+msgstr "Útmutatók"
 
 #: /Language/HelpPage/StationpediaPage[Key='EVAPage']
 msgctxt "HelpPage.EVAPage"
