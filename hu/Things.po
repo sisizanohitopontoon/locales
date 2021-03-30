@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-30 09:29+0000\n"
+"PO-Revision-Date: 2021-03-30 09:40+0000\n"
 "Last-Translator: Bede <horvath.bede.benedek@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1371,7 +1371,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureHarvie']
 msgctxt "Things.StructureHarvie"
 msgid "Harvie"
-msgstr ""
+msgstr "KaszaTibi"
 
 #: /Language/Things/RecordThing[Key='StructureHarvieReversed']
 msgctxt "Things.StructureHarvieReversed"
@@ -1383,12 +1383,12 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureHarvieReversed']
 msgctxt "Things.StructureHarvieReversed"
 msgid "Harvie"
-msgstr ""
+msgstr "KaszaTibi"
 
 #: /Language/Things/RecordThing[Key='ItemKitHarvie']
 msgctxt "Things.ItemKitHarvie"
 msgid "Kit (Harvie)"
-msgstr "Készlet (Harvie)"
+msgstr "Készlet (KaszaTibi)"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront2']
 msgctxt "Things.ItemWreckageElevatorLevelFront2"
@@ -3723,6 +3723,15 @@ msgid ""
 "RobotMode.None = 5 = Path(find) to target\n"
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
 msgstr ""
+"A feltehetőleg részeg, <color=#0080FFFF>{LINK:Norsec;Norsec}</color> robotikusok által tervezett RoBI (vagy Robotizált Bányászó Intelligencia) a <color=#0080FFFF>{LINK:Stationeers;stationeer}</color> legjobb barátja, fárasztó ellensége, vagy mindkettő lehet (naponta többször is). Feladata a talaj alatt megbújó ércek automatikus felfedése és begyűjtése. A kis robot működtetéséhez egy kis programozói tudás szükséges.\n"
+"RoBI 7 módba állítható:\n"
+"RobotMode.None = 0 = semmittevés\n"
+"RobotMode.None = 1 = legközelebbi játékos követése\n"
+"RobotMode.None = 2 = célpont légvonalban való megközelítése\n"
+"RobotMode.None = 3 = 15 koordináta sugarú körben keresi az érceket\n"
+"RobotMode.None = 4 = kiürítés csúszdába vagy bedobónyílásba 3 méteres / 1,5 nagy rács sugárban\n"
+"RobotMode.None = 5 = út(keresés) a célponthoz\n"
+"RobotMode.None = 6 = automatikusan hozzárendelt állapot, akkor mutatja, ha a tárolóhelyek megteltek"
 
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
