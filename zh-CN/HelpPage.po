@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-06 19:48+0000\n"
+"PO-Revision-Date: 2021-05-06 19:40+0000\n"
 "Last-Translator: Juijote <cgjfeng@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,12 +121,12 @@ msgstr "{LIST_OF_FURNITURES}"
 #: /Language/HelpPage/StationpediaPage[Key='LorePage']
 msgctxt "HelpPage.LorePage"
 msgid "Lore"
-msgstr ""
+msgstr "知识"
 
 #: /Language/HelpPage/StationpediaPage[Key='LorePage']
 msgctxt "HelpPage.LorePage"
 msgid "Factions"
-msgstr ""
+msgstr "派系"
 
 #: /Language/HelpPage/StationpediaPage[Key='LorePage']
 msgctxt "HelpPage.LorePage"
@@ -169,7 +169,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='ImportExportPage']
 msgctxt "HelpPage.ImportExportPage"
 msgid "Import/Export and Chutes"
-msgstr ""
+msgstr "进口/出口和滑槽"
 
 #: /Language/HelpPage/StationpediaPage[Key='ImportExportPage']
 msgctxt "HelpPage.ImportExportPage"
@@ -218,7 +218,7 @@ msgstr "搭建"
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
 msgctxt "HelpPage.ConstructionPage"
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
 msgctxt "HelpPage.ConstructionPage"
@@ -413,7 +413,7 @@ msgstr "目的地"
 #: /Language/HelpPage/StationpediaPage[Key='TravelPage']
 msgctxt "HelpPage.TravelPage"
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: /Language/HelpPage/StationpediaPage[Key='TravelPage']
 msgctxt "HelpPage.TravelPage"
@@ -436,6 +436,23 @@ msgid ""
 "      {/LIST}\n"
 "      "
 msgstr ""
+"等等!先别关我!发射时必须满足以下条件:\n"
+"\n"
+"- 完全建成的火箭:至少有3个核心模块\n"
+"- 充满燃料的{THING:StructureModularRocketFueltank01}。\n"
+"- 燃料混合比例正确{GAS:Volatiles}和{GAS:Oxygen}的2:1混合物。\n"
+"- 向{THING:StructureLaunchPad}提供电源\n"
+"- 所有玩家坐在{THING:StructureModularRocketCommand01}中\n"
+"\n"
+"下面是世界旅行的ID。你可以用它们来旅行到特定的星球，当与完成的{LINK:RocketShuttlePage;火箭飞船}和{LINK:LogicUnitPage;逻辑单元}相结合时。\n"
+"       \n"
+"只要用{THING:StructureLaunchPad}上的{THING:StructureLogicWriter}和{THING:StructureLogicMemory}将哈希值写入设置变量即可。注意：你可以点击哈希值，将其复制到剪贴板上。\n"
+"      \n"
+"\n"
+"      {LIST}\n"
+"        {WORLD_HASHES}\n"
+"      {/LIST} {WORLD_HASHES}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
 msgctxt "HelpPage.RocketShuttleModulesHelpPage"
@@ -445,7 +462,7 @@ msgstr "火箭模块"
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
 msgctxt "HelpPage.RocketShuttleModulesHelpPage"
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
 msgctxt "HelpPage.RocketShuttleModulesHelpPage"
@@ -527,12 +544,12 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='WeatherPage']
 msgctxt "HelpPage.WeatherPage"
 msgid "Weather"
-msgstr ""
+msgstr "天气"
 
 #: /Language/HelpPage/StationpediaPage[Key='WeatherPage']
 msgctxt "HelpPage.WeatherPage"
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: /Language/HelpPage/StationpediaPage[Key='WeatherPage']
 msgctxt "HelpPage.WeatherPage"
@@ -543,6 +560,11 @@ msgid ""
 "Likewise, be aware that solar panels are fragile and may have their glass shattered, or occasionally even be destroyed by a sufficiently ferocious storm. During storms, their output is also drastically reduced.\n"
 "      "
 msgstr ""
+"太阳系的行星并不像它们看起来那样平静。在任何有大气层的世界上停留7天后，不可捉摸的自然力量就会开始行动--用暴风雪、沙尘暴和火山事件来打击不小心的驻扎者。\n"
+"因此，官方发展援助建议新部署的Stationeers在着陆后7天内建立一个密封的基地。\n"
+"任何在风暴中留在外面的动态物体——在火星、楼兰、火神或木卫二上——都有被吹到很远很远的危险，包括你的着陆器。\n"
+"同样地，要注意太阳能电池板是脆弱的，它们的玻璃可能会破碎，或者偶尔甚至会被一场足够猛烈的风暴摧毁。在风暴期间，它们的产量也会大幅减少。\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingTemplate']
 msgctxt "HelpPage.ThingTemplate"
@@ -697,12 +719,12 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='Lore']
 msgctxt "HelpPage.Lore"
 msgid "{BLANK}"
-msgstr ""
+msgstr "{BLANK}"
 
 #: /Language/HelpPage/StationpediaPage[Key='Guides']
 msgctxt "HelpPage.Guides"
 msgid "{BLANK}"
-msgstr ""
+msgstr "{BLANK}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedReagentTemplate']
 msgctxt "HelpPage.CreatedReagentTemplate"
@@ -768,7 +790,7 @@ msgstr "饥饿+营养"
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
 msgctxt "HelpPage.NutritionPage"
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
 msgctxt "HelpPage.NutritionPage"
@@ -792,12 +814,12 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='HydrationPage']
 msgctxt "HelpPage.HydrationPage"
 msgid "Hydrate yourself"
-msgstr ""
+msgstr "补充水分"
 
 #: /Language/HelpPage/StationpediaPage[Key='HydrationPage']
 msgctxt "HelpPage.HydrationPage"
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: /Language/HelpPage/StationpediaPage[Key='HydrationPage']
 msgctxt "HelpPage.HydrationPage"
@@ -821,7 +843,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='EVAPage']
 msgctxt "HelpPage.EVAPage"
 msgid "EVA Suits"
-msgstr ""
+msgstr "EVA防护服"
 
 #: /Language/HelpPage/StationpediaPage[Key='EVAPage']
 msgctxt "HelpPage.EVAPage"
