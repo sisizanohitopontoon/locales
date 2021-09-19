@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='WorldNameLabel']
-msgctxt "Interface.WorldNameLabel"
-msgid "World Name"
-msgstr "Maailman Nimi"
+#: /Language/Interface/Record[Key='JoinMenuFiltersTitle']
+msgctxt "Interface.JoinMenuFiltersTitle"
+msgid "Filters"
+msgstr "Suodattimet"
 
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
@@ -38,11 +38,6 @@ msgstr ""
 #: /Language/Interface/Record[Key='PersonalClothing']
 msgctxt "Interface.PersonalClothing"
 msgid "Clothing"
-msgstr ""
-
-#: /Language/Interface/Record[Key='OreHeader']
-msgctxt "Interface.OreHeader"
-msgid "Ores"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ReagentsHeader']
@@ -125,14 +120,13 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='Edibles']
 msgctxt "Interface.Edibles"
-msgid "Edibles"
+msgid "Edibles and food"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Plants']
-#, fuzzy
 msgctxt "Interface.Plants"
-msgid "Plants"
-msgstr "Polttoaine"
+msgid "Plants and Seeds"
+msgstr ""
 
 #: /Language/Interface/Record[Key='AirContitioningAtmos']
 #, fuzzy
@@ -232,6 +226,11 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Maailmat"
 
+#: /Language/Interface/Record[Key='LogicTypeAirRelease']
+msgctxt "Interface.LogicTypeAirRelease"
+msgid "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
+msgstr ""
+
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
@@ -262,11 +261,6 @@ msgstr "Versio:"
 msgctxt "Interface.WorldInfoButtonDelete"
 msgid "Delete"
 msgstr "Poista"
-
-#: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
-msgctxt "Interface.ContactLandingRequestFailVendingMachine"
-msgid "You need a powered Vending Machine on the network to interact with this trader."
-msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoButtonPublish']
 msgctxt "Interface.WorldInfoButtonPublish"
@@ -572,6 +566,11 @@ msgctxt "Interface.SettingsMenuTitle"
 msgid "Settings"
 msgstr "Asetukset"
 
+#: /Language/Interface/Record[Key='SettingsMenuGameplay']
+msgctxt "Interface.SettingsMenuGameplay"
+msgid "Gameplay"
+msgstr "Peli"
+
 #: /Language/Interface/Record[Key='SettingsMenuVideo']
 msgctxt "Interface.SettingsMenuVideo"
 msgid "Video"
@@ -773,6 +772,11 @@ msgctxt "Interface.SettingsLanguage"
 msgid "Language"
 msgstr "Kieli"
 
+#: /Language/Interface/Record[Key='OreHeader']
+msgctxt "Interface.OreHeader"
+msgid "Ores"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsVoiceControl']
 msgctxt "Interface.SettingsVoiceControl"
 msgid "Voice Control"
@@ -968,8 +972,10 @@ msgstr "Tutoriaali suoritettu"
 #, fuzzy
 msgctxt "Interface.TutorialCompleteMessage"
 msgid ""
-"There's still much to learn.\n"
-"                                              So get out there, Stationeer!"
+"\n"
+"        There's still much to learn.\n"
+"        So get out there, Stationeer!\n"
+"      "
 msgstr ""
 "Vielä on paljon opittavaa. \n"
 "Joten tuumasta toimeen, Stationeer!"
@@ -998,8 +1004,10 @@ msgstr "<color=yellow>Rakennetaan emoaluksella</color>."
 #, fuzzy
 msgctxt "Interface.MulticonstructorItem"
 msgid ""
-"<color=yellow>Constructing option {0} of {1}</color>\n"
-"                                              Scroll <color=red>Mouse Wheel</color> for more options."
+"\n"
+"        <color=yellow>Constructing option {0} of {1}</color>\n"
+"        Scroll <color=red>Mouse Wheel</color> for more options.\n"
+"      "
 msgstr ""
 "<color=yellow>Rakennusvaihtoehto {0} / {1}</color>\n"
 "Vieritä <color=red>hiirtä</color> selataksesi vaihtoehtoja."
@@ -1285,11 +1293,6 @@ msgctxt "Interface.PromptRespawnTitle"
 msgid "Respawn"
 msgstr "Herätä henkiin"
 
-#: /Language/Interface/Record[Key='SettingsMenuGameplay']
-msgctxt "Interface.SettingsMenuGameplay"
-msgid "Gameplay"
-msgstr "Peli"
-
 #: /Language/Interface/Record[Key='PromptRespawnBody']
 msgctxt "Interface.PromptRespawnBody"
 msgid "You are dead."
@@ -1344,8 +1347,10 @@ msgstr "Pelin versio ei täsmää palvelimen version kanssa."
 #, fuzzy
 msgctxt "Interface.AlertNoResponse"
 msgid ""
-"There is no response from the Game Server.\n"
-"                                              Please try again."
+"\n"
+"        There is no response from the Game Server.\n"
+"        Please try again.\n"
+"      "
 msgstr ""
 "Palvelin ei vastaa.\n"
 "Ole hyvä ja kokeile uudestaan.\n"
@@ -1381,10 +1386,10 @@ msgctxt "Interface.AlertTitleAttention"
 msgid "Attention"
 msgstr "Huomio"
 
-#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
-msgctxt "Interface.TooltipNeedMoreKit"
-msgid "<color=red>Need more {0}</color>."
-msgstr "<color=red>Tarvitset enemmän {0}</color>."
+#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
+msgctxt "Interface.AlertTitlePleaseWait"
+msgid "Please Wait..."
+msgstr "Odota hetki..."
 
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
@@ -1521,67 +1526,6 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Pelin asetukset"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-#, fuzzy
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
-msgstr "Nälkä (Kerroin)"
-
-#: /Language/Interface/Record[Key='JoinWorldSortBy']
-msgctxt "Interface.JoinWorldSortBy"
-msgid "Sort by"
-msgstr "Lajittele"
-
-#: /Language/Interface/Record[Key='JoinMenuFiltersTitle']
-msgctxt "Interface.JoinMenuFiltersTitle"
-msgid "Filters"
-msgstr "Suodattimet"
-
-#: /Language/Interface/Record[Key='JoinMenuButtonStopRefresh']
-msgctxt "Interface.JoinMenuButtonStopRefresh"
-msgid "Stop Refresh"
-msgstr "Pysäytä"
-
-#: /Language/Interface/Record[Key='JoinMenuIncompatibleVersions']
-msgctxt "Interface.JoinMenuIncompatibleVersions"
-msgid "Hide Incompatible Versions"
-msgstr "Piilota Yhteensopimattomat Versiot"
-
-#: /Language/Interface/Record[Key='JoinMenuPasswordProtected']
-msgctxt "Interface.JoinMenuPasswordProtected"
-msgid "Hide Password Protected"
-msgstr "Piilota Salasanalla Suojatut"
-
-#: /Language/Interface/Record[Key='JoinWorldEmptyServers']
-msgctxt "Interface.JoinWorldEmptyServers"
-msgid "Hide Empty Servers"
-msgstr "Piilota Tyhjät Palvelimet"
-
-#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
-msgctxt "Interface.WorkshopSubscribedModsTitle"
-msgid "Subscribed Mods"
-msgstr "Tilatut Modit"
-
-#: /Language/Interface/Record[Key='WorkshopPageButton']
-msgctxt "Interface.WorkshopPageButton"
-msgid "Workshop Page"
-msgstr "Workshop Sivu"
-
-#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
-msgctxt "Interface.WorkshopUnsubscribeButton"
-msgid "Unsubscribe"
-msgstr "Lopeta Tilaus"
-
-#: /Language/Interface/Record[Key='OpenWorkshopButton']
-msgctxt "Interface.OpenWorkshopButton"
-msgid "Open Workshop"
-msgstr "Avaa Workshop"
-
-#: /Language/Interface/Record[Key='WorldPresetTitle']
-msgctxt "Interface.WorldPresetTitle"
-msgid "World Preset"
-msgstr "Maailman Esiasetus"
-
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
@@ -1617,7 +1561,7 @@ msgstr "Puku"
 
 #: /Language/Interface/Record[Key='ChairTableCategory']
 msgctxt "Interface.ChairTableCategory"
-msgid "Tables and Chairs"
+msgid "Chairs"
 msgstr ""
 
 #: /Language/Interface/Record[Key='DoorCategory']
@@ -1645,6 +1589,164 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
+#: /Language/Interface/Record[Key='SettingsVirtualizedRendering']
+msgctxt "Interface.SettingsVirtualizedRendering"
+msgid "Virtualized Rendering\n"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsSmoothTerrain']
+#, fuzzy
+msgctxt "Interface.SettingsSmoothTerrain"
+msgid "Smooth Terrain"
+msgstr "Maasto"
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+#, fuzzy
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger/Hydration Rate"
+msgstr "Nälkä (Kerroin)"
+
+#: /Language/Interface/Record[Key='MoleNitrousOxideDescription']
+msgctxt "Interface.MoleNitrousOxideDescription"
+msgid "Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh."
+msgstr ""
+
+#: /Language/Interface/Record[Key='MoleWaterDescription']
+msgctxt "Interface.MoleWaterDescription"
+msgid ""
+"You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}, or by combusting volatiles and oxygen using the {THING:H2Combustor}.\n"
+"      \n"
+"Water is used to <color=#0080FFFF>{LINK:OrganicPage;plants}</color> in order to stay alive, and grow <color=#0080FFFF>{LINK:NutritionPage;drink}</color>. It is also an exceptional coolant with a very high specific heat capacity.\n"
+"\n"
+"Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.\n"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MolePollutantDescription']
+msgctxt "Interface.MolePollutantDescription"
+msgid ""
+"Also known as 'X', pollutants are created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere.\n"
+"      \n"
+"Pollutant has a high specific heat, making it an excellent coolant."
+msgstr ""
+
+#: /Language/Interface/Record[Key='MoleVolatilesDescription']
+msgctxt "Interface.MoleVolatilesDescription"
+msgid ""
+"Volatiles are an extremely reactive, complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is refined from {THING:ItemVolatiles}.\n"
+"      \n"
+"Due to obscure and largely forgotten <color=#0080FFFF>{LINK:ODA;ODA}</color> regulations, volatiles are sometimes labelled 'H2' by various items of technology. However, though they are similar to hydrogen, they're not 'actually' hydrogen. Volatiles will not produce water when combusted, without a catalyst (see the {THING:H2Combustor}). Alone, they create pollutants and carbon dioxide when burned in the following ratio:\n"
+"      \n"
+"2 Volatiles + 1 O2 -> 3X + 6CO2 + heat."
+msgstr ""
+
+#: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
+msgctxt "Interface.MoleCarbonDioxideDescription"
+msgid ""
+"You breathe it out, <color=#0080FFFF>{LINK:OrganicPage;plants}</color> breath it in. They don't grow without it.\n"
+"      \n"
+"Carbon dioxide has a moderately high specific heat, meaning it makes a good coolant for devices like the Wall Coo\n"
+"{THING:StructureWallCooler}. Water is better, but usually has more important uses."
+msgstr ""
+
+#: /Language/Interface/Record[Key='MoleNitrogenDescription']
+msgctxt "Interface.MoleNitrogenDescription"
+msgid "Nitrogen can be mixed with oxygen to stablize its flammability, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 Nitrogen and Oxygen)."
+msgstr ""
+
+#: /Language/Interface/Record[Key='MoleOxygenDescription']
+msgctxt "Interface.MoleOxygenDescription"
+msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create water. It is created by <color=#0080FFFF>{LINK:OrganicPage;plants}</color>, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaNutrition']
+#, fuzzy
+msgctxt "Interface.StationpediaNutrition"
+msgid "Nutrition:"
+msgstr "Huomio"
+
+#: /Language/Interface/Record[Key='StationpediaVolume']
+msgctxt "Interface.StationpediaVolume"
+msgid "Volume:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaMaxPressure']
+#, fuzzy
+msgctxt "Interface.StationpediaMaxPressure"
+msgid "Max Pressure:"
+msgstr "Paineen esiasetus"
+
+#: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
+msgctxt "Interface.StationpediaBasePowerUsage"
+msgid "Base Power Usage:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Waveform']
+msgctxt "Interface.Waveform"
+msgid "Waveform"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Intensity']
+msgctxt "Interface.Intensity"
+msgid "Intensity"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NoNote']
+msgctxt "Interface.NoNote"
+msgid "No Note"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NoSoundCartridge']
+msgctxt "Interface.NoSoundCartridge"
+msgid "No Sound Cartridge"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CurrentInstrument']
+msgctxt "Interface.CurrentInstrument"
+msgid "Current Instrument"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Release']
+msgctxt "Interface.Release"
+msgid "Release"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Attack']
+msgctxt "Interface.Attack"
+msgid "Attack"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Speed']
+msgctxt "Interface.Speed"
+msgid "Speed"
+msgstr ""
+
+#: /Language/Interface/Record[Key='NoAudioReceiverDevices']
+msgctxt "Interface.NoAudioReceiverDevices"
+msgid "No Audio Receiver Devices"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Volume']
+#, fuzzy
+msgctxt "Interface.Volume"
+msgid "Volume"
+msgstr "Yleinen äänentaso"
+
+#: /Language/Interface/Record[Key='Pitch']
+msgctxt "Interface.Pitch"
+msgid "Pitch"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeBpm']
+msgctxt "Interface.LogicTypeBpm"
+msgid "Bpm"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTime']
+#, fuzzy
+msgctxt "Interface.LogicTypeTime"
+msgid "Time"
+msgstr "Pelattu:"
+
 #: /Language/Interface/Record[Key='TimerPanel']
 msgctxt "Interface.TimerPanel"
 msgid "Timer"
@@ -1652,7 +1754,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='CrowbarToFlip']
 msgctxt "Interface.CrowbarToFlip"
-msgid "Flip using crowbar."
+msgid "Flip using crowbar"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsLightShadowDistance']
@@ -1721,12 +1823,16 @@ msgstr "Tutoriaali<color=green> - UUSI!</color> "
 
 #: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
 msgctxt "Interface.StationpediaLogicSlotHeader"
-msgid "Logic Slots\n"
+msgid ""
+"\n"
+"        Logic Slots\n"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaLogicHeader']
 msgctxt "Interface.StationpediaLogicHeader"
-msgid "Logic\n"
+msgid ""
+"\n"
+"        Logic\n"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaModeHeader']
@@ -1737,7 +1843,9 @@ msgstr "Pelin portti"
 
 #: /Language/Interface/Record[Key='StationpediaConstructionOptions']
 msgctxt "Interface.StationpediaConstructionOptions"
-msgid "Construction Options\n"
+msgid ""
+"\n"
+"        Construction Options\n"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaFoundIn']
@@ -2145,7 +2253,8 @@ msgid ""
 "Stationeers are everything: astronauts, engineers and explorers, deployed with limited equipment and tools, trained to do more with less. Turning the environment to their advantage, their job is to provide infrastructure for humans in space, at a fraction of the cost of traditional space programs.\n"
 "Able to build and maintain bases anywhere from the Moon to Mimas and beyond, Stationeers are our vanguard in the cosmos. Schooled in offworld survival, mining and construction techniques, basic metallurgy, electronics, rocketry, hydroponics and more ‘arcane’ sciences, Stationeers do what they must to survive, and thrive.\n"
 "Renowned for having no entry criteria, there is no such thing as a ‘typical’ Stationeer. Psychological profiling suggests successful Cadets show a ‘baseline’ pragmatism and single-mindedness, but some of the most famous Stationeers possess neither of these qualities.\n"
-"Recruiting from civil engineering backgrounds, military and aerospace industries, software development, mining groups, as well as scientific fields and even religious orders, the Stationeers Program is – fundamentally – open to all humanity."
+"Recruiting from civil engineering backgrounds, military and aerospace industries, software development, mining groups, as well as scientific fields and even religious orders, the Stationeers Program is – fundamentally – open to all humanity.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='Stationeers']
@@ -2160,7 +2269,8 @@ msgid ""
 "A 2150CE survey revealed the Xigo 'X' as one of the most recognized symbols in the world. Yet few participants could clearly describe the company's actual scope.\n"
 "Precisely where the company begins and ends has been the subject of endless theories, financial studies and lawsuits – originally a website for price comparisons, the conglomerate expanded to embrace data, then distribution and finally production.\n"
 "It was a seemingly indiscriminate expansion, focused not on one industry, but all of them – taking in so many fields that business analysts have largely rejected the idea of Xigo as a single entity. Rather, it is a conceptual grouping for a branch of human activity. And while such statistics are – by their very nature – difficult to confirm, recent estimates suggest Xigo employs over 1.5% of the entire human race.\n"
-"Suffice to say, it produces almost everything."
+"Suffice to say, it produces almost everything.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='Xigo']
@@ -2173,7 +2283,8 @@ msgctxt "Interface.TKDesc"
 msgid ""
 "Originally a defense contractor specializing in brute force, high power weaponry, Tanzanian Kinetic Systems executed a large-scale, peace-time pivot to become the African Assembly’s leading designer of high-speed goods conveyors.\n"
 "Now producing a range of chute network designs and components, TK has a strong offworld presence as a result of the Afro-Sino partnerships in the latter 21st Century. Based in the ‘reconned’ Kigamboni district of Dar E Salaam, the Company regularly enters into development partnerships with <color=#0080FFFF>{LINK:CHAC;CHAC}</color> and, as a result, many of their products show distinct similarities.\n"
-"After all, what is a gun but a ‘high speed goods conveyor’."
+"        After all, what is a gun but a ‘high speed goods conveyor’.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='TK']
@@ -2187,7 +2298,8 @@ msgctxt "Interface.SinotaiDesc"
 msgid ""
 "The sole 'traditional' state entity to survive offworld politics, Sinotai’s reach and power is second only to the <color=#0080FFFF>{LINK:ODA;ODA}</color> itself. In many ways a relic – a sub-agency of a staggeringly complicated Earth-bound corporate-bureaucracy – its structure has allowed Sinotai to achieve incredible things.\n"
 "Proving its mettle in the early 21st Century by putting the first humans on Mars, establishing the first offworld gigawatt power system, and the first space-borne fuel refinery, few space-going organisations lack some degree of relationship with Sinotai. A common joke has it that it's impossible to do anything in space without them.\n"
-"Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with <color=#0080FFFF>{LINK:Recurso;Recurso}</color> (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups."
+"Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with <color=#0080FFFF>{LINK:Recurso;Recurso}</color> (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='Sinotai']
@@ -2201,7 +2313,8 @@ msgid ""
 "This long-standing Brazilian mining group branched into space in the late 21st century.\n"
 "Focused primarily on bulk minerals and metals, the company is perhaps best understood as an extension of the Brazilian government – very few upper echelon political figures in modern Brazil are not implicated in one arm or another of this industrial behemoth.\n"
 "Enmeshment with South American politics has given the company heavy influence over the Manaus space elevator. This deep state control has led to other groups – the <color=#0080FFFF>{LINK:ODA;ODA}</color> included – to exercise a certain ‘flexibility’ toward Recurso.\n"
-"Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'"
+"Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='Recurso']
@@ -2212,9 +2325,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='ODADesc']
 msgctxt "Interface.ODADesc"
 msgid ""
-"In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.\n"
+"\n"
+"        In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.\n"
 "Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. \n"
-"It inaugurated the <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision."
+"It inaugurated the <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='ODA']
@@ -2227,7 +2342,8 @@ msgctxt "Interface.NorsecDesc"
 msgid ""
 "With its roots in early 20th Century defense industry, Norsec (a.k.a. Northern Security Systems) was an early adopter of asteroid mining – one of its tugs being involved in the infamous Sisyphus Hit on the fledgling Martian colony at Sanders.\n"
 "Norsec was officially cleared of any wrong-doing, but when the <color=#0080FFFF>{LINK:ODA;ODA}</color> banned asteroidal relocation, the company shifted its focus to infrastructure and manufacturing.\n"
-"Norsec’s orbitally-based Space Systems Division is responsible for the design and production of <color=#0080FFFF>{LINK:ODA;ODA}</color>’s core transport systems, while also being rumoured to hold a large interest in <color=#0080FFFF>{LINK:ExMin;ExMin}</color>. The company is also noted for its willingness to engage in experimental robotic technology."
+"Norsec’s orbitally-based Space Systems Division is responsible for the design and production of <color=#0080FFFF>{LINK:ODA;ODA}</color>’s core transport systems, while also being rumoured to hold a large interest in <color=#0080FFFF>{LINK:ExMin;ExMin}</color>. The company is also noted for its willingness to engage in experimental robotic technology.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='Norsec']
@@ -2239,7 +2355,8 @@ msgstr ""
 msgctxt "Interface.HiiragiDesc"
 msgid ""
 "Founded by Noboru Hiiragi in the aftermath of the 2110s economic bubble, Hiiragi Communications absorbed several prominent offworld assets, quickly becoming the most widely used trans-Solar System communications network.\n"
-"If you’ve communicated with friends and family offworld recently, it’s been through the Hiiragi network, even if it’s been branded under one of its many child companies. Hiiragi is also the number one seller for PCD’s (Personal Communication Devices) as well as a deep, if difficult to assess investor in terrestrial telecommunication networks."
+"If you’ve communicated with friends and family offworld recently, it’s been through the Hiiragi network, even if it’s been branded under one of its many child companies. Hiiragi is also the number one seller for PCD’s (Personal Communication Devices) as well as a deep, if difficult to assess investor in terrestrial telecommunication networks.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='Hiiragi']
@@ -2252,7 +2369,8 @@ msgctxt "Interface.GeFabrikDesc"
 msgid ""
 "Officially known as Gewehrfabrik GmbH, GeFabrik is one of the world’s oldest and most highly regarded armament firms, known for producing exceptionally accurate, high-end firearms.\n"
 "In the wake of the European arms manufacturing collapse in the 2030s, a group of unemployed armament staff formed GeFabrik. Dedicated to renewing original design principles, the company is legendary for extensive testing, sometimes lasting as long as 10 years, in order to produce ‘ganz’ weapon formats.\n"
-"GeFabrik is widely regarded as having single-handedly salvaged Germany's manufacturing reputation, while doing nothing for their sense of humor."
+"GeFabrik is widely regarded as having single-handedly salvaged Germany's manufacturing reputation, while doing nothing for their sense of humor.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='GeFabrik']
@@ -2265,7 +2383,8 @@ msgctxt "Interface.ExMinDesc"
 msgid ""
 "In the aftermath of the Sisyphus disaster on Mars in 2079, asteroid shifting was officially banned by the <color=#0080FFFF>{LINK:ODA;ODA}</color>. This sea-change forced the newborn space mining industry to reconsider its strategies, but until the opening of the Manaus Space Elevator, marginal economics meant offworld resource extraction was effectively impossible.\n"
 "Formed in 2095 by a long-standing Swiss-German mining conglomerate and a consortium of other interests, ExMin was more an idea than a commercial reality for several decades. Created with the certainty that a space elevator would eventually arrive, ExMin was one of the first to exploit the access it offered. Subsequently it has become one of the Solar System's most powerful commercial entities.\n"
-"With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant <color=#0080FFFF>{LINK:Recurso;Recurso}</color>, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System."
+"With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant <color=#0080FFFF>{LINK:Recurso;Recurso}</color>, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='ExMin']
@@ -2278,7 +2397,8 @@ msgctxt "Interface.CHACDesc"
 msgid ""
 "Founded in 2085 to produce weapons for <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color>'s space forces, the company is known for making highly reliable and affordable weapons for off-world use.\n"
 "Their pragmatic approach is reflected in their focus on designs suitable for 3D printing and mass production, as well as a high reuse of components across models and weapon classes.\n"
-"As a result, although CHAC guns excel in no particular category, and have certainly never been accused of gretness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'."
+"As a result, although CHAC guns excel in no particular category, and have certainly never been accused of gretness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='CHAC']
@@ -2292,7 +2412,8 @@ msgid ""
 "Asura Biomedia was founded in the early 22nd century by Mumbai-based trillionaire Ashan Gurwaja. Nominally focused on 'biotechnology', the company has always had an ‘elastic’ notion of exactly what that entailed: everything from pharmaceuticals to pet food.\n"
 "Gurwaja's background in bio-engineering firms put the company in the highest echelon of bio-science industries from the very beginning, and it grew exactly as its founder intended: rapidly and reliably, structured specifically to swallow up any smaller firms in its way.\n"
 "Near mid-century, Asura's ambitions evolved to embrace entire health systems – it is now the largest provider of healthcare on Earth, integrating hospitals and primary care with medical supplies, pharmaceutical production and retail, residential care and funeral services.\n"
-"By 2150, Asura's business was a simple proposition, as captured in their famous – if not infamous – advertising slogan: 'We're in you'."
+"By 2150, Asura's business was a simple proposition, as captured in their famous – if not infamous – advertising slogan: 'We're in you'.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='Asura']
@@ -2305,7 +2426,8 @@ msgctxt "Interface.AgrizeroDesc"
 msgid ""
 "Agrizero is an agricultural biotech firm focused on researching and deploying offworld farming technology. The company’s aim is to provide a network of self-sustaining, self-contained 'bio-factories' that will ultimately feed a projected 1 million humans in space.\n"
 "Emerging from the late 21st century's environmental disasters, the firm has roots in China's world-saving artificial farming initiatives, and has now spread to facilities in the Asteroid Belt, where the supply of ice asteroids makes vertical farming and controlled-environment agriculture extremely promising.\n"
-"While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like <color=#0080FFFF>{LINK:ODA;ODA}</color>, <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> and <color=#0080FFFF>{LINK:ExMin;ExMin}</color> through the ever-expanding Trader Network."
+"While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like <color=#0080FFFF>{LINK:ODA;ODA}</color>, <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> and <color=#0080FFFF>{LINK:ExMin;ExMin}</color> through the ever-expanding Trader Network.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='Agrizero']
@@ -2313,9 +2435,29 @@ msgctxt "Interface.Agrizero"
 msgid "Agrizero"
 msgstr ""
 
+#: /Language/Interface/Record[Key='Seedsstring']
+msgctxt "Interface.Seedsstring"
+msgid "Seeds"
+msgstr ""
+
 #: /Language/Interface/Record[Key='CommandHelp']
 msgctxt "Interface.CommandHelp"
-msgid "Displays help menu. : \"/help\""
+msgid "Displays the commands list. : \"/help\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandSetContact']
+msgctxt "Interface.CommandSetContact"
+msgid "Sets the required signal amount to contact a trader. : \"/setcontact 10\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandSetDecay']
+msgctxt "Interface.CommandSetDecay"
+msgid "Sets the global food Decay Multiplier. : \"/setdecay 2\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='CommandCount']
+msgctxt "Interface.CommandCount"
+msgid "Counts all the Things of specified type in the save. : \"/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]\""
 msgstr ""
 
 #: /Language/Interface/Record[Key='CommandAddGas']
@@ -2451,6 +2593,21 @@ msgstr ""
 #: /Language/Interface/Record[Key='CommandSave']
 msgctxt "Interface.CommandSave"
 msgid "Saves the game and names it as a given parameter. usage: \"/save nameofsave\""
+msgstr ""
+
+#: /Language/Interface/Record[Key='ActivateExplosiveTooltipKey2']
+msgctxt "Interface.ActivateExplosiveTooltipKey2"
+msgid "second timer. Timer cannot be turned off. Caution is advised."
+msgstr ""
+
+#: /Language/Interface/Record[Key='ActivateExplosiveTooltipKey1']
+msgctxt "Interface.ActivateExplosiveTooltipKey1"
+msgid "Activates a"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ActivateExplosiveKey']
+msgctxt "Interface.ActivateExplosiveKey"
+msgid "Activate countdown"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ControlSwapHandsDisc']
@@ -3527,6 +3684,11 @@ msgctxt "Interface.ScriptCommandL"
 msgid "Loads device var to register."
 msgstr ""
 
+#: /Language/Interface/Record[Key='ServerReadyString']
+msgctxt "Interface.ServerReadyString"
+msgid "Server can now be started."
+msgstr ""
+
 #: /Language/Interface/Record[Key='ResearchCancel']
 #, fuzzy
 msgctxt "Interface.ResearchCancel"
@@ -3695,7 +3857,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='NetworkAnalyserTitle']
 msgctxt "Interface.NetworkAnalyserTitle"
-msgid "NETWORK ANALYSER"
+msgid "NETWORK ANALYZER"
 msgstr ""
 
 #: /Language/Interface/Record[Key='NetworkAnalyserRequired']
@@ -3998,7 +4160,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='CartridgeAtmosAnalyserTitle']
 msgctxt "Interface.CartridgeAtmosAnalyserTitle"
-msgid "ATMOSPHERE ANALYSER"
+msgid "ATMOSPHERE ANALYZER"
 msgstr ""
 
 #: /Language/Interface/Record[Key='CartridgeAtmosAnalyserTemperatureTitle']
@@ -4422,17 +4584,17 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='TraderGas']
 msgctxt "Interface.TraderGas"
-msgid "Gassy Trade"
+msgid "GasTrade"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderOther']
 msgctxt "Interface.TraderOther"
-msgid "Kolders' Goods"
+msgid "Kolders' Assorted Goods"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
-msgid "Hall Corp"
+msgid "Hall Corp Security"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderTool']
@@ -4442,7 +4604,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='TraderPaint']
 msgctxt "Interface.TraderPaint"
-msgid "Color Corp"
+msgid "Color Corp Paints"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderExotics']
@@ -4462,27 +4624,28 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='TraderOre']
 msgctxt "Interface.TraderOre"
-msgid "MineRite"
+msgid "MineRiteOres"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderHydraulic']
 msgctxt "Interface.TraderHydraulic"
-msgid "HyrdauliKit"
+msgid "HydrauliKit"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderBasic']
 msgctxt "Interface.TraderBasic"
-msgid "Spes'mall"
+msgid "Spes'mall Basics"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderOrganics']
 msgctxt "Interface.TraderOrganics"
-msgid "Organtion"
+msgid "Organicon"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderElectronics']
+#, fuzzy
 msgctxt "Interface.TraderElectronics"
-msgid "Tech Tree"
+msgid "TechTree Electronics"
 msgstr ""
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
@@ -4497,13 +4660,13 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
 msgctxt "Interface.ContactLandingRequestFailSatellite"
-msgid "There is an issue with your Satellite. Check it's connected to the network and powered."
+msgid "There is an issue with your satellite. Check it's connected to the network and powered."
 msgstr ""
 
-#: /Language/Interface/Record[Key='WorldPresetLabel']
-msgctxt "Interface.WorldPresetLabel"
-msgid "Preset"
-msgstr "Esiasetus"
+#: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
+msgctxt "Interface.ContactLandingRequestFailVendingMachine"
+msgid "You need a powered Vending Machine on the network to interact with this trader."
+msgstr ""
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
 msgctxt "Interface.ContactTradeRequestFailInUse"
@@ -4613,27 +4776,27 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, re quests an item of the provided type from the device"
+msgid "When set to the unique identifier, requests an item of the provided type from the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='CollectableGoods']
 msgctxt "Interface.CollectableGoods"
-msgid "Gets the collectable goods that the rocket network can collect."
+msgid "Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet."
 msgstr ""
 
 #: /Language/Interface/Record[Key='RocketMode']
 msgctxt "Interface.RocketMode"
-msgid "Gets the current RocketMode value."
+msgid "Deprecated"
 msgstr ""
 
 #: /Language/Interface/Record[Key='FuelReturnCost']
 msgctxt "Interface.FuelReturnCost"
-msgid "Gets the cost of fuel to return."
+msgid "Gets the cost of fuel to return the rocket to your current world."
 msgstr ""
 
 #: /Language/Interface/Record[Key='FuelInTankRemaining']
 msgctxt "Interface.FuelInTankRemaining"
-msgid "Gets the fuel remaining inside of your rocketfuel tank."
+msgid "Gets the fuel remaining in your rocket's fuel tank."
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMaxQuantity']
@@ -4776,10 +4939,10 @@ msgctxt "Interface.LogicTypePositionX"
 msgid "The current position in X dimension in world coordinates"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeAirRelease']
-msgctxt "Interface.LogicTypeAirRelease"
-msgid "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
-msgstr ""
+#: /Language/Interface/Record[Key='JoinWorldSortBy']
+msgctxt "Interface.JoinWorldSortBy"
+msgid "Sort by"
+msgstr "Lajittele"
 
 #: /Language/Interface/Record[Key='LogicTypeFiltration']
 msgctxt "Interface.LogicTypeFiltration"
@@ -4849,6 +5012,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
 msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
@@ -4960,7 +5128,8 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypeColor']
 msgctxt "Interface.LogicTypeColor"
 msgid ""
-"Whether driven by concerns for clarity, safety or simple aesthetics, <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> have access to a small rainbow of colors for their constructions. These are the color setting for devices, represented as an integer.  \n"
+"\n"
+"        Whether driven by concerns for clarity, safety or simple aesthetics, <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> have access to a small rainbow of colors for their constructions. These are the color setting for devices, represented as an integer.\n"
 "\n"
 "0: Blue\n"
 "1: Grey\n"
@@ -4975,7 +5144,8 @@ msgid ""
 "10: Pink\n"
 "11: Purple\n"
 "\n"
-"It is an unwavering universal law that anything higher than 11 will be purple. The <color=#0080FFFF>{LINK:ODA;ODA}</color> is powerless to change this. Similarly, anything lower than 0 will be Blue."
+"        It is an unwavering universal law that anything higher than 11 will be purple. The <color=#0080FFFF>{LINK:ODA;ODA}</color> is powerless to change this. Similarly, anything lower than 0 will be Blue.\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeIdle']
@@ -5433,7 +5603,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldVenusShortDesc']
 msgctxt "Interface.NewWorldVenusShortDesc"
-msgid "Extreme temperatures and ultra-high pressures make Venus no place for the faint-hearted. Only the most accomplished Stationeers will survive on our once-sister planet, now a barren rock. Dig deep, or go home."
+msgid "Unvarying extreme temperatures and ultra-high pressures make Venus no place for the faint-hearted. Only the most accomplished Stationeers will survive on our once-sister planet, now a barren rock. Dig deep, or go home."
 msgstr ""
 
 #: /Language/Interface/Record[Key='NewWorldSpaceShortDesc']
@@ -5612,10 +5782,13 @@ msgid "Smelting {0}"
 msgstr "Sulatus {0}"
 
 #: /Language/Interface/Record[Key='FurnaceChamberText']
+#, fuzzy
 msgctxt "Interface.FurnaceChamberText"
 msgid ""
-"Pressure {0}\n"
-"                                      Temperature {1}"
+"\n"
+"        Pressure {0}\n"
+"        Temperature {1}\n"
+"      "
 msgstr ""
 
 #: /Language/Interface/Record[Key='FurnaceChamber']
@@ -5670,7 +5843,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='TradingNoMoneyHash']
 msgctxt "Interface.TradingNoMoneyHash"
-msgid "You do not have enough money to complete this transaction!"
+msgid "Not enough money to complete this transaction, make sure you and the trader have enough money to complete the transaction."
 msgstr ""
 
 #: /Language/Interface/Record[Key='Incident_Supply']
@@ -5712,10 +5885,12 @@ msgstr "Anna Nimi..."
 #, fuzzy
 msgctxt "Interface.NewWorldSpaceDesc"
 msgid ""
-"This is Stationeers Creative Mode!Spawn in any item, test ideas and build bonkers stuff real fast.\n"
+"\n"
+"        This is Stationeers Creative Mode!Spawn in any item, test ideas and build bonkers stuff real fast.\n"
 "                                              <color=red>This mode is experimental.</color> Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.\n"
 "                                              Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.\n"
-"                                              *bugs"
+"        *bugs\n"
+"      "
 msgstr ""
 "Tämä on Stationeersin luova tila!\n"
 "Spawnaa mikä tahansa esine, testaa ideoita ja rakenna ihme juttuja todella nopeasti.\n"
@@ -5727,10 +5902,12 @@ msgstr ""
 #, fuzzy
 msgctxt "Interface.NewWorldMoonDesc"
 msgid ""
-"So you're stuck on the moon, but it's not all bad.Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.\n"
+"\n"
+"        So you're stuck on the moon, but it's not all bad.Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.\n"
 "                                              There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery.\n"
 "                                              You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?\n"
-"                                              Looks like you're gonna be here a while."
+"        Looks like you're gonna be here a while.\n"
+"      "
 msgstr ""
 "Olet jumissa kuussa, mutta ei kaikki ole niin huonosti.\n"
 "\t  Joo, on kylmää, karua ja aika yksitoikkoista, mutta ainakin aurinko paistaa. Aurinkopanelille tulee käyttöä, ja virtasäätimelle...ja luultavasti myös valokaariuunille.\n"
@@ -5803,10 +5980,70 @@ msgctxt "Interface.WorldDescriptionLabel"
 msgid "Description"
 msgstr "Kuvaus"
 
-#: /Language/Interface/Record[Key='AlertTitlePleaseWait']
-msgctxt "Interface.AlertTitlePleaseWait"
-msgid "Please Wait..."
-msgstr "Odota hetki..."
+#: /Language/Interface/Record[Key='WorldNameLabel']
+msgctxt "Interface.WorldNameLabel"
+msgid "World Name"
+msgstr "Maailman Nimi"
+
+#: /Language/Interface/Record[Key='WorldPresetLabel']
+msgctxt "Interface.WorldPresetLabel"
+msgid "Preset"
+msgstr "Esiasetus"
+
+#: /Language/Interface/Record[Key='WorldPresetTitle']
+msgctxt "Interface.WorldPresetTitle"
+msgid "World Preset"
+msgstr "Maailman Esiasetus"
+
+#: /Language/Interface/Record[Key='OpenWorkshopButton']
+msgctxt "Interface.OpenWorkshopButton"
+msgid "Open Workshop"
+msgstr "Avaa Workshop"
+
+#: /Language/Interface/Record[Key='WorkshopUnsubscribeButton']
+msgctxt "Interface.WorkshopUnsubscribeButton"
+msgid "Unsubscribe"
+msgstr "Lopeta Tilaus"
+
+#: /Language/Interface/Record[Key='WorkshopPageButton']
+msgctxt "Interface.WorkshopPageButton"
+msgid "Workshop Page"
+msgstr "Workshop Sivu"
+
+#: /Language/Interface/Record[Key='WorkshopSubscribedModsTitle']
+msgctxt "Interface.WorkshopSubscribedModsTitle"
+msgid "Subscribed Mods"
+msgstr "Tilatut Modit"
+
+#: /Language/Interface/Record[Key='JoinWorldEmptyServers']
+msgctxt "Interface.JoinWorldEmptyServers"
+msgid "Hide Empty Servers"
+msgstr "Piilota Tyhjät Palvelimet"
+
+#: /Language/Interface/Record[Key='JoinMenuPasswordProtected']
+msgctxt "Interface.JoinMenuPasswordProtected"
+msgid "Hide Password Protected"
+msgstr "Piilota Salasanalla Suojatut"
+
+#: /Language/Interface/Record[Key='JoinMenuIncompatibleVersions']
+msgctxt "Interface.JoinMenuIncompatibleVersions"
+msgid "Hide Incompatible Versions"
+msgstr "Piilota Yhteensopimattomat Versiot"
+
+#: /Language/Interface/Record[Key='JoinMenuButtonStopRefresh']
+msgctxt "Interface.JoinMenuButtonStopRefresh"
+msgid "Stop Refresh"
+msgstr "Pysäytä"
+
+#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
+msgctxt "Interface.TooltipNeedMoreKit"
+msgid "<color=red>Need more {0}</color>."
+msgstr "<color=red>Tarvitset enemmän {0}</color>."
+
+#, fuzzy
+#~ msgctxt "Interface.Plants"
+#~ msgid "Plants"
+#~ msgstr "Polttoaine"
 
 #, fuzzy
 #~ msgctxt "Interface.StationpediaAdvancedGuides"
@@ -5822,15 +6059,6 @@ msgstr "Odota hetki..."
 #~ msgctxt "Interface.TK"
 #~ msgid "TK"
 #~ msgstr "OK"
-
-#, fuzzy
-#~ msgctxt "Interface.FurnaceChamberText"
-#~ msgid ""
-#~ "Pressure {0}\n"
-#~ "Temperature {1}"
-#~ msgstr ""
-#~ "Paine {0}\n"
-#~ "Lämpötila {1}"
 
 #~ msgctxt "Interface.ScenarioScoreboardBackToMenu"
 #~ msgid "Exit To Menu"

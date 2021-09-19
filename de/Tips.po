@@ -15,11 +15,13 @@ msgid "Press {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}
 msgstr "Durch drücken von {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, oder {KEY:ToolBeltSlot} kann zwischen den Aktionen und Inventaren der angelegten Ausrüstung gewechselt werden. Durch Drücken und Halten der einer der Tasten, kann Ausrüstung zwischen dem Ausrüstungsplatz und der aktiven Hand gewechselt werden. "
 
 #: /Language/GameTip/String[1]
-msgid "Press {KEY:ToggleHandPower} to toggle what you're holding in your hands on or off quickly."
+#, fuzzy
+msgid "Pressing {KEY:ToggleHandPower} or {KEY:SecondaryAction} toggles power on/off for items in your hand."
 msgstr "Durch drücken von {KEY:ToggleHandPower} kann ein Gerät schnell ein- oder ausgeschaltet werden."
 
 #: /Language/GameTip/String[2]
-msgid "Press {KEY:ToggleLight} to toggle your {THING:ItemSpaceHelmet} lights on or off quickly."
+#, fuzzy
+msgid "Press {KEY:ToggleLight} to toggle your {THING:ItemSpaceHelmet} light on/off."
 msgstr "Durch drücken von {KEY:ToggleLight} können die Lampen des {THING:ItemSpaceHelmet} schnell an- und ausgeschaltet werden."
 
 #: /Language/GameTip/String[3]
@@ -27,180 +29,197 @@ msgid "Press {KEY:EmoteWave} to make your character wave at other stationeers."
 msgstr "Durch drücken von {KEY:EmoteWave} kann der eigene Charakter anderen Stationeers zuwinken."
 
 #: /Language/GameTip/String[4]
-msgid "Press {KEY:Jetpack} to toggle your {THING:ItemSpacepack} propulsion on or off quickly."
+#, fuzzy
+msgid "Press {KEY:Jetpack} to toggle your {THING:ItemSpacepack} on/off."
 msgstr "Durch drücken von {KEY:Jetpack} kann das {THING:ItemSpacepack} an- und ausgeschaltet werden."
 
 #: /Language/GameTip/String[5]
-msgid "Press {KEY:ToggleUI} to toggle the User Interface on or off to get amazing screenshots or video."
+#, fuzzy
+msgid "Press {KEY:ToggleUI} to toggle the User Interface on/off to get screenshots or video."
 msgstr "Mit {KEY:ToggleUI} kann die UI für z.B. Screenshots oder Videos ein und ausgeblendet werden."
 
 #: /Language/GameTip/String[6]
-msgid "Pressing {KEY:Ascend} will make you ascend if your {THING:ItemSpacepack} is on, otherwise your character will try to jump. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key."
+#, fuzzy
+msgid "Press {KEY:Ascend} to fly up when your {THING:ItemSpacepack} is on. Press {KEY:Descend} to descend."
 msgstr "{KEY:Ascend} sorgt bei aktivem {THING:ItemSpacepack} für Auftrieb, anderenfalls wird ein Sprung ausgeführt. Ein {THING:ItemSpacepack} kann mit {KEY:Jetpack} aktiviert und deaktiviert werden."
 
 #: /Language/GameTip/String[7]
-msgid "Pressing {KEY:Descend} will make you descend if your {THING:ItemSpacepack} is on. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key."
+#, fuzzy
+msgid "Pressing {KEY:InventorySelect} swaps between an inventory slots and your active hand."
 msgstr "{KEY:Descend} sorgt bei aktivem {THING:ItemSpacepack} zum Herabsinken. Ein {THING:ItemSpacepack} mit {KEY:Jetpack} aktiviert und deaktiviert werden.."
 
 #: /Language/GameTip/String[8]
-msgid "Press the {KEY:InventorySelect} key if you want to swap something between an open inventory slot and your active hand."
-msgstr "Durch drücken von {KEY:InventorySelect}, kann etwas zwischen aktiver Hand und einem freien Inventarplatz hin und her getauscht werden."
+msgid "Pressing {KEY:Drop} drops whatever's in your hand. Holding {KEY:Drop} throws it. Hold longer to throw further."
+msgstr ""
 
 #: /Language/GameTip/String[9]
-msgid "Pressing and releasing the {KEY:Drop} key will make you immediately drop whatever is in your hands. If you hold the {KEY:Drop} key down, it will try to throw it. The longer you hold it, the further you will throw."
+#, fuzzy
+msgid "Pressing {KEY:SwapHands} swaps your active hand. Press {KEY:ActiveHandSlot} to cycle through the interaction options on whatever' i's in your active hand."
 msgstr "Drücken und sofortiges loslassen der Taste {KEY:Drop} wird den - aktuell in der Hand gehaltenen - Gegenstand fallen lassen. Wird {KEY:Drop} gehalten, wird versucht den Gegenstand zu werfen. Desto länger die Taste gehalten wird, desto weiter wird versucht zu werfen."
 
 #: /Language/GameTip/String[10]
-msgid "Pressing {KEY:SwapHands} swaps what hand is active. Pressing {KEY:ActiveHandSlot} will cycle through the interaction options on whatever is in your active hand."
-msgstr "{KEY:SwapHands} wechselt die aktive Hand. {KEY:ActiveHandSlot} aktiviert das Interaktionsmenü für den Gegenstand in der aktiven Hand."
-
-#: /Language/GameTip/String[11]
 msgid "Press {KEY:Internals} to quickly toggle your {THING:ItemSpaceHelmet} open or closed."
 msgstr "Durch drücken von {KEY:Internals}, kann der {THING:ItemSpaceHelmet} schnell geöffnet und geschlossen werden."
 
+#: /Language/GameTip/String[11]
+msgid "Press {KEY:Chatting} to start chatting to other players."
+msgstr ""
+
 #: /Language/GameTip/String[12]
-msgid "Press {KEY:Chatting} to start chatting to other players. A small box will appear in the lower right of the screen with the text you write before sending."
+#, fuzzy
+msgid "Press {KEY:RotateLeft} to rotate the construction cursor left, {KEY:RotateRight} to rotate right, {KEY:RotateUp} to rotate up, {KEY:RotateDown} to rotate down, {KEY:RotateRollLeft} to roll left, or {KEY:RotateRollRight} to roll right."
 msgstr "{KEY:Chatting} erlaubt es Spielern über eine kleine Chatbox in der unteren rechten Ecke deines Bildschirms miteinander zu kommunizieren."
 
 #: /Language/GameTip/String[13]
-msgid "To change the orientation of your construction cursor, press {KEY:RotateLeft} to rotate left, {KEY:RotateRight} to rotate right, {KEY:RotateUp} to rotate up, {KEY:RotateDown} to rotate down, {KEY:RotateRollLeft} to roll left, or {KEY:RotateRollRight} to roll right."
-msgstr "Zu Bauende Gegenstände können mit {KEY:RotateLeft} nach links, {KEY:RotateRight} nach rechts, {KEY:RotateUp} aufwärts rotieren und mit {KEY:RotateDown} abwärts rotiert werden. {KEY:RotateRollLeft} rollt diesen nach links und {KEY:RotateRollRight} nach rechts."
+msgid "Space isn't as empty as it sounds."
+msgstr ""
 
 #: /Language/GameTip/String[14]
-msgid "Want to know how to make something? Insert a {THING:CartridgeElectronicReader} into a {THING:ItemTablet} and turn it on with the {KEY:ToggleHandPower} key while it's in your active hand."
+#, fuzzy
+msgid "Place a stack of {THING:ItemIronOre} in a powered {THING:StructureArcFurnace} to smelt an {THING:ItemIronIngot}."
 msgstr "Um zu erfahren wie etwas funktioniert, muss die {THING:CartridgeElectronicReader} in einem {THING:ItemTablet} platziert und mit {KEY:ToggleHandPower} eingeschaltet werden, während es sich in der aktiven Hand befindet."
 
 #: /Language/GameTip/String[15]
-msgid "Hold a {THING:ItemWeldingTorch} in one hand while turned on, and a stack of {THING:ItemIronSheets} in another in order to upgrade the build state of an {THING:StructureFrameIron}."
+#, fuzzy
+msgid "Place a {THING:MotherboardLogic} in a {THING:StructureComputer} to enable logic with an IC chip. You will be able to add conditions and actions that control the states of devices on the same data network."
 msgstr "Mit einem eingeschalteten {THING:ItemWeldingTorch} in der aktiven und einen Stapel {THING:ItemIronSheets} in der passiven Hand, kann ein {THING:StructureFrameIron} aufgewertet werden."
 
 #: /Language/GameTip/String[16]
-msgid "Place a stack of {THING:ItemIronOre} in a powered {THING:StructureArcFurnace} in order to smelt it into an {THING:ItemIronIngot}."
-msgstr "Wird ein Stapel {THING:ItemIronOre} in einem angeschalteten {THING:StructureArcFurnace} platziert, kann er zu {THING:ItemIronIngot} geschmolzen werden."
-
-#: /Language/GameTip/String[17]
-#, fuzzy
-msgid "Place a {THING:MotherboardLogic} in a {THING:StructureComputer} to enable logic with an IC chip. You will be able to add conditions and actions that control the states of devices on the same data network."
-msgstr "Mit einem {THING:MotherboardLogic} in einem {THING:StructureComputer} wird die Logikkontrolle zu aktiviert. So ist es möglich Bedingungen und Aktionen zu definieren, die Geräte im gleichen Netzwerk steuern."
-
-#: /Language/GameTip/String[18]
 msgid "When altering the quantity of something via a button in world, hold down {KEY:QuantityModifier} while clicking to use smaller increments."
 msgstr "Eine gedrückte {KEY:QuantityModifier}-Taste erlaubt es numerische Werte in kleineren Sprüngen einzustellen."
 
-#: /Language/GameTip/String[19]
+#: /Language/GameTip/String[17]
 msgid "Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicReader} or {THING:StructureLogicWriter}. Readers allow you to read values from other devices, writers allow you to change values on devices. When combined with Math Units, you can make extremely complex automated systems."
 msgstr "Die Verwendung eines {THING:ItemKitLogicInputOutput} erlaubt die Plazierung eines {THING:StructureLogicReader} oder {THING:StructureLogicWriter}. Sie erlauben das Auslesen und Schreiben von Werten an diversen Geräten. Wenn diese mit mathematischen Logikeinheiten kombiniert werden, können komplexe automatisierte Systeme erschaffen werden."
 
-#: /Language/GameTip/String[20]
+#: /Language/GameTip/String[18]
 msgid "Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicBatchReader} or {THING:StructureLogicBatchWriter}. Readers allow you to read values from an entire group of other devices, writers allow you to change values on entire groups of other devices."
 msgstr "Die Verwendung eines {THING:ItemKitLogicInputOutput} erlaubt die Plazierung eines {THING:StructureLogicBatchReader} oder {THING:StructureLogicBatchWriter}. Sie erlauben das Lesen und Schreiben ganzer Gerätegruppen."
 
-#: /Language/GameTip/String[21]
+#: /Language/GameTip/String[19]
 msgid "Use a {THING:StructureRecycler} to convert things you no longer want into usable reagents. Pass the outputted {THING:ItemReagentMix} into a {THING:StructureCentrifuge} to convert it back into ore, ready for a {THING:StructureFurnace}."
 msgstr "{THING:StructureRecycler} wandelt nicht mehr benötigte Gegenstände in {THING:ItemReagentMix} um. Diese können dann in einer {THING:StructureCentrifuge} zurück in Erz aufgespalten werden welche in einem {THING:StructureFurnace} wieder in Barren umgewandelt werden können..."
 
-#: /Language/GameTip/String[22]
+#: /Language/GameTip/String[20]
 msgid "Use a {THING:StructureHydraulicPipeBender} to manufacture atmospheric items, such as the {THING:ItemKitAtmospherics} which allows you to build useful machines such as the {THING:StructureAirConditioner} or {THING:StructureFiltration}."
 msgstr "{THING:StructureHydraulicPipeBender} erlaubt die Herstellung von Gegenständen zur Änderung und Manipulation der Umluft und Gasen wie z.B. {THING:ItemKitAtmospherics} welche zur Platzierung von {THING:StructureAirConditioner} oder {THING:StructureFiltration} benötigt wird."
 
-#: /Language/GameTip/String[23]
+#: /Language/GameTip/String[21]
 #, fuzzy
 msgid "The more damaged your suit is, the less efficiently it will work. Duct tape can fix that."
-msgstr "Je mehr Schaden dein Anzug erleidet, desto ineffizienter wird er funktionieren."
+msgstr "{THING:StructureRecycler} wandelt nicht mehr benötigte Gegenstände in {THING:ItemReagentMix} um. Diese können dann in einer {THING:StructureCentrifuge} zurück in Erz aufgespalten werden welche in einem {THING:StructureFurnace} wieder in Barren umgewandelt werden können..."
 
-#: /Language/GameTip/String[24]
+#: /Language/GameTip/String[22]
 msgid "The more damaged your suit is, the less efficiently it will work."
 msgstr "Je mehr Schaden dein Anzug erleidet, desto ineffizienter wird er funktionieren."
 
-#: /Language/GameTip/String[25]
+#: /Language/GameTip/String[23]
 msgid "After the original Stationeers Handbook collapsed into a singularity, it was replaced by the Stationpedia. Press {KEY:Help} to open it for guidance in-game."
 msgstr ""
 
-#: /Language/GameTip/String[26]
+#: /Language/GameTip/String[24]
 msgid "Your starting {THING:ItemEvaSuit} and {THING:ItemSpaceHelmet} will catch on fire in a hot temperatures. Use {THING:ItemHardSuit} in dangerous environments."
 msgstr "Ihr Anfangs-{THING:ItemEVASuit} und {THING:ItemSpaceHelmet} würden bei hohen Temperaturen Feuer fangen. Benutzen sie {THING:ItemHardSuit} in gefährlichen Umgebungen."
 
-#: /Language/GameTip/String[27]
+#: /Language/GameTip/String[25]
 msgid "The Stationeers program was established by the Offworld Development Agency to support exploration of the Solar System, and beyond."
 msgstr ""
 
-#: /Language/GameTip/String[28]
-msgid "Paying attention to your suit warnings can help you prevent a disaster."
-msgstr "Auf die Warnungen deines Anzugs zu hören kann dich vor einem Desaster bewahren."
+#: /Language/GameTip/String[26]
+#, fuzzy
+msgid "Paying attention to your suit warnings. They can help prevent disaster."
+msgstr "Ihr Anfangs-{THING:ItemEVASuit} und {THING:ItemSpaceHelmet} würden bei hohen Temperaturen Feuer fangen. Benutzen sie {THING:ItemHardSuit} in gefährlichen Umgebungen."
 
-#: /Language/GameTip/String[29]
+#: /Language/GameTip/String[27]
 msgid "{THING:ItemHardBackpack} can carry more items, but can't carry you!"
 msgstr "{THING:ItemHardBackpack} kann zwar mehr Gegenstände tragen, aber dafür nicht dich!"
 
-#: /Language/GameTip/String[31]
-msgid "If your station feels gloomy, lift your mood with tunes from the {THING:StructureKlaxon}."
-msgstr "Ihre Station fühlt sich düster an. Heben Sie die Stimmung mit Melodien aus dem {THING:StructureKlaxon}."
+#: /Language/GameTip/String[29]
+#, fuzzy
+msgid "If your station feels gloomy, lift your mood with tunes from the {THING:StructureKlaxon} or build your own sampler using logic."
+msgstr "{THING:ItemHardBackpack} kann zwar mehr Gegenstände tragen, aber dafür nicht dich!"
 
-#: /Language/GameTip/String[32]
+#: /Language/GameTip/String[30]
 #, fuzzy
 msgid "{THING:StructureHarvie} allows you to fully automate the planting, growing and harvesting of plants."
 msgstr "Du kannst alle offenen Fenster auf deinem Bildschirm schließen indem du {KEY:HideAllWindows} drückst."
 
-#: /Language/GameTip/String[33]
+#: /Language/GameTip/String[31]
 msgid "The Extended Tooltips can be turned on/off in the Settings menu."
 msgstr "Die erweiterten Tooltips können im Einstellungsmenü ein/aus geschaltet werden."
 
-#: /Language/GameTip/String[34]
+#: /Language/GameTip/String[32]
 msgid "You can clear all open windows on your screen at once by pressing {KEY:HideAllWindows}."
 msgstr "Du kannst alle offenen Fenster auf deinem Bildschirm schließen indem du {KEY:HideAllWindows} drückst."
 
-#: /Language/GameTip/String[35]
-msgid "Window positions are saved and will be restored when you load your world. Custom window positions can be reset using the Reset Window Position button on the Misc Settings page."
-msgstr "Fensterpositionen werden gespeichert und beim Laden Ihrer Welt wiederhergestellt. Benutzerdefinierte Fensterpositionen können SIe mit der Schaltfläche Fensterposition Zurücksetzen auf der Seite Sonstige Einstellungen zurückgesetzt werden."
-
-#: /Language/GameTip/String[36]
+#: /Language/GameTip/String[33]
 msgid "{THING:ItemCrowbar} can be used to open unpowered doors and power controllers."
 msgstr "{THING:ItemCrowbar} kann benutzt werden um Türen und Ersatzstromversorgungen im spannungsfreien Zustand zu öffnen."
 
-#: /Language/GameTip/String[37]
+#: /Language/GameTip/String[34]
 msgid "{THING:ItemMiningDrill} can be changed to 'Flatten' mode to help you create flat floors when mining."
 msgstr "Der {THING:ItemMiningDrill} kann in den 'glätten' Modus umgeschaltet werden, um dir beim erstellen von ebenen Oberflächen beim Graben zu helfen."
 
-#: /Language/GameTip/String[38]
+#: /Language/GameTip/String[35]
 msgid "The {THING:ItemWearLamp} can be used for illumination without wearing a helmet."
 msgstr "Die {THING:ItemWearLamp} kann genutzt werden um dunkle Bereiche zu erleuchten, ohne einen Helm zu tragen."
 
-#: /Language/GameTip/String[39]
+#: /Language/GameTip/String[36]
 msgid "By holding {KEY:MouseControl} you can enable your mouse cursor and drag items in and out of your inventory or between slots."
 msgstr "Wenn Sie die Taste {KEY:MouseControl} gedrückt halten, können Sie den Mauszeiger aktivieren und Elemente in Ihr Inventar oder aus diesem heraus ziehen."
 
-#: /Language/GameTip/String[40]
-#, fuzzy
-msgid "Sick of replacing normal filters? Medium and Heavy filters last 5x and 20x as long, but are more expensive."
-msgstr "Nervt es dich andauernd die normalen Filter zu tauschen? Mittlere und schwere Filter halten 5-mal bzw. 20-mal so lange, aber sie sind auch teurer."
-
-#: /Language/GameTip/String[41]
+#: /Language/GameTip/String[37]
 msgid "The basic space helmet insulates Stationeers against everything from hard vacuum to weird cooking smells."
 msgstr ""
 
-#: /Language/GameTip/String[42]
+#: /Language/GameTip/String[38]
 msgid "Physics is your friend. Until it's not."
 msgstr ""
 
-#: /Language/GameTip/String[43]
+#: /Language/GameTip/String[39]
 msgid "The frictional adherence adjustor is a bi-rotational model with a columnated uni-grip. It's not just a screwdriver"
 msgstr ""
 
-#: /Language/GameTip/String[44]
-msgid "It's not actually 'milk', but an Agrizero-patented synthesis of {THING:ItemSoyOil} and {THING:ReagentFenoxitone}, delicately blended in the {THING:ApplianceChemistryStation}."
+#: /Language/GameTip/String[40]
+msgid "It's not actually 'milk', but an Agrizero-patented synthesis of {THING:ItemSoyOil} and {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}."
 msgstr ""
 
-#: /Language/GameTip/String[45]
+#: /Language/GameTip/String[41]
 msgid "Illegal on Earth since the Chengdu Event, Norsec nuclear power cells found a new and drastically less safety-conscious market offworld."
 msgstr ""
 
-#: /Language/GameTip/String[46]
+#: /Language/GameTip/String[42]
 msgid "Hungry? Cereal bars are compact, nutritious, and refreshingly low on radiation."
 msgstr ""
 
-#: /Language/GameTip/String[47]
+#: /Language/GameTip/String[43]
 msgid "Sick of replacing normal filters?  Medium and Heavy filters last 5x and 20x as long, but are more expensive."
 msgstr "Nervt es dich andauernd die normalen Filter zu tauschen? Mittlere und schwere Filter halten 5-mal bzw. 20-mal so lange, aber sie sind auch teurer."
+
+#~ msgid "Pressing {KEY:Ascend} will make you ascend if your {THING:ItemSpacepack} is on, otherwise your character will try to jump. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key."
+#~ msgstr "{KEY:Ascend} sorgt bei aktivem {THING:ItemSpacepack} für Auftrieb, anderenfalls wird ein Sprung ausgeführt. Ein {THING:ItemSpacepack} kann mit {KEY:Jetpack} aktiviert und deaktiviert werden."
+
+#~ msgid "Pressing {KEY:Descend} will make you descend if your {THING:ItemSpacepack} is on. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key."
+#~ msgstr "{KEY:Descend} sorgt bei aktivem {THING:ItemSpacepack} zum Herabsinken. Ein {THING:ItemSpacepack} mit {KEY:Jetpack} aktiviert und deaktiviert werden.."
+
+#~ msgid "Pressing and releasing the {KEY:Drop} key will make you immediately drop whatever is in your hands. If you hold the {KEY:Drop} key down, it will try to throw it. The longer you hold it, the further you will throw."
+#~ msgstr "Drücken und sofortiges loslassen der Taste {KEY:Drop} wird den - aktuell in der Hand gehaltenen - Gegenstand fallen lassen. Wird {KEY:Drop} gehalten, wird versucht den Gegenstand zu werfen. Desto länger die Taste gehalten wird, desto weiter wird versucht zu werfen."
+
+#~ msgid "Press {KEY:Chatting} to start chatting to other players. A small box will appear in the lower right of the screen with the text you write before sending."
+#~ msgstr "{KEY:Chatting} erlaubt es Spielern über eine kleine Chatbox in der unteren rechten Ecke deines Bildschirms miteinander zu kommunizieren."
+
+#~ msgid "Want to know how to make something? Insert a {THING:CartridgeElectronicReader} into a {THING:ItemTablet} and turn it on with the {KEY:ToggleHandPower} key while it's in your active hand."
+#~ msgstr "Um zu erfahren wie etwas funktioniert, muss die {THING:CartridgeElectronicReader} in einem {THING:ItemTablet} platziert und mit {KEY:ToggleHandPower} eingeschaltet werden, während es sich in der aktiven Hand befindet."
+
+#~ msgid "Hold a {THING:ItemWeldingTorch} in one hand while turned on, and a stack of {THING:ItemIronSheets} in another in order to upgrade the build state of an {THING:StructureFrameIron}."
+#~ msgstr "Mit einem eingeschalteten {THING:ItemWeldingTorch} in der aktiven und einen Stapel {THING:ItemIronSheets} in der passiven Hand, kann ein {THING:StructureFrameIron} aufgewertet werden."
+
+#~ msgid "Window positions are saved and will be restored when you load your world. Custom window positions can be reset using the Reset Window Position button on the Misc Settings page."
+#~ msgstr "Fensterpositionen werden gespeichert und beim Laden Ihrer Welt wiederhergestellt. Benutzerdefinierte Fensterpositionen können SIe mit der Schaltfläche Fensterposition Zurücksetzen auf der Seite Sonstige Einstellungen zurückgesetzt werden."
+
+#, fuzzy
+#~ msgid "Sick of replacing normal filters? Medium and Heavy filters last 5x and 20x as long, but are more expensive."
+#~ msgstr "Nervt es dich andauernd die normalen Filter zu tauschen? Mittlere und schwere Filter halten 5-mal bzw. 20-mal so lange, aber sie sind auch teurer."
 
 #~ msgid "Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicSlotReader} which allows you to read slot values from device with slots. Some devices allow you to get specialist slot information such as plant growth in the {THING:StructureHydroponicsStation}."
 #~ msgstr "Die Verwendung eines {THING:ItemKitLogicInputOutput} erlaubt die Platzierung eines {THING:StructureLogicSlotReader}, welche es ermöglichen Werte aus einem Steckplatz auszulesen. Einige Geräte erlauben das Auslesen spezieller Informationen wie das aktuelle Pflanzenwachstum einer {THING:StructureHydroponicsStation}."
