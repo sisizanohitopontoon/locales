@@ -15,11 +15,6 @@ msgctxt "Interface.JoinMenuFiltersTitle"
 msgid "Filters"
 msgstr "Фильтры"
 
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr "Стены и полы"
-
 #: /Language/Interface/Record[Key='SafetyCategory']
 msgctxt "Interface.SafetyCategory"
 msgid "Safety and Transport"
@@ -39,6 +34,11 @@ msgstr "Очки"
 msgctxt "Interface.PersonalClothing"
 msgid "Clothing"
 msgstr "Одежда"
+
+#: /Language/Interface/Record[Key='OreHeader']
+msgctxt "Interface.OreHeader"
+msgid "Ores"
+msgstr "Руды"
 
 #: /Language/Interface/Record[Key='ReagentsHeader']
 msgctxt "Interface.ReagentsHeader"
@@ -221,10 +221,10 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Сохранённые миры"
 
-#: /Language/Interface/Record[Key='LogicTypeAirRelease']
-msgctxt "Interface.LogicTypeAirRelease"
-msgid "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
-msgstr "Текущее состояние системы подачи воздуха, например AirRelease = 1 для прочного скафандра включает подачу воздуха"
+#: /Language/Interface/Record[Key='LogicTypePressureSetting']
+msgctxt "Interface.LogicTypePressureSetting"
+msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
+msgstr "Текущие параметры для внутреннего давления объекта (к примеру: (Air release) подача воздуха в Прочном Скафандре), в кПа"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -732,6 +732,11 @@ msgctxt "Interface.SettingsTitleMixer"
 msgid "Mixer"
 msgstr "Микшер"
 
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr "Стены и полы"
+
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -756,11 +761,6 @@ msgstr "Прочие настройки"
 msgctxt "Interface.SettingsLanguage"
 msgid "Language"
 msgstr "Язык"
-
-#: /Language/Interface/Record[Key='OreHeader']
-msgctxt "Interface.OreHeader"
-msgid "Ores"
-msgstr "Руды"
 
 #: /Language/Interface/Record[Key='SettingsVoiceControl']
 msgctxt "Interface.SettingsVoiceControl"
@@ -1574,11 +1574,6 @@ msgctxt "Interface.SettingsSmoothTerrain"
 msgid "Smooth Terrain"
 msgstr "Территория"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
-msgstr "Коэффициент Голода/Гидратации"
-
 #: /Language/Interface/Record[Key='MoleNitrousOxideDescription']
 msgctxt "Interface.MoleNitrousOxideDescription"
 msgid "Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh."
@@ -1593,6 +1588,11 @@ msgid ""
 "\n"
 "Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.\n"
 msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger/Hydration Rate"
+msgstr "Коэффициент Голода/Гидратации"
 
 #: /Language/Interface/Record[Key='MolePollutantDescription']
 msgctxt "Interface.MolePollutantDescription"
@@ -4842,10 +4842,10 @@ msgctxt "Interface.LogicTypePositionX"
 msgid "The current position in X dimension in world coordinates"
 msgstr "Текущая позиция по оси X в мировых координатах"
 
-#: /Language/Interface/Record[Key='JoinWorldSortBy']
-msgctxt "Interface.JoinWorldSortBy"
-msgid "Sort by"
-msgstr "Сортировать"
+#: /Language/Interface/Record[Key='LogicTypeAirRelease']
+msgctxt "Interface.LogicTypeAirRelease"
+msgid "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
+msgstr "Текущее состояние системы подачи воздуха, например AirRelease = 1 для прочного скафандра включает подачу воздуха"
 
 #: /Language/Interface/Record[Key='LogicTypeFiltration']
 msgctxt "Interface.LogicTypeFiltration"
@@ -4862,10 +4862,10 @@ msgctxt "Interface.LogicTypeTemperatureSetting"
 msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
 msgstr "Текущие параметры для внутренней температуры объекта (к примеру: A/C Прочного скафандра)"
 
-#: /Language/Interface/Record[Key='LogicTypePressureSetting']
-msgctxt "Interface.LogicTypePressureSetting"
-msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
-msgstr "Текущие параметры для внутреннего давления объекта (к примеру: (Air release) подача воздуха в Прочном Скафандре), в кПа"
+#: /Language/Interface/Record[Key='JoinWorldSortBy']
+msgctxt "Interface.JoinWorldSortBy"
+msgid "Sort by"
+msgstr "Сортировать"
 
 #: /Language/Interface/Record[Key='LogicTypeOutput']
 msgctxt "Interface.LogicTypeOutput"

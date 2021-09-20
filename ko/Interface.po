@@ -15,11 +15,6 @@ msgctxt "Interface.JoinMenuFiltersTitle"
 msgid "Filters"
 msgstr "필터"
 
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr "벽과 바닥"
-
 #: /Language/Interface/Record[Key='SafetyCategory']
 msgctxt "Interface.SafetyCategory"
 msgid "Safety and Transport"
@@ -39,6 +34,11 @@ msgstr "안경"
 msgctxt "Interface.PersonalClothing"
 msgid "Clothing"
 msgstr "옷"
+
+#: /Language/Interface/Record[Key='OreHeader']
+msgctxt "Interface.OreHeader"
+msgid "Ores"
+msgstr "광석"
 
 #: /Language/Interface/Record[Key='ReagentsHeader']
 msgctxt "Interface.ReagentsHeader"
@@ -116,7 +116,6 @@ msgid "Fabricators"
 msgstr "제조기"
 
 #: /Language/Interface/Record[Key='Edibles']
-#, fuzzy
 msgctxt "Interface.Edibles"
 msgid "Edibles and food"
 msgstr ""
@@ -221,9 +220,9 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "저장된 세계"
 
-#: /Language/Interface/Record[Key='LogicTypeAirRelease']
-msgctxt "Interface.LogicTypeAirRelease"
-msgid "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
+#: /Language/Interface/Record[Key='LogicTypePressureSetting']
+msgctxt "Interface.LogicTypePressureSetting"
+msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
 msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
@@ -735,6 +734,11 @@ msgctxt "Interface.SettingsTitleMixer"
 msgid "Mixer"
 msgstr "믹서"
 
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr "벽과 바닥"
+
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
@@ -759,11 +763,6 @@ msgstr "기타 설정"
 msgctxt "Interface.SettingsLanguage"
 msgid "Language"
 msgstr "언어"
-
-#: /Language/Interface/Record[Key='OreHeader']
-msgctxt "Interface.OreHeader"
-msgid "Ores"
-msgstr "광석"
 
 #: /Language/Interface/Record[Key='SettingsVoiceControl']
 msgctxt "Interface.SettingsVoiceControl"
@@ -1584,12 +1583,6 @@ msgctxt "Interface.SettingsSmoothTerrain"
 msgid "Smooth Terrain"
 msgstr "Terrain"
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-#, fuzzy
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
-msgstr "배고픔 비율"
-
 #: /Language/Interface/Record[Key='MoleNitrousOxideDescription']
 msgctxt "Interface.MoleNitrousOxideDescription"
 msgid "Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh."
@@ -1604,6 +1597,12 @@ msgid ""
 "\n"
 "Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.\n"
 msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+#, fuzzy
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger/Hydration Rate"
+msgstr "배고픔 비율"
 
 #: /Language/Interface/Record[Key='MolePollutantDescription']
 msgctxt "Interface.MolePollutantDescription"
@@ -4613,13 +4612,11 @@ msgid "Spes'mall Basics"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderOrganics']
-#, fuzzy
 msgctxt "Interface.TraderOrganics"
 msgid "Organicon"
 msgstr ""
 
 #: /Language/Interface/Record[Key='TraderElectronics']
-#, fuzzy
 msgctxt "Interface.TraderElectronics"
 msgid "TechTree Electronics"
 msgstr ""
@@ -4917,10 +4914,10 @@ msgctxt "Interface.LogicTypePositionX"
 msgid "The current position in X dimension in world coordinates"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinWorldSortBy']
-msgctxt "Interface.JoinWorldSortBy"
-msgid "Sort by"
-msgstr "정렬 기준"
+#: /Language/Interface/Record[Key='LogicTypeAirRelease']
+msgctxt "Interface.LogicTypeAirRelease"
+msgid "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeFiltration']
 msgctxt "Interface.LogicTypeFiltration"
@@ -4937,10 +4934,10 @@ msgctxt "Interface.LogicTypeTemperatureSetting"
 msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePressureSetting']
-msgctxt "Interface.LogicTypePressureSetting"
-msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
-msgstr ""
+#: /Language/Interface/Record[Key='JoinWorldSortBy']
+msgctxt "Interface.JoinWorldSortBy"
+msgid "Sort by"
+msgstr "정렬 기준"
 
 #: /Language/Interface/Record[Key='LogicTypeOutput']
 msgctxt "Interface.LogicTypeOutput"
@@ -5763,7 +5760,6 @@ msgid "Smelting {0}"
 msgstr "Smelting {0}"
 
 #: /Language/Interface/Record[Key='FurnaceChamberText']
-#, fuzzy
 msgctxt "Interface.FurnaceChamberText"
 msgid ""
 "\n"
