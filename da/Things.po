@@ -15,6 +15,11 @@ msgctxt "Things.StructureFlatBench"
 msgid "Bench (Flat)"
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='StructureSolarPanel45Reinforced']
+msgctxt "Things.StructureSolarPanel45Reinforced"
+msgid "This solar panel is resistant to storm damage."
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='StructureSolarPanelDualReinforced']
 msgctxt "Things.StructureSolarPanelDualReinforced"
 msgid "Solar Panel (Heavy Dual)"
@@ -404,7 +409,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterEmpty']
 msgctxt "Things.DynamicMKIILiquidCanisterEmpty"
-msgid "Portable Liquid Tank Mk II (Empty)"
+msgid "Portable Liquid Tank Mk II"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterEmpty']
@@ -642,7 +647,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureRocketModuleSilo']
 msgctxt "Things.StructureRocketModuleSilo"
 msgid ""
-"The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autononmous silo module provides storage for <color=#0080FFFF>{LINK:OrePage;ores}</color> collected by the {THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices}</color> collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureModularRocketScrapMining} . In other words, it holds 'medium-sized dry goods'.\n"
+"The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autononmous silo module provides storage for <color=#0080FFFF>{LINK:OrePage;ores}</color> collected by the {THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices}</color> collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureModularRocketScrapMining} . In other words, it holds up to 600 'medium-sized dry goods'.\n"
 "The silo module must be connected to a mining or salvage module by a correctly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for material to pass into the silo.\n"
 "The silo module must also be powered when on the launch pad. It is 'on' by default, but can be turned off with logic if needed. \n"
 "The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color> networks.\n"
@@ -850,7 +855,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanel45Reinforced']
 msgctxt "Things.StructureSolarPanel45Reinforced"
-msgid "This solar panel is resistant to storm damage."
+msgid "Solar Panel (Heavy Angled)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWaterPipeDigitalValve']
@@ -2518,11 +2523,6 @@ msgctxt "Things.Battery_Wireless_cell_Big"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureSolarPanel45Reinforced']
-msgctxt "Things.StructureSolarPanel45Reinforced"
-msgid "Solar Panel (Heavy Angled)"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='ItemKitSolarPanelBasicReinforced']
 msgctxt "Things.ItemKitSolarPanelBasicReinforced"
 msgid "This solar panel is resistant to storm damage."
@@ -3480,14 +3480,14 @@ msgctxt "Things.ItemWreckageLight2"
 msgid "Description coming."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
-msgctxt "Things.StructureWaterPipeMeter"
-msgid "{BLANK}"
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='ItemWreckageLight2']
 msgctxt "Things.ItemWreckageLight2"
 msgid "Wreckage Light"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
+msgctxt "Things.StructureWaterPipeMeter"
+msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageLight1']
@@ -5166,6 +5166,11 @@ msgid "Ore (Cobalt)"
 msgstr "Malm (Bly)"
 
 #: /Language/Things/RecordThing[Key='ItemAstroloyIngot']
+msgctxt "Things.ItemAstroloyIngot"
+msgid "Due to the original Stationeer manual collapsing into a singularity, Astroloy recipes have been warped by spacetime contortions. The correct Astroloy recipe, as memorialized for all time in a series of charming plastic icons, is 1.0 Copper, 1.0 Cobalt, and 2.0 Steel."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemAstroloyIngot']
 #, fuzzy
 msgctxt "Things.ItemAstroloyIngot"
 msgid "Ingot (Astroloy)"
@@ -5230,8 +5235,12 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
 msgid ""
-"Designed by - presumably drunk - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> best friend, or tiresome nemesis, or both several times in the same day. Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate.\n"
+"Designed by - presumably drunk - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> best friend, or tiresome nemesis, or both several times in the same day. \n"
+"      \n"
+"Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate, and {THING:MotherboardProgrammableChip}.\n"
+"\n"
 "AIMEe has 7 modes:\n"
+"\n"
 "RobotMode.None = 0 = Do nothing\n"
 "RobotMode.None = 1 = Follow nearest player\n"
 "RobotMode.None = 2 = Move to target in straight line\n"
@@ -5587,7 +5596,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemHardBackpack']
 msgctxt "Things.ItemHardBackpack"
-msgid "This backpack has more storage slots than {THING:ItemHardJetpack}, but lacks a jetpack. It can be useful when you are working inside and don't need to fly around."
+msgid "This backpack can be useful when you are working inside and don't need to fly around."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemHardBackpack']
@@ -5813,7 +5822,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureUnloader']
 msgctxt "Things.StructureUnloader"
 msgid ""
-"The <color=#0080FFFF>{LINK:Xigo;Xigo}</color> Re:Gurge is a handy unit for unloading any items inserted into it, and feeding them into a chute network. For instance, if you add a full {THING:ItemMiningBelt}, the Re:Gurge will empty the belt of its contents, insert them to the chute network, then eject the belt itself.\n"
+"The <color=#0080FFFF>{LINK:Xigo;Xigo}</color> Re:Gurge is a handy unit for unloading any items inserted into it, and feeding them into a chute network. For instance, if you add a full {THING:ItemMiningBelt}, the Re:Gurge will empty a mining belt of its contents, insert them into the chute network, then insert the mining belt itself. A {THING:StructureSorter} is recommended to reclaim the mining belt.\n"
 "\n"
 "Output = 0 exporting the main item\n"
 "Output = 1 exporting items inside and eventually the main item."
@@ -9840,7 +9849,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemLiquidCanisterEmpty']
 msgctxt "Things.ItemLiquidCanisterEmpty"
-msgid "Liquid Canister (Empty)"
+msgid "Liquid Canister"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
@@ -10392,7 +10401,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicLiquidCanisterEmpty']
 msgctxt "Things.DynamicLiquidCanisterEmpty"
-msgid "Portable Liquid Tank (Empty)"
+msgid "Portable Liquid Tank"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterWater']
