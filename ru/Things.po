@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-02 10:40+0000\n"
+"PO-Revision-Date: 2021-10-02 10:50+0000\n"
 "Last-Translator: Kastuk <kastuk@gmail.com>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1495,11 +1495,19 @@ msgid ""
 "\n"
 "The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
 msgstr ""
+"Удобрение меняет процессы роста растений и создается в {THING:PortableComposter} и {THING:StructureAdvancedComposter} с использованием <color=#0080FFFF>{LINK:OrganicPage;органических} веществ.\n"
+"Эффекты удобрения зависят от его ингредиентов:\n"
+"\n"
+"- <color=#0080FFFF>{LINK:OrganicPage;Еда}</color> увеличивает УРОЖАЙНОСТЬ РАСТЕНИЙ вплоть до удвоения объёма урожая\n"
+"- {THING:DecayedFood} увеличивает СКОРОСТЬ РОСТА растений вплоть до сокращения времени созревания вдвое\n"
+"- {THING:ItemBiomass} увеличивает КОЛИЧЕСТВО ЦИКЛОВ РОСТА, на которые годится удобрение\n"
+"\n"
+"Действие этих ингредиентов зависит от их пропорций в компостере при запуске переработки. </color=#0080FFFF></color=#0080FFFF>"
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
 msgid "Advanced Composter"
-msgstr ""
+msgstr "Продвинутый компостер"
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
