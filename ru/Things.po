@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-02 10:59+0000\n"
+"PO-Revision-Date: 2021-10-02 11:04+0000\n"
 "Last-Translator: Kastuk <kastuk@gmail.com>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1564,7 +1564,7 @@ msgstr "Вазон"
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
 msgid "A small planter for decorative or hydroponic purposes. Can be connected to water, or watered manually using a {THING:ItemWaterBottle} or {THING:ItemGasCanisterWater}."
-msgstr ""
+msgstr "Небольшой вазон для декоративных и продуктовых целей. Может быть подключен к водопроводу или поливаться вручную с помощью {THING:ItemWaterBottle} или {THING:ItemGasCanisterWater}."
 
 #: /Language/Things/RecordThing[Key='KitPlanter']
 #, fuzzy
@@ -1581,7 +1581,7 @@ msgstr "Этот набор используется для сборки {THING:
 #: /Language/Things/RecordThing[Key='PortableComposter']
 msgctxt "Things.PortableComposter"
 msgid "Portable Composter"
-msgstr ""
+msgstr "Портативный компостер"
 
 #: /Language/Things/RecordThing[Key='PortableComposter']
 msgctxt "Things.PortableComposter"
@@ -1596,6 +1596,15 @@ msgid ""
 "- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
 "- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for"
 msgstr ""
+"Просто компостирующее устройство, производящее {THING:Fertilizer} из органических веществ. Он принимает <color=#0080FFFF></color>{LINK:OrganicPage;еду}, {THING:DecayedFood} и {THING:ItemBiomass}. Для работы требуется наполненная {THING:ItemLiquidCanisterEmpty} и батарея, ускоряющая естественный процесс компостирования.\n"
+"При переработке выделяется азот и горючие вещества, а также небольшое количество тепла. \n"
+"\n"
+"{HEADER:Состав удобрения}\n"
+"Удобрение производится в соотношении 1 удобрение на 3 ингредиента. Воздействие удобрения на растения будет варьироваться в зависимости от соответствующих пропорций его ингредиентов.\n"
+"\n"
+"- <color=#0080FFFF>{LINK:OrganicPage;Еда}</color> увеличивает УРОЖАЙНОСТЬ РАСТЕНИЙ вплоть до удвоения объёма урожая\n"
+"- {THING:DecayedFood} увеличивает СКОРОСТЬ РОСТА растений вплоть до сокращения времени созревания вдвое\n"
+"- {THING:ItemBiomass} увеличивает КОЛИЧЕСТВО ЦИКЛОВ РОСТА, на которые годится удобрение, до пяти раз"
 
 #: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
 msgctxt "Things.AppliancePackagingMachine"
