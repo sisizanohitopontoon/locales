@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-02 16:48+0000\n"
+"PO-Revision-Date: 2021-10-02 16:54+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5086,7 +5086,6 @@ msgid "Current speed of the elevator"
 msgstr "Aktuální rychlost výtahu"
 
 #: /Language/Interface/Record[Key='LogicTypeColor']
-#, fuzzy
 msgctxt "Interface.LogicTypeColor"
 msgid ""
 "\n"
@@ -5108,7 +5107,8 @@ msgid ""
 "        It is an unwavering universal law that anything higher than 11 will be purple. The <color=#0080FFFF>{LINK:ODA;ODA}</color> is powerless to change this. Similarly, anything lower than 0 will be Blue.\n"
 "      "
 msgstr ""
-"Ať už je to kvůli jasnosti, bezpečnosti nebo jednoduché estetice, <color=#0080FFFF>{LINK:Stationeers;Stationeerové}</color> mají pro své konstrukce přístup k malé duze barev. Jedná se o nastavení barev pro zařízení, představované jako celé číslo.  \n"
+"\n"
+"  Ať už je k tomu vedou obavy o přehlednost, bezpečnost nebo prostá estetika, <color=#0080FFFF>{LINK:Stationeers;Stationeeři}</color> mají pro své konstrukce přístup k malé duze barev. Jedná se o nastavení barev pro zařízení, reprezentované jako celé číslo.\n"
 "\n"
 "0: Modrá\n"
 "1: Šedá\n"
@@ -5123,7 +5123,8 @@ msgstr ""
 "10: Růžová\n"
 "11: Fialová\n"
 "\n"
-"Je neochvějným univerzálním zákonem, že vše vyšší než 11 bude fialové. <color=#0080FFFF>{LINK:ODA;ODA}</color> to nemůže změnit. Podobně bude cokoli nižší než 0 modré."
+"  Je neochvějným univerzálním zákonem, že cokoli vyššího než 11 bude fialové. <color=#0080FFFF>{LINK:ODA;ODA}</color> je bezmocná to změnit. Stejně tak cokoli nižšího než 0 bude modré.\n"
+"  "
 
 #: /Language/Interface/Record[Key='LogicTypeIdle']
 msgctxt "Interface.LogicTypeIdle"
@@ -5163,7 +5164,7 @@ msgstr "Celkové množství exportovaných položek ze zařízení"
 #: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
 msgctxt "Interface.LogicTypeImportSlotOccupant"
 msgid "DEPRECATED"
-msgstr "ZASTARALÉ"
+msgstr "ODSTRANĚNO"
 
 #: /Language/Interface/Record[Key='LogicTypeImportQuantity']
 msgctxt "Interface.LogicTypeImportQuantity"
@@ -5318,7 +5319,7 @@ msgstr "1, pokud je zařízení otevřeno, jinak 0"
 #: /Language/Interface/Record[Key='LogicTypePower']
 msgctxt "Interface.LogicTypePower"
 msgid "Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not"
-msgstr "Pokud je zařízení správně napájeno, lze jej přečíst přes napájecí systém, vrací 1, když je napájeno a 0, když není"
+msgstr "Lze přečíst, zda je zařízení správně napájeno nebo ne, nastavuje se prostřednictvím systému napájení, vrací 1, pokud je napájeno, a 0, pokud není"
 
 #: /Language/Interface/Record[Key='LogicTypeNone']
 msgctxt "Interface.LogicTypeNone"
@@ -5368,7 +5369,7 @@ msgstr "Herní režim"
 #: /Language/Interface/Record[Key='WarningControlConflictDescription']
 msgctxt "Interface.WarningControlConflictDescription"
 msgid "Please visit the control assignment window and clear conflicts"
-msgstr "Navštivte okno přiřazení ovládacích prvků a odstraňte konflikty"
+msgstr "Navštivte okno pro přiřazení ovládacích prvků a vymažte konflikty"
 
 #: /Language/Interface/Record[Key='WarningControlConflict']
 msgctxt "Interface.WarningControlConflict"
@@ -5557,9 +5558,9 @@ msgid ""
 "wayward ring occupants. It's distance from the sun provides little power from solar devices.Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the "
 "extremely low gravity."
 msgstr ""
-"Pustá skála uhnízděná pod křídlem Saturnových spektrálních prstenů. Drobná postava Mimas se odráží v extrémně nízké gravitaci a mimanteanský povrch je nasycen nárazovými krátery z cestujících "
-"prstenců. Vzdálenost od slunce poskytuje málo energie ze solárních zařízení. Buďte velmi opatrní při chůzi nebo skákání, protože můžete cestovat dlouhou cestu a získat velkou rychlost díky extrémně "
-"nízké gravitaci."
+"Pustá skála pod křídly Saturnových spektrálních prstenců. Malý vzrůst Mimasu se odráží v jeho extrémně nízké gravitaci a povrch Mimantu je posetý krátery po dopadech zbloudilých obyvatel prstence. "
+"Jeho vzdálenost od Slunce poskytuje jen málo energie ze solárních zařízení. při chůzi nebo skocích buďte velmi opatrní, protože díky extrémně nízké gravitaci můžete urazit velký kus cesty a nabrat "
+"velkou rychlost."
 
 #: /Language/Interface/Record[Key='NewWorldVulcan2ShortDesc']
 msgctxt "Interface.NewWorldVulcan2ShortDesc"
@@ -5567,14 +5568,16 @@ msgid ""
 "A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but it's fractured surface and rich mineral "
 "deposits make it a risky but profitable venture for enterprising traders.Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!"
 msgstr ""
-"Svět roztrhaný kvůli masivním přílivovým silám od supermasivní černé díry, kterou obíhá. Vulkán nabízí malou naději pro jakýkoli organismus, který zde skončí, ale jeho zlomený povrch a bohatá "
-"ložiska nerostů z něj činí riskantní, ale ziskový podnik pro podnikatele. Dejte si pozor na hluboké trhliny, které vedou k smrtící lávě proudící pod povrchem!"
+"Svět roztrhaný na kusy v důsledku mohutných přílivových sil supermasivní černé díry, kolem které obíhá. Vulkán nabízí jen malou naději pro všechny organismy, které se zde ocitnou, ale jeho členitý "
+"povrch a bohatá naleziště nerostných surovin z něj dělají riskantní, ale výnosný podnik pro podnikavé obchodníky. Pozor na hluboké trhliny, které vedou ke smrtícím proudům magmatu pod povrchem!"
 
 #: /Language/Interface/Record[Key='NewWorldVulcanShortDesc']
 msgctxt "Interface.NewWorldVulcanShortDesc"
 msgid ""
 "The volatile environment on Vulcan is surviable for very few living organisms, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders."
-msgstr "Těkavé prostředí na Vulkánu je přežitelné pro velmi málo živých organismů, ale jeho zlomený povrch a bohatá ložiska nerostů z něj činí riskantní, ale ziskový podnik pro podnikatele."
+msgstr ""
+"Nestálé prostředí na Vulkánu je životaschopné jen pro málo živých organismů, ale jeho členitý povrch a bohatá ložiska nerostných surovin z něj činí riskantní, ale výnosný podnik pro podnikavé "
+"obchodníky."
 
 #: /Language/Interface/Record[Key='NewWorldEuropaShortDesc']
 msgctxt "Interface.NewWorldEuropaShortDesc"
