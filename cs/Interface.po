@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-02 15:48+0000\n"
+"PO-Revision-Date: 2021-10-02 15:54+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1595,6 +1595,11 @@ msgid ""
 "\n"
 "Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.\n"
 msgstr ""
+"Vodu můžete získat tavením nebo drcením {THING:ItemIce} pomocí {THING:StructureFurnace} nebo {THING:StructureIceCrusher}, případně spalováním těkavých látek a kyslíku pomocí {THING:H2Combustor}.\n"
+"  \n"
+"Voda je pro <color=#0080FFFF>{LINK:OrganicPage;rostliny}</color> rozhodující, aby zůstaly naživu a aby z ní rostlo <color=#0080FFFF>{LINK:NutritionPage;jídlo}</color>. Je to také výjimečné chladivo s velmi vysokou měrnou tepelnou kapacitou.\n"
+"\n"
+"Poznámka: S vodou se dříve zacházelo jako s plynem, ale nyní se vyvíjí nový systém pro kapaliny, včetně samostatných potrubí, nádrží, čerpadel atd. pro kapaliny. Voda je v současné době jedinou dostupnou kapalinou a v současnosti nemění stavy."
 
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 msgctxt "Interface.SettingsHungerRate"
@@ -1608,6 +1613,9 @@ msgid ""
 "      \n"
 "Pollutant has a high specific heat, making it an excellent coolant."
 msgstr ""
+"Znečišťující látky známé také jako \"X\" vznikají při tavení některých kovů. Koncentrace 0,1 mol nebo vyšší způsobí, že váš oblek bude varovat před jedem v atmosféře.\n"
+"  \n"
+"Znečišťující látka má vysoké měrné teplo, což z ní činí vynikající chladivo."
 
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
 msgctxt "Interface.MoleVolatilesDescription"
@@ -1618,6 +1626,11 @@ msgid ""
 "      \n"
 "2 Volatiles + 1 O2 -> 3X + 6CO2 + heat."
 msgstr ""
+"Těkavé látky jsou extrémně reaktivní, složité organické molekuly, které lze ve spojení s kyslíkem použít jako hořlavé palivo. Vyrábí se z {THING:ItemVolatiles}.\n"
+"  \n"
+"Kvůli nejasným a z velké části zapomenutým <color=#0080FFFF>{LINK:ODA;ODA}</color> předpisům jsou těkavé látky někdy označovány jako \"H2\" u různých technologických předmětů. Ačkoli se však vodíku podobají, ve skutečnosti to 'vodík' není. Při spalování těkavých látek bez katalyzátoru nevzniká voda (viz {THING:H2Combustor}). Samotné vytvářejí škodliviny a oxid uhličitý, když se spalují v následujícím poměru:\n"
+"  \n"
+"2 těkavé látky + 1 O2 -> 3X + 6CO2 + teplo."
 
 #: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
 msgctxt "Interface.MoleCarbonDioxideDescription"
