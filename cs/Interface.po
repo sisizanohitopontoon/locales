@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-02 16:40+0000\n"
+"PO-Revision-Date: 2021-10-02 16:44+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4543,7 +4543,7 @@ msgstr "Spes'mall"
 #: /Language/Interface/Record[Key='TraderGas']
 msgctxt "Interface.TraderGas"
 msgid "GasTrade"
-msgstr "GasTrade"
+msgstr "Obchod s plynem"
 
 #: /Language/Interface/Record[Key='TraderOther']
 msgctxt "Interface.TraderOther"
@@ -4553,7 +4553,7 @@ msgstr "Koldersovo rozmanité zboží"
 #: /Language/Interface/Record[Key='TraderSecurity']
 msgctxt "Interface.TraderSecurity"
 msgid "Hall Corp Security"
-msgstr "Hall Corp Security"
+msgstr "Hall Corp zabezpečení"
 
 #: /Language/Interface/Record[Key='TraderTool']
 msgctxt "Interface.TraderTool"
@@ -4563,7 +4563,7 @@ msgstr "Prodejce nástrojů"
 #: /Language/Interface/Record[Key='TraderPaint']
 msgctxt "Interface.TraderPaint"
 msgid "Color Corp Paints"
-msgstr "Color Corp Paints"
+msgstr "Color Corp barvy"
 
 #: /Language/Interface/Record[Key='TraderExotics']
 msgctxt "Interface.TraderExotics"
@@ -4581,34 +4581,29 @@ msgid "Microwares"
 msgstr "Mikrodráty"
 
 #: /Language/Interface/Record[Key='TraderOre']
-#, fuzzy
 msgctxt "Interface.TraderOre"
 msgid "MineRiteOres"
-msgstr "MineRite"
+msgstr "MineRite rudy"
 
 #: /Language/Interface/Record[Key='TraderHydraulic']
-#, fuzzy
 msgctxt "Interface.TraderHydraulic"
 msgid "HydrauliKit"
 msgstr "Hydraulika"
 
 #: /Language/Interface/Record[Key='TraderBasic']
-#, fuzzy
 msgctxt "Interface.TraderBasic"
 msgid "Spes'mall Basics"
-msgstr "Spes'mall"
+msgstr "Spes'mall základy"
 
 #: /Language/Interface/Record[Key='TraderOrganics']
-#, fuzzy
 msgctxt "Interface.TraderOrganics"
 msgid "Organicon"
-msgstr "Organika"
+msgstr "Organicon"
 
 #: /Language/Interface/Record[Key='TraderElectronics']
-#, fuzzy
 msgctxt "Interface.TraderElectronics"
 msgid "TechTree Electronics"
-msgstr "Technologický strom"
+msgstr "TechTree elektronika"
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
 msgctxt "Interface.InputTextTradingTitle"
@@ -4621,10 +4616,9 @@ msgid "Trader is unable to travel in this storm."
 msgstr "Obchodník není schopen cestovat v této bouři."
 
 #: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
-#, fuzzy
 msgctxt "Interface.ContactLandingRequestFailSatellite"
 msgid "There is an issue with your satellite. Check it's connected to the network and powered."
-msgstr "Vyskytl se problém se satelitem. Zkontrolujte, zda je připojen k síti a napájen."
+msgstr "Se satelitem je problém. Zkontrolujte, zda je připojen k síti a zda je napájen."
 
 #: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
 msgctxt "Interface.ContactLandingRequestFailVendingMachine"
@@ -4634,12 +4628,12 @@ msgstr "Pro komunikaci s tímto obchodníkem potřebujete v síti poháněný pr
 #: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
 msgctxt "Interface.ContactTradeRequestFailInUse"
 msgid "Somebody is already interacting with this Trader, try again soon."
-msgstr "Někdo je již v interakci s tímto obchodníkem, zkuste to později."
+msgstr "S tímto obchodníkem již někdo komunikuje, zkuste to brzy znovu."
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFail']
 msgctxt "Interface.ContactTradeRequestFail"
 msgid "Trader requesting safe landing. A powered landing pad is required to continue."
-msgstr "Obchodník žádá o bezpečné přistání. K pokračování je nutná napájená přistávací rampa."
+msgstr "Obchodník žádá o bezpečné přistání. Pro pokračování je nutná napájená přistávací rampa."
 
 #: /Language/Interface/Record[Key='ContactNoResponse']
 msgctxt "Interface.ContactNoResponse"
@@ -4649,7 +4643,7 @@ msgstr "Žádná odpověď."
 #: /Language/Interface/Record[Key='TraderInUse']
 msgctxt "Interface.TraderInUse"
 msgid "This contact is already interacting with someone, try again soon."
-msgstr "Tento kontakt již s někým komunikuje, opakujte akci později."
+msgstr "Tento kontakt již s někým komunikuje, zkuste to brzy znovu."
 
 #: /Language/Interface/Record[Key='ContactTradeRequest']
 msgctxt "Interface.ContactTradeRequest"
@@ -4737,20 +4731,19 @@ msgid "returns the hash of the structure in the slot"
 msgstr "vrátí hash struktury ve slotu"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
-#, fuzzy
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, requests an item of the provided type from the device"
-msgstr "Pokud je nastaven na jedinečný identifikátor, znovu vyhledá položku zadaného typu ze zařízení"
+msgstr "Pokud je nastavena na jedinečný identifikátor, vyžádá si ze zařízení položku zadaného typu"
 
 #: /Language/Interface/Record[Key='CollectableGoods']
 msgctxt "Interface.CollectableGoods"
 msgid "Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet."
-msgstr ""
+msgstr "Vrací 0 nebo 1 podle toho, zda aktuální raketový systém má nebo nemá možnost sbírat suroviny na planetě."
 
 #: /Language/Interface/Record[Key='RocketMode']
 msgctxt "Interface.RocketMode"
 msgid "Deprecated"
-msgstr ""
+msgstr "Vyřazené"
 
 #: /Language/Interface/Record[Key='FuelReturnCost']
 #, fuzzy
