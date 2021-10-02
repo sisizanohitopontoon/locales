@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-02 10:50+0000\n"
+"PO-Revision-Date: 2021-10-02 10:59+0000\n"
 "Last-Translator: Kastuk <kastuk@gmail.com>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1495,14 +1495,14 @@ msgid ""
 "\n"
 "The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
 msgstr ""
-"Удобрение меняет процессы роста растений и создается в {THING:PortableComposter} и {THING:StructureAdvancedComposter} с использованием <color=#0080FFFF>{LINK:OrganicPage;органических} веществ.\n"
+"Удобрение меняет процессы роста растений и создается в {THING:PortableComposter} и {THING:StructureAdvancedComposter} с использованием <color=#0080FFFF>{LINK:OrganicPage;органических}</color> веществ.\n"
 "Эффекты удобрения зависят от его ингредиентов:\n"
 "\n"
 "- <color=#0080FFFF>{LINK:OrganicPage;Еда}</color> увеличивает УРОЖАЙНОСТЬ РАСТЕНИЙ вплоть до удвоения объёма урожая\n"
 "- {THING:DecayedFood} увеличивает СКОРОСТЬ РОСТА растений вплоть до сокращения времени созревания вдвое\n"
-"- {THING:ItemBiomass} увеличивает КОЛИЧЕСТВО ЦИКЛОВ РОСТА, на которые годится удобрение\n"
+"- {THING:ItemBiomass} увеличивает КОЛИЧЕСТВО ЦИКЛОВ РОСТА, на которые годится удобрение, до пяти раз\n"
 "\n"
-"Действие этих ингредиентов зависит от их пропорций в компостере при запуске переработки. </color=#0080FFFF></color=#0080FFFF>"
+"Действие этих ингредиентов зависит от их пропорций в компостере при запуске переработки."
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
@@ -1522,6 +1522,15 @@ msgid ""
 "- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
 "- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times\n"
 msgstr ""
+"Продвинутый компостер производит {THING:Fertilizer} из органических веществ. Он принимает <color=#0080FFFF></color>{LINK:OrganicPage;еду}, {THING:DecayedFood} и {THING:ItemBiomass}. Для работы требуется вода и энергия, ускоряющая естественный процесс компостирования.\n"
+"При переработке выделяется азот и горючие вещества, а также небольшое количество тепла. \n"
+"\n"
+"{HEADER:Состав удобрения}\n"
+"Удобрение производится в соотношении 1 удобрение на 3 ингредиента. Воздействие удобрения на растения будет варьироваться в зависимости от соответствующих пропорций его ингредиентов.\n"
+"\n"
+"- <color=#0080FFFF>{LINK:OrganicPage;Еда}</color> увеличивает УРОЖАЙНОСТЬ РАСТЕНИЙ вплоть до удвоения объёма урожая\n"
+"- {THING:DecayedFood} увеличивает СКОРОСТЬ РОСТА растений вплоть до сокращения времени созревания вдвое\n"
+"- {THING:ItemBiomass} увеличивает КОЛИЧЕСТВО ЦИКЛОВ РОСТА, на которые годится удобрение, до пяти раз"
 
 #: /Language/Things/RecordThing[Key='ItemKitAdvancedComposter']
 #, fuzzy
@@ -1550,7 +1559,7 @@ msgstr "Из этого набора собирается {THING:StructureRocket
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
 msgid "Planter"
-msgstr ""
+msgstr "Вазон"
 
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
