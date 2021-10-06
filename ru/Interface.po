@@ -221,10 +221,10 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Сохранённые миры"
 
-#: /Language/Interface/Record[Key='LogicTypePressureSetting']
-msgctxt "Interface.LogicTypePressureSetting"
-msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
-msgstr "Текущие параметры для внутреннего давления объекта (к примеру: (Air release) подача воздуха в Прочном Скафандре), в кПа"
+#: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
+msgctxt "Interface.LogicTypeTemperatureSetting"
+msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
+msgstr "Текущие параметры для внутренней температуры объекта (к примеру: A/C Прочного скафандра)"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -727,15 +727,15 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "Общая громкость"
 
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr "Стены и полы"
-
 #: /Language/Interface/Record[Key='SettingsTitleMixer']
 msgctxt "Interface.SettingsTitleMixer"
 msgid "Mixer"
 msgstr "Микшер"
+
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr "Стены и полы"
 
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
@@ -3042,34 +3042,46 @@ msgctxt "Interface.ScriptCommandCommand"
 msgid "command"
 msgstr "команда"
 
+#: /Language/Interface/Record[Key='ScriptCommandATan2']
+#, fuzzy
+msgctxt "Interface.ScriptCommandATan2"
+msgid "Returns the angle (radians) whose tangent is the quotient of two specified values: a (y) and b (x)"
+msgstr "Возвращает угол, тангенс которого является указанным значением."
+
 #: /Language/Interface/Record[Key='ScriptCommandATan']
+#, fuzzy
 msgctxt "Interface.ScriptCommandATan"
-msgid "Returns the angle whos tan is the specified value"
+msgid "Returns the angle (radians) whos tan is the specified value"
 msgstr "Возвращает угол, тангенс которого является указанным значением."
 
 #: /Language/Interface/Record[Key='ScriptCommandACos']
+#, fuzzy
 msgctxt "Interface.ScriptCommandACos"
-msgid "Returns the angle whos cosine is the specified value"
+msgid "Returns the angle (radians) whos cosine is the specified value"
 msgstr "Возвращает угол, косинус которого является указанным значением."
 
 #: /Language/Interface/Record[Key='ScriptCommandASin']
+#, fuzzy
 msgctxt "Interface.ScriptCommandASin"
-msgid "Returns the angle whos sine is the specified value"
+msgid "Returns the angle (radians) whos sine is the specified value"
 msgstr "Возвращает угол, синус которого является указанным значением."
 
 #: /Language/Interface/Record[Key='ScriptCommandTan']
+#, fuzzy
 msgctxt "Interface.ScriptCommandTan"
-msgid "Returns the tan of the specified angle"
+msgid "Returns the tan of the specified angle (radians) "
 msgstr "Возвращает тангенс указанного угла."
 
 #: /Language/Interface/Record[Key='ScriptCommandCos']
+#, fuzzy
 msgctxt "Interface.ScriptCommandCos"
-msgid "Returns the cosine of the specified angle"
+msgid "Returns the cosine of the specified angle (radians)"
 msgstr "Возвращает косинус указанного угла."
 
 #: /Language/Interface/Record[Key='ScriptCommandSin']
+#, fuzzy
 msgctxt "Interface.ScriptCommandSin"
-msgid "Returns the sine of the specified angle"
+msgid "Returns the sine of the specified angle (radians)"
 msgstr "Возвращает синус указанного угла."
 
 #: /Language/Interface/Record[Key='ScriptCommandSleep']
@@ -4857,15 +4869,15 @@ msgctxt "Interface.LogicTypeTemperatureExternal"
 msgid "The temperature of the outside of the device, usually the world atmosphere surrounding it"
 msgstr "Температура снаружи устройства, обычно окружающая его атмосфера"
 
-#: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
-msgctxt "Interface.LogicTypeTemperatureSetting"
-msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
-msgstr "Текущие параметры для внутренней температуры объекта (к примеру: A/C Прочного скафандра)"
-
 #: /Language/Interface/Record[Key='JoinWorldSortBy']
 msgctxt "Interface.JoinWorldSortBy"
 msgid "Sort by"
 msgstr "Сортировать"
+
+#: /Language/Interface/Record[Key='LogicTypePressureSetting']
+msgctxt "Interface.LogicTypePressureSetting"
+msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
+msgstr "Текущие параметры для внутреннего давления объекта (к примеру: (Air release) подача воздуха в Прочном Скафандре), в кПа"
 
 #: /Language/Interface/Record[Key='LogicTypeOutput']
 msgctxt "Interface.LogicTypeOutput"

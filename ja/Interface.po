@@ -220,9 +220,9 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "保存されたワールド"
 
-#: /Language/Interface/Record[Key='LogicTypePressureSetting']
-msgctxt "Interface.LogicTypePressureSetting"
-msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
+#: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
+msgctxt "Interface.LogicTypeTemperatureSetting"
+msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
 msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
@@ -726,15 +726,15 @@ msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
 msgstr "主音量"
 
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsTitleMixer']
 msgctxt "Interface.SettingsTitleMixer"
 msgid "Mixer"
 msgstr "ミキサー"
+
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
@@ -3019,34 +3019,39 @@ msgctxt "Interface.ScriptCommandCommand"
 msgid "command"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ScriptCommandATan2']
+msgctxt "Interface.ScriptCommandATan2"
+msgid "Returns the angle (radians) whose tangent is the quotient of two specified values: a (y) and b (x)"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ScriptCommandATan']
 msgctxt "Interface.ScriptCommandATan"
-msgid "Returns the angle whos tan is the specified value"
+msgid "Returns the angle (radians) whos tan is the specified value"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandACos']
 msgctxt "Interface.ScriptCommandACos"
-msgid "Returns the angle whos cosine is the specified value"
+msgid "Returns the angle (radians) whos cosine is the specified value"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandASin']
 msgctxt "Interface.ScriptCommandASin"
-msgid "Returns the angle whos sine is the specified value"
+msgid "Returns the angle (radians) whos sine is the specified value"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandTan']
 msgctxt "Interface.ScriptCommandTan"
-msgid "Returns the tan of the specified angle"
+msgid "Returns the tan of the specified angle (radians) "
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandCos']
 msgctxt "Interface.ScriptCommandCos"
-msgid "Returns the cosine of the specified angle"
+msgid "Returns the cosine of the specified angle (radians)"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandSin']
 msgctxt "Interface.ScriptCommandSin"
-msgid "Returns the sine of the specified angle"
+msgid "Returns the sine of the specified angle (radians)"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ScriptCommandSleep']
@@ -4820,15 +4825,15 @@ msgctxt "Interface.LogicTypeTemperatureExternal"
 msgid "The temperature of the outside of the device, usually the world atmosphere surrounding it"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
-msgctxt "Interface.LogicTypeTemperatureSetting"
-msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
-msgstr ""
-
 #: /Language/Interface/Record[Key='JoinWorldSortBy']
 msgctxt "Interface.JoinWorldSortBy"
 msgid "Sort by"
 msgstr "ソート"
+
+#: /Language/Interface/Record[Key='LogicTypePressureSetting']
+msgctxt "Interface.LogicTypePressureSetting"
+msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeOutput']
 msgctxt "Interface.LogicTypeOutput"
