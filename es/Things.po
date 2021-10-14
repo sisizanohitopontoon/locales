@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-14 10:35+0000\n"
+"PO-Revision-Date: 2021-10-14 10:39+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1126,7 +1126,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='LogicStepSequencer8']
 msgctxt "Things.LogicStepSequencer8"
 msgid "Logic Step Sequencer"
-msgstr ""
+msgstr "Secuenciador de pasos lógicos"
 
 #: /Language/Things/RecordThing[Key='LogicStepSequencer8']
 msgctxt "Things.LogicStepSequencer8"
@@ -1155,11 +1155,34 @@ msgid ""
 "\n"
 "9: Finally, activate the sequencer, Vibeoneer."
 msgstr ""
+"El <color=#0080FFFF>{LINK:ODA;ODA} no aprueba bandas sonoras u otras distracciones.\n"
+"Como tal, <color=#0080FFFF>{LINK:Stationeers;Stationeers} han tenido que crear su propio acompañamiento musical a la exigente labor de construir y mantener infraestructuras fuera del mundo.\n"
+"El centro de este tiempo pasado es el secuenciador de pasos, que permite a los estacionarios secuenciar patrones musicales cortos o bucles. \n"
+"\n"
+"{HEADER:DIY MUSIC - GETTING STARTED}\n"
+"\n"
+"1: Conecte 8 {THING:DeviceStepUnit}s a su secuenciador de pasos a través del puerto de datos en el lado izquierdo.\n"
+"\n"
+"2: Etiquete cada unidad de paso, luego asigne unidades de paso del 1 al 8 en el secuenciador de pasos con el atornillador.\n"
+"\n"
+"3: Seleccione el altavoz de salida (por ejemplo, {THING:PassiveSpeaker}) donde el secuenciador reproducirá los sonidos. Esto debe conectarse a la red lógica en el lado derecho del secuenciador.\n"
+"\n"
+"4: Coloque un {THING:StopWatch} y use un {THING:StructureLogicReader} y {THING:StructureLogicWriter} para escribir el tiempo en la variable de tiempo en el secuenciador.\n"
+"\n"
+"5: Establezca el BPM en el secuenciador usando un {THING:StructureLogicDial} y un {THING:StructureLogicWriter} para escribir en la variable BPM del secuenciador. Un bpm más alto reproducirá la secuencia más rápido. \n"
+"\n"
+"6: Inserte un cartucho de sonido de su mente y seleccione qué variante de sonido desea reproducir presionando los botones de flecha ubicados por encima y por debajo de la ranura de audio.\n"
+"\n"
+"7: Elija el tono de los sonidos a reproducir configurando el dial en cada una de sus unidades de 8 pasos a la nota deseada. Con la batería, cada nota es un sonido de batería diferente. Puede probar sus sonidos presionando el botón de activación en cada unidad de paso (con el secuenciador inactivo).\n"
+"\n"
+"8: Enloquece con {THING:DeviceLfoVolume}.\n"
+"\n"
+"9: Finalmente, activa el secuenciador, Vibeoneer."
 
 #: /Language/Things/RecordThing[Key='DeviceStepUnit']
 msgctxt "Things.DeviceStepUnit"
 msgid "Device Step Unit"
-msgstr ""
+msgstr "Unidad de paso del dispositivo"
 
 #: /Language/Things/RecordThing[Key='DeviceStepUnit']
 #, fuzzy
@@ -1170,7 +1193,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StopWatch']
 msgctxt "Things.StopWatch"
 msgid "Stop Watch"
-msgstr ""
+msgstr "Cronómetro"
 
 #: /Language/Things/RecordThing[Key='StopWatch']
 #, fuzzy
@@ -1181,7 +1204,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeBass']
 msgctxt "Things.ItemSoundCartridgeBass"
 msgid "Item Sound Cartridge Bass"
-msgstr ""
+msgstr "Artículo Cartucho de sonido Bass"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeBass']
 #, fuzzy
@@ -1192,7 +1215,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeDrums']
 msgctxt "Things.ItemSoundCartridgeDrums"
 msgid "Item Sound Cartridge Drums"
-msgstr ""
+msgstr "Artículo cartucho de Tambores de sonido"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeDrums']
 #, fuzzy
@@ -1203,7 +1226,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeLeads']
 msgctxt "Things.ItemSoundCartridgeLeads"
 msgid "Item Sound Cartridge Leads"
-msgstr ""
+msgstr "Artículo cartucho de guias de sonido"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeLeads']
 #, fuzzy
@@ -1214,7 +1237,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeSynth']
 msgctxt "Things.ItemSoundCartridgeSynth"
 msgid "Item Sound Cartridge Synth"
-msgstr ""
+msgstr "Artículo cartucho de Sintetizador de sonido"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeSynth']
 #, fuzzy
@@ -1285,7 +1308,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='DecayedFood']
 msgctxt "Things.DecayedFood"
 msgid "Decayed Food"
-msgstr ""
+msgstr "Alimentos en descomposición"
 
 #: /Language/Things/RecordThing[Key='DecayedFood']
 msgctxt "Things.DecayedFood"
@@ -1314,12 +1337,12 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureShelfMedium']
 msgctxt "Things.StructureShelfMedium"
 msgid "Shelf Medium"
-msgstr ""
+msgstr "Estante Medio"
 
 #: /Language/Things/RecordThing[Key='StructureShelfMedium']
 msgctxt "Things.StructureShelfMedium"
 msgid "A shelf for putting things on, so you can see them."
-msgstr ""
+msgstr "Un estante para poner las cosas, para que puedas verlas."
 
 #: /Language/Things/RecordThing[Key='PassiveSpeaker']
 #, fuzzy
@@ -1336,7 +1359,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='DeviceLfoVolume']
 msgctxt "Things.DeviceLfoVolume"
 msgid "Low frequency oscillator"
-msgstr ""
+msgstr "Oscilador de baja frecuencia"
 
 #: /Language/Things/RecordThing[Key='DeviceLfoVolume']
 msgctxt "Things.DeviceLfoVolume"
