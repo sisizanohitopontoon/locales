@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-14 10:39+0000\n"
+"PO-Revision-Date: 2021-10-14 10:45+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1377,11 +1377,23 @@ msgid ""
 "\n"
 "For more info, check out the <color=#0080FFFF>{LINK:MusicPage;music page}</color>."
 msgstr ""
+"El oscilador de baja frecuencia o (OBF) hace que todo suene oscuro, retorcido y crujiente al alterar la forma de las ondas de salida por un {THING:LogicStepSequencer8}.\n"
+"      \n"
+"Para configurar un OBF:\n"
+"\n"
+"1. Coloque la unidad OBF\n"
+"2. Establezca la salida OBF en {THING:PassiveSpeaker}\n"
+"2. Configure la salida de un secuenciador en OBF, de modo que la señal del secuenciador corra a través del OBF a un altavoz.\n"
+"3. Coloque un {THING:StopWatch} o use uno existente, luego use un {THING:StructureLogicWriter} para escribirlo en el OBF.\n"
+"4. Utilice otro escritor lógico para escribir el BPM en el obf.\n"
+"5. Estás listo. Este es el futuro. Estás en el espacio. Haz que suene genial.\n"
+"\n"
+"Para obtener más información, consulte <color=#0080FFFF>{LINK:MusicPage;music page}.</color=#0080FFFF>"
 
 #: /Language/Things/RecordThing[Key='StructureFridgeBig']
 msgctxt "Things.StructureFridgeBig"
 msgid "Fridge (Large)"
-msgstr ""
+msgstr "Nevera (grande)"
 
 #: /Language/Things/RecordThing[Key='StructureFridgeBig']
 msgctxt "Things.StructureFridgeBig"
@@ -1410,7 +1422,7 @@ msgstr "Este kit crea un {THING:StructureSDBSilo}"
 #: /Language/Things/RecordThing[Key='StructureFridgeSmall']
 msgctxt "Things.StructureFridgeSmall"
 msgid "Fridge Small"
-msgstr ""
+msgstr "Nevera pequeña"
 
 #: /Language/Things/RecordThing[Key='StructureFridgeSmall']
 msgctxt "Things.StructureFridgeSmall"
@@ -1419,11 +1431,14 @@ msgid ""
 "      \n"
 "      For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia."
 msgstr ""
+"Esencialmente una caja fuertemente aislada que permite a los usuarios canalizar en cualquier atmósfera deseada, el <color=#0080FFFF>{LINK:Recurso;Recurso} La nevera del minibar fue una solución simple al problema de <color=#0080FFFF>{LINK:NutritionPage;food decay}. Almacena una pequeña cantidad de artículos, a cualquier temperatura que pueda desear.\n"
+"      \n"
+"Para obtener más información sobre la conservación de alimentos, visite la sección {LINK:DecayPage;food decay} de la stationpedia."
 
 #: /Language/Things/RecordThing[Key='StructureRefrigeratedVendingMachine']
 msgctxt "Things.StructureRefrigeratedVendingMachine"
 msgid "Refrigerated Vending Machine"
-msgstr ""
+msgstr "Máquina expendedora refrigerada"
 
 #: /Language/Things/RecordThing[Key='StructureRefrigeratedVendingMachine']
 msgctxt "Things.StructureRefrigeratedVendingMachine"
@@ -1432,6 +1447,9 @@ msgid ""
 "The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.\n"
 "NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. "
 msgstr ""
+"La máquina expendedora refrigerada OmniKool es una versión avanzada del estándar {THING;StructureVendingMachine}, que mantiene una presión óptima y una temperatura constante de -130 grados C, para evitar el deterioro de los alimentos. Puede contener hasta 100 pilas.\n"
+"El OmniKool también tiene un {THING:StructureStacker} incorporado, lo que permite a los jugadores establecer los tamaños de pila de cualquier elemento AGREGADO al dispositivo. El tamaño de pila predeterminado de la unidad es 50.\n"
+"NOTA: la modificación de los tamaños de pila NO actualiza las pilas existentes dentro de la máquina, solo las que se agregan posteriormente. "
 
 #: /Language/Things/RecordThing[Key='ItemKitVendingMachineRefrigerated']
 #, fuzzy
@@ -1448,12 +1466,12 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='SeedBag_Potato']
 msgctxt "Things.SeedBag_Potato"
 msgid "Potato Seeds"
-msgstr ""
+msgstr "Semillas de patata"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Potato']
 msgctxt "Things.SeedBag_Potato"
 msgid "Grow a {THING:ItemPotato}."
-msgstr ""
+msgstr "Cultiva un {THING:ItemPotato}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Corn']
 #, fuzzy
@@ -1470,67 +1488,67 @@ msgstr "Este kit crea un {THING:ItemWallCooler}."
 #: /Language/Things/RecordThing[Key='SeedBag_Wheet']
 msgctxt "Things.SeedBag_Wheet"
 msgid "Wheat Seeds"
-msgstr ""
+msgstr "Semillas de trigo"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Wheet']
 msgctxt "Things.SeedBag_Wheet"
 msgid "Grow some {THING:ItemWheat}."
-msgstr ""
+msgstr "Cultiva un poco de {THING:ItemWheat}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Tomato']
 msgctxt "Things.SeedBag_Tomato"
 msgid "Tomato Seeds"
-msgstr ""
+msgstr "Semillas de tomate"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Tomato']
 msgctxt "Things.SeedBag_Tomato"
 msgid "Grow a {THING:ItemTomato}."
-msgstr ""
+msgstr "Cultiva un {THING:ItemTomato}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Soybean']
 msgctxt "Things.SeedBag_Soybean"
 msgid "Soybean Seeds"
-msgstr ""
+msgstr "Semillas de soja"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Soybean']
 msgctxt "Things.SeedBag_Soybean"
 msgid "Grow some {THING:ItemSoybean}."
-msgstr ""
+msgstr "Cultiva algunas {THING:ItemSoybean}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Rice']
 msgctxt "Things.SeedBag_Rice"
 msgid "Rice Seeds"
-msgstr ""
+msgstr "Semillas de arroz"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Rice']
 msgctxt "Things.SeedBag_Rice"
 msgid "Grow some {THING:ItemRice}."
-msgstr ""
+msgstr "Cultiva un poco de {THING:ItemRice}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
 msgctxt "Things.SeedBag_Pumpkin"
 msgid "Pumpkin Seeds"
-msgstr ""
+msgstr "Semillas de calabaza"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
 msgctxt "Things.SeedBag_Pumpkin"
 msgid "Grow a {THING:ItemPumpkin}."
-msgstr ""
+msgstr "Cultiva unas {THING:ItemPumpkin}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Fern']
 msgctxt "Things.SeedBag_Fern"
 msgid "Fern Seeds"
-msgstr ""
+msgstr "Semillas de helechos"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Fern']
 msgctxt "Things.SeedBag_Fern"
 msgid "Grow a {THING:ItemFern}."
-msgstr ""
+msgstr "Cultiva un {THING:ItemFern}."
 
 #: /Language/Things/RecordThing[Key='Fertilizer']
 msgctxt "Things.Fertilizer"
 msgid "Fertilizer"
-msgstr ""
+msgstr "Fertilizante"
 
 #: /Language/Things/RecordThing[Key='Fertilizer']
 msgctxt "Things.Fertilizer"
@@ -1544,11 +1562,19 @@ msgid ""
 "\n"
 "The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
 msgstr ""
+"El fertilizante altera los procesos de crecimiento de las plantas, y es creado por el compostador básico y el {THING:StructureAdvancedComposter} usando materia <color=#0080FFFF>{LINK:OrganicPage;organic}.\n"
+"Los efectos de los fertilizantes dependen de sus ingredientes:\n"
+"\n"
+"- <color=#0080FFFF>{LINK:OrganicPage;Food} aumenta el RENDIMIENTO DE LAS PLANTAS hasta dos veces\n"
+"- {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces\n"
+"- {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante\n"
+"\n"
+"El efecto de estos ingredientes depende de sus respectivas proporciones en el compostador cuando se activa el procesamiento. "
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
 msgid "Advanced Composter"
-msgstr ""
+msgstr "Compostador avanzado"
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
