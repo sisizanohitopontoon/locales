@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-14 11:10+0000\n"
+"PO-Revision-Date: 2021-10-14 11:14+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2351,7 +2351,7 @@ msgstr "La válvula unidireccional mueve el líquido en una sola dirección: del
 #: /Language/Things/RecordThing[Key='StructureWindowShutter']
 msgctxt "Things.StructureWindowShutter"
 msgid "Window Shutter"
-msgstr ""
+msgstr "Contraventana"
 
 #: /Language/Things/RecordThing[Key='StructureWindowShutter']
 msgctxt "Things.StructureWindowShutter"
@@ -2360,6 +2360,9 @@ msgid ""
 "      \n"
 "When closed, has the heat transfer characteristics of a basic wall. Requires power, and can be connected to logic systems."
 msgstr ""
+"Para esos momentos especiales y privados, una ventana que se puede cerrar a miradas indiscretas. \n"
+"      \n"
+"Cuando está cerrada, tiene las características de transferencia de calor de una pared básica. Requiere energía y se puede conectar a sistemas lógicos."
 
 #: /Language/Things/RecordThing[Key='ItemKitWindowShutter']
 #, fuzzy
@@ -2376,27 +2379,27 @@ msgstr "Este kit produce una {THING:StructureWindTurbine}"
 #: /Language/Things/RecordThing[Key='ItemExplosiveBasic']
 msgctxt "Things.ItemExplosiveBasic"
 msgid "Item Explosive Basic"
-msgstr ""
+msgstr "Artículo Explosivo Básico"
 
 #: /Language/Things/RecordThing[Key='ItemExplosiveBasic']
 msgctxt "Things.ItemExplosiveBasic"
 msgid "A low cost, high yield explosive with a 10 second timer."
-msgstr ""
+msgstr "Un explosivo de bajo coste y alto rendimiento con un temporizador de 10 segundos."
 
 #: /Language/Things/RecordThing[Key='ItemMiningCharge']
 msgctxt "Things.ItemMiningCharge"
 msgid "Mining Charge"
-msgstr ""
+msgstr "Carga de minería"
 
 #: /Language/Things/RecordThing[Key='ItemMiningCharge']
 msgctxt "Things.ItemMiningCharge"
 msgid "A low cost, high yield explosive with a 10 second timer."
-msgstr ""
+msgstr "Un explosivo de bajo coste y alto rendimiento con un temporizador de 10 segundos."
 
 #: /Language/Things/RecordThing[Key='StructureHorizontalAutoMiner']
 msgctxt "Things.StructureHorizontalAutoMiner"
 msgid "OGRE"
-msgstr ""
+msgstr "OGRE"
 
 #: /Language/Things/RecordThing[Key='StructureHorizontalAutoMiner']
 msgctxt "Things.StructureHorizontalAutoMiner"
@@ -2412,11 +2415,21 @@ msgid ""
 "DepostingOre - 3\n"
 "Finished - 4\n"
 msgstr ""
+"El EOSR <color=#0080FFFF>{LINK:Recurso; Recurso} (Excavadora Octogonal de Suelo Rotativa) es una estructura base con vehículo minero adjunto, que minará un pozo horizontal de hasta X metros de largo. Cuando esté lleno, el vehículo minero regresará a la base para vaciarse, antes de volver a cavar. Si encuentra espacio vacío, también regresará a la base y esperará la instrucción. La unidad volverá si se desactiva.\n"
+"      \n"
+"El EOSR se puede conectar a un sistema de conductos y es controlable por una red lógica. Tenga en cuenta que el EOSR produce más mineral que un {THING:ItemMiningDrill} convencional en el mismo área, debido a un procesamiento más eficiente.\n"
+"\n"
+"{HEADER:MODES}\n"
+"Inactivo - 0\n"
+"Minando - 1\n"
+"Regresando - 2\n"
+"Depositando mineral - 3\n"
+"Terminado - 4"
 
 #: /Language/Things/RecordThing[Key='StructureReinforcedCompositeWindow']
 msgctxt "Things.StructureReinforcedCompositeWindow"
 msgid "Reinforced Window (Composite)"
-msgstr ""
+msgstr "Ventana Reforzada (compuesta)"
 
 #: /Language/Things/RecordThing[Key='StructureReinforcedCompositeWindow']
 msgctxt "Things.StructureReinforcedCompositeWindow"
