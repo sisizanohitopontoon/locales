@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-14 09:04+0000\n"
+"PO-Revision-Date: 2021-10-14 09:09+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1595,6 +1595,11 @@ msgid ""
 "\n"
 "Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.\n"
 msgstr ""
+"Puede obtener agua fundiendo o triturando {THING:ItemIce} usando un {THING:StructureFurnace} o un {THING:StructureIceCrusher}, o quemando volátiles y oxígeno usando el {THING:H2Combustor} .\n"
+"  · \n"
+"El agua es fundamental para que las  <color=#0080FFFF>{LINK:OrganicPage;plants}</color> se mantengan vivas y crezcan <color=#0080FFFF>{LINK:NutritionPage;food}</color>. También es un refrigerante excepcional con una capacidad calorífica específica muy alta.\n"
+"\n"
+"Nota: El agua se trataba anteriormente como un gas, pero se está desarrollando un nuevo sistema para líquidos, que incluye tuberías, tanques, bombas, etc. separados para líquidos. El agua es actualmente el único líquido disponible y actualmente no cambia de estado."
 
 #: /Language/Interface/Record[Key='SettingsHungerRate']
 msgctxt "Interface.SettingsHungerRate"
@@ -1608,6 +1613,9 @@ msgid ""
 "      \n"
 "Pollutant has a high specific heat, making it an excellent coolant."
 msgstr ""
+"También conocido como 'X', los contaminantes se crean al fundir ciertos metales. Una concentración de 0.1 mol o más hará que su traje advierta sobre el veneno en la atmósfera.\n"
+"  · \n"
+"El contaminante tiene un calor específico alto, lo que lo convierte en un excelente refrigerante."
 
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
 msgctxt "Interface.MoleVolatilesDescription"
@@ -1618,6 +1626,11 @@ msgid ""
 "      \n"
 "2 Volatiles + 1 O2 -> 3X + 6CO2 + heat."
 msgstr ""
+"Los volátiles son una molécula orgánica compleja, extremadamente reactiva, que se puede utilizar junto con el oxígeno como combustible. Está refinado de {THING:ItemVolatiles} .\n"
+"  · \n"
+"Debido a las regulaciones oscuras y en gran parte olvidadas de <color=#0080FFFF>{LINK:ODA;ODA}</color>, los volátiles a veces se etiquetan como 'H2' por varios elementos de tecnología. Sin embargo, aunque son similares al hidrógeno, no son \"en realidad\" hidrógeno. Los volátiles no producirán agua cuando se queman, sin un catalizador (vea la {THING:H2Combustor}). Por sí solos, crean contaminantes y dióxido de carbono cuando se queman en la siguiente proporción:\n"
+"      \n"
+"2 Volatiles + 1 O2 -> 3X + 6CO2 + calor."
 
 #: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
 msgctxt "Interface.MoleCarbonDioxideDescription"
