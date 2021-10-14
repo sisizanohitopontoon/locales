@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-14 10:45+0000\n"
+"PO-Revision-Date: 2021-10-14 10:49+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1589,6 +1589,15 @@ msgid ""
 "- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
 "- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times\n"
 msgstr ""
+"El compostador avanzado crea {THING:Fertilizer} a partir de materia orgánica. Acepta <color=#0080FFFF>{LINK:OrganicPage;food}, {THING:DecayedFood} o {THING:ItemBiomass}. Requiere agua y energía para funcionar, acelerando el proceso de compostaje natural.\n"
+"Al procesar, libera nitrógeno y volátiles, así como una pequeña cantidad de calor. \n"
+"\n"
+"{HEADER:Compost composition}\n"
+"El fertilizante se produce en una proporción de 1 a 3 de fertilizante e ingredientes. Los efectos del fertilizante en las plantas variarán dependiendo de las proporciones respectivas de sus ingredientes.\n"
+"\n"
+"- <color=#0080FFFF>{LINK:OrganicPage;Food} aumenta el RENDIMIENTO DE LAS PLANTAS hasta dos veces\n"
+"- {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces\n"
+"- {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante hasta cinco veces"
 
 #: /Language/Things/RecordThing[Key='ItemKitAdvancedComposter']
 #, fuzzy
@@ -1617,12 +1626,12 @@ msgstr "Crea un {THING:StructureRocketModuleSilo}."
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
 msgid "Planter"
-msgstr ""
+msgstr "Jardinera"
 
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
 msgid "A small planter for decorative or hydroponic purposes. Can be connected to water, or watered manually using a {THING:ItemWaterBottle} or {THING:ItemGasCanisterWater}."
-msgstr ""
+msgstr "Una pequeña jardinera con fines decorativos o hidropónicos. Se puede conectar al agua o regar manualmente usando una {THING:ItemWaterBottle} o una {THING:ItemGasCanisterWater}."
 
 #: /Language/Things/RecordThing[Key='KitPlanter']
 #, fuzzy
@@ -1639,7 +1648,7 @@ msgstr "Este kit crea un {THING:StructurePipeMeter}."
 #: /Language/Things/RecordThing[Key='PortableComposter']
 msgctxt "Things.PortableComposter"
 msgid "Portable Composter"
-msgstr ""
+msgstr "Compostador portátil"
 
 #: /Language/Things/RecordThing[Key='PortableComposter']
 msgctxt "Things.PortableComposter"
@@ -1658,7 +1667,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
 msgctxt "Things.AppliancePackagingMachine"
 msgid "Basic Packaging Machine"
-msgstr ""
+msgstr "Máquina de embalaje básica"
 
 #: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
 msgctxt "Things.AppliancePackagingMachine"
@@ -1680,6 +1689,19 @@ msgid ""
 "\n"
 "      "
 msgstr ""
+"El Cannificador <color=#0080FFFF>{LINK:Xigo;Xigo} requiere {THING:ItemEmptyCan} y <color=#0080FFFF>{LINK:OrganicPage;food} cocinada para crear el {LINK:DecayPage;long-lasting}, sustento fácilmente almacenado. Tenga en cuenta que el cannificador debe estar atornillado a una {THING:StructureBench} para obtener energía, y solo acepta alimentos cocinados y latas.\n"
+"\n"
+"{HEADER:OPERATION}\n"
+"\n"
+"1. Agregue los ingredientes correctos al dispositivo a través de la tolva en la parte superior.\n"
+"\n"
+"2. Cierre el dispositivo con el mango desplegable.\n"
+"\n"
+"3. Active el dispositivo.\n"
+"\n"
+"4. Retire los productos enlatados de la salida en el FRENTE.\n"
+"\n"
+"Nota: el Cannificador mostrará un error en su interruptor de activación si intenta activarlo antes de cerrarlo."
 
 #: /Language/Things/RecordThing[Key='ItemKitPlanter']
 #, fuzzy
@@ -1720,7 +1742,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemCannedMushroom']
 msgctxt "Things.ItemCannedMushroom"
 msgid "Canned Mushroom"
-msgstr ""
+msgstr "Setas enlatadas"
 
 #: /Language/Things/RecordThing[Key='ItemCannedMushroom']
 msgctxt "Things.ItemCannedMushroom"
