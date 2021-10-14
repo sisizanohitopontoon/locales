@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-13 11:50+0000\n"
+"PO-Revision-Date: 2021-10-13 12:02+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -178,15 +178,15 @@ msgid "Import/Export and Chutes"
 msgstr "Importación/Exportación y tolva"
 
 #: /Language/HelpPage/StationpediaPage[Key='ImportExportPage']
-#, fuzzy
 msgctxt "HelpPage.ImportExportPage"
 msgid ""
 "These are structures, typically powered, that are able to receive and output other items, or assist this. Most have specialist functions including {LINK:LogicUnitPage;logic}, {LINK:AtmosphericPage;atmospherics}, and more. They are constructed in the same way as other structures.\n"
 "        {LIST_OF_IMPORTEXPORT}\n"
 "      "
 msgstr ""
-"Estas son estructuras, típicamente alimentadas, que tienen funciones especializadas incluyendo la lógica, la atmósfera y más. Están construidas de la misma manera que otras estructuras.\n"
-"        {LIST_OF_IMPORTEXPORT}"
+"Se trata de estructuras, normalmente alimentadas, que pueden recibir y dar salida a otros elementos, o ayudar a ello. La mayoría tiene funciones especializadas que incluyen {LINK: LogicUnitPage; logic}, {LINK: AtmosphericPage; atmospherics} y más. Se construyen de la misma manera que otras estructuras.\n"
+"  · {LIST_OF_IMPORTEXPORT} ¶\n"
+"  ·"
 
 #: /Language/HelpPage/StationpediaPage[Key='SmeltingPage']
 msgctxt "HelpPage.SmeltingPage"
@@ -262,7 +262,6 @@ msgid "Construction"
 msgstr "Construcción"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
-#, fuzzy
 msgctxt "HelpPage.ConstructionPage"
 msgid ""
 "{HEADER:Getting Started}\n"
@@ -286,6 +285,10 @@ msgstr ""
 "\n"
 "{HEADER:Tooltips}\n"
 "Si observa directamente una estructura que está incompleta, obtendrá información sobre lo que necesita hacer para completarla. Si tiene una {LINK:ToolPage;tool} en su mano y no es la {LINK:ToolPage;tool} correcta, aparecerá un mensaje que le indicará lo que necesita usar para desmontarla.\n"
+"\n"
+"{HEADER:Pressure}\n"
+"Al construir, es importante tener en cuenta que la presión se mide como un diferencial. La mayoría de las estructuras tienen un límite de presión de 200 kPa: si la diferencia entre el interior y el exterior es mayor que eso, tiene problemas.\n"
+"      \n"
 "      \n"
 "      "
 
@@ -428,7 +431,6 @@ msgid "Ores"
 msgstr "Minerales"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
-#, fuzzy
 msgctxt "HelpPage.OrePage"
 msgid ""
 "These are items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}.\n"
@@ -436,7 +438,8 @@ msgid ""
 "      "
 msgstr ""
 "Estos son artículos que son {LINK:MiningPage;mined} y a menudo pueden ser {LINK:SmeltingPage;smelted}. También puedes obtener mineral mezclado reciclando elementos en la {THING:StructureRecycler} y luego pasándolo a través de la {THING:StructureCentrifuge} que lo romperá en {LINK:OrePage;ore} para {LINK:SmeltingPage;smelting}.\n"
-"        Hay algunos minerales que se fundirán cuando se expongan a la luz solar o al calor y producirán {LINK:GasPage;gases}. Por ejemplo, {THING:ItemIce} se funde en {GAS:Water} y {GAS:Oxygen}. Ten cuidado de mantenerlos fuera del calor o la luz del sol hasta que realmente quieras que se derritan.{LIST_OF_ORES}"
+"        Hay algunos minerales que se fundirán cuando se expongan a la luz solar o al calor y producirán {LINK:GasPage;gases}. Por ejemplo, {THING:ItemIce} se funde en {GAS:Water} y {GAS:Oxygen}. Ten cuidado de mantenerlos fuera del calor o la luz del sol hasta que realmente quieras que se derritan.{LIST_OF_ORES}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
 msgctxt "HelpPage.IngotPage"
@@ -444,7 +447,6 @@ msgid "Ingots"
 msgstr "Lingotes"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
-#, fuzzy
 msgctxt "HelpPage.IngotPage"
 msgid ""
 "These are items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores} for use in {LINK:FabricatorPage;fabricators}.\n"
@@ -452,7 +454,10 @@ msgid ""
 "{LIST_OF_INGOTS}\n"
 "      "
 msgstr ""
-"Estos son artículos que están típicamente hechos de {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.\n"
+"Estos son artículos que están típicamente hechos de {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.Para usarlos en {LINK:FabricatorPage;fabricators}.\n"
+"\n"
+"{LIST_OF_INGOTS}\n"
+"      \n"
 "      \n"
 "{LIST_OF_INGOTS}"
 
@@ -462,7 +467,6 @@ msgid "Tools"
 msgstr "Herramientas"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
-#, fuzzy
 msgctxt "HelpPage.ToolPage"
 msgid ""
 "These are items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.\n"
@@ -473,6 +477,7 @@ msgstr ""
 "Estos son artículos que pueden caber en una ranura de herramientas especializadas, y se utilizan para {LINK:ConstructionPage;Construction} y otras tareas.\n"
 "\n"
 "{LIST_OF_TOOLS}\n"
+"      \n"
 "      "
 
 #: /Language/HelpPage/StationpediaPage[Key='ResourcePage']
@@ -999,20 +1004,11 @@ msgid "Flamable Limit {0} to {1}"
 msgstr "Límite inflamable {0} a {1}"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
-#, fuzzy
 msgctxt "HelpPage.NutritionPage"
 msgid "Hunger and nutrition"
-msgstr ""
-"Los Stationeers eventualmente tienen hambre, pero no todos los alimentos son iguales. Además, su tasa de hambre varía según la configuración y la dificultad. Comer solo consumirá esa parte de un artículo adecuada para restaurar su hambre al 100%.\n"
-"\n"
-"Todos los Stationeers reciben un suministro de <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color>{THING:ItemCerealBar} en sus suministros de aterrizaje al comienzo de un nuevo mundo. Cuando estos se agotan, debe encontrar nuevas fuentes de sustento.\n"
-"\n"
-"Comer ingredientes crudos satisfará menos el hambre que las comidas, es decir, reemplazará una proporción menor de su hambre. Los elementos básicos de los alimentos se crean utilizando sistemas <color=#0080FFFF>{LINK:OrganicsPage;hydroponics}</color>. Estos se pueden procesar en ingredientes de recetas usando el {THING:ApplianceReagentProcessor) y luego convertirse en comidas usando un {THING:ApplianceMicrowave}.\n"
-"\n"
-"Su tasa de hambre se puede configurar en el menú de configuración principal ajustando el control deslizante Tasa de hambre / hidratación."
+msgstr "Hambre y Nutrición"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
-#, fuzzy
 msgctxt "HelpPage.NutritionPage"
 msgid ""
 "{HEADER:HUNGER}\n"
@@ -1027,13 +1023,6 @@ msgid ""
 "\n"
 "Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider in the settings. Note that the hunger slider also governs your {LINK:HydrationPage;Thirst}.\n"
 msgstr ""
-"Los Stationeers eventualmente tienen hambre, pero no todos los alimentos son iguales. Además, su tasa de hambre varía según la configuración y la dificultad. Comer solo consumirá esa parte de un artículo adecuada para restaurar su hambre al 100%.\n"
-"\n"
-"Todos los Stationeers reciben un suministro de <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color>{THING:ItemCerealBar} en sus suministros de aterrizaje al comienzo de un nuevo mundo. Cuando estos se agotan, debe encontrar nuevas fuentes de sustento.\n"
-"\n"
-"Comer ingredientes crudos satisfará menos el hambre que las comidas, es decir, reemplazará una proporción menor de su hambre. Los elementos básicos de los alimentos se crean utilizando sistemas <color=#0080FFFF>{LINK:OrganicsPage;hydroponics}</color>. Estos se pueden procesar en ingredientes de recetas usando el {THING:ApplianceReagentProcessor) y luego convertirse en comidas usando un {THING:ApplianceMicrowave}.\n"
-"\n"
-"Su tasa de hambre se puede configurar en el menú de configuración principal ajustando el control deslizante Tasa de hambre / hidratación."
 
 #: /Language/HelpPage/StationpediaPage[Key='FarmingPage']
 msgctxt "HelpPage.FarmingPage"
