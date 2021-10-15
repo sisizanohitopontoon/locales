@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-15 11:05+0000\n"
+"PO-Revision-Date: 2021-10-15 11:07+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -394,14 +394,13 @@ msgid "Liquid Pipe Radiator"
 msgstr "Radiador de tuberia liquida"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
-#, fuzzy
 msgctxt "Things.StructureLiquidPipeRadiator"
 msgid ""
 "A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added to the liquid within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. \n"
 "The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will speed up heat transfer."
 msgstr ""
 "Un simple intercambiador de calor, los radiadores de tubería se pueden colocar en las tuberías para eliminar o ganar calor, dependiendo de la temperatura de la atmósfera circundante. Si la atmósfera es más caliente, se agregará calor al gas dentro de la red de tuberías, y viceversa si es más fría. En el vacío, se irradiará calor.\n"
-"La velocidad de ganancia o pérdida de calor dependerá del líquido en cuestión. Agregar varios radiadores acelerará la transferencia de calor."
+"La velocidad de ganancia o pérdida de calor dependerá del gas en cuestión. Agregar varios radiadores acelerará la transferencia de calor."
 
 #: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
 msgctxt "Things.ItemPipeLiquidRadiator"
@@ -709,22 +708,22 @@ msgid "Automated Rocket Energy Collection Module"
 msgstr "Módulo automatizado de recolección de energia del cohete"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleEnergyGenerator"
 msgid ""
 "Collects energy by electromagnetically capturing the solar wind. Stores it in the {THING:StructureRocketModuleBattery}.\n"
 "Coming soon"
-msgstr "Recoge energía capturando electromagnéticamente el viento solar. Lo almacena en el {THING:StructureRocketModuleBattery}."
+msgstr ""
+"Recoge energía capturando electromagnéticamente el viento solar. Lo almacena en {THING:StructureRocketModuleBattery}.\n"
+"Próximamente"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningJunk']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleMiningJunk"
 msgid ""
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to "
 "pass from the collector unit into the silo."
 msgstr ""
-"El llamado módulo recolector <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> 'basura espacial' es realmente una unidad de recuperación automatizada de alta gama, diseñada para interactuar con el <color=#0080FFFF>{ LINK:ExMin;ExMin}</color> cohete autónomo. Barre la región local del espacio en busca de restos de naves dañadas, envíos espaciales abandonados y otros detritos. Como tal, devuelve una variedad bastante aleatoria de elementos.\n"
-"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} mediante un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el mineral pase de la unidad recolectora al silo."
+"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} por un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el"
+" ore pase de la unidad colectora al silo."
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
 msgctxt "Things.StructureRocketModuleMiningOre"
@@ -773,15 +772,13 @@ msgid "Automated Rocket Coupling Module (Down)"
 msgstr "Módulo de acoplamiento automático de cohetes (abajo)"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCouplingDown']
-#, fuzzy
 msgctxt "Things.StructureModularRocketCouplingDown"
 msgid ""
 "A uni-directional, multi-state conveyance solution, the coupling module is designed to interface between various mining and storage modules. It is essential for the function of the mining unit.\n"
 "When placed BELOW a mining module (eg {THING:StructureRocketModuleMiningOre}), the DOWN coupler passes mined or harvested material (solid, liquid or gas) into the respective storage unit (eg {THING:StructureRocketModuleSilo})."
 msgstr ""
-"Una solución de transporte unidireccional de varios estados, el módulo de acoplamiento está diseñado para interactuar entre los módulos de minería y almacenamiento. La unidad 'abajo' pasa material "
-"extraído o cosechado (sólido, líquido o gas) desde el módulo de recolección a su respectiva unidad de almacenamiento, cuando la unidad se coloca DEBAJO de la unidad de recolección. Sin dicho "
-"acoplador, el módulo de recolección se llenaría rápidamente y dejaría de recolectar."
+"Una solución de transporte unidireccional y multiestatal, el módulo de acoplamiento está diseñado para interactuar entre varios módulos de minería y almacenamiento. Es esencial para el funcionamiento de la unidad minera.\n"
+"Cuando se coloca DEBAJO de un módulo de minería (por ejemplo, {THING:StructureRocketModuleMiningOre}), el acoplador DOWN pasa el material extraído o cosechado (sólido, líquido o gas) a la unidad de almacenamiento respectiva (por ejemplo, {THING:StructureRocketModuleSilo})."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCouplingUp']
 msgctxt "Things.StructureModularRocketCouplingUp"
@@ -845,15 +842,15 @@ msgid "Automated Rocket Ice Mining Module"
 msgstr "Módulo de minería de hielo automatizado del cohete"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketIceMining']
-#, fuzzy
 msgctxt "Things.StructureModularRocketIceMining"
 msgid ""
 "The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autonomous ice miner is a purpose-built, robotic ice harvester, able to mine ice ores from asteroids and planets in the local region of space. Its range - and therefore how much ice ore it collects - is strictly determined by the rocket's fuel quantity.\n"
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.\n"
 "It has two modes - active (1), and inactive (0), which should only be triggered when the rocket has arrived on the planet and is idle (mode 4)."
 msgstr ""
-"El <color=#0080FFFF>{LINK:ExMin;ExMin}</color> minero de hielo autónomo es un recolector de hielo robótico especialmente diseñado, capaz de extraer minerales de hielo de asteroides y planetas en la región local del espacio. Su alcance, y por lo tanto la cantidad de mineral de hielo que recolecta, está estrictamente determinado por la cantidad de combustible del cohete.\n"
-"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} mediante un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el mineral pase de la unidad recolectora al silo."
+"El <color=#0080FFFF>{LINK:ExMin;ExMin}</color> es un recolector de hielo robótico especialmente diseñado, capaz de extraer minerales de hielo de asteroides y planetas en la región local del espacio. Su alcance, y por lo tanto la cantidad de hielo que recolecta, está estrictamente determinado por la cantidad de combustible del cohete.\n"
+"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} por un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el ore pase de la unidad colectora al silo.\n"
+"Tiene dos modos: activo (1) e inactivo (0), que solo deben activarse cuando el cohete ha llegado al planeta y está inactivo (modo 4)."
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketIceMining']
 msgctxt "Things.ItemKitModularRocketIceMining"
