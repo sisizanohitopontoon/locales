@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-27 09:44+0000\n"
+"PO-Revision-Date: 2021-10-27 09:46+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -741,15 +741,15 @@ msgid "Automated Rocket Ore Mining Module"
 msgstr "Módulo de minería automática del cohete"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleMiningOre"
 msgid ""
 "The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autonomous ore miner harvests metallic ores from asteroids and planets in the local region of space. Its range - and therefore how much ore it collects - is strictly determined by the rocket's fuel quantity.\n"
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.\n"
 "It has two modes - active (1), and inactive (0), which should only be triggered when the rocket has arrived on the planet and is idle (mode 4)."
 msgstr ""
-"El minero autónomo <color=#0080FFFF>{LINK:ExMin;ExMin}</color> recolecta minerales metálicos de asteroides y planetas en la región local del espacio. Su alcance, y por lo tanto la cantidad de mineral que recolecta, está estrictamente determinado por la cantidad de combustible del cohete.\n"
-"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} mediante un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el mineral pase de la unidad recolectora al silo."
+"El <color=#0080FFFF>{LINK:ExMin;ExMin}</color> cosecha minerales metálicos de asteroides y planetas en la región local del espacio. Su alcance, y por lo tanto la cantidad de mineral que recolecta, está estrictamente determinado por la cantidad de combustible del cohete.\n"
+"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} por un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el mineral pase de la unidad colectora al silo.\n"
+"Tiene dos modos: activo (1) e inactivo (0), que solo deben activarse cuando el cohete ha llegado al planeta y está inactivo (modo 4)."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketAutonomous']
 msgctxt "Things.StructureModularRocketAutonomous"
@@ -2819,12 +2819,13 @@ msgid "Charcoal"
 msgstr "Carbón Vegetal"
 
 #: /Language/Things/RecordThing[Key='StructureHydroponicsTrayData']
-#, fuzzy
 msgctxt "Things.StructureHydroponicsTrayData"
 msgid ""
 "The <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> hydroponics device is the ideal vessel for growing a range of <color=#0080FFFF>{LINK:OrganicPage;plantlife}</color>. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. \n"
 "It can be automated using the {THING:StructureHarvie}. Note that unlike the {THING:StructureHydroponicsTray}, these cannot be placed consecutively as they are considered devices rather than pure pipes. They do, however, allow data interrogation for logic systems."
-msgstr "Dispositivo hidropónico"
+msgstr ""
+"El <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> es el recipiente ideal para cultivar una gama de <color=#0080FFFF>{LINK:OrganicPage;plantlife}</color>. Debe suministrarse con agua utilizando una red de tuberías y suficiente luz para generar fotosíntesis. \n"
+"Se puede automatizar utilizando {THING:StructureHarvie}. Tenga en cuenta que, a diferencia de {THING:StructureHydroponicsTray}, estos no se pueden colocar consecutivamente, ya que se consideran dispositivos en lugar de tuberías puras. Sin embargo, permiten el interrogatorio de datos para sistemas lógicos."
 
 #: /Language/Things/RecordThing[Key='StructureHydroponicsTrayData']
 msgctxt "Things.StructureHydroponicsTrayData"
@@ -4912,13 +4913,15 @@ msgid "Kit (Modular Rocket Command)"
 msgstr "Kit (Comando de cohetes modular)"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketFueltank01']
-#, fuzzy
 msgctxt "Things.StructureModularRocketFueltank01"
 msgid ""
 "The rocket fueltank requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other <color=#0080FFFF>{LINK:GasPage;gases}</color> in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.\n"
 "      \n"
 "      Note that the rocket fueltank can also be used to collect gas mined by the {THING:StructureModularRocketGasMining}, when connected to that unit by a {THING:StructureModularRocketCouplingUp} or {THING:StructureModularRocketCouplingDown}."
-msgstr "Depósito de combustible del cohete modular"
+msgstr ""
+"El tanque de combustible del cohete requiere una mezcla 2:1 de {GAS:Volatiles} y {GAS:Oxygen}. Si la mezcla excede estas proporciones, o coloca otros <color=#0080FFFF>{LINK:GasPage;gases}</color> en el tanque, la consola {THING:StructureModularRocketCommand01} mostrará un error 'Invalid'.\n"
+"      \n"
+"Tenga en cuenta que el tanque de combustible del cohete también se puede usar para recolectar gas extraído por {THING:StructureModularRocketGasMining}, cuando se conecta a esa unidad mediante {THING:StructureModularRocketCouplingUp} o {THING:StructureModularRocketCouplingDown}.</color=#0080FFFF>"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketFueltank01']
 msgctxt "Things.StructureModularRocketFueltank01"
