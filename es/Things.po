@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-25 11:31+0000\n"
+"PO-Revision-Date: 2021-10-27 09:44+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -678,7 +678,6 @@ msgid "Automated Rocket Silo Module"
 msgstr "Módulo de silo del cohete automatizado"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleSilo']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleSilo"
 msgid ""
 "The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autononmous silo module provides storage for <color=#0080FFFF>{LINK:OrePage;ores}</color> collected by the {THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices}</color> collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureModularRocketScrapMining} . In other words, it holds up to 600 'medium-sized dry goods'.\n"
@@ -687,8 +686,11 @@ msgid ""
 "The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color> networks.\n"
 "To extract resources from the silo module, you must set its state to 'OPEN' using logic."
 msgstr ""
-"El <color=#0080FFFF>{LINK:ExMin;ExMin}</color> módulo de silo autónomo proporciona almacenamiento para <color=#0080FFFF>{LINK:OrePage;ores}</color> recopilados por el {THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices}</color> recopilados por el {THING:StructureModularRocketIceMining} y 'basura espacial' recopilada por el {THING:StructureRocketModuleMiningJunk}. Debe estar conectado a la unidad mediante una {THING:StructureMOdularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el mineral pase de la unidad minera al silo. Cada unidad minera debe tener su propio silo y unidad de acoplamiento.\n"
-"       El módulo de silo también debe estar encendido cuando está en la plataforma de lanzamiento, y está encendido de forma predeterminada, pero se puede apagar con lógica si es necesario. Se conecta a redes de conductos."
+"El <color=#0080FFFF>{LINK:ExMin;ExMin}</color> proporciona almacenamiento para <color=#0080FFFF>{LINK:OrePage;ores}</color> recopilado por {THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices}</color> recopilado por {THING:StructureModularRocketIceMining} y 'basura espacial' rescatada por {THING:StructureModularRocketScrapMining} . En otras palabras, tiene capacidad para 600 \"productos secos de tamaño mediano\".\n"
+"El módulo de silo debe estar conectado a un módulo de minería o salvamento mediante un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocados, para que el material pase al silo.\n"
+"El módulo de silo también debe estar encendido cuando está en la plataforma de lanzamiento. Está 'activado' de forma predeterminada, pero se puede desactivar con lógica si es necesario. \n"
+"El módulo también se puede conectar a un {THING:StructureChuteInlet} para conectarlo a las redes <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color>.\n"
+"Para extraer recursos del módulo de silo, debe establecer su estado en 'OPEN' usando lógica."
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleBattery']
 msgctxt "Things.StructureRocketModuleBattery"
