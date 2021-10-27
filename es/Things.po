@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-27 09:46+0000\n"
+"PO-Revision-Date: 2021-10-27 09:53+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5592,7 +5592,6 @@ msgid "GPS"
 msgstr "GPS"
 
 #: /Language/Things/RecordThing[Key='Robot']
-#, fuzzy
 msgctxt "Things.Robot"
 msgid ""
 "Designed by - presumably drunk - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> best friend, or tiresome nemesis, or both several times in the same day. \n"
@@ -5608,7 +5607,20 @@ msgid ""
 "RobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids\n"
 "RobotMode.None = 5 = Path(find) to target\n"
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
-msgstr "AIMeE Bot"
+msgstr ""
+"Diseñado por - un presumiblemente borracho robotista <color=#0080FFFF>{LINK:Norsec;Norsec}</color>, AIMeE (o Automated Independent Mechanical Entity)(Entidad Mecanica Automatizada Independiente) puede ser un <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color>, o la némesis tediosa, o ambas varias veces en el mismo día. \n"
+"      \n"
+"Destinada a desenterrar y recuperar minerales automáticamente, la unidad requiere conocimientos básicos de programación para operar, y un {THING:MotherboardProgrammableChip}.\n"
+"\n"
+"AIMEe tiene 7 modos:\n"
+"\n"
+"RobotMode.None = 0 = No hacer nada\n"
+"RobotMode.None = 1 = Seguir al jugador más cercano\n"
+"RobotMode.None = 2 = Mover al objetivo en línea recta\n"
+"RobotMode.None = 3 = Deambula en busca de minerales en un radio de 15 co-ords\n"
+"RobotMode.None = 4 = Descarga en la entrada del conducto o en el contenedor del conducto dentro de los 3 metros / 1.5 rejillas grandes\n"
+"RobotMode.None = 5 = Ruta (encontrar) al destino\n"
+"RobotMode.None = 6 = Estado asignado automático, muestra cuando las ranuras de almacenamiento están llenas"
 
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
@@ -8985,12 +8997,13 @@ msgid "Chute (Straight)"
 msgstr "Tolva (Recta)"
 
 #: /Language/Things/RecordThing[Key='StructureChuteOutlet']
-#, fuzzy
 msgctxt "Things.StructureChuteOutlet"
 msgid ""
 "The aim for any <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
 "The chute outlet is an aperture for exiting items from <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color> networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to <color=#0080FFFF>{LINK:LogicUnitPage;logic}</color> systems to monitor throughput."
-msgstr "Salida Tolva"
+msgstr ""
+"El objetivo para cualquier <color=#0080FFFF>{LINK:Stationeers; Stationeer}</color> es hacer que la supervivencia fuera del mundo sea menos una lucha para ellos y para aquellos que seguirán sus pasos.\n"
+"La salida de conducto es una abertura para salir de los elementos de las tuberias <color=#0080FFFF>{LINK:ImportExportPage;import/export}. Tenga en cuenta que los orígenes de la salida en la minería de gravedad cero significa que están permanentemente abiertos, en lugar de ser interactuables, pero se pueden conectar a sistemas logicos<color=#0080FFFF>{LINK:LogicUnitPage;logic}</color> para monitorear el rendimiento."
 
 #: /Language/Things/RecordThing[Key='StructureChuteOutlet']
 msgctxt "Things.StructureChuteOutlet"
@@ -10144,13 +10157,15 @@ msgid "Mining Belt"
 msgstr "Cinturón Minero"
 
 #: /Language/Things/RecordThing[Key='ItemMilk']
-#, fuzzy
 msgctxt "Things.ItemMilk"
 msgid ""
 "Full disclosure, it's not actually 'milk', but an <color=#0080FFFF>{LINK:Agrizero;Agrizero-invented}</color> synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the "
 "{THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other <color=#0080FFFF>{LINK:FoodPage;food}</color> in the {THING:ApplianceMicrowave} or "
 "{THING:StructureAutomatedOven}. Think, {THING:ItemMuffin}."
-msgstr "Leche"
+msgstr ""
+"La divulgación completa, en realidad no es 'leche', sino una sintesis <color=#0080FFFF>{LINK:Agrizero; Agrizero-invented}</color> de 5ml {THING:ItemSoyOil} y 5g {THING:ItemFern}, delicadamente "
+"mezclada en {THING:ApplianceChemistryStation}. Sorprendentemente rellena, se puede usar como ingrediente para cocinar otros <color=#0080FFFF>{LINK:FoodPage;food}</color> en el "
+"{THING:ApplianceMicrowave} o {THING:StructureAutomatedOven}. Piensa, {THING:ItemMuffin}."
 
 #: /Language/Things/RecordThing[Key='ItemMilk']
 msgctxt "Things.ItemMilk"
@@ -10779,13 +10794,15 @@ msgid "Canister (Fuel)"
 msgstr "Bombona (Combustible)"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterEmpty']
-#, fuzzy
 msgctxt "Things.ItemGasCanisterEmpty"
 msgid ""
 "The portable canister is the <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> basic unit of <color=#0080FFFF>{LINK:GasPage;gas}</color> delivery. Rated to a standard pressure of 8000kPa (80 atmospheres), empty gas canisters can be mounted to a \n"
 "{THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
 "Careful not to pressurize beyond 10MPa, or it may go 'bang'. Contains 64L of gas."
-msgstr "Bombona (Vacía)"
+msgstr ""
+"El recipiente portátil es la unidad basica de <color=#0080FFFF>{LINK:Stationeers; Stationeer's}</color> <color=#0080FFFF>{LINK:GasPage;gas}</color>. Clasificados a una presión estándar de 8000kPa (80 atmósferas), los botes de gas vacíos se pueden montar en un \n"
+"{THING:DynamicGasCanisterAir} o {THING:StructureGasTankStorage} para recargar.\n"
+"Tenga cuidado de no presurizar más allá de 10MPa, o puede oir un 'bang'. Contiene 64L de gas."
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterEmpty']
 msgctxt "Things.ItemGasCanisterEmpty"
