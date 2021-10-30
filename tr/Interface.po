@@ -221,10 +221,10 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Kayıtlı Dünyalar"
 
-#: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
-msgctxt "Interface.LogicTypeTemperatureSetting"
-msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
-msgstr "Nesnenin iç sıcaklığı için geçerli ayarı (örneğin Ağır Giysi A/C)"
+#: /Language/Interface/Record[Key='LogicTypeOutput']
+msgctxt "Interface.LogicTypeOutput"
+msgid "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
+msgstr "İstifleyici veya ayırıcı gibi bir sıralama işleme cihazı için çıktı işlemi; mantık modundayken cihaz, sıfır veya üstü olarak ayarlandığında yalnızca bir tekrarı alır ve sonra -1'e geri döner ve de sonraki talimatları bekler."
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -722,6 +722,11 @@ msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Yansımalar"
 
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "Sırt Çantası"
+
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
@@ -731,11 +736,6 @@ msgstr "Ana Ses"
 msgctxt "Interface.SettingsTitleMixer"
 msgid "Mixer"
 msgstr "Karıştırıcı"
-
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr "Duvarlar ve Zeminler"
 
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
@@ -1503,15 +1503,15 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Oyun Ayarları"
 
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr "Duvarlar ve Zeminler"
+
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
 msgstr "Tüketilebilirler"
-
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "Sırt Çantası"
 
 #: /Language/Interface/Record[Key='LightCategory']
 msgctxt "Interface.LightCategory"
@@ -1589,12 +1589,6 @@ msgid ""
 "Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.\n"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-#, fuzzy
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
-msgstr "Açlık Oranı"
-
 #: /Language/Interface/Record[Key='MolePollutantDescription']
 msgctxt "Interface.MolePollutantDescription"
 msgid ""
@@ -1602,6 +1596,12 @@ msgid ""
 "      \n"
 "Pollutant has a high specific heat, making it an excellent coolant."
 msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+#, fuzzy
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger/Hydration Rate"
+msgstr "Açlık Oranı"
 
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
 msgctxt "Interface.MoleVolatilesDescription"
@@ -4849,20 +4849,20 @@ msgctxt "Interface.LogicTypeTemperatureExternal"
 msgid "The temperature of the outside of the device, usually the world atmosphere surrounding it"
 msgstr "Cihazın dış sıcaklığı (genellikle onu çevreleyen dünya atmosferi)"
 
-#: /Language/Interface/Record[Key='JoinWorldSortBy']
-msgctxt "Interface.JoinWorldSortBy"
-msgid "Sort by"
-msgstr "SIRALAMA ÖLÇÜTÜ"
+#: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
+msgctxt "Interface.LogicTypeTemperatureSetting"
+msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
+msgstr "Nesnenin iç sıcaklığı için geçerli ayarı (örneğin Ağır Giysi A/C)"
 
 #: /Language/Interface/Record[Key='LogicTypePressureSetting']
 msgctxt "Interface.LogicTypePressureSetting"
 msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
 msgstr "Nesnenin iç basıncı için KPa biriminde geçerli ayarı (örneğin Ağır Giysi Hava salımı)"
 
-#: /Language/Interface/Record[Key='LogicTypeOutput']
-msgctxt "Interface.LogicTypeOutput"
-msgid "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
-msgstr "İstifleyici veya ayırıcı gibi bir sıralama işleme cihazı için çıktı işlemi; mantık modundayken cihaz, sıfır veya üstü olarak ayarlandığında yalnızca bir tekrarı alır ve sonra -1'e geri döner ve de sonraki talimatları bekler."
+#: /Language/Interface/Record[Key='JoinWorldSortBy']
+msgctxt "Interface.JoinWorldSortBy"
+msgid "Sort by"
+msgstr "SIRALAMA ÖLÇÜTÜ"
 
 #: /Language/Interface/Record[Key='LogicTypeHarvest']
 msgctxt "Interface.LogicTypeHarvest"

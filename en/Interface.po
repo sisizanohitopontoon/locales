@@ -217,10 +217,10 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Saved Worlds"
 
-#: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
-msgctxt "Interface.LogicTypeTemperatureSetting"
-msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
-msgstr "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
+#: /Language/Interface/Record[Key='LogicTypeOutput']
+msgctxt "Interface.LogicTypeOutput"
+msgid "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
+msgstr "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -717,6 +717,11 @@ msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Reflections"
 
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "Backpacks"
+
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
@@ -726,11 +731,6 @@ msgstr "Master Volume"
 msgctxt "Interface.SettingsTitleMixer"
 msgid "Mixer"
 msgstr "Mixer"
-
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr "Walls and Floors"
 
 #: /Language/Interface/Record[Key='SettingsSound']
 msgctxt "Interface.SettingsSound"
@@ -1492,15 +1492,15 @@ msgctxt "Interface.SettingsTitleGameSettings"
 msgid "Game Settings"
 msgstr "Game Settings"
 
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr "Walls and Floors"
+
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
 msgstr "Consumables"
-
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "Backpacks"
 
 #: /Language/Interface/Record[Key='LightCategory']
 msgctxt "Interface.LightCategory"
@@ -1578,11 +1578,6 @@ msgid ""
 "Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.\n"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
-msgstr "Hunger/Hydration Rate"
-
 #: /Language/Interface/Record[Key='MolePollutantDescription']
 msgctxt "Interface.MolePollutantDescription"
 msgid ""
@@ -1590,6 +1585,11 @@ msgid ""
 "      \n"
 "Pollutant has a high specific heat, making it an excellent coolant."
 msgstr ""
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger/Hydration Rate"
+msgstr "Hunger/Hydration Rate"
 
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
 msgctxt "Interface.MoleVolatilesDescription"
@@ -4856,20 +4856,20 @@ msgctxt "Interface.LogicTypeTemperatureExternal"
 msgid "The temperature of the outside of the device, usually the world atmosphere surrounding it"
 msgstr "The temperature of the outside of the device, usually the world atmosphere surrounding it"
 
-#: /Language/Interface/Record[Key='JoinWorldSortBy']
-msgctxt "Interface.JoinWorldSortBy"
-msgid "Sort by"
-msgstr "Sort by"
+#: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
+msgctxt "Interface.LogicTypeTemperatureSetting"
+msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
+msgstr "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
 
 #: /Language/Interface/Record[Key='LogicTypePressureSetting']
 msgctxt "Interface.LogicTypePressureSetting"
 msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
 msgstr "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
 
-#: /Language/Interface/Record[Key='LogicTypeOutput']
-msgctxt "Interface.LogicTypeOutput"
-msgid "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
-msgstr "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
+#: /Language/Interface/Record[Key='JoinWorldSortBy']
+msgctxt "Interface.JoinWorldSortBy"
+msgid "Sort by"
+msgstr "Sort by"
 
 #: /Language/Interface/Record[Key='LogicTypeHarvest']
 msgctxt "Interface.LogicTypeHarvest"
