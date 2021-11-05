@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-05 21:48+0000\n"
+"PO-Revision-Date: 2021-11-05 21:54+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5226,13 +5226,15 @@ msgid "Transformer Reversed (Medium)"
 msgstr "Obrácený transformátor (střední)"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMediumReversed']
-#, fuzzy
 msgctxt "Things.StructureTransformerMediumReversed"
 msgid ""
 "Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading <color=#0080FFFF>{LINK:ElectronicPage;electrical}</color> systems. \n"
 "Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.\n"
 "Note that transformers also operate as data isolators, preventing data flowing into any network beyond it."
-msgstr "Transformátor (střední, obrácený)"
+msgstr ""
+"Transformátory řídí maximální výkon, který bude proudit po dílčí síti kabelů, aby se zabránilo přetížení <color=#0080FFFF>{LINK:ElectronicPage;electrických}</color> systémů. \n"
+"Střední transformátory se používají ve větších sestavách, kde je potřeba více než 5000 W, přičemž výkon lze nastavit na maximálně 25 000 W.\n"
+"Všimněte si, že transformátory fungují také jako datové izolátory, které zabraňují toku dat do jakékoli sítě mimo ně."
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMediumReversed']
 msgctxt "Things.StructureTransformerMediumReversed"
@@ -5240,13 +5242,15 @@ msgid "Transformer Reversed (Medium)"
 msgstr "Transformátor (střední, obrácený)"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium']
-#, fuzzy
 msgctxt "Things.StructureTransformerMedium"
 msgid ""
 "Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading <color=#0080FFFF>{LINK:ElectronicPage;electrical}</color> systems. \n"
 "Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.\n"
 "Note that transformers also operate as data isolators, preventing data flowing into any network beyond it."
-msgstr "Transformátor (střední)"
+msgstr ""
+"Transformátory řídí maximální výkon, který bude proudit po dílčí síti kabelů, aby se zabránilo přetížení <color=#0080FFFF>{LINK:ElectronicPage;electrických}</color> systémů. \n"
+"Střední transformátory se používají ve větších sestavách, kde je potřeba více než 5000 W, přičemž výkon lze nastavit na maximálně 25 000 W.\n"
+"Všimněte si, že transformátory fungují také jako datové izolátory, které zabraňují toku dat do jakékoli sítě mimo ně."
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium']
 msgctxt "Things.StructureTransformerMedium"
@@ -5403,7 +5407,6 @@ msgid "GPS"
 msgstr "GPS"
 
 #: /Language/Things/RecordThing[Key='Robot']
-#, fuzzy
 msgctxt "Things.Robot"
 msgid ""
 "Designed by - presumably drunk - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a <color=#0080FFFF>{LINK:Stationeers;Stationeer's}</color> best friend, or tiresome nemesis, or both several times in the same day. \n"
@@ -5419,7 +5422,20 @@ msgid ""
 "RobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids\n"
 "RobotMode.None = 5 = Path(find) to target\n"
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
-msgstr "AIMeE Bot"
+msgstr ""
+"AIMeE (neboli Automatizovaná nezávislá mechanická entita), navržená - pravděpodobně opilými - <color=#0080FFFF>{LINK:Norsec;Norsec}</color> robotiky, může být <color=#0080FFFF>{LINK:Stationeers;Stationeerům}</color> nejlepším přítelem nebo otravnou nemesis, případně obojím několikrát za den. \n"
+"  \n"
+"Jednotka je určena k automatickému vykopávání a získávání rud, k jejímu ovládání jsou zapotřebí základní znalosti programování a {THING:MotherboardProgrammableChip}.\n"
+"\n"
+"AIMEe má 7 režimů:\n"
+"\n"
+"RobotMode.None = 0 = Nedělat nic\n"
+"RobotMode.None = 1 = Následuje nejbližšího hráče\n"
+"RobotMode.None = 2 = Pohyb k cíli v přímém směru\n"
+"RobotMode.None = 3 = Bloudí po okolí a hledá rudy v okruhu 15 souřadnic\n"
+"RobotMode.None = 4 = Vykládá do vstupu šachty nebo zásobníku šachty v okruhu 3 metrů / 1,5 velké mřížky\n"
+"RobotMode.None = 5 = Cesta (nalezení) k cíli\n"
+"RobotMode.None = 6 = Automaticky přiřazený stav, zobrazí se, když jsou skladovací sloty plné"
 
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
@@ -5581,10 +5597,9 @@ msgstr ""
 " nebo vyšší."
 
 #: /Language/Things/RecordThing[Key='MotherboardComms']
-#, fuzzy
 msgctxt "Things.MotherboardComms"
 msgid "Communications Motherboard"
-msgstr "Komunikace"
+msgstr "Komunikační základní deska"
 
 #: /Language/Things/RecordThing[Key='ItemAlienMushroom']
 msgctxt "Things.ItemAlienMushroom"
