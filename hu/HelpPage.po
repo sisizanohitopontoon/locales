@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-30 14:22+0000\n"
+"PO-Revision-Date: 2021-11-30 14:35+0000\n"
 "Last-Translator: Bede <bede.horvath@gmail.com>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1011,7 +1011,6 @@ msgid "Hunger and nutrition"
 msgstr "Éhség és táplálkozás"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
-#, fuzzy
 msgctxt "HelpPage.NutritionPage"
 msgid ""
 "{HEADER:HUNGER}\n"
@@ -1026,11 +1025,15 @@ msgid ""
 "\n"
 "Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider in the settings. Note that the hunger slider also governs your {LINK:HydrationPage;Thirst}.\n"
 msgstr ""
-"A stationeerek, mint mindenki, megéhezhetnek. A különböző ételek mind máshogy készülnek. Az éhezés mértéke függ a beállításaidtól és a nehézségtől. Az élelem elfogyasztásásakor annak csak annyi része fog elfogyni, amennyi a tápláltságod 100%-os elréséhez szükséges.\n"
+"{HEADER:HUNGER}\n"
 "\n"
-"Minden stationeer kap induláskor élelemellátmányt, mint a <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> {THING:ItemCerealBar}, melyet a leszállóegységben talál meg. Ha ezek elfogynak, máshogy kell megoldanod az élelemellátást.\n"
+"Minden stationeer megéhezik egyszer, viszont minden ételt máshogy kell elkészíteni. Az éhséged mértéke függ a beállításoktól és a nehézségi szinttől is. Az étel elfogyasztásakor annak csak annyi része fogy el, amennyi szükséges a 100%-os tápláltsághoz.\n"
 "\n"
-"Az alapanyagok nyersen kevésbé táplálnak, mint az elkészített ételek, azaz kevesebb részét töltik vissza a tápláltságnak. Az alapvető élelmiszerek a <color=#0080FFFF>{LINK:OrganicsPage;hidroponikával}</color> állíthatóak elő. Ezeket {THING:ApplianceReagentProcessor} segítségével dolgozhatod fel, majd a {THING:ApplianceMicrowave} segítségével készítheted el ételnek."
+"A stationeerek kapnak induláskor ellátmányt, mint a <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> {THING:ItemCerealBar}. Ezek a leszállóegységgel együtt érkeznek. Ha a készletek kifogytak, muszáj új módot találnod az élelem megszerzésére - termesztéssel, az ellátmánnyal érkezett magokkal, vagy egy {LINK:TradingPage;kereskedő} segítségével.\n"
+"\n"
+"Nyers, feldolgozatlan élelem fogyasztása is enyhítheti az éhséget, de kevésbé, mint az elkészített ételek (azaz kevesebbet tölt vissza az éhségcsíkba). Az legalapvetőbb hozzávalókat <color=#0080FFFF>{LINK:OrganicPage;hidroponikus}</color> rendszerek segítségével állíthatod elő. Ezeket a {THING:ApplianceReagentProcessor} segítségével dolgozhatod fel, majd ezeket egy kész fogássá alakíthatod a {THING:ApplianceMicrowave} vagy az {THING:StructureAutomatedOven} segítségével.\n"
+"\n"
+"Az éhséged mértékét a beállításokban állíthatod át az Éhség/Szomjúság csúszka átállításával. Ez a csúszka a {LINK:HydrationPage;szomjúság} mértékét és változtatja."
 
 #: /Language/HelpPage/StationpediaPage[Key='FarmingPage']
 msgctxt "HelpPage.FarmingPage"
