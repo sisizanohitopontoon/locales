@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-21 20:18+0000\n"
-"Last-Translator: BrainKiller <dchambelant@gmail.com>\n"
+"PO-Revision-Date: 2021-12-05 14:29+0000\n"
+"Last-Translator: Totor <tony.giraud@gmail.com>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -180,16 +180,14 @@ msgid "Import/Export and Chutes"
 msgstr "Importation/Exportation et Gaines de transport"
 
 #: /Language/HelpPage/StationpediaPage[Key='ImportExportPage']
-#, fuzzy
 msgctxt "HelpPage.ImportExportPage"
 msgid ""
 "These are structures, typically powered, that are able to receive and output other items, or assist this. Most have specialist functions including {LINK:LogicUnitPage;logic}, {LINK:AtmosphericPage;atmospherics}, and more. They are constructed in the same way as other structures.\n"
 "        {LIST_OF_IMPORTEXPORT}\n"
 "      "
 msgstr ""
-"Il s’agit de structures, généralement électriquement alimentées, dotées de fonctions spécialisées, notamment logiques, atmosphériques, etc. Ils sont construits de la même manière que les autres structures.\n"
-"      \n"
-"{LIST_OF_DEVICES}\n"
+"Ce sont des structures, généralement alimentées, qui sont capables de recevoir et de produire d’autres éléments, ou d’aider à cela. La plupart ont des fonctions spécialisées, notamment {LINK:LogicUnitPage;logic}, {LINK:AtmosphericPage;atmospherics}, etc. Ils sont construits de la même manière que les autres structures.\n"
+"        {LIST_OF_IMPORTEXPORT}      "
 
 #: /Language/HelpPage/StationpediaPage[Key='SmeltingPage']
 msgctxt "HelpPage.SmeltingPage"
@@ -265,7 +263,6 @@ msgid "Construction"
 msgstr "Construction"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructionPage']
-#, fuzzy
 msgctxt "HelpPage.ConstructionPage"
 msgid ""
 "{HEADER:Getting Started}\n"
@@ -282,7 +279,7 @@ msgid ""
 "      "
 msgstr ""
 "{HEADER:Debuter}\n"
-"En règle générale, vous utiliserez des {LINK:KitPage;kits} pour lancer la construction, puis divers {LINK:ToolPage;outils} et {LINK:ResourcePage;resources} à compléter. Portez une attention particulière au nombre de kit requis pour construire ce que vous avez sélectionné, car certaines structures en nécessitent plusieurs. Pour certains kits, vous aurez plusieurs options, utilisez la {COLORRED:molette de la souris} pour modifier l’option actuelle que vous souhaitez créer.\n"
+"En règle générale, vous utiliserez des {LINK:KitPage;kits} pour lancer la construction, puis divers {LINK:ToolPage;outils} et {LINK:ResourcePage;resources} pour compléter. Portez une attention particulière au nombre de kit requis pour construire ce que vous avez sélectionné, car certaines structures en nécessitent plusieurs. Pour certains kits, vous aurez plusieurs options, utilisez la {COLORRED:molette de la souris} pour modifier l’option actuelle que vous souhaitez créer.\n"
 "\n"
 "{HEADER:Construire des structures}\n"
 "Certaines structures auront plusieurs états de construction nécessitant différentes combinaisons. Votre infobulle vous indiquera la combinaison dont vous avez besoin pour compléter la structure. Parfois, vous aurez besoin de deux objets, un dans chaque main, pour compléter un état de construction. Certains outils devront d'abord être activés, ce qui peut être fait en appuyant sur {KEY:ToggleHandPower} tant qu'il est dans votre main active.\n"
@@ -432,7 +429,6 @@ msgid "Ores"
 msgstr "Minerais"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrePage']
-#, fuzzy
 msgctxt "HelpPage.OrePage"
 msgid ""
 "These are items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}.\n"
@@ -440,7 +436,8 @@ msgid ""
 "      "
 msgstr ""
 "Il s’agit d’éléments issu de l'{LINK:MiningPage;exploitation miniere} et pouvant souvent être {LINK:SmeltingPage;fondu}. Vous pouvez également obtenir du minerai mélangé en recyclant des éléments dans le {THING:StructureRecycler}, puis en le passant à travers le {THING:StructureCentrifuge} qui le divisera en {LINK:OrePage;minerai} pour la {LINK:SmeltingPage;fonte}.      \n"
-"Certains minerais fondent lorsqu'ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gaz}. Par exemple, la {THING:ItemIce} fond en {GAS:Water} et {GAS:Oxygen}. Veillez à les garder à l'abri de la chaleur ou de la lumière du soleil jusqu'à ce que vous souhaitiez réellement les faire fondre.{LIST_OF_ORES}\n"
+"Certains minerais fondent lorsqu'ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gaz}. Par exemple, la {THING:ItemIce} fond en {GAS:Water} et {GAS:Oxygen}. Veillez à les garder à l'abri de la chaleur ou de la lumière du soleil jusqu'à ce que vous souhaitiez réellement les faire fondre.\n"
+"{LIST_OF_ORES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
 msgctxt "HelpPage.IngotPage"
@@ -448,7 +445,6 @@ msgid "Ingots"
 msgstr "Lingots"
 
 #: /Language/HelpPage/StationpediaPage[Key='IngotPage']
-#, fuzzy
 msgctxt "HelpPage.IngotPage"
 msgid ""
 "These are items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores} for use in {LINK:FabricatorPage;fabricators}.\n"
@@ -458,10 +454,7 @@ msgid ""
 msgstr ""
 "Ce sont des éléments généralement fabriqués à partir de {LINK:SmeltingPage;fonte} et de {LINK:OrePage;minerais}.\n"
 "\n"
-"{LIST_OF_INGOTS}\n"
-"\n"
-"\n"
-"      \n"
+"{LIST_OF_INGOTS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
 msgctxt "HelpPage.ToolPage"
