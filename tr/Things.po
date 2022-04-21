@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='KitchenTableTall']
-msgctxt "Things.KitchenTableTall"
-msgid "Kitchen Table (Tall)"
-msgstr "Mutfak Masası (Uzun)"
+#: /Language/Things/RecordThing[Key='ItemKitTables']
+msgctxt "Things.ItemKitTables"
+msgid "Kit (Tables)"
+msgstr "Donanım (Masalar)"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelDualReinforced']
 msgctxt "Things.StructureSolarPanelDualReinforced"
@@ -624,42 +624,6 @@ msgctxt "Things.ItemKitLiquidTank"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemKitLiquidTankInsulated']
-#, fuzzy
-msgctxt "Things.ItemKitLiquidTankInsulated"
-msgid "Kit (Insulated Liquid Tank)"
-msgstr "Donanım (Taşınabilir Sıvı Tankı)"
-
-#: /Language/Things/RecordThing[Key='ItemKitLiquidTankInsulated']
-#, fuzzy
-msgctxt "Things.ItemKitLiquidTankInsulated"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidTankBigInsulated']
-#, fuzzy
-msgctxt "Things.StructureLiquidTankBigInsulated"
-msgid "Insulated Liquid Tank Big"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidTankBigInsulated']
-#, fuzzy
-msgctxt "Things.StructureLiquidTankBigInsulated"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidTankSmallInsulated']
-#, fuzzy
-msgctxt "Things.StructureLiquidTankSmallInsulated"
-msgid "Insulated Liquid Tank Small"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidTankSmallInsulated']
-#, fuzzy
-msgctxt "Things.StructureLiquidTankSmallInsulated"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='StructureModularRocketLiquidTank']
 msgctxt "Things.StructureModularRocketLiquidTank"
 msgid "Automated Rocket Liquid Storage Module"
@@ -886,10 +850,11 @@ msgctxt "Things.ItemWaterPipeMeter"
 msgid "Kit (Liquid Pipe Meter)"
 msgstr "Donanım (Sıvı Boru Sayacı)"
 
-#: /Language/Things/RecordThing[Key='StructureSolarPanel45Reinforced']
-msgctxt "Things.StructureSolarPanel45Reinforced"
-msgid "This solar panel is resistant to storm damage."
-msgstr "Bu güneş paneli, fırtına hasarına dayanıklıdır."
+#: /Language/Things/RecordThing[Key='ItemWaterPipeMeter']
+#, fuzzy
+msgctxt "Things.ItemWaterPipeMeter"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
 msgctxt "Things.StructureWaterPipeMeter"
@@ -913,10 +878,10 @@ msgctxt "Things.ItemWaterPipeDigitalValve"
 msgid "{BLANK}"
 msgstr "Donanım (Dijital Sıvı Vanası)"
 
-#: /Language/Things/RecordThing[Key='StructureWaterDigitalValve']
-msgctxt "Things.StructureWaterDigitalValve"
-msgid "Liquid Digital Valve"
-msgstr "Dijital Sıvı Vanası"
+#: /Language/Things/RecordThing[Key='StructureSolarPanel45Reinforced']
+msgctxt "Things.StructureSolarPanel45Reinforced"
+msgid "This solar panel is resistant to storm damage."
+msgstr "Bu güneş paneli, fırtına hasarına dayanıklıdır."
 
 #: /Language/Things/RecordThing[Key='StructureWaterDigitalValve']
 #, fuzzy
@@ -2678,14 +2643,39 @@ msgctxt "Things.Battery_Wireless_cell_Big"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='DynamicLightNetworkTest']
-msgctxt "Things.DynamicLightNetworkTest"
-msgid "Dynamic Light Network Test"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='DynamicLightNetworkTest']
+#: /Language/Things/RecordThing[Key='StructureLiquidTankBigInsulated']
 #, fuzzy
-msgctxt "Things.DynamicLightNetworkTest"
+msgctxt "Things.StructureLiquidTankBigInsulated"
+msgid "Structure Liquid Tank Big Insulated"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidTankBigInsulated']
+#, fuzzy
+msgctxt "Things.StructureLiquidTankBigInsulated"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitLiquidTankInsulated']
+#, fuzzy
+msgctxt "Things.ItemKitLiquidTankInsulated"
+msgid "Item Kit Liquid Tank Insulated"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitLiquidTankInsulated']
+#, fuzzy
+msgctxt "Things.ItemKitLiquidTankInsulated"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidTankSmallInsulated']
+#, fuzzy
+msgctxt "Things.StructureLiquidTankSmallInsulated"
+msgid "Structure Liquid Tank Small Insulated"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidTankSmallInsulated']
+#, fuzzy
+msgctxt "Things.StructureLiquidTankSmallInsulated"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -3658,16 +3648,15 @@ msgctxt "Things.ItemWreckageLightLongAngled2"
 msgid "Wreckage Light Long Angled"
 msgstr "Enkaz Duvar Lambası Uzun Köşeli"
 
-#: /Language/Things/RecordThing[Key='ItemWaterPipeMeter']
-#, fuzzy
-msgctxt "Things.ItemWaterPipeMeter"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='ItemWreckageLightLongAngled1']
 msgctxt "Things.ItemWreckageLightLongAngled1"
 msgid "Description coming."
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureWaterDigitalValve']
+msgctxt "Things.StructureWaterDigitalValve"
+msgid "Liquid Digital Valve"
+msgstr "Dijital Sıvı Vanası"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageLightLongAngled1']
 msgctxt "Things.ItemWreckageLightLongAngled1"
@@ -4379,10 +4368,10 @@ msgctxt "Things.KitchenTableSimpleTall"
 msgid "Kitchen Table (Simple Tall)"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemKitTables']
-msgctxt "Things.ItemKitTables"
-msgid "Kit (Tables)"
-msgstr "Donanım (Masalar)"
+#: /Language/Things/RecordThing[Key='KitchenTableTall']
+msgctxt "Things.KitchenTableTall"
+msgid "Kitchen Table (Tall)"
+msgstr "Mutfak Masası (Uzun)"
 
 #: /Language/Things/RecordThing[Key='StructureAngledBench']
 msgctxt "Things.StructureAngledBench"
@@ -11437,13 +11426,23 @@ msgid "Kit (Torpedo Launcher)"
 msgstr "Donanım (Torpido Fırlatma Rampası)"
 
 #, fuzzy
+#~ msgctxt "Things.ItemKitLiquidTankInsulated"
+#~ msgid "Kit (Insulated Liquid Tank)"
+#~ msgstr "Donanım (Taşınabilir Sıvı Tankı)"
+
+#, fuzzy
 #~ msgctxt "Things.StructureLiquidTankBigInsulated"
-#~ msgid "Structure Liquid Tank Big Insulated"
+#~ msgid "Insulated Liquid Tank Big"
 #~ msgstr "{BLANK}"
 
 #, fuzzy
-#~ msgctxt "Things.ItemKitLiquidTankInsulated"
-#~ msgid "Item Kit Liquid Tank Insulated"
+#~ msgctxt "Things.StructureLiquidTankSmallInsulated"
+#~ msgid "Insulated Liquid Tank Small"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.DynamicLightNetworkTest"
+#~ msgid "{BLANK}"
 #~ msgstr "{BLANK}"
 
 #, fuzzy
