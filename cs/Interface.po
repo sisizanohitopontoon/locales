@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinMenuFiltersTitle']
-msgctxt "Interface.JoinMenuFiltersTitle"
-msgid "Filters"
-msgstr "Filtry"
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Počáteční podmínky"
 
 #: /Language/Interface/Record[Key='SafetyCategory']
 msgctxt "Interface.SafetyCategory"
@@ -220,10 +220,10 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Uložené světy"
 
-#: /Language/Interface/Record[Key='LogicTypeOutput']
-msgctxt "Interface.LogicTypeOutput"
-msgid "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
-msgstr "Výstupní operace pro zařízení pro manipulaci s tříděním, jako je stohovač nebo třídič, kdy v logickém režimu zařízení provede pouze jedno opakování, pokud je nastavena nula nebo více, a poté se vrátí na -1 a čeká na další pokyny"
+#: /Language/Interface/Record[Key='LogicTypeVolume']
+msgctxt "Interface.LogicTypeVolume"
+msgid "Returns the device atmosphere volume"
+msgstr "Vrátí hlasitost atmosféry zařízení"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -299,6 +299,17 @@ msgstr "Verze"
 msgctxt "Interface.JoinMenuServerListRefreshing"
 msgid "Refreshing Server List"
 msgstr "Aktualizace seznamu serverů"
+
+#: /Language/Interface/Record[Key='CannotConnectToMetaServer']
+msgctxt "Interface.CannotConnectToMetaServer"
+msgid "Cannot Connect To Meta Server"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ServerListCannotBeRetrieved']
+#, fuzzy
+msgctxt "Interface.ServerListCannotBeRetrieved"
+msgid "Server List Cannot Be Retrieved"
+msgstr "Nyní lze spustit server."
 
 #: /Language/Interface/Record[Key='JoinMenuInputAddressTitle']
 msgctxt "Interface.JoinMenuInputAddressTitle"
@@ -711,6 +722,11 @@ msgctxt "Interface.SettingsShadowDistamce"
 msgid "Shadow Distance"
 msgstr "Vzdálenost stínu"
 
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr "Spotřeba"
+
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
 msgid "Environmental Elements"
@@ -720,11 +736,6 @@ msgstr "Prvky životního prostředí"
 msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Odrazy"
-
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "Batohy"
 
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
@@ -780,6 +791,17 @@ msgstr "Úspěšně uloženo"
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
 msgstr "Nelze získat přístup k umístění uložených souborů, používáte neplatný znak? Zkuste změnit adresář pro ukládání v Nastavení."
+
+#: /Language/Interface/Record[Key='PlayerIsConnecting']
+msgctxt "Interface.PlayerIsConnecting"
+msgid "Player is connecting"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GamePaused']
+#, fuzzy
+msgctxt "Interface.GamePaused"
+msgid "Game Paused"
+msgstr "Pozastavit"
 
 #: /Language/Interface/Record[Key='AlertButtonClose']
 msgctxt "Interface.AlertButtonClose"
@@ -1350,11 +1372,6 @@ msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Hodnoty portu musí být v rozmezí 0 až 65535."
 
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "Nelze změnit port aktualizace, když je server spuštěn."
-
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
@@ -1369,6 +1386,11 @@ msgstr "Pozor"
 msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Počkejte prosím..."
+
+#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
+msgctxt "Interface.TooltipNeedMoreKit"
+msgid "<color=red>Need more {0}</color>."
+msgstr "<color=red>Potřebujete více {0}</color>."
 
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
@@ -1485,35 +1507,15 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Barva očí"
 
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Barva pleti"
-
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "Vousy"
-
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Počáteční podmínky"
-
-#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
-msgctxt "Interface.SettingsTitleGameSettings"
-msgid "Game Settings"
-msgstr "Nastavení hry"
-
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
 msgid "Walls and Floors"
 msgstr "Stěny a podlahy"
 
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr "Spotřeba"
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "Batohy"
 
 #: /Language/Interface/Record[Key='LightCategory']
 msgctxt "Interface.LightCategory"
@@ -1565,6 +1567,11 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Slot"
 
+#: /Language/Interface/Record[Key='SettingsStartLocalHost']
+msgctxt "Interface.SettingsStartLocalHost"
+msgid "StartLocalHost"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsVirtualizedRendering']
 msgctxt "Interface.SettingsVirtualizedRendering"
 msgid "Virtualized Rendering\n"
@@ -1606,11 +1613,6 @@ msgstr ""
 "  \n"
 "Znečišťující látka má vysoké měrné teplo, což z ní činí vynikající chladivo."
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
-msgstr "Hlad / Hydratace"
-
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
 msgctxt "Interface.MoleVolatilesDescription"
 msgid ""
@@ -1625,6 +1627,11 @@ msgstr ""
 "Kvůli nejasným a z velké části zapomenutým <color=#0080FFFF>{LINK:ODA;ODA}</color> předpisům jsou těkavé látky někdy označovány jako \"H2\" u různých technologických předmětů. Ačkoli se však vodíku podobají, ve skutečnosti to 'vodík' není. Při spalování těkavých látek bez katalyzátoru nevzniká voda (viz {THING:H2Combustor}). Samotné vytvářejí škodliviny a oxid uhličitý, když se spalují v následujícím poměru:\n"
 "  \n"
 "2 těkavé látky + 1 O2 -> 3X + 6CO2 + teplo."
+
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Barva pleti"
 
 #: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
 msgctxt "Interface.MoleCarbonDioxideDescription"
@@ -4915,10 +4922,10 @@ msgctxt "Interface.LogicTypePressureSetting"
 msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
 msgstr "Aktuální nastavení vnitřního tlaku objektu (např. uvolnění vzduchu zpevněného obleku) v KPa"
 
-#: /Language/Interface/Record[Key='JoinWorldSortBy']
-msgctxt "Interface.JoinWorldSortBy"
-msgid "Sort by"
-msgstr "Seřadit podle"
+#: /Language/Interface/Record[Key='LogicTypeOutput']
+msgctxt "Interface.LogicTypeOutput"
+msgid "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
+msgstr "Výstupní operace pro zařízení pro manipulaci s tříděním, jako je stohovač nebo třídič, kdy v logickém režimu zařízení provede pouze jedno opakování, pokud je nastavena nula nebo více, a poté se vrátí na -1 a čeká na další pokyny"
 
 #: /Language/Interface/Record[Key='LogicTypeHarvest']
 msgctxt "Interface.LogicTypeHarvest"
@@ -4930,10 +4937,10 @@ msgctxt "Interface.LogicTypePlant"
 msgid "Performs the planting action for any plant based machinery"
 msgstr "Provádí výsadbu u všech strojních zařízení"
 
-#: /Language/Interface/Record[Key='LogicTypeVolume']
-msgctxt "Interface.LogicTypeVolume"
-msgid "Returns the device atmosphere volume"
-msgstr "Vrátí hlasitost atmosféry zařízení"
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "Vousy"
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMoles']
 msgctxt "Interface.LogicTypeTotalMoles"
@@ -5723,8 +5730,9 @@ msgid "No Device"
 msgstr "Žádné zařízení"
 
 #: /Language/Interface/Record[Key='LogicState']
+#, fuzzy
 msgctxt "Interface.LogicState"
-msgid "State {COLORGREEN:#VAR1#}"
+msgid "State <color=green>#VAR1#</color>"
 msgstr "Stav {COLORGREEN:#VAR1#}"
 
 #: /Language/Interface/Record[Key='FurnaceSmelting']
@@ -5989,10 +5997,34 @@ msgctxt "Interface.JoinMenuButtonStopRefresh"
 msgid "Stop Refresh"
 msgstr "Zastavit aktualizaci"
 
-#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
-msgctxt "Interface.TooltipNeedMoreKit"
-msgid "<color=red>Need more {0}</color>."
-msgstr "<color=red>Potřebujete více {0}</color>."
+#: /Language/Interface/Record[Key='JoinMenuFiltersTitle']
+msgctxt "Interface.JoinMenuFiltersTitle"
+msgid "Filters"
+msgstr "Filtry"
+
+#: /Language/Interface/Record[Key='JoinWorldSortBy']
+msgctxt "Interface.JoinWorldSortBy"
+msgid "Sort by"
+msgstr "Seřadit podle"
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger/Hydration Rate"
+msgstr "Hlad / Hydratace"
+
+#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
+msgctxt "Interface.SettingsTitleGameSettings"
+msgid "Game Settings"
+msgstr "Nastavení hry"
+
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "Nelze změnit port aktualizace, když je server spuštěn."
+
+#~ msgctxt "Interface.LogicState"
+#~ msgid "State {COLORGREEN:#VAR1#}"
+#~ msgstr "Stav {COLORGREEN:#VAR1#}"
 
 #~ msgctxt "Interface.Plants"
 #~ msgid "Plants"
@@ -6205,7 +6237,3 @@ msgstr "<color=red>Potřebujete více {0}</color>."
 #~ msgctxt "Interface.TraderChemistry"
 #~ msgid "Chemical Expert "
 #~ msgstr "Chemický Expert "
-
-#~ msgctxt "Interface.MainMenuTutorial"
-#~ msgid "Tutorial<color=green> - NEW!</color> "
-#~ msgstr "Tutorial<color=green> - NEW!</color> "

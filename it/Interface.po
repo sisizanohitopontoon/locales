@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinMenuFiltersTitle']
-msgctxt "Interface.JoinMenuFiltersTitle"
-msgid "Filters"
-msgstr "Filtri"
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Condizioni di partenza"
 
 #: /Language/Interface/Record[Key='SafetyCategory']
 msgctxt "Interface.SafetyCategory"
@@ -226,10 +226,10 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Lista Mondi Salvati"
 
-#: /Language/Interface/Record[Key='LogicTypeOutput']
-msgctxt "Interface.LogicTypeOutput"
-msgid "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
-msgstr "L'operazione di output per un dispositivo di gestione delle ordinazioni, ad esempio un impilatore o uno smistatore, quando in modalità logica il dispositivo azionerà solo una ripetizione quando impostato zero o sopra e poi di nuovo a-1 e attendendo ulteriori istruzioni"
+#: /Language/Interface/Record[Key='LogicTypeVolume']
+msgctxt "Interface.LogicTypeVolume"
+msgid "Returns the device atmosphere volume"
+msgstr "Restituisce il volume dell'atmosfera del dispositivo"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -305,6 +305,16 @@ msgstr "Versione"
 msgctxt "Interface.JoinMenuServerListRefreshing"
 msgid "Refreshing Server List"
 msgstr "Aggiorna lista Server"
+
+#: /Language/Interface/Record[Key='CannotConnectToMetaServer']
+msgctxt "Interface.CannotConnectToMetaServer"
+msgid "Cannot Connect To Meta Server"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ServerListCannotBeRetrieved']
+msgctxt "Interface.ServerListCannotBeRetrieved"
+msgid "Server List Cannot Be Retrieved"
+msgstr ""
 
 #: /Language/Interface/Record[Key='JoinMenuInputAddressTitle']
 msgctxt "Interface.JoinMenuInputAddressTitle"
@@ -722,6 +732,11 @@ msgctxt "Interface.SettingsShadowDistamce"
 msgid "Shadow Distance"
 msgstr "Distanza ombre"
 
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsEnvElements']
 msgctxt "Interface.SettingsEnvElements"
 msgid "Environmental Elements"
@@ -731,12 +746,6 @@ msgstr "Elementi ambientali"
 msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Riflessi"
-
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-#, fuzzy
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "Backup"
 
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
@@ -791,6 +800,16 @@ msgstr "Salvataggio riuscito"
 #: /Language/Interface/Record[Key='SaveLocationBroken']
 msgctxt "Interface.SaveLocationBroken"
 msgid "Unable to access the savefiles location, are you using an invalid character? Try changing the save directory in Settings."
+msgstr ""
+
+#: /Language/Interface/Record[Key='PlayerIsConnecting']
+msgctxt "Interface.PlayerIsConnecting"
+msgid "Player is connecting"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GamePaused']
+msgctxt "Interface.GamePaused"
+msgid "Game Paused"
 msgstr ""
 
 #: /Language/Interface/Record[Key='AlertButtonClose']
@@ -1366,11 +1385,6 @@ msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Il valore delle porte deve essere tra 0 e 65535."
 
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "Impossibile aggiornare porta mentre il server è attivo."
-
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
@@ -1385,6 +1399,11 @@ msgstr "Attenzione"
 msgctxt "Interface.AlertTitlePleaseWait"
 msgid "Please Wait..."
 msgstr "Per favore attendi..."
+
+#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
+msgctxt "Interface.TooltipNeedMoreKit"
+msgid "<color=red>Need more {0}</color>."
+msgstr "<color=red>Servono più : {0}</color>."
 
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
@@ -1501,35 +1520,16 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Colore occhi"
 
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Colore pelle"
-
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "Barba"
-
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Condizioni di partenza"
-
-#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
-msgctxt "Interface.SettingsTitleGameSettings"
-msgid "Game Settings"
-msgstr "Parametri di gioco"
-
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
 msgid "Walls and Floors"
 msgstr ""
 
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr ""
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+#, fuzzy
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "Backup"
 
 #: /Language/Interface/Record[Key='LightCategory']
 #, fuzzy
@@ -1583,6 +1583,11 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr ""
 
+#: /Language/Interface/Record[Key='SettingsStartLocalHost']
+msgctxt "Interface.SettingsStartLocalHost"
+msgid "StartLocalHost"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsVirtualizedRendering']
 msgctxt "Interface.SettingsVirtualizedRendering"
 msgid "Virtualized Rendering\n"
@@ -1617,12 +1622,6 @@ msgid ""
 "Pollutant has a high specific heat, making it an excellent coolant."
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsHungerRate']
-#, fuzzy
-msgctxt "Interface.SettingsHungerRate"
-msgid "Hunger/Hydration Rate"
-msgstr "Tasso consumo fame"
-
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
 msgctxt "Interface.MoleVolatilesDescription"
 msgid ""
@@ -1632,6 +1631,11 @@ msgid ""
 "      \n"
 "2 Volatiles + 1 O2 -> 3X + 6CO2 + heat."
 msgstr ""
+
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Colore pelle"
 
 #: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
 msgctxt "Interface.MoleCarbonDioxideDescription"
@@ -4989,10 +4993,10 @@ msgctxt "Interface.LogicTypePressureSetting"
 msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
 msgstr "L'impostazione corrente per la pressione interna dell'oggetto (ad es. il rilascio di Aria della Tuta Rinforzata), in KPa"
 
-#: /Language/Interface/Record[Key='JoinWorldSortBy']
-msgctxt "Interface.JoinWorldSortBy"
-msgid "Sort by"
-msgstr "Ordina per"
+#: /Language/Interface/Record[Key='LogicTypeOutput']
+msgctxt "Interface.LogicTypeOutput"
+msgid "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions"
+msgstr "L'operazione di output per un dispositivo di gestione delle ordinazioni, ad esempio un impilatore o uno smistatore, quando in modalità logica il dispositivo azionerà solo una ripetizione quando impostato zero o sopra e poi di nuovo a-1 e attendendo ulteriori istruzioni"
 
 #: /Language/Interface/Record[Key='LogicTypeHarvest']
 msgctxt "Interface.LogicTypeHarvest"
@@ -5004,10 +5008,10 @@ msgctxt "Interface.LogicTypePlant"
 msgid "Performs the planting action for any plant based machinery"
 msgstr "Esegue l'azione di semina per qualsiasi macchinario per vegetali"
 
-#: /Language/Interface/Record[Key='LogicTypeVolume']
-msgctxt "Interface.LogicTypeVolume"
-msgid "Returns the device atmosphere volume"
-msgstr "Restituisce il volume dell'atmosfera del dispositivo"
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "Barba"
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMoles']
 msgctxt "Interface.LogicTypeTotalMoles"
@@ -5794,8 +5798,9 @@ msgid "No Device"
 msgstr "Nessun dispositivo"
 
 #: /Language/Interface/Record[Key='LogicState']
+#, fuzzy
 msgctxt "Interface.LogicState"
-msgid "State {COLORGREEN:#VAR1#}"
+msgid "State <color=green>#VAR1#</color>"
 msgstr "Stato {COLORGREEN:#VAR1#}"
 
 #: /Language/Interface/Record[Key='FurnaceSmelting']
@@ -6056,10 +6061,35 @@ msgctxt "Interface.JoinMenuButtonStopRefresh"
 msgid "Stop Refresh"
 msgstr "Ferma Aggiornamento"
 
-#: /Language/Interface/Record[Key='TooltipNeedMoreKit']
-msgctxt "Interface.TooltipNeedMoreKit"
-msgid "<color=red>Need more {0}</color>."
-msgstr "<color=red>Servono più : {0}</color>."
+#: /Language/Interface/Record[Key='JoinMenuFiltersTitle']
+msgctxt "Interface.JoinMenuFiltersTitle"
+msgid "Filters"
+msgstr "Filtri"
+
+#: /Language/Interface/Record[Key='JoinWorldSortBy']
+msgctxt "Interface.JoinWorldSortBy"
+msgid "Sort by"
+msgstr "Ordina per"
+
+#: /Language/Interface/Record[Key='SettingsHungerRate']
+#, fuzzy
+msgctxt "Interface.SettingsHungerRate"
+msgid "Hunger/Hydration Rate"
+msgstr "Tasso consumo fame"
+
+#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
+msgctxt "Interface.SettingsTitleGameSettings"
+msgid "Game Settings"
+msgstr "Parametri di gioco"
+
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "Impossibile aggiornare porta mentre il server è attivo."
+
+#~ msgctxt "Interface.LogicState"
+#~ msgid "State {COLORGREEN:#VAR1#}"
+#~ msgstr "Stato {COLORGREEN:#VAR1#}"
 
 #, fuzzy
 #~ msgctxt "Interface.Plants"
@@ -6113,7 +6143,3 @@ msgstr "<color=red>Servono più : {0}</color>."
 #~ msgctxt "Interface.WorldInfoTextPlayers"
 #~ msgid "Players:"
 #~ msgstr "Giocatori :"
-
-#~ msgctxt "Interface.MainMenuTutorial"
-#~ msgid "Tutorial<color=green> - NEW!</color> "
-#~ msgstr "Tutorial <color=green> - Nuovo !</color>"
