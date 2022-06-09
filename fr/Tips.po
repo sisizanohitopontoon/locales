@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-08 17:30+0000\n"
+"PO-Revision-Date: 2022-06-08 18:13+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,14 +67,16 @@ msgid ""
 "Press {KEY:RotateLeft} to rotate the construction cursor left, {KEY:RotateRight} to rotate right, {KEY:RotateUp} to rotate up, {KEY:RotateDown} to rotate down, {KEY:RotateRollLeft} to roll left, or "
 "{KEY:RotateRollRight} to roll right."
 msgstr ""
+"Pressez {KEY:RotateLeft} afin de tourner vers la gauche l'objet en construction, {KEY:RotateRight} pour tourner vers la droite, {KEY:RotateUp} pour tourner vers le haut, {KEY:RotateDown} pour "
+"tourner vers le bas, {KEY:RotateRollLeft} pour pivoter vers la gauche, et {KEY:RotateRollRight} pour pivoter vers la droite."
 
 #: /Language/GameTip/String[13]
 msgid "Space isn't as empty as it sounds."
-msgstr ""
+msgstr "L'espace n'est pas aussi vide qu'il n'y paraît."
 
 #: /Language/GameTip/String[14]
 msgid "Place a stack of {THING:ItemIronOre} in a powered {THING:StructureArcFurnace} to smelt an {THING:ItemIronIngot}."
-msgstr ""
+msgstr "Placez une quantité d'{THING:ItemIronOre} dans un {THING:StructureArcFurnace} afin de le transformer en {THING:ItemIronIngot}."
 
 #: /Language/GameTip/String[15]
 msgid ""
@@ -86,38 +88,40 @@ msgstr ""
 
 #: /Language/GameTip/String[16]
 msgid "When altering the quantity of something via a button in world, hold down {KEY:QuantityModifier} while clicking to use smaller increments."
-msgstr ""
+msgstr "Lorsque vous modifiez une valeur ou une quantité via un bouton, maintenez {KEY:QuantityModifier} enfoncé avant de cliquer pour une incrémentation de valeurs plus petite."
 
 #: /Language/GameTip/String[17]
 msgid ""
 "Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicReader} or {THING:StructureLogicWriter}. Readers allow you to read values from other devices, writers allow you to change "
 "values on devices. When combined with Math Units, you can make extremely complex automated systems."
 msgstr ""
-"Utilisez un {THING:ItemKitLogicInputOutput} pour créer un {THING:StructureLogicReader} ou {THING:StructureLogicWriter}. Les unités logiques lecture vont vous permettre de lire les valeurs d'autres "
-"appareils, les unités logiques écriture vont vous permettent de modifier les valeurs sur les appareils. Lorsqu'il est combiné avec des unités mathématiques, vous pouvez créer des systèmes "
-"automatisés extrêmement complexes."
+"Utilisez un {THING:ItemKitLogicInputOutput} pour créer un {THING:StructureLogicReader} ou un {THING:StructureLogicWriter}. Les {THING:StructureLogicReader} vont vous permettre de lire les valeurs "
+"des autres appareils, tandis que les {THING:StructureLogicWriter} vont vous permettre d'écrire des valeurs sur les appareils. En les combinant avec des unités mathématiques, vous pouvez créer des "
+"systèmes automatisés extrêmement complexes."
 
 #: /Language/GameTip/String[18]
 msgid ""
 "Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicBatchReader} or {THING:StructureLogicBatchWriter}. Readers allow you to read values from an entire group of other devices, "
 "writers allow you to change values on entire groups of other devices."
 msgstr ""
+"Utilisez un {THING:ItemKitLogicInputOutput} pour créer un {THING:StructureLogicBatchReader} ou un {THING:StructureLogicBatchWriter}. Les lecteurs vous permettent de lire les valeurs d'un groupe "
+"d'appareils, les unités d'écriture groupée vous permettent de modifier les valeurs sur des groupes d'appareils."
 
 #: /Language/GameTip/String[19]
 msgid ""
 "Use a {THING:StructureRecycler} to convert things you no longer want into usable reagents. Pass the outputted {THING:ItemReagentMix} into a {THING:StructureCentrifuge} to convert it back into ore, "
 "ready for a {THING:StructureFurnace}."
 msgstr ""
-"Utilisez un {THING:StructureRecycler} pour transformer les objets que vous ne voulez plus en réactifs. Placez le {THING:ItemReagentMix} dans une {THING:StructureCentrifuge} pour en extraire les "
-"différents minerais qui seront utilisables dans un {THING:StructureFurnace}."
+"Utilisez un {THING:StructureRecycler} pour transformer les objets dont vous voulez vous débarrasser en réactifs ré-utilisables. Placez le {THING:ItemReagentMix} dans une {THING:StructureCentrifuge} "
+"pour en extraire les différents minerais qui seront utilisables dans un {THING:StructureFurnace}."
 
 #: /Language/GameTip/String[20]
 msgid ""
 "Use a {THING:StructureHydraulicPipeBender} to manufacture atmospheric items, such as the {THING:ItemKitAtmospherics} which allows you to build useful machines such as the "
 "{THING:StructureAirConditioner} or {THING:StructureFiltration}."
 msgstr ""
-"Utilisez un {THING:StructureHydraulicPipeBender} pour fabriquer des éléments atmosphériques, tels que le {THING:ItemKitAtmospherics} qui vous permet de construire des machines utiles telles que "
-"{THING:StructureAirConditioner} ou {THING:StructureFiltration}."
+"Utilisez un {THING:StructureHydraulicPipeBender} pour fabriquer des éléments atmosphériques, tels que le {THING:ItemKitAtmospherics} qui vous permet de construire des machines utiles telles que le "
+"{THING:StructureAirConditioner} ou la {THING:StructureFiltration}."
 
 #: /Language/GameTip/String[21]
 msgid "The more damaged your suit is, the less efficiently it will work. Duct tape can fix that."
@@ -129,19 +133,19 @@ msgstr "Plus votre combinaison est abîmée, moins elle fonctionnera efficacemen
 
 #: /Language/GameTip/String[23]
 msgid "After the original Stationeers Handbook collapsed into a singularity, it was replaced by the Stationpedia. Press {KEY:Help} to open it for guidance in-game."
-msgstr ""
+msgstr "Après l’effondrement du Manuel original de Stationeers dans une singularité, il a été remplacé par le Stationpedia. Appuyez sur {KEY:Help} pour l’ouvrir et obtenir des conseils dans le jeu."
 
 #: /Language/GameTip/String[24]
 msgid "Your starting {THING:ItemEvaSuit} and {THING:ItemSpaceHelmet} will catch on fire in a hot temperatures. Use {THING:ItemHardSuit} in dangerous environments."
-msgstr "Votre {THING:ItemEvaSuit} et {THING:ItemSpaceHelmet} du départ va prendre feu avec une température chaude. Utilisez une {THING:ItemHardSuit} dans des environnements dangereux."
+msgstr "Votre {THING:ItemEvaSuit} et votre {THING:ItemSpaceHelmet} initiaux prendront feu à des températures élevée. Utilisez une {THING:ItemHardSuit} dans des environnements dangereux."
 
 #: /Language/GameTip/String[25]
 msgid "The Stationeers program was established by the Offworld Development Agency to support exploration of the Solar System, and beyond."
-msgstr "Le programme Stationeers a été créé par l’Agence de développement Offworld pour soutenir l’exploration du système solaire, et au-delà."
+msgstr "Le programme Stationeers a été créé par l’Agence de Développement Extraterrestre pour soutenir l’exploration du système solaire, et au-delà."
 
 #: /Language/GameTip/String[26]
 msgid "Paying attention to your suit warnings. They can help prevent disaster."
-msgstr ""
+msgstr "Faites attention aux avertissements de votre combinaison. Ils peuvent vous aider à prévenir d'éventuelles catastrophes."
 
 #: /Language/GameTip/String[27]
 msgid "{THING:ItemHardBackpack} can carry more items, but can't carry you!"
@@ -149,7 +153,7 @@ msgstr "Le {THING:ItemHardBackpack} permet de transporter plus d'objets, mais il
 
 #: /Language/GameTip/String[29]
 msgid "If your station feels gloomy, lift your mood with tunes from the {THING:StructureKlaxon} or build your own sampler using logic."
-msgstr ""
+msgstr "Si votre station vous semble sombre, remontez-vous le moral avec les airs du {THING:StructureKlaxon} ou construisez votre propre échantillonneur en utilisant les circuits logiques."
 
 #: /Language/GameTip/String[30]
 msgid "{THING:StructureHarvie} allows you to fully automate the planting, growing and harvesting of plants."
@@ -157,7 +161,7 @@ msgstr "{THING:StructureHarvie} permet d'automatiser complétement la plantation
 
 #: /Language/GameTip/String[31]
 msgid "The Extended Tooltips can be turned on/off in the Settings menu."
-msgstr "Les info-bulles étendues peuvent être activées/désactivées dans le menu paramètres."
+msgstr "Les info-bulles détaillées peuvent être activées ou désactivées dans le menu paramètres."
 
 #: /Language/GameTip/String[32]
 msgid "You can clear all open windows on your screen at once by pressing {KEY:HideAllWindows}."
@@ -169,15 +173,15 @@ msgstr "Le {THING:ItemCrowbar} peut être utilisé pour ouvrir les portes et les
 
 #: /Language/GameTip/String[34]
 msgid "{THING:ItemMiningDrill} can be changed to 'Flatten' mode to help you create flat floors when mining."
-msgstr "La {THING:ItemMiningDrill} peut être changé en mode 'aplanir' pour vous aider à créer des planchers plats lors de l'extraction."
+msgstr "La {THING:ItemMiningDrill} peut être configurée en mode 'aplanir' pour vous aider à créer un sol plat lors du minage."
 
 #: /Language/GameTip/String[35]
 msgid "The {THING:ItemWearLamp} can be used for illumination without wearing a helmet."
-msgstr "La {THING:ItemWearLamp} peut être utilisé pour l'illumination sans porter de casque."
+msgstr "La {THING:ItemWearLamp} peut être utilisée pour vous éclairer sans porter son casque."
 
 #: /Language/GameTip/String[36]
 msgid "By holding {KEY:MouseControl} you can enable your mouse cursor and drag items in and out of your inventory or between slots."
-msgstr "En maintenant {KEY:MouseControl} vous pouvez activer votre curseur de la souris et faire glisser des éléments dans et hors de votre inventaire ou entre les emplacements."
+msgstr "En maintenant {KEY:MouseControl}, vous pouvez cliquer et déplacer des éléments dans et hors de votre inventaire ou entre les divers emplacements."
 
 #: /Language/GameTip/String[37]
 msgid "The basic space helmet insulates Stationeers against everything from hard vacuum to weird cooking smells."
