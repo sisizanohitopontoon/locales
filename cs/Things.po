@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-09 14:01+0000\n"
-"Last-Translator: Martindob <martincerny2@email.cz>\n"
+"PO-Revision-Date: 2022-06-21 10:44+0000\n"
+"Last-Translator: Mr.Frog <tepes.class@seznam.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
@@ -688,6 +688,11 @@ msgid ""
 "The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color> networks.\n"
 "To extract resources from the silo module, you must set its state to 'OPEN' using logic."
 msgstr ""
+"<color=#0080FFFF>{LINK:ExMin; Modul autononmous silo ExMin} poskytuje úložiště pro <color=#0080FFFF>{LINK:OrePage;ores} shromážděné {THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices} shromážděné {THING:StructureModularRocketIceMining} a „vesmírný odpad“ zachycený {THING:StructureModularRocketScrapMining} . Jinými slovy, pojme až 600 \"středně velkých suchých výrobků\".\n"
+"Modul sila musí být připojen k těžebnímu nebo záchytnému modulu správně umístěným {THING:StructureModularRocketCouplingDown} nebo {THING:StructureModularRocketCouplingUp}, aby materiál mohl projít do sila.\n"
+"Modul sila musí být napájen i na odpalovací rampě. Ve výchozím nastavení je \"zapnuto\", ale v případě potřeby může být vypnuto logikou. \n"
+"Modul lze také připojit k síti {THING:StructureChuteInlet} a připojit jej k <color=#0080FFFF>sítím {LINK:ImportExportPage;import/export}.\n"
+"Chcete-li extrahovat prostředky z modulu sila, musíte pomocí logiky nastavit jeho stav na \"OTEVŘENO\".</color=#0080FFFF></color=#0080FFFF></color=#0080FFFF></color=#0080FFFF>"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleBattery']
 msgctxt "Things.StructureRocketModuleBattery"
@@ -712,7 +717,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
 msgctxt "Things.StructureRocketModuleEnergyGenerator"
 msgid "Automated Rocket Energy Collection Module"
-msgstr ""
+msgstr "Automatický raketový modul pro sběr elektrické energie"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
 msgctxt "Things.StructureRocketModuleEnergyGenerator"
