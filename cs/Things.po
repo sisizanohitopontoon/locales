@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-21 13:34+0000\n"
+"PO-Revision-Date: 2022-06-21 13:39+0000\n"
 "Last-Translator: Mr.Frog <tepes.class@seznam.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1518,17 +1518,17 @@ msgstr "Vypěstuje {THING:ItemPumpkin}."
 #: /Language/Things/RecordThing[Key='SeedBag_Fern']
 msgctxt "Things.SeedBag_Fern"
 msgid "Fern Seeds"
-msgstr ""
+msgstr "Semena kapradin"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Fern']
 msgctxt "Things.SeedBag_Fern"
 msgid "Grow a {THING:ItemFern}."
-msgstr ""
+msgstr "Vypěstuje {THING:ItemFern}."
 
 #: /Language/Things/RecordThing[Key='Fertilizer']
 msgctxt "Things.Fertilizer"
 msgid "Fertilizer"
-msgstr ""
+msgstr "Hnojivo"
 
 #: /Language/Things/RecordThing[Key='Fertilizer']
 msgctxt "Things.Fertilizer"
@@ -1542,11 +1542,19 @@ msgid ""
 "\n"
 "The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
 msgstr ""
+"Hnojivo mění procesy růstu rostlin a je vytvořeno základním kompostérem a {THING:StructureAdvancedComposter} pomocí <color=#0080FFFF>{LINK:OrganicPage;organic} hmoty.\n"
+"Vliv hnojiva závisí na jeho složkách:\n"
+"\n"
+"- <color=#0080FFFF>{LINK:OrganicPage; Food} zvyšuje VÝNOS ROSTLIN až dvojnásobně\n"
+"- {THING:DecayedFood} zvyšuje RYCHLOST RŮSTU rostlin až dvakrát\n"
+"- {THING:ItemBiomass} zvyšuje POČET RŮSTOVÝCH CYKLŮ, po které hnojivo vydrží\n"
+"\n"
+"Účinek těchto složek závisí na jejich příslušných poměrech v kompostéru při aktivaci zpracování. </color=#0080FFFF></color=#0080FFFF>"
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
 msgid "Advanced Composter"
-msgstr ""
+msgstr "Pokročilý kompostér"
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
@@ -1561,6 +1569,16 @@ msgid ""
 "- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
 "- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times\n"
 msgstr ""
+"Pokročilý kompostér vytváří {THING:Fertilizer} z organické hmoty. Přijímá <color=#0080FFFF>{LINK:OrganicPage;food}, {THING:DecayedFood} nebo {THING:ItemBiomass}. K provozu vyžaduje vodu a energii, což urychluje přirozený proces kompostování.\n"
+"Při zpracování uvolňuje dusík a těkavé látky, stejně jako malé množství tepla. \n"
+"\n"
+"{ZÁHLAVÍ:Složení kompostu}\n"
+"Hnojivo se vyrábí v poměru 1:3 hnojiva ke složkám. Účinky hnojiva na rostliny se budou lišit v závislosti na příslušných poměrech jeho složek.\n"
+"\n"
+"- <color=#0080FFFF>{LINK:OrganicPage; Food} zvyšuje VÝNOS ROSTLIN až dvojnásobně\n"
+"- {THING:DecayedFood} zvyšuje RYCHLOST RŮSTU rostlin až dvakrát\n"
+"- {THING:ItemBiomass} zvyšuje POČET RŮSTOVÝCH CYKLŮ, které hnojivo vydrží až pětkrát\n"
+"</color=#0080FFFF></color=#0080FFFF>"
 
 #: /Language/Things/RecordThing[Key='ItemKitAdvancedComposter']
 msgctxt "Things.ItemKitAdvancedComposter"
@@ -1585,12 +1603,12 @@ msgstr "Vytvoří {THING:StructureFridgeSmall}."
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
 msgid "Planter"
-msgstr ""
+msgstr "Květináč"
 
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
 msgid "A small planter for decorative or hydroponic purposes. Can be connected to water, or watered manually using a {THING:ItemWaterBottle} or {THING:ItemGasCanisterWater}."
-msgstr ""
+msgstr "Malý květináč pro dekorativní nebo hydroponické účely. Lze připojit k vodě nebo zalévat ručně pomocí {THING:ItemWaterBottle} nebo {THING:ItemGasCanisterWater}."
 
 #: /Language/Things/RecordThing[Key='KitPlanter']
 msgctxt "Things.KitPlanter"
@@ -1605,7 +1623,7 @@ msgstr "Umístí {THING:StructurePlanter}."
 #: /Language/Things/RecordThing[Key='PortableComposter']
 msgctxt "Things.PortableComposter"
 msgid "Portable Composter"
-msgstr ""
+msgstr "Přenosný kompostér"
 
 #: /Language/Things/RecordThing[Key='PortableComposter']
 msgctxt "Things.PortableComposter"
