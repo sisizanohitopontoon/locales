@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-21 13:39+0000\n"
+"PO-Revision-Date: 2022-06-21 13:42+0000\n"
 "Last-Translator: Mr.Frog <tepes.class@seznam.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1638,11 +1638,20 @@ msgid ""
 "- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
 "- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for"
 msgstr ""
+"Jednoduché kompostovací zařízení, základní kompostér vytváří {THING:Fertilizer} z organické hmoty. Přijímá <color=#0080FFFF>{LINK:OrganicPage;food}, {THING:DecayedFood} nebo {THING:ItemBiomass}. Vyžaduje plný {THING:ItemLiquidCanisterEmpty} a baterii k provozu, což urychluje přirozený proces kompostování.\n"
+"Při zpracování uvolňuje dusík a těkavé látky, stejně jako malé množství tepla.\n"
+"\n"
+"{ZÁHLAVÍ:Složení kompostu}\n"
+"Hnojivo se vyrábí v poměru 1:3 hnojiva ke složkám. Účinky hnojiva na rostliny se budou lišit v závislosti na příslušných poměrech jeho složek.\n"
+"\n"
+"- <color=#0080FFFF>{LINK:OrganicPage;food} zvyšuje VÝNOS ROSTLIN až dvakrát\n"
+"- {THING:DecayedFood} zvyšuje RYCHLOST RŮSTU rostlin až dvakrát\n"
+"- {THING:ItemBiomass} zvyšuje POČET RŮSTOVÝCH CYKLŮ, po které hnojivo vydrží</color=#0080FFFF></color=#0080FFFF>"
 
 #: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
 msgctxt "Things.AppliancePackagingMachine"
 msgid "Basic Packaging Machine"
-msgstr ""
+msgstr "Základní konzervátor"
 
 #: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
 msgctxt "Things.AppliancePackagingMachine"
