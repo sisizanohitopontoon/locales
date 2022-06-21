@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-21 12:45+0000\n"
+"PO-Revision-Date: 2022-06-21 12:55+0000\n"
 "Last-Translator: Mr.Frog <tepes.class@seznam.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1292,16 +1292,36 @@ msgid ""
 "> Vacuum (see PRESSURE above)\n"
 "\n"
 msgstr ""
+"Když se vaše <color=#0080FFFF>{LINK:OrganicPage;food} rozpadne, změní se v toto. <color=#0080FFFF>{LINK:ODA;ODA} vědci se pokusili určit přesné složky této látky, ale zůstává záhadou. Stačí říct, že je špatný nápad to jíst. Výzkum však zjistil, že Přesná rychlost rozpadu se liší individuálně podle:\n"
+"\n"
+"- TEPLOTA - Chlazení zpomalí rozpad, ale mnoho potravin bude poškozeno vystavením extrémně nízkému tlaku a extrémnímu teplu. Optimální teplota je 0 kelvinů (-272 ° C).\n"
+"\n"
+"- TYP POTRAVINY - Každý <color=#0080FFFF>typ {LINK:OrganicPage;food} má své vlastní vlastnosti rozpadu. {THING:ItemTomatoSoup} trvá mnohem déle než například {THING:ItemTomato}.\n"
+"\n"
+"- TLAK - Potraviny se rozkládají rychleji, když tlak klesne pod 1 atmosféru (101 kPa). Rozpad probíhá exponenciálně rychleji, jak se atmosféra blíží dokonalému vakuu. Vyšší tlaky nemají žádný vliv. \n"
+"\n"
+"- ATMOSFÉRA - Různé plyny mohou zpomalit a urychlit proces rozpadu. Proces vezme v úvahu příslušné poměry plynů ve smíšených atmosférách při výpočtu modifikátoru rozpadu. Následující poměry se vstahují na všechny potraviny:\n"
+"\n"
+"> kyslík x 1,3\n"
+"> dusík x 0,6\n"
+"> Oxid uhličitý x 0,8\n"
+"> Těkavé látky x 1\n"
+"> Znečišťující látka x 3\n"
+"> Oxid dusný x 1,5\n"
+"> Voda x 2\n"
+"> Vakuum (viz TLAK výše)\n"
+"\n"
+"</color=#0080FFFF></color=#0080FFFF></color=#0080FFFF>"
 
 #: /Language/Things/RecordThing[Key='StructureShelfMedium']
 msgctxt "Things.StructureShelfMedium"
 msgid "Shelf Medium"
-msgstr ""
+msgstr "Police střední"
 
 #: /Language/Things/RecordThing[Key='StructureShelfMedium']
 msgctxt "Things.StructureShelfMedium"
 msgid "A shelf for putting things on, so you can see them."
-msgstr ""
+msgstr "Police pro odkládání věcí na ní tak aby jste je mohli vidět."
 
 #: /Language/Things/RecordThing[Key='PassiveSpeaker']
 msgctxt "Things.PassiveSpeaker"
@@ -1316,7 +1336,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='DeviceLfoVolume']
 msgctxt "Things.DeviceLfoVolume"
 msgid "Low frequency oscillator"
-msgstr ""
+msgstr "Nízko frekvenční oscilátor"
 
 #: /Language/Things/RecordThing[Key='DeviceLfoVolume']
 msgctxt "Things.DeviceLfoVolume"
