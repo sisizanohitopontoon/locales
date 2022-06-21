@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-21 15:49+0000\n"
+"PO-Revision-Date: 2022-06-21 15:55+0000\n"
 "Last-Translator: Mr.Frog <tepes.class@seznam.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2334,17 +2334,17 @@ msgstr "Nízkonákladová výbušnina s vysokou výbušností s časovačem 10 s
 #: /Language/Things/RecordThing[Key='ItemMiningCharge']
 msgctxt "Things.ItemMiningCharge"
 msgid "Mining Charge"
-msgstr ""
+msgstr "Těžební výbušnina"
 
 #: /Language/Things/RecordThing[Key='ItemMiningCharge']
 msgctxt "Things.ItemMiningCharge"
 msgid "A low cost, high yield explosive with a 10 second timer."
-msgstr ""
+msgstr "Nízkonákladová výbušnina s vysokou výbušností s časovačem 10 sekund."
 
 #: /Language/Things/RecordThing[Key='StructureHorizontalAutoMiner']
 msgctxt "Things.StructureHorizontalAutoMiner"
 msgid "OGRE"
-msgstr ""
+msgstr "OPRY"
 
 #: /Language/Things/RecordThing[Key='StructureHorizontalAutoMiner']
 msgctxt "Things.StructureHorizontalAutoMiner"
@@ -2360,6 +2360,17 @@ msgid ""
 "DepostingOre - 3\n"
 "Finished - 4\n"
 msgstr ""
+"<color=#0080FFFF>{LINK:Recurso; Recurso} OPRY (Ortogonální pozemní rotační rypadlo) je základní konstrukce s připojeným důlním vozidlem, která bude těžit horizontální šachtu až X metrů dlouhou. Když je těžební vozidlo plné, vrátí se na základnu, aby se vyprázdnilo, než se vrátí k výkopu. Pokud narazí na prázdné místo, vrátí se také na základnu a čeká na instrukce. Jednotka se vrátí, pokud je deaktivována.\n"
+"      \n"
+"OPRY může být připojen ke dopravníkovému systému a je ovladatelný logickou sítí. Všimněte si, že OPRY produkuje více rudy než konvenční {THING:ItemMiningDrill} ve stejné oblasti, kvůli efektivnějšímu zpracování.\n"
+"\n"
+"{ZÁHLAVÍ:REŽIMY}\n"
+"Nečinnost - 0\n"
+"Hornictví - 1\n"
+"Návrat - 2\n"
+"DepostingOre - 3\n"
+"Dokončeno - 4\n"
+"</color=#0080FFFF>"
 
 #: /Language/Things/RecordThing[Key='StructureReinforcedCompositeWindow']
 msgctxt "Things.StructureReinforcedCompositeWindow"
