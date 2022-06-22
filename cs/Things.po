@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-22 09:38+0000\n"
+"PO-Revision-Date: 2022-06-22 09:44+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -987,8 +987,8 @@ msgid ""
 "The drain is a simple device, although not without a touch of mystery. When connected to power and activated, it drains liquid from a liquid network at a rate of 1 mol per tick. Handy if there's "
 "liquid you need ... gone."
 msgstr ""
-"Výpusť je jednoduché zařízení, i když ne bez nádechu tajemství. Když je připojena do sítě a aktivována, vypouští kapaliny z potrubí rychlostí 1 mol za tik. Užitečná když je zapotřebí se zbavit "
-"nějaké kapaliny."
+"Výpusť je jednoduché zařízení, i když nepostrádá nádech tajemna. Po připojení k napájení a aktivaci vypouští kapalinu ze sítě kapalin rychlostí 1 mol za tik. To se hodí, pokud potřebujete odčerpat "
+"nějakou tekutinu... pryč."
 
 #: /Language/Things/RecordThing[Key='ItemLiquidPipeAnalyzer']
 msgctxt "Things.ItemLiquidPipeAnalyzer"
@@ -1023,7 +1023,7 @@ msgstr "Tato sada vytváří {THING:StructureModularRocketGasMining}."
 #: /Language/Things/RecordThing[Key='StructureModularRocketGasMining']
 msgctxt "Things.StructureModularRocketGasMining"
 msgid "Automated Rocket Gas Mining Module"
-msgstr "Automatický raketový modul pro sběr plynů"
+msgstr "Automatizovaný raketový modul pro sběr plynů"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketGasMining']
 msgctxt "Things.StructureModularRocketGasMining"
@@ -1031,8 +1031,8 @@ msgid ""
 "In typical <color=#0080FFFF>{LINK:Recurso;Recurso}</color> fashion, the A.R.M. gas mining module is a rapidly designed addition to a more sophisticated system by a company with very little concern for safety or reliability.\n"
 "      The module will store mined gas in an empty {THING:StructureModularRocketFueltank01}, so long as it is connected by a {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}."
 msgstr ""
-"V typickém <color=#0080FFFF>{LINK:Recurso; Recurso} stylu, A.R.M. plynový těžební modul je rychle navržený doplněk k sofistikovanějšímu systému společností s velmi malým zájmem o bezpečnost nebo spolehlivost.\n"
-"      Modul bude ukládat vysátý plyn do prázdného {THING:StructureModularRocketFueltank01}, pokud je připojen pomocí {THING:StructureModularRocketCouplingDown} nebo {THING:StructureModularRocketCouplingUp}.</color=#0080FFFF>"
+"Typicky <color=#0080FFFF>{LINK:Recurso;Recurso}</color> je modul pro těžbu plynu A.R.M. rychle navrženým doplňkem sofistikovanějšího systému od společnosti, která se jen velmi málo stará o bezpečnost a spolehlivost.\n"
+"      Modul ukládá vytěžený plyn do prázdné {THING:StructureModularRocketFueltank01}, pokud je připojen pomocí {THING:StructureModularRocketCouplingDown} nebo {THING:StructureModularRocketCouplingUp}."
 
 #: /Language/Things/RecordThing[Key='ItemKitHeatExchanger']
 msgctxt "Things.ItemKitHeatExchanger"
@@ -1047,7 +1047,7 @@ msgstr "Tato sada vytváří {THING:StructureHeatExchangeLiquidtoGas}, {THING:St
 #: /Language/Things/RecordThing[Key='StructureHeatExchangerLiquidtoLiquid']
 msgctxt "Things.StructureHeatExchangerLiquidtoLiquid"
 msgid "Heat Exchanger - Liquid"
-msgstr "Tepelný výměník - Kapaliny"
+msgstr "Výměník tepla - Kapaliny"
 
 #: /Language/Things/RecordThing[Key='StructureHeatExchangerLiquidtoLiquid']
 msgctxt "Things.StructureHeatExchangerLiquidtoLiquid"
@@ -1063,7 +1063,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureHeatExchangerGastoGas']
 msgctxt "Things.StructureHeatExchangerGastoGas"
 msgid "Heat Exchanger - Gas"
-msgstr "Tepelný výměník - Plyny"
+msgstr "Výměník tepla - Plyny"
 
 #: /Language/Things/RecordThing[Key='StructureHeatExchangerGastoGas']
 msgctxt "Things.StructureHeatExchangerGastoGas"
@@ -1079,7 +1079,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureHeatExchangeLiquidtoGas']
 msgctxt "Things.StructureHeatExchangeLiquidtoGas"
 msgid "Heat Exchanger - Liquid + Gas"
-msgstr "Tepelný výměník - Kapaliny + Plyny"
+msgstr "Výměník tepla - Kapaliny + Plyny"
 
 #: /Language/Things/RecordThing[Key='StructureHeatExchangeLiquidtoGas']
 msgctxt "Things.StructureHeatExchangeLiquidtoGas"
@@ -1088,14 +1088,14 @@ msgid ""
 "The 'N Flow-P' has four connections, allowing you to pass separate liquid and gas networks into the unit, which then works to equalize temperature across the two separate networks.\n"
 "As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to devices like a {THING:StructureVolumePump} or a {THING:StructureBackLiquidPressureRegulator}."
 msgstr ""
-"O původních specifikacích výměníku tepla Flow-P řady N se říkalo, že byly načmárány na zadní straně účtenky za hamburger znuděným <color=#0080FFFF>{LINK:Sinotai; Návrhář Sinotai} jedoucí brazilským vesmírným výtahem, ale to nezastavilo to, aby se stal jedním z nejrozšířenějších návrhů výměníků tepla ve sluneční soustavě.\n"
-"\"N Flow-P\" má čtyři přípojky, které vám umožní provést oddělené kapalné a plynné sítě, které pak pracují na vyrovnání teploty v obou samostatných sítích.\n"
-"Vzhledem k tomu, že N Flow-P je pasivní systém, vyrovnává tlak v celé jednotlivé síti, pokud není připojen k zařízením jako {THING:StructureVolumePump} nebo {THING:StructureBackLiquidPressureRegulator}.</color=#0080FFFF>"
+"Původní specifikace výměníku tepla řady N Flow-P prý načmáral na zadní stranu účtenky za hamburger znuděný konstruktér <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> při jízdě brazilským vesmírným výtahem, ale to mu nezabránilo stát se jedním z nejčastěji kopírovaných návrhů výměníků tepla ve Sluneční soustavě.\n"
+"Výměník 'N Flow-P' má čtyři přípojky, které umožňují propouštět do jednotky oddělené kapalné a plynné sítě, které pak pracují na vyrovnávání teploty v obou oddělených sítích.\n"
+"Protože je N Flow-P pasivní systém, vyrovnává tlak v celé každé jednotlivé síti, pokud není připojen k zařízením, jako je {THING:StructureVolumePump} nebo {THING:StructureBackLiquidPressureRegulator}."
 
 #: /Language/Things/RecordThing[Key='StructureHeatExchangeLiquidAndGas']
 msgctxt "Things.StructureHeatExchangeLiquidAndGas"
 msgid "Heat Exchange Liquid And Gas"
-msgstr "Tepelný výměník Kapaliny a Plyny"
+msgstr "Výměník tepla Kapaliny a Plyny"
 
 #: /Language/Things/RecordThing[Key='StructureHeatExchangeLiquidAndGas']
 msgctxt "Things.StructureHeatExchangeLiquidAndGas"
