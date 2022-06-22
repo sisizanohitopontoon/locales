@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-22 12:59+0000\n"
+"PO-Revision-Date: 2022-06-22 13:05+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7645,6 +7645,9 @@ msgid ""
 "      \n"
 "Volatiles combust in a 2:1 ratio with oxygen, creating carbon dioxide and pollutants. However when catalysed via devices such as the {THING:H2Combustor} in the presence of oxygen, they produce water and heat with a modicum of CO2 and pollutants due to the autoignition of the volatiles in the chamber. Along with oxygen, volatiles gas is also the major component of fuel for such devices as the {THING:ItemWeldingTorch}.\n"
 msgstr ""
+"Extrémně reaktivní led s množstvím uhlovodíků uvězněných uvnitř. Pro zjednodušení se často zobrazují jako H2 v zařízeních, jako je {THING:CartridgeAtmosAnalyser}.\n"
+"      \n"
+"Těkavé látky se spalují v poměru 2:1 s kyslíkem za vzniku oxidu uhličitého a znečišťujících látek. Při katalýze pomocí zařízení, jako je {THING:H2Combustor}, však v přítomnosti kyslíku produkují vodu a teplo s trochou CO2 a znečišťujících látek v důsledku samovznícení těkavých látek v komoře. Spolu s kyslíkem je těkavý plyn také hlavní složkou paliva pro zařízení, jako je {THING:ItemWeldingTorch}."
 
 #: /Language/Things/RecordThing[Key='ItemVolatiles']
 msgctxt "Things.ItemVolatiles"
@@ -7657,6 +7660,8 @@ msgid ""
 "The electronic printer will create any <color=#0080FFFF>{LINK:ElectronicPage;electronic}</color> part you need. From circuit boards and electronic devices to solar panels. The choice is yours. "
 "Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds."
 msgstr ""
+"Elektronická tiskárna vytvoří jakýkoli <color=#0080FFFF>{LINK:ElectronicPage;elektronický}</color> díl, který potřebujete. Od základních desek a elektronických zařízení až po solární panely. Výběr "
+"je na vás. Vylepšete zařízení pomocí {THING:ElectronicPrinterMod} pro další recepty a vyšší rychlost zpracování."
 
 #: /Language/Things/RecordThing[Key='StructureElectronicsPrinter']
 msgctxt "Things.StructureElectronicsPrinter"
@@ -7666,7 +7671,7 @@ msgstr "Tiskárna elektroniky"
 #: /Language/Things/RecordThing[Key='ItemCerealBar']
 msgctxt "Things.ItemCerealBar"
 msgid "Sustains, without decay. If only all our relationships were so well balanced."
-msgstr ""
+msgstr "Udržuje se, aniž by se rozpadla. Kéž by všechny naše vztahy byly tak dobře vyvážené."
 
 #: /Language/Things/RecordThing[Key='ItemCerealBar']
 msgctxt "Things.ItemCerealBar"
@@ -7679,6 +7684,8 @@ msgid ""
 "There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use equivalent quantities of fern "
 "directly in recipes."
 msgstr ""
+"Bývaly doby, kdy Stationeerové museli vyrábět {THING:ReagentFenoxitone} pomocí {THING:ApplianceReagentProcessor}. Nedávný technologický pokrok umožňuje používat ekvivalentní množství kapradí přímo v"
+" receptech."
 
 #: /Language/Things/RecordThing[Key='ItemFern']
 msgctxt "Things.ItemFern"
@@ -7696,6 +7703,8 @@ msgid ""
 "Silicon is a chemical element with the symbol \"Si\" and is one of the most useful elements to <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color>. Readily available throughout the universe, "
 "silicon is used in a range of <color=#0080FFFF>{LINK:IngotPage;alloys}</color>, glass, plastics and various electronic components a Stationeer may  need to complete their mission."
 msgstr ""
+"Křemík je chemický prvek se symbolem \"Si\" a je jedním z nejužitečnějších prvků pro <color=#0080FFFF>{LINK:Stationeers;Stationeery}</color>. Křemík, který je snadno dostupný v celém vesmíru, se "
+"používá v řadách <color=#0080FFFF>{LINK:IngotPage;slitin}</color>, ve skle, plastech a různých elektronických součástkách, které může Stationeer potřebovat k dokončení své mise."
 
 #: /Language/Things/RecordThing[Key='ItemSiliconOre']
 msgctxt "Things.ItemSiliconOre"
@@ -8552,10 +8561,9 @@ msgid "Gun Emplacement"
 msgstr "Umístění zbraně"
 
 #: /Language/Things/RecordThing[Key='StructureGlassDoor']
-#, fuzzy
 msgctxt "Things.StructureGlassDoor"
 msgid "{BLANK}"
-msgstr "Skleněné dveře"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureGlassDoor']
 msgctxt "Things.StructureGlassDoor"
@@ -8563,12 +8571,11 @@ msgid "Glass Door"
 msgstr "Skleněné dveře"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankStorage']
-#, fuzzy
 msgctxt "Things.StructureLiquidTankStorage"
 msgid ""
 "When connected to a liquid pipe network, the tank storage unit allows you to refill a {THING:ItemLiquidCanisterEmpty}, as well as read various atmospheric data from the canister. It will not accept "
 "gas canisters."
-msgstr "Úložiště kanystru na kapaliny"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankStorage']
 msgctxt "Things.StructureLiquidTankStorage"
@@ -8606,13 +8613,12 @@ msgid "Gas Mixer"
 msgstr "Směšovač plynu"
 
 #: /Language/Things/RecordThing[Key='StructureFurnace']
-#, fuzzy
 msgctxt "Things.StructureFurnace"
 msgid ""
 "The Zhurong furnace employs a high-temperature gas mixture of <color=#0080FFFF>{LINK:GasPage;oxygen}</color> and <color=#0080FFFF>{LINK:GasPage;volatiles}</color> to smelt <color=#0080FFFF>{LINK:IngotPage;ingots}</color> and a range of <color=#0080FFFF>{LINK:IngotPage;alloys}</color> as raw materials for <color=#0080FFFF>{LINK:FabricatorPage;fabricators}</color>.\n"
 "A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemVolatiles} in a 1:2 ratio directly to the furnace, but more complex alloys will require careful management of a dedicated gas mixing network. Exact ingredient ratios must be observed. Likewise, smelting ores at insufficient temperatures will produce <color=#0080FFFF>{LINK:ReagentPage;reagents}</color>, which must be recycled.\n"
 "If water is present in the furnace, it will gather there until the furnace is connected to a liquid pipe network."
-msgstr "Pec"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureFurnace']
 msgctxt "Things.StructureFurnace"
@@ -8676,12 +8682,11 @@ msgid "Flashing Light"
 msgstr "Blikající světlo"
 
 #: /Language/Things/RecordThing[Key='StructureFiltration']
-#, fuzzy
 msgctxt "Things.StructureFiltration"
 msgid ""
 "The Zyklon Filtration Unit is based on a long-standing <color=#0080FFFF>{LINK:ExMin;ExMin}</color> system, itself based on older designs of uncertain provenance. It is available in the {THING:ItemKitAtmospherics}.\n"
 "Perhaps ill-named, the device has nonetheless proven indispensible for <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> atmospherics systems, as it can filter two <color=#0080FFFF>{LINK:GasPage;gases}</color> simultaneously from  a single pipe network using a dual filter array. The unit has an input, and a filter output as well as an unfiltered outlet for any residual gases."
-msgstr "Filtrace"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureFiltration']
 msgctxt "Things.StructureFiltration"
@@ -8713,12 +8718,11 @@ msgid "Digital Valve"
 msgstr "Digitální ventil"
 
 #: /Language/Things/RecordThing[Key='StructureDaylightSensor']
-#, fuzzy
 msgctxt "Things.StructureDaylightSensor"
 msgid ""
 "Daylight sensors provide data on whether the current region of your base is in sunlight, and report the exact solar angle. Note that the orientation of the sensor alters the reported solar angle, "
 "while <color=#0080FFFF>{LINK:LogicPage;Logic}</color> systems can be used to offset it."
-msgstr "Senzor denního světla"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureDaylightSensor']
 msgctxt "Things.StructureDaylightSensor"
@@ -8862,7 +8866,6 @@ msgid "Console"
 msgstr "Konzole"
 
 #: /Language/Things/RecordThing[Key='StructureComputer']
-#, fuzzy
 msgctxt "Things.StructureComputer"
 msgid ""
 "In some ways a relic, the 'Chonk R1' was designed by severely conflicted <color=#0080FFFF>{LINK:Norsec;Norsec}</color> technicians, who needed a unit that could operate with a wide range of <color=#0080FFFF>{LINK:LogicUnitPage;motherboards}</color>, while also enduring the worst a new Cadet could throw at it.\n"
@@ -8873,7 +8876,7 @@ msgid ""
 "- {THING:MotherboardSorter}\n"
 "- {THING:MotherboardComms}\n"
 "- {THING:MotherboardProgrammableChip}"
-msgstr "Počítač"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureComputer']
 msgctxt "Things.StructureComputer"
@@ -8931,10 +8934,9 @@ msgid "Composite Wall (Type 1)"
 msgstr "Kompozitní stěna (typ 1)"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWallRound']
-#, fuzzy
 msgctxt "Things.StructureCompositeWallRound"
 msgid "Air-tight and resistant to extreme temperatures, composite walls favor form over function, coming in a range of slightly different, functionally identical varieties."
-msgstr "Kompozitní kulatá stěna"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWallRound']
 msgctxt "Things.StructureCompositeWallRound"
@@ -8978,13 +8980,12 @@ msgid "Composite Door"
 msgstr "Kompozitní dveře"
 
 #: /Language/Things/RecordThing[Key='StructureChuteStraight']
-#, fuzzy
 msgctxt "Things.StructureChuteStraight"
 msgid ""
 "Chutes act as pipes for items. Use them to connect various <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color> equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.\n"
 "The aim for any <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
 "Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color> slot."
-msgstr "Dopravník (rovný)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureChuteStraight']
 msgctxt "Things.StructureChuteStraight"
