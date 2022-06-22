@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-22 09:24+0000\n"
+"PO-Revision-Date: 2022-06-22 09:29+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -688,16 +688,16 @@ msgid ""
 "The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color> networks.\n"
 "To extract resources from the silo module, you must set its state to 'OPEN' using logic."
 msgstr ""
-"<color=#0080FFFF>{LINK:ExMin; Modul autononmous silo ExMin} poskytuje úložiště pro <color=#0080FFFF>{LINK:OrePage;ores} shromážděné {THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices} shromážděné {THING:StructureModularRocketIceMining} a „vesmírný odpad“ zachycený {THING:StructureModularRocketScrapMining} . Jinými slovy, pojme až 600 \"středně velkých suchých výrobků\".\n"
-"Modul sila musí být připojen k těžebnímu nebo záchytnému modulu správně umístěným {THING:StructureModularRocketCouplingDown} nebo {THING:StructureModularRocketCouplingUp}, aby materiál mohl projít do sila.\n"
-"Modul sila musí být napájen i na odpalovací rampě. Ve výchozím nastavení je \"zapnuto\", ale v případě potřeby může být vypnuto logikou. \n"
-"Modul lze také připojit k síti {THING:StructureChuteInlet} a připojit jej k <color=#0080FFFF>sítím {LINK:ImportExportPage;import/export}.\n"
-"Chcete-li extrahovat prostředky z modulu sila, musíte pomocí logiky nastavit jeho stav na \"OTEVŘENO\".</color=#0080FFFF></color=#0080FFFF></color=#0080FFFF></color=#0080FFFF>"
+"Modul <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autononmní silo poskytuje úložiště pro <color=#0080FFFF>{LINK:OrePage;rudy}</color> nashromážděné pomocí {THING: StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ledy}</color> nasbírané pomocí {THING:StructureModularRocketIceMining} a 'vesmírný odpad' zachráněný pomocí {THING:StructureModularRocketScrapMining} . Jinými slovy, pojme až 600 kusů 'středně velkého suchého zboží'.\n"
+"Modul sila musí být spojen s těžebním nebo záchranným modulem správně umístěným {THING:StructureModularRocketCouplingDown} nebo {THING:StructureModularRocketCouplingUp}, aby do sila mohl procházet materiál.\n"
+"Modul sila musí být také napájen, když je na odpalovací rampě. Ve výchozím nastavení je \"zapnutý\", ale v případě potřeby jej lze pomocí logiky vypnout. \n"
+"Modul může být také připojen k {THING:StructureChuteInlet}, aby bylo možné jej připojit k <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color> sítím.\n"
+"Chcete-li z modulu sila extrahovat zdroje, musíte pomocí logiky nastavit jeho stav na 'OTEVŘENO'."
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleBattery']
 msgctxt "Things.StructureRocketModuleBattery"
 msgid "Automated Rocket Energy Storage Module"
-msgstr "Automatický raketový modul pro skladování elektrické energie"
+msgstr "Automatizovaný raketový modul pro skladování elektrické energie"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleBattery']
 msgctxt "Things.StructureRocketModuleBattery"
@@ -707,17 +707,17 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureRocketModuleGasCollector']
 msgctxt "Things.StructureRocketModuleGasCollector"
 msgid "Automated Rocket Gas Collection Module"
-msgstr "Automatický raketový modul pro sběr plynů"
+msgstr "Automatizovaný raketový modul pro sběr plynů"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleGasCollector']
 msgctxt "Things.StructureRocketModuleGasCollector"
 msgid "Collects gas from space by magic."
-msgstr "Sbírá plyny z vesmíru za pomocí magie."
+msgstr "Sbírá plyn z vesmíru pomocí magie."
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
 msgctxt "Things.StructureRocketModuleEnergyGenerator"
 msgid "Automated Rocket Energy Collection Module"
-msgstr "Automatický raketový modul pro sběr elektrické energie"
+msgstr "Automatizovaný raketový modul pro sběr elektrické energie"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
 msgctxt "Things.StructureRocketModuleEnergyGenerator"
@@ -725,6 +725,8 @@ msgid ""
 "Collects energy by electromagnetically capturing the solar wind. Stores it in the {THING:StructureRocketModuleBattery}.\n"
 "Coming soon"
 msgstr ""
+"Sbírá energii elektromagnetickým zachycováním slunečního větru. Ukládá ji do {THING:StructureRocketModuleBattery}.\n"
+"Již brzy"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningJunk']
 msgctxt "Things.StructureRocketModuleMiningJunk"
@@ -732,8 +734,8 @@ msgid ""
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to "
 "pass from the collector unit into the silo."
 msgstr ""
-"Modul musí být připojen k {THING:StructureRocketModuleSilo} řádně postaveným {THING:StructureModularRocketCouplingDown} nebo {THING:StructureModularRocketCouplingDown}, aby ruda odcházela ze sběrné "
-"jednotky do sila."
+"Modul musí být připojen k {THING:StructureRocketModuleSilo} pomocí správně umístěného {THING:StructureModularRocketCouplingDown} nebo {THING:StructureModularRocketCouplingUp}, aby se ruda dostala ze"
+" sběrné jednotky do sila."
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
 msgctxt "Things.StructureRocketModuleMiningOre"
