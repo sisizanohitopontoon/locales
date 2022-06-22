@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-22 12:54+0000\n"
+"PO-Revision-Date: 2022-06-22 12:59+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6550,6 +6550,9 @@ msgid ""
 "Vigilant-E to create a {THING:CartridgeAccessController}, in order to restrict access to different parts of your base via keycards like the {THING:AccessCardBlue}. The printer also makes a variety "
 "of weapons and ammunitions to defend your base against any hostile, aggressive or just slightly rude entites you encounter as you explore the Solar System.\n"
 msgstr ""
+"Každý <color=#0080FFFF>{LINK:Stationeer;Stationeer}</color>, který dbá na bezpečnost, potřebuje <color=#0080FFFF>{LINK:Harkwell;navržený společností Harkwell}</color> bezpečnostní tiskárnu "
+"Vigilant-E. Pomocí Vigilant-E můžete vytvořit {THING:CartridgeAccessController}, abyste mohli omezit přístup do různých částí základny pomocí karet, jako je {THING:AccessCardBlue}. Tiskárna také "
+"vyrábí různé zbraně a munici na obranu vaší základny proti všem nepřátelským, agresivním nebo jen trochu hrubým entitám, na které při průzkumu Sluneční soustavy narazíte."
 
 #: /Language/Things/RecordThing[Key='StructureSecurityPrinter']
 msgctxt "Things.StructureSecurityPrinter"
@@ -6984,7 +6987,7 @@ msgstr "Železná stěna (okno)"
 #: /Language/Things/RecordThing[Key='StructureOrganicsPrinter']
 msgctxt "Things.StructureOrganicsPrinter"
 msgid "Please note, the organics printer has been deprecated - it is now spawnable in Creative mode only."
-msgstr ""
+msgstr "Vezměte prosím na vědomí, že tiskárna organických látek byla zrušena - nyní ji lze používat pouze v kreativním režimu."
 
 #: /Language/Things/RecordThing[Key='StructureOrganicsPrinter']
 msgctxt "Things.StructureOrganicsPrinter"
@@ -7169,7 +7172,7 @@ msgstr "Silný kabel (3-cestný rohový)"
 #: /Language/Things/RecordThing[Key='ItemFries']
 msgctxt "Things.ItemFries"
 msgid "French Fries"
-msgstr ""
+msgstr "Francouzské hranolky"
 
 #: /Language/Things/RecordThing[Key='ItemSoyOil']
 msgctxt "Things.ItemSoyOil"
@@ -7194,7 +7197,7 @@ msgstr "Pečená brambora"
 #: /Language/Things/RecordThing[Key='CartridgeOreScanner']
 msgctxt "Things.CartridgeOreScanner"
 msgid "When inserted into a {THING:ItemTablet} and used in conjunction with a {THING:DynamicGPR}, the scanner will display minerals hidden underground on the tablet."
-msgstr ""
+msgstr "Při vložení do {THING:ItemTablet} a použití ve spojení s {THING:DynamicGPR} zobrazí skener minerály skryté v podzemí na tabletu."
 
 #: /Language/Things/RecordThing[Key='CartridgeOreScanner']
 msgctxt "Things.CartridgeOreScanner"
@@ -7208,6 +7211,9 @@ msgid ""
 "\n"
 "Insert a cartridge or color scanner into the tablet, then press the activate button on the GPR to scan the surroundings. The data will be displayed on the tablet."
 msgstr ""
+"<color=#0080FFFF>{LINK:Recurso;Recurso}</color> Zemní penetrační radar (GPR), pokud je použit ve spojení s {THING:CartridgeOreScanner} nebo {THING:CartridgeOreScannerColor} umístěným v {THING:ItemTablet}, umožňuje <color=#0080FFFF>{LINK:Stationeers;Stationeerům}</color> maximalizovat výnosy z těžby a ušetřit čas při shromažďování zdrojů k dokončení mise zobrazením skrytých rud v terénu. \n"
+"\n"
+"Vložte kazetu nebo barevný skener do tabletu a poté stisknutím aktivačního tlačítka na georadaru naskenujte okolí. Data se zobrazí na tabletu."
 
 #: /Language/Things/RecordThing[Key='DynamicGPR']
 msgctxt "Things.DynamicGPR"
@@ -7277,7 +7283,7 @@ msgstr "LED displej (Střední)"
 #: /Language/Things/RecordThing[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
 msgid "An asignable dial with up to 1000 modes."
-msgstr ""
+msgstr "Přiřaditelný volič s až 1000 režimy."
 
 #: /Language/Things/RecordThing[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
@@ -7518,6 +7524,8 @@ msgid ""
 "A go-to tool for all your atmospheric and plumbing needs, the <color=#0080FFFF>{LINK:ExMin;Exmin}</color> Atmoprinter will create everything from pipes, pumps and tanks, to vents and filters, "
 "ensuring your survival in any environment. Upgrade the Atmoprinter using a {THING:PipeBenderMod} for additional recipes and faster processing speeds."
 msgstr ""
+"<color=#0080FFFF>{LINK:ExMin;Exmin}</color> Atmosférická tiskárna vytvoří vše od potrubí, čerpadel a nádrží až po ventilační otvory a filtry a zajistí vám přežití v jakémkoli prostředí. Vylepšete "
+"Atmosférickou tískárnu pomocí modulu {THING:PipeBenderMod} a získejte další recepty a vyšší rychlost zpracování."
 
 #: /Language/Things/RecordThing[Key='StructureHydraulicPipeBender']
 msgctxt "Things.StructureHydraulicPipeBender"
@@ -8517,12 +8525,11 @@ msgid "Igniter"
 msgstr "Zapalovač"
 
 #: /Language/Things/RecordThing[Key='StructureHydroponicsTray']
-#, fuzzy
 msgctxt "Things.StructureHydroponicsTray"
 msgid ""
 "The <color=#0080FFFF>{LINK:Agrizero;Agrizero}</color> hydroponics tray is the ideal vessel for growing a range of <color=#0080FFFF>{LINK:OrganicPage;plantlife}</color>. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. \n"
 "It can be automated using the {THING:StructureHarvie}."
-msgstr "Hydroponická vanička"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureHydroponicsTray']
 msgctxt "Things.StructureHydroponicsTray"
@@ -9390,10 +9397,9 @@ msgid "Deprecated."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='MotherboardManufacturing']
-#, fuzzy
 msgctxt "Things.MotherboardManufacturing"
 msgid "Manufacturing Motherboard"
-msgstr "Výroba"
+msgstr "Výrobní základní deska"
 
 #: /Language/Things/RecordThing[Key='MotherboardLogic']
 msgctxt "Things.MotherboardLogic"
@@ -9405,10 +9411,9 @@ msgstr ""
 "Logická základní deska K-cops navržená společností <color=#0080FFFF>{LINK:Norsec;Norsec}</color> umožňuje <color=#0080FFFF>{LINK:Stationeers;Stationeerům}</color> nastavovat proměnné a akce na konkrétní položky řízené <color=#0080FFFF>{LINK:LogicUnitPage;logikou}</color>."
 
 #: /Language/Things/RecordThing[Key='MotherboardLogic']
-#, fuzzy
 msgctxt "Things.MotherboardLogic"
 msgid "Logic Motherboard"
-msgstr "Logika"
+msgstr "Logická základní deska"
 
 #: /Language/Things/RecordThing[Key='ItemWrench']
 msgctxt "Things.ItemWrench"
@@ -9487,10 +9492,9 @@ msgid "Kit (Wall Heater)"
 msgstr "Nástěnné topení (sada)"
 
 #: /Language/Things/RecordThing[Key='ItemWallCooler']
-#, fuzzy
 msgctxt "Things.ItemWallCooler"
 msgid "This kit creates a {THING:StructureWallCooler}."
-msgstr "Nástěnný chladič (sada)"
+msgstr "Tato sada vytvoří {THING:StructureWallCooler}."
 
 #: /Language/Things/RecordThing[Key='ItemWallCooler']
 msgctxt "Things.ItemWallCooler"
@@ -10025,7 +10029,6 @@ msgid "This kit creates a {THING:StructurePipeAnalysizer}."
 msgstr "Tato sada vytváří {THING:StructurePipeAnalysizer}."
 
 #: /Language/Things/RecordThing[Key='ItemPipeAnalyizer']
-#, fuzzy
 msgctxt "Things.ItemPipeAnalyizer"
 msgid "Kit (Pipe Analyzer)"
 msgstr "Potrubní analyzátor (sada)"
@@ -10683,7 +10686,7 @@ msgstr "Filtr (oxid uhličitý)"
 #: /Language/Things/RecordThing[Key='ItemLiquidCanisterEmpty']
 msgctxt "Things.ItemLiquidCanisterEmpty"
 msgid "Holds water, if you have some."
-msgstr ""
+msgstr "Udrží vodu, pokud ji máte."
 
 #: /Language/Things/RecordThing[Key='ItemLiquidCanisterEmpty']
 msgctxt "Things.ItemLiquidCanisterEmpty"
