@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-22 09:29+0000\n"
+"PO-Revision-Date: 2022-06-22 09:33+0000\n"
 "Last-Translator: Martindob <martincerny2@email.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -749,9 +749,9 @@ msgid ""
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.\n"
 "It has two modes - active (1), and inactive (0), which should only be triggered when the rocket has arrived on the planet and is idle (mode 4)."
 msgstr ""
-"<color=#0080FFFF>{LINK:ExMin; ExMin} autonomní těžební jednotka rudy sklízí kovy{THING:StructureRocketModuleSilo} z asteroidů a planet v místní oblasti vesmíru. Její dolet - a tedy kolik rudy sbírá - je přesně určen množstvím paliva rakety.\n"
-"Modul musí být připojen k {THING:StructureRocketModuleSilo} správně umístěným {THING:StructureModularRocketCouplingDown} nebo {THING:StructureModularRocketCouplingUp}, aby ruda mohla projít ze kolektorové jednotky do sila.\n"
-"Má dva režimy - aktivní (1) a neaktivní (0), které by měly být spuštěny pouze tehdy, když raketa dorazila na planetu a je nečinná (režim 4).</color=#0080FFFF>"
+"<color=#0080FFFF>{LINK:ExMin;ExMin}</color> autonomní těžební systém těží kovové rudy z asteroidů a planet v místní oblasti vesmíru. Jeho dosah - a tedy i množství nasbírané rudy - je striktně určen množstvím paliva v raketě.\n"
+"Modul musí být připojen k {THING:StructureRocketModuleSilo} pomocí správně umístěného {THING:StructureModularRocketCouplingDown} nebo {THING:StructureModularRocketCouplingUp}, aby se ruda dostala ze sběrné jednotky do sila.\n"
+"Má dva režimy - aktivní (1) a neaktivní (0), který by měl být spuštěn pouze tehdy, když raketa dorazila na planetu a je nečinná (režim 4)."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketAutonomous']
 msgctxt "Things.StructureModularRocketAutonomous"
@@ -761,7 +761,7 @@ msgstr "Modulární autonomní raketa"
 #: /Language/Things/RecordThing[Key='StructureRocketModuleCollectorLiquid']
 msgctxt "Things.StructureRocketModuleCollectorLiquid"
 msgid "Automated Rocket Liquid Harvesting Module"
-msgstr "Automatický raketový modul pro sběr kapalin"
+msgstr "Automatizovaný raketový modul pro sběr kapalin"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleCollectorLiquid']
 msgctxt "Things.StructureRocketModuleCollectorLiquid"
@@ -776,12 +776,12 @@ msgstr "Automatizovaný autonomní raketový modul"
 #: /Language/Things/RecordThing[Key='StructureModularRocketAutomation']
 msgctxt "Things.StructureModularRocketAutomation"
 msgid "The automation module completes the rocket. It passes logic to its respective components."
-msgstr "Tento autonomní modul zhotoví raketu. Předává řízení svým příslušným komponentám."
+msgstr "Automatizační modul dotváří raketu. Předává logiku svým příslušným komponentám."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCouplingDown']
 msgctxt "Things.StructureModularRocketCouplingDown"
 msgid "Automated Rocket Coupling Module (Down)"
-msgstr "Automatický raketový spojovací modul (dolů)"
+msgstr "Automatizovaný raketový spojovací modul (dolů)"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCouplingDown']
 msgctxt "Things.StructureModularRocketCouplingDown"
@@ -849,7 +849,7 @@ msgstr "Vytvoří {THING:StructureRocketModuleMiningOre}."
 #: /Language/Things/RecordThing[Key='StructureModularRocketIceMining']
 msgctxt "Things.StructureModularRocketIceMining"
 msgid "Automated Rocket Ice Mining Module"
-msgstr "Automatický raketový modul pro těžbu ledu"
+msgstr "Automatizovaný raketový modul pro těžbu ledu"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketIceMining']
 msgctxt "Things.StructureModularRocketIceMining"
