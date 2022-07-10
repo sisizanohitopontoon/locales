@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-08 16:39+0000\n"
-"Last-Translator: NoNoNeo <newspubs@free.fr>\n"
+"PO-Revision-Date: 2022-07-08 21:22+0000\n"
+"Last-Translator: pionnermegs <meriadeg.morel@laposte.net>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -3163,12 +3163,12 @@ msgstr "Stoppe l'exécution et grille le circuit intégré"
 #: /Language/Interface/Record[Key='ScriptCommandPop']
 msgctxt "Interface.ScriptCommandPop"
 msgid "Register = the value at the top of the stack and decrements sp"
-msgstr "Stocke la valeur du haut de la pile et décrémente sp"
+msgstr "Restaure dans &#91;r?&#93; la valeur du haut de la pile stocké précédemment par PUSH et décrémente le compteur du nombre de valeur stocké dans la pile ( SP )."
 
 #: /Language/Interface/Record[Key='ScriptCommandPush']
 msgctxt "Interface.ScriptCommandPush"
 msgid "Pushes the value of a to the stack at sp and increments sp"
-msgstr "Pousse la valeur de a dans la pile et incrémente sp"
+msgstr "Stocke &#91;r?&#93; au sommet de la pile et incrémente ( SP )"
 
 #: /Language/Interface/Record[Key='ScriptCommandPeek']
 msgctxt "Interface.ScriptCommandPeek"
@@ -3178,7 +3178,7 @@ msgstr "Stocke la valeur du haut de la pile dans le registre"
 #: /Language/Interface/Record[Key='ScriptCommandLabel']
 msgctxt "Interface.ScriptCommandLabel"
 msgid "DEPRECATED"
-msgstr "DEPRECATED"
+msgstr "N&#39;est plus utilisé"
 
 #: /Language/Interface/Record[Key='ScriptCommandYield']
 msgctxt "Interface.ScriptCommandYield"
@@ -3188,17 +3188,17 @@ msgstr "Pause de l'exécution pour 1 cycle"
 #: /Language/Interface/Record[Key='ScriptCommandRand']
 msgctxt "Interface.ScriptCommandRand"
 msgid "Register = a random value x with 0 <= x < 1"
-msgstr "Stocke dans le registre une valeur x telle que 0 <= x < 1"
+msgstr "Stocke dans le registre une valeur aléatoire x telle que 0 <= x < 1"
 
 #: /Language/Interface/Record[Key='ScriptCommandExp']
 msgctxt "Interface.ScriptCommandExp"
 msgid "Register = exp(a)"
-msgstr "Stocke exp(a) dans le registre"
+msgstr "Calcule l&#39;exponentiel de &#91;a&#93; dans le registre &#91;r?&#93;"
 
 #: /Language/Interface/Record[Key='ScriptCommandLog']
 msgctxt "Interface.ScriptCommandLog"
 msgid "Register = log(a)"
-msgstr "Stocke log(a) dans le registre"
+msgstr "Calcule le logarithme de &#91;a&#93; dans le registre &#91;r?&#93;"
 
 #: /Language/Interface/Record[Key='ScriptCommandAbs']
 msgctxt "Interface.ScriptCommandAbs"
@@ -3208,7 +3208,7 @@ msgstr "Stocke la valeur absolue de a dans le registre"
 #: /Language/Interface/Record[Key='ScriptCommandMin']
 msgctxt "Interface.ScriptCommandMin"
 msgid "Register = min of a or b"
-msgstr "Stocke la plus petite des valeurs a et b dans le registre"
+msgstr "Stocke la plus petite des valeurs entre a et b dans le registre"
 
 #: /Language/Interface/Record[Key='ScriptCommandMax']
 msgctxt "Interface.ScriptCommandMax"
@@ -3228,17 +3228,17 @@ msgstr "Strocke le plus petit entier supérieur à a dans le registre"
 #: /Language/Interface/Record[Key='ScriptCommandTrunc']
 msgctxt "Interface.ScriptCommandTrunc"
 msgid "Register = a with fractional part removed"
-msgstr "Stocke a sans sa partie fractionnelle dans le registre"
+msgstr "Tronque les décimales du nombre réel &#91;a&#93; et écrit l&#39;entier dans le registre &#91;r?&#93;"
 
 #: /Language/Interface/Record[Key='ScriptCommandRound']
 msgctxt "Interface.ScriptCommandRound"
 msgid "Register = a rounded to nearest integer"
-msgstr "Stocke a arrondi à l'entier le plus proche dans le registre"
+msgstr "Stocke la valeur &#91;a&#93; arrondi à l'entier le plus proche dans le registre &#91;r?&#93;"
 
 #: /Language/Interface/Record[Key='ScriptCommandSqrt']
 msgctxt "Interface.ScriptCommandSqrt"
 msgid "Register = square root of a"
-msgstr "Stocke la racine carrée de a dans le registre"
+msgstr "Stocke la racine carrée de a dans le registre &#91;r?&#93;"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnazal']
 msgctxt "Interface.ScriptCommandBnazal"
@@ -3528,37 +3528,37 @@ msgstr "Saute à la ligne a"
 #: /Language/Interface/Record[Key='ScriptCommandMod']
 msgctxt "Interface.ScriptCommandMod"
 msgid "Register = a mod b (note: NOT a % b)"
-msgstr "Register = a mod b (note: différent de a % b)"
+msgstr "Ecrit dans le registre &#91;r?&#93; le résultat de &#91;a&#93; modulo &#91;b&#93; (note: différent de a % b)"
 
 #: /Language/Interface/Record[Key='ScriptCommandDiv']
 msgctxt "Interface.ScriptCommandDiv"
 msgid "Register = a / b"
-msgstr "Stocke a / b dans le registre"
+msgstr "Effectue la division &#91;a&#93; / &#91;b&#93; et écrit le résultat dans le registre &#91;r?&#93;"
 
 #: /Language/Interface/Record[Key='ScriptCommandMul']
 msgctxt "Interface.ScriptCommandMul"
 msgid "Register = a * b"
-msgstr "Stocke a * b dans le registre"
+msgstr "Effectue la multiplication &#91;a&#93; x &#91;b&#93; et écrit le résultat dans le registre &#91;r?&#93;"
 
 #: /Language/Interface/Record[Key='ScriptCommandNor']
 msgctxt "Interface.ScriptCommandNor"
 msgid "Register = 1 if a and b are 0, otherwise 0"
-msgstr "Indique 1 si le périphérique est actuellement inactif, sinon 0"
+msgstr "Renvoi Vrais&#124;1 dans le registre &#91;r?&#93; uniquement si les deux opérandes $#91;a&#93; et &#91;b&#93; sont Faux&#124;0, sinon 0."
 
 #: /Language/Interface/Record[Key='ScriptCommandXor']
 msgctxt "Interface.ScriptCommandXor"
 msgid "Register = 1 if either a or b not 0, otherwise 0"
-msgstr "Indique 1 si le périphérique est actuellement inactif, sinon 0"
+msgstr "Renvoi Vrais&#124;1 dans le registre &#91;r?&#93; uniquement si l'un des deux opérandes $#91;a&#93; ou &#91;b&#93; est vrais&#124;1, sinon 0."
 
 #: /Language/Interface/Record[Key='ScriptCommandOr']
 msgctxt "Interface.ScriptCommandOr"
 msgid "Register = 1 if a and/or b not 0, otherwise 0"
-msgstr "Indique 1 si le périphérique est actuellement inactif, sinon 0"
+msgstr "Renvoi Vrais&#124;1 dans le registre &#91;r?&#93; si au moins l'un des deux opérandes $#91;a&#93; ou &#91;b&#93; est Vrais&#124;1, sinon 0."
 
 #: /Language/Interface/Record[Key='ScriptCommandAnd']
 msgctxt "Interface.ScriptCommandAnd"
 msgid "Register = 1 if a and b not zero, otherwise 0"
-msgstr "Indique 1 si le périphérique est actuellement inactif, sinon 0"
+msgstr "Renvoi Vrais&#124;1 dans le registre &#91;r?&#93; si les deux opérandes $#91;a&#93; et &#91;b&#93; sont Vrais&#124;1, sinon 0."
 
 #: /Language/Interface/Record[Key='ScriptCommandSnaz']
 msgctxt "Interface.ScriptCommandSnaz"
@@ -3643,37 +3643,38 @@ msgstr "Stocke 1 dans le registre si a < b, sinon 0"
 #: /Language/Interface/Record[Key='ScriptCommandSdns']
 msgctxt "Interface.ScriptCommandSdns"
 msgid "Register = 1 if device is not set, otherwise 0"
-msgstr "Stocke 1 dans le registre si l'appareil n'est pas défini, sinon 0"
+msgstr "Test au sein de l'IC, si l&#39;appareil &#91;d?&#93; est associé à un appareil. Si oui renvoi 0 dans &#91;r?&#93;, sinon 1."
 
 #: /Language/Interface/Record[Key='ScriptCommandSdse']
 msgctxt "Interface.ScriptCommandSdse"
 msgid "Register = 1 if device is set, otherwise 0."
-msgstr "Stocke 1 dans le registre si l'appareil est défini, sinon 0"
+msgstr "Test au sein de l'IC, si l&#39;appareil &#91;d?&#93; est bien associé à un appareil. Si oui renvoi 1 dans &#91;r?&#93;, sinon 0."
 
 #: /Language/Interface/Record[Key='ScriptCommandSub']
 msgctxt "Interface.ScriptCommandSub"
 msgid "Register = a - b."
-msgstr "Stocke a - b dans le registre"
+msgstr "Effectue une soustraction de &#91;a&#93; moins &#91;b&#93; et place le résultat dans le registre &#91;r?&#93;."
 
 #: /Language/Interface/Record[Key='ScriptCommandAdd']
 msgctxt "Interface.ScriptCommandAdd"
 msgid "Register = a + b."
-msgstr "Stocke a + b dans le registre"
+msgstr "Effectue une addition de &#91;a&#93; plus &#91;b&#93; et place le résultat dans le registre &#91;r?&#93;."
 
 #: /Language/Interface/Record[Key='ScriptCommandMove']
 msgctxt "Interface.ScriptCommandMove"
 msgid "Register = provided num or register value."
-msgstr "Register = valeur numérique ou valeur de registre."
+msgstr "Copie la valeur d'une constante ou d'un registre source &#91;b&#93; vers un registre destination &#91;a&#93;."
 
 #: /Language/Interface/Record[Key='ScriptCommandDefine']
 msgctxt "Interface.ScriptCommandDefine"
 msgid "Creates a label that will be replaced throughout the program with the provided value."
-msgstr "Crée une étiquette qui sera remplacée dans tout le programme par la valeur fournie"
+msgstr "Crée une constante labelisé &#91;str&#93; associé à la valeur numérique &#91;a&#93;. Toute occurrence à ce label dans le code suivant sera implicitement remplacé par sa valeur associée."
 
 #: /Language/Interface/Record[Key='ScriptCommandAlias']
 msgctxt "Interface.ScriptCommandAlias"
 msgid "Labels register or device reference with name, device references also affect what shows on the screws on the IC base."
-msgstr "Associe un nom à une référence de registre ou de dispositif, les références de dispositif influencent également ce qui s'affiche sur les vis du support de CI."
+msgstr ""
+"Associe un nom &#91;str&#93; à une référence de registre ou de dispositif &#91;r?&#124;d?&#93;, les références de dispositif influencent également ce qui s'affiche sur les vis du support de CI."
 
 #: /Language/Interface/Record[Key='ScriptCommandLR']
 msgctxt "Interface.ScriptCommandLR"
@@ -3683,29 +3684,31 @@ msgstr "Charge le réactif du mode réactif de l'appareil à enregistrer. Conten
 #: /Language/Interface/Record[Key='ScriptCommandLS']
 msgctxt "Interface.ScriptCommandLS"
 msgid "Loads slot var on device to register."
-msgstr "Chargement de l'emplacement var pour s'enregistrer."
+msgstr ""
+"Charge le contenu le la variable &#91;var&#93; du numéro de slot &#91;int&#93; de l&#39;appareil &#91;d?&#93; et le stocke dans le registre &#91;r?&#93; si la variable  est un booléen la valeur "
+"renvoyé sera (Faux&#124;0 ou Vrais&#124;1)."
 
 #: /Language/Interface/Record[Key='ScriptCommandSB']
 msgctxt "Interface.ScriptCommandSB"
 msgid "Stores register value to var on all output network devices with provided type hash."
-msgstr "Les magasins enregistrent la valeur à var sur tous les périphériques réseau de sortie avec hachage de type fourni."
+msgstr "Ecrit la valeur du registre &#91;r?&#93; dans la variable &#91;var&#93; de tous les périphériques de même type ayant, au sein du circuit, l&#39;ID hash &#91;type&#93;."
 
 #: /Language/Interface/Record[Key='ScriptCommandS']
 msgctxt "Interface.ScriptCommandS"
 msgid "Stores register value to var on device."
-msgstr "Applique la valeur du registre à la variable du dispositif"
+msgstr "Applique la valeur du registre &#91;r?&#93; à la variable &#91;var&#93; du dispositif &#91;d?&#93;."
 
 #: /Language/Interface/Record[Key='ScriptCommandLB']
 msgctxt "Interface.ScriptCommandLB"
 msgid "Loads var from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number."
 msgstr ""
-"Charge var de tous les périphériques réseau de sortie avec hachage de type fourni en utilisant le mode de lot de fournir. Moyenne (0), Somme (1), Minimum (2), Maximum (3). Peut utiliser soit le mot,"
-" ou le nombre."
+"Charge la variable &#91;var&#93; de tous les périphériques du circuit de m&ecirc;me type ayant l&#39;ID hash &#91;type&#93; en effectuant un traitement &#91;batchMode&#93; sur les valeurs récoltés "
+"puis écrit le résultat dans le registre &#91;r?&#93;. ( batchMode = Moyenne&#124;0, Somme&#124;1, Minimum&#124;2, Maximum&#124;3 )"
 
 #: /Language/Interface/Record[Key='ScriptCommandL']
 msgctxt "Interface.ScriptCommandL"
 msgid "Loads device var to register."
-msgstr "Charge la variable du dispositif et la stocke dans le registre"
+msgstr "Charge la variable &#91;var&#93; de l&#39;appareil &#91;d?&#93; et la stocke dans le registre &#91;r?&#93;"
 
 #: /Language/Interface/Record[Key='ServerReadyString']
 msgctxt "Interface.ServerReadyString"
@@ -5158,7 +5161,7 @@ msgstr "Indique 1 si le périphérique est actuellement inactif, sinon 0"
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
 msgid "Power requested from the device and/or network"
-msgstr ""
+msgstr "Courant demandé par l'appareil et/ou par le réseau"
 
 #: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
 msgctxt "Interface.LogicTypeVerticalRatio"
