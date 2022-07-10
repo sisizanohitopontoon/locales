@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-21 16:57+0000\n"
+"PO-Revision-Date: 2022-07-08 17:12+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -641,10 +641,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitLiquidTankInsulated']
-#, fuzzy
 msgctxt "Things.ItemKitLiquidTankInsulated"
 msgid "Kit (Insulated Liquid Tank)"
-msgstr "{BLANK}"
+msgstr "Kit (Citerne calfeutré portable)"
 
 #: /Language/Things/RecordThing[Key='ItemKitLiquidTankInsulated']
 #, fuzzy
@@ -653,10 +652,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankBigInsulated']
-#, fuzzy
 msgctxt "Things.StructureLiquidTankBigInsulated"
 msgid "Insulated Liquid Tank Big"
-msgstr "{BLANK}"
+msgstr "Grand réservoir de liquide calfeutré"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankBigInsulated']
 #, fuzzy
@@ -665,10 +663,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankSmallInsulated']
-#, fuzzy
 msgctxt "Things.StructureLiquidTankSmallInsulated"
 msgid "Insulated Liquid Tank Small"
-msgstr "{BLANK}"
+msgstr "Petit réservoir de liquide calfeutré"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankSmallInsulated']
 #, fuzzy
@@ -692,7 +689,6 @@ msgid "Automated Rocket Silo Module"
 msgstr "Module de silo de fusée autonome"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleSilo']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleSilo"
 msgid ""
 "The <color=#0080FFFF>{LINK:ExMin;ExMin}</color> autononmous silo module provides storage for <color=#0080FFFF>{LINK:OrePage;ores}</color> collected by the {THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices}</color> collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureModularRocketScrapMining} . In other words, it holds up to 600 'medium-sized dry goods'.\n"
@@ -701,8 +697,11 @@ msgid ""
 "The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to <color=#0080FFFF>{LINK:ImportExportPage;import/export}</color> networks.\n"
 "To extract resources from the silo module, you must set its state to 'OPEN' using logic."
 msgstr ""
-"Le module de silo <color=#0080FFFF>{LINK:ExMin;ExMin}</color> de la fusée autonome fournit un stockage pour les <color=#0080FFFF>{LINK:OrePage;minerais}</color> collectés par le {THING:StructureRocketModuleMiningOre}, les <color=#0080FFFF>{LINK:OrePage;glaces}</color> sont collectées par le {THING:StructureModularRocketIceMining} et les 'débris spatiaux' sont collectés par le {THING:StructureRocketModuleMiningJunk}. Il doit être connecté à la fusée par un {THING:StructureMOdularRocketCouplingDown} ou un {THING:StructureModularRocketCouplingUp}, afin que le minerai passe du module minier dans le silo. Chaque module minier doit avoir son propre silo et son module de couplage.\n"
-"     Le module de silo doit également être alimenté sur l'aire de lancement et il est activé par défaut, mais peut être désactivé avec la logique si nécessaire. Il se connecte aux réseaux de gaine."
+"Le module de silo <color=#0080FFFF>{LINK:ExMin;ExMin}</color> de la fusée autonome fournit un stockage pour les <color=#0080FFFF>{LINK:OrePage;minerais}</color> collectés par le {THING:StructureRocketModuleMiningOre}, les <color=#0080FFFF>{LINK:OrePage;glaces}</color> collectées par le {THING:StructureModularRocketIceMining} et les 'débris spatiaux' collectés par le {THING:StructureRocketModuleMiningJunk}. En d’autres termes, il peut contenir jusqu’à 600 'marchandises sèches de taille moyenne'.\n"
+"Il doit être connecté à un module minier ou un module de récupération par un {THING:StructureModularRocketCouplingDown} ou un {THING:StructureModularRocketCouplingUp}, afin de transférer le matériau du module minier dans le module de silo.\n"
+"Le module de silo doit également être alimenté sur l'aire de lancement et il est actif par défaut, mais peut être désactivé avec la logique, si nécessaire.\n"
+"Le module peut être attaché à une {THING:StructureChuteInlet} afin de le connecter au réseau de gaine d'<color=#0080FFFF>{LINK:ImportExportPage;import/export}</color>.\n"
+"Pour extraire des ressources du module silo, vous devez définir son état sur 'OPEN' en utilisant la logique."
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleBattery']
 msgctxt "Things.StructureRocketModuleBattery"
@@ -730,12 +729,11 @@ msgid "Automated Rocket Energy Collection Module"
 msgstr "Module de collecte d'énergie de fusée autonome"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleEnergyGenerator']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleEnergyGenerator"
 msgid ""
 "Collects energy by electromagnetically capturing the solar wind. Stores it in the {THING:StructureRocketModuleBattery}.\n"
 "Coming soon"
-msgstr "Recueille l’énergie en capturant le vent solaire par électromagnétisme . L'énergie est stocké dans le {THING:StructureRocketModuleBattery}."
+msgstr "Collecte de l’énergie en capturant le vent solaire par électromagnétisme. L'énergie est stocké dans le {THING:StructureRocketModuleBattery}."
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningJunk']
 msgctxt "Things.StructureRocketModuleMiningJunk"
@@ -1212,7 +1210,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitMusicMachines']
 msgctxt "Things.ItemKitMusicMachines"
 msgid "Item Kit Music Machines"
-msgstr ""
+msgstr "Kit (Machine à musique)"
 
 #: /Language/Things/RecordThing[Key='ItemKitMusicMachines']
 #, fuzzy
@@ -1616,7 +1614,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='ItemKitPlanter']
 msgctxt "Things.ItemKitPlanter"
 msgid "Item Kit Planter"
-msgstr ""
+msgstr "Kit (Planteur)"
 
 #: /Language/Things/RecordThing[Key='ItemKitPlanter']
 #, fuzzy
@@ -1995,7 +1993,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='InsulatedLiquidPipeStraight']
 msgctxt "Things.InsulatedLiquidPipeStraight"
 msgid "Insulated Liquid Pipe Straight"
-msgstr "Tube calfeutré (Droit)"
+msgstr "Tube isolé (Droit)"
 
 #: /Language/Things/RecordThing[Key='InsulatedLiquidPipeStraight']
 #, fuzzy
@@ -2006,7 +2004,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidCorner']
 msgctxt "Things.StructureInsulatedPipeLiquidCorner"
 msgid "Insulated Liquid Pipe (Corner)"
-msgstr "Tube calfeutré (Coin)"
+msgstr "Tube isolé (Coin)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidCorner']
 msgctxt "Things.StructureInsulatedPipeLiquidCorner"
@@ -2016,7 +2014,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidCrossJunction']
 msgctxt "Things.StructureInsulatedPipeLiquidCrossJunction"
 msgid "Insulated Liquid Pipe (Cross Junction)"
-msgstr "Tube calfeutré (En Croix)"
+msgstr "Tube isolé (En Croix)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidCrossJunction']
 msgctxt "Things.StructureInsulatedPipeLiquidCrossJunction"
@@ -2026,7 +2024,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidCrossJunction4']
 msgctxt "Things.StructureInsulatedPipeLiquidCrossJunction4"
 msgid "Insulated Liquid Pipe (Cross Junction4)"
-msgstr "Tube calfeutré (Jonction 4 voies)"
+msgstr "Tube isolé (Jonction 4 voies)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidCrossJunction4']
 msgctxt "Things.StructureInsulatedPipeLiquidCrossJunction4"
@@ -2036,7 +2034,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructurePipeInsulatedLiquidCrossJunction']
 msgctxt "Things.StructurePipeInsulatedLiquidCrossJunction"
 msgid "Insulated Liquid Pipe (Cross Junction)"
-msgstr "Tube calfeutré (En Croix)"
+msgstr "Tube isolé (En Croix)"
 
 #: /Language/Things/RecordThing[Key='StructurePipeInsulatedLiquidCrossJunction']
 msgctxt "Things.StructurePipeInsulatedLiquidCrossJunction"
@@ -2056,7 +2054,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidCrossJunction6']
 msgctxt "Things.StructureInsulatedPipeLiquidCrossJunction6"
 msgid "Insulated Liquid Pipe (Cross Junction6)"
-msgstr "Tube calfeutré (Jonction 6 voies)"
+msgstr "Tube isolé (Jonction 6 voies)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidCrossJunction6']
 msgctxt "Things.StructureInsulatedPipeLiquidCrossJunction6"
@@ -2066,7 +2064,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidStraight']
 msgctxt "Things.StructureInsulatedPipeLiquidStraight"
 msgid "Insulated Liquid Pipe (Straight)"
-msgstr "Tube calfeutré (Droit)"
+msgstr "Tube isolé (Droit)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidStraight']
 msgctxt "Things.StructureInsulatedPipeLiquidStraight"
@@ -2076,7 +2074,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidTJunction']
 msgctxt "Things.StructureInsulatedPipeLiquidTJunction"
 msgid "Insulated Liquid Pipe (T Junction)"
-msgstr "Tube calfeutré (Jonction T)"
+msgstr "Tube isolé (Jonction T)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeLiquidTJunction']
 msgctxt "Things.StructureInsulatedPipeLiquidTJunction"
@@ -2448,7 +2446,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='ItemKitStirlingEngine']
 msgctxt "Things.ItemKitStirlingEngine"
 msgid "Item Kit Stirling Engine"
-msgstr ""
+msgstr "Kit (Moteur Stirling)"
 
 #: /Language/Things/RecordThing[Key='ItemKitStirlingEngine']
 #, fuzzy
@@ -2474,7 +2472,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructurePowerTransmitter']
 msgctxt "Things.StructurePowerTransmitter"
 msgid "Microwave Power Transmitter"
-msgstr ""
+msgstr "Transmetteur de courant par micro-ondes"
 
 #: /Language/Things/RecordThing[Key='StructurePowerTransmitter']
 msgctxt "Things.StructurePowerTransmitter"
@@ -2482,11 +2480,13 @@ msgid ""
 "The <color=#0080FFFF>{LINK:Norsec;Norsec}</color> Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.\n"
 "The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output."
 msgstr ""
+"Le transmetteur de courant sans fil <color=#0080FFFF>{LINK:Norsec;Norsec}</color> est un système de transmission électrique hyperfréquence unidirectionnel à longue distance, d'un point A à un point B. L'émetteur est rotatif et délivre un faisceau micro-ondes étroit et non létal à un récepteur dédié.\n"
+"L'émetteur et le récepteur doivent être alignés afin de transmettre toute l'énergie électrique. L'arc lumineux du viseur de l'émetteur fournit une indication de l'intensité de la transmission. Notez qu'il y a de la déperdition sur de longues distances, c'est-à-dire que l'unité nécessite plus de courant sur de grandes distances pour fournir la même quantité en sortie."
 
 #: /Language/Things/RecordThing[Key='StructurePowerTransmitterReceiver']
 msgctxt "Things.StructurePowerTransmitterReceiver"
 msgid "Microwave Power Receiver"
-msgstr ""
+msgstr "Récepteur de courant par micro-ondes"
 
 #: /Language/Things/RecordThing[Key='StructurePowerTransmitterReceiver']
 msgctxt "Things.StructurePowerTransmitterReceiver"
@@ -2494,6 +2494,8 @@ msgid ""
 "The <color=#0080FFFF>{LINK:Norsec;Norsec}</color> Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.\n"
 "The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output."
 msgstr ""
+"Le transmetteur de courant sans fil <color=#0080FFFF>{LINK:Norsec;Norsec}</color> est un système de transmission électrique hyperfréquence unidirectionnel à longue distance, d'un point A à un point B. L'émetteur est rotatif et délivre un faisceau micro-ondes étroit et non létal à un récepteur dédié.\n"
+"L'émetteur et le récepteur doivent être alignés afin de transmettre toute l'énergie électrique. L'arc lumineux du viseur de l'émetteur fournit une indication de l'intensité de la transmission. Notez qu'il y a de la déperdition sur de longues distances, c'est-à-dire que l'unité nécessite plus de courant sur de grandes distances pour fournir la même quantité en sortie."
 
 #: /Language/Things/RecordThing[Key='StructureOverheadShortCornerLocker']
 msgctxt "Things.StructureOverheadShortCornerLocker"
@@ -2577,7 +2579,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitPowerTransmitter']
 msgctxt "Things.ItemKitPowerTransmitter"
 msgid "Item Kit Power Transmitter"
-msgstr ""
+msgstr "Kit (Transmetteur de courant)"
 
 #: /Language/Things/RecordThing[Key='ItemKitPowerTransmitter']
 #, fuzzy
@@ -2588,7 +2590,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureInteriorDoorTriangle']
 msgctxt "Things.StructureInteriorDoorTriangle"
 msgid "Interior Door Triangle"
-msgstr ""
+msgstr "Porte d'intérieure triangulaire"
 
 #: /Language/Things/RecordThing[Key='StructureInteriorDoorTriangle']
 #, fuzzy
@@ -2599,7 +2601,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureInteriorDoorPaddedThin']
 msgctxt "Things.StructureInteriorDoorPaddedThin"
 msgid "Interior Door Padded Thin"
-msgstr ""
+msgstr "Porte d’intérieure rembourrée mince"
 
 #: /Language/Things/RecordThing[Key='StructureInteriorDoorPaddedThin']
 #, fuzzy
@@ -2610,7 +2612,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureInteriorDoorPadded']
 msgctxt "Things.StructureInteriorDoorPadded"
 msgid "Interior Door Padded"
-msgstr ""
+msgstr "Porte d’intérieure rembourrée"
 
 #: /Language/Things/RecordThing[Key='StructureInteriorDoorPadded']
 #, fuzzy
@@ -2621,7 +2623,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureInteriorDoorGlass']
 msgctxt "Things.StructureInteriorDoorGlass"
 msgid "Interior Door Glass"
-msgstr ""
+msgstr "Porte d'intérieure vitrée"
 
 #: /Language/Things/RecordThing[Key='StructureInteriorDoorGlass']
 #, fuzzy
@@ -2632,7 +2634,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitInteriorDoors']
 msgctxt "Things.ItemKitInteriorDoors"
 msgid "Kit (Interior Doors)"
-msgstr ""
+msgstr "Kit (Portes d'intérieure)"
 
 #: /Language/Things/RecordThing[Key='ItemKitInteriorDoors']
 #, fuzzy
@@ -2665,7 +2667,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitPowerTransmitterOmni']
 msgctxt "Things.ItemKitPowerTransmitterOmni"
 msgid "Item Kit Power Transmitter Omni"
-msgstr ""
+msgstr "Kit (Transmetteur de courant Omni)"
 
 #: /Language/Things/RecordThing[Key='ItemKitPowerTransmitterOmni']
 #, fuzzy
@@ -2676,7 +2678,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructurePowerTransmitterOmni']
 msgctxt "Things.StructurePowerTransmitterOmni"
 msgid "Structure Power Transmitter Omni"
-msgstr ""
+msgstr "Construction d'un transmetteur de courant Omni"
 
 #: /Language/Things/RecordThing[Key='StructurePowerTransmitterOmni']
 #, fuzzy
@@ -2720,7 +2722,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitLargeExtendableRadiator']
 msgctxt "Things.ItemKitLargeExtendableRadiator"
 msgid "Item Kit Large Extendable Radiator"
-msgstr ""
+msgstr "Kit (Grand radiateur extensible)"
 
 #: /Language/Things/RecordThing[Key='ItemKitLargeExtendableRadiator']
 #, fuzzy
