@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-11 18:57+0000\n"
+"PO-Revision-Date: 2022-07-11 19:04+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3535,22 +3535,22 @@ msgstr "Effectue la multiplication [ a ] x [ b ] et écrit le résultat dans le 
 #: /Language/Interface/Record[Key='ScriptCommandNor']
 msgctxt "Interface.ScriptCommandNor"
 msgid "Register = 1 if a and b are 0, otherwise 0"
-msgstr "Renvoi vrais|1 dans le registre [ r? ] uniquement si les deux opérandes [ a ] et [ b ] sont faux|0, sinon renvoi 0"
+msgstr "Renvoie vrai|1 dans le registre [ r? ] uniquement si les deux opérandes [ a ] et [ b ] sont faux|0, sinon renvoie 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandXor']
 msgctxt "Interface.ScriptCommandXor"
 msgid "Register = 1 if either a or b not 0, otherwise 0"
-msgstr "Renvoi Vrais&#124;1 dans le registre &#91;r?&#93; uniquement si l'un des deux opérandes $#91;a&#93; ou &#91;b&#93; est vrais&#124;1, sinon 0."
+msgstr "Renvoie vrai|1 dans le registre [ r? ] uniquement si l'un des deux opérandes [ a ] ou [ b ] est vrai|1, sinon 0."
 
 #: /Language/Interface/Record[Key='ScriptCommandOr']
 msgctxt "Interface.ScriptCommandOr"
 msgid "Register = 1 if a and/or b not 0, otherwise 0"
-msgstr "Renvoi Vrais&#124;1 dans le registre &#91;r?&#93; si au moins l'un des deux opérandes $#91;a&#93; ou &#91;b&#93; est Vrais&#124;1, sinon 0."
+msgstr "Renvoie vrai|1 dans le registre [ r? ] si au moins l'un des deux opérandes [ a ] ou [ b ] est vraie|1, sinon renvoi 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandAnd']
 msgctxt "Interface.ScriptCommandAnd"
 msgid "Register = 1 if a and b not zero, otherwise 0"
-msgstr "Renvoi Vrais&#124;1 dans le registre &#91;r?&#93; si les deux opérandes $#91;a&#93; et &#91;b&#93; sont Vrais&#124;1, sinon 0."
+msgstr "Renvoie vrai|1 dans le registre [ r? ] si les deux opérandes [ a ] et [ b ] sont vraies|1, sinon renvoie 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSnaz']
 msgctxt "Interface.ScriptCommandSnaz"
@@ -3635,27 +3635,27 @@ msgstr "Stocke 1 dans le registre si a < b, sinon 0"
 #: /Language/Interface/Record[Key='ScriptCommandSdns']
 msgctxt "Interface.ScriptCommandSdns"
 msgid "Register = 1 if device is not set, otherwise 0"
-msgstr "Test au sein de l'IC, si l&#39;appareil &#91;d?&#93; est associé à un appareil. Si oui renvoi 0 dans &#91;r?&#93;, sinon 1."
+msgstr "Test au sein du CI, si le registre d'appareil [ d? ] est associé à un dispositif existant. Si oui renvoie 0 dans [ r? ] sinon renvoie 1"
 
 #: /Language/Interface/Record[Key='ScriptCommandSdse']
 msgctxt "Interface.ScriptCommandSdse"
 msgid "Register = 1 if device is set, otherwise 0."
-msgstr "Test au sein de l'IC, si l&#39;appareil &#91;d?&#93; est bien associé à un appareil. Si oui renvoi 1 dans &#91;r?&#93;, sinon 0."
+msgstr "Test au sein du CI, si le registre d'appareil [ d? ] est bien associé à un dispositif. Si oui renvoie 1 dans [ r? ], sinon renvoie 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSub']
 msgctxt "Interface.ScriptCommandSub"
 msgid "Register = a - b."
-msgstr "Effectue une soustraction de &#91;a&#93; moins &#91;b&#93; et place le résultat dans le registre &#91;r?&#93;."
+msgstr "Effectue une soustraction de [ a ] moins [ b ] et place le résultat dans le registre [ r? ]."
 
 #: /Language/Interface/Record[Key='ScriptCommandAdd']
 msgctxt "Interface.ScriptCommandAdd"
 msgid "Register = a + b."
-msgstr "Effectue une addition de &#91;a&#93; plus &#91;b&#93; et place le résultat dans le registre &#91;r?&#93;."
+msgstr "Effectue une addition de [ a ] + [ b ] et place le résultat dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandMove']
 msgctxt "Interface.ScriptCommandMove"
 msgid "Register = provided num or register value."
-msgstr "Copie la valeur d'une constante ou d'un registre source &#91;b&#93; vers un registre destination &#91;a&#93;."
+msgstr "Copie la valeur d'une constante ou d'un registre source [ b ] vers un registre de destination [ a ]."
 
 #: /Language/Interface/Record[Key='ScriptCommandDefine']
 msgctxt "Interface.ScriptCommandDefine"
