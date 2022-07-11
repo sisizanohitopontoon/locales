@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-11 19:04+0000\n"
+"PO-Revision-Date: 2022-07-11 19:09+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3660,13 +3660,12 @@ msgstr "Copie la valeur d'une constante ou d'un registre source [ b ] vers un re
 #: /Language/Interface/Record[Key='ScriptCommandDefine']
 msgctxt "Interface.ScriptCommandDefine"
 msgid "Creates a label that will be replaced throughout the program with the provided value."
-msgstr "Crée une constante labelisé &#91;str&#93; associé à la valeur numérique &#91;a&#93;. Toute occurrence à ce label dans le code suivant sera implicitement remplacé par sa valeur associée."
+msgstr "Crée une constante labellisé [ str ] associée à la valeur numérique [ a ]; toute occurrence à ce label dans le code suivant sera implicitement remplacé par sa valeur associée."
 
 #: /Language/Interface/Record[Key='ScriptCommandAlias']
 msgctxt "Interface.ScriptCommandAlias"
 msgid "Labels register or device reference with name, device references also affect what shows on the screws on the IC base."
-msgstr ""
-"Associe un nom &#91;str&#93; à une référence de registre ou de dispositif &#91;r?&#124;d?&#93;, les références de dispositif influencent également ce qui s'affiche sur les vis du support de CI."
+msgstr "Associe un nom [ str ] à une référence de registre ou de dispositif [ r?,d? ]; les références de dispositif influencent également ce qui s'affiche sur les vis du support de CI."
 
 #: /Language/Interface/Record[Key='ScriptCommandLR']
 msgctxt "Interface.ScriptCommandLR"
@@ -3677,30 +3676,30 @@ msgstr "Charge le réactif du mode réactif de l'appareil à enregistrer. Conten
 msgctxt "Interface.ScriptCommandLS"
 msgid "Loads slot var on device to register."
 msgstr ""
-"Charge le contenu le la variable &#91;var&#93; du numéro de slot &#91;int&#93; de l&#39;appareil &#91;d?&#93; et le stocke dans le registre &#91;r?&#93; si la variable  est un booléen la valeur "
-"renvoyé sera (Faux&#124;0 ou Vrais&#124;1)."
+"Charge le contenu de la variable [ var ] afférente au numéro de slot [ int ] de l'appareil [ d? ] et le stocke dans le registre [ r? ]. Si la variable est un booléen, la valeur renvoyée sera faux|0 "
+"ou vrai|1"
 
 #: /Language/Interface/Record[Key='ScriptCommandSB']
 msgctxt "Interface.ScriptCommandSB"
 msgid "Stores register value to var on all output network devices with provided type hash."
-msgstr "Ecrit la valeur du registre &#91;r?&#93; dans la variable &#91;var&#93; de tous les périphériques de même type ayant, au sein du circuit, l&#39;ID hash &#91;type&#93;."
+msgstr "Écris la valeur du registre [ r? ] dans la variable [ var ] de tous les périphériques de même type ayant, au sein du circuit, le hash [ type ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandS']
 msgctxt "Interface.ScriptCommandS"
 msgid "Stores register value to var on device."
-msgstr "Applique la valeur du registre &#91;r?&#93; à la variable &#91;var&#93; du dispositif &#91;d?&#93;."
+msgstr "Applique la valeur du registre [ r? ] à la variable [ var ] du dispositif [ d? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandLB']
 msgctxt "Interface.ScriptCommandLB"
 msgid "Loads var from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number."
 msgstr ""
-"Charge la variable &#91;var&#93; de tous les périphériques du circuit de m&ecirc;me type ayant l&#39;ID hash &#91;type&#93; en effectuant un traitement &#91;batchMode&#93; sur les valeurs récoltés "
-"puis écrit le résultat dans le registre &#91;r?&#93;. ( batchMode = Moyenne&#124;0, Somme&#124;1, Minimum&#124;2, Maximum&#124;3 )"
+"Charge la variable [ var ] de tous les périphériques du circuit de même type ayant le hash [ type ] en effectuant un traitement [ batchMode ] sur les valeurs récoltées puis écrit le résultat dans le"
+" registre [ r? ] ( batchMode = moyenne|0, Somme|1, minimum|2, maximum|3 )."
 
 #: /Language/Interface/Record[Key='ScriptCommandL']
 msgctxt "Interface.ScriptCommandL"
 msgid "Loads device var to register."
-msgstr "Charge la variable &#91;var&#93; de l&#39;appareil &#91;d?&#93; et la stocke dans le registre &#91;r?&#93;"
+msgstr "Charge la variable [ var ] de l'appareil [ d? ] et la stocke dans le registre [ r? ]."
 
 #: /Language/Interface/Record[Key='ServerReadyString']
 msgctxt "Interface.ServerReadyString"
