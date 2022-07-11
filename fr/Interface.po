@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-11 18:51+0000\n"
+"PO-Revision-Date: 2022-07-11 18:57+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3170,7 +3170,7 @@ msgstr "Stocke la valeur du haut de la pile dans le registre"
 #: /Language/Interface/Record[Key='ScriptCommandLabel']
 msgctxt "Interface.ScriptCommandLabel"
 msgid "DEPRECATED"
-msgstr "N&#39;est plus utilisé"
+msgstr "N'est plus utilisé"
 
 #: /Language/Interface/Record[Key='ScriptCommandYield']
 msgctxt "Interface.ScriptCommandYield"
@@ -3185,17 +3185,17 @@ msgstr "Stocke dans le registre une valeur aléatoire x telle que 0 <= x < 1"
 #: /Language/Interface/Record[Key='ScriptCommandExp']
 msgctxt "Interface.ScriptCommandExp"
 msgid "Register = exp(a)"
-msgstr "Calcule l&#39;exponentiel de &#91;a&#93; dans le registre &#91;r?&#93;"
+msgstr "Calcule l'exponentiel de [ a ] dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandLog']
 msgctxt "Interface.ScriptCommandLog"
 msgid "Register = log(a)"
-msgstr "Calcule le logarithme de &#91;a&#93; dans le registre &#91;r?&#93;"
+msgstr "Calcule le logarithme de [ a ] dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandAbs']
 msgctxt "Interface.ScriptCommandAbs"
 msgid "Register = the absolute value of a"
-msgstr "Stocke la valeur absolue de a dans le registre"
+msgstr "Stocke la valeur absolue de [ a ] dans le registre"
 
 #: /Language/Interface/Record[Key='ScriptCommandMin']
 msgctxt "Interface.ScriptCommandMin"
@@ -3205,12 +3205,12 @@ msgstr "Stocke la plus petite des valeurs entre a et b dans le registre"
 #: /Language/Interface/Record[Key='ScriptCommandMax']
 msgctxt "Interface.ScriptCommandMax"
 msgid "Register = max of a or b"
-msgstr "Stocke la plus grande des valeurs a et b dans le registre"
+msgstr "Stocke la plus grande des valeurs [ a ] et [ b ] dans le registre"
 
 #: /Language/Interface/Record[Key='ScriptCommandFloor']
 msgctxt "Interface.ScriptCommandFloor"
 msgid "Register = largest integer less than a"
-msgstr "Stocke le plus grand entier inférieur à a dans le registre"
+msgstr "Stocke le plus grand entier inférieur à [ a ] dans le registre"
 
 #: /Language/Interface/Record[Key='ScriptCommandCeil']
 msgctxt "Interface.ScriptCommandCeil"
@@ -3220,17 +3220,17 @@ msgstr "Strocke le plus petit entier supérieur à a dans le registre"
 #: /Language/Interface/Record[Key='ScriptCommandTrunc']
 msgctxt "Interface.ScriptCommandTrunc"
 msgid "Register = a with fractional part removed"
-msgstr "Tronque les décimales du nombre réel &#91;a&#93; et écrit l&#39;entier dans le registre &#91;r?&#93;"
+msgstr "Tronque les décimales du nombre réel [ a ] et écrit l'entier dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandRound']
 msgctxt "Interface.ScriptCommandRound"
 msgid "Register = a rounded to nearest integer"
-msgstr "Stocke la valeur &#91;a&#93; arrondi à l'entier le plus proche dans le registre &#91;r?&#93;"
+msgstr "Stocke la valeur [ a ] arrondi à l'entier le plus proche dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandSqrt']
 msgctxt "Interface.ScriptCommandSqrt"
 msgid "Register = square root of a"
-msgstr "Stocke la racine carrée de a dans le registre &#91;r?&#93;"
+msgstr "Stocke la racine carrée de a dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnazal']
 msgctxt "Interface.ScriptCommandBnazal"
@@ -3320,12 +3320,12 @@ msgstr "Sauter l'exécution à la ligne a et enregistrer le numéro de la ligne 
 #: /Language/Interface/Record[Key='ScriptCommandBdseal']
 msgctxt "Interface.ScriptCommandBdseal"
 msgid "Jump execution to line a and store next line number if device is set"
-msgstr "Sauter l'exécution à la ligne a et enregistrer le numéro de la ligne suivante si l'appareil est réglé"
+msgstr "Fait sauter l'exécution à la ligne [ a ] et enregistre le numéro de la ligne suivante en [ ra,r17 ] si le dispositif [ d? ] est initialisé."
 
 #: /Language/Interface/Record[Key='ScriptCommandJal']
 msgctxt "Interface.ScriptCommandJal"
 msgid "Jump execution to line a and store next line number in ra"
-msgstr "Saute à la ligne a et stocke le numéro de la ligne suivante dans ra"
+msgstr "Saute à la ligne [ a ] et stocke le numéro de la ligne suivante dans [ ra,r17 ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandBrnaz']
 msgctxt "Interface.ScriptCommandBrnaz"
@@ -3420,7 +3420,7 @@ msgstr "Fait un saut relatif de a lignes si le dispositif est configuré"
 #: /Language/Interface/Record[Key='ScriptCommandJr']
 msgctxt "Interface.ScriptCommandJr"
 msgid "Relative jump to line a"
-msgstr "Fait un saut relatif de a lignes"
+msgstr "Fait un saut relatif de [ a ] lignes vers le bas"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnaz']
 msgctxt "Interface.ScriptCommandBnaz"
@@ -3515,27 +3515,27 @@ msgstr "Saute à la ligne a si le dispositif est configuré"
 #: /Language/Interface/Record[Key='ScriptCommandJ']
 msgctxt "Interface.ScriptCommandJ"
 msgid "Jump execution to line a"
-msgstr "Saute à la ligne a"
+msgstr "Saute à la ligne [ a ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandMod']
 msgctxt "Interface.ScriptCommandMod"
 msgid "Register = a mod b (note: NOT a % b)"
-msgstr "Ecrit dans le registre &#91;r?&#93; le résultat de &#91;a&#93; modulo &#91;b&#93; (note: différent de a % b)"
+msgstr "Écrit dans le registre [ r? ] le résultat de [ a ] modulo [ b ] (note: différent de a % b)"
 
 #: /Language/Interface/Record[Key='ScriptCommandDiv']
 msgctxt "Interface.ScriptCommandDiv"
 msgid "Register = a / b"
-msgstr "Effectue la division &#91;a&#93; / &#91;b&#93; et écrit le résultat dans le registre &#91;r?&#93;"
+msgstr "Effectue la division [ a ] : [ b ] et écrit le résultat dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandMul']
 msgctxt "Interface.ScriptCommandMul"
 msgid "Register = a * b"
-msgstr "Effectue la multiplication &#91;a&#93; x &#91;b&#93; et écrit le résultat dans le registre &#91;r?&#93;"
+msgstr "Effectue la multiplication [ a ] x [ b ] et écrit le résultat dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandNor']
 msgctxt "Interface.ScriptCommandNor"
 msgid "Register = 1 if a and b are 0, otherwise 0"
-msgstr "Renvoi Vrais&#124;1 dans le registre &#91;r?&#93; uniquement si les deux opérandes $#91;a&#93; et &#91;b&#93; sont Faux&#124;0, sinon 0."
+msgstr "Renvoi vrais|1 dans le registre [ r? ] uniquement si les deux opérandes [ a ] et [ b ] sont faux|0, sinon renvoi 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandXor']
 msgctxt "Interface.ScriptCommandXor"
