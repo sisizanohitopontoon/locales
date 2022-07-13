@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-13 08:10+0000\n"
-"Last-Translator: Totor <tony.giraud@gmail.com>\n"
+"PO-Revision-Date: 2022-07-12 10:00+0000\n"
+"Last-Translator: pionnermegs <meriadeg.morel@laposte.net>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -2478,17 +2478,19 @@ msgstr "Affiche la liste des commandes : \"/help\""
 #: /Language/Interface/Record[Key='CommandSetContact']
 msgctxt "Interface.CommandSetContact"
 msgid "Sets the required signal amount to contact a trader. : \"/setcontact 10\""
-msgstr ""
+msgstr "Définis le canal de communication pour contacter un vendeur  : \"/setcontact 10\""
 
 #: /Language/Interface/Record[Key='CommandSetDecay']
 msgctxt "Interface.CommandSetDecay"
 msgid "Sets the global food Decay Multiplier. : \"/setdecay 2\""
-msgstr ""
+msgstr "Modifie le multiplicateur de vitesse de péremption des aliments.\"/setdecay 2\""
 
 #: /Language/Interface/Record[Key='CommandCount']
 msgctxt "Interface.CommandCount"
 msgid "Counts all the Things of specified type in the save. : \"/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]\""
 msgstr ""
+"Dénombre toute les choses [ Things ] d'un type particulier au sein de la sauvegarde : \"/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / "
+"CableNetworks]\""
 
 #: /Language/Interface/Record[Key='CommandAddGas']
 msgctxt "Interface.CommandAddGas"
@@ -2503,7 +2505,7 @@ msgstr "Soigner un joueur. : \"/fillhealth\""
 #: /Language/Interface/Record[Key='CommandFillNeeds']
 msgctxt "Interface.CommandFillNeeds"
 msgid "Fills a players hunger and hydration. : \"/fillneeds\""
-msgstr ""
+msgstr "Alimente et réhydrate un joueur : \"/fillneeds\""
 
 #: /Language/Interface/Record[Key='CommandShowStage']
 msgctxt "Interface.CommandShowStage"
@@ -2543,17 +2545,17 @@ msgstr "Active ou désactive la croissance instantanée des plantes sur un serve
 #: /Language/Interface/Record[Key='CommandSetTime']
 msgctxt "Interface.CommandSetTime"
 msgid "Sets the sun offset affectivley changing the time of day. : \"/settime 0.25\""
-msgstr ""
+msgstr "Force la position du soleil via l'offset de celui-ci, cela affecte évidement l'heure du jour : \"/settime 0.25\""
 
 #: /Language/Interface/Record[Key='CommandToggleGameMode']
 msgctxt "Interface.CommandToggleGameMode"
 msgid "Toggles Gamemode between Survival and Creative. : \"/tgm\""
-msgstr ""
+msgstr "Alterne entre le mode de jeu créatif et Survie : \"/tgm\""
 
 #: /Language/Interface/Record[Key='CommandToggleInfinitePower']
 msgctxt "Interface.CommandToggleInfinitePower"
 msgid "Toggles Infinite power on a player or serverwide. : \"/tgp\""
-msgstr ""
+msgstr "Active / désactive l'énergie infini pour le joueur ou le serveur : \"/tgp\""
 
 #: /Language/Interface/Record[Key='CommandToggleGod']
 msgctxt "Interface.CommandToggleGod"
@@ -2573,7 +2575,7 @@ msgstr "Met le jeu en pause pour tous les joueurs connectés. : \"/pause\""
 #: /Language/Interface/Record[Key='CommandSetHunger']
 msgctxt "Interface.CommandSetHunger"
 msgid "Sets the hunger rate. : \"/hungerrate 0.25\""
-msgstr ""
+msgstr "Définis la vitesse d'évolution de l'état de faim : \"/hungerrate 0.25\""
 
 #: /Language/Interface/Record[Key='CommandResetThread']
 msgctxt "Interface.CommandResetThread"
@@ -2593,7 +2595,7 @@ msgstr "Efface tous les joueurs déconnectés du serveur:  \"/clearall\""
 #: /Language/Interface/Record[Key='CommandKick']
 msgctxt "Interface.CommandKick"
 msgid "Kicks a player from a given steam ID from the server: \"/kick 102039237390\""
-msgstr ""
+msgstr "Déconnecte un joueur du serveur a partir de son ID steam : \"/kick 102039237390\""
 
 #: /Language/Interface/Record[Key='CommandUnBan']
 msgctxt "Interface.CommandUnBan"
@@ -2623,7 +2625,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='CommandSave']
 msgctxt "Interface.CommandSave"
 msgid "Saves the game and names it as a given parameter. usage: \"/save nameofsave\""
-msgstr ""
+msgstr "Sauve la partie avec le nom spécifié en paramètre : \"/save nameofsave\""
 
 #: /Language/Interface/Record[Key='ActivateExplosiveTooltipKey2']
 msgctxt "Interface.ActivateExplosiveTooltipKey2"
