@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-03 20:02+0000\n"
-"Last-Translator: kebelig <games@riegger.it>\n"
+"PO-Revision-Date: 2022-07-13 13:55+0000\n"
+"Last-Translator: ShiaNox <timeshockdr@gmail.com>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -42,7 +42,7 @@ msgstr "Luftschleusen"
 #: /Language/HelpPage/StationpediaPage[Key='AirlockDevicePage']
 msgctxt "HelpPage.AirlockDevicePage"
 msgid "{LIST_OF_AIRLOCK_DEVICES}"
-msgstr ""
+msgstr "{LIST_OF_AIRLOCK_DEVICES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicUnitPage']
 msgctxt "HelpPage.LogicUnitPage"
@@ -52,7 +52,7 @@ msgstr "Logikeinheiten"
 #: /Language/HelpPage/StationpediaPage[Key='LogicUnitPage']
 msgctxt "HelpPage.LogicUnitPage"
 msgid "{LIST_OF_LOGIC_UNITS}{LIST_OF_MOTHERBOARD}"
-msgstr ""
+msgstr "{LIST_OF_LOGIC_UNITS}{LIST_OF_MOTHERBOARD}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CartridgePage']
 msgctxt "HelpPage.CartridgePage"
@@ -74,7 +74,7 @@ msgstr "Strukturen"
 #: /Language/HelpPage/StationpediaPage[Key='StructurePage']
 msgctxt "HelpPage.StructurePage"
 msgid "{LIST_OF_STRUCTURES}"
-msgstr ""
+msgstr "{LIST_OF_STRUCTURES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ElectronicPage']
 msgctxt "HelpPage.ElectronicPage"
@@ -84,7 +84,7 @@ msgstr "Elektronik"
 #: /Language/HelpPage/StationpediaPage[Key='ElectronicPage']
 msgctxt "HelpPage.ElectronicPage"
 msgid "{LIST_OF_ELECTRONICS}"
-msgstr ""
+msgstr "{LIST_OF_ELECTRONICS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='OrganicPage']
 msgctxt "HelpPage.OrganicPage"
@@ -94,7 +94,7 @@ msgstr "Organisches"
 #: /Language/HelpPage/StationpediaPage[Key='OrganicPage']
 msgctxt "HelpPage.OrganicPage"
 msgid "{LIST_OF_ORGANICS}"
-msgstr ""
+msgstr "{LIST_OF_ORGANICS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='AtmosphericPage']
 msgctxt "HelpPage.AtmosphericPage"
@@ -104,7 +104,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='AtmosphericPage']
 msgctxt "HelpPage.AtmosphericPage"
 msgid "{LIST_OF_ATMOSPHERICS}"
-msgstr ""
+msgstr "{LIST_OF_ATMOSPHERICS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='RubbishPage']
 msgctxt "HelpPage.RubbishPage"
@@ -114,7 +114,7 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='RubbishPage']
 msgctxt "HelpPage.RubbishPage"
 msgid "{LIST_OF_ELECTRONICS}"
-msgstr ""
+msgstr "{LIST_OF_ELECTRONICS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='FurniturePage']
 msgctxt "HelpPage.FurniturePage"
@@ -124,7 +124,7 @@ msgstr "Möbel"
 #: /Language/HelpPage/StationpediaPage[Key='FurniturePage']
 msgctxt "HelpPage.FurniturePage"
 msgid "{LIST_OF_FURNITURES}"
-msgstr ""
+msgstr "{LIST_OF_FURNITURES}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LorePage']
 msgctxt "HelpPage.LorePage"
@@ -134,7 +134,7 @@ msgstr "Fraktionen"
 #: /Language/HelpPage/StationpediaPage[Key='LorePage']
 msgctxt "HelpPage.LorePage"
 msgid "{LIST_OF_FACTIONS}"
-msgstr ""
+msgstr "{LIST_OF_FACTIONS}"
 
 #: /Language/HelpPage/StationpediaPage[Key='FabricatorPage']
 msgctxt "HelpPage.FabricatorPage"
@@ -277,7 +277,6 @@ msgid "Reagents"
 msgstr "Reagenzien"
 
 #: /Language/HelpPage/StationpediaPage[Key='ReagentPage']
-#, fuzzy
 msgctxt "HelpPage.ReagentPage"
 msgid ""
 "These are chemical quantities of certain types. \n"
@@ -403,7 +402,6 @@ msgid "Gases"
 msgstr "Gase"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPage']
-#, fuzzy
 msgctxt "HelpPage.GasPage"
 msgid ""
 "These are chemical gases of certain types.{LIST_OF_GASES}\n"
@@ -441,6 +439,10 @@ msgid ""
 "{LIST_OF_INGOTS}\n"
 "      "
 msgstr ""
+"Diese Gegenstände entstehen typischerweise beim {LINK:SmeltingPage;Schmelzen} von {LINK:OrePage;Erzen} zur Verwendung in einem {LINK:FabricatorPage;Fertiger}.\n"
+"\n"
+"{LIST_OF_INGOTS}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='ToolPage']
 msgctxt "HelpPage.ToolPage"
@@ -778,43 +780,34 @@ msgid "{0}"
 msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorsHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.CreatorsHeaderTemplate"
 msgid "{LIST}{0}{/LIST}"
-msgstr "{HEADER:Hergestellt durch}{LIST}{0}{/LIST}"
+msgstr "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedByHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.ConstructedByHeaderTemplate"
 msgid ""
 "\n"
 "{LIST}{0}{/LIST}"
-msgstr ""
-"{HEADER:Hergestellt durch}\n"
-"{LIST}{0}{/LIST}"
+msgstr "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatedHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.CreatedHeaderTemplate"
 msgid ""
 "\n"
 "{LIST}{0}{/LIST}"
-msgstr ""
-"{HEADER:Kann Herstellen}\n"
-"{LIST}{0}{/LIST}"
+msgstr "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ConstructedHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.ConstructedHeaderTemplate"
 msgid ""
 "\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
-"{HEADER:Kann Herstellen}\n"
+"\n"
 "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='LogicTransmitHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.LogicTransmitHeaderTemplate"
 msgid ""
 "\n"
@@ -822,8 +815,10 @@ msgid ""
 "        {LIST}{0}{/LIST}\n"
 "      "
 msgstr ""
-"{HEADER:Hergestellt durch}\n"
-"{LIST}{0}{/LIST}"
+"\n"
+"        \n"
+"        {LIST}{0}{/LIST}\n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='TierListHeaderTemplate']
 msgctxt "HelpPage.TierListHeaderTemplate"
