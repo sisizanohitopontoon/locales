@@ -10,10 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Condições de Inicio"
+#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
+msgctxt "Interface.SettingsTitleGameSettings"
+msgid "Game Settings"
+msgstr "Definições do jogo"
 
 #: /Language/Interface/Record[Key='SafetyCategory']
 msgctxt "Interface.SafetyCategory"
@@ -223,15 +223,15 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Mundos Gravados"
 
-#: /Language/Interface/Record[Key='LogicTypeVolume']
-msgctxt "Interface.LogicTypeVolume"
-msgid "Returns the device atmosphere volume"
-msgstr "Devolve o volume atmosférico do dispositivo"
-
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Gravado:"
+
+#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
+msgctxt "Interface.LogicTypePowerGeneration"
+msgid "Returns how much power is being generated"
+msgstr "Devolve quanta energia está a ser gerada"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
@@ -351,7 +351,7 @@ msgstr "Loulan"
 #: /Language/Interface/Record[Key='LoulanShortDesc']
 #, fuzzy
 msgctxt "Interface.LoulanShortDesc"
-msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
+msgid "Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of {GAS:Water}, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert."
 msgstr "Loulan, ao chegar notará uma atmosfera respirável, alta o suficiente para sustentar vida - mas uma severa falta desta. Este gigante de areia está situado no sistema Gargantuan, movendo-se cada dia mais perto para o buraco negro situado no centro. Mesmo abandonado e não mais verde ou cheio de água, este planeta ainda tem uma atmosfera funcional, sendo a sua tarefa a busca de materiais e recursos por este terreno abandonado, de forma a sobreviver neste deserto infinito."
 
 #: /Language/Interface/Record[Key='NewWorldAreaVenus']
@@ -705,6 +705,11 @@ msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "Contagem de Pixel Light"
 
+#: /Language/Interface/Record[Key='PersonalSuits']
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "Fato"
+
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
@@ -714,12 +719,6 @@ msgstr "Sombras"
 msgctxt "Interface.SettingsShadowResolution"
 msgid "Shadow Resolution"
 msgstr "Qualidade das Sombras"
-
-#: /Language/Interface/Record[Key='LightCategory']
-#, fuzzy
-msgctxt "Interface.LightCategory"
-msgid "Lights"
-msgstr "Brilho"
 
 #: /Language/Interface/Record[Key='SettingsWeatherQuality']
 #, fuzzy
@@ -1008,8 +1007,9 @@ msgid "Invert Mouse"
 msgstr "Inverter Rato"
 
 #: /Language/Interface/Record[Key='MothershipConstruction']
+#, fuzzy
 msgctxt "Interface.MothershipConstruction"
-msgid "<color=yellow>Constructing on Mothership</color>."
+msgid "<color=yellow>Constructing on Mothership."
 msgstr "<color=yellow>Construindo na Nave Mãe</color>."
 
 #: /Language/Interface/Record[Key='MulticonstructorItem']
@@ -1017,8 +1017,8 @@ msgstr "<color=yellow>Construindo na Nave Mãe</color>."
 msgctxt "Interface.MulticonstructorItem"
 msgid ""
 "\n"
-"        <color=yellow>Constructing option {0} of {1}</color>\n"
-"        Scroll <color=red>Mouse Wheel</color> for more options.\n"
+"        <color=yellow>Constructing option {0} of {1}\n"
+"        Scroll <color=red>Mouse Wheel for more options.\n"
 "      "
 msgstr ""
 "\n"
@@ -1027,8 +1027,9 @@ msgstr ""
 "      "
 
 #: /Language/Interface/Record[Key='UnableToConstruct']
+#, fuzzy
 msgctxt "Interface.UnableToConstruct"
-msgid "<color=red>Unable to Construct</color>."
+msgid "<color=red>Unable to Construct."
 msgstr "<color=red>Incapaz de Construir</color>."
 
 #: /Language/Interface/Record[Key='PortableConnectionFailure']
@@ -1383,15 +1384,15 @@ msgctxt "Interface.AlertInvalidPort"
 msgid "Port values must be between 0 and 65535."
 msgstr "Os valores da Porta devem ser entre 0 e 65535."
 
+#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
+msgctxt "Interface.AlertCannotUpdatePort"
+msgid "Cannot modify Update Port while server is running."
+msgstr "Não é possível modificar a Porta de Atualização enquanto o servidor está ativo."
+
 #: /Language/Interface/Record[Key='AlertBlankSaveName']
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Deves inserir um nome de mundo a gravar."
-
-#: /Language/Interface/Record[Key='AlertTitleAttention']
-msgctxt "Interface.AlertTitleAttention"
-msgid "Attention"
-msgstr "Atenção"
 
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
@@ -1399,8 +1400,9 @@ msgid "Please Wait..."
 msgstr "Por favor, aguarde..."
 
 #: /Language/Interface/Record[Key='TooltipNeedMoreKit']
+#, fuzzy
 msgctxt "Interface.TooltipNeedMoreKit"
-msgid "<color=red>Need more {0}</color>."
+msgid "<color=red>Need more {0}."
 msgstr "<color=red>Preciso mais de {0}</color>."
 
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
@@ -1518,6 +1520,11 @@ msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Cor dos Olhos"
 
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Cor da Pele"
+
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
 msgid "Walls and Floors"
@@ -1534,6 +1541,12 @@ msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
 msgstr "Cópias de Segurança"
 
+#: /Language/Interface/Record[Key='LightCategory']
+#, fuzzy
+msgctxt "Interface.LightCategory"
+msgid "Lights"
+msgstr "Brilho"
+
 #: /Language/Interface/Record[Key='CableCategory']
 msgctxt "Interface.CableCategory"
 msgid "Cables and Analyzers"
@@ -1543,11 +1556,6 @@ msgstr ""
 msgctxt "Interface.BatteryCategory"
 msgid "Power Storage"
 msgstr ""
-
-#: /Language/Interface/Record[Key='PersonalSuits']
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "Fato"
 
 #: /Language/Interface/Record[Key='ChairTableCategory']
 msgctxt "Interface.ChairTableCategory"
@@ -1604,19 +1612,19 @@ msgstr ""
 #: /Language/Interface/Record[Key='MoleWaterDescription']
 msgctxt "Interface.MoleWaterDescription"
 msgid ""
-"You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}, or by combusting volatiles and oxygen using the {THING:H2Combustor}.\n"
+"You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}, or by combusting {GAS:Volatiles} and oxygen using the {THING:H2Combustor}.\n"
 "      \n"
-"Water is critical for <color=#0080FFFF>{LINK:OrganicPage;plants}</color> to stay alive, and grow <color=#0080FFFF>{LINK:NutritionPage;food}</color>. It is also an exceptional coolant with a very high specific heat capacity.\n"
+"{GAS:Water} is critical for {LINK:OrganicPage;plants} to stay alive, and grow {LINK:NutritionPage;food}. It is also an exceptional coolant with a very high specific heat capacity.\n"
 "\n"
-"Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.\n"
+"Note: {GAS:Water} was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. {GAS:Water} is currently the only available liquid, and does not presently change states.\n"
 msgstr ""
 
 #: /Language/Interface/Record[Key='MolePollutantDescription']
 msgctxt "Interface.MolePollutantDescription"
 msgid ""
-"Also known as 'X', pollutants are created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere.\n"
+"Also known as 'X', {GAS:Pollutant} is created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere.\n"
 "      \n"
-"Pollutant has a high specific heat, making it an excellent coolant."
+"Pollutant has a high specific heat, making it an excellent coolant. Unfortunately it is extremely bad for organic beings, and will severely damage the lungs of most {REAGENT:Carbon} based organisms."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
@@ -1624,33 +1632,33 @@ msgctxt "Interface.MoleVolatilesDescription"
 msgid ""
 "Volatiles are an extremely reactive, complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is refined from {THING:ItemVolatiles}.\n"
 "      \n"
-"Due to obscure and largely forgotten <color=#0080FFFF>{LINK:ODA;ODA}</color> regulations, volatiles are sometimes labelled 'H2' by various items of technology. However, though they are similar to hydrogen, they're not 'actually' hydrogen. Volatiles will not produce water when combusted, without a catalyst (see the {THING:H2Combustor}). Alone, they create pollutants and carbon dioxide when burned in the following ratio:\n"
+"Due to obscure and largely forgotten {LINK:ODA;ODA} regulations, volatiles are sometimes labelled 'H2' by various items of technology. However, though they are similar to hydrogen, they're not 'actually' hydrogen. {GAS:Volatiles} will not produce {GAS:Water} when combusted, without a catalyst (see the {THING:H2Combustor}). Alone, they create {GAS:Pollutant}s and {GAS:CarbonDioxide} when burned in the following ratio:\n"
 "      \n"
-"2 Volatiles + 1 O2 -> 3X + 6CO2 + heat."
+"2 {GAS:Volatiles} + 1 {GAS:Oxygen} -> 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + heat."
 msgstr ""
-
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Cor da Pele"
 
 #: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
 msgctxt "Interface.MoleCarbonDioxideDescription"
 msgid ""
-"You breathe it out, <color=#0080FFFF>{LINK:OrganicPage;plants}</color> breath it in. They don't grow without it.\n"
+"You breathe it out, {LINK:OrganicPage;plants} breath it in. They don't grow without it. You can use items placed in {SLOT:GasFilter} slots to remove this from the atmosphere.\n"
 "      \n"
-"Carbon dioxide has a moderately high specific heat, meaning it makes a good coolant for devices like the Wall Coo\n"
-"{THING:StructureWallCooler}. Water is better, but usually has more important uses."
+"{GAS:CarbonDioxide} has a moderately high specific heat, meaning it makes a good coolant for devices like the Wall Coo\n"
+"{THING:StructureWallCooler}. {GAS:Water} is better, but usually has more important uses."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MoleNitrogenDescription']
 msgctxt "Interface.MoleNitrogenDescription"
-msgid "Nitrogen can be mixed with oxygen to stablize its flammability, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 Nitrogen and Oxygen)."
+msgid "{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stablize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System."
 msgstr ""
+
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "Pêlos Faciais"
 
 #: /Language/Interface/Record[Key='MoleOxygenDescription']
 msgctxt "Interface.MoleOxygenDescription"
-msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create water. It is created by <color=#0080FFFF>{LINK:OrganicPage;plants}</color>, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
+msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaNutrition']
@@ -1729,6 +1737,16 @@ msgstr "Volume Geral"
 #: /Language/Interface/Record[Key='Pitch']
 msgctxt "Interface.Pitch"
 msgid "Pitch"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeWorkingGasEfficiency']
+msgctxt "Interface.LogicTypeWorkingGasEfficiency"
+msgid "The Working Gas Efficiency reported by the machine, as a float between 0 and 1"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeEnvironmentEfficiency']
+msgctxt "Interface.LogicTypeEnvironmentEfficiency"
+msgid "The Environment Efficiency reported by the machine, as a float between 0 and 1"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeBpm']
@@ -2257,7 +2275,7 @@ msgstr ""
 msgctxt "Interface.StationeersDesc"
 msgid ""
 "In the early 22nd century, Earth was emerging from a cataclysm. Its resources eroded, our population reduced, rebuilding was the spirit of the era.\n"
-"Initiated by the <color=#0080FFFF>{LINK:ODA;Offworld Development Agency}</color> (ODA) in 2095CE, the Stationeers Program was dedicated to a single ideal: keeping humanity pointed at the stars.\n"
+"Initiated by the {LINK:ODA;Offworld Development Agency} (ODA) in 2095CE, the Stationeers Program was dedicated to a single ideal: keeping humanity pointed at the stars.\n"
 "Stationeers are everything: astronauts, engineers and explorers, deployed with limited equipment and tools, trained to do more with less. Turning the environment to their advantage, their job is to provide infrastructure for humans in space, at a fraction of the cost of traditional space programs.\n"
 "Able to build and maintain bases anywhere from the Moon to Mimas and beyond, Stationeers are our vanguard in the cosmos. Schooled in offworld survival, mining and construction techniques, basic metallurgy, electronics, rocketry, hydroponics and more ‘arcane’ sciences, Stationeers do what they must to survive, and thrive.\n"
 "Renowned for having no entry criteria, there is no such thing as a ‘typical’ Stationeer. Psychological profiling suggests successful Cadets show a ‘baseline’ pragmatism and single-mindedness, but some of the most famous Stationeers possess neither of these qualities.\n"
@@ -2290,7 +2308,7 @@ msgstr ""
 msgctxt "Interface.TKDesc"
 msgid ""
 "Originally a defense contractor specializing in brute force, high power weaponry, Tanzanian Kinetic Systems executed a large-scale, peace-time pivot to become the African Assembly’s leading designer of high-speed goods conveyors.\n"
-"Now producing a range of chute network designs and components, TK has a strong offworld presence as a result of the Afro-Sino partnerships in the latter 21st Century. Based in the ‘reconned’ Kigamboni district of Dar E Salaam, the Company regularly enters into development partnerships with <color=#0080FFFF>{LINK:CHAC;CHAC}</color> and, as a result, many of their products show distinct similarities.\n"
+"Now producing a range of chute network designs and components, TK has a strong offworld presence as a result of the Afro-Sino partnerships in the latter 21st Century. Based in the ‘reconned’ Kigamboni district of Dar E Salaam, the Company regularly enters into development partnerships with {LINK:CHAC;CHAC} and, as a result, many of their products show distinct similarities.\n"
 "        After all, what is a gun but a ‘high speed goods conveyor’.\n"
 "      "
 msgstr ""
@@ -2304,9 +2322,9 @@ msgstr "K"
 #: /Language/Interface/Record[Key='SinotaiDesc']
 msgctxt "Interface.SinotaiDesc"
 msgid ""
-"The sole 'traditional' state entity to survive offworld politics, Sinotai’s reach and power is second only to the <color=#0080FFFF>{LINK:ODA;ODA}</color> itself. In many ways a relic – a sub-agency of a staggeringly complicated Earth-bound corporate-bureaucracy – its structure has allowed Sinotai to achieve incredible things.\n"
+"The sole 'traditional' state entity to survive offworld politics, Sinotai’s reach and power is second only to the {LINK:ODA;ODA} itself. In many ways a relic – a sub-agency of a staggeringly complicated Earth-bound corporate-bureaucracy – its structure has allowed Sinotai to achieve incredible things.\n"
 "Proving its mettle in the early 21st Century by putting the first humans on Mars, establishing the first offworld gigawatt power system, and the first space-borne fuel refinery, few space-going organisations lack some degree of relationship with Sinotai. A common joke has it that it's impossible to do anything in space without them.\n"
-"Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with <color=#0080FFFF>{LINK:Recurso;Recurso}</color> (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.\n"
+"Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with {LINK:Recurso;Recurso} (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.\n"
 "      "
 msgstr ""
 
@@ -2320,7 +2338,7 @@ msgctxt "Interface.RecursoDesc"
 msgid ""
 "This long-standing Brazilian mining group branched into space in the late 21st century.\n"
 "Focused primarily on bulk minerals and metals, the company is perhaps best understood as an extension of the Brazilian government – very few upper echelon political figures in modern Brazil are not implicated in one arm or another of this industrial behemoth.\n"
-"Enmeshment with South American politics has given the company heavy influence over the Manaus space elevator. This deep state control has led to other groups – the <color=#0080FFFF>{LINK:ODA;ODA}</color> included – to exercise a certain ‘flexibility’ toward Recurso.\n"
+"Enmeshment with South American politics has given the company heavy influence over the Manaus space elevator. This deep state control has led to other groups – the {LINK:ODA;ODA} included – to exercise a certain ‘flexibility’ toward Recurso.\n"
 "Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'\n"
 "      "
 msgstr ""
@@ -2336,7 +2354,7 @@ msgid ""
 "\n"
 "        In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.\n"
 "Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. \n"
-"It inaugurated the <color=#0080FFFF>{LINK:Stationeers;Stationeer}</color> Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.\n"
+"It inaugurated the {LINK:Stationeers;Stationeer] Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.\n"
 "      "
 msgstr ""
 
@@ -2349,8 +2367,8 @@ msgstr ""
 msgctxt "Interface.NorsecDesc"
 msgid ""
 "With its roots in early 20th Century defense industry, Norsec (a.k.a. Northern Security Systems) was an early adopter of asteroid mining – one of its tugs being involved in the infamous Sisyphus Hit on the fledgling Martian colony at Sanders.\n"
-"Norsec was officially cleared of any wrong-doing, but when the <color=#0080FFFF>{LINK:ODA;ODA}</color> banned asteroidal relocation, the company shifted its focus to infrastructure and manufacturing.\n"
-"Norsec’s orbitally-based Space Systems Division is responsible for the design and production of <color=#0080FFFF>{LINK:ODA;ODA}</color>’s core transport systems, while also being rumoured to hold a large interest in <color=#0080FFFF>{LINK:ExMin;ExMin}</color>. The company is also noted for its willingness to engage in experimental robotic technology.\n"
+"Norsec was officially cleared of any wrong-doing, but when the {LINK:ODA;ODA} banned asteroidal relocation, the company shifted its focus to infrastructure and manufacturing.\n"
+"Norsec’s orbitally-based Space Systems Division is responsible for the design and production of {LINK:ODA;ODA}’s core transport systems, while also being rumoured to hold a large interest in {LINK:ExMin;ExMin}. The company is also noted for its willingness to engage in experimental robotic technology.\n"
 "      "
 msgstr ""
 
@@ -2389,9 +2407,9 @@ msgstr ""
 #: /Language/Interface/Record[Key='ExMinDesc']
 msgctxt "Interface.ExMinDesc"
 msgid ""
-"In the aftermath of the Sisyphus disaster on Mars in 2079, asteroid shifting was officially banned by the <color=#0080FFFF>{LINK:ODA;ODA}</color>. This sea-change forced the newborn space mining industry to reconsider its strategies, but until the opening of the Manaus Space Elevator, marginal economics meant offworld resource extraction was effectively impossible.\n"
+"In the aftermath of the Sisyphus disaster on Mars in 2079, asteroid shifting was officially banned by the {LINK:ODA;ODA}. This sea-change forced the newborn space mining industry to reconsider its strategies, but until the opening of the Manaus Space Elevator, marginal economics meant offworld resource extraction was effectively impossible.\n"
 "Formed in 2095 by a long-standing Swiss-German mining conglomerate and a consortium of other interests, ExMin was more an idea than a commercial reality for several decades. Created with the certainty that a space elevator would eventually arrive, ExMin was one of the first to exploit the access it offered. Subsequently it has become one of the Solar System's most powerful commercial entities.\n"
-"With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant <color=#0080FFFF>{LINK:Recurso;Recurso}</color>, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.\n"
+"With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant {LINK:Recurso;Recurso}, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.\n"
 "      "
 msgstr ""
 
@@ -2403,7 +2421,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='CHACDesc']
 msgctxt "Interface.CHACDesc"
 msgid ""
-"Founded in 2085 to produce weapons for <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color>'s space forces, the company is known for making highly reliable and affordable weapons for off-world use.\n"
+"Founded in 2085 to produce weapons for {LINK:Sinotai;Sinotai}'s space forces, the company is known for making highly reliable and affordable weapons for off-world use.\n"
 "Their pragmatic approach is reflected in their focus on designs suitable for 3D printing and mass production, as well as a high reuse of components across models and weapon classes.\n"
 "As a result, although CHAC guns excel in no particular category, and have certainly never been accused of gretness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'.\n"
 "      "
@@ -2434,7 +2452,7 @@ msgctxt "Interface.AgrizeroDesc"
 msgid ""
 "Agrizero is an agricultural biotech firm focused on researching and deploying offworld farming technology. The company’s aim is to provide a network of self-sustaining, self-contained 'bio-factories' that will ultimately feed a projected 1 million humans in space.\n"
 "Emerging from the late 21st century's environmental disasters, the firm has roots in China's world-saving artificial farming initiatives, and has now spread to facilities in the Asteroid Belt, where the supply of ice asteroids makes vertical farming and controlled-environment agriculture extremely promising.\n"
-"While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like <color=#0080FFFF>{LINK:ODA;ODA}</color>, <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color> and <color=#0080FFFF>{LINK:ExMin;ExMin}</color> through the ever-expanding Trader Network.\n"
+"While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} and {LINK:ExMin;ExMin} through the ever-expanding Trader Network.\n"
 "      "
 msgstr ""
 
@@ -2726,7 +2744,7 @@ msgstr ""
 
 #: /Language/Interface/Record[Key='PressEnterToContinue']
 msgctxt "Interface.PressEnterToContinue"
-msgid "Press <color=#FBB03B>Space</color> to Continue"
+msgid "Press Space to Continue"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SiloDeconstruct']
@@ -4100,6 +4118,11 @@ msgctxt "Interface.ElectronicReaderVolatiles"
 msgid "Volatiles"
 msgstr "Voláteis"
 
+#: /Language/Interface/Record[Key='ElectronicReaderNitrice']
+msgctxt "Interface.ElectronicReaderNitrice"
+msgid "Nitrice"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ElectronicReaderOxite']
 msgctxt "Interface.ElectronicReaderOxite"
 msgid "Oxite"
@@ -4950,20 +4973,20 @@ msgctxt "Interface.LogicTypePlant"
 msgid "Performs the planting action for any plant based machinery"
 msgstr "Executa a ação de plantação nas máquinas de plantas"
 
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "Pêlos Faciais"
+#: /Language/Interface/Record[Key='LogicTypeVolume']
+msgctxt "Interface.LogicTypeVolume"
+msgid "Returns the device atmosphere volume"
+msgstr "Devolve o volume atmosférico do dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMoles']
 msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
 msgstr "Devolve o total de moles do dispositivo"
 
-#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
-msgctxt "Interface.LogicTypePowerGeneration"
-msgid "Returns how much power is being generated"
-msgstr "Devolve quanta energia está a ser gerada"
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Condições de Inicio"
 
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
@@ -5100,7 +5123,7 @@ msgstr "Velocidade atual do elevador"
 msgctxt "Interface.LogicTypeColor"
 msgid ""
 "\n"
-"        Whether driven by concerns for clarity, safety or simple aesthetics, <color=#0080FFFF>{LINK:Stationeers;Stationeers}</color> have access to a small rainbow of colors for their constructions. These are the color setting for devices, represented as an integer.\n"
+"        Whether driven by concerns for clarity, safety or simple aesthetics, {LINK:Stationeers;Stationeers} have access to a small rainbow of colors for their constructions. These are the color setting for devices, represented as an integer.\n"
 "\n"
 "0: Blue\n"
 "1: Grey\n"
@@ -5115,7 +5138,7 @@ msgid ""
 "10: Pink\n"
 "11: Purple\n"
 "\n"
-"        It is an unwavering universal law that anything higher than 11 will be purple. The <color=#0080FFFF>{LINK:ODA;ODA}</color> is powerless to change this. Similarly, anything lower than 0 will be Blue.\n"
+"        It is an unwavering universal law that anything higher than 11 will be purple. The {LINK:ODA;ODA} is powerless to change this. Similarly, anything lower than 0 will be Blue.\n"
 "      "
 msgstr ""
 
@@ -5215,8 +5238,9 @@ msgid "The assess atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 i
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxide']
+#, fuzzy
 msgctxt "Interface.LogicTypeRatioNitrousOxide"
-msgid "The ratio of nitrous oxide in device atmosphere"
+msgid "The ratio of {GAS:NitrousOxide} in device atmosphere"
 msgstr "A proporção de óxido nitroso na atmosfera do dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioWater']
@@ -5240,8 +5264,9 @@ msgid "The ratio of nitrogen in device atmosphere"
 msgstr "A proporção de nitrogénio na atmosfera do dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
+#, fuzzy
 msgctxt "Interface.LogicTypeRatioCarbonDioxide"
-msgid "The ratio of co2 in device atmosphere"
+msgid "The ratio of {GAS:CarbonDioxide} in device atmosphere"
 msgstr "A proporção de CO2 na atmosfera do dispositivo"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioOxygen']
@@ -5642,31 +5667,31 @@ msgstr "Interação temporariamente desativada neste objeto"
 #: /Language/Interface/Record[Key='ChangeSettingToForAll']
 #, fuzzy
 msgctxt "Interface.ChangeSettingToForAll"
-msgid "Cycle to <color=yellow>{0}</color>>for all {1}"
+msgid "Cycle to <color=yellow>{0}>for all {1}"
 msgstr "Mudar para <color=yellow>{0}</color> para todos {1}"
 
 #: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
 #, fuzzy
 msgctxt "Interface.ChangeSlotSettingToFor"
-msgid "Cycle to {1}<color=yellow>({0})</color> for {2}"
+msgid "Cycle to {1}<color=yellow>({0}) for {2}"
 msgstr "Mudar para {1}<color=yellow>({0})</color> por {2}"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
 #, fuzzy
 msgctxt "Interface.ChangeReagentSettingTo"
-msgid "Cycle to {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
+msgid "Cycle to {2}.<color=yellow>{0}.<color=yellow>{1}"
 msgstr "Mudar para {2}.<color=yellow>{0}</color>.<color=yellow>{1}</color>"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
 #, fuzzy
 msgctxt "Interface.ChangeSettingToForIn"
-msgid "Cycle to <color=yellow>{0}</color> for {3} <color=yellow>({2})</color> in {1}"
+msgid "Cycle to <color=yellow>{0} for {3} <color=yellow>({2}) in {1}"
 msgstr "Mudar para <color=yellow>{0}</color> por {3} <color=yellow>({2})</color> in {1}"
 
 #: /Language/Interface/Record[Key='ChangeSettingToFor']
 #, fuzzy
 msgctxt "Interface.ChangeSettingToFor"
-msgid "Cycle to <color=yellow>{0}</color> for {1}"
+msgid "Cycle to <color=yellow>{0} for {1}"
 msgstr "Mudar para <color=yellow>{0}</color> por {1}"
 
 #: /Language/Interface/Record[Key='HoldForPreviousObject']
@@ -5712,13 +5737,15 @@ msgid "No additional slots for {0}"
 msgstr "Nenhum compartimento adicional para {0}"
 
 #: /Language/Interface/Record[Key='LogicNoAvailableSlots']
+#, fuzzy
 msgctxt "Interface.LogicNoAvailableSlots"
-msgid "<color=red>No available slots</color>"
+msgid "<color=red>No available slots"
 msgstr "<color=red>Sem compartimentos adicionais</color>"
 
 #: /Language/Interface/Record[Key='LogicNoSlot']
+#, fuzzy
 msgctxt "Interface.LogicNoSlot"
-msgid "<color=red>No Slot</color>"
+msgid "<color=red>No Slot"
 msgstr "<color=red>Sem compartimento</color>"
 
 #: /Language/Interface/Record[Key='LogicNoAdditionalSettingsFor']
@@ -5739,7 +5766,7 @@ msgstr "Sem Dispositivo"
 #: /Language/Interface/Record[Key='LogicState']
 #, fuzzy
 msgctxt "Interface.LogicState"
-msgid "State <color=green>#VAR1#</color>"
+msgid "State <color=green>#VAR1#"
 msgstr "Estado {COLORGREEN:#VAR1#}"
 
 #: /Language/Interface/Record[Key='FurnaceSmelting']
@@ -5852,7 +5879,7 @@ msgctxt "Interface.NewWorldSpaceDesc"
 msgid ""
 "\n"
 "        This is Stationeers Creative Mode!Spawn in any item, test ideas and build bonkers stuff real fast.\n"
-"                                              <color=red>This mode is experimental.</color> Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.\n"
+"                                              <color=red>This mode is experimental. Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.\n"
 "                                              Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.\n"
 "        *bugs\n"
 "      "
@@ -6014,15 +6041,14 @@ msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger/Hydration Rate"
 msgstr "Taxa de fome"
 
-#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
-msgctxt "Interface.SettingsTitleGameSettings"
-msgid "Game Settings"
-msgstr "Definições do jogo"
+#: /Language/Interface/Record[Key='AlertTitleAttention']
+msgctxt "Interface.AlertTitleAttention"
+msgid "Attention"
+msgstr "Atenção"
 
-#: /Language/Interface/Record[Key='AlertCannotUpdatePort']
-msgctxt "Interface.AlertCannotUpdatePort"
-msgid "Cannot modify Update Port while server is running."
-msgstr "Não é possível modificar a Porta de Atualização enquanto o servidor está ativo."
+#~ msgctxt "Interface.LogicTypeRatioCarbonDioxide"
+#~ msgid "The ratio of co2 in device atmosphere"
+#~ msgstr "A proporção de CO2 na atmosfera do dispositivo"
 
 #~ msgctxt "Interface.LogicState"
 #~ msgid "State {COLORGREEN:#VAR1#}"
