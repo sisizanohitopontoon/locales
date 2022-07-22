@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-16 08:04+0000\n"
-"Last-Translator: pionnermegs <meriadeg.morel@laposte.net>\n"
+"PO-Revision-Date: 2022-07-22 11:59+0000\n"
+"Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -3473,32 +3473,32 @@ msgstr "Saute à la ligne c si abs(a) <= float.epsilon * 8"
 #: /Language/Interface/Record[Key='ScriptCommandBnez']
 msgctxt "Interface.ScriptCommandBnez"
 msgid "branch to line b if a != 0"
-msgstr "Saute à la ligne b si a != 0"
+msgstr "Saute à la ligne [ b ] si [ a ] != 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandBeqz']
 msgctxt "Interface.ScriptCommandBeqz"
 msgid "Branch to line b if a == 0"
-msgstr "Saute à la ligne b si a == 0"
+msgstr "Saute à la ligne [ b ] si [ a ] == 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandBgtz']
 msgctxt "Interface.ScriptCommandBgtz"
 msgid "Branch to line b if a > 0"
-msgstr "Saute à la ligne b si a > 0"
+msgstr "Saute à la ligne [ b ] si [ a ] > 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandBlez']
 msgctxt "Interface.ScriptCommandBlez"
 msgid "Branch to line b if a <= 0"
-msgstr "Saute à la ligne b si a <= 0"
+msgstr "Saute à la ligne [ b ] si [ a ] <= 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandBgez']
 msgctxt "Interface.ScriptCommandBgez"
 msgid "Branch to line b if a >= 0"
-msgstr "Saute à la ligne b si a >= 0"
+msgstr "Saute à la ligne [ b ] si [ a ] >= 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandBltz']
 msgctxt "Interface.ScriptCommandBltz"
 msgid "Branch to line b if a < 0"
-msgstr "Saute à la ligne b si a < 0"
+msgstr "Saute à la ligne [ b ] si [ a ] < 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandBna']
 msgctxt "Interface.ScriptCommandBna"
@@ -3513,22 +3513,22 @@ msgstr "Saute à la ligne d si abs(a - b) <= max(c * max(abs(a), abs(b)), float.
 #: /Language/Interface/Record[Key='ScriptCommandBne']
 msgctxt "Interface.ScriptCommandBne"
 msgid "Branch to line c if a != b"
-msgstr "Saute à la ligne c si a != b"
+msgstr "Saute à la ligne [ c ] si [ a ] != [ b ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandBeq']
 msgctxt "Interface.ScriptCommandBeq"
 msgid "Branch to line c if a == b"
-msgstr "Saute à la ligne c si a == b"
+msgstr "Saute à la ligne [ c ] si [ a ] == [ b ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandBge']
 msgctxt "Interface.ScriptCommandBge"
 msgid "Branch to line c if a >= b"
-msgstr "Saute à la ligne c si a >= b"
+msgstr "Saute à la ligne [ c ] si [ a ] >= [ b ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandBle']
 msgctxt "Interface.ScriptCommandBle"
 msgid "Branch to line c if a <= b"
-msgstr "Saute à la ligne c si a <= b"
+msgstr "Saute à la ligne [ c ] si [ a ] <= [ b ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandBgt']
 msgctxt "Interface.ScriptCommandBgt"
@@ -3538,17 +3538,17 @@ msgstr "Saute à la ligne c si a > b"
 #: /Language/Interface/Record[Key='ScriptCommandBlt']
 msgctxt "Interface.ScriptCommandBlt"
 msgid "Branch to line c if a < b"
-msgstr "Saute à la ligne c si a < b"
+msgstr "Saute à la ligne [ c ] si [ a ] < [ b ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandBdns']
 msgctxt "Interface.ScriptCommandBdns"
 msgid "Branch to line a if device d isn't set"
-msgstr "Saute à la ligne a si le dispositif n'est pas configuré"
+msgstr "Saute à la ligne [ a ] si le dispositif [ d? ] n'est pas configuré"
 
 #: /Language/Interface/Record[Key='ScriptCommandBdse']
 msgctxt "Interface.ScriptCommandBdse"
 msgid "Branch to line a if device d is set"
-msgstr "Saute à la ligne a si le dispositif est configuré"
+msgstr "Saute à la ligne [ a ] si le dispositif [ d? ] est configuré"
 
 #: /Language/Interface/Record[Key='ScriptCommandJ']
 msgctxt "Interface.ScriptCommandJ"
