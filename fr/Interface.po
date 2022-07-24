@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-24 08:29+0000\n"
+"PO-Revision-Date: 2022-07-24 08:32+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1395,10 +1395,9 @@ msgid "Please Wait..."
 msgstr "Merci de patienter..."
 
 #: /Language/Interface/Record[Key='TooltipNeedMoreKit']
-#, fuzzy
 msgctxt "Interface.TooltipNeedMoreKit"
 msgid "<color=red>Need more {0}."
-msgstr "<color=red>Besoin plus de : {0}</color>."
+msgstr "<color=red>Pas assez de : {0}."
 
 #: /Language/Interface/Record[Key='JoinMenuSearchPlaceholder']
 msgctxt "Interface.JoinMenuSearchPlaceholder"
@@ -3247,12 +3246,12 @@ msgstr "Stocke la plus grande des valeurs [ a ] et [ b ] dans le registre"
 #: /Language/Interface/Record[Key='ScriptCommandFloor']
 msgctxt "Interface.ScriptCommandFloor"
 msgid "Register = largest integer less than a"
-msgstr "Stocke le plus grand entier inférieur à [ a ] dans le registre"
+msgstr "Stocke l'entier immédiatement inférieur à [ a ] dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandCeil']
 msgctxt "Interface.ScriptCommandCeil"
 msgid "Register = smallest integer greater than a"
-msgstr ""
+msgstr "Stocke l'entier supérieur le plus proche de [ a ] dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandTrunc']
 msgctxt "Interface.ScriptCommandTrunc"
@@ -3322,12 +3321,12 @@ msgstr "Saute à la ligne d si abs(a - b) <= max(c * max(abs(a), abs(b)), float.
 #: /Language/Interface/Record[Key='ScriptCommandBneal']
 msgctxt "Interface.ScriptCommandBneal"
 msgid "Branch to line c if a != b and store next line number in ra"
-msgstr "Saute à la ligne c si a != b et stocke le numéro de la ligne suivante dans ra"
+msgstr "Effectue un saut à la ligne [ c ] si [ a ] != [ b ] et stocke le numéro de la ligne suivante dans le registre ra(r17)"
 
 #: /Language/Interface/Record[Key='ScriptCommandBeqal']
 msgctxt "Interface.ScriptCommandBeqal"
 msgid "Branch to line c if a == b and store next line number in ra"
-msgstr "Saute à la ligne c si a == b et stocke le numéro de la ligne suivante dans ra"
+msgstr "Effectue un saut à la ligne [ c ] si [ a ]==[ b ] et stocke le numéro de la ligne suivante dans le registre ra(r17)"
 
 #: /Language/Interface/Record[Key='ScriptCommandBgeal']
 msgctxt "Interface.ScriptCommandBgeal"
