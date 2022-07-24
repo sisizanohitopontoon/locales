@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-24 08:32+0000\n"
+"PO-Revision-Date: 2022-07-24 10:28+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3331,27 +3331,27 @@ msgstr "Effectue un saut à la ligne [ c ] si [ a ]==[ b ] et stocke le numéro 
 #: /Language/Interface/Record[Key='ScriptCommandBgeal']
 msgctxt "Interface.ScriptCommandBgeal"
 msgid "Branch to line c if a >= b and store next line number in ra"
-msgstr "Saute à la ligne c si a >= b et stocke le numéro de la ligne suivante dans ra"
+msgstr "Effectue un saut à la ligne [ c ] si [ a ] >= [ b ] et stocke le numéro de la ligne suivante dans le registre ra(r17)"
 
 #: /Language/Interface/Record[Key='ScriptCommandBleal']
 msgctxt "Interface.ScriptCommandBleal"
 msgid "Branch to line c if a <= b and store next line number in ra"
-msgstr "Saute à la ligne c si a <= b et stocke le numéro de la ligne suivante dans ra"
+msgstr "Effectue un saut à la ligne [ c ] si [ a ] <= [ b ] et stocke le numéro de la ligne suivante dans le registre ra(r17)"
 
 #: /Language/Interface/Record[Key='ScriptCommandBgtal']
 msgctxt "Interface.ScriptCommandBgtal"
 msgid "Branch to line c if a > b and store next line number in ra"
-msgstr "Saute à la ligne c si a > b et stocke le numéro de la ligne suivante dans ra"
+msgstr "Effectue un saut à la ligne [ c ] si [ a ] > [ b ] et stocke le numéro de la ligne suivante dans le registre ra(r17)"
 
 #: /Language/Interface/Record[Key='ScriptCommandBltal']
 msgctxt "Interface.ScriptCommandBltal"
 msgid "Branch to line c if a < b and store next line number in ra"
-msgstr "Saute à la ligne c si a < b et stocke le numéro de la ligne suivante dans ra"
+msgstr "Effectue un saut à la ligne [ c ] si [ a ] < [ b ] et stocke le numéro de la ligne suivante dans le registre ra(r17)"
 
 #: /Language/Interface/Record[Key='ScriptCommandBdnsal']
 msgctxt "Interface.ScriptCommandBdnsal"
 msgid "Jump execution to line a and store next line number if device is not set"
-msgstr "Sauter l'exécution à la ligne a et enregistrer le numéro de la ligne suivante si l'appareil n'est pas réglé"
+msgstr "Fait sauter l'exécution à la ligne [ a ] et enregistre le numéro de la ligne suivante en ra(r17) si le dispositif [ d? ] n'est pas initialisé."
 
 #: /Language/Interface/Record[Key='ScriptCommandBdseal']
 msgctxt "Interface.ScriptCommandBdseal"
@@ -3366,27 +3366,27 @@ msgstr "Saute à la ligne [ a ] et stocke le numéro de la ligne suivante dans [
 #: /Language/Interface/Record[Key='ScriptCommandBrnaz']
 msgctxt "Interface.ScriptCommandBrnaz"
 msgid "Relative branch to line c if abs(a) > float.epsilon * 8"
-msgstr "Fait un saut relatif de c lignes si abs(a) > float.epsilon * 8"
+msgstr "Fait un saut relatif de [ c ] lignes si abs([ a ]) > float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBrapz']
 msgctxt "Interface.ScriptCommandBrapz"
 msgid "Relative branch to line c if abs(a) <= float.epsilon * 8"
-msgstr "Fait un saut relatif de c lignes si abs(a) <= float.epsilon * 8"
+msgstr "Fait un saut relatif de [ c ] lignes si abs([ a ]) <= float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBrnez']
 msgctxt "Interface.ScriptCommandBrnez"
 msgid "Relative branch to line b if a != 0"
-msgstr "Fait un saut relatif de b lignes si a != 0"
+msgstr "Fait un saut relatif de [ c ] lignes si abs([ a ]) != float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBreqz']
 msgctxt "Interface.ScriptCommandBreqz"
 msgid "Relative branch to line b if a == 0"
-msgstr "Fait un saut relatif de b lignes si a == 0"
+msgstr "Fait un saut relatif de [ b ] lignes si [ a ] == 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandBrgtz']
 msgctxt "Interface.ScriptCommandBrgtz"
 msgid "Relative branch to line b if a > 0"
-msgstr "Fait un saut relatif de b lignes si a > 0"
+msgstr "Fait un saut relatif de [ b ] lignes si [ a ] > 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandBrlez']
 msgctxt "Interface.ScriptCommandBrlez"
