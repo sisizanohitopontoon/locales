@@ -10,10 +10,25 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
-msgctxt "Interface.SettingsTitleGameSettings"
-msgid "Game Settings"
-msgstr "游戏设定"
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "肤色"
+
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "背包"
+
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr "消耗性物资"
+
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr "墙壁和地板"
 
 #: /Language/Interface/Record[Key='SafetyCategory']
 msgctxt "Interface.SafetyCategory"
@@ -211,6 +226,11 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "退出到桌面"
 
+#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
+msgctxt "Interface.LogicTypePowerGeneration"
+msgid "Returns how much power is being generated"
+msgstr "返回发电的功率"
+
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -225,11 +245,6 @@ msgstr "保存世界"
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "保存:"
-
-#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
-msgctxt "Interface.LogicTypePowerGeneration"
-msgid "Returns how much power is being generated"
-msgstr "返回发电的功率"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
@@ -688,6 +703,11 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "粒子质量"
 
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr "门和舱门"
+
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
@@ -702,11 +722,6 @@ msgstr "体积光照"
 msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "像素光数"
-
-#: /Language/Interface/Record[Key='PersonalSuits']
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "宇航服"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -1261,8 +1276,9 @@ msgid "Publish"
 msgstr "发布"
 
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
+#, fuzzy
 msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
+msgid "Delete Entire Save"
 msgstr "删除存档"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
@@ -1367,11 +1383,6 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "服务器密码不正确."
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "端口值必须介于0到65535之间."
-
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
@@ -1381,6 +1392,11 @@ msgstr "无法在服务器运行时修改更新端口."
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "您必须输入世界名称才能保存."
+
+#: /Language/Interface/Record[Key='AlertTitleAttention']
+msgctxt "Interface.AlertTitleAttention"
+msgid "Attention"
+msgstr "注意"
 
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
@@ -1498,36 +1514,6 @@ msgctxt "Interface.AppearanceTitleHairStyle"
 msgid "Hair"
 msgstr "头发"
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "发色"
-
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "眼睛颜色"
-
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "肤色"
-
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr "墙壁和地板"
-
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr "消耗性物资"
-
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "背包"
-
 #: /Language/Interface/Record[Key='LightCategory']
 msgctxt "Interface.LightCategory"
 msgid "Lights"
@@ -1543,15 +1529,15 @@ msgctxt "Interface.BatteryCategory"
 msgid "Power Storage"
 msgstr "电力存储"
 
+#: /Language/Interface/Record[Key='PersonalSuits']
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "宇航服"
+
 #: /Language/Interface/Record[Key='ChairTableCategory']
 msgctxt "Interface.ChairTableCategory"
 msgid "Chairs"
 msgstr ""
-
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
-msgstr "门和舱门"
 
 #: /Language/Interface/Record[Key='KitCategory']
 msgctxt "Interface.KitCategory"
@@ -1571,6 +1557,22 @@ msgstr ""
 #: /Language/Interface/Record[Key='SlotKey']
 msgctxt "Interface.SlotKey"
 msgid "Slot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RespawnConditionStationeer']
+#, fuzzy
+msgctxt "Interface.RespawnConditionStationeer"
+msgid "Stationeer"
+msgstr "Stationeers"
+
+#: /Language/Interface/Record[Key='RespawnConditionNormal']
+msgctxt "Interface.RespawnConditionNormal"
+msgid "Normal"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RespawnConditionEasy']
+msgctxt "Interface.RespawnConditionEasy"
+msgid "Easy"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsStartLocalHost']
@@ -1636,10 +1638,10 @@ msgctxt "Interface.MoleNitrogenDescription"
 msgid "{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stablize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "面部毛发"
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "发色"
 
 #: /Language/Interface/Record[Key='MoleOxygenDescription']
 msgctxt "Interface.MoleOxygenDescription"
@@ -1821,16 +1823,13 @@ msgstr "教程"
 #: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
 #, fuzzy
 msgctxt "Interface.StationpediaLogicSlotHeader"
-msgid ""
-"\n"
-"        Logic Slots\n"
+msgid "Logic Slots"
 msgstr "逻辑槽位"
 
 #: /Language/Interface/Record[Key='StationpediaLogicHeader']
+#, fuzzy
 msgctxt "Interface.StationpediaLogicHeader"
-msgid ""
-"\n"
-"        Logic\n"
+msgid "Logic"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaModeHeader']
@@ -4971,10 +4970,10 @@ msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
 msgstr "返回设备的总摩尔数量"
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "启动条件"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "眼睛颜色"
 
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
@@ -6024,10 +6023,25 @@ msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger/Hydration Rate"
 msgstr "饥饿/水分"
 
-#: /Language/Interface/Record[Key='AlertTitleAttention']
-msgctxt "Interface.AlertTitleAttention"
-msgid "Attention"
-msgstr "注意"
+#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
+msgctxt "Interface.SettingsTitleGameSettings"
+msgid "Game Settings"
+msgstr "游戏设定"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "启动条件"
+
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "面部毛发"
+
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "端口值必须介于0到65535之间."
 
 #~ msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 #~ msgid "The ratio of co2 in device atmosphere"

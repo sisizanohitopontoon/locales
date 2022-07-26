@@ -10,10 +10,26 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
-msgctxt "Interface.SettingsTitleGameSettings"
-msgid "Game Settings"
-msgstr "Parametri di gioco"
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Colore pelle"
+
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+#, fuzzy
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "Backup"
+
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr ""
+
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SafetyCategory']
 msgctxt "Interface.SafetyCategory"
@@ -216,6 +232,11 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Torna al Desktop"
 
+#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
+msgctxt "Interface.LogicTypePowerGeneration"
+msgid "Returns how much power is being generated"
+msgstr "Restituisce la quantità di energia generata"
+
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -230,11 +251,6 @@ msgstr "Lista Mondi Salvati"
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Salvato il :"
-
-#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
-msgctxt "Interface.LogicTypePowerGeneration"
-msgid "Returns how much power is being generated"
-msgstr "Restituisce la quantità di energia generata"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
@@ -696,6 +712,11 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "Qualità delle particelle"
 
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
@@ -710,12 +731,6 @@ msgstr "Luci volumetriche"
 msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "Numero di pixel luce"
-
-#: /Language/Interface/Record[Key='PersonalSuits']
-#, fuzzy
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "Tuta"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -1277,8 +1292,9 @@ msgid "Publish"
 msgstr "Pubblica"
 
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
+#, fuzzy
 msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
+msgid "Delete Entire Save"
 msgstr "Cancella salvataggio"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
@@ -1383,11 +1399,6 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "Password server errata."
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "Il valore delle porte deve essere tra 0 e 65535."
-
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
@@ -1397,6 +1408,11 @@ msgstr "Impossibile aggiornare porta mentre il server è attivo."
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Devi inserire un nome per il Mondo per poter salvare."
+
+#: /Language/Interface/Record[Key='AlertTitleAttention']
+msgctxt "Interface.AlertTitleAttention"
+msgid "Attention"
+msgstr "Attenzione"
 
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
@@ -1514,37 +1530,6 @@ msgctxt "Interface.AppearanceTitleHairStyle"
 msgid "Hair"
 msgstr "Capelli"
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Colore capelli"
-
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Colore occhi"
-
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Colore pelle"
-
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr ""
-
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-#, fuzzy
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "Backup"
-
 #: /Language/Interface/Record[Key='LightCategory']
 #, fuzzy
 msgctxt "Interface.LightCategory"
@@ -1561,14 +1546,15 @@ msgctxt "Interface.BatteryCategory"
 msgid "Power Storage"
 msgstr ""
 
+#: /Language/Interface/Record[Key='PersonalSuits']
+#, fuzzy
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "Tuta"
+
 #: /Language/Interface/Record[Key='ChairTableCategory']
 msgctxt "Interface.ChairTableCategory"
 msgid "Chairs"
-msgstr ""
-
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
 msgstr ""
 
 #: /Language/Interface/Record[Key='KitCategory']
@@ -1589,6 +1575,22 @@ msgstr ""
 #: /Language/Interface/Record[Key='SlotKey']
 msgctxt "Interface.SlotKey"
 msgid "Slot"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RespawnConditionStationeer']
+#, fuzzy
+msgctxt "Interface.RespawnConditionStationeer"
+msgid "Stationeer"
+msgstr "Esci da Stationeers"
+
+#: /Language/Interface/Record[Key='RespawnConditionNormal']
+msgctxt "Interface.RespawnConditionNormal"
+msgid "Normal"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RespawnConditionEasy']
+msgctxt "Interface.RespawnConditionEasy"
+msgid "Easy"
 msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsStartLocalHost']
@@ -1654,10 +1656,10 @@ msgctxt "Interface.MoleNitrogenDescription"
 msgid "{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stablize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "Barba"
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Colore capelli"
 
 #: /Language/Interface/Record[Key='MoleOxygenDescription']
 msgctxt "Interface.MoleOxygenDescription"
@@ -1839,16 +1841,12 @@ msgstr "Tutorial"
 
 #: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
 msgctxt "Interface.StationpediaLogicSlotHeader"
-msgid ""
-"\n"
-"        Logic Slots\n"
+msgid "Logic Slots"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaLogicHeader']
 msgctxt "Interface.StationpediaLogicHeader"
-msgid ""
-"\n"
-"        Logic\n"
+msgid "Logic"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaModeHeader']
@@ -5041,10 +5039,10 @@ msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
 msgstr "Restituisce le moli totali del dispositivo"
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Condizioni di partenza"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Colore occhi"
 
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
@@ -6104,10 +6102,25 @@ msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger/Hydration Rate"
 msgstr "Tasso consumo fame"
 
-#: /Language/Interface/Record[Key='AlertTitleAttention']
-msgctxt "Interface.AlertTitleAttention"
-msgid "Attention"
-msgstr "Attenzione"
+#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
+msgctxt "Interface.SettingsTitleGameSettings"
+msgid "Game Settings"
+msgstr "Parametri di gioco"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Condizioni di partenza"
+
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "Barba"
+
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "Il valore delle porte deve essere tra 0 e 65535."
 
 #~ msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 #~ msgid "The ratio of co2 in device atmosphere"

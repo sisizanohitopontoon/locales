@@ -10,10 +10,25 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
-msgctxt "Interface.SettingsTitleGameSettings"
-msgid "Game Settings"
-msgstr "Настройки игры"
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Оттенок кожи"
+
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "Резервные копии"
+
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr "Расходники"
+
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr "Стены и полы"
 
 #: /Language/Interface/Record[Key='SafetyCategory']
 msgctxt "Interface.SafetyCategory"
@@ -211,6 +226,11 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Выйти на рабочий стол"
 
+#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
+msgctxt "Interface.LogicTypePowerGeneration"
+msgid "Returns how much power is being generated"
+msgstr "Возвращает, сколько энергии генерируется"
+
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -225,11 +245,6 @@ msgstr "Сохранённые миры"
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "Сохранено:"
-
-#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
-msgctxt "Interface.LogicTypePowerGeneration"
-msgid "Returns how much power is being generated"
-msgstr "Возвращает, сколько энергии генерируется"
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
@@ -688,6 +703,11 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "Качество частиц"
 
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr "Двери и люки"
+
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
@@ -702,11 +722,6 @@ msgstr "Объёмное освещение"
 msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "Кол-во источников света"
-
-#: /Language/Interface/Record[Key='PersonalSuits']
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "Скафандр"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -1261,8 +1276,9 @@ msgid "Publish"
 msgstr "Опубликовать"
 
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
+#, fuzzy
 msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
+msgid "Delete Entire Save"
 msgstr "Удалить сохранение"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
@@ -1367,11 +1383,6 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "Неверный пароль."
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "Номер порта должен находиться в диапазоне от 0 до 65535."
-
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
@@ -1381,6 +1392,11 @@ msgstr "Нельзя изменить порт обновления, пока с
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "Вы должны ввести имя мира, чтобы сохраниться."
+
+#: /Language/Interface/Record[Key='AlertTitleAttention']
+msgctxt "Interface.AlertTitleAttention"
+msgid "Attention"
+msgstr "Внимание"
 
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
@@ -1498,36 +1514,6 @@ msgctxt "Interface.AppearanceTitleHairStyle"
 msgid "Hair"
 msgstr "Волосы"
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Цвет волос"
-
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Цвет глаз"
-
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Оттенок кожи"
-
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr "Стены и полы"
-
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr "Расходники"
-
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "Резервные копии"
-
 #: /Language/Interface/Record[Key='LightCategory']
 msgctxt "Interface.LightCategory"
 msgid "Lights"
@@ -1543,15 +1529,15 @@ msgctxt "Interface.BatteryCategory"
 msgid "Power Storage"
 msgstr "Хранение энергии"
 
+#: /Language/Interface/Record[Key='PersonalSuits']
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "Скафандр"
+
 #: /Language/Interface/Record[Key='ChairTableCategory']
 msgctxt "Interface.ChairTableCategory"
 msgid "Chairs"
 msgstr ""
-
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
-msgstr "Двери и люки"
 
 #: /Language/Interface/Record[Key='KitCategory']
 msgctxt "Interface.KitCategory"
@@ -1572,6 +1558,22 @@ msgstr "Скоро..."
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Слот"
+
+#: /Language/Interface/Record[Key='RespawnConditionStationeer']
+#, fuzzy
+msgctxt "Interface.RespawnConditionStationeer"
+msgid "Stationeer"
+msgstr "Станционеры"
+
+#: /Language/Interface/Record[Key='RespawnConditionNormal']
+msgctxt "Interface.RespawnConditionNormal"
+msgid "Normal"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RespawnConditionEasy']
+msgctxt "Interface.RespawnConditionEasy"
+msgid "Easy"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsStartLocalHost']
 msgctxt "Interface.SettingsStartLocalHost"
@@ -1636,10 +1638,10 @@ msgctxt "Interface.MoleNitrogenDescription"
 msgid "{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stablize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "Борода (Усы)"
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Цвет волос"
 
 #: /Language/Interface/Record[Key='MoleOxygenDescription']
 msgctxt "Interface.MoleOxygenDescription"
@@ -1821,17 +1823,13 @@ msgstr "Обучение"
 #: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
 #, fuzzy
 msgctxt "Interface.StationpediaLogicSlotHeader"
-msgid ""
-"\n"
-"        Logic Slots\n"
+msgid "Logic Slots"
 msgstr "Логические Слоты\n"
 
 #: /Language/Interface/Record[Key='StationpediaLogicHeader']
 #, fuzzy
 msgctxt "Interface.StationpediaLogicHeader"
-msgid ""
-"\n"
-"        Logic\n"
+msgid "Logic"
 msgstr "Логика"
 
 #: /Language/Interface/Record[Key='StationpediaModeHeader']
@@ -4935,10 +4933,10 @@ msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
 msgstr "Возвращает общее число молей в устройстве"
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "Состояние на старте"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Цвет глаз"
 
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
@@ -5997,10 +5995,32 @@ msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger/Hydration Rate"
 msgstr "Коэффициент Голода/Гидратации"
 
-#: /Language/Interface/Record[Key='AlertTitleAttention']
-msgctxt "Interface.AlertTitleAttention"
-msgid "Attention"
-msgstr "Внимание"
+#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
+msgctxt "Interface.SettingsTitleGameSettings"
+msgid "Game Settings"
+msgstr "Настройки игры"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "Состояние на старте"
+
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "Борода (Усы)"
+
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "Номер порта должен находиться в диапазоне от 0 до 65535."
+
+#, fuzzy
+#~ msgctxt "Interface.StationpediaLogicHeader"
+#~ msgid ""
+#~ "\n"
+#~ "        Logic\n"
+#~ msgstr "Логика"
 
 #~ msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 #~ msgid "The ratio of co2 in device atmosphere"

@@ -10,10 +10,25 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
-msgctxt "Interface.SettingsTitleGameSettings"
-msgid "Game Settings"
-msgstr "게임 설정"
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "피부색"
+
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "배낭"
+
+#: /Language/Interface/Record[Key='FoodCategory']
+msgctxt "Interface.FoodCategory"
+msgid "Consumables"
+msgstr "소모품"
+
+#: /Language/Interface/Record[Key='WallFloorCategory']
+msgctxt "Interface.WallFloorCategory"
+msgid "Walls and Floors"
+msgstr "벽과 바닥"
 
 #: /Language/Interface/Record[Key='SafetyCategory']
 msgctxt "Interface.SafetyCategory"
@@ -210,6 +225,11 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "게임 종료"
 
+#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
+msgctxt "Interface.LogicTypePowerGeneration"
+msgid "Returns how much power is being generated"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -224,11 +244,6 @@ msgstr "저장된 세계"
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
 msgstr "저장날짜:"
-
-#: /Language/Interface/Record[Key='LogicTypePowerGeneration']
-msgctxt "Interface.LogicTypePowerGeneration"
-msgid "Returns how much power is being generated"
-msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoTextPlaytime']
 msgctxt "Interface.WorldInfoTextPlaytime"
@@ -688,6 +703,11 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "파티클 품질"
 
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr "문과 출입구"
+
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
@@ -702,11 +722,6 @@ msgstr "볼륨 라이팅"
 msgctxt "Interface.SettingsPixelLightCount"
 msgid "Pixel Light Count"
 msgstr "픽셀 라이트 개수"
-
-#: /Language/Interface/Record[Key='PersonalSuits']
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "슈트"
 
 #: /Language/Interface/Record[Key='SettingsShadows']
 msgctxt "Interface.SettingsShadows"
@@ -1268,8 +1283,9 @@ msgid "Publish"
 msgstr "업로드"
 
 #: /Language/Interface/Record[Key='PromptDeleteTitle']
+#, fuzzy
 msgctxt "Interface.PromptDeleteTitle"
-msgid "Delete Save"
+msgid "Delete Entire Save"
 msgstr "삭제하기"
 
 #: /Language/Interface/Record[Key='PromptDeleteBody']
@@ -1374,11 +1390,6 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "암호가 일치하지 않습니다."
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "포트값은 0-65535 사이여야 합니다."
-
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
@@ -1388,6 +1399,11 @@ msgstr "서버가 작동하고 있어 포트를 업데이트할 수 없습니다
 msgctxt "Interface.AlertBlankSaveName"
 msgid "You must enter a world name to save."
 msgstr "저장하려면 파일명을 입력하세요."
+
+#: /Language/Interface/Record[Key='AlertTitleAttention']
+msgctxt "Interface.AlertTitleAttention"
+msgid "Attention"
+msgstr "주의"
 
 #: /Language/Interface/Record[Key='AlertTitlePleaseWait']
 msgctxt "Interface.AlertTitlePleaseWait"
@@ -1505,36 +1521,6 @@ msgctxt "Interface.AppearanceTitleHairStyle"
 msgid "Hair"
 msgstr "머리"
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "머리색"
-
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "눈색"
-
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "피부색"
-
-#: /Language/Interface/Record[Key='WallFloorCategory']
-msgctxt "Interface.WallFloorCategory"
-msgid "Walls and Floors"
-msgstr "벽과 바닥"
-
-#: /Language/Interface/Record[Key='FoodCategory']
-msgctxt "Interface.FoodCategory"
-msgid "Consumables"
-msgstr "소모품"
-
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "배낭"
-
 #: /Language/Interface/Record[Key='LightCategory']
 msgctxt "Interface.LightCategory"
 msgid "Lights"
@@ -1550,15 +1536,15 @@ msgctxt "Interface.BatteryCategory"
 msgid "Power Storage"
 msgstr "전력 저장소"
 
+#: /Language/Interface/Record[Key='PersonalSuits']
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "슈트"
+
 #: /Language/Interface/Record[Key='ChairTableCategory']
 msgctxt "Interface.ChairTableCategory"
 msgid "Chairs"
 msgstr ""
-
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
-msgstr "문과 출입구"
 
 #: /Language/Interface/Record[Key='KitCategory']
 msgctxt "Interface.KitCategory"
@@ -1579,6 +1565,22 @@ msgstr ""
 msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "슬롯"
+
+#: /Language/Interface/Record[Key='RespawnConditionStationeer']
+#, fuzzy
+msgctxt "Interface.RespawnConditionStationeer"
+msgid "Stationeer"
+msgstr "스테이셔니어"
+
+#: /Language/Interface/Record[Key='RespawnConditionNormal']
+msgctxt "Interface.RespawnConditionNormal"
+msgid "Normal"
+msgstr ""
+
+#: /Language/Interface/Record[Key='RespawnConditionEasy']
+msgctxt "Interface.RespawnConditionEasy"
+msgid "Easy"
+msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsStartLocalHost']
 msgctxt "Interface.SettingsStartLocalHost"
@@ -1643,10 +1645,10 @@ msgctxt "Interface.MoleNitrogenDescription"
 msgid "{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stablize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
-msgctxt "Interface.AppearanceTitleFacialHairStyle"
-msgid "Facial Hair"
-msgstr "수염"
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "머리색"
 
 #: /Language/Interface/Record[Key='MoleOxygenDescription']
 msgctxt "Interface.MoleOxygenDescription"
@@ -1830,16 +1832,12 @@ msgstr "튜토리얼"
 #: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
 #, fuzzy
 msgctxt "Interface.StationpediaLogicSlotHeader"
-msgid ""
-"\n"
-"        Logic Slots\n"
+msgid "Logic Slots"
 msgstr "논리 작성기"
 
 #: /Language/Interface/Record[Key='StationpediaLogicHeader']
 msgctxt "Interface.StationpediaLogicHeader"
-msgid ""
-"\n"
-"        Logic\n"
+msgid "Logic"
 msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaModeHeader']
@@ -4996,10 +4994,10 @@ msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
 msgstr ""
 
-#: /Language/Interface/Record[Key='SettingsStartingCondition']
-msgctxt "Interface.SettingsStartingCondition"
-msgid "Starting Condition"
-msgstr "시작 조건"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "눈색"
 
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
@@ -6061,10 +6059,25 @@ msgctxt "Interface.SettingsHungerRate"
 msgid "Hunger/Hydration Rate"
 msgstr "배고픔 비율"
 
-#: /Language/Interface/Record[Key='AlertTitleAttention']
-msgctxt "Interface.AlertTitleAttention"
-msgid "Attention"
-msgstr "주의"
+#: /Language/Interface/Record[Key='SettingsTitleGameSettings']
+msgctxt "Interface.SettingsTitleGameSettings"
+msgid "Game Settings"
+msgstr "게임 설정"
+
+#: /Language/Interface/Record[Key='SettingsStartingCondition']
+msgctxt "Interface.SettingsStartingCondition"
+msgid "Starting Condition"
+msgstr "시작 조건"
+
+#: /Language/Interface/Record[Key='AppearanceTitleFacialHairStyle']
+msgctxt "Interface.AppearanceTitleFacialHairStyle"
+msgid "Facial Hair"
+msgstr "수염"
+
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "포트값은 0-65535 사이여야 합니다."
 
 #~ msgctxt "Interface.LogicState"
 #~ msgid "State {COLORGREEN:#VAR1#}"
