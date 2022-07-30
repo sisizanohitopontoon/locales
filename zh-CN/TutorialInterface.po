@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-30 02:04+0000\n"
+"PO-Revision-Date: 2022-07-30 02:10+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3821,18 +3821,17 @@ msgstr "使用套件（逻辑开关）将拉杆放置在高亮处"
 #: /Language/Interface/Record[Key='8Narration1D']
 msgctxt "Interface.8Narration1D"
 msgid "Most ODA devices have two ports: power and data. Data ports transmit information about a device's current state, using the same network as power. So connect your lever to the cable network."
-msgstr ""
+msgstr "大多数发展署设备有两个端口：电源和数据。数据端口使用与电源相同的网络传输有关设备当前状态的信息。因此，请将拉杆连接到电缆网络。"
 
 #: /Language/Interface/Record[Key='8ConstructCable']
-#, fuzzy
 msgctxt "Interface.8ConstructCable"
 msgid "Place cable in highlighted position."
-msgstr "在高亮位置生成控制台"
+msgstr "将电缆放在高亮处。"
 
 #: /Language/Interface/Record[Key='8ConstructCable2']
 msgctxt "Interface.8ConstructCable2"
 msgid "Connect data port on lever to cable network"
-msgstr ""
+msgstr "将拉杆上的数据端口连接到电缆网络"
 
 #: /Language/Interface/Record[Key='8Narration2D']
 msgctxt "Interface.8Narration2D"
@@ -3840,23 +3839,23 @@ msgid ""
 "As its name suggests, a logic reader is how you read logic values FROM devices.\n"
 "To read data from the lever, place a logic reader in the highlighted position. Note that logic flows in one direction only."
 msgstr ""
+"顾名思义，逻辑读取器是从设备读取逻辑值的方式。\n"
+"要从拉杆读取数据，请将逻辑读取器放在高亮处。请注意，逻辑仅在一个方向上流动。"
 
 #: /Language/Interface/Record[Key='8ConstructReader']
-#, fuzzy
 msgctxt "Interface.8ConstructReader"
 msgid "Place logic reader in highlighted position"
-msgstr "在高亮位置生成控制台"
+msgstr "将逻辑读取器放在高亮处"
 
 #: /Language/Interface/Record[Key='8Narration3D']
 msgctxt "Interface.8Narration3D"
 msgid "A logic writer is different. It recieves data from the logic reader, then writes that data TO a given device - a light, in this case."
-msgstr ""
+msgstr "逻辑编写器则不同。它从逻辑读取器接收数据，然后将该数据写入给定设备 - 现在情况下是一盏灯。"
 
 #: /Language/Interface/Record[Key='8ConstructWriter']
-#, fuzzy
 msgctxt "Interface.8ConstructWriter"
 msgid "Place logic writer in highlighted position"
-msgstr "在高亮位置生成控制台"
+msgstr "将逻辑编写器放在高亮处"
 
 #: /Language/Interface/Record[Key='8Narration4D']
 msgctxt "Interface.8Narration4D"
@@ -3864,16 +3863,18 @@ msgid ""
 "Now it's time to program these logic devices. Start with the logic reader.\n"
 "Use a screwdriver to set the input (IN) to 'Lever'. Then set the variable (VAR) it will read to 'Open'."
 msgstr ""
+"现在是时候对这些逻辑器件进行编程了。从逻辑读取器开始。\n"
+"使用螺丝刀将输入 （IN） 设置为“拉杆”。然后将其读取的变量 （VAR） 设置为“打开”。"
 
 #: /Language/Interface/Record[Key='8LogicReaderLogicInput1']
 msgctxt "Interface.8LogicReaderLogicInput1"
 msgid "Set logic reader input (IN) to 'Lever'"
-msgstr ""
+msgstr "将逻辑读取器输入 （IN） 设置为“拉杆”"
 
 #: /Language/Interface/Record[Key='8LogicReaderLogic1']
 msgctxt "Interface.8LogicReaderLogic1"
 msgid "Set logic reader variable (VAR) to 'Open'"
-msgstr ""
+msgstr "将逻辑读取器变量 （VAR） 设置为“打开”"
 
 #: /Language/Interface/Record[Key='8Narration5D']
 msgctxt "Interface.8Narration5D"
@@ -3882,144 +3883,139 @@ msgid ""
 "Set the writer's input (IN) to 'Logic reader', and its output (OUT) to 'Wall Light'. \n"
 "Lastly, set the output variable (OUT VAR) to 'On', so that it toggles the light's on/off variable."
 msgstr ""
+"现在对逻辑编写器进行编程。\n"
+"将编写器的输入 （IN） 设置为“逻辑读取器”，将其输出 （OUT） 设置为“壁灯”。\n"
+"最后，将输出变量（OUT VAR）设置为“开”，以便它切换灯光的开/关变量。"
 
 #: /Language/Interface/Record[Key='8LogicWritterInput1']
 msgctxt "Interface.8LogicWritterInput1"
 msgid "Set logic writer input (IN) to 'Logic reader'"
-msgstr ""
+msgstr "将逻辑编写器输入 （IN） 设置为“逻辑读取器”"
 
 #: /Language/Interface/Record[Key='LogicWritterOutput1']
 msgctxt "Interface.LogicWritterOutput1"
 msgid "Set logic writer output (OUT) to 'Wall Light'"
-msgstr ""
+msgstr "将逻辑编写器输出 （OUT） 设置为“壁灯”"
 
 #: /Language/Interface/Record[Key='8LogicWritterLogic1']
 msgctxt "Interface.8LogicWritterLogic1"
 msgid "Set output variable (OUT VAR) to 'On'"
-msgstr ""
+msgstr "将输出变量 （OUT VAR） 设置为“开”"
 
 #: /Language/Interface/Record[Key='8Narration6D']
 msgctxt "Interface.8Narration6D"
 msgid "Now the logic reader and the logic writer are programmed, so it's safe to turn them on."
-msgstr ""
+msgstr "现在逻辑读取器和逻辑编写器已完成编程，可以安全地打开它们。"
 
 #: /Language/Interface/Record[Key='8TurnOnReader']
-#, fuzzy
 msgctxt "Interface.8TurnOnReader"
 msgid "Turn on logic reader"
-msgstr "打开这个逻辑读取的开关。"
+msgstr "打开逻辑读取器"
 
 #: /Language/Interface/Record[Key='8TurnOnWriter']
-#, fuzzy
 msgctxt "Interface.8TurnOnWriter"
 msgid "Turn on logic writer"
-msgstr "打开这个逻辑读取的开关。"
+msgstr "打开逻辑编写器"
 
 #: /Language/Interface/Record[Key='8Narration7D']
 msgctxt "Interface.8Narration7D"
 msgid "Excellent - now you're ready to test the logic circuit. Try turning on the light by flipping the lever."
-msgstr ""
+msgstr "优秀 - 现在您已准备好测试逻辑电路。尝试通过拉动拉杆来开灯。"
 
 #: /Language/Interface/Record[Key='8TurnOnWallLight']
 msgctxt "Interface.8TurnOnWallLight"
 msgid "Use lever to turn on light"
-msgstr ""
+msgstr "使用拉杆开灯"
 
 #: /Language/Interface/Record[Key='8Narration8D']
 msgctxt "Interface.8Narration8D"
 msgid "Well done, Cadet - you've created a basic logic circuit. Now, set up a system to control several lights at once. Start by connecting all of the lights in the room to the logic network."
-msgstr ""
+msgstr "学员，干得好 - 你已经创建了一个基本的逻辑电路。现在，设置一个系统来同时控制多个灯。首先将房间中的所有灯连接到逻辑网络。"
 
 #: /Language/Interface/Record[Key='8ConstructCable2']
-#, fuzzy
 msgctxt "Interface.8ConstructCable2"
 msgid "Complete logic cable network for lights"
-msgstr "从箱子拿起主动通风口"
+msgstr "完成灯光逻辑电缆网络"
 
 #: /Language/Interface/Record[Key='8Narration9D']
 msgctxt "Interface.8Narration9D"
 msgid "To set up this system, you'll need to adjust the logic devices. Turn them off first, or they get confused."
-msgstr ""
+msgstr "要设置这个系统，您需要调整逻辑器件。先关闭它们，否则它们会混乱。"
 
 #: /Language/Interface/Record[Key='8TurnOffWriter']
-#, fuzzy
 msgctxt "Interface.8TurnOffWriter"
 msgid "Turn off logic writer"
-msgstr "打开这个逻辑读取的开关。"
+msgstr "关闭逻辑编写器"
 
 #: /Language/Interface/Record[Key='8TurnOffReader']
-#, fuzzy
 msgctxt "Interface.8TurnOffReader"
 msgid "Turn off logic reader"
-msgstr "打开这个逻辑读取的开关。"
+msgstr "关闭逻辑读取器"
 
 #: /Language/Interface/Record[Key='8Narration10D']
 msgctxt "Interface.8Narration10D"
 msgid "With the logic writer turned off, you can reset the lever without throwing yourself into terrifying darkness."
-msgstr ""
+msgstr "关闭逻辑编写器后，你可以复位拉杆，而不用担心将自己扔进可怕的黑暗中。"
 
 #: /Language/Interface/Record[Key='8Closelever']
 msgctxt "Interface.8Closelever"
 msgid "Reset logic lever."
-msgstr ""
+msgstr "复位逻辑拉杆。"
 
 #: /Language/Interface/Record[Key='8Narration11D']
 msgctxt "Interface.8Narration11D"
 msgid "You need to add a batch writer to the network. Batch writers are just like logic writers, except they can write to multiple devices. "
-msgstr ""
+msgstr "您需要向网络添加批量编写器。批量编写器就像逻辑编写器一样，只是它可以写入多个设备。 "
 
 #: /Language/Interface/Record[Key='8ConstructBatchWriter']
-#, fuzzy
 msgctxt "Interface.8ConstructBatchWriter"
 msgid "Place batch writer in highlighted position"
-msgstr "在高亮位置生成控制台"
+msgstr "将批量记录器放在高亮处"
 
 #: /Language/Interface/Record[Key='8Narration12D']
 msgctxt "Interface.8Narration12D"
 msgid "Search through the batch writer's outputs for 'Wall Light'. This will cause it to write to every wall light on the network."
-msgstr ""
+msgstr "在批量编写器的输出中搜索“壁灯”。这会将它写入网络上的每个壁灯。"
 
 #: /Language/Interface/Record[Key='8BatchWriterOutput']
 msgctxt "Interface.8BatchWriterOutput"
 msgid "Set batch writer output (OUT TYPE) to 'Wall Light'"
-msgstr ""
+msgstr "将批量器输出（输出类型）设置为“壁灯”"
 
 #: /Language/Interface/Record[Key='8Narration13D']
 msgctxt "Interface.8Narration13D"
 msgid "Now set the batch writer's input (IN) to 'logic reader'. Then set the variable it writes to (OUT VAR) on the light as 'On'."
-msgstr ""
+msgstr "现在，将批量编写器的输入 （IN） 设置为“逻辑读取器”。然后将其写入光源的变量 （OUT VAR） 设置为“开”。"
 
 #: /Language/Interface/Record[Key='8BatchWriterInput']
 msgctxt "Interface.8BatchWriterInput"
 msgid "Set batch writer input (IN) to 'Logic reader'"
-msgstr ""
+msgstr "将批量编写器输入 （IN） 设置为“逻辑读取器”"
 
 #: /Language/Interface/Record[Key='8BatchWriterLogicType']
 msgctxt "Interface.8BatchWriterLogicType"
 msgid "Set output variable (OUT VAR) to 'On'. "
-msgstr ""
+msgstr "将输出变量 （OUT VAR） 设置为“开”。 "
 
 #: /Language/Interface/Record[Key='8Narration14D']
 msgctxt "Interface.8Narration14D"
 msgid "The batch writer is now programmed. So you're ready to turn it on, as well as the logic reader."
-msgstr ""
+msgstr "批处理编写器现已完成编程。你已经准备好打开它以及逻辑读取。"
 
 #: /Language/Interface/Record[Key='8TurnOnBatchWriter']
-#, fuzzy
 msgctxt "Interface.8TurnOnBatchWriter"
 msgid "Turn on batch writer"
-msgstr "按 {KEY:ToggleHandPower} 键打开 {THING:ItemTablet}。"
+msgstr "打开批量编写器"
 
 #: /Language/Interface/Record[Key='8Narration15D']
 msgctxt "Interface.8Narration15D"
 msgid "Okay, let's test the whole system now - throw the lever and let there be light!"
-msgstr ""
+msgstr "好吧，现在让我们测试整个系统 - 拉起杠杆，让那里有光！"
 
 #: /Language/Interface/Record[Key='8TurnOnWallLight']
-#, fuzzy
 msgctxt "Interface.8TurnOnWallLight"
 msgid "Turn on the lights"
-msgstr "按 {KEY:ToggleHandPower} 键打开 {THING:ItemTablet}。"
+msgstr "开灯"
 
 #: /Language/Interface/Record[Key='8Narration16D']
 msgctxt "Interface.8Narration16D"
@@ -4027,62 +4023,62 @@ msgid ""
 "Great work, Cadet - you've mastered basic logic. But to transmit your results, you need to get out of this room. The doors are locked! Use logic to fix that. \n"
 "First, turn off the logic units."
 msgstr ""
+"学员，很棒的工作 - 你已经掌握了基本的逻辑。但是要传输你的结果，你需要离开这个房间。门是锁着的！使用逻辑来解决这个问题。\n"
+"首先，关闭逻辑单元。"
 
 #: /Language/Interface/Record[Key='8TurnOffBatchWriter']
-#, fuzzy
 msgctxt "Interface.8TurnOffBatchWriter"
 msgid "Turn off batch writer"
-msgstr "关闭焊枪"
+msgstr "关闭批量编写器"
 
 #: /Language/Interface/Record[Key='8Narration17D']
 msgctxt "Interface.8Narration17D"
 msgid "You can now reset the logic lever without turning off your lights."
-msgstr ""
+msgstr "你现在可以在不关闭灯光的情况下复位逻辑拉杆。"
 
 #: /Language/Interface/Record[Key='8Closelever']
 msgctxt "Interface.8Closelever"
 msgid "Reset logic lever"
-msgstr ""
+msgstr "复位逻辑拉杆"
 
 #: /Language/Interface/Record[Key='8Narration18D']
 msgctxt "Interface.8Narration18D"
 msgid "Programing the door is simple. It's already connected to the network - so just set the original logic writer to output to 'Glass Door', and write to the door's 'Open' variable."
-msgstr ""
+msgstr "对门进行编程很简单。它已经连接到网络 - 因此只需将原始逻辑编写器设置为输出到“玻璃门”，然后写入门的“打开”变量。"
 
 #: /Language/Interface/Record[Key='8BatchWriterOutput2']
 msgctxt "Interface.8BatchWriterOutput2"
 msgid "Set logic writer output (OUT) to 'Glass Door'"
-msgstr ""
+msgstr "将逻辑写入器输出 （OUT） 设置为“玻璃门”"
 
 #: /Language/Interface/Record[Key='8BatchWriterLogicType2']
 msgctxt "Interface.8BatchWriterLogicType2"
 msgid "Set logic writer variable (OUT VAR) to 'Open'"
-msgstr ""
+msgstr "将逻辑编写器变量 （OUT VAR） 设置为“打开”"
 
 #: /Language/Interface/Record[Key='8Narration19D']
 msgctxt "Interface.8Narration19D"
 msgid "Now open the door using the logic lever."
-msgstr ""
+msgstr "现在使用逻辑拉杆打开门。"
 
 #: /Language/Interface/Record[Key='8OpenDoor']
 msgctxt "Interface.8OpenDoor"
 msgid "Use logic lever to open door"
-msgstr ""
+msgstr "使用逻辑拉杆开门"
 
 #: /Language/Interface/Record[Key='8Narration20D']
 msgctxt "Interface.8Narration20D"
 msgid ""
 "Excellent, Cadet. You now have the knowledge and skills to create basic logic circuits. Take your new wisdom, and experiment with other devices, systems and networks. There's a universe of "
 "possiblities out there. Press the important blue button to transmit your results to the ODA."
-msgstr ""
+msgstr "学员，你真优秀。您现在拥有创建基本逻辑电路的知识和技能。带上你的新智慧，尝试其他设备、系统和网络。那里有一个充满可能性的世界。按下重要的蓝色按钮，将您的结果传输到发展署。"
 
 #: /Language/Interface/Record[Key='TutoiralLogicCompleteTutorial']
 msgctxt "Interface.TutoiralLogicCompleteTutorial"
 msgid "This confirms that the accredited holder of this NFT certificate has demonstrated adequate skills and knowledge of basic logic systems."
-msgstr ""
+msgstr "这证实了该证书的认可持有者已经展示了基本逻辑系统的适当技能和知识。"
 
 #: /Language/Interface/Record[Key='TutoiralResearch']
-#, fuzzy
 msgctxt "Interface.TutoiralResearch"
 msgid "Research"
 msgstr "基础研究"
@@ -4090,16 +4086,14 @@ msgstr "基础研究"
 #: /Language/Interface/Record[Key='TutoiralResearchDescription']
 msgctxt "Interface.TutoiralResearchDescription"
 msgid "I should do some more research when writing these. I really don't know what I'm on about and I guess in a sense no one knows what anyones on about we all ride the wave of life together."
-msgstr ""
+msgstr "在写这些的时候，我应该做更多的研究。我真的不知道我在说什么，我想从某种意义上说，没有人知道任何人对我们都一起乘着生活的浪潮。"
 
 #: /Language/Interface/Record[Key='09BasicResearch']
-#, fuzzy
 msgctxt "Interface.09BasicResearch"
 msgid "Research"
 msgstr "基础研究"
 
 #: /Language/Interface/Record[Key='BasicResearchDescription']
-#, fuzzy
 msgctxt "Interface.BasicResearchDescription"
 msgid "Unlock new technologies with the research system."
 msgstr "使用科研机器解锁新技术。"
@@ -4306,18 +4300,16 @@ msgid "Print a {THING:CircuitboardAirControl} on the {THING:StructureElectronics
 msgstr "用 {THING:StructureElectronicsPrinter} 打印一个 {THING:CircuitboardAirControl} 。"
 
 #: /Language/Interface/Record[Key='TutoiralRocketry']
-#, fuzzy
 msgctxt "Interface.TutoiralRocketry"
 msgid "Rocketry"
-msgstr "基础气闸系统"
+msgstr "火箭"
 
 #: /Language/Interface/Record[Key='TutoiralRocketryDescription']
 msgctxt "Interface.TutoiralRocketryDescription"
 msgid "ROCKET ... guyyyyyy, I'm not getting sued by some random guy."
-msgstr ""
+msgstr "火箭。。。额么么，我不会被某个家伙起诉。"
 
 #: /Language/Interface/Record[Key='Tutorial-BasicRocketry']
-#, fuzzy
 msgctxt "Interface.Tutorial-BasicRocketry"
 msgid "Rocketry"
 msgstr "基础火箭"
@@ -4325,7 +4317,7 @@ msgstr "基础火箭"
 #: /Language/Interface/Record[Key='Tutorial-BasicRocketryDescription']
 msgctxt "Interface.Tutorial-BasicRocketryDescription"
 msgid "A rocket science refresher."
-msgstr ""
+msgstr "火箭科学复习。"
 
 #: /Language/Interface/Record[Key='LaunchPlatforms']
 msgctxt "Interface.LaunchPlatforms"
@@ -4440,7 +4432,7 @@ msgstr "燃料箱"
 #: /Language/Interface/Record[Key='FuelTanks2Description']
 msgctxt "Interface.FuelTanks2Description"
 msgid "Rockets in Stationeers use the same fuel as other items requiring flammable gas such as the Welder or Gas Generator. A 2:1 ratio of Volatiles and Oxygen provides the cleanest burn."
-msgstr ""
+msgstr "固定器中的火箭使用与其他需要易燃气体的物品（如焊枪或气体发生器）相同的燃料。挥发物和氧气的2：1比例提供最干净的燃烧。"
 
 #: /Language/Interface/Record[Key='FuelTanks2Task1']
 msgctxt "Interface.FuelTanks2Task1"
@@ -4465,7 +4457,7 @@ msgstr "货舱模块"
 #: /Language/Interface/Record[Key='CargoModuleDescription']
 msgctxt "Interface.CargoModuleDescription"
 msgid "The Cargo Module allows you to take equipment and devices with you to your next destination. You can build more than one cargo module, but they must be above the fuel tanks."
-msgstr ""
+msgstr "货运模块允许您将设备和装置带到下一个目的地。您可以构建多个货物模块，但它们必须位于油箱上方。"
 
 #: /Language/Interface/Record[Key='CargoModuleTask1']
 msgctxt "Interface.CargoModuleTask1"
@@ -4485,7 +4477,7 @@ msgstr "建造货舱"
 #: /Language/Interface/Record[Key='CargoModule2Description']
 msgctxt "Interface.CargoModule2Description"
 msgid "Building the Cargo Module is similar to other modules. Building multiple modules will add more weight to the rocket and will require more fuel to exit the planet's gravitational field."
-msgstr ""
+msgstr "构建货物模块与其他模块类似。建造多个模块将为火箭增加更多的重量，并且需要更多的燃料才能离开地球的引力场。"
 
 #: /Language/Interface/Record[Key='CargoModule2Task1']
 msgctxt "Interface.CargoModule2Task1"
@@ -4510,7 +4502,7 @@ msgstr "指令舱"
 #: /Language/Interface/Record[Key='CommandModDescription']
 msgctxt "Interface.CommandModDescription"
 msgid "The Command Module is the final part of the Rocket, and its central control point. It is also the module that controls the final destination of the rocket."
-msgstr ""
+msgstr "指挥模块是火箭的最后一部分，也是它的中央控制点。它也是控制火箭最终目的地的模块。"
 
 #: /Language/Interface/Record[Key='CommandModTask1']
 msgctxt "Interface.CommandModTask1"
@@ -4525,14 +4517,14 @@ msgstr "在高亮位置处放置 {THING:StructureModularRocketCommand01}。"
 #: /Language/Interface/Record[Key='CommandMod2']
 msgctxt "Interface.CommandMod2"
 msgid "Building The Command Module"
-msgstr ""
+msgstr "构建命令模块"
 
 #: /Language/Interface/Record[Key='CommandMod2Description']
 msgctxt "Interface.CommandMod2Description"
 msgid ""
 "Equipped with outer shell heat shielding and a tempered alumino-silicate glass pane, the module can safely leave and re-enter the atmosphere of a planet with no risk to Stationeers inside. It is "
 "fully insulated, with an active air conditioning unit and carbon scrubbers to maintain optimum temperature and breathability."
-msgstr ""
+msgstr "该模块配有外壳隔热罩和钢化铝硅酸盐玻璃板，可以安全地离开并重新进入行星的大气层，而不会对内部的固定器造成风险。它是完全绝缘的，带有主动空调装置和碳洗涤器，以保持最佳温度和透气性。"
 
 #: /Language/Interface/Record[Key='CommandMod2Task1']
 msgctxt "Interface.CommandMod2Task1"
@@ -4559,7 +4551,7 @@ msgctxt "Interface.FuelUpDescription"
 msgid ""
 "It's time to fuel up the rocket. A pre-prepared fuel mix has been added to the large fuel tank. You will need to complete the piping to the newly built rocket fuel module. The command module takes "
 "oxygen but it is not essential, as you are in a suit and will have sufficient reserves for the flight."
-msgstr ""
+msgstr "是时候为火箭加油了。预先准备好的燃料混合物已添加到大型燃油箱中。您将需要完成新建的火箭燃料模块的管道。指挥舱需要氧气，但这不是必需的，因为你穿着宇航服，有足够的储备氧气来飞行。"
 
 #: /Language/Interface/Record[Key='FuelUpStraight']
 msgctxt "Interface.FuelUpStraight"
@@ -4579,7 +4571,7 @@ msgstr "无电力"
 #: /Language/Interface/Record[Key='NoPowerDescription']
 msgctxt "Interface.NoPowerDescription"
 msgid "There seems to be no power to the rocket. Check the {THING:StructureAreaPowerControl} found behind the elevator."
-msgstr ""
+msgstr "火箭似乎没有动力。在电梯后面找到区域电源控制器。"
 
 #: /Language/Interface/Record[Key='NoPower1']
 msgctxt "Interface.NoPower1"
@@ -4596,7 +4588,7 @@ msgctxt "Interface.SettingTheDestinationDescription"
 msgid ""
 "Before you launch, you will want to program the flight computer with a valid destination - or else you may end up in the middle of nowhere. In this case, we want to travel to Mimas, one of Saturn's "
 "moons. Do this by writing the Planet ID to the Command Module using a logic writer."
-msgstr ""
+msgstr "在启动之前，您将需要使用有效的目的地对飞行计算机进行编程 - 否则您可能会最终陷入困境。在这种情况下，我们想前往土星的卫星之一Mimas。通过使用逻辑编写器将行星 ID 写入命令模块来执行此操作。"
 
 #: /Language/Interface/Record[Key='SettingTheDestination1']
 msgctxt "Interface.SettingTheDestination1"
@@ -4606,7 +4598,7 @@ msgstr "打开Stationpedia"
 #: /Language/Interface/Record[Key='SettingTheDestination2']
 msgctxt "Interface.SettingTheDestination2"
 msgid "Navigate to the World Travel Section, click on \"Travel\", and read about how to set destinations then click on the Mimas Coordinates: -712314497 to copy it to your clipboard"
-msgstr ""
+msgstr "导航到“世界旅行”部分，单击“旅行”，阅读有关如何设置目的地的信息，然后单击“Mimas 坐标：-712314497将其复制到剪贴板"
 
 #: /Language/Interface/Record[Key='SettingTheDestination3']
 msgctxt "Interface.SettingTheDestination3"
