@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-30 10:37+0000\n"
+"PO-Revision-Date: 2022-07-30 10:40+0000\n"
 "Last-Translator: pionnermegs <meriadeg.morel@laposte.net>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3577,17 +3577,17 @@ msgstr "Renvoie (vrais|1) dans le registre [ r? ] uniquement si l'un des deux op
 #: /Language/Interface/Record[Key='ScriptCommandOr']
 msgctxt "Interface.ScriptCommandOr"
 msgid "Register = 1 if a and/or b not 0, otherwise 0"
-msgstr "Renvoie vrai|1 dans le registre [ r? ] si au moins l'un des deux opérandes [ a ] ou [ b ] est vraie|1, sinon renvoie 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si au moins l'un des deux opérandes [ a ] ou [ b ] est (vraie|1), sinon renvoie (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandAnd']
 msgctxt "Interface.ScriptCommandAnd"
 msgid "Register = 1 if a and b not zero, otherwise 0"
-msgstr "Renvoie vrai|1 dans le registre [ r? ] si les deux opérandes [ a ] et [ b ] sont vraies|1, sinon renvoie 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si les deux opérandes [ a ] et [ b ] sont (vraies|1), sinon renvoie (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSnaz']
 msgctxt "Interface.ScriptCommandSnaz"
 msgid "Register = 1 if |a| > float.epsilon, otherwise 0"
-msgstr "Registre = 1 si |a| > float.epsilon, sinon 0"
+msgstr "Renvoie (vrais|1) dans le registre [ r? ] si |[ a ]| > float.epsilon, sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSapz']
 msgctxt "Interface.ScriptCommandSapz"
@@ -4783,10 +4783,9 @@ msgid "returns the hash of the structure in the slot"
 msgstr "Indique la signature de la construction dans l'emplacement"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
-#, fuzzy
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, requests an item of the provided type from the device"
-msgstr "Lorsqu'il est défini sur identification unique, recherche à nouveau un élément du même type fourni à partir du périphérique"
+msgstr "Lorsqu'il est défini avec un identifiant unique, recherche un élément du type demandé au sein du périphérique."
 
 #: /Language/Interface/Record[Key='CollectableGoods']
 msgctxt "Interface.CollectableGoods"
@@ -5275,10 +5274,9 @@ msgid "The assess atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 i
 msgstr "L’atmosphère d’évaluation est en feu. Retours 1 si l’atmosphère est en feu, 0 sinon."
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxide']
-#, fuzzy
 msgctxt "Interface.LogicTypeRatioNitrousOxide"
 msgid "The ratio of {GAS:NitrousOxide} in device atmosphere"
-msgstr "Le ratio de protoxyde d'azote dans l'atmosphère du dispositif"
+msgstr "Le ratio de {GAS:NitrousOxide} dans l'atmosphère du dispositif"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioWater']
 msgctxt "Interface.LogicTypeRatioWater"
@@ -5301,10 +5299,9 @@ msgid "The ratio of nitrogen in device atmosphere"
 msgstr "Le ratio de nitrogène dans l'atmosphère du dispositif"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
-#, fuzzy
 msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 msgid "The ratio of {GAS:CarbonDioxide} in device atmosphere"
-msgstr "Le ratio de CO2 dans l'atmosphère du dispositif"
+msgstr "Le ratio de {GAS:CarbonDioxide} dans l'atmosphère du dispositif"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioOxygen']
 msgctxt "Interface.LogicTypeRatioOxygen"
