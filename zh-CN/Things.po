@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-31 01:26+0000\n"
+"PO-Revision-Date: 2022-07-31 01:37+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1493,12 +1493,20 @@ msgid ""
 "- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
 "- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times\n"
 msgstr ""
+"高级的堆肥机从有机物中产生肥料。它接受食物，腐败的食物或生物质。它需要水和电力来运行，加速了自然堆肥过程。\n"
+"加工时，它会释放氮气和挥发物，以及少量的热量。\n"
+"\n"
+"{HEADER:Compost composition}\n"
+"肥料以肥料与成分的1：3比例生产。肥料对植物的影响将根据其成分的相应比例而变化。\n"
+"\n"
+"- 食物使植物产量提高两倍\n"
+"- 腐败的食物将植物生长速度提高两倍\n"
+"- 生物质增加了肥料持续五倍的生长周期数"
 
 #: /Language/Things/RecordThing[Key='ItemKitAdvancedComposter']
-#, fuzzy
 msgctxt "Things.ItemKitAdvancedComposter"
 msgid "Kit (Advanced Composter)"
-msgstr "创建一个 {THING:StructureRocketModuleSilo}."
+msgstr "套件（高级堆肥机）"
 
 #: /Language/Things/RecordThing[Key='ItemKitAdvancedComposter']
 #, fuzzy
@@ -1521,7 +1529,7 @@ msgstr "创建一个 {THING:StructureRocketModuleSilo}."
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
 msgid "Planter"
-msgstr ""
+msgstr "花盆"
 
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
