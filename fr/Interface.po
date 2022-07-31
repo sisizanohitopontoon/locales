@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-31 09:03+0000\n"
+"PO-Revision-Date: 2022-07-31 09:08+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3172,12 +3172,12 @@ msgstr "Renvoie en [ r? ] le sinus de l'angle [ a ] spécifié (en radians)"
 #: /Language/Interface/Record[Key='ScriptCommandSleep']
 msgctxt "Interface.ScriptCommandSleep"
 msgid "Pauses execution on the IC for a seconds"
-msgstr "Met l'exécution du CI en pause pour a seconde(s)"
+msgstr "Met l'exécution du programme sur le CI en pause pour [a] seconde(s)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSelect']
 msgctxt "Interface.ScriptCommandSelect"
 msgid "Register = b if a is non-zero, otherwise c"
-msgstr "Stocke b dans le registre si a est différent de zéro, sinon c"
+msgstr "Stocke [ b ] dans le registre [ r? ] si [ a ] est différent de zéro. Sinon, [ c ] y est stocké"
 
 #: /Language/Interface/Record[Key='ScriptCommandHcf']
 msgctxt "Interface.ScriptCommandHcf"
@@ -3187,7 +3187,7 @@ msgstr "Stoppe l'exécution et grille le circuit intégré"
 #: /Language/Interface/Record[Key='ScriptCommandPop']
 msgctxt "Interface.ScriptCommandPop"
 msgid "Register = the value at the top of the stack and decrements sp"
-msgstr "Restaure dans [r?] la valeur du haut de la pile stocké précédemment par PUSH et décrémente le compteur du nombre de valeur stocké dans la pile ( SP )."
+msgstr "Restaure dans [ r? ] la valeur du haut de la pile stocké précédemment par PUSH et décrémente le compteur du nombre de valeur stocké dans la pile ( SP )."
 
 #: /Language/Interface/Record[Key='ScriptCommandPush']
 msgctxt "Interface.ScriptCommandPush"
@@ -3197,7 +3197,7 @@ msgstr "Stocke [ r? ] au sommet de la pile et incrémente ( sp )"
 #: /Language/Interface/Record[Key='ScriptCommandPeek']
 msgctxt "Interface.ScriptCommandPeek"
 msgid "Register = the value at the top of the stack"
-msgstr "Stocke la valeur du haut de la pile dans le registre"
+msgstr "Copie la valeur de la pile pointée par ( SP ) dans le registre [ r? ] spécifié."
 
 #: /Language/Interface/Record[Key='ScriptCommandLabel']
 msgctxt "Interface.ScriptCommandLabel"
@@ -3232,12 +3232,12 @@ msgstr "Stocke la valeur absolue de [ a ] dans le registre"
 #: /Language/Interface/Record[Key='ScriptCommandMin']
 msgctxt "Interface.ScriptCommandMin"
 msgid "Register = min of a or b"
-msgstr "Stocke la plus petite des valeurs entre a et b dans le registre"
+msgstr "Stocke la plus petite des valeurs entre [ a ] et [ b ] dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandMax']
 msgctxt "Interface.ScriptCommandMax"
 msgid "Register = max of a or b"
-msgstr "Stocke la plus grande des valeurs [ a ] et [ b ] dans le registre"
+msgstr "Stocke la plus grande des valeurs [ a ] et [ b ] dans le registre [ r? ]"
 
 #: /Language/Interface/Record[Key='ScriptCommandFloor']
 msgctxt "Interface.ScriptCommandFloor"
@@ -3267,12 +3267,12 @@ msgstr "Stocke la racine carrée de [ a ] dans le registre [ r? ]"
 #: /Language/Interface/Record[Key='ScriptCommandBnazal']
 msgctxt "Interface.ScriptCommandBnazal"
 msgid "Branch to line c if abs(a) > float.epsilon * 8"
-msgstr "Effectue un saut à la ligne [ c ] si abs(a) > float.epsilon * 8"
+msgstr "Effectue un saut à la ligne [ c ] si abs([ a ]) > float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBapzal']
 msgctxt "Interface.ScriptCommandBapzal"
 msgid "Branch to line c if abs(a) <= float.epsilon * 8"
-msgstr "Saute à la ligne c si abs(a) <= float.epsilon * 8"
+msgstr "Effectue un saut à la ligne [ c ] si ((abs[ a ])<= float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnezal']
 msgctxt "Interface.ScriptCommandBnezal"
