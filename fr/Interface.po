@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-31 09:08+0000\n"
-"Last-Translator: NoNoNeo <newspubs@free.fr>\n"
+"PO-Revision-Date: 2022-07-30 10:06+0000\n"
+"Last-Translator: pionnermegs <meriadeg.morel@laposte.net>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -3307,12 +3307,12 @@ msgstr "Effectue un saut à la ligne [ b ] si [ a ] < 0 et stocke le numéro de 
 #: /Language/Interface/Record[Key='ScriptCommandBnaal']
 msgctxt "Interface.ScriptCommandBnaal"
 msgid "Branch to line d if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra"
-msgstr "Effectue un saut à la ligne [ d ] si abs([ a ]-[ b ]) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) et stocke le numéro de la ligne suivante dans le registre ra(r17)"
+msgstr "Effectue un saut à la ligne [ d ] si abs([ a ]-[ b ]) <= max(c * max(abs([ a ]), abs([ b ])), float.epsilon * 8) et stocke le numéro de la ligne suivante dans le registre ra(r17)"
 
 #: /Language/Interface/Record[Key='ScriptCommandBapal']
 msgctxt "Interface.ScriptCommandBapal"
 msgid "Branch to line d if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra"
-msgstr "Saute à la ligne d si abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) et stocke le numéro de la ligne suivante dans ra"
+msgstr "Effectue un saut à la ligne [ d ] si abs([ a ] - [ b ])<= max(c * max(abs([ a ]), abs([ b ])), float.epsilon * 8) et stocke le numéro de la ligne suivante dans ra(r17)"
 
 #: /Language/Interface/Record[Key='ScriptCommandBneal']
 msgctxt "Interface.ScriptCommandBneal"
