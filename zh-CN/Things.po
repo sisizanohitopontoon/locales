@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-01 06:43+0000\n"
+"PO-Revision-Date: 2022-08-01 06:48+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7217,6 +7217,9 @@ msgid ""
 "\n"
 "Insert a cartridge or color scanner into the tablet, then press the activate button on the GPR to scan the surroundings. The data will be displayed on the tablet."
 msgstr ""
+"{LINK:Recurso;Recurso}探地雷达（GPR），当与{THING:CartridgeOreScanner}或{THING:CartridgeOreScannerColor}一起使用时，放置在{THING:ItemTablet}中，允许空间站长通过在地形中显示隐藏的矿石来最大化采矿产量并节省资源与时间。\n"
+"\n"
+"将模块或彩色扫描仪插入平板电脑，然后按 GPR 上的激活按钮扫描周围环境。数据将显示在平板电脑上。"
 
 #: /Language/Things/RecordThing[Key='DynamicGPR']
 msgctxt "Things.DynamicGPR"
@@ -7286,7 +7289,7 @@ msgstr "LED显示屏(中)"
 #: /Language/Things/RecordThing[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
 msgid "An asignable dial with up to 1000 modes."
-msgstr ""
+msgstr "多达 1000 种模式的可伸缩表盘。"
 
 #: /Language/Things/RecordThing[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
@@ -7313,7 +7316,7 @@ msgctxt "Things.StructureRecycler"
 msgid ""
 "A device for collecting the raw resources while destroying an item. Produces {THING:ItemReagentMix} containing packages of reagents. Pass these through the {THING:StructureCentrifuge} to gain back "
 "the source ores. Plants and organic matter passed through will create Biomass, which when passed through the {THING:StructureCentrifuge} will produce {THING:ItemBiomass}."
-msgstr ""
+msgstr "用于在销毁物品时收集原始资源的设备。生产包含试剂包的{THING:ItemReagentMix}。通过{THING:StructureCentrifuge}离心这些以取回源矿石。植物和有机物将产生生物质，当通过{THING:StructureCentrifuge}时，生物质将产生{THING:ItemBiomass}。"
 
 #: /Language/Things/RecordThing[Key='StructureRecycler']
 msgctxt "Things.StructureRecycler"
@@ -7341,12 +7344,11 @@ msgid "Batch Writer"
 msgstr "批量写入"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelDual']
-#, fuzzy
 msgctxt "Things.StructureSolarPanelDual"
 msgid ""
 "{LINK:Sinotai;Sinotai} dual solar panels are used for generating power from sunlight, with dedicated data and power ports. They can be connected to {{LINK:LogicPage;Logic} systems, in order to track"
 " sunlight, but their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}."
-msgstr "太阳能板"
+msgstr "{LINK:Sinotai;Sinotai}双太阳能电池板用于从阳光中发电，具有专用的数据和电源端口。它们可以连接到{LINK:LogicPage;Logic}系统，为了跟踪阳光，但它们在风暴中会损失效率并损坏。你可以使用一些可靠的{THING:ItemDuctTape}来修复这些。"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelDual']
 #, fuzzy
