@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-01 03:00+0000\n"
+"PO-Revision-Date: 2022-08-01 03:05+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5316,41 +5316,37 @@ msgstr "小型肖像画"
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinLandscapeLarge']
 msgctxt "Things.StructurePictureFrameThinLandscapeLarge"
 msgid "Picture Frame Thin Landscape Large"
-msgstr "大型风景挂画"
+msgstr "大型风景挂画（薄）"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThinLandscapeSmall"
 msgid "Picture Frame Thin Landscape Small"
-msgstr ""
+msgstr "小型风景挂画（薄）"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitSmall']
 msgctxt "Things.StructurePictureFrameThinPortraitSmall"
 msgid "Picture Frame Thin Portrait Small"
-msgstr ""
+msgstr "小型肖像画（薄）"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinMountPortraitSmall']
-#, fuzzy
 msgctxt "Things.StructurePictureFrameThinMountPortraitSmall"
 msgid "Picture Frame Thin Portrait Small"
-msgstr "小型 细型 肖像相框"
+msgstr "小型肖像画（薄）"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinMountPortraitLarge']
-#, fuzzy
 msgctxt "Things.StructurePictureFrameThinMountPortraitLarge"
 msgid "Picture Frame Thin Portrait Large"
-msgstr "大型 细型 肖像相框"
+msgstr "大型肖像画（薄）"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinMountLandscapeSmall']
-#, fuzzy
 msgctxt "Things.StructurePictureFrameThinMountLandscapeSmall"
 msgid "Picture Frame Thin Landscape Small"
-msgstr "小型 细型 景观相框"
+msgstr "小型风景挂画（薄）"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinMountLandscapeLarge']
-#, fuzzy
 msgctxt "Things.StructurePictureFrameThinMountLandscapeLarge"
 msgid "Picture Frame Thin Landscape Large"
-msgstr "大型 细型 景观相框"
+msgstr "大型风景挂画（薄）"
 
 #: /Language/Things/RecordThing[Key='HumanSkull']
 msgctxt "Things.HumanSkull"
@@ -5370,7 +5366,7 @@ msgstr "科研机器"
 #: /Language/Things/RecordThing[Key='ManualGetResearchPodsRequired']
 msgctxt "Things.ManualGetResearchPodsRequired"
 msgid "PodTypeToSearchFor"
-msgstr ""
+msgstr "PodTypeToSearchFor"
 
 #: /Language/Things/RecordThing[Key='ItemKitResearchMachine']
 msgctxt "Things.ItemKitResearchMachine"
@@ -5454,6 +5450,9 @@ msgid ""
 "Indispensible for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
 msgstr ""
+"基础{LINK:CHAC;CHAC}喷气背包不是“技术上”喷气背包，而是气体推进器。它可以由任何气体提供动力，只要{LINK:AtmosphericsPage;canister}的内部压力高于环境外部压力。如果外部压力较大，空间包将无法正常工作。\n"
+"对于建筑，采矿和一般运动是必不可少的，它有十个存储插槽，并可以让空间站长以3m / s的速度飞行，与更强大的{THING:ItemHardJetpack}相比。调整推力值会改变您的加速度，而激活稳定器会导致空间包在达到给定高度时悬停。\n"
+"使用：“J”激活;“空格”上升;“左 ctrl”下降;和“WASD”移动。"
 
 #: /Language/Things/RecordThing[Key='ItemJetpackBasic']
 msgctxt "Things.ItemJetpackBasic"
@@ -5461,10 +5460,9 @@ msgid "Jetpack Basic"
 msgstr "基础喷气背包"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium(Reversed)']
-#, fuzzy
 msgctxt "Things.StructureTransformerMedium(Reversed)"
 msgid "Transformer Reversed (Medium)"
-msgstr "反向变压器(中型)"
+msgstr "反向变压器（中）"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMediumReversed']
 msgctxt "Things.StructureTransformerMediumReversed"
@@ -5473,12 +5471,14 @@ msgid ""
 "Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.\n"
 "Note that transformers also operate as data isolators, preventing data flowing into any network beyond it."
 msgstr ""
+"变压器控制将流经电缆子网的最大功率，以防止{LINK:ElectronicPage;electrical}系统过载。\n"
+"中型变压器用于需要超过5000W的大型设置，输出可设置为最大25000W。\n"
+"请注意，转换器还会分隔数据，它能阻止数据流入其它网络。"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMediumReversed']
-#, fuzzy
 msgctxt "Things.StructureTransformerMediumReversed"
 msgid "Transformer Reversed (Medium)"
-msgstr "反向变压器(中型)"
+msgstr "反向变压器（中）"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium']
 msgctxt "Things.StructureTransformerMedium"
@@ -5487,6 +5487,9 @@ msgid ""
 "Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.\n"
 "Note that transformers also operate as data isolators, preventing data flowing into any network beyond it."
 msgstr ""
+"变压器控制将流经电缆子网的最大功率，以防止{LINK:ElectronicPage;electrical}系统过载。\n"
+"中型变压器用于需要超过5000W的大型设置，输出可设置为最大25000W。\n"
+"请注意，转换器还会分隔数据，它能阻止数据流入其它网络。"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium']
 msgctxt "Things.StructureTransformerMedium"
@@ -5496,7 +5499,7 @@ msgstr "变压器(中型)"
 #: /Language/Things/RecordThing[Key='ToolPrinterMod']
 msgctxt "Things.ToolPrinterMod"
 msgid "Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
-msgstr ""
+msgstr "使用{THING:StructureToolManufactory}或{THING:ItemWeldingTorch}应用于{THING:ItemArcWelder}，以进行升级，以提高生产速度并提供更多配方选项。"
 
 #: /Language/Things/RecordThing[Key='ToolPrinterMod']
 msgctxt "Things.ToolPrinterMod"
