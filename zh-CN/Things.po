@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-01 05:38+0000\n"
+"PO-Revision-Date: 2022-08-01 05:43+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5662,6 +5662,19 @@ msgid ""
 "RobotMode.None = 5 = Path(find) to target\n"
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
 msgstr ""
+"设计者 - 大概是哪个醉汉 - {LINK:Norsec;Norsec}机器人专家，AIMeE（或自动独立机械实体）可以是你最好的朋友，或是令人厌烦的克星，或同一天内两者都是。\n"
+"      \n"
+"该装置旨在自动挖掘和检索矿石，需要基本的编程知识才能运行，并且要{THING:MotherboardProgrammableChip}。\n"
+"\n"
+"AIMEe有7种模式：\n"
+"\n"
+"RobotMode.None = 0 = 不执行任何操作\n"
+"RobotMode.None = 1 = 跟从最近的玩家\n"
+"RobotMode.None = 2 = 直线移动到目标\n"
+"RobotMode.None = 3 = 四处游荡，寻找半径为 15 坐标的矿石\n"
+"RobotMode.None = 4 = 在 3 米/ 1.5 个大网格内的溜槽输入或溜槽箱中卸载\n"
+"RobotMode.None = 5 = 寻找目标\n"
+"RobotMode.None = 6 = 自动分配状态，当存储槽已满时"
 
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
@@ -5676,7 +5689,7 @@ msgstr "咖啡杯"
 #: /Language/Things/RecordThing[Key='StructureSolarPanelFused']
 msgctxt "Things.StructureSolarPanelFused"
 msgid "Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}."
-msgstr ""
+msgstr "用于从阳光中发电。在风暴时会效率降低并损坏。你可以用一些可靠的{THING:ItemDuctTape}来修复它。"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelFused']
 msgctxt "Things.StructureSolarPanelFused"
@@ -5699,22 +5712,19 @@ msgid "Lander"
 msgstr "着陆器"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterPollutants']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterPollutants"
 msgid "Portable Gas Tank (Pollutants)"
-msgstr "便携储罐(污染物)"
+msgstr "便携式储气罐（污染物）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrousOxide']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterNitrousOxide"
 msgid "Portable Gas Tank (Nitrous Oxide)"
-msgstr "便携储罐(氧化亚氮)"
+msgstr "便携式储气罐（一氧化二氮）"
 
 #: /Language/Things/RecordThing[Key='ItemKitAutoMiner']
-#, fuzzy
 msgctxt "Things.ItemKitAutoMiner"
 msgid "Kit (Auto Miner)"
-msgstr "套件(自动挖矿机)"
+msgstr "套件（自动挖矿机）"
 
 #: /Language/Things/RecordThing[Key='Meteorite']
 msgctxt "Things.Meteorite"
@@ -5744,7 +5754,7 @@ msgstr "带导轨的楼梯"
 #: /Language/Things/RecordThing[Key='ItemKitRoverFrame']
 msgctxt "Things.ItemKitRoverFrame"
 msgid "Not spawnable."
-msgstr ""
+msgstr "不可再生。"
 
 #: /Language/Things/RecordThing[Key='ItemKitRoverFrame']
 msgctxt "Things.ItemKitRoverFrame"
@@ -5773,6 +5783,7 @@ msgid ""
 "mountains. The heavy mining drill will remove more ground and mine {LINK:OrePage;ore} more quickly than the standard mining drill. The heavy mining drill is also resilient to temperature and "
 "pressure. So no matter what planet or extreme weather conditions may be present, the Recurso heavy mining drill will get the job done."
 msgstr ""
+"有时采矿旅行需要更大一点的东西才能将货物带回家。这个放大版的{LINK:Recurso;Recurso}'拓朴' 设计的{THING:ItemMiningDrill}可以從字面上移山。重型采矿钻头将比标准采矿钻机更快地移除更多的地面并采矿。重型采矿钻机还具有耐受温度和压力的弹性。因此，无论存在何种行星或极端天气条件，{LINK:Recurso;Recurso}重型采矿钻头都将完成工作。"
 
 #: /Language/Things/RecordThing[Key='ItemMiningDrillHeavy']
 msgctxt "Things.ItemMiningDrillHeavy"
@@ -5825,10 +5836,9 @@ msgstr ""
 " 95% 或以上的通信信号才能与交易者建立可靠的通信。"
 
 #: /Language/Things/RecordThing[Key='MotherboardComms']
-#, fuzzy
 msgctxt "Things.MotherboardComms"
 msgid "Communications Motherboard"
-msgstr "通信"
+msgstr "通信主板"
 
 #: /Language/Things/RecordThing[Key='ItemAlienMushroom']
 msgctxt "Things.ItemAlienMushroom"
