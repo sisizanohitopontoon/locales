@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-01 05:43+0000\n"
+"PO-Revision-Date: 2022-08-01 05:50+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5856,13 +5856,15 @@ msgid "Kit (Satellite Dish)"
 msgstr "套件(卫星天线)"
 
 #: /Language/Things/RecordThing[Key='StructureSatelliteDish']
-#, fuzzy
 msgctxt "Things.StructureSatelliteDish"
 msgid ""
 "This large communications unit can be used to communicate with nearby trade vessels.\n"
 "      \n"
 "When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine}, this allows Stationeers to trade with suppliers. Adjust its horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader."
-msgstr "卫星天线"
+msgstr ""
+"这种大型通信单元可用于与附近的贸易船只进行通信。\n"
+"      \n"
+"当连接到包含{THING:MotherboardComms}主板、{THING:StructureShuttleLandingPad}和 {THING:StructureVendingMachine}的{THING:StructureComputer}时，你可以与供应商进行交易。直接或通过逻辑调整其水平和垂直角度。你需要95%或以上的通信信号才能与交易者建立可靠的通信。"
 
 #: /Language/Things/RecordThing[Key='StructureSatelliteDish']
 msgctxt "Things.StructureSatelliteDish"
@@ -5966,13 +5968,12 @@ msgctxt "Things.MotherboardProgrammableChip"
 msgid ""
 "When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ItemIntegratedCircuit10} if housed in an "
 "{THING:StructureCircuitHousing}."
-msgstr ""
+msgstr "当放置在{THING:StructureComputer}中时，IC编辑器允许玩家编写和编辑IC代码，如果将其放置在{THING:StructureCircuitHousing}中，则可以将其上传到{THING:ItemIntegratedCircuit10}。"
 
 #: /Language/Things/RecordThing[Key='MotherboardProgrammableChip']
-#, fuzzy
 msgctxt "Things.MotherboardProgrammableChip"
 msgid "IC Editor Motherboard"
-msgstr "IC 编辑器"
+msgstr "IC 编辑器主板"
 
 #: /Language/Things/RecordThing[Key='StructureLogicWriterSwitch']
 msgctxt "Things.StructureLogicWriterSwitch"
@@ -5991,6 +5992,14 @@ msgid ""
 "Copper and Oxite = yellow\n"
 "Volatiles and Uranium = white"
 msgstr ""
+"当插入{THING:ItemTablet}并与{THING:DynamicGPR}结合使用时，扫描仪将在平板电脑上以不同的颜色显示隐藏在地下的矿物质。\n"
+"\n"
+"铁和尼克尔=红色\n"
+"冰、铅、钴 = 青色\n"
+"金色和银色 = 绿色\n"
+"煤和硅 = 洋红色\n"
+"铜和氧化石 = 黄色\n"
+"挥发物和铀=白色"
 
 #: /Language/Things/RecordThing[Key='CartridgeOreScannerColor']
 msgctxt "Things.CartridgeOreScannerColor"
@@ -6003,10 +6012,9 @@ msgid "Kit (Speaker)"
 msgstr "(套件)扬声器"
 
 #: /Language/Things/RecordThing[Key='StructureKlaxon']
-#, fuzzy
 msgctxt "Things.StructureKlaxon"
 msgid "Klaxons allow you to play over 50 announcemets and sounds, depending on your {LINK:LogicPage;Logic} set-up. Set the mode to select the output."
-msgstr "扬声器"
+msgstr "喇叭可以播放超过50种声明与声音，具体取决于{LINK:LogicPage;Logic}的设置。设置模式以选择输出内容。"
 
 #: /Language/Things/RecordThing[Key='StructureKlaxon']
 msgctxt "Things.StructureKlaxon"
@@ -6030,6 +6038,9 @@ msgid ""
 "The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensible for building, mining and general movement, it has fourteen storage slots.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
 msgstr ""
+"{LINK:Norsec;Norsec}的喷气背包严格来说不是喷气背包，它是气体推进器。它可以由任何气体提供动力，只要{LINK:AtmosphericsPage;canister}的内部压力高于环境外部压力。如果外部压力较大，空间包将无法正常工作。调整推力值会改变您的加速度，而激活稳定器会导致空间包在达到给定高度时悬停。\n"
+"硬质潜水背包能够比{THING:ItemJetpackBasic}产生更高的速度 - 高达15m/s。对于建筑，采矿和一般运动是必不可少的，它有十四个存储槽位。\n"
+"使用：“J”激活;“空间”上升;“左 ctrl”下降;和“WASD”移动。"
 
 #: /Language/Things/RecordThing[Key='ItemHardJetpack']
 msgctxt "Things.ItemHardJetpack"
@@ -6039,7 +6050,7 @@ msgstr "进阶喷气背包"
 #: /Language/Things/RecordThing[Key='ItemHardBackpack']
 msgctxt "Things.ItemHardBackpack"
 msgid "This backpack can be useful when you are working inside and don't need to fly around."
-msgstr ""
+msgstr "当您在室内工作时，这个背包很有用，不需要飞来飞去。"
 
 #: /Language/Things/RecordThing[Key='ItemHardBackpack']
 msgctxt "Things.ItemHardBackpack"
