@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-31 03:31+0000\n"
+"PO-Revision-Date: 2022-08-01 02:10+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1345,11 +1345,14 @@ msgid ""
 "      \n"
 "      For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia."
 msgstr ""
+"本质上是一个高度绝缘的盒子，允许用户在任何所需的大气中管道，{LINK:Recurso;Recurso}迷你吧冰箱是解决{LINK:NutritionPage;food decay}问题的简单方法。它可以存储少量物品，在任何温度下都可以聚集。\n"
+"      \n"
+"有关食品保存的更多信息，请访问空间站百科的{LINK:DecayPage;food decay}部分。"
 
 #: /Language/Things/RecordThing[Key='StructureRefrigeratedVendingMachine']
 msgctxt "Things.StructureRefrigeratedVendingMachine"
 msgid "Refrigerated Vending Machine"
-msgstr ""
+msgstr "冷藏自动售货机"
 
 #: /Language/Things/RecordThing[Key='StructureRefrigeratedVendingMachine']
 msgctxt "Things.StructureRefrigeratedVendingMachine"
@@ -1358,6 +1361,9 @@ msgid ""
 "The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.\n"
 "NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. "
 msgstr ""
+"冷藏OmniKool自动售货机是标准{THING;StructureVendingMachine}，保持最佳压力和-130°C的恒定温度，防止食物变质。它最多可容纳100组物品。\n"
+"OmniKool还有一个内置的{THING:StructureStacker}，允许玩家设置添加到设备中的任何物品的堆栈大小。设备的默认堆栈大小为 50。\n"
+"注意：更改堆栈大小不会更新计算机中的现有堆栈，只会添加的堆栈。 "
 
 #: /Language/Things/RecordThing[Key='ItemKitVendingMachineRefrigerated']
 msgctxt "Things.ItemKitVendingMachineRefrigerated"
@@ -1509,22 +1515,19 @@ msgid "Kit (Advanced Composter)"
 msgstr "套件（高级堆肥机）"
 
 #: /Language/Things/RecordThing[Key='ItemKitAdvancedComposter']
-#, fuzzy
 msgctxt "Things.ItemKitAdvancedComposter"
 msgid "Creates an {THING:StructureAdvancedComposter}."
-msgstr "创建一个 {THING:StructureRocketModuleSilo}."
+msgstr "创建一个{THING:StructureAdvancedComposter}。"
 
 #: /Language/Things/RecordThing[Key='ItemKitFridgeSmall']
-#, fuzzy
 msgctxt "Things.ItemKitFridgeSmall"
 msgid "Kit (Fridge Small)"
-msgstr "创建一个 {THING:StructureRocketModuleSilo}."
+msgstr "套件（小冰箱）"
 
 #: /Language/Things/RecordThing[Key='ItemKitFridgeSmall']
-#, fuzzy
 msgctxt "Things.ItemKitFridgeSmall"
 msgid "Creates a {THING:StructureFridgeSmall}."
-msgstr "创建一个 {THING:StructureRocketModuleSilo}."
+msgstr "创建一个{THING:StructureFridgeSmall}。"
 
 #: /Language/Things/RecordThing[Key='StructurePlanter']
 msgctxt "Things.StructurePlanter"
@@ -2246,7 +2249,7 @@ msgstr "低成本，高产量的炸药，带有10秒计时器。"
 #: /Language/Things/RecordThing[Key='ItemMiningCharge']
 msgctxt "Things.ItemMiningCharge"
 msgid "Mining Charge"
-msgstr "采矿费"
+msgstr "采矿炸药"
 
 #: /Language/Things/RecordThing[Key='ItemMiningCharge']
 msgctxt "Things.ItemMiningCharge"
@@ -2947,7 +2950,7 @@ msgctxt "Things.ItemCornSoup"
 msgid ""
 "Made using {THING:ItemCookedCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Faily high in nutrition, canned food does not "
 "{LINK:DecayPage;decay}."
-msgstr ""
+msgstr "使用{THING:ItemCookedCorn}和{THING:ItemEmptyCan}在{THING:AppliancePackagingMachine}或{THING:StructureAdvancedPackagingMachine}中制成。营养丰富，罐头食品不会腐败。"
 
 #: /Language/Things/RecordThing[Key='ItemCornSoup']
 msgctxt "Things.ItemCornSoup"
@@ -2959,7 +2962,7 @@ msgctxt "Things.ItemPumpkinSoup"
 msgid ""
 "Made using {THING:ItemCookedPumpkin} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not "
 "{LINK:DecayPage;decay}"
-msgstr ""
+msgstr "使用{THING:ItemCookedPumpkin}和{THING:ItemEmptyCan}在{THING:AppliancePackagingMachine}或{THING:StructureAdvancedPackagingMachine}中制成。营养相当高，罐头食品不会腐败"
 
 #: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
 msgctxt "Things.ItemPumpkinSoup"
@@ -2971,7 +2974,7 @@ msgctxt "Things.ItemEmptyCan"
 msgid ""
 "Used for making soups when combined with food in the {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not "
 "{LINK:DecayPage;decay}."
-msgstr ""
+msgstr "用于在{THING:AppliancePackagingMachine}或{THING:StructureAdvancedPackagingMachine}中与食物混合时制作汤。营养相当高，罐头食品不会腐败。"
 
 #: /Language/Things/RecordThing[Key='ItemEmptyCan']
 msgctxt "Things.ItemEmptyCan"
