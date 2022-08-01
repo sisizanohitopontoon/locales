@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-01 06:01+0000\n"
+"PO-Revision-Date: 2022-08-01 06:18+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -637,7 +637,6 @@ msgid "Automated Rocket Silo Module"
 msgstr "自动火箭筒仓模块"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleSilo']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleSilo"
 msgid ""
 "The {LINK:ExMin;ExMin} autononmous silo module provides storage for {LINK:OrePage;ores} collected by the {THING:StructureRocketModuleMiningOre}, {LINK:OrePage;ices} collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureModularRocketScrapMining} . In other words, it holds up to 600 'medium-sized dry goods'.\n"
@@ -646,8 +645,11 @@ msgid ""
 "The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to {LINK:ImportExportPage;import/export} networks.\n"
 "To extract resources from the silo module, you must set its state to 'OPEN' using logic."
 msgstr ""
-" <color=#0080FFFF>{LINK:ExMin;ExMin}</color> 自动无名筒仓模块为<color=#0080FFFF>{LINK:OrePage;ores}</color> 由{THING:StructureRocketModuleMiningOre}, <color=#0080FFFF>{LINK:OrePage;ices}</color> 由 {THING:StructureModularRocketIceMining}和\"太空垃圾\"收集的{THING:StructureRocketModuleMiningJunk}。它必须通过正确放置的 {THING:StructureMOdularRocketCouplingDown} 或 {THING:StructureModularRocketCouplingUp}连接到单元， 以便矿石从采矿单元进入筒仓。每个采矿单位必须有自己的筒仓和耦合单元。\n"
-"发射井模块在发射台上也必须供电，并且处于默认状态，但如果需要，可以按逻辑关闭。连接到滑道网络。"
+"{LINK:ExMin;ExMin}自动仓储单元为{THING:StructureRocketModuleMiningOre}、{THING:StructureModularRocketIceMining}和{THING:StructureModularRocketScrapMining}收集的矿石、结晶冰和“太空垃圾”提供存储。换句话说，它可容纳多达600种“中型干货”。\n"
+"仓储模块必须通过正确放置的{THING:StructureModularRocketCouplingDown}或{THING:StructureModularRocketCouplingUp}连接到采矿或打捞模块，以便材料进入筒仓。\n"
+"仓储模块在启动台上时也必须通电。默认情况下，它处于“打开”状态，但如果需要，可以使用逻辑关闭。\n"
+"该模块还可以附加到{THING:StructureChuteInlet}，以便将其连接到{LINK:ImportExportPage;import/export}网络。\n"
+"要从仓储模块中提取资源，必须使用逻辑将其状态设置为“打开”。"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleBattery']
 msgctxt "Things.StructureRocketModuleBattery"
@@ -657,7 +659,7 @@ msgstr "自动火箭储存模块"
 #: /Language/Things/RecordThing[Key='StructureRocketModuleBattery']
 msgctxt "Things.StructureRocketModuleBattery"
 msgid "Coming soon"
-msgstr ""
+msgstr "即将推出"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleGasCollector']
 msgctxt "Things.StructureRocketModuleGasCollector"
@@ -684,14 +686,11 @@ msgstr ""
 "即将推出"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningJunk']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleMiningJunk"
 msgid ""
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for "
 "{LINK:OrePage;ore} to pass from the collector unit into the silo."
-msgstr ""
-"所谓的 <color=#0080FFFF>{LINK:Sinotai;Sinotai}</color>'太空垃圾\"收集模块实际上是一个高端的自动打捞单元，旨在与 <color=#0080FFFF>{LINK:ExMin;ExMin}</color>自主火箭。它横扫了当地的空间，寻找残骸、废弃的太空运输和其他残骸。因此，它返回一个相当随机的项目分类。\n"
-"模块必须通过正确放置的{THING:StructureRocketModuleSilo}连接到{THING:StructureModularRocketCouplingDown}或{THING:StructureModularRocketCouplingUp}，以便矿石从收集单元进入筒仓。"
+msgstr "模块必须通过正确放置的{THING:StructureModularRocketCouplingDown} 或{THING:StructureModularRocketCouplingUp}连接到{THING:StructureRocketModuleSilo}，以便 {LINK:OrePage;ore}从收集器单元传递到仓储。"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
 msgctxt "Things.StructureRocketModuleMiningOre"
