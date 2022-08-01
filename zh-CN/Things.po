@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-01 09:04+0000\n"
+"PO-Revision-Date: 2022-08-01 09:07+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8104,6 +8104,20 @@ msgid ""
 "\n"
 "For more information about how to control temperatures, consult the {LINK:TemperatureControlPage;temperature control} Guides page."
 msgstr ""
+"{LINK:Xigo;Xigo}壁式冷却器与壁挂式加热器相辅相成。壁式冷却器的工作原理是从周围大气中吸收热量并将这些热量添加到其管网中。\n"
+"为了正确运行壁式冷却器，您需要将管道连接到壁式冷却器，并用任何类型的气体填充连接的管网。气体的热容量和体积将决定它对温度变化的反应速度。\n"
+"\n"
+"{HEADER:EFFICIENCY}\n"
+"管道和室内储存的气体之间的温差越大，壁挂式冷却器的效率就越低。因此，为了保持壁挂式冷却器以可接受的效率运行，您需要释放在与其相连的管道中积聚的热量。一种常见的做法是将管道运行到外部，并在管道的外部部分使用散热器来消除热量。\n"
+"壁挂式冷却器的效率越低，消耗的功率就越少。在最大效率下，它将消耗1010W。壁挂式冷却器可以通过逻辑芯片控制，在温度达到一定程度时运行。\n"
+"{HEADER:ERRORS}\n"
+"如果壁式冷却器闪烁错误，则缺少以下情况之一：\n"
+"\n"
+"- 管道连接到壁挂式冷却器。\n"
+"- 连接管道中的气体，或压力过低。\n"
+"- 周围环境中的大气或压力过低。\n"
+"\n"
+"有关如何控制温度的更多信息，请参阅{LINK:TemperatureControlPage;temperature control}指南页面。"
 
 #: /Language/Things/RecordThing[Key='StructureWallCooler']
 msgctxt "Things.StructureWallCooler"
@@ -8118,7 +8132,7 @@ msgstr "液体阀"
 #: /Language/Things/RecordThing[Key='StructureVolumePump']
 msgctxt "Things.StructureVolumePump"
 msgid "The volume pump pumps pumpable gases. It also separates out pipe networks into separate networks."
-msgstr ""
+msgstr "容积泵泵送可泵送气体。它还将管网分离到单独的网络中。"
 
 #: /Language/Things/RecordThing[Key='StructureVolumePump']
 msgctxt "Things.StructureVolumePump"
@@ -8158,7 +8172,7 @@ msgstr "小储罐"
 #: /Language/Things/RecordThing[Key='StructureTankConnectorLiquid']
 msgctxt "Things.StructureTankConnectorLiquid"
 msgid "These basic mounting devices allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network."
-msgstr ""
+msgstr "这些基本的安装设备允许您将{THING:DynamicLiquidCanisterEmpty}连接到液体管网。"
 
 #: /Language/Things/RecordThing[Key='StructureTankConnectorLiquid']
 msgctxt "Things.StructureTankConnectorLiquid"
@@ -8168,7 +8182,7 @@ msgstr "储液罐连接底座"
 #: /Language/Things/RecordThing[Key='StructureTankConnector']
 msgctxt "Things.StructureTankConnector"
 msgid "Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a gas pipe network."
-msgstr ""
+msgstr "储罐连接器是基本的安装设备，允许您将{THING:DynamicGasCanisterEmpty}连接到天然气管网。"
 
 #: /Language/Things/RecordThing[Key='StructureTankConnector']
 msgctxt "Things.StructureTankConnector"
@@ -8182,6 +8196,9 @@ msgid ""
 "When powered and connected to {THING:Oxygen} and {THING:Propellant}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasFilterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.\n"
 "All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery."
 msgstr ""
+"整洁实用的宇航服存储架可容纳{THING:ItemEvaSuit}，{THING:ItemSpaceHelmet}和{THING:ItemJetpackBasic}。\n"
+"当通电并连接到{THING:Oxygen}和{THING:Propellant}时，它将为防护服的电池充电，重新填充{THING:ItemGasCanisterOxygen}和你的{THING:ItemGasFilterNitrogen}{SLOT:GasCanister}。废料仓将被泵出到连接到废物出口的管道中。\n"
+"必须连接机架的所有管道，否则设备将显示错误状态，但仍会为电池充电。"
 
 #: /Language/Things/RecordThing[Key='StructureSuitStorage']
 msgctxt "Things.StructureSuitStorage"
