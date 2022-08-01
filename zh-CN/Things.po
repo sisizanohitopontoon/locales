@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-01 08:44+0000\n"
+"PO-Revision-Date: 2022-08-01 08:49+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7864,6 +7864,10 @@ msgid ""
 "The smelting process also releases a range of by product {LINK:GasPage;gases}, principally {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} and {GAS:Oxygen} in differing ratios. These can be recaptured from the atmosphere by filtering, but also make the arc furnace a risk in closed environments. \n"
 "Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create {LINK:IngotPage;alloys}."
 msgstr ""
+"最简单的冶炼系统可供新手空间站长使用。电弧炉是在太阳系深处锻造的，以帮助勘探地质学家确定潜在小行星采矿目标的纯度。\n"
+"在发展署的增选下，它现在为空间站长提供了一种生产各种资源的金属锭的方法。\n"
+"冶炼过程还释放了一系列不同比例的副产品{LINK:GasPage;gases}，主要是{GAS:Nitrogen}，{GAS:CarbonDioxide}，{GAS:Volatiles}和{GAS:Oxygen}。这些可以通过过滤器从大气中重新捕获，但也使电弧炉在封闭环境中非常危险。\n"
+"与更先进的{THING:StructureFurnace}不同，电弧炉不能创建{LINK:IngotPage;alloys}。"
 
 #: /Language/Things/RecordThing[Key='StructureArcFurnace']
 msgctxt "Things.StructureArcFurnace"
@@ -7873,7 +7877,7 @@ msgstr "电弧炉"
 #: /Language/Things/RecordThing[Key='StructureChuteWindow']
 msgctxt "Things.StructureChuteWindow"
 msgid "Chute's with windows let you see what's passing through your {LINK:ImportExportPage;import/export} network. But be warned, they are not insulated as other chutes are. Ices will melt."
-msgstr ""
+msgstr "带有窗口的滑槽可让您查看通过{LINK:ImportExportPage;import/export}网络的内容。但要注意，它们不像其他溜槽那样绝缘。冰会融化。"
 
 #: /Language/Things/RecordThing[Key='StructureChuteWindow']
 msgctxt "Things.StructureChuteWindow"
@@ -7891,6 +7895,8 @@ msgid ""
 "Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.\n"
 "Note that transformers operate as data isolators, preventing data flowing into any network beyond it."
 msgstr ""
+"变压器控制将沿着电缆子网流下的最大功率，以防止{LINK:ElectronicPage;electrical}系统过载。小型变压器的输出可在0至5000W范围内设置。\n"
+"请注意，转换器能隔离数据，会防止数据流入其他网络。"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerSmall']
 msgctxt "Things.StructureTransformerSmall"
@@ -7908,6 +7914,8 @@ msgid ""
 "The large {LINK:Norsec;Norsec} transformer is a critical component of extended {LINK:ElectronicPage;electrical} networks, controlling the maximum power that will flow down a cable. To prevent overloading, output can be set from 0 to 50,000W. \n"
 "Note that transformers operate as data isolators, preventing data flowing into any network beyond it."
 msgstr ""
+"大型{LINK:Norsec;Norsec}变压器是扩展{LINK:ElectronicPage;electrical}网络的关键组件，它会控制流经电缆的最大功率。为了防止过载，输出可以设置为0到50，000W。\n"
+"请注意，变压器可以分隔数据，会阻止数据流入其它网络。"
 
 #: /Language/Things/RecordThing[Key='StructureTransformer']
 msgctxt "Things.StructureTransformer"
