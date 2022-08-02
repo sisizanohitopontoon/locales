@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-02 02:58+0000\n"
+"PO-Revision-Date: 2022-08-02 03:05+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9231,17 +9231,20 @@ msgid ""
 "{HEADER:POWER OUTPUT}\n"
 "Able to store up to 3600000W of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}."
 msgstr ""
+"提供大规模、可靠的电力存储，{LINK:Sinotai;Sinotai}'点子'站电池是大多数空间站长基地的心脏。\n"
+"使用电池的电气系统设计有各种各样的注意事项，每个有经验的空间站长都有一个故事要讲，因此空间站长的格言是：“防火防盗防电爆”\n"
+"{HEADER:POWER OUTPUT}\n"
+"能够存储高达3600000W的功率，其吞吐量没有实际限制，因此使用{THING:ItemCableCoilHeavy}是明智的。经验丰富的电气工程师也会嘲笑那些未能使用{THING:StructureAreaPowerControl}和{THING:StructureTransformer}切分电力网络的人。"
 
 #: /Language/Things/RecordThing[Key='StructureBattery']
-#, fuzzy
 msgctxt "Things.StructureBattery"
 msgid "Station Battery"
-msgstr "电池"
+msgstr "电池站"
 
 #: /Language/Things/RecordThing[Key='StructureBackPressureRegulator']
 msgctxt "Things.StructureBackPressureRegulator"
 msgid "Unlike the {THING:StructurePressureRegulator}, which closes when the input exceeds a given pressure, the back pressure regulator opens when input pressure reaches a given value."
-msgstr ""
+msgstr "与{THING:StructurePressureRegulator}不同，当输入超过给定压力时关闭，背压调节器在输入压力达到给定值时打开。"
 
 #: /Language/Things/RecordThing[Key='StructureBackPressureRegulator']
 msgctxt "Things.StructureBackPressureRegulator"
@@ -9256,11 +9259,15 @@ msgid ""
 "APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. \n"
 "Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only."
 msgstr ""
+"区域电源控制器（APC）具有三个主要功能。\n"
+"其主要目的是调节功率流，确保设备和机械的不间断性能，特别是那些具有波动消耗的设备和机械。\n"
+"区域电源控制器还会创建子网，因此区域电源控制器一端的设备在另一端上无法找到。\n"
+"最后，区域电源控制器可以为电池充电。发生断电时可以为子网提供备用电源。请注意，区域电源控制器需要电池来稳定功耗。它还有两种型号，每种型号都只允许电力单向流动。"
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControlReversed']
 msgctxt "Things.StructureAreaPowerControlReversed"
 msgid "Area Power Control"
-msgstr "区域电源控制"
+msgstr "区域电源控制器"
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControl']
 msgctxt "Things.StructureAreaPowerControl"
@@ -9270,16 +9277,20 @@ msgid ""
 "APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network.\n"
 "Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only."
 msgstr ""
+"区域电源控制器（APC）具有三个主要功能。\n"
+"其主要目的是调节功率流，确保设备和机械的不间断性能，特别是那些具有波动消耗的设备和机械。\n"
+"区域电源控制器还会创建子网，因此区域电源控制器一端的设备在另一端上无法找到。\n"
+"最后，区域电源控制器可以为电池充电。发生断电时可以为子网提供备用电源。请注意，区域电源控制器需要电池来稳定功耗。它还有两种型号，每种型号都只允许电力单向流动。"
 
 #: /Language/Things/RecordThing[Key='StructureAreaPowerControl']
 msgctxt "Things.StructureAreaPowerControl"
 msgid "Area Power Control"
-msgstr "区域电源控制"
+msgstr "区域电源控制器"
 
 #: /Language/Things/RecordThing[Key='StructureAirlock']
 msgctxt "Things.StructureAirlock"
 msgid "The standard airlock is a powered portal that forms the main component of an airlock chamber. As long as the airlock is not locked, it can be manually opened using a crowbar."
-msgstr ""
+msgstr "标准气闸是构成气闸室主要组件的动力门。只要气闸没有锁定，就可以使用撬棍手动打开。"
 
 #: /Language/Things/RecordThing[Key='StructureAirlock']
 msgctxt "Things.StructureAirlock"
