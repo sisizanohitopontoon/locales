@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-02 01:39+0000\n"
+"PO-Revision-Date: 2022-08-02 01:45+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8235,11 +8235,13 @@ msgid ""
 "A stacker is an important part of any automated chute network. The {LINK:Xigo;Xigo} ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs.\n"
 "The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots}, as well as splitting stacks into appropriate sizes as needed."
 msgstr ""
+"堆叠器是自动化溜槽网络的重要组成部分。为满足你存储的需求{LINK:Xigo;Xigo}ProKompile可以手动设置，也可以通过逻辑设置，以确保通过堆叠器的物品最大化。\n"
+"ProKompile可以堆叠各种各样的东西，例如{LINK:IngotPage;ingots}，以及根据需要将物品组拆分为适当的大小。"
 
 #: /Language/Things/RecordThing[Key='StructureStacker']
 msgctxt "Things.StructureStacker"
 msgid "Stacker"
-msgstr "堆垛机"
+msgstr "堆叠器"
 
 #: /Language/Things/RecordThing[Key='StructureSorter']
 msgctxt "Things.StructureSorter"
@@ -8247,7 +8249,7 @@ msgid ""
 "No amount of automation is complete without some way of moving different items to different parts of a system. The {LINK:Xigo;Xigo} A2B sorter can be programmed via a computer with a "
 "{THING:MotherboardSorter} to direct various items into different chute networks. Filtered items are always passed out the righthand side of the sorter, while non filtered items continue straight "
 "through."
-msgstr ""
+msgstr "如果无法将不同项目移动到不同地方的方法，那么再多的自动化也是不完整的。{LINK:Xigo;Xigo}A2B分拣机可以通过带有{THING:MotherboardSorter}的计算机进行编程，以将各种物品引导到不同的滑槽网络中。过滤的项目会传递到分拣机的右侧，而未过滤的项目则直接通过。"
 
 #: /Language/Things/RecordThing[Key='StructureSorter']
 msgctxt "Things.StructureSorter"
@@ -8255,12 +8257,11 @@ msgid "Sorter"
 msgstr "分拣机"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanel']
-#, fuzzy
 msgctxt "Things.StructureSolarPanel"
 msgid ""
 "{LINK:Sinotai;Sinotai's} standard solar panels are used for generating power from sunlight. They can be connected to {LINK:LogicPage;Logic} systems, in order to track sunlight, but their reduced "
 "during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}."
-msgstr "太阳能板"
+msgstr "{LINK:Sinotai;Sinotai}太阳能电池板用于从阳光中发电。它们可以连接到{LINK:LogicPage;Logic}系统以跟踪阳光，但它们在风暴中会损失效率并损坏。你可以使用一些可靠的{THING:ItemDuctTape}来修复这些。"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanel']
 msgctxt "Things.StructureSolarPanel"
@@ -8277,12 +8278,12 @@ msgctxt "Things.StructureRTG"
 msgid ""
 "The {LINK:Norsec;Norsec}RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a thermocouple. Normally "
 "restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output."
-msgstr ""
+msgstr "{LINK:Norsec;Norsec}RTG（放射性同位素热电发电机）利用放射性衰变的热输出通过热电偶上的温差产生电压。RTG通常仅限于低能耗设备，有传言称RTG将利用Zrillian工程来实现其不可能的高功率输出。"
 
 #: /Language/Things/RecordThing[Key='StructureRTG']
 msgctxt "Things.StructureRTG"
 msgid "Creative RTG"
-msgstr "创造模式同位素温差发电机"
+msgstr "创造同位素温差发电机"
 
 #: /Language/Things/RecordThing[Key='StructureRocketEngineTiny']
 msgctxt "Things.StructureRocketEngineTiny"
@@ -8302,19 +8303,19 @@ msgstr "火箭发动机"
 #: /Language/Things/RecordThing[Key='StructureRailing']
 msgctxt "Things.StructureRailing"
 msgid "\"Safety third.\""
-msgstr ""
+msgstr "“安全第三。”"
 
 #: /Language/Things/RecordThing[Key='StructureRailing']
 msgctxt "Things.StructureRailing"
 msgid "Railing Industrial (Type 1)"
-msgstr ""
+msgstr "工业栏杆（1型）"
 
 #: /Language/Things/RecordThing[Key='StructurePressureRegulator']
 msgctxt "Things.StructurePressureRegulator"
 msgid ""
 "Controlling the flow of gas between two pipe networks, pressure regulators shift gas until a set pressure on the outlet side is achieved, or the gas supply is exhausted. The back pressure regulator,"
 " by contrast, will only operate when pressure on the intake side exceeds the set value. With a max pressure of over 20,000kPa, it requires power to operate."
-msgstr ""
+msgstr "控制两个管网之间的气体流量，压力调节器移动气体，直到达到出口侧的设定压力，或者气体供应耗尽。相比之下，背压调节器仅在进气侧压力超过设定值时运行。设置的最大压力可以超过20，000kPa。需要电力才能运行。"
 
 #: /Language/Things/RecordThing[Key='StructurePressureRegulator']
 msgctxt "Things.StructurePressureRegulator"
@@ -8324,7 +8325,7 @@ msgstr "压力调节器"
 #: /Language/Things/RecordThing[Key='StructurePowerConnector']
 msgctxt "Things.StructurePowerConnector"
 msgid "Attaches a {THING:ItemKitDynamicGenerator} to a power network."
-msgstr ""
+msgstr "将{THING:ItemKitDynamicGenerator}加到电力网络。"
 
 #: /Language/Things/RecordThing[Key='StructurePowerConnector']
 msgctxt "Things.StructurePowerConnector"
