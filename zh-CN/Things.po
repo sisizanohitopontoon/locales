@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-02 08:04+0000\n"
+"PO-Revision-Date: 2022-08-02 08:09+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -10602,11 +10602,12 @@ msgid ""
 "Filters are used to capture various gases, such as waste emissions from a {THING:StructureFurnace} or {THING:StructureArcFurnace}. Adding {LINK:Sinotai;Sinotai}-designed {GAS:Pollutant} filters to a"
 " {THING:ItemDynamicScrubber} allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a {THING:StructureWallCooler}. Try not to inhale."
 msgstr ""
+"滤芯用于捕获各种气体，例如来自{THING:StructureFurnace}或{THING:StructureArcFurnace}的废物排放。{LINK:Sinotai;Sinotai}设计的{GAS:Pollutant}过滤器到{THING:ItemDynamicScrubber}允许您隔离这种气体，然后将其排放到管网中，并在{THING:StructureWallCooler}中采用其出色的冷却剂特性。尽量不要吸入。"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterPollutants']
 msgctxt "Things.ItemGasFilterPollutants"
 msgid "Filter (Pollutant)"
-msgstr "次级滤芯(污染物)"
+msgstr "滤芯(污染物)"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
 msgctxt "Things.ItemGasFilterCarbonDioxide"
@@ -10615,16 +10616,19 @@ msgid ""
 "standard deployment kit (SDK). These filters allow passage of {GAS:CarbonDioxide} into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} "
 "and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available."
 msgstr ""
+"鉴于人类对呼气的痴迷{GAS:CarbonDioxide}，所有空间站长携带有两个基本{LINK:Sinotai;Sinotai} {GAS:CarbonDioxide}{SLOT:GasFilter}作为其标准部署套件 "
+"的一部分。这些过滤器允许{GAS:CarbonDioxide}进入套装的废弃瓶{THING:ItemGasCanisterEmpty}，同时也是{THING:DynamicScrubber}和{THING:StructureFiltration}的关键组件。{THING:ItemGasFilterCarbonDioxideM} "
+"和{THING:ItemGasFilterCarbonDioxideL}也可用。"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
 msgctxt "Things.ItemGasFilterCarbonDioxide"
 msgid "Filter (Carbon Dioxide)"
-msgstr "次级滤芯(二氧化碳)"
+msgstr "滤芯(二氧化碳)"
 
 #: /Language/Things/RecordThing[Key='ItemLiquidCanisterEmpty']
 msgctxt "Things.ItemLiquidCanisterEmpty"
 msgid "Holds {GAS:Water}, if you have some."
-msgstr ""
+msgstr "持有{GAS:Water}，如果你有一些。"
 
 #: /Language/Things/RecordThing[Key='ItemLiquidCanisterEmpty']
 msgctxt "Things.ItemLiquidCanisterEmpty"
@@ -10637,12 +10641,12 @@ msgid ""
 "The blue portable {GAS:Water} {SLOT:GasCanister} has a 64L capacity, supplying {GAS:Water} to items like the {THING:DynamicHydroponics} unit, or any other connected "
 "system. All liquid canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicLiquidCanisterEmpty} or {THING:StructureLiquidTankStorage} for refill."
 msgstr ""
+"蓝色便携式{GAS:Water}{SLOT:GasCanister}具有64升容量，为{THING:DynamicHydroponics}单元或任何其他连接的系统等物品提供{GAS:Water}。所有储液罐可以填充到8000kPa（80个大气压）压力，并且可以安装到{THING:DynamicLiquidCanisterEmpty}或{THING:StructureLiquidTankStorage}上进行补充。"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
-#, fuzzy
 msgctxt "Things.ItemGasCanisterWater"
 msgid "Liquid Canister (Water)"
-msgstr "金属罐(水)"
+msgstr "储液罐（水）"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterOxygen']
 msgctxt "Things.ItemGasCanisterOxygen"
