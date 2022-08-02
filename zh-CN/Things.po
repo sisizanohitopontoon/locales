@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-02 08:39+0000\n"
+"PO-Revision-Date: 2022-08-02 08:43+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11288,12 +11288,13 @@ msgid ""
 " you'll be picking tank shards out of your face. You can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an "
 "atmosphere. Or even paint it pink, call it Steve and fill that sad space in your heart."
 msgstr ""
+"便携式储气罐。如果您需要重新填充，请使用{THING:ItemWrench}将其螺栓固定到{THING:ItemTankConnector}上，然后将其连接到管网。尽量避免将其推到10 "
+"MPa以上，否则您将从脸上捡起罐体碎片。你可以通过将{THING:ItemGasCanisterOxygen}加到罐体的条纹部分来重新填充它。或者你可以把它通风到一个密封的房间，以创造一种氛围。或者甚至把它涂成粉红色，叫它史蒂夫，填满你心中的悲伤空间。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterOxygen']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterOxygen"
 msgid "Portable Gas Tank (Oxygen)"
-msgstr "便携储罐(氧)"
+msgstr "便携式储气罐（氧气）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrogen']
 msgctxt "Things.DynamicGasCanisterNitrogen"
@@ -11302,12 +11303,13 @@ msgid ""
 " you'll end up with {GAS:Nitrogen} in places you weren't expecting. You can refill a {THING:ItemGasCanisterNitrogen} by attaching it to the tank's striped section. Or you could use a "
 "{THING:ItemWrench} to attach it to a rover or rocket for later."
 msgstr ""
+"便携式储气罐。如果您需要重新填充，请使用{THING:ItemWrench}将其固定到{THING:ItemTankConnector}上，然后将其连接到管网。尽量避免将其推到10 "
+"MPa以上，否则您将在意想不到的地方最终得到{GAS:Nitrogen}。你可以通过将{THING:ItemGasCanisterNitrogen}附加到罐体的条纹部分来重新填充它。或者你可以使用{THING:ItemWrench}将其连接到火星车或火箭上，以备后用。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrogen']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterNitrogen"
 msgid "Portable Gas Tank (Nitrogen)"
-msgstr "便携储罐(氮)"
+msgstr "便携式储气罐（氮气）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterFuel']
 msgctxt "Things.DynamicGasCanisterFuel"
@@ -11315,26 +11317,24 @@ msgid ""
 "Portable tanks store gas. They're good at it. If you need to refill a tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or things"
 " get messy. You can refill a {THING:ItemGasCanisterFuel} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later. It's really"
 " up to you."
-msgstr ""
+msgstr "便携式储气罐。如果您需要重新填充储罐，请将其固定到{THING:ItemTankConnector}上，然后将其连接到管网。尽量避免将其推到10 MPa以上，否则事情会变得混乱。你可以通过将{THING:ItemGasCanisterFuel}附加到罐体的条纹部分来重新填充它。或者你可以使用{THING:ItemWrench}将其连接到火星车或火箭上，以备后用。这真的取决于你。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterFuel']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterFuel"
 msgid "Portable Gas Tank (Fuel)"
-msgstr "便携储罐(燃料)"
+msgstr "便携式储气罐（燃料）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterEmpty']
 msgctxt "Things.DynamicGasCanisterEmpty"
 msgid ""
 "Portable gas tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, "
 "you can refill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere."
-msgstr ""
+msgstr "便携式储气罐。要重新填充时，请将其固定到{THING:ItemTankConnector}，然后将其连接到管网。尽量避免将其推到10 MPa以上，否则会发生不好的事情。一旦它装满了，你可以通过将{THING:ItemGasCanisterEmpty}附加到罐体的条纹部分来重新填充它。或者，您可以将储罐的可变流量阀排放到房间中并创造氛围。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterEmpty']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterEmpty"
 msgid "Portable Gas Tank"
-msgstr "便携储罐(空)"
+msgstr "便携式储气罐"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterCarbonDioxide']
 msgctxt "Things.DynamicGasCanisterCarbonDioxide"
@@ -11343,12 +11343,12 @@ msgid ""
 "it's full, you can refill a {THING:ItemGasCanisterCarbonDioxide} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an "
 "atmosphere ... of sorts."
 msgstr ""
+"便携式储气罐只做一件事：储存气体。要重新填充储罐，请将其固定到{THING:ItemTankConnector}，然后将其连接到管网。尽量避免将其推到10 MPa以上，或者...。一旦它装满了，你可以通过将{THING:ItemGasCanisterCarbonDioxide}连接到罐体的条纹部分来重新填充它。或者，您可以将储罐的可变流量阀排放到房间中并创造氛围......种类繁多。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterCarbonDioxide']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterCarbonDioxide"
 msgid "Portable Gas Tank (CO2)"
-msgstr "便携储罐(二氧化碳)"
+msgstr "便携式储气罐（二氧化碳）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterAir']
 msgctxt "Things.DynamicGasCanisterAir"
