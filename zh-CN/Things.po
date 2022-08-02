@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-02 03:05+0000\n"
+"PO-Revision-Date: 2022-08-02 03:09+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9305,11 +9305,15 @@ msgid ""
 "Note that some {LINK:GasPage;gases} are better coolants than others, but if the coolant pipe has less than 100kPa pressure, it will siphon its output to reach the necessary pressure.\n"
 "For more information on using the air conditioner, consult the {LINK:TemperatureControlPage;temperature control} Guides page."
 msgstr ""
+"使用{THING:ItemKitAtmospherics}构建，{LINK:ExMin;ExMin}设计的空调用于提高或降低温度。\n"
+"该装置有三个管道连接：输入、输出和废气。将{THING:ItemActiveVent}连接到设备的输入端口，将被动通风口连接到输出端口，以便设备可以通过它吸入气体。将管道从设备的废气端口运行到基地外部，在那里您可以添加{THING:StructurePipeRadiator}以快速降温。\n"
+"请注意，一些{LINK:GasPage;gases}比其他冷却剂更好，但如果冷却剂管道的压力小于100kPa，它将虹吸其输出以达到必要的压力。\n"
+"有关使用空调的更多信息，请参阅{LINK:TemperatureControlPage;temperature control}指南页面。"
 
 #: /Language/Things/RecordThing[Key='StructureAirConditioner']
 msgctxt "Things.StructureAirConditioner"
 msgid "Air Conditioner"
-msgstr "空调机"
+msgstr "空调"
 
 #: /Language/Things/RecordThing[Key='StructureActiveVent']
 msgctxt "Things.StructureActiveVent"
@@ -9317,6 +9321,8 @@ msgid ""
 "Fragments of the original {LINK:Stationeers;Stationeers} Handbook recovered from the singularity describe the design of active vents:\n"
 "... active vent is a powered device for maintaining {LINK:GasPage;gas} pressure by pumping gas into (or out of) a pipe network. The vent has two modes: 'Outward' sets it to pump gas into a space until pressure is reached; 'Inward' sets it to pump gas out until pressure is reached. The pressure parameter can be set on a connected {THING:StructureConsole}. Default pressure is 101kPa for Outward; 0kPa for Inward ..."
 msgstr ""
+"空间站长的手册描述了主动通风口的设计：\n"
+"...主动通风口是一种动力设备，用于通过将气体泵入（或泵出）管网中来维持{LINK:GasPage;gas}压力。通风口有两种模式：“向外”将其设置为将气体泵入空间，直到达到压力;“向内”将其设置为将气体泵出，直到达到压力。压力参数可以在连接的{THING:StructureConsole}上设置。向外默认压力为101kPa;0kPa 用于向内 ..."
 
 #: /Language/Things/RecordThing[Key='StructureActiveVent']
 msgctxt "Things.StructureActiveVent"
@@ -9326,7 +9332,7 @@ msgstr "主动通风口"
 #: /Language/Things/RecordThing[Key='SpaceShuttle']
 msgctxt "Things.SpaceShuttle"
 msgid "An antiquated {LINK:Sinotai;Sinotai} transport craft, long since de-commissioned."
-msgstr ""
+msgstr "陈旧的{LINK:Sinotai;Sinotai}运输船，早已退役。"
 
 #: /Language/Things/RecordThing[Key='SpaceShuttle']
 msgctxt "Things.SpaceShuttle"
@@ -9336,7 +9342,7 @@ msgstr "航天飞机"
 #: /Language/Things/RecordThing[Key='OrganLungs']
 msgctxt "Things.OrganLungs"
 msgid "Lungs are delicate organs. Keeping them at the correct temperature and pressure is advisable."
-msgstr ""
+msgstr "肺是脆弱的器官。建议将它们保持在正确的温度和压力。"
 
 #: /Language/Things/RecordThing[Key='OrganLungs']
 msgctxt "Things.OrganLungs"
@@ -9346,7 +9352,7 @@ msgstr "人的肺"
 #: /Language/Things/RecordThing[Key='OrganBrain']
 msgctxt "Things.OrganBrain"
 msgid "This is your brain on {LINK:Stationeers;Stationeers}."
-msgstr ""
+msgstr "这是你的大脑。"
 
 #: /Language/Things/RecordThing[Key='OrganBrain']
 msgctxt "Things.OrganBrain"
@@ -9373,7 +9379,7 @@ msgctxt "Things.MothershipCore"
 msgid ""
 "A relic of from an earlier era of space ambition, {LINK:Sinotai;Sinotai's} mothership cores formed the central element of a generation's space-going creations. While Sinotai's pivot to smaller, "
 "modular craft upset some purists, motherships continue to be built and maintained by dedicated enthusiasts."
-msgstr ""
+msgstr "早期太空野心的遗物，Sinotai的母舰核心构成了一代人太空创作的核心元素。虽然中泰转向更小的模块化工艺让一些纯粹主义者感到不安，但母舰继续由热心的爱好者建造和维护。"
 
 #: /Language/Things/RecordThing[Key='MothershipCore']
 msgctxt "Things.MothershipCore"
