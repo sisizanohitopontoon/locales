@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-02 02:29+0000\n"
+"PO-Revision-Date: 2022-08-02 02:35+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8827,6 +8827,8 @@ msgid ""
 "This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port, and a charming sloped interface.\n"
 "A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed."
 msgstr ""
+"这个{LINK:Norsec;Norsec-designed}控制盒管理诸如{THING:StructureActiveVent}、{THING:StructurePassiveVent}、{THING:StructureGasSensor}、{THING:ItemSecurityCamera}和 {THING:StructureCompositeDoor}等设备，具体取决于将哪个 {LINK:LogicPage;circuitboard} 插入到单元中。它具有共享的数据/电源端口和迷人的倾斜界面。\n"
+"完成的控制台显示连接到当前电源网络的所有设备。任何与已安装的电路板无关的设备都将灰显且无法操作。一旦取出{THING:ItemDataDisk}，控制台就会被锁定。"
 
 #: /Language/Things/RecordThing[Key='StructureConsoleMonitor']
 msgctxt "Things.StructureConsoleMonitor"
@@ -8839,11 +8841,13 @@ msgid ""
 "This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} and others, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has separate data and power ports.\n"
 "A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed."
 msgstr ""
+"这个{LINK:Norsec;Norsec-designed}控制盒管理诸如{THING:StructureActiveVent}，{THING:StructureGasSensor}，{THING:StructureCompositeDoor}等设备，具体取决于将{LINK:LogicPage;circuitboard}插入到单元中的设备。它具有单独的数据和电源端口。\n"
+"完整的控制台会显示连接到当前电源网络的所有设备。任何与已安装的电路板无关的设备都将灰显且无法操作。一旦取出{THING:ItemDataDisk}，控制台就会被锁定。"
 
 #: /Language/Things/RecordThing[Key='StructureConsoleDual']
 msgctxt "Things.StructureConsoleDual"
 msgid "Console Dual"
-msgstr "双体控制台"
+msgstr "双端口控制台"
 
 #: /Language/Things/RecordThing[Key='StructureConsole']
 msgctxt "Things.StructureConsole"
@@ -8851,6 +8855,8 @@ msgid ""
 "This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port.\n"
 "A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed."
 msgstr ""
+"这个{LINK:Norsec;Norsec-designed}控制盒管理诸如{THING:StructureActiveVent}，{THING:StructurePassiveVent}，{THING:StructureGasSensor}，{THING:StructureCompositeDoor}等设备，具体取决于将{LINK:LogicPage;circuitboard}插入到单元中的设备。它具有单独的数据和电源端口。\n"
+"完整的控制台会显示连接到当前电源网络的所有设备。任何与已安装的电路板无关的设备都将灰显且无法操作。一旦取出{THING:ItemDataDisk}，控制台就会被锁定。"
 
 #: /Language/Things/RecordThing[Key='StructureConsole']
 msgctxt "Things.StructureConsole"
@@ -8869,6 +8875,14 @@ msgid ""
 "- {THING:MotherboardComms}\n"
 "- {THING:MotherboardProgrammableChip}"
 msgstr ""
+"在某些方面，“Chonk R1”是一个遗物，是由冲突严重的{LINK:Norsec;Norsec}技术人员设计的，他们需要一个可以与各种{LINK:LogicUnitPage;motherboards}一起运行的单元，同时还要忍受新学员可能遇到的最糟糕的情况。\n"
+"结果是一台机器被一些人描述为“唯一可能在与黑洞碰撞中幸存下来的PC”，而其他不太欣赏的用户则认为它与奶酪刨丝机共享其大部分技术DNA。\n"
+"兼容的主板：\n"
+"- {THING:MotherboardLogic}\n"
+"- {THING:MotherboardManufacturing}\n"
+"- {THING:MotherboardSorter}\n"
+"- {THING:MotherboardComms}\n"
+"- {THING:MotherboardProgrammableChip}"
 
 #: /Language/Things/RecordThing[Key='StructureComputer']
 msgctxt "Things.StructureComputer"
@@ -8878,7 +8892,7 @@ msgstr "电脑"
 #: /Language/Things/RecordThing[Key='StructureCompositeWindow']
 msgctxt "Things.StructureCompositeWindow"
 msgid "Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function."
-msgstr ""
+msgstr "复合墙具有气密性和耐极端温度，有几种迷人的，几乎相同的型号 - 反映了设计师对形式而不是功能的关注。"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWindow']
 msgctxt "Things.StructureCompositeWindow"
@@ -8888,7 +8902,7 @@ msgstr "复合窗"
 #: /Language/Things/RecordThing[Key='StructureCompositeWallType4']
 msgctxt "Things.StructureCompositeWallType4"
 msgid "Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function."
-msgstr ""
+msgstr "复合墙具有气密性和耐极端温度，有几种迷人的，几乎相同的型号 - 反映了设计师对形式而不是功能的关注。"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeWallType4']
 msgctxt "Things.StructureCompositeWallType4"
