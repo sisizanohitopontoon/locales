@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-03 08:18+0000\n"
+"PO-Revision-Date: 2022-08-03 08:24+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4591,24 +4591,22 @@ msgstr "开矿仪式"
 #: /Language/Interface/Record[Key='TraderHydraulic']
 msgctxt "Interface.TraderHydraulic"
 msgid "HydrauliKit"
-msgstr ""
+msgstr "液压套件"
 
 #: /Language/Interface/Record[Key='TraderBasic']
 msgctxt "Interface.TraderBasic"
 msgid "Spes'mall Basics"
-msgstr ""
+msgstr "斯佩斯商场基础知识"
 
 #: /Language/Interface/Record[Key='TraderOrganics']
-#, fuzzy
 msgctxt "Interface.TraderOrganics"
 msgid "Organicon"
 msgstr "有机物"
 
 #: /Language/Interface/Record[Key='TraderElectronics']
-#, fuzzy
 msgctxt "Interface.TraderElectronics"
 msgid "TechTree Electronics"
-msgstr "科技树"
+msgstr "电子科技树"
 
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
 msgctxt "Interface.InputTextTradingTitle"
@@ -4618,17 +4616,17 @@ msgstr "交易终端"
 #: /Language/Interface/Record[Key='ContactLandingRequestFailStorm']
 msgctxt "Interface.ContactLandingRequestFailStorm"
 msgid "Trader is unable to travel in this storm."
-msgstr ""
+msgstr "交易者无法在这场风暴中旅行。"
 
 #: /Language/Interface/Record[Key='ContactLandingRequestFailSatellite']
 msgctxt "Interface.ContactLandingRequestFailSatellite"
 msgid "There is an issue with your satellite. Check it's connected to the network and powered."
-msgstr ""
+msgstr "您的卫星有问题。检查它是否已连接到网络并已通电。"
 
 #: /Language/Interface/Record[Key='ContactLandingRequestFailVendingMachine']
 msgctxt "Interface.ContactLandingRequestFailVendingMachine"
 msgid "You need a powered Vending Machine on the network to interact with this trader."
-msgstr ""
+msgstr "您需要在网络上有一台通电的自动售货机来与该交易者进行交互。"
 
 #: /Language/Interface/Record[Key='ContactTradeRequestFailInUse']
 msgctxt "Interface.ContactTradeRequestFailInUse"
@@ -4736,7 +4734,6 @@ msgid "returns the hash of the structure in the slot"
 msgstr "返回插槽中结构的哈希"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
-#, fuzzy
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, requests an item of the provided type from the device"
 msgstr "当设置为唯一标识符时, 从设备请求一个该类型的物品"
@@ -4744,22 +4741,22 @@ msgstr "当设置为唯一标识符时, 从设备请求一个该类型的物品"
 #: /Language/Interface/Record[Key='CollectableGoods']
 msgctxt "Interface.CollectableGoods"
 msgid "Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet."
-msgstr ""
+msgstr "根据当前火箭系统是否具有在地球上收集资源的能力，返回 0 或 1。"
 
 #: /Language/Interface/Record[Key='RocketMode']
 msgctxt "Interface.RocketMode"
 msgid "Deprecated"
-msgstr ""
+msgstr "荒废的。"
 
 #: /Language/Interface/Record[Key='FuelReturnCost']
 msgctxt "Interface.FuelReturnCost"
 msgid "Gets the cost of fuel to return the rocket to your current world."
-msgstr ""
+msgstr "获取将火箭返回到当前世界的燃料成本。"
 
 #: /Language/Interface/Record[Key='FuelInTankRemaining']
 msgctxt "Interface.FuelInTankRemaining"
 msgid "Gets the fuel remaining in your rocket's fuel tank."
-msgstr ""
+msgstr "获取火箭油箱中剩余的燃料。"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMaxQuantity']
 msgctxt "Interface.LogicSlotTypeMaxQuantity"
@@ -5111,6 +5108,22 @@ msgid ""
 "        It is an unwavering universal law that anything higher than 11 will be purple. The {LINK:ODA;ODA} is powerless to change this. Similarly, anything lower than 0 will be Blue.\n"
 "      "
 msgstr ""
+"无论是出于对清晰度，安全性还是简单美学的关注空间站长可以使用一小道彩虹色来建造他们的建筑。这些是设备的颜色设置，表示为整数。\n"
+"\n"
+"0：蓝色\n"
+"1：灰色\n"
+"2：绿色\n"
+"3：橙色\n"
+"4：红色\n"
+"5：黄色\n"
+"6：白\n"
+"7：黑色\n"
+"8：棕色\n"
+"9：卡其色\n"
+"10：粉红色\n"
+"11：紫色\n"
+"\n"
+"这是一个坚定不移的普遍法则，任何高于11的东西都是紫色的。发展署无力改变这一点。同样，任何低于 0 的值都将为蓝色。      "
 
 #: /Language/Interface/Record[Key='LogicTypeIdle']
 msgctxt "Interface.LogicTypeIdle"
@@ -5205,13 +5218,12 @@ msgstr "水平角度设置"
 #: /Language/Interface/Record[Key='LogicTypeCombustion']
 msgctxt "Interface.LogicTypeCombustion"
 msgid "The assess atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 if not."
-msgstr ""
+msgstr "评估气体着火了。如果气体着火，则返回 1;如果不是，则返回 0。"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxide']
-#, fuzzy
 msgctxt "Interface.LogicTypeRatioNitrousOxide"
 msgid "The ratio of {GAS:NitrousOxide} in device atmosphere"
-msgstr "空气中氧化亚氮的比例"
+msgstr "空气中氮的比例"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioWater']
 msgctxt "Interface.LogicTypeRatioWater"
@@ -5234,7 +5246,6 @@ msgid "The ratio of nitrogen in device atmosphere"
 msgstr "空气中氮的比例"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
-#, fuzzy
 msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 msgid "The ratio of {GAS:CarbonDioxide} in device atmosphere"
 msgstr "空气中二氧化碳的比例"
@@ -5572,7 +5583,7 @@ msgctxt "Interface.NewWorldVenusShortDesc"
 msgid ""
 "Unvarying extreme temperatures and ultra-high pressures make Venus no place for the faint-hearted. Only the most accomplished Stationeers will survive on our once-sister planet, now a barren rock. "
 "Dig deep, or go home."
-msgstr ""
+msgstr "万无一失的极端温度和超高压使金星成为胆小者的地方。只有最有成就的工兵才能在我们曾经的姊妹星球上生存，现在是一块贫瘠的岩石。深入挖掘，或回家。"
 
 #: /Language/Interface/Record[Key='NewWorldSpaceShortDesc']
 msgctxt "Interface.NewWorldSpaceShortDesc"
@@ -5589,10 +5600,9 @@ msgid ""
 msgstr "虽然存在煤炭不是很符合真正月球的实际情况，但上面那大大小小相对平坦的陨石坑，没有大气层的单调灰色的景象在月球上还是比较容易见到的。一个危险和复杂度都相对较小的地外星球，对于刚入门的Stationeer来说，这是一个很好的开始"
 
 #: /Language/Interface/Record[Key='NewWorldMarsShortDesc']
-#, fuzzy
 msgctxt "Interface.NewWorldMarsShortDesc"
 msgid "A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something ..."
-msgstr "一个荒凉的尘土飞扬的红球, 火星的特点是更多样的地形, 可以到达天空, 和一个寒冷的气氛, 没有好处的呼吸, 但也许它可以用于一些东西..。"
+msgstr "火星是一个荒凉的尘土飞扬的红色球，具有更多样化的地形，可以伸向天空，以及寒冷的气氛，不利于呼吸，但也许它可以用于某些事情......"
 
 #: /Language/Interface/Record[Key='NewWorldAreaMimas']
 msgctxt "Interface.NewWorldAreaMimas"
@@ -5647,17 +5657,17 @@ msgstr "在此对象上暂时禁用的操作"
 #: /Language/Interface/Record[Key='ChangeSettingToForAll']
 msgctxt "Interface.ChangeSettingToForAll"
 msgid "Cycle to <color=yellow>{0}>for all {1}"
-msgstr ""
+msgstr "接受1时循环到0"
 
 #: /Language/Interface/Record[Key='ChangeSlotSettingToFor']
 msgctxt "Interface.ChangeSlotSettingToFor"
 msgid "Cycle to {1}<color=yellow>({0}) for {2}"
-msgstr ""
+msgstr "接受2时循环到0、1"
 
 #: /Language/Interface/Record[Key='ChangeReagentSettingTo']
 msgctxt "Interface.ChangeReagentSettingTo"
 msgid "Cycle to {2}.<color=yellow>{0}.<color=yellow>{1}"
-msgstr ""
+msgstr "接受0、1时循环到2"
 
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
 msgctxt "Interface.ChangeSettingToForIn"
