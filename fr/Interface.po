@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-03 14:45+0000\n"
+"PO-Revision-Date: 2022-08-03 14:46+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3645,32 +3645,32 @@ msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] == [ b ], sinon (faux|
 #: /Language/Interface/Record[Key='ScriptCommandSge']
 msgctxt "Interface.ScriptCommandSge"
 msgid "Register = 1 if a >= b, otherwise 0"
-msgstr "Stocke 1 dans le registre si a >= b, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] >= [ b ], sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSle']
 msgctxt "Interface.ScriptCommandSle"
 msgid "Register = 1 if a <= b, otherwise 0"
-msgstr "Stocke 1 dans le registre si a <= b, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] <= [ b ], sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSgt']
 msgctxt "Interface.ScriptCommandSgt"
 msgid "Register = 1 if a > b, otherwise 0"
-msgstr "Stocke 1 dans le registre si a > b, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] > [ b ], sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSlt']
 msgctxt "Interface.ScriptCommandSlt"
 msgid "Register = 1 if a < b, otherwise 0"
-msgstr "Stocke 1 dans le registre si a < b, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] < [ b ], sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSdns']
 msgctxt "Interface.ScriptCommandSdns"
 msgid "Register = 1 if device is not set, otherwise 0"
-msgstr "Test au sein du CI, si le registre d'appareil [ d? ] est associé à un dispositif existant. Si oui renvoie 0 dans [ r? ] sinon renvoie 1"
+msgstr "Test au sein du CI, si le registre d'appareils [ d? ] est associé à un dispositif existant. Si oui renvoie (faux|0) dans [ r? ] sinon renvoie (vrai|1)."
 
 #: /Language/Interface/Record[Key='ScriptCommandSdse']
 msgctxt "Interface.ScriptCommandSdse"
 msgid "Register = 1 if device is set, otherwise 0."
-msgstr "Test au sein du CI, si le registre d'appareil [ d? ] est bien associé à un dispositif. Si oui renvoie 1 dans [ r? ], sinon renvoie 0"
+msgstr "Test au sein du CI, si le registre d'appareils [ d? ] est bien associé à un dispositif. Si oui renvoie (vrai|1) dans [ r? ], sinon renvoie (faux|0)."
 
 #: /Language/Interface/Record[Key='ScriptCommandSub']
 msgctxt "Interface.ScriptCommandSub"
@@ -3680,7 +3680,7 @@ msgstr "Effectue une soustraction de [ a ] moins [ b ] et place le résultat dan
 #: /Language/Interface/Record[Key='ScriptCommandAdd']
 msgctxt "Interface.ScriptCommandAdd"
 msgid "Register = a + b."
-msgstr "Effectue une addition de [ a ] + [ b ] et place le résultat dans le registre [ r? ]"
+msgstr "Effectue une addition de [ a ] + [ b ] et place le résultat dans le registre [ r? ]."
 
 #: /Language/Interface/Record[Key='ScriptCommandMove']
 msgctxt "Interface.ScriptCommandMove"
@@ -3729,7 +3729,7 @@ msgstr ""
 #: /Language/Interface/Record[Key='ScriptCommandL']
 msgctxt "Interface.ScriptCommandL"
 msgid "Loads device var to register."
-msgstr "Charge la variable [ var ] de l'appareil [ d? ] et la stocke dans le registre [ r? ]."
+msgstr "Charge le contenu de la variable [ var ] de l'appareil [ d? ] et la stocke dans le registre [ r? ]."
 
 #: /Language/Interface/Record[Key='ServerReadyString']
 msgctxt "Interface.ServerReadyString"
