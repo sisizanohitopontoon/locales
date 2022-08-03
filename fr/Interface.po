@@ -3,8 +3,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-01 13:11+0000\n"
-"Last-Translator: pionnermegs <meriadeg.morel@laposte.net>\n"
+"PO-Revision-Date: 2022-08-03 14:45+0000\n"
+"Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -3345,32 +3345,32 @@ msgstr "Effectue un saut à la ligne [ c ] si [ a ] < [ b ] et stocke le numéro
 #: /Language/Interface/Record[Key='ScriptCommandBdnsal']
 msgctxt "Interface.ScriptCommandBdnsal"
 msgid "Jump execution to line a and store next line number if device is not set"
-msgstr "Fait sauter l'exécution à la ligne [ a ] et enregistre le numéro de la ligne suivante en ra(r17) si le dispositif [ d? ] n'est pas initialisé."
+msgstr "Effectue un saut à la ligne [ a ] et enregistre le numéro de la ligne suivante en ra(r17) si le dispositif [ d? ] n'est pas initialisé."
 
 #: /Language/Interface/Record[Key='ScriptCommandBdseal']
 msgctxt "Interface.ScriptCommandBdseal"
 msgid "Jump execution to line a and store next line number if device is set"
-msgstr "Fait sauter l'exécution à la ligne [ a ] et enregistre le numéro de la ligne suivante en [ ra,r17 ] si le dispositif [ d? ] est initialisé."
+msgstr "Effectue un saut à la ligne [ a ] et enregistre le numéro de la ligne suivante en ra(r17) si le dispositif [ d? ] est initialisé."
 
 #: /Language/Interface/Record[Key='ScriptCommandJal']
 msgctxt "Interface.ScriptCommandJal"
 msgid "Jump execution to line a and store next line number in ra"
-msgstr "Saute à la ligne [ a ] et stocke le numéro de la ligne suivante dans [ ra,r17 ]"
+msgstr "Effectue un saut à la ligne [ a ] et stocke le numéro de la ligne suivante dans ra(r17)"
 
 #: /Language/Interface/Record[Key='ScriptCommandBrnaz']
 msgctxt "Interface.ScriptCommandBrnaz"
 msgid "Relative branch to line c if abs(a) > float.epsilon * 8"
-msgstr "Fait un saut relatif de [ c ] lignes si abs([ a ]) > float.epsilon * 8"
+msgstr "Effectue un saut relatif de [ c ] lignes si abs([ a ]) > float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBrapz']
 msgctxt "Interface.ScriptCommandBrapz"
 msgid "Relative branch to line c if abs(a) <= float.epsilon * 8"
-msgstr "Fait un saut relatif de [ c ] lignes si abs([ a ]) <= float.epsilon * 8"
+msgstr "Effectue un saut relatif de [ c ] lignes si abs([ a ]) <= float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBrnez']
 msgctxt "Interface.ScriptCommandBrnez"
 msgid "Relative branch to line b if a != 0"
-msgstr "Fait un saut relatif de [ c ] lignes si abs([ a ]) != float.epsilon * 8"
+msgstr "Effectue un saut relatif de [ c ] lignes si abs([ a ]) != float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBreqz']
 msgctxt "Interface.ScriptCommandBreqz"
@@ -3590,57 +3590,57 @@ msgstr "Renvoie (vrais|1) dans le registre [ r? ] si |[ a ]| > float.epsilon, si
 #: /Language/Interface/Record[Key='ScriptCommandSapz']
 msgctxt "Interface.ScriptCommandSapz"
 msgid "Register = 1 if |a| <= float.epsilon * 8, otherwise 0"
-msgstr "Register = 1 if |a| <= float.epsilon * 8, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si |[ a ]| <= float.epsilon, sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSnez']
 msgctxt "Interface.ScriptCommandSnez"
 msgid "Register = 1 if a != 0, otherwise 0"
-msgstr "Stocke 1 dans le registre si a != 0, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] != (nul|0), sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSeqz']
 msgctxt "Interface.ScriptCommandSeqz"
 msgid "Register = 1 if a == 0, otherwise 0"
-msgstr "Stocke 1 dans le registre si a == 0, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] == (nul|0), sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSgez']
 msgctxt "Interface.ScriptCommandSgez"
 msgid "Register = 1 if a >= 0, otherwise 0"
-msgstr "Stocke 1 dans le registre si a >= 0, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] >= 0, sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSlez']
 msgctxt "Interface.ScriptCommandSlez"
 msgid "Register = 1 if a <= 0, otherwise 0"
-msgstr "Stocke 1 dans le registre si a <= 0, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] <= 0, sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSgtz']
 msgctxt "Interface.ScriptCommandSgtz"
 msgid "Register = 1 if a > 0, otherwise 0"
-msgstr "Stocke 1 dans le registre si a > 0, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] > 0, sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSltz']
 msgctxt "Interface.ScriptCommandSltz"
 msgid "Register = 1 if a < 0, otherwise 0"
-msgstr "Stocke 1 dans le registre si a < 0, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] < 0, sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSna']
 msgctxt "Interface.ScriptCommandSna"
 msgid "Register = 1 if abs(a - b) > max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0"
-msgstr "Stocke 1 dans le registre si abs(a - b) > max(c * max(abs(a), abs(b)), float.epsilon * 8), sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si abs([ a ]-[ b ]) > max([ c ] * max(abs([ a ]), abs([ b ])), float.epsilon * 8), sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSap']
 msgctxt "Interface.ScriptCommandSap"
 msgid "Register = 1 if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0"
-msgstr "Stocke 1 dans le registre si abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8), sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si abs([ a ]-[ b ]) <= max([ c ] * max(abs([ a ]), abs([ b ])), float.epsilon * 8), sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSne']
 msgctxt "Interface.ScriptCommandSne"
 msgid "Register = 1 if a != b, otherwise 0"
-msgstr "Stocke 1 dans le registre si a != b, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] != [ b ], sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSeq']
 msgctxt "Interface.ScriptCommandSeq"
 msgid "Register = 1 if a == b, otherwise 0"
-msgstr "Stocke 1 dans le registre si a == b, sinon 0"
+msgstr "Renvoie (vrai|1) dans le registre [ r? ] si [ a ] == [ b ], sinon (faux|0)"
 
 #: /Language/Interface/Record[Key='ScriptCommandSge']
 msgctxt "Interface.ScriptCommandSge"
