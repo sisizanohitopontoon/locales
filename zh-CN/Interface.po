@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-03 08:14+0000\n"
+"PO-Revision-Date: 2022-08-03 08:18+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3122,16 +3122,14 @@ msgid "Returns the tan of the specified angle (radians) "
 msgstr "返回指定角度的正切（弧度） "
 
 #: /Language/Interface/Record[Key='ScriptCommandCos']
-#, fuzzy
 msgctxt "Interface.ScriptCommandCos"
 msgid "Returns the cosine of the specified angle (radians)"
-msgstr "返回指定角度的Cos值"
+msgstr "返回指定角度（弧度）的余弦值"
 
 #: /Language/Interface/Record[Key='ScriptCommandSin']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSin"
 msgid "Returns the sine of the specified angle (radians)"
-msgstr "返回指定角度的sin值"
+msgstr "返回指定角度（弧度）的正弦值"
 
 #: /Language/Interface/Record[Key='ScriptCommandSleep']
 msgctxt "Interface.ScriptCommandSleep"
@@ -3672,7 +3670,7 @@ msgstr "标识寄存器或设备引用的标签名称，设备引用也影响在
 #: /Language/Interface/Record[Key='ScriptCommandLR']
 msgctxt "Interface.ScriptCommandLR"
 msgid "Loads reagent of device's reagentMode to register. Contents (0), Required (1), Recipe (2). Can use either the word, or the number."
-msgstr ""
+msgstr "加载设备试剂模式的试剂以进行配准。内容 （0）， 必需 （1）， 食谱 （2）.可以使用单词或数字。"
 
 #: /Language/Interface/Record[Key='ScriptCommandLS']
 msgctxt "Interface.ScriptCommandLS"
@@ -3682,7 +3680,7 @@ msgstr "将设备d上的插槽数据载入进寄存器r"
 #: /Language/Interface/Record[Key='ScriptCommandSB']
 msgctxt "Interface.ScriptCommandSB"
 msgid "Stores register value to var on all output network devices with provided type hash."
-msgstr ""
+msgstr "使用提供的类型哈希在所有输出网络设备上存储寄存器值到 var。"
 
 #: /Language/Interface/Record[Key='ScriptCommandS']
 msgctxt "Interface.ScriptCommandS"
@@ -3692,7 +3690,7 @@ msgstr "将寄存器 r 的值写入到设备 var"
 #: /Language/Interface/Record[Key='ScriptCommandLB']
 msgctxt "Interface.ScriptCommandLB"
 msgid "Loads var from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number."
-msgstr ""
+msgstr "使用提供批处理模式从所有输出网络设备加载 var，并提供类型哈希。平均值 （0）、总和 （1）、最小值 （2）、最大值 （3）。可以使用单词或数字。"
 
 #: /Language/Interface/Record[Key='ScriptCommandL']
 msgctxt "Interface.ScriptCommandL"
@@ -3702,7 +3700,7 @@ msgstr "加载设备 var 的值到寄存器 r 中。"
 #: /Language/Interface/Record[Key='ServerReadyString']
 msgctxt "Interface.ServerReadyString"
 msgid "Server can now be started."
-msgstr ""
+msgstr "现在可以启动服务器。"
 
 #: /Language/Interface/Record[Key='ResearchCancel']
 msgctxt "Interface.ResearchCancel"
@@ -3727,17 +3725,17 @@ msgstr "滤芯"
 #: /Language/Interface/Record[Key='NextWeatherEventTime']
 msgctxt "Interface.NextWeatherEventTime"
 msgid "Returns in seconds when the next weather event is inbound."
-msgstr ""
+msgstr "当下一个天气事件入站时，以秒为单位返回。"
 
 #: /Language/Interface/Record[Key='MineablesInQueue']
 msgctxt "Interface.MineablesInQueue"
 msgid "Returns the amount of mineables AIMEe has queued up to mine."
-msgstr ""
+msgstr "返回 AIMEe 排队到矿井的可开采量。"
 
 #: /Language/Interface/Record[Key='MineablesInVicinity']
 msgctxt "Interface.MineablesInVicinity"
 msgid "Returns the amount of potential mineables within an extended area around AIMEe."
-msgstr ""
+msgstr "返回 AIMEe 周围扩展区域内的潜在可开采量。"
 
 #: /Language/Interface/Record[Key='CurrentResearchPodType']
 msgctxt "Interface.CurrentResearchPodType"
@@ -3747,7 +3745,7 @@ msgstr "返回存储在机器中的pod类型。"
 #: /Language/Interface/Record[Key='ManualGetResearchPodsRequired']
 msgctxt "Interface.ManualGetResearchPodsRequired"
 msgid "Sets the pod type to search for a certian pod when breaking down a pods."
-msgstr ""
+msgstr "设置 Pod 类型以在分解 Pod 时搜索某个 Pod。"
 
 #: /Language/Interface/Record[Key='ActivateResearch']
 msgctxt "Interface.ActivateResearch"
@@ -3860,10 +3858,9 @@ msgid "ENCYCLOPEDIA"
 msgstr "百科全书"
 
 #: /Language/Interface/Record[Key='NetworkAnalyserTitle']
-#, fuzzy
 msgctxt "Interface.NetworkAnalyserTitle"
 msgid "NETWORK ANALYZER"
-msgstr "记忆卡(网络分析)"
+msgstr "电网分析卡"
 
 #: /Language/Interface/Record[Key='NetworkAnalyserRequired']
 msgctxt "Interface.NetworkAnalyserRequired"
@@ -4094,7 +4091,7 @@ msgstr "挥发性有机物"
 #: /Language/Interface/Record[Key='ElectronicReaderNitrice']
 msgctxt "Interface.ElectronicReaderNitrice"
 msgid "Nitrice"
-msgstr ""
+msgstr "亚硝酸盐"
 
 #: /Language/Interface/Record[Key='ElectronicReaderOxite']
 msgctxt "Interface.ElectronicReaderOxite"
@@ -4157,10 +4154,9 @@ msgid "WARNING"
 msgstr "警告"
 
 #: /Language/Interface/Record[Key='CartridgeAtmosAnalyserTitle']
-#, fuzzy
 msgctxt "Interface.CartridgeAtmosAnalyserTitle"
 msgid "ATMOSPHERE ANALYZER"
-msgstr "记忆卡(大气分析)"
+msgstr "大气分析卡"
 
 #: /Language/Interface/Record[Key='CartridgeAtmosAnalyserTemperatureTitle']
 msgctxt "Interface.CartridgeAtmosAnalyserTemperatureTitle"
@@ -4548,22 +4544,19 @@ msgid "Spes'mall"
 msgstr "Spes购物中心"
 
 #: /Language/Interface/Record[Key='TraderGas']
-#, fuzzy
 msgctxt "Interface.TraderGas"
 msgid "GasTrade"
-msgstr "Gassy贸易中心"
+msgstr "气体贸易"
 
 #: /Language/Interface/Record[Key='TraderOther']
-#, fuzzy
 msgctxt "Interface.TraderOther"
 msgid "Kolders' Assorted Goods"
-msgstr "Kolders商品批发"
+msgstr "科德斯的什锦商品"
 
 #: /Language/Interface/Record[Key='TraderSecurity']
-#, fuzzy
 msgctxt "Interface.TraderSecurity"
 msgid "Hall Corp Security"
-msgstr "Hall公司"
+msgstr "霍尔公司安全"
 
 #: /Language/Interface/Record[Key='TraderTool']
 msgctxt "Interface.TraderTool"
@@ -4571,15 +4564,14 @@ msgid "Tool Corp"
 msgstr "工具公司"
 
 #: /Language/Interface/Record[Key='TraderPaint']
-#, fuzzy
 msgctxt "Interface.TraderPaint"
 msgid "Color Corp Paints"
-msgstr "颜色公司"
+msgstr "彩色公司涂料"
 
 #: /Language/Interface/Record[Key='TraderExotics']
 msgctxt "Interface.TraderExotics"
 msgid "ExoTech"
-msgstr ""
+msgstr "外星科技"
 
 #: /Language/Interface/Record[Key='TraderChemistry']
 msgctxt "Interface.TraderChemistry"
@@ -4594,7 +4586,7 @@ msgstr "微波炉"
 #: /Language/Interface/Record[Key='TraderOre']
 msgctxt "Interface.TraderOre"
 msgid "MineRiteOres"
-msgstr ""
+msgstr "开矿仪式"
 
 #: /Language/Interface/Record[Key='TraderHydraulic']
 msgctxt "Interface.TraderHydraulic"
