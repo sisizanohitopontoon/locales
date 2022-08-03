@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-03 08:24+0000\n"
+"PO-Revision-Date: 2022-08-03 08:26+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5672,12 +5672,12 @@ msgstr "接受0、1时循环到2"
 #: /Language/Interface/Record[Key='ChangeSettingToForIn']
 msgctxt "Interface.ChangeSettingToForIn"
 msgid "Cycle to <color=yellow>{0} for {3} <color=yellow>({2}) in {1}"
-msgstr ""
+msgstr "接受2、3在1里时循环到0"
 
 #: /Language/Interface/Record[Key='ChangeSettingToFor']
 msgctxt "Interface.ChangeSettingToFor"
 msgid "Cycle to <color=yellow>{0} for {1}"
-msgstr ""
+msgstr "接受1时循环到0"
 
 #: /Language/Interface/Record[Key='HoldForPreviousObject']
 msgctxt "Interface.HoldForPreviousObject"
@@ -5687,7 +5687,7 @@ msgstr "按住 {KEY:QuantityModifier} 对上一个对象"
 #: /Language/Interface/Record[Key='ChangeSettingToAll']
 msgctxt "Interface.ChangeSettingToAll"
 msgid "Cycle to All {0}"
-msgstr ""
+msgstr "循环到{0}"
 
 #: /Language/Interface/Record[Key='ChangeSettingTo']
 msgctxt "Interface.ChangeSettingTo"
@@ -5720,16 +5720,14 @@ msgid "No additional slots for {0}"
 msgstr "{0}没有额外的插槽"
 
 #: /Language/Interface/Record[Key='LogicNoAvailableSlots']
-#, fuzzy
 msgctxt "Interface.LogicNoAvailableSlots"
 msgid "<color=red>No available slots"
-msgstr "<color=red>没有可用的插槽</color>"
+msgstr "<color=red>没有可用的插槽"
 
 #: /Language/Interface/Record[Key='LogicNoSlot']
-#, fuzzy
 msgctxt "Interface.LogicNoSlot"
 msgid "<color=red>No Slot"
-msgstr "<color=red>无插槽</color>"
+msgstr "<color=red>无插槽"
 
 #: /Language/Interface/Record[Key='LogicNoAdditionalSettingsFor']
 msgctxt "Interface.LogicNoAdditionalSettingsFor"
@@ -5747,10 +5745,9 @@ msgid "No Device"
 msgstr "无设备"
 
 #: /Language/Interface/Record[Key='LogicState']
-#, fuzzy
 msgctxt "Interface.LogicState"
 msgid "State <color=green>#VAR1#"
-msgstr "状态 {COLORGREEN:#VAR1#}"
+msgstr "状态 <color=green>#VAR1#"
 
 #: /Language/Interface/Record[Key='FurnaceSmelting']
 msgctxt "Interface.FurnaceSmelting"
@@ -5758,7 +5755,6 @@ msgid "Smelting {0}"
 msgstr "熔炼 {0}"
 
 #: /Language/Interface/Record[Key='FurnaceChamberText']
-#, fuzzy
 msgctxt "Interface.FurnaceChamberText"
 msgid ""
 "\n"
@@ -5766,8 +5762,8 @@ msgid ""
 "        Temperature {1}\n"
 "      "
 msgstr ""
-"压力 {0}\n"
-"                                     温度 {1}"
+"压力{0}\n"
+"        温度{1}      "
 
 #: /Language/Interface/Record[Key='FurnaceChamber']
 msgctxt "Interface.FurnaceChamber"
@@ -5822,7 +5818,7 @@ msgstr "处理交易时出现错误，一些东西离开了供应商！"
 #: /Language/Interface/Record[Key='TradingNoMoneyHash']
 msgctxt "Interface.TradingNoMoneyHash"
 msgid "Not enough money to complete this transaction, make sure you and the trader have enough money to complete the transaction."
-msgstr ""
+msgstr "没有足够的钱来完成这笔交易，请确保您和交易者有足够的钱来完成交易。"
 
 #: /Language/Interface/Record[Key='Incident_Supply']
 msgctxt "Interface.Incident_Supply"
@@ -5860,7 +5856,6 @@ msgid "Enter Name..."
 msgstr "输入名称..."
 
 #: /Language/Interface/Record[Key='NewWorldSpaceDesc']
-#, fuzzy
 msgctxt "Interface.NewWorldSpaceDesc"
 msgid ""
 "\n"
@@ -5870,17 +5865,13 @@ msgid ""
 "        *bugs\n"
 "      "
 msgstr ""
-"这是Stationeers的创造模式！你可以在这里快速调出游戏中的任意物品，建造或测试你任何有趣的想法。\n"
-"<color=yellow>(创造模式专用，/调出生成窗口，输入要生成的物品的key值，√勾选后，按F9，在角色面前生成一组刚才勾选的物品)</color>\n"
-"\n"
-"<color=red>此模式目前处于实验性阶段</color> \n"
-"\n"
-"与要命的生存模式相比，你可以把它想象成一个很自由的太空派对，但在这里可能会发生一些令人兴奋的和意想不到的事情* .\n"
-"                                              所以当你不小心地漂入虚空时或是被成群的野鸡塞爆基地时，不要过于伤心...\n"
-"                                              *bugs"
+"这是播音员创意模式！在任何物品中生成，测试想法并快速构建疯狂的东西。\n"
+"                                              <color=red>此模式是实验性的。把它想象成一个自由形式的太空派对，与生存模式更可靠的濒死体验相比，令人兴奋和意想不到的事情*可以而且将要发生。\n"
+"                                              只是不要难过，当你把自己吹成很小的碎片，或者被鸡野蛮地袭击，或者在独自漂流到无限的虚空中时慢慢爆炸。\n"
+"        *错误\n"
+"      </color=red>"
 
 #: /Language/Interface/Record[Key='NewWorldMoonDesc']
-#, fuzzy
 msgctxt "Interface.NewWorldMoonDesc"
 msgid ""
 "\n"
@@ -5890,10 +5881,10 @@ msgid ""
 "        Looks like you're gonna be here a while.\n"
 "      "
 msgstr ""
-"现在你被困在月球上了, 但情况也没有你想得那么坏.当然, 这里温度很低, 环境恶劣, 且景色非常单调, 但至少太阳还高挂在头上. 也就是说太阳能电池板对你是有用的, 还有电源控制器... 电弧炉也可能非常有用.\n"
-"                                              在其他的箱子里甚至还有一些食物和氧气, 不过不会帮你太久就是了. 还有你的电池.\n"
-"                                              你最好开始好好思考你该如何在这里生存下去. 弄个气闸舱室能有多难呢? 发电机会成问题吗? 熔炼矿石来建造基地会是你的终极问题吗?\n"
-"                                              无论如何，看来你得在这里呆一段时间了."
+"所以你被困在月球上，但这并不全是坏事。当然，它很冷，很刺耳，很单调，但至少阳光明媚。太阳能电池板将是有用的，而电源控制器...可能还有电弧炉。\n"
+"                                              其他板条箱里甚至还有一点食物和氧气，尽管它绝对不会永远持续下去。也不是你的电池。\n"
+"                                              你最好开始思考你将如何生存。安装气闸有多难？发电机？也许甚至可以闻到一些矿石并为自己建立一个基地？\n"
+"        看起来你会在这里呆一会儿。      "
 
 #: /Language/Interface/Record[Key='NewWorldAreaCustom']
 msgctxt "Interface.NewWorldAreaCustom"
