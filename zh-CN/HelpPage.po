@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-03 08:43+0000\n"
+"PO-Revision-Date: 2022-08-03 08:48+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -787,7 +787,6 @@ msgid "Travelling to Other Planets"
 msgstr "前往其他星球"
 
 #: /Language/HelpPage/StationpediaPage[Key='TravelPage']
-#, fuzzy
 msgctxt "HelpPage.TravelPage"
 msgid ""
 "Wait! Don't close me yet! The following conditions must be met for launch:\n"
@@ -812,14 +811,10 @@ msgstr ""
 "- 向{THING:StructureLaunchPad}提供电源\n"
 "- 所有玩家坐在{THING:StructureModularRocketCommand01}中\n"
 "\n"
-"下面是世界旅行的ID。你可以用它们来旅行到特定的星球，当与完成的{LINK:RocketShuttlePage;火箭飞船}和{LINK:LogicUnitPage;逻辑单元}相结合时。\n"
+"下面是世界旅行的ID。你可以用它们来旅行到特定的星球，当与完成的{LINK:RocketShuttlePage;Rocket Shuttle}和{LINK:LogicUnitPage;Logic Units}相结合时。\n"
 "       \n"
 "只要用{THING:StructureLaunchPad}上的{THING:StructureLogicWriter}和{THING:StructureLogicMemory}将哈希值写入设置变量即可。注意：你可以点击哈希值，将其复制到剪贴板上。\n"
-"      \n"
-"\n"
-"      {LIST}\n"
-"        {WORLD_HASHES}\n"
-"      {/LIST} {WORLD_HASHES}\n"
+"{LIST}{WORLD_HASHES}{/LIST}\n"
 "      "
 
 #: /Language/HelpPage/StationpediaPage[Key='RocketShuttleModulesHelpPage']
@@ -910,7 +905,6 @@ msgid "Weather"
 msgstr "天气"
 
 #: /Language/HelpPage/StationpediaPage[Key='WeatherPage']
-#, fuzzy
 msgctxt "HelpPage.WeatherPage"
 msgid ""
 "The Solar System's planets are not as calm as they may seem. After seven days on any world with an atmosphere, the inscrutable forces of nature swing into action – hitting unwary Stationeers with blizzards, dust storms and volcanic events.\n"
@@ -920,7 +914,7 @@ msgid ""
 "      "
 msgstr ""
 "太阳系的行星并不像它们看起来那样平静。在任何有大气层的世界上停留7天后，不可捉摸的自然力量就会开始行动--用暴风雪、沙尘暴和火山事件来打击不小心的驻扎者。\n"
-"因此，官方发展援助建议新部署的Stationeers在着陆后7天内建立一个密封的基地。\n"
+"因此，官方发展援助建议新部署的空间站长在着陆后7天内建立一个密封的基地。\n"
 "任何在风暴中留在外面的动态物体——在火星、楼兰、火神或木卫二上——都有被吹到很远很远的危险，包括你的着陆器。\n"
 "同样地，要注意太阳能电池板是脆弱的，它们的玻璃可能会破碎，或者偶尔甚至会被一场足够猛烈的风暴摧毁。在风暴期间，它们的产量也会大幅减少。\n"
 "      "
@@ -995,22 +989,19 @@ msgstr ""
 #: /Language/HelpPage/StationpediaPage[Key='DeviceTemplate']
 msgctxt "HelpPage.DeviceTemplate"
 msgid "{0}W"
-msgstr ""
+msgstr "{0}W"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasCanisterTemplate']
-#, fuzzy
 msgctxt "HelpPage.GasCanisterTemplate"
 msgid "{0}"
 msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='AtmosphericsTemplate']
-#, fuzzy
 msgctxt "HelpPage.AtmosphericsTemplate"
 msgid "{0}"
 msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPageTemplate']
-#, fuzzy
 msgctxt "HelpPage.NutritionPageTemplate"
 msgid "{0}"
 msgstr "{0}"
@@ -1165,20 +1156,11 @@ msgid "Flamable Limit {0} to {1}"
 msgstr "可燃极限 {0} 到 {1}"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
-#, fuzzy
 msgctxt "HelpPage.NutritionPage"
 msgid "Hunger and nutrition"
-msgstr ""
-"Stationeers最终会饿，但不是所有的食物都是一样的。另外，你的饥饿率根据设置和难度的不同而不同。吃东西只会消耗物品中足以使你的饥饿感恢复到100%的部分。\n"
-"\n"
-"Stationeers在到达一个新的世界时，会在他们的着陆器中收到诸如<color=#0080FFFF>{LINK:Agrizero;Agrizero}</color>{THING:ItemCerealBar}之类的食物供应。当这些东西用完后，你必须找到新的食物来源。\n"
-"\n"
-"吃原材料比吃正餐更能满足你的饥饿感，也就是说，你的饥饿感所占的比例会更小。食物的基本元素是通过<color=#0080FFFF>{LINK:OrganicsPage;hydroponics}</color>系统制造的。这些可以用{THING:ApplianceReagentProcessor}加工成食谱配料，然后用{THING:ApplianceMicrowave}加工成食物。\n"
-"\n"
-"你的饥饿率可以在主设置菜单中通过调整饥饿/补水率滑块进行调整设置。"
+msgstr "饥饿与营养"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
-#, fuzzy
 msgctxt "HelpPage.NutritionPage"
 msgid ""
 "{HEADER:HUNGER}\n"
@@ -1193,18 +1175,22 @@ msgid ""
 "\n"
 "Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider in the settings. Note that the hunger slider also governs your {LINK:HydrationPage;Thirst}.\n"
 msgstr ""
-"Stationeers最终会饿，但不是所有的食物都是一样的。另外，你的饥饿率根据设置和难度的不同而不同。吃东西只会消耗物品中足以使你的饥饿感恢复到100%的部分。\n"
+"{HEADER:HUNGER}\n"
 "\n"
-"Stationeers在到达一个新的世界时，会在他们的着陆器中收到诸如<color=#0080FFFF>{LINK:Agrizero;Agrizero}</color>{THING:ItemCerealBar}之类的食物供应。当这些东西用完后，你必须找到新的食物来源。\n"
+"空间站长总会感到饥饿的，但并非所有食物都一样。此外，您的饥饿率因设置和难度而异。进食只会消耗足以将饥饿感恢复到100%的那部分。\n"
 "\n"
-"吃原材料比吃正餐更能满足你的饥饿感，也就是说，你的饥饿感所占的比例会更小。食物的基本元素是通过<color=#0080FFFF>{LINK:OrganicsPage;hydroponics}</color>系统制造的。这些可以用{THING:ApplianceReagentProcessor}加工成食谱配料，然后用{THING:ApplianceMicrowave}加工成食物。\n"
+"空间站长在到达新世界后在他们的着陆器中会受到如{LINK:Agrizero;Agrizero}{THING:ItemCerealBar}的食物。当这些都用尽时，你必须找到新的食物来源 - 例如种植自己的种子，从提供的种子，或联系{LINK:TradingPage;Trader}\n"
 "\n"
-"你的饥饿率可以在主设置菜单中通过调整饥饿/补水率滑块进行调整设置。"
+"{HEADER:NUTRITION}\n"
+"\n"
+"吃原料会比吃饭更不能满足饥饿感，即会取代你饥饿感的一小部分。食物的基本元素是使用{LINK:OrganicPage;hydroponics}系统创建的。这些可以使用{THING:ApplianceReagentProcessor}加工成食谱成分，然后使用{THING:ApplianceMicrowave}或{THING:StructureAutomatedOven}变成饭菜。\n"
+"\n"
+"您的饥饿率可以通过调整设置中的饥饿/补水率滑块在主设置菜单中设置。请注意，饥饿滑块也控制您的{LINK:HydrationPage;Thirst}。"
 
 #: /Language/HelpPage/StationpediaPage[Key='FarmingPage']
 msgctxt "HelpPage.FarmingPage"
 msgid "Growing Food"
-msgstr ""
+msgstr "种植粮食"
 
 #: /Language/HelpPage/StationpediaPage[Key='FarmingPage']
 msgctxt "HelpPage.FarmingPage"
