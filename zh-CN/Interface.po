@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-03 06:49+0000\n"
+"PO-Revision-Date: 2022-08-03 06:54+0000\n"
 "Last-Translator: zhmofcpu <zhmofcpu@sina.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1622,6 +1622,11 @@ msgid ""
 "      \n"
 "2 {GAS:Volatiles} + 1 {GAS:Oxygen} -> 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + heat."
 msgstr ""
+"挥发物是一种反应性极强的复杂有机分子，可与氧气一起用作可燃燃料。它是从{THING:ItemVolatiles}提炼而来的。\n"
+"      \n"
+"由于晦涩难懂且基本上被遗忘的发展署法规，挥发物有时会被各种技术项目标记为“H2”。然而，尽管它们类似于氢，但它们并不是“实际上”的氢。{GAS:Volatiles}在没有催化剂的情况下燃烧时不会产生{GAS:Water}（参见{THING:H2Combustor}）。当在以下比例燃烧时，它们会产生{GAS:Pollutant}和{GAS:CarbonDioxide}：\n"
+"      \n"
+"2{GAS:Volatiles}+ 1{GAS:Oxygen}-> 3{GAS:Pollutant}+ 6{GAS:CarbonDioxide} + 热量。"
 
 #: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
 msgctxt "Interface.MoleCarbonDioxideDescription"
@@ -1631,13 +1636,17 @@ msgid ""
 "{GAS:CarbonDioxide} has a moderately high specific heat, meaning it makes a good coolant for devices like the Wall Coo\n"
 "{THING:StructureWallCooler}. {GAS:Water} is better, but usually has more important uses."
 msgstr ""
+"你呼出它，{LINK:OrganicPage;plants}吸进它。没有它，他们就不会成长。你可以使用放置在 {SLOT:GasFilter}插槽中的物品将其从大气中移除。\n"
+"      \n"
+"{GAS:CarbonDioxide}具有适度高的比热，这意味着它对于像壁挂式冷却机这样的设备来说是一个很好的冷却剂。\n"
+"{THING:StructureWallCooler}{GAS:Water}更好，但通常具有更重要的用途。"
 
 #: /Language/Interface/Record[Key='MoleNitrogenDescription']
 msgctxt "Interface.MoleNitrogenDescription"
 msgid ""
 "{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stablize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at "
 "roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System."
-msgstr ""
+msgstr "{GAS:Nitrogen}可以与{GAS:Oxygen}混合以稳定其可燃性并避免{GAS:Oxygen}毒性，并且本身就是一种资源，可用于创造可呼吸的大气层（大约为3：1 {GAS:Nitrogen}和{GAS:Oxygen}）。{GAS:Nitrogen}最有效的来源来自太阳系周围发现的{THING:ItemNitrice}沉积物。"
 
 #: /Language/Interface/Record[Key='AppearanceTitleHairColor']
 msgctxt "Interface.AppearanceTitleHairColor"
@@ -1649,114 +1658,107 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid ""
 "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It "
 "is highly flammable at low temperatures."
-msgstr ""
+msgstr "氧气在燃烧中释放时提供能量，并与氢气结合以产生{GAS:Water}。它是由{LINK:OrganicPage;plants}以及处理{THING:ItemOxite}创建的。它在低温下高度易燃。"
 
 #: /Language/Interface/Record[Key='StationpediaNutrition']
-#, fuzzy
 msgctxt "Interface.StationpediaNutrition"
 msgid "Nutrition:"
-msgstr "营养"
+msgstr "营养："
 
 #: /Language/Interface/Record[Key='StationpediaVolume']
 msgctxt "Interface.StationpediaVolume"
 msgid "Volume:"
-msgstr ""
+msgstr "卷："
 
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
-#, fuzzy
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
-msgstr "最大压力"
+msgstr "最大压力："
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
 msgid "Base Power Usage:"
-msgstr ""
+msgstr "基本功耗："
 
 #: /Language/Interface/Record[Key='Waveform']
 msgctxt "Interface.Waveform"
 msgid "Waveform"
-msgstr ""
+msgstr "波形"
 
 #: /Language/Interface/Record[Key='Intensity']
 msgctxt "Interface.Intensity"
 msgid "Intensity"
-msgstr ""
+msgstr "强度"
 
 #: /Language/Interface/Record[Key='NoNote']
 msgctxt "Interface.NoNote"
 msgid "No Note"
-msgstr ""
+msgstr "无备注"
 
 #: /Language/Interface/Record[Key='NoSoundCartridge']
-#, fuzzy
 msgctxt "Interface.NoSoundCartridge"
 msgid "No Sound Cartridge"
-msgstr "记忆卡"
+msgstr "无声卡"
 
 #: /Language/Interface/Record[Key='CurrentInstrument']
 msgctxt "Interface.CurrentInstrument"
 msgid "Current Instrument"
-msgstr ""
+msgstr "当前设备"
 
 #: /Language/Interface/Record[Key='Release']
-#, fuzzy
 msgctxt "Interface.Release"
 msgid "Release"
-msgstr "已死亡"
+msgstr "释放"
 
 #: /Language/Interface/Record[Key='Attack']
 msgctxt "Interface.Attack"
 msgid "Attack"
-msgstr ""
+msgstr "攻击"
 
 #: /Language/Interface/Record[Key='Speed']
 msgctxt "Interface.Speed"
 msgid "Speed"
-msgstr ""
+msgstr "速度"
 
 #: /Language/Interface/Record[Key='NoAudioReceiverDevices']
 msgctxt "Interface.NoAudioReceiverDevices"
 msgid "No Audio Receiver Devices"
-msgstr ""
+msgstr "无音频接收器设备"
 
 #: /Language/Interface/Record[Key='Volume']
-#, fuzzy
 msgctxt "Interface.Volume"
 msgid "Volume"
-msgstr "主音量"
+msgstr "音量"
 
 #: /Language/Interface/Record[Key='Pitch']
 msgctxt "Interface.Pitch"
 msgid "Pitch"
-msgstr ""
+msgstr "投"
 
 #: /Language/Interface/Record[Key='LogicTypeWorkingGasEfficiency']
 msgctxt "Interface.LogicTypeWorkingGasEfficiency"
 msgid "The Working Gas Efficiency reported by the machine, as a float between 0 and 1"
-msgstr ""
+msgstr "机器报告的工作气体效率，介于0到1之间"
 
 #: /Language/Interface/Record[Key='LogicTypeEnvironmentEfficiency']
 msgctxt "Interface.LogicTypeEnvironmentEfficiency"
 msgid "The Environment Efficiency reported by the machine, as a float between 0 and 1"
-msgstr ""
+msgstr "机器报告的环境效率，介于作为 0 到 1 之间"
 
 #: /Language/Interface/Record[Key='LogicTypeBpm']
 msgctxt "Interface.LogicTypeBpm"
 msgid "Bpm"
-msgstr ""
+msgstr "BPM"
 
 #: /Language/Interface/Record[Key='LogicTypeTime']
-#, fuzzy
 msgctxt "Interface.LogicTypeTime"
 msgid "Time"
 msgstr "时间"
 
 #: /Language/Interface/Record[Key='TimerPanel']
-#, fuzzy
 msgctxt "Interface.TimerPanel"
 msgid "Timer"
-msgstr "时间"
+msgstr "定时器"
 
 #: /Language/Interface/Record[Key='CrowbarToFlip']
 msgctxt "Interface.CrowbarToFlip"
