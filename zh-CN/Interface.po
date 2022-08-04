@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 17:25+0000\n"
+"PO-Revision-Date: 2022-08-04 17:30+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3681,32 +3681,37 @@ msgstr "加载设备试剂模式的试剂以进行配准。内容 （0）， 必
 #: /Language/Interface/Record[Key='ScriptCommandLS']
 msgctxt "Interface.ScriptCommandLS"
 msgid "Loads slot var on device to register."
-msgstr "将设备d上的插槽数据载入进寄存器r"
+msgstr "将设备 d 上的插槽变量 var 载入给寄存器 r 。"
 
 #: /Language/Interface/Record[Key='ScriptCommandSB']
 msgctxt "Interface.ScriptCommandSB"
 msgid "Stores register value to var on all output network devices with provided type hash."
-msgstr "使用提供的类型哈希在所有输出网络设备上存储寄存器值到 var。"
+msgstr "将寄存器 r 的值存储给指定类型 type（Hash值）的所有输出网络设备上的变量 var 。"
 
 #: /Language/Interface/Record[Key='ScriptCommandS']
 msgctxt "Interface.ScriptCommandS"
 msgid "Stores register value to var on device."
-msgstr "将寄存器 r 的值写入到设备 var"
+msgstr "将寄存器 r 的值存储给设备 d 上的变量 var 。"
 
 #: /Language/Interface/Record[Key='ScriptCommandLB']
 msgctxt "Interface.ScriptCommandLB"
 msgid "Loads var from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number."
-msgstr "使用提供批处理模式从所有输出网络设备加载 var，并提供类型哈希。平均值 （0）、总和 （1）、最小值 （2）、最大值 （3）。可以使用单词或数字。"
+msgstr ""
+"用指定的批处理模式 batchMode 从指定类型 type（Hash值）的所有输出网络设备中将变量 var 载入给寄存器 r 。批处理模式：Average (0), Sum (1), Minimum (2), Maximum (3)。既可以使用单词，也可以使用数字。\n"
+"Average：求平均\n"
+"Sum：求和\n"
+"Minimum：求最小值\n"
+"Maximum：求最大值"
 
 #: /Language/Interface/Record[Key='ScriptCommandL']
 msgctxt "Interface.ScriptCommandL"
 msgid "Loads device var to register."
-msgstr "加载设备 var 的值到寄存器 r 中。"
+msgstr "将设备 d 的变量 var 值载入给寄存器 r 。"
 
 #: /Language/Interface/Record[Key='ServerReadyString']
 msgctxt "Interface.ServerReadyString"
 msgid "Server can now be started."
-msgstr "现在可以启动服务器。"
+msgstr "服务器现在可以启动。"
 
 #: /Language/Interface/Record[Key='ResearchCancel']
 msgctxt "Interface.ResearchCancel"
@@ -3721,7 +3726,7 @@ msgstr "确认"
 #: /Language/Interface/Record[Key='ResearchTitle']
 msgctxt "Interface.ResearchTitle"
 msgid "Research"
-msgstr "研究"
+msgstr "搜索"
 
 #: /Language/Interface/Record[Key='ResearchFilter']
 msgctxt "Interface.ResearchFilter"
@@ -3731,67 +3736,67 @@ msgstr "滤芯"
 #: /Language/Interface/Record[Key='NextWeatherEventTime']
 msgctxt "Interface.NextWeatherEventTime"
 msgid "Returns in seconds when the next weather event is inbound."
-msgstr "当下一个天气事件入站时，以秒为单位返回。"
+msgstr "以秒为单位返回下一个天气事件到达的时间。"
 
 #: /Language/Interface/Record[Key='MineablesInQueue']
 msgctxt "Interface.MineablesInQueue"
 msgid "Returns the amount of mineables AIMEe has queued up to mine."
-msgstr "返回 AIMEe 排队到矿井的可开采量。"
+msgstr "返回已加入AIMeE机器人开采队列的矿产资源总量。"
 
 #: /Language/Interface/Record[Key='MineablesInVicinity']
 msgctxt "Interface.MineablesInVicinity"
 msgid "Returns the amount of potential mineables within an extended area around AIMEe."
-msgstr "返回 AIMEe 周围扩展区域内的潜在可开采量。"
+msgstr "返回AIMeE机器人周围扩展区域内潜在的矿产资源总量。"
 
 #: /Language/Interface/Record[Key='CurrentResearchPodType']
 msgctxt "Interface.CurrentResearchPodType"
 msgid "Returns the pod type stored in the machine."
-msgstr "返回存储在机器中的pod类型。"
+msgstr "返回机器中存储的科研胶囊的类型。"
 
 #: /Language/Interface/Record[Key='ManualGetResearchPodsRequired']
 msgctxt "Interface.ManualGetResearchPodsRequired"
 msgid "Sets the pod type to search for a certian pod when breaking down a pods."
-msgstr "设置 Pod 类型以在分解 Pod 时搜索某个 Pod。"
+msgstr "设置科研胶囊类型，从而在分解科研胶囊时搜索特定的科研胶囊。"
 
 #: /Language/Interface/Record[Key='ActivateResearch']
 msgctxt "Interface.ActivateResearch"
 msgid "Starts reserach process."
-msgstr "开始研究程序。"
+msgstr "开始研究流程。"
 
 #: /Language/Interface/Record[Key='SettingsTerrainClutterMultiplier']
 msgctxt "Interface.SettingsTerrainClutterMultiplier"
 msgid "Terrain Clutter Multiplier"
-msgstr "地形崎岖系数"
+msgstr "地形崎岖倍数"
 
 #: /Language/Interface/Record[Key='Communications Crate']
 msgctxt "Interface.Communications Crate"
 msgid "Communications Crate"
-msgstr "通信箱"
+msgstr "通信储物箱"
 
 #: /Language/Interface/Record[Key='Misc Crate']
 msgctxt "Interface.Misc Crate"
 msgid "Misc Crate"
-msgstr "杂物箱"
+msgstr "杂物储物箱"
 
 #: /Language/Interface/Record[Key='Portable Appliance Kits']
 msgctxt "Interface.Portable Appliance Kits"
 msgid "Portable Appliance Kits"
-msgstr "便携式小型设备套件"
+msgstr "便携式电器设备套件包"
 
 #: /Language/Interface/Record[Key='Consumables Supplies']
 msgctxt "Interface.Consumables Supplies"
 msgid "Consumables Supplies"
-msgstr "消耗性物资"
+msgstr "消耗品补给"
 
 #: /Language/Interface/Record[Key='Organic Supplies 2']
 msgctxt "Interface.Organic Supplies 2"
 msgid "Organic Supplies 2"
-msgstr "有机物资 2"
+msgstr "有机物补给 2"
 
 #: /Language/Interface/Record[Key='Organic Supplies 1']
 msgctxt "Interface.Organic Supplies 1"
 msgid "Organic Supplies 1"
-msgstr "有机物资 1"
+msgstr "有机物补给 1"
 
 #: /Language/Interface/Record[Key='Organic Supplies']
 msgctxt "Interface.Organic Supplies"
