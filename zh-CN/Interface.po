@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 17:30+0000\n"
+"PO-Revision-Date: 2022-08-04 17:35+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3574,109 +3574,117 @@ msgstr "如果 a != 0 寄存器 r = 1 否则为0"
 #: /Language/Interface/Record[Key='ScriptCommandSeqz']
 msgctxt "Interface.ScriptCommandSeqz"
 msgid "Register = 1 if a == 0, otherwise 0"
-msgstr "如果 a == 0, 当 a 等于 0 时 寄存器 r = 1 否则为0"
+msgstr "寄存器 r 的值 = 若 a == 0 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSgez']
 msgctxt "Interface.ScriptCommandSgez"
 msgid "Register = 1 if a >= 0, otherwise 0"
-msgstr "如果 a >= 0，寄存器 r = 1，否则为0"
+msgstr "寄存器 r 的值 = 若 a &gt;= 0 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSlez']
 msgctxt "Interface.ScriptCommandSlez"
 msgid "Register = 1 if a <= 0, otherwise 0"
-msgstr "如果a <= 0，寄存器 r = 1，否则为 0"
+msgstr "寄存器 r 的值 = 若 a &lt;= 0 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSgtz']
 msgctxt "Interface.ScriptCommandSgtz"
 msgid "Register = 1 if a > 0, otherwise 0"
-msgstr "a > 0时，寄存器为1，否则为0"
+msgstr "寄存器 r 的值 = 若 a &gt; 0 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSltz']
 msgctxt "Interface.ScriptCommandSltz"
 msgid "Register = 1 if a < 0, otherwise 0"
-msgstr "a < 0时，寄存器为1，否则为0."
+msgstr "寄存器 r 的值 = 若 a &lt; 0 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSna']
 msgctxt "Interface.ScriptCommandSna"
 msgid "Register = 1 if abs(a - b) > max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0"
-msgstr "如果abs(a - b) > max(c * max(abs(a), abs(b)), float.epsilon * 8) 则寄存器 r 的值 为1，否则为0"
+msgstr ""
+"寄存器 r 的值 = 若 abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8) 则为 1 ，否则为 0\n"
+"abs( )：取绝对值\n"
+"float.epsilon：大于零的最小可能浮点值"
 
 #: /Language/Interface/Record[Key='ScriptCommandSap']
 msgctxt "Interface.ScriptCommandSap"
 msgid "Register = 1 if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0"
-msgstr "如果abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) 则寄存器 r 的值 为1，否则为0"
+msgstr ""
+"寄存器 r 的值 = 若 abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) 则为 1 ，否则为 0\n"
+"abs( )：取绝对值\n"
+"float.epsilon：大于零的最小可能浮点值"
 
 #: /Language/Interface/Record[Key='ScriptCommandSne']
 msgctxt "Interface.ScriptCommandSne"
 msgid "Register = 1 if a != b, otherwise 0"
-msgstr "如果a != b，寄存器 r = 1，否则为0"
+msgstr "寄存器 r 的值 = 若 a != b 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSeq']
 msgctxt "Interface.ScriptCommandSeq"
 msgid "Register = 1 if a == b, otherwise 0"
-msgstr "如果 a == b，寄存器 r = 1，否则为0"
+msgstr "寄存器 r 的值 = 若 a == b 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSge']
 msgctxt "Interface.ScriptCommandSge"
 msgid "Register = 1 if a >= b, otherwise 0"
-msgstr "如果 a >= b 寄存器 r = 1，否则为0"
+msgstr "寄存器 r 的值 = 若 a &gt;= b 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSle']
 msgctxt "Interface.ScriptCommandSle"
 msgid "Register = 1 if a <= b, otherwise 0"
-msgstr "如果 a <= b，寄存器 r = 1，否则为0"
+msgstr "寄存器 r 的值 = 若 a &lt;= b 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSgt']
 msgctxt "Interface.ScriptCommandSgt"
 msgid "Register = 1 if a > b, otherwise 0"
-msgstr "a > b时，寄存器为1，否则为0"
+msgstr "寄存器 r 的值 = 若 a &gt; b 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSlt']
 msgctxt "Interface.ScriptCommandSlt"
 msgid "Register = 1 if a < b, otherwise 0"
-msgstr "a < b时，寄存器为1，否则为0"
+msgstr "寄存器 r 的值 = 若 a &lt; b 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSdns']
 msgctxt "Interface.ScriptCommandSdns"
 msgid "Register = 1 if device is not set, otherwise 0"
-msgstr "如果设备未设置, 则寄存器 r 的值为 1, 否则为0"
+msgstr "寄存器 r 的值 = 若设备 d 未被设置则为 1 ，否则为 0 。"
 
 #: /Language/Interface/Record[Key='ScriptCommandSdse']
 msgctxt "Interface.ScriptCommandSdse"
 msgid "Register = 1 if device is set, otherwise 0."
-msgstr "如果设备已设置, 则寄存器 r 的值为 1, 否则为0。"
+msgstr "寄存器 r 的值 = 若设备 d 已被设置则为 1 ，否则为 0 。"
 
 #: /Language/Interface/Record[Key='ScriptCommandSub']
 msgctxt "Interface.ScriptCommandSub"
 msgid "Register = a - b."
-msgstr "寄存器 r = a - b。"
+msgstr "寄存器 r 的值 = a - b 。"
 
 #: /Language/Interface/Record[Key='ScriptCommandAdd']
 msgctxt "Interface.ScriptCommandAdd"
 msgid "Register = a + b."
-msgstr "寄存器 r = a + b"
+msgstr "寄存器 r 的值 = a + b 。"
 
 #: /Language/Interface/Record[Key='ScriptCommandMove']
 msgctxt "Interface.ScriptCommandMove"
 msgid "Register = provided num or register value."
-msgstr ""
-"寄存器 r 的值 = 给定的数值或给定寄存器中的值\n"
-"如: move r1 1 或 move r1 r2"
+msgstr "寄存器 r 的值 = 指定数值 num 或指定寄存器 r 的值。"
 
 #: /Language/Interface/Record[Key='ScriptCommandDefine']
 msgctxt "Interface.ScriptCommandDefine"
 msgid "Creates a label that will be replaced throughout the program with the provided value."
-msgstr "创建一个标识符，在程序中出现过的所有该标识符将被替换为所给的数值。"
+msgstr "创建一个标识 str ，在整个程序中出现的所有该标识都将被替换为指定数值 num 。（宏定义）"
 
 #: /Language/Interface/Record[Key='ScriptCommandAlias']
 msgctxt "Interface.ScriptCommandAlias"
 msgid "Labels register or device reference with name, device references also affect what shows on the screws on the IC base."
-msgstr "标识寄存器或设备引用的标签名称，设备引用也影响在 IC 底座上的螺钉上显示的内容。"
+msgstr "为寄存器 r 或设备 d 标识名称 str ，设备标识也会影响IC芯片外壳的螺钉上所显示的内容。"
 
 #: /Language/Interface/Record[Key='ScriptCommandLR']
 msgctxt "Interface.ScriptCommandLR"
 msgid "Loads reagent of device's reagentMode to register. Contents (0), Required (1), Recipe (2). Can use either the word, or the number."
-msgstr "加载设备试剂模式的试剂以进行配准。内容 （0）， 必需 （1）， 食谱 （2）.可以使用单词或数字。"
+msgstr ""
+"将符合设备 d 化学原料模式 reagentMode 条件的化学原料 reagent（Hash值）载入给寄存器 r 。化学原料模式：Contents (0), Required (1), Recipe (2)。既可以使用单词，也可以使用数字。\n"
+"Contents：内容物\n"
+"Required：所需物\n"
+"Recipe：配方"
 
 #: /Language/Interface/Record[Key='ScriptCommandLS']
 msgctxt "Interface.ScriptCommandLS"
