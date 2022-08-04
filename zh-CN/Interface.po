@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 16:25+0000\n"
+"PO-Revision-Date: 2022-08-04 16:30+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5204,62 +5204,62 @@ msgstr "具体数值取决于设备，比率的取值区间为0到1"
 #: /Language/Interface/Record[Key='LogicTypeMaximum']
 msgctxt "Interface.LogicTypeMaximum"
 msgid "Maximum setting of the device"
-msgstr "设备的最大设置"
+msgstr "设备的最大限度设置"
 
 #: /Language/Interface/Record[Key='LogicTypeSolarAngle']
 msgctxt "Interface.LogicTypeSolarAngle"
 msgid "Solar angle of the device"
-msgstr "设备的太阳角度"
+msgstr "设备的太阳高度角"
 
 #: /Language/Interface/Record[Key='LogicTypeVertical']
 msgctxt "Interface.LogicTypeVertical"
 msgid "Vertical setting of the device"
-msgstr "垂直角度设置"
+msgstr "设备垂直位置设置"
 
 #: /Language/Interface/Record[Key='LogicTypeHorizontal']
 msgctxt "Interface.LogicTypeHorizontal"
 msgid "Horizontal setting of the device"
-msgstr "水平角度设置"
+msgstr "设备水平位置设置"
 
 #: /Language/Interface/Record[Key='LogicTypeCombustion']
 msgctxt "Interface.LogicTypeCombustion"
 msgid "The assess atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 if not."
-msgstr "评估气体着火了。如果气体着火，则返回 1;如果不是，则返回 0。"
+msgstr "评估大气环境中是否存在火情。如果大气环境中存在火情则返回 1 ，没有火情则返回 0"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxide']
 msgctxt "Interface.LogicTypeRatioNitrousOxide"
 msgid "The ratio of {GAS:NitrousOxide} in device atmosphere"
-msgstr "空气中氮的比例"
+msgstr "设备中的 {GAS:NitrousOxide} 比例"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioWater']
 msgctxt "Interface.LogicTypeRatioWater"
 msgid "The ratio of water in device atmosphere"
-msgstr "空气中水的比例"
+msgstr "设备中的 {GAS:Water} 比例"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioVolatiles']
 msgctxt "Interface.LogicTypeRatioVolatiles"
 msgid "The ratio of volatiles in device atmosphere"
-msgstr "空气中挥发物的比例"
+msgstr "设备中的 {GAS:Volatiles} 比例"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioPollutant']
 msgctxt "Interface.LogicTypeRatioPollutant"
 msgid "The ratio of pollutant in device atmosphere"
-msgstr "空气中污染物的比例"
+msgstr "设备中的 {GAS:Pollutant} 比例"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrogen']
 msgctxt "Interface.LogicTypeRatioNitrogen"
 msgid "The ratio of nitrogen in device atmosphere"
-msgstr "空气中氮的比例"
+msgstr "设备中的 {GAS:Nitrogen} 比例"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxide']
 msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 msgid "The ratio of {GAS:CarbonDioxide} in device atmosphere"
-msgstr "空气中二氧化碳的比例"
+msgstr "设备中的 {GAS:CarbonDioxide} 比例"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioOxygen']
 msgctxt "Interface.LogicTypeRatioOxygen"
 msgid "The ratio of oxygen in device atmosphere"
-msgstr "空气中氧的比例"
+msgstr "设备中的 {GAS:Oxygen} 比例"
 
 #: /Language/Interface/Record[Key='LogicTypeReagents']
 msgctxt "Interface.LogicTypeReagents"
@@ -5269,42 +5269,42 @@ msgstr "设备记录的化学原料总数"
 #: /Language/Interface/Record[Key='LogicTypeSetting']
 msgctxt "Interface.LogicTypeSetting"
 msgid "A variable setting that can be read or written, depending on the device"
-msgstr "可读取或写入的变量设置, 具体取决于设备"
+msgstr "可被读取或写入的变量设置，具体取决于设备"
 
 #: /Language/Interface/Record[Key='LogicTypeCharge']
 msgctxt "Interface.LogicTypeCharge"
 msgid "The current charge the device has"
-msgstr "设备的当前充电"
+msgstr "设备当前电量"
 
 #: /Language/Interface/Record[Key='LogicTypeActivate']
 msgctxt "Interface.LogicTypeActivate"
 msgid "1 if device is activated (usually means running), otherwise 0"
-msgstr "1如果设备被激活 (通常意味着正在运行), 否则0"
+msgstr "当设备被激活（通常意味着正在运行）时，则返回 1 ，否则返回 0"
 
 #: /Language/Interface/Record[Key='LogicTypePressureInternal']
 msgctxt "Interface.LogicTypePressureInternal"
 msgid "Setting for internal pressure safety, in KPa"
-msgstr "内部压力安全设置, kpa"
+msgstr "内部气压安全设置，单位为kPa"
 
 #: /Language/Interface/Record[Key='LogicTypePressureExternal']
 msgctxt "Interface.LogicTypePressureExternal"
 msgid "Setting for external pressure safety, in KPa"
-msgstr "外部压力安全设置, kpa"
+msgstr "外部气压安全设置，单位为kPa"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperature']
 msgctxt "Interface.LogicTypeTemperature"
 msgid "The current temperature reading of the device"
-msgstr "当前温度读数"
+msgstr "设备当前温度读数"
 
 #: /Language/Interface/Record[Key='LogicTypePressure']
 msgctxt "Interface.LogicTypePressure"
 msgid "The current pressure reading of the device"
-msgstr "当前压力读数"
+msgstr "设备当前气压读数"
 
 #: /Language/Interface/Record[Key='LogicTypeLock']
 msgctxt "Interface.LogicTypeLock"
 msgid "1 if device is locked, otherwise 0, can be set in most devices and prevents the user from access the values"
-msgstr "如果设备被锁定, 则为 1, 否则为0可在大多数设备中设置, 并禁止使用"
+msgstr "当设备被锁定时，则返回 1 ，否则返回 0 ，可以在大多数设备中设置，阻止用户访问它们的数值"
 
 #: /Language/Interface/Record[Key='LogicTypeError']
 msgctxt "Interface.LogicTypeError"
