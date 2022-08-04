@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 18:04+0000\n"
+"PO-Revision-Date: 2022-08-04 18:10+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3175,72 +3175,74 @@ msgstr "已弃用"
 #: /Language/Interface/Record[Key='ScriptCommandYield']
 msgctxt "Interface.ScriptCommandYield"
 msgid "Pauses execution for 1 tick"
-msgstr "暂停程序1 tick时长"
+msgstr "暂停程序执行 1 tick"
 
 #: /Language/Interface/Record[Key='ScriptCommandRand']
 msgctxt "Interface.ScriptCommandRand"
 msgid "Register = a random value x with 0 <= x < 1"
-msgstr "寄存器 r 值等于随机的x数，x区间0 <= x <1"
+msgstr "寄存器 r 的值 = 随机值 x（0 &lt;= x &lt; 1）"
 
 #: /Language/Interface/Record[Key='ScriptCommandExp']
 msgctxt "Interface.ScriptCommandExp"
 msgid "Register = exp(a)"
-msgstr "寄存器 r 的值 = exp(a) 指数函数 返回自然对数e的a次方的值"
+msgstr ""
+"寄存器 r 的值 = exp(a)\n"
+"exp(a)：自然常数 e 的 a 次方"
 
 #: /Language/Interface/Record[Key='ScriptCommandLog']
 msgctxt "Interface.ScriptCommandLog"
 msgid "Register = log(a)"
-msgstr "寄存器 r 的值 = log(a) 对数函数 返回以10为底a的对数值"
+msgstr "寄存器 r 的值 = log(a)"
 
 #: /Language/Interface/Record[Key='ScriptCommandAbs']
 msgctxt "Interface.ScriptCommandAbs"
 msgid "Register = the absolute value of a"
-msgstr "寄存器 r 的值 = a的绝对值"
+msgstr "寄存器 r 的值 = a 的绝对值"
 
 #: /Language/Interface/Record[Key='ScriptCommandMin']
 msgctxt "Interface.ScriptCommandMin"
 msgid "Register = min of a or b"
-msgstr "寄存器 r 的值 = a和b之间的最小值"
+msgstr "寄存器 r 的值 = a 和 b 间的最小值"
 
 #: /Language/Interface/Record[Key='ScriptCommandMax']
 msgctxt "Interface.ScriptCommandMax"
 msgid "Register = max of a or b"
-msgstr "寄存器 r 的值 = a和b之间的最大值"
+msgstr "寄存器 r 的值 = a 和 b 间的最大值"
 
 #: /Language/Interface/Record[Key='ScriptCommandFloor']
 msgctxt "Interface.ScriptCommandFloor"
 msgid "Register = largest integer less than a"
-msgstr "寄存器 r 的值 = 小于a的最大整数"
+msgstr "寄存器 r 的值 = 小于 a 的最大整数"
 
 #: /Language/Interface/Record[Key='ScriptCommandCeil']
 msgctxt "Interface.ScriptCommandCeil"
 msgid "Register = smallest integer greater than a"
-msgstr "寄存器 r 的值 = 大于a的最小整数"
+msgstr "寄存器 r 的值 = 大于 a 的最小整数"
 
 #: /Language/Interface/Record[Key='ScriptCommandTrunc']
 msgctxt "Interface.ScriptCommandTrunc"
 msgid "Register = a with fractional part removed"
-msgstr "寄存器 r 的值 = a去掉小数部分的值 (如 trunc r1 1.5 此时r1的值为1)"
+msgstr "寄存器 r 的值 = 将 a 的小数部分去除"
 
 #: /Language/Interface/Record[Key='ScriptCommandRound']
 msgctxt "Interface.ScriptCommandRound"
 msgid "Register = a rounded to nearest integer"
-msgstr "寄存器 r 的值 = 对a四舍五入的整数"
+msgstr "寄存器 r 的值 = 将 a 四舍五入至最接近的整数"
 
 #: /Language/Interface/Record[Key='ScriptCommandSqrt']
 msgctxt "Interface.ScriptCommandSqrt"
 msgid "Register = square root of a"
-msgstr "寄存器 r 的值 = 对a的平方根运算"
+msgstr "寄存器 r 的值 = a 的平方根"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnazal']
 msgctxt "Interface.ScriptCommandBnazal"
 msgid "Branch to line c if abs(a) > float.epsilon * 8"
-msgstr "如果abs(a) > float.epsilon * 8 则转移第 c 行执行代码"
+msgstr "若 abs(a) &gt; float.epsilon * 8 ，则分支至行 c 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandBapzal']
 msgctxt "Interface.ScriptCommandBapzal"
 msgid "Branch to line c if abs(a) <= float.epsilon * 8"
-msgstr "如果abs(a) <= float.epsilon * 8 则转移第 c 行执行代码"
+msgstr "若 abs(a) &lt;= float.epsilon * 8 ，则分支至行 c 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnezal']
 msgctxt "Interface.ScriptCommandBnezal"
@@ -3275,18 +3277,12 @@ msgstr "若 a &lt; 0 ，则分支至行 b 执行，并将下一行的行号储�
 #: /Language/Interface/Record[Key='ScriptCommandBnaal']
 msgctxt "Interface.ScriptCommandBnaal"
 msgid "Branch to line d if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra"
-msgstr ""
-"若 abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) ，则分支至行 d 执行，并将下一行的行号储存进寄存器 ra\n"
-"abs( )：取绝对值\n"
-"float.epsilon：大于零的最小可能浮点值"
+msgstr "若 abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) ，则分支至行 d 执行，并将下一行的行号储存进寄存器 ra"
 
 #: /Language/Interface/Record[Key='ScriptCommandBapal']
 msgctxt "Interface.ScriptCommandBapal"
 msgid "Branch to line d if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra"
-msgstr ""
-"若 abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) ，则分支至行 d 执行，并将下一行的行号储存进寄存器 ra\n"
-"abs( )：取绝对值\n"
-"float.epsilon：大于零的最小可能浮点值"
+msgstr "若 abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) ，则分支至行 d 执行，并将下一行的行号储存进寄存器 ra"
 
 #: /Language/Interface/Record[Key='ScriptCommandBneal']
 msgctxt "Interface.ScriptCommandBneal"
