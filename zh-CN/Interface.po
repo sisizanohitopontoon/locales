@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 18:25+0000\n"
+"PO-Revision-Date: 2022-08-04 18:30+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2574,62 +2574,62 @@ msgstr "设置饥饿率。：“/hungerrate 0.25”"
 #: /Language/Interface/Record[Key='CommandResetThread']
 msgctxt "Interface.CommandResetThread"
 msgid "Resets a given thread. : \"/resetthread atmospherics\""
-msgstr "重置给定线程。：“/resetthread atmospherics”"
+msgstr "重置指定线程：\"/resetthread atmospherics\""
 
 #: /Language/Interface/Record[Key='CommandThreadStatus']
 msgctxt "Interface.CommandThreadStatus"
 msgid "Shows the current status of the game's threads.: \"/threadstatus\""
-msgstr "显示游戏线程的当前状态：“/threadstatus”"
+msgstr "显示游戏线程的当前状态：\"/threadstatus\""
 
 #: /Language/Interface/Record[Key='CommandClearAll']
 msgctxt "Interface.CommandClearAll"
 msgid "Clears all disconnect players from the server: \"/clearall\""
-msgstr "清除所有断开播放器与服务器的连接：“/clearall”"
+msgstr "清除所有与服务器断开连接的玩家：\"/clearall\""
 
 #: /Language/Interface/Record[Key='CommandKick']
 msgctxt "Interface.CommandKick"
 msgid "Kicks a player from a given steam ID from the server: \"/kick 102039237390\""
-msgstr "从服务器踢出给定的 Steam ID 中的玩家：“/kick 102039237390”"
+msgstr "将指定steam ID的玩家移除出服务器：\"/kick 102039237390\""
 
 #: /Language/Interface/Record[Key='CommandUnBan']
 msgctxt "Interface.CommandUnBan"
 msgid "Revoke a ban from a given steam ID from the server: \"/unban 102039237390\""
-msgstr "从服务器撤销给定 Steam ID 的封禁：“/unban102039237390”"
+msgstr "撤销对指定steam ID的服务器禁令：\"/unban 102039237390\""
 
 #: /Language/Interface/Record[Key='CommandBan']
 msgctxt "Interface.CommandBan"
 msgid "Ban a given steam ID from the server: \"/ban 102039237390\""
-msgstr "从服务器中禁止给定的 Steam ID：“/ban102039237390”"
+msgstr "将指定的steam ID列入服务器黑名单：\"/ban 102039237390\""
 
 #: /Language/Interface/Record[Key='CommandStatus']
 msgctxt "Interface.CommandStatus"
 msgid "Displays the current status of the server and who's currently in the server: \"/status\""
-msgstr "显示服务器的当前状态以及服务器中的当前用户：“/status”"
+msgstr "显示服务器当前状态和服务器中当前用户：\"/status\""
 
 #: /Language/Interface/Record[Key='CommandNotice']
 msgctxt "Interface.CommandNotice"
 msgid "Send a message to the players of a server. usage: \"/notice the message you want to send\""
-msgstr "向服务器的玩家发送消息。用法：“/notice the message you want to send”"
+msgstr "向服务器中的玩家发送消息。使用方法：\"/notice the message you want to send\""
 
 #: /Language/Interface/Record[Key='CommandShutdown']
 msgctxt "Interface.CommandShutdown"
 msgid "Shutsdown the game server and returns player to the lobby can append a timer and message. usage: \"/shutdown\""
-msgstr "关闭游戏服务器并将玩家返回到大厅，可以附加计时器和消息。用法：“/shutdown”"
+msgstr "关闭游戏服务器并将玩家送回大厅，可以附加倒计时和信息。使用方法：\"/shutdown\""
 
 #: /Language/Interface/Record[Key='CommandSave']
 msgctxt "Interface.CommandSave"
 msgid "Saves the game and names it as a given parameter. usage: \"/save nameofsave\""
-msgstr "保存游戏并将其命名为给定参数。用法： “/save nameofsave”"
+msgstr "保存游戏并将其命名为给定参数。使用方法：\"/save nameofsave\""
 
 #: /Language/Interface/Record[Key='ActivateExplosiveTooltipKey2']
 msgctxt "Interface.ActivateExplosiveTooltipKey2"
 msgid "second timer. Timer cannot be turned off. Caution is advised."
-msgstr "第二个计时器。计时器无法关闭。建议谨慎行事。"
+msgstr "读秒计时器。此计时器无法被关闭。建议谨慎使用。"
 
 #: /Language/Interface/Record[Key='ActivateExplosiveTooltipKey1']
 msgctxt "Interface.ActivateExplosiveTooltipKey1"
 msgid "Activates a"
-msgstr "激活"
+msgstr "激活一个"
 
 #: /Language/Interface/Record[Key='ActivateExplosiveKey']
 msgctxt "Interface.ActivateExplosiveKey"
@@ -2639,7 +2639,7 @@ msgstr "激活倒计时"
 #: /Language/Interface/Record[Key='ControlSwapHandsDisc']
 msgctxt "Interface.ControlSwapHandsDisc"
 msgid "Swap Hands"
-msgstr "换只手"
+msgstr "换手"
 
 #: /Language/Interface/Record[Key='ControlSwapHands']
 msgctxt "Interface.ControlSwapHands"
@@ -2684,7 +2684,7 @@ msgstr "建造"
 #: /Language/Interface/Record[Key='ControlHoldPrimaryClick']
 msgctxt "Interface.ControlHoldPrimaryClick"
 msgid "Hold {KEY:PrimaryAction}"
-msgstr "按住{KEY:PrimaryAction}"
+msgstr "按住 {KEY:PrimaryAction}"
 
 #: /Language/Interface/Record[Key='ControlPrimaryClickDisc']
 msgctxt "Interface.ControlPrimaryClickDisc"
@@ -2704,22 +2704,22 @@ msgstr "重生点"
 #: /Language/Interface/Record[Key='SetSpawnMessage']
 msgctxt "Interface.SetSpawnMessage"
 msgid "Use to set Spawn Point"
-msgstr "用于设置重生点"
+msgstr "使用以设置重生点"
 
 #: /Language/Interface/Record[Key='SettingsMineableRenderDistance']
 msgctxt "Interface.SettingsMineableRenderDistance"
 msgid "Mineable Render Distance"
-msgstr "矿物渲染距离"
+msgstr "矿产渲染距离"
 
 #: /Language/Interface/Record[Key='TutorialCompleteNextTutorial']
 msgctxt "Interface.TutorialCompleteNextTutorial"
 msgid "Next Tutorial"
-msgstr "下一教程"
+msgstr "下一个教程"
 
 #: /Language/Interface/Record[Key='TutorialCompleteTruly']
 msgctxt "Interface.TutorialCompleteTruly"
 msgid "Commodore ODA"
-msgstr "发展署总指挥"
+msgstr "ODA准将"
 
 #: /Language/Interface/Record[Key='TutorialCompleteDeanHall']
 msgctxt "Interface.TutorialCompleteDeanHall"
@@ -2729,7 +2729,7 @@ msgstr "院长大厅"
 #: /Language/Interface/Record[Key='BottleSlot']
 msgctxt "Interface.BottleSlot"
 msgid "Bottle Slot"
-msgstr "水瓶插槽"
+msgstr "水瓶"
 
 #: /Language/Interface/Record[Key='TutorialCompleteDateOfCompletion']
 msgctxt "Interface.TutorialCompleteDateOfCompletion"
