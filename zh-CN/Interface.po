@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 16:40+0000\n"
+"PO-Revision-Date: 2022-08-04 16:44+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4787,122 +4787,122 @@ msgstr "返回表示对象类的整数"
 #: /Language/Interface/Record[Key='LogicSlotTypeChargeRatio']
 msgctxt "Interface.LogicSlotTypeChargeRatio"
 msgid "returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum"
-msgstr "返回电流能量充电插槽乘员持有的比率在0和1之间的最大"
+msgstr "以比率形式返回插槽占用者的当前能量负荷，相对于其最大值，在 0 到 1 之间"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeCharge']
 msgctxt "Interface.LogicSlotTypeCharge"
 msgid "returns current energy charge the slot occupant is holding"
-msgstr "返回电流能量充电插槽乘员持有的"
+msgstr "返回插槽占用者的当前能量负荷"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeTemperature']
 msgctxt "Interface.LogicSlotTypeTemperature"
 msgid "returns temperature of the slot occupants internal atmosphere"
-msgstr "返回插槽乘员内部大气的温度"
+msgstr "返回插槽占用者的内部大气的温度"
 
 #: /Language/Interface/Record[Key='LogicSlotTypePressure']
 msgctxt "Interface.LogicSlotTypePressure"
 msgid "returns pressure of the slot occupants internal atmosphere"
-msgstr "返回插槽乘员内部大气的压力"
+msgstr "返回插槽占用者的内部大气的气压"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeGrowth']
 msgctxt "Interface.LogicSlotTypeGrowth"
 msgid "returns the current growth state of the plant in the slot"
-msgstr "返回插槽中工厂的当前生长状态"
+msgstr "返回插槽中植物的当前生长状态"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeHealth']
 msgctxt "Interface.LogicSlotTypeHealth"
 msgid "returns the health of the plant in the slot"
-msgstr "返回插槽中的植物的运行状况"
+msgstr "返回插槽中的植物的健康状况"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMature']
 msgctxt "Interface.LogicSlotTypeMature"
 msgid "returns 1 if the plant in this slot is mature, 0 when it isn't"
-msgstr "如果此插槽中的植物成熟则返回1，否则返回0"
+msgstr "如果此插槽中的植物已成熟，则返回 1 ，否则返回 0"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeEfficiency']
 msgctxt "Interface.LogicSlotTypeEfficiency"
 msgid "returns the growth efficiency of the plant in the slot"
-msgstr "返回水槽中植物的生长效率"
+msgstr "返回插槽中植物的生长效率"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeDamage']
 msgctxt "Interface.LogicSlotTypeDamage"
 msgid "returns the damage state of the item in the slot"
-msgstr "返回插槽中的项目损坏状态"
+msgstr "返回插槽中的物品的损坏情况"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeQuantity']
 msgctxt "Interface.LogicSlotTypeQuantity"
 msgid "returns the current quantity, such as stack size, of the item in the slot"
-msgstr "返回插槽中物料的当前数量 (如堆栈大小)"
+msgstr "返回插槽中物品的当前数量，例如堆栈大小"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupantHash']
 msgctxt "Interface.LogicSlotTypeOccupantHash"
 msgid "returns the has of the current occupant, the unique identifier of the thing"
-msgstr "返回当前物品的哈希，是物品的唯一识别代码"
+msgstr "返回当前占用插槽的物品的Hash值，即该物品的唯一标识符"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeOccupied']
 msgctxt "Interface.LogicSlotTypeOccupied"
 msgid "returns 0 when slot is not occupied, 1 when it is"
-msgstr "当插槽未占用返回0，插槽被占用返回1"
+msgstr "当插槽未被占用时返回 0 ，当插槽被占用时返回 1"
 
 #: /Language/Interface/Record[Key='LogicSlotTypeNone']
 msgctxt "Interface.LogicSlotTypeNone"
 msgid "No description"
-msgstr "无说明"
+msgstr "无描述"
 
 #: /Language/Interface/Record[Key='LogicTypeSignalID']
 msgctxt "Interface.LogicTypeSignalID"
 msgid "Returns the contact ID of the strongest signal from this Satellite"
-msgstr "返回来自此卫星的信号最强的联系人ID"
+msgstr "返回从该卫星接收到的信号最强的联系人ID"
 
 #: /Language/Interface/Record[Key='LogicTypeSignalStrength']
 msgctxt "Interface.LogicTypeSignalStrength"
 msgid "Returns the strength of the strongest signal received from this Satellite"
-msgstr "返回来自此卫星的最强的信号的强度"
+msgstr "返回从该卫星接收到的最强信号的强度"
 
 #: /Language/Interface/Record[Key='LogicTypeForceWrite']
 msgctxt "Interface.LogicTypeForceWrite"
 msgid "Forces Logic Writer devices to rewrite value"
-msgstr "强制逻辑写入设备重写值"
+msgstr "强制Logic写入设备重写值"
 
 #: /Language/Interface/Record[Key='LogicTypePrefabHash']
 msgctxt "Interface.LogicTypePrefabHash"
 msgid "The hash of the structure"
-msgstr "结构的哈希"
+msgstr "此结构件的Hash值"
 
 #: /Language/Interface/Record[Key='LogicTypeVelocityRelativeZ']
 msgctxt "Interface.LogicTypeVelocityRelativeZ"
 msgid "The current velocity Z relative to the forward vector of this"
-msgstr "相对于正向矢量的电流速度 z"
+msgstr "相对于Z轴正向矢量的速度"
 
 #: /Language/Interface/Record[Key='LogicTypeVelocityRelativeY']
 msgctxt "Interface.LogicTypeVelocityRelativeY"
 msgid "The current velocity Y relative to the forward vector of this"
-msgstr "相对于正向矢量的电流速度 z"
+msgstr "相对于Y轴正向矢量的速度"
 
 #: /Language/Interface/Record[Key='LogicTypeVelocityRelativeX']
 msgctxt "Interface.LogicTypeVelocityRelativeX"
 msgid "The current velocity X relative to the forward vector of this"
-msgstr "相对于正向矢量的电流速度 z"
+msgstr "相对于X轴正向矢量的速度"
 
 #: /Language/Interface/Record[Key='LogicTypeVelocityMagnitude']
 msgctxt "Interface.LogicTypeVelocityMagnitude"
 msgid "The current magnitude of the velocity vector"
-msgstr "速度矢量的电流大小"
+msgstr "速度矢量的当前量级"
 
 #: /Language/Interface/Record[Key='LogicTypePositionZ']
 msgctxt "Interface.LogicTypePositionZ"
 msgid "The current position in Z dimension in world coordinates"
-msgstr "世界坐标 z 轴的当前位置"
+msgstr "当前位置的Z坐标"
 
 #: /Language/Interface/Record[Key='LogicTypePositionY']
 msgctxt "Interface.LogicTypePositionY"
 msgid "The current position in Y dimension in world coordinates"
-msgstr "世界坐标 Y 轴的当前位置"
+msgstr "当前位置的Y坐标"
 
 #: /Language/Interface/Record[Key='LogicTypePositionX']
 msgctxt "Interface.LogicTypePositionX"
 msgid "The current position in X dimension in world coordinates"
-msgstr "世界坐标 X 轴的当前位置"
+msgstr "当前位置的X坐标"
 
 #: /Language/Interface/Record[Key='LogicTypeAirRelease']
 msgctxt "Interface.LogicTypeAirRelease"
