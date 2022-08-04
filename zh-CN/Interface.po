@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 15:24+0000\n"
+"PO-Revision-Date: 2022-08-04 15:30+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1133,17 +1133,17 @@ msgstr "无法安装在 #VAR1# 的这一面上，尝试安装在它的另一面�
 #: /Language/Interface/Record[Key='TooltipPlacementSnapFaceWrongFaceFallback']
 msgctxt "Interface.TooltipPlacementSnapFaceWrongFaceFallback"
 msgid "Cannot mount to this face, try another one"
-msgstr "无法安装到这个面，试试安装在其他地方"
+msgstr "无法安装在这一面上，尝试安装在另一面上"
 
 #: /Language/Interface/Record[Key='GameMenuClearDisconnectedPlayers']
 msgctxt "Interface.GameMenuClearDisconnectedPlayers"
 msgid "Clear Disconnected Players"
-msgstr "清除断开连接的玩家"
+msgstr "清除离线玩家"
 
 #: /Language/Interface/Record[Key='SettingsInvertMouseWheelInventory']
 msgctxt "Interface.SettingsInvertMouseWheelInventory"
 msgid "Invert Inventory Scroll"
-msgstr "反转物品选择滚轴"
+msgstr "库存控制鼠标滚轮反转"
 
 #: /Language/Interface/Record[Key='SettingsTitleMultiplayerAdvanced']
 msgctxt "Interface.SettingsTitleMultiplayerAdvanced"
@@ -1153,12 +1153,12 @@ msgstr "高级设置"
 #: /Language/Interface/Record[Key='SettingsUPNPNote']
 msgctxt "Interface.SettingsUPNPNote"
 msgid "If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game."
-msgstr "如果您的路由器启用了通用即插即用（UPNP），当您主持游戏时，这些端口将自动转发."
+msgstr "如果在此设备和你的路由器上启用了通用即插即用协议（UPnP），这些端口将会在你创建游戏时自动转发。"
 
 #: /Language/Interface/Record[Key='SettingsTooltipOpacity']
 msgctxt "Interface.SettingsTooltipOpacity"
 msgid "Tooltip Opacity"
-msgstr "提示文本透明度"
+msgstr "提示信息不透明度"
 
 #: /Language/Interface/Record[Key='MenuDownloadDriverButton']
 msgctxt "Interface.MenuDownloadDriverButton"
@@ -1168,12 +1168,12 @@ msgstr "下载驱动程序"
 #: /Language/Interface/Record[Key='MenuDownloadDriverWarning']
 msgctxt "Interface.MenuDownloadDriverWarning"
 msgid "Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We <b>STRONGLY</b> recommend you update before playing."
-msgstr "许多AMD显卡用户报告了游戏的问题，通过更新驱动程序解决了这些问题.  我们 <b>强烈建议</b> 你在玩之前更新"
+msgstr "许多AMD显卡用户报告他们通过更新驱动程序解决了游戏问题。我们 &lt;b&gt;强烈&lt;/b&gt; 建议你在游玩之前更新驱动程序。"
 
 #: /Language/Interface/Record[Key='SettingsChatFadeTimer']
 msgctxt "Interface.SettingsChatFadeTimer"
 msgid "Chat Fade Delay"
-msgstr "聊天淡出延迟"
+msgstr "聊天窗淡出延迟"
 
 #: /Language/Interface/Record[Key='PromptResetSettingsTitle']
 msgctxt "Interface.PromptResetSettingsTitle"
@@ -1183,7 +1183,7 @@ msgstr "重置设置"
 #: /Language/Interface/Record[Key='PromptResetSettingsBody']
 msgctxt "Interface.PromptResetSettingsBody"
 msgid "Are you sure?"
-msgstr "你确定？"
+msgstr "你确定吗？"
 
 #: /Language/Interface/Record[Key='PromptResetSettingsConfirm']
 msgctxt "Interface.PromptResetSettingsConfirm"
@@ -1198,7 +1198,7 @@ msgstr "Steam错误"
 #: /Language/Interface/Record[Key='SteamErrorBody']
 msgctxt "Interface.SteamErrorBody"
 msgid "Could not connect to Steam.  Try restarting Steam before relaunching Stationeers"
-msgstr "无法连接到Steam。  尝试重新启动Steam，然后再重新游戏"
+msgstr "无法连接至Steam。尝试在重启Stationeers前先重启Steam客户端。"
 
 #: /Language/Interface/Record[Key='SteamErrorButton']
 msgctxt "Interface.SteamErrorButton"
@@ -1208,12 +1208,12 @@ msgstr "退出"
 #: /Language/Interface/Record[Key='WaitingTitle']
 msgctxt "Interface.WaitingTitle"
 msgid "Saving Warning"
-msgstr "保存中警告"
+msgstr "警告：保存中"
 
 #: /Language/Interface/Record[Key='WaitingBody']
 msgctxt "Interface.WaitingBody"
 msgid "Still saving world data.  Please try it again when it finishes."
-msgstr "仍在保存世界数据。请在保存完成后重试。"
+msgstr "世界数据仍在保存中。请在保存完成后重试。"
 
 #: /Language/Interface/Record[Key='PromptQuitTitle']
 msgctxt "Interface.PromptQuitTitle"
@@ -1223,7 +1223,7 @@ msgstr "退出Stationeers"
 #: /Language/Interface/Record[Key='PromptQuitBody']
 msgctxt "Interface.PromptQuitBody"
 msgid "Are you sure you want to quit?"
-msgstr "您确定要退出吗？"
+msgstr "你确定要退出吗？"
 
 #: /Language/Interface/Record[Key='PromptQuitConfirm']
 msgctxt "Interface.PromptQuitConfirm"
@@ -1238,7 +1238,7 @@ msgstr "取消订阅"
 #: /Language/Interface/Record[Key='PromptUnsubscribeBody']
 msgctxt "Interface.PromptUnsubscribeBody"
 msgid "Are you sure you want to unsubscribe from this Workshop item?"
-msgstr "确定要取消订阅此工坊项目吗？"
+msgstr "你确定要取消订阅此创意工坊项目吗？"
 
 #: /Language/Interface/Record[Key='PromptUnsubscribeConfirm']
 msgctxt "Interface.PromptUnsubscribeConfirm"
@@ -1253,7 +1253,7 @@ msgstr "覆盖"
 #: /Language/Interface/Record[Key='PromptOverwriteBody']
 msgctxt "Interface.PromptOverwriteBody"
 msgid "Are you sure you want to overwrite existing saved world?"
-msgstr "您确定要覆盖现有的已保存的游戏吗？"
+msgstr "你确定要覆盖现有的已保存世界吗？"
 
 #: /Language/Interface/Record[Key='PromptOverwriteConfirm']
 msgctxt "Interface.PromptOverwriteConfirm"
@@ -1263,12 +1263,12 @@ msgstr "覆盖"
 #: /Language/Interface/Record[Key='PromptPublishTitle']
 msgctxt "Interface.PromptPublishTitle"
 msgid "Publish to Workshop"
-msgstr "发布到创意工坊"
+msgstr "发布至创意工坊"
 
 #: /Language/Interface/Record[Key='PromptPublishBody']
 msgctxt "Interface.PromptPublishBody"
 msgid "Are you sure you want to publish this world to the workshop?"
-msgstr "您确定要将这个世界发布到创意工坊吗？"
+msgstr "你确定要将此世界发布至创意工坊吗？"
 
 #: /Language/Interface/Record[Key='PromptPublishConfirm']
 msgctxt "Interface.PromptPublishConfirm"
@@ -1283,7 +1283,7 @@ msgstr "删除存档"
 #: /Language/Interface/Record[Key='PromptDeleteBody']
 msgctxt "Interface.PromptDeleteBody"
 msgid "Are you sure?"
-msgstr "你确定？"
+msgstr "你确定吗？"
 
 #: /Language/Interface/Record[Key='PromptDeleteConfirm']
 msgctxt "Interface.PromptDeleteConfirm"
