@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 21:35+0000\n"
+"PO-Revision-Date: 2022-08-04 21:39+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -10587,24 +10587,24 @@ msgid ""
 "{LINK:Sinotai;Sinotai} have cornered the market in filter design. Their trademarked templates are simple to print and highly efficient at capturing various gases, which can be disposed of or used "
 "elsewhere. {GAS:Oxygen} is a common byproduct of smelting various ores, but must be filtered of such impurities as {GAS:Nitrogen} using this filter and various devices, such as the "
 "{THING:ItemDynamicScrubber}."
-msgstr "{LINK:Sinotai;Sinotai}在滤芯设计方面垄断了市场。他们的商标模板易于打印，并且可以高效捕获各种气体，这些气体可以在其他地方处理或使用。{GAS:Oxygen}是冶炼各种矿石的常见副产品，但必须使用此过滤器和各种设备（例如{THING:ItemDynamicScrubber}）过滤{GAS:Nitrogen}等杂质。"
+msgstr "滤芯可以用于捕获各种气体，这些被捕获到的气体可以被处理掉或者用于其它地方。 {GAS:Nitrogen} 是熔炼各种矿石时产生的一种副产品，尤其是在熔炼 {THING:ItemNitrice} 时，此时副产品中可能还会伴随着 {GAS:Oxygen} ，从而产生一种可呼吸的 - 且易燃性大大降低的 - 混合气体。"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterOxygen']
 msgctxt "Things.ItemGasFilterOxygen"
 msgid "Filter (Oxygen)"
-msgstr "滤芯(氧)"
+msgstr "普通滤芯（氧气）"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterNitrogen']
 msgctxt "Things.ItemGasFilterNitrogen"
 msgid ""
 "Filters are used to capture various gases, which can be disposed of or used elsewhere. {GAS:Nitrogen} is a byproduct of smelting various ores, notably {THING:ItemNitrice}, which may be combined with"
 " {GAS:Oxygen} to make a breathable - and considerably less flammable - atmosphere."
-msgstr "滤芯用于捕获各种气体，这些气体可以在其他地方处理或使用{GAS:Nitrogen}是冶炼各种矿石的副产品，特别是{THING:ItemNitrice}，它可以与{GAS:Oxygen}结合使用，形成透气且可燃性大大降低的大气。"
+msgstr "滤芯可以用于捕获各种气体，这些被捕获到的气体可以被处理掉或者用于其它地方。 {GAS:Nitrogen} 是熔炼各种矿石时产生的一种副产品，尤其是在熔炼 {THING:ItemNitrice} 时，此时副产品中可能还会伴随着 {GAS:Oxygen} ，从而产生一种可呼吸的 - 且易燃性大大降低的 - 混合气体。"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterNitrogen']
 msgctxt "Things.ItemGasFilterNitrogen"
 msgid "Filter (Nitrogen)"
-msgstr "滤芯(氮)"
+msgstr "普通滤芯（氮气）"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterPollutants']
 msgctxt "Things.ItemGasFilterPollutants"
@@ -10612,12 +10612,13 @@ msgid ""
 "Filters are used to capture various gases, such as waste emissions from a {THING:StructureFurnace} or {THING:StructureArcFurnace}. Adding {LINK:Sinotai;Sinotai}-designed {GAS:Pollutant} filters to a"
 " {THING:ItemDynamicScrubber} allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a {THING:StructureWallCooler}. Try not to inhale."
 msgstr ""
-"滤芯用于捕获各种气体，例如来自{THING:StructureFurnace}或{THING:StructureArcFurnace}的废物排放。{LINK:Sinotai;Sinotai}设计的{GAS:Pollutant}过滤器到{THING:ItemDynamicScrubber}允许您隔离这种气体，然后将其排放到管网中，并在{THING:StructureWallCooler}中采用其出色的冷却剂特性。尽量不要吸入。"
+"滤芯可以用于捕获各种气体，例如从 {THING:StructureFurnace} 或 {THING:StructureArcFurnace} 中排放出的废气。将此由 &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 设计的 {GAS:Pollutant} 滤芯安装到一台 "
+"{THING:ItemDynamicScrubber} 中，能够实现从大气环境中分离出这种气体的功能，接着将其连接到一个管道网络中，并在一台 {THING:StructureWallCooler} 中利用污染性气体优异的冷却剂特性。请尽量不要吸入这种气体。"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterPollutants']
 msgctxt "Things.ItemGasFilterPollutants"
 msgid "Filter (Pollutant)"
-msgstr "滤芯(污染物)"
+msgstr "普通滤芯（污染性气体）"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
 msgctxt "Things.ItemGasFilterCarbonDioxide"
@@ -10626,19 +10627,19 @@ msgid ""
 "standard deployment kit (SDK). These filters allow passage of {GAS:CarbonDioxide} into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} "
 "and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available."
 msgstr ""
-"鉴于人类对呼气的痴迷{GAS:CarbonDioxide}，所有空间站长携带有两个基本{LINK:Sinotai;Sinotai} {GAS:CarbonDioxide}{SLOT:GasFilter}作为其标准部署套件 "
-"的一部分。这些过滤器允许{GAS:CarbonDioxide}进入套装的废弃瓶{THING:ItemGasCanisterEmpty}，同时也是{THING:DynamicScrubber}和{THING:StructureFiltration}的关键组件。{THING:ItemGasFilterCarbonDioxideM} "
-"和{THING:ItemGasFilterCarbonDioxideL}也可用。"
+"鉴于人类对呼出 {GAS:CarbonDioxide} 的痴迷，所有 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 都被配发了两个基础型号的 &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; {GAS:CarbonDioxide} "
+"{SLOT:Filter} ，作为他们标准部署套件（SDK）的一部分。这些滤芯允许 {GAS:CarbonDioxide} 通过，从而进入航天服的废气 {THING:ItemGasCanisterEmpty} ，但它们同时也是 {THING:DynamicScrubber} 和 {THING:StructureFiltration} 的关键组件。 "
+"{THING:ItemGasFilterCarbonDioxideM} 和 {THING:ItemGasFilterCarbonDioxideL} 的作用与之相同。"
 
 #: /Language/Things/RecordThing[Key='ItemGasFilterCarbonDioxide']
 msgctxt "Things.ItemGasFilterCarbonDioxide"
 msgid "Filter (Carbon Dioxide)"
-msgstr "滤芯(二氧化碳)"
+msgstr "普通滤芯（二氧化碳）"
 
 #: /Language/Things/RecordThing[Key='ItemLiquidCanisterEmpty']
 msgctxt "Things.ItemLiquidCanisterEmpty"
 msgid "Holds {GAS:Water}, if you have some."
-msgstr "持有{GAS:Water}，如果你有一些。"
+msgstr "能够储存 {GAS:Water} ，如果你有的话。"
 
 #: /Language/Things/RecordThing[Key='ItemLiquidCanisterEmpty']
 msgctxt "Things.ItemLiquidCanisterEmpty"
@@ -10651,7 +10652,8 @@ msgid ""
 "The blue portable {GAS:Water} {SLOT:GasCanister} has a 64L capacity, supplying {GAS:Water} to items like the {THING:DynamicHydroponics} unit, or any other connected "
 "system. All liquid canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicLiquidCanisterEmpty} or {THING:StructureLiquidTankStorage} for refill."
 msgstr ""
-"蓝色便携式{GAS:Water}{SLOT:GasCanister}具有64升容量，为{THING:DynamicHydroponics}单元或任何其他连接的系统等物品提供{GAS:Water}。所有储液瓶可以填充到8000kPa（80个大气压）压力，并且可以安装到{THING:DynamicLiquidCanisterEmpty}或{THING:StructureLiquidTankStorage}上进行补充。"
+"这个蓝色的便携 {GAS:Water} {SLOT:LiquidCanister} 容量为64L，为例如 {THING:DynamicHydroponics} 装置，或其它任何连接上的系统供应 {GAS:Water} "
+"源。所有的储液瓶被制造时都是装满的，内部压强达到8000kPa（80个标准大气压），且可以被安装到 {THING:DynamicLiquidCanisterEmpty} 或 {THING:StructureLiquidTankStorage} 中以重新装填。"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
 msgctxt "Things.ItemGasCanisterWater"
@@ -10664,8 +10666,8 @@ msgid ""
 "The white portable 64L {SLOT:GasCanister} is the {LINK:Stationeers;Stationeer's} basic unit of {GAS:Oxygen} delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
 "Careful not to pressurize beyond 10MPa, or it may go 'bang'."
 msgstr ""
-"白色便携式64升{SLOT:GasCanister}是空间站长{GAS:Oxygen}输送的基本单位。所有储气瓶可以最多填充到8000kPa（80个大气压）的压力，并且可以安装到{THING:DynamicGasCanisterAir}或{THING:StructureGasTankStorage}上进行补充。\n"
-"小心不要加压超过10MPa，否则可能会“砰”一声。"
+"这个白色的便携64L {SLOT:GasCanister} 是 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 运载 {GAS:Oxygen} 的基本装置。所有的储气瓶被制造时都是装满的，气压达到8000kPa（80个标准大气压），且可以被安装到 {THING:DynamicGasCanisterAir} 或 {THING:StructureGasTankStorage} 中以重新装填。\n"
+"请小心，加压时不要超过10MPa，否则它可能会“砰”地一声 ..."
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterOxygen']
 msgctxt "Things.ItemGasCanisterOxygen"
@@ -10678,18 +10680,18 @@ msgid ""
 "The green portable {GAS:Nitrogen} {SLOT:GasCanister} supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
 "Careful not to pressurize beyond 10MPa, or it may go 'bang'."
 msgstr ""
-"绿色便携式{GAS:Nitrogen}{SLOT:GasCanister}为{THING:ItemSpacepack}和{THING:ItemHardJetpack}提供推进剂。所有储气瓶可以填充到8000kPa（80个大气压）压力，并且可以安装到{THING:DynamicGasCanisterAir}或{THING:StructureGasTankStorage}上进行补充。\n"
-"小心不要加压超过10MPa，否则可能会“砰”一声。"
+"这个绿色的便携 {GAS:Nitrogen} {SLOT:GasCanister} 为 {THING:ItemSpacepack} 和 {THING:ItemHardJetpack} 供应推进剂。所有的储气瓶被制造时都是装满的，气压达到8000kPa（80个标准大气压），且可以被安装到 {THING:DynamicGasCanisterAir} 或 {THING:StructureGasTankStorage} 中以重新装填。\n"
+"请小心，加压时不要超过10MPa，否则它可能会“砰”地一声 ..."
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
 msgctxt "Things.ItemGasCanisterNitrogen"
 msgid "Canister (Nitrogen)"
-msgstr "储气瓶(氮)"
+msgstr "储气瓶（氮气）"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterVolatiles']
 msgctxt "Things.ItemGasCanisterVolatiles"
 msgid "Canister (Volatiles)"
-msgstr "储气瓶(挥发性有机物)"
+msgstr "储气瓶（挥发性气体）"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterFuel']
 msgctxt "Things.ItemGasCanisterFuel"
@@ -10697,13 +10699,13 @@ msgid ""
 "The orange portable {LINK:GasPage;fuel} {SLOT:GasCanister} supplies a 64L mixture of 66% {GAS:Volatiles}/34% {GAS:Oxygen} for powering such items as the {THING:ItemWeldingTorch} and the {THING:DynamicGenerator}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
 "Careful not to pressurize beyond 10MPa, or it may go 'bang'."
 msgstr ""
-"橙色便携式{LINK:GasPage;fuel}{SLOT:GasCanister}提供66%{GAS:Volatiles}/34%{GAS:Oxygen}的64升混合物，用于为{THING:ItemWeldingTorch}和{THING:DynamicGenerator}等物品提供动力。所有储气瓶可以填充到8000kPa（80个大气压），并且可以安装到{THING:DynamicGasCanisterAir}或{THING:StructureGasTankStorage}上进行补充。\n"
-"小心不要加压超过10MPa，否则可能会“砰”一声。"
+"这个橙色的便携 &lt;color=#0080FFFF&gt;{LINK:GasPage;燃料}&lt;/color&gt; {SLOT:GasCanister} 用64L的66% {GAS:Volatiles}/34% {GAS:Oxygen} 的混合气体为例如 {THING:ItemWeldingTorch} 和 {THING:DynamicGenerator} 等物品提供动力。所有的储气瓶被制造时都是装满的，气压达到8000kPa（80个标准大气压），且可以被安装到 {THING:DynamicGasCanisterAir} 或 {THING:StructureGasTankStorage} 中以重新装填。\n"
+"请小心，加压时不要超过10MPa，否则它可能会“砰”地一声 ..."
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterFuel']
 msgctxt "Things.ItemGasCanisterFuel"
 msgid "Canister (Fuel)"
-msgstr "储气瓶(燃料)"
+msgstr "储气瓶（燃料）"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterEmpty']
 msgctxt "Things.ItemGasCanisterEmpty"
@@ -10712,9 +10714,8 @@ msgid ""
 "{THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
 "Careful not to pressurize beyond 10MPa, or it may go 'bang'. Contains 64L of gas."
 msgstr ""
-"便携式{SLOT:GasCanister}是空间站长{LINK:GasPage;gas}输送气体的基本单位。额定标准压力为8000kPa（80个大气压），储气瓶可以安装在\n"
-"{THING:DynamicGasCanisterAir}或 {THING:StructureGasTankStorage} 填充。\n"
-"小心不要加压超过10MPa，否则可能会“砰”一声。含有64升气体。"
+"这个便携的 {SLOT:GasCanister} 是 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 运载 &lt;color=#0080FFFF&gt;{LINK:GasPage;气体}&lt;/color&gt; 的基本装置。它的额定气压为8000kPa（80个标准大气压），空的储气瓶可以被安装到 {THING:DynamicGasCanisterAir} 或 {THING:StructureGasTankStorage} 中以重新装填。\n"
+"请小心，加压时不要超过10MPa，否则它可能会“砰”地一声 ... 它能够容纳64L气体。"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterEmpty']
 msgctxt "Things.ItemGasCanisterEmpty"
@@ -10727,8 +10728,9 @@ msgid ""
 "While this byproduct from smelting - sometimes known simply as 'X' - is a toxin, its specific heat makes it a valuable coolant. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. \n"
 "Careful not to pressurize beyond 10MPa, or it may go 'bang'."
 msgstr ""
-"虽然这种冶炼副产品（有时简称为“X”）是一种毒素，但其比热使其成为一种有价值的冷却剂。所有储气瓶在8000kPa（80个大气压）的压力时都是满的，并且可以安装到{THING:DynamicGasCanisterAir}或{THING:StructureGasTankStorage}上进行补充。\n"
-"小心不要加压超过10MPa，否则可能会“砰”一声。"
+"虽然这种熔炼时产生的副产品 - 有时简称为“X” - 是一种有毒物质，但它的比热容使得它成为一种相当有用的冷却剂。\n"
+"所有的储气瓶被制造时都是装满的，气压达到8000kPa（80个标准大气压），且可以被安装到 {THING:DynamicGasCanisterAir} 或 {THING:StructureGasTankStorage} 中以重新装填。\n"
+"请小心，加压时不要超过10MPa，否则它可能会“砰”地一声 ..."
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterPollutants']
 msgctxt "Things.ItemGasCanisterPollutants"
