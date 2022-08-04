@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 21:15+0000\n"
+"PO-Revision-Date: 2022-08-04 21:19+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6437,7 +6437,7 @@ msgstr "(套件)便携式空调"
 #: /Language/Things/RecordThing[Key='ItemDynamicScrubber']
 msgctxt "Things.ItemDynamicScrubber"
 msgid "Kit (Portable Scrubber)"
-msgstr "(套件)便携式空气过滤器"
+msgstr "移动式空气过滤机"
 
 #: /Language/Things/RecordThing[Key='ItemKitMotherShipCore']
 msgctxt "Things.ItemKitMotherShipCore"
@@ -11195,17 +11195,17 @@ msgstr "小鸡"
 #: /Language/Things/RecordThing[Key='EntityAlien']
 msgctxt "Things.EntityAlien"
 msgid "The answer to the age-old question, 'Is there life on other planets?', is 'I guess so.'"
-msgstr "“其他星球上有生命吗？”这个古老问题的答案是“我猜是的”。"
+msgstr "“其它行星上有生命存在吗？”，对于这个古老问题的答案是，“大概有吧。”"
 
 #: /Language/Things/RecordThing[Key='EntityAlien']
 msgctxt "Things.EntityAlien"
 msgid "Entity Alien"
-msgstr "外星人"
+msgstr "实体：外星生物"
 
 #: /Language/Things/RecordThing[Key='EffectSplatEgg']
 msgctxt "Things.EffectSplatEgg"
 msgid "Effect Splat Egg"
-msgstr "效果蛋"
+msgstr "效果触发蛋"
 
 #: /Language/Things/RecordThing[Key='DynamicScrubber']
 msgctxt "Things.DynamicScrubber"
@@ -11214,7 +11214,8 @@ msgid ""
 "surrounding atmosphere. Note that the scrubber has room for one battery and two filters, which will double its operating speed. Neat. When it reaches an internal pressure of 8106kPA, an error signal"
 " will flash on the switch, indicating it needs to be emptied. Either vent it directly, or attach it to a pipe network via a {THING:ItemTankConnector} and a {THING:ItemWrench}."
 msgstr ""
-"便携式空气过滤机的作用正是它听起来的样子：从空气中去除特定物质。例如，装上{THING:ItemGasFilterCarbonDioxide}将从周围的大气中拉出{GAS:CarbonDioxide}。请注意，过滤机有一个电池和两个过滤器的空间，这将使其运行速度增加一倍。当它达到8106kpa的内部压力时，开关上将闪烁一个错误信号，表明它需要清空。要么直接通风，要么通过{THING:ItemTankConnector}和{THING:ItemWrench}将其连接到管道网络。"
+"一台移动式空气过滤机所做的事正如其名：除去空气中的特定物质。例如，安装上 {THING:ItemGasFilterCarbonDioxide} 将会吸收周围大气环境中的 {GAS:CarbonDioxide} "
+"。需要注意的是，这款空气过滤机能容纳一块电池和两个滤芯，这将使其工作效率加倍。真好。当它的内部压强达到8106kPa时，开关将会闪烁报错，示意机器需要被清空。你可以直接将气体排出，或者也可以通过使用 {THING:ItemTankConnector} 和 {THING:ItemWrench} 将其连接到一个管道网络中。"
 
 #: /Language/Things/RecordThing[Key='DynamicScrubber']
 msgctxt "Things.DynamicScrubber"
@@ -11226,12 +11227,12 @@ msgctxt "Things.DynamicLight"
 msgid ""
 "Philippe Starck might not applaud, but this battery-powered light source undarkens the corners when illumination's lacking. Powered by any battery, it's a 'no-frills' {LINK:Xigo;Xigo} design that "
 "can be cheaply fabricated with the minimum of fuss. Unless you like fuss. In which case, fuss all you like."
-msgstr "菲利普·斯塔克可能不会鼓掌，但是当缺乏照明时，这种电池供电的光源会破坏角落。由任何电池供电，它是一个“没有多余的装饰”{LINK:Xigo;Xigo}设计，可以廉价地制造，只需最少的麻烦。除非你喜欢大惊小怪。在这种情况下，大惊小怪你喜欢的一切。"
+msgstr "Philippe Starck可能不会称赞它，但是这款由电池供电的光源在缺乏照明的情况下可以照亮黑暗的角落。它可以由任何种类的电池供电，这是一个 &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; 的“朴实无华”的设计，可以以最小的麻烦和最低的成本的制造。正因如此，你可以做任何你想做的事。"
 
 #: /Language/Things/RecordThing[Key='DynamicLight']
 msgctxt "Things.DynamicLight"
 msgid "Portable Light"
-msgstr "便携式灯具"
+msgstr "移动式电灯"
 
 #: /Language/Things/RecordThing[Key='DynamicGenerator']
 msgctxt "Things.DynamicGenerator"
@@ -11240,12 +11241,13 @@ msgid ""
 "or attach it to a {THING:StructurePowerConnector} to link it into your electrical network. It's pressure driven, so functions more efficiently at lower temperatures, and REALLY efficiently if "
 "supercooled. Perfecting your fuel mix also makes a big difference."
 msgstr ""
-"每个空间站长最好的朋友，便携式发电机可以让您快速启动并运行。用{THING:ItemGasCanisterFuel}填充它，以启动{THING:ItemBatteryCell}并为之充电，或将其连接到{THING:StructurePowerConnector}以将其连接到您的电网中。它是压力驱动的，因此在较低温度下可以更有效地工作，如果过冷，则非常有效。完善您的燃料组合也会产生重大影响。"
+"每一个 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 最好的朋友，移动式发电机能让你快速行动起来。装入 {THING:ItemGasCanisterFuel} 来发电并且为一块 {THING:ItemBatteryCell} 充电，或者用扳手将其安装到 "
+"{THING:StructurePowerConnector} 上以使其与你的电气网络相连。它是由压力驱动的，所以在较低的温度下工作效率更高，并且在超冷环境下，它的工作效率会相当高。改善你的燃料混合比例也会有很大的影响。"
 
 #: /Language/Things/RecordThing[Key='DynamicGenerator']
 msgctxt "Things.DynamicGenerator"
 msgid "Portable Generator"
-msgstr "便携式发电机"
+msgstr "移动式发电机"
 
 #: /Language/Things/RecordThing[Key='DynamicLiquidCanisterEmpty']
 msgctxt "Things.DynamicLiquidCanisterEmpty"
@@ -11254,12 +11256,13 @@ msgid ""
 "{THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about"
 " yourself."
 msgstr ""
-"该便携式储液罐仅存储液体。您可以使用{THING:ItemWrench}将一个连接到{THING:ItemTankConnectorLiquid}，然后将其连接到管道网络以重新填充它。你可以通过将{THING:ItemGasCanisterWater}附加到罐体的条纹部分来重新填充它。或者你可以使用{THING:ItemWrench}将它连接到火箭上，然后把它带到遥远而干燥的地方，然后对自己感觉良好。"
+"这个移动式储罐储存液体，并且只能储存液体。你可以通过用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnectorLiquid} 上，然后把它连接到一个管道网络中来重新填满它。你可以通过将 {THING:ItemGasCanisterWater} 插入到它顶部附近的水滴图案部分中来重新装填。或者你也可以用 {THING:ItemWrench} "
+"把它安装到一枚火箭上，并且把它带到某个遥远又干燥的地方，然后自我感觉良好。"
 
 #: /Language/Things/RecordThing[Key='DynamicLiquidCanisterEmpty']
 msgctxt "Things.DynamicLiquidCanisterEmpty"
 msgid "Portable Liquid Tank"
-msgstr "便携储液罐(空)"
+msgstr "移动式储液罐"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterWater']
 msgctxt "Things.DynamicGasCanisterWater"
@@ -11268,14 +11271,13 @@ msgid ""
 "Try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun.\n"
 "You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself."
 msgstr ""
-"该便携式罐仅存储液体。你只需要填满它。为此，请使用{THING:ItemWrench}将一个连接到{THING:ItemTankConnector}，然后将其连接到{THING:StructurePipeLiquidStraight}以向网络供应液体。\n"
-"尽量将压力保持在10兆帕以下，否则你最终会湿润，受伤和抱歉，没有任何乐趣。\n"
-"你可以通过将{THING:ItemGasCanisterWater}附加到罐体的条纹部分来重新填充它。或者你可以使用{THING:ItemWrench}将它连接到火箭上，然后把它带到遥远而干燥的地方，然后对自己感觉良好。"
+"这个移动式储罐储存液体，并且只能储存液体。你只需要把它注满就行了。要把它注满，用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnectorLiquid} 上，接着将它连接到 {THING:StructurePipeLiquidStraight} "
+"上以给一个网络供应液体。尽量保持压强低于10MPa，否则事情将以你浑身湿透、受伤、难过且没有一丝乐趣而告终。你可以通过将 {THING:ItemGasCanisterWater} 插入到它顶部附近的水滴图案部分中来重新装填。或者你也可以用 {THING:ItemWrench} 把它安装到一枚火箭上，并且把它带到某个遥远又干燥的地方，然后自我感觉良好。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterWater']
 msgctxt "Things.DynamicGasCanisterWater"
 msgid "Portable Liquid Tank (Water)"
-msgstr "便携储液罐(水)"
+msgstr "移动式储液罐（水）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterVolatiles']
 msgctxt "Things.DynamicGasCanisterVolatiles"
@@ -11284,12 +11286,13 @@ msgid ""
 "loves complicated, flammable emergencies. You can refill a {THING:ItemGasCanisterVolatiles} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach to a rocket"
 " and show it around the Solar System."
 msgstr ""
-"便携式储罐储存气体。要重新填充一个，请使用{THING:ItemWrench}将其固定到{THING:ItemTankConnector}，然后将其连接到管道网络。不要把它填满10兆帕以上，除非你是那种喜欢复杂，易燃紧急情况的人。你可以通过将{THING:ItemGasCanisterVolatiles}加到罐体注入侧来充填。或者你可以使用{THING:ItemWrench}连接到火箭上，并在太阳系周围显示它。"
+"这个移动式储罐储存气体。若要重新注满，用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上，接着将它连接到一个管道网络中。不要加压到10MPa以上，除非你是那种钟爱复杂的、易燃的紧急情况的人。你可以通过将 {THING:ItemGasCanisterVolatiles} 插入到它顶部附近的黑黄条纹部分中来重新装填。或者你也可以用 "
+"{THING:ItemWrench} 将它安装到一枚火箭上，并且满太阳系地炫耀它。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterVolatiles']
 msgctxt "Things.DynamicGasCanisterVolatiles"
 msgid "Portable Gas Tank (Volatiles)"
-msgstr "便携储气罐(挥发性有机物)"
+msgstr "移动式储气罐（挥发性气体）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterOxygen']
 msgctxt "Things.DynamicGasCanisterOxygen"
@@ -11298,13 +11301,13 @@ msgid ""
 " you'll be picking tank shards out of your face. You can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an "
 "atmosphere. Or even paint it pink, call it Steve and fill that sad space in your heart."
 msgstr ""
-"便携式储气罐。如果您需要重新填充，请使用{THING:ItemWrench}将其螺栓固定到{THING:ItemTankConnector}上，然后将其连接到管网。尽量避免将其推到10 "
-"MPa以上，否则您将从脸上捡起罐体碎片。你可以通过将{THING:ItemGasCanisterOxygen}加到罐体的条纹部分来重新填充它。或者你可以把它通风到一个密封的房间，以创造一种氛围。或者甚至把它涂成粉红色，叫它史蒂夫，填满你心中的悲伤空间。"
+"这个移动式储罐储存气体。如果你需要重新注满一个储气罐，用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上，接着将它连接到一个管道网络中。尽量避免加压到10MPa以上，否则你将会捡到满脸的储气罐碎片。你可以通过将 {THING:ItemGasCanisterOxygen} "
+"插入到它顶部附近的黑黄条纹部分中来重新装填。或者你也可以将氧气排放到一个密封的房间中来创造一个大气环境。你甚至可以把它漆成粉红色，给它取名叫Steve，来填补你内心的悲伤。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterOxygen']
 msgctxt "Things.DynamicGasCanisterOxygen"
 msgid "Portable Gas Tank (Oxygen)"
-msgstr "便携式储气罐（氧气）"
+msgstr "移动式储气罐（氧气）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrogen']
 msgctxt "Things.DynamicGasCanisterNitrogen"
@@ -11313,13 +11316,13 @@ msgid ""
 " you'll end up with {GAS:Nitrogen} in places you weren't expecting. You can refill a {THING:ItemGasCanisterNitrogen} by attaching it to the tank's striped section. Or you could use a "
 "{THING:ItemWrench} to attach it to a rover or rocket for later."
 msgstr ""
-"便携式储气罐。如果您需要重新填充，请使用{THING:ItemWrench}将其固定到{THING:ItemTankConnector}上，然后将其连接到管网。尽量避免将其推到10 "
-"MPa以上，否则您将在意想不到的地方最终得到{GAS:Nitrogen}。你可以通过将{THING:ItemGasCanisterNitrogen}附加到罐体的条纹部分来重新填充它。或者你可以使用{THING:ItemWrench}将其连接到火星车或火箭上，以备后用。"
+"这个移动式储罐储存气体。如果你需要重新注满一个储气罐，用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上，接着将它连接到一个管道网络中。尽量避免加压到10MPa以上，否则事情将以 {GAS:Nitrogen} 出现在你不希望它们出现的地方而告终。你可以通过将 {THING:ItemGasCanisterNitrogen} "
+"插入到它顶部附近的黑黄条纹部分中来重新装填。或者你也可以用 {THING:ItemWrench} 将它安装到一辆漫游车或者一枚火箭上以备将来使用。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrogen']
 msgctxt "Things.DynamicGasCanisterNitrogen"
 msgid "Portable Gas Tank (Nitrogen)"
-msgstr "便携式储气罐（氮气）"
+msgstr "移动式储气罐（氮气）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterFuel']
 msgctxt "Things.DynamicGasCanisterFuel"
@@ -11327,24 +11330,28 @@ msgid ""
 "Portable tanks store gas. They're good at it. If you need to refill a tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or things"
 " get messy. You can refill a {THING:ItemGasCanisterFuel} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later. It's really"
 " up to you."
-msgstr "便携式储气罐。如果您需要重新填充储罐，请将其固定到{THING:ItemTankConnector}上，然后将其连接到管网。尽量避免将其推到10 MPa以上，否则事情会变得混乱。你可以通过将{THING:ItemGasCanisterFuel}附加到罐体的条纹部分来重新填充它。或者你可以使用{THING:ItemWrench}将其连接到火星车或火箭上，以备后用。这真的取决于你。"
+msgstr ""
+"这个移动式储罐储存气体。它们很擅长干这行。如果你需要重新注满一个储气罐，用扳手将其固定到 {THING:ItemTankConnector} 上，接着将它连接到一个管道网络中。尽量避免加压到10MPa以上，否则事情将变得一团糟。你可以通过将 {THING:ItemGasCanisterFuel} 插入到它顶部附近的黑黄条纹部分中来重新装填。或者你也可以用 {THING:ItemWrench} "
+"将它安装到一辆漫游车或者一枚火箭上以备将来使用。这真的取决于你自己。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterFuel']
 msgctxt "Things.DynamicGasCanisterFuel"
 msgid "Portable Gas Tank (Fuel)"
-msgstr "便携式储气罐（燃料）"
+msgstr "移动式储气罐（燃料）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterEmpty']
 msgctxt "Things.DynamicGasCanisterEmpty"
 msgid ""
 "Portable gas tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, "
 "you can refill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere."
-msgstr "便携式储气罐。要重新填充时，请将其固定到{THING:ItemTankConnector}，然后将其连接到管网。尽量避免将其推到10 MPa以上，否则会发生不好的事情。一旦它装满了，你可以通过将{THING:ItemGasCanisterEmpty}附加到罐体的条纹部分来重新填充它。或者，您可以将储罐的可变流量阀排放到房间中并创造氛围。"
+msgstr ""
+"这个移动式储罐储存气体。若要重新注满，用扳手将其固定到 {THING:ItemTankConnector} 上，接着将它连接到一个管道网络中。尽量避免加压到10MPa以上，否则将发生糟糕的事。当它被注满后，你可以通过将 {THING:ItemGasCanisterEmpty} "
+"插入到它顶部附近的黑黄条纹部分中来重新装填。或者你也可以通过在一个房间中打开储气罐顶部的可变流量阀门来创造一个大气环境。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterEmpty']
 msgctxt "Things.DynamicGasCanisterEmpty"
 msgid "Portable Gas Tank"
-msgstr "便携式储气罐"
+msgstr "移动式储气罐"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterCarbonDioxide']
 msgctxt "Things.DynamicGasCanisterCarbonDioxide"
@@ -11353,12 +11360,13 @@ msgid ""
 "it's full, you can refill a {THING:ItemGasCanisterCarbonDioxide} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an "
 "atmosphere ... of sorts."
 msgstr ""
-"便携式储气罐只做一件事：储存气体。要重新填充储罐，请将其固定到{THING:ItemTankConnector}，然后将其连接到管网。尽量避免将其推到10 MPa以上，或者...。一旦它装满了，你可以通过将{THING:ItemGasCanisterCarbonDioxide}连接到罐体的条纹部分来重新填充它。或者，您可以将储罐的可变流量阀排放到房间中并创造氛围......种类繁多。"
+"移动式储气罐只做一件事：储存气体。若要重新注满它，用扳手将它固定到 {THING:ItemTankConnector} 上，接着将它连接到一个管道网络中。尽量避免加压到10MPa以上，否则 ... BOOM。当它被注满后，你可以通过将一个 {THING:ItemGasCanisterCarbonDioxide} "
+"插入到它顶部附近的黑黄条纹部分中来重新装填。或者你也可以通过在一个房间中打开储气罐顶部的可变流量阀门来创造一个大气环境 ... 差不多就这些。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterCarbonDioxide']
 msgctxt "Things.DynamicGasCanisterCarbonDioxide"
 msgid "Portable Gas Tank (CO2)"
-msgstr "便携式储气罐（二氧化碳）"
+msgstr "移动式储气罐（二氧化碳）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterAir']
 msgctxt "Things.DynamicGasCanisterAir"
@@ -11367,18 +11375,18 @@ msgid ""
 " it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate "
 "valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possiblities are endless."
 msgstr ""
-"便携式储气罐只做一件事：储存气体。但是你可以用它们做很多事情。要重新填充储罐，请将其固定到{THING:ItemTankConnector}，然后将其连接到管网。尽量避免将其推到10 "
-"MPa以上，否则会发生不好的事情。一旦它装满了，你可以将{THING:ItemGasCanisterOxygen}连接到罐体的条纹部分来重新填充它。或者，您可以将储罐的可变流量阀排放到房间中并创造空气。它们还附着在漫游车和火箭上。或者，把它踢过来，练习滚桶。可能性是无穷无尽的。"
+"移动式储气罐只做一件事：储存气体。但是你可以用它们做很多事。若要重新注满它，用扳手将它固定到 {THING:ItemTankConnector} 上，接着将它连接到一个管道网络中。尽量避免加压到10MPa以上，否则将发生糟糕的事。当它被注满后，你可以通过将 {THING:ItemGasCanisterOxygen} "
+"插入到它顶部附近的黑黄条纹部分中来重新装填。或者你也可以通过在一个房间中打开储气罐顶部的可变流量阀门来创造一个大气环境。它们还能安装在漫游车和火箭上。或者，将它踢翻来练习滚桶。可能性是无穷无尽的。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterAir']
 msgctxt "Things.DynamicGasCanisterAir"
 msgid "Portable Gas Tank (Air)"
-msgstr "便携式储气罐（空气）"
+msgstr "移动式储气罐（空气）"
 
 #: /Language/Things/RecordThing[Key='DynamicCratePipeSupplies']
 msgctxt "Things.DynamicCratePipeSupplies"
 msgid "Crate (Pipe Supplies)"
-msgstr "箱子(管材补给)"
+msgstr "移动式储物箱（管道）"
 
 #: /Language/Things/RecordThing[Key='DynamicCrateConveyorSupplies']
 msgctxt "Things.DynamicCrateConveyorSupplies"
