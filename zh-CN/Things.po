@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 21:09+0000\n"
+"PO-Revision-Date: 2022-08-04 21:15+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11383,12 +11383,12 @@ msgstr "箱子(管材补给)"
 #: /Language/Things/RecordThing[Key='DynamicCrateConveyorSupplies']
 msgctxt "Things.DynamicCrateConveyorSupplies"
 msgid "Crate (Conveyor Supplies)"
-msgstr "箱子(传送带补给)"
+msgstr "移动式储物箱（传送带）"
 
 #: /Language/Things/RecordThing[Key='DynamicCrateCableSupplies']
 msgctxt "Things.DynamicCrateCableSupplies"
 msgid "Crate (Cabling Supplies)"
-msgstr "箱子(电线补给)"
+msgstr "移动式储物箱（电缆）"
 
 #: /Language/Things/RecordThing[Key='DynamicCrateBuildingSupplies']
 msgctxt "Things.DynamicCrateBuildingSupplies"
@@ -11398,19 +11398,19 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='DynamicCrateBuildingSupplies']
 msgctxt "Things.DynamicCrateBuildingSupplies"
 msgid "Crate (Building Supplies)"
-msgstr "箱子(建材补给)"
+msgstr "移动式储物箱（建材）"
 
 #: /Language/Things/RecordThing[Key='DynamicCrate']
 msgctxt "Things.DynamicCrate"
 msgid ""
 "The humble dynamic crate has become a symbol of {LINK:Stationeers;Stationeer] invention and independence. With twelve slots and handles at either end for ease of carriage, it's both standard issue "
 "and critical kit for cadets and Commanders alike."
-msgstr "简陋的箱子已成为空间站长发明和独立性的象征。两端有手柄，内部有12个插槽，便于携带，它既是学员和指挥官的标准配置，也是关键套件。"
+msgstr "这个简陋的移动式储物箱已经成为了 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 的创意和独立性的象征。它共有12个槽位，在两端各有一个把手以便携带，是学员和指挥官们的标配，也是生存所需的关键装备。"
 
 #: /Language/Things/RecordThing[Key='DynamicCrate']
 msgctxt "Things.DynamicCrate"
 msgid "Dynamic Crate"
-msgstr "箱子"
+msgstr "移动式储物箱"
 
 #: /Language/Things/RecordThing[Key='DynamicAirConditioner']
 msgctxt "Things.DynamicAirConditioner"
@@ -11418,34 +11418,36 @@ msgid ""
 "The {LINK:Sinotai;Sinotai}-designed Huxi portable air conditioner cools by drawing heat from the atmosphere and storing it, or adding heat to the atmosphere from its internal tank. With a max "
 "internal pressure of 8106kPa, its capacity is relatively limited, physics being clear on this subject. To extend its temperature storage ability, bolt the Huxi to a {THING:StructureTankConnector}, "
 "then connect it to a pipe network supplying hot or cold {LINK:GasPage;gases}."
-msgstr "{LINK:Sinotai;Sinotai}设计的“呼吸”便携式空调通过从大气中吸收热量并将其储存起来冷却，或从其内部水箱向大气中添加热量来冷却。由于最大内压为8106kPa，因而容量相对有限。为了扩展其温度存储能力，将“呼吸”固定在{THING:StructureTankConnector}上，然后将其连接到供应冷/热的管网{LINK:GasPage;gases}。"
+msgstr ""
+"这台由 &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 设计的Huxi移动式空调能够通过从大气环境中吸收并储存热量来制冷，或者通过其内部储气箱为大气环境加热。由于其最大内部压强为8106kPa，所以它对温度的储存能力相对有限，物理学上对此问题解释得很清楚。若要增强其储存温度的能力，需要用扳手将Huxi固定到 "
+"{THING:StructureTankConnector} 上，然后将其连接到一个供应热或冷的 &lt;color=#0080FFFF&gt;{LINK:GasPage;气体}&lt;/color&gt; 的管道网络中。"
 
 #: /Language/Things/RecordThing[Key='DynamicAirConditioner']
 msgctxt "Things.DynamicAirConditioner"
 msgid "Portable Air Conditioner"
-msgstr "便携式空调"
+msgstr "移动式空调机"
 
 #: /Language/Things/RecordThing[Key='CircuitboardSolarControl']
 msgctxt "Things.CircuitboardSolarControl"
 msgid "Adding a solar control board to a {THING:StructureConsole} lets you manually control the horizontal and vertical angles of any connected {THING:StructureSolarPanel}."
-msgstr "将太阳能控制芯片添加到{THING:StructureConsole}中，您可以手动控制任何连接的{THING:StructureSolarPanel}的水平和垂直角度。"
+msgstr "将一块该电路板插入到 {THING:StructureConsole} 中后，你能够手动控制任何已连接的 {THING:StructureSolarPanel} 的水平和垂直角度。"
 
 #: /Language/Things/RecordThing[Key='CircuitboardSolarControl']
 msgctxt "Things.CircuitboardSolarControl"
 msgid "Solar Control"
-msgstr "太阳能控制芯片"
+msgstr "电路板（太阳能电池板控制）"
 
 #: /Language/Things/RecordThing[Key='CircuitboardShipDisplay']
 msgctxt "Things.CircuitboardShipDisplay"
 msgid ""
 "When the original {LINK:Stationeers;Stationeer] Handbook collapsed under its own weight into a singularity, certain information was irretrievably lost. Amongst this mysterious corpus of knowledge is"
 " the exact purpose of the ship display board."
-msgstr "当原版空间站长手册在自身的重压下坍塌成一个奇点，某些信息被不可挽回地丢失了，包括飞船显示器的确切用途。"
+msgstr "当原始的 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 手册在自身的重压下坍缩成了一个奇点后，某些信息就无法挽回地丢失了。在这些神秘的知识宝库中，隐藏着船舶信息显示电路板的确切用途。"
 
 #: /Language/Things/RecordThing[Key='CircuitboardShipDisplay']
 msgctxt "Things.CircuitboardShipDisplay"
 msgid "Ship Display"
-msgstr "飞船显示器芯片"
+msgstr "电路板（船舶信息显示）"
 
 #: /Language/Things/RecordThing[Key='CircuitboardPowerControl']
 msgctxt "Things.CircuitboardPowerControl"
@@ -11454,60 +11456,62 @@ msgid ""
 "      \n"
 "The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle' switches each device to their alternate state. "
 msgstr ""
-"在遥远的阳光和苛刻的环境下，空间站长的系统需要平衡性、弹性和多功能性。电源控制板允许远程启用和禁用所选设备，断开手动操作。\n"
+"由于遥远的太阳和严苛的生存环境， &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 的系统需要在可靠性、适应性和多功能性中达到平衡。电力控制电路板让你能够远程启用和禁用所选的设备，而不必手动操作。\n"
 "      \n"
-"电路板有两种模式：“链接”开关所有设备打开或关闭;“切换”将每个设备切换到其备用状态。 "
+"该电路板有两种模式：\"Link\"模式下能够切换所有设备的开启或关闭；\"Toggle\"模式下能够切换单一设备到它的备选状态。"
 
 #: /Language/Things/RecordThing[Key='CircuitboardPowerControl']
 msgctxt "Things.CircuitboardPowerControl"
 msgid "Power Control"
-msgstr "电源控制芯片"
+msgstr "电路板（电力控制）"
 
 #: /Language/Things/RecordThing[Key='CircuitboardModeControl']
 msgctxt "Things.CircuitboardModeControl"
 msgid "Can't decide which mode you love most? This circuit board allows you to switch any connected device between operation modes."
-msgstr "无法决定您最喜欢的模式？该电路板允许您在操作模式之间切换任何连接的设备。"
+msgstr "无法决定你最喜欢哪种模式？该电路板能让你切换任何已连接的设备的操作模式。"
 
 #: /Language/Things/RecordThing[Key='CircuitboardModeControl']
 msgctxt "Things.CircuitboardModeControl"
 msgid "Mode Control"
-msgstr "模式控制芯片"
+msgstr "电路板（模式控制）"
 
 #: /Language/Things/RecordThing[Key='CircuitboardGasDisplay']
 msgctxt "Things.CircuitboardGasDisplay"
 msgid ""
 "Information is power. Place this circuitboard into a {THING:StructureConsole} to create a display that shows gas pressure or temperature of any connected tank, storage cannister, "
 "{THING:ItemPipeAnalyizer} or {THING:ItemGasSensor}."
-msgstr "信息就是力量。将此电路板放入{THING:StructureConsole}中，以创建一个显示任何连接的储罐、储瓶，{THING:ItemPipeAnalyizer}或{THING:ItemGasSensor}的气体压力或温度的显示器。"
+msgstr "信息就是力量。将该电路板插入 {THING:StructureConsole} 中，以打造一台能够显示任何已连接的储罐、 {THING:ItemPipeAnalyizer} 或 {THING:ItemGasSensor} 的气压或温度的显示器。"
 
 #: /Language/Things/RecordThing[Key='CircuitboardGasDisplay']
 msgctxt "Things.CircuitboardGasDisplay"
 msgid "Gas Display"
-msgstr "气体显示芯片"
+msgstr "电路板（气体信息显示）"
 
 #: /Language/Things/RecordThing[Key='CircuitboardDoorControl']
 msgctxt "Things.CircuitboardDoorControl"
 msgid ""
 "A basic tool of {LINK:Stationeers;Stationeer] base construction, this circuit board provides a way to open and close a {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} or "
 "{THING:StructureGlassDoor} remotely, when connected to a {THING:StructureConsole}. This system can be further linked to {THING:StructureMotionSensor} to create automatic doors."
-msgstr "空间站长的基础结构，当连接到{THING:StructureConsole}时，该电路板提供了一种远程打开和关闭{THING:StructureGlassDoor}，{THING:StructureBlastDoor}或{THING:StructureGlassDoor}的方法。该系统可以进一步链接到{THING:StructureMotionSensor}以创建自动门。"
+msgstr ""
+"&lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 基地建设的一个基本工具，这块电路板提供了一种远程打开和关闭 {THING:StructureCompositeDoor} ， {THING:StructureBlastDoor} 或 {THING:StructureGlassDoor} 的方法，前提是当它插入到"
+" {THING:StructureConsole} 中时。更进一步，这个系统能被链接到 {THING:StructureMotionSensor} 以打造自动门。"
 
 #: /Language/Things/RecordThing[Key='CircuitboardDoorControl']
 msgctxt "Things.CircuitboardDoorControl"
 msgid "Door Control"
-msgstr "门控芯片"
+msgstr "电路板（门控制）"
 
 #: /Language/Things/RecordThing[Key='CircuitboardCameraDisplay']
 msgctxt "Things.CircuitboardCameraDisplay"
 msgid ""
 "Surveillance is sometimes necessary when building bases in highly hostile environments. The camera display circuit board allows wary Stationeers to turn a {THING:StructureConsole} into a security "
 "display when connected to a {THING:StructureCamera}."
-msgstr "在高度敌对的环境中建立基地时，有时需要进行监视。监视芯片允许谨慎的空间站长在连接到{THING:StructureCamera}时将{THING:StructureConsole}变成安全显示器。"
+msgstr "在高度敌对的环境中建立基地时，有时有必要进行监视。摄像头画面显示电路板能够让谨慎的Stationeer将 {THING:StructureConsole} 变为一台安保显示器，前提是与 {THING:StructureCamera} 连接。"
 
 #: /Language/Things/RecordThing[Key='CircuitboardCameraDisplay']
 msgctxt "Things.CircuitboardCameraDisplay"
 msgid "Camera Display"
-msgstr "监控芯片"
+msgstr "电路板（摄像头画面显示）"
 
 #: /Language/Things/RecordThing[Key='CircuitboardAirlockControl']
 msgctxt "Things.CircuitboardAirlockControl"
@@ -11516,14 +11520,14 @@ msgid ""
 "\n"
 "To enter setup mode, insert the board into a {THING:StructureConsole} along with a data disk. In this mode, you can see all data-accessible objects currently connected to the {THING:StructureConsole}. Doors, lights, gas sensors and slave consoles can be selected (highlighted green), and will be controlled once the data disk is removed."
 msgstr ""
-"有传言说，它最初是在{LINK:Norsec;Norsec}厕所由一位心怀不满的工程师设计，Exgress气闸芯片的多功能性和易于制造使其成为{LINK:Stationeers;Stationeers}{THING:StructureAirlock}循环协议的首选控制系统。\n"
+"据传最先由一位心怀不满的 &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; 工程师在卫生间的墙壁上设计，Exgress气闸控制电路板的多功能性以及易于制造使其成为 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 们为 {THING:StructureAirlock} 循环空气选择的控制系统。\n"
 "\n"
-"要进入设置模式，请将电路板与数据磁盘一起插入{THING:StructureConsole}中。在此模式下，您可以看到当前连接到{THING:StructureConsole}的所有数据可访问对象。可以选择门，灯，气体传感器和从控制台（突出显示绿色），并在数据盘移除后进行控制。"
+"要进入设置模式，请将该电路板与数据磁盘一同插入 {THING:StructureConsole} 。在此模式下，你可以看到当前连接到 {THING:StructureConsole} 的所有的数据可访问对象。可以选择门、灯、气体传感器和从属的控制台（绿色高亮显示），一旦卸下数据磁盘就可以进行控制。"
 
 #: /Language/Things/RecordThing[Key='CircuitboardAirlockControl']
 msgctxt "Things.CircuitboardAirlockControl"
 msgid "Airlock"
-msgstr "气闸芯片"
+msgstr "电路板（气闸控制）"
 
 #: /Language/Things/RecordThing[Key='CircuitboardAirControl']
 msgctxt "Things.CircuitboardAirControl"
@@ -11531,17 +11535,19 @@ msgid ""
 "When added to a {THING:StructureConsole}, air control circuit boards allow you to program an {THING:StructureActiveVent}. As with small dogs and 83% of people, air control circuits have only three "
 "modes: Pressure, Draft and Offline. Pressure mode maintains a 100kPa atmosphere, switching the active vent between inward and outward flow until target pressure is achieved. Draft mode allows you to"
 " pair active vents to circulate air. Offline mode deactivates the vent. "
-msgstr "当添加到{THING:StructureConsole}时，空气控制芯片允许您对{THING:StructureActiveVent}进行编程。与小型犬和83%的人一样，空气控制电路只有三种模式：加压，抽取和离线。压力模式保持100kPa的气氛，在向内和向外流动之间切换主动通风口，直到达到目标压力。通风模式允许您配对活动通风口以循环空气。离线模式可停用通风口。 "
+msgstr ""
+"当被插入到一台 {THING:StructureConsole} 中时，空气控制电路板让你能够对 {THING:StructureActiveVent} "
+"进行编程。与小狗们和83%的人类一样，空气控制电路板只有三种模式：压强（Pressure）、通风（Draft）和脱机（Offline）。在压强模式下，将保持100kPa的气压，在空气向内和向外流动之间切换主动式通风口，直至达到目标压强。在通风模式下，你将能够通过配些主动式通风口来让空气循环流动。脱机模式将禁用通风口。"
 
 #: /Language/Things/RecordThing[Key='CircuitboardAirControl']
 msgctxt "Things.CircuitboardAirControl"
 msgid "Air Control"
-msgstr "空气控制芯片"
+msgstr "电路板（空气控制）"
 
 #: /Language/Things/RecordThing[Key='Character']
 msgctxt "Things.Character"
 msgid "This is you."
-msgstr "这就是你。"
+msgstr "这是你。"
 
 #: /Language/Things/RecordThing[Key='Character']
 msgctxt "Things.Character"
@@ -11553,7 +11559,7 @@ msgctxt "Things.CartridgeNetworkAnalyser"
 msgid ""
 "A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-"
 "copied {LINK:Sinotai;Sinotai} design, it's used in conjunction with the OreCore {THING:ItemTablet}."
-msgstr "作为微电子工程的一个小杰作，网络分析仪显示电缆网络的电流，电压和瓦数，以及连接到它的任何设备。基于广泛复制的{LINK:Sinotai;Sinotai}设计，它与{THING:ItemTablet}结合使用。"
+msgstr "网络分析仪是微电子工程的一个小杰作，它可以显示电缆网络的电流、电压和瓦数，以及与之连接的任何设备。基于一个广为流传的 &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 的设计而打造，它需要与掌上平板电脑OreCore {THING:ItemTablet} 一同使用。"
 
 #: /Language/Things/RecordThing[Key='CartridgeNetworkAnalyser']
 msgctxt "Things.CartridgeNetworkAnalyser"
