@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 16:34+0000\n"
+"PO-Revision-Date: 2022-08-04 16:40+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -228,7 +228,7 @@ msgstr "退出至桌面"
 #: /Language/Interface/Record[Key='LogicTypeExportCount']
 msgctxt "Interface.LogicTypeExportCount"
 msgid "How many items exported since last ClearMemory"
-msgstr "导出之前的ClearMemory数量"
+msgstr "自从上次ClearMemory以来输出的物品数量"
 
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
@@ -4742,7 +4742,7 @@ msgstr "返回插槽中结构的哈希"
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, requests an item of the provided type from the device"
-msgstr "当设置为唯一标识符时, 从设备请求一个该类型的物品"
+msgstr "当被设置为唯一标识符时，从设备请求一个所提供的类型的物品"
 
 #: /Language/Interface/Record[Key='CollectableGoods']
 msgctxt "Interface.CollectableGoods"
@@ -4907,64 +4907,64 @@ msgstr "世界坐标 X 轴的当前位置"
 #: /Language/Interface/Record[Key='LogicTypeAirRelease']
 msgctxt "Interface.LogicTypeAirRelease"
 msgid "The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On"
-msgstr "空气释放系统的当前状态, 例如空气释放 = 1 为一套硬具设置空气释放设置为"
+msgstr "放气系统的当前状态，例如，对于放气阀（Air）设置为“开”的强化型舱外航天服，AirRelease = 1"
 
 #: /Language/Interface/Record[Key='LogicTypeFiltration']
 msgctxt "Interface.LogicTypeFiltration"
 msgid "The current state of the filtration system, for example Filtration = 1 for a Hardsuit sets filtration to On"
-msgstr "过滤系统的当前状态，例如对于宇航服 = 1将过滤设置为On"
+msgstr "过滤系统的当前状态，例如，对于过滤系统（Filter）设置为“开”的强化型舱外航天服，Filtration = 1"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperatureExternal']
 msgctxt "Interface.LogicTypeTemperatureExternal"
 msgid "The temperature of the outside of the device, usually the world atmosphere surrounding it"
-msgstr "设备外部的温度, 通常是指它周围的环境空气温度"
+msgstr "设备外部的温度，通常是指其周围的大气温度"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperatureSetting']
 msgctxt "Interface.LogicTypeTemperatureSetting"
 msgid "The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)"
-msgstr "对象内部温度的当前设置 (例如, 宇航服 A/C)"
+msgstr "对象内部温度的当前设置（例如强化型舱外航天服的温度控制（A/C））"
 
 #: /Language/Interface/Record[Key='LogicTypePressureSetting']
 msgctxt "Interface.LogicTypePressureSetting"
 msgid "The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa"
-msgstr "对象内部压力的当前设置 (例如, 宇航服内的空气释放), 单位为kpa "
+msgstr "对象内部气压的当前设置（例如强化型舱外航天服的放气阀（Air）），单位为kPa"
 
 #: /Language/Interface/Record[Key='LogicTypeOutput']
 msgctxt "Interface.LogicTypeOutput"
 msgid ""
 "The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await "
 "further instructions"
-msgstr "排序处理设备 (如堆垛机或分拣器) 的输出操作, 在逻辑模式下, 当设置为零或更高的设备时, 该设备将只执行一次重复操作, 然后返回到-1 并等待进一步的指示"
+msgstr "控制分拣处理设备（如堆垛机或分拣机）的输出，在Logic模式下，当被设置为 0 或更高的值时，设备将只会重复一次动作，然后值回到 -1 并等待进一步指示"
 
 #: /Language/Interface/Record[Key='LogicTypeHarvest']
 msgctxt "Interface.LogicTypeHarvest"
 msgid "Performs the harvesting action for any plant based machinery"
-msgstr "对任何基于设备的机械执行收获操作"
+msgstr "对任何基于植物的机器执行收获动作"
 
 #: /Language/Interface/Record[Key='LogicTypePlant']
 msgctxt "Interface.LogicTypePlant"
 msgid "Performs the planting action for any plant based machinery"
-msgstr "对任何以植物为基础的机械执行种植操作"
+msgstr "对任何基于植物的机器执行种植动作"
 
 #: /Language/Interface/Record[Key='LogicTypeVolume']
 msgctxt "Interface.LogicTypeVolume"
 msgid "Returns the device atmosphere volume"
-msgstr "返回设备的空气容量"
+msgstr "返回设备的气体体积容量"
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMoles']
 msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
-msgstr "返回设备的总摩尔数量"
+msgstr "返回设备的总mol数"
 
 #: /Language/Interface/Record[Key='LogicTypePowerGeneration']
 msgctxt "Interface.LogicTypePowerGeneration"
 msgid "Returns how much power is being generated"
-msgstr "返回发电的功率"
+msgstr "返回当前发电功率"
 
 #: /Language/Interface/Record[Key='LogicTypeImportCount']
 msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
-msgstr "自上次 clearmemory 之后导入的项目数"
+msgstr "自从上次ClearMemory以来输入的物品数量"
 
 #: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
 msgctxt "Interface.AppearanceTitleEyeColor"
@@ -4974,17 +4974,17 @@ msgstr "瞳色"
 #: /Language/Interface/Record[Key='LogicTypeClearMemory']
 msgctxt "Interface.LogicTypeClearMemory"
 msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
-msgstr "设置为 1时, 清除计数器内存 ExportCount。将在激活时将自身设置回0"
+msgstr "当被设置为 1 时，清除计数器记忆（例如ExportCount）。当行动完成后将会将自己设置回 0"
 
 #: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
 msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
-msgstr "此设备当前生产的完成程度, 在0和1之间"
+msgstr "此设备的当前生产完成进度，值介于 0 和 1 之间"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, re quests an item of the provided type from the device"
-msgstr "当设置为唯一标识符时, 从设备请求一个该类型的物品"
+msgstr "当被设置为唯一标识符时，从设备请求一个所提供的类型的物品"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
