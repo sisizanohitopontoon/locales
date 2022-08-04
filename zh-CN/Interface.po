@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 16:19+0000\n"
+"PO-Revision-Date: 2022-08-04 16:25+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5309,27 +5309,27 @@ msgstr "如果设备被锁定, 则为 1, 否则为0可在大多数设备中设�
 #: /Language/Interface/Record[Key='LogicTypeError']
 msgctxt "Interface.LogicTypeError"
 msgid "1 if device is in error state, otherwise 0"
-msgstr "如果设备处于错误状态, 则为 1, 否则为0"
+msgstr "当设备处于错误状态时，则返回 1 ，否则返回 0"
 
 #: /Language/Interface/Record[Key='LogicTypeMode']
 msgctxt "Interface.LogicTypeMode"
 msgid "Integer for mode state, different devices will have different mode states available to them"
-msgstr "对于模式状态的整数, 不同的设备将有不同的模式状态可供他们使用"
+msgstr "模式状态的整数数值，不同的设备有不同的可供使用的模式状态"
 
 #: /Language/Interface/Record[Key='LogicTypeOpen']
 msgctxt "Interface.LogicTypeOpen"
 msgid "1 if device is open, otherwise 0"
-msgstr "如果设备处于打开状态, 则为 1, 否则为0"
+msgstr "当设备处于打开状态时，则返回 1 ，否则返回 0"
 
 #: /Language/Interface/Record[Key='LogicTypePower']
 msgctxt "Interface.LogicTypePower"
 msgid "Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not"
-msgstr "如果设备正确供电或未通电, 则可读取返回, 通过电源系统设置, 如果通电, 则返回 1; 如果未, 则返回0"
+msgstr "被读取时能够返回设备是否正确通电的值，通过电力系统设置，如果已通电则返回 1 ，如果未通电则返回 0"
 
 #: /Language/Interface/Record[Key='LogicTypeNone']
 msgctxt "Interface.LogicTypeNone"
 msgid "No description"
-msgstr "无说明"
+msgstr "没有说明"
 
 #: /Language/Interface/Record[Key='SettingsUserSpeakerMode']
 msgctxt "Interface.SettingsUserSpeakerMode"
@@ -5344,7 +5344,7 @@ msgstr "外观"
 #: /Language/Interface/Record[Key='NewWorldSolarAngle']
 msgctxt "Interface.NewWorldSolarAngle"
 msgid "Solar Angle"
-msgstr "太阳角度"
+msgstr "太阳高度角"
 
 #: /Language/Interface/Record[Key='NewWorldSolarEnergy']
 msgctxt "Interface.NewWorldSolarEnergy"
@@ -5354,7 +5354,7 @@ msgstr "太阳能"
 #: /Language/Interface/Record[Key='NewWorldPressure']
 msgctxt "Interface.NewWorldPressure"
 msgid "Pressure"
-msgstr "压力"
+msgstr "气压"
 
 #: /Language/Interface/Record[Key='NewWorldTemperature']
 msgctxt "Interface.NewWorldTemperature"
@@ -5374,22 +5374,22 @@ msgstr "游戏模式"
 #: /Language/Interface/Record[Key='WarningControlConflictDescription']
 msgctxt "Interface.WarningControlConflictDescription"
 msgid "Please visit the control assignment window and clear conflicts"
-msgstr "请访问控制分配窗口并清除冲突"
+msgstr "请访问按键分配窗口并清除按键冲突"
 
 #: /Language/Interface/Record[Key='WarningControlConflict']
 msgctxt "Interface.WarningControlConflict"
 msgid "Controls Conflict"
-msgstr "控制冲突"
+msgstr "按键冲突"
 
 #: /Language/Interface/Record[Key='SettingsSoundFX']
 msgctxt "Interface.SettingsSoundFX"
 msgid "Sound FX"
-msgstr "声音效果"
+msgstr "音效"
 
 #: /Language/Interface/Record[Key='InvalidDegrees']
 msgctxt "Interface.InvalidDegrees"
 msgid "Nil"
-msgstr "真空"
+msgstr "Nil"
 
 #: /Language/Interface/Record[Key='SettingsClouds']
 msgctxt "Interface.SettingsClouds"
@@ -5404,12 +5404,12 @@ msgstr "启用云"
 #: /Language/Interface/Record[Key='SettingsUPNPEnabled']
 msgctxt "Interface.SettingsUPNPEnabled"
 msgid "Enable UPNP"
-msgstr "启用UPNP"
+msgstr "启用通用即插即用（UPnP）协议"
 
 #: /Language/Interface/Record[Key='SettingsInterface']
 msgctxt "Interface.SettingsInterface"
 msgid "Interface"
-msgstr "接口"
+msgstr "界面"
 
 #: /Language/Interface/Record[Key='SettingsDisableWaterVisualizer']
 msgctxt "Interface.SettingsDisableWaterVisualizer"
@@ -5419,17 +5419,17 @@ msgstr "禁用水可视化"
 #: /Language/Interface/Record[Key='SettingsLegacyInventory']
 msgctxt "Interface.SettingsLegacyInventory"
 msgid "Legacy Inventory"
-msgstr "旧的库存控制"
+msgstr "旧版库存控制"
 
 #: /Language/Interface/Record[Key='SettingsMenuAdvanced']
 msgctxt "Interface.SettingsMenuAdvanced"
 msgid "Advanced"
-msgstr "高级图像设置"
+msgstr "高级"
 
 #: /Language/Interface/Record[Key='ButtonLibrary']
 msgctxt "Interface.ButtonLibrary"
 msgid "Library"
-msgstr "IC目录"
+msgstr "源代码库"
 
 #: /Language/Interface/Record[Key='ButtonFunctions']
 msgctxt "Interface.ButtonFunctions"
