@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 17:35+0000\n"
+"PO-Revision-Date: 2022-08-04 17:39+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3469,107 +3469,120 @@ msgstr "如果a < 0，则代码转移到行b"
 #: /Language/Interface/Record[Key='ScriptCommandBna']
 msgctxt "Interface.ScriptCommandBna"
 msgid "Branch to line d if abs(a - b) > max(c * max(abs(a), abs(b)), float.epsilon * 8)"
-msgstr "如果abs(a - b) > max(c * max(abs(a), abs(b)), float.epsilon * 8), 则代码转移到行d"
+msgstr ""
+"若 abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8) ，则分支至行 d 执行\n"
+"abs( )：取绝对值\n"
+"float.epsilon：大于零的最小可能浮点值"
 
 #: /Language/Interface/Record[Key='ScriptCommandBap']
 msgctxt "Interface.ScriptCommandBap"
 msgid "Branch to line d if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8)"
-msgstr "如果abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8), 则代码转移到行d"
+msgstr ""
+"若 abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) ，则分支至行 d 执行\n"
+"abs( )：取绝对值\n"
+"float.epsilon：大于零的最小可能浮点值"
 
 #: /Language/Interface/Record[Key='ScriptCommandBne']
 msgctxt "Interface.ScriptCommandBne"
 msgid "Branch to line c if a != b"
-msgstr "如果a != b，则代码转移到行c"
+msgstr "若 a != b ，则分支至行 c 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandBeq']
 msgctxt "Interface.ScriptCommandBeq"
 msgid "Branch to line c if a == b"
-msgstr "如果a == b，则代码转移到行c"
+msgstr "若 a == b ，则分支至行 c 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandBge']
 msgctxt "Interface.ScriptCommandBge"
 msgid "Branch to line c if a >= b"
-msgstr "如果a >= b，则代码转移到行c"
+msgstr "若 a &gt;= b ，则分支至行 c 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandBle']
 msgctxt "Interface.ScriptCommandBle"
 msgid "Branch to line c if a <= b"
-msgstr "如果a <= b，则代码转移到行c"
+msgstr "若 a &lt;= b ，则分支至行 c 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandBgt']
 msgctxt "Interface.ScriptCommandBgt"
 msgid "Branch to line c if a > b"
-msgstr "如果a > b，则代码转移到行b"
+msgstr "若 a &gt; b ，则分支至行 c 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandBlt']
 msgctxt "Interface.ScriptCommandBlt"
 msgid "Branch to line c if a < b"
-msgstr "如果a < b，则代码转移到行c"
+msgstr "若 a &lt; b ，则分支至行 c 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandBdns']
 msgctxt "Interface.ScriptCommandBdns"
 msgid "Branch to line a if device d isn't set"
-msgstr "如果设备d未设置则代码转移到行a"
+msgstr "若设备 d 未被设置，则分支至行 a 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandBdse']
 msgctxt "Interface.ScriptCommandBdse"
 msgid "Branch to line a if device d is set"
-msgstr "如果设备d未设置则代码转移到行a"
+msgstr "若设备 d 已被设置，则分支至行 a 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandJ']
 msgctxt "Interface.ScriptCommandJ"
 msgid "Jump execution to line a"
-msgstr "转移到行 a 执行程序"
+msgstr "跳转至行 a 执行"
 
 #: /Language/Interface/Record[Key='ScriptCommandMod']
 msgctxt "Interface.ScriptCommandMod"
 msgid "Register = a mod b (note: NOT a % b)"
-msgstr "寄存器r的值为 a mod b (注意：不是 a % b)"
+msgstr ""
+"寄存器 r 的值 = a mod b （注意：不是 a % b）\n"
+"mod：取余（运算结果仅能为正）\n"
+"%：取余（运算结果可正可负，符号取决于左操作数）"
 
 #: /Language/Interface/Record[Key='ScriptCommandDiv']
 msgctxt "Interface.ScriptCommandDiv"
 msgid "Register = a / b"
-msgstr "寄存器r = a / b"
+msgstr "寄存器 r 的值 = a / b"
 
 #: /Language/Interface/Record[Key='ScriptCommandMul']
 msgctxt "Interface.ScriptCommandMul"
 msgid "Register = a * b"
-msgstr "寄存器 r = a * b"
+msgstr "寄存器 r 的值 = a * b"
 
 #: /Language/Interface/Record[Key='ScriptCommandNor']
 msgctxt "Interface.ScriptCommandNor"
 msgid "Register = 1 if a and b are 0, otherwise 0"
-msgstr "或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0"
+msgstr "寄存器 r 的值 = 若 a 与 b 皆为零则为 1 ，否则为 0 （或非门）"
 
 #: /Language/Interface/Record[Key='ScriptCommandXor']
 msgctxt "Interface.ScriptCommandXor"
 msgid "Register = 1 if either a or b not 0, otherwise 0"
-msgstr "异或运算，当且仅当a,b值都不相同时寄存器为1，否则为0"
+msgstr "寄存器 r 的值 = 若仅有 a 或 b 其中之一非零则为 1 ，否则为 0 （异或门）"
 
 #: /Language/Interface/Record[Key='ScriptCommandOr']
 msgctxt "Interface.ScriptCommandOr"
 msgid "Register = 1 if a and/or b not 0, otherwise 0"
-msgstr "或运算, 当且仅当a,b不全为0时，寄存器为1，否则为0"
+msgstr "寄存器 r 的值 = 若 a 或 b 至少有一个非零则为 1 ，否则为 0 （或门）"
 
 #: /Language/Interface/Record[Key='ScriptCommandAnd']
 msgctxt "Interface.ScriptCommandAnd"
 msgid "Register = 1 if a and b not zero, otherwise 0"
-msgstr "与运算，当且仅当a,b都为1时寄存器为1，否则为0"
+msgstr "寄存器 r 的值 = 若 a 与 b 皆非零则为 1 ，否则为 0 （与门）"
 
 #: /Language/Interface/Record[Key='ScriptCommandSnaz']
 msgctxt "Interface.ScriptCommandSnaz"
 msgid "Register = 1 if |a| > float.epsilon, otherwise 0"
-msgstr "如果|a| > float.epsilon寄存器 r 的值 = 1,否则为0"
+msgstr ""
+"寄存器 r 的值 = 若 |a| &gt; float.epsilon 则为 1 ，否则为 0\n"
+"float.epsilon：大于零的最小可能浮点值"
 
 #: /Language/Interface/Record[Key='ScriptCommandSapz']
 msgctxt "Interface.ScriptCommandSapz"
 msgid "Register = 1 if |a| <= float.epsilon * 8, otherwise 0"
-msgstr "如果|a| <= float.epsilon * 8，寄存器r 的值为1 ，否则为0"
+msgstr ""
+"寄存器 r 的值 = 若 |a| &lt;= float.epsilon * 8 则为 1 ，否则为 0\n"
+"float.epsilon：大于零的最小可能浮点值"
 
 #: /Language/Interface/Record[Key='ScriptCommandSnez']
 msgctxt "Interface.ScriptCommandSnez"
 msgid "Register = 1 if a != 0, otherwise 0"
-msgstr "如果 a != 0 寄存器 r = 1 否则为0"
+msgstr "寄存器 r 的值 = 若 a != 0 则为 1 ，否则为 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSeqz']
 msgctxt "Interface.ScriptCommandSeqz"
