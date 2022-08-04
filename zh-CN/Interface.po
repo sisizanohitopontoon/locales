@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 16:30+0000\n"
+"PO-Revision-Date: 2022-08-04 16:34+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5080,17 +5080,17 @@ msgstr "已弃用"
 #: /Language/Interface/Record[Key='LogicTypeRecipeHash']
 msgctxt "Interface.LogicTypeRecipeHash"
 msgid "Current hash of the recipe the device is set to produce"
-msgstr "设备设置为生产的配方的当前哈希"
+msgstr "设备被设置生产的配方的当前Hash值"
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorLevel']
 msgctxt "Interface.LogicTypeElevatorLevel"
 msgid "Level the elevator is currently at"
-msgstr "显示电梯的楼层"
+msgstr "电梯当前所在楼层"
 
 #: /Language/Interface/Record[Key='LogicTypeElevatorSpeed']
 msgctxt "Interface.LogicTypeElevatorSpeed"
 msgid "Current speed of the elevator"
-msgstr "显示电梯的速度"
+msgstr "电梯当前速度"
 
 #: /Language/Interface/Record[Key='LogicTypeColor']
 msgctxt "Interface.LogicTypeColor"
@@ -5114,47 +5114,49 @@ msgid ""
 "        It is an unwavering universal law that anything higher than 11 will be purple. The {LINK:ODA;ODA} is powerless to change this. Similarly, anything lower than 0 will be Blue.\n"
 "      "
 msgstr ""
-"无论是出于对清晰度，安全性还是简单美学的关注空间站长可以使用一小道彩虹色来建造他们的建筑。这些是设备的颜色设置，表示为整数。\n"
 "\n"
-"0：蓝色\n"
-"1：灰色\n"
-"2：绿色\n"
-"3：橙色\n"
-"4：红色\n"
-"5：黄色\n"
-"6：白\n"
-"7：黑色\n"
-"8：棕色\n"
-"9：卡其色\n"
-"10：粉红色\n"
-"11：紫色\n"
+"        无论是出于对清晰度、安全性还是朴素美学的考虑， &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 们都可以在自己的建筑中看到一道小小的彩虹。这些是设备的颜色设置，用整数表示。\n"
 "\n"
-"这是一个坚定不移的普遍法则，任何高于11的东西都是紫色的。发展署无力改变这一点。同样，任何低于 0 的值都将为蓝色。      "
+"0: 蓝色\n"
+"1: 灰色\n"
+"2: 绿色\n"
+"3: 橙色\n"
+"4: 红色\n"
+"5: 黄色\n"
+"6: 白色\n"
+"7: 黑色\n"
+"8: 棕色\n"
+"9: 卡其色\n"
+"10: 粉色\n"
+"11: 紫色\n"
+"\n"
+"        任何值高于 11 的东西都将是紫色的，这是亘古不变的宇宙法则。 &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; 也无权改变这一点。与之相似的是，任何值低于 0 的东西都将是蓝色的。\n"
+"      "
 
 #: /Language/Interface/Record[Key='LogicTypeIdle']
 msgctxt "Interface.LogicTypeIdle"
 msgid "Returns 1 if the device is currently idle, otherwise 0"
-msgstr "如果设备当前处于闲置状态, 则返回 1, 否则为0"
+msgstr "如果设备当前处于闲置状态，则返回 1 ，否则返回 0"
 
 #: /Language/Interface/Record[Key='LogicTypePowerRequired']
 msgctxt "Interface.LogicTypePowerRequired"
 msgid "Power requested from the device and/or network"
-msgstr "从设备和网络请求的电源"
+msgstr "从设备和/或网络中请求的电力"
 
 #: /Language/Interface/Record[Key='LogicTypeVerticalRatio']
 msgctxt "Interface.LogicTypeVerticalRatio"
 msgid "Radio of vertical setting for device"
-msgstr "设备垂直设置无线电"
+msgstr "设备垂直位置比例设置"
 
 #: /Language/Interface/Record[Key='LogicTypeHorizontalRatio']
 msgctxt "Interface.LogicTypeHorizontalRatio"
 msgid "Radio of horizontal setting for device"
-msgstr "设备水平设置无线电"
+msgstr "设备水平位置比例设置"
 
 #: /Language/Interface/Record[Key='LogicTypeRequiredPower']
 msgctxt "Interface.LogicTypeRequiredPower"
 msgid "Idle operating power quantity, does not necessarily include extra demand power"
-msgstr "闲置运行功率, 不一定包括额外的需求功率"
+msgstr "闲置时的电力需求总功率，不一定包含额外的电力需求"
 
 #: /Language/Interface/Record[Key='LogicTypeExportSlotOccupant']
 msgctxt "Interface.LogicTypeExportSlotOccupant"
@@ -5164,7 +5166,7 @@ msgstr "已弃用"
 #: /Language/Interface/Record[Key='LogicTypeExportQuantity']
 msgctxt "Interface.LogicTypeExportQuantity"
 msgid "Total quantity of items exported by the device"
-msgstr "设备输出物品的总数"
+msgstr "设备输出的物品总量"
 
 #: /Language/Interface/Record[Key='LogicTypeImportSlotOccupant']
 msgctxt "Interface.LogicTypeImportSlotOccupant"
@@ -5174,32 +5176,32 @@ msgstr "已弃用"
 #: /Language/Interface/Record[Key='LogicTypeImportQuantity']
 msgctxt "Interface.LogicTypeImportQuantity"
 msgid "Total quantity of items imported by the device"
-msgstr "设备输入物品的总数"
+msgstr "设备输入的物品总量"
 
 #: /Language/Interface/Record[Key='LogicTypeOn']
 msgctxt "Interface.LogicTypeOn"
 msgid "The current state of the device, 0 for off, 1 for on"
-msgstr "设备的当前状态, 0 为关闭, 1 表示"
+msgstr "设备的当前状态，若设备关闭则返回 0 ，若设备开启则返回 1"
 
 #: /Language/Interface/Record[Key='LogicTypeQuantity']
 msgctxt "Interface.LogicTypeQuantity"
 msgid "Total quantity on the device"
-msgstr "设备上的物品总数量"
+msgstr "设备上的物品总量"
 
 #: /Language/Interface/Record[Key='LogicTypePowerActual']
 msgctxt "Interface.LogicTypePowerActual"
 msgid "How much energy the device or network is actually using"
-msgstr "电网实际耗电量"
+msgstr "设备或网络的实际电力消耗功率"
 
 #: /Language/Interface/Record[Key='LogicTypePowerPotential']
 msgctxt "Interface.LogicTypePowerPotential"
 msgid "How much energy the device or network potentially provides"
-msgstr "电网提供电量"
+msgstr "设备或网络的潜在电力提供功率"
 
 #: /Language/Interface/Record[Key='LogicTypeRatio']
 msgctxt "Interface.LogicTypeRatio"
 msgid "Context specific value depending on device, 0 to 1 based ratio"
-msgstr "具体数值取决于设备，比率的取值区间为0到1"
+msgstr "具体数值取决于设备，基于比例而定，值从 0 到 1"
 
 #: /Language/Interface/Record[Key='LogicTypeMaximum']
 msgctxt "Interface.LogicTypeMaximum"
