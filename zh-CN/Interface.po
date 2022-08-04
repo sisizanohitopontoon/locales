@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 15:49+0000\n"
+"PO-Revision-Date: 2022-08-04 15:55+0000\n"
 "Last-Translator: Me9aE777 <eddieshi777@gmail.com>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5723,22 +5723,22 @@ msgstr "你需要一个 {THING:ItemScrewdriver} 去更改设置"
 #: /Language/Interface/Record[Key='LogicNoAdditionalSlotsFor']
 msgctxt "Interface.LogicNoAdditionalSlotsFor"
 msgid "No additional slots for {0}"
-msgstr "{0}没有额外的插槽"
+msgstr "{0} 没有额外的插槽"
 
 #: /Language/Interface/Record[Key='LogicNoAvailableSlots']
 msgctxt "Interface.LogicNoAvailableSlots"
 msgid "<color=red>No available slots"
-msgstr "<color=red>没有可用的插槽"
+msgstr "&lt;color=red&gt;没有可用的插槽&lt;/color&gt;"
 
 #: /Language/Interface/Record[Key='LogicNoSlot']
 msgctxt "Interface.LogicNoSlot"
 msgid "<color=red>No Slot"
-msgstr "<color=red>无插槽"
+msgstr "&lt;color=red&gt;无插槽&lt;/color&gt;"
 
 #: /Language/Interface/Record[Key='LogicNoAdditionalSettingsFor']
 msgctxt "Interface.LogicNoAdditionalSettingsFor"
 msgid "No additional settings for {0}"
-msgstr "{0}没有其他设置"
+msgstr "{0} 没有额外设置"
 
 #: /Language/Interface/Record[Key='LogicNoSetting']
 msgctxt "Interface.LogicNoSetting"
@@ -5753,7 +5753,7 @@ msgstr "无设备"
 #: /Language/Interface/Record[Key='LogicState']
 msgctxt "Interface.LogicState"
 msgid "State <color=green>#VAR1#"
-msgstr "状态 <color=green>#VAR1#"
+msgstr "状态 &lt;color=green&gt;#VAR1#&lt;/color&gt;"
 
 #: /Language/Interface/Record[Key='FurnaceSmelting']
 msgctxt "Interface.FurnaceSmelting"
@@ -5768,13 +5768,15 @@ msgid ""
 "        Temperature {1}\n"
 "      "
 msgstr ""
-"压力{0}\n"
-"        温度{1}      "
+"\n"
+"        气压 {0}\n"
+"        温度 {1}\n"
+"      "
 
 #: /Language/Interface/Record[Key='FurnaceChamber']
 msgctxt "Interface.FurnaceChamber"
 msgid "Chamber"
-msgstr "炉膛"
+msgstr "炉腔"
 
 #: /Language/Interface/Record[Key='SetThingValue']
 msgctxt "Interface.SetThingValue"
@@ -5789,22 +5791,22 @@ msgstr "重命名 {0}"
 #: /Language/Interface/Record[Key='SettingsExtendedTerrain']
 msgctxt "Interface.SettingsExtendedTerrain"
 msgid "Extended Terrain"
-msgstr "扩展地形"
+msgstr "额外的地形"
 
 #: /Language/Interface/Record[Key='SettingsSunOrbitPeriod']
 msgctxt "Interface.SettingsSunOrbitPeriod"
 msgid "Sun Orbit Period"
-msgstr "太阳轨道速率"
+msgstr "太阳轨道周期"
 
 #: /Language/Interface/Record[Key='ScenariosStartButton']
 msgctxt "Interface.ScenariosStartButton"
 msgid "Start Scenario"
-msgstr "启动场景"
+msgstr "开始情境模拟"
 
 #: /Language/Interface/Record[Key='MainMenuScenarios']
 msgctxt "Interface.MainMenuScenarios"
 msgid "Scenarios"
-msgstr "场景"
+msgstr "情境模拟"
 
 #: /Language/Interface/Record[Key='GameMenuRespawn']
 msgctxt "Interface.GameMenuRespawn"
@@ -5814,22 +5816,22 @@ msgstr "重生"
 #: /Language/Interface/Record[Key='SomethingWentWrongTrading2']
 msgctxt "Interface.SomethingWentWrongTrading2"
 msgid "Something went wrong when processing the trade, you don't have a credit card!"
-msgstr "处理交易时出现错误，您没有信用卡！"
+msgstr "处理交易时发生错误，你没有信用卡！"
 
 #: /Language/Interface/Record[Key='SomethingWentWrongTrading']
 msgctxt "Interface.SomethingWentWrongTrading"
 msgid "Something went wrong when processing the trade, did something leave the vendor!"
-msgstr "处理交易时出现错误，一些东西离开了供应商！"
+msgstr "处理交易时发生错误，有些东西离开了供应商！"
 
 #: /Language/Interface/Record[Key='TradingNoMoneyHash']
 msgctxt "Interface.TradingNoMoneyHash"
 msgid "Not enough money to complete this transaction, make sure you and the trader have enough money to complete the transaction."
-msgstr "没有足够的钱来完成这笔交易，请确保您和交易者有足够的钱来完成交易。"
+msgstr "你没有足够的钱来完成这笔交易，请确保你和贸易商有足够的钱来完成交易。"
 
 #: /Language/Interface/Record[Key='Incident_Supply']
 msgctxt "Interface.Incident_Supply"
 msgid "Satellites suggest a crate has dropped nearby, your beacon tracker should show you the way."
-msgstr "卫星显示，一个箱子落到了附近，你的信标跟踪器可以告诉你方向。"
+msgstr "卫星侦测到一个补给箱降落在附近，你的信标追踪器将为你指明方向。"
 
 #: /Language/Interface/Record[Key='Incident_Supply_Title']
 msgctxt "Interface.Incident_Supply_Title"
@@ -5839,12 +5841,12 @@ msgstr "补给箱"
 #: /Language/Interface/Record[Key='SettingsMouseWheelZoom']
 msgctxt "Interface.SettingsMouseWheelZoom"
 msgid "Mouse Wheel Zoom"
-msgstr "鼠标滚轮缩放视角"
+msgstr "鼠标滚轮缩放镜头"
 
 #: /Language/Interface/Record[Key='SettingsDisableParticlesOnMenu']
 msgctxt "Interface.SettingsDisableParticlesOnMenu"
 msgid "Disable Particles On Menu"
-msgstr "关闭主菜单动态效果"
+msgstr "禁用主菜单粒子效果"
 
 #: /Language/Interface/Record[Key='TextboxEnterSeed']
 msgctxt "Interface.TextboxEnterSeed"
