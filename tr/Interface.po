@@ -15,6 +15,11 @@ msgctxt "Interface.AppearanceTitleSkinColor"
 msgid "Skin Colour"
 msgstr "Ten Rengi"
 
+#: /Language/Interface/Record[Key='LightCategory']
+msgctxt "Interface.LightCategory"
+msgid "Lights"
+msgstr "Işıklar"
+
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -114,11 +119,6 @@ msgstr "Mantıksal Yazıcılar"
 msgctxt "Interface.MotherboardCategory"
 msgid "Motherboards"
 msgstr "Anakartlar"
-
-#: /Language/Interface/Record[Key='ControlSystemAtmos']
-msgctxt "Interface.ControlSystemAtmos"
-msgid "Control Systems"
-msgstr "Kontrol Sistemleri"
 
 #: /Language/Interface/Record[Key='ApplianceCategory']
 msgctxt "Interface.ApplianceCategory"
@@ -226,11 +226,6 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "MASAÜSTÜNE ÇIK"
 
-#: /Language/Interface/Record[Key='LogicTypeExportCount']
-msgctxt "Interface.LogicTypeExportCount"
-msgid "How many items exported since last ClearMemory"
-msgstr "Son ClearMemory'den bu yana kaç adet ürün çıkarıldı"
-
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -260,6 +255,11 @@ msgstr "Harita:"
 msgctxt "Interface.WorldInfoTextAsteroids"
 msgid "Asteroids:"
 msgstr "Asteroitler:"
+
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='WorldInfoTextVersion']
 msgctxt "Interface.WorldInfoTextVersion"
@@ -702,11 +702,6 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "Tanecik Kalitesi"
 
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
-msgstr ""
-
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
@@ -837,6 +832,11 @@ msgstr "Ayarları Sıfırla"
 msgctxt "Interface.ButtonConfirm"
 msgid "Confirm"
 msgstr "Onayla"
+
+#: /Language/Interface/Record[Key='ControlSystemAtmos']
+msgctxt "Interface.ControlSystemAtmos"
+msgid "Control Systems"
+msgstr "Kontrol Sistemleri"
 
 #: /Language/Interface/Record[Key='ButtonCancel']
 msgctxt "Interface.ButtonCancel"
@@ -1382,6 +1382,11 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "Sunucu Şifresi yanlış."
 
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "Port değeri, 0 ile 65535 arasında olmalıdır."
+
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
@@ -1437,11 +1442,6 @@ msgstr "Sık Kullanılanlardan Kaldır"
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "SIK KULLANILANLAR"
-
-#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
-msgctxt "Interface.SaveMenuSaveWorldButton"
-msgid "Save World"
-msgstr "Dünyayı Kaydet"
 
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
@@ -1513,11 +1513,6 @@ msgctxt "Interface.AppearanceTitleHairStyle"
 msgid "Hair"
 msgstr "Saç"
 
-#: /Language/Interface/Record[Key='LightCategory']
-msgctxt "Interface.LightCategory"
-msgid "Lights"
-msgstr "Işıklar"
-
 #: /Language/Interface/Record[Key='CableCategory']
 msgctxt "Interface.CableCategory"
 msgid "Cables and Analyzers"
@@ -1536,6 +1531,11 @@ msgstr "Giysi"
 #: /Language/Interface/Record[Key='ChairTableCategory']
 msgctxt "Interface.ChairTableCategory"
 msgid "Chairs"
+msgstr ""
+
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
 msgstr ""
 
 #: /Language/Interface/Record[Key='KitCategory']
@@ -1642,11 +1642,6 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Saç Rengi"
-
 #: /Language/Interface/Record[Key='StationpediaNutrition']
 #, fuzzy
 msgctxt "Interface.StationpediaNutrition"
@@ -1678,6 +1673,11 @@ msgstr ""
 msgctxt "Interface.Intensity"
 msgid "Intensity"
 msgstr ""
+
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Saç Rengi"
 
 #: /Language/Interface/Record[Key='NoNote']
 msgctxt "Interface.NoNote"
@@ -4905,6 +4905,30 @@ msgctxt "Interface.LogicTypeVolume"
 msgid "Returns the device atmosphere volume"
 msgstr "Cihazın atmosfer hacmini döndürür"
 
+#: /Language/Interface/Record[Key='LogicTypeTotalMolesOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeTotalMolesOutput2"
+msgid "Returns the total moles of the device's Output2 Network"
+msgstr "Cihazın toplam molünü döndürür"
+
+#: /Language/Interface/Record[Key='LogicTypeTotalMolesOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeTotalMolesOutput"
+msgid "Returns the total moles of the device's Output Network"
+msgstr "Cihazın toplam molünü döndürür"
+
+#: /Language/Interface/Record[Key='LogicTypeTotalMolesInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeTotalMolesInput2"
+msgid "Returns the total moles of the device's Input2 Network"
+msgstr "Cihazın toplam molünü döndürür"
+
+#: /Language/Interface/Record[Key='LogicTypeTotalMolesInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeTotalMolesInput"
+msgid "Returns the total moles of the device's Input Network"
+msgstr "Cihazın toplam molünü döndürür"
+
 #: /Language/Interface/Record[Key='LogicTypeTotalMoles']
 msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
@@ -4920,10 +4944,10 @@ msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
 msgstr "Son ClearMemory'den bu yana kaç öğenin içe aktarıldığı"
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Göz Rengi"
+#: /Language/Interface/Record[Key='LogicTypeExportCount']
+msgctxt "Interface.LogicTypeExportCount"
+msgid "How many items exported since last ClearMemory"
+msgstr "Son ClearMemory'den bu yana kaç adet ürün çıkarıldı"
 
 #: /Language/Interface/Record[Key='LogicTypeClearMemory']
 msgctxt "Interface.LogicTypeClearMemory"
@@ -4961,10 +4985,10 @@ msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Göz Rengi"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
@@ -5159,6 +5183,194 @@ msgctxt "Interface.LogicTypeHorizontal"
 msgid "Horizontal setting of the device"
 msgstr "Cihazın yatay ayarı"
 
+#: /Language/Interface/Record[Key='LogicTypeCombustionOutput2']
+msgctxt "Interface.LogicTypeCombustionOutput2"
+msgid "The assess atmosphere is on fire. Returns 1 if device's Output2 network is on fire, 0 if not."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxideOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioNitrousOxideOutput2"
+msgid "The ratio of {GAS:NitrousOxide} in device's Output2 network"
+msgstr "Cihaz atmosferindeki azot oksit oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioWaterOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioWaterOutput2"
+msgid "The ratio of water in device's Output2 network"
+msgstr "Cihaz atmosferindeki su oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioVolatilesOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioVolatilesOutput2"
+msgid "The ratio of volatiles in device's Output2 network"
+msgstr "Cihaz atmosferindeki uçucu madde oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutantOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioPollutantOutput2"
+msgid "The ratio of pollutant in device's Output2 network"
+msgstr "Cihaz atmosferindeki kirletici madde oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrogenOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioNitrogenOutput2"
+msgid "The ratio of nitrogen in device's Output2 network"
+msgstr "Cihaz atmosferindeki azot oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxideOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioCarbonDioxideOutput2"
+msgid "The ratio of {GAS:CarbonDioxide} in device's Output2 network"
+msgstr "Cihaz atmosferindeki CO2 oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioOxygenOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioOxygenOutput2"
+msgid "The ratio of oxygen in device's Output2 network"
+msgstr "Cihaz atmosferindeki oksijen oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeCombustionOutput']
+msgctxt "Interface.LogicTypeCombustionOutput"
+msgid "The assess atmosphere is on fire. Returns 1 if device's Output network is on fire, 0 if not."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxideOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioNitrousOxideOutput"
+msgid "The ratio of {GAS:NitrousOxide} in device's Output network"
+msgstr "Cihaz atmosferindeki azot oksit oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioWaterOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioWaterOutput"
+msgid "The ratio of water in device's Output network"
+msgstr "Cihaz atmosferindeki su oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioVolatilesOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioVolatilesOutput"
+msgid "The ratio of volatiles in device's Output network"
+msgstr "Cihaz atmosferindeki uçucu madde oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutantOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioPollutantOutput"
+msgid "The ratio of pollutant in device's Output network"
+msgstr "Cihaz atmosferindeki kirletici madde oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrogenOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioNitrogenOutput"
+msgid "The ratio of nitrogen in device's Output network"
+msgstr "Cihaz atmosferindeki azot oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxideOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioCarbonDioxideOutput"
+msgid "The ratio of {GAS:CarbonDioxide} in device's Output network"
+msgstr "Cihaz atmosferindeki CO2 oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioOxygenOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioOxygenOutput"
+msgid "The ratio of oxygen in device's Output network"
+msgstr "Cihaz atmosferindeki oksijen oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeCombustionInput2']
+msgctxt "Interface.LogicTypeCombustionInput2"
+msgid "The assess atmosphere is on fire. Returns 1 if device's Input2 network is on fire, 0 if not."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxideInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioNitrousOxideInput2"
+msgid "The ratio of {GAS:NitrousOxide} in device's Input2 network"
+msgstr "Cihaz atmosferindeki azot oksit oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioWaterInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioWaterInput2"
+msgid "The ratio of water in device's Input2 network"
+msgstr "Cihaz atmosferindeki su oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioVolatilesInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioVolatilesInput2"
+msgid "The ratio of volatiles in device's Input2 network"
+msgstr "Cihaz atmosferindeki uçucu madde oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutantInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioPollutantInput2"
+msgid "The ratio of pollutant in device's Input2 network"
+msgstr "Cihaz atmosferindeki kirletici madde oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrogenInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioNitrogenInput2"
+msgid "The ratio of nitrogen in device's Input2 network"
+msgstr "Cihaz atmosferindeki azot oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxideInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioCarbonDioxideInput2"
+msgid "The ratio of {GAS:CarbonDioxide} in device's Input2 network"
+msgstr "Cihaz atmosferindeki CO2 oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioOxygenInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioOxygenInput2"
+msgid "The ratio of oxygen in device's Input2 network"
+msgstr "Cihaz atmosferindeki oksijen oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeCombustionInput']
+msgctxt "Interface.LogicTypeCombustionInput"
+msgid "The assess atmosphere is on fire. Returns 1 if device's input network is on fire, 0 if not."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxideInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioNitrousOxideInput"
+msgid "The ratio of {GAS:NitrousOxide} in device's input network"
+msgstr "Cihaz atmosferindeki azot oksit oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioWaterInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioWaterInput"
+msgid "The ratio of water in device's input network"
+msgstr "Cihaz atmosferindeki su oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioVolatilesInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioVolatilesInput"
+msgid "The ratio of volatiles in device's input network"
+msgstr "Cihaz atmosferindeki uçucu madde oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutantInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioPollutantInput"
+msgid "The ratio of pollutant in device's input network"
+msgstr "Cihaz atmosferindeki kirletici madde oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrogenInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioNitrogenInput"
+msgid "The ratio of nitrogen in device's input network"
+msgstr "Cihaz atmosferindeki azot oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxideInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioCarbonDioxideInput"
+msgid "The ratio of {GAS:CarbonDioxide} in device's input network"
+msgstr "Cihaz atmosferindeki CO2 oranı"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioOxygenInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioOxygenInput"
+msgid "The ratio of oxygen in device's input network"
+msgstr "Cihaz atmosferindeki oksijen oranı"
+
 #: /Language/Interface/Record[Key='LogicTypeCombustion']
 msgctxt "Interface.LogicTypeCombustion"
 msgid "The assess atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 if not."
@@ -5230,6 +5442,54 @@ msgstr "Güvenli iç basınç için KPa cinsinden ayar"
 msgctxt "Interface.LogicTypePressureExternal"
 msgid "Setting for external pressure safety, in KPa"
 msgstr "Güvenli dış basınç için KPa cinsinden ayar"
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeTemperatureOutput2"
+msgid "The current temperature reading of the device's Output2 Network"
+msgstr "Cihazın geçerli sıcaklık ölçümü"
+
+#: /Language/Interface/Record[Key='LogicTypePressureOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypePressureOutput2"
+msgid "The current pressure reading of the device's Output2 Network"
+msgstr "Cihazın geçerli basınç ölçümü"
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeTemperatureOutput"
+msgid "The current temperature reading of the device's Output Network"
+msgstr "Cihazın geçerli sıcaklık ölçümü"
+
+#: /Language/Interface/Record[Key='LogicTypePressureOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypePressureOutput"
+msgid "The current pressure reading of the device's Output Network"
+msgstr "Cihazın geçerli basınç ölçümü"
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeTemperatureInput2"
+msgid "The current temperature reading of the device's Input2 Network"
+msgstr "Cihazın geçerli sıcaklık ölçümü"
+
+#: /Language/Interface/Record[Key='LogicTypePressureInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypePressureInput2"
+msgid "The current pressure reading of the device's Input2 Network"
+msgstr "Cihazın geçerli basınç ölçümü"
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeTemperatureInput"
+msgid "The current temperature reading of the device's Input Network"
+msgstr "Cihazın geçerli sıcaklık ölçümü"
+
+#: /Language/Interface/Record[Key='LogicTypePressureInput']
+#, fuzzy
+msgctxt "Interface.LogicTypePressureInput"
+msgid "The current pressure reading of the device's Input Network"
+msgstr "Cihazın geçerli basınç ölçümü"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperature']
 msgctxt "Interface.LogicTypeTemperature"
@@ -5989,10 +6249,10 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Sakal"
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "Port değeri, 0 ile 65535 arasında olmalıdır."
+#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
+msgctxt "Interface.SaveMenuSaveWorldButton"
+msgid "Save World"
+msgstr "Dünyayı Kaydet"
 
 #~ msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 #~ msgid "The ratio of co2 in device atmosphere"

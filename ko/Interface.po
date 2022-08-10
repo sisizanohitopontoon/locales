@@ -15,6 +15,11 @@ msgctxt "Interface.AppearanceTitleSkinColor"
 msgid "Skin Colour"
 msgstr "피부색"
 
+#: /Language/Interface/Record[Key='LightCategory']
+msgctxt "Interface.LightCategory"
+msgid "Lights"
+msgstr "조명"
+
 #: /Language/Interface/Record[Key='PersonalBackpacks']
 msgctxt "Interface.PersonalBackpacks"
 msgid "Backpacks"
@@ -114,11 +119,6 @@ msgstr "논리 작성기"
 msgctxt "Interface.MotherboardCategory"
 msgid "Motherboards"
 msgstr "마더보드"
-
-#: /Language/Interface/Record[Key='ControlSystemAtmos']
-msgctxt "Interface.ControlSystemAtmos"
-msgid "Control Systems"
-msgstr "조작"
 
 #: /Language/Interface/Record[Key='ApplianceCategory']
 msgctxt "Interface.ApplianceCategory"
@@ -225,11 +225,6 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "게임 종료"
 
-#: /Language/Interface/Record[Key='LogicTypeExportCount']
-msgctxt "Interface.LogicTypeExportCount"
-msgid "How many items exported since last ClearMemory"
-msgstr ""
-
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -259,6 +254,11 @@ msgstr "세계:"
 msgctxt "Interface.WorldInfoTextAsteroids"
 msgid "Asteroids:"
 msgstr "소행성:"
+
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoTextVersion']
 msgctxt "Interface.WorldInfoTextVersion"
@@ -703,11 +703,6 @@ msgctxt "Interface.SettingsParticleQuality"
 msgid "Particle Quality"
 msgstr "파티클 품질"
 
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
-msgstr "문과 출입구"
-
 #: /Language/Interface/Record[Key='SettingsSoftParticles']
 msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
@@ -838,6 +833,11 @@ msgstr "복구"
 msgctxt "Interface.ButtonConfirm"
 msgid "Confirm"
 msgstr "확인"
+
+#: /Language/Interface/Record[Key='ControlSystemAtmos']
+msgctxt "Interface.ControlSystemAtmos"
+msgid "Control Systems"
+msgstr "조작"
 
 #: /Language/Interface/Record[Key='ButtonCancel']
 msgctxt "Interface.ButtonCancel"
@@ -1390,6 +1390,11 @@ msgctxt "Interface.AlertWrongPassword"
 msgid "Server Password Incorrect."
 msgstr "암호가 일치하지 않습니다."
 
+#: /Language/Interface/Record[Key='AlertInvalidPort']
+msgctxt "Interface.AlertInvalidPort"
+msgid "Port values must be between 0 and 65535."
+msgstr "포트값은 0-65535 사이여야 합니다."
+
 #: /Language/Interface/Record[Key='AlertCannotUpdatePort']
 msgctxt "Interface.AlertCannotUpdatePort"
 msgid "Cannot modify Update Port while server is running."
@@ -1445,11 +1450,6 @@ msgstr "즐겨찾기제거"
 msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "즐겨찾기추가"
-
-#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
-msgctxt "Interface.SaveMenuSaveWorldButton"
-msgid "Save World"
-msgstr "저장하기"
 
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
@@ -1521,11 +1521,6 @@ msgctxt "Interface.AppearanceTitleHairStyle"
 msgid "Hair"
 msgstr "머리"
 
-#: /Language/Interface/Record[Key='LightCategory']
-msgctxt "Interface.LightCategory"
-msgid "Lights"
-msgstr "조명"
-
 #: /Language/Interface/Record[Key='CableCategory']
 msgctxt "Interface.CableCategory"
 msgid "Cables and Analyzers"
@@ -1545,6 +1540,11 @@ msgstr "슈트"
 msgctxt "Interface.ChairTableCategory"
 msgid "Chairs"
 msgstr ""
+
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr "문과 출입구"
 
 #: /Language/Interface/Record[Key='KitCategory']
 msgctxt "Interface.KitCategory"
@@ -1650,11 +1650,6 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "머리색"
-
 #: /Language/Interface/Record[Key='StationpediaNutrition']
 #, fuzzy
 msgctxt "Interface.StationpediaNutrition"
@@ -1686,6 +1681,11 @@ msgstr ""
 msgctxt "Interface.Intensity"
 msgid "Intensity"
 msgstr ""
+
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "머리색"
 
 #: /Language/Interface/Record[Key='NoNote']
 msgctxt "Interface.NoNote"
@@ -4989,6 +4989,26 @@ msgctxt "Interface.LogicTypeVolume"
 msgid "Returns the device atmosphere volume"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeTotalMolesOutput2']
+msgctxt "Interface.LogicTypeTotalMolesOutput2"
+msgid "Returns the total moles of the device's Output2 Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTotalMolesOutput']
+msgctxt "Interface.LogicTypeTotalMolesOutput"
+msgid "Returns the total moles of the device's Output Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTotalMolesInput2']
+msgctxt "Interface.LogicTypeTotalMolesInput2"
+msgid "Returns the total moles of the device's Input2 Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTotalMolesInput']
+msgctxt "Interface.LogicTypeTotalMolesInput"
+msgid "Returns the total moles of the device's Input Network"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeTotalMoles']
 msgctxt "Interface.LogicTypeTotalMoles"
 msgid "Returns the total moles of the device"
@@ -5004,10 +5024,10 @@ msgctxt "Interface.LogicTypeImportCount"
 msgid "How many items imported since last ClearMemory"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "눈색"
+#: /Language/Interface/Record[Key='LogicTypeExportCount']
+msgctxt "Interface.LogicTypeExportCount"
+msgid "How many items exported since last ClearMemory"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeClearMemory']
 msgctxt "Interface.LogicTypeClearMemory"
@@ -5045,10 +5065,10 @@ msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
-msgid "DEPRECATED"
-msgstr ""
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "눈색"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
@@ -5244,6 +5264,173 @@ msgctxt "Interface.LogicTypeHorizontal"
 msgid "Horizontal setting of the device"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeCombustionOutput2']
+msgctxt "Interface.LogicTypeCombustionOutput2"
+msgid "The assess atmosphere is on fire. Returns 1 if device's Output2 network is on fire, 0 if not."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxideOutput2']
+msgctxt "Interface.LogicTypeRatioNitrousOxideOutput2"
+msgid "The ratio of {GAS:NitrousOxide} in device's Output2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioWaterOutput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioWaterOutput2"
+msgid "The ratio of water in device's Output2 network"
+msgstr "No other readable devices on network"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioVolatilesOutput2']
+msgctxt "Interface.LogicTypeRatioVolatilesOutput2"
+msgid "The ratio of volatiles in device's Output2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutantOutput2']
+msgctxt "Interface.LogicTypeRatioPollutantOutput2"
+msgid "The ratio of pollutant in device's Output2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrogenOutput2']
+msgctxt "Interface.LogicTypeRatioNitrogenOutput2"
+msgid "The ratio of nitrogen in device's Output2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxideOutput2']
+msgctxt "Interface.LogicTypeRatioCarbonDioxideOutput2"
+msgid "The ratio of {GAS:CarbonDioxide} in device's Output2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioOxygenOutput2']
+msgctxt "Interface.LogicTypeRatioOxygenOutput2"
+msgid "The ratio of oxygen in device's Output2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeCombustionOutput']
+msgctxt "Interface.LogicTypeCombustionOutput"
+msgid "The assess atmosphere is on fire. Returns 1 if device's Output network is on fire, 0 if not."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxideOutput']
+msgctxt "Interface.LogicTypeRatioNitrousOxideOutput"
+msgid "The ratio of {GAS:NitrousOxide} in device's Output network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioWaterOutput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioWaterOutput"
+msgid "The ratio of water in device's Output network"
+msgstr "No other readable devices on network"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioVolatilesOutput']
+msgctxt "Interface.LogicTypeRatioVolatilesOutput"
+msgid "The ratio of volatiles in device's Output network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutantOutput']
+msgctxt "Interface.LogicTypeRatioPollutantOutput"
+msgid "The ratio of pollutant in device's Output network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrogenOutput']
+msgctxt "Interface.LogicTypeRatioNitrogenOutput"
+msgid "The ratio of nitrogen in device's Output network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxideOutput']
+msgctxt "Interface.LogicTypeRatioCarbonDioxideOutput"
+msgid "The ratio of {GAS:CarbonDioxide} in device's Output network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioOxygenOutput']
+msgctxt "Interface.LogicTypeRatioOxygenOutput"
+msgid "The ratio of oxygen in device's Output network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeCombustionInput2']
+msgctxt "Interface.LogicTypeCombustionInput2"
+msgid "The assess atmosphere is on fire. Returns 1 if device's Input2 network is on fire, 0 if not."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxideInput2']
+msgctxt "Interface.LogicTypeRatioNitrousOxideInput2"
+msgid "The ratio of {GAS:NitrousOxide} in device's Input2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioWaterInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioWaterInput2"
+msgid "The ratio of water in device's Input2 network"
+msgstr "No other readable devices on network"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioVolatilesInput2']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioVolatilesInput2"
+msgid "The ratio of volatiles in device's Input2 network"
+msgstr "No other readable devices on network"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutantInput2']
+msgctxt "Interface.LogicTypeRatioPollutantInput2"
+msgid "The ratio of pollutant in device's Input2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrogenInput2']
+msgctxt "Interface.LogicTypeRatioNitrogenInput2"
+msgid "The ratio of nitrogen in device's Input2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxideInput2']
+msgctxt "Interface.LogicTypeRatioCarbonDioxideInput2"
+msgid "The ratio of {GAS:CarbonDioxide} in device's Input2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioOxygenInput2']
+msgctxt "Interface.LogicTypeRatioOxygenInput2"
+msgid "The ratio of oxygen in device's Input2 network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeCombustionInput']
+msgctxt "Interface.LogicTypeCombustionInput"
+msgid "The assess atmosphere is on fire. Returns 1 if device's input network is on fire, 0 if not."
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxideInput']
+msgctxt "Interface.LogicTypeRatioNitrousOxideInput"
+msgid "The ratio of {GAS:NitrousOxide} in device's input network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioWaterInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioWaterInput"
+msgid "The ratio of water in device's input network"
+msgstr "No other readable devices on network"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioVolatilesInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioVolatilesInput"
+msgid "The ratio of volatiles in device's input network"
+msgstr "No other readable devices on network"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioPollutantInput']
+msgctxt "Interface.LogicTypeRatioPollutantInput"
+msgid "The ratio of pollutant in device's input network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioNitrogenInput']
+#, fuzzy
+msgctxt "Interface.LogicTypeRatioNitrogenInput"
+msgid "The ratio of nitrogen in device's input network"
+msgstr "No other readable devices on network"
+
+#: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxideInput']
+msgctxt "Interface.LogicTypeRatioCarbonDioxideInput"
+msgid "The ratio of {GAS:CarbonDioxide} in device's input network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRatioOxygenInput']
+msgctxt "Interface.LogicTypeRatioOxygenInput"
+msgid "The ratio of oxygen in device's input network"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeCombustion']
 msgctxt "Interface.LogicTypeCombustion"
 msgid "The assess atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 if not."
@@ -5312,6 +5499,46 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicTypePressureExternal']
 msgctxt "Interface.LogicTypePressureExternal"
 msgid "Setting for external pressure safety, in KPa"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureOutput2']
+msgctxt "Interface.LogicTypeTemperatureOutput2"
+msgid "The current temperature reading of the device's Output2 Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypePressureOutput2']
+msgctxt "Interface.LogicTypePressureOutput2"
+msgid "The current pressure reading of the device's Output2 Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureOutput']
+msgctxt "Interface.LogicTypeTemperatureOutput"
+msgid "The current temperature reading of the device's Output Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypePressureOutput']
+msgctxt "Interface.LogicTypePressureOutput"
+msgid "The current pressure reading of the device's Output Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureInput2']
+msgctxt "Interface.LogicTypeTemperatureInput2"
+msgid "The current temperature reading of the device's Input2 Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypePressureInput2']
+msgctxt "Interface.LogicTypePressureInput2"
+msgid "The current pressure reading of the device's Input2 Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureInput']
+msgctxt "Interface.LogicTypeTemperatureInput"
+msgid "The current temperature reading of the device's Input Network"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypePressureInput']
+msgctxt "Interface.LogicTypePressureInput"
+msgid "The current pressure reading of the device's Input Network"
 msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeTemperature']
@@ -6074,10 +6301,10 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "수염"
 
-#: /Language/Interface/Record[Key='AlertInvalidPort']
-msgctxt "Interface.AlertInvalidPort"
-msgid "Port values must be between 0 and 65535."
-msgstr "포트값은 0-65535 사이여야 합니다."
+#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
+msgctxt "Interface.SaveMenuSaveWorldButton"
+msgid "Save World"
+msgstr "저장하기"
 
 #~ msgctxt "Interface.LogicState"
 #~ msgid "State {COLORGREEN:#VAR1#}"
