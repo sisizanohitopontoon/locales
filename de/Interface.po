@@ -120,6 +120,11 @@ msgctxt "Interface.MotherboardCategory"
 msgid "Motherboards"
 msgstr "Hauptplatinen"
 
+#: /Language/Interface/Record[Key='ControlSystemAtmos']
+msgctxt "Interface.ControlSystemAtmos"
+msgid "Control Systems"
+msgstr "Kontrollsysteme"
+
 #: /Language/Interface/Record[Key='ApplianceCategory']
 msgctxt "Interface.ApplianceCategory"
 msgid "Appliances"
@@ -134,11 +139,6 @@ msgstr "Fabrikator"
 msgctxt "Interface.Edibles"
 msgid "Edibles and food"
 msgstr "Lebensmittel"
-
-#: /Language/Interface/Record[Key='Plants']
-msgctxt "Interface.Plants"
-msgid "Plants and Seeds"
-msgstr "Pflanzen und Samen"
 
 #: /Language/Interface/Record[Key='AirContitioningAtmos']
 msgctxt "Interface.AirContitioningAtmos"
@@ -255,15 +255,15 @@ msgctxt "Interface.WorldInfoTextAsteroids"
 msgid "Asteroids:"
 msgstr "Asteroiden:"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
-
 #: /Language/Interface/Record[Key='WorldInfoTextVersion']
 msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Version:"
+
+#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
+msgctxt "Interface.LogicTypeCompletionRatio"
+msgid "How complete the current production is for this device, between 0 and 1"
+msgstr "Wie vollständig der aktuelle Herstellprozess für dieses Gerät ist, zwischen 0 und 1"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
@@ -835,11 +835,6 @@ msgctxt "Interface.ButtonConfirm"
 msgid "Confirm"
 msgstr "Bestätigen"
 
-#: /Language/Interface/Record[Key='ControlSystemAtmos']
-msgctxt "Interface.ControlSystemAtmos"
-msgid "Control Systems"
-msgstr "Kontrollsysteme"
-
 #: /Language/Interface/Record[Key='ButtonCancel']
 msgctxt "Interface.ButtonCancel"
 msgid "Cancel"
@@ -859,6 +854,11 @@ msgstr "OK"
 msgctxt "Interface.InputPassword"
 msgid "Password"
 msgstr "Passwort"
+
+#: /Language/Interface/Record[Key='Plants']
+msgctxt "Interface.Plants"
+msgid "Plants and Seeds"
+msgstr "Pflanzen und Samen"
 
 #: /Language/Interface/Record[Key='ButtonKick']
 msgctxt "Interface.ButtonKick"
@@ -1443,15 +1443,15 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "Favoriten"
 
+#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
+msgctxt "Interface.SaveMenuSaveWorldButton"
+msgid "Save World"
+msgstr "Welt speichern"
+
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
 msgstr "Überschreiben"
-
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "Speichername eingeben..."
 
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
@@ -1574,6 +1574,35 @@ msgctxt "Interface.RespawnConditionEasy"
 msgid "Easy"
 msgstr ""
 
+#: /Language/Interface/Record[Key='GameMenuPauseGameButton']
+#, fuzzy
+msgctxt "Interface.GameMenuPauseGameButton"
+msgid "Pause Game"
+msgstr "Spiel Pausiert"
+
+#: /Language/Interface/Record[Key='GameMenuButtonSaveAs']
+#, fuzzy
+msgctxt "Interface.GameMenuButtonSaveAs"
+msgid "Save Game As..."
+msgstr "Speichername eingeben..."
+
+#: /Language/Interface/Record[Key='WorkshopModsTitle']
+#, fuzzy
+msgctxt "Interface.WorkshopModsTitle"
+msgid "Workshop Mods"
+msgstr "Workshop"
+
+#: /Language/Interface/Record[Key='CreateNewGame']
+msgctxt "Interface.CreateNewGame"
+msgid "Create New Game"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MainMenuChangeAppearance']
+#, fuzzy
+msgctxt "Interface.MainMenuChangeAppearance"
+msgid "Change Appearance"
+msgstr "Aussehen ändern"
+
 #: /Language/Interface/Record[Key='SettingsStartLocalHost']
 msgctxt "Interface.SettingsStartLocalHost"
 msgid "StartLocalHost"
@@ -1667,6 +1696,11 @@ msgctxt "Interface.StationpediaVolume"
 msgid "Volume:"
 msgstr "Volumen:"
 
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Haarfarbe"
+
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
@@ -1686,11 +1720,6 @@ msgstr "Wellenform"
 msgctxt "Interface.Intensity"
 msgid "Intensity"
 msgstr "Intensität"
-
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Haarfarbe"
 
 #: /Language/Interface/Record[Key='NoNote']
 msgctxt "Interface.NoNote"
@@ -4816,6 +4845,21 @@ msgctxt "Interface.LogicSlotTypeNone"
 msgid "No description"
 msgstr "Keine Beschreibung"
 
+#: /Language/Interface/Record[Key='LogicTypePressureEfficiency']
+msgctxt "Interface.LogicTypePressureEfficiency"
+msgid "How the pressure of the input pipe and waste pipe effect the machines efficiency"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureDifferentialEfficiency']
+msgctxt "Interface.LogicTypeTemperatureDifferentialEfficiency"
+msgid "How the difference between the input pipe and waste pipe temperatures effect the machines efficiency"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeOperationalTemperatureEfficiency']
+msgctxt "Interface.LogicTypeOperationalTemperatureEfficiency"
+msgid "How the input pipe's temperature effects the machines efficency"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeSignalID']
 msgctxt "Interface.LogicTypeSignalID"
 msgid "Returns the contact ID of the strongest signal from this Satellite"
@@ -4965,10 +5009,10 @@ msgctxt "Interface.LogicTypeClearMemory"
 msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 msgstr "Löscht den Zählerspeicher wenn auf 1 gesetzt (z.B. ExportCount). Setzt sich nach der Löschung auf 0 zurück"
 
-#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
-msgctxt "Interface.LogicTypeCompletionRatio"
-msgid "How complete the current production is for this device, between 0 and 1"
-msgstr "Wie vollständig der aktuelle Herstellprozess für dieses Gerät ist, zwischen 0 und 1"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Augenfarbe"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
@@ -4996,10 +5040,10 @@ msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Augenfarbe"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
@@ -6261,10 +6305,10 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Gesichtsbehaarung"
 
-#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
-msgctxt "Interface.SaveMenuSaveWorldButton"
-msgid "Save World"
-msgstr "Welt speichern"
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "Speichername eingeben..."
 
 #~ msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 #~ msgid "The ratio of co2 in device atmosphere"

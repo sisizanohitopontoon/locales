@@ -120,6 +120,11 @@ msgctxt "Interface.MotherboardCategory"
 msgid "Motherboards"
 msgstr "Anakartlar"
 
+#: /Language/Interface/Record[Key='ControlSystemAtmos']
+msgctxt "Interface.ControlSystemAtmos"
+msgid "Control Systems"
+msgstr "Kontrol Sistemleri"
+
 #: /Language/Interface/Record[Key='ApplianceCategory']
 msgctxt "Interface.ApplianceCategory"
 msgid "Appliances"
@@ -135,11 +140,6 @@ msgstr "İmalatçılar"
 msgctxt "Interface.Edibles"
 msgid "Edibles and food"
 msgstr "Yenilebilir"
-
-#: /Language/Interface/Record[Key='Plants']
-msgctxt "Interface.Plants"
-msgid "Plants and Seeds"
-msgstr ""
 
 #: /Language/Interface/Record[Key='AirContitioningAtmos']
 msgctxt "Interface.AirContitioningAtmos"
@@ -256,15 +256,15 @@ msgctxt "Interface.WorldInfoTextAsteroids"
 msgid "Asteroids:"
 msgstr "Asteroitler:"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
-
 #: /Language/Interface/Record[Key='WorldInfoTextVersion']
 msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Sürüm:"
+
+#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
+msgctxt "Interface.LogicTypeCompletionRatio"
+msgid "How complete the current production is for this device, between 0 and 1"
+msgstr "Bu cihaz için geçerli üretimin ne kadar tamamlandığı; 0 ile 1 arasında"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
@@ -833,11 +833,6 @@ msgctxt "Interface.ButtonConfirm"
 msgid "Confirm"
 msgstr "Onayla"
 
-#: /Language/Interface/Record[Key='ControlSystemAtmos']
-msgctxt "Interface.ControlSystemAtmos"
-msgid "Control Systems"
-msgstr "Kontrol Sistemleri"
-
 #: /Language/Interface/Record[Key='ButtonCancel']
 msgctxt "Interface.ButtonCancel"
 msgid "Cancel"
@@ -857,6 +852,11 @@ msgstr "Tamam"
 msgctxt "Interface.InputPassword"
 msgid "Password"
 msgstr "Şifre"
+
+#: /Language/Interface/Record[Key='Plants']
+msgctxt "Interface.Plants"
+msgid "Plants and Seeds"
+msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonKick']
 msgctxt "Interface.ButtonKick"
@@ -1443,15 +1443,15 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "SIK KULLANILANLAR"
 
+#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
+msgctxt "Interface.SaveMenuSaveWorldButton"
+msgid "Save World"
+msgstr "Dünyayı Kaydet"
+
 #: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
 msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
 msgstr "Üstüne Yaz"
-
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "Kayıt İsmini Gir..."
 
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
@@ -1574,6 +1574,35 @@ msgctxt "Interface.RespawnConditionEasy"
 msgid "Easy"
 msgstr ""
 
+#: /Language/Interface/Record[Key='GameMenuPauseGameButton']
+#, fuzzy
+msgctxt "Interface.GameMenuPauseGameButton"
+msgid "Pause Game"
+msgstr "Duraklatılmış oynanış"
+
+#: /Language/Interface/Record[Key='GameMenuButtonSaveAs']
+#, fuzzy
+msgctxt "Interface.GameMenuButtonSaveAs"
+msgid "Save Game As..."
+msgstr "Kayıt İsmini Gir..."
+
+#: /Language/Interface/Record[Key='WorkshopModsTitle']
+#, fuzzy
+msgctxt "Interface.WorkshopModsTitle"
+msgid "Workshop Mods"
+msgstr "ATÖLYE"
+
+#: /Language/Interface/Record[Key='CreateNewGame']
+msgctxt "Interface.CreateNewGame"
+msgid "Create New Game"
+msgstr ""
+
+#: /Language/Interface/Record[Key='MainMenuChangeAppearance']
+#, fuzzy
+msgctxt "Interface.MainMenuChangeAppearance"
+msgid "Change Appearance"
+msgstr "GÖRÜNÜMÜ DEĞİŞTİR"
+
 #: /Language/Interface/Record[Key='SettingsStartLocalHost']
 msgctxt "Interface.SettingsStartLocalHost"
 msgid "StartLocalHost"
@@ -1653,6 +1682,11 @@ msgctxt "Interface.StationpediaVolume"
 msgid "Volume:"
 msgstr ""
 
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Saç Rengi"
+
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
 #, fuzzy
 msgctxt "Interface.StationpediaMaxPressure"
@@ -1673,11 +1707,6 @@ msgstr ""
 msgctxt "Interface.Intensity"
 msgid "Intensity"
 msgstr ""
-
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Saç Rengi"
 
 #: /Language/Interface/Record[Key='NoNote']
 msgctxt "Interface.NoNote"
@@ -4805,6 +4834,21 @@ msgctxt "Interface.LogicSlotTypeNone"
 msgid "No description"
 msgstr "Açıklama yok"
 
+#: /Language/Interface/Record[Key='LogicTypePressureEfficiency']
+msgctxt "Interface.LogicTypePressureEfficiency"
+msgid "How the pressure of the input pipe and waste pipe effect the machines efficiency"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeTemperatureDifferentialEfficiency']
+msgctxt "Interface.LogicTypeTemperatureDifferentialEfficiency"
+msgid "How the difference between the input pipe and waste pipe temperatures effect the machines efficiency"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeOperationalTemperatureEfficiency']
+msgctxt "Interface.LogicTypeOperationalTemperatureEfficiency"
+msgid "How the input pipe's temperature effects the machines efficency"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeSignalID']
 msgctxt "Interface.LogicTypeSignalID"
 msgid "Returns the contact ID of the strongest signal from this Satellite"
@@ -4954,10 +4998,10 @@ msgctxt "Interface.LogicTypeClearMemory"
 msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 msgstr "1 olarak ayarlandığında, sayaç hafızasını siler (örnek olarak ExportCount). İşlem yapıldığında kendini 0'a geri ayarlar"
 
-#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
-msgctxt "Interface.LogicTypeCompletionRatio"
-msgid "How complete the current production is for this device, between 0 and 1"
-msgstr "Bu cihaz için geçerli üretimin ne kadar tamamlandığı; 0 ile 1 arasında"
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Göz Rengi"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
 msgctxt "Interface.LogicTypeRequestHash"
@@ -4985,10 +5029,10 @@ msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Göz Rengi"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
@@ -6249,10 +6293,10 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Sakal"
 
-#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
-msgctxt "Interface.SaveMenuSaveWorldButton"
-msgid "Save World"
-msgstr "Dünyayı Kaydet"
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "Kayıt İsmini Gir..."
 
 #~ msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 #~ msgid "The ratio of co2 in device atmosphere"
