@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-30 20:54+0000\n"
+"PO-Revision-Date: 2022-08-30 20:56+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5678,13 +5678,15 @@ msgid "Transformer Reversed (Medium)"
 msgstr "Transformador invertido (Medio)"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium']
-#, fuzzy
 msgctxt "Things.StructureTransformerMedium"
 msgid ""
 "Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems. \n"
 "Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.\n"
 "Note that transformers also operate as data isolators, preventing data flowing into any network beyond it."
-msgstr "Transformador (Medio)"
+msgstr ""
+"Los transformadores controlan la potencia máxima que fluirá por una subred de cables, para evitar la sobrecarga de los sistemas {LINK:ElectronicPage;electrical}. \n"
+"Los transformadores medianos se utilizan en configuraciones más grandes donde se requieren más de 5000W, con una salida que se puede configurar a un máximo de 25000W.\n"
+"Tenga en cuenta que los transformadores también funcionan como aisladores de datos, evitando que los datos fluyan hacia cualquier red más allá de ella."
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium']
 msgctxt "Things.StructureTransformerMedium"
@@ -5769,12 +5771,13 @@ msgid "Ingot (Cobalt)"
 msgstr "Lingote (Cobalto)"
 
 #: /Language/Things/RecordThing[Key='ItemCobaltOre']
-#, fuzzy
 msgctxt "Things.ItemCobaltOre"
 msgid ""
 "Cobalt is a chemical element with the symbol \"Co\" and is typically found in only small deposits. Cobalt is a rare substance, but used create the {THING:ItemHealPill} and several  "
 "{LINK:IngotPage;alloys}."
-msgstr "Mineral (Cobalto)"
+msgstr ""
+"El cobalto es un elemento químico con el símbolo \"Co\" y se encuentra típicamente en pequeños depósitos. El cobalto es una sustancia rara, pero se utiliza para crear la pastilla "
+"{THING:ItemHealPill} y varias aleaciones {LINK:IngotPage;aleaciones}."
 
 #: /Language/Things/RecordThing[Key='ItemCobaltOre']
 msgctxt "Things.ItemCobaltOre"
@@ -5846,7 +5849,6 @@ msgid "GPS"
 msgstr "GPS"
 
 #: /Language/Things/RecordThing[Key='Robot']
-#, fuzzy
 msgctxt "Things.Robot"
 msgid ""
 "Designed by - presumably drunk - {LINK:Norsec;Norsec} roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a {LINK:Stationeers;Stationeer's} best friend, or tiresome nemesis, or both several times in the same day. \n"
@@ -5862,7 +5864,20 @@ msgid ""
 "RobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids\n"
 "RobotMode.None = 5 = Path(find) to target\n"
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
-msgstr "AIMeE Bot"
+msgstr ""
+"Diseñado por - un presumiblemente borracho robotista {LINK:Norsec;Norsec}, AIMeE (o Automated Independent Mechanical Entity)(Entidad Mecanica Automatizada Independiente) puede ser un {LINK:Stationeers;Stationeer's}, o la némesis tediosa, o ambas varias veces en el mismo día. \n"
+"      \n"
+"Destinada a desenterrar y recuperar minerales automáticamente, la unidad requiere conocimientos básicos de programación para operar, y un {THING:MotherboardProgrammableChip}.\n"
+"\n"
+"AIMEe tiene 7 modos:\n"
+"\n"
+"RobotMode.None = 0 = No hacer nada\n"
+"RobotMode.None = 1 = Seguir al jugador más cercano\n"
+"RobotMode.None = 2 = Mover al objetivo en línea recta\n"
+"RobotMode.None = 3 = Deambula en busca de minerales en un radio de 15 co-ords\n"
+"RobotMode.None = 4 = Descarga en la entrada del conducto o en el contenedor del conducto dentro de los 3 metros / 1.5 rejillas grandes\n"
+"RobotMode.None = 5 = Ruta (encontrar) al destino\n"
+"RobotMode.None = 6 = Estado asignado automático, muestra cuando las ranuras de almacenamiento están llenas"
 
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
