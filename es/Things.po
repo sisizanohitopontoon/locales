@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-30 12:13+0000\n"
+"PO-Revision-Date: 2022-08-30 20:34+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,10 +63,9 @@ msgid "Portable Liquid Tank Mk II (Water)"
 msgstr "Tanque de líquido portátil Mk II (agua)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
-#, fuzzy
 msgctxt "Things.DynamicGasTankAdvancedWater"
 msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this {SLOT:GasCanister} without them gaining or losing temperature."
-msgstr "Una versión aislada del {THING:DynamicMKIILiquidCanisterWater}, puede almacenar agua en este recipiente sin que gane o pierda temperatura."
+msgstr "Una versión aislada del {THING:DynamicMKIILiquidCanisterWater}, puede almacenar agua en esta ranura {SLOT:GasCanister} sin que gane o pierda temperatura."
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
 msgctxt "Things.StructureLiquidPipeRadiator"
@@ -98,10 +97,9 @@ msgid "Portable Liquid Tank Mk II"
 msgstr "Tanque liquido portatil MK II"
 
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterEmpty']
-#, fuzzy
 msgctxt "Things.DynamicMKIILiquidCanisterEmpty"
 msgid "An empty, insulated liquid {SLOT:GasCanister}."
-msgstr "Un bote de líquido vacío y aislado."
+msgstr "Un bote de líquido vacío y aislado {SLOT:GasCanister}."
 
 #: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
 msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
@@ -311,10 +309,9 @@ msgstr ""
 "Para usar en usted mismo: coloque cinta adhesiva en su mano activa, mantenga presionado el BOTÓN DERECHO DEL RATÓN para reparar automáticamente el daño."
 
 #: /Language/Things/RecordThing[Key='ItemKitWaterBottleFiller']
-#, fuzzy
 msgctxt "Things.ItemKitWaterBottleFiller"
 msgid "Kit (Water Bottle Filler)"
-msgstr "{BLANK}"
+msgstr "Llenador de botellas de agua (kit)"
 
 #: /Language/Things/RecordThing[Key='ItemKitWaterBottleFiller']
 msgctxt "Things.ItemKitWaterBottleFiller"
@@ -447,14 +444,13 @@ msgstr ""
 "Próximamente"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningJunk']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleMiningJunk"
 msgid ""
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for "
 "{LINK:OrePage;ore} to pass from the collector unit into the silo."
 msgstr ""
-"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} por un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el"
-" ore pase de la unidad colectora al silo."
+"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} por un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que "
+"las menas {LINK:OrePage;ore} pasen de la unidad colectora al silo."
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
 msgctxt "Things.StructureRocketModuleMiningOre"
@@ -462,15 +458,14 @@ msgid "Automated Rocket Ore Mining Module"
 msgstr "Módulo de minería automática del cohete"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleMiningOre']
-#, fuzzy
 msgctxt "Things.StructureRocketModuleMiningOre"
 msgid ""
 "The {LINK:ExMin;ExMin} autonomous {LINK:OrePage;ore} miner harvests metallic ores from asteroids and planets in the local region of space. Its range - and therefore how much {LINK:OrePage;ore} it collects - is strictly determined by the rocket's fuel quantity.\n"
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for {LINK:OrePage;ore} to pass from the collector unit into the silo.\n"
 "It has two modes - active (1), and inactive (0), which should only be triggered when the rocket has arrived on the planet and is idle (mode 4)."
 msgstr ""
-"El <color=#0080FFFF>{LINK:ExMin;ExMin}</color> cosecha minerales metálicos de asteroides y planetas en la región local del espacio. Su alcance, y por lo tanto la cantidad de mineral que recolecta, está estrictamente determinado por la cantidad de combustible del cohete.\n"
-"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} por un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el mineral pase de la unidad colectora al silo.\n"
+"El LINK:ExMin;ExMin}cosecha minerales metálicos de asteroides y planetas en la región local del espacio. Su alcance, y por lo tanto la cantidad de mineral que recolecta, está estrictamente determinado por la cantidad de combustible del cohete.\n"
+"El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} por un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el mineral {LINK:OrePage;ore} pase de la unidad colectora al silo.\n"
 "Tiene dos modos: activo (1) e inactivo (0), que solo deben activarse cuando el cohete ha llegado al planeta y está inactivo (modo 4)."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketAutonomous']
