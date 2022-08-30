@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-30 10:29+0000\n"
+"PO-Revision-Date: 2022-08-30 10:32+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1648,7 +1648,6 @@ msgstr ""
 "El contaminante tiene un calor específico alto, lo que lo convierte en un excelente refrigerante.Desgraciadamente es extremadamente malo para los organismos vivos,y dañará gravemente los pulmones de la mayoría de los organismos a base de {REAGENT:Carbon}."
 
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
-#, fuzzy
 msgctxt "Interface.MoleVolatilesDescription"
 msgid ""
 "Volatiles are an extremely reactive, complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is refined from {THING:ItemVolatiles}.\n"
@@ -1659,9 +1658,9 @@ msgid ""
 msgstr ""
 "Los volátiles son una molécula orgánica compleja, extremadamente reactiva, que se puede utilizar junto con el oxígeno como combustible. Está refinado de {THING:ItemVolatiles} .\n"
 "  · \n"
-"Debido a las regulaciones oscuras y en gran parte olvidadas de <color=#0080FFFF>{LINK:ODA;ODA}</color>, los volátiles a veces se etiquetan como 'H2' por varios elementos de tecnología. Sin embargo, aunque son similares al hidrógeno, no son \"en realidad\" hidrógeno. Los volátiles no producirán agua cuando se queman, sin un catalizador (vea la {THING:H2Combustor}). Por sí solos, crean contaminantes y dióxido de carbono cuando se queman en la siguiente proporción:\n"
+"Debido a regulaciones oscuras y en gran parte olvidadas {LINK:ODA;ODA}, los volátiles a veces son etiquetados como 'H2' por varios elementos tecnológicos. Sin embargo, aunque son similares al hidrógeno, no son 'realmente' hidrógeno. {GAS:Volatiles} no producirá {GAS:Water} cuando se quema, sin un catalizador (ver {THING:H2Combustor}). Solos, crean {GAS:Pollutant} y {GAS:CarbonDioxide} cuando se queman en la siguiente proporción:\n"
 "      \n"
-"2 Volatiles + 1 O2 -> 3X + 6CO2 + calor."
+"2 {GAS:Volátiles} + 1 {GAS:Oxygen} -> 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + calor."
 
 #: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
 #, fuzzy
