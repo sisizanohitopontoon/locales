@@ -10,47 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageVendingMachine1']
-msgctxt "Things.ItemWreckageVendingMachine1"
+#: /Language/Things/RecordThing[Key='ItemWreckageArcFurnace1']
+msgctxt "Things.ItemWreckageArcFurnace1"
 msgid "Description coming."
 msgstr "Popis již brzy."
-
-#: /Language/Things/RecordThing[Key='StructureWaterBottleFiller']
-msgctxt "Things.StructureWaterBottleFiller"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='StructureIceCrusher']
-msgctxt "Things.StructureIceCrusher"
-msgid "Ice Crusher"
-msgstr "Drtič ledu"
-
-#: /Language/Things/RecordThing[Key='StructureIceCrusher']
-#, fuzzy
-msgctxt "Things.StructureIceCrusher"
-msgid ""
-"The {LINK:Recurso;Recurso} KoolAuger converts various ices into their respective {LINK:GasPage;gases} and liquids.\n"
-"A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either oulet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.\n"
-"If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch."
-msgstr ""
-"<color=#0080FFFF>{LINK:Recurso;Recurso}</color> KoolAuger přeměňuje různé ledy na příslušné <color=#0080FFFF>{LINK:GasPage;plyny}</color> a kapaliny.\n"
-"Pozoruhodně inteligentní a kompaktní sublimačně-tavicí jednotka vyrábí plyn nebo kapalinu v závislosti na zpracovávaném ledu. Horní výstup je určen pro plyn, spodní pro kapalinu, a přestože k oběma výstupům můžete připojit libovolné potrubí, bude fungovat pouze v případě, že je připojena správná síť. Plyn nebo kapalinu do sítě propustí také pouze tehdy, je-li napájena a zapnuta.\n"
-"Pokud je KoolAuger plný, nepřijme žádný další led, dokud nebude obsah plynu nebo kapaliny vypuštěn. V tomto stavu bude na aktivačním spínači blikat žlutý chybový stav."
-
-#: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
-msgctxt "Things.ItemKitIceCrusher"
-msgid "Kit (Ice Crusher)"
-msgstr "Drtič ledu (sada)"
-
-#: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
-msgctxt "Things.ItemKitIceCrusher"
-msgid "This kit creates a {THING:StructureIceCrusher}."
-msgstr "Tato sada vytváří {THING:StructureIceCrusher}."
-
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedOxygen']
-msgctxt "Things.DynamicGasTankAdvancedOxygen"
-msgid "Portable Gas Tank Mk II (Oxygen)"
-msgstr "Přenosná nádrž na plyn Mk II (kyslík)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedOxygen']
 msgctxt "Things.DynamicGasTankAdvancedOxygen"
@@ -69,9 +32,12 @@ msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you a
 msgstr "Izolovaná verze kanystru {THING:DynamicMKIILiquidCanisterWater} umožňuje uchovávat vodu v tomto kanystru, aniž by získávala nebo ztrácela teplotu."
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
+#, fuzzy
 msgctxt "Things.StructureLiquidPipeRadiator"
-msgid "Liquid Pipe Radiator"
-msgstr "Kapalinový potrubní radiátor"
+msgid "Liquid Pipe Convection Radiator"
+msgstr ""
+"Trubkové radiátory, které jsou jednoduchým výměníkem tepla, lze umístit na potrubí, aby v závislosti na teplotě okolní atmosféry odváděly nebo získávaly teplo. Pokud je atmosféra teplejší, teplo se přidává kapalině v potrubní síti, a naopak, pokud je chladnější. Ve vakuu bude teplo vyzařováno. \n"
+"Rychlost získávání nebo ztráty tepla závisí na dané kapalině. Přidáním více zářičů se přenos tepla urychlí."
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
 msgctxt "Things.StructureLiquidPipeRadiator"
@@ -929,10 +895,11 @@ msgctxt "Things.ItemSoundCartridgeLeads"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='StructureWaterBottleFiller']
-msgctxt "Things.StructureWaterBottleFiller"
-msgid "Water Bottle Filler"
-msgstr "Plnička lahví na vodu"
+#: /Language/Things/RecordThing[Key='ItemSoundCartridgeSynth']
+#, fuzzy
+msgctxt "Things.ItemSoundCartridgeSynth"
+msgid "Sound Cartridge Synth"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeSynth']
 msgctxt "Things.ItemSoundCartridgeSynth"
@@ -987,10 +954,10 @@ msgctxt "Things.StructureInsulatedTankConnectorLiquid"
 msgid "Insulated Tank Connector Liquid"
 msgstr "Izolovaný konektor nádrže na kapalinu"
 
-#: /Language/Things/RecordThing[Key='StructureInsulatedTankConnectorLiquid']
-msgctxt "Things.StructureInsulatedTankConnectorLiquid"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedOxygen']
+msgctxt "Things.DynamicGasTankAdvancedOxygen"
+msgid "Portable Gas Tank Mk II (Oxygen)"
+msgstr "Přenosná nádrž na plyn Mk II (kyslík)"
 
 #: /Language/Things/RecordThing[Key='DecayedFood']
 msgctxt "Things.DecayedFood"
@@ -2569,7 +2536,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiator']
 #, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiator"
-msgid "Kit (Passive Large Radiator)"
+msgid "Kit (Medium Radiator)"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiator']
@@ -2579,10 +2546,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiator']
-#, fuzzy
 msgctxt "Things.StructurePassiveLargeRadiator"
-msgid "Passive Large Radiator"
-msgstr "{BLANK}"
+msgid "Medium Convection Radiator"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiator']
 #, fuzzy
@@ -2593,7 +2559,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorGas']
 #, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiatorGas"
-msgid "Kit (Passive Large Radiator Gas)"
+msgid "Kit (Medium Radiator)"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorGas']
@@ -2605,7 +2571,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorLiquid']
 #, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiatorLiquid"
-msgid "Kit (Passive Large Radiator Liquid)"
+msgid "Kit (Medium Radiator Liquid)"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorLiquid']
@@ -2617,7 +2583,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorLiquid']
 #, fuzzy
 msgctxt "Things.StructurePassiveLargeRadiatorLiquid"
-msgid "Passive Large Radiator Liquid"
+msgid "Medium Convection Radiator Liquid"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorLiquid']
@@ -2627,10 +2593,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorGas']
-#, fuzzy
 msgctxt "Things.StructurePassiveLargeRadiatorGas"
-msgid "Passive Large Radiator Gas"
-msgstr "{BLANK}"
+msgid "Medium Convection Radiator"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorGas']
 #, fuzzy
@@ -2695,6 +2660,138 @@ msgstr "H2 spalovač"
 msgctxt "Things.StructureH2Combustor"
 msgid "Adapted slightly from its original {LINK:Recurso;Recurso} design, the {GAS:Volatiles} Combustor does exactly what its name suggests - it burns a mixture of volatiles and {GAS:Oxygen} to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat. The device is also less than perfectly efficient, resulting in the autoignition of volatiles in the chamber, and the production of waste gases which must be dealt with."
 msgstr "H2 spalovač"
+
+#: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlat']
+#, fuzzy
+msgctxt "Things.StructurePipeRadiatorFlat"
+msgid "Pipe Radiator"
+msgstr "Potrubní radiátor"
+
+#: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlat']
+#, fuzzy
+msgctxt "Things.StructurePipeRadiatorFlat"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlatLiquid']
+#, fuzzy
+msgctxt "Things.StructurePipeRadiatorFlatLiquid"
+msgid "Pipe Radiator Liquid"
+msgstr "Potrubní radiátor"
+
+#: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlatLiquid']
+#, fuzzy
+msgctxt "Things.StructurePipeRadiatorFlatLiquid"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiator']
+msgctxt "Things.StructureMediumConvectionRadiator"
+msgid "Medium Convection Radiator"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiator']
+#, fuzzy
+msgctxt "Things.StructureMediumConvectionRadiator"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureMediumRadiator']
+#, fuzzy
+msgctxt "Things.StructureMediumRadiator"
+msgid "Medium Radiator"
+msgstr "Potrubní radiátor"
+
+#: /Language/Things/RecordThing[Key='StructureMediumRadiator']
+#, fuzzy
+msgctxt "Things.StructureMediumRadiator"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureMediumRadiatorLiquid']
+#, fuzzy
+msgctxt "Things.StructureMediumRadiatorLiquid"
+msgid "Medium Radiator Liquid"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureMediumRadiatorLiquid']
+#, fuzzy
+msgctxt "Things.StructureMediumRadiatorLiquid"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiatorLiquid']
+#, fuzzy
+msgctxt "Things.StructureMediumConvectionRadiatorLiquid"
+msgid "Medium Convection Radiator Liquid"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiatorLiquid']
+#, fuzzy
+msgctxt "Things.StructureMediumConvectionRadiatorLiquid"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitPipeRadiator']
+#, fuzzy
+msgctxt "Things.ItemKitPipeRadiator"
+msgid "Kit (Pipe Radiator)"
+msgstr "Radiátor (sada)"
+
+#: /Language/Things/RecordThing[Key='ItemKitPipeRadiator']
+#, fuzzy
+msgctxt "Things.ItemKitPipeRadiator"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitPipeRadiatorLiquid']
+#, fuzzy
+msgctxt "Things.ItemKitPipeRadiatorLiquid"
+msgid "Kit (Pipe Radiator Liquid)"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitPipeRadiatorLiquid']
+#, fuzzy
+msgctxt "Things.ItemKitPipeRadiatorLiquid"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
+msgctxt "Things.ItemKitIceCrusher"
+msgid "This kit creates a {THING:StructureIceCrusher}."
+msgstr "Tato sada vytváří {THING:StructureIceCrusher}."
+
+#: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
+msgctxt "Things.ItemKitIceCrusher"
+msgid "Kit (Ice Crusher)"
+msgstr "Drtič ledu (sada)"
+
+#: /Language/Things/RecordThing[Key='StructureIceCrusher']
+#, fuzzy
+msgctxt "Things.StructureIceCrusher"
+msgid ""
+"The {LINK:Recurso;Recurso} KoolAuger converts various ices into their respective {LINK:GasPage;gases} and liquids.\n"
+"A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either oulet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.\n"
+"If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch."
+msgstr ""
+"<color=#0080FFFF>{LINK:Recurso;Recurso}</color> KoolAuger přeměňuje různé ledy na příslušné <color=#0080FFFF>{LINK:GasPage;plyny}</color> a kapaliny.\n"
+"Pozoruhodně inteligentní a kompaktní sublimačně-tavicí jednotka vyrábí plyn nebo kapalinu v závislosti na zpracovávaném ledu. Horní výstup je určen pro plyn, spodní pro kapalinu, a přestože k oběma výstupům můžete připojit libovolné potrubí, bude fungovat pouze v případě, že je připojena správná síť. Plyn nebo kapalinu do sítě propustí také pouze tehdy, je-li napájena a zapnuta.\n"
+"Pokud je KoolAuger plný, nepřijme žádný další led, dokud nebude obsah plynu nebo kapaliny vypuštěn. V tomto stavu bude na aktivačním spínači blikat žlutý chybový stav."
+
+#: /Language/Things/RecordThing[Key='StructureIceCrusher']
+msgctxt "Things.StructureIceCrusher"
+msgid "Ice Crusher"
+msgstr "Drtič ledu"
+
+#: /Language/Things/RecordThing[Key='StructureWaterBottleFiller']
+msgctxt "Things.StructureWaterBottleFiller"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureWaterBottleFiller']
+msgctxt "Things.StructureWaterBottleFiller"
+msgid "Water Bottle Filler"
+msgstr "Plnička lahví na vodu"
 
 #: /Language/Things/RecordThing[Key='ItemWaterBottleFiller']
 msgctxt "Things.ItemWaterBottleFiller"
@@ -3753,6 +3850,11 @@ msgctxt "Things.ItemWreckageHydroponicsAutomatic3"
 msgid "Description coming."
 msgstr "Popis již brzy."
 
+#: /Language/Things/RecordThing[Key='StructureInsulatedTankConnectorLiquid']
+msgctxt "Things.StructureInsulatedTankConnectorLiquid"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
 #: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsAutomatic3']
 msgctxt "Things.ItemWreckageHydroponicsAutomatic3"
 msgid "Wreckage Hydroponics Automatic"
@@ -3792,12 +3894,6 @@ msgstr "Vrak H2 spalovače"
 msgctxt "Things.ItemWreckageCoalGenerator3"
 msgid "Description coming."
 msgstr "Popis již brzy."
-
-#: /Language/Things/RecordThing[Key='ItemSoundCartridgeSynth']
-#, fuzzy
-msgctxt "Things.ItemSoundCartridgeSynth"
-msgid "Sound Cartridge Synth"
-msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCoalGenerator3']
 msgctxt "Things.ItemWreckageCoalGenerator3"
@@ -4471,11 +4567,6 @@ msgstr "Vrak obloukové pece"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageArcFurnace1']
 msgctxt "Things.ItemWreckageArcFurnace1"
-msgid "Description coming."
-msgstr "Popis již brzy."
-
-#: /Language/Things/RecordThing[Key='ItemWreckageArcFurnace1']
-msgctxt "Things.ItemWreckageArcFurnace1"
 msgid "Wreckage Arc Furnace"
 msgstr "Vrak obloukové pece"
 
@@ -4508,6 +4599,11 @@ msgstr "Popis již brzy."
 msgctxt "Things.ItemWreckageVendingMachine2"
 msgid "Wreckage Vending Machine"
 msgstr "Vrak prodejní automat"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageVendingMachine1']
+msgctxt "Things.ItemWreckageVendingMachine1"
+msgid "Description coming."
+msgstr "Popis již brzy."
 
 #: /Language/Things/RecordThing[Key='ItemWreckageVendingMachine1']
 msgctxt "Things.ItemWreckageVendingMachine1"
@@ -8361,8 +8457,9 @@ msgstr ""
 "Rychlost získávání nebo ztráty tepla bude záviset na daném plynu. Přidáním více zářičů se přenos tepla urychlí."
 
 #: /Language/Things/RecordThing[Key='StructurePipeRadiator']
+#, fuzzy
 msgctxt "Things.StructurePipeRadiator"
-msgid "Pipe Radiator"
+msgid "Pipe Convection Radiator"
 msgstr "Potrubní radiátor"
 
 #: /Language/Things/RecordThing[Key='StructurePipeMeter']
@@ -9977,11 +10074,6 @@ msgctxt "Things.ItemMuffin"
 msgid "A delicious, semi-healthful snack, nothing comforts a {LINK:Stationeers;Stationeer] 800 million kilometers from home like a hand-made muffin."
 msgstr "Muffin"
 
-#: /Language/Things/RecordThing[Key='ItemMuffin']
-msgctxt "Things.ItemMuffin"
-msgid "Muffin"
-msgstr "Muffin"
-
 #: /Language/Things/RecordThing[Key='ItemMiningDrill']
 #, fuzzy
 msgctxt "Things.ItemMiningDrill"
@@ -9992,6 +10084,11 @@ msgstr "Težební vrták"
 msgctxt "Things.ItemMiningDrill"
 msgid "Mining Drill"
 msgstr "Težební vrták"
+
+#: /Language/Things/RecordThing[Key='ItemMiningBelt']
+msgctxt "Things.ItemMiningBelt"
+msgid "Originally developed by {LINK:Recurso;Recurso Espaciais} for asteroid mining, the {LINK:Stationeers;Stationeer's} miningbelt has room for two {LINK:ToolPage;tools} and eight {LINK:OrePage;ore} stacks. While wearing the belt, {LINK:OrePage;ore} is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemMiningBelt']
 msgctxt "Things.ItemMiningBelt"
@@ -11918,10 +12015,30 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrovlnná trouba"
 
-#: /Language/Things/RecordThing[Key='ItemMiningBelt']
-msgctxt "Things.ItemMiningBelt"
-msgid "Originally developed by {LINK:Recurso;Recurso Espaciais} for asteroid mining, the {LINK:Stationeers;Stationeer's} miningbelt has room for two {LINK:ToolPage;tools} and eight {LINK:OrePage;ore} stacks. While wearing the belt, {LINK:OrePage;ore} is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit."
-msgstr ""
+#: /Language/Things/RecordThing[Key='ItemMuffin']
+msgctxt "Things.ItemMuffin"
+msgid "Muffin"
+msgstr "Muffin"
+
+#, fuzzy
+#~ msgctxt "Things.ItemKitPassiveLargeRadiator"
+#~ msgid "Kit (Passive Large Radiator)"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.StructurePassiveLargeRadiator"
+#~ msgid "Passive Large Radiator"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.ItemKitPassiveLargeRadiatorGas"
+#~ msgid "Kit (Passive Large Radiator Gas)"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.StructurePassiveLargeRadiatorGas"
+#~ msgid "Passive Large Radiator Gas"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.StructureNitrolyzer"
 #~ msgid "Structure Nitrolyzer"

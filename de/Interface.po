@@ -130,15 +130,15 @@ msgctxt "Interface.ApplianceCategory"
 msgid "Appliances"
 msgstr "Apparate"
 
-#: /Language/Interface/Record[Key='Fabricators']
-msgctxt "Interface.Fabricators"
-msgid "Fabricators"
-msgstr "Fabrikator"
-
 #: /Language/Interface/Record[Key='Edibles']
 msgctxt "Interface.Edibles"
 msgid "Edibles and food"
 msgstr "Lebensmittel"
+
+#: /Language/Interface/Record[Key='Plants']
+msgctxt "Interface.Plants"
+msgid "Plants and Seeds"
+msgstr "Pflanzen und Samen"
 
 #: /Language/Interface/Record[Key='AirContitioningAtmos']
 msgctxt "Interface.AirContitioningAtmos"
@@ -845,6 +845,11 @@ msgctxt "Interface.InputTextRename"
 msgid "Rename"
 msgstr "Umbenennen"
 
+#: /Language/Interface/Record[Key='Fabricators']
+msgctxt "Interface.Fabricators"
+msgid "Fabricators"
+msgstr "Fabrikator"
+
 #: /Language/Interface/Record[Key='ButtonOk']
 msgctxt "Interface.ButtonOk"
 msgid "OK"
@@ -854,11 +859,6 @@ msgstr "OK"
 msgctxt "Interface.InputPassword"
 msgid "Password"
 msgstr "Passwort"
-
-#: /Language/Interface/Record[Key='Plants']
-msgctxt "Interface.Plants"
-msgid "Plants and Seeds"
-msgstr "Pflanzen und Samen"
 
 #: /Language/Interface/Record[Key='ButtonKick']
 msgctxt "Interface.ButtonKick"
@@ -1574,6 +1574,28 @@ msgctxt "Interface.RespawnConditionEasy"
 msgid "Easy"
 msgstr ""
 
+#: /Language/Interface/Record[Key='StationpediaThermalConductivityRadiation']
+msgctxt "Interface.StationpediaThermalConductivityRadiation"
+msgid "Thermal Radiation:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StationpediaThermalConductivityConvection']
+msgctxt "Interface.StationpediaThermalConductivityConvection"
+msgid "Thermal Convection:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='StartNewGameButton']
+#, fuzzy
+msgctxt "Interface.StartNewGameButton"
+msgid "Start Game"
+msgstr "Zurück zum Spiel"
+
+#: /Language/Interface/Record[Key='WorldConfigurationDifficultyTitle']
+#, fuzzy
+msgctxt "Interface.WorldConfigurationDifficultyTitle"
+msgid "Difficulty"
+msgstr "Schwierigkeitsgrad"
+
 #: /Language/Interface/Record[Key='GameMenuPauseGameButton']
 #, fuzzy
 msgctxt "Interface.GameMenuPauseGameButton"
@@ -1593,8 +1615,9 @@ msgid "Workshop Mods"
 msgstr "Workshop"
 
 #: /Language/Interface/Record[Key='CreateNewGame']
+#, fuzzy
 msgctxt "Interface.CreateNewGame"
-msgid "Create New Game"
+msgid "Select World"
 msgstr ""
 
 #: /Language/Interface/Record[Key='MainMenuChangeAppearance']
@@ -1691,15 +1714,15 @@ msgctxt "Interface.StationpediaNutrition"
 msgid "Nutrition:"
 msgstr "Nährwert"
 
-#: /Language/Interface/Record[Key='StationpediaVolume']
-msgctxt "Interface.StationpediaVolume"
-msgid "Volume:"
-msgstr "Volumen:"
-
 #: /Language/Interface/Record[Key='AppearanceTitleHairColor']
 msgctxt "Interface.AppearanceTitleHairColor"
 msgid "Hair Colour"
 msgstr "Haarfarbe"
+
+#: /Language/Interface/Record[Key='StationpediaVolume']
+msgctxt "Interface.StationpediaVolume"
+msgid "Volume:"
+msgstr "Volumen:"
 
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
 msgctxt "Interface.StationpediaMaxPressure"
@@ -4154,6 +4177,16 @@ msgstr "Warnung"
 #: /Language/Interface/Record[Key='CartridgeAtmosAnalyserTitle']
 msgctxt "Interface.CartridgeAtmosAnalyserTitle"
 msgid "ATMOSPHERE ANALYZER"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeAtmosAnalyserRadiatedTitle']
+msgctxt "Interface.CartridgeAtmosAnalyserRadiatedTitle"
+msgid "RADIATED"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CartridgeAtmosAnalyserConvectedTitle']
+msgctxt "Interface.CartridgeAtmosAnalyserConvectedTitle"
+msgid "CONVECTED"
 msgstr ""
 
 #: /Language/Interface/Record[Key='CartridgeAtmosAnalyserTemperatureTitle']
