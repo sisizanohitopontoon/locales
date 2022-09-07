@@ -113,11 +113,6 @@ msgctxt "Interface.LogicReadersCategory"
 msgid "Logic Readers"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicWriterCategory']
-msgctxt "Interface.LogicWriterCategory"
-msgid "Logic Writers"
-msgstr ""
-
 #: /Language/Interface/Record[Key='MotherboardCategory']
 msgctxt "Interface.MotherboardCategory"
 msgid "Motherboards"
@@ -132,6 +127,11 @@ msgstr "Controles"
 #: /Language/Interface/Record[Key='ApplianceCategory']
 msgctxt "Interface.ApplianceCategory"
 msgid "Appliances"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Fabricators']
+msgctxt "Interface.Fabricators"
+msgid "Fabricators"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Edibles']
@@ -266,9 +266,9 @@ msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Verso:"
 
-#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
-msgctxt "Interface.LogicTypeCompletionRatio"
-msgid "How complete the current production is for this device, between 0 and 1"
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
 msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
@@ -833,6 +833,11 @@ msgctxt "Interface.ServerSettingsButtonReset"
 msgid "Reset Settings"
 msgstr "Redefinir as Configuraes"
 
+#: /Language/Interface/Record[Key='LogicWriterCategory']
+msgctxt "Interface.LogicWriterCategory"
+msgid "Logic Writers"
+msgstr ""
+
 #: /Language/Interface/Record[Key='ButtonConfirm']
 msgctxt "Interface.ButtonConfirm"
 msgid "Confirm"
@@ -847,11 +852,6 @@ msgstr "Cancelar"
 msgctxt "Interface.InputTextRename"
 msgid "Rename"
 msgstr "Renomear"
-
-#: /Language/Interface/Record[Key='Fabricators']
-msgctxt "Interface.Fabricators"
-msgid "Fabricators"
-msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonOk']
 msgctxt "Interface.ButtonOk"
@@ -1459,15 +1459,15 @@ msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
 msgstr "Substituir"
 
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "Nome do Servidor..."
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Criativo"
-
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Sobrevivncia"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
@@ -1581,6 +1581,18 @@ msgstr ""
 msgctxt "Interface.RespawnConditionEasy"
 msgid "Easy"
 msgstr ""
+
+#: /Language/Interface/Record[Key='ShadowCascades']
+#, fuzzy
+msgctxt "Interface.ShadowCascades"
+msgid "ShadowCascades"
+msgstr "Sombras"
+
+#: /Language/Interface/Record[Key='ShadowMode']
+#, fuzzy
+msgctxt "Interface.ShadowMode"
+msgid "Shadows"
+msgstr "Sombras"
 
 #: /Language/Interface/Record[Key='StationpediaThermalConductivityRadiation']
 msgctxt "Interface.StationpediaThermalConductivityRadiation"
@@ -1699,16 +1711,16 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr ""
 
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Cor do Cabelo"
+
 #: /Language/Interface/Record[Key='StationpediaNutrition']
 #, fuzzy
 msgctxt "Interface.StationpediaNutrition"
 msgid "Nutrition:"
 msgstr "Automao"
-
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Cor do Cabelo"
 
 #: /Language/Interface/Record[Key='StationpediaVolume']
 msgctxt "Interface.StationpediaVolume"
@@ -1724,6 +1736,11 @@ msgstr "Presso do Tanque"
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
 msgid "Base Power Usage:"
+msgstr ""
+
+#: /Language/Interface/Record[Key='Radius']
+msgctxt "Interface.Radius"
+msgid "Detection Radius"
 msgstr ""
 
 #: /Language/Interface/Record[Key='Waveform']
@@ -2386,7 +2403,7 @@ msgid ""
 "\n"
 "        In the aftermath of the Earth Crisis, humanitys focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.\n"
 "Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. \n"
-"It inaugurated the {LINK:Stationeers;Stationeer] Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.\n"
+"It inaugurated the {LINK:Stationeers;Stationeer} Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.\n"
 "      "
 msgstr ""
 
@@ -5050,15 +5067,15 @@ msgctxt "Interface.LogicTypeClearMemory"
 msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
+msgctxt "Interface.LogicTypeCompletionRatio"
+msgid "How complete the current production is for this device, between 0 and 1"
+msgstr ""
+
 #: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
 msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Cor do Olho"
-
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, re quests an item of the provided type from the device"
-msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
@@ -6275,10 +6292,10 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Pelos Faciais"
 
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "Nome do Servidor..."
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Sobrevivncia"
 
 #, fuzzy
 #~ msgctxt "Interface.StationpediaAdvancedGuides"

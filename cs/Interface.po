@@ -110,11 +110,6 @@ msgctxt "Interface.LogicReadersCategory"
 msgid "Logic Readers"
 msgstr "Čtečky logiky"
 
-#: /Language/Interface/Record[Key='LogicWriterCategory']
-msgctxt "Interface.LogicWriterCategory"
-msgid "Logic Writers"
-msgstr "Logické zapisovače"
-
 #: /Language/Interface/Record[Key='MotherboardCategory']
 msgctxt "Interface.MotherboardCategory"
 msgid "Motherboards"
@@ -129,6 +124,11 @@ msgstr "Řídicí systémy"
 msgctxt "Interface.ApplianceCategory"
 msgid "Appliances"
 msgstr "Spotřebiče"
+
+#: /Language/Interface/Record[Key='Fabricators']
+msgctxt "Interface.Fabricators"
+msgid "Fabricators"
+msgstr "Fabrikátory"
 
 #: /Language/Interface/Record[Key='Edibles']
 msgctxt "Interface.Edibles"
@@ -260,10 +260,10 @@ msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Verze:"
 
-#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
-msgctxt "Interface.LogicTypeCompletionRatio"
-msgid "How complete the current production is for this device, between 0 and 1"
-msgstr "Jak je dokončena současná výroba tohoto zařízení, mezi 0 a 1"
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
+msgstr "Pokud je nastavena na jedinečný identifikátor, znovu vyhledá položku zadaného typu ze zařízení"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
@@ -826,6 +826,11 @@ msgctxt "Interface.ServerSettingsButtonReset"
 msgid "Reset Settings"
 msgstr "Obnovit nastavení"
 
+#: /Language/Interface/Record[Key='LogicWriterCategory']
+msgctxt "Interface.LogicWriterCategory"
+msgid "Logic Writers"
+msgstr "Logické zapisovače"
+
 #: /Language/Interface/Record[Key='ButtonConfirm']
 msgctxt "Interface.ButtonConfirm"
 msgid "Confirm"
@@ -840,11 +845,6 @@ msgstr "Zrušit"
 msgctxt "Interface.InputTextRename"
 msgid "Rename"
 msgstr "Přejmenovat"
-
-#: /Language/Interface/Record[Key='Fabricators']
-msgctxt "Interface.Fabricators"
-msgid "Fabricators"
-msgstr "Fabrikátory"
 
 #: /Language/Interface/Record[Key='ButtonOk']
 msgctxt "Interface.ButtonOk"
@@ -1454,15 +1454,15 @@ msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
 msgstr "Přepsat"
 
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "Zadejte název pro uložení..."
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Kreativní"
-
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Přežití"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
@@ -1575,6 +1575,18 @@ msgctxt "Interface.RespawnConditionEasy"
 msgid "Easy"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ShadowCascades']
+#, fuzzy
+msgctxt "Interface.ShadowCascades"
+msgid "ShadowCascades"
+msgstr "Stíny"
+
+#: /Language/Interface/Record[Key='ShadowMode']
+#, fuzzy
+msgctxt "Interface.ShadowMode"
+msgid "Shadows"
+msgstr "Stíny"
+
 #: /Language/Interface/Record[Key='StationpediaThermalConductivityRadiation']
 msgctxt "Interface.StationpediaThermalConductivityRadiation"
 msgid "Thermal Radiation:"
@@ -1616,7 +1628,6 @@ msgid "Workshop Mods"
 msgstr "Workshop"
 
 #: /Language/Interface/Record[Key='CreateNewGame']
-#, fuzzy
 msgctxt "Interface.CreateNewGame"
 msgid "Select World"
 msgstr ""
@@ -1719,15 +1730,15 @@ msgstr ""
 "Kyslík poskytuje energii, když se uvolňuje při hoření, a také se váže s vodíkem za vzniku vody. Vytváří ho <color=#0080FFFF>{LINK:OrganicPage;rostliny}</color> a také při zpracování "
 "{THING:ItemOxite}. Při nízkých teplotách je vysoce hořlavý."
 
-#: /Language/Interface/Record[Key='StationpediaNutrition']
-msgctxt "Interface.StationpediaNutrition"
-msgid "Nutrition:"
-msgstr "Výživa:"
-
 #: /Language/Interface/Record[Key='AppearanceTitleHairColor']
 msgctxt "Interface.AppearanceTitleHairColor"
 msgid "Hair Colour"
 msgstr "Barva vlasů"
+
+#: /Language/Interface/Record[Key='StationpediaNutrition']
+msgctxt "Interface.StationpediaNutrition"
+msgid "Nutrition:"
+msgstr "Výživa:"
 
 #: /Language/Interface/Record[Key='StationpediaVolume']
 msgctxt "Interface.StationpediaVolume"
@@ -1743,6 +1754,11 @@ msgstr "Maximální tlak:"
 msgctxt "Interface.StationpediaBasePowerUsage"
 msgid "Base Power Usage:"
 msgstr "Základní spotřeba energie:"
+
+#: /Language/Interface/Record[Key='Radius']
+msgctxt "Interface.Radius"
+msgid "Detection Radius"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Waveform']
 msgctxt "Interface.Waveform"
@@ -2406,7 +2422,7 @@ msgid ""
 "\n"
 "        In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.\n"
 "Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. \n"
-"It inaugurated the {LINK:Stationeers;Stationeer] Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.\n"
+"It inaugurated the {LINK:Stationeers;Stationeer} Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.\n"
 "      "
 msgstr ""
 "\n"
@@ -5107,15 +5123,15 @@ msgctxt "Interface.LogicTypeClearMemory"
 msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 msgstr "Pokud je nastavena na 1, vymaže paměti čtečky (např. Nastaví se zpět na 0 při akci"
 
+#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
+msgctxt "Interface.LogicTypeCompletionRatio"
+msgid "How complete the current production is for this device, between 0 and 1"
+msgstr "Jak je dokončena současná výroba tohoto zařízení, mezi 0 a 1"
+
 #: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
 msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Barva očí"
-
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, re quests an item of the provided type from the device"
-msgstr "Pokud je nastavena na jedinečný identifikátor, znovu vyhledá položku zadaného typu ze zařízení"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
@@ -6418,10 +6434,10 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Vousy"
 
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "Zadejte název pro uložení..."
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Přežití"
 
 #~ msgctxt "Interface.StationpediaLogicHeader"
 #~ msgid ""

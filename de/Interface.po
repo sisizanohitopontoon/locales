@@ -110,11 +110,6 @@ msgctxt "Interface.LogicReadersCategory"
 msgid "Logic Readers"
 msgstr "Logische Leseeinheiten"
 
-#: /Language/Interface/Record[Key='LogicWriterCategory']
-msgctxt "Interface.LogicWriterCategory"
-msgid "Logic Writers"
-msgstr "Logische Schreibeinheiten"
-
 #: /Language/Interface/Record[Key='MotherboardCategory']
 msgctxt "Interface.MotherboardCategory"
 msgid "Motherboards"
@@ -129,6 +124,11 @@ msgstr "Kontrollsysteme"
 msgctxt "Interface.ApplianceCategory"
 msgid "Appliances"
 msgstr "Apparate"
+
+#: /Language/Interface/Record[Key='Fabricators']
+msgctxt "Interface.Fabricators"
+msgid "Fabricators"
+msgstr "Fabrikator"
 
 #: /Language/Interface/Record[Key='Edibles']
 msgctxt "Interface.Edibles"
@@ -260,10 +260,10 @@ msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Version:"
 
-#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
-msgctxt "Interface.LogicTypeCompletionRatio"
-msgid "How complete the current production is for this device, between 0 and 1"
-msgstr "Wie vollständig der aktuelle Herstellprozess für dieses Gerät ist, zwischen 0 und 1"
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
+msgstr "Fordert ein Element des angegebenen Typs vom Gerät, wenn auf eine eindeutige Kennung (Hash) gesetzt"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
@@ -830,6 +830,11 @@ msgctxt "Interface.ServerSettingsButtonReset"
 msgid "Reset Settings"
 msgstr "Einstellungen zurücksetzen"
 
+#: /Language/Interface/Record[Key='LogicWriterCategory']
+msgctxt "Interface.LogicWriterCategory"
+msgid "Logic Writers"
+msgstr "Logische Schreibeinheiten"
+
 #: /Language/Interface/Record[Key='ButtonConfirm']
 msgctxt "Interface.ButtonConfirm"
 msgid "Confirm"
@@ -844,11 +849,6 @@ msgstr "Abbruch"
 msgctxt "Interface.InputTextRename"
 msgid "Rename"
 msgstr "Umbenennen"
-
-#: /Language/Interface/Record[Key='Fabricators']
-msgctxt "Interface.Fabricators"
-msgid "Fabricators"
-msgstr "Fabrikator"
 
 #: /Language/Interface/Record[Key='ButtonOk']
 msgctxt "Interface.ButtonOk"
@@ -1453,15 +1453,15 @@ msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
 msgstr "Überschreiben"
 
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "Speichername eingeben..."
+
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Kreativ"
-
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Überleben"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
@@ -1574,6 +1574,18 @@ msgctxt "Interface.RespawnConditionEasy"
 msgid "Easy"
 msgstr ""
 
+#: /Language/Interface/Record[Key='ShadowCascades']
+#, fuzzy
+msgctxt "Interface.ShadowCascades"
+msgid "ShadowCascades"
+msgstr "Schatten"
+
+#: /Language/Interface/Record[Key='ShadowMode']
+#, fuzzy
+msgctxt "Interface.ShadowMode"
+msgid "Shadows"
+msgstr "Schatten"
+
 #: /Language/Interface/Record[Key='StationpediaThermalConductivityRadiation']
 msgctxt "Interface.StationpediaThermalConductivityRadiation"
 msgid "Thermal Radiation:"
@@ -1615,7 +1627,6 @@ msgid "Workshop Mods"
 msgstr "Workshop"
 
 #: /Language/Interface/Record[Key='CreateNewGame']
-#, fuzzy
 msgctxt "Interface.CreateNewGame"
 msgid "Select World"
 msgstr ""
@@ -1709,15 +1720,15 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr ""
 
-#: /Language/Interface/Record[Key='StationpediaNutrition']
-msgctxt "Interface.StationpediaNutrition"
-msgid "Nutrition:"
-msgstr "Nährwert"
-
 #: /Language/Interface/Record[Key='AppearanceTitleHairColor']
 msgctxt "Interface.AppearanceTitleHairColor"
 msgid "Hair Colour"
 msgstr "Haarfarbe"
+
+#: /Language/Interface/Record[Key='StationpediaNutrition']
+msgctxt "Interface.StationpediaNutrition"
+msgid "Nutrition:"
+msgstr "Nährwert"
 
 #: /Language/Interface/Record[Key='StationpediaVolume']
 msgctxt "Interface.StationpediaVolume"
@@ -1733,6 +1744,11 @@ msgstr "Maximaler Druck:"
 msgctxt "Interface.StationpediaBasePowerUsage"
 msgid "Base Power Usage:"
 msgstr "Basis-Stromverbrauch:"
+
+#: /Language/Interface/Record[Key='Radius']
+msgctxt "Interface.Radius"
+msgid "Detection Radius"
+msgstr ""
 
 #: /Language/Interface/Record[Key='Waveform']
 msgctxt "Interface.Waveform"
@@ -2365,7 +2381,7 @@ msgid ""
 "\n"
 "        In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.\n"
 "Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. \n"
-"It inaugurated the {LINK:Stationeers;Stationeer] Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.\n"
+"It inaugurated the {LINK:Stationeers;Stationeer} Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.\n"
 "      "
 msgstr ""
 
@@ -5042,15 +5058,15 @@ msgctxt "Interface.LogicTypeClearMemory"
 msgid "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned"
 msgstr "Löscht den Zählerspeicher wenn auf 1 gesetzt (z.B. ExportCount). Setzt sich nach der Löschung auf 0 zurück"
 
+#: /Language/Interface/Record[Key='LogicTypeCompletionRatio']
+msgctxt "Interface.LogicTypeCompletionRatio"
+msgid "How complete the current production is for this device, between 0 and 1"
+msgstr "Wie vollständig der aktuelle Herstellprozess für dieses Gerät ist, zwischen 0 und 1"
+
 #: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
 msgctxt "Interface.AppearanceTitleEyeColor"
 msgid "Eye Colour"
 msgstr "Augenfarbe"
-
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, re quests an item of the provided type from the device"
-msgstr "Fordert ein Element des angegebenen Typs vom Gerät, wenn auf eine eindeutige Kennung (Hash) gesetzt"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
@@ -6338,10 +6354,10 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Gesichtsbehaarung"
 
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "Speichername eingeben..."
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Überleben"
 
 #~ msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 #~ msgid "The ratio of co2 in device atmosphere"

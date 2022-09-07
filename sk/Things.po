@@ -7,28 +7,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "X-Generator: Martian\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageArcFurnace1']
-msgctxt "Things.ItemWreckageArcFurnace1"
+#: /Language/Things/RecordThing[Key='ItemWreckageAreaPowerControl1']
+msgctxt "Things.ItemWreckageAreaPowerControl1"
 msgid "Description coming."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedOxygen']
-msgctxt "Things.DynamicGasTankAdvancedOxygen"
-msgid "{BLANK}"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
-msgctxt "Things.DynamicGasTankAdvancedWater"
-msgid "Portable Liquid Tank Mk II (Water)"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
-msgctxt "Things.DynamicGasTankAdvancedWater"
-msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this {SLOT:GasCanister} without them gaining or losing temperature."
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
-#, fuzzy
 msgctxt "Things.StructureLiquidPipeRadiator"
 msgid "Liquid Pipe Convection Radiator"
 msgstr ""
@@ -167,7 +151,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemMKIICrowbar']
 msgctxt "Things.ItemMKIICrowbar"
-msgid "{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer] settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise. The MK II is more resistant to temperature and pressure."
+msgid "{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer} settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise. The MK II is more resistant to temperature and pressure."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemMKIIArcWelder']
@@ -851,9 +835,9 @@ msgctxt "Things.StructureInsulatedTankConnectorLiquid"
 msgid "Insulated Tank Connector Liquid"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedOxygen']
-msgctxt "Things.DynamicGasTankAdvancedOxygen"
-msgid "Portable Gas Tank Mk II (Oxygen)"
+#: /Language/Things/RecordThing[Key='StructureInsulatedTankConnectorLiquid']
+msgctxt "Things.StructureInsulatedTankConnectorLiquid"
+msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DecayedFood']
@@ -910,21 +894,9 @@ msgctxt "Things.DeviceLfoVolume"
 msgid "Low frequency oscillator"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='DeviceLfoVolume']
-msgctxt "Things.DeviceLfoVolume"
-msgid ""
-"The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a {THING:LogicStepSequencer8}.\n"
-"      \n"
-"To set up an LFO:\n"
-"\n"
-"1. Place the LFO unit\n"
-"2. Set the LFO output to a {THING:PassiveSpeaker}\n"
-"2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker.\n"
-"3. Place a {THING:StopWatch} or use an existing one, then use a {THING:StructureLogicWriter} to write it to the LFO.\n"
-"4. Use another logic writer to write the BPM to the LFO.\n"
-"5. You are ready. This is the future. You're in space. Make it sound cool.\n"
-"\n"
-"For more info, check out the {LINK:MusicPage;music page}."
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
+msgctxt "Things.DynamicGasTankAdvancedWater"
+msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this {SLOT:GasCanister} without them gaining or losing temperature."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureFridgeBig']
@@ -977,7 +949,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureRefrigeratedVendingMachine']
 msgctxt "Things.StructureRefrigeratedVendingMachine"
 msgid ""
-"The refrigerated OmniKool vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage. It can hold up to 100 stacks.\n"
+"The refrigerated OmniKool vending machine is an advanced version of the standard {THING:StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage. It can hold up to 100 stacks.\n"
 "The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.\n"
 "NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. "
 msgstr ""
@@ -2234,8 +2206,9 @@ msgid "Kit (Large Extendable Radiator)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitLargeExtendableRadiator']
+#, fuzzy
 msgctxt "Things.ItemKitLargeExtendableRadiator"
-msgid "{BLANK}"
+msgid "Creates {THING:StructureLargeExtendableRadiator}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureLargeExtendableRadiator']
@@ -2245,7 +2218,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureLargeExtendableRadiator']
 msgctxt "Things.StructureLargeExtendableRadiator"
-msgid "{BLANK}"
+msgid "Omptimised for radiating heat in vacuum and low pressure environments. If pointed at the sun it will heat its contents rapidly via solar heating. The panels can fold away to stop all heat radiation/solar heating and protect them from storms."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageLargeExtendableRadiator01']
@@ -2292,14 +2265,13 @@ msgid ""
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiator']
-#, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiator"
 msgid "Kit (Medium Radiator)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiator']
 msgctxt "Things.ItemKitPassiveLargeRadiator"
-msgid "{BLANK}"
+msgid "Creates {THING:StructureMediumRadiator} and {THING:StructureMediumConvectionRadiator}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiator']
@@ -2309,29 +2281,27 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiator']
 msgctxt "Things.StructurePassiveLargeRadiator"
-msgid "{BLANK}"
+msgid "Has been replaced by {THING:StructureMediumConvectionRadiator}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorGas']
-#, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiatorGas"
 msgid "Kit (Medium Radiator)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorGas']
 msgctxt "Things.ItemKitPassiveLargeRadiatorGas"
-msgid "{BLANK}"
+msgid "Creates {THING:StructureMediumRadiator} and {THING:StructureMediumConvectionRadiator}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorLiquid']
-#, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiatorLiquid"
 msgid "Kit (Medium Radiator Liquid)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorLiquid']
 msgctxt "Things.ItemKitPassiveLargeRadiatorLiquid"
-msgid "{BLANK}"
+msgid "Creates {THING:StructureMediumRadiatorLiquid} and {THING:StructureMediumConvectionRadiatorLiquid}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorLiquid']
@@ -2341,7 +2311,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorLiquid']
 msgctxt "Things.StructurePassiveLargeRadiatorLiquid"
-msgid "{BLANK}"
+msgid "Has been replaced by {THING:StructureMediumConvectionRadiatorLiquid}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorGas']
@@ -2351,7 +2321,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorGas']
 msgctxt "Things.StructurePassiveLargeRadiatorGas"
-msgid "{BLANK}"
+msgid "Has been replaced by {THING:StructureMediumConvectionRadiator}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureLogicGate']
@@ -2371,7 +2341,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureNitrolyzer']
 msgctxt "Things.StructureNitrolyzer"
-msgid "{BLANK}"
+msgid "This device is used to create {GAS:NitrousOxide} from {GAS:Oxygen}, {GAS:Nitrogen}, and a large amount of energy. The process does not completely transform all the available gas at once, so the output is a mix of all three gasses, which may need further processing.  More NOS will be created, if the gas inside the machine is close to a 1/1 ratio of Oxygen to Nitrogen.  The second gas input line in optional, and not required if the gas is pre mixed."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemMiningBackPack']
@@ -2405,25 +2375,23 @@ msgid "Adapted slightly from its original {LINK:Recurso;Recurso} design, the {GA
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlat']
-#, fuzzy
 msgctxt "Things.StructurePipeRadiatorFlat"
 msgid "Pipe Radiator"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlat']
 msgctxt "Things.StructurePipeRadiatorFlat"
-msgid "{BLANK}"
+msgid "A pipe mounted radiator omptimised for radiating heat in vacuums and low pressure ebvironments."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlatLiquid']
-#, fuzzy
 msgctxt "Things.StructurePipeRadiatorFlatLiquid"
 msgid "Pipe Radiator Liquid"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlatLiquid']
 msgctxt "Things.StructurePipeRadiatorFlatLiquid"
-msgid "{BLANK}"
+msgid "A liquid pipe mounted radiator omptimised for radiating heat in vacuums and low pressure environments."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiator']
@@ -2433,18 +2401,17 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiator']
 msgctxt "Things.StructureMediumConvectionRadiator"
-msgid "{BLANK}"
+msgid "A stand-alone radiator unit omptimised for exchanging heat with its surrounding atmosphere."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumRadiator']
-#, fuzzy
 msgctxt "Things.StructureMediumRadiator"
 msgid "Medium Radiator"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumRadiator']
 msgctxt "Things.StructureMediumRadiator"
-msgid "{BLANK}"
+msgid "A stand-alone radiator unit omptimised for radiating heat in vacuums and low pressure environments."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumRadiatorLiquid']
@@ -2454,7 +2421,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumRadiatorLiquid']
 msgctxt "Things.StructureMediumRadiatorLiquid"
-msgid "{BLANK}"
+msgid "A stand-alone liquid radiator unit omptimised for radiating heat in vacuums and low pressure environments."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiatorLiquid']
@@ -2464,29 +2431,119 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiatorLiquid']
 msgctxt "Things.StructureMediumConvectionRadiatorLiquid"
-msgid "{BLANK}"
+msgid "A stand-alone liquid radiator unit omptimised for exchanging heat with its surrounding atmosphere."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPipeRadiator']
-#, fuzzy
 msgctxt "Things.ItemKitPipeRadiator"
 msgid "Kit (Pipe Radiator)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPipeRadiator']
+#, fuzzy
 msgctxt "Things.ItemKitPipeRadiator"
-msgid "{BLANK}"
+msgid "This kit creates a {THING:StructurePipeRadiatorFlat} and {THING:StructurePipeRadiator}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPipeRadiatorLiquid']
-#, fuzzy
 msgctxt "Things.ItemKitPipeRadiatorLiquid"
 msgid "Kit (Pipe Radiator Liquid)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPipeRadiatorLiquid']
 msgctxt "Things.ItemKitPipeRadiatorLiquid"
+msgid "This kit creates a {THING:StructurePipeRadiatorFlatLiquid} and {THING:StructureLiquidPipeRadiator}."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureCryoTubeVertical']
+#, fuzzy
+msgctxt "Things.StructureCryoTubeVertical"
+msgid "Cryo Tube Vertical"
+msgstr "Kryo Trubka"
+
+#: /Language/Things/RecordThing[Key='StructureCryoTubeVertical']
+msgctxt "Things.StructureCryoTubeVertical"
+msgid "The vertical variant of the cryo tube. Will heal players and organs as well as revive dead players when provided with an atmosphere of NOS below -150C."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureCryoTubeHorizontal']
+msgctxt "Things.StructureCryoTubeHorizontal"
+msgid "Cryo Tube Horizontal"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureCryoTubeHorizontal']
+msgctxt "Things.StructureCryoTubeHorizontal"
+msgid "The horizontal variant of the cryo tube. Will heal players and organs as well as revive dead players when provided with an atmosphere of NOS below -150C."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureSleeperVertical']
+#, fuzzy
+msgctxt "Things.StructureSleeperVertical"
+msgid "Sleeper Vertical"
+msgstr "Sleeper"
+
+#: /Language/Things/RecordThing[Key='StructureSleeperVertical']
+msgctxt "Things.StructureSleeperVertical"
+msgid "The vertical variant of the sleeper. Will keep players hydrated and fed while they are logged out - as long as a breatheable atmosphere is provided."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureSleeperLeft']
+#, fuzzy
+msgctxt "Things.StructureSleeperLeft"
+msgid "Sleeper Left"
+msgstr "Sleeper"
+
+#: /Language/Things/RecordThing[Key='StructureSleeperLeft']
+msgctxt "Things.StructureSleeperLeft"
+msgid "A horizontal variant of the sleeper. Will keep players hydrated and fed while they are logged out - as long as a breatheable atmosphere is provided."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureSleeperRight']
+#, fuzzy
+msgctxt "Things.StructureSleeperRight"
+msgid "Sleeper Right"
+msgstr "Sleeper"
+
+#: /Language/Things/RecordThing[Key='StructureSleeperRight']
+msgctxt "Things.StructureSleeperRight"
+msgid "A horizontal variant of the sleeper. Will keep players hydrated and fed while they are logged out - as long as a breatheable atmosphere is provided."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureProximitySensor']
+#, fuzzy
+msgctxt "Things.StructureProximitySensor"
+msgid "Proximity Sensor"
+msgstr "Senzor Pohybu"
+
+#: /Language/Things/RecordThing[Key='StructureProximitySensor']
+msgctxt "Things.StructureProximitySensor"
+msgid "Will be triggered if there is a player in the range of the sensor (as defined by the setting dial). The quantity variable will show the number of players. You can configure the sensor to only detect players who hold the correct Access Card using a {THING:CartridgeAccessController} in a {THING:ItemTablet}."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureOccupancySensor']
+#, fuzzy
+msgctxt "Things.StructureOccupancySensor"
+msgid "Occupancy Sensor"
+msgstr "Senzor Plynu"
+
+#: /Language/Things/RecordThing[Key='StructureOccupancySensor']
+msgctxt "Things.StructureOccupancySensor"
+msgid "Will be triggered if there is a player in the same room as the sensor. The quantity variable will show the number of players. You can use configure it to only detect players who hold the correct Access Card using a {THING:CartridgeAccessController} in a {THING:ItemTablet}. This sensor only works when placed in a room."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
+msgctxt "Things.DynamicGasTankAdvancedWater"
+msgid "Portable Liquid Tank Mk II (Water)"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedOxygen']
+msgctxt "Things.DynamicGasTankAdvancedOxygen"
 msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedOxygen']
+msgctxt "Things.DynamicGasTankAdvancedOxygen"
+msgid "Portable Gas Tank Mk II (Oxygen)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
@@ -3545,6 +3602,23 @@ msgctxt "Things.ItemWreckageSDBSilo2"
 msgid "Wreckage SDB Silo"
 msgstr "Portable Solar Panel"
 
+#: /Language/Things/RecordThing[Key='DeviceLfoVolume']
+msgctxt "Things.DeviceLfoVolume"
+msgid ""
+"The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a {THING:LogicStepSequencer8}.\n"
+"      \n"
+"To set up an LFO:\n"
+"\n"
+"1. Place the LFO unit\n"
+"2. Set the LFO output to a {THING:PassiveSpeaker}\n"
+"2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker.\n"
+"3. Place a {THING:StopWatch} or use an existing one, then use a {THING:StructureLogicWriter} to write it to the LFO.\n"
+"4. Use another logic writer to write the BPM to the LFO.\n"
+"5. You are ready. This is the future. You're in space. Make it sound cool.\n"
+"\n"
+"For more info, check out the {LINK:MusicPage;music page}."
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo1']
 msgctxt "Things.ItemWreckageSDBSilo1"
 msgid "{BLANK}"
@@ -3579,11 +3653,6 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsAutomatic3']
 msgctxt "Things.ItemWreckageHydroponicsAutomatic3"
 msgid "Description coming."
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='StructureInsulatedTankConnectorLiquid']
-msgctxt "Things.StructureInsulatedTankConnectorLiquid"
-msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsAutomatic3']
@@ -4327,11 +4396,6 @@ msgid "Wreckage Area Power Control"
 msgstr "Area Power Control"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAreaPowerControl1']
-msgctxt "Things.ItemWreckageAreaPowerControl1"
-msgid "Description coming."
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemWreckageAreaPowerControl1']
 #, fuzzy
 msgctxt "Things.ItemWreckageAreaPowerControl1"
 msgid "Wreckage Area Power Control"
@@ -4358,6 +4422,11 @@ msgstr ""
 msgctxt "Things.ItemWreckageArcFurnace2"
 msgid "Wreckage Arc Furnace"
 msgstr "Arc Furnace"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageArcFurnace1']
+msgctxt "Things.ItemWreckageArcFurnace1"
+msgid "Description coming."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageArcFurnace1']
 #, fuzzy
@@ -4422,7 +4491,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureBatteryLarge']
 msgctxt "Things.StructureBatteryLarge"
 msgid ""
-"Providing even better large-scale, reliable power storage than the {THING;StructureBattery}, the {LINK:Sinotai;Sinotai} 'Da Dianchi' large station battery is the heart of most {LINK:Stationeers;Stationeer] bases. \n"
+"Providing even better large-scale, reliable power storage than the {THING;StructureBattery}, the {LINK:Sinotai;Sinotai} 'Da Dianchi' large station battery is the heart of most {LINK:Stationeers;Stationeer} bases. \n"
 "There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' \n"
 "{HEADER:POWER OUTPUT}\n"
 "Able to store up to 9000001 watts of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}. "
@@ -7280,7 +7349,7 @@ msgstr "Cartridge (Ore Scanner)"
 #: /Language/Things/RecordThing[Key='DynamicGPR']
 msgctxt "Things.DynamicGPR"
 msgid ""
-"The {LINK:Recurso;Recurso} Ground Penetrating Radar (GPR), when used in conjunction with either a {THING:CartridgeOreScanner} or a {THING:CartridgeOreScannerColor} placed in a {THING:ItemTablet}, allows a {LINK:Stationeers;Stationeer] to maximize mining yields and save time gathering resources to complete their mission by displaying hidden ores in the terrain. \n"
+"The {LINK:Recurso;Recurso} Ground Penetrating Radar (GPR), when used in conjunction with either a {THING:CartridgeOreScanner} or a {THING:CartridgeOreScannerColor} placed in a {THING:ItemTablet}, allows a {LINK:Stationeers;Stationeer} to maximize mining yields and save time gathering resources to complete their mission by displaying hidden ores in the terrain. \n"
 "\n"
 "Insert a cartridge or color scanner into the tablet, then press the activate button on the GPR to scan the surroundings. The data will be displayed on the tablet."
 msgstr ""
@@ -7682,7 +7751,7 @@ msgstr "Iron Wall"
 #: /Language/Things/RecordThing[Key='ItemOxite']
 msgctxt "Things.ItemOxite"
 msgid ""
-"Oxite ice is largely composed of frozen {GAS:Oxygen}, and found on many planets in the Solar System. Highly valuable and sought after, not all planets a {LINK:Stationeers;Stationeer] visits will have some. \n"
+"Oxite ice is largely composed of frozen {GAS:Oxygen}, and found on many planets in the Solar System. Highly valuable and sought after, not all planets a {LINK:Stationeers;Stationeer} visits will have some. \n"
 "\n"
 "Highly sensitive to temperature, oxite will begin to melt as soon as it is mined, unless the temperature is below zero, or it is stored in the {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} or devices like the {THING:StructureIceCrusher} or {THING:StructureFridgeSmall}. When melting, oxite produces a mixture of {GAS:Oxygen} and {GAS:Nitrogen}."
 msgstr ""
@@ -7889,7 +7958,7 @@ msgstr "Kit (Fabrication)"
 #: /Language/Things/RecordThing[Key='StructureAutolathe']
 msgctxt "Things.StructureAutolathe"
 msgid ""
-"The foundation of most {LINK:Stationeers;Stationeer] fabrication systems, the {LINK:ExMin;ExMin} autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensible creation tool. Upgrade the device using a {THING:AutolathePrinterMod} for additional recipes and faster processing speeds.\n"
+"The foundation of most {LINK:Stationeers;Stationeer} fabrication systems, the {LINK:ExMin;ExMin} autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensible creation tool. Upgrade the device using a {THING:AutolathePrinterMod} for additional recipes and faster processing speeds.\n"
 "\t  "
 msgstr ""
 
@@ -7901,7 +7970,7 @@ msgstr "Autolathe"
 #: /Language/Things/RecordThing[Key='StructureArcFurnace']
 msgctxt "Things.StructureArcFurnace"
 msgid ""
-"The simplest smelting system available to the average {LINK:Stationeers;Stationeer], {LINK:Recurso;Recurso's} arc furnace was forged itself in the depths of the Solar System to help explorational geologists determine the purity of potential asteroidal mining targets.\n"
+"The simplest smelting system available to the average {LINK:Stationeers;Stationeer}, {LINK:Recurso;Recurso's} arc furnace was forged itself in the depths of the Solar System to help explorational geologists determine the purity of potential asteroidal mining targets.\n"
 "Co-opted by the {LINK:ODA;ODA}, it now provides Stationeers with a way to produce pure ingots of various resources.\n"
 "The smelting process also releases a range of by product {LINK:GasPage;gases}, principally {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} and {GAS:Oxygen} in differing ratios. These can be recaptured from the atmosphere by filtering, but also make the arc furnace a risk in closed environments. \n"
 "Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create {LINK:IngotPage;alloys}."
@@ -8655,7 +8724,7 @@ msgstr "Blikajúce svetlo"
 msgctxt "Things.StructureFiltration"
 msgid ""
 "The Filtration Unit is based on a long-standing {LINK:ExMin;ExMin} system, itself based on older designs of uncertain provenance. It is available in the {THING:ItemKitAtmospherics}.\n"
-"The device has nonetheless proven indispensible for {LINK:Stationeers;Stationeer] atmospherics systems, as it can filter two {LINK:GasPage;gases} simultaneously from  a single pipe network using a dual filter array. The unit has an input, and a filter output as well as an unfiltered outlet for any residual gases."
+"The device has nonetheless proven indispensable for {LINK:Stationeers;Stationeer} atmospheric systems, as it can filter two {LINK:GasPage;gases} simultaneously from a single pipe network using a dual filter array. The unit has an input, and a filter output as well as an unfiltered outlet for any residual gases.\n"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureFiltration']
@@ -8707,7 +8776,7 @@ msgstr "Kryo Trubka"
 msgctxt "Things.StructureConveyorStraightShort"
 msgid ""
 "Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.\n"
-"An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
+"An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureConveyorStraightShort']
@@ -8719,7 +8788,7 @@ msgstr "Conveyor (Straight Short)"
 msgctxt "Things.StructureConveyorStraightLong"
 msgid ""
 "Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.\n"
-"An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
+"An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureConveyorStraightLong']
@@ -8731,7 +8800,7 @@ msgstr "Conveyor (Straight Long)"
 msgctxt "Things.StructureConveyorStraight"
 msgid ""
 "Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.\n"
-"An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
+"An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureConveyorStraight']
@@ -8743,7 +8812,7 @@ msgstr "Conveyor (Straight)"
 msgctxt "Things.StructureConveyorRiser"
 msgid ""
 "Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places - and up slightly, in the case of the riser.\n"
-"An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
+"An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureConveyorRiser']
@@ -8755,7 +8824,7 @@ msgstr "Conveyor (Riser)"
 msgctxt "Things.StructureConveyorCorner"
 msgid ""
 "Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.\n"
-"An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
+"An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureConveyorCorner']
@@ -8904,7 +8973,7 @@ msgstr "Kompozitná stena"
 
 #: /Language/Things/RecordThing[Key='StructureCompositeFloorGrating']
 msgctxt "Things.StructureCompositeFloorGrating"
-msgid "While aesthetics rank low on the ladder of {LINK:Stationeers;Stationeer] concerns, composite gratings allow the concealment of unsightly cables on floors, walls and ceilings."
+msgid "While aesthetics rank low on the ladder of {LINK:Stationeers;Stationeer} concerns, composite gratings allow the concealment of unsightly cables on floors, walls and ceilings."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureCompositeFloorGrating']
@@ -8927,7 +8996,7 @@ msgstr "Kompozitné dvere"
 msgctxt "Things.StructureChuteStraight"
 msgid ""
 "Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.\n"
-"The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
+"The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
 "Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot."
 msgstr ""
 
@@ -8939,7 +9008,7 @@ msgstr "Chute (Straight)"
 #: /Language/Things/RecordThing[Key='StructureChuteOutlet']
 msgctxt "Things.StructureChuteOutlet"
 msgid ""
-"The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
+"The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
 "The chute outlet is an aperture for exiting items from {LINK:ImportExportPage;import/export} networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput."
 msgstr ""
 
@@ -8951,7 +9020,7 @@ msgstr "Chute Outlet"
 #: /Language/Things/RecordThing[Key='StructureChuteJunction']
 msgctxt "Things.StructureChuteJunction"
 msgid ""
-"The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
+"The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
 "Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with {LINK:ImportExportPage;import/export} slots."
 msgstr ""
 
@@ -8963,7 +9032,7 @@ msgstr "Chute (Junction)"
 #: /Language/Things/RecordThing[Key='StructureChuteInlet']
 msgctxt "Things.StructureChuteInlet"
 msgid ""
-"The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
+"The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
 "The chute inlet is an aperture by which items can be introduced to {LINK:ImportExportPage;import/export} networks. Note that its origins in zero-gravity mining means chute inlets are unpowered and permanently open, rather than interactable, allowing objects to be thrown in. They can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput."
 msgstr ""
 
@@ -8976,7 +9045,7 @@ msgstr "Chute Inlet"
 msgctxt "Things.StructureChuteCorner"
 msgid ""
 "Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.\n"
-"The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
+"The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.\n"
 "Chute corners are fundamental components of chute networks, which allow the transport of items between machines with {LINK:ImportExportPage;import/export} slots, such as the {THING:StructureFurnace} and other automatable structures."
 msgstr ""
 
@@ -9032,7 +9101,7 @@ msgstr "Kamera"
 #: /Language/Things/RecordThing[Key='StructureCableStraight']
 msgctxt "Things.StructureCableStraight"
 msgid ""
-"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'}.\n"
+"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'}.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
 
@@ -9044,7 +9113,7 @@ msgstr "Kábel (Straight)"
 #: /Language/Things/RecordThing[Key='StructureCableJunction6']
 msgctxt "Things.StructureCableJunction6"
 msgid ""
-"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] duty - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
+"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} duty - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
 
@@ -9056,7 +9125,7 @@ msgstr "Kábel (6-Way Junction)"
 #: /Language/Things/RecordThing[Key='StructureCableJunction4']
 msgctxt "Things.StructureCableJunction4"
 msgid ""
-"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
+"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
 
@@ -9068,7 +9137,7 @@ msgstr "Kábel (4-Way Junction)"
 #: /Language/Things/RecordThing[Key='StructureCableJunction']
 msgctxt "Things.StructureCableJunction"
 msgid ""
-"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
+"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
 
@@ -9080,7 +9149,7 @@ msgstr "Kábel (Križovatka)"
 #: /Language/Things/RecordThing[Key='StructureCableCorner3']
 msgctxt "Things.StructureCableCorner3"
 msgid ""
-"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
+"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
 
@@ -9092,7 +9161,7 @@ msgstr "Kábel (3-Way Roh)"
 #: /Language/Things/RecordThing[Key='StructureCableCorner']
 msgctxt "Things.StructureCableCorner"
 msgid ""
-"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
+"Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.\n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
 msgstr ""
 
@@ -9136,7 +9205,7 @@ msgstr "Nabíjačka Batérií"
 #: /Language/Things/RecordThing[Key='StructureBattery']
 msgctxt "Things.StructureBattery"
 msgid ""
-"Providing large-scale, reliable power storage, the {LINK:Sinotai;Sinotai} 'Dianzi' station battery is the heart of most {LINK:Stationeers;Stationeer] bases. \n"
+"Providing large-scale, reliable power storage, the {LINK:Sinotai;Sinotai} 'Dianzi' station battery is the heart of most {LINK:Stationeers;Stationeer} bases. \n"
 "There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' \n"
 "{HEADER:POWER OUTPUT}\n"
 "Able to store up to 3600000W of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}."
@@ -9199,9 +9268,14 @@ msgstr "Airlock"
 #: /Language/Things/RecordThing[Key='StructureAirConditioner']
 msgctxt "Things.StructureAirConditioner"
 msgid ""
-"Built using the {THING:ItemKitAtmospherics}, the {LINK:ExMin;ExMin-designed} air conditioner is used to raise or lower local temperature.\n"
-"The unit has three pipe connections: input, output, and waste. Attach an {THING:ItemActiveVent} to the unit's input port, and a passive vent to the output port, so the unit can draw gas through it. Run pipes from the unit's waste port to outside your base, where you can add {THING:StructurePipeRadiator}s to rapidly shed or gain temperature from the network. \n"
-"Note that some {LINK:GasPage;gases} are better coolants than others, but if the coolant pipe has less than 100kPa pressure, it will siphon its output to reach the necessary pressure.\n"
+"Built using the {THING:ItemKitAtmospherics}, the {LINK:ExMin;ExMin-designed} air conditioner is used to raise or lower input gas temperature.\n"
+"\t  \n"
+"The unit has three pipe connections: input, output, and waste. Gas fed into the input will be heated or cooled to reach the target temperature, while the opposite will happen to gas on the waste network.\n"
+"\n"
+"Multiple Efficiency Multipliers can effect the amount of energy the Air Conditioner uses, and these can be view on the unit's green Information Panel. As the temperature difference between input and waste increases, the Temperature Differential Efficiency Multiplier will decrease. If input or waste temperature is extremely hot or cold, the Operational Temperature Efficiency will decrease. If the input or waste pipe has aproach low pressures, the Pressure Efficiency will decrease.\n"
+"\n"
+"{THING:StructurePipeRadiator}s may be useful in bringing extreme pipe temperatures back towards normal world temperatures. \n"
+"  \n"
 "For more information on using the air conditioner, consult the {LINK:TemperatureControlPage;temperature control} Guides page."
 msgstr ""
 
@@ -9212,9 +9286,7 @@ msgstr "Klimatizácia"
 
 #: /Language/Things/RecordThing[Key='StructureActiveVent']
 msgctxt "Things.StructureActiveVent"
-msgid ""
-"Fragments of the original {LINK:Stationeers;Stationeers} Handbook recovered from the singularity describe the design of active vents:\n"
-"... active vent is a powered device for maintaining {LINK:GasPage;gas} pressure by pumping gas into (or out of) a pipe network. The vent has two modes: 'Outward' sets it to pump gas into a space until pressure is reached; 'Inward' sets it to pump gas out until pressure is reached. The pressure parameter can be set on a connected {THING:StructureConsole}. Default pressure is 101kPa for Outward; 0kPa for Inward ..."
+msgid "The active vent is a powered device for maintaining {LINK:GasPage;gas} pressure by pumping gas into (or out of) a pipe network. The vent has two modes: 'Outward' sets it to pump gas into a space until pressure is reached; 'Inward' sets it to pump gas out until pressure is reached. The pressure parameter can be set on a connected {THING:StructureConsole}. Default pressure is 101kPa for Outward; 0kPa for Inward ..."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureActiveVent']
@@ -9399,7 +9471,7 @@ msgstr "Ore (Uranium)"
 #: /Language/Things/RecordThing[Key='ItemToolBelt']
 msgctxt "Things.ItemToolBelt"
 msgid ""
-"If there's one piece of equipment that embodies {LINK:Stationeers;Stationeer] life above all else, it's the humble toolbelt (Editor's note: a recent {LINK:ODA;ODA} survey of iconic Stationeer equipment also rated the smoking, toxic ruins of an over-pressurized {THING:StructureFurnace} lying amid the charred remains of your latest base very highly).\n"
+"If there's one piece of equipment that embodies {LINK:Stationeers;Stationeer} life above all else, it's the humble toolbelt (Editor's note: a recent {LINK:ODA;ODA} survey of iconic Stationeer equipment also rated the smoking, toxic ruins of an over-pressurized {THING:StructureFurnace} lying amid the charred remains of your latest base very highly).\n"
 "Designed to meet the most strict-ish ODA safety standards, the toolbelt's eight slots hold one thing: tools, and {THING:ItemCableCoil}. Not to be confused with the {THING:ItemMiningBelt}."
 msgstr ""
 
@@ -9922,8 +9994,8 @@ msgstr "Pasívna Ventilácia"
 
 #: /Language/Things/RecordThing[Key='ItemMuffin']
 msgctxt "Things.ItemMuffin"
-msgid "A delicious, semi-healthful snack, nothing comforts a {LINK:Stationeers;Stationeer] 800 million kilometers from home like a hand-made muffin."
-msgstr ""
+msgid "Muffin"
+msgstr "Muffin"
 
 #: /Language/Things/RecordThing[Key='ItemMiningDrill']
 msgctxt "Things.ItemMiningDrill"
@@ -10057,7 +10129,7 @@ msgstr "Kit (Solárny Panel)"
 
 #: /Language/Things/RecordThing[Key='ItemKitSleeper']
 msgctxt "Things.ItemKitSleeper"
-msgid "This kit produces a single {THING:StructureSleeper}."
+msgid "This kit produces a range of sleepers which will keep players hydrated and fed while logged out - as long as a breathable atmosphere is provided."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitSleeper']
@@ -10077,7 +10149,7 @@ msgstr "Kit (Tabuľa)"
 
 #: /Language/Things/RecordThing[Key='ItemKitSensor']
 msgctxt "Things.ItemKitSensor"
-msgid "This kit produces a range of sensors, including {THING:StructureGasSensor}, {THING:StructureDaylightSensor} and the {THING:StructureMotionSensor}."
+msgid "This kit produces a range of sensors, including {THING:StructureGasSensor}, {THING:StructureDaylightSensor}, {THING:StructureMotionSensor}, {THING:StructureProximitySensor} and {THING:StructureOccupancySensor}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitSensor']
@@ -10147,7 +10219,7 @@ msgstr "Kit (Motor)"
 
 #: /Language/Things/RecordThing[Key='ItemKitCryoTube']
 msgctxt "Things.ItemKitCryoTube"
-msgid "This kit produces a single {THING:StructureCryoTube}."
+msgid "This kit produces a range of cryo tubes which can be used to heal players and player organs as well as revive dead players"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitCryoTube']
@@ -10217,7 +10289,7 @@ msgstr "Kit (Batéria)"
 
 #: /Language/Things/RecordThing[Key='ItemKitAtmospherics']
 msgctxt "Things.ItemKitAtmospherics"
-msgid "This kit produces a {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration} or {THING:H2Combustor}."
+msgid "This kit produces a {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration}, {THING:StructureNitrolyzer} or {THING:H2Combustor}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitAtmospherics']
@@ -10247,7 +10319,7 @@ msgstr "Ore (Iron)"
 
 #: /Language/Things/RecordThing[Key='ItemIronIngot']
 msgctxt "Things.ItemIronIngot"
-msgid "The most basic unit of construction available to {LINK:Stationeers;Stationeer]-kind, iron ingots are created by smelting {THING:ItemIronOre} in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of items."
+msgid "The most basic unit of construction available to {LINK:Stationeers;Stationeer}-kind, iron ingots are created by smelting {THING:ItemIronOre} in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of items."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemIronIngot']
@@ -10327,7 +10399,7 @@ msgstr "Ručný Granát"
 
 #: /Language/Things/RecordThing[Key='ItemGoldOre']
 msgctxt "Things.ItemGoldOre"
-msgid "Surprisingly common throughout the Solar System, {REAGENT:Gold} is thought to originate in the heart of supernovas, gathering as dust in the early stages of solar formation, then incorporating into the slowly accreting planetary bodies. Now a prized element in {LINK:Stationeers;Stationeer] construction, {REAGENT:Gold} is valued not for its beauty, but its reliability: inert, durable, conductive and highly stable, gold's strength is that it does nothing."
+msgid "Surprisingly common throughout the Solar System, {REAGENT:Gold} is thought to originate in the heart of supernovas, gathering as dust in the early stages of solar formation, then incorporating into the slowly accreting planetary bodies. Now a prized element in {LINK:Stationeers;Stationeer} construction, {REAGENT:Gold} is valued not for its beauty, but its reliability: inert, durable, conductive and highly stable, gold's strength is that it does nothing."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGoldOre']
@@ -10344,6 +10416,26 @@ msgstr ""
 msgctxt "Things.ItemGoldIngot"
 msgid "Ingot (Gold)"
 msgstr "Ingot (Gold)"
+
+#: /Language/Things/RecordThing[Key='ItemCopperOre']
+msgctxt "Things.ItemCopperOre"
+msgid "Copper is a chemical element with the symbol \"Cu\". This common and highly conductive material is found on most astronomical bodies and is used in a variety of manufacturing processes including electronic components, alloys, and wires."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemCopperOre']
+msgctxt "Things.ItemCopperOre"
+msgid "Ore (Copper)"
+msgstr "Ore (Copper)"
+
+#: /Language/Things/RecordThing[Key='ItemCopperIngot']
+msgctxt "Things.ItemCopperIngot"
+msgid "Copper ingots are created by smelting {THING:ItemCopperOre} in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of items."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemCopperIngot']
+msgctxt "Things.ItemCopperIngot"
+msgid "Ingot (Copper)"
+msgstr "Ingot (Copper)"
 
 #: /Language/Things/RecordThing[Key='ItemGlassSheets']
 msgctxt "Things.ItemGlassSheets"
@@ -10672,7 +10764,7 @@ msgstr "Dátový Disk"
 
 #: /Language/Things/RecordThing[Key='ItemCrowbar']
 msgctxt "Things.ItemCrowbar"
-msgid "{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer] settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise."
+msgid "{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer} settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemCrowbar']
@@ -10689,26 +10781,6 @@ msgstr ""
 msgctxt "Things.ItemCorn"
 msgid "Corn"
 msgstr "Kukurica"
-
-#: /Language/Things/RecordThing[Key='ItemCopperOre']
-msgctxt "Things.ItemCopperOre"
-msgid "Copper is a chemical element with the symbol \"Cu\". This common and highly conductive material is found on most astronomical bodies and is used in a variety of manufacturing processes including electronic components, alloys, and wires."
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemCopperOre']
-msgctxt "Things.ItemCopperOre"
-msgid "Ore (Copper)"
-msgstr "Ore (Copper)"
-
-#: /Language/Things/RecordThing[Key='ItemCopperIngot']
-msgctxt "Things.ItemCopperIngot"
-msgid "{BLANK}"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemCopperIngot']
-msgctxt "Things.ItemCopperIngot"
-msgid "Ingot (Copper)"
-msgstr "Ingot (Copper)"
 
 #: /Language/Things/RecordThing[Key='ItemCompositeFloorGrating']
 msgctxt "Things.ItemCompositeFloorGrating"
@@ -11118,7 +11190,7 @@ msgstr "Krabica (Stavebné potreby)"
 
 #: /Language/Things/RecordThing[Key='DynamicCrate']
 msgctxt "Things.DynamicCrate"
-msgid "The humble dynamic crate has become a symbol of {LINK:Stationeers;Stationeer] invention and independence. With twelve slots and handles at either end for ease of carriage, it's both standard issue and critical kit for cadets and Commanders alike."
+msgid "The humble dynamic crate has become a symbol of {LINK:Stationeers;Stationeer} invention and independence. With twelve slots and handles at either end for ease of carriage, it's both standard issue and critical kit for cadets and Commanders alike."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicCrate']
@@ -11149,7 +11221,7 @@ msgstr "Doska (Ovládanie Solárnych Panelov)"
 
 #: /Language/Things/RecordThing[Key='CircuitboardShipDisplay']
 msgctxt "Things.CircuitboardShipDisplay"
-msgid "When the original {LINK:Stationeers;Stationeer] Handbook collapsed under its own weight into a singularity, certain information was irretrievably lost. Amongst this mysterious corpus of knowledge is the exact purpose of the ship display board."
+msgid "When the original {LINK:Stationeers;Stationeer} Handbook collapsed under its own weight into a singularity, certain information was irretrievably lost. Amongst this mysterious corpus of knowledge is the exact purpose of the ship display board."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='CircuitboardShipDisplay']
@@ -11161,7 +11233,7 @@ msgstr "Doska (Displej Lode)"
 #: /Language/Things/RecordThing[Key='CircuitboardPowerControl']
 msgctxt "Things.CircuitboardPowerControl"
 msgid ""
-"Under distant suns and demanding environments, {LINK:Stationeers;Stationeer] systems need to balance reliability, resilience and versatility. The power control board allows remote enabling and disabling of selected devices, disconnecting manual operation. \n"
+"Under distant suns and demanding environments, {LINK:Stationeers;Stationeer} systems need to balance reliability, resilience and versatility. The power control board allows remote enabling and disabling of selected devices, disconnecting manual operation. \n"
 "      \n"
 "The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle' switches each device to their alternate state. "
 msgstr ""
@@ -11195,7 +11267,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='CircuitboardDoorControl']
 msgctxt "Things.CircuitboardDoorControl"
-msgid "A basic tool of {LINK:Stationeers;Stationeer] base construction, this circuit board provides a way to open and close a {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} or {THING:StructureGlassDoor} remotely, when connected to a {THING:StructureConsole}. This system can be further linked to {THING:StructureMotionSensor} to create automatic doors."
+msgid "A basic tool of {LINK:Stationeers;Stationeer} base construction, this circuit board provides a way to open and close a {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} or {THING:StructureGlassDoor} remotely, when connected to a {THING:StructureConsole}. This system can be further linked to {THING:StructureMotionSensor} to create automatic doors."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='CircuitboardDoorControl']
@@ -11742,7 +11814,7 @@ msgstr "Časť Tela Astronaut Muž Ľavá Noha"
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautMaleHead']
 msgctxt "Things.BodyPartAstronautMaleHead"
-msgid "{LINK:Stationeers;Stationeer]s need to keep their heads at all times."
+msgid "{LINK:Stationeers;Stationeer}s need to keep their heads at all times."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautMaleHead']
@@ -11855,8 +11927,8 @@ msgstr "Mikrovlnná Rúra"
 
 #: /Language/Things/RecordThing[Key='ItemMuffin']
 msgctxt "Things.ItemMuffin"
-msgid "Muffin"
-msgstr "Muffin"
+msgid "A delicious, semi-healthful snack, nothing comforts a {LINK:Stationeers;Stationeer} 800 million kilometers from home like a hand-made muffin."
+msgstr ""
 
 #~ msgctxt "Things.ItemKitPipeValve"
 #~ msgid "Item Kit Pipe Valve"
