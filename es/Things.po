@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-11 20:12+0000\n"
+"PO-Revision-Date: 2022-09-11 20:18+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,12 +16,9 @@ msgid "Description coming."
 msgstr "A TRADUCIR PROXIMAMENTE"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
-#, fuzzy
 msgctxt "Things.StructureLiquidPipeRadiator"
 msgid "Liquid Pipe Convection Radiator"
-msgstr ""
-"Un simple intercambiador de calor, los radiadores de tubería se pueden colocar en las tuberías para eliminar o ganar calor, dependiendo de la temperatura de la atmósfera circundante. Si la atmósfera es más caliente, se agregará calor al gas dentro de la red de tuberías, y viceversa si es más fría. En el vacío, se irradiará calor.\n"
-"La velocidad de ganancia o pérdida de calor dependerá del gas en cuestión. Agregar varios radiadores acelerará la transferencia de calor."
+msgstr "Radiador de convección de tubería líquida"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
 msgctxt "Things.StructureLiquidPipeRadiator"
@@ -138,14 +135,13 @@ msgid "Mk II Screwdriver"
 msgstr "Destornillador MK II"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIScrewdriver']
-#, fuzzy
 msgctxt "Things.ItemMKIIScrewdriver"
 msgid ""
 "This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definintely not just a screwdriver. Use it for construction and "
 "deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units. The MK II is more resistant to temperature and pressure."
 msgstr ""
 "Este ajustador de adherencia por fricción estándar es un modelo de birrotación de primera línea con un uni-grip columnado. Definitivamente no es solo un destornillador. Úselo para la construcción y "
-"deconstrucción de ciertos kits, y para establecer valores en <color=#0080FFFF>{LINK:LogicUnitPage;logic}</color> unidades. El MK II es más resistente a la temperatura y la presión."
+"deconstrucción de ciertos kits, y para establecer valores en {LINK:LogicUnitPage;logic} unidades. El MK II es más resistente a la temperatura y la presión."
 
 #: /Language/Things/RecordThing[Key='ItemMKIIAngleGrinder']
 msgctxt "Things.ItemMKIIAngleGrinder"
@@ -2455,10 +2451,9 @@ msgid "Kit (Large Extendable Radiator)"
 msgstr "Radiador Extensible Grande (kit)"
 
 #: /Language/Things/RecordThing[Key='ItemKitLargeExtendableRadiator']
-#, fuzzy
 msgctxt "Things.ItemKitLargeExtendableRadiator"
 msgid "Creates {THING:StructureLargeExtendableRadiator}."
-msgstr "{BLANK}"
+msgstr "Crea {THING:StructureLargeExtendableRadiator}."
 
 #: /Language/Things/RecordThing[Key='StructureLargeExtendableRadiator']
 msgctxt "Things.StructureLargeExtendableRadiator"
@@ -2471,6 +2466,8 @@ msgid ""
 "Omptimised for radiating heat in vacuum and low pressure environments. If pointed at the sun it will heat its contents rapidly via solar heating. The panels can fold away to stop all heat "
 "radiation/solar heating and protect them from storms."
 msgstr ""
+"Omptimizado para irradiar calor en ambientes de vacío y baja presión. Si apunta al sol, calentará su contenido rápidamente a través del calentamiento solar. Los paneles pueden plegarse para detener "
+"toda la radiación de calor / calefacción solar y protegerlos de las tormentas."
 
 #: /Language/Things/RecordThing[Key='ItemWreckageLargeExtendableRadiator01']
 msgctxt "Things.ItemWreckageLargeExtendableRadiator01"
@@ -2520,39 +2517,34 @@ msgstr ""
 "Altamente sensible a la temperatura, el nitrice comenzará a derretirse tan pronto como se extraiga, a menos que la temperatura esté por debajo de cero o esté almacenado en el cinturon {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} o dispositivos como {THING:StructureIceCrusher} o la {THING:StructureFridgeSmall}."
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiator']
-#, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiator"
 msgid "Kit (Medium Radiator)"
-msgstr "{BLANK}"
+msgstr "Radiador de Tubería mediano (kit)"
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiator']
-#, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiator"
 msgid "Creates {THING:StructureMediumRadiator} and {THING:StructureMediumConvectionRadiator}."
-msgstr "{BLANK}"
+msgstr "Crea {THING:StructureMediumRadiator} y {THING:StructureMediumConvectionRadiator}."
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiator']
 msgctxt "Things.StructurePassiveLargeRadiator"
 msgid "Medium Convection Radiator"
-msgstr ""
+msgstr "Radiador de Conveccion Mediano"
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiator']
-#, fuzzy
 msgctxt "Things.StructurePassiveLargeRadiator"
 msgid "Has been replaced by {THING:StructureMediumConvectionRadiator}."
-msgstr "{BLANK}"
+msgstr "Ha sido reemplazado por {THING:StructureMediumConvectionRadiator}."
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorGas']
-#, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiatorGas"
 msgid "Kit (Medium Radiator)"
-msgstr "{BLANK}"
+msgstr "Radiador mediano (kit)"
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorGas']
-#, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiatorGas"
 msgid "Creates {THING:StructureMediumRadiator} and {THING:StructureMediumConvectionRadiator}."
-msgstr "{BLANK}"
+msgstr "Crea {THING:StructureMediumRadiator} y {THING:StructureMediumConvectionRadiator}."
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorLiquid']
 #, fuzzy
