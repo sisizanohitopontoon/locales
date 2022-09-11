@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-11 20:18+0000\n"
+"PO-Revision-Date: 2022-09-11 20:23+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2547,39 +2547,34 @@ msgid "Creates {THING:StructureMediumRadiator} and {THING:StructureMediumConvect
 msgstr "Crea {THING:StructureMediumRadiator} y {THING:StructureMediumConvectionRadiator}."
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorLiquid']
-#, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiatorLiquid"
 msgid "Kit (Medium Radiator Liquid)"
-msgstr "{BLANK}"
+msgstr "Radiador de Tubería mediano (kit)"
 
 #: /Language/Things/RecordThing[Key='ItemKitPassiveLargeRadiatorLiquid']
-#, fuzzy
 msgctxt "Things.ItemKitPassiveLargeRadiatorLiquid"
 msgid "Creates {THING:StructureMediumRadiatorLiquid} and {THING:StructureMediumConvectionRadiatorLiquid}."
-msgstr "{BLANK}"
+msgstr "Crea {THING:StructureMediumRadiatorLiquid} y {THING:StructureMediumConvectionRadiatorLiquid}."
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorLiquid']
-#, fuzzy
 msgctxt "Things.StructurePassiveLargeRadiatorLiquid"
 msgid "Medium Convection Radiator Liquid"
-msgstr "{BLANK}"
+msgstr "Radiador de Conveccion Mediano de liquidos"
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorLiquid']
-#, fuzzy
 msgctxt "Things.StructurePassiveLargeRadiatorLiquid"
 msgid "Has been replaced by {THING:StructureMediumConvectionRadiatorLiquid}."
-msgstr "{BLANK}"
+msgstr "Ha sido reemplazado por {THING:StructureMediumConvectionRadiatorLiquid}."
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorGas']
 msgctxt "Things.StructurePassiveLargeRadiatorGas"
 msgid "Medium Convection Radiator"
-msgstr ""
+msgstr "Radiador de Conveccion Mediano"
 
 #: /Language/Things/RecordThing[Key='StructurePassiveLargeRadiatorGas']
-#, fuzzy
 msgctxt "Things.StructurePassiveLargeRadiatorGas"
 msgid "Has been replaced by {THING:StructureMediumConvectionRadiator}."
-msgstr "{BLANK}"
+msgstr "Ha sido reemplazado por {THING:StructureMediumConvectionRadiator}."
 
 #: /Language/Things/RecordThing[Key='StructureLogicGate']
 msgctxt "Things.StructureLogicGate"
@@ -2606,6 +2601,9 @@ msgid ""
 "output is a mix of all three gasses, which may need further processing.  More NOS will be created, if the gas inside the machine is close to a 1/1 ratio of Oxygen to Nitrogen.  The second gas input "
 "line in optional, and not required if the gas is pre mixed."
 msgstr ""
+"Este dispositivo se utiliza para crear {GAS:NitrousOxide} a partir de {GAS:Oxygen}, {GAS:Nitrogen} y una gran cantidad de energía. El proceso no transforma completamente todo el gas disponible a la "
+"vez, por lo que la salida es una mezcla de los tres gases, que pueden necesitar un procesamiento adicional.  Se creará más NOS, si el gas dentro de la máquina está cerca de una proporción de 1/1 de "
+"oxígeno a nitrógeno.  La segunda línea de entrada de gas es opcional, y no es necesaria si el gas está premezclado."
 
 #: /Language/Things/RecordThing[Key='ItemMiningBackPack']
 msgctxt "Things.ItemMiningBackPack"
