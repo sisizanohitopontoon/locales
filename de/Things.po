@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-20 21:06+0000\n"
+"PO-Revision-Date: 2022-09-20 21:15+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -931,22 +931,39 @@ msgid ""
 "> Vacuum (see PRESSURE above)\n"
 "\n"
 msgstr ""
+"Wenn dein {LINK:OrganicPage;food} verdirbt, wird daraus {LINK:ODA;ODA} Wissenschaftler haben versucht, die Substanz zu untersuchen, aber sie bleibt rätselhaft. Es ist eine schlechte Idee ist, sie zu essen. Die Forschung hat zudem festgestellt, dass die genaue Zerfallsgeschwindigkeit individuell variiert durch:\n"
+"\n"
+"- TEMPERATUR - Die Kühlung verlangsamt den Zerfall, aber Einwirkung von extrem niedrigem Druck sowie extremer Hitze beschädigt viele Lebensmittel. Die optimale Temperatur beträgt 0 Kelvin (-272 ° C).\n"
+"\n"
+"- NAHRUNGSTYP - Jeder {LINK:OrganicPage;food}-Typ hat seine eigenen Zerfallseigenschaften. {THING:ItemTomatoSoup} hält viel länger als z.B. ein {THING:ItemTomato}.\n"
+"\n"
+"- DRUCK - Nahrung zerfällt schnell, wenn der Druck unter 1 Atmosphäre (101kPa) fällt. Zerfall geschieht exponentiell schneller, wenn sich die Atmosphäre einem perfekten Vakuum nähert. Es gibt keinen Effekt durch höheren Druck. \n"
+"\n"
+"- ATMOSPHÄRE - Verschiedene Gase können den Zerfallsprozess verlangsamen und beschleunigen. Das Verfahren berücksichtigt bei der Berechnung des Zerfallsmodifikators die jeweiligen Gasverhältnisse wie folgt:\n"
+"\n"
+"> {GAS:Sauerstoff} x 1,3\n"
+"> {GAS:Stickstoff} x 0,6\n"
+"> {GAS:Kohlendioxid} x 0,8\n"
+"> {GAS:Volatiles} x 1\n"
+"> {GAS:Schadstoff} x 3\n"
+"> {GAS:Lachgas} x 1,5\n"
+"> {GAS:Wasser} x 2\n"
+"> Vakuum (siehe DRUCK oben)"
 
 #: /Language/Things/RecordThing[Key='StructureShelfMedium']
 msgctxt "Things.StructureShelfMedium"
 msgid "Shelf Medium"
-msgstr ""
+msgstr "Regal Mittel"
 
 #: /Language/Things/RecordThing[Key='StructureShelfMedium']
 msgctxt "Things.StructureShelfMedium"
 msgid "A shelf for putting things on, so you can see them."
-msgstr ""
+msgstr "Ein Regal zum Aufreihen von Dingen, damit du sie sehen kannst."
 
 #: /Language/Things/RecordThing[Key='PassiveSpeaker']
-#, fuzzy
 msgctxt "Things.PassiveSpeaker"
 msgid "Passive Speaker"
-msgstr "{BLANK}"
+msgstr "Passiver Lautsprecher"
 
 #: /Language/Things/RecordThing[Key='PassiveSpeaker']
 #, fuzzy
@@ -957,7 +974,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='DeviceLfoVolume']
 msgctxt "Things.DeviceLfoVolume"
 msgid "Low frequency oscillator"
-msgstr ""
+msgstr "Niederfrequenz-Oszillator"
 
 #: /Language/Things/RecordThing[Key='DeviceLfoVolume']
 msgctxt "Things.DeviceLfoVolume"
@@ -975,6 +992,18 @@ msgid ""
 "\n"
 "For more info, check out the {LINK:MusicPage;music page}."
 msgstr ""
+"Der Niederfrequenz-Oszillator (oder NFO) lässt alles dark, twisted und crunchy klingen, indem er die Form der Wellen ändert, die von einem {THING:LogicStepSequencer8} ausgegeben werden.\n"
+"      \n"
+"So richtest du einen NFO ein:\n"
+"\n"
+"1. Platziere die NFO-Einheit\n"
+"2. Setze den NFO-Ausgang auf ein {THING:PassiveSpeaker}\n"
+"2. Stelle den Ausgang eines Sequenzers auf NFO ein - so dass das Signal des Sequenzers durch den LFO zu einem Lautsprecher läuft.\n"
+"3. Platziere ein {THING:StopWatch} oder verwende ein vorhandenes, und verwende dann ein {THING:StructureLogicWriter}, um es auf den NFO zu überschreiben.\n"
+"4. Verwende einen weiteren Logikschreiber, um die BPM auf den NFO zu überschreiben.\n"
+"5. Du bist bereit. Das ist die Zukunft. Du bist im Weltraum. Lass es cool klingen.\n"
+"\n"
+"Weitere Informationen finden Sie auf der {LINK:MusicPage;music page}."
 
 #: /Language/Things/RecordThing[Key='StructureFridgeBig']
 msgctxt "Things.StructureFridgeBig"
@@ -992,18 +1021,23 @@ msgid ""
 "\n"
 "For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia."
 msgstr ""
+"Der {LINK:Xigo; Xigo} Koolaid Kühlschrank ist ein selbstkühlendes Lagergerät mit 15 Steckplätzen, das Lebensmittel konserviert, wenn es eingeschaltet wird. Während sich viele Benutzer über die Platzierung des Netzschalters beschwert haben, ist sein Platz im Pantheon der außerweltlichen Weißware unbestritten.\n"
+"      \n"
+"Mit seiner eigenen permanenten Innenatmosphäre verlangsamt der Koolaid Kühlschrank den Zerfall von {LINK:OrganicPage;food} durch die Aufrechterhaltung einer optimalen Innentemperatur. Sein Stromverbrauch variiert je nach Außentemperatur, gegen die er seine Innentemperatur ausgleichen muss. Als solches muss es Wärme abgeben, um zu funktionieren, so dass der Koolaid Kühlschrank NICHT in einem Vakuum arbeitet.\n"
+"      \n"
+"Lassen Sie auch die Tür nicht offen, da sie sich mit der aktuellen Welttemperatur ausgleicht. Und vielleicht fangen Sie an zu piepen.\n"
+"\n"
+"Weitere Informationen zur Konservierung von Lebensmitteln finden Sie im Abschnitt {LINK:DecayPage;food decay} der Stationpedia."
 
 #: /Language/Things/RecordThing[Key='ItemKitFridgeBig']
-#, fuzzy
 msgctxt "Things.ItemKitFridgeBig"
 msgid "Kit (Fridge Large)"
-msgstr "Dieser Bausatz erstellt ein {THING:StructureLiquidPipeRadiator}."
+msgstr "Bausatz (Kühlschrank groß)"
 
 #: /Language/Things/RecordThing[Key='ItemKitFridgeBig']
-#, fuzzy
 msgctxt "Things.ItemKitFridgeBig"
 msgid "This kit creates a {THING:StructureFridgeBig}."
-msgstr "Dieser Bausatz erstellt ein {THING:StructureLiquidPipeRadiator}."
+msgstr "Dieser Bausatz erstellt einen {THING:StructureFridgeBig}."
 
 #: /Language/Things/RecordThing[Key='StructureFridgeSmall']
 msgctxt "Things.StructureFridgeSmall"
@@ -1017,11 +1051,14 @@ msgid ""
 "      \n"
 "      For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia."
 msgstr ""
+"Im Wesentlichen eine stark isolierte Box, die es Benutzern ermöglicht, jede gewünschte Atmosphäre einzuleiten, der{LINK:Recurso; Recurso} Minibar Kühlschrank war eine einfache Lösung für das Problem von {LINK:NutritionPage;food decay}. Es speichert eine kleine Anzahl von Gegenständen, bei jeder Temperatur, die du aufbringen kannst.\n"
+"      \n"
+"Weitere Informationen zur Konservierung von Lebensmitteln finden Sie im Abschnitt {LINK:DecayPage;food decay} der Stationpedia."
 
 #: /Language/Things/RecordThing[Key='StructureRefrigeratedVendingMachine']
 msgctxt "Things.StructureRefrigeratedVendingMachine"
 msgid "Refrigerated Vending Machine"
-msgstr ""
+msgstr "Gekühlter Verkaufsautomat"
 
 #: /Language/Things/RecordThing[Key='StructureRefrigeratedVendingMachine']
 msgctxt "Things.StructureRefrigeratedVendingMachine"
@@ -1030,12 +1067,14 @@ msgid ""
 "The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.\n"
 "NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. "
 msgstr ""
+"Der gekühlte OmniKool-Verkaufsautomat ist eine erweiterte Version des standard {THING:StructureVendingMachine}, der einen optimalen Druck und eine konstante Temperatur von -130 Grad C aufrechterhält, um den Verderb von Lebensmitteln zu verhindern. Er kann bis zu 100 Stapel aufnehmen.\n"
+"Der OmniKool hat auch einen eingebauten {THING:StructureStacker}, mit dem Spieler die Stapelgrößen aller Gegenstände einstellen können, die dem Gerät HINZUGEFÜGT wurden. Die Standard-Stapelgröße des Geräts ist 50.\n"
+"HINWEIS: Durch das Ändern von Stapelgrößen werden KEINE vorhandenen Stapel innerhalb der Maschine aktualisiert, sondern nur die später hinzugefügten. "
 
 #: /Language/Things/RecordThing[Key='ItemKitVendingMachineRefrigerated']
-#, fuzzy
 msgctxt "Things.ItemKitVendingMachineRefrigerated"
 msgid "Kit (Vending Machine Refrigerated)"
-msgstr "{BLANK}"
+msgstr "Bausatz (Verkaufsautomat gekühlt)"
 
 #: /Language/Things/RecordThing[Key='ItemKitVendingMachineRefrigerated']
 #, fuzzy
@@ -1046,12 +1085,12 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='SeedBag_Potato']
 msgctxt "Things.SeedBag_Potato"
 msgid "Potato Seeds"
-msgstr ""
+msgstr "Kartoffelsamen"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Potato']
 msgctxt "Things.SeedBag_Potato"
 msgid "Grow a {THING:ItemPotato}."
-msgstr ""
+msgstr "Züchte eine {THING:ItemPotato}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Corn']
 msgctxt "Things.SeedBag_Corn"
@@ -1061,17 +1100,17 @@ msgstr "Maissamen"
 #: /Language/Things/RecordThing[Key='SeedBag_Corn']
 msgctxt "Things.SeedBag_Corn"
 msgid "Grow a {THING:ItemCorn}."
-msgstr ""
+msgstr "Züchte einen {THING:ItemCorn}."
 
 #: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
 msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
 msgid "Kit (Portable Liquid Tank Mk II)"
-msgstr ""
+msgstr "Bausatz (Tragbarer Flüssigkeitstank Mk II)"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Wheet']
 msgctxt "Things.SeedBag_Wheet"
 msgid "Grow some {THING:ItemWheat}."
-msgstr ""
+msgstr "Züchte etwas {THING:ItemWheat}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Tomato']
 msgctxt "Things.SeedBag_Tomato"
@@ -1140,6 +1179,14 @@ msgid ""
 "\n"
 "The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
 msgstr ""
+"Dünger verändert Pflanzenwachstumsprozesse und wird vom Basiskomposter und dem {THING:StructureAdvancedComposter} mit {LINK:OrganicPage;organic} Materie erzeugt.\n"
+"Die Wirkung des Düngers hängt von seinen Inhaltsstoffen ab:\n"
+"\n"
+"- {LINK:OrganicPage; Nahrung} steigert den PFLANZENERTRAG um das bis zu Zweifache\n"
+"- {THING:DecayedFood} erhöht die Pflanzenwachstumsgeschwindigkeit um das bis zu Zweifache\n"
+"- {THING:ItemBiomass} erhöht die ANZAHL DER WACHSTUMSZYKLEN, für die der Dünger hält\n"
+"\n"
+"Die Wirkung dieser Inhaltsstoffe hängt von ihren jeweiligen Anteilen im Komposter ab, wenn die Verarbeitung aktiviert wird. "
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
