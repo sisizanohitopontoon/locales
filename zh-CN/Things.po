@@ -10,49 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageAreaPowerControl1']
-msgctxt "Things.ItemWreckageAreaPowerControl1"
-msgid "Description coming."
-msgstr "即将进行描述。"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
-msgctxt "Things.StructureLiquidPipeRadiator"
-msgid "Liquid Pipe Convection Radiator"
-msgstr "对流式液体管道散热器"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
-msgctxt "Things.StructureLiquidPipeRadiator"
-msgid ""
-"A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added to the liquid within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. \n"
-"The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will speed up heat transfer."
-msgstr ""
-"一台简易的热交换器，它们可以被安置在管道上从而起到散热或吸热的作用，具体情况取决于周围的大气温度。如果大气温度较高，那么管道网络中的液体将被加热，同理，如果大气温度较低，则结果相反。在真空环境当中，热量将被向外辐射出去。\n"
-"吸热或散热的速度取决于具体的液体。安装多台散热器将会加快热量的传递。"
-
-#: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
-msgctxt "Things.ItemPipeLiquidRadiator"
-msgid "Kit (Liquid Radiator)"
-msgstr "套件包（对流式液体管道散热器）"
-
-#: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
-msgctxt "Things.ItemPipeLiquidRadiator"
-msgid "This kit creates a {THING:StructureLiquidPipeRadiator}."
-msgstr "此套件创建一个{THING:StructureLiquidPipeRadiator}."
-
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterEmpty']
-msgctxt "Things.DynamicMKIILiquidCanisterEmpty"
-msgid "Portable Liquid Tank Mk II"
-msgstr "便携式储液罐 Mk II"
-
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterEmpty']
-msgctxt "Things.DynamicMKIILiquidCanisterEmpty"
-msgid "An empty, insulated liquid {SLOT:GasCanister}."
-msgstr "一种空的绝缘液体{SLOT：GasCanister}。"
-
-#: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
-msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
-msgid "Kit (Portable Liquid Tank Mk II)"
-msgstr "套件 (便携式储液罐 Mk II)"
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
+msgctxt "Things.ItemWreckageTransformer1"
+msgid "Wreckage Transformer"
+msgstr "变压器残骸"
 
 #: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
 msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
@@ -971,10 +932,34 @@ msgctxt "Things.DeviceLfoVolume"
 msgid "Low frequency oscillator"
 msgstr "低频振荡器"
 
-#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
-msgctxt "Things.DynamicGasTankAdvancedWater"
-msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this {SLOT:GasCanister} without them gaining or losing temperature."
-msgstr "作为{THING：DynamicMKIILiquidCanisterWater}的绝缘版本，你可以在此罐中存储水，而不会增加或损失温度。"
+#: /Language/Things/RecordThing[Key='DeviceLfoVolume']
+msgctxt "Things.DeviceLfoVolume"
+msgid ""
+"The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a {THING:LogicStepSequencer8}.\n"
+"      \n"
+"To set up an LFO:\n"
+"\n"
+"1. Place the LFO unit\n"
+"2. Set the LFO output to a {THING:PassiveSpeaker}\n"
+"2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker.\n"
+"3. Place a {THING:StopWatch} or use an existing one, then use a {THING:StructureLogicWriter} to write it to the LFO.\n"
+"4. Use another logic writer to write the BPM to the LFO.\n"
+"5. You are ready. This is the future. You're in space. Make it sound cool.\n"
+"\n"
+"For more info, check out the {LINK:MusicPage;music page}."
+msgstr ""
+"低频振荡器（或LFO）通过改变{THING:LogicStepSequencer8}输出的波的形状，使一切听起来黑暗，扭曲和松脆。\n"
+"      \n"
+"要设置 LFO：\n"
+"\n"
+"1. 放置 LFO 单元\n"
+"2. 将 LFO 输出设置为{THING:PassiveSpeaker}\n"
+"2. 将音序器的输出设置为 LFO - 因此音序器的信号通过 LFO 传递到扬声器。\n"
+"3. 放置一个{THING:StopWatch}或使用现有的一个，然后使用{THING:StructureLogicWriter}将其写入 LFO。\n"
+"4. 使用另一个逻辑编写器将 BPM 写入 LFO。\n"
+"5. 你已经准备好了。这就是未来。你在太空中。让它听起来很酷。\n"
+"\n"
+"有关更多信息，请查看{LINK:MusicPage;music page}。"
 
 #: /Language/Things/RecordThing[Key='StructureFridgeBig']
 msgctxt "Things.StructureFridgeBig"
@@ -1073,10 +1058,10 @@ msgctxt "Things.SeedBag_Corn"
 msgid "Grow a {THING:ItemCorn}."
 msgstr "种玉米的"
 
-#: /Language/Things/RecordThing[Key='SeedBag_Wheet']
-msgctxt "Things.SeedBag_Wheet"
-msgid "Wheat Seeds"
-msgstr "小麦种子"
+#: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
+msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
+msgid "Kit (Portable Liquid Tank Mk II)"
+msgstr "套件 (便携式储液罐 Mk II)"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Wheet']
 msgctxt "Things.SeedBag_Wheet"
@@ -2603,7 +2588,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.StructureCryoTubeVertical"
 msgid "Cryo Tube Vertical"
-msgstr "低温休眠舱"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureCryoTubeVertical']
 msgctxt "Things.StructureCryoTubeVertical"
@@ -2620,11 +2605,21 @@ msgctxt "Things.StructureCryoTubeHorizontal"
 msgid "The horizontal variant of the cryo tube. Will heal players and organs as well as revive dead players when provided with an atmosphere of NOS below -150C."
 msgstr ""
 
+#: /Language/Things/RecordThing[Key='StructureDeepMiner']
+msgctxt "Things.StructureDeepMiner"
+msgid "Deep Miner"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureDeepMiner']
+msgctxt "Things.StructureDeepMiner"
+msgid "Drills through terrain until it hits bedrock. Once inside bedrock {THING:ItemDirtyOre} is produced every roughly every 90s"
+msgstr ""
+
 #: /Language/Things/RecordThing[Key='StructureSleeperVertical']
 #, fuzzy
 msgctxt "Things.StructureSleeperVertical"
 msgid "Sleeper Vertical"
-msgstr "睡眠舱"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSleeperVertical']
 msgctxt "Things.StructureSleeperVertical"
@@ -2635,7 +2630,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSleeperLeft"
 msgid "Sleeper Left"
-msgstr "睡眠舱"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSleeperLeft']
 msgctxt "Things.StructureSleeperLeft"
@@ -2646,7 +2641,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSleeperRight"
 msgid "Sleeper Right"
-msgstr "睡眠舱"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSleeperRight']
 msgctxt "Things.StructureSleeperRight"
@@ -2657,7 +2652,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureProximitySensor"
 msgid "Proximity Sensor"
-msgstr "运动传感器"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureProximitySensor']
 msgctxt "Things.StructureProximitySensor"
@@ -2668,12 +2663,185 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureOccupancySensor"
 msgid "Occupancy Sensor"
-msgstr "气体传感器"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureOccupancySensor']
 msgctxt "Things.StructureOccupancySensor"
 msgid "Will be triggered if there is a player in the same room as the sensor. The quantity variable will show the number of players. You can use configure it to only detect players who hold the correct Access Card using a {THING:CartridgeAccessController} in a {THING:ItemTablet}. This sensor only works when placed in a room."
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitDeepMiner']
+#, fuzzy
+msgctxt "Things.ItemKitDeepMiner"
+msgid "Kit (Deep Miner)"
+msgstr "套件包（睡眠舱）"
+
+#: /Language/Things/RecordThing[Key='ItemKitDeepMiner']
+msgctxt "Things.ItemKitDeepMiner"
+msgid "Creates {THING:StructureDeepMiner} which can drill through the terrain into bedrock to mine {THING:ItemDirtyOre}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemDirtyOre']
+msgctxt "Things.ItemDirtyOre"
+msgid "Item Dirty Ore"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemDirtyOre']
+msgctxt "Things.ItemDirtyOre"
+msgid "Ore mined from bedrock via the {THING:StructureDeepMiner} which then can be used in the {THING:StructureCentrifuge}, or {THING:StructureCombustionCentrifuge}. Once processed, it produces ore in a ratio similar to the average found on the planet's surface. "
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureChuteFlipFlopSplitter']
+msgctxt "Things.StructureChuteFlipFlopSplitter"
+msgid "Chute Flip Flop Splitter"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureChuteFlipFlopSplitter']
+msgctxt "Things.StructureChuteFlipFlopSplitter"
+msgid "A chute that toggles between two outputs"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureChuteValve']
+#, fuzzy
+msgctxt "Things.StructureChuteValve"
+msgid "Chute Valve"
+msgstr "滑槽进口"
+
+#: /Language/Things/RecordThing[Key='StructureChuteValve']
+msgctxt "Things.StructureChuteValve"
+msgid "The Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureCombustionCentrifuge']
+#, fuzzy
+msgctxt "Things.StructureCombustionCentrifuge"
+msgid "Combustion Centrifuge"
+msgstr "套件包（离心机）"
+
+#: /Language/Things/RecordThing[Key='StructureCombustionCentrifuge']
+msgctxt "Things.StructureCombustionCentrifuge"
+msgid ""
+"The Combustion Centrifuge is a gas powered version of the {THING:StructureCentrifuge}. A combustible fuel mix should be supplied to the gas input, and waste gasses should be vented from the output. The machine's RPMs must be controlled via the throttle and combustion limitor levers. If the Combustion Centrifuge gains, or looses, RPMs too fast it will experience stress, and eventually grind to a halt.  Higher RPMs directly result in faster processing speeds.\n"
+"The throttle lever controls the amount of fuel being pulled into the machine, increasing the temperature inside the engine, and leading to an increase in RPM. The limitor lever influences the speed of the combustion, and how much uncombusted gas is in the exhaust.\t  \n"
+"Ejecting ore from the Combustion Centrifuge while it is at high RPMs will result in additional stress build up.  If turned off while not stressed, the machine will automatically start to brake, and reduce RPMs in a controlled manner.\n"
+"\t  "
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureChuteOverflow']
+#, fuzzy
+msgctxt "Things.StructureChuteOverflow"
+msgid "Chute Overflow"
+msgstr "滑槽出口"
+
+#: /Language/Things/RecordThing[Key='StructureChuteOverflow']
+msgctxt "Things.StructureChuteOverflow"
+msgid "The overflow chute will direct materials to its overflow port when the thing connected to its default port is already occupied."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
+#, fuzzy
+msgctxt "Things.KitStructureCombustionCentrifuge"
+msgid "Kit (Combustion Centrifuge)"
+msgstr "套件包（离心机）"
+
+#: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
+#, fuzzy
+msgctxt "Things.KitStructureCombustionCentrifuge"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureChuteDigitalValveLeft']
+#, fuzzy
+msgctxt "Things.StructureChuteDigitalValveLeft"
+msgid "Chute Digital Valve Left"
+msgstr "数码阀门"
+
+#: /Language/Things/RecordThing[Key='StructureChuteDigitalValveLeft']
+msgctxt "Things.StructureChuteDigitalValveLeft"
+msgid "The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items have passed through. This threshold can be set using the dial."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureChuteDigitalValveRight']
+#, fuzzy
+msgctxt "Things.StructureChuteDigitalValveRight"
+msgid "Chute Digital Valve Right"
+msgstr "数码阀门"
+
+#: /Language/Things/RecordThing[Key='StructureChuteDigitalValveRight']
+msgctxt "Things.StructureChuteDigitalValveRight"
+msgid "The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items have passed through. This threshold can be set using the dial."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureChuteDigitalFlipFlopSplitterLeft']
+msgctxt "Things.StructureChuteDigitalFlipFlopSplitterLeft"
+msgid "Chute Digital Flip Flop Splitter Left"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureChuteDigitalFlipFlopSplitterLeft']
+msgctxt "Things.StructureChuteDigitalFlipFlopSplitterLeft"
+msgid "The digital flip flop will toggle between two outputs using a specified ratio (n:1). For example, setting the dial to 2 would allow two items to pass through the primary output before flipping to the secondary output."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureChuteDigitalFlipFlopSplitterRight']
+msgctxt "Things.StructureChuteDigitalFlipFlopSplitterRight"
+msgid "Chute Digital Flip Flop Splitter Right"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureChuteDigitalFlipFlopSplitterRight']
+msgctxt "Things.StructureChuteDigitalFlipFlopSplitterRight"
+msgid "The digital flip flop will toggle between two outputs using a specified ratio (n:1). For example, setting the dial to 2 would allow two items to pass through the primary output before flipping to the secondary output."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemKitStandardChute']
+#, fuzzy
+msgctxt "Things.ItemKitStandardChute"
+msgid "Kit (Powered Chutes)"
+msgstr "套件包（滑槽）"
+
+#: /Language/Things/RecordThing[Key='ItemKitStandardChute']
+#, fuzzy
+msgctxt "Things.ItemKitStandardChute"
+msgid "This kit produces a variety of powered chutes"
+msgstr "此套件可生产一系列液体管道。"
+
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterEmpty']
+msgctxt "Things.DynamicMKIILiquidCanisterEmpty"
+msgid "An empty, insulated liquid {SLOT:GasCanister}."
+msgstr "一种空的绝缘液体{SLOT：GasCanister}。"
+
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterEmpty']
+msgctxt "Things.DynamicMKIILiquidCanisterEmpty"
+msgid "Portable Liquid Tank Mk II"
+msgstr "便携式储液罐 Mk II"
+
+#: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
+msgctxt "Things.ItemPipeLiquidRadiator"
+msgid "This kit creates a {THING:StructureLiquidPipeRadiator}."
+msgstr "此套件创建一个{THING:StructureLiquidPipeRadiator}."
+
+#: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
+msgctxt "Things.ItemPipeLiquidRadiator"
+msgid "Kit (Liquid Radiator)"
+msgstr "套件包（对流式液体管道散热器）"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
+msgctxt "Things.StructureLiquidPipeRadiator"
+msgid ""
+"A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added to the liquid within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. \n"
+"The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will speed up heat transfer."
+msgstr ""
+"一台简易的热交换器，它们可以被安置在管道上从而起到散热或吸热的作用，具体情况取决于周围的大气温度。如果大气温度较高，那么管道网络中的液体将被加热，同理，如果大气温度较低，则结果相反。在真空环境当中，热量将被向外辐射出去。\n"
+"吸热或散热的速度取决于具体的液体。安装多台散热器将会加快热量的传递。"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
+msgctxt "Things.StructureLiquidPipeRadiator"
+msgid "Liquid Pipe Convection Radiator"
+msgstr "对流式液体管道散热器"
+
+#: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
+msgctxt "Things.DynamicGasTankAdvancedWater"
+msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this {SLOT:GasCanister} without them gaining or losing temperature."
+msgstr "作为{THING：DynamicMKIILiquidCanisterWater}的绝缘版本，你可以在此罐中存储水，而不会增加或损失温度。"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
 msgctxt "Things.DynamicGasTankAdvancedWater"
@@ -3677,6 +3845,11 @@ msgctxt "Things.ItemWreckageShuttleLandingPad4"
 msgid "Wreckage Shuttle Landing Pad"
 msgstr "航天飞机着陆台残骸"
 
+#: /Language/Things/RecordThing[Key='SeedBag_Wheet']
+msgctxt "Things.SeedBag_Wheet"
+msgid "Wheat Seeds"
+msgstr "小麦种子"
+
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad3']
 msgctxt "Things.ItemWreckageShuttleLandingPad3"
 msgid "{BLANK}"
@@ -3746,35 +3919,6 @@ msgstr "{BLANK}"
 msgctxt "Things.ItemWreckageSDBSilo2"
 msgid "Wreckage SDB Silo"
 msgstr "SDB仓库残骸"
-
-#: /Language/Things/RecordThing[Key='DeviceLfoVolume']
-msgctxt "Things.DeviceLfoVolume"
-msgid ""
-"The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a {THING:LogicStepSequencer8}.\n"
-"      \n"
-"To set up an LFO:\n"
-"\n"
-"1. Place the LFO unit\n"
-"2. Set the LFO output to a {THING:PassiveSpeaker}\n"
-"2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker.\n"
-"3. Place a {THING:StopWatch} or use an existing one, then use a {THING:StructureLogicWriter} to write it to the LFO.\n"
-"4. Use another logic writer to write the BPM to the LFO.\n"
-"5. You are ready. This is the future. You're in space. Make it sound cool.\n"
-"\n"
-"For more info, check out the {LINK:MusicPage;music page}."
-msgstr ""
-"低频振荡器（或LFO）通过改变{THING:LogicStepSequencer8}输出的波的形状，使一切听起来黑暗，扭曲和松脆。\n"
-"      \n"
-"要设置 LFO：\n"
-"\n"
-"1. 放置 LFO 单元\n"
-"2. 将 LFO 输出设置为{THING:PassiveSpeaker}\n"
-"2. 将音序器的输出设置为 LFO - 因此音序器的信号通过 LFO 传递到扬声器。\n"
-"3. 放置一个{THING:StopWatch}或使用现有的一个，然后使用{THING:StructureLogicWriter}将其写入 LFO。\n"
-"4. 使用另一个逻辑编写器将 BPM 写入 LFO。\n"
-"5. 你已经准备好了。这就是未来。你在太空中。让它听起来很酷。\n"
-"\n"
-"有关更多信息，请查看{LINK:MusicPage;music page}。"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo1']
 msgctxt "Things.ItemWreckageSDBSilo1"
@@ -4431,11 +4575,6 @@ msgctxt "Things.ItemWreckageTransformer1"
 msgid "Description coming."
 msgstr "即将进行描述。"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
-msgctxt "Things.ItemWreckageTransformer1"
-msgid "Wreckage Transformer"
-msgstr "变压器残骸"
-
 #: /Language/Things/RecordThing[Key='ItemWreckageSolarPanel3']
 msgctxt "Things.ItemWreckageSolarPanel3"
 msgid "Description coming."
@@ -4485,6 +4624,11 @@ msgstr "即将进行描述。"
 msgctxt "Things.ItemWreckageAreaPowerControl2"
 msgid "Wreckage Area Power Control"
 msgstr "区域电源控制器残骸"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageAreaPowerControl1']
+msgctxt "Things.ItemWreckageAreaPowerControl1"
+msgid "Description coming."
+msgstr "即将进行描述。"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAreaPowerControl1']
 msgctxt "Things.ItemWreckageAreaPowerControl1"
@@ -9111,9 +9255,10 @@ msgid "Chair"
 msgstr "椅"
 
 #: /Language/Things/RecordThing[Key='StructureCentrifuge']
+#, fuzzy
 msgctxt "Things.StructureCentrifuge"
-msgid "If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs {LINK:ReagentPage;reagent} mixture rather than the desired {LINK:IngotPage;ingots}, a centrifuge allows you to reclaim the raw {LINK:OrePage;ore}."
-msgstr "如果一台 {THING:StructureRecycler} 或者不均衡的 {THING:StructureFurnace} 输出的是 &lt;color=#0080FFFF&gt;{LINK:ReagentPage;化学原料}&lt;/color&gt; 混合物而不是期望得到的 &lt;color=#0080FFFF&gt;{LINK:IngotPage;锭}&lt;/color&gt; ，那么一台离心机能够让你回收原 {LINK:OrePage;矿石} 。"
+msgid "If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs {LINK:ReagentPage;reagent} mixture rather than the desired {LINK:IngotPage;ingots}, a centrifuge allows you to reclaim the raw {LINK:OrePage;ore}. It also refines {THING:ItemDirtyOre} produced from the {THING:StructureDeepMiner}. Its bigger brother {THING:StructureCombustionCentrifuge} can be used to process items significantly faster. "
+msgstr "离心机"
 
 #: /Language/Things/RecordThing[Key='StructureCentrifuge']
 msgctxt "Things.StructureCentrifuge"
@@ -10044,13 +10189,14 @@ msgstr "镐"
 
 #: /Language/Things/RecordThing[Key='ItemPassiveVent']
 msgctxt "Things.ItemPassiveVent"
-msgid "This kit creates a {THING:ItemPassiveVent}."
-msgstr "此套件包能够生成一台 {THING:ItemPassiveVent} 。"
-
-#: /Language/Things/RecordThing[Key='ItemPassiveVent']
-msgctxt "Things.ItemPassiveVent"
 msgid "Kit (Passive Vent)"
 msgstr "套件包（被动式通风口）"
+
+#: /Language/Things/RecordThing[Key='ItemMuffin']
+#, fuzzy
+msgctxt "Things.ItemMuffin"
+msgid "A delicious, semi-healthful snack, nothing comforts a {LINK:Stationeers;Stationeer} 800 million kilometers from home like a hand-made muffin."
+msgstr "玛芬蛋糕"
 
 #: /Language/Things/RecordThing[Key='ItemMuffin']
 msgctxt "Things.ItemMuffin"
@@ -10319,13 +10465,15 @@ msgid "Kit (Computer)"
 msgstr "套件包（电脑）"
 
 #: /Language/Things/RecordThing[Key='ItemKitChute']
+#, fuzzy
 msgctxt "Things.ItemKitChute"
-msgid "This kit produces a range of chute structures, including {THING:StructureChuteStraight} and {THING:StructureChuteCorner}."
-msgstr "此套件包能够生成一系列滑槽结构件，包括 {THING:StructureChuteStraight} 和 {THING:StructureChuteCorner} 。"
+msgid "This kit produces a variety of unpowered chutes."
+msgstr "套件包（滑槽）"
 
 #: /Language/Things/RecordThing[Key='ItemKitChute']
+#, fuzzy
 msgctxt "Things.ItemKitChute"
-msgid "Kit (Chutes)"
+msgid "Kit (Basic Chutes)"
 msgstr "套件包（滑槽）"
 
 #: /Language/Things/RecordThing[Key='ItemKitCentrifuge']
@@ -12003,11 +12151,14 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "微波炉"
 
-#: /Language/Things/RecordThing[Key='ItemMuffin']
-#, fuzzy
-msgctxt "Things.ItemMuffin"
-msgid "A delicious, semi-healthful snack, nothing comforts a {LINK:Stationeers;Stationeer} 800 million kilometers from home like a hand-made muffin."
-msgstr "玛芬蛋糕"
+#: /Language/Things/RecordThing[Key='ItemPassiveVent']
+msgctxt "Things.ItemPassiveVent"
+msgid "This kit creates a {THING:ItemPassiveVent}."
+msgstr "此套件包能够生成一台 {THING:ItemPassiveVent} 。"
+
+#~ msgctxt "Things.ItemKitChute"
+#~ msgid "This kit produces a range of chute structures, including {THING:StructureChuteStraight} and {THING:StructureChuteCorner}."
+#~ msgstr "此套件包能够生成一系列滑槽结构件，包括 {THING:StructureChuteStraight} 和 {THING:StructureChuteCorner} 。"
 
 #~ msgctxt "Things.ItemKitLargeExtendableRadiator"
 #~ msgid "{BLANK}"

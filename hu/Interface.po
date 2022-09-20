@@ -10,10 +10,30 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Bőrszín"
+#: /Language/Interface/Record[Key='AppearanceTitleFace']
+msgctxt "Interface.AppearanceTitleFace"
+msgid "Face"
+msgstr "Arc"
+
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Chairs"
+msgstr "Székek"
+
+#: /Language/Interface/Record[Key='PersonalSuits']
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "Ruhák"
+
+#: /Language/Interface/Record[Key='BatteryCategory']
+msgctxt "Interface.BatteryCategory"
+msgid "Power Storage"
+msgstr "Energiatárolás"
+
+#: /Language/Interface/Record[Key='CableCategory']
+msgctxt "Interface.CableCategory"
+msgid "Cables and Analyzers"
+msgstr "Kábelek és elemzők"
 
 #: /Language/Interface/Record[Key='LightCategory']
 msgctxt "Interface.LightCategory"
@@ -54,11 +74,6 @@ msgstr "Szemüvegek"
 msgctxt "Interface.PersonalClothing"
 msgid "Clothing"
 msgstr "Öltözködés"
-
-#: /Language/Interface/Record[Key='OreHeader']
-msgctxt "Interface.OreHeader"
-msgid "Ores"
-msgstr "Ércek"
 
 #: /Language/Interface/Record[Key='ReagentsHeader']
 msgctxt "Interface.ReagentsHeader"
@@ -109,6 +124,11 @@ msgstr "Bővítőhelyek (slot)"
 msgctxt "Interface.LogicReadersCategory"
 msgid "Logic Readers"
 msgstr "Logikai olvasók"
+
+#: /Language/Interface/Record[Key='LogicWriterCategory']
+msgctxt "Interface.LogicWriterCategory"
+msgid "Logic Writers"
+msgstr "Logikai írók"
 
 #: /Language/Interface/Record[Key='MotherboardCategory']
 msgctxt "Interface.MotherboardCategory"
@@ -236,6 +256,11 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Mentett világok"
 
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "ELAVULT"
+
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
@@ -260,11 +285,6 @@ msgstr "Aszteroidák:"
 msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Verzió:"
-
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, re quests an item of the provided type from the device"
-msgstr "Ha az egyedi azonosítóra van állítva, a megadott típusú elemet újrakéri az eszköztől"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
@@ -787,6 +807,11 @@ msgctxt "Interface.SettingsVoiceControl"
 msgid "Voice Control"
 msgstr "Irányítás hanggal"
 
+#: /Language/Interface/Record[Key='OreHeader']
+msgctxt "Interface.OreHeader"
+msgid "Ores"
+msgstr "Ércek"
+
 #: /Language/Interface/Record[Key='SettingsCameraSensitivity']
 msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
@@ -827,11 +852,6 @@ msgstr "Figyelem"
 msgctxt "Interface.ServerSettingsButtonReset"
 msgid "Reset Settings"
 msgstr "Beállítások visszaállítása"
-
-#: /Language/Interface/Record[Key='LogicWriterCategory']
-msgctxt "Interface.LogicWriterCategory"
-msgid "Logic Writers"
-msgstr "Logikai írók"
 
 #: /Language/Interface/Record[Key='ButtonConfirm']
 msgctxt "Interface.ButtonConfirm"
@@ -1455,15 +1475,15 @@ msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
 msgstr "Felülírás"
 
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "Mentési név megadása..."
-
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Kreatív"
+
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Túlélő"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
@@ -1495,46 +1515,6 @@ msgctxt "Interface.JoinMenuInfoPlayers"
 msgid "Players:"
 msgstr "Játékosok:"
 
-#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
-msgctxt "Interface.ChangeAppearanceTitle"
-msgid "Change Appearance"
-msgstr "Külső megváltoztatása"
-
-#: /Language/Interface/Record[Key='AppearanceTitleGender']
-msgctxt "Interface.AppearanceTitleGender"
-msgid "Gender"
-msgstr "Nem"
-
-#: /Language/Interface/Record[Key='AppearanceTitleFace']
-msgctxt "Interface.AppearanceTitleFace"
-msgid "Face"
-msgstr "Arc"
-
-#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
-msgctxt "Interface.AppearanceTitleHairStyle"
-msgid "Hair"
-msgstr "Frizura"
-
-#: /Language/Interface/Record[Key='CableCategory']
-msgctxt "Interface.CableCategory"
-msgid "Cables and Analyzers"
-msgstr "Kábelek és elemzők"
-
-#: /Language/Interface/Record[Key='BatteryCategory']
-msgctxt "Interface.BatteryCategory"
-msgid "Power Storage"
-msgstr "Energiatárolás"
-
-#: /Language/Interface/Record[Key='PersonalSuits']
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "Ruhák"
-
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Chairs"
-msgstr "Székek"
-
 #: /Language/Interface/Record[Key='DoorCategory']
 msgctxt "Interface.DoorCategory"
 msgid "Doors and Hatches"
@@ -1560,6 +1540,17 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Slot"
 
+#: /Language/Interface/Record[Key='Stress']
+#, fuzzy
+msgctxt "Interface.Stress"
+msgid "Stress"
+msgstr "Cím"
+
+#: /Language/Interface/Record[Key='Rpm']
+msgctxt "Interface.Rpm"
+msgid "Rpm"
+msgstr ""
+
 #: /Language/Interface/Record[Key='RespawnConditionStationeer']
 #, fuzzy
 msgctxt "Interface.RespawnConditionStationeer"
@@ -1576,17 +1567,20 @@ msgctxt "Interface.RespawnConditionEasy"
 msgid "Easy"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ShadowCascades']
-#, fuzzy
-msgctxt "Interface.ShadowCascades"
-msgid "ShadowCascades"
-msgstr "Árnyékok"
+#: /Language/Interface/Record[Key='CombustionLimiter']
+msgctxt "Interface.CombustionLimiter"
+msgid "Combustion Limiter"
+msgstr ""
 
-#: /Language/Interface/Record[Key='ShadowMode']
-#, fuzzy
-msgctxt "Interface.ShadowMode"
-msgid "Shadows"
-msgstr "Árnyékok"
+#: /Language/Interface/Record[Key='Throttle']
+msgctxt "Interface.Throttle"
+msgid "Throttle"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScoreboardDaysLived']
+msgctxt "Interface.ScoreboardDaysLived"
+msgid "Days Lived"
+msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaThermalConductivityRadiation']
 msgctxt "Interface.StationpediaThermalConductivityRadiation"
@@ -1707,11 +1701,6 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Hajszín"
-
 #: /Language/Interface/Record[Key='StationpediaNutrition']
 #, fuzzy
 msgctxt "Interface.StationpediaNutrition"
@@ -1728,6 +1717,11 @@ msgstr ""
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
 msgstr "Maximális nyomás:"
+
+#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
+msgctxt "Interface.ChangeAppearanceTitle"
+msgid "Change Appearance"
+msgstr "Külső megváltoztatása"
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
@@ -4902,6 +4896,26 @@ msgctxt "Interface.LogicTypePressureEfficiency"
 msgid "How the pressure of the input pipe and waste pipe effect the machines efficiency"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeStress']
+msgctxt "Interface.LogicTypeStress"
+msgid "Machines get stressed when working hard. When Stress reaches 100 the machine will automatically shut down"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRpm']
+msgctxt "Interface.LogicTypeRpm"
+msgid "The number of revolutions per minute that the device's spinning machanism is doing"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeThrottle']
+msgctxt "Interface.LogicTypeThrottle"
+msgid "Increases the rate at which the machine works (range: 0-100)"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeCombustionLimiter']
+msgctxt "Interface.LogicTypeCombustionLimiter"
+msgid "Retards the rate of combustion inside the machine (range: 0-100), with 0 being the slowest rate of combustion and 100 being the fastest"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeTemperatureDifferentialEfficiency']
 msgctxt "Interface.LogicTypeTemperatureDifferentialEfficiency"
 msgid "How the difference between the input pipe and waste pipe temperatures effect the machines efficiency"
@@ -5066,10 +5080,10 @@ msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
 msgstr "Hogyan fejezze be az aktuális gyártását ennek az eszköznek, 0 és 1 között"
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Szemszín"
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
+msgstr "Ha az egyedi azonosítóra van állítva, a megadott típusú elemet újrakéri az eszköztől"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
@@ -5091,10 +5105,10 @@ msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr "ELAVULT"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
-msgid "DEPRECATED"
-msgstr "ELAVULT"
+#: /Language/Interface/Record[Key='AppearanceTitleGender']
+msgctxt "Interface.AppearanceTitleGender"
+msgid "Gender"
+msgstr "Nem"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
@@ -6341,10 +6355,40 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Arcszőrzet"
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Túlélő"
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Bőrszín"
+
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Szemszín"
+
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Hajszín"
+
+#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
+msgctxt "Interface.AppearanceTitleHairStyle"
+msgid "Hair"
+msgstr "Frizura"
+
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "Mentési név megadása..."
+
+#, fuzzy
+#~ msgctxt "Interface.ShadowCascades"
+#~ msgid "ShadowCascades"
+#~ msgstr "Árnyékok"
+
+#, fuzzy
+#~ msgctxt "Interface.ShadowMode"
+#~ msgid "Shadows"
+#~ msgstr "Árnyékok"
 
 #~ msgctxt "Interface.LogicTypeRatioCarbonDioxide"
 #~ msgid "The ratio of co2 in device atmosphere"

@@ -10,10 +10,30 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "Оттенок кожи"
+#: /Language/Interface/Record[Key='AppearanceTitleFace']
+msgctxt "Interface.AppearanceTitleFace"
+msgid "Face"
+msgstr "Лицо"
+
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Chairs"
+msgstr ""
+
+#: /Language/Interface/Record[Key='PersonalSuits']
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "Скафандр"
+
+#: /Language/Interface/Record[Key='BatteryCategory']
+msgctxt "Interface.BatteryCategory"
+msgid "Power Storage"
+msgstr "Хранение энергии"
+
+#: /Language/Interface/Record[Key='CableCategory']
+msgctxt "Interface.CableCategory"
+msgid "Cables and Analyzers"
+msgstr "Кабели и анализаторы"
 
 #: /Language/Interface/Record[Key='LightCategory']
 msgctxt "Interface.LightCategory"
@@ -54,11 +74,6 @@ msgstr "Очки"
 msgctxt "Interface.PersonalClothing"
 msgid "Clothing"
 msgstr "Одежда"
-
-#: /Language/Interface/Record[Key='OreHeader']
-msgctxt "Interface.OreHeader"
-msgid "Ores"
-msgstr "Руды"
 
 #: /Language/Interface/Record[Key='ReagentsHeader']
 msgctxt "Interface.ReagentsHeader"
@@ -109,6 +124,11 @@ msgstr "Все слоты"
 msgctxt "Interface.LogicReadersCategory"
 msgid "Logic Readers"
 msgstr "Чипы чтения"
+
+#: /Language/Interface/Record[Key='LogicWriterCategory']
+msgctxt "Interface.LogicWriterCategory"
+msgid "Logic Writers"
+msgstr "Чипы записи"
 
 #: /Language/Interface/Record[Key='MotherboardCategory']
 msgctxt "Interface.MotherboardCategory"
@@ -236,6 +256,11 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Сохранённые миры"
 
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "НЕ РЕКОМЕНДУЕТСЯ"
+
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
@@ -260,11 +285,6 @@ msgstr "Астероиды:"
 msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "Версия:"
-
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, re quests an item of the provided type from the device"
-msgstr "Если задан уникальный идентификатор, запрашивает элемент указанного типа из устройства"
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
@@ -788,6 +808,11 @@ msgctxt "Interface.SettingsVoiceControl"
 msgid "Voice Control"
 msgstr "Управление голосом"
 
+#: /Language/Interface/Record[Key='OreHeader']
+msgctxt "Interface.OreHeader"
+msgid "Ores"
+msgstr "Руды"
+
 #: /Language/Interface/Record[Key='SettingsCameraSensitivity']
 msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
@@ -828,11 +853,6 @@ msgstr "Внимание"
 msgctxt "Interface.ServerSettingsButtonReset"
 msgid "Reset Settings"
 msgstr "Сбросить настройки"
-
-#: /Language/Interface/Record[Key='LogicWriterCategory']
-msgctxt "Interface.LogicWriterCategory"
-msgid "Logic Writers"
-msgstr "Чипы записи"
 
 #: /Language/Interface/Record[Key='ButtonConfirm']
 msgctxt "Interface.ButtonConfirm"
@@ -1454,15 +1474,15 @@ msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
 msgstr "Перезаписать"
 
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "Введите название сохранения..."
-
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "Креатив"
+
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "Выживание"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
@@ -1494,46 +1514,6 @@ msgctxt "Interface.JoinMenuInfoPlayers"
 msgid "Players:"
 msgstr "Игроков:"
 
-#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
-msgctxt "Interface.ChangeAppearanceTitle"
-msgid "Change Appearance"
-msgstr "Изменение внешности"
-
-#: /Language/Interface/Record[Key='AppearanceTitleGender']
-msgctxt "Interface.AppearanceTitleGender"
-msgid "Gender"
-msgstr "Пол"
-
-#: /Language/Interface/Record[Key='AppearanceTitleFace']
-msgctxt "Interface.AppearanceTitleFace"
-msgid "Face"
-msgstr "Лицо"
-
-#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
-msgctxt "Interface.AppearanceTitleHairStyle"
-msgid "Hair"
-msgstr "Волосы"
-
-#: /Language/Interface/Record[Key='CableCategory']
-msgctxt "Interface.CableCategory"
-msgid "Cables and Analyzers"
-msgstr "Кабели и анализаторы"
-
-#: /Language/Interface/Record[Key='BatteryCategory']
-msgctxt "Interface.BatteryCategory"
-msgid "Power Storage"
-msgstr "Хранение энергии"
-
-#: /Language/Interface/Record[Key='PersonalSuits']
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "Скафандр"
-
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Chairs"
-msgstr ""
-
 #: /Language/Interface/Record[Key='DoorCategory']
 msgctxt "Interface.DoorCategory"
 msgid "Doors and Hatches"
@@ -1559,6 +1539,17 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "Слот"
 
+#: /Language/Interface/Record[Key='Stress']
+#, fuzzy
+msgctxt "Interface.Stress"
+msgid "Stress"
+msgstr "Адрес"
+
+#: /Language/Interface/Record[Key='Rpm']
+msgctxt "Interface.Rpm"
+msgid "Rpm"
+msgstr ""
+
 #: /Language/Interface/Record[Key='RespawnConditionStationeer']
 #, fuzzy
 msgctxt "Interface.RespawnConditionStationeer"
@@ -1575,17 +1566,20 @@ msgctxt "Interface.RespawnConditionEasy"
 msgid "Easy"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ShadowCascades']
-#, fuzzy
-msgctxt "Interface.ShadowCascades"
-msgid "ShadowCascades"
-msgstr "Тени"
+#: /Language/Interface/Record[Key='CombustionLimiter']
+msgctxt "Interface.CombustionLimiter"
+msgid "Combustion Limiter"
+msgstr ""
 
-#: /Language/Interface/Record[Key='ShadowMode']
-#, fuzzy
-msgctxt "Interface.ShadowMode"
-msgid "Shadows"
-msgstr "Тени"
+#: /Language/Interface/Record[Key='Throttle']
+msgctxt "Interface.Throttle"
+msgid "Throttle"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScoreboardDaysLived']
+msgctxt "Interface.ScoreboardDaysLived"
+msgid "Days Lived"
+msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaThermalConductivityRadiation']
 msgctxt "Interface.StationpediaThermalConductivityRadiation"
@@ -1706,11 +1700,6 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "Цвет волос"
-
 #: /Language/Interface/Record[Key='StationpediaNutrition']
 #, fuzzy
 msgctxt "Interface.StationpediaNutrition"
@@ -1727,6 +1716,11 @@ msgstr ""
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
 msgstr "Максимальное давление:"
+
+#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
+msgctxt "Interface.ChangeAppearanceTitle"
+msgid "Change Appearance"
+msgstr "Изменение внешности"
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
@@ -4911,6 +4905,26 @@ msgctxt "Interface.LogicTypePressureEfficiency"
 msgid "How the pressure of the input pipe and waste pipe effect the machines efficiency"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeStress']
+msgctxt "Interface.LogicTypeStress"
+msgid "Machines get stressed when working hard. When Stress reaches 100 the machine will automatically shut down"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRpm']
+msgctxt "Interface.LogicTypeRpm"
+msgid "The number of revolutions per minute that the device's spinning machanism is doing"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeThrottle']
+msgctxt "Interface.LogicTypeThrottle"
+msgid "Increases the rate at which the machine works (range: 0-100)"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeCombustionLimiter']
+msgctxt "Interface.LogicTypeCombustionLimiter"
+msgid "Retards the rate of combustion inside the machine (range: 0-100), with 0 being the slowest rate of combustion and 100 being the fastest"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeTemperatureDifferentialEfficiency']
 msgctxt "Interface.LogicTypeTemperatureDifferentialEfficiency"
 msgid "How the difference between the input pipe and waste pipe temperatures effect the machines efficiency"
@@ -5075,10 +5089,10 @@ msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
 msgstr "Насколько завершена текущая продукция для этого устройства, от 0 до 1"
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "Цвет глаз"
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
+msgstr "Если задан уникальный идентификатор, запрашивает элемент указанного типа из устройства"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
@@ -5101,10 +5115,10 @@ msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr "НЕ РЕКОМЕНДУЕТСЯ"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
-msgid "DEPRECATED"
-msgstr "НЕ РЕКОМЕНДУЕТСЯ"
+#: /Language/Interface/Record[Key='AppearanceTitleGender']
+msgctxt "Interface.AppearanceTitleGender"
+msgid "Gender"
+msgstr "Пол"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
@@ -6367,10 +6381,40 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "Борода (Усы)"
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "Выживание"
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "Оттенок кожи"
+
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "Цвет глаз"
+
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "Цвет волос"
+
+#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
+msgctxt "Interface.AppearanceTitleHairStyle"
+msgid "Hair"
+msgstr "Волосы"
+
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "Введите название сохранения..."
+
+#, fuzzy
+#~ msgctxt "Interface.ShadowCascades"
+#~ msgid "ShadowCascades"
+#~ msgstr "Тени"
+
+#, fuzzy
+#~ msgctxt "Interface.ShadowMode"
+#~ msgid "Shadows"
+#~ msgstr "Тени"
 
 #, fuzzy
 #~ msgctxt "Interface.StationpediaLogicHeader"

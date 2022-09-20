@@ -10,10 +10,30 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
-msgctxt "Interface.AppearanceTitleSkinColor"
-msgid "Skin Colour"
-msgstr "肌の色"
+#: /Language/Interface/Record[Key='AppearanceTitleFace']
+msgctxt "Interface.AppearanceTitleFace"
+msgid "Face"
+msgstr "顔"
+
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Chairs"
+msgstr "椅子"
+
+#: /Language/Interface/Record[Key='PersonalSuits']
+msgctxt "Interface.PersonalSuits"
+msgid "Suits"
+msgstr "スーツ"
+
+#: /Language/Interface/Record[Key='BatteryCategory']
+msgctxt "Interface.BatteryCategory"
+msgid "Power Storage"
+msgstr ""
+
+#: /Language/Interface/Record[Key='CableCategory']
+msgctxt "Interface.CableCategory"
+msgid "Cables and Analyzers"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LightCategory']
 msgctxt "Interface.LightCategory"
@@ -54,11 +74,6 @@ msgstr "メガネ"
 msgctxt "Interface.PersonalClothing"
 msgid "Clothing"
 msgstr "衣服"
-
-#: /Language/Interface/Record[Key='OreHeader']
-msgctxt "Interface.OreHeader"
-msgid "Ores"
-msgstr "鉱石"
 
 #: /Language/Interface/Record[Key='ReagentsHeader']
 msgctxt "Interface.ReagentsHeader"
@@ -108,6 +123,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='LogicReadersCategory']
 msgctxt "Interface.LogicReadersCategory"
 msgid "Logic Readers"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicWriterCategory']
+msgctxt "Interface.LogicWriterCategory"
+msgid "Logic Writers"
 msgstr ""
 
 #: /Language/Interface/Record[Key='MotherboardCategory']
@@ -235,6 +255,11 @@ msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "保存されたワールド"
 
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "廃止"
+
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
 msgid "Saved:"
@@ -259,11 +284,6 @@ msgstr "アステロイド:"
 msgctxt "Interface.WorldInfoTextVersion"
 msgid "Version:"
 msgstr "バージョン:"
-
-#: /Language/Interface/Record[Key='LogicTypeRequestHash']
-msgctxt "Interface.LogicTypeRequestHash"
-msgid "When set to the unique identifier, re quests an item of the provided type from the device"
-msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDelete']
 msgctxt "Interface.WorldInfoButtonDelete"
@@ -786,6 +806,11 @@ msgctxt "Interface.SettingsVoiceControl"
 msgid "Voice Control"
 msgstr "音声コントロール"
 
+#: /Language/Interface/Record[Key='OreHeader']
+msgctxt "Interface.OreHeader"
+msgid "Ores"
+msgstr "鉱石"
+
 #: /Language/Interface/Record[Key='SettingsCameraSensitivity']
 msgctxt "Interface.SettingsCameraSensitivity"
 msgid "Camera Sensitivity"
@@ -825,11 +850,6 @@ msgstr "注意"
 msgctxt "Interface.ServerSettingsButtonReset"
 msgid "Reset Settings"
 msgstr "設定リセット"
-
-#: /Language/Interface/Record[Key='LogicWriterCategory']
-msgctxt "Interface.LogicWriterCategory"
-msgid "Logic Writers"
-msgstr ""
 
 #: /Language/Interface/Record[Key='ButtonConfirm']
 msgctxt "Interface.ButtonConfirm"
@@ -1455,15 +1475,15 @@ msgctxt "Interface.SaveMenuOverwriteButton"
 msgid "Overwrite"
 msgstr "上書き"
 
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "セーブ名を入力…"
-
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
 msgid "Creative"
 msgstr "クリエイティブ"
+
+#: /Language/Interface/Record[Key='NewWorldModeSurvival']
+msgctxt "Interface.NewWorldModeSurvival"
+msgid "Survival"
+msgstr "サバイバル"
 
 #: /Language/Interface/Record[Key='JoinMenuServerListMap']
 msgctxt "Interface.JoinMenuServerListMap"
@@ -1495,46 +1515,6 @@ msgctxt "Interface.JoinMenuInfoPlayers"
 msgid "Players:"
 msgstr "プレイヤー:"
 
-#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
-msgctxt "Interface.ChangeAppearanceTitle"
-msgid "Change Appearance"
-msgstr "外観の変更"
-
-#: /Language/Interface/Record[Key='AppearanceTitleGender']
-msgctxt "Interface.AppearanceTitleGender"
-msgid "Gender"
-msgstr "性別"
-
-#: /Language/Interface/Record[Key='AppearanceTitleFace']
-msgctxt "Interface.AppearanceTitleFace"
-msgid "Face"
-msgstr "顔"
-
-#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
-msgctxt "Interface.AppearanceTitleHairStyle"
-msgid "Hair"
-msgstr "髪"
-
-#: /Language/Interface/Record[Key='CableCategory']
-msgctxt "Interface.CableCategory"
-msgid "Cables and Analyzers"
-msgstr ""
-
-#: /Language/Interface/Record[Key='BatteryCategory']
-msgctxt "Interface.BatteryCategory"
-msgid "Power Storage"
-msgstr ""
-
-#: /Language/Interface/Record[Key='PersonalSuits']
-msgctxt "Interface.PersonalSuits"
-msgid "Suits"
-msgstr "スーツ"
-
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Chairs"
-msgstr "椅子"
-
 #: /Language/Interface/Record[Key='DoorCategory']
 msgctxt "Interface.DoorCategory"
 msgid "Doors and Hatches"
@@ -1560,6 +1540,17 @@ msgctxt "Interface.SlotKey"
 msgid "Slot"
 msgstr "スロット"
 
+#: /Language/Interface/Record[Key='Stress']
+#, fuzzy
+msgctxt "Interface.Stress"
+msgid "Stress"
+msgstr "アドレス"
+
+#: /Language/Interface/Record[Key='Rpm']
+msgctxt "Interface.Rpm"
+msgid "Rpm"
+msgstr ""
+
 #: /Language/Interface/Record[Key='RespawnConditionStationeer']
 #, fuzzy
 msgctxt "Interface.RespawnConditionStationeer"
@@ -1576,17 +1567,20 @@ msgctxt "Interface.RespawnConditionEasy"
 msgid "Easy"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ShadowCascades']
-#, fuzzy
-msgctxt "Interface.ShadowCascades"
-msgid "ShadowCascades"
-msgstr "影"
+#: /Language/Interface/Record[Key='CombustionLimiter']
+msgctxt "Interface.CombustionLimiter"
+msgid "Combustion Limiter"
+msgstr ""
 
-#: /Language/Interface/Record[Key='ShadowMode']
-#, fuzzy
-msgctxt "Interface.ShadowMode"
-msgid "Shadows"
-msgstr "影"
+#: /Language/Interface/Record[Key='Throttle']
+msgctxt "Interface.Throttle"
+msgid "Throttle"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ScoreboardDaysLived']
+msgctxt "Interface.ScoreboardDaysLived"
+msgid "Days Lived"
+msgstr ""
 
 #: /Language/Interface/Record[Key='StationpediaThermalConductivityRadiation']
 msgctxt "Interface.StationpediaThermalConductivityRadiation"
@@ -1705,11 +1699,6 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
-msgctxt "Interface.AppearanceTitleHairColor"
-msgid "Hair Colour"
-msgstr "髪の色"
-
 #: /Language/Interface/Record[Key='StationpediaNutrition']
 msgctxt "Interface.StationpediaNutrition"
 msgid "Nutrition:"
@@ -1724,6 +1713,11 @@ msgstr ""
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
 msgstr "最大圧力:"
+
+#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
+msgctxt "Interface.ChangeAppearanceTitle"
+msgid "Change Appearance"
+msgstr "外観の変更"
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
@@ -4867,6 +4861,26 @@ msgctxt "Interface.LogicTypePressureEfficiency"
 msgid "How the pressure of the input pipe and waste pipe effect the machines efficiency"
 msgstr ""
 
+#: /Language/Interface/Record[Key='LogicTypeStress']
+msgctxt "Interface.LogicTypeStress"
+msgid "Machines get stressed when working hard. When Stress reaches 100 the machine will automatically shut down"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeRpm']
+msgctxt "Interface.LogicTypeRpm"
+msgid "The number of revolutions per minute that the device's spinning machanism is doing"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeThrottle']
+msgctxt "Interface.LogicTypeThrottle"
+msgid "Increases the rate at which the machine works (range: 0-100)"
+msgstr ""
+
+#: /Language/Interface/Record[Key='LogicTypeCombustionLimiter']
+msgctxt "Interface.LogicTypeCombustionLimiter"
+msgid "Retards the rate of combustion inside the machine (range: 0-100), with 0 being the slowest rate of combustion and 100 being the fastest"
+msgstr ""
+
 #: /Language/Interface/Record[Key='LogicTypeTemperatureDifferentialEfficiency']
 msgctxt "Interface.LogicTypeTemperatureDifferentialEfficiency"
 msgid "How the difference between the input pipe and waste pipe temperatures effect the machines efficiency"
@@ -5027,10 +5041,10 @@ msgctxt "Interface.LogicTypeCompletionRatio"
 msgid "How complete the current production is for this device, between 0 and 1"
 msgstr ""
 
-#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
-msgctxt "Interface.AppearanceTitleEyeColor"
-msgid "Eye Colour"
-msgstr "目の色"
+#: /Language/Interface/Record[Key='LogicTypeRequestHash']
+msgctxt "Interface.LogicTypeRequestHash"
+msgid "When set to the unique identifier, re quests an item of the provided type from the device"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePlantHash4']
 msgctxt "Interface.LogicTypePlantHash4"
@@ -5053,10 +5067,10 @@ msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr "廃止"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
-msgid "DEPRECATED"
-msgstr "廃止"
+#: /Language/Interface/Record[Key='AppearanceTitleGender']
+msgctxt "Interface.AppearanceTitleGender"
+msgid "Gender"
+msgstr "性別"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
@@ -6269,10 +6283,40 @@ msgctxt "Interface.AppearanceTitleFacialHairStyle"
 msgid "Facial Hair"
 msgstr "髭"
 
-#: /Language/Interface/Record[Key='NewWorldModeSurvival']
-msgctxt "Interface.NewWorldModeSurvival"
-msgid "Survival"
-msgstr "サバイバル"
+#: /Language/Interface/Record[Key='AppearanceTitleSkinColor']
+msgctxt "Interface.AppearanceTitleSkinColor"
+msgid "Skin Colour"
+msgstr "肌の色"
+
+#: /Language/Interface/Record[Key='AppearanceTitleEyeColor']
+msgctxt "Interface.AppearanceTitleEyeColor"
+msgid "Eye Colour"
+msgstr "目の色"
+
+#: /Language/Interface/Record[Key='AppearanceTitleHairColor']
+msgctxt "Interface.AppearanceTitleHairColor"
+msgid "Hair Colour"
+msgstr "髪の色"
+
+#: /Language/Interface/Record[Key='AppearanceTitleHairStyle']
+msgctxt "Interface.AppearanceTitleHairStyle"
+msgid "Hair"
+msgstr "髪"
+
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "セーブ名を入力…"
+
+#, fuzzy
+#~ msgctxt "Interface.ShadowCascades"
+#~ msgid "ShadowCascades"
+#~ msgstr "影"
+
+#, fuzzy
+#~ msgctxt "Interface.ShadowMode"
+#~ msgid "Shadows"
+#~ msgstr "影"
 
 #~ msgctxt "Interface.LogicState"
 #~ msgid "State {COLORGREEN:#VAR1#}"
