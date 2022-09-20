@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-20 13:00+0000\n"
+"PO-Revision-Date: 2022-09-20 13:05+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2796,24 +2796,22 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureChuteFlipFlopSplitter']
 msgctxt "Things.StructureChuteFlipFlopSplitter"
 msgid "A chute that toggles between two outputs"
-msgstr ""
+msgstr "Una tolva que alterna entre dos salidas"
 
 #: /Language/Things/RecordThing[Key='StructureChuteValve']
-#, fuzzy
 msgctxt "Things.StructureChuteValve"
 msgid "Chute Valve"
-msgstr "Entrada Tolva"
+msgstr "Tolva de Válvula"
 
 #: /Language/Things/RecordThing[Key='StructureChuteValve']
 msgctxt "Things.StructureChuteValve"
 msgid "The Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute."
-msgstr ""
+msgstr "La tolva de válvula detendrá el flujo de materiales cuando se configure para cerrar y cuando se configure para abrir, actuará como un conducto recto."
 
 #: /Language/Things/RecordThing[Key='StructureCombustionCentrifuge']
-#, fuzzy
 msgctxt "Things.StructureCombustionCentrifuge"
 msgid "Combustion Centrifuge"
-msgstr "Kit (Centrifugadora)"
+msgstr "Centrífuga de combustión"
 
 #: /Language/Things/RecordThing[Key='StructureCombustionCentrifuge']
 msgctxt "Things.StructureCombustionCentrifuge"
@@ -2823,35 +2821,34 @@ msgid ""
 "Ejecting ore from the Combustion Centrifuge while it is at high RPMs will result in additional stress build up.  If turned off while not stressed, the machine will automatically start to brake, and reduce RPMs in a controlled manner.\n"
 "\t  "
 msgstr ""
+"La centrífuga de combustión es una versión a gas de la {THING:StructureCentrifuge}. Se debe suministrar una mezcla de combustible a la entrada de gas, y los gases residuales deben ventilarse de la salida. Las RPM de la máquina deben controlarse a través de las palancas del acelerador y del limitador de combustión. Si la centrífuga de combustión gana, o pierde, rpm demasiado rápido, experimentará estrés y, finalmente, se detendrá.  Las RPM más altas dan como resultado directamente velocidades de procesamiento más rápidas.\n"
+"La palanca del acelerador controla la cantidad de combustible que se introduce en la máquina, lo que aumenta la temperatura dentro del motor y conduce a un aumento de las RPM. La palanca limitadora influye en la velocidad de la combustión y en la cantidad de gas no consumido que hay en el escape.\t  \n"
+"Expulsar mineral de la centrífuga de combustión mientras está a altas RPM dará como resultado una acumulación de estrés adicional.  Si se apaga mientras no está estresada, la máquina comenzará a frenar automáticamente y reducirá las RPM de manera controlada.  "
 
 #: /Language/Things/RecordThing[Key='StructureChuteOverflow']
-#, fuzzy
 msgctxt "Things.StructureChuteOverflow"
 msgid "Chute Overflow"
-msgstr "Salida Tolva"
+msgstr "Tolva de Desbordamiento"
 
 #: /Language/Things/RecordThing[Key='StructureChuteOverflow']
 msgctxt "Things.StructureChuteOverflow"
 msgid "The overflow chute will direct materials to its overflow port when the thing connected to its default port is already occupied."
-msgstr ""
+msgstr "El conducto de desbordamiento dirigirá los materiales a su puerto de desbordamiento cuando la cosa conectada a su puerto predeterminado ya esté ocupada."
 
 #: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
-#, fuzzy
 msgctxt "Things.KitStructureCombustionCentrifuge"
 msgid "Kit (Combustion Centrifuge)"
-msgstr "Kit (Centrifugadora)"
+msgstr "Kit (Centrífuga de combustión)"
 
 #: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
-#, fuzzy
 msgctxt "Things.KitStructureCombustionCentrifuge"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveLeft']
-#, fuzzy
 msgctxt "Things.StructureChuteDigitalValveLeft"
 msgid "Chute Digital Valve Left"
-msgstr "Válvula Digital"
+msgstr "Tolva de Válvula digital a la izquierda"
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveLeft']
 msgctxt "Things.StructureChuteDigitalValveLeft"
@@ -2859,12 +2856,13 @@ msgid ""
 "The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items "
 "have passed through. This threshold can be set using the dial."
 msgstr ""
+"La tolva de válvula digital detendrá el flujo de materiales cuando se configure para cerrar y cuando se configure para abrir, actuará como un conducto recto. La válvula se cerrará automáticamente "
+"después de que haya pasado un cierto número de elementos. Este umbral se puede establecer mediante el dial."
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveRight']
-#, fuzzy
 msgctxt "Things.StructureChuteDigitalValveRight"
 msgid "Chute Digital Valve Right"
-msgstr "Válvula Digital"
+msgstr "Tolva de Válvula digital a la derecha"
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveRight']
 msgctxt "Things.StructureChuteDigitalValveRight"
@@ -2872,6 +2870,8 @@ msgid ""
 "The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items "
 "have passed through. This threshold can be set using the dial."
 msgstr ""
+"La tolva de válvula digital detendrá el flujo de materiales cuando se configure para cerrar y cuando se configure para abrir, actuará como un conducto recto. La válvula se cerrará automáticamente "
+"después de que haya pasado un cierto número de elementos. Este umbral se puede establecer mediante el dial."
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalFlipFlopSplitterLeft']
 msgctxt "Things.StructureChuteDigitalFlipFlopSplitterLeft"
@@ -2896,18 +2896,18 @@ msgid ""
 "The digital flip flop will toggle between two outputs using a specified ratio (n:1). For example, setting the dial to 2 would allow two items to pass through the primary output before flipping to "
 "the secondary output."
 msgstr ""
+"El flip flop digital alternará entre dos salidas utilizando una relación especificada (n: 1). Por ejemplo, establecer el dial en 2 permitiría que dos elementos pasen a través de la salida principal "
+"antes de pasar a la salida secundaria."
 
 #: /Language/Things/RecordThing[Key='ItemKitStandardChute']
-#, fuzzy
 msgctxt "Things.ItemKitStandardChute"
 msgid "Kit (Powered Chutes)"
-msgstr "Kit Construcción (Tolvas)"
+msgstr "Kit (Conductos motorizados)"
 
 #: /Language/Things/RecordThing[Key='ItemKitStandardChute']
-#, fuzzy
 msgctxt "Things.ItemKitStandardChute"
 msgid "This kit produces a variety of powered chutes"
-msgstr "Este kit produce una variedad de tuberias de liquidos."
+msgstr "Este kit produce una variedad de conductos motorizados"
 
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterEmpty']
 msgctxt "Things.DynamicMKIILiquidCanisterEmpty"
@@ -9618,13 +9618,15 @@ msgid "Chair"
 msgstr "Silla"
 
 #: /Language/Things/RecordThing[Key='StructureCentrifuge']
-#, fuzzy
 msgctxt "Things.StructureCentrifuge"
 msgid ""
 "If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs {LINK:ReagentPage;reagent} mixture rather than the desired {LINK:IngotPage;ingots}, a centrifuge allows you to reclaim "
 "the raw {LINK:OrePage;ore}. It also refines {THING:ItemDirtyOre} produced from the {THING:StructureDeepMiner}. Its bigger brother {THING:StructureCombustionCentrifuge} can be used to process items "
 "significantly faster. "
-msgstr "Centrifugadora"
+msgstr ""
+"Si un {THING:StructureRecycler} o un desequilibrado {THING:StructureFurnace} produce la mezcla {LINK:ReagentPage;reagent} en lugar de la deseada {LINK:IngotPage;ingots}, una centrífuga le permite "
+"recuperar el {LINK:OrePage;ore} sin procesar. También refina {THING:ItemDirtyOre} producido a partir de {THING:StructureDeepMiner}. Su hermano mayor {THING:StructureCombustionCentrifuge} se puede "
+"utilizar para procesar artículos significativamente más rápido. "
 
 #: /Language/Things/RecordThing[Key='StructureCentrifuge']
 msgctxt "Things.StructureCentrifuge"
@@ -10947,10 +10949,9 @@ msgid "Kit (Computer)"
 msgstr "Kit (Ordenador)"
 
 #: /Language/Things/RecordThing[Key='ItemKitChute']
-#, fuzzy
 msgctxt "Things.ItemKitChute"
 msgid "This kit produces a variety of unpowered chutes."
-msgstr "Kit Construcción (Tolvas)"
+msgstr "Este kit produce una variedad de conductos sin motor."
 
 #: /Language/Things/RecordThing[Key='ItemKitChute']
 #, fuzzy
