@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-20 21:03+0000\n"
+"PO-Revision-Date: 2022-09-20 21:06+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -689,11 +689,14 @@ msgid ""
 "The 'N Flow-P' has four connections, allowing you to pass two gas networks into the unit, which then works to equalize temperature across the two separate networks.\n"
 "As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to gas management devices like a {THING:StructureVolumePump} or a {THING:StructureBackPressureRegulator}."
 msgstr ""
+"Angeblich wurden die Spezifikationen für den Flow-P-Wärmetauscher der N-Serie auf der Rückseite einer Rechnung von einem gelangweilten {LINK:Sinotai; Sinotai} Designer gekritzelt, während er den brasilianischen Weltraumaufzug hinauf fuhr, dennoch wurde es zu einem der am häufigsten kopierten Wärmetauscherdesigns im Sonnensystem.\n"
+"Der \"N Flow-P\" hat vier Anschlüsse, mit denen du zwei Flüssigkeitsnetzwerke in die Einheit leiten kannst, die dann die Temperatur über die beiden Netzwerke auszugleicht.\n"
+"Da das N Flow-P ein passives System ist, gleicht es den Druck über die beiden Netzwerke aus, es sei denn, es ist mit einer {THING:StructureVolumePump} oder einem {THING:StructureBackPressureRegulator} verbunden."
 
 #: /Language/Things/RecordThing[Key='StructureHeatExchangeLiquidtoGas']
 msgctxt "Things.StructureHeatExchangeLiquidtoGas"
 msgid "Heat Exchanger - Liquid + Gas"
-msgstr ""
+msgstr "Wärmetauscher - Flüssigkeit + Gas"
 
 #: /Language/Things/RecordThing[Key='StructureHeatExchangeLiquidtoGas']
 msgctxt "Things.StructureHeatExchangeLiquidtoGas"
@@ -702,11 +705,14 @@ msgid ""
 "The 'N Flow-P' has four connections, allowing you to pass separate liquid and gas networks into the unit, which then works to equalize temperature across the two separate networks.\n"
 "As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to devices like a {THING:StructureVolumePump} or a {THING:StructureBackLiquidPressureRegulator}."
 msgstr ""
+"Angeblich wurden die Spezifikationen für den Flow-P-Wärmetauscher der N-Serie auf der Rückseite einer Rechnung von einem gelangweilten {LINK:Sinotai; Sinotai} Designer gekritzelt, während er den brasilianischen Weltraumaufzug hinauf fuhr, dennoch wurde es zu einem der am häufigsten kopierten Wärmetauscherdesigns im Sonnensystem.\n"
+"Der \"N Flow-P\" hat vier Anschlüsse, mit denen du zwei Flüssigkeitsnetzwerke in die Einheit leiten kannst, die dann die Temperatur über die beiden Netzwerke auszugleicht.\n"
+"Da das N Flow-P ein passives System ist, gleicht es den Druck über die beiden Netzwerke aus, es sei denn, es ist mit einer {THING:StructureVolumePump} oder einem {THING:StructureBackLiquidPressureRegulator} verbunden."
 
 #: /Language/Things/RecordThing[Key='StructureHeatExchangeLiquidAndGas']
 msgctxt "Things.StructureHeatExchangeLiquidAndGas"
 msgid "Heat Exchange Liquid And Gas"
-msgstr ""
+msgstr "Wärmeaustausch Flüssigkeit und Gas"
 
 #: /Language/Things/RecordThing[Key='StructureHeatExchangeLiquidAndGas']
 msgctxt "Things.StructureHeatExchangeLiquidAndGas"
@@ -727,7 +733,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='LogicStepSequencer8']
 msgctxt "Things.LogicStepSequencer8"
 msgid "Logic Step Sequencer"
-msgstr ""
+msgstr "Logik Schrittzähler"
 
 #: /Language/Things/RecordThing[Key='LogicStepSequencer8']
 msgctxt "Things.LogicStepSequencer8"
@@ -756,11 +762,34 @@ msgid ""
 "\n"
 "9: Finally, activate the sequencer, Vibeoneer."
 msgstr ""
+"Der {LINK:ODA;ODA} billigt keine Soundtracks oder andere Ablenkungen.\n"
+"Daher mussten {LINK:Stationeers; Stationeers} ihre eigene musikalische Begleitung zu der anspruchsvollen Arbeit des Aufbaus und der Instandhaltung von außerirdischer Infrastruktur schaffen.\n"
+"Im Mittelpunkt dieser vergangenen Zeit steht der Step Sequencer, der es Stationeers ermöglicht, kurze musikalische Muster oder Loops zu sequenzieren. \n"
+"\n"
+"{HEADER:DIY MUSIC - ERSTE SCHRITTE}\n"
+"\n"
+"1: Verbinden Sie 8 {THING:DeviceStepUnit}s über den Datenport auf der linken Seite mit Ihrem Step-Sequenzer.\n"
+"\n"
+"2: Beschriften Sie jede Schritteinheit und weisen Sie dann den Schritteinheiten 1 bis 8 auf dem Schrittzähler mit dem Schraubendreher zu.\n"
+"\n"
+"3: Wählen Sie den Ausgangslautsprecher (z. B. {THING:PassiveSpeaker}), in dem der Zähler die Sounds abspielen soll. Dieser muss mit dem Logiknetzwerk auf der rechten Seite des Zählers verbunden werden.\n"
+"\n"
+"4: Platzieren Sie ein {THING:StopWatch} und verwenden Sie ein {THING:StructureLogicReader} und {THING:StructureLogicWriter}, um die Zeit auf die Zeitvariable auf dem Zähler zu schreiben.\n"
+"\n"
+"5: Setzen Sie das BPM auf dem Zähler mit einem {THING:StructureLogicDial} und einem {THING:StructureLogicWriter}, um in die BPM-Variable des Zählers zu schreiben. Ein höheres bpm wird die Sequenz schneller abspielen. \n"
+"\n"
+"6: Legen Sie eine Tonkassette Ihrer Wahl ein und wählen Sie aus, welche Soundvariante Sie abspielen möchten, indem Sie die Pfeiltasten über und unter dem Kassettensteckplatz drücken.\n"
+"\n"
+"7: Wählen Sie die Tonhöhe der zu spielenden Töne, indem Sie das Zifferblatt an jeder Ihrer 8-Stufen-Einheiten auf die gewünschte Note einstellen. Bei Drums ist jede Note ein anderer Drum-Sound. Sie können Ihre Sounds testen, indem Sie die Aktivierungstaste an jeder Schritteinheit drücken (wobei der Zähler inaktiv ist).\n"
+"\n"
+"8: Werden Sie verrückt mit dem {THING:DeviceLfoVolume}.\n"
+"\n"
+"9: Aktivieren Sie abschließend den Sequenzer Vibeoneer."
 
 #: /Language/Things/RecordThing[Key='DeviceStepUnit']
 msgctxt "Things.DeviceStepUnit"
 msgid "Device Step Unit"
-msgstr ""
+msgstr "Gerät Schritteinheit"
 
 #: /Language/Things/RecordThing[Key='DeviceStepUnit']
 #, fuzzy
@@ -771,7 +800,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StopWatch']
 msgctxt "Things.StopWatch"
 msgid "Stop Watch"
-msgstr ""
+msgstr "Stoppuhr"
 
 #: /Language/Things/RecordThing[Key='StopWatch']
 msgctxt "Things.StopWatch"
@@ -781,7 +810,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeBass']
 msgctxt "Things.ItemSoundCartridgeBass"
 msgid "Sound Cartridge Bass"
-msgstr ""
+msgstr "Tonkassette Bass"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeBass']
 msgctxt "Things.ItemSoundCartridgeBass"
@@ -791,7 +820,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeDrums']
 msgctxt "Things.ItemSoundCartridgeDrums"
 msgid "Sound Cartridge Drums"
-msgstr ""
+msgstr "Tonkassette Schlagzeug"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeDrums']
 msgctxt "Things.ItemSoundCartridgeDrums"
@@ -799,10 +828,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeLeads']
-#, fuzzy
 msgctxt "Things.ItemSoundCartridgeLeads"
 msgid "Sound Cartridge Leads"
-msgstr "{BLANK}"
+msgstr "Tonkassette Leads"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeLeads']
 msgctxt "Things.ItemSoundCartridgeLeads"
@@ -810,10 +838,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeSynth']
-#, fuzzy
 msgctxt "Things.ItemSoundCartridgeSynth"
 msgid "Sound Cartridge Synth"
-msgstr "{BLANK}"
+msgstr "Tonkassette Synth"
 
 #: /Language/Things/RecordThing[Key='ItemSoundCartridgeSynth']
 #, fuzzy
@@ -822,10 +849,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitMusicMachines']
-#, fuzzy
 msgctxt "Things.ItemKitMusicMachines"
 msgid "Kit (Music Machines)"
-msgstr "{BLANK}"
+msgstr "Bausatz (Musikmaschinen)"
 
 #: /Language/Things/RecordThing[Key='ItemKitMusicMachines']
 #, fuzzy
@@ -834,10 +860,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemInsulatedTankConnector']
-#, fuzzy
 msgctxt "Things.ItemInsulatedTankConnector"
 msgid "Insulated (Tank Connector)"
-msgstr "{BLANK}"
+msgstr "Isoliert (Tankanschluss)"
 
 #: /Language/Things/RecordThing[Key='ItemInsulatedTankConnector']
 #, fuzzy
@@ -846,10 +871,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedTankConnector']
-#, fuzzy
 msgctxt "Things.StructureInsulatedTankConnector"
 msgid "Insulated Tank Connector"
-msgstr "{BLANK}"
+msgstr "Isolierter Tankanschluss"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedTankConnector']
 #, fuzzy
@@ -858,10 +882,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemInsulatedTankConnectorLiquid']
-#, fuzzy
 msgctxt "Things.ItemInsulatedTankConnectorLiquid"
 msgid "Kit (Insulated Tank Connector Liquid)"
-msgstr "{BLANK}"
+msgstr "Bausatz (Isolierter Tankanschluss Flüssigkeit)"
 
 #: /Language/Things/RecordThing[Key='ItemInsulatedTankConnectorLiquid']
 #, fuzzy
@@ -870,10 +893,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedTankConnectorLiquid']
-#, fuzzy
 msgctxt "Things.StructureInsulatedTankConnectorLiquid"
 msgid "Insulated Tank Connector Liquid"
-msgstr "{BLANK}"
+msgstr "Isolierter Tankanschluss Flüssigkeit"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedTankConnectorLiquid']
 #, fuzzy
@@ -884,7 +906,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='DecayedFood']
 msgctxt "Things.DecayedFood"
 msgid "Decayed Food"
-msgstr ""
+msgstr "Verdorbene Nahrung"
 
 #: /Language/Things/RecordThing[Key='DecayedFood']
 msgctxt "Things.DecayedFood"
