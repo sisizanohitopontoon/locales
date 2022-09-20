@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-20 21:50+0000\n"
+"PO-Revision-Date: 2022-09-20 21:56+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2967,7 +2967,7 @@ msgstr "Ein leerer, isolierter Flüssigkeits {SLOT:GasCanister}."
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterEmpty']
 msgctxt "Things.DynamicMKIILiquidCanisterEmpty"
 msgid "Portable Liquid Tank Mk II"
-msgstr ""
+msgstr "Tragbarer Flüssigkeitstank Mk II"
 
 #: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
 msgctxt "Things.ItemPipeLiquidRadiator"
@@ -2977,7 +2977,7 @@ msgstr "Dieser Bausatz erstellt ein {THING:StructureLiquidPipeRadiator}."
 #: /Language/Things/RecordThing[Key='ItemPipeLiquidRadiator']
 msgctxt "Things.ItemPipeLiquidRadiator"
 msgid "Kit (Liquid Radiator)"
-msgstr "Kühler (Flüssigkeitsrohre)"
+msgstr "Bausatz (Flüssigkeitskühler)"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
 msgctxt "Things.StructureLiquidPipeRadiator"
@@ -2985,16 +2985,18 @@ msgid ""
 "A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added to the liquid within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. \n"
 "The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will speed up heat transfer."
 msgstr ""
+"Als einfacher Wärmetauscher können Rohrheizkörper auf Rohren platziert werden, um je nach Temperatur der Umgebungsatmosphäre Wärme abzuleiten oder zu gewinnen. Wenn die Atmosphäre heißer ist, wird der Flüssigkeit innerhalb des Rohrnetzes Wärme zugeführt und umgekehrt, wenn sie kälter ist. Im Vakuum wird Wärme abgestrahlt. \n"
+"Die Geschwindigkeit des Wärmegewinns oder -verlusts hängt von der betreffenden Flüssigkeit ab. Das Hinzufügen mehrerer Heizkörper beschleunigt die Wärmeübertragung."
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeRadiator']
 msgctxt "Things.StructureLiquidPipeRadiator"
 msgid "Liquid Pipe Convection Radiator"
-msgstr ""
+msgstr "Flüssigkeitsrohr-Konvektionsstrahler"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
 msgctxt "Things.DynamicGasTankAdvancedWater"
 msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this {SLOT:GasCanister} without them gaining or losing temperature."
-msgstr ""
+msgstr "Eine isolierte Version des {THING:DynamicMKIILiquidCanisterWater}, du kannst Wasser in diesem {SLOT:GasCanister} speichern, ohne dass es an Temperatur gewinnt oder verliert."
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvancedWater']
 msgctxt "Things.DynamicGasTankAdvancedWater"
@@ -3014,7 +3016,7 @@ msgstr "Verstärkter Portabler Tank (Sauerstoff)"
 #: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
 msgctxt "Things.ItemKitIceCrusher"
 msgid "This kit creates a {THING:StructureIceCrusher}."
-msgstr ""
+msgstr "Dieser Bausatz erstellt einen {THING:StructureIceCrusher}."
 
 #: /Language/Things/RecordThing[Key='ItemKitIceCrusher']
 msgctxt "Things.ItemKitIceCrusher"
@@ -3028,6 +3030,9 @@ msgid ""
 "A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either oulet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.\n"
 "If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch."
 msgstr ""
+"Der {LINK:Recurso; Recurso} KoolAuger wandelt verschiedene Eissorten in ihre jeweiligen {LINK:GasPage;Gase} und Flüssigkeiten um.\n"
+"Eine bemerkenswert intelligente und kompakte Sublimations-Schmelzeinheit, die je nach zu verarbeitendem Eis Gas oder Flüssigkeit erzeugt. Der obere Auslass ist für Gas, der untere für Flüssigkeit, und während Sie jedes Rohr, das Sie mögen, an einem der beiden Auslässe befestigen können, funktioniert es nur, wenn das richtige Netzwerk angeschlossen ist. Es wird auch nur Gas oder Flüssigkeit in ein Netzwerk leiten, wenn es mit Strom versorgt und eingeschaltet ist.\n"
+"Wenn der KoolAuger voll ist, nimmt er kein weiteres Eis auf, bis der Gas- oder Flüssigkeitsinhalt abgelassen ist. In diesem Zustand blinkt ein gelber Fehlerindikator auf dem Aktivierungsschalter."
 
 #: /Language/Things/RecordThing[Key='StructureIceCrusher']
 msgctxt "Things.StructureIceCrusher"
@@ -3047,7 +3052,7 @@ msgstr "Wasserflaschen-Befüller"
 #: /Language/Things/RecordThing[Key='ItemWaterBottleFiller']
 msgctxt "Things.ItemWaterBottleFiller"
 msgid "As its somewhat uninspired name suggests, this device refills a {THING:ItemWaterBottle}, when connected to a liquid pipe network."
-msgstr ""
+msgstr "Wie der etwas uninspirierte Name schon sagt, füllt dieses Gerät eine {THING:ItemWaterBottle} nach, wenn es an ein Flüssigkeitsrohrnetzwerk angeschlossen ist."
 
 #: /Language/Things/RecordThing[Key='ItemWaterBottleFiller']
 msgctxt "Things.ItemWaterBottleFiller"
@@ -3396,6 +3401,8 @@ msgid ""
 "Charcoal is a lightweight, black carbon residue produced by heating {THING:ItemBiomass} in a {THING:StructureArcFurnace}. It contains less energy potential than {THING:ItemCoalOre}, but can be used "
 "as a basic fuel source. Charcoal can also be substituted for coal in {LINK:IngotPage;alloy} recipes."
 msgstr ""
+"Holzkohle ist ein leichter, schwarzer Kohlenstoffrückstand, der durch Erhitzen von {THING:ItemBiomass} in einem {THING:StructureArcFurnace} erzeugt wird. Es enthält weniger Energiepotenzial als "
+"{THING:ItemCoalOre}, kann aber als einfache Brennstoffquelle verwendet werden. Holzkohle kann auch in {LINK:IngotPage;alloy}-Rezepten durch Kohle ersetzt werden."
 
 #: /Language/Things/RecordThing[Key='ItemCharcoal']
 msgctxt "Things.ItemCharcoal"
@@ -3408,6 +3415,8 @@ msgid ""
 "The {LINK:Agrizero;Agrizero} hydroponics device is the ideal vessel for growing a range of {LINK:OrganicPage;plantlife}. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. \n"
 "It can be automated using the {THING:StructureHarvie}. Note that unlike the {THING:StructureHydroponicsTray}, these cannot be placed consecutively as they are considered devices rather than pure pipes. They do, however, allow data interrogation for logic systems."
 msgstr ""
+"Der {LINK:Agrizero; Das Hydrokulturgerät Agrizero} ist das ideale Gefäß für den Anbau einer Reihe von {LINK:OrganicPage;plantlife}. Es muss mit Wasser über ein Rohrnetz und ausreichend Licht versorgt werden, um Photosynthese zu erzeugen. \n"
+"Es kann mit dem {THING:StructureHarvie} automatisiert werden. Beachten Sie, dass diese im Gegensatz zum {THING:StructureHydroponicsTray} nicht nacheinander platziert werden können, da sie als Geräte und nicht als reine Rohre betrachtet werden. Sie ermöglichen jedoch die Datenabfrage für Logiksysteme."
 
 #: /Language/Things/RecordThing[Key='StructureHydroponicsTrayData']
 msgctxt "Things.StructureHydroponicsTrayData"
@@ -3420,6 +3429,8 @@ msgid ""
 "Diced organic material that is returned when food and organic matter is passed through the {THING:StructureRecycler} and {THING:StructureCentrifuge}. Can be burned in a {THING:StructureFurnace} into"
 " {THING:ItemCharcoal} for use in the {THING:StructureSolidFuelGenerator}."
 msgstr ""
+"Gewürfeltes organisches Material, das zurückgegeben wird, wenn Nahrung und organisches Material durch {THING:StructureRecycler} und {THING:StructureCentrifuge} geleitet werden. Kann in einem "
+"{THING:StructureFurnace} in {THING:ItemCharcoal} zur Verwendung im {THING:StructureSolidFuelGenerator} gebrannt werden."
 
 #: /Language/Things/RecordThing[Key='ItemBiomass']
 msgctxt "Things.ItemBiomass"
@@ -3442,11 +3453,13 @@ msgid ""
 "Made using {THING:ItemCookedCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Faily high in nutrition, canned food does not "
 "{LINK:DecayPage;decay}."
 msgstr ""
+"Erstellt mit {THING:ItemCookedCorn} und einem {THING:ItemEmptyCan} in einer {THING:AppliancePackagingMachine} oder {THING:StructureAdvancedPackagingMachine}. Ziemlich nahrhafte Konserven ohne "
+"{LINK:DecayPage;decay}"
 
 #: /Language/Things/RecordThing[Key='ItemCornSoup']
 msgctxt "Things.ItemCornSoup"
 msgid "Corn Soup"
-msgstr ""
+msgstr "Maissuppe"
 
 #: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
 msgctxt "Things.ItemPumpkinSoup"
@@ -3454,11 +3467,13 @@ msgid ""
 "Made using {THING:ItemCookedPumpkin} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not "
 "{LINK:DecayPage;decay}"
 msgstr ""
+"Erstellt mit {THING:ItemCookedPumpkin} und einem {THING:ItemEmptyCan} in einer {THING:AppliancePackagingMachine} oder {THING:StructureAdvancedPackagingMachine}. Ziemlich nahrhafte Konserven ohne "
+"{LINK:DecayPage;decay}"
 
 #: /Language/Things/RecordThing[Key='ItemPumpkinSoup']
 msgctxt "Things.ItemPumpkinSoup"
 msgid "Pumpkin Soup"
-msgstr ""
+msgstr "Kürbissuppe"
 
 #: /Language/Things/RecordThing[Key='ItemEmptyCan']
 msgctxt "Things.ItemEmptyCan"
@@ -3466,21 +3481,23 @@ msgid ""
 "Used for making soups when combined with food in the {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not "
 "{LINK:DecayPage;decay}."
 msgstr ""
+"Wird zum Zubereiten von Suppen verwendet, wenn sie mit Lebensmitteln in der {THING:AppliancePackagingMachine} oder {THING:StructureAdvancedPackagingMachine} kombiniert werden. Ziemlich nahrhafte "
+"Konserven ohne {LINK:DecayPage;decay}."
 
 #: /Language/Things/RecordThing[Key='ItemEmptyCan']
 msgctxt "Things.ItemEmptyCan"
 msgid "Empty Can"
-msgstr ""
+msgstr "Leere Dose"
 
 #: /Language/Things/RecordThing[Key='ItemKitCrateMkII']
 msgctxt "Things.ItemKitCrateMkII"
 msgid "This kit produces a {THING:CrateMkII}."
-msgstr ""
+msgstr "Dieser Bausatz erzeugt eine {THING:CrateMkII}."
 
 #: /Language/Things/RecordThing[Key='ItemKitCrateMkII']
 msgctxt "Things.ItemKitCrateMkII"
 msgid "Kit (Crate Mk II)"
-msgstr ""
+msgstr "Bausatz (Kiste Mk II)"
 
 #: /Language/Things/RecordThing[Key='CrateMkII']
 msgctxt "Things.CrateMkII"
@@ -3488,11 +3505,13 @@ msgid ""
 "A more heavily reinforced version of the iconic {THING:DynamicCrate}, the Crate Mk II is resistant to incredibly high pressures and temperatures. Short of disposing of it in a black hole, the Mk II "
 "is about as safe as luggage gets."
 msgstr ""
+"Die Kiste Mk II ist eine schwer verstärkte Version der legendären {THING:DynamicCrate} und beständig gegen unglaublich hohen Druck und Temperaturen. Abgesehen davon, dass er in einem Schwarzen Loch "
+"entsorgt werden kann, ist der Mk II so sicher wie das sicherste Gepäck."
 
 #: /Language/Things/RecordThing[Key='CrateMkII']
 msgctxt "Things.CrateMkII"
 msgid "Crate Mk II"
-msgstr ""
+msgstr "Kiste Mk II"
 
 #: /Language/Things/RecordThing[Key='StructureUprightWindTurbine']
 msgctxt "Things.StructureUprightWindTurbine"
@@ -3526,7 +3545,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitWeatherStation']
 msgctxt "Things.ItemKitWeatherStation"
 msgid "Kit (Weather Station)"
-msgstr ""
+msgstr "Bausatz (Wetterstation)"
 
 #: /Language/Things/RecordThing[Key='StructureWeatherStation']
 msgctxt "Things.StructureWeatherStation"
@@ -3536,17 +3555,17 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureWeatherStation']
 msgctxt "Things.StructureWeatherStation"
 msgid "Weather Station"
-msgstr ""
+msgstr "Wetterstation"
 
 #: /Language/Things/RecordThing[Key='ItemKitGrowLight']
 msgctxt "Things.ItemKitGrowLight"
 msgid "This kit produces an {LINK:Agrizero;Agrizero} {THING:StructureGrowLight}."
-msgstr ""
+msgstr "DieseRbAUSATZ erzeugt eine {LINK:Agrizero; Agrizero} {THING:StructureGrowLight}."
 
 #: /Language/Things/RecordThing[Key='ItemKitGrowLight']
 msgctxt "Things.ItemKitGrowLight"
 msgid "Kit (Grow Light)"
-msgstr ""
+msgstr "Bausatz (UV-Lampe)"
 
 #: /Language/Things/RecordThing[Key='StructureGrowLight']
 msgctxt "Things.StructureGrowLight"
@@ -3554,11 +3573,13 @@ msgid ""
 "{LINK:Agrizero;Agrizero's} leading hydroponic lighting system, the GrowUp UV light supplements sunshine in low light or sun-distant conditions. The unit adds growability over the space of a grid, so"
 " requires proximate placement to work. "
 msgstr ""
+"{LINK:Agrizero;Agrizero's} Das führende hydroponische Beleuchtungssystem von Agrizero, das UV-Licht von GrowUp, ergänzt Sonnenschein bei schlechten Lichtverhältnissen oder sonnenfernen Bedingungen. "
+"Das Gerät fügt Pflanzenwachstum über einen Gitterbereich hinzu, so dass sie über kurze Distanz eingesetzt werden sollten. "
 
 #: /Language/Things/RecordThing[Key='StructureGrowLight']
 msgctxt "Things.StructureGrowLight"
 msgid "Grow Light"
-msgstr ""
+msgstr "UV-Lampe"
 
 #: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
 msgctxt "Things.Rover_MkI_build_states"
@@ -3568,17 +3589,17 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='Rover_MkI_build_states']
 msgctxt "Things.Rover_MkI_build_states"
 msgid "Rover MKI"
-msgstr ""
+msgstr "Rover MKI"
 
 #: /Language/Things/RecordThing[Key='ItemKitRoverMKI']
 msgctxt "Things.ItemKitRoverMKI"
 msgid "Creates a {THING:Rover_MkI}"
-msgstr ""
+msgstr "Erstellt einen {THING:Rover_MkI}"
 
 #: /Language/Things/RecordThing[Key='ItemKitRoverMKI']
 msgctxt "Things.ItemKitRoverMKI"
 msgid "Kit (Rover Mk I)"
-msgstr ""
+msgstr "Bausatz (Rover Mk I)"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageWallCooler2']
 msgctxt "Things.ItemWreckageWallCooler2"
@@ -3588,7 +3609,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageWallCooler2']
 msgctxt "Things.ItemWreckageWallCooler2"
 msgid "Wreckage Wall Cooler"
-msgstr ""
+msgstr "Zerstörter Wandkühler"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageWallCooler1']
 msgctxt "Things.ItemWreckageWallCooler1"
@@ -3598,7 +3619,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageWallCooler1']
 msgctxt "Things.ItemWreckageWallCooler1"
 msgid "Wreckage Wall Cooler"
-msgstr ""
+msgstr "Zerstörter Wandkühler"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirConditioner2']
 msgctxt "Things.ItemWreckageAirConditioner2"
@@ -3608,7 +3629,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageAirConditioner2']
 msgctxt "Things.ItemWreckageAirConditioner2"
 msgid "Wreckage Air Conditioner"
-msgstr ""
+msgstr "Zerstörte Klimaanlage"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirConditioner1']
 msgctxt "Things.ItemWreckageAirConditioner1"
@@ -3618,7 +3639,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageAirConditioner1']
 msgctxt "Things.ItemWreckageAirConditioner1"
 msgid "Wreckage Air Conditioner"
-msgstr ""
+msgstr "Zerstörte Klimaanlage"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
 msgctxt "Things.ItemWreckageTurbineGenerator3"
@@ -3628,7 +3649,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator3']
 msgctxt "Things.ItemWreckageTurbineGenerator3"
 msgid "Wreckage Turbine Generator"
-msgstr ""
+msgstr "Zerstörter Turbinengenerator"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator2']
 msgctxt "Things.ItemWreckageTurbineGenerator2"
@@ -3638,7 +3659,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator2']
 msgctxt "Things.ItemWreckageTurbineGenerator2"
 msgid "Wreckage Turbine Generator"
-msgstr ""
+msgstr "Zerstörter Turbinengenerator"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator1']
 msgctxt "Things.ItemWreckageTurbineGenerator1"
@@ -3648,7 +3669,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageTurbineGenerator1']
 msgctxt "Things.ItemWreckageTurbineGenerator1"
 msgid "Wreckage Turbine Generator"
-msgstr ""
+msgstr "Zerstörter Turbinengenerator"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageStructureRTG1']
 msgctxt "Things.ItemWreckageStructureRTG1"
@@ -3658,7 +3679,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageStructureRTG1']
 msgctxt "Things.ItemWreckageStructureRTG1"
 msgid "Wreckage Structure RTG"
-msgstr ""
+msgstr "Zerstörte Struktur RTG"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_4m']
 msgctxt "Things.Flag_ODA_4m"
@@ -3668,7 +3689,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='Flag_ODA_4m']
 msgctxt "Things.Flag_ODA_4m"
 msgid "Flag (ODA 4m)"
-msgstr ""
+msgstr "Markierung (ODA 4m)"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_6m']
 msgctxt "Things.Flag_ODA_6m"
@@ -3678,7 +3699,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='Flag_ODA_6m']
 msgctxt "Things.Flag_ODA_6m"
 msgid "Flag (ODA 6m)"
-msgstr ""
+msgstr "Markierung (ODA 6m)"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_8m']
 msgctxt "Things.Flag_ODA_8m"
@@ -3688,7 +3709,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='Flag_ODA_8m']
 msgctxt "Things.Flag_ODA_8m"
 msgid "Flag (ODA 8m)"
-msgstr ""
+msgstr "Markierung (ODA 8m)"
 
 #: /Language/Things/RecordThing[Key='Flag_ODA_10m']
 msgctxt "Things.Flag_ODA_10m"
@@ -3698,7 +3719,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='Flag_ODA_10m']
 msgctxt "Things.Flag_ODA_10m"
 msgid "Flag (ODA 10m)"
-msgstr ""
+msgstr "Markierung (ODA 10m)"
 
 #: /Language/Things/RecordThing[Key='ItemKitFlagODA']
 msgctxt "Things.ItemKitFlagODA"
@@ -3708,7 +3729,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitFlagODA']
 msgctxt "Things.ItemKitFlagODA"
 msgid "Kit (ODA Flag)"
-msgstr ""
+msgstr "Kit (ODA-Markierung)"
 
 #: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
 msgctxt "Things.ItemKitRespawnPointWallMounted"
@@ -3718,7 +3739,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitRespawnPointWallMounted']
 msgctxt "Things.ItemKitRespawnPointWallMounted"
 msgid "Kit (Respawn)"
-msgstr ""
+msgstr "Bausatz (Respawn)"
 
 #: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
 msgctxt "Things.RespawnPointWallMounted"
@@ -3728,17 +3749,17 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='RespawnPointWallMounted']
 msgctxt "Things.RespawnPointWallMounted"
 msgid "Respawn Point (Mounted)"
-msgstr ""
+msgstr "Respawn-Punkt (Montiert)"
 
 #: /Language/Things/RecordThing[Key='RespawnPoint']
 msgctxt "Things.RespawnPoint"
 msgid "Place a respawn point to set a player entry point to your base when loading in, or returning from the dead."
-msgstr ""
+msgstr "Platziere einen Respawnpunkt, um einen Spieler Wiedereinstiegspunkt zu deiner Basis zu setzen, wenn du das Spiel lädst oder von den Toten zurückkehrst."
 
 #: /Language/Things/RecordThing[Key='RespawnPoint']
 msgctxt "Things.RespawnPoint"
 msgid "Respawn Point"
-msgstr ""
+msgstr "Respawn-Punkt"
 
 #: /Language/Things/RecordThing[Key='StructureSpawnPoint']
 msgctxt "Things.StructureSpawnPoint"
@@ -3748,7 +3769,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureSpawnPoint']
 msgctxt "Things.StructureSpawnPoint"
 msgid "Spawn Point"
-msgstr ""
+msgstr "Spawn-Punkt"
 
 #: /Language/Things/RecordThing[Key='Rover_MkI']
 msgctxt "Things.Rover_MkI"
@@ -3756,11 +3777,13 @@ msgid ""
 "A distant cousin of the jeep, the Mk I {{LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.\n"
 "A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up."
 msgstr ""
+"Ein entfernter Cousin des Jeeps, der Mk I {{LINK:Sinotai; Sinotai} elektrischer Rover ist eines der einfachsten und langlebigsten Leichtfahrzeuge im bekannten Universum. Es kann zwei Passagiere und Fracht wie {THING:DynamicGasCanisterAir} oder {THING:Crate} befördern, wird aber mit bis zu drei Batterien betrieben und akzeptiert alles, einschließlich {THING:ItemBatteryCellNuclear}.\n"
+"Ein Quad-Array von Naben-Elektromotoren treibt den verstärkten Aluminiumrahmen über das meiste Gelände und kleinere Hindernisse. Der Mk I ist zwar für Stabilität mit niedriger Horizontalität ausgelegt, doch wenn er mal kippt, versuche deine {THING:ItemCrowbar} zu verwenden, um ihn aufzurichten."
 
 #: /Language/Things/RecordThing[Key='Rover_MkI']
 msgctxt "Things.Rover_MkI"
 msgid "Rover MkI"
-msgstr ""
+msgstr "Rover MkI"
 
 #: /Language/Things/RecordThing[Key='StructurePlinth']
 msgctxt "Things.StructurePlinth"
@@ -3770,7 +3793,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructurePlinth']
 msgctxt "Things.StructurePlinth"
 msgid "Plinth"
-msgstr ""
+msgstr "Sockel"
 
 #: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
 msgctxt "Things.ItemKitDynamicGasTankAdvanced"
@@ -3780,7 +3803,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemKitDynamicGasTankAdvanced']
 msgctxt "Things.ItemKitDynamicGasTankAdvanced"
 msgid "Kit (Portable Gas Tank Mk II)"
-msgstr ""
+msgstr "Bausatz (Tragbarer Gastank Mk II)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
 msgctxt "Things.DynamicGasTankAdvanced"
@@ -3790,7 +3813,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='DynamicGasTankAdvanced']
 msgctxt "Things.DynamicGasTankAdvanced"
 msgid "Gas Tank Mk II"
-msgstr ""
+msgstr "Gastank Mk II"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
 msgctxt "Things.ItemWreckageHydroponicsTray1"
@@ -3800,7 +3823,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsTray1']
 msgctxt "Things.ItemWreckageHydroponicsTray1"
 msgid "Wreckage Hydroponics Tray"
-msgstr ""
+msgstr "Zerstörter Hydroponik Behälter"
 
 #: /Language/Things/RecordThing[Key='StructureBlocker']
 msgctxt "Things.StructureBlocker"
@@ -3810,7 +3833,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureBlocker']
 msgctxt "Things.StructureBlocker"
 msgid "Blocker"
-msgstr ""
+msgstr "Blocker"
 
 #: /Language/Things/RecordThing[Key='SpecialBlocks']
 msgctxt "Things.SpecialBlocks"
@@ -3820,7 +3843,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='SpecialBlocks']
 msgctxt "Things.SpecialBlocks"
 msgid "Special Blocks"
-msgstr ""
+msgstr "Spezielle Blöcke"
 
 #: /Language/Things/RecordThing[Key='StructureHarvie']
 msgctxt "Things.StructureHarvie"
@@ -3828,11 +3851,14 @@ msgid ""
 "Use above a {THING:StructureHydroponicsTray} or {THING:StructureHydroponicsTrayData} to manage the planting and harvest of your crops. It contains a button that will allow you to activate it's "
 "modes, or connect it to a logic system to do this for you. The modes indicate current growth status of the plant below. Import is used for planting, and harvested plants are sent to export."
 msgstr ""
+"Verwende oben einen {THING:StructureHydroponicsTray} oder {THING:StructureHydroponicsTrayData}, um die Aussaat und Ernte deiner Pflanzen zu verwalten. Er hat ein Bedienfeld, mit dem du die Modi "
+"aktivieren kannst, oder du schließt es an ein Logiksystem an, um das für dich zu erledigen. Die Modi zeigen den aktuellen Wachstumsstatus der Pflanze darunter an. Der Import wird für die Saat "
+"verwendet, und geerntete Pflanzen werden zum Export geleitet."
 
 #: /Language/Things/RecordThing[Key='StructureHarvie']
 msgctxt "Things.StructureHarvie"
 msgid "Harvie"
-msgstr ""
+msgstr "Harvie"
 
 #: /Language/Things/RecordThing[Key='StructureHarvieReversed']
 msgctxt "Things.StructureHarvieReversed"
@@ -3840,16 +3866,19 @@ msgid ""
 "Use above a {THING:StructureHydroponicsTray} or {THING:StructureHydroponicsTrayData} to manage the planting and harvest of your crops. It contains a button that will allow you to activate it's "
 "modes, or connect it to a logic system to do this for you. The modes indicate current growth status of the plant below. Import is used for planting, and harvested plants are sent to export."
 msgstr ""
+"Verwende oben einen {THING:StructureHydroponicsTray} oder {THING:StructureHydroponicsTrayData}, um die Aussaat und Ernte deiner Pflanzen zu verwalten. Er hat ein Bedienfeld, mit dem du die Modi "
+"aktivieren kannst, oder du schließt ihn an ein Logiksystem an, um das für dich zu erledigen. Die Modi zeigen den aktuellen Wachstumsstatus der Pflanze darunter an. Der Import wird für die Saat "
+"verwendet, und geerntete Pflanzen werden zum Export geschickt."
 
 #: /Language/Things/RecordThing[Key='StructureHarvieReversed']
 msgctxt "Things.StructureHarvieReversed"
 msgid "Harvie"
-msgstr ""
+msgstr "Harvie"
 
 #: /Language/Things/RecordThing[Key='ItemKitHarvie']
 msgctxt "Things.ItemKitHarvie"
 msgid "Kit (Harvie)"
-msgstr ""
+msgstr "Bausatz (Harvie)"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront2']
 msgctxt "Things.ItemWreckageElevatorLevelFront2"
@@ -3859,7 +3888,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront2']
 msgctxt "Things.ItemWreckageElevatorLevelFront2"
 msgid "Wreckage Elevator Level Front"
-msgstr ""
+msgstr "Zerstörte Aufzug Etage Vorne"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront1']
 msgctxt "Things.ItemWreckageElevatorLevelFront1"
@@ -3869,7 +3898,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorLevelFront1']
 msgctxt "Things.ItemWreckageElevatorLevelFront1"
 msgid "Wreckage Elevator Level Front"
-msgstr ""
+msgstr "Zerstörte Aufzug Etage Vorne"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorShaftIndustrial3']
 msgctxt "Things.ItemWreckageElevatorShaftIndustrial3"
@@ -3879,7 +3908,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorShaftIndustrial3']
 msgctxt "Things.ItemWreckageElevatorShaftIndustrial3"
 msgid "Wreckage Elevator Shaft Industrial"
-msgstr ""
+msgstr "Zerstörter Aufzug Schacht Vorne"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorShaftIndustrial2']
 msgctxt "Things.ItemWreckageElevatorShaftIndustrial2"
@@ -3889,7 +3918,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorShaftIndustrial2']
 msgctxt "Things.ItemWreckageElevatorShaftIndustrial2"
 msgid "Wreckage Elevator Shaft Industrial"
-msgstr ""
+msgstr "Zerstörter Aufzug Schacht Industriell"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorShaftIndustrial1']
 msgctxt "Things.ItemWreckageElevatorShaftIndustrial1"
@@ -3899,7 +3928,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageElevatorShaftIndustrial1']
 msgctxt "Things.ItemWreckageElevatorShaftIndustrial1"
 msgid "Wreckage Elevator Shaft Industrial"
-msgstr ""
+msgstr "Zerstörter Aufzug Schacht Industriell"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoorGlass2']
 msgctxt "Things.ItemWreckageCompositeDoorGlass2"
@@ -3907,10 +3936,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoorGlass2']
-#, fuzzy
 msgctxt "Things.ItemWreckageCompositeDoorGlass2"
 msgid "Wreckage Composite Door Glass"
-msgstr "Verbundtür"
+msgstr "Zerstörte Verbundstoff Glastür"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoorGlass1']
 msgctxt "Things.ItemWreckageCompositeDoorGlass1"
@@ -3920,7 +3948,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoorGlass1']
 msgctxt "Things.ItemWreckageCompositeDoorGlass1"
 msgid "Wreckage Composite Door Glass"
-msgstr ""
+msgstr "Zerstörte Verbundstoff Glastür"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirlock2']
 msgctxt "Things.ItemWreckageAirlock2"
@@ -3928,10 +3956,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirlock2']
-#, fuzzy
 msgctxt "Things.ItemWreckageAirlock2"
 msgid "Wreckage Airlock"
-msgstr "Lichtbogenofen"
+msgstr "Zerstörte Luftschleuse"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirlock1']
 msgctxt "Things.ItemWreckageAirlock1"
@@ -3941,7 +3968,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageAirlock1']
 msgctxt "Things.ItemWreckageAirlock1"
 msgid "Wreckage Airlock"
-msgstr ""
+msgstr "Zerstörte Luftschleuse"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
 msgctxt "Things.ItemWreckageCompositeDoor3"
@@ -3951,7 +3978,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor3']
 msgctxt "Things.ItemWreckageCompositeDoor3"
 msgid "Wreckage Composite Door"
-msgstr ""
+msgstr "Zerstörte Verbundstoff Tür"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
 msgctxt "Things.ItemWreckageCompositeDoor2"
@@ -3961,7 +3988,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor2']
 msgctxt "Things.ItemWreckageCompositeDoor2"
 msgid "Wreckage Composite Door"
-msgstr ""
+msgstr "Zerstörte Verbundstoff Tür"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
 msgctxt "Things.ItemWreckageCompositeDoor1"
@@ -3971,7 +3998,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
 msgctxt "Things.ItemWreckageCompositeDoor1"
 msgid "Wreckage Composite Door"
-msgstr ""
+msgstr "Zerstörte Verbundstoff Tür"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
 msgctxt "Things.ItemWreckageBlastDoor2"
@@ -3981,7 +4008,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
 msgctxt "Things.ItemWreckageBlastDoor2"
 msgid "Wreckage Blast Door"
-msgstr ""
+msgstr "Zerstörte Explosionsschutztür"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor1']
 msgctxt "Things.ItemWreckageBlastDoor1"
@@ -3991,7 +4018,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor1']
 msgctxt "Things.ItemWreckageBlastDoor1"
 msgid "Wreckage Blast Door"
-msgstr ""
+msgstr "Zerstörte Explosionsschutztür"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad5']
 msgctxt "Things.ItemWreckageShuttleLandingPad5"
@@ -3999,10 +4026,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad5']
-#, fuzzy
 msgctxt "Things.ItemWreckageShuttleLandingPad5"
 msgid "Wreckage Shuttle Landing Pad"
-msgstr "Verkaufsautomat"
+msgstr "Zerstörter Shuttle Landeplatz"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad4']
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
@@ -4010,10 +4036,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad4']
-#, fuzzy
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
 msgid "Wreckage Shuttle Landing Pad"
-msgstr "Verkaufsautomat"
+msgstr "Zerstörter Shuttle Landeplatz"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Wheet']
 msgctxt "Things.SeedBag_Wheet"
@@ -4026,10 +4051,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad3']
-#, fuzzy
 msgctxt "Things.ItemWreckageShuttleLandingPad3"
 msgid "Wreckage Shuttle Landing Pad"
-msgstr "Verkaufsautomat"
+msgstr "Zerstörter Shuttle Landeplatz"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad2']
 msgctxt "Things.ItemWreckageShuttleLandingPad2"
@@ -4037,10 +4061,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad2']
-#, fuzzy
 msgctxt "Things.ItemWreckageShuttleLandingPad2"
 msgid "Wreckage Shuttle Landing Pad"
-msgstr "Verkaufsautomat"
+msgstr "Zerstörter Shuttle Landeplatz"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad1']
 msgctxt "Things.ItemWreckageShuttleLandingPad1"
@@ -4048,10 +4071,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad1']
-#, fuzzy
 msgctxt "Things.ItemWreckageShuttleLandingPad1"
 msgid "Wreckage Shuttle Landing Pad"
-msgstr "Verkaufsautomat"
+msgstr "Zerstörter Shuttle Landeplatz"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo5']
 msgctxt "Things.ItemWreckageSDBSilo5"
@@ -4060,41 +4082,38 @@ msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo5']
 msgctxt "Things.ItemWreckageSDBSilo5"
+msgid "Wreckage SDB Silo"
+msgstr "Zerstörtes SDB Lager"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo4']
+msgctxt "Things.ItemWreckageSDBSilo4"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo4']
+msgctxt "Things.ItemWreckageSDBSilo4"
+msgid "Wreckage SDB Silo"
+msgstr "Zerstörtes SDB Lager"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo3']
+msgctxt "Things.ItemWreckageSDBSilo3"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo3']
+msgctxt "Things.ItemWreckageSDBSilo3"
+msgid "Wreckage SDB Silo"
+msgstr "Zerstörtes SDB Lager"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo2']
+msgctxt "Things.ItemWreckageSDBSilo2"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo2']
+msgctxt "Things.ItemWreckageSDBSilo2"
 msgid "Wreckage SDB Silo"
 msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo4']
-msgctxt "Things.ItemWreckageSDBSilo4"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo4']
-#, fuzzy
-msgctxt "Things.ItemWreckageSDBSilo4"
-msgid "Wreckage SDB Silo"
-msgstr "Portables Solarmodul"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo3']
-msgctxt "Things.ItemWreckageSDBSilo3"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo3']
-#, fuzzy
-msgctxt "Things.ItemWreckageSDBSilo3"
-msgid "Wreckage SDB Silo"
-msgstr "Portables Solarmodul"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo2']
-msgctxt "Things.ItemWreckageSDBSilo2"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo2']
-#, fuzzy
-msgctxt "Things.ItemWreckageSDBSilo2"
-msgid "Wreckage SDB Silo"
-msgstr "Portables Solarmodul"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo1']
 msgctxt "Things.ItemWreckageSDBSilo1"
