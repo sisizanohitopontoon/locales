@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-20 20:44+0000\n"
+"PO-Revision-Date: 2022-09-20 20:48+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -455,7 +455,7 @@ msgstr "Erstellt eine {THING:StructureModularRocketAutomation}"
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketOreMining']
 msgctxt "Things.ItemKitModularRocketOreMining"
 msgid "Kit (Automated Rocket Ore Mining Module)"
-msgstr "Bausatz (Automatisiertes Raketen-Erzförderungsmodul)"
+msgstr "Bausatz (Automatisiertes Raketen-Erzfördermodul)"
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketOreMining']
 msgctxt "Things.ItemKitModularRocketOreMining"
@@ -465,7 +465,7 @@ msgstr "Erstellt ein {THING:StructureRocketModuleMiningOre}."
 #: /Language/Things/RecordThing[Key='StructureModularRocketIceMining']
 msgctxt "Things.StructureModularRocketIceMining"
 msgid "Automated Rocket Ice Mining Module"
-msgstr ""
+msgstr "Automatisiertes Raketen-Eisfördermodul"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketIceMining']
 msgctxt "Things.StructureModularRocketIceMining"
@@ -474,22 +474,24 @@ msgid ""
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for {LINK:OrePage;ore} to pass from the collector unit into the silo.\n"
 "It has two modes - active (1), and inactive (0), which should only be triggered when the rocket has arrived on the planet and is idle (mode 4)."
 msgstr ""
+"Der {LINK:ExMin; ExMin} autonome Eissammler ist ein speziell entwickelter, robotischer Eisernter, der in der Lage ist, Eis von Asteroiden und Planeten in der lokalen Region des Weltraums abzubauen. Seine Reichweite - und damit wie viel Eis {LINK:OrePage;ore} er sammelt - wird streng durch die Treibstoffmenge der Rakete bestimmt.\n"
+"Das Modul muss mit einem {THING:StructureRocketModuleSilo} durch ein ordnungsgemäß platziertes {THING:StructureModularRocketCouplingDown} oder {THING:StructureModularRocketCouplingUp} verbunden sein, damit {LINK:OrePage;ore} von der Kollektoreinheit in das Lagermodul übergeht.\n"
+"Es hat zwei Modi - aktiv (1) und inaktiv (0), die nur ausgelöst werden sollten, wenn die Rakete auf dem Planeten angekommen ist und sich im Leerlauf befindet (Modus 4)."
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketIceMining']
 msgctxt "Things.ItemKitModularRocketIceMining"
 msgid "Kit (Automated Rocket Ice Mining Module)"
-msgstr ""
+msgstr "Bausatz (Automatisiertes Raketen-Eisfördermodul)"
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketIceMining']
-#, fuzzy
 msgctxt "Things.ItemKitModularRocketIceMining"
 msgid "Creates a {THING:StructureModularRocketIceMining}."
-msgstr "{BLANK}"
+msgstr "Erstellt ein {THING:StructureModularRocketIceMining}."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketScrapMining']
 msgctxt "Things.StructureModularRocketScrapMining"
 msgid "Automated Rocket Salvage Module"
-msgstr ""
+msgstr "Automatisiertes Raketen-Bergungsmodul"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketScrapMining']
 msgctxt "Things.StructureModularRocketScrapMining"
@@ -497,22 +499,23 @@ msgid ""
 "The so-called {LINK:Sinotai;Sinotai} 'space junk' collector module is really a high-end automated salvaging unit, purpose designed to interface with the {LINK:ExMin;ExMin} autonomous rocket. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. \n"
 "The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for {LINK:OrePage;ore} to pass from the collector unit into the silo."
 msgstr ""
+"Das sogenannte {LINK:Sinotai; Sinotai} 'Space Junk' Kollektormodul ist wirklich eine automatisierte High-End-Bergungseinheit, Zweckmäßig enworfen für die Schnittstelle mit der {LINK:ExMin; ExMin} autonomen Rakete. Es durchkämmt die lokale Region des Weltraums nach Wracks, verlassenen Weltraumtransporten und anderen Trümmern. Als solches fördert es eine ziemlich zufällige Auswahl an Gegenständen. \n"
+"Das Modul muss mit einem {THING:StructureRocketModuleSilo} durch ein ordnungsgemäß platziertes {THING:StructureModularRocketCouplingDown} oder {THING:StructureModularRocketCouplingUp} verbunden sein, damit {LINK:OrePage;ore} von der Kollektoreinheit in das Lagermodul übergeht."
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketScrapMining']
 msgctxt "Things.ItemKitModularRocketScrapMining"
 msgid "Kit (Automated Rocket Salvage Module)"
-msgstr ""
+msgstr "Bausatz (Automatisiertes Raketen-Bergungsmodul)"
 
 #: /Language/Things/RecordThing[Key='ItemKitModularRocketScrapMining']
-#, fuzzy
 msgctxt "Things.ItemKitModularRocketScrapMining"
 msgid "Creates a {THING:StructureModularRocketScrapMining}."
-msgstr "{BLANK}"
+msgstr "Erstellt ein {THING:StructureModularRocketScrapMining}."
 
 #: /Language/Things/RecordThing[Key='ItemWaterPipeMeter']
 msgctxt "Things.ItemWaterPipeMeter"
 msgid "Kit (Liquid Pipe Meter)"
-msgstr ""
+msgstr "Bausatz (Flüssigkeitsbarometer)"
 
 #: /Language/Things/RecordThing[Key='ItemWaterPipeMeter']
 msgctxt "Things.ItemWaterPipeMeter"
@@ -522,7 +525,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
 msgctxt "Things.StructureWaterPipeMeter"
 msgid "Liquid Pipe Meter"
-msgstr ""
+msgstr "Flüssigkeitsbarometer"
 
 #: /Language/Things/RecordThing[Key='StructureWaterPipeMeter']
 msgctxt "Things.StructureWaterPipeMeter"
@@ -552,7 +555,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWaterWallCooler']
 msgctxt "Things.ItemWaterWallCooler"
 msgid "Kit (Liquid Wall Cooler)"
-msgstr ""
+msgstr "Bausatz (Flüssigkeitswandkühler)"
 
 #: /Language/Things/RecordThing[Key='ItemWaterWallCooler']
 msgctxt "Things.ItemWaterWallCooler"
@@ -562,7 +565,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='StructureWaterWallCooler']
 msgctxt "Things.StructureWaterWallCooler"
 msgid "Liquid Wall Cooler"
-msgstr ""
+msgstr "Flüssigkeitswandkühler"
 
 #: /Language/Things/RecordThing[Key='StructureWaterWallCooler']
 msgctxt "Things.StructureWaterWallCooler"
@@ -600,12 +603,13 @@ msgid ""
 "The drain is a simple device, although not without a touch of mystery. When connected to power and activated, it drains liquid from a liquid network at a rate of 1 mol per tick. Handy if there's "
 "liquid you need ... gone."
 msgstr ""
+"Der Abfluss ist ein einfaches Gerät, wenn auch nicht ganz ohne einen Hauch von Geheimnis. Wenn es an die Stromversorgung angeschlossen und aktiviert ist, entzieht es Flüssigkeit aus einem "
+"Flüssigkeitsnetzwerk mit einer Rate von 1 Mol pro tick. Praktisch, wenn es eine Flüssigkeit gibt, die du loswerden willst."
 
 #: /Language/Things/RecordThing[Key='ItemLiquidPipeAnalyzer']
-#, fuzzy
 msgctxt "Things.ItemLiquidPipeAnalyzer"
 msgid "Kit (Liquid Pipe Analyzer)"
-msgstr "{BLANK}"
+msgstr "Bausatz (Flüssigkeitsrohranalysator)"
 
 #: /Language/Things/RecordThing[Key='ItemLiquidPipeAnalyzer']
 msgctxt "Things.ItemLiquidPipeAnalyzer"
