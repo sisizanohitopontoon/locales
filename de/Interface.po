@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 14:50+0000\n"
+"PO-Revision-Date: 2022-09-21 14:55+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3175,34 +3175,29 @@ msgid "Returns the angle (radians) whos tan is the specified value"
 msgstr "Gibt den Winkel (Bogenmaß) zurück, dessen Bräunung der angegebene Wert ist."
 
 #: /Language/Interface/Record[Key='ScriptCommandACos']
-#, fuzzy
 msgctxt "Interface.ScriptCommandACos"
 msgid "Returns the angle (radians) whos cosine is the specified value"
-msgstr "Gibt einen Winkel zurück, dessen Kosinus die angegebene Zahl ist"
+msgstr "Gibt den Winkel (Bogenmaß) zurück, dessen Kosinus der angegebene Wert ist."
 
 #: /Language/Interface/Record[Key='ScriptCommandASin']
-#, fuzzy
 msgctxt "Interface.ScriptCommandASin"
 msgid "Returns the angle (radians) whos sine is the specified value"
-msgstr "Gibt einen Winkel zurück, dessen Sinus die angegebene Zahl ist"
+msgstr "Gibt den Winkel (Bogenmaß) zurück, dessen Sinus der angegebene Wert ist."
 
 #: /Language/Interface/Record[Key='ScriptCommandTan']
-#, fuzzy
 msgctxt "Interface.ScriptCommandTan"
 msgid "Returns the tan of the specified angle (radians) "
-msgstr "Gibt den Tangens des angegebenen Winkels zurück"
+msgstr "Gibt die Tangente des angegebenen Winkels (Bogenmaß) zurück. "
 
 #: /Language/Interface/Record[Key='ScriptCommandCos']
-#, fuzzy
 msgctxt "Interface.ScriptCommandCos"
 msgid "Returns the cosine of the specified angle (radians)"
-msgstr "Gibt den Kosinus des angegebenen Winkels zurück"
+msgstr "Gibt den Kosinus des angegebenen Winkels (Bogenmaß) zurück"
 
 #: /Language/Interface/Record[Key='ScriptCommandSin']
-#, fuzzy
 msgctxt "Interface.ScriptCommandSin"
 msgid "Returns the sine of the specified angle (radians)"
-msgstr "Gibt den Sinus des angegebenen Winkels zurück"
+msgstr "Gibt den Sinus des angegebenen Winkels (Bogenmaß) zurück"
 
 #: /Language/Interface/Record[Key='ScriptCommandSleep']
 msgctxt "Interface.ScriptCommandSleep"
@@ -3212,22 +3207,22 @@ msgstr "Unterbricht die Ausführung auf dem IC für x Sekunden"
 #: /Language/Interface/Record[Key='ScriptCommandSelect']
 msgctxt "Interface.ScriptCommandSelect"
 msgid "Register = b if a is non-zero, otherwise c"
-msgstr ""
+msgstr "Register = b, wenn a ungleich Null ist, sonst c"
 
 #: /Language/Interface/Record[Key='ScriptCommandHcf']
 msgctxt "Interface.ScriptCommandHcf"
 msgid "Halt and catch fire"
-msgstr ""
+msgstr "Anhalten und Feuer fangen"
 
 #: /Language/Interface/Record[Key='ScriptCommandPop']
 msgctxt "Interface.ScriptCommandPop"
 msgid "Register = the value at the top of the stack and decrements sp"
-msgstr ""
+msgstr "Register = der Wert am oberen Rand des Stacks und Dekremente sp"
 
 #: /Language/Interface/Record[Key='ScriptCommandPush']
 msgctxt "Interface.ScriptCommandPush"
 msgid "Pushes the value of a to the stack at sp and increments sp"
-msgstr ""
+msgstr "Überträgt den Wert von a auf den Stack bei sp und erhöht sp"
 
 #: /Language/Interface/Record[Key='ScriptCommandPeek']
 msgctxt "Interface.ScriptCommandPeek"
