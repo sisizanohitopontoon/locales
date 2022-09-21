@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 18:14+0000\n"
+"PO-Revision-Date: 2022-09-21 18:19+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2823,6 +2823,9 @@ msgid ""
 "Ejecting ore from the Combustion Centrifuge while it is at high RPMs will result in additional stress build up.  If turned off while not stressed, the machine will automatically start to brake, and reduce RPMs in a controlled manner.\n"
 "\t  "
 msgstr ""
+"Die Verbrennungszentrifuge ist eine gasbetriebene Version der {THING:StructureCentrifuge}. Dem Gaseingang sollte ein brennbares Brennstoffgemisch zugeführt werden, und Abgase sollten aus dem Ausgang entlüftet werden. Die Drehzahlen der Maschine müssen über die Gas- und Verbrennungsbegrenzhebel gesteuert werden. Wenn die Verbrennungszentrifuge zu schnell an Drehzahlen gewinnt oder verliert, wird sie belastet und kommt schließlich zum Stillstand.  Höhere Drehzahlen führen direkt zu schnelleren Verarbeitungsgeschwindigkeiten.\n"
+"Der Gashebel steuert die Menge an Kraftstoff, der in die Maschine gezogen wird, was die Temperatur im Inneren des Motors erhöht und zu einer Erhöhung der Drehzahl führt. Der Begrenzerhebel beeinflusst die Verbrennungsgeschwindigkeit und wie viel unverbranntes Gas sich im Auspuff befindet.\t  \n"
+"Das Ausstoßen von Erz aus der Verbrennungszentrifuge, während es sich bei hohen Drehzahlen befindet, führt zu einem zusätzlichen Belastungsaufbau.  Wenn die Maschine ohne Belastung ausgeschaltet wird, beginnt sie automatisch zu bremsen und reduziert die Drehzahl auf kontrollierte Weise.  "
 
 #: /Language/Things/RecordThing[Key='StructureChuteOverflow']
 msgctxt "Things.StructureChuteOverflow"
@@ -2832,7 +2835,7 @@ msgstr "Schachtauswurf"
 #: /Language/Things/RecordThing[Key='StructureChuteOverflow']
 msgctxt "Things.StructureChuteOverflow"
 msgid "The overflow chute will direct materials to its overflow port when the thing connected to its default port is already occupied."
-msgstr ""
+msgstr "Der Überlaufschacht leitet Materialien zu ihrem Überlaufanschluss, wenn das mit dem Standardanschluss verbundene Objekt bereits belegt ist."
 
 #: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
 msgctxt "Things.KitStructureCombustionCentrifuge"
@@ -2840,7 +2843,6 @@ msgid "Kit (Combustion Centrifuge)"
 msgstr "Bausatz (Verbrennungszentrifuge)"
 
 #: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
-#, fuzzy
 msgctxt "Things.KitStructureCombustionCentrifuge"
 msgid "{BLANK}"
 msgstr "{BLANK}"
@@ -2856,6 +2858,8 @@ msgid ""
 "The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items "
 "have passed through. This threshold can be set using the dial."
 msgstr ""
+"Die digitale Schachtschranke stoppt den Materialfluss, wenn sie auf geschlossen eingestellt ist, und wenn sie auf öffnen eingestellt ist, verhält sie sich wie ein gerader Schacht. Die Schranke "
+"schließt automatisch, nachdem eine bestimmte Anzahl von Gegenständen durchgegangen ist. Dieser Schwellenwert kann über den Drehregler eingestellt werden."
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveRight']
 msgctxt "Things.StructureChuteDigitalValveRight"
@@ -2868,11 +2872,13 @@ msgid ""
 "The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items "
 "have passed through. This threshold can be set using the dial."
 msgstr ""
+"Die digitale Schachtschranke stoppt den Materialfluss, wenn sie auf geschlossen eingestellt ist, und wenn sie auf öffnen eingestellt ist, verhält sie sich wie ein gerader Schacht. Die Schranke "
+"schließt automatisch, nachdem eine bestimmte Anzahl von Gegenständen durchgegangen ist. Dieser Schwellenwert kann über den Drehregler eingestellt werden."
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalFlipFlopSplitterLeft']
 msgctxt "Things.StructureChuteDigitalFlipFlopSplitterLeft"
 msgid "Chute Digital Flip Flop Splitter Left"
-msgstr ""
+msgstr "Schacht Digital Flip Flop Splitter Links"
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalFlipFlopSplitterLeft']
 msgctxt "Things.StructureChuteDigitalFlipFlopSplitterLeft"
