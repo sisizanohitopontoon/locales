@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 12:07+0000\n"
+"PO-Revision-Date: 2022-09-21 12:14+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5618,41 +5618,39 @@ msgid "Insulated pipes greatly reduce heat loss from gases stored in them."
 msgstr "Isolierte Rohre reduzieren den Wärmeverlust von den in ihnen gespeicherten Gasen erheblich."
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction3']
-#, fuzzy
 msgctxt "Things.StructureInsulatedPipeCrossJunction3"
 msgid "Insulated Pipe Cross (3-Way Corner)"
-msgstr "Rohrkreuzung"
+msgstr "Isoliertes Rohr Quer (3-Wege Ecke)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction']
 msgctxt "Things.StructureInsulatedPipeCrossJunction"
 msgid "Insulated pipes greatly reduce heat loss from gases stored in them."
-msgstr ""
+msgstr "Isolierte Rohre reduzieren den Wärmeverlust von den in ihnen gespeicherten Gasen erheblich."
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction']
-#, fuzzy
 msgctxt "Things.StructureInsulatedPipeCrossJunction"
 msgid "Insulated Pipe Cross Junction"
-msgstr "Rohrkreuzung"
+msgstr "Isolierte Rohrquerverbindung"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCorner']
 msgctxt "Things.StructureInsulatedPipeCorner"
 msgid "Insulated pipes greatly reduce heat loss from gases stored in them."
-msgstr ""
+msgstr "Isolierte Rohre reduzieren den Wärmeverlust von den in ihnen gespeicherten Gasen erheblich."
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCorner']
 msgctxt "Things.StructureInsulatedPipeCorner"
 msgid "Insulated Pipe Corner"
-msgstr ""
+msgstr "Isolierter Rohrbogen"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeStraight']
 msgctxt "Things.StructureInsulatedPipeStraight"
 msgid "Insulated pipes greatly reduce heat loss from gases stored in them."
-msgstr ""
+msgstr "Isolierte Rohre reduzieren den Wärmeverlust von den in ihnen gespeicherten Gasen erheblich."
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeStraight']
 msgctxt "Things.StructureInsulatedPipeStraight"
 msgid "Insulated Pipe Straight"
-msgstr ""
+msgstr "Isoliertes Rohr Gerade"
 
 #: /Language/Things/RecordThing[Key='H2Combustor']
 msgctxt "Things.H2Combustor"
@@ -5661,22 +5659,24 @@ msgid ""
 "water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat. The device is also less than perfectly efficient, resulting in the "
 "autoignition of volatiles in the chamber, and the production of waste gases which must be dealt with."
 msgstr ""
+"Leicht angepasst an das Original {LINK:Recurso; Recurso} Design, die {GAS:Volatiles} Brennkammer macht genau das, was ihr Name vermuten lässt - sie verbrennt eine Mischung aus flüchtigen Stoffen und"
+" {GAS:Oxygen}, um Wasser zu erzeugen. In heißen oder trockenen Umgebungen äußerst nützlich, müssen sich die Benutzer darüber im Klaren sein, dass die Brennkammer erhebliche Abwärme erzeugt. Das "
+"Gerät ist auch nicht absolut effizient, was zur Selbstentzündung von flüchtigen Stoffen in der Kammer und zur Produktion von Abgasen führt, die abgeführt werden müssen."
 
 #: /Language/Things/RecordThing[Key='H2Combustor']
 msgctxt "Things.H2Combustor"
 msgid "H2 Combustor"
-msgstr ""
+msgstr "H2 Brennkammer"
 
 #: /Language/Things/RecordThing[Key='StructureReverseElectrolyzer']
 msgctxt "Things.StructureReverseElectrolyzer"
 msgid "Reverse Electrolyzer"
-msgstr ""
+msgstr "Umkehr Elektrolyseur"
 
 #: /Language/Things/RecordThing[Key='DynamicModularRocketCommand01']
-#, fuzzy
 msgctxt "Things.DynamicModularRocketCommand01"
 msgid "Modular Rocket Command"
-msgstr "Triebwerk (Groß)"
+msgstr "Rakete Befehlsmodul"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
 msgctxt "Things.StructureModularRocketCommand01"
@@ -5694,12 +5694,23 @@ msgid ""
 "The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.\n"
 "When landing, the rocket will deploy a lander, and any cargo contained in the {THING:StructureModularRocketCargo01} module."
 msgstr ""
+"Das Befehlsmodul muss auf der Spitze der Rakete platziert werden und wird die Flugbereitschaft der Rakete bewerten. Sobald alle Bedingungen erfüllt sind, kann die Rakete gestartet werden, wenn alle Spieler im Modul sitzen, indem sie 'IGNITION' auf der Konsole drücken.\n"
+"\n"
+"Die folgenden Bedingungen müssen für den Start erfüllt sein:\n"
+"\n"
+"- Kraftstoff voll\n"
+"- Kraftstoffmischungsverhältnis korrekt - ein 2:1-Gemisch aus {GAS:Volatiles} und {GAS:Oxygen}.\n"
+"- Alle Spieler sitzen\n"
+"- Stromversorgung des {THING:StructureLaunchPad}\n"
+"- Voll gebaute Rakete\n"
+"\n"
+"Die Konsole {THING:StructureModularRocketCommand01} zeigt den aktuellen Status dieser Bedingungen an. Es braucht keine Atmosphäre zum Abheben - die Atmosphäre Ihres Anzugs ist ausreichend.\n"
+"Bei der Landung setzt die Rakete einen Lander und alle im Modul {THING:StructureModularRocketCargo01} enthaltenen Fracht ein."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCommand01']
-#, fuzzy
 msgctxt "Things.StructureModularRocketCommand01"
 msgid "Modular Rocket Command"
-msgstr "Triebwerk (Groß)"
+msgstr "Rakete Befehlsmodul"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
 msgctxt "Things.StructureModularRocketCargo01"
@@ -5707,11 +5718,13 @@ msgid ""
 "The cargo module has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total. This cargo will be released in orbit and "
 "descend the surface of your destination. Unless that happens to be the asteroid belt, in which case it will be left floating serenely in the void."
 msgstr ""
+"Das Frachtmodul hat Platz für zwei Kisten mit zehn Steckplätzen. Du kannst mehrere Frachtmodule auf deiner Rakete haben. Die Rakete kann insgesamt bis zu sieben Module heben. Diese Fracht wird in "
+"den Orbit entlassen und sinkt zur Oberfläche deines Zielsorts hinunter. Es sei denn, das ist zufällig der Asteroidengürtel, in diesem Fall wird die Fracht ruhig in der Leere schweben."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketCargo01']
 msgctxt "Things.StructureModularRocketCargo01"
 msgid "Modular Rocket Cargo"
-msgstr ""
+msgstr "Rakete Frachtmodul"
 
 #: /Language/Things/RecordThing[Key='StructureLaunchPad']
 msgctxt "Things.StructureLaunchPad"
@@ -5721,7 +5734,7 @@ msgstr "Landeplattform"
 #: /Language/Things/RecordThing[Key='ItemTerrainManipulator']
 msgctxt "Things.ItemTerrainManipulator"
 msgid "Terrain Manipulator"
-msgstr ""
+msgstr "Geländemanipulator"
 
 #: /Language/Things/RecordThing[Key='ItemDirtCanister']
 msgctxt "Things.ItemDirtCanister"
@@ -5729,23 +5742,23 @@ msgid ""
 "A container the will fill with Dirt when using a {THING:ItemMiningDrill} when placed inside a {THING:ItemMiningBelt}. You can then use this {SLOT:DirtCanister} with the "
 "{THING:ItemTerrainManipulator} to adjust the terrain to suit your needs."
 msgstr ""
+"Ein Kanister, der von einem {THING:ItemMiningDrill} mit Erdreich gefüllt wird, wenn er in einem {THING:ItemMiningBelt} platziert wird. Du kannst dann diesen {SLOT:DirtCanister} mit dem "
+"{THING:ItemTerrainManipulator} verwenden, um das Gelände an deine Bedürfnisse anzupassen."
 
 #: /Language/Things/RecordThing[Key='ItemDirtCanister']
-#, fuzzy
 msgctxt "Things.ItemDirtCanister"
 msgid "Dirt Canister"
-msgstr "Gasflasche"
+msgstr "Erdreich Kanister"
 
 #: /Language/Things/RecordThing[Key='ItemDirtCannister']
 msgctxt "Things.ItemDirtCannister"
 msgid "Dirt Cannister"
-msgstr ""
+msgstr "Erdreich Kanister"
 
 #: /Language/Things/RecordThing[Key='ItemKitAutoMinerSmall']
-#, fuzzy
 msgctxt "Things.ItemKitAutoMinerSmall"
 msgid "Kit (Autominer Small)"
-msgstr "Triebwerk (Bausatz - Klein)"
+msgstr "Bausatz (Förderbohrer Klein)"
 
 #: /Language/Things/RecordThing[Key='StructureAutoMinerSmall']
 msgctxt "Things.StructureAutoMinerSmall"
@@ -5753,143 +5766,144 @@ msgid ""
 "The {LINK:Recurso;Recurso} SquareDig autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is "
 "controllable by a logic network. Note that the autominer outputs more {LINK:OrePage;ore} than a conventional {THING:ItemMiningDrill} over the same area."
 msgstr ""
+"Der {LINK:Recurso; Recurso} SquareDig Förderbohrer ist eine Struktur die, wenn sie errichtet wird, einen vertikalen 2x2-Schacht bohrt, bis sie auf das Grundgestein trifft. Der Förderbohrer kann an "
+"ein Schachtsystem angeschlossen werden und ist über ein Logiknetzwerk ansteuerbar. Beachten Sie, dass der Förderbohrer mehr {LINK:OrePage;ore} ausgibt als ein herkömmlicher {THING:ItemMiningDrill} "
+"im selben Bereich."
 
 #: /Language/Things/RecordThing[Key='StructureAutoMinerSmall']
 msgctxt "Things.StructureAutoMinerSmall"
 msgid "Autominer (Small)"
-msgstr ""
+msgstr "Förderbohrer (Klein)"
 
 #: /Language/Things/RecordThing[Key='ItemKitAIMeE']
 msgctxt "Things.ItemKitAIMeE"
 msgid "Kit (AIMeE)"
-msgstr ""
+msgstr "Bausatz (AIMeE)"
 
 #: /Language/Things/RecordThing[Key='ItemVoxelTool']
-#, fuzzy
 msgctxt "Things.ItemVoxelTool"
 msgid "Voxel Tool"
-msgstr "Zeigestock"
+msgstr "Voxel Werkzeug"
 
 #: /Language/Things/RecordThing[Key='ItemKitPictureFrame']
-#, fuzzy
 msgctxt "Things.ItemKitPictureFrame"
 msgid "Kit Picture Frame"
-msgstr "Rohrventil (Bausatz)"
+msgstr "Bausatz Bilderrahmen"
 
 #: /Language/Things/RecordThing[Key='ItemResearchCapsule']
 msgctxt "Things.ItemResearchCapsule"
 msgid "Research Capsule Blue"
-msgstr ""
+msgstr "Forschungskapsel Blau"
 
 #: /Language/Things/RecordThing[Key='ItemResearchCapsuleGreen']
 msgctxt "Things.ItemResearchCapsuleGreen"
 msgid "Research Capsule Green"
-msgstr ""
+msgstr "Forschungskapsel Grün"
 
 #: /Language/Things/RecordThing[Key='ItemResearchCapsuleYellow']
 msgctxt "Things.ItemResearchCapsuleYellow"
 msgid "Research Capsule Yellow"
-msgstr ""
+msgstr "Forschungskapsel Gelb"
 
 #: /Language/Things/RecordThing[Key='ItemResearchCapsuleRed']
 msgctxt "Things.ItemResearchCapsuleRed"
 msgid "Research Capsule Red"
-msgstr ""
+msgstr "Forschungskapsel Rot"
 
 #: /Language/Things/RecordThing[Key='QuarryDrillBitBasic']
 msgctxt "Things.QuarryDrillBitBasic"
 msgid "Quarry Drill Bit Basic"
-msgstr ""
+msgstr "Steinbruch-Bohrkopf Einfach"
 
 #: /Language/Things/RecordThing[Key='ApplianceDeskLampRight']
 msgctxt "Things.ApplianceDeskLampRight"
 msgid "Appliance Desk Lamp Right"
-msgstr ""
+msgstr "Gerät Schreibtischlampe Rechts"
 
 #: /Language/Things/RecordThing[Key='ApplianceDeskLampLeft']
 msgctxt "Things.ApplianceDeskLampLeft"
 msgid "Appliance Desk Lamp Left"
-msgstr ""
+msgstr "Gerät Schreibtischlampe Left"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitLarge']
 msgctxt "Things.StructurePictureFrameThinPortraitLarge"
 msgid "Picture Frame Thin Portrait Large"
-msgstr ""
+msgstr "Bilderrahmen Dünn Hochformat Groß"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitLarge']
 msgctxt "Things.StructurePictureFrameThickPortraitLarge"
 msgid "Picture Frame Thick Portrait Large"
-msgstr ""
+msgstr "Bilderrahmen Stabil Hochformat Groß"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickLandscapeLarge']
 msgctxt "Things.StructurePictureFrameThickLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
-msgstr ""
+msgstr "Bilderrahmen Stabil Querformat Groß"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickLandscapeSmall"
 msgid "Picture Frame Thick Landscape Small"
-msgstr ""
+msgstr "Bilderrahmen Stabil Querformat Klein"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickMountLandscapeLarge']
 msgctxt "Things.StructurePictureFrameThickMountLandscapeLarge"
 msgid "Picture Frame Thick Landscape Large"
-msgstr ""
+msgstr "Bilderrahmen Stabil Querformat Groß"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickMountLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThickMountLandscapeSmall"
 msgid "Picture Frame Thick Landscape Small"
-msgstr ""
+msgstr "Bilderrahmen Stabil Querformat Klein"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickMountPortraitLarge']
 msgctxt "Things.StructurePictureFrameThickMountPortraitLarge"
 msgid "Picture Frame Thick Mount Portrait Large"
-msgstr ""
+msgstr "Bilderrahmen Stabil Montiert Hochformat Groß"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickMountPortraitSmall']
 msgctxt "Things.StructurePictureFrameThickMountPortraitSmall"
 msgid "Picture Frame Thick Mount Portrait Small"
-msgstr ""
+msgstr "Bilderrahmen Stabil Montiert Hochformat Klein"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThickPortraitSmall']
 msgctxt "Things.StructurePictureFrameThickPortraitSmall"
 msgid "Picture Frame Thick Portrait Small"
-msgstr ""
+msgstr "Bilderrahmen Stabil Hochformat Klein"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinLandscapeLarge']
 msgctxt "Things.StructurePictureFrameThinLandscapeLarge"
 msgid "Picture Frame Thin Landscape Large"
-msgstr ""
+msgstr "Bilderrahmen Dünn Querformat Groß"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThinLandscapeSmall"
 msgid "Picture Frame Thin Landscape Small"
-msgstr ""
+msgstr "Bilderrahmen Dünn Querformat Klein"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinPortraitSmall']
 msgctxt "Things.StructurePictureFrameThinPortraitSmall"
 msgid "Picture Frame Thin Portrait Small"
-msgstr ""
+msgstr "Bilderrahmen Dünn Hochformat Klein"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinMountPortraitSmall']
 msgctxt "Things.StructurePictureFrameThinMountPortraitSmall"
 msgid "Picture Frame Thin Portrait Small"
-msgstr ""
+msgstr "Bilderrahmen Dünn Hochformat Klein"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinMountPortraitLarge']
 msgctxt "Things.StructurePictureFrameThinMountPortraitLarge"
 msgid "Picture Frame Thin Portrait Large"
-msgstr ""
+msgstr "Bilderrahmen Dünn Hochformat Groß"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinMountLandscapeSmall']
 msgctxt "Things.StructurePictureFrameThinMountLandscapeSmall"
 msgid "Picture Frame Thin Landscape Small"
-msgstr ""
+msgstr "Bilderrahmen Dünn Querformat Klein"
 
 #: /Language/Things/RecordThing[Key='StructurePictureFrameThinMountLandscapeLarge']
 msgctxt "Things.StructurePictureFrameThinMountLandscapeLarge"
 msgid "Picture Frame Thin Landscape Large"
-msgstr ""
+msgstr "Bilderrahmen Dünn Querformat Groß"
 
 #: /Language/Things/RecordThing[Key='HumanSkull']
 msgctxt "Things.HumanSkull"
@@ -5899,12 +5913,12 @@ msgstr "Schädel"
 #: /Language/Things/RecordThing[Key='StructureShelf']
 msgctxt "Things.StructureShelf"
 msgid "Shelf"
-msgstr ""
+msgstr "Regal"
 
 #: /Language/Things/RecordThing[Key='StructureResearchMachine']
 msgctxt "Things.StructureResearchMachine"
 msgid "Research Machine"
-msgstr ""
+msgstr "Forschungsmaschine"
 
 #: /Language/Things/RecordThing[Key='ManualGetResearchPodsRequired']
 msgctxt "Things.ManualGetResearchPodsRequired"
@@ -5914,7 +5928,7 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='ItemKitResearchMachine']
 msgctxt "Things.ItemKitResearchMachine"
 msgid "Kit Research Machine"
-msgstr ""
+msgstr "Bausatz Forschungsmaschine"
 
 #: /Language/Things/RecordThing[Key='ItemElectronicParts']
 msgctxt "Things.ItemElectronicParts"
@@ -5994,17 +6008,19 @@ msgid ""
 "Indispensible for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
 msgstr ""
+"Das einfache {LINK:CHAC; CHAC} Jetpack ist 'technisch' gesehen kein Jetpack, es ist ein Gasstrahlruder. Es kann mit jedem Gas betrieben werden, solange der Innendruck der {LINK:AtmosphericsPage;canister} höher ist als der Umgebungsaußendruck. Wenn der Außendruck größer ist, funktioniert der Astronautenrucksack nicht.\n"
+"Unverzichtbar für Bau, Bergbau und allgemeine Bewegung, hat es zehn Steckplätze und lässt {LINK:Stationeers; Stationeers} fliegen mit 3m/s, verglichen mit dem leistungsstärkeren {THING:ItemHardJetpack}. Die Anpassung des Schubwerts ändert Ihre Beschleunigungsrate, während die Aktivierung des Stabilisators dazu führt, dass der Astronautenrucksack schwebt, wenn eine bestimmte Höhe erreicht ist.\n"
+"VERWENDE: 'J' zum Aktivieren; 'Leertaste', um nach oben zu fliegen; 'linke Strg' zum Absteigen; und 'WASD', um sich zu bewegen."
 
 #: /Language/Things/RecordThing[Key='ItemJetpackBasic']
 msgctxt "Things.ItemJetpackBasic"
 msgid "Jetpack Basic"
-msgstr ""
+msgstr "Jetpack Einfach"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium(Reversed)']
-#, fuzzy
 msgctxt "Things.StructureTransformerMedium(Reversed)"
 msgid "Transformer Reversed (Medium)"
-msgstr "Mittlerer Transformator Links"
+msgstr "Transformator umgekehrt (Mittel)"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMediumReversed']
 msgctxt "Things.StructureTransformerMediumReversed"
@@ -6013,12 +6029,14 @@ msgid ""
 "Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.\n"
 "Note that transformers also operate as data isolators, preventing data flowing into any network beyond it."
 msgstr ""
+"Transformatoren steuern die maximale Leistung, die durch ein Teilnetz von Kabeln fließt, um eine Überlastung von {LINK:ElectronicPage;electrical}-Systemen zu verhindern. \n"
+"Mittlere Transformatoren werden in größeren Setups verwendet, in denen mehr als 5000 W benötigt werden, mit einer Leistung, die auf maximal 25000 W eingestellt werden kann.\n"
+"Beachte, dass Transformatoren auch als Datenisolatoren fungieren und verhindern, dass Daten in ein dahinter gelegenes Netzwerk fließen."
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMediumReversed']
-#, fuzzy
 msgctxt "Things.StructureTransformerMediumReversed"
 msgid "Transformer Reversed (Medium)"
-msgstr "Mittlerer Transformator Links"
+msgstr "Transformator umgekehrt (Mittel)"
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium']
 msgctxt "Things.StructureTransformerMedium"
@@ -6027,12 +6045,14 @@ msgid ""
 "Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.\n"
 "Note that transformers also operate as data isolators, preventing data flowing into any network beyond it."
 msgstr ""
+"Transformatoren steuern die maximale Leistung, die durch ein Teilnetz von Kabeln fließt, um eine Überlastung von {LINK:ElectronicPage;electrical}-Systemen zu verhindern. \n"
+"Mittlere Transformatoren werden in größeren Setups verwendet, in denen mehr als 5000 W benötigt werden, mit einer Leistung, die auf maximal 25000 W eingestellt werden kann.\n"
+"Beachte, dass Transformatoren auch als Datenisolatoren fungieren und verhindern, dass Daten in ein dahinter gelegenes Netzwerk fließen."
 
 #: /Language/Things/RecordThing[Key='StructureTransformerMedium']
-#, fuzzy
 msgctxt "Things.StructureTransformerMedium"
 msgid "Transformer (Medium)"
-msgstr "Mittlerer Transformator Rechts"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ToolPrinterMod']
 msgctxt "Things.ToolPrinterMod"
