@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 12:14+0000\n"
+"PO-Revision-Date: 2022-09-21 12:19+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6058,6 +6058,8 @@ msgstr ""
 msgctxt "Things.ToolPrinterMod"
 msgid "Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
 msgstr ""
+"Montiere an einem {THING:StructureToolManufactory} mit einem {THING:ItemWeldingTorch} oder {THING:ItemArcWelder}, um ein Upgrade für eine höhere Verarbeitungsgeschwindigkeit und mehr Rezeptoptionen "
+"durchzuführen."
 
 #: /Language/Things/RecordThing[Key='ToolPrinterMod']
 msgctxt "Things.ToolPrinterMod"
@@ -6068,6 +6070,8 @@ msgstr "Werkzeugmanufaktur-Upgrade"
 msgctxt "Things.PipeBenderMod"
 msgid "Apply to an {THING:StructureHydraulicPipeBender} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
 msgstr ""
+"Montiere an einem {THING:StructureHydraulicPipeBender} mit einem {THING:ItemWeldingTorch} oder {THING:ItemArcWelder}, um ein Upgrade für eine höhere Verarbeitungsgeschwindigkeit und mehr "
+"Rezeptoptionen durchzuführen."
 
 #: /Language/Things/RecordThing[Key='PipeBenderMod']
 msgctxt "Things.PipeBenderMod"
@@ -6078,6 +6082,8 @@ msgstr "Rohrbieger-Upgrade"
 msgctxt "Things.AutolathePrinterMod"
 msgid "Apply to an {THING:StructureAutolathe} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
 msgstr ""
+"Montiere an einer {THING:StructureAutolathe} mit einem {THING:ItemWeldingTorch} oder {THING:ItemArcWelder}, um ein Upgrade für eine höhere Verarbeitungsgeschwindigkeit und mehr Rezeptoptionen "
+"durchzuführen."
 
 #: /Language/Things/RecordThing[Key='AutolathePrinterMod']
 msgctxt "Things.AutolathePrinterMod"
@@ -6088,6 +6094,8 @@ msgstr "Drehmaschinen-Upgrade"
 msgctxt "Things.ElectronicPrinterMod"
 msgid "Apply to an {THING:StructureElectronicsPrinter} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options."
 msgstr ""
+"Montiere an einem {THING:StructureElectronicsPrinter} mit einem {THING:ItemWeldingTorch} oder {THING:ItemArcWelder}, um ein Upgrade für eine höhere Verarbeitungsgeschwindigkeit und mehr "
+"Rezeptoptionen durchzuführen."
 
 #: /Language/Things/RecordThing[Key='ElectronicPrinterMod']
 msgctxt "Things.ElectronicPrinterMod"
@@ -6135,6 +6143,8 @@ msgid ""
 "Cobalt is a chemical element with the symbol \"Co\" and is typically found in only small deposits. Cobalt is a rare substance, but used create the {THING:ItemHealPill} and several  "
 "{LINK:IngotPage;alloys}."
 msgstr ""
+"Kobalt ist ein chemisches Element mit dem Symbol \"Co\" und kommt typischerweise nur in kleinen Ablagerungen vor. Kobalt ist eine seltene Substanz, aber wird verwendet für die Herstellung von "
+"{THING:ItemHealPill} und mehreren {LINK:IngotPage;alloys}."
 
 #: /Language/Things/RecordThing[Key='ItemCobaltOre']
 msgctxt "Things.ItemCobaltOre"
@@ -6147,6 +6157,8 @@ msgid ""
 "Due to the original Stationeer manual collapsing into a singularity, Astroloy recipes have been warped by spacetime contortions. The correct Astroloy recipe, as memorialized for all time in a series"
 " of charming plastic icons, is 1.0 Copper, 1.0 Cobalt, and 2.0 Steel."
 msgstr ""
+"Da das ursprüngliche Stationeer-Handbuch in eine Singularität kollabiert ist, wurden Astroloy-Rezepte durch Raumzeitverzerrungen verschoben. Das richtige Astroloy-Rezept, wie es für alle Zeiten in "
+"einer Reihe von charmanten Plastik-Icons in Erinnerung geblieben ist, ist 1.0 Kupfer, 1.0 Kobalt und 2.0 Stahl."
 
 #: /Language/Things/RecordThing[Key='ItemAstroloyIngot']
 msgctxt "Things.ItemAstroloyIngot"
@@ -6181,7 +6193,7 @@ msgstr "Verbesserter Schmelzofen (Bausatz)"
 #: /Language/Things/RecordThing[Key='StructureAdvancedFurnace']
 msgctxt "Things.StructureAdvancedFurnace"
 msgid "The advanced furnace comes with integrated inlet and outlet pumps for controlling the unit's internal pressure."
-msgstr ""
+msgstr "Der fortschrittliche Ofen verfügt über integrierte Ein- und Auslasspumpen zur Steuerung des Innendrucks des Geräts."
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedFurnace']
 msgctxt "Things.StructureAdvancedFurnace"
@@ -6201,7 +6213,7 @@ msgstr "Logischer Sender"
 #: /Language/Things/RecordThing[Key='CartridgeGPS']
 msgctxt "Things.CartridgeGPS"
 msgid "GPS"
-msgstr ""
+msgstr "GPS"
 
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
@@ -6220,21 +6232,34 @@ msgid ""
 "RobotMode.None = 5 = Path(find) to target\n"
 "RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full"
 msgstr ""
+"Entworfen von - vermutlich betrunkenen - {LINK:Norsec; Norsec} Robotikern, AIMeE (oder Automated Independent Mechanical Entity) kann ein {LINK:Stationeers;Stationeer's} bester Freund oder ermüdender Erzfeind oder beides mehrmals am selben Tag sein. \n"
+"      \n"
+"Das Gerät soll Erze automatisch ausgraben und abrufen, erfordert grundlegende Programmierkenntnisse für den Betrieb und {THING:MotherboardProgrammableChip}.\n"
+"\n"
+"AIMEe hat 7 Modi:\n"
+"\n"
+"RobotMode.None = 0 = Nichts tun\n"
+"RobotMode.None = 1 = Folge dem nächsten Spieler\n"
+"RobotMode.None = 2 = In gerader Linie zum Ziel bewegen\n"
+"RobotMode.None = 3 = Suche nach Erzen in einem Radius von 15 Koordinaten\n"
+"RobotMode.None = 4 = Entlade im Schachteinwurf oder Schachteinlass innerhalb von 3 Metern / 1,5 große Gitter\n"
+"RobotMode.None = 5 = Pfad(finder) zum Ziel\n"
+"RobotMode.None = 6 = Automatisch zugewiesener Status, zeigt an, wenn die Steckplätze voll sind"
 
 #: /Language/Things/RecordThing[Key='Robot']
 msgctxt "Things.Robot"
 msgid "AIMeE Bot"
-msgstr ""
+msgstr "AIMeE Roboter"
 
 #: /Language/Things/RecordThing[Key='ItemCoffeeMug']
 msgctxt "Things.ItemCoffeeMug"
 msgid "Coffee Mug"
-msgstr ""
+msgstr "Kaffeetasse"
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelFused']
 msgctxt "Things.StructureSolarPanelFused"
 msgid "Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}."
-msgstr ""
+msgstr "Wird zur Stromerzeugung aus Sonnenlicht verwendet. Die Effizienz wird während Stürmen und bei Schäden reduziert. Du kannst es mit einem vertrauenswürdigen {THING:ItemDuctTape} reparieren."
 
 #: /Language/Things/RecordThing[Key='StructureSolarPanelFused']
 msgctxt "Things.StructureSolarPanelFused"
@@ -6244,34 +6269,32 @@ msgstr "Solarmodul"
 #: /Language/Things/RecordThing[Key='ItemExplosive']
 msgctxt "Things.ItemExplosive"
 msgid "Remote Explosive"
-msgstr ""
+msgstr "Ferngezündeter Sprengstoff"
 
 #: /Language/Things/RecordThing[Key='ItemRemoteDetonator']
 msgctxt "Things.ItemRemoteDetonator"
 msgid "Remote Detonator"
-msgstr ""
+msgstr "Fernzünder"
 
 #: /Language/Things/RecordThing[Key='Lander']
 msgctxt "Things.Lander"
 msgid "Lander"
-msgstr ""
+msgstr "Landefahrzeug"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterPollutants']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterPollutants"
 msgid "Portable Gas Tank (Pollutants)"
-msgstr "Portabler Tank (Flüchtige Stoffe)"
+msgstr "Tragbarer Gastank (Schadstoffe)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterNitrousOxide']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterNitrousOxide"
 msgid "Portable Gas Tank (Nitrous Oxide)"
-msgstr "Portabler Tank (Distickstoffmonoxid N2O)"
+msgstr "Tragbarer Gastank (Lachgas)"
 
 #: /Language/Things/RecordThing[Key='ItemKitAutoMiner']
 msgctxt "Things.ItemKitAutoMiner"
 msgid "Kit (Auto Miner)"
-msgstr ""
+msgstr "Bausatz (Förderbohrer)"
 
 #: /Language/Things/RecordThing[Key='Meteorite']
 msgctxt "Things.Meteorite"
@@ -6281,27 +6304,27 @@ msgstr "Meteorit"
 #: /Language/Things/RecordThing[Key='Phobos']
 msgctxt "Things.Phobos"
 msgid "Phobos"
-msgstr ""
+msgstr "Phobos"
 
 #: /Language/Things/RecordThing[Key='StructureStairs4x2RailR']
 msgctxt "Things.StructureStairs4x2RailR"
 msgid "Stairs with Rail (Right)"
-msgstr ""
+msgstr "Treppe mit Geländer (Rechts)"
 
 #: /Language/Things/RecordThing[Key='StructureStairs4x2RailL']
 msgctxt "Things.StructureStairs4x2RailL"
 msgid "Stairs with Rail (Left)"
-msgstr ""
+msgstr "Treppe mit Geländer (Links)"
 
 #: /Language/Things/RecordThing[Key='StructureStairs4x2Rails']
 msgctxt "Things.StructureStairs4x2Rails"
 msgid "Stairs with Rails"
-msgstr ""
+msgstr "Treppen mit Geländern"
 
 #: /Language/Things/RecordThing[Key='ItemKitRoverFrame']
 msgctxt "Things.ItemKitRoverFrame"
 msgid "Not spawnable."
-msgstr ""
+msgstr "Nicht spawnfähig."
 
 #: /Language/Things/RecordThing[Key='ItemKitRoverFrame']
 msgctxt "Things.ItemKitRoverFrame"
@@ -6330,6 +6353,9 @@ msgid ""
 "mountains. The heavy mining drill will remove more ground and mine {LINK:OrePage;ore} more quickly than the standard mining drill. The heavy mining drill is also resilient to temperature and "
 "pressure. So no matter what planet or extreme weather conditions may be present, the Recurso heavy mining drill will get the job done."
 msgstr ""
+"Manchmal erfordern Bergbaureisen etwas Größeres, um die Erträge nach Hause zu bringen. Diese hochskalierte Version des {LINK:Recurso; Recurso} 'Topo' Design {THING:ItemMiningDrill} kann buchstäblich"
+" Berge versetzen. Der schwere Bergbaubohrer wird mehr Boden entfernen und {LINK:OrePage;ore} schneller abbauen als der Standard-Bergbaubohrer. Der schwere Bergbaubohrer ist auch widerstandsfähig "
+"gegenüber Temperatur und Druck. Unabhängig davon, welcher Planet oder welche extremen Wetterbedingungen gegeben sind, der schwere Bergbaubohrer Recurso wird die Arbeit erledigen."
 
 #: /Language/Things/RecordThing[Key='ItemMiningDrillHeavy']
 msgctxt "Things.ItemMiningDrillHeavy"
@@ -6378,12 +6404,14 @@ msgid ""
 "with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureSatelliteDish} either directly or through logic. You need a communications signal of 95% or above to establish "
 "reliable communications with a trader."
 msgstr ""
+"Wenn es an einen {THING:StructureComputer} angeschlossen und mit einem {THING:StructureShuttleLandingPad} verbunden wird, ermöglicht eine {THING:StructureSatelliteDish} und eine "
+"{THING:StructureVendingMachine} Stationeers den Handel mit Lieferanten. Passe die horizontalen und vertikalen Attribute der {THING:StructureSatelliteDish} entweder direkt oder über Logik an. Du "
+"benötigst ein Kommunikationssignal von 95% oder mehr, um eine zuverlässige Kommunikation mit einem Händler herzustellen."
 
 #: /Language/Things/RecordThing[Key='MotherboardComms']
-#, fuzzy
 msgctxt "Things.MotherboardComms"
 msgid "Communications Motherboard"
-msgstr "Hauptplatine (Kommunikation)"
+msgstr "Kommunikation Hauptplatine"
 
 #: /Language/Things/RecordThing[Key='ItemAlienMushroom']
 msgctxt "Things.ItemAlienMushroom"
@@ -6407,6 +6435,9 @@ msgid ""
 "      \n"
 "When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine}, this allows Stationeers to trade with suppliers. Adjust its horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader."
 msgstr ""
+"Diese große Kommunikationseinheit kann zur Kommunikation mit Handelsschiffen in der Nähe verwendet werden.\n"
+"      \n"
+"Wenn eine Verbindung zu einem {THING:StructureComputer} besteht, der eine {THING:MotherboardComms}-Hauptplatine, eine {THING:StructureShuttleLandingPad} und einen {THING:StructureVendingMachine} enthält, können Stationeers mit Lieferanten handeln. Passe die horizontalen und vertikalen Attribute entweder direkt oder über Logik an. Du benötigst ein Kommunikationssignal von 95% oder mehr, um eine zuverlässige Kommunikation mit einem Händler herzustellen."
 
 #: /Language/Things/RecordThing[Key='StructureSatelliteDish']
 msgctxt "Things.StructureSatelliteDish"
@@ -6424,6 +6455,9 @@ msgid ""
 "Landing pad capable of handling a small trade shuttle. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureSatelliteDish}, and a "
 "{THING:StructureVendingMachine} enables the ability to trade with suppliers. You need a communications signal of 95% or above to establish reliable communications with a trader."
 msgstr ""
+"Landeplatz, der in der Lage ist, einen kleines Handels-Shuttle aufzunehmen. Wenn eine Verbindung zu einem {THING:StructureComputer} besteht, der eine {THING:MotherboardComms}, eine "
+"{THING:StructureSatelliteDish} und einen {THING:StructureVendingMachine} enthält, können Sie mit Lieferanten handeln. Du benötigst ein Kommunikationssignal von 95% oder mehr, um eine zuverlässige "
+"Kommunikation mit einem Händler herzustellen."
 
 #: /Language/Things/RecordThing[Key='StructureShuttleLandingPad']
 msgctxt "Things.StructureShuttleLandingPad"
@@ -6466,10 +6500,9 @@ msgid "Filter (Nitrous Oxide)"
 msgstr "Leichter Filter (Lachgas - N2O)"
 
 #: /Language/Things/RecordThing[Key='StructureBasketHoop']
-#, fuzzy
 msgctxt "Things.StructureBasketHoop"
 msgid "Basket Hoop"
-msgstr "Basketballkorb"
+msgstr "Basketball Korb"
 
 #: /Language/Things/RecordThing[Key='ItemKitBasket']
 msgctxt "Things.ItemKitBasket"
@@ -6512,6 +6545,8 @@ msgid ""
 "When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ItemIntegratedCircuit10} if housed in an "
 "{THING:StructureCircuitHousing}."
 msgstr ""
+"Wenn der IC-Editor in einem {THING:StructureComputer} platziert wird, können Spieler IC-Code schreiben und bearbeiten, der dann in einen {THING:ItemIntegratedCircuit10} hochgeladen werden kann, wenn"
+" dieser in einem {THING:StructureCircuitHousing} untergebracht ist."
 
 #: /Language/Things/RecordThing[Key='MotherboardProgrammableChip']
 msgctxt "Things.MotherboardProgrammableChip"
@@ -6535,6 +6570,14 @@ msgid ""
 "Copper and Oxite = yellow\n"
 "Volatiles and Uranium = white"
 msgstr ""
+"Wenn der Scanner in ein {THING:ItemTablet} eingefügt und in Verbindung mit einem {THING:DynamicGPR} verwendet wird, zeigt er unterirdisch verborgene Mineralien in verschiedenen Farben auf dem Tablet an.\n"
+"\n"
+"Eisen und Nickel = rot \n"
+"Eis, Blei, Kobalt = cyan\n"
+"Gold und Silber = grün\n"
+"Kohle und Silizium = Magenta\n"
+"Kupfer und Oxit = gelb\n"
+"Flüchtige Stoffe und Uran = weiß"
 
 #: /Language/Things/RecordThing[Key='CartridgeOreScannerColor']
 msgctxt "Things.CartridgeOreScannerColor"
@@ -6549,7 +6592,7 @@ msgstr "Lautpsrecher (Bausatz)"
 #: /Language/Things/RecordThing[Key='StructureKlaxon']
 msgctxt "Things.StructureKlaxon"
 msgid "Klaxons allow you to play over 50 announcemets and sounds, depending on your {LINK:LogicPage;Logic} set-up. Set the mode to select the output."
-msgstr ""
+msgstr "Mit Klaxons kannst du über 50 Durchsagen und Sounds abspielen, abhängig von Ihrem {LINK:LogicPage; Logik} Setup. Stelle den Modus ein, um die Ausgabe auszuwählen."
 
 #: /Language/Things/RecordThing[Key='StructureKlaxon']
 msgctxt "Things.StructureKlaxon"
@@ -6573,6 +6616,9 @@ msgid ""
 "The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensible for building, mining and general movement, it has fourteen storage slots.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
 msgstr ""
+"Das {LINK:Norsec; Norsec} Jetpack ist \"technisch\" überhaupt kein Jetpack, es ist ein Gasstrahlruder. Es kann mit jedem Gas betrieben werden, solange der Innendruck der {LINK:AtmosphericsPage;canister} höher ist als der Umgebungsaußendruck. Wenn der Außendruck größer ist, funktioniert der Astronautenrucksack nicht. Die Anpassung des Schubwerts ändert Ihre Beschleunigungsrate, während die Aktivierung des Stablisators dazu führt, dass der Astronautenrucksack schwebt, wenn eine bestimmte Höhe erreicht ist.\n"
+"Das Hardsuit-Jetpack ist in der Lage, viel höhere Geschwindigkeiten als das {THING:ItemJetpackBasic} zu erreichen - bis zu 15m/s. Unverzichtbar für den Bau, den Bergbau und die allgemeine Bewegung, verfügt es über vierzehn Steckplätze.\n"
+"VERWENDE: 'J' zum Aktivieren; 'Leertaste', um nach oben zu fliegen; 'linke Strg' zum Absteigen; und 'WASD', um sich zu bewegen."
 
 #: /Language/Things/RecordThing[Key='ItemHardJetpack']
 msgctxt "Things.ItemHardJetpack"
@@ -6582,7 +6628,7 @@ msgstr "Schwerer Astronautenrucksack"
 #: /Language/Things/RecordThing[Key='ItemHardBackpack']
 msgctxt "Things.ItemHardBackpack"
 msgid "This backpack can be useful when you are working inside and don't need to fly around."
-msgstr ""
+msgstr "Dieser Rucksack kann nützlich sein, wenn du drinnen arbeiten und nicht herumfliegen musst."
 
 #: /Language/Things/RecordThing[Key='ItemHardBackpack']
 msgctxt "Things.ItemHardBackpack"
@@ -6607,7 +6653,7 @@ msgstr "Kürbis"
 #: /Language/Things/RecordThing[Key='ItemMushroom']
 msgctxt "Things.ItemMushroom"
 msgid "A tasty food item. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide} and will only grow when not in sunlight."
-msgstr ""
+msgstr "Ein köstliches Nahrungsmittel. Im Gegensatz zu normalen Pflanzen verbraucht es {GAS: Sauerstoff} und gibt {GAS: Kohlendioxid} aus und wächst nur, wenn es nicht dem Sonnenlicht ausgesetzt ist."
 
 #: /Language/Things/RecordThing[Key='ItemMushroom']
 msgctxt "Things.ItemMushroom"
