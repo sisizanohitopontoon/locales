@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 15:53+0000\n"
+"PO-Revision-Date: 2022-09-21 16:00+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4922,37 +4922,37 @@ msgstr "Keine Beschreibung"
 #: /Language/Interface/Record[Key='LogicTypePressureEfficiency']
 msgctxt "Interface.LogicTypePressureEfficiency"
 msgid "How the pressure of the input pipe and waste pipe effect the machines efficiency"
-msgstr ""
+msgstr "Wie sich der Druck des Eingangsrohrs und des Abfallrohrs auf die Maschineneffizienz auswirkt"
 
 #: /Language/Interface/Record[Key='LogicTypeStress']
 msgctxt "Interface.LogicTypeStress"
 msgid "Machines get stressed when working hard. When Stress reaches 100 the machine will automatically shut down"
-msgstr ""
+msgstr "Maschinen werden belastet, wenn sie hart arbeiten. Wenn die Belastung 100 erreicht, schaltet sich die Maschine automatisch ab"
 
 #: /Language/Interface/Record[Key='LogicTypeRpm']
 msgctxt "Interface.LogicTypeRpm"
 msgid "The number of revolutions per minute that the device's spinning machanism is doing"
-msgstr ""
+msgstr "Die Anzahl der Umdrehungen pro Minute, die der sich drehende Mechanismus des Geräts ausführt"
 
 #: /Language/Interface/Record[Key='LogicTypeThrottle']
 msgctxt "Interface.LogicTypeThrottle"
 msgid "Increases the rate at which the machine works (range: 0-100)"
-msgstr ""
+msgstr "Erhöht die Geschwindigkeit, mit der die Maschine arbeitet (Bereich: 0-100)"
 
 #: /Language/Interface/Record[Key='LogicTypeCombustionLimiter']
 msgctxt "Interface.LogicTypeCombustionLimiter"
 msgid "Retards the rate of combustion inside the machine (range: 0-100), with 0 being the slowest rate of combustion and 100 being the fastest"
-msgstr ""
+msgstr "Verzögert die Verbrennungsrate innerhalb der Maschine (Bereich: 0-100), wobei 0 die langsamste Verbrennungsrate und 100 die schnellste ist"
 
 #: /Language/Interface/Record[Key='LogicTypeTemperatureDifferentialEfficiency']
 msgctxt "Interface.LogicTypeTemperatureDifferentialEfficiency"
 msgid "How the difference between the input pipe and waste pipe temperatures effect the machines efficiency"
-msgstr ""
+msgstr "Wie sich die Differenz zwischen den Eingangsrohr- und Abfallrohrtemperaturen auf die Effizienz der Maschine auswirkt"
 
 #: /Language/Interface/Record[Key='LogicTypeOperationalTemperatureEfficiency']
 msgctxt "Interface.LogicTypeOperationalTemperatureEfficiency"
 msgid "How the input pipe's temperature effects the machines efficency"
-msgstr ""
+msgstr "Wie sich die Temperatur des Eingangsrohrs auf die Maschineneffizienz auswirkt"
 
 #: /Language/Interface/Record[Key='LogicTypeSignalID']
 msgctxt "Interface.LogicTypeSignalID"
@@ -5059,28 +5059,24 @@ msgid "Returns the device atmosphere volume"
 msgstr "Gibt das Volumen der Geräteatmosphäre zurück"
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMolesOutput2']
-#, fuzzy
 msgctxt "Interface.LogicTypeTotalMolesOutput2"
 msgid "Returns the total moles of the device's Output2 Network"
-msgstr "Gibt die gesamten Mol des Gerätes zurück"
+msgstr "Gibt die Gesamtzahl der Mole des Output2-Netzwerks des Geräts zurück."
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMolesOutput']
-#, fuzzy
 msgctxt "Interface.LogicTypeTotalMolesOutput"
 msgid "Returns the total moles of the device's Output Network"
-msgstr "Gibt die gesamten Mol des Gerätes zurück"
+msgstr "Gibt die Gesamtzahl der Mole des Ausgabenetzwerks des Geräts zurück."
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMolesInput2']
-#, fuzzy
 msgctxt "Interface.LogicTypeTotalMolesInput2"
 msgid "Returns the total moles of the device's Input2 Network"
-msgstr "Gibt die gesamten Mol des Gerätes zurück"
+msgstr "Gibt die Gesamtzahl der Mole des Input2-Netzwerks des Geräts zurück."
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMolesInput']
-#, fuzzy
 msgctxt "Interface.LogicTypeTotalMolesInput"
 msgid "Returns the total moles of the device's Input Network"
-msgstr "Gibt die gesamten Mol des Gerätes zurück"
+msgstr "Gibt die Gesamtzahl der Mole des Eingangsnetzwerks des Geräts zurück."
 
 #: /Language/Interface/Record[Key='LogicTypeTotalMoles']
 msgctxt "Interface.LogicTypeTotalMoles"
@@ -5245,6 +5241,22 @@ msgid ""
 "        It is an unwavering universal law that anything higher than 11 will be purple. The {LINK:ODA;ODA} is powerless to change this. Similarly, anything lower than 0 will be Blue.\n"
 "      "
 msgstr ""
+"Ob von Bedenken hinsichtlich Klarheit, Sicherheit oder einfacher Ästhetik getrieben, {LINK:Stationeers; Stationeers} haben Zugriff auf einen kleinen Regenbogen von Farben für ihre Konstruktionen. Dies sind die Farbeinstellungen für Geräte, die als ganze Zahl dargestellt werden.\n"
+"\n"
+"0: Blau\n"
+"1: Grau\n"
+"2: Grün\n"
+"3: Orange\n"
+"4: Rot\n"
+"5: Gelb\n"
+"6: Weiß\n"
+"7: Schwarz\n"
+"8: Braun\n"
+"9: Khaki\n"
+"10: Rosa\n"
+"11: Lila\n"
+"\n"
+"Es ist ein unerschütterliches universelles Gesetz, dass alles, was höher als 11 ist, lila sein wird. Der {LINK:ODA;ODA} ist machtlos, dies zu ändern. In ähnlicher Weise ist alles, was niedriger als 0 ist, blau.      "
 
 #: /Language/Interface/Record[Key='LogicTypeIdle']
 msgctxt "Interface.LogicTypeIdle"
@@ -5339,37 +5351,32 @@ msgstr "Horizontale Einstellung des Gerätes"
 #: /Language/Interface/Record[Key='LogicTypeCombustionOutput2']
 msgctxt "Interface.LogicTypeCombustionOutput2"
 msgid "The assess atmosphere is on fire. Returns 1 if device's Output2 network is on fire, 0 if not."
-msgstr ""
+msgstr "Die Atmosphäre steht in Flammen. Gibt 1 zurück, wenn das Output2-Netzwerk des Geräts brennt, 0, wenn nicht."
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrousOxideOutput2']
-#, fuzzy
 msgctxt "Interface.LogicTypeRatioNitrousOxideOutput2"
 msgid "The ratio of {GAS:NitrousOxide} in device's Output2 network"
-msgstr "Das Verhältnis von Lachgas in der Geräteatmosphäre"
+msgstr "Das Verhältnis von {GAS:Lachgas} im Output2-Netzwerk des Geräts"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioWaterOutput2']
-#, fuzzy
 msgctxt "Interface.LogicTypeRatioWaterOutput2"
 msgid "The ratio of water in device's Output2 network"
-msgstr "Das Verhältnis von Wasser in der Geräteatmosphäre"
+msgstr "Das Verhältnis von Wasser im Output2-Netzwerk des Geräts"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioVolatilesOutput2']
-#, fuzzy
 msgctxt "Interface.LogicTypeRatioVolatilesOutput2"
 msgid "The ratio of volatiles in device's Output2 network"
-msgstr "Das Verhältnis von flüchtigen Stoffen in der Geräteatmosphäre"
+msgstr "Das Verhältnis der flüchtigen Stoffe im Output2-Netzwerk des Geräts"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioPollutantOutput2']
-#, fuzzy
 msgctxt "Interface.LogicTypeRatioPollutantOutput2"
 msgid "The ratio of pollutant in device's Output2 network"
-msgstr "Das Verhältnis von Schadstoff in der Geräteatmosphäre"
+msgstr "Das Verhältnis von Schadstoffen im Output2-Netzwerk des Geräts"
 
 #: /Language/Interface/Record[Key='LogicTypeRatioNitrogenOutput2']
-#, fuzzy
 msgctxt "Interface.LogicTypeRatioNitrogenOutput2"
 msgid "The ratio of nitrogen in device's Output2 network"
-msgstr "Das Verhältnis von Stickstoff in der Geräteatmosphäre"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypeRatioCarbonDioxideOutput2']
 #, fuzzy
