@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 12:54+0000\n"
+"PO-Revision-Date: 2022-09-21 12:59+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -902,6 +902,10 @@ msgid ""
 "Likewise, be aware that solar panels are fragile and may have their glass shattered, or occasionally even be destroyed by a sufficiently ferocious storm. During storms, their output is also drastically reduced.\n"
 "      "
 msgstr ""
+"Die Planeten des Sonnensystems sind nicht so ruhig, wie sie scheinen mögen. Nach sieben Tagen auf jeder Welt mit Atmosphäre treten die unergründlichen Kräfte der Natur in Aktion – sie treffen unvorsichtige Stationeers mit Schneestürmen, Staubstürmen und vulkanischen Ereignissen.\n"
+"Daher empfiehlt der {LINK:ODA;ODA}, dass frisch eingesetzte Stationeers innerhalb von 7 Tagen nach der Landung eine luftdichte Basis erbauen.\n"
+"Alle dynamischen Objekte, die in einem Sturm draußen zurückgelassen werden - auf dem Mars, Loulan, Vulcan oder Europa - riskieren, weit, weit weg geweht zu werden, einschließlich Ihres Landers.\n"
+"Beachte ebenfalls, dass Sonnenkollektoren empfindlich sind und ihr Glas zerbrechen oder gelegentlich sogar durch einen ausreichend heftigen Sturm zerstört werden kann. Bei Stürmen wird ihre Leistung ebenfalls drastisch reduziert.      "
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingTemplate']
 msgctxt "HelpPage.ThingTemplate"
@@ -937,63 +941,55 @@ msgid "{0}"
 msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotHeaderTemplate']
-#, fuzzy
 msgctxt "HelpPage.ThingSlotHeaderTemplate"
 msgid "{LIST}{0}{/LIST}"
-msgstr "{HEADER:Slots}{LIST}{0}{/LIST}"
+msgstr "{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingSlotItemTemplate']
-#, fuzzy
 msgctxt "HelpPage.ThingSlotItemTemplate"
 msgid "{0}. {1} Type {2}"
-msgstr "{0}. {POS:100}{1} {POS:300}Typ {2}"
+msgstr "{0}. {1} Type {2}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingStackTemplate']
-#, fuzzy
 msgctxt "HelpPage.ThingStackTemplate"
 msgid "{0}"
-msgstr "Stapelgröße {POS:300}{0}"
+msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingTransmissibleTemplate']
 msgctxt "HelpPage.ThingTransmissibleTemplate"
 msgid "Connects to {POS:300}{THING:StructureLogicTransmitter}"
-msgstr ""
+msgstr "Verbindet sich mit {POS:300}{THING:StructureLogicTransmitter}"
 
 #: /Language/HelpPage/StationpediaPage[Key='ThingNutritionTemplate']
-#, fuzzy
 msgctxt "HelpPage.ThingNutritionTemplate"
 msgid "{0}"
-msgstr "Maximaler Nährwert {POS:300}{0}"
+msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='IceMeltingTemplate']
-#, fuzzy
 msgctxt "HelpPage.IceMeltingTemplate"
 msgid ""
 "Melt Temperature {1}\n"
 "Melt Pressure {0}"
 msgstr ""
-"Schmelztemperatur {POS:300}{1}\n"
-"Schmelzdruck {POS:300}{0}"
+"Schmelztemperatur {1}\n"
+"Schmelzdruck {0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='DeviceTemplate']
 msgctxt "HelpPage.DeviceTemplate"
 msgid "{0}W"
-msgstr ""
+msgstr "{0}W"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasCanisterTemplate']
-#, fuzzy
 msgctxt "HelpPage.GasCanisterTemplate"
 msgid "{0}"
 msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='AtmosphericsTemplate']
-#, fuzzy
 msgctxt "HelpPage.AtmosphericsTemplate"
 msgid "{0}"
 msgstr "{0}"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPageTemplate']
-#, fuzzy
 msgctxt "HelpPage.NutritionPageTemplate"
 msgid "{0}"
 msgstr "{0}"
@@ -1046,6 +1042,9 @@ msgid ""
 "        \n"
 "      "
 msgstr ""
+"\n"
+"        \n"
+"      "
 
 #: /Language/HelpPage/StationpediaPage[Key='CreatorTemplate']
 msgctxt "HelpPage.CreatorTemplate"
@@ -1111,6 +1110,13 @@ msgid ""
 "\n"
 "{LIST}{2}{/LIST}"
 msgstr ""
+"Ein {LINK:ReagentPage;reagenz}, das oft in der Form {LINK:IngotPage;Ingots} verwendet werden kann.\n"
+"\n"
+"\n"
+"{LIST}Unit {1}{/LIST}\n"
+"\n"
+"\n"
+"{LIST}{2}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageTemplate']
 msgctxt "HelpPage.GasPageTemplate"
@@ -1123,6 +1129,13 @@ msgid ""
 "\n"
 "{LIST}{0}{/LIST}"
 msgstr ""
+"Ein {LINK:GasPage;gas}, das oft entsteht, wenn {LINK:SmeltingPage;smelting}.\n"
+"\n"
+"\n"
+"{LIST}Specific Heat {1}{2}{/LIST}\n"
+"\n"
+"\n"
+"{LIST}{0}{/LIST}"
 
 #: /Language/HelpPage/StationpediaPage[Key='GasPageFlamableTemplate']
 msgctxt "HelpPage.GasPageFlamableTemplate"
@@ -1132,7 +1145,7 @@ msgstr "Entzündungsgrenzen {0} bis {1}"
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
 msgctxt "HelpPage.NutritionPage"
 msgid "Hunger and nutrition"
-msgstr ""
+msgstr "Hunger und Nährstoffversorgung"
 
 #: /Language/HelpPage/StationpediaPage[Key='NutritionPage']
 msgctxt "HelpPage.NutritionPage"
