@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 14:09+0000\n"
+"PO-Revision-Date: 2022-09-21 14:11+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1670,7 +1670,6 @@ msgstr ""
 "Schadstoff hat eine hohe spezifische Wärme, was es zu einem ausgezeichneten Kühlmittel macht. Leider ist es extrem schlecht für organische Wesen und wird die Lungen der meisten auf {REAGE:Carbon} basierenden Organismen schwer schädigen."
 
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
-#, fuzzy
 msgctxt "Interface.MoleVolatilesDescription"
 msgid ""
 "Volatiles are an extremely reactive, complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is refined from {THING:ItemVolatiles}.\n"
@@ -1679,11 +1678,11 @@ msgid ""
 "      \n"
 "2 {GAS:Volatiles} + 1 {GAS:Oxygen} -> 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + heat."
 msgstr ""
-"Flüchtige Stoffe sind ein extrem reaktives, komplexes organisches Molekül, das in Verbindung mit Sauerstoff als brennbarer Treibstoff verwendet werden kann. Es wird von {THING:ItemVolatiles} verfeinert.\n"
+"Flüchtige Stoffe sind ein extrem reaktive, komplexe organische Moleküle, die in Verbindung mit Sauerstoff als brennbarer Brennstoff verwendet werden können. Es wird von {THING:ItemVolatiles} verfeinert.\n"
 "      \n"
-"Aufgrund obskurer und weitgehend vergessener <color=#0080FFFF>{LINK:ODA;ODA}</color>-Vorschriften, werden flüchtige Stoffe manchmal von verschiedenen Technologieelementen als 'H2' bezeichnet. Obwohl sie Wasserstoff ähnlich sind, sind sie nicht \"eigentlich\" Wasserstoff. Flüchtige Stoffe produzieren bei der Verbrennung ohne Katalysator kein Wasser (siehe {THING:H2Combustor}). Allein bei der Verbrennung im folgenden Verhältnis entstehen Schadstoffe und Kohlendioxid:\n"
+"Aufgrund obskurer und weitgehend vergessener {LINK:ODA;ODA}-Vorschriften werden flüchtige Stoffe manchmal von verschiedenen Technologieelementen als \"H2\" bezeichnet. Obwohl sie Wasserstoff ähnlich sind, sind sie nicht \"eigentlich\" Wasserstoff. {GAS:Volatiles} erzeugt bei der Verbrennung ohne Katalysator kein {GAS:Wasser} (siehe {THING:H2Combustor}). Allein erzeugen sie {GAS:Schadstoff}s und {GAS:Kohlendioxid}, wenn sie im folgenden Verhältnis verbrannt werden:\n"
 "      \n"
-"2 flüchtige Stoffe + 1 O2 -> 3X + 6CO2 + Wärme."
+"2 {GAS:Flüchtige} + 1 {GAS:Sauerstoff} -> 3 {GAS:Schadstoff} + 6 {GAS:Kohlendioxid} + Wärme."
 
 #: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
 msgctxt "Interface.MoleCarbonDioxideDescription"
