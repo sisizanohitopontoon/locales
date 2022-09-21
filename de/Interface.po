@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 14:40+0000\n"
+"PO-Revision-Date: 2022-09-21 14:44+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2571,12 +2571,12 @@ msgstr "Zeigt die aktuelle Missionsphase an und wie viele Stufen sich in der Mis
 #: /Language/Interface/Record[Key='CommandSetStage']
 msgctxt "Interface.CommandSetStage"
 msgid "Sets the current mission Stage. : \"/setstage\""
-msgstr ""
+msgstr "Legt die aktuelle Missionsstufe fest. : \"/setstage\""
 
 #: /Language/Interface/Record[Key='CommandSkipStage']
 msgctxt "Interface.CommandSkipStage"
 msgid "Skips the current mission Stage. : \"/skipstage\""
-msgstr ""
+msgstr "Überspringt die aktuelle Missionsphase. : \"/skipstage\""
 
 #: /Language/Interface/Record[Key='CommandToggleNoClip']
 msgctxt "Interface.CommandToggleNoClip"
@@ -2601,7 +2601,7 @@ msgstr "Schaltet auf einem Server oder lokalen Spiel das sofortige Pflanzenwachs
 #: /Language/Interface/Record[Key='CommandSetTime']
 msgctxt "Interface.CommandSetTime"
 msgid "Sets the sun offset affectivley changing the time of day. : \"/settime 0.25\""
-msgstr ""
+msgstr "Stellt den Sonnenversatz ein, der die Tageszeit beeinflusst. : \"/settime 0.25\""
 
 #: /Language/Interface/Record[Key='CommandToggleGameMode']
 msgctxt "Interface.CommandToggleGameMode"
@@ -2636,12 +2636,12 @@ msgstr "Setzt die Sättigungsabnahme. : \"/hungerrate 0.25\""
 #: /Language/Interface/Record[Key='CommandResetThread']
 msgctxt "Interface.CommandResetThread"
 msgid "Resets a given thread. : \"/resetthread atmospherics\""
-msgstr ""
+msgstr "Setzt einen bestimmten Thread zurück. : \"/resetthread atmosphärics\""
 
 #: /Language/Interface/Record[Key='CommandThreadStatus']
 msgctxt "Interface.CommandThreadStatus"
 msgid "Shows the current status of the game's threads.: \"/threadstatus\""
-msgstr ""
+msgstr "Zeigt den aktuellen Status der Threads des Spiels an.: \"/threadstatus\""
 
 #: /Language/Interface/Record[Key='CommandClearAll']
 msgctxt "Interface.CommandClearAll"
@@ -2661,12 +2661,12 @@ msgstr "Widerrufen eines Bann's einer bestimmten Steam-ID vom Server: \"/unban 1
 #: /Language/Interface/Record[Key='CommandBan']
 msgctxt "Interface.CommandBan"
 msgid "Ban a given steam ID from the server: \"/ban 102039237390\""
-msgstr ""
+msgstr "Banne eine bestimmte Steam-ID vom Server: \"/ban 102039237390\""
 
 #: /Language/Interface/Record[Key='CommandStatus']
 msgctxt "Interface.CommandStatus"
 msgid "Displays the current status of the server and who's currently in the server: \"/status\""
-msgstr ""
+msgstr "Zeigt den aktuellen Status des Servers an und wer sich derzeit auf dem Server befindet: \"/status\""
 
 #: /Language/Interface/Record[Key='CommandNotice']
 msgctxt "Interface.CommandNotice"
@@ -2676,23 +2676,22 @@ msgstr "Senden Sie eine Nachricht an die Spieler eines Servers. Verwendung: \"/n
 #: /Language/Interface/Record[Key='CommandShutdown']
 msgctxt "Interface.CommandShutdown"
 msgid "Shutsdown the game server and returns player to the lobby can append a timer and message. usage: \"/shutdown\""
-msgstr ""
+msgstr "Fährt den Server herunter und bringt die Spieler in die Lobby zurückb, du kannst einen Timer und eine Nachricht anhängen. Befehl: \"/shutdown\""
 
 #: /Language/Interface/Record[Key='CommandSave']
 msgctxt "Interface.CommandSave"
 msgid "Saves the game and names it as a given parameter. usage: \"/save nameofsave\""
-msgstr ""
+msgstr "Speichert das Spiel und benennt es wie den eingegebenen Parameter. Verwendung: \"/save nameofsave\""
 
 #: /Language/Interface/Record[Key='ActivateExplosiveTooltipKey2']
 msgctxt "Interface.ActivateExplosiveTooltipKey2"
 msgid "second timer. Timer cannot be turned off. Caution is advised."
-msgstr ""
+msgstr "Zweiter Timer. Der Timer kann nicht ausgeschaltet werden. Vorsicht ist geboten."
 
 #: /Language/Interface/Record[Key='ActivateExplosiveTooltipKey1']
-#, fuzzy
 msgctxt "Interface.ActivateExplosiveTooltipKey1"
 msgid "Activates a"
-msgstr "Mauskontrolle aktivieren"
+msgstr "Aktiviert"
 
 #: /Language/Interface/Record[Key='ActivateExplosiveKey']
 msgctxt "Interface.ActivateExplosiveKey"
@@ -2712,7 +2711,7 @@ msgstr "{KEY:SwapHands}"
 #: /Language/Interface/Record[Key='ControlPlayerMovementDisc']
 msgctxt "Interface.ControlPlayerMovementDisc"
 msgid "Movement"
-msgstr ""
+msgstr "Bewegung"
 
 #: /Language/Interface/Record[Key='ControlPlayerMovement']
 msgctxt "Interface.ControlPlayerMovement"
@@ -2762,12 +2761,12 @@ msgstr "{KEY:PrimaryAction}"
 #: /Language/Interface/Record[Key='SetSpawnTitle']
 msgctxt "Interface.SetSpawnTitle"
 msgid "Spawn Point"
-msgstr ""
+msgstr "Spawn-Punkt"
 
 #: /Language/Interface/Record[Key='SetSpawnMessage']
 msgctxt "Interface.SetSpawnMessage"
 msgid "Use to set Spawn Point"
-msgstr ""
+msgstr "Wird verwendet, um den Spawnpunkt festzulegen"
 
 #: /Language/Interface/Record[Key='SettingsMineableRenderDistance']
 msgctxt "Interface.SettingsMineableRenderDistance"
@@ -2782,12 +2781,12 @@ msgstr "Nächstes Tutorial"
 #: /Language/Interface/Record[Key='TutorialCompleteTruly']
 msgctxt "Interface.TutorialCompleteTruly"
 msgid "Commodore ODA"
-msgstr ""
+msgstr "Commodore ODA"
 
 #: /Language/Interface/Record[Key='TutorialCompleteDeanHall']
 msgctxt "Interface.TutorialCompleteDeanHall"
 msgid "Dean Hall"
-msgstr ""
+msgstr "Dean Hall"
 
 #: /Language/Interface/Record[Key='BottleSlot']
 msgctxt "Interface.BottleSlot"
@@ -2797,7 +2796,7 @@ msgstr "Flaschen Fach"
 #: /Language/Interface/Record[Key='TutorialCompleteDateOfCompletion']
 msgctxt "Interface.TutorialCompleteDateOfCompletion"
 msgid "Date of Completion:"
-msgstr ""
+msgstr "Datum der Fertigstellung:"
 
 #: /Language/Interface/Record[Key='PressEnterToContinue']
 #, fuzzy
