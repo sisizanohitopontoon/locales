@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 15:48+0000\n"
+"PO-Revision-Date: 2022-09-21 15:53+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4791,6 +4791,8 @@ msgstr "Pfad"
 msgctxt "Interface.SettingsP2PHostNote"
 msgid "If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server."
 msgstr ""
+"Wenn P2PHost aktiviert ist, verwendet Stationeers das Paketrelais von steam, damit du mit deinem Freund unter NAT oder VPN spielen kannst. Es ist nicht kompatibel mit TCP / IP und verbirgt den "
+"Server in der Serverliste."
 
 #: /Language/Interface/Record[Key='SettingsP2PHostEnabled']
 msgctxt "Interface.SettingsP2PHostEnabled"
@@ -4808,15 +4810,14 @@ msgid "returns the hash of the structure in the slot"
 msgstr "Gibt den Hash des Gegenstandes im Slot zurück"
 
 #: /Language/Interface/Record[Key='LogicTypeRequestHash']
-#, fuzzy
 msgctxt "Interface.LogicTypeRequestHash"
 msgid "When set to the unique identifier, requests an item of the provided type from the device"
-msgstr "Fordert ein Element des angegebenen Typs vom Gerät, wenn auf eine eindeutige Kennung (Hash) gesetzt"
+msgstr "Fordert einen Gegenstand des angegebenen Typs vom Gerät, wenn auf eine eindeutige Kennung (Hash) gesetzt"
 
 #: /Language/Interface/Record[Key='CollectableGoods']
 msgctxt "Interface.CollectableGoods"
 msgid "Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet."
-msgstr ""
+msgstr "Gibt 0 oder 1 zurück, je nachdem, ob das aktuelle Raketensystem in der Lage ist, Ressourcen auf dem Planeten zu sammeln."
 
 #: /Language/Interface/Record[Key='RocketMode']
 msgctxt "Interface.RocketMode"
@@ -4826,12 +4827,12 @@ msgstr "Veraltet"
 #: /Language/Interface/Record[Key='FuelReturnCost']
 msgctxt "Interface.FuelReturnCost"
 msgid "Gets the cost of fuel to return the rocket to your current world."
-msgstr ""
+msgstr "Gibt die Kosten für Treibstoff zurück, den die Rakete benötigt, um in Ihre aktuelle Welt zurückzukehren."
 
 #: /Language/Interface/Record[Key='FuelInTankRemaining']
 msgctxt "Interface.FuelInTankRemaining"
 msgid "Gets the fuel remaining in your rocket's fuel tank."
-msgstr ""
+msgstr "Gibt den Treibstoff zurück, der im Treibstofftank Ihrer Rakete verbleibt."
 
 #: /Language/Interface/Record[Key='LogicSlotTypeMaxQuantity']
 msgctxt "Interface.LogicSlotTypeMaxQuantity"
