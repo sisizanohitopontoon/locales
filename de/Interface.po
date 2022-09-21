@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 14:11+0000\n"
+"PO-Revision-Date: 2022-09-21 14:19+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1692,6 +1692,10 @@ msgid ""
 "{GAS:CarbonDioxide} has a moderately high specific heat, meaning it makes a good coolant for devices like the Wall Coo\n"
 "{THING:StructureWallCooler}. {GAS:Water} is better, but usually has more important uses."
 msgstr ""
+"Du atmest es aus, {LINK:OrganicPage;plants} atmen es ein. Sie wachsen nicht ohne sie. Du kannst Kartuschen verwenden, die in {SLOT:GasFilter}-Steckplätzen platziert werden, um es aus der Atmosphäre zu entfernen.\n"
+"      \n"
+"{GAS:Kohlendioxid} hat eine mäßig hohe spezifische Wärme, was bedeutet, dass es ein gutes Kühlmittel für Geräte wie das Wall Coo ist\n"
+"{THING:StructureWallCooler}. {GAS:Wasser} ist besser, hat aber in der Regel wichtigere Verwendungszwecke."
 
 #: /Language/Interface/Record[Key='MoleNitrogenDescription']
 msgctxt "Interface.MoleNitrogenDescription"
@@ -1699,6 +1703,9 @@ msgid ""
 "{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stablize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at "
 "roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System."
 msgstr ""
+"{GAS:Nitrogen} kann mit {GAS:Oxygen} gemischt werden, um seine Entflammbarkeit zu stabilisieren und die Toxizität von {GAS:Oxygen} zu vermeiden, und ist eine eigenständige Ressource, die für die "
+"Schaffung einer atmungsaktiven Atmosphäre nützlich ist (bei ungefähr 3:1 {GAS:Nitrogen} und {GAS:Oxygen}). Die effizienteste Quelle für {GAS:Nitrogen} sind {THING:ItemNitrice}-Ablagerungen, die rund"
+" um das Sonnensystem gefunden wurden."
 
 #: /Language/Interface/Record[Key='MoleOxygenDescription']
 msgctxt "Interface.MoleOxygenDescription"
@@ -1706,6 +1713,8 @@ msgid ""
 "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It "
 "is highly flammable at low temperatures."
 msgstr ""
+"Sauerstoff liefert Energie, wenn er bei der Verbrennung beigemischt wird, und verbindet sich auch mit Wasserstoff, um {GAS:Water} zu erzeugen. Es entsteht in {LINK:OrganicPage;plants}, sowie durch "
+"die Verarbeitung von {THING:ItemOxite}. Es ist bei niedrigen Temperaturen leicht entzündlich."
 
 #: /Language/Interface/Record[Key='StationpediaNutrition']
 msgctxt "Interface.StationpediaNutrition"
@@ -1735,7 +1744,7 @@ msgstr "Basis-Stromverbrauch:"
 #: /Language/Interface/Record[Key='Radius']
 msgctxt "Interface.Radius"
 msgid "Detection Radius"
-msgstr ""
+msgstr "Detektionsradius"
 
 #: /Language/Interface/Record[Key='Waveform']
 msgctxt "Interface.Waveform"
@@ -1795,12 +1804,12 @@ msgstr "Tonhöhe"
 #: /Language/Interface/Record[Key='LogicTypeWorkingGasEfficiency']
 msgctxt "Interface.LogicTypeWorkingGasEfficiency"
 msgid "The Working Gas Efficiency reported by the machine, as a float between 0 and 1"
-msgstr ""
+msgstr "Die von der Maschine gemeldete Arbeitsgaseffizienz als float zwischen 0 und 1"
 
 #: /Language/Interface/Record[Key='LogicTypeEnvironmentEfficiency']
 msgctxt "Interface.LogicTypeEnvironmentEfficiency"
 msgid "The Environment Efficiency reported by the machine, as a float between 0 and 1"
-msgstr ""
+msgstr "Die von der Maschine gemeldete Umwelteffizienz als float zwischen 0 und 1"
 
 #: /Language/Interface/Record[Key='LogicTypeBpm']
 msgctxt "Interface.LogicTypeBpm"
@@ -1818,10 +1827,9 @@ msgid "Timer"
 msgstr "Schaltuhr"
 
 #: /Language/Interface/Record[Key='CrowbarToFlip']
-#, fuzzy
 msgctxt "Interface.CrowbarToFlip"
 msgid "Flip using crowbar"
-msgstr "Mit dem Stemmeisen aufrichten."
+msgstr "Mit der Brechstange aufrichten."
 
 #: /Language/Interface/Record[Key='SettingsLightShadowDistance']
 msgctxt "Interface.SettingsLightShadowDistance"
@@ -1884,15 +1892,14 @@ msgid "Tutorials"
 msgstr "Lernprogramm"
 
 #: /Language/Interface/Record[Key='StationpediaLogicSlotHeader']
-#, fuzzy
 msgctxt "Interface.StationpediaLogicSlotHeader"
 msgid "Logic Slots"
-msgstr "Logik-Slots"
+msgstr "Logik-Steckplätze"
 
 #: /Language/Interface/Record[Key='StationpediaLogicHeader']
 msgctxt "Interface.StationpediaLogicHeader"
 msgid "Logic"
-msgstr ""
+msgstr "Logik"
 
 #: /Language/Interface/Record[Key='StationpediaModeHeader']
 msgctxt "Interface.StationpediaModeHeader"
