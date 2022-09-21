@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 12:04+0000\n"
+"PO-Revision-Date: 2022-09-21 12:07+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2882,10 +2882,9 @@ msgid "The overflow chute will direct materials to its overflow port when the th
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
-#, fuzzy
 msgctxt "Things.KitStructureCombustionCentrifuge"
 msgid "Kit (Combustion Centrifuge)"
-msgstr "{BLANK}"
+msgstr "Bausatz (Verbrennungszentrifuge)"
 
 #: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
 #, fuzzy
@@ -2894,10 +2893,9 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveLeft']
-#, fuzzy
 msgctxt "Things.StructureChuteDigitalValveLeft"
 msgid "Chute Digital Valve Left"
-msgstr ""
+msgstr "Schacht Digitalschranke links"
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveLeft']
 msgctxt "Things.StructureChuteDigitalValveLeft"
@@ -2907,10 +2905,9 @@ msgid ""
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveRight']
-#, fuzzy
 msgctxt "Things.StructureChuteDigitalValveRight"
 msgid "Chute Digital Valve Right"
-msgstr ""
+msgstr "Schacht Digitalschranke Rechts"
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveRight']
 msgctxt "Things.StructureChuteDigitalValveRight"
@@ -2944,10 +2941,9 @@ msgid ""
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitStandardChute']
-#, fuzzy
 msgctxt "Things.ItemKitStandardChute"
 msgid "Kit (Powered Chutes)"
-msgstr "Dieses Kit produziert eine Reihe von Flüssigkeitsrohren."
+msgstr "Bausatz (Elektrische Schächte)"
 
 #: /Language/Things/RecordThing[Key='ItemKitStandardChute']
 #, fuzzy
@@ -4119,7 +4115,7 @@ msgstr "{BLANK}"
 #: /Language/Things/RecordThing[Key='ItemWreckageSDBSilo1']
 msgctxt "Things.ItemWreckageSDBSilo1"
 msgid "Wreckage SDB Silo"
-msgstr ""
+msgstr "Zerstörtes SDB Lager"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageHydroponicsStation2']
 msgctxt "Things.ItemWreckageHydroponicsStation2"
@@ -5532,34 +5528,35 @@ msgid ""
 "      \n"
 "      Note that the rocket fueltank can also be used to collect gas mined by the {THING:StructureModularRocketGasMining}, when connected to that unit by a {THING:StructureModularRocketCouplingUp} or {THING:StructureModularRocketCouplingDown}."
 msgstr ""
+"Der Raketenkraftstofftank benötigt eine 2:1-Mischung aus {GAS:Volatiles} und {GAS:Oxygen}. Wenn die Mischung diese Proportionen überschreitet oder du andere {LINK:GasPage;gases} in den Tank legst, zeigt die {THING:StructureModularRocketCommand01}-Konsole den Fehler 'Ungültig' an.\n"
+"      \n"
+"Beachten Sie, dass der Raketenkraftstofftank auch zum Sammeln von Gas verwendet werden kann, das von {THING:StructureModularRocketGasMining} abgebaut wird, wenn es mit dieser Einheit durch ein {THING:StructureModularRocketCouplingUp} oder {THING:StructureModularRocketCouplingDown} verbunden ist."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketFueltank01']
-#, fuzzy
 msgctxt "Things.StructureModularRocketFueltank01"
 msgid "Modular Rocket Fueltank"
-msgstr "Triebwerk (Groß)"
+msgstr "Rakete Kraftstofftankmodul"
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketEngine01']
 msgctxt "Things.StructureModularRocketEngine01"
 msgid "The modular rocket engine is capable of lifting up to seven modules, including itself. It must be fueled by at least one {THING:StructureModularRocketFueltank01}."
 msgstr ""
+"Das modulare Raketentriebwerk ist in der Lage, bis zu sieben Module zu heben, sich selbst eingeschlossen. Es muss von mindestens einem {THING:StructureModularRocketFueltank01} versorgt werden."
 
 #: /Language/Things/RecordThing[Key='StructureModularRocketEngine01']
-#, fuzzy
 msgctxt "Things.StructureModularRocketEngine01"
 msgid "Modular Rocket Engine"
-msgstr "Triebwerk (Groß)"
+msgstr "Rakete Triebwerksmodul"
 
 #: /Language/Things/RecordThing[Key='ItemKitInsulatedPipe']
 msgctxt "Things.ItemKitInsulatedPipe"
 msgid "This kit produces varieties of {THING:StructureInsulatedPipeStraight}, which greatly reduce heat loss from gases stored in them."
-msgstr ""
+msgstr "Dieser Bausatz erstellt Varianten von {THING:StructureInsulatedPipeStraight}, die den Wärmeverlust durch darin gespeicherte Gase stark reduzieren."
 
 #: /Language/Things/RecordThing[Key='ItemKitInsulatedPipe']
-#, fuzzy
 msgctxt "Things.ItemKitInsulatedPipe"
 msgid "Kit (Insulated Pipe)"
-msgstr "Rohrventil (Bausatz)"
+msgstr "Bausatz (Isoliertes Rohr)"
 
 #: /Language/Things/RecordThing[Key='ItemAdvancedTablet']
 msgctxt "Things.ItemAdvancedTablet"
@@ -5567,61 +5564,58 @@ msgid ""
 "The advanced {LINK:Xigo;Xigo} Padi 2 tablet is an improved version of the basic {THING:ItemTablet}, boasting two {LINK:CartridgePage;cartridge} slots. The Padi 2 accepts "
 "{THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, and various other cartridges."
 msgstr ""
+"Das fortgeschrittene {LINK:Xigo; Xigo} Padi 2 Tablet ist eine verbesserte Version des einfachen {THING:ItemTablet} mit zwei {LINK:CartridgePage;cartridge} Steckplätzen. Das Padi 2 akzeptiert "
+"{THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader} und verschiedene andere Kassetten."
 
 #: /Language/Things/RecordThing[Key='ItemAdvancedTablet']
-#, fuzzy
 msgctxt "Things.ItemAdvancedTablet"
 msgid "Advanced Tablet"
-msgstr "Tablet"
+msgstr "Fortgeschrittenes Tablet"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeTJunction']
 msgctxt "Things.StructureInsulatedPipeTJunction"
 msgid "Insulated pipes greatly reduce heat loss from gases stored in them."
-msgstr ""
+msgstr "Isolierte Rohre reduzieren den Wärmeverlust von den in ihnen gespeicherten Gasen erheblich."
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeTJunction']
-#, fuzzy
 msgctxt "Things.StructureInsulatedPipeTJunction"
 msgid "Insulated Pipe T Junction"
-msgstr "Rohr-T-Kreuzung"
+msgstr "Isoliertes Rohr T-Verbindung"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction6']
 msgctxt "Things.StructureInsulatedPipeCrossJunction6"
 msgid "Insulated pipes greatly reduce heat loss from gases stored in them."
-msgstr ""
+msgstr "Isolierte Rohre reduzieren den Wärmeverlust von den in ihnen gespeicherten Gasen erheblich."
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction6']
-#, fuzzy
 msgctxt "Things.StructureInsulatedPipeCrossJunction6"
 msgid "Insulated Pipe Cross (6-Way Junction)"
-msgstr "Rohrkreuzung"
+msgstr "Isoliertes Rohr Quer (6-Wege-Verbindung)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction5']
 msgctxt "Things.StructureInsulatedPipeCrossJunction5"
 msgid "Insulated pipes greatly reduce heat loss from gases stored in them."
-msgstr ""
+msgstr "Isolierte Rohre reduzieren den Wärmeverlust von den in ihnen gespeicherten Gasen erheblich."
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction5']
-#, fuzzy
 msgctxt "Things.StructureInsulatedPipeCrossJunction5"
 msgid "Insulated Pipe Cross (5-Way Junction)"
-msgstr "Rohrkreuzung"
+msgstr "Isoliertes Rohr Quer (5-Wege-Verbindung)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction4']
 msgctxt "Things.StructureInsulatedPipeCrossJunction4"
 msgid "Insulated pipes greatly reduce heat loss from gases stored in them."
-msgstr ""
+msgstr "Isolierte Rohre reduzieren den Wärmeverlust von den in ihnen gespeicherten Gasen erheblich."
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction4']
-#, fuzzy
 msgctxt "Things.StructureInsulatedPipeCrossJunction4"
 msgid "Insulated Pipe Cross (4-Way Corner)"
-msgstr "Rohrkreuzung"
+msgstr "Isoliertes Rohr Quer (4-Wege Ecke)"
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction3']
 msgctxt "Things.StructureInsulatedPipeCrossJunction3"
 msgid "Insulated pipes greatly reduce heat loss from gases stored in them."
-msgstr ""
+msgstr "Isolierte Rohre reduzieren den Wärmeverlust von den in ihnen gespeicherten Gasen erheblich."
 
 #: /Language/Things/RecordThing[Key='StructureInsulatedPipeCrossJunction3']
 #, fuzzy
