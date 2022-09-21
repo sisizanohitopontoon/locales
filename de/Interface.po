@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 15:34+0000\n"
+"PO-Revision-Date: 2022-09-21 15:39+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3747,17 +3747,19 @@ msgstr "Speichert den Registrierungswert in var auf allen Ausgabenetzwerkgeräte
 #: /Language/Interface/Record[Key='ScriptCommandS']
 msgctxt "Interface.ScriptCommandS"
 msgid "Stores register value to var on device."
-msgstr ""
+msgstr "Speichert den Registrierungswert auf dem Gerät in die var."
 
 #: /Language/Interface/Record[Key='ScriptCommandLB']
 msgctxt "Interface.ScriptCommandLB"
 msgid "Loads var from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number."
 msgstr ""
+"Lädt var von allen Ausgabenetzwerkgeräten mit bereitgestelltem hash im Bereitstellungsbatchmodus.  Average (0), Sum (1), Minimum (2), Maximum (3). Du kannst entweder das Wort oder die Zahl "
+"verwenden."
 
 #: /Language/Interface/Record[Key='ScriptCommandL']
 msgctxt "Interface.ScriptCommandL"
 msgid "Loads device var to register."
-msgstr ""
+msgstr "Lädt die var des Geräts in das Register."
 
 #: /Language/Interface/Record[Key='ServerReadyString']
 msgctxt "Interface.ServerReadyString"
@@ -3787,28 +3789,27 @@ msgstr "Filter"
 #: /Language/Interface/Record[Key='NextWeatherEventTime']
 msgctxt "Interface.NextWeatherEventTime"
 msgid "Returns in seconds when the next weather event is inbound."
-msgstr ""
+msgstr "Gibt in Sekunden aus, wann das nächste Wetterereignis eintrifft."
 
 #: /Language/Interface/Record[Key='MineablesInQueue']
 msgctxt "Interface.MineablesInQueue"
 msgid "Returns the amount of mineables AIMEe has queued up to mine."
-msgstr ""
+msgstr "Gibt die Menge an Rohstoffen zurück, die AIMEe für den Abbau in die Warteschlange gestellt hat."
 
 #: /Language/Interface/Record[Key='MineablesInVicinity']
 msgctxt "Interface.MineablesInVicinity"
 msgid "Returns the amount of potential mineables within an extended area around AIMEe."
-msgstr ""
+msgstr "Gibt die Menge potenzieller Rohstoffe innerhalb eines erweiterten Gebiets um AIMEe zurück."
 
 #: /Language/Interface/Record[Key='CurrentResearchPodType']
-#, fuzzy
 msgctxt "Interface.CurrentResearchPodType"
 msgid "Returns the pod type stored in the machine."
-msgstr "Gibt den Hash des Gegenstandes im Slot zurück"
+msgstr "Gibt den im Computer gespeicherten Pod-Typ zurück."
 
 #: /Language/Interface/Record[Key='ManualGetResearchPodsRequired']
 msgctxt "Interface.ManualGetResearchPodsRequired"
 msgid "Sets the pod type to search for a certian pod when breaking down a pods."
-msgstr ""
+msgstr "Legt fest, dass der Pod-Typ beim Aufschlüsseln eines Pods nach einem bestimmten Pod sucht."
 
 #: /Language/Interface/Record[Key='ActivateResearch']
 msgctxt "Interface.ActivateResearch"
@@ -3823,12 +3824,12 @@ msgstr "Rauheitsmultiplikator"
 #: /Language/Interface/Record[Key='Communications Crate']
 msgctxt "Interface.Communications Crate"
 msgid "Communications Crate"
-msgstr ""
+msgstr "Kommunikationskiste"
 
 #: /Language/Interface/Record[Key='Misc Crate']
 msgctxt "Interface.Misc Crate"
 msgid "Misc Crate"
-msgstr ""
+msgstr "Sonstiges Kiste"
 
 #: /Language/Interface/Record[Key='Portable Appliance Kits']
 msgctxt "Interface.Portable Appliance Kits"
