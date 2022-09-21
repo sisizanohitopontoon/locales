@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 14:55+0000\n"
+"PO-Revision-Date: 2022-09-21 14:59+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3227,7 +3227,7 @@ msgstr "Überträgt den Wert von a auf den Stack bei sp und erhöht sp"
 #: /Language/Interface/Record[Key='ScriptCommandPeek']
 msgctxt "Interface.ScriptCommandPeek"
 msgid "Register = the value at the top of the stack"
-msgstr ""
+msgstr "Register = der Wert am oberen Rand des Stacks"
 
 #: /Language/Interface/Record[Key='ScriptCommandLabel']
 msgctxt "Interface.ScriptCommandLabel"
@@ -3242,87 +3242,87 @@ msgstr "Pausiert die Ausführung für 1 Tick"
 #: /Language/Interface/Record[Key='ScriptCommandRand']
 msgctxt "Interface.ScriptCommandRand"
 msgid "Register = a random value x with 0 <= x < 1"
-msgstr ""
+msgstr "Register = ein Zufallswert x mit 0 <= x < 1"
 
 #: /Language/Interface/Record[Key='ScriptCommandExp']
 msgctxt "Interface.ScriptCommandExp"
 msgid "Register = exp(a)"
-msgstr ""
+msgstr "Register = exp(a)"
 
 #: /Language/Interface/Record[Key='ScriptCommandLog']
 msgctxt "Interface.ScriptCommandLog"
 msgid "Register = log(a)"
-msgstr ""
+msgstr "Register = log(a)"
 
 #: /Language/Interface/Record[Key='ScriptCommandAbs']
 msgctxt "Interface.ScriptCommandAbs"
 msgid "Register = the absolute value of a"
-msgstr ""
+msgstr "Register = der absolute Wert eines"
 
 #: /Language/Interface/Record[Key='ScriptCommandMin']
 msgctxt "Interface.ScriptCommandMin"
 msgid "Register = min of a or b"
-msgstr ""
+msgstr "Register = min von a oder b"
 
 #: /Language/Interface/Record[Key='ScriptCommandMax']
 msgctxt "Interface.ScriptCommandMax"
 msgid "Register = max of a or b"
-msgstr ""
+msgstr "Register = max von a oder b"
 
 #: /Language/Interface/Record[Key='ScriptCommandFloor']
 msgctxt "Interface.ScriptCommandFloor"
 msgid "Register = largest integer less than a"
-msgstr ""
+msgstr "Register = größte ganze Zahl kleiner als a"
 
 #: /Language/Interface/Record[Key='ScriptCommandCeil']
 msgctxt "Interface.ScriptCommandCeil"
 msgid "Register = smallest integer greater than a"
-msgstr ""
+msgstr "Register = kleinste ganze Zahl größer als a"
 
 #: /Language/Interface/Record[Key='ScriptCommandTrunc']
 msgctxt "Interface.ScriptCommandTrunc"
 msgid "Register = a with fractional part removed"
-msgstr ""
+msgstr "Register = a mit entferntem Bruchteil"
 
 #: /Language/Interface/Record[Key='ScriptCommandRound']
 msgctxt "Interface.ScriptCommandRound"
 msgid "Register = a rounded to nearest integer"
-msgstr ""
+msgstr "Register = a auf die nächste ganze Zahl gerundet"
 
 #: /Language/Interface/Record[Key='ScriptCommandSqrt']
 msgctxt "Interface.ScriptCommandSqrt"
 msgid "Register = square root of a"
-msgstr ""
+msgstr "Register = Quadratwurzel a"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnazal']
 msgctxt "Interface.ScriptCommandBnazal"
 msgid "Branch to line c if abs(a) > float.epsilon * 8"
-msgstr ""
+msgstr "Abzweigung zur Linie c, wenn abs(a) > float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBapzal']
 msgctxt "Interface.ScriptCommandBapzal"
 msgid "Branch to line c if abs(a) <= float.epsilon * 8"
-msgstr ""
+msgstr "Abzweigung zur Linie c, wenn abs(a) <= float.epsilon * 8"
 
 #: /Language/Interface/Record[Key='ScriptCommandBnezal']
 msgctxt "Interface.ScriptCommandBnezal"
 msgid "Branch to line b if a != 0 and store next line number in ra"
-msgstr ""
+msgstr "Abzweigen zu Zeile b, wenn a != 0 und speicher die nächste Zeilennummer in ra"
 
 #: /Language/Interface/Record[Key='ScriptCommandBeqzal']
 msgctxt "Interface.ScriptCommandBeqzal"
 msgid "Branch to line b if a == 0 and store next line number in ra"
-msgstr ""
+msgstr "Abzweigen zu Zeile b, wenn a == 0 und speicher die nächste Zeilennummer in ra"
 
 #: /Language/Interface/Record[Key='ScriptCommandBgtzal']
 msgctxt "Interface.ScriptCommandBgtzal"
 msgid "Branch to line b if a > 0 and store next line number in ra"
-msgstr ""
+msgstr "Abzweigen zu Zeile b, wenn a > 0 und speicher die nächste Zeilennummer in ra"
 
 #: /Language/Interface/Record[Key='ScriptCommandBlezal']
 msgctxt "Interface.ScriptCommandBlezal"
 msgid "Branch to line b if a <= 0 and store next line number in ra"
-msgstr ""
+msgstr "Abzweigen zu Zeile b, wenn a > 0 und speicher die nächste Zeilennummer in ra"
 
 #: /Language/Interface/Record[Key='ScriptCommandBgezal']
 msgctxt "Interface.ScriptCommandBgezal"
