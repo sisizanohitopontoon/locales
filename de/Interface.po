@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 15:25+0000\n"
+"PO-Revision-Date: 2022-09-21 15:29+0000\n"
 "Last-Translator: Wikus <sven-biedenweg@web.de>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3582,17 +3582,17 @@ msgstr "Sprungausführung zu Zeile a"
 #: /Language/Interface/Record[Key='ScriptCommandMod']
 msgctxt "Interface.ScriptCommandMod"
 msgid "Register = a mod b (note: NOT a % b)"
-msgstr ""
+msgstr "Register = a mod b (Hinweis: NICHT a % b)"
 
 #: /Language/Interface/Record[Key='ScriptCommandDiv']
 msgctxt "Interface.ScriptCommandDiv"
 msgid "Register = a / b"
-msgstr ""
+msgstr "Register = a / b"
 
 #: /Language/Interface/Record[Key='ScriptCommandMul']
 msgctxt "Interface.ScriptCommandMul"
 msgid "Register = a * b"
-msgstr ""
+msgstr "Register = a * b"
 
 #: /Language/Interface/Record[Key='ScriptCommandNor']
 msgctxt "Interface.ScriptCommandNor"
@@ -3617,32 +3617,32 @@ msgstr "Register = 1 wenn a und b nicht 0 sind, sonst 0"
 #: /Language/Interface/Record[Key='ScriptCommandSnaz']
 msgctxt "Interface.ScriptCommandSnaz"
 msgid "Register = 1 if |a| > float.epsilon, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn |a| > float.epsilon, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSapz']
 msgctxt "Interface.ScriptCommandSapz"
 msgid "Register = 1 if |a| <= float.epsilon * 8, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn |a| <= float.epsilon * 8, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSnez']
 msgctxt "Interface.ScriptCommandSnez"
 msgid "Register = 1 if a != 0, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn a != 0, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSeqz']
 msgctxt "Interface.ScriptCommandSeqz"
 msgid "Register = 1 if a == 0, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn a == 0, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSgez']
 msgctxt "Interface.ScriptCommandSgez"
 msgid "Register = 1 if a >= 0, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn a >= 0, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSlez']
 msgctxt "Interface.ScriptCommandSlez"
 msgid "Register = 1 if a <= 0, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn ein <= 0, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSgtz']
 msgctxt "Interface.ScriptCommandSgtz"
@@ -3657,32 +3657,32 @@ msgstr "Register = 1 wenn a < 0 sonst 0"
 #: /Language/Interface/Record[Key='ScriptCommandSna']
 msgctxt "Interface.ScriptCommandSna"
 msgid "Register = 1 if abs(a - b) > max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0"
-msgstr ""
+msgstr "Register = 1 wenn abs(a - b) > max(c * max(abs(a), abs(b)), float.epsilon * 8), sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSap']
 msgctxt "Interface.ScriptCommandSap"
 msgid "Register = 1 if abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0"
-msgstr ""
+msgstr "Register = 1 wenn abs(a - b) <= max(c * max(abs(a), abs(b)), float.epsilon * 8), sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSne']
 msgctxt "Interface.ScriptCommandSne"
 msgid "Register = 1 if a != b, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn a != b, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSeq']
 msgctxt "Interface.ScriptCommandSeq"
 msgid "Register = 1 if a == b, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn a == b, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSge']
 msgctxt "Interface.ScriptCommandSge"
 msgid "Register = 1 if a >= b, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn a >= b, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSle']
 msgctxt "Interface.ScriptCommandSle"
 msgid "Register = 1 if a <= b, otherwise 0"
-msgstr ""
+msgstr "Register = 1, wenn ein <= b, sonst 0"
 
 #: /Language/Interface/Record[Key='ScriptCommandSgt']
 msgctxt "Interface.ScriptCommandSgt"
@@ -3707,22 +3707,22 @@ msgstr "Register = 1 wenn das Gerät eingestellt ist, sonst 0"
 #: /Language/Interface/Record[Key='ScriptCommandSub']
 msgctxt "Interface.ScriptCommandSub"
 msgid "Register = a - b."
-msgstr ""
+msgstr "Register = a - b."
 
 #: /Language/Interface/Record[Key='ScriptCommandAdd']
 msgctxt "Interface.ScriptCommandAdd"
 msgid "Register = a + b."
-msgstr ""
+msgstr "Register = a + b."
 
 #: /Language/Interface/Record[Key='ScriptCommandMove']
 msgctxt "Interface.ScriptCommandMove"
 msgid "Register = provided num or register value."
-msgstr ""
+msgstr "Register = bereitgestellte Anzahl oder Registerwert."
 
 #: /Language/Interface/Record[Key='ScriptCommandDefine']
 msgctxt "Interface.ScriptCommandDefine"
 msgid "Creates a label that will be replaced throughout the program with the provided value."
-msgstr ""
+msgstr "Erstellt eine Bezeichnung, die im gesamten Programm durch den angegebenen Wert ersetzt wird."
 
 #: /Language/Interface/Record[Key='ScriptCommandAlias']
 msgctxt "Interface.ScriptCommandAlias"
