@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-21 14:01+0000\n"
+"PO-Revision-Date: 2022-09-28 14:00+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1673,7 +1673,6 @@ msgstr ""
 "vivants basés sur le {REAGENT:Carbone}."
 
 #: /Language/Interface/Record[Key='MoleVolatilesDescription']
-#, fuzzy
 msgctxt "Interface.MoleVolatilesDescription"
 msgid ""
 "Volatiles are an extremely reactive, complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is refined from {THING:ItemVolatiles}.\n"
@@ -1682,11 +1681,12 @@ msgid ""
 "      \n"
 "2 {GAS:Volatiles} + 1 {GAS:Oxygen} -> 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + heat."
 msgstr ""
-"Les volatils sont des molécules organiques complexe et extrêmement réactive, qui peuvent être utilisées en conjonction avec l’oxygène comme combustible. Elles sont raffinées à partir de {THING:ItemVolatiles}.\n"
+"Une substance volatile est une substance qui se vaporise, qui s’évapore facilement.\n"
+"Nous appelons donc \"volatiles\" des molécules organiques hydrogénocarbonées complexes et extrêmement réactives, qui peuvent être utilisées en conjonction avec l’oxygène comme combustible. Elles sont raffinées à partir de la ressource {THING:ItemVolatiles}.\n"
 "\n"
-"En raison de réglementations de l’<color=#0080FFFF>{LINK:ODA;ODA}</color>, obscures et largement oubliées, les volatils sont parfois étiquetés « H2 » par divers éléments technologiques. Bien qu’ils soient similaires à l’hydrogène, ils ne sont pas pour autant « réellement » de l’hydrogène. Les volatils ne produiront pas d’eau lorsqu’ils seront brûlés sans catalyseur (plus de détail avec le {THING:H2Combustor}). Seuls, ils créent des polluants et du dioxyde de carbone lorsqu’ils sont brûlés selon les proportions suivantes :\n"
+"En raison d’une réglementation obscure et largement oubliée de l’{LINK:ODA;ODA}, les \"volatiles\" sont parfois étiquetés « H2 » sur divers éléments technologiques. Bien qu’ils soient similaires à l’hydrogène à l’usage, ils ne sont pas pour autant « réellement » de l’hydrogène. Les {GAS:Volatiles} ne produiront pas d’eau lorsqu’ils seront brûlés sans catalyseur (voir le {THING:H2Combustor}). Lorsqu’ils sont brûlés seuls, ils produisent des {GAS:Pollutant} et du {GAS:CarbonDioxide} selon les proportions suivantes :\n"
 "\n"
-"2 Volatils + 1 O2 -> 3 X + 6 CO2 + chaleur."
+"2 {GAS:Volatiles} + 1 {GAS:Oxygen} -> 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + chaleur."
 
 #: /Language/Interface/Record[Key='MoleCarbonDioxideDescription']
 msgctxt "Interface.MoleCarbonDioxideDescription"
