@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-28 15:58+0000\n"
+"PO-Revision-Date: 2022-10-05 19:24+0000\n"
 "Last-Translator: NoNoNeo <newspubs@free.fr>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2727,10 +2727,9 @@ msgid "The Chute Valve will stop the flow of materials when set to closed and wh
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureCombustionCentrifuge']
-#, fuzzy
 msgctxt "Things.StructureCombustionCentrifuge"
 msgid "Combustion Centrifuge"
-msgstr ""
+msgstr "Centrifugeuse à combustion"
 
 #: /Language/Things/RecordThing[Key='StructureCombustionCentrifuge']
 msgctxt "Things.StructureCombustionCentrifuge"
@@ -2753,16 +2752,14 @@ msgid "The overflow chute will direct materials to its overflow port when the th
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
-#, fuzzy
 msgctxt "Things.KitStructureCombustionCentrifuge"
 msgid "Kit (Combustion Centrifuge)"
-msgstr "{BLANK}"
+msgstr "Kit (centrifugeuse à combustion)"
 
 #: /Language/Things/RecordThing[Key='KitStructureCombustionCentrifuge']
-#, fuzzy
 msgctxt "Things.KitStructureCombustionCentrifuge"
 msgid "{BLANK}"
-msgstr "{BLANK}"
+msgstr "Kit (centrifugeuse à combustion)"
 
 #: /Language/Things/RecordThing[Key='StructureChuteDigitalValveLeft']
 #, fuzzy
@@ -4336,7 +4333,7 @@ msgstr "Plaque de {THING:StructureGasGenerator}"
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge5']
 msgctxt "Things.ItemWreckageCentrifuge5"
 msgid "{BLANK}"
-msgstr "{BLANK}"
+msgstr "Morceau de {THING:StructureCentrifuge}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge5']
 msgctxt "Things.ItemWreckageCentrifuge5"
@@ -4346,7 +4343,7 @@ msgstr "Morceau de {THING:StructureCentrifuge}"
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge4']
 msgctxt "Things.ItemWreckageCentrifuge4"
 msgid "{BLANK}"
-msgstr "{BLANK}"
+msgstr "Morceau de {THING:StructureCentrifuge}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge4']
 msgctxt "Things.ItemWreckageCentrifuge4"
@@ -4356,7 +4353,7 @@ msgstr "Morceau de {THING:StructureCentrifuge}"
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge3']
 msgctxt "Things.ItemWreckageCentrifuge3"
 msgid "{BLANK}"
-msgstr "{BLANK}"
+msgstr "Morceau de {THING:StructureCentrifuge}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge3']
 msgctxt "Things.ItemWreckageCentrifuge3"
@@ -4366,7 +4363,7 @@ msgstr "Plaque de {THING:StructureCentrifuge}"
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge2']
 msgctxt "Things.ItemWreckageCentrifuge2"
 msgid "{BLANK}"
-msgstr "{BLANK}"
+msgstr "Morceau de {THING:StructureCentrifuge}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge2']
 msgctxt "Things.ItemWreckageCentrifuge2"
@@ -4376,7 +4373,7 @@ msgstr "Plaque de {THING:StructureCentrifuge}"
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge1']
 msgctxt "Things.ItemWreckageCentrifuge1"
 msgid "{BLANK}"
-msgstr "{BLANK}"
+msgstr "Morceau de {THING:StructureCentrifuge}"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageCentrifuge1']
 msgctxt "Things.ItemWreckageCentrifuge1"
@@ -8897,12 +8894,11 @@ msgid "Glass Door"
 msgstr "Porte en Verre"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankStorage']
-#, fuzzy
 msgctxt "Things.StructureLiquidTankStorage"
 msgid ""
 "When connected to a liquid pipe network, the tank storage unit allows you to refill a {THING:ItemLiquidCanisterEmpty}, as well as read various atmospheric data from the {SLOT:GasCanister}. It will "
 "not accept gas canisters."
-msgstr "Connecteur de Bonbonne"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureLiquidTankStorage']
 msgctxt "Things.StructureLiquidTankStorage"
@@ -10180,12 +10176,11 @@ msgid "Road Flare"
 msgstr "Fusée éclairante"
 
 #: /Language/Things/RecordThing[Key='ItemReagentMix']
-#, fuzzy
 msgctxt "Things.ItemReagentMix"
 msgid ""
 "Reagent mix is pure potential. A slurry of undifferentiated {LINK:OrePage;ores}, it is output by the {THING:StructureRecycler} and can be fed into the {THING:StructureCentrifuge} to separate and "
 "recover the individual materials. Reagent mix is also output by the {THING:StructureFurnace} when the current contents are ejected without smelting a specific ingot."
-msgstr "Mélange de Réactifs"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemReagentMix']
 msgctxt "Things.ItemReagentMix"
@@ -11030,12 +11025,11 @@ msgid "Liquid Canister"
 msgstr "Bonbonne de liquide"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
-#, fuzzy
 msgctxt "Things.ItemGasCanisterWater"
 msgid ""
 "The blue portable {GAS:Water} {SLOT:GasCanister} has a 64L capacity, supplying {GAS:Water} to items like the {THING:DynamicHydroponics} unit, or any other connected "
 "system. All liquid canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicLiquidCanisterEmpty} or {THING:StructureLiquidTankStorage} for refill."
-msgstr "Bonbonne (Eau)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterWater']
 msgctxt "Things.ItemGasCanisterWater"
