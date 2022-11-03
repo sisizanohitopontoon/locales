@@ -10,38 +10,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
-msgctxt "Things.ItemWreckageTransformer1"
-msgid "Description coming."
-msgstr "Beschreibung folgt."
-
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
-msgctxt "Things.DynamicMKIILiquidCanisterWater"
-msgid "Portable Liquid Tank Mk II (Water)"
-msgstr "Tragbarer Flüssigkeitstank Mk II (Wasser)"
-
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
-msgctxt "Things.DynamicMKIILiquidCanisterWater"
-msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
-msgstr "Eine isolierte Version des {THING:DynamicMKIILiquidCanisterWater}, zum Aufbewahren von Flüssigkeiten, ohne dass diese an Temperatur gewinnen oder verlieren."
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "Liquid Volume Pump"
-msgstr "Flüssigkeiten Volumenpumpe"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
-msgid "Kit (Liquid Volume Pump)"
-msgstr "Bausatz (Flüssigkeiten Volumenpumpe)"
-
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
+msgctxt "Things.ItemWreckageTransformerMedium1"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -1058,10 +1028,10 @@ msgctxt "Things.SeedBag_Wheet"
 msgid "Wheat Seeds"
 msgstr "Weizensamen"
 
-#: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
-msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='SeedBag_Wheet']
+msgctxt "Things.SeedBag_Wheet"
+msgid "Grow some {THING:ItemWheat}."
+msgstr "Züchte etwas {THING:ItemWheat}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Tomato']
 msgctxt "Things.SeedBag_Tomato"
@@ -1088,10 +1058,10 @@ msgctxt "Things.SeedBag_Rice"
 msgid "Rice Seeds"
 msgstr "Reissamen"
 
-#: /Language/Things/RecordThing[Key='SeedBag_Rice']
-msgctxt "Things.SeedBag_Rice"
-msgid "Grow some {THING:ItemRice}."
-msgstr "Züchtet etwas {THING:ItemRice}."
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
 msgctxt "Things.SeedBag_Pumpkin"
@@ -1112,6 +1082,18 @@ msgstr "Farnsamen"
 msgctxt "Things.SeedBag_Fern"
 msgid "Grow a {THING:ItemFern}."
 msgstr "Züchtet {THING:ItemFern}."
+
+#: /Language/Things/RecordThing[Key='SeedBag_Mushroom']
+#, fuzzy
+msgctxt "Things.SeedBag_Mushroom"
+msgid "Mushroom Seeds"
+msgstr "Pilz"
+
+#: /Language/Things/RecordThing[Key='SeedBag_Mushroom']
+#, fuzzy
+msgctxt "Things.SeedBag_Mushroom"
+msgid "Grow a {THING:ItemMushroom}."
+msgstr "Züchte eine {THING:ItemPotato}."
 
 #: /Language/Things/RecordThing[Key='Fertilizer']
 msgctxt "Things.Fertilizer"
@@ -2777,6 +2759,65 @@ msgctxt "Things.ItemKitStandardChute"
 msgid "This kit produces a variety of powered chutes"
 msgstr "Dieser Bausatz produziert eine Vielzahl von elektrischen Schächten"
 
+#: /Language/Things/RecordThing[Key='ItemPlantSampler']
+#, fuzzy
+msgctxt "Things.ItemPlantSampler"
+msgid "Plant Sampler"
+msgstr "Pflanzenbehälter"
+
+#: /Language/Things/RecordThing[Key='ItemPlantSampler']
+msgctxt "Things.ItemPlantSampler"
+msgid "The Plant Sampler allows you to take a {LINK:GeneticsPage;gene} sample of a growing plant. The sampler can then be placed in the {THING:AppliancePlantGeneticAnalyzer} to attain and interpret the results."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticAnalyzer']
+#, fuzzy
+msgctxt "Things.AppliancePlantGeneticAnalyzer"
+msgid "Plant Genetic Analyzer"
+msgstr "Kassette (Analyse: Medizinisch)"
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticAnalyzer']
+msgctxt "Things.AppliancePlantGeneticAnalyzer"
+msgid ""
+"The Genetic Analyzer can be used to process samples from the {THING:ItemPlantSampler}. Once processed, the genetic information of the sampled plant can be viewed by clicking on the search button.\n"
+"\n"
+"Individual Gene Value Widgets: \n"
+"Most gene values will appear as a sliding bar between a minimum value on the left and a maximum value on the right. The actual value of the gene is in the middle of the bar, in orange.\n"
+"\n"
+"Multiple Gene Value Widgets: \n"
+"For temperature and pressure ranges, four genes appear on the same widget. The orange values underneath the bar are the minimum and maximum thresholds for growth. Outside of this range, the plant will stop growing and eventually die. The blue values underneath the bar are the minimum and maximum thresholds for ideal growth. Inside of this range, the plant will grow at maximum speed. The white values above the bar are the minimum and maximum achievable values for the growth threshold."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
+msgid "Kit (Liquid Volume Pump)"
+msgstr "Bausatz (Flüssigkeiten Volumenpumpe)"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "Liquid Volume Pump"
+msgstr "Flüssigkeiten Volumenpumpe"
+
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
+msgctxt "Things.DynamicMKIILiquidCanisterWater"
+msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
+msgstr "Eine isolierte Version des {THING:DynamicMKIILiquidCanisterWater}, zum Aufbewahren von Flüssigkeiten, ohne dass diese an Temperatur gewinnen oder verlieren."
+
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
+msgctxt "Things.DynamicMKIILiquidCanisterWater"
+msgid "Portable Liquid Tank Mk II (Water)"
+msgstr "Tragbarer Flüssigkeitstank Mk II (Wasser)"
+
+#: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
+msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
 #: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
 msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
 msgid "Kit (Portable Liquid Tank Mk II)"
@@ -3803,6 +3844,11 @@ msgctxt "Things.ItemWreckageBlastDoor1"
 msgid "Wreckage Blast Door"
 msgstr "Zerstörte Explosionsschutztür"
 
+#: /Language/Things/RecordThing[Key='SeedBag_Rice']
+msgctxt "Things.SeedBag_Rice"
+msgid "Grow some {THING:ItemRice}."
+msgstr "Züchtet etwas {THING:ItemRice}."
+
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad5']
 msgctxt "Things.ItemWreckageShuttleLandingPad5"
 msgid "{BLANK}"
@@ -3822,11 +3868,6 @@ msgstr "{BLANK}"
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
 msgid "Wreckage Shuttle Landing Pad"
 msgstr "Zerstörter Shuttle Landeplatz"
-
-#: /Language/Things/RecordThing[Key='SeedBag_Wheet']
-msgctxt "Things.SeedBag_Wheet"
-msgid "Grow some {THING:ItemWheat}."
-msgstr "Züchte etwas {THING:ItemWheat}."
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad3']
 msgctxt "Things.ItemWreckageShuttleLandingPad3"
@@ -4530,11 +4571,6 @@ msgstr "Zerstörter Tansformator Mittel"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
 msgctxt "Things.ItemWreckageTransformerMedium1"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
-msgctxt "Things.ItemWreckageTransformerMedium1"
 msgid "Wreckage Transformer Medium"
 msgstr "Zerstörter Tansformator Mittel"
 
@@ -4547,6 +4583,11 @@ msgstr "Beschreibung folgt."
 msgctxt "Things.ItemWreckageTransformer2"
 msgid "Wreckage Transformer"
 msgstr "Zerstörter Transformator"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
+msgctxt "Things.ItemWreckageTransformer1"
+msgid "Description coming."
+msgstr "Beschreibung folgt."
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
 msgctxt "Things.ItemWreckageTransformer1"
@@ -10073,13 +10114,13 @@ msgstr "Pille (Medizinisch)"
 
 #: /Language/Things/RecordThing[Key='ItemPickaxe']
 msgctxt "Things.ItemPickaxe"
-msgid "When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe."
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemPickaxe']
-msgctxt "Things.ItemPickaxe"
 msgid "Pickaxe"
 msgstr "Spitzhacke"
+
+#: /Language/Things/RecordThing[Key='ItemPassiveVent']
+msgctxt "Things.ItemPassiveVent"
+msgid "This kit creates a {THING:ItemPassiveVent}."
+msgstr "Dieser Bausatz erstellt eine {THING:ItemPassiveVent}."
 
 #: /Language/Things/RecordThing[Key='ItemPassiveVent']
 msgctxt "Things.ItemPassiveVent"
@@ -10138,7 +10179,7 @@ msgstr "Lichtschwert"
 
 #: /Language/Things/RecordThing[Key='ItemLabeller']
 msgctxt "Things.ItemLabeller"
-msgid "The {LINK:Stationeers;Stationeer's} best friend, a labeller lets you set names and values on a variety of devices and structures, including {THING:StructureConsole} and {LINK:LogicPage;Logic}."
+msgid "A labeller lets you set names and values on a variety of devices and structures, including {THING:StructureConsole} and {LINK:LogicPage;Logic}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemLabeller']
@@ -11926,8 +11967,9 @@ msgid "Your arm is your fourth most important body part."
 msgstr "Dein Arm ist dein viertwichtigster Körperteil."
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautMaleArmL']
+#, fuzzy
 msgctxt "Things.BodyPartAstronautMaleArmL"
-msgid "Body Part Astronaut Male Arm)"
+msgid "Body Part Astronaut Male Arm L"
 msgstr "Körperteil Astronaut Männlich Arm L"
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleTorso']
@@ -11956,8 +11998,9 @@ msgid "A leg, is a leg, is a leg."
 msgstr "Ein Bein, ist ein Bein, ist ein Bein."
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleLegL']
+#, fuzzy
 msgctxt "Things.BodyPartAstronautFemaleLegL"
-msgid "Body Part Astronaut Female Leg)"
+msgid "Body Part Astronaut Female Leg L"
 msgstr "Körperteil Astronaut Weiblich Bein L"
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleHead']
@@ -12012,10 +12055,18 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrowelle"
 
-#: /Language/Things/RecordThing[Key='ItemPassiveVent']
-msgctxt "Things.ItemPassiveVent"
-msgid "This kit creates a {THING:ItemPassiveVent}."
-msgstr "Dieser Bausatz erstellt eine {THING:ItemPassiveVent}."
+#: /Language/Things/RecordThing[Key='ItemPickaxe']
+msgctxt "Things.ItemPickaxe"
+msgid "When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe."
+msgstr ""
+
+#~ msgctxt "Things.BodyPartAstronautMaleArmL"
+#~ msgid "Body Part Astronaut Male Arm)"
+#~ msgstr "Körperteil Astronaut Männlich Arm L"
+
+#~ msgctxt "Things.BodyPartAstronautFemaleLegL"
+#~ msgid "Body Part Astronaut Female Leg)"
+#~ msgstr "Körperteil Astronaut Weiblich Bein L"
 
 #~ msgctxt "Things.ItemKitLargeExtendableRadiator"
 #~ msgid "{BLANK}"

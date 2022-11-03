@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleFace']
-msgctxt "Interface.AppearanceTitleFace"
-msgid "Face"
-msgstr "Лицо"
+#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
+msgctxt "Interface.JoinMenuInfoPlayers"
+msgid "Players:"
+msgstr "Игроков:"
+
+#: /Language/Interface/Record[Key='KitCategory']
+msgctxt "Interface.KitCategory"
+msgid "Construction Kits"
+msgstr "Строительные Наборы"
+
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr "Двери и люки"
 
 #: /Language/Interface/Record[Key='ChairTableCategory']
 msgctxt "Interface.ChairTableCategory"
@@ -171,6 +181,12 @@ msgctxt "Interface.AtmosDevices"
 msgid "Atmospheric Devices"
 msgstr "Устройства для контроля атмосферы"
 
+#: /Language/Interface/Record[Key='GeneticAppliences']
+#, fuzzy
+msgctxt "Interface.GeneticAppliences"
+msgid "Genetic Appliences"
+msgstr "Внешний вид"
+
 #: /Language/Interface/Record[Key='FireArm']
 msgctxt "Interface.FireArm"
 msgid "Weapons"
@@ -246,6 +262,11 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Выйти на рабочий стол"
 
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "НЕ РЕКОМЕНДУЕТСЯ"
+
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -255,11 +276,6 @@ msgstr "Загрузить мир"
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Сохранённые миры"
-
-#: /Language/Interface/Record[Key='LogicTypePlantHash1']
-msgctxt "Interface.LogicTypePlantHash1"
-msgid "DEPRECATED"
-msgstr "НЕ РЕКОМЕНДУЕТСЯ"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -803,15 +819,15 @@ msgctxt "Interface.SettingsLanguage"
 msgid "Language"
 msgstr "Язык"
 
-#: /Language/Interface/Record[Key='SettingsVoiceControl']
-msgctxt "Interface.SettingsVoiceControl"
-msgid "Voice Control"
-msgstr "Управление голосом"
-
 #: /Language/Interface/Record[Key='ReagentsHeader']
 msgctxt "Interface.ReagentsHeader"
 msgid "Reagents"
 msgstr "Реагенты"
+
+#: /Language/Interface/Record[Key='SettingsVoiceControl']
+msgctxt "Interface.SettingsVoiceControl"
+msgid "Voice Control"
+msgstr "Управление голосом"
 
 #: /Language/Interface/Record[Key='SettingsCameraSensitivity']
 msgctxt "Interface.SettingsCameraSensitivity"
@@ -1469,10 +1485,10 @@ msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "Сохранить мир"
 
-#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
-msgctxt "Interface.SaveMenuOverwriteButton"
-msgid "Overwrite"
-msgstr "Перезаписать"
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "Введите название сохранения..."
 
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
@@ -1498,31 +1514,6 @@ msgstr "IP адрес:"
 msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "Карта:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "Версия:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "Задержка:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
-msgctxt "Interface.JoinMenuInfoPlayers"
-msgid "Players:"
-msgstr "Игроков:"
-
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
-msgstr "Двери и люки"
-
-#: /Language/Interface/Record[Key='KitCategory']
-msgctxt "Interface.KitCategory"
-msgid "Construction Kits"
-msgstr "Строительные Наборы"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -1574,6 +1565,17 @@ msgstr ""
 #: /Language/Interface/Record[Key='Throttle']
 msgctxt "Interface.Throttle"
 msgid "Throttle"
+msgstr ""
+
+#: /Language/Interface/Record[Key='GeneticDevices']
+#, fuzzy
+msgctxt "Interface.GeneticDevices"
+msgid "Genetic Devices"
+msgstr "Логические Устройства"
+
+#: /Language/Interface/Record[Key='GeneticsHeader']
+msgctxt "Interface.GeneticsHeader"
+msgid "Genes"
 msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDeleteBackup']
@@ -1706,6 +1708,11 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr ""
 
+#: /Language/Interface/Record[Key='StationpediaGrowthTime']
+msgctxt "Interface.StationpediaGrowthTime"
+msgid "Growth Time:"
+msgstr ""
+
 #: /Language/Interface/Record[Key='StationpediaNutrition']
 #, fuzzy
 msgctxt "Interface.StationpediaNutrition"
@@ -1717,16 +1724,16 @@ msgctxt "Interface.StationpediaVolume"
 msgid "Volume:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
-msgctxt "Interface.ChangeAppearanceTitle"
-msgid "Change Appearance"
-msgstr "Изменение внешности"
-
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
 #, fuzzy
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
 msgstr "Максимальное давление:"
+
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "Версия:"
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
@@ -2107,6 +2114,11 @@ msgstr "Логические Устройства"
 msgctxt "Interface.StructureCategoryKey"
 msgid "Structures"
 msgstr "Конструкции"
+
+#: /Language/Interface/Record[Key='GeneticsCategoryKey']
+msgctxt "Interface.GeneticsCategoryKey"
+msgid "Genetics"
+msgstr ""
 
 #: /Language/Interface/Record[Key='OrganicsCategoryKey']
 msgctxt "Interface.OrganicsCategoryKey"
@@ -4668,6 +4680,11 @@ msgctxt "Interface.TraderElectronics"
 msgid "TechTree Electronics"
 msgstr "Дерево Технологий"
 
+#: /Language/Interface/Record[Key='PanelPlantGeneticsTitle']
+msgctxt "Interface.PanelPlantGeneticsTitle"
+msgid "Genetic Information"
+msgstr ""
+
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
 msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
@@ -5116,15 +5133,15 @@ msgctxt "Interface.LogicTypePlantHash2"
 msgid "DEPRECATED"
 msgstr "НЕ РЕКОМЕНДУЕТСЯ"
 
-#: /Language/Interface/Record[Key='AppearanceTitleGender']
-msgctxt "Interface.AppearanceTitleGender"
-msgid "Gender"
-msgstr "Пол"
-
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
+#: /Language/Interface/Record[Key='LogicTypePlantHash1']
+msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr "НЕ РЕКОМЕНДУЕТСЯ"
+
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "Задержка:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
@@ -6407,10 +6424,25 @@ msgctxt "Interface.AppearanceTitleHairStyle"
 msgid "Hair"
 msgstr "Волосы"
 
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "Введите название сохранения..."
+#: /Language/Interface/Record[Key='AppearanceTitleFace']
+msgctxt "Interface.AppearanceTitleFace"
+msgid "Face"
+msgstr "Лицо"
+
+#: /Language/Interface/Record[Key='AppearanceTitleGender']
+msgctxt "Interface.AppearanceTitleGender"
+msgid "Gender"
+msgstr "Пол"
+
+#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
+msgctxt "Interface.ChangeAppearanceTitle"
+msgid "Change Appearance"
+msgstr "Изменение внешности"
+
+#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
+msgctxt "Interface.SaveMenuOverwriteButton"
+msgid "Overwrite"
+msgstr "Перезаписать"
 
 #, fuzzy
 #~ msgctxt "Interface.ShadowCascades"

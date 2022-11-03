@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='AppearanceTitleFace']
-msgctxt "Interface.AppearanceTitleFace"
-msgid "Face"
-msgstr "Gesicht"
+#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
+msgctxt "Interface.JoinMenuInfoPlayers"
+msgid "Players:"
+msgstr "Spieler:"
+
+#: /Language/Interface/Record[Key='KitCategory']
+msgctxt "Interface.KitCategory"
+msgid "Construction Kits"
+msgstr "Bausätze"
+
+#: /Language/Interface/Record[Key='DoorCategory']
+msgctxt "Interface.DoorCategory"
+msgid "Doors and Hatches"
+msgstr "Türen und Luken"
 
 #: /Language/Interface/Record[Key='ChairTableCategory']
 msgctxt "Interface.ChairTableCategory"
@@ -170,6 +180,12 @@ msgctxt "Interface.AtmosDevices"
 msgid "Atmospheric Devices"
 msgstr "Lüftungen"
 
+#: /Language/Interface/Record[Key='GeneticAppliences']
+#, fuzzy
+msgctxt "Interface.GeneticAppliences"
+msgid "Genetic Appliences"
+msgstr "Apparate"
+
 #: /Language/Interface/Record[Key='FireArm']
 msgctxt "Interface.FireArm"
 msgid "Weapons"
@@ -245,6 +261,11 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Zurück zum Desktop"
 
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "DEPRECATED"
+
 #: /Language/Interface/Record[Key='LoadMenuTitle']
 msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
@@ -254,11 +275,6 @@ msgstr "Welt Laden"
 msgctxt "Interface.LoadMenuFileListTitle"
 msgid "Saved Worlds"
 msgstr "Gespeicherte Welten"
-
-#: /Language/Interface/Record[Key='LogicTypePlantHash1']
-msgctxt "Interface.LogicTypePlantHash1"
-msgid "DEPRECATED"
-msgstr "DEPRECATED"
 
 #: /Language/Interface/Record[Key='WorldInfoTextDate']
 msgctxt "Interface.WorldInfoTextDate"
@@ -801,15 +817,15 @@ msgctxt "Interface.SettingsLanguage"
 msgid "Language"
 msgstr "Sprache"
 
-#: /Language/Interface/Record[Key='SettingsVoiceControl']
-msgctxt "Interface.SettingsVoiceControl"
-msgid "Voice Control"
-msgstr "Sprachsteuerung"
-
 #: /Language/Interface/Record[Key='ReagentsHeader']
 msgctxt "Interface.ReagentsHeader"
 msgid "Reagents"
 msgstr "Reagenzien"
+
+#: /Language/Interface/Record[Key='SettingsVoiceControl']
+msgctxt "Interface.SettingsVoiceControl"
+msgid "Voice Control"
+msgstr "Sprachsteuerung"
 
 #: /Language/Interface/Record[Key='SettingsCameraSensitivity']
 msgctxt "Interface.SettingsCameraSensitivity"
@@ -1460,10 +1476,10 @@ msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "Welt speichern"
 
-#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
-msgctxt "Interface.SaveMenuOverwriteButton"
-msgid "Overwrite"
-msgstr "Überschreiben"
+#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
+msgctxt "Interface.SaveMenuNamePlaceholder"
+msgid "Enter Save Name..."
+msgstr "Speichername eingeben..."
 
 #: /Language/Interface/Record[Key='NewWorldModeCreative']
 msgctxt "Interface.NewWorldModeCreative"
@@ -1489,31 +1505,6 @@ msgstr "IP Adresse:"
 msgctxt "Interface.JoinMenuInfoMap"
 msgid "Map:"
 msgstr "Karte:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "Version:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "Latenz:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
-msgctxt "Interface.JoinMenuInfoPlayers"
-msgid "Players:"
-msgstr "Spieler:"
-
-#: /Language/Interface/Record[Key='DoorCategory']
-msgctxt "Interface.DoorCategory"
-msgid "Doors and Hatches"
-msgstr "Türen und Luken"
-
-#: /Language/Interface/Record[Key='KitCategory']
-msgctxt "Interface.KitCategory"
-msgid "Construction Kits"
-msgstr "Bausätze"
 
 #: /Language/Interface/Record[Key='MainMenuContinue']
 msgctxt "Interface.MainMenuContinue"
@@ -1564,6 +1555,17 @@ msgstr "Verbrennungsbegrenzer"
 msgctxt "Interface.Throttle"
 msgid "Throttle"
 msgstr "Drosselung"
+
+#: /Language/Interface/Record[Key='GeneticDevices']
+#, fuzzy
+msgctxt "Interface.GeneticDevices"
+msgid "Genetic Devices"
+msgstr "Logikgeräte"
+
+#: /Language/Interface/Record[Key='GeneticsHeader']
+msgctxt "Interface.GeneticsHeader"
+msgid "Genes"
+msgstr ""
 
 #: /Language/Interface/Record[Key='WorldInfoButtonDeleteBackup']
 #, fuzzy
@@ -1705,6 +1707,11 @@ msgctxt "Interface.MoleOxygenDescription"
 msgid "Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures."
 msgstr "Sauerstoff liefert Energie, wenn er bei der Verbrennung beigemischt wird, und verbindet sich auch mit Wasserstoff, um {GAS:Water} zu erzeugen. Es entsteht in {LINK:OrganicPage;plants}, sowie durch die Verarbeitung von {THING:ItemOxite}. Es ist bei niedrigen Temperaturen leicht entzündlich."
 
+#: /Language/Interface/Record[Key='StationpediaGrowthTime']
+msgctxt "Interface.StationpediaGrowthTime"
+msgid "Growth Time:"
+msgstr ""
+
 #: /Language/Interface/Record[Key='StationpediaNutrition']
 msgctxt "Interface.StationpediaNutrition"
 msgid "Nutrition:"
@@ -1715,15 +1722,15 @@ msgctxt "Interface.StationpediaVolume"
 msgid "Volume:"
 msgstr "Volumen:"
 
-#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
-msgctxt "Interface.ChangeAppearanceTitle"
-msgid "Change Appearance"
-msgstr "Aussehen ändern"
-
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
 msgstr "Maximaler Druck:"
+
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "Version:"
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
@@ -2098,6 +2105,11 @@ msgstr "Logikgeräte"
 msgctxt "Interface.StructureCategoryKey"
 msgid "Structures"
 msgstr "Strukturen"
+
+#: /Language/Interface/Record[Key='GeneticsCategoryKey']
+msgctxt "Interface.GeneticsCategoryKey"
+msgid "Genetics"
+msgstr ""
 
 #: /Language/Interface/Record[Key='OrganicsCategoryKey']
 msgctxt "Interface.OrganicsCategoryKey"
@@ -4669,6 +4681,11 @@ msgctxt "Interface.TraderElectronics"
 msgid "TechTree Electronics"
 msgstr "TechTree Elektronik"
 
+#: /Language/Interface/Record[Key='PanelPlantGeneticsTitle']
+msgctxt "Interface.PanelPlantGeneticsTitle"
+msgid "Genetic Information"
+msgstr ""
+
 #: /Language/Interface/Record[Key='InputTextTradingTitle']
 msgctxt "Interface.InputTextTradingTitle"
 msgid "Trading Terminal"
@@ -5110,15 +5127,15 @@ msgctxt "Interface.LogicTypePlantHash2"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
-#: /Language/Interface/Record[Key='AppearanceTitleGender']
-msgctxt "Interface.AppearanceTitleGender"
-msgid "Gender"
-msgstr "Geschlecht"
-
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
+#: /Language/Interface/Record[Key='LogicTypePlantHash1']
+msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "Latenz:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
@@ -6356,10 +6373,25 @@ msgctxt "Interface.AppearanceTitleHairStyle"
 msgid "Hair"
 msgstr "Haare"
 
-#: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
-msgctxt "Interface.SaveMenuNamePlaceholder"
-msgid "Enter Save Name..."
-msgstr "Speichername eingeben..."
+#: /Language/Interface/Record[Key='AppearanceTitleFace']
+msgctxt "Interface.AppearanceTitleFace"
+msgid "Face"
+msgstr "Gesicht"
+
+#: /Language/Interface/Record[Key='AppearanceTitleGender']
+msgctxt "Interface.AppearanceTitleGender"
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: /Language/Interface/Record[Key='ChangeAppearanceTitle']
+msgctxt "Interface.ChangeAppearanceTitle"
+msgid "Change Appearance"
+msgstr "Aussehen ändern"
+
+#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
+msgctxt "Interface.SaveMenuOverwriteButton"
+msgid "Overwrite"
+msgstr "Überschreiben"
 
 #~ msgctxt "Interface.ShadowCascades"
 #~ msgid "ShadowCascades"

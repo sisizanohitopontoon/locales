@@ -10,38 +10,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
-msgctxt "Things.ItemWreckageTransformer1"
-msgid "Description coming."
-msgstr "Popis již brzy."
-
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
-msgctxt "Things.DynamicMKIILiquidCanisterWater"
-msgid "Portable Liquid Tank Mk II (Water)"
-msgstr "Přenosná nádrž na kapalinu Mk II (voda)"
-
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
-msgctxt "Things.DynamicMKIILiquidCanisterWater"
-msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
-msgstr "Izolovaná verze {THING:DynamicMKIILiquidCanisterWater} pro skladování tekutin, které nezvyšují ani neztrácejí teplotu."
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "Liquid Volume Pump"
-msgstr "Kapalinové objemové čerpadlo"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
-msgid "Kit (Liquid Volume Pump)"
-msgstr "Kapalinové objemové čerpadlo (sada)"
-
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
+msgctxt "Things.ItemWreckageTransformerMedium1"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -1102,10 +1072,10 @@ msgctxt "Things.SeedBag_Wheet"
 msgid "Wheat Seeds"
 msgstr "Semena pšenice"
 
-#: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
-msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='SeedBag_Wheet']
+msgctxt "Things.SeedBag_Wheet"
+msgid "Grow some {THING:ItemWheat}."
+msgstr "Vypěstuje {THING:ItemWheat}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Tomato']
 msgctxt "Things.SeedBag_Tomato"
@@ -1132,10 +1102,10 @@ msgctxt "Things.SeedBag_Rice"
 msgid "Rice Seeds"
 msgstr "Semena rýže"
 
-#: /Language/Things/RecordThing[Key='SeedBag_Rice']
-msgctxt "Things.SeedBag_Rice"
-msgid "Grow some {THING:ItemRice}."
-msgstr "Vypěstuje {THING:ItemRice}."
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
 msgctxt "Things.SeedBag_Pumpkin"
@@ -1156,6 +1126,18 @@ msgstr "Semena kapradin"
 msgctxt "Things.SeedBag_Fern"
 msgid "Grow a {THING:ItemFern}."
 msgstr "Vypěstuje {THING:ItemFern}."
+
+#: /Language/Things/RecordThing[Key='SeedBag_Mushroom']
+#, fuzzy
+msgctxt "Things.SeedBag_Mushroom"
+msgid "Mushroom Seeds"
+msgstr "Houba"
+
+#: /Language/Things/RecordThing[Key='SeedBag_Mushroom']
+#, fuzzy
+msgctxt "Things.SeedBag_Mushroom"
+msgid "Grow a {THING:ItemMushroom}."
+msgstr "Vypěstuje {THING:ItemPotato}."
 
 #: /Language/Things/RecordThing[Key='Fertilizer']
 msgctxt "Things.Fertilizer"
@@ -2889,6 +2871,65 @@ msgctxt "Things.ItemKitStandardChute"
 msgid "This kit produces a variety of powered chutes"
 msgstr "Tato sada vytváří řadu potrubí na kapaliny."
 
+#: /Language/Things/RecordThing[Key='ItemPlantSampler']
+#, fuzzy
+msgctxt "Things.ItemPlantSampler"
+msgid "Plant Sampler"
+msgstr "Sázeč"
+
+#: /Language/Things/RecordThing[Key='ItemPlantSampler']
+msgctxt "Things.ItemPlantSampler"
+msgid "The Plant Sampler allows you to take a {LINK:GeneticsPage;gene} sample of a growing plant. The sampler can then be placed in the {THING:AppliancePlantGeneticAnalyzer} to attain and interpret the results."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticAnalyzer']
+#, fuzzy
+msgctxt "Things.AppliancePlantGeneticAnalyzer"
+msgid "Plant Genetic Analyzer"
+msgstr "Zdravotní analyzátor"
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticAnalyzer']
+msgctxt "Things.AppliancePlantGeneticAnalyzer"
+msgid ""
+"The Genetic Analyzer can be used to process samples from the {THING:ItemPlantSampler}. Once processed, the genetic information of the sampled plant can be viewed by clicking on the search button.\n"
+"\n"
+"Individual Gene Value Widgets: \n"
+"Most gene values will appear as a sliding bar between a minimum value on the left and a maximum value on the right. The actual value of the gene is in the middle of the bar, in orange.\n"
+"\n"
+"Multiple Gene Value Widgets: \n"
+"For temperature and pressure ranges, four genes appear on the same widget. The orange values underneath the bar are the minimum and maximum thresholds for growth. Outside of this range, the plant will stop growing and eventually die. The blue values underneath the bar are the minimum and maximum thresholds for ideal growth. Inside of this range, the plant will grow at maximum speed. The white values above the bar are the minimum and maximum achievable values for the growth threshold."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
+msgid "Kit (Liquid Volume Pump)"
+msgstr "Kapalinové objemové čerpadlo (sada)"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "Liquid Volume Pump"
+msgstr "Kapalinové objemové čerpadlo"
+
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
+msgctxt "Things.DynamicMKIILiquidCanisterWater"
+msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
+msgstr "Izolovaná verze {THING:DynamicMKIILiquidCanisterWater} pro skladování tekutin, které nezvyšují ani neztrácejí teplotu."
+
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
+msgctxt "Things.DynamicMKIILiquidCanisterWater"
+msgid "Portable Liquid Tank Mk II (Water)"
+msgstr "Přenosná nádrž na kapalinu Mk II (voda)"
+
+#: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
+msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
 #: /Language/Things/RecordThing[Key='ItemKitDynamicMKIILiquidCanister']
 msgctxt "Things.ItemKitDynamicMKIILiquidCanister"
 msgid "Kit (Portable Liquid Tank Mk II)"
@@ -3919,6 +3960,11 @@ msgctxt "Things.ItemWreckageBlastDoor1"
 msgid "Wreckage Blast Door"
 msgstr "Vrak obrněných dveří"
 
+#: /Language/Things/RecordThing[Key='SeedBag_Rice']
+msgctxt "Things.SeedBag_Rice"
+msgid "Grow some {THING:ItemRice}."
+msgstr "Vypěstuje {THING:ItemRice}."
+
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad5']
 msgctxt "Things.ItemWreckageShuttleLandingPad5"
 msgid "{BLANK}"
@@ -3938,11 +3984,6 @@ msgstr "{BLANK}"
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
 msgid "Wreckage Shuttle Landing Pad"
 msgstr "Vrak přistávací rampy"
-
-#: /Language/Things/RecordThing[Key='SeedBag_Wheet']
-msgctxt "Things.SeedBag_Wheet"
-msgid "Grow some {THING:ItemWheat}."
-msgstr "Vypěstuje {THING:ItemWheat}."
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad3']
 msgctxt "Things.ItemWreckageShuttleLandingPad3"
@@ -4651,11 +4692,6 @@ msgstr "Vrak transformátoru (střední)"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
 msgctxt "Things.ItemWreckageTransformerMedium1"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
-msgctxt "Things.ItemWreckageTransformerMedium1"
 msgid "Wreckage Transformer Medium"
 msgstr "Vrak transformátoru (střední)"
 
@@ -4668,6 +4704,11 @@ msgstr "Popis již brzy."
 msgctxt "Things.ItemWreckageTransformer2"
 msgid "Wreckage Transformer"
 msgstr "Vrak transformátoru"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
+msgctxt "Things.ItemWreckageTransformer1"
+msgid "Description coming."
+msgstr "Popis již brzy."
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
 msgctxt "Things.ItemWreckageTransformer1"
@@ -10247,13 +10288,13 @@ msgstr "Pilulka (Léčivá)"
 
 #: /Language/Things/RecordThing[Key='ItemPickaxe']
 msgctxt "Things.ItemPickaxe"
-msgid "When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe."
-msgstr "Když slunce zapadne a {THING:ItemMiningDrill} se vybije, vybité baterie a váš {THING:StructureSolarPanel} chladný a bez života, {THING:StructureAutolathe} prázdný, cesta vpřed nejasná, jedna věc brzdí nekonečnou noc porážky: důvěryhodný krumpáč."
-
-#: /Language/Things/RecordThing[Key='ItemPickaxe']
-msgctxt "Things.ItemPickaxe"
 msgid "Pickaxe"
 msgstr "Krumpáč"
+
+#: /Language/Things/RecordThing[Key='ItemPassiveVent']
+msgctxt "Things.ItemPassiveVent"
+msgid "This kit creates a {THING:ItemPassiveVent}."
+msgstr "Tato sada vytváří {THING:ItemPassiveVent}."
 
 #: /Language/Things/RecordThing[Key='ItemPassiveVent']
 msgctxt "Things.ItemPassiveVent"
@@ -10315,7 +10356,7 @@ msgstr "Světelný meč"
 #: /Language/Things/RecordThing[Key='ItemLabeller']
 #, fuzzy
 msgctxt "Things.ItemLabeller"
-msgid "The {LINK:Stationeers;Stationeer's} best friend, a labeller lets you set names and values on a variety of devices and structures, including {THING:StructureConsole} and {LINK:LogicPage;Logic}."
+msgid "A labeller lets you set names and values on a variety of devices and structures, including {THING:StructureConsole} and {LINK:LogicPage;Logic}."
 msgstr "Popisovač"
 
 #: /Language/Things/RecordThing[Key='ItemLabeller']
@@ -12128,8 +12169,9 @@ msgid "Your arm is your fourth most important body part."
 msgstr "Vaše ruka je čtvrtou nejdůležitější částí těla."
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautMaleArmL']
+#, fuzzy
 msgctxt "Things.BodyPartAstronautMaleArmL"
-msgid "Body Part Astronaut Male Arm)"
+msgid "Body Part Astronaut Male Arm L"
 msgstr "Část těla astronauta (Levá mužská ruka)"
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleTorso']
@@ -12158,8 +12200,9 @@ msgid "A leg, is a leg, is a leg."
 msgstr "Noha, je noha, je noha."
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleLegL']
+#, fuzzy
 msgctxt "Things.BodyPartAstronautFemaleLegL"
-msgid "Body Part Astronaut Female Leg)"
+msgid "Body Part Astronaut Female Leg L"
 msgstr "Část těla astronauta (Levá ženská noha)"
 
 #: /Language/Things/RecordThing[Key='BodyPartAstronautFemaleHead']
@@ -12216,10 +12259,18 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrovlnná trouba"
 
-#: /Language/Things/RecordThing[Key='ItemPassiveVent']
-msgctxt "Things.ItemPassiveVent"
-msgid "This kit creates a {THING:ItemPassiveVent}."
-msgstr "Tato sada vytváří {THING:ItemPassiveVent}."
+#: /Language/Things/RecordThing[Key='ItemPickaxe']
+msgctxt "Things.ItemPickaxe"
+msgid "When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe."
+msgstr "Když slunce zapadne a {THING:ItemMiningDrill} se vybije, vybité baterie a váš {THING:StructureSolarPanel} chladný a bez života, {THING:StructureAutolathe} prázdný, cesta vpřed nejasná, jedna věc brzdí nekonečnou noc porážky: důvěryhodný krumpáč."
+
+#~ msgctxt "Things.BodyPartAstronautMaleArmL"
+#~ msgid "Body Part Astronaut Male Arm)"
+#~ msgstr "Část těla astronauta (Levá mužská ruka)"
+
+#~ msgctxt "Things.BodyPartAstronautFemaleLegL"
+#~ msgid "Body Part Astronaut Female Leg)"
+#~ msgstr "Část těla astronauta (Levá ženská noha)"
 
 #~ msgctxt "Things.ItemKitChute"
 #~ msgid "This kit produces a range of chute structures, including {THING:StructureChuteStraight} and {THING:StructureChuteCorner}."
