@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-06 11:28+0000\n"
+"PO-Revision-Date: 2022-11-06 11:52+0000\n"
 "Last-Translator: Mr.Frog <tepes.class@seznam.cz>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1306,7 +1306,6 @@ msgid "Food Decay"
 msgstr "Rozklad potravin"
 
 #: /Language/HelpPage/StationpediaPage[Key='DecayPage']
-#, fuzzy
 msgctxt "HelpPage.DecayPage"
 msgid ""
 "Food decays over time into {THING:DecayedFood}, unless refrigerated in a sutable atmosphere. The exact speed of decay varies individually by:\n"
@@ -1332,9 +1331,9 @@ msgstr ""
 "\n"
 "- TEPLOTY - Chlazení zpomalí rozklad, ale mnoho potravin se poškodí vystavením extrémně nízkému tlaku a také extrémnímu teplu. Optimální teplota je 0 kelvinů (-272 C).\n"
 "\n"
-"- TYPU POTRAVINY - Každé <color=#0080FFFF>{LINK:OrganicPage;jídlo}</color> má své vlastní vlastnosti rozkladu. Například {THING:ItemTomatoSoup} vydrží mnohem déle než {THING:ItemTomato}.\n"
+"- TYPU POTRAVINY - Každé <color=#0080FFFF>{LINK:OrganicPage;jídlo}</color> má své vlastní dobu rozkladu. Například {THING:ItemTomatoSoup} vydrží mnohem déle než {THING:ItemTomato}.\n"
 "\n"
-"- TLAKU - Potraviny se rozkládají rychleji, když tlak klesne pod 1 atmosféru (101 kPa). Rozklad probíhá exponenciálně rychleji, jak se atmosféra blíží dokonalému vakuu. Vyšší tlaky nemají žádný vliv. \n"
+"- TLAKU - Potraviny se rozkládají rychleji, když tlak klesne pod 1 atmosféru (101 kPa). Rozklad probíhá exponenciálně rychleji, jak se atmosféra blíží dokonalému vakuu. Vyšší tlaky nemají žádný vliv na rozklad. \n"
 "\n"
 "- ATMOSFÉRY - Různé plyny mohou zpomalovat a urychlovat proces rozkladu. Proces při výpočtu modifikátoru rozpadu zohledňuje příslušné poměry plynů ve smíšených atmosférách. Pro všechny potraviny platí následující poměry:\n"
 "\n"
