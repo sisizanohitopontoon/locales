@@ -10,8 +10,28 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
-msgctxt "Things.ItemWreckageTransformerMedium1"
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformer2']
+msgctxt "Things.ItemWreckageTransformer2"
+msgid "Wreckage Transformer"
+msgstr "殘骸 Transformer"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "Liquid Volume Pump"
+msgstr "液體管線幫浦"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
+msgid "Kit (Liquid Volume Pump)"
+msgstr "套件 液體管線幫浦"
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -996,9 +1016,9 @@ msgctxt "Things.SeedBag_Soybean"
 msgid "Soybean Seeds"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='SeedBag_Soybean']
-msgctxt "Things.SeedBag_Soybean"
-msgid "Grow some {THING:ItemSoybean}."
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
+msgctxt "Things.DynamicMKIILiquidCanisterWater"
+msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='SeedBag_Rice']
@@ -1006,10 +1026,10 @@ msgctxt "Things.SeedBag_Rice"
 msgid "Rice Seeds"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='SeedBag_Rice']
+msgctxt "Things.SeedBag_Rice"
+msgid "Grow some {THING:ItemRice}."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
 msgctxt "Things.SeedBag_Pumpkin"
@@ -1035,7 +1055,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.SeedBag_Mushroom"
 msgid "Mushroom Seeds"
-msgstr "蘑菇"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='SeedBag_Mushroom']
 msgctxt "Things.SeedBag_Mushroom"
@@ -1932,9 +1952,10 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='ItemLaptop']
 msgctxt "Things.ItemLaptop"
 msgid ""
-"A portable IC editor, the {LINK:Norsec;Norsec} 'Slaptop' was designed for rugged use and abuse by intrepid {LINK:Stationeers;Stationeers} across the Solar System. While it will never replace the multifunctionality of the {THING:StructureComputer}, the Slaptop's low weight and portability have earned it a place in many an ODA operative's heart.\n"
-"      \n"
-"The Slaptop requires a {THING:MotherboardProgrammableChip} for operation."
+"The Laptop functions as a portable IC editor. To operate the Laptop it must be powered with a battery, have a {THING:MotherboardProgrammableChip} in the motherboard slot, and an {THING:ItemIntegratedCircuit10} in the Programmable Chip Slot.\n"
+"\n"
+"You must place the laptop down to interact with the onsreen UI.\n"
+"        \n"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPlantEndothermic_Genepool1']
@@ -2740,7 +2761,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.AppliancePlantGeneticAnalyzer"
 msgid "Plant Genetic Analyzer"
-msgstr "晶片 (醫療分析)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='AppliancePlantGeneticAnalyzer']
 msgctxt "Things.AppliancePlantGeneticAnalyzer"
@@ -2752,26 +2773,6 @@ msgid ""
 "\n"
 "Multiple Gene Value Widgets: \n"
 "For temperature and pressure ranges, four genes appear on the same widget. The orange values underneath the bar are the minimum and maximum thresholds for growth. Outside of this range, the plant will stop growing and eventually die. The blue values underneath the bar are the minimum and maximum thresholds for ideal growth. Inside of this range, the plant will grow at maximum speed. The white values above the bar are the minimum and maximum achievable values for the growth threshold."
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
-msgid "Kit (Liquid Volume Pump)"
-msgstr "套件 液體管線幫浦"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "Liquid Volume Pump"
-msgstr "液體管線幫浦"
-
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
-msgctxt "Things.DynamicMKIILiquidCanisterWater"
-msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
@@ -3799,11 +3800,6 @@ msgctxt "Things.ItemWreckageBlastDoor1"
 msgid "Wreckage Blast Door"
 msgstr "殘骸 Blast Door"
 
-#: /Language/Things/RecordThing[Key='SeedBag_Rice']
-msgctxt "Things.SeedBag_Rice"
-msgid "Grow some {THING:ItemRice}."
-msgstr ""
-
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad5']
 msgctxt "Things.ItemWreckageShuttleLandingPad5"
 msgid "{BLANK}"
@@ -3818,6 +3814,11 @@ msgstr "殘骸 Shuttle Landing Pad"
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
 msgid "{BLANK}"
 msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='SeedBag_Soybean']
+msgctxt "Things.SeedBag_Soybean"
+msgid "Grow some {THING:ItemSoybean}."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad4']
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
@@ -4531,6 +4532,11 @@ msgstr "殘骸 Transformer Small"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
 msgctxt "Things.ItemWreckageTransformerMedium1"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
+msgctxt "Things.ItemWreckageTransformerMedium1"
 msgid "Wreckage Transformer Medium"
 msgstr "殘骸 Transformer Small"
 
@@ -4538,11 +4544,6 @@ msgstr "殘骸 Transformer Small"
 msgctxt "Things.ItemWreckageTransformer2"
 msgid "Description coming."
 msgstr ""
-
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformer2']
-msgctxt "Things.ItemWreckageTransformer2"
-msgid "Wreckage Transformer"
-msgstr "殘骸 Transformer"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
 msgctxt "Things.ItemWreckageTransformer1"
@@ -6278,8 +6279,18 @@ msgstr "南瓜派"
 
 #: /Language/Things/RecordThing[Key='ItemRice']
 msgctxt "Things.ItemRice"
+msgid "Rice grows at a moderate rate as long as its supplied with plenty of water.  Being more dependant on water, rice plants can easily die during periods of drought."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemRice']
+msgctxt "Things.ItemRice"
 msgid "Rice"
 msgstr "稻米"
+
+#: /Language/Things/RecordThing[Key='ItemPumpkin']
+msgctxt "Things.ItemPumpkin"
+msgid "Pumpkins are a perennial plant, with both a long growth time, and a long time between harvests.  Its low requirement for darkness allows for accelerated growing if provided with extra light."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPumpkin']
 msgctxt "Things.ItemPumpkin"
@@ -6288,7 +6299,7 @@ msgstr "南瓜"
 
 #: /Language/Things/RecordThing[Key='ItemMushroom']
 msgctxt "Things.ItemMushroom"
-msgid "A tasty food item. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide} and will only grow when not in sunlight."
+msgid "A tasty food item. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide}. Mushrooms will only mature at a moderate rate in darkness, and prolonged light will kill it."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemMushroom']
@@ -7407,8 +7418,18 @@ msgstr "氣體燃料發電機"
 
 #: /Language/Things/RecordThing[Key='ItemTomato']
 msgctxt "Things.ItemTomato"
+msgid "Tomato plants are perennial, and will produce multiple harvests without needing to be replanted. Once the plant is mature, it will fruit at a moderate pace."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemTomato']
+msgctxt "Things.ItemTomato"
 msgid "Tomato"
 msgstr "番茄"
+
+#: /Language/Things/RecordThing[Key='ItemPotato']
+msgctxt "Things.ItemPotato"
+msgid " Potatoes are a simple, fast growing crop that can keep Stationeers alive in emergencies."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPotato']
 msgctxt "Things.ItemPotato"
@@ -7859,6 +7880,11 @@ msgstr ""
 msgctxt "Things.ItemAngleGrinder"
 msgid "Angle Grinder"
 msgstr "手持式圓鋸機"
+
+#: /Language/Things/RecordThing[Key='ItemSoybean']
+msgctxt "Things.ItemSoybean"
+msgid " Soybeans grow at a moderate rate, but require atmospheric {GAS:Nitrogen} to grow.  Its main use is to create {THING:ItemSoyOil}"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemSoybean']
 msgctxt "Things.ItemSoybean"
@@ -9423,7 +9449,7 @@ msgstr "剪線器"
 
 #: /Language/Things/RecordThing[Key='ItemWheat']
 msgctxt "Things.ItemWheat"
-msgid "A classical symbol of growth and new life, wheat is grown in various {LINK:OrganicPage;hydroponics} devices. Once harvested, it produces two wheat, and can be turned into a {LINK:ReagentPage;flour} using the {THING:ApplianceReagentProcessor}, thence transmuted into sustenance like a {THING:ItemCerealBar} or {THING:ItemMuffin} using the {THING:ApplianceMicrowave}."
+msgid "A classical symbol of growth and new life, wheat takes a moderate time to grow. Its main use is to create {LINK:ReagentPage;flour} using the {THING:ApplianceReagentProcessor}."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWheat']
@@ -10785,8 +10811,8 @@ msgstr "撬棍"
 
 #: /Language/Things/RecordThing[Key='ItemCorn']
 msgctxt "Things.ItemCorn"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "A long growth time staple crop. Its low requirement for darkness allows for accelerated growing if provided with extra light."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemCorn']
 msgctxt "Things.ItemCorn"
@@ -11282,6 +11308,11 @@ msgstr ""
 msgctxt "Things.CircuitboardCameraDisplay"
 msgid "Camera Display"
 msgstr "電路板 (相機顯示)"
+
+#: /Language/Things/RecordThing[Key='ImGuiCircuitboardAirlockControl']
+msgctxt "Things.ImGuiCircuitboardAirlockControl"
+msgid "Airlock (Experimental)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='CircuitboardAirlockControl']
 msgctxt "Things.CircuitboardAirlockControl"
@@ -11917,6 +11948,10 @@ msgstr "微波爐"
 msgctxt "Things.ItemPickaxe"
 msgid "When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe."
 msgstr ""
+
+#~ msgctxt "Things.ItemCorn"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.BodyPartAstronautMaleArmL"
 #~ msgid "Body Part Astronaut Male Arm)"
