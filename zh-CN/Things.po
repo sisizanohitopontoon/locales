@@ -10,20 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformer2']
-msgctxt "Things.ItemWreckageTransformer2"
-msgid "Wreckage Transformer"
-msgstr "变压器残骸"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "Liquid Volume Pump"
-msgstr "液体容积泵"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
+msgctxt "Things.ItemWreckageTransformerMedium1"
+msgid "Wreckage Transformer Medium"
+msgstr "中型变压器残骸"
 
 #: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
 msgctxt "Things.ItemLiquidPipeVolumePump"
@@ -1068,10 +1058,10 @@ msgctxt "Things.SeedBag_Soybean"
 msgid "Soybean Seeds"
 msgstr "大豆种子"
 
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
-msgctxt "Things.DynamicMKIILiquidCanisterWater"
-msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
-msgstr "{THING：DynamicMKIILiquidCanisterWater}的绝缘版本，用于存储液体而不会增加或损失温度。"
+#: /Language/Things/RecordThing[Key='SeedBag_Soybean']
+msgctxt "Things.SeedBag_Soybean"
+msgid "Grow some {THING:ItemSoybean}."
+msgstr "种大豆的"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Rice']
 msgctxt "Things.SeedBag_Rice"
@@ -1083,10 +1073,10 @@ msgctxt "Things.SeedBag_Rice"
 msgid "Grow some {THING:ItemRice}."
 msgstr "种水稻的"
 
-#: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
-msgctxt "Things.SeedBag_Pumpkin"
-msgid "Pumpkin Seeds"
-msgstr "南瓜籽"
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
 msgctxt "Things.SeedBag_Pumpkin"
@@ -2788,7 +2778,6 @@ msgid "This kit produces a variety of powered chutes"
 msgstr "此套件可生产一系列液体管道。"
 
 #: /Language/Things/RecordThing[Key='ItemPlantSampler']
-#, fuzzy
 msgctxt "Things.ItemPlantSampler"
 msgid "Plant Sampler"
 msgstr ""
@@ -2799,7 +2788,6 @@ msgid "The Plant Sampler allows you to take a {LINK:GeneticsPage;gene} sample of
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='AppliancePlantGeneticAnalyzer']
-#, fuzzy
 msgctxt "Things.AppliancePlantGeneticAnalyzer"
 msgid "Plant Genetic Analyzer"
 msgstr ""
@@ -2815,6 +2803,38 @@ msgid ""
 "Multiple Gene Value Widgets: \n"
 "For temperature and pressure ranges, four genes appear on the same widget. The orange values underneath the bar are the minimum and maximum thresholds for growth. Outside of this range, the plant will stop growing and eventually die. The blue values underneath the bar are the minimum and maximum thresholds for ideal growth. Inside of this range, the plant will grow at maximum speed. The white values above the bar are the minimum and maximum achievable values for the growth threshold."
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticStabilizer']
+msgctxt "Things.AppliancePlantGeneticStabilizer"
+msgid "Appliance Plant Genetic Stabilizer"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticStabilizer']
+#, fuzzy
+msgctxt "Things.AppliancePlantGeneticStabilizer"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticSplicer']
+msgctxt "Things.AppliancePlantGeneticSplicer"
+msgid "Appliance Plant Genetic Splicer"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticSplicer']
+#, fuzzy
+msgctxt "Things.AppliancePlantGeneticSplicer"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "Liquid Volume Pump"
+msgstr "液体容积泵"
+
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
+msgctxt "Things.DynamicMKIILiquidCanisterWater"
+msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
+msgstr "{THING：DynamicMKIILiquidCanisterWater}的绝缘版本，用于存储液体而不会增加或损失温度。"
 
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
 msgctxt "Things.DynamicMKIILiquidCanisterWater"
@@ -3857,6 +3877,11 @@ msgctxt "Things.ItemWreckageShuttleLandingPad5"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
+#: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
+msgctxt "Things.SeedBag_Pumpkin"
+msgid "Pumpkin Seeds"
+msgstr "南瓜籽"
+
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad5']
 msgctxt "Things.ItemWreckageShuttleLandingPad5"
 msgid "Wreckage Shuttle Landing Pad"
@@ -3866,11 +3891,6 @@ msgstr "航天飞机着陆台残骸"
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
 msgid "{BLANK}"
 msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='SeedBag_Soybean']
-msgctxt "Things.SeedBag_Soybean"
-msgid "Grow some {THING:ItemSoybean}."
-msgstr "种大豆的"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad4']
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
@@ -4582,15 +4602,15 @@ msgctxt "Things.ItemWreckageTransformerMedium1"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
-msgctxt "Things.ItemWreckageTransformerMedium1"
-msgid "Wreckage Transformer Medium"
-msgstr "中型变压器残骸"
-
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformer2']
 msgctxt "Things.ItemWreckageTransformer2"
 msgid "Description coming."
 msgstr "即将进行描述。"
+
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformer2']
+msgctxt "Things.ItemWreckageTransformer2"
+msgid "Wreckage Transformer"
+msgstr "变压器残骸"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
 msgctxt "Things.ItemWreckageTransformer1"
@@ -10225,10 +10245,10 @@ msgctxt "Things.ItemPillHeal"
 msgid "Three centuries of pharmeceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
 msgstr "三个世纪的制药技术都浓缩进了一种小巧的、易于摄入的药片：治疗药片，亦称“质子药片”或“快乐先生”，它含有活性酶、蛋白质药物、改良微生物菌株和哺乳动物细胞类似物，仅仅是提高了纯度、增强了药物效力的小小的一片，就能增强快速副交感神经免疫反应。"
 
-#: /Language/Things/RecordThing[Key='ItemPillHeal']
-msgctxt "Things.ItemPillHeal"
-msgid "Pill (Medical)"
-msgstr "药片（治疗）"
+#: /Language/Things/RecordThing[Key='ItemPickaxe']
+msgctxt "Things.ItemPickaxe"
+msgid "When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe."
+msgstr "当太阳落山， {THING:ItemMiningDrill} 电量耗尽，你的 {THING:StructureSolarPanel} 冰冷毫无生气，且 {THING:StructureAutolathe} 中空空如也，前路迷茫不清时，有一件东西却能熬过无尽的艰难之夜：可靠的镐子。"
 
 #: /Language/Things/RecordThing[Key='ItemPickaxe']
 msgctxt "Things.ItemPickaxe"
@@ -12212,10 +12232,10 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "微波炉"
 
-#: /Language/Things/RecordThing[Key='ItemPickaxe']
-msgctxt "Things.ItemPickaxe"
-msgid "When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe."
-msgstr "当太阳落山， {THING:ItemMiningDrill} 电量耗尽，你的 {THING:StructureSolarPanel} 冰冷毫无生气，且 {THING:StructureAutolathe} 中空空如也，前路迷茫不清时，有一件东西却能熬过无尽的艰难之夜：可靠的镐子。"
+#: /Language/Things/RecordThing[Key='ItemPillHeal']
+msgctxt "Things.ItemPillHeal"
+msgid "Pill (Medical)"
+msgstr "药片（治疗）"
 
 #~ msgctxt "Things.ItemLaptop"
 #~ msgid ""

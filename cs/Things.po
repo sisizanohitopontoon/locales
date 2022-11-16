@@ -10,20 +10,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformer2']
-msgctxt "Things.ItemWreckageTransformer2"
-msgid "Wreckage Transformer"
-msgstr "Vrak transformátoru"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "Liquid Volume Pump"
-msgstr "Kapalinové objemové čerpadlo"
-
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
+msgctxt "Things.ItemWreckageTransformerMedium1"
+msgid "Wreckage Transformer Medium"
+msgstr "Vrak transformátoru (střední)"
 
 #: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
 msgctxt "Things.ItemLiquidPipeVolumePump"
@@ -1112,10 +1102,10 @@ msgctxt "Things.SeedBag_Soybean"
 msgid "Soybean Seeds"
 msgstr "Semena sójy"
 
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
-msgctxt "Things.DynamicMKIILiquidCanisterWater"
-msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
-msgstr "Izolovaná verze {THING:DynamicMKIILiquidCanisterWater} pro skladování tekutin, které nezvyšují ani neztrácejí teplotu."
+#: /Language/Things/RecordThing[Key='SeedBag_Soybean']
+msgctxt "Things.SeedBag_Soybean"
+msgid "Grow some {THING:ItemSoybean}."
+msgstr "Vypěstuje {THING:ItemSoybean}."
 
 #: /Language/Things/RecordThing[Key='SeedBag_Rice']
 msgctxt "Things.SeedBag_Rice"
@@ -1127,10 +1117,10 @@ msgctxt "Things.SeedBag_Rice"
 msgid "Grow some {THING:ItemRice}."
 msgstr "Vypěstuje {THING:ItemRice}."
 
-#: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
-msgctxt "Things.SeedBag_Pumpkin"
-msgid "Pumpkin Seeds"
-msgstr "Semena dýně"
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
 msgctxt "Things.SeedBag_Pumpkin"
@@ -2889,7 +2879,6 @@ msgid "This kit produces a variety of powered chutes"
 msgstr "Tato sada vytváří řadu potrubí na kapaliny."
 
 #: /Language/Things/RecordThing[Key='ItemPlantSampler']
-#, fuzzy
 msgctxt "Things.ItemPlantSampler"
 msgid "Plant Sampler"
 msgstr ""
@@ -2900,7 +2889,6 @@ msgid "The Plant Sampler allows you to take a {LINK:GeneticsPage;gene} sample of
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='AppliancePlantGeneticAnalyzer']
-#, fuzzy
 msgctxt "Things.AppliancePlantGeneticAnalyzer"
 msgid "Plant Genetic Analyzer"
 msgstr ""
@@ -2916,6 +2904,38 @@ msgid ""
 "Multiple Gene Value Widgets: \n"
 "For temperature and pressure ranges, four genes appear on the same widget. The orange values underneath the bar are the minimum and maximum thresholds for growth. Outside of this range, the plant will stop growing and eventually die. The blue values underneath the bar are the minimum and maximum thresholds for ideal growth. Inside of this range, the plant will grow at maximum speed. The white values above the bar are the minimum and maximum achievable values for the growth threshold."
 msgstr ""
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticStabilizer']
+msgctxt "Things.AppliancePlantGeneticStabilizer"
+msgid "Appliance Plant Genetic Stabilizer"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticStabilizer']
+#, fuzzy
+msgctxt "Things.AppliancePlantGeneticStabilizer"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticSplicer']
+msgctxt "Things.AppliancePlantGeneticSplicer"
+msgid "Appliance Plant Genetic Splicer"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticSplicer']
+#, fuzzy
+msgctxt "Things.AppliancePlantGeneticSplicer"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "Liquid Volume Pump"
+msgstr "Kapalinové objemové čerpadlo"
+
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
+msgctxt "Things.DynamicMKIILiquidCanisterWater"
+msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
+msgstr "Izolovaná verze {THING:DynamicMKIILiquidCanisterWater} pro skladování tekutin, které nezvyšují ani neztrácejí teplotu."
 
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
 msgctxt "Things.DynamicMKIILiquidCanisterWater"
@@ -3962,6 +3982,11 @@ msgctxt "Things.ItemWreckageShuttleLandingPad5"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
+#: /Language/Things/RecordThing[Key='SeedBag_Pumpkin']
+msgctxt "Things.SeedBag_Pumpkin"
+msgid "Pumpkin Seeds"
+msgstr "Semena dýně"
+
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad5']
 msgctxt "Things.ItemWreckageShuttleLandingPad5"
 msgid "Wreckage Shuttle Landing Pad"
@@ -3971,11 +3996,6 @@ msgstr "Vrak přistávací rampy"
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
 msgid "{BLANK}"
 msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='SeedBag_Soybean']
-msgctxt "Things.SeedBag_Soybean"
-msgid "Grow some {THING:ItemSoybean}."
-msgstr "Vypěstuje {THING:ItemSoybean}."
 
 #: /Language/Things/RecordThing[Key='ItemWreckageShuttleLandingPad4']
 msgctxt "Things.ItemWreckageShuttleLandingPad4"
@@ -4692,15 +4712,15 @@ msgctxt "Things.ItemWreckageTransformerMedium1"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformerMedium1']
-msgctxt "Things.ItemWreckageTransformerMedium1"
-msgid "Wreckage Transformer Medium"
-msgstr "Vrak transformátoru (střední)"
-
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformer2']
 msgctxt "Things.ItemWreckageTransformer2"
 msgid "Description coming."
 msgstr "Popis již brzy."
+
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformer2']
+msgctxt "Things.ItemWreckageTransformer2"
+msgid "Wreckage Transformer"
+msgstr "Vrak transformátoru"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformer1']
 msgctxt "Things.ItemWreckageTransformer1"
@@ -10304,10 +10324,10 @@ msgctxt "Things.ItemPillHeal"
 msgid "Three centuries of pharmeceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
 msgstr "Tři století farmaceutické technologie stlačené do jedné malé pilulky, kterou lze snadno spolknout: Léčivá pilulka, alias Protonová pilulka, alias Pan Šťastný, obsahuje aktivní enzymy, terapeutické proteiny, modifikované mikrobiální kmeny a obdobné buněčné linie savců v jediné dávce s vysokou čistotou a účinností, která zesiluje rychlou parasympatickou imunitní odpověď."
 
-#: /Language/Things/RecordThing[Key='ItemPillHeal']
-msgctxt "Things.ItemPillHeal"
-msgid "Pill (Medical)"
-msgstr "Pilulka (Léčivá)"
+#: /Language/Things/RecordThing[Key='ItemPickaxe']
+msgctxt "Things.ItemPickaxe"
+msgid "When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe."
+msgstr "Když slunce zapadne a {THING:ItemMiningDrill} se vybije, vybité baterie a váš {THING:StructureSolarPanel} chladný a bez života, {THING:StructureAutolathe} prázdný, cesta vpřed nejasná, jedna věc brzdí nekonečnou noc porážky: důvěryhodný krumpáč."
 
 #: /Language/Things/RecordThing[Key='ItemPickaxe']
 msgctxt "Things.ItemPickaxe"
@@ -12287,10 +12307,10 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Mikrovlnná trouba"
 
-#: /Language/Things/RecordThing[Key='ItemPickaxe']
-msgctxt "Things.ItemPickaxe"
-msgid "When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe."
-msgstr "Když slunce zapadne a {THING:ItemMiningDrill} se vybije, vybité baterie a váš {THING:StructureSolarPanel} chladný a bez života, {THING:StructureAutolathe} prázdný, cesta vpřed nejasná, jedna věc brzdí nekonečnou noc porážky: důvěryhodný krumpáč."
+#: /Language/Things/RecordThing[Key='ItemPillHeal']
+msgctxt "Things.ItemPillHeal"
+msgid "Pill (Medical)"
+msgstr "Pilulka (Léčivá)"
 
 #, fuzzy
 #~ msgctxt "Things.ItemLaptop"

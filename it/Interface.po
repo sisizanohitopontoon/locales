@@ -78,14 +78,14 @@ msgctxt "Interface.OrganicsCategory"
 msgid "Organics"
 msgstr ""
 
-#: /Language/Interface/Record[Key='PersonalEyeWear']
-msgctxt "Interface.PersonalEyeWear"
-msgid "Eye Wear"
-msgstr ""
-
 #: /Language/Interface/Record[Key='PersonalClothing']
 msgctxt "Interface.PersonalClothing"
 msgid "Clothing"
+msgstr ""
+
+#: /Language/Interface/Record[Key='OreHeader']
+msgctxt "Interface.OreHeader"
+msgid "Ores"
 msgstr ""
 
 #: /Language/Interface/Record[Key='ReagentsHeader']
@@ -270,8 +270,8 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Torna al Desktop"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
-msgctxt "Interface.LogicTypePlantEfficiency4"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency2']
+msgctxt "Interface.LogicTypePlantEfficiency2"
 msgid "DEPRECATED"
 msgstr "DEPRECATO"
 
@@ -816,6 +816,11 @@ msgctxt "Interface.SettingsVoiceNotifications"
 msgid "Voice Notifications"
 msgstr "Notifiche vocali"
 
+#: /Language/Interface/Record[Key='PersonalEyeWear']
+msgctxt "Interface.PersonalEyeWear"
+msgid "Eye Wear"
+msgstr ""
+
 #: /Language/Interface/Record[Key='SettingsTitleKeybinds']
 msgctxt "Interface.SettingsTitleKeybinds"
 msgid "Keybinds"
@@ -825,11 +830,6 @@ msgstr "Configurazione controlli"
 msgctxt "Interface.SettingsTitleMisc"
 msgid "Misc Settings"
 msgstr "Settaggi vari"
-
-#: /Language/Interface/Record[Key='OreHeader']
-msgctxt "Interface.OreHeader"
-msgid "Ores"
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsLanguage']
 msgctxt "Interface.SettingsLanguage"
@@ -1493,15 +1493,15 @@ msgctxt "Interface.JoinMenuServerDetailUnFavoriteButton"
 msgid "Remove Favorite"
 msgstr "Cancella favorito"
 
-#: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
-msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
-msgid "Favorite"
-msgstr "Favorito"
-
 #: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
 msgctxt "Interface.SaveMenuSaveWorldButton"
 msgid "Save World"
 msgstr "Salvare il Mondo"
+
+#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
+msgctxt "Interface.SaveMenuOverwriteButton"
+msgid "Overwrite"
+msgstr "Sovrascrivi"
 
 #: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
 msgctxt "Interface.SaveMenuNamePlaceholder"
@@ -1752,16 +1752,16 @@ msgctxt "Interface.StationpediaVolume"
 msgid "Volume:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "Versione:"
-
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
 #, fuzzy
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
 msgstr "Pressione"
+
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "Versione:"
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
@@ -5254,20 +5254,20 @@ msgctxt "Interface.LogicTypePlantHash1"
 msgid "DEPRECATED"
 msgstr "DEPRECATO"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "Latenza:"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency4']
+msgctxt "Interface.LogicTypePlantEfficiency4"
+msgid "DEPRECATED"
+msgstr "DEPRECATO"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
 msgctxt "Interface.LogicTypePlantEfficiency3"
 msgid "DEPRECATED"
 msgstr "DEPRECATO"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency2']
-msgctxt "Interface.LogicTypePlantEfficiency2"
-msgid "DEPRECATED"
-msgstr "DEPRECATO"
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "Latenza:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency1']
 msgctxt "Interface.LogicTypePlantEfficiency1"
@@ -6552,10 +6552,10 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Cambia aspetto"
 
-#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
-msgctxt "Interface.SaveMenuOverwriteButton"
-msgid "Overwrite"
-msgstr "Sovrascrivi"
+#: /Language/Interface/Record[Key='JoinMenuServerDetailFavoriteButton']
+msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
+msgid "Favorite"
+msgstr "Favorito"
 
 #, fuzzy
 #~ msgctxt "Interface.ShadowCascades"
