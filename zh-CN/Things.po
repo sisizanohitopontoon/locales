@@ -66,8 +66,9 @@ msgid "Mk II Screwdriver"
 msgstr "Mk II螺丝刀"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIScrewdriver']
+#, fuzzy
 msgctxt "Things.ItemMKIIScrewdriver"
-msgid "This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definintely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units. The MK II is more resistant to temperature and pressure."
+msgid "This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definitely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units. The MK II is more resistant to temperature and pressure."
 msgstr "这一型号的螺丝刀带有柱状单把手的顶级双旋转模型。它肯定不仅仅是一把螺丝刀。使用它来建筑和拆除某些套件，并在{LINK：LogicUnitPage;logic}单元上设置值。MK II更耐温度和压力。"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIAngleGrinder']
@@ -117,8 +118,9 @@ msgid "Mk II Mining Drill"
 msgstr "Mk II 采矿钻头"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIMiningDrill']
+#, fuzzy
 msgctxt "Things.ItemMKIIMiningDrill"
-msgid "The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modelled on a classic {LINK:Recurso;Recurso} zero-g design, it functions equally well in vacuum and atmosphere, with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.' The MK II is more resistant to temperature and pressure."
+msgid "The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modeled on a classic {LINK:Recurso;Recurso} zero-g design, it functions equally well in vacuum and atmosphere, with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.' The MK II is more resistant to temperature and pressure."
 msgstr "手持式“拓朴”三锥旋转采矿钻头仅用于一件事：快速挖掘。以经典的{LINK:Recurso;Recurso}零重力设计，它在真空和大气中同样运行良好，硬质合金钻头可提高弹性和轴承寿命，并减少剥落。正如詹克·默顿斯曾经说过的那样，“拓朴不要停止。MK II更耐温度和压力。"
 
 #: /Language/Things/RecordThing[Key='ItemMKIIWireCutters']
@@ -241,9 +243,10 @@ msgid "Automated Rocket Silo Module"
 msgstr "自动火箭筒仓模块"
 
 #: /Language/Things/RecordThing[Key='StructureRocketModuleSilo']
+#, fuzzy
 msgctxt "Things.StructureRocketModuleSilo"
 msgid ""
-"The {LINK:ExMin;ExMin} autononmous silo module provides storage for {LINK:OrePage;ores} collected by the {THING:StructureRocketModuleMiningOre}, {LINK:OrePage;ices} collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureModularRocketScrapMining} . In other words, it holds up to 600 'medium-sized dry goods'.\n"
+"The {LINK:ExMin;ExMin} autonomous silo module provides storage for {LINK:OrePage;ores} collected by the {THING:StructureRocketModuleMiningOre}, {LINK:OrePage;ices} collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureModularRocketScrapMining} . In other words, it holds up to 600 'medium-sized dry goods'.\n"
 "The silo module must be connected to a mining or salvage module by a correctly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for material to pass into the silo.\n"
 "The silo module must also be powered when on the launch pad. It is 'on' by default, but can be turned off with logic if needed. \n"
 "The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to {LINK:ImportExportPage;import/export} networks.\n"
@@ -670,25 +673,26 @@ msgid "Logic Step Sequencer"
 msgstr "逻辑步进排序器"
 
 #: /Language/Things/RecordThing[Key='LogicStepSequencer8']
+#, fuzzy
 msgctxt "Things.LogicStepSequencer8"
 msgid ""
 "The {LINK:ODA;ODA} does not approve of soundtracks or other distractions.\n"
 "As such, {LINK:Stationeers;Stationeers} have had to create their own musical accompaniment to the demanding labor of building and maintaining off-world infrastructure.\n"
-"Central to this pasttime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops. \n"
+"Central to this pastime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops. \n"
 "\n"
 "{HEADER:DIY MUSIC - GETTING STARTED}\n"
 "\n"
-"1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the lefthand side.\n"
+"1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the left hand side.\n"
 "\n"
-"2: Label each step unit, then assign step units 1 through 8 on the step sequencer using the screwdiver.\n"
+"2: Label each step unit, then assign step units 1 through 8 on the step sequencer using the screwdriver.\n"
 "\n"
-"3: Select the output speaker (eg {THING:PassiveSpeaker}) where the sequencer will play the sounds. This needs to be connected to the logic network on the righthand side of the sequencer.\n"
+"3: Select the output speaker (eg {THING:PassiveSpeaker}) where the sequencer will play the sounds. This needs to be connected to the logic network on the right hand side of the sequencer.\n"
 "\n"
 "4: Place a {THING:StopWatch} and use a {THING:StructureLogicReader} and {THING:StructureLogicWriter} to write the time to the time variable on the sequencer.\n"
 "\n"
 "5: Set the BPM on the sequencer using a {THING:StructureLogicDial} and a {THING:StructureLogicWriter} to write to the sequencer's BPM variable. A higher bpm will play the sequence faster. \n"
 "\n"
-"6: Insert a sound cartridge of your chosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartidge slot.\n"
+"6: Insert a sound cartridge of your choosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartridge slot.\n"
 "\n"
 "7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desired note. With drums, each note is a different drum sounds. You can trial your sounds by pushing the activate button on each step unit (with the sequencer inactive).\n"
 "\n"
@@ -1837,8 +1841,9 @@ msgid "One Way Valve (Liquid)"
 msgstr "单向阀（液体）"
 
 #: /Language/Things/RecordThing[Key='StructureLiquidPipeOneWayValve']
+#, fuzzy
 msgctxt "Things.StructureLiquidPipeOneWayValve"
-msgid "The oneway valve moves liquid in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.."
+msgid "The one way valve moves liquid in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.."
 msgstr "单向阀仅沿一个方向移动液体：从输入侧到输出侧。仅当输入压力高于输出压力时，它才允许流动。"
 
 #: /Language/Things/RecordThing[Key='StructureWindowShutter']
@@ -2007,8 +2012,9 @@ msgid "Winterspawn (Alpha variant)"
 msgstr "寒巢（Alpha变种）"
 
 #: /Language/Things/RecordThing[Key='ItemPlantEndothermic_Genepool1']
+#, fuzzy
 msgctxt "Things.ItemPlantEndothermic_Genepool1"
-msgid "{LINK:Agrizero;Agrizero's} Winterspawn atmospheric bio-processor is a recent addition to their catalogue of genespliced environmental decorations. Using ambient heat to split {GAS:Water} into {GAS:Volatiles} and {GAS:Oxygen}, the Winterspawn cools its surroundings, when supplied with sufficient {GAS:Nitrogen}. The alpha variant has a peak cooling and electrolysis capacity of 90Watts and is most efficient operating in air temperatures of 0 to 40 Degrees Celsius."
+msgid "{LINK:Agrizero;Agrizero's} Winterspawn atmospheric bio-processor is a recent addition to their catalog of genespliced environmental decorations. Using ambient heat to split {GAS:Water} into {GAS:Volatiles} and {GAS:Oxygen}, the Winterspawn cools its surroundings, when supplied with sufficient {GAS:Nitrogen}. The alpha variant has a peak cooling and electrolysis capacity of 90Watts and is most efficient operating in air temperatures of 0 to 40 Degrees Celsius."
 msgstr "寒巢大气生物处理器是他们基因植入的环境装饰品目录的最新成员。使用环境热量将{GAS:Water}分成{GAS:Volatiles}和{GAS:Oxygen}，当提供足够的{GAS:Nitrogen}时，寒巢冷却其周围环境。α变体的峰值冷却和电解能力为90瓦，在0至40摄氏度的空气温度下运行效率最高。"
 
 #: /Language/Things/RecordThing[Key='ItemPlantEndothermic_Genepool2']
@@ -2017,8 +2023,9 @@ msgid "Winterspawn (Beta variant)"
 msgstr "寒巢（Beta 变种）"
 
 #: /Language/Things/RecordThing[Key='ItemPlantEndothermic_Genepool2']
+#, fuzzy
 msgctxt "Things.ItemPlantEndothermic_Genepool2"
-msgid "{LINK:Agrizero;Agrizero's} Winterspawn atmospheric bio-processor is a recent addition to their catalogue of genespliced environmental decorations. Using ambient heat to split {GAS:Water} into {GAS:Volatiles} and {GAS:Oxygen}, the Winterspawn cools its surroundings when supplied with sufficient {GAS:Nitrogen}. The beta variant has a peak cooling and electrolysis capacity of 150Watts and is most efficient operating in air temperatures of 14 to 24 Degrees Celsius."
+msgid "{LINK:Agrizero;Agrizero's} Winterspawn atmospheric bio-processor is a recent addition to their catalog of genespliced environmental decorations. Using ambient heat to split {GAS:Water} into {GAS:Volatiles} and {GAS:Oxygen}, the Winterspawn cools its surroundings when supplied with sufficient {GAS:Nitrogen}. The beta variant has a peak cooling and electrolysis capacity of 150Watts and is most efficient operating in air temperatures of 14 to 24 Degrees Celsius."
 msgstr "大寒巢气生物处理器是他们基因植入的环境装饰品目录的最新成员。使用环境热量将{GAS:Water}分成{GAS:Volatiles}和{GAS:Oxygen}，当提供足够的{GAS:Nitrogen}时，寒巢会冷却其周围环境。β变体具有150Wats的峰值冷却和电解能力，并且在14至24摄氏度的空气温度下运行最有效。"
 
 #: /Language/Things/RecordThing[Key='ItemPlantThermogenic_Genepool1']
@@ -2489,7 +2496,7 @@ msgstr "辐射式管道散热器"
 
 #: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlat']
 msgctxt "Things.StructurePipeRadiatorFlat"
-msgid "A pipe mounted radiator omptimised for radiating heat in vacuums and low pressure ebvironments."
+msgid "A pipe mounted radiator optimized for radiating heat in vacuums and low pressure environments."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlatLiquid']
@@ -2499,7 +2506,7 @@ msgstr "辐射式液体管道散热器"
 
 #: /Language/Things/RecordThing[Key='StructurePipeRadiatorFlatLiquid']
 msgctxt "Things.StructurePipeRadiatorFlatLiquid"
-msgid "A liquid pipe mounted radiator omptimised for radiating heat in vacuums and low pressure environments."
+msgid "A liquid pipe mounted radiator optimized for radiating heat in vacuums and low pressure environments."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiator']
@@ -2509,7 +2516,7 @@ msgstr "中型对流式散热器"
 
 #: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiator']
 msgctxt "Things.StructureMediumConvectionRadiator"
-msgid "A stand-alone radiator unit omptimised for exchanging heat with its surrounding atmosphere."
+msgid "A stand-alone radiator unit optimized for exchanging heat with its surrounding atmosphere."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumRadiator']
@@ -2519,7 +2526,7 @@ msgstr "中型辐射式散热器"
 
 #: /Language/Things/RecordThing[Key='StructureMediumRadiator']
 msgctxt "Things.StructureMediumRadiator"
-msgid "A stand-alone radiator unit omptimised for radiating heat in vacuums and low pressure environments."
+msgid "A stand-alone radiator unit optimized for radiating heat in vacuums and low pressure environments."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumRadiatorLiquid']
@@ -2529,7 +2536,7 @@ msgstr "中型辐射式液体散热器"
 
 #: /Language/Things/RecordThing[Key='StructureMediumRadiatorLiquid']
 msgctxt "Things.StructureMediumRadiatorLiquid"
-msgid "A stand-alone liquid radiator unit omptimised for radiating heat in vacuums and low pressure environments."
+msgid "A stand-alone liquid radiator unit optimized for radiating heat in vacuums and low pressure environments."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiatorLiquid']
@@ -2539,7 +2546,7 @@ msgstr "中型对流式液体散热器"
 
 #: /Language/Things/RecordThing[Key='StructureMediumConvectionRadiatorLiquid']
 msgctxt "Things.StructureMediumConvectionRadiatorLiquid"
-msgid "A stand-alone liquid radiator unit omptimised for exchanging heat with its surrounding atmosphere."
+msgid "A stand-alone liquid radiator unit optimized for exchanging heat with its surrounding atmosphere."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitPipeRadiator']
@@ -2601,7 +2608,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSleeperVertical']
 msgctxt "Things.StructureSleeperVertical"
-msgid "The vertical variant of the sleeper. Will keep players hydrated and fed while they are logged out - as long as a breatheable atmosphere is provided."
+msgid "The vertical variant of the sleeper. Will keep players hydrated and fed while they are logged out - as long as a breathable atmosphere is provided."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSleeperLeft']
@@ -2611,7 +2618,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSleeperLeft']
 msgctxt "Things.StructureSleeperLeft"
-msgid "A horizontal variant of the sleeper. Will keep players hydrated and fed while they are logged out - as long as a breatheable atmosphere is provided."
+msgid "A horizontal variant of the sleeper. Will keep players hydrated and fed while they are logged out - as long as a breathable atmosphere is provided."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSleeperRight']
@@ -2621,7 +2628,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSleeperRight']
 msgctxt "Things.StructureSleeperRight"
-msgid "A horizontal variant of the sleeper. Will keep players hydrated and fed while they are logged out - as long as a breatheable atmosphere is provided."
+msgid "A horizontal variant of the sleeper. Will keep players hydrated and fed while they are logged out - as long as a breathable atmosphere is provided."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureProximitySensor']
@@ -2692,8 +2699,8 @@ msgstr ""
 #: /Language/Things/RecordThing[Key='StructureCombustionCentrifuge']
 msgctxt "Things.StructureCombustionCentrifuge"
 msgid ""
-"The Combustion Centrifuge is a gas powered version of the {THING:StructureCentrifuge}. A combustible fuel mix should be supplied to the gas input, and waste gasses should be vented from the output. The machine's RPMs must be controlled via the throttle and combustion limitor levers. If the Combustion Centrifuge gains, or looses, RPMs too fast it will experience stress, and eventually grind to a halt.  Higher RPMs directly result in faster processing speeds.\n"
-"The throttle lever controls the amount of fuel being pulled into the machine, increasing the temperature inside the engine, and leading to an increase in RPM. The limitor lever influences the speed of the combustion, and how much uncombusted gas is in the exhaust.\t  \n"
+"The Combustion Centrifuge is a gas powered version of the {THING:StructureCentrifuge}. A combustible fuel mix should be supplied to the gas input, and waste gasses should be vented from the output. The machine's RPMs must be controlled via the throttle and combustion limiter levers. If the Combustion Centrifuge gains, or looses, RPMs too fast it will experience stress, and eventually grind to a halt.  Higher RPMs directly result in faster processing speeds.\n"
+"The throttle lever controls the amount of fuel being pulled into the machine, increasing the temperature inside the engine, and leading to an increase in RPM. The limiter lever influences the speed of the combustion, and how much uncombusted gas is in the exhaust.\t  \n"
 "Ejecting ore from the Combustion Centrifuge while it is at high RPMs will result in additional stress build up.  If turned off while not stressed, the machine will automatically start to brake, and reduce RPMs in a controlled manner.\n"
 "\t  "
 msgstr ""
@@ -2813,25 +2820,30 @@ msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='AppliancePlantGeneticStabilizer']
 msgctxt "Things.AppliancePlantGeneticStabilizer"
-msgid "Appliance Plant Genetic Stabilizer"
+msgid "Plant Genetic Stabilizer"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='AppliancePlantGeneticStabilizer']
-#, fuzzy
 msgctxt "Things.AppliancePlantGeneticStabilizer"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='AppliancePlantGeneticSplicer']
-msgctxt "Things.AppliancePlantGeneticSplicer"
-msgid "Appliance Plant Genetic Splicer"
+msgid ""
+"The Genetic Stabilizer can be used to manipulate gene stability on a specific {LINK:OrganicPage;Plants} or {LINK:OrganicPage;Seeds}. It has two modes Stabilize and Destabilize.\n"
+"Stabilize: Increases all genes stability by 50%.\n"
+"Destabilize: Decreases all gene stability by 10% other than a chosen gene which will received decreased stability by 50%.\n"
+"      "
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='AppliancePlantGeneticSplicer']
-#, fuzzy
 msgctxt "Things.AppliancePlantGeneticSplicer"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "Plant Genetic Splicer"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='AppliancePlantGeneticSplicer']
+msgctxt "Things.AppliancePlantGeneticSplicer"
+msgid ""
+"The Genetic Splicer can be used to copy a single {LINK:GeneticsPage;gene} from one 'source' plant to another 'target' plant of the same type. After copying, the source plant will be destroyed.\n"
+"        \n"
+"To begin splicing, place a plant or seed bag in the left slot (source) and place another plant or seed bag of the same type in the right slot (target). You can select a gene using the arrow buttons. Close the sliding door and press the green activate button. Once splicing has begun, the device will be locked until the process has finished (which will take approximately twenty minutes). If you want to cancel splicing you can power off the bench or detach the appliance as a last resort."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
 msgctxt "Things.StructureLiquidVolumePump"
@@ -2928,15 +2940,13 @@ msgid "Kit (Ice Crusher)"
 msgstr "套件 (碎冰机)"
 
 #: /Language/Things/RecordThing[Key='StructureIceCrusher']
+#, fuzzy
 msgctxt "Things.StructureIceCrusher"
 msgid ""
 "The {LINK:Recurso;Recurso} KoolAuger converts various ices into their respective {LINK:GasPage;gases} and liquids.\n"
-"A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either oulet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.\n"
+"A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either outlet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.\n"
 "If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch."
-msgstr ""
-"碎冰机可以将各种冰转换成对应的气体和液体。\n"
-"它是一个非常智能和紧凑的升华熔化装置，它会根据正在加工的冰的类型而产生气体或液体。上部出口是气体，下部是液体，虽然你可以将任何你喜欢的管道连接到任何一个出口，但是它只会在连接正确的管道网络时才能工作。\n"
-"如果碎冰机已满，在内部气体或液体被排空之前，它不会再接受任何的冰。在此状态下，它的开关上会闪烁黄色错误状态。"
+msgstr "碎冰机"
 
 #: /Language/Things/RecordThing[Key='StructureIceCrusher']
 msgctxt "Things.StructureIceCrusher"
@@ -3204,13 +3214,12 @@ msgid "Kit (Wind Turbine)"
 msgstr "套件 (风力轮机)"
 
 #: /Language/Things/RecordThing[Key='StructureWindTurbine']
+#, fuzzy
 msgctxt "Things.StructureWindTurbine"
 msgid ""
-"The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceeedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.\n"
+"The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.\n"
 "While the wind turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 10,000W), so be careful to design your power networks with that in mind."
-msgstr ""
-"空间站长的风力轮机最早由诺赛克大气工程师设计，希望建立一个可以在极低气压的环境中运行的风力发电系统。 超轻质的叶片可以在气压极低的大气环境中做出响应，同时又足够坚固，即使在更严苛的，巨大的压力环境中仍然保持工作。 \n"
-"虽然风力涡轮机经过优化设计在低气压环境下也能发电(可达500W)，但其在高气压的环境中表现更佳。电力输出会随着风速而变化，在风暴期间可能会急剧增加 (高达10,000W)，因此在设计电网时需要留意这一点。"
+msgstr "风力轮机"
 
 #: /Language/Things/RecordThing[Key='StructureWindTurbine']
 msgctxt "Things.StructureWindTurbine"
@@ -5800,15 +5809,13 @@ msgid "RTG"
 msgstr "放射性同位素热电发电机"
 
 #: /Language/Things/RecordThing[Key='ItemJetpackBasic']
+#, fuzzy
 msgctxt "Things.ItemJetpackBasic"
 msgid ""
 "The basic {LINK:CHAC;CHAC} jetpack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.\n"
-"Indispensible for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
+"Indispensable for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stabilizer causes the spacepack to hover when a given height is reached.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
-msgstr ""
-"基础{LINK:CHAC;CHAC}喷气背包不是“技术上”喷气背包，而是气体推进器。它可以由任何气体提供动力，只要{LINK:AtmosphericsPage;canister}的内部压力高于环境外部压力。如果外部压力较大，空间包将无法正常工作。\n"
-"对于建筑，采矿和一般运动是必不可少的，它有十个存储插槽，并可以让空间站长以3m / s的速度飞行，与更强大的{THING:ItemHardJetpack}相比。调整推力值会改变您的加速度，而激活稳定器会导致空间包在达到给定高度时悬停。\n"
-"使用：“J”激活;“空格”上升;“左 ctrl”下降;和“WASD”移动。"
+msgstr "基础喷气背包"
 
 #: /Language/Things/RecordThing[Key='ItemJetpackBasic']
 msgctxt "Things.ItemJetpackBasic"
@@ -6351,9 +6358,10 @@ msgid "Kit (Speaker)"
 msgstr "(套件)扬声器"
 
 #: /Language/Things/RecordThing[Key='StructureKlaxon']
+#, fuzzy
 msgctxt "Things.StructureKlaxon"
-msgid "Klaxons allow you to play over 50 announcemets and sounds, depending on your {LINK:LogicPage;Logic} set-up. Set the mode to select the output."
-msgstr "喇叭可以播放超过50种声明与声音，具体取决于{LINK:LogicPage;Logic}的设置。设置模式以选择输出内容。"
+msgid "Klaxons allow you to play over 50 announcements and sounds, depending on your {LINK:LogicPage;Logic} set-up. Set the mode to select the output."
+msgstr "扬声器"
 
 #: /Language/Things/RecordThing[Key='StructureKlaxon']
 msgctxt "Things.StructureKlaxon"
@@ -6371,15 +6379,13 @@ msgid "Portable Hydroponics"
 msgstr "便携式水培盆"
 
 #: /Language/Things/RecordThing[Key='ItemHardJetpack']
+#, fuzzy
 msgctxt "Things.ItemHardJetpack"
 msgid ""
 "The {LINK:Norsec;Norsec} jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
-"The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensible for building, mining and general movement, it has fourteen storage slots.\n"
+"The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensable for building, mining and general movement, it has fourteen storage slots.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
-msgstr ""
-"{LINK:Norsec;Norsec}的喷气背包严格来说不是喷气背包，它是气体推进器。它可以由任何气体提供动力，只要{LINK:AtmosphericsPage;canister}的内部压力高于环境外部压力。如果外部压力较大，空间包将无法正常工作。调整推力值会改变您的加速度，而激活稳定器会导致空间包在达到给定高度时悬停。\n"
-"硬质潜水背包能够比{THING:ItemJetpackBasic}产生更高的速度 - 高达15m/s。对于建筑，采矿和一般运动是必不可少的，它有十四个存储槽位。\n"
-"使用：“J”激活;“空间”上升;“左 ctrl”下降;和“WASD”移动。"
+msgstr "进阶喷气背包"
 
 #: /Language/Things/RecordThing[Key='ItemHardJetpack']
 msgctxt "Things.ItemHardJetpack"
@@ -6681,9 +6687,10 @@ msgid "Headlamp"
 msgstr "头灯"
 
 #: /Language/Things/RecordThing[Key='ItemHardsuitHelmet']
+#, fuzzy
 msgctxt "Things.ItemHardsuitHelmet"
-msgid "The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh enviroments like Venus and Vulcan."
-msgstr "硬质头盔类似于{THING:ItemSpaceHelmet}，但可以承受更高的温度和压力。它非常适合忍受金星和火神星等恶劣环境。"
+msgid "The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh environments like Venus and Vulcan."
+msgstr "强化头盔"
 
 #: /Language/Things/RecordThing[Key='ItemHardsuitHelmet']
 msgctxt "Things.ItemHardsuitHelmet"
@@ -7605,9 +7612,10 @@ msgid "LED Display (Medium)"
 msgstr "LED显示屏(中)"
 
 #: /Language/Things/RecordThing[Key='StructureLogicDial']
+#, fuzzy
 msgctxt "Things.StructureLogicDial"
-msgid "An asignable dial with up to 1000 modes."
-msgstr "多达 1000 种模式的可伸缩表盘。"
+msgid "An assignable dial with up to 1000 modes."
+msgstr "刻度盘"
 
 #: /Language/Things/RecordThing[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
@@ -8098,9 +8106,10 @@ msgid "Ore (Nickel)"
 msgstr "矿石(镍)"
 
 #: /Language/Things/RecordThing[Key='ItemSilverOre']
+#, fuzzy
 msgctxt "Things.ItemSilverOre"
-msgid "Silver is a chemical element with the symbol \"Ag\". Valued by many {LINK:Stationeers;Stationeers} for its attractive lustre and sheen, it is also used in a variety of {LINK:ElectronicPage;electronics} components and {LINK:IngotPage;alloys}."
-msgstr "银是一种化学元素，符号为“Ag”。由于其吸迷人的光泽，而被很多空间站长视若珍宝。它也用于各种{LINK:ElectronicPage;electronics}组件和{LINK:IngotPage;alloys}。"
+msgid "Silver is a chemical element with the symbol \"Ag\". Valued by many {LINK:Stationeers;Stationeers} for its attractive luster and sheen, it is also used in a variety of {LINK:ElectronicPage;electronics} components and {LINK:IngotPage;alloys}."
+msgstr "矿石(银)"
 
 #: /Language/Things/RecordThing[Key='ItemSilverOre']
 msgctxt "Things.ItemSilverOre"
@@ -8151,7 +8160,7 @@ msgstr "套件(制造)"
 #, fuzzy
 msgctxt "Things.StructureAutolathe"
 msgid ""
-"The foundation of most {LINK:Stationeers;Stationeer} fabrication systems, the {LINK:ExMin;ExMin} autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensible creation tool. Upgrade the device using a {THING:AutolathePrinterMod} for additional recipes and faster processing speeds.\n"
+"The foundation of most {LINK:Stationeers;Stationeer} fabrication systems, the {LINK:ExMin;ExMin} autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensable creation tool. Upgrade the device using a {THING:AutolathePrinterMod} for additional recipes and faster processing speeds.\n"
 "\t  "
 msgstr "自动车床"
 
@@ -8888,9 +8897,10 @@ msgid "Gas Sensor"
 msgstr "气体传感器"
 
 #: /Language/Things/RecordThing[Key='StructureGasMixer']
+#, fuzzy
 msgctxt "Things.StructureGasMixer"
-msgid "Indispensible for producing precise atmospheric ratios, this gas mixer blends two gases in proportions ranging anywhere from 0-100%."
-msgstr "此气体混合器在生产以精确比例混合的混合气体时是不可或缺的，它可以将两种气体按0-100%的比例混合。"
+msgid "Indispensable for producing precise atmospheric ratios, this gas mixer blends two gases in proportions ranging anywhere from 0-100%."
+msgstr "气体混合器"
 
 #: /Language/Things/RecordThing[Key='StructureGasMixer']
 msgctxt "Things.StructureGasMixer"
@@ -8914,13 +8924,10 @@ msgid "Furnace"
 msgstr "熔炉"
 
 #: /Language/Things/RecordThing[Key='StructureFrameSide']
+#, fuzzy
 msgctxt "Things.StructureFrameSide"
-msgid ""
-"More durable than the {THING:StructureFrameIron}, steel frames also provide variations for more ornate constructions. \n"
-"The tilted side frame allows for an almost infinite variety of architectural erections, though is not airtight, rendering it, ultimately, an excresence."
-msgstr ""
-"钢框架比 {THING:StructureFrameIron} 更加耐用，也有用于更华丽的结构的多种变体。\n"
-"此斜面框架几乎能够被用于所有的建筑建造情形，尽管它不是气密的，最终使它成为了，呃，一个没什么用的东西。"
+msgid "More durable than the {THING:StructureFrameIron}, steel frames also provide variations for more ornate constructions."
+msgstr "钢框架（斜面）"
 
 #: /Language/Things/RecordThing[Key='StructureFrameSide']
 msgctxt "Things.StructureFrameSide"
@@ -8928,13 +8935,12 @@ msgid "Steel Frame (Side)"
 msgstr "钢框架（斜面）"
 
 #: /Language/Things/RecordThing[Key='StructureFrameCorner']
+#, fuzzy
 msgctxt "Things.StructureFrameCorner"
 msgid ""
 "More durable than the {THING:StructureFrameIron}, steel frames also offer several variations for more complex lattice constructions. \n"
-"With a little patience and manoeuvring, the corner frame's gothic-inspired silhouette allows the creation of ogival arches and even more ambitious architecture, although they are not airtight and cannot be built on."
-msgstr ""
-"钢框架比 {THING:StructureFrameIron} 更加耐用，也为更复杂的框架结构提供了多种变体。\n"
-"只要你有一点耐心和小花招，此拐角框架哥特式风格的形状就能使得建造尖顶拱门和其它更宏伟的建筑成为可能，尽管它们不是气密的，也无法在它们上面建造。"
+"With a little patience and maneuvering, the corner frame's Gothic-inspired silhouette allows the creation of ogival arches and even more ambitious architecture, although they are not airtight and cannot be built on."
+msgstr "钢框架（拐角）"
 
 #: /Language/Things/RecordThing[Key='StructureFrameCorner']
 msgctxt "Things.StructureFrameCorner"
@@ -9132,25 +9138,18 @@ msgid "Console"
 msgstr "控制台"
 
 #: /Language/Things/RecordThing[Key='StructureComputer']
+#, fuzzy
 msgctxt "Things.StructureComputer"
 msgid ""
 "In some ways a relic, the 'Chonk R1' was designed by severely conflicted {LINK:Norsec;Norsec} technicians, who needed a unit that could operate with a wide range of {LINK:LogicUnitPage;motherboards}, while also enduring the worst a new Cadet could throw at it.\n"
-"The result is a machine described by some as 'the only PC likely to survive our collision with a blackhole', while other, less appreciative users regard it as sharing most of its technological DNA with a cheese grater.\n"
+"The result is a machine described by some as 'the only PC likely to survive our collision with a black hole', while other, less appreciative users regard it as sharing most of its technological DNA with a cheese grater.\n"
 "Compatible motherboards:\n"
 "- {THING:MotherboardLogic}\n"
 "- {THING:MotherboardManufacturing}\n"
 "- {THING:MotherboardSorter}\n"
 "- {THING:MotherboardComms}\n"
 "- {THING:MotherboardProgrammableChip}"
-msgstr ""
-"在某种程度上，这是一件老古董，此“Chonk R1”由严重不知所措的 &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; 技术员设计，他们需要一个能够使用各种 &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;主板}&lt;/color&gt; 运作的装置，同时该装置也需能够忍受一位新学员可能向它掷去的最糟糕的东西。\n"
-"结果是，他们造出了一台被一些人描述为“唯一可能在我们与黑洞的碰撞中幸存的PC”的机器，而其他不太欣赏该机器的用户，则认为它与奶酪磨碎机共享了它的大部分技术DNA。\n"
-"兼容的主板：\n"
-"- {THING:MotherboardLogic}\n"
-"- {THING:MotherboardManufacturing}\n"
-"- {THING:MotherboardSorter}\n"
-"- {THING:MotherboardComms}\n"
-"- {THING:MotherboardProgrammableChip}"
+msgstr "电脑"
 
 #: /Language/Things/RecordThing[Key='StructureComputer']
 msgctxt "Things.StructureComputer"
@@ -9555,7 +9554,7 @@ msgid ""
 "\t  \n"
 "The unit has three pipe connections: input, output, and waste. Gas fed into the input will be heated or cooled to reach the target temperature, while the opposite will happen to gas on the waste network.\n"
 "\n"
-"Multiple Efficiency Multipliers can effect the amount of energy the Air Conditioner uses, and these can be view on the unit's green Information Panel. As the temperature difference between input and waste increases, the Temperature Differential Efficiency Multiplier will decrease. If input or waste temperature is extremely hot or cold, the Operational Temperature Efficiency will decrease. If the input or waste pipe has aproach low pressures, the Pressure Efficiency will decrease.\n"
+"Multiple Efficiency Multipliers can effect the amount of energy the Air Conditioner uses, and these can be view on the unit's green Information Panel. As the temperature difference between input and waste increases, the Temperature Differential Efficiency Multiplier will decrease. If input or waste temperature is extremely hot or cold, the Operational Temperature Efficiency will decrease. If the input or waste pipe has approach low pressures, the Pressure Efficiency will decrease.\n"
 "\n"
 "{THING:StructurePipeRadiator}s may be useful in bringing extreme pipe temperatures back towards normal world temperatures. \n"
 "  \n"
@@ -9579,9 +9578,10 @@ msgid "Active Vent"
 msgstr "主动式通风口"
 
 #: /Language/Things/RecordThing[Key='SpaceShuttle']
+#, fuzzy
 msgctxt "Things.SpaceShuttle"
-msgid "An antiquated {LINK:Sinotai;Sinotai} transport craft, long since de-commissioned."
-msgstr "一艘过时的 &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 运输船，早已退役。"
+msgid "An antiquated {LINK:Sinotai;Sinotai} transport craft, long since decommissioned."
+msgstr "太空梭"
 
 #: /Language/Things/RecordThing[Key='SpaceShuttle']
 msgctxt "Things.SpaceShuttle"
@@ -9953,9 +9953,10 @@ msgid "Spray Paint (Blue)"
 msgstr "喷漆罐（蓝色）"
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanBlack']
+#, fuzzy
 msgctxt "Things.ItemSprayCanBlack"
-msgid "Go classic, clandestine or just plain gothic with black paint, which can be applied to most items. Each can has 20 uses."
-msgstr "选择经典、神秘、或者说朴素哥特风格的黑色喷漆，可用于大部分物品。每罐有20次使用寿命。"
+msgid "Go classic, clandestine or just plain Gothic with black paint, which can be applied to most items. Each can has 20 uses."
+msgstr "喷漆罐（黑色）"
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanBlack']
 msgctxt "Things.ItemSprayCanBlack"
@@ -9963,15 +9964,13 @@ msgid "Spray Paint (Black)"
 msgstr "喷漆罐（黑色）"
 
 #: /Language/Things/RecordThing[Key='ItemSpacepack']
+#, fuzzy
 msgctxt "Things.ItemSpacepack"
 msgid ""
 "The basic {LINK:CHAC;CHAC} spacepack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.\n"
-"Indispensible for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
+"Indispensable for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
-msgstr ""
-"这款基础型 &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; 太空背包“严格来说”并不是一款喷气背包，它是一台气体推进器。它能够由任何气体驱动，只要 &lt;color=#0080FFFF&gt;{LINK:AtmosphericsPage;储气瓶}&lt;/color&gt; 的内部气压高于周围环境的外部气压。如果外部气压更高，那么此太空背包将无法工作。\n"
-"此太空背包是建造、采矿和平常移动时所不可或缺的，它拥有十个存储插槽，且能够让 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 们以3m/s的速度飞行，与之相比， {THING:ItemJetpackBasic} 和 {THING:ItemHardJetpack} 则动力更加强劲。调节推力值大小能够改变你的加速度，而激活稳定器（stablizer）则会使得太空背包在到达指定高度时悬停。\n"
-"使用方法：“J”以激活；“Space（空格）”以向上飞；“Left Ctrl（左Ctrl）”以下降；“WASD”以四处移动。"
+msgstr "太空背包"
 
 #: /Language/Things/RecordThing[Key='ItemSpacepack']
 msgctxt "Things.ItemSpacepack"
@@ -9979,13 +9978,12 @@ msgid "Spacepack"
 msgstr "太空背包"
 
 #: /Language/Things/RecordThing[Key='ItemSpaceHelmet']
+#, fuzzy
 msgctxt "Things.ItemSpaceHelmet"
 msgid ""
 "The basic space helmet insulates {LINK:Stationeers;Stationeers} against everything from hard vacuum to weird cooking smells. Providing a pressure-controlled, breathable atmosphere, it comes with a built-in light powered by your {THING:ItemEvaSuit} {THING:ItemBatteryCell}.\n"
-"It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any colour you like using the {THING:AppliancePaintMixer}."
-msgstr ""
-"这款基础型太空头盔能够使 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 们免受从高度真空到奇怪的烹饪气味的一切不良影响。它能够提供一个压强可控的、可供呼吸的空气环境，内置了一盏由你的 {THING:ItemEvaSuit} {THING:ItemBatteryCell} 供电的头灯。\n"
-"它拥有一个锁定/解锁的功能，从而避免头盔面罩意外打开，同时还拥有一个冲洗的功能，从而排出并更换内部空气环境。如果它受到损坏，使用 {THING:ItemDuctTape} 来修复，你也可以用 {THING:AppliancePaintMixer} 将其喷涂成任何你喜欢的颜色。"
+"It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any color you like using the {THING:AppliancePaintMixer}."
+msgstr "太空头盔"
 
 #: /Language/Things/RecordThing[Key='ItemSpaceHelmet']
 msgctxt "Things.ItemSpaceHelmet"
@@ -10013,9 +10011,10 @@ msgid "Security Camera"
 msgstr "安保摄像头"
 
 #: /Language/Things/RecordThing[Key='ItemScrewdriver']
+#, fuzzy
 msgctxt "Things.ItemScrewdriver"
-msgid "This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definintely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units."
-msgstr "这把标准的摩擦附着调节器是一个有着柱状单握把的顶级双螺旋结构模型。它绝对不仅仅是一把螺丝刀。用它来建造和拆解某些特定的套件，并在 &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;Logic}&lt;/color&gt; 元件上设置值。"
+msgid "This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definitely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units."
+msgstr "螺丝刀"
 
 #: /Language/Things/RecordThing[Key='ItemScrewdriver']
 msgctxt "Things.ItemScrewdriver"
@@ -10023,9 +10022,10 @@ msgid "Screwdriver"
 msgstr "螺丝刀"
 
 #: /Language/Things/RecordThing[Key='ItemScanner']
+#, fuzzy
 msgctxt "Things.ItemScanner"
-msgid "A mysterious piece of technology, rumoured to have Zrillian origins."
-msgstr "这是一项神秘的技术，据传起源于Zrillian。"
+msgid "A mysterious piece of technology, rumored to have Zrillian origins."
+msgstr "掌上扫描仪"
 
 #: /Language/Things/RecordThing[Key='ItemScanner']
 msgctxt "Things.ItemScanner"
@@ -10253,9 +10253,10 @@ msgid "Pill (Paralysis)"
 msgstr "药丸（麻痹）"
 
 #: /Language/Things/RecordThing[Key='ItemPillHeal']
+#, fuzzy
 msgctxt "Things.ItemPillHeal"
-msgid "Three centuries of pharmeceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
-msgstr "三个世纪的制药技术都浓缩进了一种小巧的、易于摄入的药片：治疗药片，亦称“质子药片”或“快乐先生”，它含有活性酶、蛋白质药物、改良微生物菌株和哺乳动物细胞类似物，仅仅是提高了纯度、增强了药物效力的小小的一片，就能增强快速副交感神经免疫反应。"
+msgid "Three centuries of pharmaceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
+msgstr "药片（治疗）"
 
 #: /Language/Things/RecordThing[Key='ItemPickaxe']
 msgctxt "Things.ItemPickaxe"
@@ -10289,9 +10290,10 @@ msgid "Muffin"
 msgstr "玛芬蛋糕"
 
 #: /Language/Things/RecordThing[Key='ItemMiningDrill']
+#, fuzzy
 msgctxt "Things.ItemMiningDrill"
-msgid "The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modelled on a classic {LINK:Recurso;Recurso} zero-g design, it functions equally well in vacuum and atmosphere, with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.'"
-msgstr "此手持式“Topo”三锥旋转式采矿钻机的用途只有一个：快速挖掘。仿照经典的 &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; zero-g而设计，它在真空和有大气的环境中都表现优异，采用了加强硬质合金钻头，因而提高了适应能力和轴承寿命，且减少了龟裂剥落。正如Jenk Murtons曾说，“The Topo don't stopo（Topo从不会宕机）。”"
+msgid "The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modeled on a classic {LINK:Recurso;Recurso} zero-g design, it functions equally well in vacuum and atmosphere, with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.'"
+msgstr "采矿钻机"
 
 #: /Language/Things/RecordThing[Key='ItemMiningDrill']
 msgctxt "Things.ItemMiningDrill"
@@ -10299,9 +10301,10 @@ msgid "Mining Drill"
 msgstr "采矿钻机"
 
 #: /Language/Things/RecordThing[Key='ItemMiningBelt']
+#, fuzzy
 msgctxt "Things.ItemMiningBelt"
-msgid "Originally developed by {LINK:Recurso;Recurso Espaciais} for asteroid mining, the {LINK:Stationeers;Stationeer's} miningbelt has room for two {LINK:ToolPage;tools} and eight {LINK:OrePage;ore} stacks. While wearing the belt, {LINK:OrePage;ore} is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit."
-msgstr "最初由 &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso Espaciais}&lt;/color&gt; 为了小行星开采而研制， &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 的采矿腰带可以存放两个 &lt;color=#0080FFFF&gt;{LINK:ToolPage;工具}&lt;/color&gt; 和八组 &lt;color=#0080FFFF&gt;{LINK:OrePage;矿石}&lt;/color&gt; 。当佩戴此腰带时， {LINK:OrePage;矿石} 被开采后会自动储存进去。挥发性气体和温度依赖型的矿石能够在此腰带的环境控制单元中保持稳定。"
+msgid "Originally developed by {LINK:Recurso;Recurso Espaciais} for asteroid mining, the {LINK:Stationeers;Stationeer's} mining belt has room for two {LINK:ToolPage;tools} and eight {LINK:OrePage;ore} stacks. While wearing the belt, {LINK:OrePage;ore} is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit."
+msgstr "采矿腰带"
 
 #: /Language/Things/RecordThing[Key='ItemMiningBelt']
 msgctxt "Things.ItemMiningBelt"
@@ -10319,9 +10322,10 @@ msgid "Milk"
 msgstr "Milk 牛奶"
 
 #: /Language/Things/RecordThing[Key='ItemLightSword']
+#, fuzzy
 msgctxt "Things.ItemLightSword"
-msgid "A charming, if useless, psuedo-weapon. (Creative only.)"
-msgstr "一件迷人的假武器，即便根本没有用。（仅限创造模式）"
+msgid "A charming, if useless, pseudo-weapon. (Creative only.)"
+msgstr "光剑"
 
 #: /Language/Things/RecordThing[Key='ItemLightSword']
 msgctxt "Things.ItemLightSword"
@@ -10665,9 +10669,10 @@ msgid "Kit (Hydroponic Tray)"
 msgstr "套件包（水培托盘）"
 
 #: /Language/Things/RecordThing[Key='ItemHealPill']
+#, fuzzy
 msgctxt "Things.ItemHealPill"
-msgid "Three centuries of pharmeceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
-msgstr "三个世纪的制药技术都浓缩进了一种小巧的、易于摄入的药片：治疗药片，亦称“质子药片”或“快乐先生”，它含有活性酶、蛋白质药物、改良微生物菌株和哺乳动物细胞类似物，仅仅是提高了纯度、增强了药物效力的小小的一片，就能增强快速副交感神经免疫反应。"
+msgid "Three centuries of pharmaceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
+msgstr "治疗药片"
 
 #: /Language/Things/RecordThing[Key='ItemHealPill']
 msgctxt "Things.ItemHealPill"
@@ -10861,13 +10866,12 @@ msgid "Canister (Oxygen)"
 msgstr "储气瓶（氧气）"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
+#, fuzzy
 msgctxt "Things.ItemGasCanisterNitrogen"
 msgid ""
-"The green portable {GAS:Nitrogen} {SLOT:GasCanister} supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
+"The green portable {GAS:Nitrogen} {SLOT:GasCanister} supplies propellant for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
 "Careful not to pressurize beyond 10MPa, or it may go 'bang'."
-msgstr ""
-"这个绿色的便携 {GAS:Nitrogen} {SLOT:GasCanister} 为 {THING:ItemSpacepack} 和 {THING:ItemHardJetpack} 供应推进剂。所有的储气瓶被制造时都是装满的，气压达到8000kPa（80个标准大气压），且可以被安装到 {THING:DynamicGasCanisterAir} 或 {THING:StructureGasTankStorage} 中以重新装填。\n"
-"请小心，加压时不要超过10MPa，否则它可能会“砰”地一声 ..."
+msgstr "储气瓶（氮气）"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
 msgctxt "Things.ItemGasCanisterNitrogen"
@@ -10924,13 +10928,12 @@ msgid "Canister (Pollutants)"
 msgstr "储气瓶（污染性气体）"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterCarbonDioxide']
+#, fuzzy
 msgctxt "Things.ItemGasCanisterCarbonDioxide"
 msgid ""
-"When fabricated, the {GAS:CarbonDioxide} {SLOT:GasCanister} is filled a pressure of 8000kPa (80 atmospheres) and coloured default grey. Used as a secondary fuel in the {THING:ItemJetpackBasic}, it can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
-"Careful not to overpressurize when refilling, or it may go 'bang'."
-msgstr ""
-"当被制造时， {GAS:CarbonDioxide} {SLOT:GasCanister} 的填充气压为8000kPa（80个标准大气压）且默认颜色为灰色。它可以作为辅助燃料被用在 {THING:ItemJetpackBasic} 中，且可以被安装到 {THING:DynamicGasCanisterAir} 或 {THING:StructureGasTankStorage} 中以重新装填。\n"
-"请小心，重新装填时不要过度加压，否则它可能会“砰”地一声 ..."
+"When fabricated, the {GAS:CarbonDioxide} {SLOT:GasCanister} is filled a pressure of 8000kPa (80 atmospheres) and colored default grey. Used as a secondary fuel in the {THING:ItemJetpackBasic}, it can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
+"Careful not to over pressurize when refilling, or it may go 'bang'."
+msgstr "储气瓶（二氧化碳）"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterCarbonDioxide']
 msgctxt "Things.ItemGasCanisterCarbonDioxide"
@@ -11169,13 +11172,12 @@ msgid "Chem Light (Blue)"
 msgstr "荧光棒（蓝）"
 
 #: /Language/Things/RecordThing[Key='ItemCableCoil']
+#, fuzzy
 msgctxt "Things.ItemCableCoil"
 msgid ""
-"Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first {LINK:ODA;ODA} Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any {LINK:Stationeers;Stationeer's} network begins. \n"
+"Bodily metaphors are tired and anthropocentric, but it was Frida Stuppen, the first {LINK:ODA;ODA} Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any {LINK:Stationeers;Stationeer's} network begins. \n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
-msgstr ""
-"用身体部位隐喻是过时的，而且过度以人为中心，但是第一位 &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; 管理员Frida Stuppen说：“让电缆成为神经和血管，通过我们在星际间打造的系统传输电力和数据等。”后来的评论家认为，她只是给一种不可靠的经济制度抹上了一层浪漫主义色彩。无论情况如何，标准电缆都是任何 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 的网络系统的起点。\n"
-"一般的电缆线圈工作时的额定功率为5kW。如果需要应用更大的电流，请使用 {THING:ItemCableCoilHeavy} 。"
+msgstr "电缆线圈"
 
 #: /Language/Things/RecordThing[Key='ItemCableCoil']
 msgctxt "Things.ItemCableCoil"
@@ -11327,9 +11329,10 @@ msgid "Entity Chicken White"
 msgstr "实体：白鸡"
 
 #: /Language/Things/RecordThing[Key='EntityChickenBrown']
+#, fuzzy
 msgctxt "Things.EntityChickenBrown"
-msgid "Like so many of its bretheren, this is a chicken. A brown one. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not."
-msgstr "正如它的众多兄弟姐妹们一样，这是一只鸡。一只棕色的。它会吃大豆、玉米和小麦，同时它还会下蛋。一些蛋将会受精，从而繁育出更多的鸡。另一些则不会。"
+msgid "Like so many of its brethren, this is a chicken. A brown one. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not."
+msgstr "实体：棕鸡"
 
 #: /Language/Things/RecordThing[Key='EntityChickenBrown']
 msgctxt "Things.EntityChickenBrown"
@@ -11475,9 +11478,10 @@ msgid "Portable Gas Tank (CO2)"
 msgstr "移动式储气罐（二氧化碳）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterAir']
+#, fuzzy
 msgctxt "Things.DynamicGasCanisterAir"
-msgid "Portable gas tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possiblities are endless."
-msgstr "移动式储气罐只做一件事：储存气体。但是你可以用它们做很多事。若要重新注满它，用扳手将它固定到 {THING:ItemTankConnector} 上，接着将它连接到一个管道网络中。尽量避免加压到10MPa以上，否则将发生糟糕的事。当它被注满后，你可以通过将 {THING:ItemGasCanisterOxygen} 插入到它顶部附近的黑黄条纹部分中来重新装填。或者你也可以通过在一个房间中打开储气罐顶部的可变流量阀门来创造一个大气环境。它们还能安装在漫游车和火箭上。或者，将它踢翻来练习滚桶。可能性是无穷无尽的。"
+msgid "Portable gas tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possibilities are endless."
+msgstr "移动式储气罐（空气）"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterAir']
 msgctxt "Things.DynamicGasCanisterAir"
@@ -12248,6 +12252,16 @@ msgstr "微波炉"
 msgctxt "Things.ItemPillHeal"
 msgid "Pill (Medical)"
 msgstr "药片（治疗）"
+
+#, fuzzy
+#~ msgctxt "Things.AppliancePlantGeneticStabilizer"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.AppliancePlantGeneticSplicer"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.ItemLaptop"
 #~ msgid ""
