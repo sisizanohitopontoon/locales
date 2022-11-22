@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-22 07:53+0000\n"
+"PO-Revision-Date: 2022-11-22 07:58+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2968,15 +2968,16 @@ msgid ""
 "        \n"
 "To begin splicing, place a plant or seed bag in the left slot (source) and place another plant or seed bag of the same type in the right slot (target). You can select a gene using the arrow buttons. Close the sliding door and press the green activate button. Once splicing has begun, the device will be locked until the process has finished (which will take approximately twenty minutes). If you want to cancel splicing you can power off the bench or detach the appliance as a last resort."
 msgstr ""
+"La maquina de union genética se puede utilizar para copiar un solo {LINK:GeneticsPage;gene} de una planta \"origen\" a otra planta \"objetivo\" del mismo tipo. Después de copiar, la planta de origen será destruida.\n"
+"        \n"
+"Para comenzar la union, coloque una bolsa de plantas o semillas en la ranura izquierda (origen) y coloque otra bolsa de plantas o semillas del mismo tipo en la ranura derecha (objetivo). Puede seleccionar un gen usando los botones de flecha. Cierre la puerta corredera y pulse el botón verde de activación. Una vez que la union ha comenzado, el dispositivo se bloqueará hasta que el proceso haya finalizado (lo que tomará aproximadamente veinte minutos). Si desea cancelar la union, puede apagar el banco o desconectar el aparato como último recurso."
 
 #: /Language/Things/RecordThing[Key='ApplianceSeedTray']
-#, fuzzy
 msgctxt "Things.ApplianceSeedTray"
 msgid "Appliance Seed Tray"
-msgstr "Lámpara de escritorio izquierda"
+msgstr "Bandeja de semillas del dispositivo"
 
 #: /Language/Things/RecordThing[Key='ApplianceSeedTray']
-#, fuzzy
 msgctxt "Things.ApplianceSeedTray"
 msgid "{BLANK}"
 msgstr "{BLANK}"
@@ -3076,13 +3077,15 @@ msgid "Kit (Ice Crusher)"
 msgstr "Este kit crea un (Rompe hielos)"
 
 #: /Language/Things/RecordThing[Key='StructureIceCrusher']
-#, fuzzy
 msgctxt "Things.StructureIceCrusher"
 msgid ""
 "The {LINK:Recurso;Recurso} KoolAuger converts various ices into their respective {LINK:GasPage;gases} and liquids.\n"
 "A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either outlet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.\n"
 "If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch."
-msgstr "Rompehielos"
+msgstr ""
+"El {LINK:Recurso;Recurso} KoolAuger convierte varios hielos en sus respectivos {LINK:GasPage;gases} y líquidos.\n"
+"Una unidad de sublimación-fusión notablemente inteligente y compacta, produce gas o líquido dependiendo del hielo que se procese. La salida superior es para gas, la inferior para líquido, y aunque puede conectar cualquier tubería que desee a cualquiera de las salidas, solo funcionará si se conecta la red correcta. También solo pasará gas o líquido a una red si está encendido y encendido.\n"
+"Si el KoolAuger está lleno, no aceptará más hielo hasta que se drene el contenido de gas o líquido. En este estado, parpadeará un estado de error amarillo en el interruptor de activación."
 
 #: /Language/Things/RecordThing[Key='StructureIceCrusher']
 msgctxt "Things.StructureIceCrusher"
@@ -3351,12 +3354,13 @@ msgid "Kit (Wind Turbine)"
 msgstr "Kit (turbina eólica)"
 
 #: /Language/Things/RecordThing[Key='StructureWindTurbine']
-#, fuzzy
 msgctxt "Things.StructureWindTurbine"
 msgid ""
 "The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.\n"
 "While the wind turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 10,000W), so be careful to design your power networks with that in mind."
-msgstr "Turbina eólica"
+msgstr ""
+"La turbina eólica Stationeers fue diseñada por primera vez por ingenieros atmosféricos de Norsec, buscando crear un sistema de generación de energía impulsado por el viento que funcionaría incluso en mundos de atmósfera extremadamente baja. Las palas ultraligeras responden a densidades atmosféricas extremadamente bajas, al tiempo que son lo suficientemente fuertes como para funcionar incluso bajo una gran tensión en entornos mucho más exigentes.\n"
+"Si bien la turbina eólica está optimizada para producir energía (hasta 500 W) incluso en mundos de baja atmósfera, funciona mejor en entornos más densos. La producción varía con la velocidad del viento y, durante las tormentas, puede aumentar drásticamente (hasta 10,000 W), así que tenga cuidado de diseñar sus redes eléctricas con eso en mente."
 
 #: /Language/Things/RecordThing[Key='StructureWindTurbine']
 msgctxt "Things.StructureWindTurbine"
@@ -6032,13 +6036,15 @@ msgid "RTG"
 msgstr "RTG"
 
 #: /Language/Things/RecordThing[Key='ItemJetpackBasic']
-#, fuzzy
 msgctxt "Things.ItemJetpackBasic"
 msgid ""
 "The basic {LINK:CHAC;CHAC} jetpack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.\n"
 "Indispensable for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stabilizer causes the spacepack to hover when a given height is reached.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
-msgstr "Jetpack Básico"
+msgstr ""
+"El jetpack básico {LINK:CHAC;CHAC} no es 'técnicamente' un jetpack, es un propulsor de gas. Puede funcionar con cualquier gas, siempre que la presión interna del {LINK:AtmosphericsPage;canister}sea mayor que la presión externa ambiental. Si la presión externa es mayor, el spacepack no funcionará.\n"
+"Indispensable para la construcción, la minería y el movimiento en general, tiene diez espacios de almacenamiento y permite que {LINK:Stationeers;Stationeers} vuele a 3 m/s, en comparación con el {THING:ItemHardJetpack} más potente. El ajuste del valor de empuje altera su tasa de aceleración, mientras que la activación del estabilizador hace que el paquete espacial se mueva cuando se alcanza una altura determinada.\n"
+"USE: 'J' para activar; 'espacio' para volar; 'Ctrl izquierda' para descender; y 'WASD' para moverse."
 
 #: /Language/Things/RecordThing[Key='ItemJetpackBasic']
 msgctxt "Things.ItemJetpackBasic"
@@ -6612,10 +6618,9 @@ msgid "Kit (Speaker)"
 msgstr "Kit (Altavoz)"
 
 #: /Language/Things/RecordThing[Key='StructureKlaxon']
-#, fuzzy
 msgctxt "Things.StructureKlaxon"
 msgid "Klaxons allow you to play over 50 announcements and sounds, depending on your {LINK:LogicPage;Logic} set-up. Set the mode to select the output."
-msgstr "Altavoz Sirena"
+msgstr "Los Klaxons te permiten reproducir más de 50 anuncios y sonidos, según tu configuración de {LINK:LogicPage;logic}. Configure el modo para seleccionar la salida."
 
 #: /Language/Things/RecordThing[Key='StructureKlaxon']
 msgctxt "Things.StructureKlaxon"
@@ -6633,13 +6638,15 @@ msgid "Portable Hydroponics"
 msgstr "Hidroponía Portátil"
 
 #: /Language/Things/RecordThing[Key='ItemHardJetpack']
-#, fuzzy
 msgctxt "Things.ItemHardJetpack"
 msgid ""
 "The {LINK:Norsec;Norsec} jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
 "The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensable for building, mining and general movement, it has fourteen storage slots.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
-msgstr "Mochila Propulsora Avanzada"
+msgstr ""
+"El {LINK:Norsec;Norsec} jetpack no es \"técnicamente\" un jetpack en absoluto, es un propulsor de gas. Puede ser alimentado por cualquier gas, siempre y cuando la presión interna del {LINK:AtmosphericsPage;canister} sea mayor que la presión externa ambiental. Si la presión externa es mayor, el spacepack no funcionará. El ajuste del valor de empuje altera su velocidad de aceleración, mientras que la activación del estabilizador hace que el paquete espacial se desplace cuando se alcanza una altura determinada.\n"
+"El jetpack de traje duro es capaz de velocidades mucho más altas que el {THING:ItemJetpackBasic} - hasta 15m/s. Indispensable para la construcción, la minería y el movimiento en general, tiene catorce ranuras de almacenamiento.\n"
+"USO: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverse."
 
 #: /Language/Things/RecordThing[Key='ItemHardJetpack']
 msgctxt "Things.ItemHardJetpack"
@@ -6945,10 +6952,9 @@ msgid "Headlamp"
 msgstr "Linterna Frontal"
 
 #: /Language/Things/RecordThing[Key='ItemHardsuitHelmet']
-#, fuzzy
 msgctxt "Things.ItemHardsuitHelmet"
 msgid "The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh environments like Venus and Vulcan."
-msgstr "Casco de seguridad"
+msgstr "El casco pesado es similar al {THING:ItemSpaceHelmet}, pero puede soportar temperaturas y presiones más altas. Es perfecto para soportar entornos hostiles como Venus y Vulcano."
 
 #: /Language/Things/RecordThing[Key='ItemHardsuitHelmet']
 msgctxt "Things.ItemHardsuitHelmet"
@@ -7889,10 +7895,9 @@ msgid "LED Display (Medium)"
 msgstr "Pantalla Led (Mediano)"
 
 #: /Language/Things/RecordThing[Key='StructureLogicDial']
-#, fuzzy
 msgctxt "Things.StructureLogicDial"
 msgid "An assignable dial with up to 1000 modes."
-msgstr "Dial"
+msgstr "Un dial asignable con hasta 1000 modos."
 
 #: /Language/Things/RecordThing[Key='StructureLogicDial']
 msgctxt "Things.StructureLogicDial"
@@ -8420,12 +8425,13 @@ msgid "Ore (Nickel)"
 msgstr "Mineral (Níquel)"
 
 #: /Language/Things/RecordThing[Key='ItemSilverOre']
-#, fuzzy
 msgctxt "Things.ItemSilverOre"
 msgid ""
 "Silver is a chemical element with the symbol \"Ag\". Valued by many {LINK:Stationeers;Stationeers} for its attractive luster and sheen, it is also used in a variety of "
 "{LINK:ElectronicPage;electronics} components and {LINK:IngotPage;alloys}."
-msgstr "Mineral (Plata)"
+msgstr ""
+"La plata es un elemento químico con el símbolo \"Ag\". Valorado por muchos {LINK:Stationeers;Stationeers} por su atractivo brillo , también se utiliza en una variedad de componentes "
+"{LINK:ElectronicPage;electronics} y {LINK:IngotPage;alloys}."
 
 #: /Language/Things/RecordThing[Key='ItemSilverOre']
 msgctxt "Things.ItemSilverOre"
@@ -8475,12 +8481,14 @@ msgid "Kit (Fabrication)"
 msgstr "Kit Construcción (Fabricación)"
 
 #: /Language/Things/RecordThing[Key='StructureAutolathe']
-#, fuzzy
 msgctxt "Things.StructureAutolathe"
 msgid ""
 "The foundation of most {LINK:Stationeers;Stationeer} fabrication systems, the {LINK:ExMin;ExMin} autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensable creation tool. Upgrade the device using a {THING:AutolathePrinterMod} for additional recipes and faster processing speeds.\n"
 "\t  "
-msgstr "Torno Automático"
+msgstr ""
+"La base de la mayoría de {LINK:Stationeers;Stationeer} sistemas de fabricación, el {LINK:ExMin;ExMin} es un sistema de composición molecular multieje. Su complejidad exige un tiempo considerable "
+"para ensamblarse, pero sigue siendo una herramienta de creación indispensable. Actualice el dispositivo con {THING:AutolathePrinterMod} para obtener recetas adicionales y velocidades de "
+"procesamiento más rápidas.  "
 
 #: /Language/Things/RecordThing[Key='StructureAutolathe']
 msgctxt "Things.StructureAutolathe"
@@ -9243,10 +9251,9 @@ msgid "Gas Sensor"
 msgstr "Sensor de Gas"
 
 #: /Language/Things/RecordThing[Key='StructureGasMixer']
-#, fuzzy
 msgctxt "Things.StructureGasMixer"
 msgid "Indispensable for producing precise atmospheric ratios, this gas mixer blends two gases in proportions ranging anywhere from 0-100%."
-msgstr "Mezclador de Gas"
+msgstr "Indispensable para producir proporciones atmosféricas precisas, este mezclador de gas combina dos gases en proporciones que oscilan entre 0 y 100%."
 
 #: /Language/Things/RecordThing[Key='StructureGasMixer']
 msgctxt "Things.StructureGasMixer"
@@ -9270,10 +9277,9 @@ msgid "Furnace"
 msgstr "Horno"
 
 #: /Language/Things/RecordThing[Key='StructureFrameSide']
-#, fuzzy
 msgctxt "Things.StructureFrameSide"
 msgid "More durable than the {THING:StructureFrameIron}, steel frames also provide variations for more ornate constructions."
-msgstr "Marco de acero (Lateral)"
+msgstr "Más duraderos que {THING:StructureFrameIron}, los marcos de acero también proporcionan variaciones para construcciones más ornamentadas."
 
 #: /Language/Things/RecordThing[Key='StructureFrameSide']
 msgctxt "Things.StructureFrameSide"
@@ -9281,12 +9287,13 @@ msgid "Steel Frame (Side)"
 msgstr "Marco de acero (Lateral)"
 
 #: /Language/Things/RecordThing[Key='StructureFrameCorner']
-#, fuzzy
 msgctxt "Things.StructureFrameCorner"
 msgid ""
 "More durable than the {THING:StructureFrameIron}, steel frames also offer several variations for more complex lattice constructions. \n"
 "With a little patience and maneuvering, the corner frame's Gothic-inspired silhouette allows the creation of ogival arches and even more ambitious architecture, although they are not airtight and cannot be built on."
-msgstr "Marco de acero (esquina)"
+msgstr ""
+"Más duraderos que {THING:StructureFrameIron}, los marcos de acero también ofrecen varias variaciones para construcciones de celosía más complejas.\n"
+"Con un poco de paciencia y maniobra, la silueta de inspiración gótica del marco de esquina permite la creación de arcos ojivales y una arquitectura aún más ambiciosa, aunque no son herméticos y no se pueden construir."
 
 #: /Language/Things/RecordThing[Key='StructureFrameCorner']
 msgctxt "Things.StructureFrameCorner"
@@ -9512,7 +9519,6 @@ msgid "Console"
 msgstr "Consola"
 
 #: /Language/Things/RecordThing[Key='StructureComputer']
-#, fuzzy
 msgctxt "Things.StructureComputer"
 msgid ""
 "In some ways a relic, the 'Chonk R1' was designed by severely conflicted {LINK:Norsec;Norsec} technicians, who needed a unit that could operate with a wide range of {LINK:LogicUnitPage;motherboards}, while also enduring the worst a new Cadet could throw at it.\n"
@@ -9523,7 +9529,15 @@ msgid ""
 "- {THING:MotherboardSorter}\n"
 "- {THING:MotherboardComms}\n"
 "- {THING:MotherboardProgrammableChip}"
-msgstr "Ordenador"
+msgstr ""
+"De alguna manera una reliquia, el 'Chonk R1' fue diseñado por {LINK:Norsec; Técnicos de Norsec}, que necesitaban una unidad que pudiera operar con una amplia gama de {LINK:LogicUnitPage;motherboards}, al tiempo que soportaba lo peor que un nuevo Cadete podría arrojarle.\n"
+"El resultado es una máquina descrita por algunos como \"la única PC que probablemente sobrevivirá a nuestra colisión con un agujero negro\", mientras que otros usuarios menos agradecidos consideran que comparte la mayor parte de su ADN tecnológico con un rallador de queso.\n"
+"Placas base compatibles:\n"
+"- {THING:MotherboardLogic}\n"
+"- {THING:MotherboardManufacturing}\n"
+"- {THING:MotherboardSorter}\n"
+"- {THING:MotherboardComms}\n"
+"- {THING:MotherboardProgrammableChip}"
 
 #: /Language/Things/RecordThing[Key='StructureComputer']
 msgctxt "Things.StructureComputer"
