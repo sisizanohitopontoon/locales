@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-22 07:58+0000\n"
+"PO-Revision-Date: 2022-11-22 08:02+0000\n"
 "Last-Translator: dewasha <nenexulo22@hotmail.com>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9977,7 +9977,6 @@ msgid "Airlock"
 msgstr "Esclusa"
 
 #: /Language/Things/RecordThing[Key='StructureAirConditioner']
-#, fuzzy
 msgctxt "Things.StructureAirConditioner"
 msgid ""
 "Built using the {THING:ItemKitAtmospherics}, the {LINK:ExMin;ExMin-designed} air conditioner is used to raise or lower input gas temperature.\n"
@@ -9989,7 +9988,16 @@ msgid ""
 "{THING:StructurePipeRadiator}s may be useful in bringing extreme pipe temperatures back towards normal world temperatures. \n"
 "  \n"
 "For more information on using the air conditioner, consult the {LINK:TemperatureControlPage;temperature control} Guides page."
-msgstr "Aire Acondicionado"
+msgstr ""
+"Construido usando {THING:ItemKitAtmospherics}, el {LINK:ExMin;ExMin-designed} se utiliza para aumentar o disminuir la temperatura del gas de entrada.\n"
+"\t  \n"
+"La unidad tiene tres conexiones de tubería: entrada, salida y residuos. El gas alimentado a la entrada se calentará o enfriará para alcanzar la temperatura objetivo, mientras que lo contrario sucederá con el gas en la red de residuos.\n"
+"\n"
+"Los multiplicadores de eficiencia múltiples pueden afectar la cantidad de energía que utiliza el aire acondicionado, y estos se pueden ver en el panel de información verde de la unidad. A medida que aumenta la diferencia de temperatura entre la entrada y el desperdicio, el multiplicador de eficiencia diferencial de temperatura disminuirá. Si la temperatura de entrada o de desperdicio es extremadamente caliente o fría, la eficiencia de la temperatura operativa disminuirá. Si la tubería de entrada o de desagüe tiene presiones bajas de aproximación, la eficiencia de presión disminuirá.\n"
+"\n"
+"{THING:StructurePipeRadiator}s puede ser útil para devolver las temperaturas extremas de la tubería a las temperaturas mundiales normales. \n"
+"  \n"
+"Para obtener más información sobre el uso del aire acondicionado, consulte la página de guías {LINK:TemperatureControlPage;temperature control}."
 
 #: /Language/Things/RecordThing[Key='StructureAirConditioner']
 msgctxt "Things.StructureAirConditioner"
@@ -10013,10 +10021,9 @@ msgid "Active Vent"
 msgstr "Ventilación Activa"
 
 #: /Language/Things/RecordThing[Key='SpaceShuttle']
-#, fuzzy
 msgctxt "Things.SpaceShuttle"
 msgid "An antiquated {LINK:Sinotai;Sinotai} transport craft, long since decommissioned."
-msgstr "Transbordador"
+msgstr "Una anticuada {LINK:Sinotai;Sinotai} nave de transporte, hace tiempo que fue dada de baja."
 
 #: /Language/Things/RecordThing[Key='SpaceShuttle']
 msgctxt "Things.SpaceShuttle"
@@ -10427,10 +10434,9 @@ msgid "Spray Paint (Blue)"
 msgstr "Spray Pintura (Azul)"
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanBlack']
-#, fuzzy
 msgctxt "Things.ItemSprayCanBlack"
 msgid "Go classic, clandestine or just plain Gothic with black paint, which can be applied to most items. Each can has 20 uses."
-msgstr "Spray Pintura (Negro)"
+msgstr "Vaya clásico, clandestino o simplemente gótico con pintura negra, que se puede aplicar a la mayoría de los artículos. Cada lata tiene 20 usos."
 
 #: /Language/Things/RecordThing[Key='ItemSprayCanBlack']
 msgctxt "Things.ItemSprayCanBlack"
@@ -10438,13 +10444,15 @@ msgid "Spray Paint (Black)"
 msgstr "Spray Pintura (Negro)"
 
 #: /Language/Things/RecordThing[Key='ItemSpacepack']
-#, fuzzy
 msgctxt "Things.ItemSpacepack"
 msgid ""
 "The basic {LINK:CHAC;CHAC} spacepack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.\n"
 "Indispensable for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.\n"
 "USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move."
-msgstr "Mochila Propulsora"
+msgstr ""
+"El básico {LINK:CHAC; CHAC} spacepack no es \"técnicamente\" un jetpack, es un propulsor de gas. Puede ser alimentado por cualquier gas, siempre y cuando la presión interna del {LINK:AtmosphericsPage;canister} sea mayor que la presión externa ambiental. Si la presión externa es mayor, el spacepack no funcionará.\n"
+"Indispensable para la construcción, la minería y el movimiento en general, tiene diez ranuras de almacenamiento y permite {LINK:Stationeers; Los stationeers} vuelan a 3 m/s, en comparación con los más potentes {THING:ItemJetpackBasic} o {THING:ItemHardJetpack}. El ajuste del valor de empuje altera su velocidad de aceleración, mientras que la activación del estabilizador hace que el paquete espacial se mantenga flotante cuando se alcanza una altura determinada.\n"
+"USO: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverse."
 
 #: /Language/Things/RecordThing[Key='ItemSpacepack']
 msgctxt "Things.ItemSpacepack"
@@ -10452,12 +10460,13 @@ msgid "Spacepack"
 msgstr "Mochila Propulsora"
 
 #: /Language/Things/RecordThing[Key='ItemSpaceHelmet']
-#, fuzzy
 msgctxt "Things.ItemSpaceHelmet"
 msgid ""
 "The basic space helmet insulates {LINK:Stationeers;Stationeers} against everything from hard vacuum to weird cooking smells. Providing a pressure-controlled, breathable atmosphere, it comes with a built-in light powered by your {THING:ItemEvaSuit} {THING:ItemBatteryCell}.\n"
 "It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any color you like using the {THING:AppliancePaintMixer}."
-msgstr "Casco Espacial"
+msgstr ""
+"El casco espacial básico aísla {LINK:Stationeers;Stationeers} contra todo, desde el vacío duro hasta los olores extraños de la cocina. Proporcionando una atmósfera transpirable controlada por presión, viene con una luz incorporada alimentada por su {THING:ItemEvaSuit} {THING:ItemBatteryCell}.\n"
+"También incorpora una función de bloqueo / desbloqueo para evitar la apertura accidental, así como una función de descarga para expulsar y reemplazar la atmósfera interna. Si está dañado, use {THING:ItemDuctTape} para arreglarlo o píntelo del color que desee usando {THING:AppliancePaintMixer}."
 
 #: /Language/Things/RecordThing[Key='ItemSpaceHelmet']
 msgctxt "Things.ItemSpaceHelmet"
@@ -10488,12 +10497,13 @@ msgid "Security Camera"
 msgstr "Cámara de seguridad"
 
 #: /Language/Things/RecordThing[Key='ItemScrewdriver']
-#, fuzzy
 msgctxt "Things.ItemScrewdriver"
 msgid ""
 "This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definitely not just a screwdriver. Use it for construction and "
 "deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units."
-msgstr "Destornillador"
+msgstr ""
+"Este ajustador de adherencia por fricción estándar es un modelo de birrotación de primera línea con un uni-grip columnado. Definitivamente no es solo un destornillador. Úselo para la construcción y "
+"deconstrucción de ciertos kits, y para establecer valores en unidades {LINK:LogicUnitPage;logic}."
 
 #: /Language/Things/RecordThing[Key='ItemScrewdriver']
 msgctxt "Things.ItemScrewdriver"
@@ -10501,10 +10511,9 @@ msgid "Screwdriver"
 msgstr "Destornillador"
 
 #: /Language/Things/RecordThing[Key='ItemScanner']
-#, fuzzy
 msgctxt "Things.ItemScanner"
 msgid "A mysterious piece of technology, rumored to have Zrillian origins."
-msgstr "Escáner de Mano"
+msgstr "Una misteriosa pieza de tecnología, de la que se rumorea que tiene orígenes Zrillianos."
 
 #: /Language/Things/RecordThing[Key='ItemScanner']
 msgctxt "Things.ItemScanner"
@@ -10740,12 +10749,14 @@ msgid "Pill (Paralysis)"
 msgstr "Píldora (Parálisis)"
 
 #: /Language/Things/RecordThing[Key='ItemPillHeal']
-#, fuzzy
 msgctxt "Things.ItemPillHeal"
 msgid ""
 "Three centuries of pharmaceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified "
 "microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
-msgstr "Píldora (Médica)"
+msgstr ""
+"Tres siglos de tecnología farmacéutica comprimidos en una pequeña píldora fácil de ingerir: la píldora curativa, también conocida como la píldora de protones, también conocida como Mr. Happy, "
+"contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares de mamíferos en un impulso de una sola dosis de alta pureza, eficacia y potencia que "
+"potencia una rápida respuesta inmunológica parasimpática."
 
 #: /Language/Things/RecordThing[Key='ItemPickaxe']
 msgctxt "Things.ItemPickaxe"
@@ -10782,12 +10793,13 @@ msgid "Muffin"
 msgstr "Muffin"
 
 #: /Language/Things/RecordThing[Key='ItemMiningDrill']
-#, fuzzy
 msgctxt "Things.ItemMiningDrill"
 msgid ""
 "The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modeled on a classic {LINK:Recurso;Recurso} zero-g design, it functions equally well in vacuum and atmosphere,"
 " with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.'"
-msgstr "Taladro Minería"
+msgstr ""
+"El taladro de minería rotativo de tres conos 'Topo' de mano se hizo para una cosa: excavación rápida. Modelado sobre un clásico {LINK:Recurso;Recurso} diseño cero g, funciona igualmente bien en "
+"vacío y atmósfera, con brocas de carburo cementado para aumentar la resiliencia y la vida útil del rodamiento, y reducir el desgaste. Como jenk Murtons dijo una vez: \"El Topo no se detenga\"."
 
 #: /Language/Things/RecordThing[Key='ItemMiningDrill']
 msgctxt "Things.ItemMiningDrill"
@@ -10795,12 +10807,14 @@ msgid "Mining Drill"
 msgstr "Taladro Minería"
 
 #: /Language/Things/RecordThing[Key='ItemMiningBelt']
-#, fuzzy
 msgctxt "Things.ItemMiningBelt"
 msgid ""
 "Originally developed by {LINK:Recurso;Recurso Espaciais} for asteroid mining, the {LINK:Stationeers;Stationeer's} mining belt has room for two {LINK:ToolPage;tools} and eight {LINK:OrePage;ore} "
 "stacks. While wearing the belt, {LINK:OrePage;ore} is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit."
-msgstr "Cinturón Minero"
+msgstr ""
+"Desarrollado originalmente por {LINK:Recurso;Recurso Espaciais} para la minería de asteroides, el {LINK:Stationeers;Stationeer's} miningbelt tiene espacio para dos pilas {LINK:ToolPage;tools} y ocho"
+" {LINK:OrePage;ore}. Mientras se usa el cinturón, {LINK:OrePage;ore} se almacena automáticamente allí cuando se extrae. Volátil y dependiente de la temperatura permanecen estables en la unidad "
+"ambientalmente controlada."
 
 #: /Language/Things/RecordThing[Key='ItemMiningBelt']
 msgctxt "Things.ItemMiningBelt"
@@ -10824,10 +10838,9 @@ msgid "Milk"
 msgstr "Leche"
 
 #: /Language/Things/RecordThing[Key='ItemLightSword']
-#, fuzzy
 msgctxt "Things.ItemLightSword"
 msgid "A charming, if useless, pseudo-weapon. (Creative only.)"
-msgstr "Espada de Luz"
+msgstr "Un encantadora, aunque inútil, arma pisapapeles. (Sólo creativo.)"
 
 #: /Language/Things/RecordThing[Key='ItemLightSword']
 msgctxt "Things.ItemLightSword"
@@ -11182,12 +11195,14 @@ msgid "Kit (Hydroponic Tray)"
 msgstr "Bandeja hidropónica"
 
 #: /Language/Things/RecordThing[Key='ItemHealPill']
-#, fuzzy
 msgctxt "Things.ItemHealPill"
 msgid ""
 "Three centuries of pharmaceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified "
 "microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
-msgstr "Píldora de curación"
+msgstr ""
+"Tres siglos de tecnología farmacéutica comprimidos en una pequeña píldora fácil de ingerir: la píldora curativa, también conocida como la píldora de protones, también conocida como Mr. Happy, "
+"contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares de mamíferos en un impulso de una sola dosis de alta pureza, eficacia y potencia que "
+"potencia una rápida respuesta inmunológica parasimpática."
 
 #: /Language/Things/RecordThing[Key='ItemHealPill']
 msgctxt "Things.ItemHealPill"
@@ -11431,12 +11446,13 @@ msgid "Canister (Oxygen)"
 msgstr "Bombona (Oxígeno)"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
-#, fuzzy
 msgctxt "Things.ItemGasCanisterNitrogen"
 msgid ""
 "The green portable {GAS:Nitrogen} {SLOT:GasCanister} supplies propellant for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
 "Careful not to pressurize beyond 10MPa, or it may go 'bang'."
-msgstr "Bombona (Nitrógeno)"
+msgstr ""
+"La bombona portátil verde {GAS:Nitrogen} {SLOT:GasCanister} suministra propelente para {THING:ItemSpacepack} y {THING:ItemHardJetpack}. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000kPa (80 atmósferas), y se pueden montar en {THING:DynamicGasCanisterAir} o {THING:StructureGasTankStorage} para su recarga.\n"
+"Tenga cuidado de no presurizar más allá de 10MPa, o puede ir 'bang'."
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterNitrogen']
 msgctxt "Things.ItemGasCanisterNitrogen"
@@ -11493,12 +11509,13 @@ msgid "Canister (Pollutants)"
 msgstr "Bombona (Contaminantes)"
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterCarbonDioxide']
-#, fuzzy
 msgctxt "Things.ItemGasCanisterCarbonDioxide"
 msgid ""
 "When fabricated, the {GAS:CarbonDioxide} {SLOT:GasCanister} is filled a pressure of 8000kPa (80 atmospheres) and colored default grey. Used as a secondary fuel in the {THING:ItemJetpackBasic}, it can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.\n"
 "Careful not to over pressurize when refilling, or it may go 'bang'."
-msgstr "Bombona (CO2)"
+msgstr ""
+"Cuando se fabrica, el {GAS:CarbonDioxide} {SLOT:GasCanister} se llena a una presión de 8000kPa (80 atmósferas) y se colorea de gris por defecto. Utilizado como combustible secundario en {THING:ItemJetpackBasic}, se puede montar en {THING:DynamicGasCanisterAir} o {THING:StructureGasTankStorage} para su recarga.\n"
+"Tenga cuidado de no sobrepresurizar al rellenar, o puede ir 'bang'."
 
 #: /Language/Things/RecordThing[Key='ItemGasCanisterCarbonDioxide']
 msgctxt "Things.ItemGasCanisterCarbonDioxide"
@@ -11751,12 +11768,13 @@ msgid "Chem Light (Blue)"
 msgstr "Luz Química (Azul)"
 
 #: /Language/Things/RecordThing[Key='ItemCableCoil']
-#, fuzzy
 msgctxt "Things.ItemCableCoil"
 msgid ""
 "Bodily metaphors are tired and anthropocentric, but it was Frida Stuppen, the first {LINK:ODA;ODA} Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any {LINK:Stationeers;Stationeer's} network begins. \n"
 "Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}."
-msgstr "Bobina de Cable"
+msgstr ""
+"Las metáforas corporales son cansadas y centradas en el ser humano, pero fue Frida Stuppen, la primera administradora de {LINK:ODA;ODA}, quien dijo: \"Que el cableado sea como el nervio y el recipiente, transmitiendo poder y datos por igual a través de sistemas que forjamos entre las estrellas\". Comentaristas posteriores sugirieron que simplemente estaba poniendo un brillo romántico a una pieza de dudosa economía. Cualquiera que sea el caso, el cableado estándar es donde comienza cualquier red {LINK:Stationeers;Stationeer's}. \n"
+"La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}."
 
 #: /Language/Things/RecordThing[Key='ItemCableCoil']
 msgctxt "Things.ItemCableCoil"
@@ -11920,10 +11938,9 @@ msgid "Entity Chicken White"
 msgstr "Gallina Blanca"
 
 #: /Language/Things/RecordThing[Key='EntityChickenBrown']
-#, fuzzy
 msgctxt "Things.EntityChickenBrown"
 msgid "Like so many of its brethren, this is a chicken. A brown one. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not."
-msgstr "Gallina Marrón"
+msgstr "Como muchos de sus hermanos, este es un pollo. Uno marrón. Se alimenta de soja, maíz y trigo y pone huevos. Algunos serán fertilizados, produciendo más pollos. Algunos no lo harán."
 
 #: /Language/Things/RecordThing[Key='EntityChickenBrown']
 msgctxt "Things.EntityChickenBrown"
@@ -12130,13 +12147,16 @@ msgid "Portable Gas Tank (CO2)"
 msgstr "Tanque Portátil de gas (CO2)"
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterAir']
-#, fuzzy
 msgctxt "Things.DynamicGasCanisterAir"
 msgid ""
 "Portable gas tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing"
 " it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate "
 "valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possibilities are endless."
-msgstr "Tanque Portátil de gas (Aire)"
+msgstr ""
+"Los tanques de gas portátiles hacen una cosa: almacenar gas. Pero hay muchas cosas que puedes hacer con ellos. Para recargar el tanque, atorníllelo a un {THING:ItemTankConnector}, luego conéctelo a "
+"una red de tuberías. Trate de evitar empujarlo por encima de 10 MPa, o sucederán cosas malas. Una vez que esté lleno, puedes rellenar una {THING:ItemGasCanisterOxygen} colocándola en la sección "
+"rayada del tanque. O puede ventilar la válvula de caudal variable del tanque en una habitación y crear una atmósfera. También se adhieren a rovers y cohetes. Alternativamente, dale una patada y "
+"practica rodar el barril. Las posibilidades son infinitas."
 
 #: /Language/Things/RecordThing[Key='DynamicGasCanisterAir']
 msgctxt "Things.DynamicGasCanisterAir"
