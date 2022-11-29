@@ -50,6 +50,11 @@ msgctxt "Interface.LightCategory"
 msgid "Lights"
 msgstr "Свет"
 
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "Резервные копии"
+
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
@@ -59,11 +64,6 @@ msgstr "Расходники"
 msgctxt "Interface.WallFloorCategory"
 msgid "Walls and Floors"
 msgstr "Стены и полы"
-
-#: /Language/Interface/Record[Key='SafetyCategory']
-msgctxt "Interface.SafetyCategory"
-msgid "Safety and Transport"
-msgstr "Безопасность и Транспорт"
 
 #: /Language/Interface/Record[Key='OrganicsCategory']
 msgctxt "Interface.OrganicsCategory"
@@ -267,8 +267,8 @@ msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
 msgstr "Загрузить мир"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency1']
-msgctxt "Interface.LogicTypePlantEfficiency1"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
+msgctxt "Interface.LogicTypePlantEfficiency3"
 msgid "DEPRECATED"
 msgstr "НЕ РЕКОМЕНДУЕТСЯ"
 
@@ -784,11 +784,6 @@ msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Отражения"
 
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "Резервные копии"
-
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
@@ -803,6 +798,11 @@ msgstr "Микшер"
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
 msgstr "Звук"
+
+#: /Language/Interface/Record[Key='SafetyCategory']
+msgctxt "Interface.SafetyCategory"
+msgid "Safety and Transport"
+msgstr "Безопасность и Транспорт"
 
 #: /Language/Interface/Record[Key='SettingsVoiceNotifications']
 msgctxt "Interface.SettingsVoiceNotifications"
@@ -1676,7 +1676,7 @@ msgstr "Территория"
 
 #: /Language/Interface/Record[Key='MoleNitrousOxideDescription']
 msgctxt "Interface.MoleNitrousOxideDescription"
-msgid "Nitrous oxide is a reactive gas that will knock players out if inhaled.  It acts as an oxidizer for combustion, and allows volatiles to burn significantly hotter, faster, and at a lower autoignition temperature. It can be produced in an energy intensive process inside of a {THING:StructureNitrolyzer}."
+msgid "Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MoleWaterDescription']
@@ -1742,16 +1742,16 @@ msgctxt "Interface.StationpediaVolume"
 msgid "Volume:"
 msgstr ""
 
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "Версия:"
+
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
 #, fuzzy
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
 msgstr "Максимальное давление:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "Версия:"
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
@@ -5166,20 +5166,20 @@ msgctxt "Interface.LogicTypePlantEfficiency4"
 msgid "DEPRECATED"
 msgstr "НЕ РЕКОМЕНДУЕТСЯ"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
-msgctxt "Interface.LogicTypePlantEfficiency3"
-msgid "DEPRECATED"
-msgstr "НЕ РЕКОМЕНДУЕТСЯ"
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "Задержка:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency2']
 msgctxt "Interface.LogicTypePlantEfficiency2"
 msgid "DEPRECATED"
 msgstr "НЕ РЕКОМЕНДУЕТСЯ"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "Задержка:"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency1']
+msgctxt "Interface.LogicTypePlantEfficiency1"
+msgid "DEPRECATED"
+msgstr "НЕ РЕКОМЕНДУЕТСЯ"
 
 #: /Language/Interface/Record[Key='LogicTypePlantGrowth4']
 msgctxt "Interface.LogicTypePlantGrowth4"
