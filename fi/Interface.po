@@ -52,12 +52,6 @@ msgctxt "Interface.LightCategory"
 msgid "Lights"
 msgstr "Kirkkaus"
 
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-#, fuzzy
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "Takaisin"
-
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
@@ -66,6 +60,11 @@ msgstr ""
 #: /Language/Interface/Record[Key='WallFloorCategory']
 msgctxt "Interface.WallFloorCategory"
 msgid "Walls and Floors"
+msgstr ""
+
+#: /Language/Interface/Record[Key='SafetyCategory']
+msgctxt "Interface.SafetyCategory"
+msgid "Safety and Transport"
 msgstr ""
 
 #: /Language/Interface/Record[Key='OrganicsCategory']
@@ -275,8 +274,8 @@ msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
 msgstr "Lataa maailma"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
-msgctxt "Interface.LogicTypePlantEfficiency3"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency1']
+msgctxt "Interface.LogicTypePlantEfficiency1"
 msgid "DEPRECATED"
 msgstr ""
 
@@ -801,6 +800,12 @@ msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "Heijastukset"
 
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+#, fuzzy
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "Takaisin"
+
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
@@ -815,11 +820,6 @@ msgstr "Äänentaso"
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
 msgstr "Äänet"
-
-#: /Language/Interface/Record[Key='SafetyCategory']
-msgctxt "Interface.SafetyCategory"
-msgid "Safety and Transport"
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsVoiceNotifications']
 msgctxt "Interface.SettingsVoiceNotifications"
@@ -1697,7 +1697,7 @@ msgstr "Maasto"
 
 #: /Language/Interface/Record[Key='MoleNitrousOxideDescription']
 msgctxt "Interface.MoleNitrousOxideDescription"
-msgid "Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh."
+msgid "Nitrous oxide is a reactive gas that will knock players out if inhaled.  It acts as an oxidizer for combustion, and allows volatiles to burn significantly hotter, faster, and at a lower autoignition temperature. It can be produced in an energy intensive process inside of a {THING:StructureNitrolyzer}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MoleWaterDescription']
@@ -1763,16 +1763,16 @@ msgctxt "Interface.StationpediaVolume"
 msgid "Volume:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "Versio:"
-
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
 #, fuzzy
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
 msgstr "Paineen esiasetus"
+
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "Versio:"
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
@@ -5239,20 +5239,20 @@ msgctxt "Interface.LogicTypePlantEfficiency4"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "Latenssi:"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
+msgctxt "Interface.LogicTypePlantEfficiency3"
+msgid "DEPRECATED"
+msgstr ""
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency2']
 msgctxt "Interface.LogicTypePlantEfficiency2"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency1']
-msgctxt "Interface.LogicTypePlantEfficiency1"
-msgid "DEPRECATED"
-msgstr ""
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "Latenssi:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantGrowth4']
 msgctxt "Interface.LogicTypePlantGrowth4"

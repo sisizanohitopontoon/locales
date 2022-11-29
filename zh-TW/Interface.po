@@ -50,11 +50,6 @@ msgctxt "Interface.LightCategory"
 msgid "Lights"
 msgstr "燈具"
 
-#: /Language/Interface/Record[Key='PersonalBackpacks']
-msgctxt "Interface.PersonalBackpacks"
-msgid "Backpacks"
-msgstr "背包"
-
 #: /Language/Interface/Record[Key='FoodCategory']
 msgctxt "Interface.FoodCategory"
 msgid "Consumables"
@@ -64,6 +59,11 @@ msgstr "消耗性物資"
 msgctxt "Interface.WallFloorCategory"
 msgid "Walls and Floors"
 msgstr "牆壁與地板"
+
+#: /Language/Interface/Record[Key='SafetyCategory']
+msgctxt "Interface.SafetyCategory"
+msgid "Safety and Transport"
+msgstr "安全與運輸"
 
 #: /Language/Interface/Record[Key='OrganicsCategory']
 msgctxt "Interface.OrganicsCategory"
@@ -267,8 +267,8 @@ msgctxt "Interface.LoadMenuTitle"
 msgid "Load World"
 msgstr "讀取世界"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
-msgctxt "Interface.LogicTypePlantEfficiency3"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency1']
+msgctxt "Interface.LogicTypePlantEfficiency1"
 msgid "DEPRECATED"
 msgstr "已棄用"
 
@@ -784,6 +784,11 @@ msgctxt "Interface.SettingsReflections"
 msgid "Reflections"
 msgstr "環境反射"
 
+#: /Language/Interface/Record[Key='PersonalBackpacks']
+msgctxt "Interface.PersonalBackpacks"
+msgid "Backpacks"
+msgstr "背包"
+
 #: /Language/Interface/Record[Key='SettingsMasterVolume']
 msgctxt "Interface.SettingsMasterVolume"
 msgid "Master Volume"
@@ -798,11 +803,6 @@ msgstr "混音設定"
 msgctxt "Interface.SettingsSound"
 msgid "Sound"
 msgstr "音效"
-
-#: /Language/Interface/Record[Key='SafetyCategory']
-msgctxt "Interface.SafetyCategory"
-msgid "Safety and Transport"
-msgstr "安全與運輸"
 
 #: /Language/Interface/Record[Key='SettingsVoiceNotifications']
 msgctxt "Interface.SettingsVoiceNotifications"
@@ -1672,7 +1672,7 @@ msgstr "地形"
 
 #: /Language/Interface/Record[Key='MoleNitrousOxideDescription']
 msgctxt "Interface.MoleNitrousOxideDescription"
-msgid "Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh."
+msgid "Nitrous oxide is a reactive gas that will knock players out if inhaled.  It acts as an oxidizer for combustion, and allows volatiles to burn significantly hotter, faster, and at a lower autoignition temperature. It can be produced in an energy intensive process inside of a {THING:StructureNitrolyzer}."
 msgstr ""
 
 #: /Language/Interface/Record[Key='MoleWaterDescription']
@@ -1738,16 +1738,16 @@ msgctxt "Interface.StationpediaVolume"
 msgid "Volume:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "版本:"
-
 #: /Language/Interface/Record[Key='StationpediaMaxPressure']
 #, fuzzy
 msgctxt "Interface.StationpediaMaxPressure"
 msgid "Max Pressure:"
 msgstr "最大壓力:"
+
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "版本:"
 
 #: /Language/Interface/Record[Key='StationpediaBasePowerUsage']
 msgctxt "Interface.StationpediaBasePowerUsage"
@@ -5114,20 +5114,20 @@ msgctxt "Interface.LogicTypePlantEfficiency4"
 msgid "DEPRECATED"
 msgstr "已棄用"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "延遲:"
+#: /Language/Interface/Record[Key='LogicTypePlantEfficiency3']
+msgctxt "Interface.LogicTypePlantEfficiency3"
+msgid "DEPRECATED"
+msgstr "已棄用"
 
 #: /Language/Interface/Record[Key='LogicTypePlantEfficiency2']
 msgctxt "Interface.LogicTypePlantEfficiency2"
 msgid "DEPRECATED"
 msgstr "已棄用"
 
-#: /Language/Interface/Record[Key='LogicTypePlantEfficiency1']
-msgctxt "Interface.LogicTypePlantEfficiency1"
-msgid "DEPRECATED"
-msgstr "已棄用"
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "延遲:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantGrowth4']
 msgctxt "Interface.LogicTypePlantGrowth4"
