@@ -1102,31 +1102,15 @@ msgctxt "Things.SeedBag_Mushroom"
 msgid "Grow a {THING:ItemMushroom}."
 msgstr "Cultiva un {THING:ItemMushroom}."
 
+#: /Language/Things/RecordThing[Key='Fertilizer']
+msgctxt "Things.Fertilizer"
+msgid "Fertilizer"
+msgstr "Fertilizante"
+
 #: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
 msgctxt "Things.StructureLiquidVolumePump"
 msgid "{BLANK}"
 msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='Fertilizer']
-msgctxt "Things.Fertilizer"
-msgid ""
-"Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.\n"
-"Fertilizer's affects depend on its ingredients:\n"
-"\n"
-"- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times\n"
-"- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
-"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for\n"
-"\n"
-"The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
-msgstr ""
-"El fertilizante altera los procesos de crecimiento de las plantas, y es creado por el compostador básico y el {THING:StructureAdvancedComposter} usando materia {LINK:OrganicPage;organic}.\n"
-"Los efectos de los fertilizantes dependen de sus ingredientes:\n"
-"\n"
-"- {LINK:OrganicPage;Food} aumenta el RENDIMIENTO DE LAS PLANTAS hasta dos veces\n"
-"- {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces\n"
-"- {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante\n"
-"\n"
-"El efecto de estos ingredientes depende de sus respectivas proporciones en el compostador cuando se activa el procesamiento. "
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
@@ -2858,48 +2842,57 @@ msgid "The seed tray can hold up to twelve plants or seeds and can be used to fa
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='Landingpad_CenterPiece01']
+#, fuzzy
 msgctxt "Things.Landingpad_CenterPiece01"
-msgid "Landingpad_ Center Piece01"
-msgstr ""
+msgid "Landingpad Center"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='Landingpad_CenterPiece01']
-#, fuzzy
 msgctxt "Things.Landingpad_CenterPiece01"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='Landingpad_StraightPiece01']
-msgctxt "Things.Landingpad_StraightPiece01"
-msgid "Landingpad_ Straight Piece01"
+msgid "The target point where the trader shuttle will land. Requires a clear view of the sky."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='Landingpad_StraightPiece01']
 #, fuzzy
 msgctxt "Things.Landingpad_StraightPiece01"
-msgid "{BLANK}"
+msgid "Landingpad Straight"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='Landingpad_DiagonalPiece01']
-msgctxt "Things.Landingpad_DiagonalPiece01"
-msgid "Landingpad_ Diagonal Piece01"
+#: /Language/Things/RecordThing[Key='Landingpad_StraightPiece01']
+msgctxt "Things.Landingpad_StraightPiece01"
+msgid "Extends the size of the landing pad area. A basic trader shuttle requires a 3x3 clear landing area."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='Landingpad_DiagonalPiece01']
-#, fuzzy
 msgctxt "Things.Landingpad_DiagonalPiece01"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "Landingpad Diagonal"
+msgstr ""
 
-#: /Language/Things/RecordThing[Key='Landingpad_DataConnectionPiece']
-msgctxt "Things.Landingpad_DataConnectionPiece"
-msgid "Landingpad_ Data Connection Piece"
+#: /Language/Things/RecordThing[Key='Landingpad_DiagonalPiece01']
+msgctxt "Things.Landingpad_DiagonalPiece01"
+msgid "Extends the size of the landing pad area. A basic trader shuttle requires a 3x3 clear landing area."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='Landingpad_CrossPiece']
+#, fuzzy
+msgctxt "Things.Landingpad_CrossPiece"
+msgid "Landingpad Cross"
+msgstr "Pista de aterrizaje"
+
+#: /Language/Things/RecordThing[Key='Landingpad_CrossPiece']
+msgctxt "Things.Landingpad_CrossPiece"
+msgid "Extends the size of the landing pad area. A basic trader shuttle requires a 3x3 clear landing area."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='Landingpad_DataConnectionPiece']
-#, fuzzy
 msgctxt "Things.Landingpad_DataConnectionPiece"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+msgid "Landingpad Data And Power"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='Landingpad_DataConnectionPiece']
+msgctxt "Things.Landingpad_DataConnectionPiece"
+msgid "Provides power to the landing pad. The data port must be connected to the data port of a computer with a communications motherboard for a trader to be called in to land."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
 msgctxt "Things.StructureLiquidVolumePump"
@@ -3929,8 +3922,24 @@ msgstr "Restos de la puerta compuesta"
 
 #: /Language/Things/RecordThing[Key='Fertilizer']
 msgctxt "Things.Fertilizer"
-msgid "Fertilizer"
-msgstr "Fertilizante"
+msgid ""
+"Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.\n"
+"Fertilizer's affects depend on its ingredients:\n"
+"\n"
+"- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times\n"
+"- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
+"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for\n"
+"\n"
+"The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
+msgstr ""
+"El fertilizante altera los procesos de crecimiento de las plantas, y es creado por el compostador básico y el {THING:StructureAdvancedComposter} usando materia {LINK:OrganicPage;organic}.\n"
+"Los efectos de los fertilizantes dependen de sus ingredientes:\n"
+"\n"
+"- {LINK:OrganicPage;Food} aumenta el RENDIMIENTO DE LAS PLANTAS hasta dos veces\n"
+"- {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces\n"
+"- {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante\n"
+"\n"
+"El efecto de estos ingredientes depende de sus respectivas proporciones en el compostador cuando se activa el procesamiento. "
 
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
 msgctxt "Things.ItemWreckageBlastDoor2"
@@ -6247,9 +6256,10 @@ msgid "Marine Armor"
 msgstr "Armadura de los marines"
 
 #: /Language/Things/RecordThing[Key='MotherboardComms']
+#, fuzzy
 msgctxt "Things.MotherboardComms"
-msgid "When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} allows Stationeers to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureSatelliteDish} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader."
-msgstr "Cuando se coloca en un {THING:StructureComputer} y se conecta a un {THING:StructureShuttleLandingPad}, un {THING:Structure SatelliteDish} y un {THING:StructureVendingMachine} permite a los Stationeers comerciar con proveedores. Ajuste los atributos horizontales y verticales de {THING:Structure SatelliteDish} directamente o mediante la lógica. Necesita una señal de comunicación del 95% o más para establecer comunicaciones confiables con un comerciante."
+msgid "When placed in a {THING:StructureComputer} and connected to a {THING:Landingpad_DataConnectionPiece}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} allows Stationeers to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureSatelliteDish} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader. A minimum of a 3x3 clear pad area with a {THING:Landingpad_CenterPiece01} at the center is required for a trader to land."
+msgstr "Placa base de comunicaciones"
 
 #: /Language/Things/RecordThing[Key='MotherboardComms']
 msgctxt "Things.MotherboardComms"
@@ -10335,10 +10345,10 @@ msgctxt "Things.ItemPillStun"
 msgid "Through rarely publicized, the existence of this pill is an open secret. For use when all else has failed, the Sayonara Suppository immobilizes and rapidly ends the average {LINK:Stationeers;Stationeer}. The delivery mode ensures that if a Stationeer chooses to take this pill, they really have to want it."
 msgstr "A través de rara vez publicitado, la existencia de esta píldora es un secreto a voces. Para su uso cuando todo lo demás ha fallado, el Supositorio Sayonara inmoviliza y termina rápidamente el promedio {LINK:Stationeers;Stationeer}. El modo de entrega asegura que si un Stationeer elige tomar esta píldora, realmente tiene que quererla."
 
-#: /Language/Things/RecordThing[Key='ItemPillStun']
-msgctxt "Things.ItemPillStun"
-msgid "Pill (Paralysis)"
-msgstr "Píldora (Parálisis)"
+#: /Language/Things/RecordThing[Key='ItemPillHeal']
+msgctxt "Things.ItemPillHeal"
+msgid "Three centuries of pharmaceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
+msgstr "Tres siglos de tecnología farmacéutica comprimidos en una pequeña píldora fácil de ingerir: la píldora curativa, también conocida como la píldora de protones, también conocida como Mr. Happy, contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares de mamíferos en un impulso de una sola dosis de alta pureza, eficacia y potencia que potencia una rápida respuesta inmunológica parasimpática."
 
 #: /Language/Things/RecordThing[Key='ItemPillHeal']
 msgctxt "Things.ItemPillHeal"
@@ -12321,10 +12331,30 @@ msgctxt "Things.ApplianceMicrowave"
 msgid "Microwave"
 msgstr "Microondas"
 
-#: /Language/Things/RecordThing[Key='ItemPillHeal']
-msgctxt "Things.ItemPillHeal"
-msgid "Three centuries of pharmaceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response."
-msgstr "Tres siglos de tecnología farmacéutica comprimidos en una pequeña píldora fácil de ingerir: la píldora curativa, también conocida como la píldora de protones, también conocida como Mr. Happy, contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares de mamíferos en un impulso de una sola dosis de alta pureza, eficacia y potencia que potencia una rápida respuesta inmunológica parasimpática."
+#: /Language/Things/RecordThing[Key='ItemPillStun']
+msgctxt "Things.ItemPillStun"
+msgid "Pill (Paralysis)"
+msgstr "Píldora (Parálisis)"
+
+#, fuzzy
+#~ msgctxt "Things.Landingpad_CenterPiece01"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.Landingpad_StraightPiece01"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.Landingpad_DiagonalPiece01"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.Landingpad_DataConnectionPiece"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.StructureTankSmallInsulated"
 #~ msgid "Tank Small (Insulated)"
