@@ -10,10 +10,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall1']
-msgctxt "Things.ItemWreckageTransformerSmall1"
-msgid "Description coming."
-msgstr "即将进行描述。"
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall2']
+msgctxt "Things.ItemWreckageTransformerSmall2"
+msgid "Wreckage Transformer Small"
+msgstr "小型变压器残骸"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "Liquid Volume Pump"
+msgstr "液体容积泵"
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
 msgctxt "Things.ItemLiquidPipeVolumePump"
@@ -1114,38 +1124,36 @@ msgctxt "Things.Fertilizer"
 msgid "Fertilizer"
 msgstr "肥料"
 
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='Fertilizer']
+msgctxt "Things.Fertilizer"
+msgid ""
+"Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.\n"
+"Fertilizer's affects depend on its ingredients:\n"
+"\n"
+"- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times\n"
+"- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
+"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for\n"
+"\n"
+"The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
+msgstr ""
+"肥料可以加快植物生长过程，由基础堆肥机和高级堆肥机使用有机物生产。\n"
+"肥料的影响取决于其成分：\n"
+"\n"
+"- 食物使植物产量提高两倍\n"
+"- 腐败的食物将植物生长速度提高两倍\n"
+"- 生物质增加了肥料持续的生长周期数\n"
+"\n"
+"这些成分的作用取决于它们在加工被激活时在堆肥机中的各自比例。 "
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
 msgctxt "Things.StructureAdvancedComposter"
 msgid "Advanced Composter"
 msgstr "高级堆肥机"
 
-#: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
-msgctxt "Things.StructureAdvancedComposter"
-msgid ""
-"The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires {GAS:Water} and power to operate, accelerating the natural composting process.\n"
-"When processing, it releases nitrogen and volatiles, as well a small amount of heat. \n"
-"\n"
-"{HEADER:Compost composition}\n"
-"Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.\n"
-"\n"
-"- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times\n"
-"- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
-"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times\n"
-msgstr ""
-"高级的堆肥机从有机物中产生肥料。它接受食物，腐败的食物或生物质。它需要水和电力来运行，加速了自然堆肥过程。\n"
-"加工时，它会释放氮气和挥发物，以及少量的热量。\n"
-"\n"
-"{HEADER:Compost composition}\n"
-"肥料以肥料与成分的1：3比例生产。肥料对植物的影响将根据其成分的相应比例而变化。\n"
-"\n"
-"- 食物使植物产量提高两倍\n"
-"- 腐败的食物将植物生长速度提高两倍\n"
-"- 生物质增加了肥料持续五倍的生长周期数"
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
+msgctxt "Things.DynamicMKIILiquidCanisterWater"
+msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
+msgstr "{THING：DynamicMKIILiquidCanisterWater}的绝缘版本，用于存储液体而不会增加或损失温度。"
 
 #: /Language/Things/RecordThing[Key='ItemKitAdvancedComposter']
 msgctxt "Things.ItemKitAdvancedComposter"
@@ -2845,7 +2853,6 @@ msgid "The seed tray can hold up to twelve plants or seeds and can be used to fa
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='Landingpad_CenterPiece01']
-#, fuzzy
 msgctxt "Things.Landingpad_CenterPiece01"
 msgid "Landingpad Center"
 msgstr ""
@@ -2856,7 +2863,6 @@ msgid "The target point where the trader shuttle will land. Requires a clear vie
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='Landingpad_StraightPiece01']
-#, fuzzy
 msgctxt "Things.Landingpad_StraightPiece01"
 msgid "Landingpad Straight"
 msgstr ""
@@ -2877,7 +2883,6 @@ msgid "Extends the size of the landing pad area. A basic trader shuttle requires
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='Landingpad_CrossPiece']
-#, fuzzy
 msgctxt "Things.Landingpad_CrossPiece"
 msgid "Landingpad Cross"
 msgstr ""
@@ -2897,15 +2902,40 @@ msgctxt "Things.Landingpad_DataConnectionPiece"
 msgid "Provides power to the landing pad. The data port must be connected to the data port of a computer with a communications motherboard for a trader to be called in to land."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "Liquid Volume Pump"
-msgstr "液体容积泵"
+#: /Language/Things/RecordThing[Key='SeedBag_Switchgrass']
+msgctxt "Things.SeedBag_Switchgrass"
+msgid "Switchgrass Seed"
+msgstr ""
 
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
-msgctxt "Things.DynamicMKIILiquidCanisterWater"
-msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
-msgstr "{THING：DynamicMKIILiquidCanisterWater}的绝缘版本，用于存储液体而不会增加或损失温度。"
+#: /Language/Things/RecordThing[Key='SeedBag_Switchgrass']
+#, fuzzy
+msgctxt "Things.SeedBag_Switchgrass"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemPlantSwitchGrass']
+#, fuzzy
+msgctxt "Things.ItemPlantSwitchGrass"
+msgid "Switch Grass"
+msgstr "开关"
+
+#: /Language/Things/RecordThing[Key='ItemPlantSwitchGrass']
+#, fuzzy
+msgctxt "Things.ItemPlantSwitchGrass"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemCropHay']
+#, fuzzy
+msgctxt "Things.ItemCropHay"
+msgid "Hay"
+msgstr "帽子"
+
+#: /Language/Things/RecordThing[Key='ItemCropHay']
+#, fuzzy
+msgctxt "Things.ItemCropHay"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
 msgctxt "Things.DynamicMKIILiquidCanisterWater"
@@ -3915,31 +3945,33 @@ msgctxt "Things.ItemWreckageCompositeDoor1"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
+#: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
+msgctxt "Things.StructureAdvancedComposter"
+msgid ""
+"The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires {GAS:Water} and power to operate, accelerating the natural composting process.\n"
+"When processing, it releases nitrogen and volatiles, as well a small amount of heat. \n"
+"\n"
+"{HEADER:Compost composition}\n"
+"Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.\n"
+"\n"
+"- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times\n"
+"- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
+"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times\n"
+msgstr ""
+"高级的堆肥机从有机物中产生肥料。它接受食物，腐败的食物或生物质。它需要水和电力来运行，加速了自然堆肥过程。\n"
+"加工时，它会释放氮气和挥发物，以及少量的热量。\n"
+"\n"
+"{HEADER:Compost composition}\n"
+"肥料以肥料与成分的1：3比例生产。肥料对植物的影响将根据其成分的相应比例而变化。\n"
+"\n"
+"- 食物使植物产量提高两倍\n"
+"- 腐败的食物将植物生长速度提高两倍\n"
+"- 生物质增加了肥料持续五倍的生长周期数"
+
 #: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
 msgctxt "Things.ItemWreckageCompositeDoor1"
 msgid "Wreckage Composite Door"
 msgstr "复合门残骸"
-
-#: /Language/Things/RecordThing[Key='Fertilizer']
-msgctxt "Things.Fertilizer"
-msgid ""
-"Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.\n"
-"Fertilizer's affects depend on its ingredients:\n"
-"\n"
-"- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times\n"
-"- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
-"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for\n"
-"\n"
-"The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
-msgstr ""
-"肥料可以加快植物生长过程，由基础堆肥机和高级堆肥机使用有机物生产。\n"
-"肥料的影响取决于其成分：\n"
-"\n"
-"- 食物使植物产量提高两倍\n"
-"- 腐败的食物将植物生长速度提高两倍\n"
-"- 生物质增加了肥料持续的生长周期数\n"
-"\n"
-"这些成分的作用取决于它们在加工被激活时在堆肥机中的各自比例。 "
 
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
 msgctxt "Things.ItemWreckageBlastDoor2"
@@ -4656,10 +4688,10 @@ msgctxt "Things.ItemWreckageTransformerSmall2"
 msgid "Description coming."
 msgstr "即将进行描述。"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall2']
-msgctxt "Things.ItemWreckageTransformerSmall2"
-msgid "Wreckage Transformer Small"
-msgstr "小型变压器残骸"
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall1']
+msgctxt "Things.ItemWreckageTransformerSmall1"
+msgid "Description coming."
+msgstr "即将进行描述。"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall1']
 msgctxt "Things.ItemWreckageTransformerSmall1"
@@ -4861,24 +4893,37 @@ msgctxt "Things.StructureBatteryLarge"
 msgid "Station Battery (Large)"
 msgstr "电池站（大）"
 
-#: /Language/Things/RecordThing[Key='StructureAirlockGate']
-msgctxt "Things.StructureAirlockGate"
-msgid "Description coming."
-msgstr "即将进行描述。"
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
+msgctxt "Things.StructureMediumHangerDoor"
+msgid "1 x 2 modular door piece for building hanger doors."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
+#, fuzzy
+msgctxt "Things.StructureMediumHangerDoor"
+msgid "Medium Hanger Door"
+msgstr "套件（吊柜门）"
 
 #: /Language/Things/RecordThing[Key='StructureAirlockGate']
 msgctxt "Things.StructureAirlockGate"
-msgid "Airlock Gate"
+msgid "1 x 1 modular door piece for building hanger doors."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureAirlockGate']
+#, fuzzy
+msgctxt "Things.StructureAirlockGate"
+msgid "Small Hanger Door"
 msgstr "气闸门"
 
 #: /Language/Things/RecordThing[Key='ItemKitAirlockGate']
 msgctxt "Things.ItemKitAirlockGate"
-msgid "Description coming."
-msgstr "即将进行描述。"
+msgid "Modular door pieces for creating large hanger doors."
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitAirlockGate']
+#, fuzzy
 msgctxt "Things.ItemKitAirlockGate"
-msgid "Kit (Airlock Gate)"
+msgid "Kit (Hanger Door)"
 msgstr "套件（气闸门）"
 
 #: /Language/Things/RecordThing[Key='StructureEmergencyButton']
@@ -10315,8 +10360,8 @@ msgstr "套件包（管道分析仪）"
 
 #: /Language/Things/RecordThing[Key='ItemPillStun']
 msgctxt "Things.ItemPillStun"
-msgid "Through rarely publicized, the existence of this pill is an open secret. For use when all else has failed, the Sayonara Suppository immobilizes and rapidly ends the average {LINK:Stationeers;Stationeer}. The delivery mode ensures that if a Stationeer chooses to take this pill, they really have to want it."
-msgstr "尽管很少推广，但此药丸的存在已经成为了一个公开的秘密。仅供其它一切尝试都失败时使用，此Sayonara栓剂能够使 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 失去行动能力且迅速结束其生命。其交付模式能够确保仅当一位Stationeer真的需要这种药丸时，才会选择服用它。"
+msgid "Pill (Paralysis)"
+msgstr "药丸（麻痹）"
 
 #: /Language/Things/RecordThing[Key='ItemPillHeal']
 #, fuzzy
@@ -12321,8 +12366,24 @@ msgstr "微波炉"
 
 #: /Language/Things/RecordThing[Key='ItemPillStun']
 msgctxt "Things.ItemPillStun"
-msgid "Pill (Paralysis)"
-msgstr "药丸（麻痹）"
+msgid "Through rarely publicized, the existence of this pill is an open secret. For use when all else has failed, the Sayonara Suppository immobilizes and rapidly ends the average {LINK:Stationeers;Stationeer}. The delivery mode ensures that if a Stationeer chooses to take this pill, they really have to want it."
+msgstr "尽管很少推广，但此药丸的存在已经成为了一个公开的秘密。仅供其它一切尝试都失败时使用，此Sayonara栓剂能够使 &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 失去行动能力且迅速结束其生命。其交付模式能够确保仅当一位Stationeer真的需要这种药丸时，才会选择服用它。"
+
+#~ msgctxt "Things.StructureAirlockGate"
+#~ msgid "Description coming."
+#~ msgstr "即将进行描述。"
+
+#~ msgctxt "Things.StructureAirlockGate"
+#~ msgid "Airlock Gate"
+#~ msgstr "气闸门"
+
+#~ msgctxt "Things.ItemKitAirlockGate"
+#~ msgid "Description coming."
+#~ msgstr "即将进行描述。"
+
+#~ msgctxt "Things.ItemKitAirlockGate"
+#~ msgid "Kit (Airlock Gate)"
+#~ msgstr "套件（气闸门）"
 
 #, fuzzy
 #~ msgctxt "Things.Landingpad_CenterPiece01"

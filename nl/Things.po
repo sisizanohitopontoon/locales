@@ -10,9 +10,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall1']
-msgctxt "Things.ItemWreckageTransformerSmall1"
-msgid "Description coming."
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall2']
+msgctxt "Things.ItemWreckageTransformerSmall2"
+msgid "Wreckage Transformer Small"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "Liquid Volume Pump"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
+msgctxt "Things.StructureLiquidVolumePump"
+msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
@@ -1009,9 +1019,17 @@ msgctxt "Things.Fertilizer"
 msgid "Fertilizer"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "{BLANK}"
+#: /Language/Things/RecordThing[Key='Fertilizer']
+msgctxt "Things.Fertilizer"
+msgid ""
+"Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.\n"
+"Fertilizer's affects depend on its ingredients:\n"
+"\n"
+"- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times\n"
+"- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
+"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for\n"
+"\n"
+"The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
@@ -1019,18 +1037,9 @@ msgctxt "Things.StructureAdvancedComposter"
 msgid "Advanced Composter"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
-msgctxt "Things.StructureAdvancedComposter"
-msgid ""
-"The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires {GAS:Water} and power to operate, accelerating the natural composting process.\n"
-"When processing, it releases nitrogen and volatiles, as well a small amount of heat. \n"
-"\n"
-"{HEADER:Compost composition}\n"
-"Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.\n"
-"\n"
-"- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times\n"
-"- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
-"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times\n"
+#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
+msgctxt "Things.DynamicMKIILiquidCanisterWater"
+msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitAdvancedComposter']
@@ -2715,14 +2724,34 @@ msgctxt "Things.Landingpad_DataConnectionPiece"
 msgid "Provides power to the landing pad. The data port must be connected to the data port of a computer with a communications motherboard for a trader to be called in to land."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureLiquidVolumePump']
-msgctxt "Things.StructureLiquidVolumePump"
-msgid "Liquid Volume Pump"
+#: /Language/Things/RecordThing[Key='SeedBag_Switchgrass']
+msgctxt "Things.SeedBag_Switchgrass"
+msgid "Switchgrass Seed"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
-msgctxt "Things.DynamicMKIILiquidCanisterWater"
-msgid "An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature."
+#: /Language/Things/RecordThing[Key='SeedBag_Switchgrass']
+msgctxt "Things.SeedBag_Switchgrass"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemPlantSwitchGrass']
+msgctxt "Things.ItemPlantSwitchGrass"
+msgid "Switch Grass"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemPlantSwitchGrass']
+msgctxt "Things.ItemPlantSwitchGrass"
+msgid "{BLANK}"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemCropHay']
+msgctxt "Things.ItemCropHay"
+msgid "Hay"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemCropHay']
+msgctxt "Things.ItemCropHay"
+msgid "{BLANK}"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='DynamicMKIILiquidCanisterWater']
@@ -3724,22 +3753,23 @@ msgctxt "Things.ItemWreckageCompositeDoor1"
 msgid "{BLANK}"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
-msgctxt "Things.ItemWreckageCompositeDoor1"
-msgid "Wreckage Composite Door"
-msgstr ""
-
-#: /Language/Things/RecordThing[Key='Fertilizer']
-msgctxt "Things.Fertilizer"
+#: /Language/Things/RecordThing[Key='StructureAdvancedComposter']
+msgctxt "Things.StructureAdvancedComposter"
 msgid ""
-"Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.\n"
-"Fertilizer's affects depend on its ingredients:\n"
+"The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires {GAS:Water} and power to operate, accelerating the natural composting process.\n"
+"When processing, it releases nitrogen and volatiles, as well a small amount of heat. \n"
+"\n"
+"{HEADER:Compost composition}\n"
+"Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.\n"
 "\n"
 "- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times\n"
 "- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
-"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for\n"
-"\n"
-"The effect of these ingredients depends on their respective proportions in the composter when processing is activated. "
+"- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times\n"
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='ItemWreckageCompositeDoor1']
+msgctxt "Things.ItemWreckageCompositeDoor1"
+msgid "Wreckage Composite Door"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageBlastDoor2']
@@ -4484,9 +4514,9 @@ msgctxt "Things.ItemWreckageTransformerSmall2"
 msgid "Description coming."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall2']
-msgctxt "Things.ItemWreckageTransformerSmall2"
-msgid "Wreckage Transformer Small"
+#: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall1']
+msgctxt "Things.ItemWreckageTransformerSmall1"
+msgid "Description coming."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageTransformerSmall1']
@@ -4692,24 +4722,34 @@ msgctxt "Things.StructureBatteryLarge"
 msgid "Station Battery (Large)"
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureAirlockGate']
-msgctxt "Things.StructureAirlockGate"
-msgid "Description coming."
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
+msgctxt "Things.StructureMediumHangerDoor"
+msgid "1 x 2 modular door piece for building hanger doors."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
+msgctxt "Things.StructureMediumHangerDoor"
+msgid "Medium Hanger Door"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureAirlockGate']
 msgctxt "Things.StructureAirlockGate"
-msgid "Airlock Gate"
+msgid "1 x 1 modular door piece for building hanger doors."
+msgstr ""
+
+#: /Language/Things/RecordThing[Key='StructureAirlockGate']
+msgctxt "Things.StructureAirlockGate"
+msgid "Small Hanger Door"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitAirlockGate']
 msgctxt "Things.ItemKitAirlockGate"
-msgid "Description coming."
+msgid "Modular door pieces for creating large hanger doors."
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemKitAirlockGate']
 msgctxt "Things.ItemKitAirlockGate"
-msgid "Kit (Airlock Gate)"
+msgid "Kit (Hanger Door)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureEmergencyButton']
@@ -9984,7 +10024,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPillStun']
 msgctxt "Things.ItemPillStun"
-msgid "Through rarely publicized, the existence of this pill is an open secret. For use when all else has failed, the Sayonara Suppository immobilizes and rapidly ends the average {LINK:Stationeers;Stationeer}. The delivery mode ensures that if a Stationeer chooses to take this pill, they really have to want it."
+msgid "Pill (Paralysis)"
 msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPillHeal']
@@ -11933,7 +11973,7 @@ msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPillStun']
 msgctxt "Things.ItemPillStun"
-msgid "Pill (Paralysis)"
+msgid "Through rarely publicized, the existence of this pill is an open secret. For use when all else has failed, the Sayonara Suppository immobilizes and rapidly ends the average {LINK:Stationeers;Stationeer}. The delivery mode ensures that if a Stationeer chooses to take this pill, they really have to want it."
 msgstr ""
 
 #~ msgctxt "Things.ItemKitPipeValve"
