@@ -10,20 +10,25 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
-msgctxt "Interface.JoinMenuInfoPlayers"
-msgid "Players:"
-msgstr "人數:"
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "延遲:"
 
-#: /Language/Interface/Record[Key='KitCategory']
-msgctxt "Interface.KitCategory"
-msgid "Construction Kits"
-msgstr "施工套件"
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "繼續"
 
 #: /Language/Interface/Record[Key='DoorCategory']
 msgctxt "Interface.DoorCategory"
 msgid "Doors and Hatches"
 msgstr "門和艙門"
+
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Chairs"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PersonalSuits']
 msgctxt "Interface.PersonalSuits"
@@ -262,15 +267,15 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "離開至桌面"
 
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "讀取世界"
-
 #: /Language/Interface/Record[Key='LogicTypePlantGrowth1']
 msgctxt "Interface.LogicTypePlantGrowth1"
 msgid "DEPRECATED"
 msgstr "已棄用"
+
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "讀取世界"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -744,6 +749,11 @@ msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
 msgstr "柔化品質"
 
+#: /Language/Interface/Record[Key='KitCategory']
+msgctxt "Interface.KitCategory"
+msgid "Construction Kits"
+msgstr "施工套件"
+
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
@@ -758,11 +768,6 @@ msgstr "光點數量"
 msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "陰影"
-
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Chairs"
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsShadowResolution']
 msgctxt "Interface.SettingsShadowResolution"
@@ -1479,10 +1484,10 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "加入最愛"
 
-#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
-msgctxt "Interface.SaveMenuSaveWorldButton"
-msgid "Save World"
-msgstr "儲存世界"
+#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
+msgctxt "Interface.SaveMenuOverwriteButton"
+msgid "Overwrite"
+msgstr "覆蓋"
 
 #: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
 msgctxt "Interface.SaveMenuNamePlaceholder"
@@ -1508,16 +1513,6 @@ msgstr "地圖:"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP 位置:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoMap']
-msgctxt "Interface.JoinMenuInfoMap"
-msgid "Map:"
-msgstr "地圖:"
-
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "繼續"
 
 #: /Language/Interface/Record[Key='SoonTM']
 msgctxt "Interface.SoonTM"
@@ -1566,6 +1561,12 @@ msgctxt "Interface.Throttle"
 msgid "Throttle"
 msgstr ""
 
+#: /Language/Interface/Record[Key='TradingDevices']
+#, fuzzy
+msgctxt "Interface.TradingDevices"
+msgid "Trading Devices"
+msgstr "邏輯裝置"
+
 #: /Language/Interface/Record[Key='GeneticDevices']
 #, fuzzy
 msgctxt "Interface.GeneticDevices"
@@ -1576,6 +1577,12 @@ msgstr "邏輯裝置"
 msgctxt "Interface.GeneticsHeader"
 msgid "Genes"
 msgstr ""
+
+#: /Language/Interface/Record[Key='ContactItemLostContact']
+#, fuzzy
+msgctxt "Interface.ContactItemLostContact"
+msgid "Lost Contact"
+msgstr "聯絡"
 
 #: /Language/Interface/Record[Key='CartridgePlantAnalyserTitle']
 msgctxt "Interface.CartridgePlantAnalyserTitle"
@@ -1759,10 +1766,10 @@ msgctxt "Interface.StationpediaBasePowerUsage"
 msgid "Base Power Usage:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "版本:"
+#: /Language/Interface/Record[Key='JoinMenuInfoMap']
+msgctxt "Interface.JoinMenuInfoMap"
+msgid "Map:"
+msgstr "地圖:"
 
 #: /Language/Interface/Record[Key='Radius']
 msgctxt "Interface.Radius"
@@ -2135,6 +2142,11 @@ msgstr "邏輯裝置"
 #: /Language/Interface/Record[Key='StructureCategoryKey']
 msgctxt "Interface.StructureCategoryKey"
 msgid "Structures"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TradingCategoryKey']
+msgctxt "Interface.TradingCategoryKey"
+msgid "Trading"
 msgstr ""
 
 #: /Language/Interface/Record[Key='GeneticsCategoryKey']
@@ -5154,10 +5166,10 @@ msgctxt "Interface.LogicTypePlantGrowth2"
 msgid "DEPRECATED"
 msgstr "已棄用"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "延遲:"
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "版本:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHealth4']
 msgctxt "Interface.LogicTypePlantHealth4"
@@ -6378,10 +6390,15 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "變更外觀"
 
-#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
-msgctxt "Interface.SaveMenuOverwriteButton"
-msgid "Overwrite"
-msgstr "覆蓋"
+#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
+msgctxt "Interface.JoinMenuInfoPlayers"
+msgid "Players:"
+msgstr "人數:"
+
+#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
+msgctxt "Interface.SaveMenuSaveWorldButton"
+msgid "Save World"
+msgstr "儲存世界"
 
 #, fuzzy
 #~ msgctxt "Interface.ShadowCascades"

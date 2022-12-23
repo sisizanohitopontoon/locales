@@ -10,20 +10,25 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
-msgctxt "Interface.JoinMenuInfoPlayers"
-msgid "Players:"
-msgstr "플레이어:"
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "지연:"
 
-#: /Language/Interface/Record[Key='KitCategory']
-msgctxt "Interface.KitCategory"
-msgid "Construction Kits"
-msgstr "건설 키트"
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "이어하기"
 
 #: /Language/Interface/Record[Key='DoorCategory']
 msgctxt "Interface.DoorCategory"
 msgid "Doors and Hatches"
 msgstr "문과 출입구"
+
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Chairs"
+msgstr ""
 
 #: /Language/Interface/Record[Key='PersonalSuits']
 msgctxt "Interface.PersonalSuits"
@@ -261,15 +266,15 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "게임 종료"
 
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "불러오기"
-
 #: /Language/Interface/Record[Key='LogicTypePlantGrowth1']
 msgctxt "Interface.LogicTypePlantGrowth1"
 msgid "DEPRECATED"
 msgstr ""
+
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "불러오기"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -744,6 +749,11 @@ msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
 msgstr "부드러운 파티클"
 
+#: /Language/Interface/Record[Key='KitCategory']
+msgctxt "Interface.KitCategory"
+msgid "Construction Kits"
+msgstr "건설 키트"
+
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
@@ -758,11 +768,6 @@ msgstr "픽셀 라이트 개수"
 msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "그림자"
-
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Chairs"
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsShadowResolution']
 msgctxt "Interface.SettingsShadowResolution"
@@ -1487,10 +1492,10 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "즐겨찾기추가"
 
-#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
-msgctxt "Interface.SaveMenuSaveWorldButton"
-msgid "Save World"
-msgstr "저장하기"
+#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
+msgctxt "Interface.SaveMenuOverwriteButton"
+msgid "Overwrite"
+msgstr "덮어쓰기"
 
 #: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
 msgctxt "Interface.SaveMenuNamePlaceholder"
@@ -1516,16 +1521,6 @@ msgstr "세계"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP주소:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoMap']
-msgctxt "Interface.JoinMenuInfoMap"
-msgid "Map:"
-msgstr "세계:"
-
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "이어하기"
 
 #: /Language/Interface/Record[Key='SoonTM']
 msgctxt "Interface.SoonTM"
@@ -1574,6 +1569,12 @@ msgctxt "Interface.Throttle"
 msgid "Throttle"
 msgstr ""
 
+#: /Language/Interface/Record[Key='TradingDevices']
+#, fuzzy
+msgctxt "Interface.TradingDevices"
+msgid "Trading Devices"
+msgstr "No Device"
+
 #: /Language/Interface/Record[Key='GeneticDevices']
 #, fuzzy
 msgctxt "Interface.GeneticDevices"
@@ -1584,6 +1585,12 @@ msgstr "No Device"
 msgctxt "Interface.GeneticsHeader"
 msgid "Genes"
 msgstr ""
+
+#: /Language/Interface/Record[Key='ContactItemLostContact']
+#, fuzzy
+msgctxt "Interface.ContactItemLostContact"
+msgid "Lost Contact"
+msgstr "조작"
 
 #: /Language/Interface/Record[Key='CartridgePlantAnalyserTitle']
 msgctxt "Interface.CartridgePlantAnalyserTitle"
@@ -1767,10 +1774,10 @@ msgctxt "Interface.StationpediaBasePowerUsage"
 msgid "Base Power Usage:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "버전:"
+#: /Language/Interface/Record[Key='JoinMenuInfoMap']
+msgctxt "Interface.JoinMenuInfoMap"
+msgid "Map:"
+msgstr "세계:"
 
 #: /Language/Interface/Record[Key='Radius']
 msgctxt "Interface.Radius"
@@ -2169,6 +2176,11 @@ msgstr "No Device"
 #: /Language/Interface/Record[Key='StructureCategoryKey']
 msgctxt "Interface.StructureCategoryKey"
 msgid "Structures"
+msgstr ""
+
+#: /Language/Interface/Record[Key='TradingCategoryKey']
+msgctxt "Interface.TradingCategoryKey"
+msgid "Trading"
 msgstr ""
 
 #: /Language/Interface/Record[Key='GeneticsCategoryKey']
@@ -5255,10 +5267,10 @@ msgctxt "Interface.LogicTypePlantGrowth2"
 msgid "DEPRECATED"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "지연:"
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "버전:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHealth4']
 msgctxt "Interface.LogicTypePlantHealth4"
@@ -6496,10 +6508,15 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "모양 변경"
 
-#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
-msgctxt "Interface.SaveMenuOverwriteButton"
-msgid "Overwrite"
-msgstr "덮어쓰기"
+#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
+msgctxt "Interface.JoinMenuInfoPlayers"
+msgid "Players:"
+msgstr "플레이어:"
+
+#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
+msgctxt "Interface.SaveMenuSaveWorldButton"
+msgid "Save World"
+msgstr "저장하기"
 
 #, fuzzy
 #~ msgctxt "Interface.ShadowCascades"

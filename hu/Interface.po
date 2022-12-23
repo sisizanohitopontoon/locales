@@ -10,20 +10,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
-msgctxt "Interface.JoinMenuInfoPlayers"
-msgid "Players:"
-msgstr "Játékosok:"
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "Késleltetés:"
 
-#: /Language/Interface/Record[Key='KitCategory']
-msgctxt "Interface.KitCategory"
-msgid "Construction Kits"
-msgstr "Építési készletek"
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "Folytatás"
 
 #: /Language/Interface/Record[Key='DoorCategory']
 msgctxt "Interface.DoorCategory"
 msgid "Doors and Hatches"
 msgstr "Ajtók és nyílások"
+
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Chairs"
+msgstr "Székek"
 
 #: /Language/Interface/Record[Key='PersonalSuits']
 msgctxt "Interface.PersonalSuits"
@@ -262,15 +267,15 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Kilépés az asztalra"
 
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "Világ betöltése"
-
 #: /Language/Interface/Record[Key='LogicTypePlantGrowth1']
 msgctxt "Interface.LogicTypePlantGrowth1"
 msgid "DEPRECATED"
 msgstr "ELAVULT"
+
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "Világ betöltése"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -743,6 +748,11 @@ msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
 msgstr "Finom részecskék"
 
+#: /Language/Interface/Record[Key='KitCategory']
+msgctxt "Interface.KitCategory"
+msgid "Construction Kits"
+msgstr "Építési készletek"
+
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
@@ -757,11 +767,6 @@ msgstr "Pixel fények száma"
 msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Árnyékok"
-
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Chairs"
-msgstr "Székek"
 
 #: /Language/Interface/Record[Key='SettingsShadowResolution']
 msgctxt "Interface.SettingsShadowResolution"
@@ -1482,10 +1487,10 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "Kedvenc"
 
-#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
-msgctxt "Interface.SaveMenuSaveWorldButton"
-msgid "Save World"
-msgstr "Világ mentése"
+#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
+msgctxt "Interface.SaveMenuOverwriteButton"
+msgid "Overwrite"
+msgstr "Felülírás"
 
 #: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
 msgctxt "Interface.SaveMenuNamePlaceholder"
@@ -1511,16 +1516,6 @@ msgstr "Pálya"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "IP cím:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoMap']
-msgctxt "Interface.JoinMenuInfoMap"
-msgid "Map:"
-msgstr "Pálya:"
-
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "Folytatás"
 
 #: /Language/Interface/Record[Key='SoonTM']
 msgctxt "Interface.SoonTM"
@@ -1569,6 +1564,12 @@ msgctxt "Interface.Throttle"
 msgid "Throttle"
 msgstr ""
 
+#: /Language/Interface/Record[Key='TradingDevices']
+#, fuzzy
+msgctxt "Interface.TradingDevices"
+msgid "Trading Devices"
+msgstr "Kereskedő terminál"
+
 #: /Language/Interface/Record[Key='GeneticDevices']
 #, fuzzy
 msgctxt "Interface.GeneticDevices"
@@ -1579,6 +1580,12 @@ msgstr "Logikai eszközök"
 msgctxt "Interface.GeneticsHeader"
 msgid "Genes"
 msgstr ""
+
+#: /Language/Interface/Record[Key='ContactItemLostContact']
+#, fuzzy
+msgctxt "Interface.ContactItemLostContact"
+msgid "Lost Contact"
+msgstr "Ügyfél"
 
 #: /Language/Interface/Record[Key='CartridgePlantAnalyserTitle']
 #, fuzzy
@@ -1764,10 +1771,10 @@ msgctxt "Interface.StationpediaBasePowerUsage"
 msgid "Base Power Usage:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "Verzió:"
+#: /Language/Interface/Record[Key='JoinMenuInfoMap']
+msgctxt "Interface.JoinMenuInfoMap"
+msgid "Map:"
+msgstr "Pálya:"
 
 #: /Language/Interface/Record[Key='Radius']
 msgctxt "Interface.Radius"
@@ -2141,6 +2148,12 @@ msgstr "Logikai eszközök"
 msgctxt "Interface.StructureCategoryKey"
 msgid "Structures"
 msgstr "Struktúrák"
+
+#: /Language/Interface/Record[Key='TradingCategoryKey']
+#, fuzzy
+msgctxt "Interface.TradingCategoryKey"
+msgid "Trading"
+msgstr "Üzletelés"
 
 #: /Language/Interface/Record[Key='GeneticsCategoryKey']
 msgctxt "Interface.GeneticsCategoryKey"
@@ -5191,10 +5204,10 @@ msgctxt "Interface.LogicTypePlantGrowth2"
 msgid "DEPRECATED"
 msgstr "ELAVULT"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "Késleltetés:"
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "Verzió:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHealth4']
 msgctxt "Interface.LogicTypePlantHealth4"
@@ -6449,10 +6462,15 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Külső megváltoztatása"
 
-#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
-msgctxt "Interface.SaveMenuOverwriteButton"
-msgid "Overwrite"
-msgstr "Felülírás"
+#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
+msgctxt "Interface.JoinMenuInfoPlayers"
+msgid "Players:"
+msgstr "Játékosok:"
+
+#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
+msgctxt "Interface.SaveMenuSaveWorldButton"
+msgid "Save World"
+msgstr "Világ mentése"
 
 #, fuzzy
 #~ msgctxt "Interface.ShadowCascades"

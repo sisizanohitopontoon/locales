@@ -10,20 +10,24 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
-msgctxt "Interface.JoinMenuInfoPlayers"
-msgid "Players:"
-msgstr "Jogadores:"
+#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
+msgctxt "Interface.JoinMenuInfoLatency"
+msgid "Latency:"
+msgstr "Latência:"
 
-#: /Language/Interface/Record[Key='KitCategory']
-#, fuzzy
-msgctxt "Interface.KitCategory"
-msgid "Construction Kits"
-msgstr "Construção"
+#: /Language/Interface/Record[Key='MainMenuContinue']
+msgctxt "Interface.MainMenuContinue"
+msgid "Continue"
+msgstr "Continuar"
 
 #: /Language/Interface/Record[Key='DoorCategory']
 msgctxt "Interface.DoorCategory"
 msgid "Doors and Hatches"
+msgstr ""
+
+#: /Language/Interface/Record[Key='ChairTableCategory']
+msgctxt "Interface.ChairTableCategory"
+msgid "Chairs"
 msgstr ""
 
 #: /Language/Interface/Record[Key='PersonalSuits']
@@ -267,15 +271,15 @@ msgctxt "Interface.MainMenuExit"
 msgid "Exit To Desktop"
 msgstr "Sair para Área de Trabalho"
 
-#: /Language/Interface/Record[Key='LoadMenuTitle']
-msgctxt "Interface.LoadMenuTitle"
-msgid "Load World"
-msgstr "Carregar Mundo"
-
 #: /Language/Interface/Record[Key='LogicTypePlantGrowth1']
 msgctxt "Interface.LogicTypePlantGrowth1"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
+
+#: /Language/Interface/Record[Key='LoadMenuTitle']
+msgctxt "Interface.LoadMenuTitle"
+msgid "Load World"
+msgstr "Carregar Mundo"
 
 #: /Language/Interface/Record[Key='LoadMenuFileListTitle']
 msgctxt "Interface.LoadMenuFileListTitle"
@@ -749,6 +753,12 @@ msgctxt "Interface.SettingsSoftParticles"
 msgid "Soft Particles"
 msgstr "Partículas Suaves"
 
+#: /Language/Interface/Record[Key='KitCategory']
+#, fuzzy
+msgctxt "Interface.KitCategory"
+msgid "Construction Kits"
+msgstr "Construção"
+
 #: /Language/Interface/Record[Key='SettingsVolumetricLighting']
 msgctxt "Interface.SettingsVolumetricLighting"
 msgid "Volumetric Lighting"
@@ -763,11 +773,6 @@ msgstr "Contagem de Pixel Light"
 msgctxt "Interface.SettingsShadows"
 msgid "Shadows"
 msgstr "Sombras"
-
-#: /Language/Interface/Record[Key='ChairTableCategory']
-msgctxt "Interface.ChairTableCategory"
-msgid "Chairs"
-msgstr ""
 
 #: /Language/Interface/Record[Key='SettingsShadowResolution']
 msgctxt "Interface.SettingsShadowResolution"
@@ -1496,10 +1501,10 @@ msgctxt "Interface.JoinMenuServerDetailFavoriteButton"
 msgid "Favorite"
 msgstr "Adicionar os Favoritos"
 
-#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
-msgctxt "Interface.SaveMenuSaveWorldButton"
-msgid "Save World"
-msgstr "Gravar Mundo"
+#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
+msgctxt "Interface.SaveMenuOverwriteButton"
+msgid "Overwrite"
+msgstr "Sobrescrever"
 
 #: /Language/Interface/Record[Key='SaveMenuNamePlaceholder']
 msgctxt "Interface.SaveMenuNamePlaceholder"
@@ -1525,16 +1530,6 @@ msgstr "Mapa"
 msgctxt "Interface.JoinMenuInfoIPAddress"
 msgid "IP Address:"
 msgstr "Endereço IP:"
-
-#: /Language/Interface/Record[Key='JoinMenuInfoMap']
-msgctxt "Interface.JoinMenuInfoMap"
-msgid "Map:"
-msgstr "Mapa:"
-
-#: /Language/Interface/Record[Key='MainMenuContinue']
-msgctxt "Interface.MainMenuContinue"
-msgid "Continue"
-msgstr "Continuar"
 
 #: /Language/Interface/Record[Key='SoonTM']
 msgctxt "Interface.SoonTM"
@@ -1583,6 +1578,12 @@ msgctxt "Interface.Throttle"
 msgid "Throttle"
 msgstr ""
 
+#: /Language/Interface/Record[Key='TradingDevices']
+#, fuzzy
+msgctxt "Interface.TradingDevices"
+msgid "Trading Devices"
+msgstr "Terminal de Comércio"
+
 #: /Language/Interface/Record[Key='GeneticDevices']
 #, fuzzy
 msgctxt "Interface.GeneticDevices"
@@ -1593,6 +1594,12 @@ msgstr "Sem Dispositivo"
 msgctxt "Interface.GeneticsHeader"
 msgid "Genes"
 msgstr ""
+
+#: /Language/Interface/Record[Key='ContactItemLostContact']
+#, fuzzy
+msgctxt "Interface.ContactItemLostContact"
+msgid "Lost Contact"
+msgstr "Contactar"
 
 #: /Language/Interface/Record[Key='CartridgePlantAnalyserTitle']
 #, fuzzy
@@ -1778,10 +1785,10 @@ msgctxt "Interface.StationpediaBasePowerUsage"
 msgid "Base Power Usage:"
 msgstr ""
 
-#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
-msgctxt "Interface.JoinMenuInfoVersion"
-msgid "Version:"
-msgstr "Versão:"
+#: /Language/Interface/Record[Key='JoinMenuInfoMap']
+msgctxt "Interface.JoinMenuInfoMap"
+msgid "Map:"
+msgstr "Mapa:"
 
 #: /Language/Interface/Record[Key='Radius']
 msgctxt "Interface.Radius"
@@ -2178,6 +2185,12 @@ msgstr "Sem Dispositivo"
 msgctxt "Interface.StructureCategoryKey"
 msgid "Structures"
 msgstr ""
+
+#: /Language/Interface/Record[Key='TradingCategoryKey']
+#, fuzzy
+msgctxt "Interface.TradingCategoryKey"
+msgid "Trading"
+msgstr "Comercializar"
 
 #: /Language/Interface/Record[Key='GeneticsCategoryKey']
 msgctxt "Interface.GeneticsCategoryKey"
@@ -5250,10 +5263,10 @@ msgctxt "Interface.LogicTypePlantGrowth2"
 msgid "DEPRECATED"
 msgstr "DEPRECATED"
 
-#: /Language/Interface/Record[Key='JoinMenuInfoLatency']
-msgctxt "Interface.JoinMenuInfoLatency"
-msgid "Latency:"
-msgstr "Latência:"
+#: /Language/Interface/Record[Key='JoinMenuInfoVersion']
+msgctxt "Interface.JoinMenuInfoVersion"
+msgid "Version:"
+msgstr "Versão:"
 
 #: /Language/Interface/Record[Key='LogicTypePlantHealth4']
 msgctxt "Interface.LogicTypePlantHealth4"
@@ -6515,10 +6528,15 @@ msgctxt "Interface.ChangeAppearanceTitle"
 msgid "Change Appearance"
 msgstr "Mudar de Aparência"
 
-#: /Language/Interface/Record[Key='SaveMenuOverwriteButton']
-msgctxt "Interface.SaveMenuOverwriteButton"
-msgid "Overwrite"
-msgstr "Sobrescrever"
+#: /Language/Interface/Record[Key='JoinMenuInfoPlayers']
+msgctxt "Interface.JoinMenuInfoPlayers"
+msgid "Players:"
+msgstr "Jogadores:"
+
+#: /Language/Interface/Record[Key='SaveMenuSaveWorldButton']
+msgctxt "Interface.SaveMenuSaveWorldButton"
+msgid "Save World"
+msgstr "Gravar Mundo"
 
 #, fuzzy
 #~ msgctxt "Interface.ShadowCascades"
