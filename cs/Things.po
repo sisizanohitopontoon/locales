@@ -15,16 +15,6 @@ msgctxt "Things.ItemWreckageSecurityPrinter3"
 msgid "Description coming."
 msgstr "Popis již brzy."
 
-#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
-msgctxt "Things.ItemKitLiquidRegulator"
-msgid "Kit (Liquid Regulator)"
-msgstr "Regulátor kapaliny (sada)"
-
-#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
-msgctxt "Things.ItemKitLiquidRegulator"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='StructureBackLiquidPressureRegulator']
 msgctxt "Things.StructureBackLiquidPressureRegulator"
 msgid "Liquid Back Pressure Regulator"
@@ -681,17 +671,6 @@ msgctxt "Things.StructureHeatExchangeLiquidAndGas"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemKitHangerDoor']
-#, fuzzy
-msgctxt "Things.ItemKitHangerDoor"
-msgid "Kit Hangar Door"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemKitHangerDoor']
-msgctxt "Things.ItemKitHangerDoor"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='LogicStepSequencer8']
 msgctxt "Things.LogicStepSequencer8"
 msgid "Logic Step Sequencer"
@@ -1229,10 +1208,10 @@ msgctxt "Things.KitPlanter"
 msgid "Places a {THING:StructurePlanter}."
 msgstr "Umístí {THING:StructurePlanter}."
 
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='PortableComposter']
+msgctxt "Things.PortableComposter"
+msgid "Portable Composter"
+msgstr "Přenosný kompostér"
 
 #: /Language/Things/RecordThing[Key='PortableComposter']
 #, fuzzy
@@ -1247,21 +1226,12 @@ msgid ""
 "- {LINK:OrganicPage;food} increases PLANT YIELD up to two times\n"
 "- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
 "- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for"
-msgstr ""
-"Základní kompostér je jednoduché kompostovací zařízení, které z organické hmoty vytváří {THING:Fertilizer}. Přijímá <color=#0080FFFF>{LINK:OrganicPage;jídlo}</color>, {THING:DecayedFood} nebo {THING:ItemBiomass}. Ke svému provozu vyžaduje plnou {THING:ItemLiquidCanisterEmpty} a baterii, čímž urychluje přirozený proces kompostování.\n"
-"Při zpracování uvolňuje dusík a těkavé látky a také malé množství tepla.\n"
-"\n"
-"{HEADER:Složení kompostu}\n"
-"Hnojivo se vyrábí v poměru 1:3 hnojiva a složek. Účinky hnojiva na rostliny se liší v závislosti na příslušných poměrech jeho složek.\n"
-"\n"
-"- <color=#0080FFFF>{LINK:OrganicPage;Jídlo}</color> zvyšuje výnosy rostlin až dvojnásobně.\n"
-"- {THING:DecayedFood} zvyšuje RYCHLOST RŮSTU rostlin až dvojnásobně\n"
-"- {THING:ItemBiomass} zvyšuje POČET RŮSTOVÝCH CYKLŮ, po které hnojivo vydrží."
+msgstr "Přenosný kompostér"
 
-#: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
-msgctxt "Things.AppliancePackagingMachine"
-msgid "Basic Packaging Machine"
-msgstr "Základní konzervátor"
+#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
+msgctxt "Things.ItemKitLiquidRegulator"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
 #, fuzzy
@@ -3024,7 +2994,6 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='Landingpad_GasCylinderTankPiece']
-#, fuzzy
 msgctxt "Things.Landingpad_GasCylinderTankPiece"
 msgid "Landingpad Gas Storage"
 msgstr ""
@@ -3058,7 +3027,10 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSmallSatelliteDish"
 msgid "Small Satellite Dish"
-msgstr "Satelitní anténa"
+msgstr ""
+"Tuto velkou komunikační jednotku lze použít ke komunikaci s blízkými obchodními plavidly.\n"
+"  \n"
+"Po připojení k {THING:StructureComputer} obsahujícímu {THING:MotherboardComms} základní desku, {THING:StructureShuttleLandingPad} a {THING:StructureVendingMachine} umožňuje Stationeerům obchodovat s dodavateli. Upravte jeho horizontální a vertikální atributy buď přímo, nebo pomocí logiky. K navázání spolehlivé komunikace s obchodníkem je třeba komunikační signál 95 % nebo vyšší."
 
 #: /Language/Things/RecordThing[Key='StructureSmallSatelliteDish']
 #, fuzzy
@@ -3076,7 +3048,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitSmallSatelliteDish"
 msgid "Kit (Small Satellite Dish)"
-msgstr "Satelitní anténa (sada)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitSmallSatelliteDish']
 #, fuzzy
@@ -3088,7 +3060,10 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.StructureLargeSatelliteDish"
 msgid "Large Satellite Dish"
-msgstr "Vrak satelitní antény"
+msgstr ""
+"Tuto velkou komunikační jednotku lze použít ke komunikaci s blízkými obchodními plavidly.\n"
+"  \n"
+"Po připojení k {THING:StructureComputer} obsahujícímu {THING:MotherboardComms} základní desku, {THING:StructureShuttleLandingPad} a {THING:StructureVendingMachine} umožňuje Stationeerům obchodovat s dodavateli. Upravte jeho horizontální a vertikální atributy buď přímo, nebo pomocí logiky. K navázání spolehlivé komunikace s obchodníkem je třeba komunikační signál 95 % nebo vyšší."
 
 #: /Language/Things/RecordThing[Key='StructureLargeSatelliteDish']
 #, fuzzy
@@ -3106,11 +3081,21 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitLargeSatelliteDish"
 msgid "Kit (Large Satellite Dish)"
-msgstr "Satelitní anténa (sada)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitLargeSatelliteDish']
 #, fuzzy
 msgctxt "Things.ItemKitLargeSatelliteDish"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
+msgctxt "Things.ItemKitLiquidRegulator"
+msgid "Kit (Liquid Regulator)"
+msgstr "Regulátor kapaliny (sada)"
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -4113,10 +4098,10 @@ msgctxt "Things.ItemWreckageAirlock2"
 msgid "Wreckage Airlock"
 msgstr "Vrak přechodové komory"
 
-#: /Language/Things/RecordThing[Key='PortableComposter']
-msgctxt "Things.PortableComposter"
-msgid "Portable Composter"
-msgstr "Přenosný kompostér"
+#: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
+msgctxt "Things.AppliancePackagingMachine"
+msgid "Basic Packaging Machine"
+msgstr "Základní konzervátor"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirlock1']
 msgctxt "Things.ItemWreckageAirlock1"
@@ -5086,25 +5071,25 @@ msgctxt "Things.StructureBatteryLarge"
 msgid "Station Battery (Large)"
 msgstr "Baterie stanice (velká)"
 
-#: /Language/Things/RecordThing[Key='StructureLargeHangarDoor']
-msgctxt "Things.StructureLargeHangarDoor"
+#: /Language/Things/RecordThing[Key='StructureLargeHangerDoor']
+msgctxt "Things.StructureLargeHangerDoor"
 msgid "1 x 3 modular door piece for building hangar doors."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureLargeHangarDoor']
+#: /Language/Things/RecordThing[Key='StructureLargeHangerDoor']
 #, fuzzy
-msgctxt "Things.StructureLargeHangarDoor"
+msgctxt "Things.StructureLargeHangerDoor"
 msgid "Large Hangar Door"
 msgstr "Přechodová vrata"
 
-#: /Language/Things/RecordThing[Key='StructureMediumHangarDoor']
-msgctxt "Things.StructureMediumHangarDoor"
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
+msgctxt "Things.StructureMediumHangerDoor"
 msgid "1 x 2 modular door piece for building hangar doors."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureMediumHangarDoor']
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
 #, fuzzy
-msgctxt "Things.StructureMediumHangarDoor"
+msgctxt "Things.StructureMediumHangerDoor"
 msgid "Medium Hangar Door"
 msgstr "Závěsné dveře (sada)"
 
@@ -12547,6 +12532,15 @@ msgstr "Mikrovlnná trouba"
 msgctxt "Things.ItemPipeAnalyizer"
 msgid "This kit creates a {THING:StructurePipeAnalysizer}."
 msgstr "Tato sada vytváří {THING:StructurePipeAnalysizer}."
+
+#, fuzzy
+#~ msgctxt "Things.ItemKitHangerDoor"
+#~ msgid "Kit Hangar Door"
+#~ msgstr "{BLANK}"
+
+#~ msgctxt "Things.ItemKitHangerDoor"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.StructureAirlockGate"
 #~ msgid "Description coming."

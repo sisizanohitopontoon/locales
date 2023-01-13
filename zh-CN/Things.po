@@ -15,16 +15,6 @@ msgctxt "Things.ItemWreckageSecurityPrinter3"
 msgid "Description coming."
 msgstr "即将进行描述。"
 
-#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
-msgctxt "Things.ItemKitLiquidRegulator"
-msgid "Kit (Liquid Regulator)"
-msgstr "套件(液体压力器)"
-
-#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
-msgctxt "Things.ItemKitLiquidRegulator"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='StructureBackLiquidPressureRegulator']
 msgctxt "Things.StructureBackLiquidPressureRegulator"
 msgid "Liquid Back Pressure Regulator"
@@ -652,17 +642,6 @@ msgctxt "Things.StructureHeatExchangeLiquidAndGas"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemKitHangerDoor']
-#, fuzzy
-msgctxt "Things.ItemKitHangerDoor"
-msgid "Kit Hangar Door"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemKitHangerDoor']
-msgctxt "Things.ItemKitHangerDoor"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='LogicStepSequencer8']
 msgctxt "Things.LogicStepSequencer8"
 msgid "Logic Step Sequencer"
@@ -1194,10 +1173,10 @@ msgctxt "Things.KitPlanter"
 msgid "Places a {THING:StructurePlanter}."
 msgstr "放置一个花盆"
 
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='PortableComposter']
+msgctxt "Things.PortableComposter"
+msgid "Portable Composter"
+msgstr "便携式堆肥机"
 
 #: /Language/Things/RecordThing[Key='PortableComposter']
 msgctxt "Things.PortableComposter"
@@ -1222,10 +1201,10 @@ msgstr ""
 "- 腐败的食物将植物生长速度提高两倍\n"
 "- 生物质增加了肥料持续的生长周期数"
 
-#: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
-msgctxt "Things.AppliancePackagingMachine"
-msgid "Basic Packaging Machine"
-msgstr "基本包装机"
+#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
+msgctxt "Things.ItemKitLiquidRegulator"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
 msgctxt "Things.AppliancePackagingMachine"
@@ -2937,7 +2916,6 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='Landingpad_GasCylinderTankPiece']
-#, fuzzy
 msgctxt "Things.Landingpad_GasCylinderTankPiece"
 msgid "Landingpad Gas Storage"
 msgstr ""
@@ -2971,7 +2949,10 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSmallSatelliteDish"
 msgid "Small Satellite Dish"
-msgstr "卫星天线"
+msgstr ""
+"这种大型通信单元可用于与附近的贸易船只进行通信。\n"
+"      \n"
+"当连接到包含{THING:MotherboardComms}主板、{THING:StructureShuttleLandingPad}和 {THING:StructureVendingMachine}的{THING:StructureComputer}时，你可以与供应商进行交易。直接或通过逻辑调整其水平和垂直角度。你需要95%或以上的通信信号才能与交易者建立可靠的通信。"
 
 #: /Language/Things/RecordThing[Key='StructureSmallSatelliteDish']
 #, fuzzy
@@ -2989,7 +2970,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitSmallSatelliteDish"
 msgid "Kit (Small Satellite Dish)"
-msgstr "套件(卫星天线)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitSmallSatelliteDish']
 #, fuzzy
@@ -3001,7 +2982,10 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.StructureLargeSatelliteDish"
 msgid "Large Satellite Dish"
-msgstr "卫星天线残骸"
+msgstr ""
+"这种大型通信单元可用于与附近的贸易船只进行通信。\n"
+"      \n"
+"当连接到包含{THING:MotherboardComms}主板、{THING:StructureShuttleLandingPad}和 {THING:StructureVendingMachine}的{THING:StructureComputer}时，你可以与供应商进行交易。直接或通过逻辑调整其水平和垂直角度。你需要95%或以上的通信信号才能与交易者建立可靠的通信。"
 
 #: /Language/Things/RecordThing[Key='StructureLargeSatelliteDish']
 #, fuzzy
@@ -3019,11 +3003,21 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitLargeSatelliteDish"
 msgid "Kit (Large Satellite Dish)"
-msgstr "套件(卫星天线)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitLargeSatelliteDish']
 #, fuzzy
 msgctxt "Things.ItemKitLargeSatelliteDish"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
+msgctxt "Things.ItemKitLiquidRegulator"
+msgid "Kit (Liquid Regulator)"
+msgstr "套件(液体压力器)"
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -4020,10 +4014,10 @@ msgctxt "Things.ItemWreckageAirlock2"
 msgid "Wreckage Airlock"
 msgstr "气闸残骸"
 
-#: /Language/Things/RecordThing[Key='PortableComposter']
-msgctxt "Things.PortableComposter"
-msgid "Portable Composter"
-msgstr "便携式堆肥机"
+#: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
+msgctxt "Things.AppliancePackagingMachine"
+msgid "Basic Packaging Machine"
+msgstr "基本包装机"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirlock1']
 msgctxt "Things.ItemWreckageAirlock1"
@@ -4988,25 +4982,25 @@ msgctxt "Things.StructureBatteryLarge"
 msgid "Station Battery (Large)"
 msgstr "电池站（大）"
 
-#: /Language/Things/RecordThing[Key='StructureLargeHangarDoor']
-msgctxt "Things.StructureLargeHangarDoor"
+#: /Language/Things/RecordThing[Key='StructureLargeHangerDoor']
+msgctxt "Things.StructureLargeHangerDoor"
 msgid "1 x 3 modular door piece for building hangar doors."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureLargeHangarDoor']
+#: /Language/Things/RecordThing[Key='StructureLargeHangerDoor']
 #, fuzzy
-msgctxt "Things.StructureLargeHangarDoor"
+msgctxt "Things.StructureLargeHangerDoor"
 msgid "Large Hangar Door"
 msgstr "气闸门"
 
-#: /Language/Things/RecordThing[Key='StructureMediumHangarDoor']
-msgctxt "Things.StructureMediumHangarDoor"
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
+msgctxt "Things.StructureMediumHangerDoor"
 msgid "1 x 2 modular door piece for building hangar doors."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureMediumHangarDoor']
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
 #, fuzzy
-msgctxt "Things.StructureMediumHangarDoor"
+msgctxt "Things.StructureMediumHangerDoor"
 msgid "Medium Hangar Door"
 msgstr "套件（吊柜门）"
 
@@ -12474,6 +12468,15 @@ msgstr "微波炉"
 msgctxt "Things.ItemPipeAnalyizer"
 msgid "This kit creates a {THING:StructurePipeAnalysizer}."
 msgstr "此套件包能够生成一台 {THING:StructurePipeAnalysizer} 。"
+
+#, fuzzy
+#~ msgctxt "Things.ItemKitHangerDoor"
+#~ msgid "Kit Hangar Door"
+#~ msgstr "{BLANK}"
+
+#~ msgctxt "Things.ItemKitHangerDoor"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.StructureAirlockGate"
 #~ msgid "Description coming."

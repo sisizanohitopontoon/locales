@@ -15,16 +15,6 @@ msgctxt "Things.ItemWreckageSecurityPrinter3"
 msgid "Description coming."
 msgstr "Описание - скоро."
 
-#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
-msgctxt "Things.ItemKitLiquidRegulator"
-msgid "Kit (Liquid Regulator)"
-msgstr "Набор (Регулятор давления жидкости)"
-
-#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
-msgctxt "Things.ItemKitLiquidRegulator"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='StructureBackLiquidPressureRegulator']
 #, fuzzy
 msgctxt "Things.StructureBackLiquidPressureRegulator"
@@ -654,18 +644,6 @@ msgctxt "Things.StructureHeatExchangeLiquidAndGas"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemKitHangerDoor']
-#, fuzzy
-msgctxt "Things.ItemKitHangerDoor"
-msgid "Kit Hangar Door"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemKitHangerDoor']
-#, fuzzy
-msgctxt "Things.ItemKitHangerDoor"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='LogicStepSequencer8']
 msgctxt "Things.LogicStepSequencer8"
 msgid "Logic Step Sequencer"
@@ -1156,10 +1134,10 @@ msgctxt "Things.KitPlanter"
 msgid "Places a {THING:StructurePlanter}."
 msgstr "Этот набор используется для сборки {THING:StructurePipeMeter}."
 
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='PortableComposter']
+msgctxt "Things.PortableComposter"
+msgid "Portable Composter"
+msgstr "Портативный компостер"
 
 #: /Language/Things/RecordThing[Key='PortableComposter']
 #, fuzzy
@@ -1174,21 +1152,12 @@ msgid ""
 "- {LINK:OrganicPage;food} increases PLANT YIELD up to two times\n"
 "- {THING:DecayedFood} increases plant GROWTH SPEED up to two times\n"
 "- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for"
-msgstr ""
-"Просто компостирующее устройство, производящее {THING:Fertilizer} из органических веществ. Он принимает <color=#0080FFFF></color>{LINK:OrganicPage;еду}, {THING:DecayedFood} и {THING:ItemBiomass}. Для работы требуется наполненная {THING:ItemLiquidCanisterEmpty} и батарея, ускоряющая естественный процесс компостирования.\n"
-"При переработке выделяется азот и горючие вещества, а также небольшое количество тепла. \n"
-"\n"
-"{HEADER:Состав удобрения}\n"
-"Удобрение производится в соотношении 1 удобрение на 3 ингредиента. Воздействие удобрения на растения будет варьироваться в зависимости от соответствующих пропорций его ингредиентов.\n"
-"\n"
-"- <color=#0080FFFF>{LINK:OrganicPage;Еда}</color> увеличивает УРОЖАЙНОСТЬ РАСТЕНИЙ вплоть до удвоения объёма урожая\n"
-"- {THING:DecayedFood} увеличивает СКОРОСТЬ РОСТА растений вплоть до сокращения времени созревания вдвое\n"
-"- {THING:ItemBiomass} увеличивает КОЛИЧЕСТВО ЦИКЛОВ РОСТА, на которые годится удобрение, до пяти раз"
+msgstr "Портативный компостер"
 
-#: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
-msgctxt "Things.AppliancePackagingMachine"
-msgid "Basic Packaging Machine"
-msgstr ""
+#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
+msgctxt "Things.ItemKitLiquidRegulator"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
 msgctxt "Things.AppliancePackagingMachine"
@@ -2940,7 +2909,6 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='Landingpad_GasCylinderTankPiece']
-#, fuzzy
 msgctxt "Things.Landingpad_GasCylinderTankPiece"
 msgid "Landingpad Gas Storage"
 msgstr ""
@@ -2974,7 +2942,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSmallSatelliteDish"
 msgid "Small Satellite Dish"
-msgstr "Спутниковая тарелка"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureSmallSatelliteDish']
 msgctxt "Things.StructureSmallSatelliteDish"
@@ -2988,7 +2956,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitSmallSatelliteDish"
 msgid "Kit (Small Satellite Dish)"
-msgstr "Набор (Спутниковая тарелка)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitSmallSatelliteDish']
 #, fuzzy
@@ -3000,7 +2968,7 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.StructureLargeSatelliteDish"
 msgid "Large Satellite Dish"
-msgstr "Обломки Спутниковой Тарелки"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='StructureLargeSatelliteDish']
 msgctxt "Things.StructureLargeSatelliteDish"
@@ -3014,11 +2982,21 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitLargeSatelliteDish"
 msgid "Kit (Large Satellite Dish)"
-msgstr "Набор (Спутниковая тарелка)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitLargeSatelliteDish']
 #, fuzzy
 msgctxt "Things.ItemKitLargeSatelliteDish"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
+msgctxt "Things.ItemKitLiquidRegulator"
+msgid "Kit (Liquid Regulator)"
+msgstr "Набор (Регулятор давления жидкости)"
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -4021,10 +3999,10 @@ msgctxt "Things.ItemWreckageAirlock2"
 msgid "Wreckage Airlock"
 msgstr "Обломки шлюза"
 
-#: /Language/Things/RecordThing[Key='PortableComposter']
-msgctxt "Things.PortableComposter"
-msgid "Portable Composter"
-msgstr "Портативный компостер"
+#: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
+msgctxt "Things.AppliancePackagingMachine"
+msgid "Basic Packaging Machine"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirlock1']
 msgctxt "Things.ItemWreckageAirlock1"
@@ -4994,25 +4972,25 @@ msgctxt "Things.StructureBatteryLarge"
 msgid "Station Battery (Large)"
 msgstr "Большая батарея"
 
-#: /Language/Things/RecordThing[Key='StructureLargeHangarDoor']
-msgctxt "Things.StructureLargeHangarDoor"
+#: /Language/Things/RecordThing[Key='StructureLargeHangerDoor']
+msgctxt "Things.StructureLargeHangerDoor"
 msgid "1 x 3 modular door piece for building hangar doors."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureLargeHangarDoor']
+#: /Language/Things/RecordThing[Key='StructureLargeHangerDoor']
 #, fuzzy
-msgctxt "Things.StructureLargeHangarDoor"
+msgctxt "Things.StructureLargeHangerDoor"
 msgid "Large Hangar Door"
 msgstr "Ангарный шлюз"
 
-#: /Language/Things/RecordThing[Key='StructureMediumHangarDoor']
-msgctxt "Things.StructureMediumHangarDoor"
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
+msgctxt "Things.StructureMediumHangerDoor"
 msgid "1 x 2 modular door piece for building hangar doors."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureMediumHangarDoor']
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
 #, fuzzy
-msgctxt "Things.StructureMediumHangarDoor"
+msgctxt "Things.StructureMediumHangerDoor"
 msgid "Medium Hangar Door"
 msgstr "{BLANK}"
 
@@ -10315,7 +10293,7 @@ msgstr "Труба (Угловая)"
 #, fuzzy
 msgctxt "Things.ItemPipeAnalyizer"
 msgid "Kit (Pipe Analyzer)"
-msgstr "Анализатор атмосферы"
+msgstr "Этот набор используется для сборки {THING:StructurePipeAnalysizer}."
 
 #: /Language/Things/RecordThing[Key='ItemPillStun']
 msgctxt "Things.ItemPillStun"
@@ -12294,6 +12272,16 @@ msgstr "Микроволновая печь"
 msgctxt "Things.ItemPipeAnalyizer"
 msgid "This kit creates a {THING:StructurePipeAnalysizer}."
 msgstr "Этот набор используется для сборки {THING:StructurePipeAnalysizer}."
+
+#, fuzzy
+#~ msgctxt "Things.ItemKitHangerDoor"
+#~ msgid "Kit Hangar Door"
+#~ msgstr "{BLANK}"
+
+#, fuzzy
+#~ msgctxt "Things.ItemKitHangerDoor"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.StructureAirlockGate"
 #~ msgid "Description coming."

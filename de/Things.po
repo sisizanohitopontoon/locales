@@ -15,16 +15,6 @@ msgctxt "Things.ItemWreckageSecurityPrinter3"
 msgid "Description coming."
 msgstr "Beschreibung folgt."
 
-#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
-msgctxt "Things.ItemKitLiquidRegulator"
-msgid "Kit (Liquid Regulator)"
-msgstr "Bausatz (Flüssigkeiten Druckregler)"
-
-#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
-msgctxt "Things.ItemKitLiquidRegulator"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='StructureBackLiquidPressureRegulator']
 msgctxt "Things.StructureBackLiquidPressureRegulator"
 msgid "Liquid Back Pressure Regulator"
@@ -652,17 +642,6 @@ msgctxt "Things.StructureHeatExchangeLiquidAndGas"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
-#: /Language/Things/RecordThing[Key='ItemKitHangerDoor']
-#, fuzzy
-msgctxt "Things.ItemKitHangerDoor"
-msgid "Kit Hangar Door"
-msgstr "{BLANK}"
-
-#: /Language/Things/RecordThing[Key='ItemKitHangerDoor']
-msgctxt "Things.ItemKitHangerDoor"
-msgid "{BLANK}"
-msgstr "{BLANK}"
-
 #: /Language/Things/RecordThing[Key='LogicStepSequencer8']
 msgctxt "Things.LogicStepSequencer8"
 msgid "Logic Step Sequencer"
@@ -1194,10 +1173,10 @@ msgctxt "Things.KitPlanter"
 msgid "Places a {THING:StructurePlanter}."
 msgstr "Platziert einen {THING:StructurePlanter}."
 
-#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
-msgctxt "Things.ItemLiquidPipeVolumePump"
-msgid "{BLANK}"
-msgstr "{BLANK}"
+#: /Language/Things/RecordThing[Key='PortableComposter']
+msgctxt "Things.PortableComposter"
+msgid "Portable Composter"
+msgstr "Tragbarer Komposter"
 
 #: /Language/Things/RecordThing[Key='PortableComposter']
 msgctxt "Things.PortableComposter"
@@ -1222,10 +1201,10 @@ msgstr ""
 "- {THING:DecayedFood} erhöht die Pflanzenwachstumsgeschwindigkeit um das bis zu Zweifache\n"
 "- {THING:ItemBiomass} erhöht die DAUER DER DÜNGESZYKLEN"
 
-#: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
-msgctxt "Things.AppliancePackagingMachine"
-msgid "Basic Packaging Machine"
-msgstr "Grundlegende Verpackungsmaschine"
+#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
+msgctxt "Things.ItemKitLiquidRegulator"
+msgid "{BLANK}"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
 msgctxt "Things.AppliancePackagingMachine"
@@ -2937,7 +2916,6 @@ msgid "{BLANK}"
 msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='Landingpad_GasCylinderTankPiece']
-#, fuzzy
 msgctxt "Things.Landingpad_GasCylinderTankPiece"
 msgid "Landingpad Gas Storage"
 msgstr ""
@@ -2971,7 +2949,10 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.StructureSmallSatelliteDish"
 msgid "Small Satellite Dish"
-msgstr "Satellitenschüssel"
+msgstr ""
+"Diese große Kommunikationseinheit kann zur Kommunikation mit Handelsschiffen in der Nähe verwendet werden.\n"
+"      \n"
+"Wenn eine Verbindung zu einem {THING:StructureComputer} besteht, der eine {THING:MotherboardComms}-Hauptplatine, eine {THING:StructureShuttleLandingPad} und einen {THING:StructureVendingMachine} enthält, können Stationeers mit Lieferanten handeln. Passe die horizontalen und vertikalen Attribute entweder direkt oder über Logik an. Du benötigst ein Kommunikationssignal von 95% oder mehr, um eine zuverlässige Kommunikation mit einem Händler herzustellen."
 
 #: /Language/Things/RecordThing[Key='StructureSmallSatelliteDish']
 #, fuzzy
@@ -2989,7 +2970,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitSmallSatelliteDish"
 msgid "Kit (Small Satellite Dish)"
-msgstr "Bausatz (Satellitenschüssel)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitSmallSatelliteDish']
 #, fuzzy
@@ -3001,7 +2982,10 @@ msgstr "{BLANK}"
 #, fuzzy
 msgctxt "Things.StructureLargeSatelliteDish"
 msgid "Large Satellite Dish"
-msgstr "Zerstörte Satellitenschüssel"
+msgstr ""
+"Diese große Kommunikationseinheit kann zur Kommunikation mit Handelsschiffen in der Nähe verwendet werden.\n"
+"      \n"
+"Wenn eine Verbindung zu einem {THING:StructureComputer} besteht, der eine {THING:MotherboardComms}-Hauptplatine, eine {THING:StructureShuttleLandingPad} und einen {THING:StructureVendingMachine} enthält, können Stationeers mit Lieferanten handeln. Passe die horizontalen und vertikalen Attribute entweder direkt oder über Logik an. Du benötigst ein Kommunikationssignal von 95% oder mehr, um eine zuverlässige Kommunikation mit einem Händler herzustellen."
 
 #: /Language/Things/RecordThing[Key='StructureLargeSatelliteDish']
 #, fuzzy
@@ -3019,11 +3003,21 @@ msgstr ""
 #, fuzzy
 msgctxt "Things.ItemKitLargeSatelliteDish"
 msgid "Kit (Large Satellite Dish)"
-msgstr "Bausatz (Satellitenschüssel)"
+msgstr "{BLANK}"
 
 #: /Language/Things/RecordThing[Key='ItemKitLargeSatelliteDish']
 #, fuzzy
 msgctxt "Things.ItemKitLargeSatelliteDish"
+msgid "{BLANK}"
+msgstr "{BLANK}"
+
+#: /Language/Things/RecordThing[Key='ItemKitLiquidRegulator']
+msgctxt "Things.ItemKitLiquidRegulator"
+msgid "Kit (Liquid Regulator)"
+msgstr "Bausatz (Flüssigkeiten Druckregler)"
+
+#: /Language/Things/RecordThing[Key='ItemLiquidPipeVolumePump']
+msgctxt "Things.ItemLiquidPipeVolumePump"
 msgid "{BLANK}"
 msgstr "{BLANK}"
 
@@ -4020,10 +4014,10 @@ msgctxt "Things.ItemWreckageAirlock2"
 msgid "Wreckage Airlock"
 msgstr "Zerstörte Luftschleuse"
 
-#: /Language/Things/RecordThing[Key='PortableComposter']
-msgctxt "Things.PortableComposter"
-msgid "Portable Composter"
-msgstr "Tragbarer Komposter"
+#: /Language/Things/RecordThing[Key='AppliancePackagingMachine']
+msgctxt "Things.AppliancePackagingMachine"
+msgid "Basic Packaging Machine"
+msgstr "Grundlegende Verpackungsmaschine"
 
 #: /Language/Things/RecordThing[Key='ItemWreckageAirlock1']
 msgctxt "Things.ItemWreckageAirlock1"
@@ -4991,25 +4985,25 @@ msgctxt "Things.StructureBatteryLarge"
 msgid "Station Battery (Large)"
 msgstr "Stationsbatterie (Groß)"
 
-#: /Language/Things/RecordThing[Key='StructureLargeHangarDoor']
-msgctxt "Things.StructureLargeHangarDoor"
+#: /Language/Things/RecordThing[Key='StructureLargeHangerDoor']
+msgctxt "Things.StructureLargeHangerDoor"
 msgid "1 x 3 modular door piece for building hangar doors."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureLargeHangarDoor']
+#: /Language/Things/RecordThing[Key='StructureLargeHangerDoor']
 #, fuzzy
-msgctxt "Things.StructureLargeHangarDoor"
+msgctxt "Things.StructureLargeHangerDoor"
 msgid "Large Hangar Door"
 msgstr "Luftschleusentor"
 
-#: /Language/Things/RecordThing[Key='StructureMediumHangarDoor']
-msgctxt "Things.StructureMediumHangarDoor"
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
+msgctxt "Things.StructureMediumHangerDoor"
 msgid "1 x 2 modular door piece for building hangar doors."
 msgstr ""
 
-#: /Language/Things/RecordThing[Key='StructureMediumHangarDoor']
+#: /Language/Things/RecordThing[Key='StructureMediumHangerDoor']
 #, fuzzy
-msgctxt "Things.StructureMediumHangarDoor"
+msgctxt "Things.StructureMediumHangerDoor"
 msgid "Medium Hangar Door"
 msgstr "Bausatz Hängetür"
 
@@ -10384,7 +10378,7 @@ msgstr "Rohrkurve"
 #, fuzzy
 msgctxt "Things.ItemPipeAnalyizer"
 msgid "Kit (Pipe Analyzer)"
-msgstr "Messeinrichtung (Rohre)"
+msgstr ""
 
 #: /Language/Things/RecordThing[Key='ItemPillStun']
 msgctxt "Things.ItemPillStun"
@@ -12364,6 +12358,15 @@ msgstr "Mikrowelle"
 msgctxt "Things.ItemPipeAnalyizer"
 msgid "This kit creates a {THING:StructurePipeAnalysizer}."
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Things.ItemKitHangerDoor"
+#~ msgid "Kit Hangar Door"
+#~ msgstr "{BLANK}"
+
+#~ msgctxt "Things.ItemKitHangerDoor"
+#~ msgid "{BLANK}"
+#~ msgstr "{BLANK}"
 
 #~ msgctxt "Things.StructureAirlockGate"
 #~ msgid "Description coming."
